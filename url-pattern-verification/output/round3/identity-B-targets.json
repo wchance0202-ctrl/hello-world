@@ -1,5 +1,17 @@
 [
 {
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/definitions.html",
+"parent_url": null,
+"relation": "R3-S1-R2-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/how_surveys_are_collected.html",
+"parent_url": null,
+"relation": "R3-S1-R2-E1-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R2-E2",
 "url": "https://www.census.gov/programs-surveys/e-stats/about/faqs.html",
 "parent_url": null,
@@ -34,6 +46,12 @@
 "url": "https://www.census.gov/programs-surveys/e-stats/technical-documentation/summary-of-changes.html",
 "parent_url": null,
 "relation": "R3-S1-R2-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R6-E13",
+"url": "https://documents.worldbank.org/en/publication/documents-reports/disclosure",
+"parent_url": null,
+"relation": "R3-S1-R6-E13-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R16-E1",
@@ -120,10 +138,22 @@
 "relation": "R3-S1-R16-E4-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R18-E2",
+"url": "https://www.itu.int/itu-d/sites/statistics/fr/",
+"parent_url": null,
+"relation": "R3-S1-R18-E2-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R18-E4",
 "url": "https://www.itu.int/en/action/gender-equality/Pages/default.aspx",
 "parent_url": null,
 "relation": "R3-S1-R18-E4-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx",
+"parent_url": null,
+"relation": "R3-S1-R18-E5-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R18-E5",
@@ -252,6 +282,12 @@
 "relation": "R3-S1-R18-E7-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R18-E8",
+"url": "https://www.itu.int/hub/news/impact-videos/",
+"parent_url": null,
+"relation": "R3-S1-R18-E8-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R19-E4",
 "url": "https://www.wipo.int/en/web/patentscope/pct-edi/",
 "parent_url": null,
@@ -294,6 +330,48 @@
 "relation": "R3-S1-R19-E6-F2:holdout_pos"
 },
 {
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/news/2026/wipo-launches-new-e-tutorial-on-patent-analytics",
+"parent_url": null,
+"relation": "R3-S1-R19-E10-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/enterprising-ideas",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/geographical-indications",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/ip-valuation",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/securing-financing",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/sme-support-institutions-platform-search",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center",
+"parent_url": null,
+"relation": "R3-S1-R19-E12-F2:holdout_pos"
+},
+{
 "entry_id": "S1-R19-E13",
 "url": "https://www.wipo.int/en/web/economics/music-insights",
 "parent_url": null,
@@ -322,6 +400,24 @@
 "url": "https://www.wipo.int/en/web/technology-transfer/w/stories/ip-policy-university-constantine-3-salah-boubnider",
 "parent_url": null,
 "relation": "R3-S1-R19-E14-F3:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/how-saudi-producer-ahmed-alsallal-uses-music-to-promote-intellectual-property-74728",
+"parent_url": null,
+"relation": "R3-S1-R19-E21-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/tracking-innovation-in-sport-intellectual-property-on-and-off-the-field-100093",
+"parent_url": null,
+"relation": "R3-S1-R19-E21-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/win-well-how-sport-and-ip-strengthen-australias-nation-brand-97348",
+"parent_url": null,
+"relation": "R3-S1-R19-E21-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R19-E22",
@@ -360,6 +456,18 @@
 "relation": "R3-S1-R19-E22-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/pct-system-stories",
+"parent_url": null,
+"relation": "R3-S1-R19-E22-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/lights-camera-records-global-film-production",
+"parent_url": null,
+"relation": "R3-S1-R19-E24-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R19-E24",
 "url": "https://www.wipo.int/en/web/global-innovation-index/2021/index",
 "parent_url": null,
@@ -382,6 +490,24 @@
 "url": "https://www.wipo.int/en/web/global-innovation-index/2024/contributors",
 "parent_url": null,
 "relation": "R3-S1-R19-E24-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E25",
+"url": "https://www.wipo.int/en/web/world-ip-report/2019/index",
+"parent_url": null,
+"relation": "R3-S1-R19-E25-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
+"parent_url": null,
+"relation": "R3-S1-R19-E28-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
+"parent_url": null,
+"relation": "R3-S1-R19-E28-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R20-E1",
@@ -418,6 +544,12 @@
 "url": "https://www.epo.org/en/searching-for-patents/technology-platforms/space-innovation",
 "parent_url": null,
 "relation": "R3-S1-R20-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/data",
+"parent_url": null,
+"relation": "R3-S1-R20-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R20-E1",
@@ -490,6 +622,12 @@
 "url": "https://www.epo.org/en/news-events/news/unitary-patent-guide-updated",
 "parent_url": null,
 "relation": "R3-S1-R20-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/european-inventor-award",
+"parent_url": null,
+"relation": "R3-S1-R20-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R22-E1",
@@ -732,6 +870,30 @@
 "relation": "R3-S1-R27-E1-F2:holdout_pos"
 },
 {
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+"parent_url": null,
+"relation": "R3-S1-R27-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+"parent_url": null,
+"relation": "R3-S1-R27-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+"parent_url": null,
+"relation": "R3-S1-R27-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+"parent_url": null,
+"relation": "R3-S1-R27-E3-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R30-E1",
 "url": "https://www.nielsen.com/insights/2014/more-of-what-we-want/",
 "parent_url": null,
@@ -906,6 +1068,90 @@
 "relation": "R3-S1-R32-E2-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/alcoholic-beverages",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/automotive",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/automotive-aftermarket",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/consumer-technology",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/golf",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/perimeter-store-and-fresh-foods",
+"parent_url": null,
+"relation": "R3-S1-R34-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/Flexible-by-Design",
+"parent_url": null,
+"relation": "R3-S1-R35-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+"parent_url": null,
+"relation": "R3-S1-R35-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/TV-Measurement-Has-Entered-Its-Next-Era",
+"parent_url": null,
+"relation": "R3-S1-R35-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement",
+"parent_url": null,
+"relation": "R3-S1-R35-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Football-Kickoff-Guide",
+"parent_url": null,
+"relation": "R3-S1-R35-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Political-Targeting-Playbook",
+"parent_url": null,
+"relation": "R3-S1-R35-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-2026-Finance-Guide",
+"parent_url": null,
+"relation": "R3-S1-R35-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-2026-Winter-Sports-Playbook",
+"parent_url": null,
+"relation": "R3-S1-R35-E2-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R36-E2",
 "url": "https://marketingscience.info/news-and-insights/book-review-the-22-immutable-laws-of-marketing-violate-them-at-your-own-risk-by-al-ries-and-jack-trout",
 "parent_url": null,
@@ -1012,6 +1258,12 @@
 "url": "https://www.gwi.com/blog/persona-spotlight-online-tv-streamers",
 "parent_url": null,
 "relation": "R3-S1-R39-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/consumer-behavior",
+"parent_url": null,
+"relation": "R3-S1-R39-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R39-E3",
@@ -1288,6 +1540,114 @@
 "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/tech-sovereignty.html",
 "parent_url": null,
 "relation": "R3-S1-R49-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E1",
+"url": "https://www.pewresearch.org/topic/economy-work/page/161/",
+"parent_url": null,
+"relation": "R3-S1-R52-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E1",
+"url": "https://www.pewresearch.org/topic/economy-work/page/162/",
+"parent_url": null,
+"relation": "R3-S1-R52-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E1",
+"url": "https://www.pewresearch.org/topic/economy-work/page/2/",
+"parent_url": null,
+"relation": "R3-S1-R52-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E1",
+"url": "https://www.pewresearch.org/topic/economy-work/page/3/",
+"parent_url": null,
+"relation": "R3-S1-R52-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E1",
+"url": "https://www.pewresearch.org/topic/economy-work/page/6/",
+"parent_url": null,
+"relation": "R3-S1-R52-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/bots/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/more-platforms-services/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-harassment-bullying/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-privacy-security/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/user-demographics/age-generations-tech/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E2",
+"url": "https://www.pewresearch.org/topic/internet-technology/user-demographics/racial-ethnic-groups-online/",
+"parent_url": null,
+"relation": "R3-S1-R52-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/media-society/freedom-of-the-press/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/media-society/media-attitudes/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/media-society/misinformation/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/media-society/news-knowledge/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/media-society/politics-media-1/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R52-E3",
+"url": "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/media-industry/",
+"parent_url": null,
+"relation": "R3-S1-R52-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/investment-research",
+"parent_url": null,
+"relation": "R3-S1-R53-E1-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R53-E2",
@@ -1638,6 +1998,12 @@
 "relation": "R3-S1-R86-E1-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/d-ad-in-2026",
+"parent_url": null,
+"relation": "R3-S1-R86-E1-F2:holdout_pos"
+},
+{
 "entry_id": "S1-R86-E2",
 "url": "https://www.dandad.org/insights/awards/lynx-pulse-case-study-insights",
 "parent_url": null,
@@ -1672,6 +2038,24 @@
 "url": "https://www.dandad.org/insights/learning/three-ways-humanise-your-video-storytelling-training-content",
 "parent_url": null,
 "relation": "R3-S1-R86-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/awards",
+"parent_url": null,
+"relation": "R3-S1-R86-E2-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/how-creativity-and-innovation-drive-impact",
+"parent_url": null,
+"relation": "R3-S1-R86-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/work-through-diageo-brief-nyc-shifters-case-study-insights",
+"parent_url": null,
+"relation": "R3-S1-R86-E3-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R86-E4",
@@ -1720,6 +2104,42 @@
 "url": "https://www.demandcurve.com/frontier-library/retention",
 "parent_url": null,
 "relation": "R3-S1-R87-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/cold-email-marketing",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/cold-email-subject-lines",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/cold-email-template",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/email-marketing-best-practices",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/how-to-grow-your-email-list",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/influencer-marketing",
+"parent_url": null,
+"relation": "R3-S1-R87-E3-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R89-E2",
@@ -1800,6 +2220,96 @@
 "relation": "R3-S1-R89-E3-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/adobe-trial-ux",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/duolingo-user-retention",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/nps-surveys",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/tinder-monetization",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/trial-paywall-challenge",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/zeigarnik-effect",
+"parent_url": null,
+"relation": "R3-S1-R90-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/uber/",
+"parent_url": null,
+"relation": "R3-S1-R91-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/whatsapp/",
+"parent_url": null,
+"relation": "R3-S1-R91-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/calvin-klein",
+"parent_url": null,
+"relation": "R3-S1-R95-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/innocent",
+"parent_url": null,
+"relation": "R3-S1-R95-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/lil-nas-x",
+"parent_url": null,
+"relation": "R3-S1-R95-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/zero-likes",
+"parent_url": null,
+"relation": "R3-S1-R95-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/adjectives",
+"parent_url": null,
+"relation": "R3-S1-R95-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/customers",
+"parent_url": null,
+"relation": "R3-S1-R95-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/psychology-of-persuasion",
+"parent_url": null,
+"relation": "R3-S1-R95-E4-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R99-E1",
 "url": "https://www.reforge.com/blog/brief-does-content-marketing-actually-work-the-data-says-yes",
 "parent_url": null,
@@ -1837,39 +2347,81 @@
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/21921/thick-fine/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/1131/bucket/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/23495/doors/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/2778/wwwpjddbcom/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/23707/do-it-yourself-mcwhoppers/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/34053/gracie-ai/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/3447/anti-corruption/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/44732/oreo-thins-protection-program/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/39078/mother-blanket/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/6034/specialized-movies/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R103-E1",
-"url": "https://www.oneclub.org/awards/theoneshow/-award/6162/presidium-brochure/",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/7250/adidas-futball-meets-football-web-film/",
 "parent_url": null,
 "relation": "R3-S1-R103-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/charts-on-film/media-signalling",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/charts-on-film/the-needs-that-drive-viewing",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/nickable-charts/effectiveness-and-planning",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/thinkbox-research/bvod-almighty-reach-and-return",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/thinkbox-research/creative-drivers-of-effectiveness",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/thinkbox-research/the-drivers-of-profitability",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R104-E1",
+"url": "https://www.thinkbox.tv/research/nickable-charts",
+"parent_url": null,
+"relation": "R3-S1-R104-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R104-E3",
@@ -1956,6 +2508,12 @@
 "relation": "R3-S1-R105-E2-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-understanding-receptivity",
+"parent_url": null,
+"relation": "R3-S1-R108-E1-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R108-E2",
 "url": "https://www.wppmedia.com/news/AWNY2026culture",
 "parent_url": null,
@@ -1990,6 +2548,48 @@
 "url": "https://www.wppmedia.com/news/tyny-2023",
 "parent_url": null,
 "relation": "R3-S1-R108-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R108-E3",
+"url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026",
+"parent_url": null,
+"relation": "R3-S1-R108-E3-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/aomeironghuo-2024-dazhonghuaquaifeijiangzuijushixiaodailigongsiwangluo",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/aomeiyatai2025zengzhangzhishu",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/aomeizhongguorenmingyuanyangyangwei-kehuguanxiguanli-yewulingdaoren",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/customer-value-beyond-money-talks",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/ogilvy-launches-china-cmo-study",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/ogilvy-opens-shenzhen-office-capture-opportunities-chinas-silicon-valley",
+"parent_url": null,
+"relation": "R3-S1-R111-E1-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R114-E1",
@@ -2098,6 +2698,12 @@
 "url": "https://amplitude.com/blog/tag/cohort-analysis",
 "parent_url": null,
 "relation": "R3-S1-R114-E2-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/blog/",
+"parent_url": null,
+"relation": "R3-S1-R115-E1-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R115-E1",
@@ -2314,6 +2920,42 @@
 "url": "https://www.brandwatch.com/blog/author/sophie-eagan/",
 "parent_url": null,
 "relation": "R3-S1-R118-E2-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/content-pillars/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/cost-per-mille/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/cross-posting/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/emotion-analysis/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/social-media-dashboard/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/social-media-strategy/",
+"parent_url": null,
+"relation": "R3-S1-R118-E4-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R118-E6",
@@ -2772,6 +3414,18 @@
 "relation": "R3-S1-R123-E4-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/podcasts",
+"parent_url": null,
+"relation": "R3-S1-R124-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/videos",
+"parent_url": null,
+"relation": "R3-S1-R124-E1-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R125-E1",
 "url": "https://www.klaviyo.com/blog/exit-popups",
 "parent_url": null,
@@ -2916,6 +3570,42 @@
 "relation": "R3-S1-R125-E3-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/bancomat/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/iucnsos/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/leshuttle/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/reykjavik-global-forum/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/saudia-airlines/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/saudia/",
+"parent_url": null,
+"relation": "R3-S1-R126-E1-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R127-E1",
 "url": "https://mailchimp.com/resources/building-rapport/",
 "parent_url": null,
@@ -2986,6 +3676,36 @@
 "url": "https://www.meltwater.com/en/blog/social-sidekick-your-monthly-guide-to-social-holidays-themes-and-noteworthy-events",
 "parent_url": null,
 "relation": "R3-S1-R128-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/brand-management",
+"parent_url": null,
+"relation": "R3-S1-R128-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/influencer-marketing",
+"parent_url": null,
+"relation": "R3-S1-R128-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/reputation-management",
+"parent_url": null,
+"relation": "R3-S1-R128-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/social-media-marketing",
+"parent_url": null,
+"relation": "R3-S1-R128-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/network/linkedin",
+"parent_url": null,
+"relation": "R3-S1-R128-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R128-E2",
@@ -3247,19 +3967,37 @@
 },
 {
 "entry_id": "S1-R132-E1",
-"url": "https://www.shopify.com/blog/email-marketing",
+"url": "https://www.shopify.com/blog/best-web-hosting-services",
 "parent_url": null,
 "relation": "R3-S1-R132-E1-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R132-E1",
-"url": "https://www.shopify.com/blog/markets",
+"url": "https://www.shopify.com/blog/brand-architecture",
 "parent_url": null,
 "relation": "R3-S1-R132-E1-F1:holdout_pos"
 },
 {
 "entry_id": "S1-R132-E1",
-"url": "https://www.shopify.com/blog/topics",
+"url": "https://www.shopify.com/blog/camillete-maker-business",
+"parent_url": null,
+"relation": "R3-S1-R132-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/fireflyslime",
+"parent_url": null,
+"relation": "R3-S1-R132-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/how-to-make-money-on-twitch",
+"parent_url": null,
+"relation": "R3-S1-R132-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/win-brands-ecommerce",
 "parent_url": null,
 "relation": "R3-S1-R132-E1-F1:holdout_pos"
 },
@@ -3300,6 +4038,12 @@
 "relation": "R3-S1-R132-E1-F2:holdout_pos"
 },
 {
+"entry_id": "S1-R133-E1",
+"url": "https://www.siegelgale.com/ideas/ma-spin-off/",
+"parent_url": null,
+"relation": "R3-S1-R133-E1-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R135-E1",
 "url": "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently/",
 "parent_url": null,
@@ -3334,6 +4078,36 @@
 "url": "https://www.sistrix.com/blog/yahoo-doubles-profits/",
 "parent_url": null,
 "relation": "R3-S1-R135-E1-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2008",
+"parent_url": null,
+"relation": "R3-S1-R135-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2016",
+"parent_url": null,
+"relation": "R3-S1-R135-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2022",
+"parent_url": null,
+"relation": "R3-S1-R135-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2025",
+"parent_url": null,
+"relation": "R3-S1-R135-E1-F2:holdout_pos"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2026",
+"parent_url": null,
+"relation": "R3-S1-R135-E1-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R136-E1",
@@ -3486,6 +4260,24 @@
 "relation": "R3-S1-R140-E1-F1:holdout_pos"
 },
 {
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/30-black-friday-tests-how-to-win-big-during-the-e-commerce-holiday-season/",
+"parent_url": null,
+"relation": "R3-S1-R140-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/feature-experimentation-trends-2026-where-digital-brands-are-investing/",
+"parent_url": null,
+"relation": "R3-S1-R140-E2-F1:holdout_pos"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/the-spontaneous-shift-consumer-ecommerce-trends-for-2026/",
+"parent_url": null,
+"relation": "R3-S1-R140-E2-F1:holdout_pos"
+},
+{
 "entry_id": "S1-R140-E3",
 "url": "https://wingify.com/success-stories/defacto/",
 "parent_url": null,
@@ -3547,37 +4339,37 @@
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/artificial-intelligence/",
+"url": "https://www.cbinsights.com/research/alcohol-tobacco-gambling-sex-tech-market-map/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/bitcoin-blockchain/",
+"url": "https://www.cbinsights.com/research/google-acquisitions-investments-2014/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/financial-services/",
+"url": "https://www.cbinsights.com/research/shiftsmart-series-b-funding/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/funding/",
+"url": "https://www.cbinsights.com/research/tech-market-map-lending-underwriting-financial-services/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/mosaic-score/",
+"url": "https://www.cbinsights.com/research/tia-series-b-funding/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 },
 {
 "entry_id": "S1-R151-E2",
-"url": "https://www.cbinsights.com/research/state-of/",
+"url": "https://www.cbinsights.com/research/top-ride-hailing-startup-investors-map/",
 "parent_url": null,
 "relation": "R3-S1-R151-E2-F2:holdout_pos"
 }

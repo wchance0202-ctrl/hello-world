@@ -39,7 +39,7 @@ def check(session, url):
         if r.is_redirect and r.headers.get("Location"):
             cur = urljoin(cur, r.headers["Location"])
             continue
-        body = r.text[:30000] if "html" in (r.headers.get("Content-Type") or "") else ""
+        body = r.text if "html" in (r.headers.get("Content-Type") or "") else ""  # <title> can sit late in a big <head>
         m, mr = TITLE.search(body), REFRESH.search(body)
         info = {"content_type": r.headers.get("Content-Type"),
                 "title": re.sub(r"\s+", " ", m.group(1)).strip()[:200] if m else None,

@@ -1,7 +1,7 @@
 {
- "frozen_at": "2026-10-26T12:08:38+00:00",
+ "frozen_at": "2026-10-26T14:19:25+00:00",
  "seed": 20261028,
- "sha256": "bf6d4adda419bef31f7b5648508a40345fb8e6c1387136fd06070f4bb5eac8b3",
+ "sha256": "c0d8e5f5e2bfbb9be53505a432366e7ffdf47fadfe026a4ca399b993f029e331",
  "rules": [
   {
    "id": "R3-S1-R2-E2-F1",
@@ -35,6 +35,17 @@
     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/past-updates.html"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "varext",
+     "[a-z]+",
+     "html"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -102,6 +113,12 @@
     "https://www.bis.org/publications/202407-standards-disclosure-cryptoasset-exposures"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -158,10 +175,32 @@
     "https://www.itu.int/en/ITU-T/focusgroups/ai4a/Pages/default.aspx"
    ],
    "holdout_neg": [
-    "https://www.itu.int/en/ITU-T/academia/Pages/default.aspx",
-    "https://www.itu.int/en/ITU-T/ipr/Pages/default.aspx"
+    "https://www.itu.int/en/ITU-R/study-groups/rcpm/Pages/wrc-27-studies.aspx",
+    "https://www.itu.int/en/ITU-R/Documents/FAQ-IMT-2024.pdf",
+    "https://www.itu.int/itu-d/sites/digital-impact-unlocked",
+    "https://www.itu.int/pub/R-SP-LN.IS-2026",
+    "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/ITS/Pages/default.aspx"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "lit",
+     "default.aspx"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -186,8 +225,8 @@
    "regression_neg": [
     "https://www.itu.int/en/ITU-T/Pages/default.aspx",
     "https://www.itu.int/en/journal/j-fet/webinars/Pages/default.aspx",
-    "https://www.itu.int/en/about/Pages/terms-of-use.aspx",
-    "https://www.itu.int/Pages/VariationRoot.aspx",
+    "https://www.itu.int/en/action/broadband/Pages/ARCHIVE/itu-r-activities.aspx",
+    "https://www.itu.int/ITU-R/space/snl/index.html",
     "https://www.itu.int/en/ITU-T/tsbdir/Pages/default.aspx",
     "https://www.itu.int/en/ITU-T/climatechange/Pages/default.aspx"
    ]
@@ -222,9 +261,31 @@
     "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-sri-lanka-are-now-available-in-the-global-brand-database"
    ],
    "holdout_neg": [
-    "https://www.wipo.int/en/web/global-brand-database/terms_and_conditions"
+    "https://www.wipo.int/publications/en/",
+    "https://www.wipo.int/meetings/en/",
+    "https://www.wipo.int/edocs/pubdocs/en/wipo_casestudy_ip_comm_za.pdf",
+    "https://www.wipo.int/en/web/technology-transfer/w/news/2026/open-for-applications-wipo-stem-south-asia-ip-and-technology-transfer-professional-program-2026-2027",
+    "https://www.wipo.int/en/web/global-brand-database/faqs_branddb"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -248,11 +309,11 @@
    ],
    "regression_neg": [
     "https://www.wipo.int/en/web/global-brand-database",
-    "https://www.wipo.int/meetings/en/archive.jsp",
-    "https://www.wipo.int/en/web/treaties",
-    "https://www.wipo.int/en/web/judiciaries",
-    "https://www.wipo.int/en/web/global-brand-database/news",
-    "https://www.wipo.int/en/web/global-brand-database/faqs_branddb"
+    "https://www.wipo.int/en/web/wipo-magazine/articles/how-the-republic-of-korea-is-redefining-esport-players-identity-and-rights-101216",
+    "https://www.wipo.int/web/wipo-magazine/articles/capacity-building-intellectual-property-and-traditional-knowledge-36993",
+    "https://www.wipo.int/en/web/patentscope/",
+    "https://www.wipo.int/en/web/global-brand-database/terms_and_conditions",
+    "https://www.wipo.int/en/web/global-brand-database/news"
    ]
   },
   {
@@ -269,15 +330,18 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.wipo.int/en/web/business/enterprising-ideas",
-    "https://www.wipo.int/en/web/business/ip-valuation",
     "https://www.wipo.int/en/web/business/news",
     "https://www.wipo.int/en/web/business/trade-secrets",
     "https://www.wipo.int/en/web/business/traditional-knowledge"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/business/checklist",
+    "https://www.wipo.int/en/web/business/ip-audit",
+    "https://www.wipo.int/en/web/business/patents",
+    "https://www.wipo.int/en/web/business/traditional-knowledge"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/patents/patent-information",
     "https://www.wipo.int/en/web/cooperation/public-private-partnerships",
@@ -287,6 +351,12 @@
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-new-ip-diagnostics-tool-for-the-fashion-industry"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -299,7 +369,13 @@
      "sitemap_missed": 0
     }
    ],
-   "regression_pos": [],
+   "regression_pos": [
+    "https://www.wipo.int/en/web/business/enterprising-ideas",
+    "https://www.wipo.int/en/web/business/geographical-indications",
+    "https://www.wipo.int/en/web/business/ip-valuation",
+    "https://www.wipo.int/en/web/business/securing-financing",
+    "https://www.wipo.int/en/web/business/sme-support-institutions-platform-search"
+   ],
    "regression_neg": [
     "https://www.wipo.int/en/web/business",
     "https://www.wipo.int/en/web/cooperation/collaborative-forums",
@@ -344,10 +420,28 @@
     "https://www.wipo.int/en/web/ip-advantage/w/stories/wakangay-santi-the-young-indigenous-kichwa-woman"
    ],
    "holdout_neg": [
-    "https://www.wipo.int/en/web/ip-advantage/madrid-system-stories",
-    "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories"
+    "https://www.wipo.int/en/web/patentscope/",
+    "https://www.wipo.int/edocs/gii-ranking/2024/se.pdf",
+    "https://www.wipo.int/web/wipo-magazine/search/?filter=industry-creative-industries",
+    "https://www.wipo.int/standards/en/pdf/03-60-01.pdf",
+    "https://www.wipo.int/en/web/ip-advantage/hague-system-stories",
+    "https://www.wipo.int/en/web/ip-advantage/women-innovators-stories"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "stories"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -370,11 +464,11 @@
    ],
    "regression_neg": [
     "https://www.wipo.int/en/web/ip-advantage",
-    "https://www.wipo.int/en/web/wipo-alert",
-    "https://www.wipo.int/en/web/intangible-assets/measuring-investments",
-    "https://www.wipo.int/en/web/treaties",
-    "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories",
-    "https://www.wipo.int/en/web/ip-advantage/pct-system-stories"
+    "https://www.wipo.int/en/web/wipo-magazine/authors/tania-sebastian-100841",
+    "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-report-launch-highlights-mexico-s-ip-financing-potential",
+    "https://www.wipo.int/web/patent-analytics/key-findings-hydrogen-fuel-cells-in-transportation",
+    "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories",
+    "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories"
    ]
   },
   {
@@ -417,6 +511,20 @@
     "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "helpful-resources"
+    ],
+    [
+     "lit",
+     "patent-knowledge-news"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -492,6 +600,16 @@
     "https://www.epo.org/en/news-events/in-focus"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -558,6 +676,16 @@
     "https://www.kantar.com/north-america/contact/wp-general-contact"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -627,6 +755,16 @@
     "https://www.mintel.com/insights/tv-phone-and-internet/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -692,6 +830,12 @@
     "https://www.mintel.com/fr/notre-culture/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -756,6 +900,12 @@
     "https://www.mintel.com/insights/consumer-research/she-power-is-influencing-the-world-how-brands-do-communications-with-female-consumers/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -794,7 +944,7 @@
    "literals": {
     "seg0": "insight-search-result-page-tags"
    },
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出（无新样本：扩展前留出一半漏配样本）",
    "slash_mode": "none",
    "holdout_source": "other_entries_pages",
    "inference": [
@@ -804,7 +954,10 @@
     "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=market_research_in_action&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
     "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=tobacco&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Apparel-and-Footwear&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp"
+   ],
    "holdout_neg": [
     "https://www.euromonitor.com/video/snacking-innovation-now-and-in-the-future",
     "https://www.euromonitor.com/cigars-cigarillos-and-smoking-tobacco-in-algeria/report",
@@ -814,6 +967,12 @@
     "https://www.euromonitor.com/insights/nicotine-and-cannabis"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "insight-search-result-page-tags"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -883,6 +1042,16 @@
     "https://www.nielsen.com/news-center/2017/keeping-an-ear-on-local-listeners-market-level-streaming-helps-radio-find-the-next-hit/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -939,6 +1108,12 @@
     "https://msi.org/events/analyzing-text-images-sales-and-unstructured-data-to-understand-consumer-pr/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -964,6 +1139,72 @@
     "https://msi.org/events/msi-book-series-webinar-thriving-with-ai-deploying-the-house-of-ai-for-competitive-advantage/",
     "https://msi.org/events/msi-lunch-lecture-with-kantar-analytics/",
     "https://msi.org/events/best-of-msi-its-time-for-happiness/"
+   ]
+  },
+  {
+   "id": "R3-S1-R35-E1-F1",
+   "entry_ids": [
+    "S1-R35-E1"
+   ],
+   "target": "https://www.comscore.com/Insights/Blog 入口前缀 /Insights/Blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.comscore\\.com/Insights/Blog/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.comscore.com/Insights/Blog/Audio-Activated",
+    "https://www.comscore.com/Insights/Blog/CIMM-East-Highlights-and-Currency-Clarity",
+    "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
+    "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next"
+   ],
+   "holdout_pos": [
+    "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
+    "https://www.comscore.com/Insights/Blog/Predictive-Audiences-and-Contextual-Targeting",
+    "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next"
+   ],
+   "holdout_neg": [
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2012/State-of-the-Internet-in-Q3-2012",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2013/Measuring-What-Matters-in-Social-Media",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/Future-in-Focus-and-Cross-Media-Insights-for-Latin-America",
+    "https://www.comscore.com/Insights/Press-Releases/2026/7/Audio-at-Parity-Comscore-Launches-Transcript-Level-Targeting-and-Measurement-with-Spotify-SiriusXM-Triton-Digital-Acast-and-Libysn"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z-]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.comscore\\.com/Insights/Blog/[a-zA-Z-]+$",
+     "holdout_fn": [
+      "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement"
+     ],
+     "listing_missed": [
+      "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement"
+     ],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://www.comscore.com/Insights/Blog/Flexible-by-Design",
+    "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+    "https://www.comscore.com/Insights/Blog/TV-Measurement-Has-Entered-Its-Next-Era",
+    "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement"
+   ],
+   "regression_neg": [
+    "https://www.comscore.com/Insights/Blog",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2015/Push-Play-Is-your-video-strategy-driving-results-or-stuck-on-Pause-US-CA",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2020/A-Look-at-Local-How-COVID-19-is-Shaping-Media-Consumption",
+    "https://www.comscore.com/Products/Digital-Media"
    ]
   },
   {
@@ -1003,6 +1244,12 @@
     "https://marketingscience.info/staff-categories/business-team"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1069,6 +1316,12 @@
     "https://www.gwi.com/blog/ai-marketing-tools"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1129,8 +1382,23 @@
     "https://interbrand.com/best-global-brands/global/volkswagen/",
     "https://interbrand.com/best-global-brands/global/zara/"
    ],
-   "holdout_neg": [],
+   "holdout_neg": [
+    "https://interbrand.com/privacy-notice/",
+    "https://interbrand.com/services/brand-valuation/",
+    "https://interbrand.com/webinar-registration/",
+    "https://interbrand.com/thinking/ferrari-brand-coherence/"
+   ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "global"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1153,9 +1421,9 @@
    ],
    "regression_neg": [
     "https://interbrand.com/best-global-brands/",
-    "https://interbrand.com/work/stc/",
+    "https://interbrand.com/thinking/unicef-brand-leadership/",
+    "https://interbrand.com/work/banamex/",
     "https://interbrand.com/work/latam-airlines/",
-    "https://interbrand.com/work/se-saudi-energy/",
     "https://interbrand.com/best-global-brands/global-2025-report-download/"
    ]
   },
@@ -1197,6 +1465,16 @@
     "https://www.numerator.com/solutions/insights/product/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1262,6 +1540,12 @@
     "https://yougov.com/articles/29326-75-b2b-marketers-are-looking-investments-towards-d"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1326,6 +1610,12 @@
     "https://www.bain.com/insights/topics/technology-report/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1387,14 +1677,29 @@
     "https://www.deloitte.com/global/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html"
    ],
    "holdout_neg": [
-    "https://www.deloitte.com/global/en/services/consulting-financial/about/infrastructure-for-good.html",
+    "https://www.deloitte.com/global/en/services/audit-assurance-overview/research/deloitte-global-audit-value-pulse-survey.html",
     "https://www.deloitte.com/ch/en/services/consulting/case-studies/loudon-water-cloud-transformation.html",
-    "https://www.deloitte.com/il/en/services/consulting/services/marketing-commerce.html",
+    "https://www.deloitte.com/il/en/services/consulting-risk/services/corporate-social-responsibility-and-shared-value-esg.html",
     "https://www.deloitte.com/an/en/services/consulting/services/forensic-financial-crime.html",
     "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",
     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "varext",
+     "[a-z0-9-]+",
+     "html"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1415,10 +1720,10 @@
    ],
    "regression_neg": [
     "https://www.deloitte.com/global/en/insights.html",
-    "https://www.deloitte.com/in/en/about/people/blogs/dona-el-sayah-forensic.html",
+    "https://www.deloitte.com/in/en/Industries/telecom-media-entertainment/collections/semiconductor.html",
     "https://www.deloitte.com/gh/en/about/recognition/analyst-relations/gx-human-capital-consulting-awards-recognition.html",
-    "https://www.deloitte.com/us/en/industries/life-sciences-health-care/research/consumers-are-the-ceos-of-their-own-health.html",
-    "https://www.deloitte.com/nz/en/services/tax/perspectives/september-2024-are-you-an-ethical-tax-advisor.html",
+    "https://www.deloitte.com/us/en/industries/life-sciences-health-care/articles/deloitte-health-institute.html",
+    "https://www.deloitte.com/nz/en/services/tax/perspectives/march-2025-remote-working-in-new-zealand.html",
     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html",
     "https://www.deloitte.com/global/en/insights/multimedia/podcasts.html"
    ]
@@ -1459,14 +1764,37 @@
     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/next-gen-satellite-internet.html"
    ],
    "holdout_neg": [
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/spotlight/economics-insights-analysis-05-2021.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/talent/technology-and-the-future-of-work/intelligent-automation-technologies-strategies.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/covid-19-collection/audit-committee-climate-change.html",
-    "https://www.deloitte.com/global/en/our-thinking/insights/topics/economy/asia-pacific/india-economic-outlook-07-2022.html",
-    "https://www.deloitte.com/global/en/insights/industry/manufacturing-industrial-products/2025-smart-manufacturing-survey.html",
-    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/future-of-infrastructure.html"
+    "https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/government-trends/2022/reshoring-global-supply-chains.html",
+    "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2018/ai-robotics-intelligent-machines.html",
+    "https://www.deloitte.com/ug/en/our-thinking/insights/industry/consumer-retail/future-of-fresh-food-sales/fresh-produce-consumer-trends.html",
+    "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2024/digital-transformation-for-business-interview.html",
+    "https://www.deloitte.com/global/en/insights/industry/retail-distribution/halloween-survey-consumer-spending.html",
+    "https://www.deloitte.com/global/en/insights/industry/manufacturing-industrial-products/2025-smart-manufacturing-survey.html"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "varext",
+     "[a-z-]+",
+     "html"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1487,12 +1815,12 @@
    ],
    "regression_neg": [
     "https://www.deloitte.com/global/en/insights.html",
-    "https://www.deloitte.com/mu/en/our-thinking/insights/industry/government-public-services/government-trends/2020.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/covid-19/future-of-mobility-after-covid-19-transportation-scenarios.html",
-    "https://www.deloitte.com/ce/en/our-thinking/insights/topics/emerging-technologies/cognitive-technologies/design-principles-ethical-artificial-intelligence.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/asia-pacific/pandemic-affect-on-asian-consumers.html",
-    "https://www.deloitte.com/global/en/insights/topics/emerging-technologies.html",
-    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions.html"
+    "https://www.deloitte.com/ug/en/our-thinking/insights/topics/economy/covid-19/covid-19-insurance-companies-reputational-risk.html",
+    "https://www.deloitte.com/cy/en/our-thinking/insights/topics/economy/covid-19/state-budget-shortfalls.html",
+    "https://www.deloitte.com/ug/en/our-thinking/insights/industry/consumer-retail/consumer-behavior_trends/financial-sentiment-consumer-spending-income-groups.html",
+    "https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/government-trends/2023/regulatory-agencies-and-innovation.html",
+    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/future-of-infrastructure.html"
    ]
   },
   {
@@ -1534,6 +1862,12 @@
     "https://www.idc.com/resource-center/blog/asia-pacific-ai-infrastructure/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1601,6 +1935,12 @@
     "https://www.iab.com/news/iabpwc-release-fourth-quarter-fy-2005-internet-ad-revenue-figures/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1625,6 +1965,70 @@
     "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year/",
     "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
     "https://www.iab.com/news/insight-inspiration-transformation/"
+   ]
+  },
+  {
+   "id": "R3-S1-R86-E1-F2",
+   "entry_ids": [
+    "S1-R86-E1"
+   ],
+   "target": "https://www.dandad.org/work/annual-2026/ 入口前缀 /work/annual-2026/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.dandad\\.org/work/annual\\-2026/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.dandad.org/work/annual-2026/behind-the-work",
+    "https://www.dandad.org/work/annual-2026/judges-curations",
+    "https://www.dandad.org/work/annual-2026/trends-from-the-jury-rooms",
+    "https://www.dandad.org/work/annual-2026/voices"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://www.dandad.org/creative-community/directory/haraldur-pétursson",
+    "https://www.dandad.org/creative-community/directory/swarna-thomas",
+    "https://www.dandad.org/work/d-ad-awards-archive/sxswestworld",
+    "https://www.dandad.org/work/d-ad-awards-archive/summer-into-dust",
+    "https://www.dandad.org/work/annual-2026/behind-the-work/exploring-pentagrams-clever-spin-on-a-new-tokyo-landmark",
+    "https://www.dandad.org/work/annual-2026/judges-curations/curation-by-kapil-bhimekar-illustration"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.dandad\\.org/work/annual\\-2026/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.dandad.org/work/annual-2026/d-ad-in-2026"
+     ],
+     "listing_missed": [
+      "https://www.dandad.org/work/annual-2026/d-ad-in-2026"
+     ],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.dandad.org/work/annual-2026/d-ad-in-2026"
+   ],
+   "regression_neg": [
+    "https://www.dandad.org/work/annual-2026",
+    "https://www.dandad.org/creative-community/directory/will-farrelly",
+    "https://www.dandad.org/creative-community/companies/rowdy-2",
+    "https://www.dandad.org/work/d-ad-awards-archive/st-germain",
+    "https://www.dandad.org/creative-community/directory/kentaro-kimura",
+    "https://www.dandad.org/work/annual-2026/judges-curations/curation-by-yoshihiro-yagi-art-direction",
+    "https://www.dandad.org/work/annual-2026/voices/think-like-a-newsroom-tahirah-hairston-on-what-brands-can-learn-from-journalism"
    ]
   },
   {
@@ -1672,6 +2076,16 @@
     "https://www.dandad.org/insights/learning"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9ü-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1737,6 +2151,12 @@
     "https://www.dandad.org/creative-community/directory/habib-khan"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1803,6 +2223,16 @@
     "https://www.greenbook.org/insights/inclusive-insights"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1870,6 +2300,12 @@
     "https://www.greenbook.org/insights/grit/the-quiet-infrastructure-behind-modern-insights"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1928,6 +2364,12 @@
     "https://www.greenbook.org/marketing-research/webinar-recording-7-Key-Insights-to-Help-You-Predict-the-Next-Shift-in-Your-Market"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -1989,6 +2431,12 @@
     "https://www.reforge.com/blog/collection/product-in-the-age-of-ai"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2054,6 +2502,12 @@
     "https://www.thinkbox.tv/case-studies/the-national-trust-for-scotland-using-tv-to-ask-for-help"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2100,14 +2554,22 @@
     "https://nrf.com/membership/nrf-retailer-membership",
     "https://nrf.com/membership/nrf-university-membership"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://nrf.com/membership/nrf-membership"
+   ],
    "holdout_neg": [
-    "https://nrf.com/blog/inflation-is-only-beginning-to-bite",
     "https://nrf.com/podcast/ai-skills-first-hiring-and-the-next-era-of-retail-jobs",
     "https://nrf.com/blog/4-principles-retails-use-of-ai",
-    "https://nrf.com/blog/cargo-theft-trends-and-lessons-learned"
+    "https://nrf.com/blog/cargo-theft-trends-and-lessons-learned",
+    "https://nrf.com/blog/retailers-call-on-congress-to-expand-good-samaritan-protection-to-reduce-opioid-overdoses"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2163,6 +2625,12 @@
     "https://nrf.com/research/retail-trade-issues-may-2025"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2226,6 +2694,12 @@
     "https://www.wppmedia.com/case-studies/Not-just-a-store-a-story"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2297,6 +2771,12 @@
      "https://amplitude.com/blog/roi-of-amplitude"
     ]
    ],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2362,6 +2842,12 @@
     "https://amplitude.com/blog/category/product"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2430,6 +2916,16 @@
     "https://amplitude.com/blog/docs-redesign"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2496,6 +2992,16 @@
     "https://www.appsflyer.com/de/glossary/ltv/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2553,11 +3059,26 @@
     "https://www.branch.io/resources/blog/top-linkedin-voices-in-mobile-growth-and-marketing/",
     "https://www.branch.io/resources/blog/what-changed-with-deep-linking-on-ios-9-3/"
    ],
-   "holdout_neg": [],
+   "holdout_neg": [
+    "https://www.branch.io/glossary/content-preview/",
+    "https://www.branch.io/apple-search-ads/",
+    "https://www.branch.io/strength-challenge-entry-form/",
+    "https://www.branch.io/glossary/fragmentation/"
+   ],
    "inference_redirected_away": [
     [
      "https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/",
      "https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html"
+    ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
     ]
    ],
    "version": 2,
@@ -2625,6 +3146,16 @@
     "https://www.brandwatch.com/blog/campaign-measurement-social-search-signals/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2688,6 +3219,12 @@
     "https://www.braze.com/ja/customers/nurse-stage-case-study"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2753,6 +3290,12 @@
     "https://buffer.com/resources/author/mike-e/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2822,6 +3365,16 @@
     "https://buffer.com/resources/meet-insights/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "author"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2887,6 +3440,12 @@
     "https://contentsquare.com/ja-ja/page-platform-ai-spring-launch-update-1/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -2953,6 +3512,16 @@
     "https://www.hootsuite.com/resources/the-gym-group"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3024,6 +3593,12 @@
      "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report"
     ]
    ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3074,16 +3649,29 @@
     "https://blog.hubspot.com/marketing/social-media-calendar-tools",
     "https://blog.hubspot.com/marketing/tracking-ai-overviews"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://blog.hubspot.com/marketing/ai-search-presence",
+    "https://blog.hubspot.com/marketing/canonical-url",
+    "https://blog.hubspot.com/marketing/content-marketing-tips-boring-industries",
+    "https://blog.hubspot.com/marketing/content-monitoring",
+    "https://blog.hubspot.com/marketing/drip-marketing",
+    "https://blog.hubspot.com/marketing/website-grader"
+   ],
    "holdout_neg": [
-    "https://blog.hubspot.com/sales/cost-based-pricing",
-    "https://blog.hubspot.com/customers/editing-original-source-property",
-    "https://blog.hubspot.com/sales/entrepreneurs-are-struggling-with-mental-health-but-wheres-the-support",
-    "https://blog.hubspot.com/sales/entrepreneur-vs-business-owner",
-    "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/5363/5-gifts-on-the-marketing-content-creator-s-holiday-wish-list.aspx",
-    "https://blog.hubspot.com/marketing/tabid/6307/bid/10322/the-ultimate-list-50-local-business-directories.aspx"
+    "https://blog.hubspot.com/sales/syncing-contacts-data-with-google-sheets",
+    "https://blog.hubspot.com/service/how-customer-experience-has-evolved",
+    "https://blog.hubspot.com/website/ecommerce-product-page-best-practices",
+    "https://blog.hubspot.com/service/onboarding-best-practices",
+    "https://blog.hubspot.com/marketing/tabid/6307/bid/1436/shortest-tutorial-ever-on-seo-search-engine-optimization.aspx",
+    "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/6012/17-examples-of-great-presentation-design.aspx"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3147,7 +3735,14 @@
     "https://blog.hubspot.com/sales/places-to-research-a-prospect-before-sales-call",
     "https://blog.hubspot.com/sales/sales-execution"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://blog.hubspot.com/sales/ai-franchise",
+    "https://blog.hubspot.com/sales/anchoring-negotiation",
+    "https://blog.hubspot.com/sales/best-scheduling-app",
+    "https://blog.hubspot.com/sales/sales-dashboard",
+    "https://blog.hubspot.com/sales/sales-management",
+    "https://blog.hubspot.com/sales/warm-calling-tips"
+   ],
    "holdout_neg": [
     "https://blog.hubspot.com/marketing/rfp-grant",
     "https://blog.hubspot.com/website/are-web-developers-using-ai",
@@ -3155,6 +3750,12 @@
     "https://blog.hubspot.com/marketing/feedback-loop"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9ü-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3202,14 +3803,27 @@
     "https://blog.hubspot.com/service/feedback-management",
     "https://blog.hubspot.com/service/thank-you-letter-for-customer-feedback"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://blog.hubspot.com/service/apology-letter-to-customers",
+    "https://blog.hubspot.com/service/customer-insights-ai",
+    "https://blog.hubspot.com/service/customer-retention-metrics",
+    "https://blog.hubspot.com/service/customer-understanding",
+    "https://blog.hubspot.com/service/survey-demographic-questions",
+    "https://blog.hubspot.com/service/thank-you-letter-customer"
+   ],
    "holdout_neg": [
-    "https://blog.hubspot.com/marketing/email-subject-lines-restart-conversations",
-    "https://blog.hubspot.com/marketing/above-the-fold",
-    "https://blog.hubspot.com/marketing/ppc-courses",
-    "https://blog.hubspot.com/sales/what-is-the-buyers-journey"
+    "https://blog.hubspot.com/website/wordpress-table-plugins",
+    "https://blog.hubspot.com/sales/game-changing-communication-techniques-sales",
+    "https://blog.hubspot.com/website/graceful-degradation",
+    "https://blog.hubspot.com/marketing/create-brand-content-creator"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3269,12 +3883,19 @@
     "https://blog.hubspot.com/website/become-a-ux-designer",
     "https://blog.hubspot.com/website/ecommerce-website-testing"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://blog.hubspot.com/website/best-woocommerce-product-slider-plugins",
+    "https://blog.hubspot.com/website/css-tutorial",
+    "https://blog.hubspot.com/website/html-sitemap-xml-sitemap",
+    "https://blog.hubspot.com/website/website-research-tools",
+    "https://blog.hubspot.com/website/wordpress-alternatives",
+    "https://blog.hubspot.com/website/wordpress-plugin-to-block-countries"
+   ],
    "holdout_neg": [
-    "https://blog.hubspot.com/marketing/how-newsletters-make-money",
-    "https://blog.hubspot.com/sales/lead-routing-automation",
-    "https://blog.hubspot.com/sales/financial-risk",
-    "https://blog.hubspot.com/sales/revenue-performance-management"
+    "https://blog.hubspot.com/sales/reasons-awkward-silences-powerful-sales-tactics",
+    "https://blog.hubspot.com/marketing/linkedin-live-audio-events",
+    "https://blog.hubspot.com/sales/account-management-vs-sales",
+    "https://blog.hubspot.com/customers/how-to-use-ads-sequences-for-journey-based-advertising"
    ],
    "inference_redirected_away": [
     [
@@ -3284,6 +3905,12 @@
     [
      "https://blog.hubspot.com/website/html-span",
      "https://blog.hubspot.com/website"
+    ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
     ]
    ],
    "version": 2,
@@ -3366,6 +3993,12 @@
     "https://www.klaviyo.com/blog/category/customer-data-ownership"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3408,17 +4041,23 @@
     "seg0": "[a-z0-9-]+"
    },
    "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出（无新样本：扩展前留出一半漏配样本）",
    "slash_mode": "optional",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://landor.com/en/our-work/ao/",
-    "https://landor.com/en/our-work/bancomat/",
     "https://landor.com/en/our-work/iz/",
     "https://landor.com/en/our-work/misura/",
     "https://landor.com/en/our-work/qt/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://landor.com/en/our-work/access-ories",
+    "https://landor.com/en/our-work/ao",
+    "https://landor.com/en/our-work/iucnsos",
+    "https://landor.com/en/our-work/milan-symphony-orchestra",
+    "https://landor.com/en/our-work/misura",
+    "https://landor.com/en/our-work/renault"
+   ],
    "holdout_neg": [
     "https://landor.com/de/our-work/elica",
     "https://landor.com/de/our-work/bp",
@@ -3426,6 +4065,12 @@
     "https://landor.com/de/our-work/saudia-airlines"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3436,7 +4081,14 @@
      "sitemap_missed": 38
     }
    ],
-   "regression_pos": [],
+   "regression_pos": [
+    "https://landor.com/en/our-work/bancomat/",
+    "https://landor.com/en/our-work/iucnsos/",
+    "https://landor.com/en/our-work/leshuttle/",
+    "https://landor.com/en/our-work/reykjavik-global-forum/",
+    "https://landor.com/en/our-work/saudia-airlines/",
+    "https://landor.com/en/our-work/saudia/"
+   ],
    "regression_neg": [
     "https://landor.com/en/our-work/",
     "https://landor.com/de/our-work/west-loop",
@@ -3482,6 +4134,12 @@
     "https://mailchimp.com/solutions/marketing-tools-startups/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3547,6 +4205,12 @@
     "https://www.meltwater.com/en/blog/category/social-media-marketing"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3612,6 +4276,12 @@
     "https://www.meltwater.com/de/blog/was-ist-bluesky"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3675,6 +4345,12 @@
     "https://www.optimizely.com/de/optimizers/shafqat-islam"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3740,6 +4416,12 @@
     "https://www.optimizely.com/de/connectors/leadsrx"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3807,6 +4489,16 @@
     "https://www.qualtrics.com/ja/press/2025-11-apj-leader/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3877,6 +4569,16 @@
      "https://www.shopify.com/blog/topics/brand"
     ]
    ],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -3903,6 +4605,65 @@
     "https://www.shopify.com/br/blog/113659333-apresentamos-o-shopify-para-wordpress",
     "https://www.shopify.com/blog/pickleball-business-guide",
     "https://www.shopify.com/blog/young-entrepreneurs"
+   ]
+  },
+  {
+   "id": "R3-S1-R133-E1-F1",
+   "entry_ids": [
+    "S1-R133-E1"
+   ],
+   "target": "https://www.siegelgale.com/ideas/ 入口前缀 /ideas/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.siegelgale\\.com/ideas/[a-z-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.siegelgale.com/ideas/ai/",
+    "https://www.siegelgale.com/ideas/insights/",
+    "https://www.siegelgale.com/ideas/news/"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://www.siegelgale.com/practices/corporate-leadership/",
+    "https://www.siegelgale.com/practices/human-resources/",
+    "https://www.siegelgale.com/people/maureen-perry/",
+    "https://www.siegelgale.com/location/san-francisco/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.siegelgale\\.com/ideas/[a-z]+/$",
+     "holdout_fn": [
+      "https://www.siegelgale.com/ideas/ma-spin-off/"
+     ],
+     "listing_missed": [
+      "https://www.siegelgale.com/ideas/ma-spin-off/"
+     ],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.siegelgale.com/ideas/ma-spin-off/"
+   ],
+   "regression_neg": [
+    "https://www.siegelgale.com/ideas/",
+    "https://www.siegelgale.com/focus/manufacturing-industrial/",
+    "https://www.siegelgale.com/practices/business-development-and-marketing/",
+    "https://www.siegelgale.com/people/samantha-bertone/",
+    "https://www.siegelgale.com/people/mei-wing-chan/"
    ]
   },
   {
@@ -3944,6 +4705,12 @@
     "https://www.sistrix.com/blog/archive/?selected=2026"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -4009,6 +4776,12 @@
     "https://wingify.com/es/personalization/"
    ],
    "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ],
    "version": 2,
    "history": [
     {
@@ -4033,6 +4806,79 @@
     "https://wingify.com/partners/agencies/",
     "https://wingify.com/br/media-kit/",
     "https://wingify.com/solutions/media-and-publishing/"
+   ]
+  },
+  {
+   "id": "R3-S1-R151-E2-F2",
+   "entry_ids": [
+    "S1-R151-E2"
+   ],
+   "target": "https://www.cbinsights.com/research/ 入口前缀 /research/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.cbinsights\\.com/research/[a-z0-9%_-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9%_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.cbinsights.com/research/14-repeat-founders-building-agentic-commerce/",
+    "https://www.cbinsights.com/research/9-big-tech-engineers-building-the-next-wave-of-fintech/",
+    "https://www.cbinsights.com/research/founders-aerospace-2026/",
+    "https://www.cbinsights.com/research/newsletter-october-15-2026/",
+    "https://www.cbinsights.com/research/replit-acquisition-predictions/"
+   ],
+   "holdout_pos": [
+    "https://www.cbinsights.com/research/asia-pacific-tech-startups-map/",
+    "https://www.cbinsights.com/research/ceo-interview-pinkstar/",
+    "https://www.cbinsights.com/research/evolutioniq-competitors-carpe-data-ccc-intelligent-solutions-clara-analytics-friss/",
+    "https://www.cbinsights.com/research/market-trend-report-payment-apis-infrastructure-retailers/",
+    "https://www.cbinsights.com/research/netstars-funding/",
+    "https://www.cbinsights.com/research/private-company-financing-dealflow-113-companies-raise-477-8m-week-of-april-17-2010/"
+   ],
+   "holdout_neg": [
+    "https://www.cbinsights.com/company/el-vision",
+    "https://www.cbinsights.com/company/optrex",
+    "https://www.cbinsights.com/company/spruceled",
+    "https://www.cbinsights.com/company/pennhurst-group",
+    "https://www.cbinsights.com/research/featured-topics/climate-tech/",
+    "https://www.cbinsights.com/research/report/ai-trends-q3-2026/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.cbinsights\\.com/research/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 7
+    }
+   ],
+   "regression_pos": [
+    "https://www.cbinsights.com/research/alcohol-tobacco-gambling-sex-tech-market-map/",
+    "https://www.cbinsights.com/research/google-acquisitions-investments-2014/",
+    "https://www.cbinsights.com/research/shiftsmart-series-b-funding/",
+    "https://www.cbinsights.com/research/tech-market-map-lending-underwriting-financial-services/",
+    "https://www.cbinsights.com/research/tia-series-b-funding/",
+    "https://www.cbinsights.com/research/top-ride-hailing-startup-investors-map/"
+   ],
+   "regression_neg": [
+    "https://www.cbinsights.com/research/",
+    "https://www.cbinsights.com/company/hefeng-shiye",
+    "https://www.cbinsights.com/company/the-mother-company",
+    "https://www.cbinsights.com/company/hoang-minh-technology-jsc",
+    "https://www.cbinsights.com/company/cilian",
+    "https://www.cbinsights.com/research/briefing/webinar-ai-fraud-prevention-cybersecurity/",
+    "https://www.cbinsights.com/research/briefing/webinar-behind-the-scenes-fintech-100-2026/"
    ]
   }
  ],

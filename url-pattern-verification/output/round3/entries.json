@@ -13,7 +13,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R2-E1-F1 验证不通过（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、标注测试有失败（留出 FN0/FP1））",
+  "rule_status": "R3-S1-R2-E1-F1 验证不通过（机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%）",
   "link_status": "可打开（200，标题「Monthly Retail Trade - Main Page」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -43,7 +43,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R2-E2-F1 已验证；R3-S1-R2-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R2-E2-F1 已验证；R3-S1-R2-E2-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「E-Commerce Statistics (E-STATS)」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -398,7 +398,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R6-E13-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R6-E13-F1 已验证",
   "link_status": "可打开（200，标题「Documents & Reports - All Documents | The World Ba」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -407,8 +407,10 @@
    "rules": [
     "R3-S1-R6-E13-F1"
    ],
-   "formal": [],
-   "retained_count": 19,
+   "formal": [
+    "R3-S1-R6-E13-F1"
+   ],
+   "retained_count": 15,
    "retained_file": "output/round3/retained/S1-R6-E13.txt",
    "prefix": "/en/publication/documents-reports/",
    "notes": []
@@ -621,10 +623,10 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /statistics/ 下家族 0 个、成员 0；前缀外同站链接 35、文件 46；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /statistics/ 下家族 0 个、成员 0；前缀外同站链接 35、文件 46；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 82,
+   "retained_count": 84,
    "retained_file": "output/round3/retained/S1-R16-E2.txt",
    "prefix": "/statistics/",
    "notes": []
@@ -844,14 +846,18 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "无规则",
+  "rule_status": "R3-S1-R18-E2-F1 已验证",
   "link_status": "可打开（200，标题「ITU-D ICT Statistics」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 100；前缀 /itu-d/sites/statistics/ 下家族 0 个、成员 0；前缀外同站链接 14、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 100；前缀 /itu-d/sites/statistics/ 下家族 1 个、成员 5；前缀外同站链接 14、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R18-E2-F1"
+   ],
+   "formal": [
+    "R3-S1-R18-E2-F1"
+   ],
    "retained_count": 14,
    "retained_file": "output/round3/retained/S1-R18-E2.txt",
    "prefix": "/itu-d/sites/statistics/",
@@ -918,7 +924,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R18-E5-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R18-E5-F4 已验证",
+  "rule_status": "R3-S1-R18-E5-F2 已验证；R3-S1-R18-E5-F4 已验证",
   "link_status": "可打开（200，标题「ITU Radiocommunication Sector」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -929,9 +935,10 @@
     "R3-S1-R18-E5-F4"
    ],
    "formal": [
+    "R3-S1-R18-E5-F2",
     "R3-S1-R18-E5-F4"
    ],
-   "retained_count": 142,
+   "retained_count": 136,
    "retained_file": "output/round3/retained/S1-R18-E5.txt",
    "prefix": "/en/ITU-R/",
    "notes": [
@@ -954,7 +961,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R18-E6-F1 已验证；R3-S1-R18-E6-F2 部分验证（候选）（机械门未通过：留出反例 2<3）",
+  "rule_status": "R3-S1-R18-E6-F1 已验证；R3-S1-R18-E6-F2 已验证",
   "link_status": "可打开（200，标题「ITU Telecommunication Standardization Sector」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -965,9 +972,10 @@
     "R3-S1-R18-E6-F2"
    ],
    "formal": [
-    "R3-S1-R18-E6-F1"
+    "R3-S1-R18-E6-F1",
+    "R3-S1-R18-E6-F2"
    ],
-   "retained_count": 49,
+   "retained_count": 46,
    "retained_file": "output/round3/retained/S1-R18-E6.txt",
    "prefix": "/en/ITU-T/",
    "notes": []
@@ -1020,7 +1028,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R18-E8-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R18-E8-F1 已验证",
   "link_status": "可打开（200，标题「ITU News: Latest from the UN agency for digital te」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -1029,8 +1037,10 @@
    "rules": [
     "R3-S1-R18-E8-F1"
    ],
-   "formal": [],
-   "retained_count": 13,
+   "formal": [
+    "R3-S1-R18-E8-F1"
+   ],
+   "retained_count": 9,
    "retained_file": "output/round3/retained/S1-R18-E8.txt",
    "prefix": "/hub/news/",
    "notes": []
@@ -1145,7 +1155,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E3-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Intellectual Property Statistics」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1182,7 +1192,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 1）；R3-S1-R19-E4-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到家族外页面 1：https://www.wipo.int/en/web/patentscope/webinar → https://www.wipo.int/en/web/patentscope/webinar/index）；R3-S1-R19-E4-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「PATENTSCOPE」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1234,7 +1244,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E6-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E6-F2 部分验证（候选）（机械门未通过：留出反例 1<3）；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E6-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E6-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Global Brand Database」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1249,8 +1259,10 @@
     "R3-S1-R19-E6-F1",
     "R3-S1-R19-E6-F2"
    ],
-   "formal": [],
-   "retained_count": 157,
+   "formal": [
+    "R3-S1-R19-E6-F2"
+   ],
+   "retained_count": 154,
    "retained_file": "output/round3/retained/S1-R19-E6.txt",
    "prefix": "/en/web/global-brand-database/",
    "notes": [
@@ -1286,7 +1298,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E8-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E8-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Global Design Database」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1337,7 +1349,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E10-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E10-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E10-F1 已验证；R3-S1-R19-E10-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Patent Analytics」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1352,8 +1364,10 @@
     "R3-S1-R19-E10-F1",
     "R3-S1-R19-E10-F2"
    ],
-   "formal": [],
-   "retained_count": 180,
+   "formal": [
+    "R3-S1-R19-E10-F1"
+   ],
+   "retained_count": 173,
    "retained_file": "output/round3/retained/S1-R19-E10.txt",
    "prefix": "/en/web/patent-analytics/",
    "notes": [
@@ -1411,7 +1425,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E12-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；列表成员漏配 1）；R3-S1-R19-E12-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E12-F1 部分验证（候选）（机械门未通过：留出与归纳/回归重叠；列表成员漏配 1）；R3-S1-R19-E12-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Why Intellectual Property is Essential for your Bu」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1426,8 +1440,10 @@
     "R3-S1-R19-E12-F1",
     "R3-S1-R19-E12-F2"
    ],
-   "formal": [],
-   "retained_count": 165,
+   "formal": [
+    "R3-S1-R19-E12-F2"
+   ],
+   "retained_count": 158,
    "retained_file": "output/round3/retained/S1-R19-E12.txt",
    "prefix": "/en/web/business/",
    "notes": [
@@ -1488,7 +1504,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E14-F1 已验证；R3-S1-R19-E14-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E14-F3 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E14-F1 已验证；R3-S1-R19-E14-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E14-F3 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Knowledge and Technology Transfer」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1565,7 +1581,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E16-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E16-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E16-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E16-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Intellectual Property Finance」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1708,7 +1724,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E20-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E20-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「IP and Frontier Technologies」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1745,7 +1761,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E21-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E21-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「WIPO Magazine」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1759,8 +1775,10 @@
    "rules": [
     "R3-S1-R19-E21-F1"
    ],
-   "formal": [],
-   "retained_count": 148,
+   "formal": [
+    "R3-S1-R19-E21-F1"
+   ],
+   "retained_count": 134,
    "retained_file": "output/round3/retained/S1-R19-E21.txt",
    "prefix": "/en/web/wipo-magazine/",
    "notes": [
@@ -1782,7 +1800,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E22-F1 部分验证（候选）（机械门未通过：留出反例 2<3）；R3-S1-R19-E22-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E22-F1 已验证；R3-S1-R19-E22-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Case Studies on Intellectual Property (IP Advantag」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1797,8 +1815,11 @@
     "R3-S1-R19-E22-F1",
     "R3-S1-R19-E22-F2"
    ],
-   "formal": [],
-   "retained_count": 163,
+   "formal": [
+    "R3-S1-R19-E22-F1",
+    "R3-S1-R19-E22-F2"
+   ],
+   "retained_count": 130,
    "retained_file": "output/round3/retained/S1-R19-E22.txt",
    "prefix": "/en/web/ip-advantage/",
    "notes": [
@@ -1856,7 +1877,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E24-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E24-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E24-F1 已验证；R3-S1-R19-E24-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「Global Innovation Index」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1872,9 +1893,10 @@
     "R3-S1-R19-E24-F2"
    ],
    "formal": [
+    "R3-S1-R19-E24-F1",
     "R3-S1-R19-E24-F2"
    ],
-   "retained_count": 160,
+   "retained_count": 153,
    "retained_file": "output/round3/retained/S1-R19-E24.txt",
    "prefix": "/en/web/global-innovation-index/",
    "notes": [
@@ -1897,7 +1919,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E25-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E25-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「World Intellectual Property Report」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [
@@ -1911,8 +1933,10 @@
    "rules": [
     "R3-S1-R19-E25-F1"
    ],
-   "formal": [],
-   "retained_count": 147,
+   "formal": [
+    "R3-S1-R19-E25-F1"
+   ],
+   "retained_count": 143,
    "retained_file": "output/round3/retained/S1-R19-E25.txt",
    "prefix": "/en/web/world-ip-report/",
    "notes": [
@@ -1999,7 +2023,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R19-E28-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 2<3）；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
+  "rule_status": "R3-S1-R19-E28-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）",
   "link_status": "可打开（200，标题「WIPO IP Statistics Data Center」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -2008,8 +2032,10 @@
    "rules": [
     "R3-S1-R19-E28-F1"
    ],
-   "formal": [],
-   "retained_count": 16,
+   "formal": [
+    "R3-S1-R19-E28-F1"
+   ],
+   "retained_count": 5,
    "retained_file": "output/round3/retained/S1-R19-E28.txt",
    "prefix": "/ipstats/",
    "notes": [
@@ -2065,22 +2091,24 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R20-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；R3-S1-R20-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R20-E1-F3 已验证",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R20-E1-F1 已验证；R3-S1-R20-E1-F2 已验证；R3-S1-R20-E1-F3 已验证",
   "link_status": "可打开（200，标题「Searching for patents | epo.org」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/searching-for-patents/ 下家族 3 个、成员 18；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=19、F2=0、F3=255\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/searching-for-patents/ 下家族 3 个、成员 18；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=19、F2=0、F3=255\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R20-E1-F1",
     "R3-S1-R20-E1-F2",
     "R3-S1-R20-E1-F3"
    ],
    "formal": [
+    "R3-S1-R20-E1-F1",
+    "R3-S1-R20-E1-F2",
     "R3-S1-R20-E1-F3"
    ],
-   "retained_count": 19,
+   "retained_count": 4,
    "retained_file": "output/round3/retained/S1-R20-E1.txt",
    "prefix": "/en/searching-for-patents/",
    "notes": []
@@ -2099,21 +2127,22 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R20-E2-F1 已验证；R3-S1-R20-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R20-E2-F1 已验证；R3-S1-R20-E2-F2 已验证",
   "link_status": "可打开（200，标题「News & events | epo.org」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/news-events/ 下家族 2 个、成员 16；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1078、F2=0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/news-events/ 下家族 2 个、成员 16；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1078、F2=0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R20-E2-F1",
     "R3-S1-R20-E2-F2"
    ],
    "formal": [
-    "R3-S1-R20-E2-F1"
+    "R3-S1-R20-E2-F1",
+    "R3-S1-R20-E2-F2"
    ],
-   "retained_count": 12,
+   "retained_count": 5,
    "retained_file": "output/round3/retained/S1-R20-E2.txt",
    "prefix": "/en/news-events/",
    "notes": []
@@ -2401,7 +2430,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R27-E1-F1 已验证；R3-S1-R27-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R27-E1-F1 已验证；R3-S1-R27-E1-F2 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）",
   "link_status": "可打开（200，标题「Insights is Our Market Research and Business Intel」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -2462,7 +2491,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R27-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R27-E3-F1 已验证",
   "link_status": "可打开（200，标题「Explore reports - Euromonitor.com」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -2471,8 +2500,10 @@
    "rules": [
     "R3-S1-R27-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 46,
+   "formal": [
+    "R3-S1-R27-E3-F1"
+   ],
+   "retained_count": 30,
    "retained_file": "output/round3/retained/S1-R27-E3.txt",
    "prefix": "/store/explore-reports/",
    "notes": []
@@ -2533,18 +2564,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R30-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R30-E1-F1 已验证",
   "link_status": "可打开（200，标题「Insights | Nielsen」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 1 个、成员 16；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=3015\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 1 个、成员 16；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=3015\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R30-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 16,
+   "formal": [
+    "R3-S1-R30-E1-F1"
+   ],
+   "retained_count": 0,
    "retained_file": "output/round3/retained/S1-R30-E1.txt",
    "prefix": "/insights/",
    "notes": []
@@ -2563,18 +2596,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R30-E2-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R30-E2-F1 已验证",
   "link_status": "可打开（200，标题「News Center Archive | Nielsen」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news-center/ 下家族 1 个、成员 9；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=100\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news-center/ 下家族 1 个、成员 9；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=100\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R30-E2-F1"
    ],
-   "formal": [],
-   "retained_count": 9,
+   "formal": [
+    "R3-S1-R30-E2-F1"
+   ],
+   "retained_count": 0,
    "retained_file": "output/round3/retained/S1-R30-E2.txt",
    "prefix": "/news-center/",
    "notes": []
@@ -2749,7 +2784,7 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 8；前缀 /insights/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 8；前缀 /insights/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
    "retained_count": 0,
@@ -2772,20 +2807,22 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "无规则",
+  "rule_status": "R3-S1-R34-E2-F1 已验证",
   "link_status": "可打开（200，标题「Industries Circana Provides Market, Survey & Consu」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industries/ 下家族 1 个、成员 30；前缀外同站链接 3、文件 0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
-   "retained_count": 33,
+   "discovery_text": "完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industries/ 下家族 1 个、成员 30；前缀外同站链接 3、文件 0；sitemap 中同结构但不在列表的 URL：F1=0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R34-E2-F1"
+   ],
+   "formal": [
+    "R3-S1-R34-E2-F1"
+   ],
+   "retained_count": 3,
    "retained_file": "output/round3/retained/S1-R34-E2.txt",
    "prefix": "/industries/",
-   "notes": [
-    "R3-S1-R34-E2-F1 未成规则：归纳样本落地不足 3 个正常页面"
-   ]
+   "notes": []
   }
  },
  {
@@ -2801,19 +2838,21 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "完整（枚举结束，无独立全集对账）",
+  "discovery_status": "完整",
   "rule_status": "无规则",
   "link_status": "可打开（200，标题「Circana Insights - get the latest news, insights, 」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 448；前缀 /news/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 448；前缀 /news/ 下家族 1 个、成员 3；前缀外同站链接 34、文件 0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 34,
+   "retained_count": 37,
    "retained_file": "output/round3/retained/S1-R34-E3.txt",
    "prefix": "/news/",
-   "notes": []
+   "notes": [
+    "R3-S1-R34-E3-F1 未成规则：归纳样本落地不足 3 个正常页面"
+   ]
   }
  },
  {
@@ -2830,7 +2869,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R35-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3）",
+  "rule_status": "R3-S1-R35-E1-F1 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）",
   "link_status": "可打开（200，标题「Blog - Comscore, Inc.」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -2860,7 +2899,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R35-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3）",
+  "rule_status": "R3-S1-R35-E2-F1 已验证",
   "link_status": "可打开（200，标题「Presentations and Whitepapers - Comscore, Inc.」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -2869,8 +2908,10 @@
    "rules": [
     "R3-S1-R35-E2-F1"
    ],
-   "formal": [],
-   "retained_count": 20,
+   "formal": [
+    "R3-S1-R35-E2-F1"
+   ],
+   "retained_count": 1,
    "retained_file": "output/round3/retained/S1-R35-E2.txt",
    "prefix": "/Insights/Presentations-and-Whitepapers/",
    "notes": []
@@ -3022,7 +3063,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R39-E2-F1 已验证；R3-S1-R39-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R39-E2-F1 已验证；R3-S1-R39-E2-F2 已验证",
   "link_status": "可打开（200，标题「Digital & Social Trends, Charts, Consumer Data & S」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -3033,9 +3074,10 @@
     "R3-S1-R39-E2-F2"
    ],
    "formal": [
-    "R3-S1-R39-E2-F1"
+    "R3-S1-R39-E2-F1",
+    "R3-S1-R39-E2-F2"
    ],
-   "retained_count": 13,
+   "retained_count": 6,
    "retained_file": "output/round3/retained/S1-R39-E2.txt",
    "prefix": "/blog/",
    "notes": []
@@ -3116,18 +3158,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R41-E1-F1 部分验证（候选）（机械门未通过：留出反例 0<3）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R41-E1-F1 已验证",
   "link_status": "可打开（200，标题「Best Global Brands - Interbrand」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /best-global-brands/ 下家族 1 个、成员 10；前缀外同站链接 1、文件 1；sitemap 中同结构但不在列表的 URL：F1=95\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /best-global-brands/ 下家族 1 个、成员 10；前缀外同站链接 1、文件 1；sitemap 中同结构但不在列表的 URL：F1=95\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R41-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 13,
+   "formal": [
+    "R3-S1-R41-E1-F1"
+   ],
+   "retained_count": 3,
    "retained_file": "output/round3/retained/S1-R41-E1.txt",
    "prefix": "/best-global-brands/",
    "notes": []
@@ -3277,7 +3321,7 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整",
   "rule_status": "无规则；第 2 轮：无规则（详情在全站共享 /articles/、/reports/ 等路径）",
   "link_status": "可打开（200，标题「Economy & Finance Articles, Trends, Survey Data & 」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
@@ -3288,10 +3332,10 @@
    }
   ],
   "round3": {
-   "discovery_text": "部分：Load more 点到按钮消失：接口 hits=1016，页面内容链接 1,015，差 1 未解释\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /content/economy/ 下家族 0 个、成员 0；前缀外同站链接 40、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：完整（本次筛选条件下）：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=1016，点击 28 次后按钮消失，页面取得 1,015 个内容链接（articles 899、reports 92、case-studies 13、guides 8、events 3），差 1 未解释",
+   "discovery_text": "完整：Load more 点到按钮消失时页面有 1,015 条；页面在接口还有 1 条时隐藏了按钮。用页面自身的只读接口取 offset=1015 补到 1 条（id 11767，已落地 200），合计 1,016 = 接口 hits\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /content/economy/ 下家族 0 个、成员 0；前缀外同站链接 40、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：完整（本次筛选条件下）：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=1016，点击 28 次后按钮消失，页面取得 1,015 个内容链接（articles 899、reports 92、case-studies 13、guides 8、events 3），差 1 未解释",
    "rules": [],
    "formal": [],
-   "retained_count": 40,
+   "retained_count": 41,
    "retained_file": "output/round3/retained/S1-R45-E1.txt",
    "prefix": "/content/economy/",
    "notes": [
@@ -3313,7 +3357,7 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整",
   "rule_status": "无规则；第 2 轮：无规则（详情在全站共享 /articles/、/reports/ 等路径）",
   "link_status": "可打开（200，标题「Retail & Consumer Articles, Trends, Survey Data & 」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
@@ -3324,10 +3368,10 @@
    }
   ],
   "round3": {
-   "discovery_text": "部分：Load more 点到按钮消失（76 次）：接口 hits=2717，页面内容链接 2,660，差 57 未解释\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 77 轮、点击加载更多 75 次、渲染后链接 2893；前缀 /content/consumer/ 下家族 0 个、成员 0；前缀外同站链接 2669、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=2717，本批 45 轮取得约 1,575 个内容链接（articles 1,300、reports 229…），剩余约 1,142 条待续跑",
+   "discovery_text": "完整：Load more 点到按钮消失时页面有 2,660 条；页面在接口还有 57 条时隐藏了按钮。用页面自身的只读接口取 offset=2660、2695 补到 57 条（全部落地 200），合计 2,717 = 接口 hits\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 77 轮、点击加载更多 75 次、渲染后链接 2893；前缀 /content/consumer/ 下家族 0 个、成员 0；前缀外同站链接 2669、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=2717，本批 45 轮取得约 1,575 个内容链接（articles 1,300、reports 229…），剩余约 1,142 条待续跑",
    "rules": [],
    "formal": [],
-   "retained_count": 2669,
+   "retained_count": 2726,
    "retained_file": "output/round3/retained/S1-R45-E2.txt",
    "prefix": "/content/consumer/",
    "notes": [
@@ -3622,18 +3666,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R48-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R48-E1-F1 已验证",
   "link_status": "可打开（200，标题「Bain Insights & Publications | Bain & Company」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 1 次、渲染后链接 250；前缀 /insights/ 下家族 2 个、成员 24；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=6291\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 1 次、渲染后链接 250；前缀 /insights/ 下家族 2 个、成员 24；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=6291\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R48-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 40,
+   "formal": [
+    "R3-S1-R48-E1-F1"
+   ],
+   "retained_count": 19,
    "retained_file": "output/round3/retained/S1-R48-E1.txt",
    "prefix": "/insights/",
    "notes": [
@@ -3654,13 +3700,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R49-E1-F1 已验证；R3-S1-R49-E1-F2 已验证",
   "link_status": "可打开（200，标题「Deloitte Insights」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /global/en/insights/ 下家族 3 个、成员 32；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=1098、F2=36\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /global/en/insights/ 下家族 3 个、成员 32；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=1098、F2=36\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R49-E1-F1",
     "R3-S1-R49-E1-F2"
@@ -3724,10 +3770,10 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 242；前缀 /b2c-marketing/ 下家族 0 个、成员 0；前缀外同站链接 33、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 242；前缀 /b2c-marketing/ 下家族 0 个、成员 0；前缀外同站链接 33、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 33,
+   "retained_count": 34,
    "retained_file": "output/round3/retained/S1-R50-E2.txt",
    "prefix": "/b2c-marketing/",
    "notes": []
@@ -3746,7 +3792,7 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整",
   "rule_status": "无规则；第 2 轮：候选：精确集合快照 R2-FORR-B2B-SNAP-01..28（有限集合相等通过）",
   "link_status": "可打开（200，标题「B2B Research - Forrester」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
@@ -3757,7 +3803,7 @@
    }
   ],
   "round3": {
-   "discovery_text": "部分：页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 1,222 篇内；未在列表出现的 1 篇已定位（id 122415，2018-05-09）；分类计数 1,287 与公开 1,222 差 65 未解释\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 63 轮、点击加载更多 61 次、渲染后链接 3369；前缀 /blogs/category/b2b-research/ 下家族 0 个、成员 0；前缀外同站链接 1324、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：根因已查清——列表页底部 More posts 调用 POST go.forrester.com/wp-admin/admin-ajax.php action=loadposts&page=N&category=b2b-research，data-pages=62；/page/N/ 地址的静态正文不随页码变化。成员集合经 WP REST GET（categories=50231）取得 1,222 篇（X-WP-Total=1222，与 62 页×20 吻合），首页 16 篇全部在内；分类计数 1,287 与公开文章数差 65 未解释；loadposts POST 本轮未执行（权限拦截）",
+   "discovery_text": "完整：页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 公开文章 1,222 篇（X-WP-Total）内；未在列表出现的 1 篇已定位（id 122415，2018-05-09）。分类计数 1,287 是 WordPress 内部计数，可能含非公开文章，公开接口无法核实，不作为对账总数\n  完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 63 轮、点击加载更多 61 次、渲染后链接 3369；前缀 /blogs/category/b2b-research/ 下家族 0 个、成员 0；前缀外同站链接 1324、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：根因已查清——列表页底部 More posts 调用 POST go.forrester.com/wp-admin/admin-ajax.php action=loadposts&page=N&category=b2b-research，data-pages=62；/page/N/ 地址的静态正文不随页码变化。成员集合经 WP REST GET（categories=50231）取得 1,222 篇（X-WP-Total=1222，与 62 页×20 吻合），首页 16 篇全部在内；分类计数 1,287 与公开文章数差 65 未解释；loadposts POST 本轮未执行（权限拦截）",
    "rules": [],
    "formal": [],
    "retained_count": 1324,
@@ -3783,7 +3829,7 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整",
   "rule_status": "无规则；第 2 轮：无规则（同栏目快照挂在 S1-R50-E3）",
   "link_status": "可打开（200，标题「B2B Research - Forrester」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
@@ -3794,7 +3840,7 @@
    }
   ],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 20 轮、点击加载更多 20 次、渲染后链接 1331；前缀 /blogs/category/b2b-research/page/2/ 下家族 0 个、成员 0；前缀外同站链接 497、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：/page/2/ 静态返回与第 1 页相同的 16 篇（30/30 链接一致），JS 变量 current_page=2，仅影响 More posts 起始页；同栏目成员见 S1-R50-E3",
+   "discovery_text": "完整：/page/2/ 与 S1-R50-E3 是同一栏目、同一列表（服务端忽略页码），成员与对账同 S1-R50-E3\n  部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 20 轮、点击加载更多 20 次、渲染后链接 1331；前缀 /blogs/category/b2b-research/page/2/ 下家族 0 个、成员 0；前缀外同站链接 497、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：/page/2/ 静态返回与第 1 页相同的 16 篇（30/30 链接一致），JS 变量 current_page=2，仅影响 More posts 起始页；同栏目成员见 S1-R50-E3",
    "rules": [],
    "formal": [],
    "retained_count": 497,
@@ -4022,14 +4068,18 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "无规则",
+  "rule_status": "R3-S1-R52-E1-F1 已验证",
   "link_status": "可打开（200，标题「Economy & Work - Research and data from Pew Resear」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 6 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 129；前缀 /topic/economy-work/ 下家族 0 个、成员 0；前缀外同站链接 30、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 6 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 129；前缀 /topic/economy-work/ 下家族 1 个、成员 3；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R52-E1-F1"
+   ],
+   "formal": [
+    "R3-S1-R52-E1-F1"
+   ],
    "retained_count": 30,
    "retained_file": "output/round3/retained/S1-R52-E1.txt",
    "prefix": "/topic/economy-work/",
@@ -4049,15 +4099,19 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "无规则",
+  "discovery_status": "部分",
+  "rule_status": "R3-S1-R52-E2-F1 已验证",
   "link_status": "可打开（200，标题「Internet & Technology - Research and data from Pew」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 0 个、成员 0；前缀外同站链接 21、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
+   "discovery_text": "部分：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R52-E2-F1"
+   ],
+   "formal": [
+    "R3-S1-R52-E2-F1"
+   ],
    "retained_count": 21,
    "retained_file": "output/round3/retained/S1-R52-E2.txt",
    "prefix": "/topic/internet-technology/",
@@ -4077,16 +4131,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "无规则",
+  "discovery_status": "部分",
+  "rule_status": "R3-S1-R52-E3-F1 已验证",
   "link_status": "可打开（200，标题「News Habits & Media - Research and data from Pew R」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 0 个、成员 0；前缀外同站链接 41、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
-   "retained_count": 41,
+   "discovery_text": "部分：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R52-E3-F1"
+   ],
+   "formal": [
+    "R3-S1-R52-E3-F1"
+   ],
+   "retained_count": 42,
    "retained_file": "output/round3/retained/S1-R52-E3.txt",
    "prefix": "/topic/news-habits-media/",
    "notes": []
@@ -4133,18 +4191,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R53-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R53-E1-F1 已验证",
   "link_status": "可打开（200，标题「IDC.com - Research - Overview」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 1 个、成员 6；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=6\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 1 个、成员 6；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=6\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R53-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 12,
+   "formal": [
+    "R3-S1-R53-E1-F1"
+   ],
+   "retained_count": 6,
    "retained_file": "output/round3/retained/S1-R53-E1.txt",
    "prefix": "/research/",
    "notes": []
@@ -4374,15 +4434,17 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "无规则",
+  "rule_status": "R3-S1-R62-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「TikTok One Creative Suite」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 0；前缀 /creative/creativeCenter/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 0；前缀 /creative/creativeCenter/ 下家族 1 个、成员 3；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R62-E1-F1"
+   ],
    "formal": [],
-   "retained_count": 6,
+   "retained_count": 10,
    "retained_file": "output/round3/retained/S1-R62-E1.txt",
    "prefix": "/creative/creativeCenter/",
    "notes": []
@@ -5331,7 +5393,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R86-E2-F1 已验证；R3-S1-R86-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R86-E2-F1 已验证；R3-S1-R86-E2-F2 已验证",
   "link_status": "可打开（200，标题「Insights」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5342,9 +5404,10 @@
     "R3-S1-R86-E2-F2"
    ],
    "formal": [
-    "R3-S1-R86-E2-F1"
+    "R3-S1-R86-E2-F1",
+    "R3-S1-R86-E2-F2"
    ],
-   "retained_count": 19,
+   "retained_count": 15,
    "retained_file": "output/round3/retained/S1-R86-E2.txt",
    "prefix": "/insights/",
    "notes": []
@@ -5364,7 +5427,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R86-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R86-E3-F1 已验证",
   "link_status": "可打开（200，标题「Case studies and partnerships | Insights」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5373,8 +5436,10 @@
    "rules": [
     "R3-S1-R86-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 19,
+   "formal": [
+    "R3-S1-R86-E3-F1"
+   ],
+   "retained_count": 9,
    "retained_file": "output/round3/retained/S1-R86-E3.txt",
    "prefix": "/insights/case-studies-and-partnerships/",
    "notes": []
@@ -5514,7 +5579,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R87-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R87-E3-F1 已验证",
   "link_status": "可打开（200，标题「Growth Marketing Blog by Demand Curve」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5523,8 +5588,10 @@
    "rules": [
     "R3-S1-R87-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 60,
+   "formal": [
+    "R3-S1-R87-E3-F1"
+   ],
+   "retained_count": 22,
    "retained_file": "output/round3/retained/S1-R87-E3.txt",
    "prefix": "/blog/",
    "notes": []
@@ -5549,7 +5616,7 @@
   "previous_checkpoint": "2026-10-23 前轮：HTTP 403（历史，不作永久结论）",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 44；前缀 /omnichannel-study/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：部分：入口静态首轮 1 页（2189 字正文，链接已入 edges）；分页/详情/动态未处理",
+   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 44；前缀 /omnichannel-study/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染\n  第 2 轮人工复核：部分：入口静态首轮 1 页（2189 字正文，链接已入 edges）；分页/详情/动态未处理",
    "rules": [],
    "formal": [],
    "retained_count": 0,
@@ -5640,7 +5707,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "部分",
-  "rule_status": "R3-S1-R89-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则",
+  "rule_status": "R3-S1-R89-E3-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则",
   "link_status": "可打开（200，标题「GRIT — Greenbook」）",
   "previous_checkpoint": "2026-10-23 前轮：HTTP 403（历史，不作永久结论）",
   "known_issues": [],
@@ -5672,7 +5739,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R90-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R90-E1-F1 已验证",
   "link_status": "可打开（200，标题「52 UX Case Studies To Improve Your Product Skills 」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5681,8 +5748,10 @@
    "rules": [
     "R3-S1-R90-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 52,
+   "formal": [
+    "R3-S1-R90-E1-F1"
+   ],
+   "retained_count": 0,
    "retained_file": "output/round3/retained/S1-R90-E1.txt",
    "prefix": "/case-studies/",
    "notes": []
@@ -5928,7 +5997,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R95-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R95-E3-F1 已验证",
   "link_status": "可打开（200，标题「Social Marketing Examples」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5937,8 +6006,10 @@
    "rules": [
     "R3-S1-R95-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 38,
+   "formal": [
+    "R3-S1-R95-E3-F1"
+   ],
+   "retained_count": 19,
    "retained_file": "output/round3/retained/S1-R95-E3.txt",
    "prefix": "/social/",
    "notes": []
@@ -5958,7 +6029,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R95-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R95-E4-F1 已验证",
   "link_status": "可打开（200，标题「Copywriting Marketing Examples」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -5967,8 +6038,10 @@
    "rules": [
     "R3-S1-R95-E4-F1"
    ],
-   "formal": [],
-   "retained_count": 33,
+   "formal": [
+    "R3-S1-R95-E4-F1"
+   ],
+   "retained_count": 19,
    "retained_file": "output/round3/retained/S1-R95-E4.txt",
    "prefix": "/copywriting/",
    "notes": []
@@ -6046,7 +6119,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R99-E1-F1 已验证；R3-S1-R99-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R99-E1-F1 已验证；R3-S1-R99-E1-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「The Reforge Blog | Reforge」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6246,13 +6319,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R103-E1-F2 已验证",
   "link_status": "可打开（200，标题「One Show | Awards Archive | 2026」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /awards/theoneshow/ 下家族 2 个、成员 354；前缀外同站链接 19、文件 0；sitemap 中同结构但不在列表的 URL：F2=16479\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /awards/theoneshow/ 下家族 2 个、成员 354；前缀外同站链接 19、文件 0；sitemap 中同结构但不在列表的 URL：F2=34004\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R103-E1-F2"
    ],
@@ -6280,16 +6353,22 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "无规则",
+  "discovery_status": "完整",
+  "rule_status": "R3-S1-R104-E1-F1 已验证；R3-S1-R104-E1-F2 已验证",
   "link_status": "可打开（200，标题「Research」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 174；前缀 /research/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
-   "retained_count": 0,
+   "discovery_text": "完整：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 174；前缀 /research/ 下家族 2 个、成员 47；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R104-E1-F1",
+    "R3-S1-R104-E1-F2"
+   ],
+   "formal": [
+    "R3-S1-R104-E1-F1",
+    "R3-S1-R104-E1-F2"
+   ],
+   "retained_count": 1,
    "retained_file": "output/round3/retained/S1-R104-E1.txt",
    "prefix": "/research/",
    "notes": []
@@ -6369,7 +6448,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "部分",
-  "rule_status": "R3-S1-R105-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R105-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「NRF Membership | NRF」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6457,7 +6536,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R108-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R108-E1-F1 已验证",
   "link_status": "可打开（200，标题「WPP Media | Research & Business Intelligence」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6466,8 +6545,10 @@
    "rules": [
     "R3-S1-R108-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 9,
+   "formal": [
+    "R3-S1-R108-E1-F1"
+   ],
+   "retained_count": 2,
    "retained_file": "output/round3/retained/S1-R108-E1.txt",
    "prefix": "/thought-leadership/research-business-intelligence/",
    "notes": []
@@ -6519,7 +6600,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R108-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R108-E3-F1 已验证",
   "link_status": "可打开（200，标题「This Year Next Year | WPP Media」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6528,8 +6609,10 @@
    "rules": [
     "R3-S1-R108-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 5,
+   "formal": [
+    "R3-S1-R108-E3-F1"
+   ],
+   "retained_count": 1,
    "retained_file": "output/round3/retained/S1-R108-E3.txt",
    "prefix": "/thought-leadership/this-year-next-year/",
    "notes": []
@@ -6619,7 +6702,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R111-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R111-E1-F1 已验证",
   "link_status": "可打开（200，标题「Ideas | Ogilvy China」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6628,8 +6711,10 @@
    "rules": [
     "R3-S1-R111-E1-F1"
    ],
-   "formal": [],
-   "retained_count": 104,
+   "formal": [
+    "R3-S1-R111-E1-F1"
+   ],
+   "retained_count": 3,
    "retained_file": "output/round3/retained/S1-R111-E1.txt",
    "prefix": "/cn/ideas/",
    "notes": []
@@ -6719,7 +6804,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "部分",
-  "rule_status": "R3-S1-R114-E1-F1 部分验证（候选）（归纳样本跳到其他页面 1）",
+  "rule_status": "R3-S1-R114-E1-F1 部分验证（候选）（归纳样本跳到家族外页面 1：https://amplitude.com/resources/forrester-wave-report → https://amplitude.com/blog/roi-of-amplitude）",
   "link_status": "可打开（200，标题「Resources & Guides | Amplitude」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6797,7 +6882,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R115-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R115-E1-F2 已验证",
+  "rule_status": "R3-S1-R115-E1-F1 已验证；R3-S1-R115-E1-F2 已验证",
   "link_status": "可打开（200，标题「Knowledge Hub | Analytic Partners」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -6808,9 +6893,10 @@
     "R3-S1-R115-E1-F2"
    ],
    "formal": [
+    "R3-S1-R115-E1-F1",
     "R3-S1-R115-E1-F2"
    ],
-   "retained_count": 26,
+   "retained_count": 21,
    "retained_file": "output/round3/retained/S1-R115-E1.txt",
    "prefix": "/knowledge-hub/",
    "notes": []
@@ -6861,18 +6947,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R116-E2-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R116-E2-F1 已验证",
   "link_status": "可打开（200，标题「AppsFlyer Blog: Mobile Attribution, Cross-Platform」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 21；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=807\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 21；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=807\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R116-E2-F1"
    ],
-   "formal": [],
-   "retained_count": 56,
+   "formal": [
+    "R3-S1-R116-E2-F1"
+   ],
+   "retained_count": 35,
    "retained_file": "output/round3/retained/S1-R116-E2.txt",
    "prefix": "/blog/",
    "notes": []
@@ -6892,7 +6980,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "部分",
-  "rule_status": "R3-S1-R117-E1-F1 部分验证（候选）（机械门未通过：留出反例 0<3；归纳样本跳到其他页面 1）",
+  "rule_status": "R3-S1-R117-E1-F1 部分验证（候选）（归纳样本跳到家族外页面 1：https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/ → https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html）",
   "link_status": "可打开（200，标题「Mobile Growth Resources and Research | Branch」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7045,7 +7133,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R118-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R118-E4-F1 已验证",
   "link_status": "可打开（200，标题「Social Media Glossary & Marketing Terms | Brandwat」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7054,8 +7142,10 @@
    "rules": [
     "R3-S1-R118-E4-F1"
    ],
-   "formal": [],
-   "retained_count": 116,
+   "formal": [
+    "R3-S1-R118-E4-F1"
+   ],
+   "retained_count": 6,
    "retained_file": "output/round3/retained/S1-R118-E4.txt",
    "prefix": "/social-media-glossary/",
    "notes": []
@@ -7348,21 +7438,22 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R122-E1-F1 已验证；R3-S1-R122-E1-F2 部分验证（候选）（归纳样本跳到其他页面 1）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R122-E1-F1 已验证；R3-S1-R122-E1-F2 已验证",
   "link_status": "可打开（200，标题「Social Media Resources: Templates, Case Studies, R」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 3 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 2 个、成员 11；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=121、F2=139\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 3 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 2 个、成员 11；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=121、F2=139\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R122-E1-F1",
     "R3-S1-R122-E1-F2"
    ],
    "formal": [
-    "R3-S1-R122-E1-F1"
+    "R3-S1-R122-E1-F1",
+    "R3-S1-R122-E1-F2"
    ],
-   "retained_count": 11,
+   "retained_count": 6,
    "retained_file": "output/round3/retained/S1-R122-E1.txt",
    "prefix": "/resources/",
    "notes": []
@@ -7424,7 +7515,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R123-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F3 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R123-E1-F1 已验证；R3-S1-R123-E1-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F3 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「The HubSpot Marketing Blog」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7435,8 +7526,10 @@
     "R3-S1-R123-E1-F2",
     "R3-S1-R123-E1-F3"
    ],
-   "formal": [],
-   "retained_count": 3888,
+   "formal": [
+    "R3-S1-R123-E1-F1"
+   ],
+   "retained_count": 391,
    "retained_file": "output/round3/retained/S1-R123-E1.txt",
    "prefix": "/marketing/",
    "notes": []
@@ -7455,18 +7548,20 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R123-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R123-E2-F1 已验证",
   "link_status": "可打开（200，标题「The HubSpot Sales Blog」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 81 页（入口+分页），未完成分页 0；前缀 /sales/ 下家族 1 个、成员 1598；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 81 页（入口+分页），未完成分页 0；前缀 /sales/ 下家族 1 个、成员 1598；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R123-E2-F1"
    ],
-   "formal": [],
-   "retained_count": 1606,
+   "formal": [
+    "R3-S1-R123-E2-F1"
+   ],
+   "retained_count": 8,
    "retained_file": "output/round3/retained/S1-R123-E2.txt",
    "prefix": "/sales/",
    "notes": []
@@ -7486,7 +7581,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R123-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R123-E3-F1 已验证",
   "link_status": "可打开（200，标题「The HubSpot Customer Service Blog」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7495,8 +7590,10 @@
    "rules": [
     "R3-S1-R123-E3-F1"
    ],
-   "formal": [],
-   "retained_count": 781,
+   "formal": [
+    "R3-S1-R123-E3-F1"
+   ],
+   "retained_count": 7,
    "retained_file": "output/round3/retained/S1-R123-E3.txt",
    "prefix": "/service/",
    "notes": []
@@ -7516,7 +7613,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R123-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 2）",
+  "rule_status": "R3-S1-R123-E4-F1 部分验证（候选）（归纳样本跳到家族外页面 2：https://blog.hubspot.com/website/html-elements → https://blog.hubspot.com/website；https://blog.hubspot.com/website/html-span → https://blog.hubspot.com/website）",
   "link_status": "可打开（200，标题「The HubSpot Website Blog」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7573,21 +7670,23 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "完整",
-  "rule_status": "无规则",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R124-E1-F1 已验证",
   "link_status": "可打开（200，标题「Blog | Intercom」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整：静态请求 64 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 1274；前缀外同站链接 0、文件 0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
-   "rules": [],
-   "formal": [],
-   "retained_count": 1274,
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 64 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 1274；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=2\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "rules": [
+    "R3-S1-R124-E1-F1"
+   ],
+   "formal": [
+    "R3-S1-R124-E1-F1"
+   ],
+   "retained_count": 0,
    "retained_file": "output/round3/retained/S1-R124-E1.txt",
    "prefix": "/blog/",
-   "notes": [
-    "R3-S1-R124-E1-F1 未成规则：归纳样本落地不足 3 个正常页面"
-   ]
+   "notes": []
   }
  },
  {
@@ -7764,7 +7863,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R128-E1-F1 已验证；R3-S1-R128-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R128-E1-F1 已验证；R3-S1-R128-E1-F2 已验证",
   "link_status": "可打开（200，标题「The Meltwater Blog」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -7775,9 +7874,10 @@
     "R3-S1-R128-E1-F2"
    ],
    "formal": [
-    "R3-S1-R128-E1-F1"
+    "R3-S1-R128-E1-F1",
+    "R3-S1-R128-E1-F2"
    ],
-   "retained_count": 21,
+   "retained_count": 0,
    "retained_file": "output/round3/retained/S1-R128-E1.txt",
    "prefix": "/en/blog/",
    "notes": []
@@ -7981,10 +8081,10 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 21 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 292；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 240、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 21 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 292；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 240、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 240,
+   "retained_count": 242,
    "retained_file": "output/round3/retained/S1-R130-E3.txt",
    "prefix": "/resources/",
    "notes": []
@@ -8035,13 +8135,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R131-E1-F1 已验证；R3-S1-R131-E1-F2 已验证；R3-S1-R131-E1-F3 已验证",
   "link_status": "可打开（200，标题「Semrush Blog | SEO, SEM, AI Search, & Content Stra」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 486 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 3 个、成员 2335；前缀外同站链接 430、文件 0；sitemap 中同结构但不在列表的 URL：F1=80、F2=1、F3=0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 486 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 3 个、成员 2335；前缀外同站链接 430、文件 0；sitemap 中同结构但不在列表的 URL：F1=80、F2=1、F3=0\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R131-E1-F1",
     "R3-S1-R131-E1-F2",
@@ -8071,21 +8171,22 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
-  "rule_status": "R3-S1-R132-E1-F1 已验证；R3-S1-R132-E1-F2 部分验证（候选）（机械门未通过：有正例未完成落地身份核验；归纳样本跳到其他页面 1）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
+  "rule_status": "R3-S1-R132-E1-F1 已验证；R3-S1-R132-E1-F2 已验证",
   "link_status": "可打开（200，标题「Ecommerce Marketing Blog - Ecommerce News, Online 」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 52；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=3、F2=323\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 52；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=6530、F2=323\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R132-E1-F1",
     "R3-S1-R132-E1-F2"
    ],
    "formal": [
-    "R3-S1-R132-E1-F1"
+    "R3-S1-R132-E1-F1",
+    "R3-S1-R132-E1-F2"
    ],
-   "retained_count": 18,
+   "retained_count": 2,
    "retained_file": "output/round3/retained/S1-R132-E1.txt",
    "prefix": "/blog/",
    "notes": []
@@ -8149,7 +8250,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（列表+sitemap 合并枚举）",
-  "rule_status": "R3-S1-R135-E1-F1 已验证；R3-S1-R135-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R135-E1-F1 已验证；R3-S1-R135-E1-F2 已验证",
   "link_status": "可打开（200，标题「SISTRIX SEO Blog, studies and expert content - SIS」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -8160,9 +8261,10 @@
     "R3-S1-R135-E1-F2"
    ],
    "formal": [
-    "R3-S1-R135-E1-F1"
+    "R3-S1-R135-E1-F1",
+    "R3-S1-R135-E1-F2"
    ],
-   "retained_count": 44,
+   "retained_count": 24,
    "retained_file": "output/round3/retained/S1-R135-E1.txt",
    "prefix": "/blog/",
    "notes": []
@@ -8251,10 +8353,10 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 10 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 105；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 10 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 105；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 34,
+   "retained_count": 35,
    "retained_file": "output/round3/retained/S1-R137-E2.txt",
    "prefix": "/resources/",
    "notes": []
@@ -8279,10 +8381,10 @@
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 110；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 24、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 110；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 24、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [],
    "formal": [],
-   "retained_count": 24,
+   "retained_count": 25,
    "retained_file": "output/round3/retained/S1-R137-E3.txt",
    "prefix": "/resources/",
    "notes": []
@@ -8302,7 +8404,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整",
-  "rule_status": "R3-S1-R138-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R138-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
   "link_status": "可打开（200，标题「Landing page optimization resources | Unbounce blo」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -8363,13 +8465,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R139-E1-F1 已验证",
   "link_status": "可打开（200，标题「Blog - We Are Social UK」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 269 页（入口+分页），未完成分页 0；前缀 /uk/blog/ 下家族 1 个、成员 2597；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=90\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 269 页（入口+分页），未完成分页 0；前缀 /uk/blog/ 下家族 1 个、成员 2597；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=91\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R139-E1-F1"
    ],
@@ -8456,7 +8558,7 @@
   "fragment": "",
   "row_boundary": "reconstructed",
   "discovery_status": "完整（枚举结束，无独立全集对账）",
-  "rule_status": "R3-S1-R140-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））",
+  "rule_status": "R3-S1-R140-E2-F1 已验证",
   "link_status": "可打开（200，标题「EBooks & Guides | Wingify」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
@@ -8465,8 +8567,10 @@
    "rules": [
     "R3-S1-R140-E2-F1"
    ],
-   "formal": [],
-   "retained_count": 25,
+   "formal": [
+    "R3-S1-R140-E2-F1"
+   ],
+   "retained_count": 13,
    "retained_file": "output/round3/retained/S1-R140-E2.txt",
    "prefix": "/ebooks/",
    "notes": []
@@ -8916,13 +9020,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "完整（枚举结束，无独立全集对账）",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R151-E2-F1 已验证；R3-S1-R151-E2-F2 已验证；第 2 轮：无规则",
   "link_status": "可打开（200，标题「CB Insights Research」）",
   "previous_checkpoint": "2026-10-23 前轮：HTTP 403（历史，不作永久结论）",
   "known_issues": [],
   "round3": {
-   "discovery_text": "完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 2 个、成员 21；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0\n  第 2 轮人工复核：部分：入口静态首轮 1 页（8100 字正文，链接已入 edges）；分页/详情/动态未处理",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 2 个、成员 21；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=8395\n  第 2 轮人工复核：部分：入口静态首轮 1 页（8100 字正文，链接已入 edges）；分页/详情/动态未处理",
    "rules": [
     "R3-S1-R151-E2-F1",
     "R3-S1-R151-E2-F2"

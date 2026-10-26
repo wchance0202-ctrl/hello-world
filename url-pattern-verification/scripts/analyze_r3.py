@@ -248,10 +248,14 @@ def families(entries_path, r3):
         sp = urlsplit(entry_final)
         scheme_host = f"{sp.scheme}://{sp.netloc}"
         listing = {p["final_url"].split("#")[0] for p in pages} | {p["request_url"] for p in pages}
-        first_links, all_links = [], []  # (url, page_rank)
+        first_links, all_links, nav_links = [], [], []  # (url, page_rank)
         for rank, p in enumerate(pages):
             for ed in edges_by_parent.get((eid, p["final_url"]), []):
                 if ed["region"] in SKIP_REGIONS:
+                    if ed["region"] != "footer":
+                        u = ed["resolved_url"].split("#")[0]
+                        if u.startswith(("http://", "https://")):
+                            nav_links.append((u, rank, "nav"))
                     continue
                 u = ed["resolved_url"].split("#")[0]
                 if not u.startswith(("http://", "https://")):
@@ -260,10 +264,20 @@ def families(entries_path, r3):
         if eid in render:  # rendered DOM after load-more: counts as the entry page itself
             for a in render[eid]["anchors"]:
                 if a["region"].lower() in SKIP_REGIONS:
+                    if a["region"].lower() != "footer" and a["href"].startswith(("http://", "https://")):
+                        nav_links.append((a["href"].split("#")[0], 0, "nav"))
                     continue
                 u = a["href"].split("#")[0]
                 if u.startswith(("http://", "https://")):
                     all_links.append((u, 0, "rendered"))
+        def under(links, pfx):
+            return [x for x in links if urlsplit(x[0]).netloc == sp.netloc and urlsplit(x[0]).path.startswith(pfx)
+                    and urlsplit(x[0]).path != sp.path]
+        # some sites put the column's own item list inside <nav>/<header>: when the content
+        # regions hold nothing under the entry prefix, use those links (under the prefix only)
+        if len(under(all_links, prefix_of(sp.path))) < 3 and len(under(nav_links, prefix_of(sp.path))) >= 3:
+            all_links += under(nav_links, prefix_of(sp.path))
+            rec["nav_fallback"] = True
         seen_rank = {}
         for u, rank, rel in all_links:
             seen_rank[u] = min(rank, seen_rank.get(u, 99))
@@ -399,6 +413,16 @@ def freeze(r3):
             alias = re.compile(r"^" + re.escape(sh + prefix) + r"(index|default)\.[a-z]+$", re.I)
             pool = [u for u in pool if u.rstrip("/") != rec["final_url"].rstrip("/") and not alias.match(u)]
             hold = sorted(rnd.sample(pool, min(MAX_HOLD, len(pool))))
+            if not hold and len(f["inference"]) >= 4:
+                # no outside source at all: split the listing members BEFORE inducing; the
+                # held-out members are never shown to the induction
+                k = min(MAX_HOLD, max(1, len(f["inference"]) // 4))
+                hold = sorted(random.Random(f"{SEED}-{f['id']}-split").sample(f["inference"], k))
+                rest = [u for u in f["inference"] if u not in hold]
+                tpl = template_of(rest, prefix)
+                pattern = build_pattern(sh, prefix, tpl, slash_mode, sig[2], sorted(urlsplit(u).query for u in rest))
+                normal = [c for c in normal if c["url"] not in hold]
+                source = "listing_split"
             negs = [rec["final_url"]]
             depth_total = len([s for s in urlsplit(f["inference"][0]).path.split("/") if s])
             outside = [u for u in sm + rec["outside_prefix"]
@@ -407,8 +431,10 @@ def freeze(r3):
             outside = sorted(set(outside))
             negs += rnd.sample(outside, min(4, len(outside)))
             if len(negs) < 4:  # too few same-depth neighbours: any other real same-site page outside the prefix
-                anyd = sorted({u for u in sm + rec["outside_prefix"] if u.startswith(sh)
-                               and not urlsplit(u).path.startswith(prefix) and u not in negs})
+                seen_any = [u for u, _ in elsewhere[urlsplit(sh).netloc]]
+                anyd = sorted({u for u in sm + rec["outside_prefix"] + seen_any if u.startswith(sh)
+                               and not urlsplit(u).path.startswith(prefix) and u not in negs
+                               and not ASSET_EXT.search(urlsplit(u).path)})
                 negs += rnd.sample(anyd, min(4 - len(negs), len(anyd)))
             others = sorted({u for g in rec["families"] if g["id"] != f["id"] for u in g["members"]}
                             | set(rec["under_prefix_singletons"]))
@@ -426,7 +452,8 @@ def freeze(r3):
                                     + "）；尾斜杠按归纳样本实测"),
                     "slash_mode": slash_mode, "holdout_source": source,
                     "inference": ok_inf, "holdout_pos": hold, "holdout_neg": negs,
-                    "inference_redirected_away": [(c["url"], c["final_url"]) for c in away]}
+                    "inference_redirected_away": [(c["url"], c["final_url"]) for c in away],
+                    "template": [list(t) for t in tpl]}
             rules.append(rule)
             for u in hold:
                 idB.append({"entry_id": rec["entry_id"], "url": u, "parent_url": None, "relation": f"{f['id']}:holdout_pos"})
@@ -515,21 +542,45 @@ def revise(r3, results_path):
         sh, prefix = rec["scheme_host"], rec["prefix"]
         sig = tuple(x if not isinstance(x, list) else tuple(x) for x in f["signature"])
         tpl1 = [tuple(t) for t in f["template"]]
-        basis = sorted(set(f["members"]) | set(misses))
+        induced_from = [u for u in f["inference"] if u not in set(r["holdout_pos"])] \
+            if r["holdout_source"] == "listing_split" else f["inference"]
+        # decide the v2 holdout BEFORE widening: if no unused sample exists anywhere, hold out part
+        # of the missed URLs themselves and widen with the rest only
+        sm = sitemap_urls(r3, cache, sh)
+        miss_hold = []
+        pre_used = {u.rstrip("/") for u in set(r["inference"]) | set(r["holdout_pos"]) | set(r["holdout_neg"])
+                    | set(induced_from) | set(misses)}
+        if r["holdout_source"] == "sitemap":
+            pre_pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh) and u.rstrip("/") not in pre_used]
+        else:
+            pre_pool = [u for u in list(f["later_members"]) + list(f["members"]) if u.rstrip("/") not in pre_used]
+        if not pre_pool:  # links seen on other pages of this host (other entries, detail pages)
+            pre_pool = [u for u, e2 in elsewhere[urlsplit(sh).netloc] if e2 != rec["entry_id"]
+                        and same_structure(u, prefix, sig, tpl1, sh) and u.rstrip("/") not in pre_used]
+        uniq_miss = sorted(set(misses))
+        list_hold = []
+        if not pre_pool and len(uniq_miss) < 2 and len(induced_from) >= 8:
+            # last resort: re-induce v2 without a random part of the listing, which becomes the holdout
+            list_hold = sorted(random.Random(f"{SEED}-{rid}-v2split").sample(
+                induced_from, min(MAX_HOLD, len(induced_from) // 4)))
+            induced_from = [u for u in induced_from if u not in list_hold]
+        if not pre_pool and len(uniq_miss) >= 2:
+            miss_hold = sorted(random.Random(f"{SEED}-{rid}-misssplit").sample(uniq_miss, min(MAX_HOLD, len(uniq_miss) // 2)))
+        widen_with = [u for u in uniq_miss if u not in miss_hold]
+        basis = sorted(set(induced_from) | set(widen_with))
         tpl = template_of(basis, prefix)
         # keep v1 literal positions literal only if every basis URL agrees (same_structure guarantees it)
         slash_mode = r["slash_mode"]
-        if any(signature(u, prefix)[1] != sig[1] for u in misses):
+        if any(signature(u, prefix)[1] != sig[1] for u in widen_with):
             slash_mode = "optional"
         queries = sorted(urlsplit(u).query for u in basis)
         pattern = build_pattern(sh, prefix, tpl, slash_mode, sig[2], queries)
         used = {u.rstrip("/") for u in set(r["inference"]) | set(r["holdout_pos"]) | set(r["holdout_neg"])
-                | set(f["members"]) | set(misses)}
-        sm = sitemap_urls(r3, cache, sh)
+                | set(induced_from) | set(misses) | set(list_hold)}
         if r["holdout_source"] == "sitemap":
             pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh)]
-        elif r["holdout_source"] == "later_pagination_pages":
-            pool = list(f["later_members"])
+        elif r["holdout_source"] in ("later_pagination_pages", "listing_split"):
+            pool = list(f["later_members"]) + list(f["members"])
         else:
             pool = [u for u, e2 in elsewhere[urlsplit(sh).netloc] if e2 != rec["entry_id"]
                     and same_structure(u, prefix, sig, tpl1, sh)]
@@ -537,7 +588,9 @@ def revise(r3, results_path):
         pool = sorted({u for u in pool if u.rstrip("/") not in used and not alias.match(u)
                        and u.rstrip("/") != rec["final_url"].rstrip("/")})
         rnd = random.Random(f"{SEED}-{rid}-v2")
-        hold = sorted(rnd.sample(pool, min(MAX_HOLD, len(pool))))
+        if not pool and pre_pool:
+            pool = sorted({u for u in pre_pool if u.rstrip("/") not in used})
+        hold = sorted(rnd.sample(pool, min(MAX_HOLD, len(pool)))) or miss_hold or list_hold
         depth_total = len([x for x in urlsplit(r["inference"][0]).path.split("/") if x])
         outside = sorted({u for u in sm + rec["outside_prefix"] if u.startswith(sh)
                           and not urlsplit(u).path.startswith(prefix)
@@ -545,6 +598,12 @@ def revise(r3, results_path):
                           and u.rstrip("/") not in used})
         negs = [rec["final_url"]] if rec["final_url"].rstrip("/") not in used else []  # fresh negatives only
         negs += rnd.sample(outside, min(4, len(outside)))
+        if len(negs) < 4:
+            seen_any = [u for u, _ in elsewhere[urlsplit(sh).netloc]]
+            anyd = sorted({u for u in sm + rec["outside_prefix"] + seen_any if u.startswith(sh)
+                           and not urlsplit(u).path.startswith(prefix) and u not in negs
+                           and u.rstrip("/") not in used and not ASSET_EXT.search(urlsplit(u).path)})
+            negs += rnd.sample(anyd, min(4 - len(negs), len(anyd)))
         others = sorted({u for g in rec["families"] if g["id"] != rid for u in g["members"]
                          if u.rstrip("/") not in used})
         negs += rnd.sample(others, min(2, len(others)))
@@ -555,7 +614,8 @@ def revise(r3, results_path):
               "history": [{"version": 1, "pattern": r["pattern"], "holdout_fn": fn[rid][:10],
                            "listing_missed": c["listing_missed"][:10],
                            "sitemap_missed": c["sitemap_missed_count"]}],
-              "assumptions": r["assumptions"] + "；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+              "assumptions": r["assumptions"] + ("；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出"
+                                                 + ("（无新样本：扩展前留出一半漏配样本）" if miss_hold and hold == miss_hold else "")),
               "regression_pos": r["holdout_pos"], "regression_neg": r["holdout_neg"],
               "holdout_pos": hold, "holdout_neg": list(dict.fromkeys(negs))}
         out.append(r2)

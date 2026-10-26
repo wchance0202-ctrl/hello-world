@@ -3,9 +3,9 @@
 https://www.census.gov/programs-surveys/e-stats.html",^https://www\.census\.gov/programs\-surveys/e\-stats/[a-z-]+/[a-z-]+\.html$,"S1-R2-E1: https://www.census.gov/retail/
   其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E1.txt
 S1-R2-E2: https://www.census.gov/programs-surveys/e-stats.html
-  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E2.txt",S1-R2-E2 R3-S1-R2-E2-F1: https://www.census.gov/programs-surveys/e-stats/technical-documentation/questionnaires.html；https://www.census.gov/programs-surveys/e-stats/data/tables.html（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R2-E1 规则：R3-S1-R2-E1-F1 验证不通过（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、标注测试有失败（留出 FN0/FP1））；链接 可打开（200，标题「Monthly Retail Trade - Main Page」）
+  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E2.txt",S1-R2-E2 R3-S1-R2-E2-F1: https://www.census.gov/programs-surveys/e-stats/technical-documentation/questionnaires.html；https://www.census.gov/programs-surveys/e-stats/data/tables.html（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R2-E1 规则：R3-S1-R2-E1-F1 验证不通过（机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%）；链接 可打开（200，标题「Monthly Retail Trade - Main Page」）
 S1-R2-E2 R3-S1-R2-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 12 个全部匹配
-S1-R2-E2 规则：R3-S1-R2-E2-F1 已验证；R3-S1-R2-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「E-Commerce Statistics (E-STATS)」）","S1-R2-E1 = S1!指定pattern 第2行 第1个入口: https://www.census.gov/retail/
+S1-R2-E2 规则：R3-S1-R2-E2-F1 已验证；R3-S1-R2-E2-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「E-Commerce Statistics (E-STATS)」）","S1-R2-E1 = S1!指定pattern 第2行 第1个入口: https://www.census.gov/retail/
 S1-R2-E2 = S1!指定pattern 第2行 第2个入口: https://www.census.gov/programs-surveys/e-stats.html","S1-R2-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /retail/ 下家族 1 个、成员 11；前缀外同站链接 9、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R2-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /programs-surveys/e-stats/ 下家族 2 个、成员 6；前缀外同站链接 10、文件 0；sitemap 中同结构但不在列表的 URL：F1=9、F2=0
@@ -33,7 +33,7 @@ https://microdata.worldbank.org
 https://projects.worldbank.org
 https://openknowledge.worldbank.org
 https://documents.worldbank.org/en/publication/documents-reports
-https://blogs.worldbank.org/en/home",,"S1-R6-E1: https://www.worldbank.org/ext/en/development-topics
+https://blogs.worldbank.org/en/home",^https://documents\.worldbank\.org/en/publication/documents\-reports/[a-z]+$,"S1-R6-E1: https://www.worldbank.org/ext/en/development-topics
   其余 88 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E1.txt
 S1-R6-E2: https://www.worldbank.org/ext/en/where-we-work
   其余 193 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E2.txt
@@ -44,14 +44,15 @@ S1-R6-E4: https://www.worldbank.org/ext/en/what-we-do
 S1-R6-E5: https://www.worldbank.org/ext/en/news
   其余 58 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E5.txt
 S1-R6-E13: https://documents.worldbank.org/en/publication/documents-reports
-  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E13.txt
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E13.txt
 S1-R6-E14: https://blogs.worldbank.org/en/home
-  其余 49 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E14.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E13 链接保留；E14 链接保留；E6 host免提；E7 host免提；E8 host免提；E9 host免提；E10 host免提；E11 host免提；E12 host免提,"S1-R6-E1 规则：无规则；链接 可打开（200，标题「Development Topics | World Bank Group」）
+  其余 49 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R6-E14.txt",S1-R6-E13 R3-S1-R6-E13-F1: https://documents.worldbank.org/en/publication/documents-reports/disclosure；https://documents.worldbank.org/en/publication/documents-reports/api（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E13 正则+链接保留；E14 链接保留；E6 host免提；E7 host免提；E8 host免提；E9 host免提；E10 host免提；E11 host免提；E12 host免提,"S1-R6-E1 规则：无规则；链接 可打开（200，标题「Development Topics | World Bank Group」）
 S1-R6-E2 规则：无规则；链接 可打开（200，标题「Where We Work | World Bank Group」）
 S1-R6-E3 规则：无规则；链接 可打开（200，标题「Publications & Research: Reports, Data, and More |」）
 S1-R6-E4 规则：无规则；链接 可打开（200，标题「What We Do | World Bank Group: Global Development,」）
 S1-R6-E5 规则：无规则；链接 可打开（200，标题「News | World Bank Group」）
-S1-R6-E13 规则：R3-S1-R6-E13-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Documents & Reports - All Documents | The World Ba」）
+S1-R6-E13 R3-S1-R6-E13-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S1-R6-E13 规则：R3-S1-R6-E13-F1 已验证；链接 可打开（200，标题「Documents & Reports - All Documents | The World Ba」）
 S1-R6-E14 规则：无规则；链接 可打开（200，标题「Unlock Development Insights with World Bank Blogs」）","S1-R6-E1 = S1!指定pattern 第6行 第1个入口: https://www.worldbank.org/ext/en/development-topics
 S1-R6-E2 = S1!指定pattern 第6行 第2个入口: https://www.worldbank.org/ext/en/where-we-work
 S1-R6-E3 = S1!指定pattern 第6行 第3个入口: https://www.worldbank.org/ext/en/research-publications
@@ -93,7 +94,7 @@ https://www.bis.org/media/news","^https://www\.bis\.org/publications/[a-zA-Z0-9%
 ^https://www\.bis\.org/speeches/[a-zA-Z0-9-]+$","S1-R16-E1: https://www.bis.org/publications
   其余 2475 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R16-E1.txt
 S1-R16-E2: https://www.bis.org/statistics
-  其余 82 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R16-E2.txt
+  其余 84 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R16-E2.txt
 S1-R16-E4: https://www.bis.org/speeches
   其余 129 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R16-E4.txt
 S1-R16-E5: https://www.bis.org/committees/overview
@@ -122,7 +123,7 @@ S1-R16-E6 = S1!指定pattern 第16行 第6个入口: https://www.bis.org/about/f
 S1-R16-E7 = S1!指定pattern 第16行 第7个入口: https://www.bis.org/about/innovation-hub/overview
 S1-R16-E8 = S1!指定pattern 第16行 第8个入口: https://www.bis.org/media/news","S1-R16-E1: 完整（列表+sitemap 合并枚举）：静态请求 510 页（入口+分页），未完成分页 0；前缀 /publications/ 下家族 2 个、成员 5074；前缀外同站链接 2475、文件 0；sitemap 中同结构但不在列表的 URL：F1=14、F2=2
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R16-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /statistics/ 下家族 0 个、成员 0；前缀外同站链接 35、文件 46；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R16-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /statistics/ 下家族 0 个、成员 0；前缀外同站链接 35、文件 46；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R16-E4: 完整（列表+sitemap 合并枚举）：静态请求 77 页（入口+分页），未完成分页 0；前缀 /speeches/ 下家族 1 个、成员 760；前缀外同站链接 127、文件 0；sitemap 中同结构但不在列表的 URL：F1=21674
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -143,32 +144,44 @@ https://www.itu.int/en/ITU-R/Pages/default.aspx
 https://www.itu.int/en/ITU-T/Pages/default.aspx
 https://www.itu.int/en/ITU-D/Pages/default.aspx
 https://www.itu.int/hub/news/
-https://www.itu.int/en/publications/Pages/media.aspx","^https://www\.itu\.int/en/ITU\-R/[a-z-]+/[a-zA-Z0-9-]+/Pages/[a-zA-Z0-9-]+\.aspx$
-^https://www\.itu\.int/en/ITU\-T/[a-zA-Z-]+/Pages/[a-z]+\.aspx$","S1-R18-E1: https://www.itu.int/hub/pubs/
+https://www.itu.int/en/publications/Pages/media.aspx","^https://www\.itu\.int/itu\-d/sites/statistics/[a-z-]+/$
+^https://www\.itu\.int/en/ITU\-R/seminars/rrs/[a-zA-Z0-9%-]+/Pages/default\.aspx$
+^https://www\.itu\.int/en/ITU\-R/[a-z-]+/[a-zA-Z0-9-]+/Pages/[a-zA-Z0-9-]+\.aspx$
+^https://www\.itu\.int/en/ITU\-T/[a-zA-Z-]+/Pages/[a-z]+\.aspx$
+^https://www\.itu\.int/en/ITU\-T/[a-z0-9]+/[a-z0-9-]+/Pages/default\.aspx$
+^https://www\.itu\.int/hub/news/[a-z-]+/$","S1-R18-E1: https://www.itu.int/hub/pubs/
   其余 22 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E1.txt
 S1-R18-E2: https://www.itu.int/itu-d/sites/statistics/
   其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E2.txt
 S1-R18-E4: https://www.itu.int/en/action/Pages/default.aspx
   其余 61 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E4.txt
 S1-R18-E5: https://www.itu.int/en/ITU-R/Pages/default.aspx
-  其余 142 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E5.txt
+  其余 136 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E5.txt
 S1-R18-E6: https://www.itu.int/en/ITU-T/Pages/default.aspx
-  其余 49 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E6.txt
+  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E6.txt
 S1-R18-E7: https://www.itu.int/en/ITU-D/Pages/default.aspx
   其余 82 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E7.txt
 S1-R18-E8: https://www.itu.int/hub/news/
-  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E8.txt
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E8.txt
 S1-R18-E9: https://www.itu.int/en/publications/Pages/media.aspx
-  其余 52 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E9.txt","S1-R18-E5 R3-S1-R18-E5-F4: https://www.itu.int/en/ITU-R/information/events/Pages/Fellowships.aspx；https://www.itu.int/en/ITU-R/seminars/ML-in-radio-prop/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）
-S1-R18-E6 R3-S1-R18-E6-F1: https://www.itu.int/en/ITU-T/AI/Pages/ai-repository.aspx；https://www.itu.int/en/ITU-T/NoW/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 链接保留；E4 链接保留；E5 正则+链接保留；E6 正则+链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E3 host免提,"S1-R18-E1 规则：无规则；链接 可打开（200，标题「ITU Publications / UN agency for digital technolog」）
-S1-R18-E2 规则：无规则；链接 可打开（200，标题「ITU-D ICT Statistics」）
+  其余 52 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R18-E9.txt","S1-R18-E2 R3-S1-R18-E2-F1: https://www.itu.int/itu-d/sites/statistics/fr/；https://www.itu.int/itu-d/sites/statistics/ar/（已落地核验 200，公开访问，2026-10-26）
+S1-R18-E5 R3-S1-R18-E5-F2: https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx；https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Europe/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）
+S1-R18-E5 R3-S1-R18-E5-F4: https://www.itu.int/en/ITU-R/information/events/Pages/Fellowships.aspx；https://www.itu.int/en/ITU-R/seminars/ML-in-radio-prop/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）
+S1-R18-E6 R3-S1-R18-E6-F1: https://www.itu.int/en/ITU-T/AI/Pages/ai-repository.aspx；https://www.itu.int/en/ITU-T/NoW/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）
+S1-R18-E6 R3-S1-R18-E6-F2: https://www.itu.int/en/ITU-T/focusgroups/ai4a/Pages/default.aspx；https://www.itu.int/en/ITU-T/extcoop/ai4resilience/Pages/default.aspx（已落地核验 200，公开访问，2026-10-26）
+S1-R18-E8 R3-S1-R18-E8-F1: https://www.itu.int/hub/news/impact-videos/；https://www.itu.int/hub/news/did-you-know/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E4 链接保留；E5 正则+链接保留；E6 正则+链接保留；E7 链接保留；E8 正则+链接保留；E9 链接保留；E3 host免提,"S1-R18-E1 规则：无规则；链接 可打开（200，标题「ITU Publications / UN agency for digital technolog」）
+S1-R18-E2 R3-S1-R18-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN4；覆盖检查：列表 5 个、sitemap 同结构 0 个全部匹配
+S1-R18-E2 规则：R3-S1-R18-E2-F1 已验证；链接 可打开（200，标题「ITU-D ICT Statistics」）
 S1-R18-E4 规则：R3-S1-R18-E4-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Key Areas of Action」）
+S1-R18-E5 R3-S1-R18-E5-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 6 个、sitemap 同结构 0 个全部匹配
 S1-R18-E5 R3-S1-R18-E5-F4 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
-S1-R18-E5 规则：R3-S1-R18-E5-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R18-E5-F4 已验证；链接 可打开（200，标题「ITU Radiocommunication Sector」）
+S1-R18-E5 规则：R3-S1-R18-E5-F2 已验证；R3-S1-R18-E5-F4 已验证；链接 可打开（200，标题「ITU Radiocommunication Sector」）
 S1-R18-E6 R3-S1-R18-E6-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP4/FP0/FN0/TN6；覆盖检查：列表 25 个、sitemap 同结构 0 个全部匹配
-S1-R18-E6 规则：R3-S1-R18-E6-F1 已验证；R3-S1-R18-E6-F2 部分验证（候选）（机械门未通过：留出反例 2<3）；链接 可打开（200，标题「ITU Telecommunication Standardization Sector」）
+S1-R18-E6 R3-S1-R18-E6-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
+S1-R18-E6 规则：R3-S1-R18-E6-F1 已验证；R3-S1-R18-E6-F2 已验证；链接 可打开（200，标题「ITU Telecommunication Standardization Sector」）
 S1-R18-E7 规则：R3-S1-R18-E7-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%）；链接 可打开（200，标题「ITU Telecommunication Development Sector」）
-S1-R18-E8 规则：R3-S1-R18-E8-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「ITU News: Latest from the UN agency for digital te」）
+S1-R18-E8 R3-S1-R18-E8-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S1-R18-E8 规则：R3-S1-R18-E8-F1 已验证；链接 可打开（200，标题「ITU News: Latest from the UN agency for digital te」）
 S1-R18-E9 规则：无规则；链接 可打开（200，标题「Catalogue of Publications」）","S1-R18-E1 = S1!指定pattern 第18行 第1个入口: https://www.itu.int/hub/pubs/
 S1-R18-E2 = S1!指定pattern 第18行 第2个入口: https://www.itu.int/itu-d/sites/statistics/
 S1-R18-E4 = S1!指定pattern 第18行 第4个入口: https://www.itu.int/en/action/Pages/default.aspx
@@ -178,7 +191,7 @@ S1-R18-E7 = S1!指定pattern 第18行 第7个入口: https://www.itu.int/en/ITU-
 S1-R18-E8 = S1!指定pattern 第18行 第8个入口: https://www.itu.int/hub/news/
 S1-R18-E9 = S1!指定pattern 第18行 第9个入口: https://www.itu.int/en/publications/Pages/media.aspx","S1-R18-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 82；前缀 /hub/pubs/ 下家族 0 个、成员 0；前缀外同站链接 20、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R18-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 100；前缀 /itu-d/sites/statistics/ 下家族 0 个、成员 0；前缀外同站链接 14、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R18-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 100；前缀 /itu-d/sites/statistics/ 下家族 1 个、成员 5；前缀外同站链接 14、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R18-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/action/ 下家族 2 个、成员 11；前缀外同站链接 50、文件 0；sitemap 中同结构但不在列表的 URL：F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -226,10 +239,19 @@ https://www.wipo.int/en/web/world-ip-report
 https://www.wipo.int/en/web/country-profiles
 https://www3.wipo.int/madrid/monitor/en/
 https://www3.wipo.int/ipstats/
-https://www.wipo.int/en/web/patentscope/data/index","^https://www\.wipo\.int/en/web/economics/[a-z-]+$
+https://www.wipo.int/en/web/patentscope/data/index","^https://www\.wipo\.int/en/web/global\-brand\-database/w/news/[0-9]+/[a-z0-9_-]+$
+^https://www\.wipo\.int/en/web/patent\-analytics/w/[a-z]+/2026/[a-z0-9-]+$
+^https://www\.wipo\.int/en/web/business/w/news/2026/[a-z0-9-]+$
+^https://www\.wipo\.int/en/web/economics/[a-z-]+$
 ^https://www\.wipo\.int/en/web/technology\-transfer/[a-z-]+$
 ^https://www\.wipo\.int/en/web/technology\-transfer/w/stories/[a-z0-9-]+$
-^https://www\.wipo\.int/en/web/global\-innovation\-index/[0-9]+/[a-z-]+$","S1-R19-E1: https://www.wipo.int/en/web/ip-resources
+^https://www\.wipo\.int/en/web/wipo\-magazine/articles/[a-z0-9-]+$
+^https://www\.wipo\.int/en/web/ip\-advantage/w/stories/[a-z0-9-]+$
+^https://www\.wipo\.int/en/web/ip\-advantage/[a-z-]+$
+^https://www\.wipo\.int/en/web/global\-innovation\-index/w/[a-z]+/2026/[a-z0-9-]+$
+^https://www\.wipo\.int/en/web/global\-innovation\-index/[0-9]+/[a-z-]+$
+^https://www\.wipo\.int/en/web/world\-ip\-report/[0-9]+/index$
+^https://www3\.wipo\.int/ipstats/key\-search/search\-result\?type=KEY&key=[0-9]*$","S1-R19-E1: https://www.wipo.int/en/web/ip-resources
   其余 159 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E1.txt
 S1-R19-E2: https://www.wipo.int/publications/en/
   其余 141 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E2.txt
@@ -238,15 +260,15 @@ S1-R19-E3: https://www.wipo.int/en/web/ip-statistics
 S1-R19-E4: https://www.wipo.int/en/web/patentscope/
   其余 166 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E4.txt
 S1-R19-E6: https://www.wipo.int/en/web/global-brand-database
-  其余 157 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E6.txt
+  其余 154 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E6.txt
 S1-R19-E8: https://www.wipo.int/en/web/global-design-database
   其余 153 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E8.txt
 S1-R19-E10: https://www.wipo.int/en/web/patent-analytics
-  其余 180 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E10.txt
+  其余 173 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E10.txt
 S1-R19-E11: https://www.wipo.int/en/web/wipolex
   其余 158 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E11.txt
 S1-R19-E12: https://www.wipo.int/en/web/business
-  其余 165 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E12.txt
+  其余 158 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E12.txt
 S1-R19-E13: https://www.wipo.int/en/web/economics
   其余 142 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E13.txt
 S1-R19-E14: https://www.wipo.int/en/web/technology-transfer
@@ -264,54 +286,72 @@ S1-R19-E19: https://www.wipo.int/en/web/competition-policy
 S1-R19-E20: https://www.wipo.int/en/web/frontier-technologies
   其余 141 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E20.txt
 S1-R19-E21: https://www.wipo.int/en/web/wipo-magazine
-  其余 148 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E21.txt
+  其余 134 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E21.txt
 S1-R19-E22: https://www.wipo.int/en/web/ip-advantage
-  其余 163 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E22.txt
+  其余 130 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E22.txt
 S1-R19-E23: https://www.wipo.int/en/web/technology-trends
   其余 138 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E23.txt
 S1-R19-E24: https://www.wipo.int/en/web/global-innovation-index
-  其余 160 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E24.txt
+  其余 153 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E24.txt
 S1-R19-E25: https://www.wipo.int/en/web/world-ip-report
-  其余 147 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E25.txt
+  其余 143 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E25.txt
 S1-R19-E26: https://www.wipo.int/en/web/country-profiles
   其余 133 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E26.txt
 S1-R19-E27: https://www3.wipo.int/madrid/monitor/en/
   其余 25 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E27.txt
 S1-R19-E28: https://www3.wipo.int/ipstats/
-  其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E28.txt
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E28.txt
 S1-R19-E29: https://www.wipo.int/en/web/patentscope/data/index
-  其余 150 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E29.txt","S1-R19-E13 R3-S1-R19-E13-F1: https://www.wipo.int/en/web/economics/music-insights；https://www.wipo.int/en/web/economics/creative-industries-insights（已落地核验 200，公开访问，2026-10-26）
+  其余 150 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R19-E29.txt","S1-R19-E6 R3-S1-R19-E6-F2: https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-saint-vincent-and-the-grenadines-now-available-in-the-global-brand-database；https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-croatia-are-now-available-in-the-global-brand-database（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E10 R3-S1-R19-E10-F1: https://www.wipo.int/en/web/patent-analytics/w/news/2026/wipo-launches-new-e-tutorial-on-patent-analytics；https://www.wipo.int/en/web/patent-analytics/w/blog/2026/beyond-the-chatbot-what-patent-data-reveals-about-the-next-phase-of-genai（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E12 R3-S1-R19-E12-F2: https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center；https://www.wipo.int/en/web/business/w/news/2026/ipmc-shanghai-yangtze-river-delta-green-technology-intellectual-property-management-clinic-ipmc-officially-launches（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E13 R3-S1-R19-E13-F1: https://www.wipo.int/en/web/economics/music-insights；https://www.wipo.int/en/web/economics/creative-industries-insights（已落地核验 200，公开访问，2026-10-26）
 S1-R19-E14 R3-S1-R19-E14-F1: https://www.wipo.int/en/web/technology-transfer/ipr-management-principles；https://www.wipo.int/en/web/technology-transfer/academic-assets-management（已落地核验 200，公开访问，2026-10-26）
 S1-R19-E14 R3-S1-R19-E14-F3: https://www.wipo.int/en/web/technology-transfer/w/stories/ip-policy-hashemite-university；https://www.wipo.int/en/web/technology-transfer/w/stories/sadc-technology-transfer-mentorship-program-building-regional-capacity（已落地核验 200，公开访问，2026-10-26）
-S1-R19-E24 R3-S1-R19-E24-F2: https://www.wipo.int/en/web/global-innovation-index/2021/index；https://www.wipo.int/en/web/global-innovation-index/2024/index（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E6 链接保留；E8 链接保留；E10 链接保留；E11 链接保留；E12 链接保留；E13 正则+链接保留；E14 正则+链接保留；E15 链接保留；E16 链接保留；E17 链接保留；E18 链接保留；E19 链接保留；E20 链接保留；E21 链接保留；E22 链接保留；E23 链接保留；E24 正则+链接保留；E25 链接保留；E26 链接保留；E27 链接保留；E28 链接保留；E29 链接保留；E5 host免提；E7 host免提；E9 host免提,"S1-R19-E1 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP Resources」）
+S1-R19-E21 R3-S1-R19-E21-F1: https://www.wipo.int/en/web/wipo-magazine/articles/how-saudi-producer-ahmed-alsallal-uses-music-to-promote-intellectual-property-74728；https://www.wipo.int/en/web/wipo-magazine/articles/combatting-ai-deepfakes-to-safeguard-indian-cricketers-image-rights-100827（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E22 R3-S1-R19-E22-F1: https://www.wipo.int/en/web/ip-advantage/w/stories/elevating-bandung-sweet-legacy-through-innovation-and-ip；https://www.wipo.int/en/web/ip-advantage/w/stories/fourier-healthcare-robots-with-humanoid-designs（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E22 R3-S1-R19-E22-F2: https://www.wipo.int/en/web/ip-advantage/pct-system-stories；https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E24 R3-S1-R19-E24-F1: https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/lights-camera-records-global-film-production；https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/international-trade-in-ideas-know-how-and-intellectual-property（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E24 R3-S1-R19-E24-F2: https://www.wipo.int/en/web/global-innovation-index/2021/index；https://www.wipo.int/en/web/global-innovation-index/2024/index（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E25 R3-S1-R19-E25-F1: https://www.wipo.int/en/web/world-ip-report/2019/index；https://www.wipo.int/en/web/world-ip-report/2022/index（已落地核验 200，公开访问，2026-10-26）
+S1-R19-E28 R3-S1-R19-E28-F1: https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201；https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=222（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E6 正则+链接保留；E8 链接保留；E10 正则+链接保留；E11 链接保留；E12 正则+链接保留；E13 正则+链接保留；E14 正则+链接保留；E15 链接保留；E16 链接保留；E17 链接保留；E18 链接保留；E19 链接保留；E20 链接保留；E21 正则+链接保留；E22 正则+链接保留；E23 链接保留；E24 正则+链接保留；E25 正则+链接保留；E26 链接保留；E27 链接保留；E28 正则+链接保留；E29 链接保留；E5 host免提；E7 host免提；E9 host免提,"S1-R19-E1 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP Resources」）
 S1-R19-E2 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO Publications」）
-S1-R19-E3 规则：R3-S1-R19-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intellectual Property Statistics」）
-S1-R19-E4 规则：R3-S1-R19-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 1）；R3-S1-R19-E4-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「PATENTSCOPE」）
-S1-R19-E6 规则：R3-S1-R19-E6-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E6-F2 部分验证（候选）（机械门未通过：留出反例 1<3）；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Brand Database」）
-S1-R19-E8 规则：R3-S1-R19-E8-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Design Database」）
-S1-R19-E10 规则：R3-S1-R19-E10-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E10-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Patent Analytics」）
+S1-R19-E3 规则：R3-S1-R19-E3-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intellectual Property Statistics」）
+S1-R19-E4 规则：R3-S1-R19-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到家族外页面 1：https://www.wipo.int/en/web/patentscope/webinar → https://www.wipo.int/en/web/patentscope/webinar/index）；R3-S1-R19-E4-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「PATENTSCOPE」）
+S1-R19-E6 R3-S1-R19-E6-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP3/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
+S1-R19-E6 规则：R3-S1-R19-E6-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E6-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Brand Database」）
+S1-R19-E8 规则：R3-S1-R19-E8-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Design Database」）
+S1-R19-E10 R3-S1-R19-E10-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
+S1-R19-E10 规则：R3-S1-R19-E10-F1 已验证；R3-S1-R19-E10-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Patent Analytics」）
 S1-R19-E11 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO Lex – A Global IP Law Database」）
-S1-R19-E12 规则：R3-S1-R19-E12-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；列表成员漏配 1）；R3-S1-R19-E12-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Why Intellectual Property is Essential for your Bu」）
+S1-R19-E12 R3-S1-R19-E12-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
+S1-R19-E12 规则：R3-S1-R19-E12-F1 部分验证（候选）（机械门未通过：留出与归纳/回归重叠；列表成员漏配 1）；R3-S1-R19-E12-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Why Intellectual Property is Essential for your Bu」）
 S1-R19-E13 R3-S1-R19-E13-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN7；覆盖检查：列表 11 个、sitemap 同结构 0 个全部匹配
 S1-R19-E13 规则：R3-S1-R19-E13-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP and Economics」）
 S1-R19-E14 R3-S1-R19-E14-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN7；覆盖检查：列表 10 个、sitemap 同结构 0 个全部匹配
 S1-R19-E14 R3-S1-R19-E14-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
-S1-R19-E14 规则：R3-S1-R19-E14-F1 已验证；R3-S1-R19-E14-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E14-F3 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Knowledge and Technology Transfer」）
+S1-R19-E14 规则：R3-S1-R19-E14-F1 已验证；R3-S1-R19-E14-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E14-F3 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Knowledge and Technology Transfer」）
 S1-R19-E15 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP Commercialization: Taking Research from Lab to 」）
-S1-R19-E16 规则：R3-S1-R19-E16-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E16-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intellectual Property Finance」）
+S1-R19-E16 规则：R3-S1-R19-E16-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E16-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intellectual Property Finance」）
 S1-R19-E17 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intangible Assets and IP」）
 S1-R19-E18 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP in the Innovation Ecosystem」）
 S1-R19-E19 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Intellectual Property and Competition Policy」）
-S1-R19-E20 规则：R3-S1-R19-E20-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP and Frontier Technologies」）
-S1-R19-E21 规则：R3-S1-R19-E21-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO Magazine」）
-S1-R19-E22 规则：R3-S1-R19-E22-F1 部分验证（候选）（机械门未通过：留出反例 2<3）；R3-S1-R19-E22-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Case Studies on Intellectual Property (IP Advantag」）
+S1-R19-E20 规则：R3-S1-R19-E20-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「IP and Frontier Technologies」）
+S1-R19-E21 R3-S1-R19-E21-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN4；覆盖检查：列表 14 个、sitemap 同结构 0 个全部匹配
+S1-R19-E21 规则：R3-S1-R19-E21-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO Magazine」）
+S1-R19-E22 R3-S1-R19-E22-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN6；覆盖检查：列表 26 个、sitemap 同结构 0 个全部匹配
+S1-R19-E22 R3-S1-R19-E22-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
+S1-R19-E22 规则：R3-S1-R19-E22-F1 已验证；R3-S1-R19-E22-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Case Studies on Intellectual Property (IP Advantag」）
 S1-R19-E23 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Technology Trends」）
+S1-R19-E24 R3-S1-R19-E24-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
 S1-R19-E24 R3-S1-R19-E24-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP4/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 0 个全部匹配
-S1-R19-E24 规则：R3-S1-R19-E24-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R19-E24-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Innovation Index」）
-S1-R19-E25 规则：R3-S1-R19-E25-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「World Intellectual Property Report」）
+S1-R19-E24 规则：R3-S1-R19-E24-F1 已验证；R3-S1-R19-E24-F2 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Global Innovation Index」）
+S1-R19-E25 R3-S1-R19-E25-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S1-R19-E25 规则：R3-S1-R19-E25-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「World Intellectual Property Report」）
 S1-R19-E26 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「Country IP Profiles」）
 S1-R19-E27 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO Madrid Monitor」）
-S1-R19-E28 规则：R3-S1-R19-E28-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 2<3）；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO IP Statistics Data Center」）
+S1-R19-E28 R3-S1-R19-E28-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 11 个、sitemap 同结构 0 个全部匹配
+S1-R19-E28 规则：R3-S1-R19-E28-F1 已验证；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「WIPO IP Statistics Data Center」）
 S1-R19-E29 规则：无规则；第 2 轮：无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（200，标题「PCT Data Products and Services」）","S1-R19-E1 = S1!指定pattern 第19行 第1个入口: https://www.wipo.int/en/web/ip-resources
 S1-R19-E2 = S1!指定pattern 第19行 第2个入口: https://www.wipo.int/publications/en/
 S1-R19-E3 = S1!指定pattern 第19行 第3个入口: https://www.wipo.int/en/web/ip-statistics
@@ -421,22 +461,31 @@ S1-R19-E29 [K5 复核] 跳转样本：无"
 20,"https://www.epo.org/en/searching-for-patents
 https://www.epo.org/en/news-events
 https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results
-https://e-courses.epo.org/","^https://www\.epo\.org/en/searching\-for\-patents/helpful\-resources/patent\-knowledge\-news/[a-z0-9-]+$
-^https://www\.epo\.org/en/news\-events/[a-z-]+/[a-z0-9-]+$","S1-R20-E1: https://www.epo.org/en/searching-for-patents
-  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E1.txt
+https://e-courses.epo.org/","^https://www\.epo\.org/en/searching\-for\-patents/[a-z-]+/[a-z-]+$
+^https://www\.epo\.org/en/searching\-for\-patents/[a-z-]+$
+^https://www\.epo\.org/en/searching\-for\-patents/helpful\-resources/patent\-knowledge\-news/[a-z0-9-]+$
+^https://www\.epo\.org/en/news\-events/[a-z-]+/[a-z0-9-]+$
+^https://www\.epo\.org/en/news\-events/[a-z-]+$","S1-R20-E1: https://www.epo.org/en/searching-for-patents
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E1.txt
 S1-R20-E2: https://www.epo.org/en/news-events
-  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E2.txt
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E2.txt
 S1-R20-E3: https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results
-  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E3.txt","S1-R20-E1 R3-S1-R20-E1-F3: https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/accelerated-examination-and-speedy；https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/changes-vietnamese-patent-law（已落地核验 200，公开访问，2026-10-26）
-S1-R20-E2 R3-S1-R20-E2-F1: https://www.epo.org/en/news-events/events/upcoming-myepo-services-seminars；https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 链接保留；E4 host免提,"S1-R20-E1 R3-S1-R20-E1-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 258 个全部匹配
-S1-R20-E1 规则：R3-S1-R20-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；R3-S1-R20-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R20-E1-F3 已验证；链接 可打开（200，标题「Searching for patents | epo.org」）
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R20-E3.txt","S1-R20-E1 R3-S1-R20-E1-F1: https://www.epo.org/en/searching-for-patents/business/technology-insight-reports；https://www.epo.org/en/searching-for-patents/helpful-resources/business-and-statistics（已落地核验 200，公开访问，2026-10-26）
+S1-R20-E1 R3-S1-R20-E1-F2: https://www.epo.org/en/searching-for-patents/data；https://www.epo.org/en/searching-for-patents/business（已落地核验 200，公开访问，2026-10-26）
+S1-R20-E1 R3-S1-R20-E1-F3: https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/accelerated-examination-and-speedy；https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/changes-vietnamese-patent-law（已落地核验 200，公开访问，2026-10-26）
+S1-R20-E2 R3-S1-R20-E2-F1: https://www.epo.org/en/news-events/events/upcoming-myepo-services-seminars；https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026（已落地核验 200，公开访问，2026-10-26）
+S1-R20-E2 R3-S1-R20-E2-F2: https://www.epo.org/en/news-events/european-inventor-award；https://www.epo.org/en/news-events/events（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 链接保留；E4 host免提,"S1-R20-E1 R3-S1-R20-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 9 个、sitemap 同结构 28 个全部匹配
+S1-R20-E1 R3-S1-R20-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 6 个、sitemap 同结构 6 个全部匹配
+S1-R20-E1 R3-S1-R20-E1-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 258 个全部匹配
+S1-R20-E1 规则：R3-S1-R20-E1-F1 已验证；R3-S1-R20-E1-F2 已验证；R3-S1-R20-E1-F3 已验证；链接 可打开（200，标题「Searching for patents | epo.org」）
 S1-R20-E2 R3-S1-R20-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 9 个、sitemap 同结构 1087 个全部匹配
-S1-R20-E2 规则：R3-S1-R20-E2-F1 已验证；R3-S1-R20-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「News & events | epo.org」）
+S1-R20-E2 R3-S1-R20-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 7 个、sitemap 同结构 7 个全部匹配
+S1-R20-E2 规则：R3-S1-R20-E2-F1 已验证；R3-S1-R20-E2-F2 已验证；链接 可打开（200，标题「News & events | epo.org」）
 S1-R20-E3 规则：无规则；链接 可打开（200，标题「| epo.org」）","S1-R20-E1 = S1!指定pattern 第20行 第1个入口: https://www.epo.org/en/searching-for-patents
 S1-R20-E2 = S1!指定pattern 第20行 第2个入口: https://www.epo.org/en/news-events
-S1-R20-E3 = S1!指定pattern 第20行 第3个入口: https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results","S1-R20-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/searching-for-patents/ 下家族 3 个、成员 18；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=19、F2=0、F3=255
+S1-R20-E3 = S1!指定pattern 第20行 第3个入口: https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results","S1-R20-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/searching-for-patents/ 下家族 3 个、成员 18；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=19、F2=0、F3=255
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R20-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/news-events/ 下家族 2 个、成员 16；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1078、F2=0
+S1-R20-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /en/news-events/ 下家族 2 个、成员 16；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1078、F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R20-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 1080；前缀 /en/results/ 下家族 0 个、成员 0；前缀外同站链接 2、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -489,15 +538,18 @@ S1-R26-E1 [K5 已证实] https://www.mintel.com/insights/emea → https://www.mi
 S1-R26-E1 R3-S1-R26-E1-F3 未成规则：归纳样本落地不足 3 个正常页面"
 27,"https://www.euromonitor.com/articles
 https://www.euromonitor.com/webinar
-https://www.euromonitor.com/store/explore-reports",^https://www\.euromonitor\.com/insights/[a-z-]+$,"S1-R27-E1: https://www.euromonitor.com/articles
+https://www.euromonitor.com/store/explore-reports","^https://www\.euromonitor\.com/insights/[a-z-]+$
+^https://www\.euromonitor\.com/store/explore\-reports/[a-z-]+/[a-z-]+$","S1-R27-E1: https://www.euromonitor.com/articles
   其余 61 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R27-E1.txt
 S1-R27-E2: https://www.euromonitor.com/webinar
   其余 117 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R27-E2.txt
 S1-R27-E3: https://www.euromonitor.com/store/explore-reports
-  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R27-E3.txt",S1-R27-E1 R3-S1-R27-E1-F1: https://www.euromonitor.com/insights/digital；https://www.euromonitor.com/insights/consumer-foodservice（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留；E3 链接保留,"S1-R27-E1 R3-S1-R27-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP5/FP0/FN0/TN7；覆盖检查：列表 28 个、sitemap 同结构 33 个全部匹配
-S1-R27-E1 规则：R3-S1-R27-E1-F1 已验证；R3-S1-R27-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Insights is Our Market Research and Business Intel」）
+  其余 30 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R27-E3.txt","S1-R27-E1 R3-S1-R27-E1-F1: https://www.euromonitor.com/insights/digital；https://www.euromonitor.com/insights/consumer-foodservice（已落地核验 200，公开访问，2026-10-26）
+S1-R27-E3 R3-S1-R27-E3-F1: https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan；https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留,"S1-R27-E1 R3-S1-R27-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP5/FP0/FN0/TN7；覆盖检查：列表 28 个、sitemap 同结构 33 个全部匹配
+S1-R27-E1 规则：R3-S1-R27-E1-F1 已验证；R3-S1-R27-E1-F2 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）；链接 可打开（200，标题「Insights is Our Market Research and Business Intel」）
 S1-R27-E2 规则：无规则；链接 可打开（200，标题「Market Research, Data Analysis and Business Intell」）
-S1-R27-E3 规则：R3-S1-R27-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Explore reports - Euromonitor.com」）","S1-R27-E1 = S1!指定pattern 第27行 第1个入口: https://www.euromonitor.com/articles
+S1-R27-E3 R3-S1-R27-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP4/FP0/FN0/TN6；覆盖检查：列表 16 个、sitemap 同结构 0 个全部匹配
+S1-R27-E3 规则：R3-S1-R27-E3-F1 已验证；链接 可打开（200，标题「Explore reports - Euromonitor.com」）","S1-R27-E1 = S1!指定pattern 第27行 第1个入口: https://www.euromonitor.com/articles
 S1-R27-E2 = S1!指定pattern 第27行 第2个入口: https://www.euromonitor.com/webinar
 S1-R27-E3 = S1!指定pattern 第27行 第3个入口: https://www.euromonitor.com/store/explore-reports","S1-R27-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 2 个、成员 42；前缀外同站链接 47、文件 0；sitemap 中同结构但不在列表的 URL：F1=5、F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -510,14 +562,18 @@ S1-R27-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页
   其余 831 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R29-E1.txt",,E1 链接保留,S1-R29-E1 规则：无规则；链接 可打开（200，标题「What We Think | Business & Technology Insights | A」）,S1-R29-E1 = S1!指定pattern 第29行 第1个入口: https://www.accenture.com/en/insights-index,"S1-R29-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 76 轮、点击加载更多 74 次、渲染后链接 1894；前缀 /en/insights-index/ 下家族 0 个、成员 0；前缀外同站链接 812、文件 19；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 30,"https://www.nielsen.com/insights/
-https://www.nielsen.com/news-center/",,"S1-R30-E1: https://www.nielsen.com/insights/
-  其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R30-E1.txt
+https://www.nielsen.com/news-center/","^https://www\.nielsen\.com/insights/[a-z0-9]+/[a-z0-9%_-]+/$
+^https://www\.nielsen\.com/news\-center/2026/[a-z0-9-]+/$","S1-R30-E1: https://www.nielsen.com/insights/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R30-E1.txt
 S1-R30-E2: https://www.nielsen.com/news-center/
-  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R30-E2.txt",,E1 链接保留；E2 链接保留,"S1-R30-E1 规则：R3-S1-R30-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；链接 可打开（200，标题「Insights | Nielsen」）
-S1-R30-E2 规则：R3-S1-R30-E2-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；链接 可打开（200，标题「News Center Archive | Nielsen」）","S1-R30-E1 = S1!指定pattern 第30行 第1个入口: https://www.nielsen.com/insights/
-S1-R30-E2 = S1!指定pattern 第30行 第2个入口: https://www.nielsen.com/news-center/","S1-R30-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 1 个、成员 16；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=3015
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R30-E2.txt","S1-R30-E1 R3-S1-R30-E1-F1: https://www.nielsen.com/insights/2010/age-matters-mobile-youth-in-vietnam/；https://www.nielsen.com/insights/2025/what-are-nielsen-ratings/（已落地核验 200，公开访问，2026-10-26）
+S1-R30-E2 R3-S1-R30-E2-F1: https://www.nielsen.com/news-center/2026/football-and-younger-viewers-drive-ad-supported-tv-viewing-to-2025-high-nielsens-q4-2025-ad-supported-gauge-finds/；https://www.nielsen.com/news-center/2026/mcdonalds-takes-top-spot-as-new-zealands-fast-food-tastes-evolve-according-to-nielsen/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S1-R30-E1 R3-S1-R30-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 16 个、sitemap 同结构 3027 个全部匹配
+S1-R30-E1 规则：R3-S1-R30-E1-F1 已验证；链接 可打开（200，标题「Insights | Nielsen」）
+S1-R30-E2 R3-S1-R30-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 9 个、sitemap 同结构 109 个全部匹配
+S1-R30-E2 规则：R3-S1-R30-E2-F1 已验证；链接 可打开（200，标题「News Center Archive | Nielsen」）","S1-R30-E1 = S1!指定pattern 第30行 第1个入口: https://www.nielsen.com/insights/
+S1-R30-E2 = S1!指定pattern 第30行 第2个入口: https://www.nielsen.com/news-center/","S1-R30-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 1 个、成员 16；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=3015
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R30-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news-center/ 下家族 1 个、成员 9；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=100
+S1-R30-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news-center/ 下家族 1 个、成员 9；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=100
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 31,"https://msi.org/library/
 https://msi.org/research/",,"S1-R31-E1: https://msi.org/library/
@@ -548,28 +604,30 @@ S1-R32-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 34,"https://www.circana.com/insights
 https://www.circana.com/industries
-https://www.circana.com/news",,"S1-R34-E1: https://www.circana.com/insights
+https://www.circana.com/news",^https://www\.circana\.com/industries/[a-z0-9-]+$,"S1-R34-E1: https://www.circana.com/insights
   其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R34-E1.txt
 S1-R34-E2: https://www.circana.com/industries
-  其余 33 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R34-E2.txt
+  其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R34-E2.txt
 S1-R34-E3: https://www.circana.com/news
-  其余 34 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R34-E3.txt",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R34-E1 规则：无规则；链接 可打开（200，标题「Home | Insights」）
-S1-R34-E2 规则：无规则；链接 可打开（200，标题「Industries Circana Provides Market, Survey & Consu」）
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R34-E3.txt",S1-R34-E2 R3-S1-R34-E2-F1: https://www.circana.com/industries/alcoholic-beverages；https://www.circana.com/industries/center-store-and-frozen-foods（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留；E3 链接保留,"S1-R34-E1 规则：无规则；链接 可打开（200，标题「Home | Insights」）
+S1-R34-E2 R3-S1-R34-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 30 个、sitemap 同结构 30 个全部匹配
+S1-R34-E2 规则：R3-S1-R34-E2-F1 已验证；链接 可打开（200，标题「Industries Circana Provides Market, Survey & Consu」）
 S1-R34-E3 规则：无规则；链接 可打开（200，标题「Circana Insights - get the latest news, insights, 」）","S1-R34-E1 = S1!指定pattern 第34行 第1个入口: https://www.circana.com/insights
 S1-R34-E2 = S1!指定pattern 第34行 第2个入口: https://www.circana.com/industries
-S1-R34-E3 = S1!指定pattern 第34行 第3个入口: https://www.circana.com/news","S1-R34-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 8；前缀 /insights/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R34-E3 = S1!指定pattern 第34行 第3个入口: https://www.circana.com/news","S1-R34-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 8；前缀 /insights/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R34-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industries/ 下家族 1 个、成员 30；前缀外同站链接 3、文件 0
+S1-R34-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industries/ 下家族 1 个、成员 30；前缀外同站链接 3、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R34-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 448；前缀 /news/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R34-E3: 完整：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 448；前缀 /news/ 下家族 1 个、成员 3；前缀外同站链接 34、文件 0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-S1-R34-E2 R3-S1-R34-E2-F1 未成规则：归纳样本落地不足 3 个正常页面"
+S1-R34-E3 R3-S1-R34-E3-F1 未成规则：归纳样本落地不足 3 个正常页面"
 35,"https://www.comscore.com/Insights/Blog
-https://www.comscore.com/Insights/Presentations-and-Whitepapers",,"S1-R35-E1: https://www.comscore.com/Insights/Blog
+https://www.comscore.com/Insights/Presentations-and-Whitepapers",^https://www\.comscore\.com/Insights/Presentations\-and\-Whitepapers/2026/[a-zA-Z0-9-]+$,"S1-R35-E1: https://www.comscore.com/Insights/Blog
   其余 20 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R35-E1.txt
 S1-R35-E2: https://www.comscore.com/Insights/Presentations-and-Whitepapers
-  其余 20 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R35-E2.txt",,E1 链接保留；E2 链接保留,"S1-R35-E1 规则：R3-S1-R35-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3）；链接 可打开（200，标题「Blog - Comscore, Inc.」）
-S1-R35-E2 规则：R3-S1-R35-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3）；链接 可打开（200，标题「Presentations and Whitepapers - Comscore, Inc.」）","S1-R35-E1 = S1!指定pattern 第35行 第1个入口: https://www.comscore.com/Insights/Blog
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R35-E2.txt",S1-R35-E2 R3-S1-R35-E2-F1: https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Football-Kickoff-Guide；https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Fall-and-Halloween-Guide（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R35-E1 规则：R3-S1-R35-E1-F1 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）；链接 可打开（200，标题「Blog - Comscore, Inc.」）
+S1-R35-E2 R3-S1-R35-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP4/FP0/FN0/TN4；覆盖检查：列表 19 个、sitemap 同结构 0 个全部匹配
+S1-R35-E2 规则：R3-S1-R35-E2-F1 已验证；链接 可打开（200，标题「Presentations and Whitepapers - Comscore, Inc.」）","S1-R35-E1 = S1!指定pattern 第35行 第1个入口: https://www.comscore.com/Insights/Blog
 S1-R35-E2 = S1!指定pattern 第35行 第2个入口: https://www.comscore.com/Insights/Presentations-and-Whitepapers","S1-R35-E1: 完整（枚举结束，无独立全集对账）：静态请求 53 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 135；前缀 /Insights/Blog/ 下家族 1 个、成员 19；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R35-E2: 完整（枚举结束，无独立全集对账）：静态请求 26 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 135；前缀 /Insights/Presentations-and-Whitepapers/ 下家族 1 个、成员 19；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
@@ -592,15 +650,18 @@ S1-R36-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口
 39,"https://www.gwi.com/reports
 https://www.gwi.com/blog
 https://www.gwi.com/case-studies","^https://www\.gwi\.com/blog/[a-z0-9-]+$
+^https://www\.gwi\.com/blog/tag/[a-z-]+$
 ^https://www\.gwi\.com/case\-studies/[a-z0-9-]+$","S1-R39-E1: https://www.gwi.com/reports
   其余 108 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R39-E1.txt
 S1-R39-E2: https://www.gwi.com/blog
-  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R39-E2.txt
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R39-E2.txt
 S1-R39-E3: https://www.gwi.com/case-studies
   其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R39-E3.txt","S1-R39-E2 R3-S1-R39-E2-F1: https://www.gwi.com/blog/brand-purpose；https://www.gwi.com/blog/2025-predictions-vs-reality（已落地核验 200，公开访问，2026-10-26）
+S1-R39-E2 R3-S1-R39-E2-F2: https://www.gwi.com/blog/tag/consumer-behavior；https://www.gwi.com/blog/tag/data-journalism（已落地核验 200，公开访问，2026-10-26）
 S1-R39-E3 R3-S1-R39-E3-F1: https://www.gwi.com/case-studies/conde-nast；https://www.gwi.com/case-studies/barefoot-proximity（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留,"S1-R39-E1 规则：R3-S1-R39-E1-F1 部分验证（候选）（机械门未通过：标注测试有失败（留出 FN0/FP0））；链接 可打开（200，标题「Reports - Resources, Marketing Infographics & Guid」）
 S1-R39-E2 R3-S1-R39-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 21 个、sitemap 同结构 458 个全部匹配
-S1-R39-E2 规则：R3-S1-R39-E2-F1 已验证；R3-S1-R39-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Digital & Social Trends, Charts, Consumer Data & S」）
+S1-R39-E2 R3-S1-R39-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
+S1-R39-E2 规则：R3-S1-R39-E2-F1 已验证；R3-S1-R39-E2-F2 已验证；链接 可打开（200，标题「Digital & Social Trends, Charts, Consumer Data & S」）
 S1-R39-E3 R3-S1-R39-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP2/FP0/FN0/TN5；覆盖检查：列表 38 个、sitemap 同结构 35 个全部匹配
 S1-R39-E3 规则：R3-S1-R39-E3-F1 已验证；链接 可打开（200，标题「Case Studies - How Agencies, Businesses & Brands u」）","S1-R39-E1 = S1!指定pattern 第39行 第1个入口: https://www.gwi.com/reports
 S1-R39-E2 = S1!指定pattern 第39行 第2个入口: https://www.gwi.com/blog
@@ -614,13 +675,16 @@ S1-R39-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口
   其余 295 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R40-E1.txt",,E1 链接保留,S1-R40-E1 规则：R3-S1-R40-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Inspiration - Human8」）,S1-R40-E1 = S1!指定pattern 第40行 第1个入口: https://www.wearehuman8.com/inspiration/,"S1-R40-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /inspiration/ 下家族 1 个、成员 4；前缀外同站链接 291、文件 0；sitemap 中同结构但不在列表的 URL：F1=1
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 41,"https://interbrand.com/best-global-brands/
-https://interbrand.com/thinking/",^https://interbrand\.com/thinking/[a-z-]+/$,"S1-R41-E1: https://interbrand.com/best-global-brands/
-  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R41-E1.txt
+https://interbrand.com/thinking/","^https://interbrand\.com/best\-global\-brands/global/[a-z0-9-]+/$
+^https://interbrand\.com/thinking/[a-z-]+/$","S1-R41-E1: https://interbrand.com/best-global-brands/
+  其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R41-E1.txt
 S1-R41-E2: https://interbrand.com/thinking/
-  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R41-E2.txt",S1-R41-E2 R3-S1-R41-E2-F1: https://interbrand.com/thinking/design-leader-fura-johannesdottir-global-chief-creative-officer-at-interbrand/；https://interbrand.com/thinking/allianz-brand-trust/（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R41-E1 规则：R3-S1-R41-E1-F1 部分验证（候选）（机械门未通过：留出反例 0<3）；链接 可打开（200，标题「Best Global Brands - Interbrand」）
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R41-E2.txt","S1-R41-E1 R3-S1-R41-E1-F1: https://interbrand.com/best-global-brands/global/ebay/；https://interbrand.com/best-global-brands/global/apple/（已落地核验 200，公开访问，2026-10-26）
+S1-R41-E2 R3-S1-R41-E2-F1: https://interbrand.com/thinking/design-leader-fura-johannesdottir-global-chief-creative-officer-at-interbrand/；https://interbrand.com/thinking/allianz-brand-trust/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S1-R41-E1 R3-S1-R41-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 10 个、sitemap 同结构 105 个全部匹配
+S1-R41-E1 规则：R3-S1-R41-E1-F1 已验证；链接 可打开（200，标题「Best Global Brands - Interbrand」）
 S1-R41-E2 R3-S1-R41-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 4 个、sitemap 同结构 10 个全部匹配
 S1-R41-E2 规则：R3-S1-R41-E2-F1 已验证；链接 可打开（200，标题「Thinking - Interbrand」）","S1-R41-E1 = S1!指定pattern 第41行 第1个入口: https://interbrand.com/best-global-brands/
-S1-R41-E2 = S1!指定pattern 第41行 第2个入口: https://interbrand.com/thinking/","S1-R41-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /best-global-brands/ 下家族 1 个、成员 10；前缀外同站链接 1、文件 1；sitemap 中同结构但不在列表的 URL：F1=95
+S1-R41-E2 = S1!指定pattern 第41行 第2个入口: https://interbrand.com/thinking/","S1-R41-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /best-global-brands/ 下家族 1 个、成员 10；前缀外同站链接 1、文件 1；sitemap 中同结构但不在列表的 URL：F1=95
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R41-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /thinking/ 下家族 1 个、成员 4；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=6
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -640,9 +704,9 @@ S1-R43-E1 规则：R3-S1-R43-E1-F1 已验证；链接 可打开（200，标题�
 https://yougov.com/content/consumer
 https://yougov.com/reports
 https://yougov.com/business/sectors/consumer",^https://yougov\.com/reports/[a-zA-Z0-9-]+$,"S1-R45-E1: https://yougov.com/content/economy
-  其余 40 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R45-E1.txt
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R45-E1.txt
 S1-R45-E2: https://yougov.com/content/consumer
-  其余 2669 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R45-E2.txt
+  其余 2726 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R45-E2.txt
 S1-R45-E3: https://yougov.com/reports
   其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R45-E3.txt
 S1-R45-E4: https://yougov.com/business/sectors/consumer
@@ -653,10 +717,10 @@ S1-R45-E3 规则：R3-S1-R45-E3-F1 已验证；第 2 轮：无规则（详情在
 S1-R45-E4 规则：无规则；第 2 轮：无规则（详情在全站共享 /articles/、/reports/ 等路径）；链接 可打开（200，标题「Retail & FMCG Surveys, Market Research & Brand Tra」）","S1-R45-E1 = S1!指定pattern 第45行 第1个入口: https://yougov.com/content/economy
 S1-R45-E2 = S1!指定pattern 第45行 第2个入口: https://yougov.com/content/consumer
 S1-R45-E3 = S1!指定pattern 第45行 第3个入口: https://yougov.com/reports
-S1-R45-E4 = S1!指定pattern 第45行 第4个入口: https://yougov.com/business/sectors/consumer","S1-R45-E1: 部分：Load more 点到按钮消失：接口 hits=1016，页面内容链接 1,015，差 1 未解释
+S1-R45-E4 = S1!指定pattern 第45行 第4个入口: https://yougov.com/business/sectors/consumer","S1-R45-E1: 完整：Load more 点到按钮消失时页面有 1,015 条；页面在接口还有 1 条时隐藏了按钮。用页面自身的只读接口取 offset=1015 补到 1 条（id 11767，已落地 200），合计 1,016 = 接口 hits
   完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /content/economy/ 下家族 0 个、成员 0；前缀外同站链接 40、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：完整（本次筛选条件下）：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=1016，点击 28 次后按钮消失，页面取得 1,015 个内容链接（articles 899、reports 92、case-studies 13、guides 8、events 3），差 1 未解释；续跑见 output/round3/queue.json
-S1-R45-E2: 部分：Load more 点到按钮消失（76 次）：接口 hits=2717，页面内容链接 2,660，差 57 未解释
+S1-R45-E2: 完整：Load more 点到按钮消失时页面有 2,660 条；页面在接口还有 57 条时隐藏了按钮。用页面自身的只读接口取 offset=2660、2695 补到 57 条（全部落地 200），合计 2,717 = 接口 hits
   完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 77 轮、点击加载更多 75 次、渲染后链接 2893；前缀 /content/consumer/ 下家族 0 个、成员 0；前缀外同站链接 2669、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=2717，本批 45 轮取得约 1,575 个内容链接（articles 1,300、reports 229…），剩余约 1,142 条待续跑；续跑见 output/round3/queue.json
 S1-R45-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /reports/ 下家族 1 个、成员 36；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=429
@@ -706,8 +770,9 @@ S1-R47-E4 = S1!指定pattern 第47行 第4个入口: https://www.bcg.com/industr
 S1-R47-E2: 未验证：入口访问受限（站点 403，挑战页：Access Denied）；未使用任何绕过手段；续跑见 output/round3/queue.json
 S1-R47-E3: 未验证：入口访问受限（站点 403，挑战页：Access Denied）；未使用任何绕过手段；续跑见 output/round3/queue.json
 S1-R47-E4: 未验证：入口访问受限（站点 403，挑战页：Access Denied）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-48,https://www.bain.com/insights/,,"S1-R48-E1: https://www.bain.com/insights/
-  其余 40 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R48-E1.txt",,E1 链接保留,S1-R48-E1 规则：R3-S1-R48-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；链接 可打开（200，标题「Bain Insights & Publications | Bain & Company」）,S1-R48-E1 = S1!指定pattern 第48行 第1个入口: https://www.bain.com/insights/,"S1-R48-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 1 次、渲染后链接 250；前缀 /insights/ 下家族 2 个、成员 24；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=6291
+48,https://www.bain.com/insights/,^https://www\.bain\.com/insights/[a-zA-Z0-9_-]+/$,"S1-R48-E1: https://www.bain.com/insights/
+  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R48-E1.txt",S1-R48-E1 R3-S1-R48-E1-F1: https://www.bain.com/insights/2020-year-in-review-the-surprising-resilience-m-and-a-report-2021/；https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R48-E1 R3-S1-R48-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 21 个、sitemap 同结构 6295 个全部匹配
+S1-R48-E1 规则：R3-S1-R48-E1-F1 已验证；链接 可打开（200，标题「Bain Insights & Publications | Bain & Company」）",S1-R48-E1 = S1!指定pattern 第48行 第1个入口: https://www.bain.com/insights/,"S1-R48-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 1 次、渲染后链接 250；前缀 /insights/ 下家族 2 个、成员 24；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=6291
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 S1-R48-E1 R3-S1-R48-E1-F2 未成规则：归纳样本落地不足 3 个正常页面"
 49,https://www.deloitte.com/global/en/insights.html,"^https://www\.deloitte\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\.html$
@@ -715,7 +780,7 @@ S1-R48-E1 R3-S1-R48-E1-F2 未成规则：归纳样本落地不足 3 个正常页
   其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R49-E1.txt","S1-R49-E1 R3-S1-R49-E1-F1: https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/critical-need-for-cybersecurity-in-space-systems.html；https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions.html（已落地核验 200，公开访问，2026-10-26）
 S1-R49-E1 R3-S1-R49-E1-F2: https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2026/agentic-ai-wealth-management-productivity.html；https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R49-E1 R3-S1-R49-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP5/FP0/FN0/TN6；覆盖检查：列表 16 个、sitemap 同结构 1114 个全部匹配
 S1-R49-E1 R3-S1-R49-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 12 个、sitemap 同结构 48 个全部匹配
-S1-R49-E1 规则：R3-S1-R49-E1-F1 已验证；R3-S1-R49-E1-F2 已验证；链接 可打开（200，标题「Deloitte Insights」）",S1-R49-E1 = S1!指定pattern 第49行 第1个入口: https://www.deloitte.com/global/en/insights.html,"S1-R49-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /global/en/insights/ 下家族 3 个、成员 32；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=1098、F2=36
+S1-R49-E1 规则：R3-S1-R49-E1-F1 已验证；R3-S1-R49-E1-F2 已验证；链接 可打开（200，标题「Deloitte Insights」）",S1-R49-E1 = S1!指定pattern 第49行 第1个入口: https://www.deloitte.com/global/en/insights.html,"S1-R49-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /global/en/insights/ 下家族 3 个、成员 32；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=1098、F2=36
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 S1-R49-E1 R3-S1-R49-E1-F3 未成规则：归纳样本落地不足 3 个正常页面"
 50,"https://www.forrester.com/b2b-marketing/
@@ -724,7 +789,7 @@ https://www.forrester.com/blogs/category/b2b-research/
 https://www.forrester.com/blogs/category/b2b-research/page/2/",,"S1-R50-E1: https://www.forrester.com/b2b-marketing/
   其余 39 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R50-E1.txt
 S1-R50-E2: https://www.forrester.com/b2c-marketing/
-  其余 33 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R50-E2.txt
+  其余 34 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R50-E2.txt
 S1-R50-E3: https://www.forrester.com/blogs/category/b2b-research/
   其余 1324 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R50-E3.txt
 S1-R50-E4: https://www.forrester.com/blogs/category/b2b-research/page/2/
@@ -736,12 +801,13 @@ S1-R50-E2 = S1!指定pattern 第50行 第2个入口: https://www.forrester.com/b
 S1-R50-E3 = S1!指定pattern 第50行 第3个入口: https://www.forrester.com/blogs/category/b2b-research/
 S1-R50-E4 = S1!指定pattern 第50行 第4个入口: https://www.forrester.com/blogs/category/b2b-research/page/2/","S1-R50-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 254；前缀 /b2b-marketing/ 下家族 0 个、成员 0；前缀外同站链接 37、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R50-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 242；前缀 /b2c-marketing/ 下家族 0 个、成员 0；前缀外同站链接 33、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R50-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 242；前缀 /b2c-marketing/ 下家族 0 个、成员 0；前缀外同站链接 33、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R50-E3: 部分：页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 1,222 篇内；未在列表出现的 1 篇已定位（id 122415，2018-05-09）；分类计数 1,287 与公开 1,222 差 65 未解释
+S1-R50-E3: 完整：页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 公开文章 1,222 篇（X-WP-Total）内；未在列表出现的 1 篇已定位（id 122415，2018-05-09）。分类计数 1,287 是 WordPress 内部计数，可能含非公开文章，公开接口无法核实，不作为对账总数
   完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 63 轮、点击加载更多 61 次、渲染后链接 3369；前缀 /blogs/category/b2b-research/ 下家族 0 个、成员 0；前缀外同站链接 1324、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：部分：根因已查清——列表页底部 More posts 调用 POST go.forrester.com/wp-admin/admin-ajax.php action=loadposts&page=N&category=b2b-research，data-pages=62；/page/N/ 地址的静态正文不随页码变化。成员集合经 WP REST GET（categories=50231）取得 1,222 篇（X-WP-Total=1222，与 62 页×20 吻合），首页 16 篇全部在内；分类计数 1,287 与公开文章数差 65 未解释；loadposts POST 本轮未执行（权限拦截）；续跑见 output/round3/queue.json
-S1-R50-E4: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 20 轮、点击加载更多 20 次、渲染后链接 1331；前缀 /blogs/category/b2b-research/page/2/ 下家族 0 个、成员 0；前缀外同站链接 497、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R50-E4: 完整：/page/2/ 与 S1-R50-E3 是同一栏目、同一列表（服务端忽略页码），成员与对账同 S1-R50-E3
+  部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 20 轮、点击加载更多 20 次、渲染后链接 1331；前缀 /blogs/category/b2b-research/page/2/ 下家族 0 个、成员 0；前缀外同站链接 497、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：部分：/page/2/ 静态返回与第 1 页相同的 16 篇（30/30 链接一致），JS 变量 current_page=2，仅影响 More posts 起始页；同栏目成员见 S1-R50-E3；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 S1-R50-E3 [K1 根因] 第 2 页与第 1 页相同是因为服务端对 /page/N/ 不分页，真实分页走 admin-ajax loadposts
 S1-R50-E3 详情位于全站共享 /blogs/{slug}/：抽样 6 篇成员页均带 b2b-research 分类标记，4 篇其他分类同结构页无，证实不能泛化
@@ -787,44 +853,54 @@ S1-R51-E6 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页�
 52,"https://www.pewresearch.org/topic/economy-work/
 https://www.pewresearch.org/topic/internet-technology/
 https://www.pewresearch.org/topic/news-habits-media/
-https://www.pewresearch.org/topic/economy-work/business-workplace/",,"S1-R52-E1: https://www.pewresearch.org/topic/economy-work/
+https://www.pewresearch.org/topic/economy-work/business-workplace/","^https://www\.pewresearch\.org/topic/economy\-work/page/[0-9]+/$
+^https://www\.pewresearch\.org/topic/internet\-technology/[a-z-]+/[a-z0-9-]+/$
+^https://www\.pewresearch\.org/topic/news\-habits\-media/[a-z-]+/[a-z0-9-]+/$","S1-R52-E1: https://www.pewresearch.org/topic/economy-work/
   其余 30 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E1.txt
 S1-R52-E2: https://www.pewresearch.org/topic/internet-technology/
   其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E2.txt
 S1-R52-E3: https://www.pewresearch.org/topic/news-habits-media/
-  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E3.txt
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E3.txt
 S1-R52-E4: https://www.pewresearch.org/topic/economy-work/business-workplace/
-  其余 85 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E4.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R52-E1 规则：无规则；链接 可打开（200，标题「Economy & Work - Research and data from Pew Resear」）
-S1-R52-E2 规则：无规则；链接 可打开（200，标题「Internet & Technology - Research and data from Pew」）
-S1-R52-E3 规则：无规则；链接 可打开（200，标题「News Habits & Media - Research and data from Pew R」）
+  其余 85 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R52-E4.txt","S1-R52-E1 R3-S1-R52-E1-F1: https://www.pewresearch.org/topic/economy-work/page/161/；https://www.pewresearch.org/topic/economy-work/page/163/（已落地核验 200，公开访问，2026-10-26）
+S1-R52-E2 R3-S1-R52-E2-F1: https://www.pewresearch.org/topic/internet-technology/emerging-technology/bots/；https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/（已落地核验 200，公开访问，2026-10-26）
+S1-R52-E3 R3-S1-R52-E3-F1: https://www.pewresearch.org/topic/news-habits-media/media-society/freedom-of-the-press/；https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留,"S1-R52-E1 R3-S1-R52-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
+S1-R52-E1 规则：R3-S1-R52-E1-F1 已验证；链接 可打开（200，标题「Economy & Work - Research and data from Pew Resear」）
+S1-R52-E2 R3-S1-R52-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 4 个、sitemap 同结构 28 个全部匹配
+S1-R52-E2 规则：R3-S1-R52-E2-F1 已验证；链接 可打开（200，标题「Internet & Technology - Research and data from Pew」）
+S1-R52-E3 R3-S1-R52-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 12 个全部匹配
+S1-R52-E3 规则：R3-S1-R52-E3-F1 已验证；链接 可打开（200，标题「News Habits & Media - Research and data from Pew R」）
 S1-R52-E4 规则：无规则；链接 可打开（200，标题「Business & Workplace - Research and data from Pew 」）","S1-R52-E1 = S1!指定pattern 第52行 第1个入口: https://www.pewresearch.org/topic/economy-work/
 S1-R52-E2 = S1!指定pattern 第52行 第2个入口: https://www.pewresearch.org/topic/internet-technology/
 S1-R52-E3 = S1!指定pattern 第52行 第3个入口: https://www.pewresearch.org/topic/news-habits-media/
-S1-R52-E4 = S1!指定pattern 第52行 第4个入口: https://www.pewresearch.org/topic/economy-work/business-workplace/","S1-R52-E1: 完整（枚举结束，无独立全集对账）：静态请求 6 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 129；前缀 /topic/economy-work/ 下家族 0 个、成员 0；前缀外同站链接 30、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R52-E4 = S1!指定pattern 第52行 第4个入口: https://www.pewresearch.org/topic/economy-work/business-workplace/","S1-R52-E1: 完整（枚举结束，无独立全集对账）：静态请求 6 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 129；前缀 /topic/economy-work/ 下家族 1 个、成员 3；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R52-E2: 完整（枚举结束，无独立全集对账）：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 0 个、成员 0；前缀外同站链接 21、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R52-E2: 部分：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R52-E3: 完整（枚举结束，无独立全集对账）：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 0 个、成员 0；前缀外同站链接 41、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R52-E3: 部分：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R52-E4: 完整（枚举结束，无独立全集对账）：静态请求 15 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 120；前缀 /topic/economy-work/business-workplace/ 下家族 0 个、成员 0；前缀外同站链接 85、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 53,"https://www.idc.com/research/
 https://www.idc.com/data-analytics/
 https://www.idc.com/quanta/
-https://www.idc.com/resource-center/","^https://www\.idc\.com/data\-analytics/[a-z-]+/?$
+https://www.idc.com/resource-center/","^https://www\.idc\.com/research/[a-z-]+/?$
+^https://www\.idc\.com/data\-analytics/[a-z-]+/?$
 ^https://www\.idc\.com/quanta/[a-z-]+/$
 ^https://www\.idc\.com/resource\-center/blog/[a-z0-9%-]+/$
 ^https://www\.idc\.com/resource\-center/[a-z0-9-]+/$","S1-R53-E1: https://www.idc.com/research/
-  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E1.txt
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E1.txt
 S1-R53-E2: https://www.idc.com/data-analytics/
   其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E2.txt
 S1-R53-E3: https://www.idc.com/quanta/
   其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E3.txt
 S1-R53-E4: https://www.idc.com/resource-center/
-  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E4.txt","S1-R53-E2 R3-S1-R53-E2-F1: https://www.idc.com/data-analytics/news/；https://www.idc.com/data-analytics/black-book（已落地核验 200，公开访问，2026-10-26）
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R53-E4.txt","S1-R53-E1 R3-S1-R53-E1-F1: https://www.idc.com/research/investment-research；https://www.idc.com/research/digital-business（已落地核验 200，公开访问，2026-10-26）
+S1-R53-E2 R3-S1-R53-E2-F1: https://www.idc.com/data-analytics/news/；https://www.idc.com/data-analytics/black-book（已落地核验 200，公开访问，2026-10-26）
 S1-R53-E3 R3-S1-R53-E3-F1: https://www.idc.com/quanta/book-a-demo/；https://www.idc.com/quanta/tech-leader/（已落地核验 200，公开访问，2026-10-26）
 S1-R53-E4 R3-S1-R53-E4-F1: https://www.idc.com/resource-center/blog/%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%ad%a3%e5%9c%a8%e8%bf%9b%e5%8c%96-2026%e5%b9%b4%e4%b8%ad%e5%9b%bd%e6%9c%ba%e5%99%a8%e4%ba%ba%e4%b8%8e%e5%85%b7%e8%ba%ab%e6%99%ba/；https://www.idc.com/resource-center/blog/ai-is-short-of-capacity-not-demand/（已落地核验 200，公开访问，2026-10-26）
-S1-R53-E4 R3-S1-R53-E4-F2: https://www.idc.com/resource-center/ai-hub/；https://www.idc.com/resource-center/blog/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留,"S1-R53-E1 规则：R3-S1-R53-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「IDC.com - Research - Overview」）
+S1-R53-E4 R3-S1-R53-E4-F2: https://www.idc.com/resource-center/ai-hub/；https://www.idc.com/resource-center/blog/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留,"S1-R53-E1 R3-S1-R53-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 6 个、sitemap 同结构 6 个全部匹配
+S1-R53-E1 规则：R3-S1-R53-E1-F1 已验证；链接 可打开（200，标题「IDC.com - Research - Overview」）
 S1-R53-E2 R3-S1-R53-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN5；覆盖检查：列表 6 个、sitemap 同结构 7 个全部匹配
 S1-R53-E2 规则：R3-S1-R53-E2-F1 已验证；链接 可打开（200，标题「IDC - Data Analytics - Home」）
 S1-R53-E3 R3-S1-R53-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP2/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 5 个全部匹配
@@ -834,7 +910,7 @@ S1-R53-E4 R3-S1-R53-E4-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 
 S1-R53-E4 规则：R3-S1-R53-E4-F1 已验证；R3-S1-R53-E4-F2 已验证；链接 可打开（200，标题「IDC - Resource Center - Overview」）","S1-R53-E1 = S1!指定pattern 第53行 第1个入口: https://www.idc.com/research/
 S1-R53-E2 = S1!指定pattern 第53行 第2个入口: https://www.idc.com/data-analytics/
 S1-R53-E3 = S1!指定pattern 第53行 第3个入口: https://www.idc.com/quanta/
-S1-R53-E4 = S1!指定pattern 第53行 第4个入口: https://www.idc.com/resource-center/","S1-R53-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 1 个、成员 6；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=6
+S1-R53-E4 = S1!指定pattern 第53行 第4个入口: https://www.idc.com/resource-center/","S1-R53-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 1 个、成员 6；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=6
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R53-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /data-analytics/ 下家族 1 个、成员 6；前缀外同站链接 8、文件 0；sitemap 中同结构但不在列表的 URL：F1=7
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -851,7 +927,7 @@ S1-R53-E4: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口
 60,/,,,,,,,,
 61,/,,,,,,,,
 62,https://ads.tiktok.com/creative/creativeCenter,,"S1-R62-E1: https://ads.tiktok.com/creative/creativeCenter
-  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R62-E1.txt",,E1 链接保留,S1-R62-E1 规则：无规则；链接 可打开（200，标题「TikTok One Creative Suite」）,S1-R62-E1 = S1!指定pattern 第62行 第1个入口: https://ads.tiktok.com/creative/creativeCenter,"S1-R62-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 0；前缀 /creative/creativeCenter/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+  其余 10 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R62-E1.txt",,E1 链接保留,S1-R62-E1 规则：R3-S1-R62-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「TikTok One Creative Suite」）,S1-R62-E1 = S1!指定pattern 第62行 第1个入口: https://ads.tiktok.com/creative/creativeCenter,"S1-R62-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 0；前缀 /creative/creativeCenter/ 下家族 1 个、成员 3；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 63,https://transparency.meta.com/policies/,,"S1-R63-E1: https://transparency.meta.com/policies/
   其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R63-E1.txt",,E1 链接保留,S1-R63-E1 规则：无规则；链接 访问受限（站点 400：Error）,S1-R63-E1 = S1!指定pattern 第63行 第1个入口: https://transparency.meta.com/policies/,S1-R63-E1: 未验证：入口访问受限（站点 400：Error）；未使用任何绕过手段；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -861,8 +937,8 @@ S1-R53-E4: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口
 65,https://www.linkedin.com/business/marketing/blog,"^https://www\.linkedin\.com/business/marketing/blog/[a-z-]+/[a-z0-9-]+$
 ^https://www\.linkedin\.com/business/marketing/blog/[a-z-]+$","S1-R65-E1: https://www.linkedin.com/business/marketing/blog
   其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R65-E1.txt","S1-R65-E1 R3-S1-R65-E1-F1: https://www.linkedin.com/business/marketing/blog/content-marketing/b2b-video-executive-voices-credibility；https://www.linkedin.com/business/marketing/blog/ai-search/why-your-brand-needs-a-point-of-view-artificial-intelligence-cant-replicate（已落地核验 200，公开访问，2026-10-26）
-S1-R65-E1 R3-S1-R65-E1-F2: https://www.linkedin.com/business/marketing/blog/agency；https://www.linkedin.com/business/marketing/blog/ai-search（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R65-E1 R3-S1-R65-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 19 个、sitemap 同结构 0 个全部匹配
-S1-R65-E1 R3-S1-R65-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S1-R65-E1 R3-S1-R65-E1-F2: https://www.linkedin.com/business/marketing/blog/agency；https://www.linkedin.com/business/marketing/blog/ai-search（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R65-E1 R3-S1-R65-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN6；覆盖检查：列表 19 个、sitemap 同结构 0 个全部匹配
+S1-R65-E1 R3-S1-R65-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN6；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
 S1-R65-E1 规则：R3-S1-R65-E1-F1 已验证；R3-S1-R65-E1-F2 已验证；链接 可打开（200，标题「Marketing & Advertising Blog | LinkedIn for Market」）",S1-R65-E1 = S1!指定pattern 第65行 第1个入口: https://www.linkedin.com/business/marketing/blog,"S1-R65-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /business/marketing/blog/ 下家族 2 个、成员 27；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 66,https://effie.org/insights/,"^https://effie\.org/insights/[a-z0-9-]+/$
@@ -1001,22 +1077,28 @@ https://www.dandad.org/insights/case-studies-and-partnerships
 https://www.dandad.org/work/d-ad-awards-archive
 https://www.dandad.org/subjects/case-study","^https://www\.dandad\.org/work/annual\-2026/[a-z0-9-]+/[a-z0-9íüē-]+$
 ^https://www\.dandad\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$
+^https://www\.dandad\.org/insights/[a-z-]+$
+^https://www\.dandad\.org/insights/case\-studies\-and\-partnerships/[a-z-]+$
 ^https://www\.dandad\.org/work/d\-ad\-awards\-archive/[a-z0-9_ßàáâãäåæçèéêíðñòóôöøúüāđēīņōœśšžǎǐ我水-]+$","S1-R86-E1: https://www.dandad.org/work/annual-2026/
   其余 66 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E1.txt
 S1-R86-E2: https://www.dandad.org/insights
-  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E2.txt
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E2.txt
 S1-R86-E3: https://www.dandad.org/insights/case-studies-and-partnerships
-  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E3.txt
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E3.txt
 S1-R86-E4: https://www.dandad.org/work/d-ad-awards-archive
   其余 11 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E4.txt
 S1-R86-E5: https://www.dandad.org/subjects/case-study
   其余 75 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R86-E5.txt","S1-R86-E1 R3-S1-R86-E1-F1: https://www.dandad.org/work/annual-2026/judges-curations/curation-by-astrid-stavro-magazine-newspaper-design；https://www.dandad.org/work/annual-2026/behind-the-work/how-bad-bunnys-interactive-album-teaser-bridged-local-and-global-fandoms（已落地核验 200，公开访问，2026-10-26）
 S1-R86-E2 R3-S1-R86-E2-F1: https://www.dandad.org/insights/awards/amex-small-business-saturday-case-study-insights；https://www.dandad.org/insights/awards/dad-awards-2026-watch-our-webinars-on-whats-new-and-how-to-enter（已落地核验 200，公开访问，2026-10-26）
-S1-R86-E4 R3-S1-R86-E4-F1: https://www.dandad.org/work/d-ad-awards-archive/ariel-share-the-load；https://www.dandad.org/work/d-ad-awards-archive/100-words-for-water-a-projective-ecosocial-vocabulary（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 链接保留；E4 正则+链接保留；E5 链接保留,"S1-R86-E1 R3-S1-R86-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 40 个、sitemap 同结构 49 个全部匹配
+S1-R86-E2 R3-S1-R86-E2-F2: https://www.dandad.org/insights/awards；https://www.dandad.org/insights/case-studies-and-partnerships（已落地核验 200，公开访问，2026-10-26）
+S1-R86-E3 R3-S1-R86-E3-F1: https://www.dandad.org/insights/case-studies-and-partnerships/how-creativity-and-innovation-drive-impact；https://www.dandad.org/insights/case-studies-and-partnerships/glimpse-masterclass-case-study（已落地核验 200，公开访问，2026-10-26）
+S1-R86-E4 R3-S1-R86-E4-F1: https://www.dandad.org/work/d-ad-awards-archive/ariel-share-the-load；https://www.dandad.org/work/d-ad-awards-archive/100-words-for-water-a-projective-ecosocial-vocabulary（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留；E5 链接保留,"S1-R86-E1 R3-S1-R86-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 40 个、sitemap 同结构 49 个全部匹配
 S1-R86-E1 规则：R3-S1-R86-E1-F1 已验证；R3-S1-R86-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「D&AD Annual 2026」）
 S1-R86-E2 R3-S1-R86-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 46 个、sitemap 同结构 409 个全部匹配
-S1-R86-E2 规则：R3-S1-R86-E2-F1 已验证；R3-S1-R86-E2-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Insights」）
-S1-R86-E3 规则：R3-S1-R86-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Case studies and partnerships | Insights」）
+S1-R86-E2 R3-S1-R86-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 4 个、sitemap 同结构 4 个全部匹配
+S1-R86-E2 规则：R3-S1-R86-E2-F1 已验证；R3-S1-R86-E2-F2 已验证；链接 可打开（200，标题「Insights」）
+S1-R86-E3 R3-S1-R86-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 10 个全部匹配
+S1-R86-E3 规则：R3-S1-R86-E3-F1 已验证；链接 可打开（200，标题「Case studies and partnerships | Insights」）
 S1-R86-E4 R3-S1-R86-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 21878 个全部匹配
 S1-R86-E4 规则：R3-S1-R86-E4-F1 已验证；链接 可打开（200，标题「D&AD Awards archive」）
 S1-R86-E5 规则：无规则；链接 可打开（200，标题「Case Study」）","S1-R86-E1 = S1!指定pattern 第86行 第1个入口: https://www.dandad.org/work/annual-2026/
@@ -1035,15 +1117,18 @@ S1-R86-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 87,"https://www.demandcurve.com/frontier-library
 https://gp.demandcurve.com/resources
-https://gp.demandcurve.com/blog",^https://www\.demandcurve\.com/frontier\-library/[a-z-]+$,"S1-R87-E1: https://www.demandcurve.com/frontier-library
+https://gp.demandcurve.com/blog","^https://www\.demandcurve\.com/frontier\-library/[a-z-]+$
+^https://gp\.demandcurve\.com/blog/[a-z-]+$","S1-R87-E1: https://www.demandcurve.com/frontier-library
   其余 80 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R87-E1.txt
 S1-R87-E2: https://gp.demandcurve.com/resources
   其余 22 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R87-E2.txt
 S1-R87-E3: https://gp.demandcurve.com/blog
-  其余 60 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R87-E3.txt",S1-R87-E1 R3-S1-R87-E1-F1: https://www.demandcurve.com/frontier-library/analytics；https://www.demandcurve.com/frontier-library/ai-growth（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留；E3 链接保留,"S1-R87-E1 R3-S1-R87-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP2/FP0/FN0/TN5；覆盖检查：列表 11 个、sitemap 同结构 13 个全部匹配
+  其余 22 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R87-E3.txt","S1-R87-E1 R3-S1-R87-E1-F1: https://www.demandcurve.com/frontier-library/analytics；https://www.demandcurve.com/frontier-library/ai-growth（已落地核验 200，公开访问，2026-10-26）
+S1-R87-E3 R3-S1-R87-E3-F1: https://gp.demandcurve.com/blog/cold-email-marketing；https://gp.demandcurve.com/blog/copywriting-examples（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留,"S1-R87-E1 R3-S1-R87-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP2/FP0/FN0/TN5；覆盖检查：列表 11 个、sitemap 同结构 13 个全部匹配
 S1-R87-E1 规则：R3-S1-R87-E1-F1 已验证；链接 可打开（200，标题「Growth Content Library | The Frontier by Demand Cu」）
 S1-R87-E2 规则：无规则；链接 可打开（200，标题「Demand Curve Resources」）
-S1-R87-E3 规则：R3-S1-R87-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Growth Marketing Blog by Demand Curve」）","S1-R87-E1 = S1!指定pattern 第87行 第1个入口: https://www.demandcurve.com/frontier-library
+S1-R87-E3 R3-S1-R87-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 38 个、sitemap 同结构 38 个全部匹配
+S1-R87-E3 规则：R3-S1-R87-E3-F1 已验证；链接 可打开（200，标题「Growth Marketing Blog by Demand Curve」）","S1-R87-E1 = S1!指定pattern 第87行 第1个入口: https://www.demandcurve.com/frontier-library
 S1-R87-E2 = S1!指定pattern 第87行 第2个入口: https://gp.demandcurve.com/resources
 S1-R87-E3 = S1!指定pattern 第87行 第3个入口: https://gp.demandcurve.com/blog","S1-R87-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /frontier-library/ 下家族 1 个、成员 11；前缀外同站链接 80、文件 0；sitemap 中同结构但不在列表的 URL：F1=2
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1052,7 +1137,7 @@ S1-R87-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页
 S1-R87-E3: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 38；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 88,https://dpaaglobal.com/omnichannel-study/,,"S1-R88-E1: https://dpaaglobal.com/omnichannel-study/
-  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R88-E1.txt",,E1 链接保留,S1-R88-E1 规则：无规则；第 2 轮：无规则；链接 可打开（200，标题「Omnichannel Study | DPAA | Global Digital Out-of-H」）,S1-R88-E1 = S1!指定pattern 第88行 第1个入口: https://dpaaglobal.com/omnichannel-study/,"S1-R88-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 44；前缀 /omnichannel-study/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R88-E1.txt",,E1 链接保留,S1-R88-E1 规则：无规则；第 2 轮：无规则；链接 可打开（200，标题「Omnichannel Study | DPAA | Global Digital Out-of-H」）,S1-R88-E1 = S1!指定pattern 第88行 第1个入口: https://dpaaglobal.com/omnichannel-study/,"S1-R88-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 44；前缀 /omnichannel-study/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染
   第 2 轮人工复核：部分：入口静态首轮 1 页（2189 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 S1-R88-E1 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页"
 89,"https://www.greenbook.org/directory
@@ -1068,7 +1153,7 @@ S1-R89-E2 R3-S1-R89-E2-F2: https://www.greenbook.org/insights/empowered-to-lead-
 S1-R89-E2 R3-S1-R89-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 66 个、sitemap 同结构 5213 个全部匹配
 S1-R89-E2 R3-S1-R89-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 36 个、sitemap 同结构 847 个全部匹配
 S1-R89-E2 规则：R3-S1-R89-E2-F1 已验证；R3-S1-R89-E2-F2 已验证；第 2 轮：无规则；链接 可打开（200，标题「Insights — Greenbook」）
-S1-R89-E3 规则：R3-S1-R89-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则；链接 可打开（200，标题「GRIT — Greenbook」）","S1-R89-E1 = S1!指定pattern 第89行 第1个入口: https://www.greenbook.org/directory
+S1-R89-E3 规则：R3-S1-R89-E3-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；第 2 轮：无规则；链接 可打开（200，标题「GRIT — Greenbook」）","S1-R89-E1 = S1!指定pattern 第89行 第1个入口: https://www.greenbook.org/directory
 S1-R89-E2 = S1!指定pattern 第89行 第2个入口: https://www.greenbook.org/insights
 S1-R89-E3 = S1!指定pattern 第89行 第3个入口: https://www.greenbook.org/grit","S1-R89-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 62；前缀 /directory/ 下家族 0 个、成员 0；前缀外同站链接 16、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：部分：入口静态首轮 1 页（4420 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round3/queue.json
@@ -1079,8 +1164,9 @@ S1-R89-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；
 S1-R89-E1 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页
 S1-R89-E2 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页
 S1-R89-E3 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页"
-90,https://growth.design/case-studies,,"S1-R90-E1: https://growth.design/case-studies
-  其余 52 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R90-E1.txt",,E1 链接保留,S1-R90-E1 规则：R3-S1-R90-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「52 UX Case Studies To Improve Your Product Skills 」）,S1-R90-E1 = S1!指定pattern 第90行 第1个入口: https://growth.design/case-studies,"S1-R90-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case-studies/ 下家族 1 个、成员 52；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
+90,https://growth.design/case-studies,^https://growth\.design/case\-studies/[a-z0-9-]+$,"S1-R90-E1: https://growth.design/case-studies
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R90-E1.txt",S1-R90-E1 R3-S1-R90-E1-F1: https://growth.design/case-studies/adobe-trial-ux；https://growth.design/case-studies/labor-perception-bias（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R90-E1 R3-S1-R90-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN4；覆盖检查：列表 52 个、sitemap 同结构 52 个全部匹配
+S1-R90-E1 规则：R3-S1-R90-E1-F1 已验证；链接 可打开（200，标题「52 UX Case Studies To Improve Your Product Skills 」）",S1-R90-E1 = S1!指定pattern 第90行 第1个入口: https://growth.design/case-studies,"S1-R90-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case-studies/ 下家族 1 个、成员 52；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 91,"https://growthhackers.com/growth-studies/
 https://growthhackers.com/opinions/",,"S1-R91-E1: https://growthhackers.com/growth-studies/
@@ -1113,14 +1199,18 @@ S1-R93-E3: 未验证：入口访问受限（站点 403，挑战页：Just a mome
 95,"https://marketingexamples.com/
 https://marketingexamples.com/inspiration
 https://marketingexamples.com/social
-https://marketingexamples.com/copywriting",,"S1-R95-E2: https://marketingexamples.com/inspiration
+https://marketingexamples.com/copywriting","^https://marketingexamples\.com/social/[a-z-]+$
+^https://marketingexamples\.com/copywriting/[a-z-]+$","S1-R95-E2: https://marketingexamples.com/inspiration
   其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R95-E2.txt
 S1-R95-E3: https://marketingexamples.com/social
-  其余 38 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R95-E3.txt
+  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R95-E3.txt
 S1-R95-E4: https://marketingexamples.com/copywriting
-  其余 33 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R95-E4.txt",,E2 链接保留；E3 链接保留；E4 链接保留；E1 host免提,"S1-R95-E2 规则：无规则；链接 可打开（200，标题「Copywriting Examples - The world's best copy. In o」）
-S1-R95-E3 规则：R3-S1-R95-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Social Marketing Examples」）
-S1-R95-E4 规则：R3-S1-R95-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Copywriting Marketing Examples」）","S1-R95-E2 = S1!指定pattern 第95行 第2个入口: https://marketingexamples.com/inspiration
+  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R95-E4.txt","S1-R95-E3 R3-S1-R95-E3-F1: https://marketingexamples.com/social/calvin-klein；https://marketingexamples.com/social/ama（已落地核验 200，公开访问，2026-10-26）
+S1-R95-E4 R3-S1-R95-E4-F1: https://marketingexamples.com/copywriting/adjectives；https://marketingexamples.com/copywriting/bou（已落地核验 200，公开访问，2026-10-26）",E2 链接保留；E3 正则+链接保留；E4 正则+链接保留；E1 host免提,"S1-R95-E2 规则：无规则；链接 可打开（200，标题「Copywriting Examples - The world's best copy. In o」）
+S1-R95-E3 R3-S1-R95-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP4/FP0/FN0/TN5；覆盖检查：列表 19 个、sitemap 同结构 19 个全部匹配
+S1-R95-E3 规则：R3-S1-R95-E3-F1 已验证；链接 可打开（200，标题「Social Marketing Examples」）
+S1-R95-E4 R3-S1-R95-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 14 个、sitemap 同结构 14 个全部匹配
+S1-R95-E4 规则：R3-S1-R95-E4-F1 已验证；链接 可打开（200，标题「Copywriting Marketing Examples」）","S1-R95-E2 = S1!指定pattern 第95行 第2个入口: https://marketingexamples.com/inspiration
 S1-R95-E3 = S1!指定pattern 第95行 第3个入口: https://marketingexamples.com/social
 S1-R95-E4 = S1!指定pattern 第95行 第4个入口: https://marketingexamples.com/copywriting","S1-R95-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 22；前缀 /inspiration/ 下家族 0 个、成员 0；前缀外同站链接 21、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1136,7 +1226,7 @@ S1-R95-E4: 完整：静态请求 1 页（入口+分页），未完成分页 0；
 S1-R98-E1 R3-S1-R98-E1-F1 未成规则：归纳样本落地不足 3 个正常页面"
 99,https://www.reforge.com/blog,^https://www\.reforge\.com/blog/[a-zA-Z0-9-]+$,"S1-R99-E1: https://www.reforge.com/blog
   其余 18 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R99-E1.txt",S1-R99-E1 R3-S1-R99-E1-F1: https://www.reforge.com/blog/ai-reality-check；https://www.reforge.com/blog/aeo-playbook（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R99-E1 R3-S1-R99-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 285 个全部匹配
-S1-R99-E1 规则：R3-S1-R99-E1-F1 已验证；R3-S1-R99-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The Reforge Blog | Reforge」）",S1-R99-E1 = S1!指定pattern 第99行 第1个入口: https://www.reforge.com/blog,"S1-R99-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 13；前缀外同站链接 15、文件 0；sitemap 中同结构但不在列表的 URL：F1=283、F2=0
+S1-R99-E1 规则：R3-S1-R99-E1-F1 已验证；R3-S1-R99-E1-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The Reforge Blog | Reforge」）",S1-R99-E1 = S1!指定pattern 第99行 第1个入口: https://www.reforge.com/blog,"S1-R99-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 13；前缀外同站链接 15、文件 0；sitemap 中同结构但不在列表的 URL：F1=283、F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 100,/,,,,,,,,
 101,"https://searchengineland.com/library/guide
@@ -1167,23 +1257,29 @@ S1-R101-E4: 未验证：入口访问受限（站点 403，挑战页：Just a mom
 S1-R101-E5: 未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 102,https://www.socialmediaexaminer.com/,,,,host免提,,,,
 103,https://www.oneclub.org/awards/theoneshow/,^https://www\.oneclub\.org/awards/theoneshow/\-award/[0-9]+/[a-z0-9-]+/$,"S1-R103-E1: https://www.oneclub.org/awards/theoneshow/
-  其余 327 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R103-E1.txt",S1-R103-E1 R3-S1-R103-E1-F2: https://www.oneclub.org/awards/theoneshow/-award/21921/thick-fine/；https://www.oneclub.org/awards/theoneshow/-award/63830/breastmilk-money/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R103-E1 R3-S1-R103-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 50 个、sitemap 同结构 16529 个全部匹配
-S1-R103-E1 规则：R3-S1-R103-E1-F2 已验证；链接 可打开（200，标题「One Show | Awards Archive | 2026」）",S1-R103-E1 = S1!指定pattern 第103行 第1个入口: https://www.oneclub.org/awards/theoneshow/,"S1-R103-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /awards/theoneshow/ 下家族 2 个、成员 354；前缀外同站链接 19、文件 0；sitemap 中同结构但不在列表的 URL：F2=16479
+  其余 327 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R103-E1.txt",S1-R103-E1 R3-S1-R103-E1-F2: https://www.oneclub.org/awards/theoneshow/-award/1131/bucket/；https://www.oneclub.org/awards/theoneshow/-award/63830/breastmilk-money/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R103-E1 R3-S1-R103-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 50 个、sitemap 同结构 34054 个全部匹配
+S1-R103-E1 规则：R3-S1-R103-E1-F2 已验证；链接 可打开（200，标题「One Show | Awards Archive | 2026」）",S1-R103-E1 = S1!指定pattern 第103行 第1个入口: https://www.oneclub.org/awards/theoneshow/,"S1-R103-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /awards/theoneshow/ 下家族 2 个、成员 354；前缀外同站链接 19、文件 0；sitemap 中同结构但不在列表的 URL：F2=34004
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 S1-R103-E1 R3-S1-R103-E1-F1 未成规则：归纳样本落地不足 3 个正常页面"
 104,"https://www.thinkbox.tv/research
 https://www.thinkbox.tv/case-studies
-https://www.thinkbox.tv/news-and-opinion",^https://www\.thinkbox\.tv/news\-and\-opinion/[a-z0-9-]+$,"S1-R104-E1: https://www.thinkbox.tv/research
-  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R104-E1.txt
+https://www.thinkbox.tv/news-and-opinion","^https://www\.thinkbox\.tv/research/[a-z-]+/[a-z0-9-]+$
+^https://www\.thinkbox\.tv/research/[a-z-]+$
+^https://www\.thinkbox\.tv/news\-and\-opinion/[a-z0-9-]+$","S1-R104-E1: https://www.thinkbox.tv/research
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R104-E1.txt
 S1-R104-E2: https://www.thinkbox.tv/case-studies
   其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R104-E2.txt
 S1-R104-E3: https://www.thinkbox.tv/news-and-opinion
-  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R104-E3.txt",S1-R104-E3 R3-S1-R104-E3-F1: https://www.thinkbox.tv/news-and-opinion/cflight-your-questions-answered；https://www.thinkbox.tv/news-and-opinion/events（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 链接保留；E3 正则+链接保留,"S1-R104-E1 规则：无规则；链接 可打开（200，标题「Research」）
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R104-E3.txt","S1-R104-E1 R3-S1-R104-E1-F1: https://www.thinkbox.tv/research/charts-on-film/media-signalling；https://www.thinkbox.tv/research/nickable-charts/addressable（已落地核验 200，公开访问，2026-10-26）
+S1-R104-E1 R3-S1-R104-E1-F2: https://www.thinkbox.tv/research/nickable-charts；https://www.thinkbox.tv/research/charts-on-film（已落地核验 200，公开访问，2026-10-26）
+S1-R104-E3 R3-S1-R104-E3-F1: https://www.thinkbox.tv/news-and-opinion/cflight-your-questions-answered；https://www.thinkbox.tv/news-and-opinion/events（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留,"S1-R104-E1 R3-S1-R104-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN7；覆盖检查：列表 43 个、sitemap 同结构 37 个全部匹配
+S1-R104-E1 R3-S1-R104-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 4 个、sitemap 同结构 4 个全部匹配
+S1-R104-E1 规则：R3-S1-R104-E1-F1 已验证；R3-S1-R104-E1-F2 已验证；链接 可打开（200，标题「Research」）
 S1-R104-E2 规则：无规则；链接 可打开（200，标题「Advertising case studies」）
 S1-R104-E3 R3-S1-R104-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 5 个、sitemap 同结构 21 个全部匹配
 S1-R104-E3 规则：R3-S1-R104-E3-F1 已验证；链接 可打开（200，标题「News & opinion」）","S1-R104-E1 = S1!指定pattern 第104行 第1个入口: https://www.thinkbox.tv/research
 S1-R104-E2 = S1!指定pattern 第104行 第2个入口: https://www.thinkbox.tv/case-studies
-S1-R104-E3 = S1!指定pattern 第104行 第3个入口: https://www.thinkbox.tv/news-and-opinion","S1-R104-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 174；前缀 /research/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R104-E3 = S1!指定pattern 第104行 第3个入口: https://www.thinkbox.tv/news-and-opinion","S1-R104-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 174；前缀 /research/ 下家族 2 个、成员 47；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R104-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 176；前缀 /case-studies/ 下家族 0 个、成员 0；前缀外同站链接 1、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1193,7 +1289,7 @@ S1-R104-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入�
 https://nrf.com/about-us",,"S1-R105-E1: https://nrf.com/membership
   其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R105-E1.txt
 S1-R105-E2: https://nrf.com/about-us
-  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R105-E2.txt",,E1 链接保留；E2 链接保留,"S1-R105-E1 规则：R3-S1-R105-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「NRF Membership | NRF」）
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R105-E2.txt",,E1 链接保留；E2 链接保留,"S1-R105-E1 规则：R3-S1-R105-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「NRF Membership | NRF」）
 S1-R105-E2 规则：R3-S1-R105-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「About the National Retail Federation | NRF」）","S1-R105-E1 = S1!指定pattern 第105行 第1个入口: https://nrf.com/membership
 S1-R105-E2 = S1!指定pattern 第105行 第2个入口: https://nrf.com/about-us","S1-R105-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /membership/ 下家族 1 个、成员 3；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=3
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1203,15 +1299,21 @@ S1-R105-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0�
 107,/,,,,,,,,
 108,"https://www.wppmedia.com/thought-leadership/research-business-intelligence
 https://www.wppmedia.com/news
-https://www.wppmedia.com/thought-leadership/this-year-next-year",^https://www\.wppmedia\.com/news/[a-zA-Z0-9'\+\.:_£åæçéøı’-]+$,"S1-R108-E1: https://www.wppmedia.com/thought-leadership/research-business-intelligence
-  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R108-E1.txt
+https://www.wppmedia.com/thought-leadership/this-year-next-year","^https://www\.wppmedia\.com/thought\-leadership/research\-business\-intelligence/[a-zA-Z0-9-]+$
+^https://www\.wppmedia\.com/news/[a-zA-Z0-9'\+\.:_£åæçéøı’-]+$
+^https://www\.wppmedia\.com/thought\-leadership/this\-year\-next\-year/[a-zA-Z0-9-]+$","S1-R108-E1: https://www.wppmedia.com/thought-leadership/research-business-intelligence
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R108-E1.txt
 S1-R108-E2: https://www.wppmedia.com/news
   其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R108-E2.txt
 S1-R108-E3: https://www.wppmedia.com/thought-leadership/this-year-next-year
-  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R108-E3.txt",S1-R108-E2 R3-S1-R108-E2-F1: https://www.wppmedia.com/news/ai-powered-intelligence；https://www.wppmedia.com/news/comvergence-h1-2026（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留；E3 链接保留,"S1-R108-E1 规则：R3-S1-R108-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「WPP Media | Research & Business Intelligence」）
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R108-E3.txt","S1-R108-E1 R3-S1-R108-E1-F1: https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-understanding-receptivity；https://www.wppmedia.com/thought-leadership/research-business-intelligence/How-Humans-Decide-primed-for-preference（已落地核验 200，公开访问，2026-10-26）
+S1-R108-E2 R3-S1-R108-E2-F1: https://www.wppmedia.com/news/ai-powered-intelligence；https://www.wppmedia.com/news/comvergence-h1-2026（已落地核验 200，公开访问，2026-10-26）
+S1-R108-E3 R3-S1-R108-E3-F1: https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026；https://www.wppmedia.com/thought-leadership/this-year-next-year/December-2025（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留,"S1-R108-E1 R3-S1-R108-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 7 个、sitemap 同结构 7 个全部匹配
+S1-R108-E1 规则：R3-S1-R108-E1-F1 已验证；链接 可打开（200，标题「WPP Media | Research & Business Intelligence」）
 S1-R108-E2 R3-S1-R108-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 497 个全部匹配
 S1-R108-E2 规则：R3-S1-R108-E2-F1 已验证；链接 可打开（200，标题「WPP Media News | Insights, and Industry Impact」）
-S1-R108-E3 规则：R3-S1-R108-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「This Year Next Year | WPP Media」）","S1-R108-E1 = S1!指定pattern 第108行 第1个入口: https://www.wppmedia.com/thought-leadership/research-business-intelligence
+S1-R108-E3 R3-S1-R108-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 4 个、sitemap 同结构 3 个全部匹配
+S1-R108-E3 规则：R3-S1-R108-E3-F1 已验证；链接 可打开（200，标题「This Year Next Year | WPP Media」）","S1-R108-E1 = S1!指定pattern 第108行 第1个入口: https://www.wppmedia.com/thought-leadership/research-business-intelligence
 S1-R108-E2 = S1!指定pattern 第108行 第2个入口: https://www.wppmedia.com/news
 S1-R108-E3 = S1!指定pattern 第108行 第3个入口: https://www.wppmedia.com/thought-leadership/this-year-next-year","S1-R108-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /thought-leadership/research-business-intelligence/ 下家族 1 个、成员 7；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1228,8 +1330,9 @@ S1-R110-E2: https://www.vml.com/insights
 S1-R110-E2 规则：无规则；链接 访问受限（站点 403，挑战页：Just a moment...）","S1-R110-E1 = S1!指定pattern 第110行 第1个入口: https://www.vml.com/expertise/intelligence
 S1-R110-E2 = S1!指定pattern 第110行 第2个入口: https://www.vml.com/insights","S1-R110-E1: 未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段；续跑见 output/round3/queue.json
 S1-R110-E2: 未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-111,https://www.ogilvy.com/cn/ideas,,"S1-R111-E1: https://www.ogilvy.com/cn/ideas
-  其余 104 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R111-E1.txt",,E1 链接保留,S1-R111-E1 规则：R3-S1-R111-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Ideas | Ogilvy China」）,S1-R111-E1 = S1!指定pattern 第111行 第1个入口: https://www.ogilvy.com/cn/ideas,"S1-R111-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /cn/ideas/ 下家族 1 个、成员 101；前缀外同站链接 3、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
+111,https://www.ogilvy.com/cn/ideas,^https://www\.ogilvy\.com/cn/ideas/[a-z0-9-]+$,"S1-R111-E1: https://www.ogilvy.com/cn/ideas
+  其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R111-E1.txt",S1-R111-E1 R3-S1-R111-E1-F1: https://www.ogilvy.com/cn/ideas/aomeironghuo-2024-dazhonghuaquaifeijiangzuijushixiaodailigongsiwangluo；https://www.ogilvy.com/cn/ideas/aomeiyatai-2024-zengzhangzhishudongchashichangqushiyinlingpinpaijiesuozengzhangxinlujing（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R111-E1 R3-S1-R111-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN4；覆盖检查：列表 101 个、sitemap 同结构 0 个全部匹配
+S1-R111-E1 规则：R3-S1-R111-E1-F1 已验证；链接 可打开（200，标题「Ideas | Ogilvy China」）",S1-R111-E1 = S1!指定pattern 第111行 第1个入口: https://www.ogilvy.com/cn/ideas,"S1-R111-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /cn/ideas/ 下家族 1 个、成员 101；前缀外同站链接 3、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 112,"https://www.adjust.com/resources/
 https://www.adjust.com/blog/",,"S1-R112-E1: https://www.adjust.com/resources/
@@ -1247,7 +1350,7 @@ https://academy.amplitude.com/","^https://amplitude\.com/blog/[a-zA-Z0-9-]+$
   其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R114-E1.txt
 S1-R114-E2: https://amplitude.com/blog
   其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R114-E2.txt","S1-R114-E2 R3-S1-R114-E2-F1: https://amplitude.com/blog/ai-agents-confluencevc；https://amplitude.com/blog/agent-data-security（已落地核验 200，公开访问，2026-10-26）
-S1-R114-E2 R3-S1-R114-E2-F2: https://amplitude.com/blog/author/cat-perezamplitudenew-com；https://amplitude.com/blog/author/eric-kim（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 host免提,"S1-R114-E1 规则：R3-S1-R114-E1-F1 部分验证（候选）（归纳样本跳到其他页面 1）；链接 可打开（200，标题「Resources & Guides | Amplitude」）
+S1-R114-E2 R3-S1-R114-E2-F2: https://amplitude.com/blog/author/cat-perezamplitudenew-com；https://amplitude.com/blog/author/eric-kim（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 host免提,"S1-R114-E1 规则：R3-S1-R114-E1-F1 部分验证（候选）（归纳样本跳到家族外页面 1：https://amplitude.com/resources/forrester-wave-report → https://amplitude.com/blog/roi-of-amplitude）；链接 可打开（200，标题「Resources & Guides | Amplitude」）
 S1-R114-E2 R3-S1-R114-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 16 个、sitemap 同结构 1504 个全部匹配
 S1-R114-E2 R3-S1-R114-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 580 个全部匹配
 S1-R114-E2 规则：R3-S1-R114-E2-F1 已验证；R3-S1-R114-E2-F2 已验证；链接 可打开（200，标题「Amplitude Blog - Product Best Practices & More」）","S1-R114-E1 = S1!指定pattern 第114行 第1个入口: https://amplitude.com/resources
@@ -1255,26 +1358,32 @@ S1-R114-E2 = S1!指定pattern 第114行 第2个入口: https://amplitude.com/blo
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R114-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 21；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=1489、F2=575
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-115,https://analyticpartners.com/knowledge-hub/,^https://analyticpartners\.com/knowledge\-hub/resources/[a-z0-9-]+/$,"S1-R115-E1: https://analyticpartners.com/knowledge-hub/
-  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R115-E1.txt",S1-R115-E1 R3-S1-R115-E1-F2: https://analyticpartners.com/knowledge-hub/resources/empower-your-analytics-how-leaders-operationalize-decisioning-and-generate-millions-in-returns/；https://analyticpartners.com/knowledge-hub/resources/cfo-and-cmo-strategy-guide-a-collaboration-to-drive-growth/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R115-E1 R3-S1-R115-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 4 个、sitemap 同结构 48 个全部匹配
-S1-R115-E1 规则：R3-S1-R115-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R115-E1-F2 已验证；链接 可打开（200，标题「Knowledge Hub | Analytic Partners」）",S1-R115-E1 = S1!指定pattern 第115行 第1个入口: https://analyticpartners.com/knowledge-hub/,"S1-R115-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /knowledge-hub/ 下家族 2 个、成员 9；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=44
+115,https://analyticpartners.com/knowledge-hub/,"^https://analyticpartners\.com/knowledge\-hub/[a-z-]+/$
+^https://analyticpartners\.com/knowledge\-hub/resources/[a-z0-9-]+/$","S1-R115-E1: https://analyticpartners.com/knowledge-hub/
+  其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R115-E1.txt","S1-R115-E1 R3-S1-R115-E1-F1: https://analyticpartners.com/knowledge-hub/blog/；https://analyticpartners.com/knowledge-hub/customer-stories/（已落地核验 200，公开访问，2026-10-26）
+S1-R115-E1 R3-S1-R115-E1-F2: https://analyticpartners.com/knowledge-hub/resources/empower-your-analytics-how-leaders-operationalize-decisioning-and-generate-millions-in-returns/；https://analyticpartners.com/knowledge-hub/resources/cfo-and-cmo-strategy-guide-a-collaboration-to-drive-growth/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R115-E1 R3-S1-R115-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN7；覆盖检查：列表 5 个、sitemap 同结构 5 个全部匹配
+S1-R115-E1 R3-S1-R115-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 4 个、sitemap 同结构 48 个全部匹配
+S1-R115-E1 规则：R3-S1-R115-E1-F1 已验证；R3-S1-R115-E1-F2 已验证；链接 可打开（200，标题「Knowledge Hub | Analytic Partners」）",S1-R115-E1 = S1!指定pattern 第115行 第1个入口: https://analyticpartners.com/knowledge-hub/,"S1-R115-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /knowledge-hub/ 下家族 2 个、成员 9；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=44
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 116,"https://www.appsflyer.com/resources/
-https://www.appsflyer.com/blog/",^https://www\.appsflyer\.com/resources/reports/[a-z0-9-]+/$,"S1-R116-E1: https://www.appsflyer.com/resources/
+https://www.appsflyer.com/blog/","^https://www\.appsflyer\.com/resources/reports/[a-z0-9-]+/$
+^https://www\.appsflyer\.com/blog/[a-z-]+/[a-z0-9_-]+/$","S1-R116-E1: https://www.appsflyer.com/resources/
   其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R116-E1.txt
 S1-R116-E2: https://www.appsflyer.com/blog/
-  其余 56 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R116-E2.txt",S1-R116-E1 R3-S1-R116-E1-F1: https://www.appsflyer.com/resources/reports/africa-marketing-2024-report/；https://www.appsflyer.com/resources/reports/creative-optimization/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留,"S1-R116-E1 R3-S1-R116-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 13 个、sitemap 同结构 65 个全部匹配
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R116-E2.txt","S1-R116-E1 R3-S1-R116-E1-F1: https://www.appsflyer.com/resources/reports/africa-marketing-2024-report/；https://www.appsflyer.com/resources/reports/creative-optimization/（已落地核验 200，公开访问，2026-10-26）
+S1-R116-E2 R3-S1-R116-E2-F1: https://www.appsflyer.com/blog/industries/entertainment/；https://www.appsflyer.com/blog/deep-linking/facebook-deep-link/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S1-R116-E1 R3-S1-R116-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 13 个、sitemap 同结构 65 个全部匹配
 S1-R116-E1 规则：R3-S1-R116-E1-F1 已验证；链接 可打开（200，标题「Report Lobby - AppsFlyer」）
-S1-R116-E2 规则：R3-S1-R116-E2-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；链接 可打开（200，标题「AppsFlyer Blog: Mobile Attribution, Cross-Platform」）","S1-R116-E1 = S1!指定pattern 第116行 第1个入口: https://www.appsflyer.com/resources/
+S1-R116-E2 R3-S1-R116-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN4；覆盖检查：列表 21 个、sitemap 同结构 828 个全部匹配
+S1-R116-E2 规则：R3-S1-R116-E2-F1 已验证；链接 可打开（200，标题「AppsFlyer Blog: Mobile Attribution, Cross-Platform」）","S1-R116-E1 = S1!指定pattern 第116行 第1个入口: https://www.appsflyer.com/resources/
 S1-R116-E2 = S1!指定pattern 第116行 第2个入口: https://www.appsflyer.com/blog/","S1-R116-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 1 个、成员 13；前缀外同站链接 35、文件 0；sitemap 中同结构但不在列表的 URL：F1=52
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R116-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 21；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=807
+S1-R116-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 21；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=807
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 117,"https://www.branch.io/resources/
 https://www.branch.io/use-cases/",,"S1-R117-E1: https://www.branch.io/resources/
   其余 11 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R117-E1.txt
 S1-R117-E2: https://www.branch.io/use-cases/
-  其余 29 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R117-E2.txt",,E1 链接保留；E2 链接保留,"S1-R117-E1 规则：R3-S1-R117-E1-F1 部分验证（候选）（机械门未通过：留出反例 0<3；归纳样本跳到其他页面 1）；链接 可打开（200，标题「Mobile Growth Resources and Research | Branch」）
+  其余 29 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R117-E2.txt",,E1 链接保留；E2 链接保留,"S1-R117-E1 规则：R3-S1-R117-E1-F1 部分验证（候选）（归纳样本跳到家族外页面 1：https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/ → https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html）；链接 可打开（200，标题「Mobile Growth Resources and Research | Branch」）
 S1-R117-E2 规则：无规则；链接 可打开（200，标题「How Branch Helps Drive Mobile Growth - Use Cases |」）","S1-R117-E1 = S1!指定pattern 第117行 第1个入口: https://www.branch.io/resources/
 S1-R117-E2 = S1!指定pattern 第117行 第2个入口: https://www.branch.io/use-cases/","S1-R117-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 1 个、成员 9；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=1321
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1287,6 +1396,7 @@ https://www.brandwatch.com/social-media-glossary/
 https://academy.brandwatch.com/
 https://www.brandwatch.com/case-studies/","^https://www\.brandwatch\.com/blog/[a-z0-9-]+/$
 ^https://www\.brandwatch\.com/blog/[a-z]+/[a-z0-9-]+/$
+^https://www\.brandwatch\.com/social\-media\-glossary/[a-z-]+/$
 ^https://www\.brandwatch\.com/case\-studies/[a-z0-9-]+/$","S1-R118-E1: https://www.brandwatch.com/reports/
   其余 94 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R118-E1.txt
 S1-R118-E2: https://www.brandwatch.com/blog/
@@ -1294,16 +1404,18 @@ S1-R118-E2: https://www.brandwatch.com/blog/
 S1-R118-E3: https://www.brandwatch.com/guides/
   其余 104 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R118-E3.txt
 S1-R118-E4: https://www.brandwatch.com/social-media-glossary/
-  其余 116 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R118-E4.txt
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R118-E4.txt
 S1-R118-E6: https://www.brandwatch.com/case-studies/
   其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R118-E6.txt","S1-R118-E2 R3-S1-R118-E2-F1: https://www.brandwatch.com/blog/customer-story-co-ops-support-of-the-reverseadvent-campaign/；https://www.brandwatch.com/blog/brandwatch-named-leader-idc-marketscape-social-marketing-software-large-enterprises/（已落地核验 200，公开访问，2026-10-26）
 S1-R118-E2 R3-S1-R118-E2-F2: https://www.brandwatch.com/blog/author/aj-wilcox/；https://www.brandwatch.com/blog/author/adam-speight/（已落地核验 200，公开访问，2026-10-26）
-S1-R118-E6 R3-S1-R118-E6-F1: https://www.brandwatch.com/case-studies/barilla-it/；https://www.brandwatch.com/case-studies/art-of-the-possible/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 链接保留；E4 链接保留；E6 正则+链接保留；E5 host免提,"S1-R118-E1 规则：无规则；链接 可打开（200，标题「Expert Consumer Research & Social Media Reports | 」）
+S1-R118-E4 R3-S1-R118-E4-F1: https://www.brandwatch.com/social-media-glossary/content-pillars/；https://www.brandwatch.com/social-media-glossary/carousel/（已落地核验 200，公开访问，2026-10-26）
+S1-R118-E6 R3-S1-R118-E6-F1: https://www.brandwatch.com/case-studies/barilla-it/；https://www.brandwatch.com/case-studies/art-of-the-possible/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 链接保留；E4 正则+链接保留；E6 正则+链接保留；E5 host免提,"S1-R118-E1 规则：无规则；链接 可打开（200，标题「Expert Consumer Research & Social Media Reports | 」）
 S1-R118-E2 R3-S1-R118-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 16 个、sitemap 同结构 1042 个全部匹配
 S1-R118-E2 R3-S1-R118-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 11 个、sitemap 同结构 423 个全部匹配
 S1-R118-E2 规则：R3-S1-R118-E2-F1 已验证；R3-S1-R118-E2-F2 已验证；链接 可打开（200，标题「Blog |  Brandwatch」）
 S1-R118-E3 规则：无规则；链接 可打开（200，标题「Consumer and Social Media Marketing Guides | Brand」）
-S1-R118-E4 规则：R3-S1-R118-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Social Media Glossary & Marketing Terms | Brandwat」）
+S1-R118-E4 R3-S1-R118-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 110 个、sitemap 同结构 110 个全部匹配
+S1-R118-E4 规则：R3-S1-R118-E4-F1 已验证；链接 可打开（200，标题「Social Media Glossary & Marketing Terms | Brandwat」）
 S1-R118-E6 R3-S1-R118-E6-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 76 个、sitemap 同结构 85 个全部匹配
 S1-R118-E6 规则：R3-S1-R118-E6-F1 已验证；链接 可打开（200，标题「Brandwatch Case Studies | Real Client Results」）","S1-R118-E1 = S1!指定pattern 第118行 第1个入口: https://www.brandwatch.com/reports/
 S1-R118-E2 = S1!指定pattern 第118行 第2个入口: https://www.brandwatch.com/blog/
@@ -1375,13 +1487,16 @@ S1-R121-E1 [K3] 本轮静态 HTML 已足够（前轮需渲染的情况不复现�
 S1-R121-E1 3 个列表链接会被候选规则匹配，但落地为 /blog/ 或 /guides/ux-design/，不是文章；是否接受由你决定"
 122,"https://www.hootsuite.com/resources/
 https://blog.hootsuite.com/
-https://blog.hootsuite.com/resources/",^https://www\.hootsuite\.com/resources/[a-z-]+/[a-z0-9-]+$,"S1-R122-E1: https://www.hootsuite.com/resources/
-  其余 11 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R122-E1.txt
+https://blog.hootsuite.com/resources/","^https://www\.hootsuite\.com/resources/[a-z-]+/[a-z0-9-]+$
+^https://www\.hootsuite\.com/resources/[a-z0-9-]+$","S1-R122-E1: https://www.hootsuite.com/resources/
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R122-E1.txt
 S1-R122-E3: https://blog.hootsuite.com/resources/
-  其余 877 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R122-E3.txt",S1-R122-E1 R3-S1-R122-E1-F1: https://www.hootsuite.com/resources/blog/healthcare-social-media-policy-template；https://www.hootsuite.com/resources/blog/competitive-analysis-template（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E3 链接保留；E2 host免提,"S1-R122-E1 R3-S1-R122-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 6 个、sitemap 同结构 126 个全部匹配
-S1-R122-E1 规则：R3-S1-R122-E1-F1 已验证；R3-S1-R122-E1-F2 部分验证（候选）（归纳样本跳到其他页面 1）；链接 可打开（200，标题「Social Media Resources: Templates, Case Studies, R」）
+  其余 877 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R122-E3.txt","S1-R122-E1 R3-S1-R122-E1-F1: https://www.hootsuite.com/resources/blog/healthcare-social-media-policy-template；https://www.hootsuite.com/resources/blog/competitive-analysis-template（已落地核验 200，公开访问，2026-10-26）
+S1-R122-E1 R3-S1-R122-E1-F2: https://www.hootsuite.com/resources/croda；https://www.hootsuite.com/resources/influencer-marketing-myths（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E3 链接保留；E2 host免提,"S1-R122-E1 R3-S1-R122-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 6 个、sitemap 同结构 126 个全部匹配
+S1-R122-E1 R3-S1-R122-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP5/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 143 个全部匹配
+S1-R122-E1 规则：R3-S1-R122-E1-F1 已验证；R3-S1-R122-E1-F2 已验证；链接 可打开（200，标题「Social Media Resources: Templates, Case Studies, R」）
 S1-R122-E3 规则：无规则；链接 可打开（200，标题「Free Social Media Resources, Tools and Templates |」）","S1-R122-E1 = S1!指定pattern 第122行 第1个入口: https://www.hootsuite.com/resources/
-S1-R122-E3 = S1!指定pattern 第122行 第3个入口: https://blog.hootsuite.com/resources/","S1-R122-E1: 部分：静态请求 3 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 2 个、成员 11；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=121、F2=139
+S1-R122-E3 = S1!指定pattern 第122行 第3个入口: https://blog.hootsuite.com/resources/","S1-R122-E1: 完整（列表+sitemap 合并枚举）：静态请求 3 页（入口+分页），未完成分页 0；前缀 /resources/ 下家族 2 个、成员 11；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=121、F2=139
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R122-E3: 完整（枚举结束，无独立全集对账）：静态请求 71 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 155；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 877、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -1389,26 +1504,33 @@ S1-R122-E3: 完整（枚举结束，无独立全集对账）：静态请求 71 �
 https://blog.hubspot.com/sales
 https://blog.hubspot.com/service
 https://blog.hubspot.com/website
-https://www.hubspot.com/resources",,"S1-R123-E1: https://blog.hubspot.com/marketing
-  其余 3888 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E1.txt
+https://www.hubspot.com/resources","^https://blog\.hubspot\.com/marketing/[a-z0-9_-]+$
+^https://blog\.hubspot\.com/sales/[a-zA-Z0-9%ü-]+$
+^https://blog\.hubspot\.com/service/[a-z0-9-]+$","S1-R123-E1: https://blog.hubspot.com/marketing
+  其余 391 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E1.txt
 S1-R123-E2: https://blog.hubspot.com/sales
-  其余 1606 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E2.txt
+  其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E2.txt
 S1-R123-E3: https://blog.hubspot.com/service
-  其余 781 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E3.txt
+  其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E3.txt
 S1-R123-E4: https://blog.hubspot.com/website
   其余 1347 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E4.txt
 S1-R123-E5: https://www.hubspot.com/resources
-  其余 56 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E5.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S1-R123-E1 规则：R3-S1-R123-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F3 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The HubSpot Marketing Blog」）
-S1-R123-E2 规则：R3-S1-R123-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The HubSpot Sales Blog」）
-S1-R123-E3 规则：R3-S1-R123-E3-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The HubSpot Customer Service Blog」）
-S1-R123-E4 规则：R3-S1-R123-E4-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 2）；链接 可打开（200，标题「The HubSpot Website Blog」）
+  其余 56 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R123-E5.txt","S1-R123-E1 R3-S1-R123-E1-F1: https://blog.hubspot.com/marketing/ai-search-presence；https://blog.hubspot.com/marketing/gain-instagram-followers（已落地核验 200，公开访问，2026-10-26）
+S1-R123-E2 R3-S1-R123-E2-F1: https://blog.hubspot.com/sales/ai-franchise；https://blog.hubspot.com/sales/avoid-burnout-q4（已落地核验 200，公开访问，2026-10-26）
+S1-R123-E3 R3-S1-R123-E3-F1: https://blog.hubspot.com/service/apology-letter-to-customers；https://blog.hubspot.com/service/customer-success-metrics（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留；E5 链接保留,"S1-R123-E1 R3-S1-R123-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN6；覆盖检查：列表 3497 个、sitemap 同结构 3497 个全部匹配
+S1-R123-E1 规则：R3-S1-R123-E1-F1 已验证；R3-S1-R123-E1-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S1-R123-E1-F3 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The HubSpot Marketing Blog」）
+S1-R123-E2 R3-S1-R123-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 1598 个、sitemap 同结构 1597 个全部匹配
+S1-R123-E2 规则：R3-S1-R123-E2-F1 已验证；链接 可打开（200，标题「The HubSpot Sales Blog」）
+S1-R123-E3 R3-S1-R123-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 774 个、sitemap 同结构 774 个全部匹配
+S1-R123-E3 规则：R3-S1-R123-E3-F1 已验证；链接 可打开（200，标题「The HubSpot Customer Service Blog」）
+S1-R123-E4 规则：R3-S1-R123-E4-F1 部分验证（候选）（归纳样本跳到家族外页面 2：https://blog.hubspot.com/website/html-elements → https://blog.hubspot.com/website；https://blog.hubspot.com/website/html-span → https://blog.hubspot.com/website）；链接 可打开（200，标题「The HubSpot Website Blog」）
 S1-R123-E5 规则：无规则；链接 可打开（200，标题「Free Resources from HubSpot | Templates, Ebooks, &」）","S1-R123-E1 = S1!指定pattern 第123行 第1个入口: https://blog.hubspot.com/marketing
 S1-R123-E2 = S1!指定pattern 第123行 第2个入口: https://blog.hubspot.com/sales
 S1-R123-E3 = S1!指定pattern 第123行 第3个入口: https://blog.hubspot.com/service
 S1-R123-E4 = S1!指定pattern 第123行 第4个入口: https://blog.hubspot.com/website
 S1-R123-E5 = S1!指定pattern 第123行 第5个入口: https://www.hubspot.com/resources","S1-R123-E1: 完整：静态请求 196 页（入口+分页），未完成分页 0；前缀 /marketing/ 下家族 3 个、成员 3503；前缀外同站链接 376、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0、F3=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R123-E2: 部分：静态请求 81 页（入口+分页），未完成分页 0；前缀 /sales/ 下家族 1 个、成员 1598；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1
+S1-R123-E2: 完整（列表+sitemap 合并枚举）：静态请求 81 页（入口+分页），未完成分页 0；前缀 /sales/ 下家族 1 个、成员 1598；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=1
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R123-E3: 完整：静态请求 40 页（入口+分页），未完成分页 0；前缀 /service/ 下家族 1 个、成员 774；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
@@ -1416,10 +1538,10 @@ S1-R123-E4: 完整：静态请求 68 页（入口+分页），未完成分页 0�
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R123-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 237；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 52、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-124,https://www.intercom.com/blog/,,"S1-R124-E1: https://www.intercom.com/blog/
-  其余 1274 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R124-E1.txt",,E1 链接保留,S1-R124-E1 规则：无规则；链接 可打开（200，标题「Blog | Intercom」）,S1-R124-E1 = S1!指定pattern 第124行 第1个入口: https://www.intercom.com/blog/,"S1-R124-E1: 完整：静态请求 64 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 1274；前缀外同站链接 0、文件 0
-  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-S1-R124-E1 R3-S1-R124-E1-F1 未成规则：归纳样本落地不足 3 个正常页面"
+124,https://www.intercom.com/blog/,^https://www\.intercom\.com/blog/[a-z0-9-]+$,"S1-R124-E1: https://www.intercom.com/blog/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R124-E1.txt",S1-R124-E1 R3-S1-R124-E1-F1: https://www.intercom.com/blog/podcasts；https://www.intercom.com/blog/5-new-intercom-messenger-apps（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R124-E1 R3-S1-R124-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP2/FP0/FN0/TN5；覆盖检查：列表 1274 个、sitemap 同结构 1229 个全部匹配
+S1-R124-E1 规则：R3-S1-R124-E1-F1 已验证；链接 可打开（200，标题「Blog | Intercom」）",S1-R124-E1 = S1!指定pattern 第124行 第1个入口: https://www.intercom.com/blog/,"S1-R124-E1: 完整（列表+sitemap 合并枚举）：静态请求 64 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 1274；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=2
+  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 125,"https://www.klaviyo.com/blog
 https://www.klaviyo.com/marketing-resources
 https://www.klaviyo.com/customers","^https://www\.klaviyo\.com/blog/[a-z0-9-]+$
@@ -1456,12 +1578,15 @@ S1-R127-E1 规则：R3-S1-R127-E1-F1 已验证；链接 可打开（200，标题
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 128,"https://www.meltwater.com/en/blog
 https://www.meltwater.com/en/resources","^https://www\.meltwater\.com/en/blog/[a-z0-9_-]+$
+^https://www\.meltwater\.com/en/blog/[a-z]+/[a-z-]+$
 ^https://www\.meltwater\.com/en/resources/[a-z0-9_-]+$","S1-R128-E1: https://www.meltwater.com/en/blog
-  其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R128-E1.txt
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R128-E1.txt
 S1-R128-E2: https://www.meltwater.com/en/resources
   其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R128-E2.txt","S1-R128-E1 R3-S1-R128-E1-F1: https://www.meltwater.com/en/blog/3-steps-to-social-media-holiday-strategy-with-examples；https://www.meltwater.com/en/blog/beyond-polarity-attitude-analysis（已落地核验 200，公开访问，2026-10-26）
+S1-R128-E1 R3-S1-R128-E1-F2: https://www.meltwater.com/en/blog/category/brand-management；https://www.meltwater.com/en/blog/category/customer-journey（已落地核验 200，公开访问，2026-10-26）
 S1-R128-E2 R3-S1-R128-E2-F1: https://www.meltwater.com/en/resources/2024-consumer-insights-food-beverage；https://www.meltwater.com/en/resources/ai-visibility-australian-higher-education（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S1-R128-E1 R3-S1-R128-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 36 个、sitemap 同结构 1313 个全部匹配
-S1-R128-E1 规则：R3-S1-R128-E1-F1 已验证；R3-S1-R128-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「The Meltwater Blog」）
+S1-R128-E1 R3-S1-R128-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP5/FP0/FN0/TN7；覆盖检查：列表 21 个、sitemap 同结构 21 个全部匹配
+S1-R128-E1 规则：R3-S1-R128-E1-F1 已验证；R3-S1-R128-E1-F2 已验证；链接 可打开（200，标题「The Meltwater Blog」）
 S1-R128-E2 R3-S1-R128-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 27 个、sitemap 同结构 473 个全部匹配
 S1-R128-E2 规则：R3-S1-R128-E2-F1 已验证；链接 可打开（200，标题「Browse our library of ebooks, webinars and videos」）","S1-R128-E1 = S1!指定pattern 第128行 第1个入口: https://www.meltwater.com/en/blog
 S1-R128-E2 = S1!指定pattern 第128行 第2个入口: https://www.meltwater.com/en/resources","S1-R128-E1: 完整（列表+sitemap 合并枚举）：静态请求 3 页（入口+分页），未完成分页 0；前缀 /en/blog/ 下家族 2 个、成员 57；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=1278、F2=0
@@ -1499,7 +1624,7 @@ https://www.qualtrics.com/customers/","^https://www\.qualtrics\.com/articles/[a-
 S1-R130-E2: https://www.qualtrics.com/news/
   其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R130-E2.txt
 S1-R130-E3: https://www.qualtrics.com/resources/
-  其余 240 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R130-E3.txt
+  其余 242 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R130-E3.txt
 S1-R130-E4: https://www.qualtrics.com/customers/
   其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R130-E4.txt","S1-R130-E1 R3-S1-R130-E1-F1: https://www.qualtrics.com/articles/customer-experience/3-potential-roles-cios/；https://www.qualtrics.com/articles/customer-experience/designing-for-failure/（已落地核验 200，公开访问，2026-10-26）
 S1-R130-E2 R3-S1-R130-E2-F1: https://www.qualtrics.com/news/industry/；https://www.qualtrics.com/news/cut-the-chaos-qualtrics-announces-top-employee-experience-trends-for-2025/（已落地核验 200，公开访问，2026-10-26）
@@ -1516,7 +1641,7 @@ S1-R130-E4 = S1!指定pattern 第130行 第4个入口: https://www.qualtrics.com
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R130-E2: 完整（列表+sitemap 合并枚举）：静态请求 32 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 363；前缀外同站链接 3、文件 1；sitemap 中同结构但不在列表的 URL：F1=4
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R130-E3: 完整（枚举结束，无独立全集对账）：静态请求 21 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 292；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 240、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R130-E3: 完整（枚举结束，无独立全集对账）：静态请求 21 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 292；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 240、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R130-E4: 完整（列表+sitemap 合并枚举）：静态请求 7 页（入口+分页），未完成分页 0；前缀 /customers/ 下家族 1 个、成员 62；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=2
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -1528,19 +1653,25 @@ S1-R131-E1 R3-S1-R131-E1-F2: https://www.semrush.com/blog/category/product/；ht
 S1-R131-E1 R3-S1-R131-E1-F3: https://www.semrush.com/blog/category/content/content-creation/；https://www.semrush.com/blog/category/marketing/ai/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R131-E1 R3-S1-R131-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 2017 个、sitemap 同结构 1430 个全部匹配
 S1-R131-E1 R3-S1-R131-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN7；覆盖检查：列表 297 个、sitemap 同结构 4 个全部匹配
 S1-R131-E1 R3-S1-R131-E1-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP5/FP0/FN0/TN7；覆盖检查：列表 21 个、sitemap 同结构 21 个全部匹配
-S1-R131-E1 规则：R3-S1-R131-E1-F1 已验证；R3-S1-R131-E1-F2 已验证；R3-S1-R131-E1-F3 已验证；链接 可打开（200，标题「Semrush Blog | SEO, SEM, AI Search, & Content Stra」）",S1-R131-E1 = S1!指定pattern 第131行 第1个入口: https://www.semrush.com/blog/,"S1-R131-E1: 部分：静态请求 486 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 3 个、成员 2335；前缀外同站链接 430、文件 0；sitemap 中同结构但不在列表的 URL：F1=80、F2=1、F3=0
+S1-R131-E1 规则：R3-S1-R131-E1-F1 已验证；R3-S1-R131-E1-F2 已验证；R3-S1-R131-E1-F3 已验证；链接 可打开（200，标题「Semrush Blog | SEO, SEM, AI Search, & Content Stra」）",S1-R131-E1 = S1!指定pattern 第131行 第1个入口: https://www.semrush.com/blog/,"S1-R131-E1: 完整（列表+sitemap 合并枚举）：静态请求 486 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 3 个、成员 2335；前缀外同站链接 430、文件 0；sitemap 中同结构但不在列表的 URL：F1=80、F2=1、F3=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
-132,https://www.shopify.com/blog/,^https://www\.shopify\.com/blog/[a-z0-9-]+$,"S1-R132-E1: https://www.shopify.com/blog/
-  其余 18 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R132-E1.txt",S1-R132-E1 R3-S1-R132-E1-F1: https://www.shopify.com/blog/email-marketing；https://www.shopify.com/blog/b2b-marketing-kpis（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R132-E1 R3-S1-R132-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP3/FP0/FN0/TN7；覆盖检查：列表 36 个、sitemap 同结构 5 个全部匹配
-S1-R132-E1 规则：R3-S1-R132-E1-F1 已验证；R3-S1-R132-E1-F2 部分验证（候选）（机械门未通过：有正例未完成落地身份核验；归纳样本跳到其他页面 1）；链接 可打开（200，标题「Ecommerce Marketing Blog - Ecommerce News, Online 」）",S1-R132-E1 = S1!指定pattern 第132行 第1个入口: https://www.shopify.com/blog/,"S1-R132-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 52；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=3、F2=323
+132,https://www.shopify.com/blog/,"^https://www\.shopify\.com/blog/[a-z0-9-]+$
+^https://www\.shopify\.com/blog/[a-z]+/[a-zA-Z0-9%-]+$","S1-R132-E1: https://www.shopify.com/blog/
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R132-E1.txt","S1-R132-E1 R3-S1-R132-E1-F1: https://www.shopify.com/blog/best-web-hosting-services；https://www.shopify.com/blog/b2b-marketing-kpis（已落地核验 200，公开访问，2026-10-26）
+S1-R132-E1 R3-S1-R132-E1-F2: https://www.shopify.com/blog/authors/altaira-northe；https://www.shopify.com/blog/authors/shuang-esther-shan（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R132-E1 R3-S1-R132-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 36 个、sitemap 同结构 6566 个全部匹配
+S1-R132-E1 R3-S1-R132-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP3/FP0/FN0/TN6；覆盖检查：列表 16 个、sitemap 同结构 326 个全部匹配
+S1-R132-E1 规则：R3-S1-R132-E1-F1 已验证；R3-S1-R132-E1-F2 已验证；链接 可打开（200，标题「Ecommerce Marketing Blog - Ecommerce News, Online 」）",S1-R132-E1 = S1!指定pattern 第132行 第1个入口: https://www.shopify.com/blog/,"S1-R132-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 52；前缀外同站链接 2、文件 0；sitemap 中同结构但不在列表的 URL：F1=6530、F2=323
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 133,https://www.siegelgale.com/ideas/,,"S1-R133-E1: https://www.siegelgale.com/ideas/
   其余 387 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R133-E1.txt",,E1 链接保留,S1-R133-E1 规则：R3-S1-R133-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Ideas - Siegel+Gale」）,S1-R133-E1 = S1!指定pattern 第133行 第1个入口: https://www.siegelgale.com/ideas/,"S1-R133-E1: 完整：静态请求 26 页（入口+分页），未完成分页 0；前缀 /ideas/ 下家族 1 个、成员 4；前缀外同站链接 383、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 134,/,,,,,,,,
-135,https://www.sistrix.com/blog/,^https://www\.sistrix\.com/blog/[a-z0-9%_-]+/?$,"S1-R135-E1: https://www.sistrix.com/blog/
-  其余 44 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R135-E1.txt",S1-R135-E1 R3-S1-R135-E1-F1: https://www.sistrix.com/blog/ancillary-copyright-law-how-much-journalistic-content-is-found-in-google-search/；https://www.sistrix.com/blog/core-web-vitals-wix-vs-wordpress-shopify-vs-shopware-whats-fastest/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R135-E1 R3-S1-R135-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 25 个、sitemap 同结构 840 个全部匹配
-S1-R135-E1 规则：R3-S1-R135-E1-F1 已验证；R3-S1-R135-E1-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「SISTRIX SEO Blog, studies and expert content - SIS」）",S1-R135-E1 = S1!指定pattern 第135行 第1个入口: https://www.sistrix.com/blog/,"S1-R135-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 45；前缀外同站链接 24、文件 0；sitemap 中同结构但不在列表的 URL：F1=815、F2=0
+135,https://www.sistrix.com/blog/,"^https://www\.sistrix\.com/blog/[a-z0-9%_-]+/?$
+^https://www\.sistrix\.com/blog/archive/\?selected=[0-9]*$","S1-R135-E1: https://www.sistrix.com/blog/
+  其余 24 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R135-E1.txt","S1-R135-E1 R3-S1-R135-E1-F1: https://www.sistrix.com/blog/ancillary-copyright-law-how-much-journalistic-content-is-found-in-google-search/；https://www.sistrix.com/blog/core-web-vitals-wix-vs-wordpress-shopify-vs-shopware-whats-fastest/（已落地核验 200，公开访问，2026-10-26）
+S1-R135-E1 R3-S1-R135-E1-F2: https://www.sistrix.com/blog/archive/?selected=2008；https://www.sistrix.com/blog/archive/?selected=2007（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留,"S1-R135-E1 R3-S1-R135-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 25 个、sitemap 同结构 840 个全部匹配
+S1-R135-E1 R3-S1-R135-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP5/FP0/FN0/TN7；覆盖检查：列表 20 个、sitemap 同结构 0 个全部匹配
+S1-R135-E1 规则：R3-S1-R135-E1-F1 已验证；R3-S1-R135-E1-F2 已验证；链接 可打开（200，标题「SISTRIX SEO Blog, studies and expert content - SIS」）",S1-R135-E1 = S1!指定pattern 第135行 第1个入口: https://www.sistrix.com/blog/,"S1-R135-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 2 个、成员 45；前缀外同站链接 24、文件 0；sitemap 中同结构但不在列表的 URL：F1=815、F2=0
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 136,https://sproutsocial.com/insights/data/,^https://sproutsocial\.com/insights/data/[a-z0-9-]+/$,"S1-R136-E1: https://sproutsocial.com/insights/data/
   其余 24 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R136-E1.txt",S1-R136-E1 R3-S1-R136-E1-F1: https://sproutsocial.com/insights/data/brands-creating-change/；https://sproutsocial.com/insights/data/agency-pricing-packaging-report/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S1-R136-E1 R3-S1-R136-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN5；覆盖检查：列表 33 个、sitemap 同结构 33 个全部匹配
@@ -1551,24 +1682,24 @@ https://www.talkwalker.com/resources?category=Reports
 https://www.talkwalker.com/resources",^https://www\.talkwalker\.com/blog/[a-z0-9-]+$,"S1-R137-E1: https://www.talkwalker.com/blog
   其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R137-E1.txt
 S1-R137-E2: https://www.talkwalker.com/resources?category=Reports
-  其余 34 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R137-E2.txt
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R137-E2.txt
 S1-R137-E3: https://www.talkwalker.com/resources
-  其余 24 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R137-E3.txt",S1-R137-E1 R3-S1-R137-E1-F1: https://www.talkwalker.com/blog/brand-monitoring；https://www.talkwalker.com/blog/marketers-guide-to-competitive-intelligence（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留；E3 链接保留,"S1-R137-E1 R3-S1-R137-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 180 个全部匹配
+  其余 25 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R137-E3.txt",S1-R137-E1 R3-S1-R137-E1-F1: https://www.talkwalker.com/blog/brand-monitoring；https://www.talkwalker.com/blog/marketers-guide-to-competitive-intelligence（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留；E3 链接保留,"S1-R137-E1 R3-S1-R137-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 180 个全部匹配
 S1-R137-E1 规则：R3-S1-R137-E1-F1 已验证；链接 可打开（200，标题「Talkwalker Blog」）
 S1-R137-E2 规则：无规则；链接 可打开（200，标题「Talkwalker Resources: Social Listening Case Studie」）
 S1-R137-E3 规则：无规则；链接 可打开（200，标题「Talkwalker Resources: Social Listening Case Studie」）","S1-R137-E1 = S1!指定pattern 第137行 第1个入口: https://www.talkwalker.com/blog
 S1-R137-E2 = S1!指定pattern 第137行 第2个入口: https://www.talkwalker.com/resources?category=Reports
 S1-R137-E3 = S1!指定pattern 第137行 第3个入口: https://www.talkwalker.com/resources","S1-R137-E1: 完整（列表+sitemap 合并枚举）：静态请求 3 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 15；前缀外同站链接 13、文件 0；sitemap 中同结构但不在列表的 URL：F1=165
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R137-E2: 完整（枚举结束，无独立全集对账）：静态请求 10 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 105；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R137-E2: 完整（枚举结束，无独立全集对账）：静态请求 10 页（入口+分页），未完成分页 0；浏览器渲染 3 轮、点击加载更多 0 次、渲染后链接 105；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R137-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 110；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 24、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+S1-R137-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 110；前缀 /resources/ 下家族 0 个、成员 0；前缀外同站链接 24、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
 138,"https://unbounce.com/landing-page-optimization/
 https://unbounce.com/conversion-benchmark-report/",^https://unbounce\.com/conversion\-benchmark\-report/[a-z-]+/$,"S1-R138-E1: https://unbounce.com/landing-page-optimization/
   其余 245 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R138-E1.txt
 S1-R138-E2: https://unbounce.com/conversion-benchmark-report/
-  其余 10 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R138-E2.txt",S1-R138-E2 R3-S1-R138-E2-F1: https://unbounce.com/conversion-benchmark-report/methodology/；https://unbounce.com/conversion-benchmark-report/ecommerce-conversion-rate/（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R138-E1 规则：R3-S1-R138-E1-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Landing page optimization resources | Unbounce blo」）
+  其余 10 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R138-E2.txt",S1-R138-E2 R3-S1-R138-E2-F1: https://unbounce.com/conversion-benchmark-report/methodology/；https://unbounce.com/conversion-benchmark-report/ecommerce-conversion-rate/（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R138-E1 规则：R3-S1-R138-E1-F1 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「Landing page optimization resources | Unbounce blo」）
 S1-R138-E2 R3-S1-R138-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN5；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
 S1-R138-E2 规则：R3-S1-R138-E2-F1 已验证；链接 可打开（200，标题「Average conversion rate by industry benchmark repo」）","S1-R138-E1 = S1!指定pattern 第138行 第1个入口: https://unbounce.com/landing-page-optimization/
 S1-R138-E2 = S1!指定pattern 第138行 第2个入口: https://unbounce.com/conversion-benchmark-report/","S1-R138-E1: 完整：静态请求 24 页（入口+分页），未完成分页 0；前缀 /landing-page-optimization/ 下家族 1 个、成员 3；前缀外同站链接 242、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
@@ -1579,10 +1710,10 @@ S1-R138-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 �
 https://wearesocial.com/uk/reports/",^https://wearesocial\.com/uk/blog/[0-9]+/[0-9]+/[a-z0-9_-]+/$,"S1-R139-E1: https://wearesocial.com/uk/blog/
   其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R139-E1.txt
 S1-R139-E2: https://wearesocial.com/uk/reports/
-  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R139-E2.txt",S1-R139-E1 R3-S1-R139-E1-F1: https://wearesocial.com/uk/blog/2011/09/global-sabre-award/；https://wearesocial.com/uk/blog/2010/09/watch/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留,"S1-R139-E1 R3-S1-R139-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 2597 个、sitemap 同结构 2680 个全部匹配
+  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R139-E2.txt",S1-R139-E1 R3-S1-R139-E1-F1: https://wearesocial.com/uk/blog/2011/09/global-sabre-award/；https://wearesocial.com/uk/blog/2010/09/watch/（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留,"S1-R139-E1 R3-S1-R139-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 2597 个、sitemap 同结构 2685 个全部匹配
 S1-R139-E1 规则：R3-S1-R139-E1-F1 已验证；链接 可打开（200，标题「Blog - We Are Social UK」）
 S1-R139-E2 规则：无规则；链接 可打开（200，标题「Our Reports - We Are Social UK」）","S1-R139-E1 = S1!指定pattern 第139行 第1个入口: https://wearesocial.com/uk/blog/
-S1-R139-E2 = S1!指定pattern 第139行 第2个入口: https://wearesocial.com/uk/reports/","S1-R139-E1: 部分：静态请求 269 页（入口+分页），未完成分页 0；前缀 /uk/blog/ 下家族 1 个、成员 2597；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=90
+S1-R139-E2 = S1!指定pattern 第139行 第2个入口: https://wearesocial.com/uk/reports/","S1-R139-E1: 完整（列表+sitemap 合并枚举）：静态请求 269 页（入口+分页），未完成分页 0；前缀 /uk/blog/ 下家族 1 个、成员 2597；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=91
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R139-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /uk/reports/ 下家族 0 个、成员 0；前缀外同站链接 12、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
@@ -1590,17 +1721,20 @@ S1-R139-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 �
 https://wingify.com/ebooks/
 https://wingify.com/success-stories/
 https://wingify.com/resources/","^https://wingify\.com/blog/[a-z0-9-]+/$
+^https://wingify\.com/ebooks/[a-z0-9-]+/$
 ^https://wingify\.com/success\-stories/[a-z-]+/$","S1-R140-E1: https://wingify.com/blog/
   其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R140-E1.txt
 S1-R140-E2: https://wingify.com/ebooks/
-  其余 25 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R140-E2.txt
+  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R140-E2.txt
 S1-R140-E3: https://wingify.com/success-stories/
   其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R140-E3.txt
 S1-R140-E4: https://wingify.com/resources/
   其余 28 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R140-E4.txt","S1-R140-E1 R3-S1-R140-E1-F1: https://wingify.com/blog/feature-flags-agile-software-development/；https://wingify.com/blog/insights-into-action-wingz-ai/（已落地核验 200，公开访问，2026-10-26）
-S1-R140-E3 R3-S1-R140-E3-F1: https://wingify.com/success-stories/defacto/；https://wingify.com/success-stories/copado/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留；E4 链接保留,"S1-R140-E1 R3-S1-R140-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 991 个全部匹配
+S1-R140-E2 R3-S1-R140-E2-F1: https://wingify.com/ebooks/30-black-friday-tests-how-to-win-big-during-the-e-commerce-holiday-season/；https://wingify.com/ebooks/airline-mobile-booking-benchmark-report/（已落地核验 200，公开访问，2026-10-26）
+S1-R140-E3 R3-S1-R140-E3-F1: https://wingify.com/success-stories/defacto/；https://wingify.com/success-stories/copado/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留,"S1-R140-E1 R3-S1-R140-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 991 个全部匹配
 S1-R140-E1 规则：R3-S1-R140-E1-F1 已验证；链接 可打开（200，标题「Blog On Best Practices & Insights in CRO, UX & CX 」）
-S1-R140-E2 规则：R3-S1-R140-E2-F1 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「EBooks & Guides | Wingify」）
+S1-R140-E2 R3-S1-R140-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
+S1-R140-E2 规则：R3-S1-R140-E2-F1 已验证；链接 可打开（200，标题「EBooks & Guides | Wingify」）
 S1-R140-E3 R3-S1-R140-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP4/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
 S1-R140-E3 规则：R3-S1-R140-E3-F1 已验证；链接 可打开（200，标题「Customer Success Stories & Case Studies | VWO」）
 S1-R140-E4 规则：无规则；链接 可打开（200，标题「Resources On Testing, Personalization, Customer Ex」）","S1-R140-E1 = S1!指定pattern 第140行 第1个入口: https://wingify.com/blog/
@@ -1672,15 +1806,15 @@ S1-R143-E3: 未验证：入口待核验（无站点状态码：ReadTimeout: HTTP
 151,"https://app.cbinsights.com/
 https://www.cbinsights.com/research/
 https://www.cbinsights.com/strategy-terminal/","^https://www\.cbinsights\.com/research/[a-z-]+/[a-z0-9-]+/$
-^https://www\.cbinsights\.com/research/[a-z0-9-]+/$","S1-R151-E2: https://www.cbinsights.com/research/
+^https://www\.cbinsights\.com/research/[a-z0-9%_-]+/$","S1-R151-E2: https://www.cbinsights.com/research/
   其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R151-E2.txt
 S1-R151-E3: https://www.cbinsights.com/strategy-terminal/
   其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R151-E3.txt","S1-R151-E2 R3-S1-R151-E2-F1: https://www.cbinsights.com/research/briefing/webinar-ai-agents-driving-roi/；https://www.cbinsights.com/research/briefing/webinar-behind-the-scenes-insurtech-50-2026/（已落地核验 200，公开访问，2026-10-26）
-S1-R151-E2 R3-S1-R151-E2-F2: https://www.cbinsights.com/research/artificial-intelligence/；https://www.cbinsights.com/research/14-repeat-founders-building-agentic-commerce/（已落地核验 200，公开访问，2026-10-26）",E2 正则+链接保留；E3 链接保留；E1 host免提,"S1-R151-E2 R3-S1-R151-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN7；覆盖检查：列表 13 个、sitemap 同结构 0 个全部匹配
-S1-R151-E2 R3-S1-R151-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S1-R151-E2 R3-S1-R151-E2-F2: https://www.cbinsights.com/research/asia-pacific-tech-startups-map/；https://www.cbinsights.com/research/14-repeat-founders-building-agentic-commerce/（已落地核验 200，公开访问，2026-10-26）",E2 正则+链接保留；E3 链接保留；E1 host免提,"S1-R151-E2 R3-S1-R151-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN7；覆盖检查：列表 13 个、sitemap 同结构 0 个全部匹配
+S1-R151-E2 R3-S1-R151-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 8 个、sitemap 同结构 8403 个全部匹配
 S1-R151-E2 规则：R3-S1-R151-E2-F1 已验证；R3-S1-R151-E2-F2 已验证；第 2 轮：无规则；链接 可打开（200，标题「CB Insights Research」）
 S1-R151-E3 规则：无规则；第 2 轮：无规则；链接 可打开（200，标题「Strategy Terminal<!-- --> - CB Insights」）","S1-R151-E2 = S1!指定pattern 第151行 第2个入口: https://www.cbinsights.com/research/
-S1-R151-E3 = S1!指定pattern 第151行 第3个入口: https://www.cbinsights.com/strategy-terminal/","S1-R151-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 2 个、成员 21；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0
+S1-R151-E3 = S1!指定pattern 第151行 第3个入口: https://www.cbinsights.com/strategy-terminal/","S1-R151-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /research/ 下家族 2 个、成员 21；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=8395
   第 2 轮人工复核：部分：入口静态首轮 1 页（8100 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round3/queue.json
 S1-R151-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 0；前缀 /strategy-terminal/ 下家族 0 个、成员 0；前缀外同站链接 45、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：部分：入口静态首轮 1 页（9994 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对

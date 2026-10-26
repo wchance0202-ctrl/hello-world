@@ -1,7 +1,7 @@
 {
- "frozen_at": "2026-10-26T12:07:55+00:00",
+ "frozen_at": "2026-10-26T14:18:38+00:00",
  "seed": 20261028,
- "sha256": "daf207f6575b1254a09b07445717e6b07b0f83202cedaad356a65052561be63a",
+ "sha256": "6e54d5c47b827090ed1e01bfc20c9f8a51dbabdb56b9a5d4cb75963dcb0fbdfd",
  "rules": [
   {
    "id": "R3-S1-R2-E1-F1",
@@ -17,13 +17,15 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.census.gov/retail/about_the_surveys.html",
-    "https://www.census.gov/retail/definitions.html",
     "https://www.census.gov/retail/faqs.html"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.census.gov/retail/definitions.html",
+    "https://www.census.gov/retail/how_surveys_are_collected.html"
+   ],
    "holdout_neg": [
     "https://www.census.gov/retail/index.html",
     "https://www.census.gov/partners/toolkits.html",
@@ -32,7 +34,14 @@
     "https://www.census.gov/programs-surveys/nsch.html",
     "https://www.census.gov/retail/mrtsinv/inventories.html"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "varext",
+     "[a-z_]+",
+     "html"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R2-E2-F1",
@@ -72,7 +81,18 @@
     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html",
     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "varext",
+     "[a-z]+",
+     "html"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R2-E2-F2",
@@ -107,7 +127,22 @@
     "https://www.census.gov/programs-surveys/e-stats/about.html",
     "https://www.census.gov/programs-surveys/e-stats/data/tables.html"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "news-updates"
+    ],
+    [
+     "lit",
+     "updates"
+    ],
+    [
+     "varext",
+     "[a-z0-9-]+",
+     "html"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R6-E13-F1",
@@ -123,21 +158,29 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://documents.worldbank.org/en/publication/documents-reports/api",
-    "https://documents.worldbank.org/en/publication/documents-reports/disclosure",
     "https://documents.worldbank.org/en/publication/documents-reports/docadvancesearch",
     "https://documents.worldbank.org/en/publication/documents-reports/faqs"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://documents.worldbank.org/en/publication/documents-reports/disclosure"
+   ],
    "holdout_neg": [
     "https://documents.worldbank.org/en/publication/documents-reports",
     "https://documents.worldbank.org/pt/publication/documents-reports",
-    "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090426145520570",
-    "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099025509162610059"
+    "https://documents.worldbank.org/pt/publication/documents-reports/disclosure",
+    "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099025509162610059",
+    "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090426145520570"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R16-E1-F1",
@@ -183,7 +226,13 @@
     "https://www.bis.org/publications/aer-2022/no-respite",
     "https://www.bis.org/publications/qr-201612/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z0-9%_-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R16-E1-F2",
@@ -226,7 +275,17 @@
     "https://www.bis.org/publications/capital-adequacy-transition",
     "https://www.bis.org/publications/working-paper-23-changing-borders-banking-trends-and-implications"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R16-E4-F1",
@@ -267,7 +326,51 @@
     "https://www.bis.org/speeches/20260128-fulfilling-mandates-central-banks-changing-world?language=es",
     "https://www.bis.org/speeches/20240729-monetary-policy-and-challenges-americas-2024?language=es"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R18-E2-F1",
+   "entry_ids": [
+    "S1-R18-E2"
+   ],
+   "target": "https://www.itu.int/itu-d/sites/statistics/ 入口前缀 /itu-d/sites/statistics/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.itu\\.int/itu\\-d/sites/statistics/[a-z-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "slash",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.itu.int/itu-d/sites/statistics/ar/",
+    "https://www.itu.int/itu-d/sites/statistics/es/",
+    "https://www.itu.int/itu-d/sites/statistics/ru/",
+    "https://www.itu.int/itu-d/sites/statistics/zh-hans/"
+   ],
+   "holdout_pos": [
+    "https://www.itu.int/itu-d/sites/statistics/fr/"
+   ],
+   "holdout_neg": [
+    "https://www.itu.int/itu-d/sites/statistics/",
+    "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+    "https://www.itu.int/itu-d/sites/africa/",
+    "https://www.itu.int/en/ITU-R/information/events"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E4-F2",
@@ -300,11 +403,25 @@
     "https://www.itu.int/en/action/Pages/default.aspx",
     "https://www.itu.int/en/digital-resilience/submarine-cables/Pages/default.aspx",
     "https://www.itu.int/en/ITU-T/dfs/Pages/default.aspx",
-    "https://www.itu.int/en/careers",
+    "https://www.itu.int/hub/news/",
     "https://www.itu.int/en/action/youth",
     "https://www.itu.int/en/action/entrepreneurship"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "lit",
+     "default.aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E5-F2",
@@ -325,24 +442,47 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx",
     "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Europe/Pages/default.aspx",
     "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-americas/Pages/default.aspx",
     "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-asia%26pacific/Pages/default.aspx",
     "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-26-asia%26pacific/Pages/default.aspx"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx"
+   ],
    "holdout_neg": [
     "https://www.itu.int/en/ITU-R/Pages/default.aspx",
-    "https://www.itu.int/itu-r-sg-6-workshop-digital-terrestrial-television-delivery-systems",
-    "https://www.itu.int/wrs-24",
-    "https://www.itu.int/hub/2025/08/updated-software-tool-helps-navigate-radio-spectrum-regulations/",
+    "https://www.itu.int/twitter",
+    "https://www.itu.int/webcast/live2/rcpm27-2",
+    "https://www.itu.int/myworkspace",
     "https://www.itu.int/en/ITU-R/study-groups/rsg7/Pages/Seminar-Science-Services-RR-WRC27-2025.aspx",
     "https://www.itu.int/en/ITU-R/conferences/RA"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "seminars"
+    ],
+    [
+     "lit",
+     "rrs"
+    ],
+    [
+     "var",
+     "[a-zA-Z0-9%-]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "lit",
+     "default.aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E5-F4",
@@ -380,11 +520,30 @@
     "https://www.itu.int/en/ITU-R/Pages/default.aspx",
     "https://www.itu.int/en/action/broadband/Pages/ARCHIVE/itu-r-activities.aspx",
     "https://www.itu.int/en/ITU-D/Spectrum-Broadcasting/DSO/Pages/default.aspx",
-    "https://www.itu.int/spotify",
-    "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx",
-    "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-africa/Pages/default.aspx"
+    "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+    "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-africa/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-R/information/events"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "varext",
+     "[a-zA-Z0-9-]+",
+     "aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E6-F1",
@@ -423,11 +582,26 @@
     "https://www.itu.int/en/ITU-T/Pages/default.aspx",
     "https://www.itu.int/en/publications/ITU-T/Pages/default.aspx",
     "https://www.itu.int/en/journal/j-fet/Pages/default.aspx",
-    "https://www.itu.int/en/general-secretariat/Pages/itu-translate-disclaimer.aspx",
+    "https://www.itu.int/en/itu-wsis/Pages/default.aspx",
     "https://www.itu.int/en/ITU-T/extcoop/ai4resilience/Pages/default.aspx",
     "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z-]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "varext",
+     "[a-z]+",
+     "aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E6-F2",
@@ -464,12 +638,30 @@
    "holdout_neg": [
     "https://www.itu.int/en/ITU-T/Pages/default.aspx",
     "https://www.itu.int/en/journal/j-fet/webinars/Pages/default.aspx",
-    "https://www.itu.int/en/about/Pages/terms-of-use.aspx",
-    "https://www.itu.int/Pages/VariationRoot.aspx",
+    "https://www.itu.int/en/action/broadband/Pages/ARCHIVE/itu-r-activities.aspx",
+    "https://www.itu.int/ITU-R/space/snl/index.html",
     "https://www.itu.int/en/ITU-T/tsbdir/Pages/default.aspx",
     "https://www.itu.int/en/ITU-T/climatechange/Pages/default.aspx"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9]+"
+    ],
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "lit",
+     "default.aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E7-F1",
@@ -509,7 +701,18 @@
     "https://www.itu.int/en/ITU-D/Conferences/WTDC/",
     "https://www.itu.int/en/ITU-D/MembersPartners/Pages/tech-talks.aspx"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "Pages"
+    ],
+    [
+     "varext",
+     "[a-zA-Z0-9-]+",
+     "aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R18-E8-F1",
@@ -525,21 +728,28 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.itu.int/hub/news/did-you-know/",
-    "https://www.itu.int/hub/news/impact-videos/",
     "https://www.itu.int/hub/news/itu-newsletter-subscribe/",
     "https://www.itu.int/hub/news/meet-the-experts/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.itu.int/hub/news/impact-videos/"
+   ],
    "holdout_neg": [
     "https://www.itu.int/hub/news/",
     "https://www.itu.int/hub/pubs/itu-news-magazine/",
-    "https://www.itu.int/hub/2026/10/genie-ai-empowering-countries-to-shape-their-ai-future/",
-    "https://www.itu.int/hub/2026/10/itu-plenipotentiary-together-for-a-connected-digital-future/"
+    "https://www.itu.int/net4/wsis/forum/2025",
+    "https://www.itu.int/en/ITU-R/study-groups/rcpm/Pages/cpm-27.aspx"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E3-F1",
@@ -568,13 +778,31 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/ip-statistics",
-    "https://www.wipo.int/en/web/decision-making-and-negotiating-bodies",
-    "https://www.wipo.int/en/web/about-ip",
-    "https://www.wipo.int/en/web/technology-transfer",
+    "https://www.wipo.int/en/web/business/copyright",
+    "https://www.wipo.int/classifications/nivilo/vienna/index.htm?lang=EN",
+    "https://www.wipo.int/trademarks/en/",
     "https://www.wipo.int/en/web/ip-statistics/news",
     "https://www.wipo.int/en/web/ip-statistics/about"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E4-F1",
@@ -613,6 +841,12 @@
      "https://www.wipo.int/en/web/patentscope/webinar",
      "https://www.wipo.int/en/web/patentscope/webinar/index"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z_]+"
+    ]
    ]
   },
   {
@@ -642,13 +876,31 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/patentscope/",
-    "https://www.wipo.int/about-ip/en/artificial_intelligence/",
-    "https://www.wipo.int/en/web/wipo-wallet",
-    "https://www.wipo.int/en/web/patents/protection",
-    "https://www.wipo.int/en/web/patentscope/webinar",
-    "https://www.wipo.int/en/web/patentscope/data/"
+    "https://www.wipo.int/about-ip/en/artificial_intelligence/strategy-search.jsp?territory_id=&policy_id=2434",
+    "https://www.wipo.int/treaties/en/preparatory-documents.html",
+    "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1035-en-in-good-company-managing-intellectual-property-issues-in-franchising.pdf",
+    "https://www.wipo.int/en/web/patentscope/faqs_patentscope",
+    "https://www.wipo.int/en/web/patentscope/webinar"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E6-F1",
@@ -680,7 +932,13 @@
     "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-croatia-are-now-available-in-the-global-brand-database",
     "https://www.wipo.int/en/web/global-brand-database/w/news/2026/trademarks-of-paraguay-are-now-available-in-the-global-brand-database"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z_]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E6-F2",
@@ -716,13 +974,31 @@
    ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/global-brand-database",
-    "https://www.wipo.int/meetings/en/archive.jsp",
-    "https://www.wipo.int/en/web/treaties",
-    "https://www.wipo.int/en/web/judiciaries",
-    "https://www.wipo.int/en/web/global-brand-database/news",
-    "https://www.wipo.int/en/web/global-brand-database/faqs_branddb"
+    "https://www.wipo.int/en/web/wipo-magazine/articles/how-the-republic-of-korea-is-redefining-esport-players-identity-and-rights-101216",
+    "https://www.wipo.int/web/wipo-magazine/articles/capacity-building-intellectual-property-and-traditional-knowledge-36993",
+    "https://www.wipo.int/en/web/patentscope/",
+    "https://www.wipo.int/en/web/global-brand-database/terms_and_conditions",
+    "https://www.wipo.int/en/web/global-brand-database/news"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E8-F1",
@@ -751,12 +1027,30 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/global-design-database",
-    "https://www.wipo.int/en/web/cooperation",
-    "https://www.wipo.int/web/global-design-database/faqs_designdb",
-    "https://www.wipo.int/meetings/en/archive.jsp",
+    "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-944-2022-en-world-intellectual-property-report-2022.pdf",
+    "https://www.wipo.int/en/web/wipo-magazine/latest",
+    "https://www.wipo.int/web-publications/global-innovation-index-2024/en/special-theme-2024-unlocking-the-promise-of-social-entrepreneurship.html",
     "https://www.wipo.int/en/web/global-design-database/news"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E10-F1",
@@ -776,24 +1070,43 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/beyond-the-chatbot-what-patent-data-reveals-about-the-next-phase-of-genai",
     "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/the-smart-game-football-innovation-on-the-road-to-the-2026-football-world-cup",
     "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/why-electrifying-truck-fleets-is-really-a-digital-problem",
-    "https://www.wipo.int/en/web/patent-analytics/w/news/2026/the-genai-landscape-is-getting-bigger-and-more-competitive-according-to-new-wipo-report",
+    "https://www.wipo.int/en/web/patent-analytics/w/news/2026/the-genai-landscape-is-getting-bigger-and-more-competitive-according-to-new-wipo-report"
+   ],
+   "holdout_pos": [
     "https://www.wipo.int/en/web/patent-analytics/w/news/2026/wipo-launches-new-e-tutorial-on-patent-analytics"
    ],
-   "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/patent-analytics",
-    "https://www.wipo.int/en/web/patents/patent-information",
-    "https://www.wipo.int/en/web/inventor-assistance-program",
-    "https://www.wipo.int/en/web/ardi",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/emily-waqalevu-indigenous-women-entrepreneurship-program",
+    "https://www.wipo.int/en/web/geographical-indications/protection",
+    "https://www.wipo.int/documents/d/universities/docs-en-ip-toolkit-case_studies.docx",
     "https://www.wipo.int/en/web/patent-analytics/community-of-practice",
     "https://www.wipo.int/en/web/patent-analytics/patent-landscapes-reports"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E10-F2",
@@ -825,7 +1138,13 @@
     "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/why-electrifying-truck-fleets-is-really-a-digital-problem",
     "https://www.wipo.int/en/web/patent-analytics/generative-ai/2025"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E12-F1",
@@ -841,15 +1160,19 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.wipo.int/en/web/business/enterprising-ideas",
-    "https://www.wipo.int/en/web/business/ip-valuation",
     "https://www.wipo.int/en/web/business/news",
     "https://www.wipo.int/en/web/business/trade-secrets",
     "https://www.wipo.int/en/web/business/traditional-knowledge"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/business/enterprising-ideas",
+    "https://www.wipo.int/en/web/business/geographical-indications",
+    "https://www.wipo.int/en/web/business/ip-valuation",
+    "https://www.wipo.int/en/web/business/securing-financing",
+    "https://www.wipo.int/en/web/business/sme-support-institutions-platform-search"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/business",
     "https://www.wipo.int/en/web/cooperation/collaborative-forums",
@@ -859,7 +1182,13 @@
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center",
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-algeria-venture-join-forces-to-launch-a-joint-ip-for-business-center-for-algerian-startups-and-smes"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E12-F2",
@@ -879,24 +1208,43 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/business/w/news/2026/ipmc-shanghai-yangtze-river-delta-green-technology-intellectual-property-management-clinic-ipmc-officially-launches",
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-algeria-venture-join-forces-to-launch-a-joint-ip-for-business-center-for-algerian-startups-and-smes",
-    "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center",
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-2026-ip-management-clinic-for-med-tech-smes-and-start-ups-in-poland-and-israel",
     "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-new-ip-diagnostics-tool-for-the-fashion-industry"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/business",
     "https://www.wipo.int/en/web/office-singapore/w/news/2026/gentle-evolutio-indonesia-quiet-luxury-sustainable-essential-oils",
-    "https://www.wipo.int/meetings/en/archive.jsp",
-    "https://www.wipo.int/en/web/geographical-indications",
-    "https://www.wipo.int/en/web/business/trademarks",
-    "https://www.wipo.int/en/web/business/trade-secrets"
+    "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/beyond-the-chatbot-what-patent-data-reveals-about-the-next-phase-of-genai",
+    "https://www.wipo.int/publications/en/series/index.jsp?id=138",
+    "https://www.wipo.int/en/web/business/trade-secrets",
+    "https://www.wipo.int/en/web/business/copyright"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E13-F1",
@@ -932,7 +1280,13 @@
     "https://www.wipo.int/en/web/economics/w/blogs/innovation-made-to-fit-how-kenya-builds-new-opportunities-from-existing-capabilities",
     "https://www.wipo.int/en/web/economics/w/blogs/can-clean-technologies-spread-fast-enough-to-fight-climate-change"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E14-F1",
@@ -969,7 +1323,13 @@
     "https://www.wipo.int/en/web/technology-transfer/w/stories/sadc-technology-transfer-mentorship-program-building-regional-capacity",
     "https://www.wipo.int/en/web/technology-transfer/w/news/2026/wipo-signs-a-memorandum-of-understanding-with-attp"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E14-F2",
@@ -998,13 +1358,31 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/technology-transfer",
-    "https://www.wipo.int/en/web/business",
-    "https://www.wipo.int/en/web/tourism",
-    "https://www.wipo.int/en/web/cooperation/tailored-initiatives",
+    "https://www.wipo.int/en/web/amc/domain-name-disputes",
+    "https://www.wipo.int/web/patents",
+    "https://www.wipo.int/en/web/frontier-technologies/w/news/2025/wipo-conversation-12-synthetic-media-create-new-avenues-for-creativity-challenges-for-policymakers",
     "https://www.wipo.int/en/web/technology-transfer/news",
     "https://www.wipo.int/en/web/technology-transfer/tt-incentives-guide"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E14-F3",
@@ -1035,13 +1413,27 @@
    ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/technology-transfer",
-    "https://www.wipo.int/meetings/en/archive.jsp",
-    "https://www.wipo.int/en/web/wipo-wallet",
-    "https://www.wipo.int/en/web/ip-financing",
+    "https://www.wipo.int/en/web/wipo-magazine/latest",
+    "https://www.wipo.int/documents/2948119/3215563/ipc_technology.xlsx",
+    "https://www.wipo.int/publications/en/details.jsp?id=4825",
     "https://www.wipo.int/en/web/technology-transfer/w/news/2026/wipo-signs-a-memorandum-of-understanding-with-attp",
-    "https://www.wipo.int/en/web/technology-transfer/academic-assets-management"
+    "https://www.wipo.int/en/web/technology-transfer/institutional-ip-policies-database"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "stories"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E16-F1",
@@ -1069,13 +1461,27 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/ip-financing",
-    "https://www.wipo.int/en/web/sports",
-    "https://www.wipo.int/publications/en/details.jsp?id=4705",
-    "https://www.wipo.int/en/web/copyright",
-    "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-convenes-asean-investors-to-advance-ip-in-investment-decisions",
-    "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-report-launch-highlights-mexico-s-ip-financing-potential"
+    "https://www.wipo.int/web/wipo-magazine/articles/digital-economy-the-search-for-new-governance-mechanisms-42773",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/shandong-bomo-low-carbon-energy-systems",
+    "https://www.wipo.int/en/web/wipo-magazine/focus-music",
+    "https://www.wipo.int/en/web/ip-financing/events/high-level-conversation-on-unlocking-intangible-asset-finance",
+    "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-convenes-asean-investors-to-advance-ip-in-investment-decisions"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "events"
+    ],
+    [
+     "lit",
+     "ip-finance-dialogue"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E16-F2",
@@ -1104,13 +1510,31 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/ip-financing",
-    "https://www.wipo.int/en/web/geographical-indications/protection",
-    "https://www.wipo.int/en/web/about-wipo",
-    "https://www.wipo.int/en/web/competition-policy",
-    "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2025",
-    "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2023"
+    "https://www.wipo.int/meetings/en/details.jsp?meeting_id=86428",
+    "https://www.wipo.int/en/web/cooperation",
+    "https://www.wipo.int/classifications/ipc/green-inventory/home",
+    "https://www.wipo.int/en/web/ip-financing/events/expert-consultative-group-on-valuation",
+    "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2025"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E20-F1",
@@ -1139,12 +1563,30 @@
    "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/frontier-technologies",
-    "https://www.wipo.int/en/web/wipo-pearl",
-    "https://www.wipo.int/meetings/en/archive.jsp",
-    "https://www.wipo.int/en/web/global-brand-database",
+    "https://www.wipo.int/en/web/patent-analytics",
+    "https://www.wipo.int/meetings/en/topic.jsp?group_id=360",
+    "https://www.wipo.int/en/web/business/copyright",
     "https://www.wipo.int/en/web/frontier-technologies/news"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "news"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9_-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E21-F1",
@@ -1162,22 +1604,35 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/wipo-magazine/articles/combatting-ai-deepfakes-to-safeguard-indian-cricketers-image-rights-100827",
-    "https://www.wipo.int/en/web/wipo-magazine/articles/how-saudi-producer-ahmed-alsallal-uses-music-to-promote-intellectual-property-74728",
     "https://www.wipo.int/en/web/wipo-magazine/articles/owning-the-celebration-signature-moves-in-the-age-of-synthetic-media-93050",
     "https://www.wipo.int/en/web/wipo-magazine/articles/su-super-league-chinese-football-and-the-role-of-ip-97375",
     "https://www.wipo.int/en/web/wipo-magazine/articles/taylor-swift-trademark-strategy-a-model-for-artist-ip-protection-78728"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/wipo-magazine/articles/how-saudi-producer-ahmed-alsallal-uses-music-to-promote-intellectual-property-74728",
+    "https://www.wipo.int/en/web/wipo-magazine/articles/tracking-innovation-in-sport-intellectual-property-on-and-off-the-field-100093",
+    "https://www.wipo.int/en/web/wipo-magazine/articles/win-well-how-sport-and-ip-strengthen-australias-nation-brand-97348"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/wipo-magazine",
     "https://www.wipo.int/en/web/podcasts/wkc/index",
     "https://www.wipo.int/en/web/about-wipo/budget/financial",
-    "https://www.wipo.int/en/web/intangible-assets"
+    "https://www.wipo.int/en/web/respect-for-ip"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "articles"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E22-F1",
@@ -1214,13 +1669,27 @@
    ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/ip-advantage",
-    "https://www.wipo.int/en/web/wipo-alert",
-    "https://www.wipo.int/en/web/intangible-assets/measuring-investments",
-    "https://www.wipo.int/en/web/treaties",
-    "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories",
-    "https://www.wipo.int/en/web/ip-advantage/pct-system-stories"
+    "https://www.wipo.int/en/web/wipo-magazine/authors/tania-sebastian-100841",
+    "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-report-launch-highlights-mexico-s-ip-financing-potential",
+    "https://www.wipo.int/web/patent-analytics/key-findings-hydrogen-fuel-cells-in-transportation",
+    "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories",
+    "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "lit",
+     "stories"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E22-F2",
@@ -1236,15 +1705,16 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories",
     "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories",
     "https://www.wipo.int/en/web/ip-advantage/madrid-system-stories",
-    "https://www.wipo.int/en/web/ip-advantage/music-stories",
+    "https://www.wipo.int/en/web/ip-advantage/music-stories"
+   ],
+   "holdout_pos": [
     "https://www.wipo.int/en/web/ip-advantage/pct-system-stories"
    ],
-   "holdout_pos": [],
    "holdout_neg": [
     "https://www.wipo.int/en/web/ip-advantage",
     "https://www.wipo.int/en/web/about-wipo/budget",
@@ -1254,7 +1724,13 @@
     "https://www.wipo.int/en/web/ip-advantage/w/stories/thelungten-bhutanese-singer",
     "https://www.wipo.int/en/web/ip-advantage/w/stories/lascap-ensuring-fair-music-royalty-management-in-laos"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E24-F1",
@@ -1274,24 +1750,43 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/international-trade-in-ideas-know-how-and-intellectual-property",
-    "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/lights-camera-records-global-film-production",
     "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/software-collaboration-hits-5-billion-github-commits",
     "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/the-value-of-corporate-intangible-assets-worldwide",
     "https://www.wipo.int/en/web/global-innovation-index/w/news/2026/launch-of-the-2026-gii-ranking-of-world-s-top-100-innovation-clusters"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/lights-camera-records-global-film-production"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/global-innovation-index",
-    "https://www.wipo.int/en/web/classification-nice",
-    "https://www.wipo.int/en/web/ipday",
-    "https://www.wipo.int/en/web/universities",
-    "https://www.wipo.int/en/web/global-innovation-index/2024/index",
-    "https://www.wipo.int/en/web/global-innovation-index/2026/index"
+    "https://www.wipo.int/web/wipo-magazine/articles/regulating-machine-data-less-is-more-for-global-growth-55598",
+    "https://www.wipo.int/web/patent-analytics/agritech",
+    "https://www.wipo.int/edocs/gii-ranking/2025/ko.pdf",
+    "https://www.wipo.int/en/web/global-innovation-index/2026/innovation-clusters",
+    "https://www.wipo.int/en/web/global-innovation-index/news"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "w"
+    ],
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E24-F2",
@@ -1325,12 +1820,22 @@
    "holdout_neg": [
     "https://www.wipo.int/en/web/global-innovation-index",
     "https://www.wipo.int/en/web/about-wipo/budget/financial",
-    "https://www.wipo.int/en/web/future-of-ip",
-    "https://www.wipo.int/en/web/tisc",
-    "https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2021",
-    "https://www.wipo.int/en/web/global-innovation-index/w/news/2026/save-the-date-gii-2026"
+    "https://www.wipo.int/en/web/business/trade-secrets",
+    "https://www.wipo.int/web/global-innovation-index/2024/science-technology-clusters",
+    "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/software-collaboration-hits-5-billion-github-commits",
+    "https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2021"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E25-F1",
@@ -1348,21 +1853,32 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.wipo.int/en/web/world-ip-report/2019/index",
     "https://www.wipo.int/en/web/world-ip-report/2022/index",
     "https://www.wipo.int/en/web/world-ip-report/2024/index",
     "https://www.wipo.int/en/web/world-ip-report/2026/index"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/world-ip-report/2019/index"
+   ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/world-ip-report",
     "https://www.wipo.int/pressroom/en/articles/2017/article_0012.html",
     "https://www.wipo.int/en/web/videos/w/wipr-2026-main-findings",
     "https://www.wipo.int/en/web/about-wipo/budget/financial"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "lit",
+     "index"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R19-E28-F1",
@@ -1379,20 +1895,34 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
     "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=222",
     "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
-    "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
     "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=252"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
+    "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241"
+   ],
    "holdout_neg": [
     "https://www3.wipo.int/ipstats/",
+    "https://www3.wipo.int/designdb/en/",
+    "https://www3.wipo.int/contact/en/hague/designs-in-action.html",
+    "https://www3.wipo.int/contact/en/madrid/",
     "https://www3.wipo.int/ipstats/key-search/indicator"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "key-search"
+    ],
+    [
+     "lit",
+     "search-result"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R20-E1-F1",
@@ -1434,7 +1964,17 @@
     "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/world-water-day",
     "https://www.epo.org/en/searching-for-patents/technology-platforms"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R20-E1-F2",
@@ -1450,15 +1990,16 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.epo.org/en/searching-for-patents/business",
-    "https://www.epo.org/en/searching-for-patents/data",
     "https://www.epo.org/en/searching-for-patents/helpful-resources",
     "https://www.epo.org/en/searching-for-patents/legal",
     "https://www.epo.org/en/searching-for-patents/technical"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.epo.org/en/searching-for-patents/data"
+   ],
    "holdout_neg": [
     "https://www.epo.org/en/searching-for-patents",
     "https://www.epo.org/en/about-us/services-and-activities",
@@ -1468,7 +2009,13 @@
     "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-translate",
     "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/changes-vietnamese-patent-law"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R20-E1-F3",
@@ -1510,7 +2057,21 @@
     "https://www.epo.org/en/searching-for-patents/business",
     "https://www.epo.org/en/searching-for-patents/helpful-resources"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "helpful-resources"
+    ],
+    [
+     "lit",
+     "patent-knowledge-news"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R20-E2-F1",
@@ -1552,7 +2113,17 @@
     "https://www.epo.org/en/news-events/news",
     "https://www.epo.org/en/news-events/young-inventors-prize"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R20-E2-F2",
@@ -1568,7 +2139,7 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.epo.org/en/news-events/events",
     "https://www.epo.org/en/news-events/in-focus",
@@ -1576,7 +2147,9 @@
     "https://www.epo.org/en/news-events/podcast",
     "https://www.epo.org/en/news-events/young-inventors-prize"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.epo.org/en/news-events/european-inventor-award"
+   ],
    "holdout_neg": [
     "https://www.epo.org/en/news-events",
     "https://www.epo.org/de/applying/representatives",
@@ -1586,7 +2159,13 @@
     "https://www.epo.org/en/news-events/events/pmac-arbitration-day",
     "https://www.epo.org/en/news-events/news/public-research-market-success-europes-tech-transfer-challenge"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R22-E1-F1",
@@ -1627,7 +2206,17 @@
     "https://www.kantar.com/it/contact/pb-uk-contact",
     "https://www.kantar.com/inspiration/webinars"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R22-E2-F1",
@@ -1664,7 +2253,13 @@
     "https://www.kantar.com/en-cn/cookies-policies",
     "https://www.kantar.com/no/solutions"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R26-E1-F1",
@@ -1700,7 +2295,13 @@
     "https://www.mintel.com/insights/events/in-cosmetics-asia/",
     "https://www.mintel.com/insights/food-and-drink/asia-pacific-food-drink-landscape/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R26-E1-F2",
@@ -1744,7 +2345,17 @@
     "https://www.mintel.com/insights/consumer-research/",
     "https://www.mintel.com/insights/food-and-drink"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R26-E2-F1",
@@ -1783,7 +2394,13 @@
     "https://www.mintel.com/products/market-dynamics/",
     "https://www.mintel.com/de/case-studies/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R26-E3-F1",
@@ -1823,7 +2440,13 @@
     "https://www.mintel.com/insights/consumer-research/trending-ingredients-to-watch-kombu-seaweed/",
     "https://www.mintel.com/insights/advertising-and-marketing/social-media/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R27-E1-F1",
@@ -1863,7 +2486,13 @@
     "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=tissue-and-hygiene&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
     "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=market_research_in_action&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R27-E1-F2",
@@ -1902,7 +2531,13 @@
     "https://www.euromonitor.com/insights/luxury-fashion",
     "https://www.euromonitor.com/insights/industrial-markets"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "insight-search-result-page-tags"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R27-E3-F1",
@@ -1919,15 +2554,18 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
     "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
     "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
-    "https://www.euromonitor.com/store/explore-reports/north-america/canada",
     "https://www.euromonitor.com/store/explore-reports/western-europe/austria"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+    "https://www.euromonitor.com/store/explore-reports/north-america/canada"
+   ],
    "holdout_neg": [
     "https://www.euromonitor.com/store/explore-reports",
     "https://www.euromonitor.com/newsroom/press-mentions/june-2026/happi-09.06",
@@ -1936,7 +2574,17 @@
     "https://www.euromonitor.com/press/press-releases/august-2023/a-flash-in-the-pan-euromonitor-data-shows-french-consumers-are-buying-80-less-mustard-online-than-last-year-as-supply-problems-ease",
     "https://www.euromonitor.com/store/explore-reports/consumer-health"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R30-E1-F1",
@@ -1976,7 +2624,17 @@
     "https://www.nielsen.com/news-center/2016/nielsen-releases-first-diversity-inclusion-report/",
     "https://www.nielsen.com/news-center/2024/nielsen-launches-the-media-distributor-gauge-first-convergent-tv-comparison-of-its-kind/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R30-E2-F1",
@@ -2017,7 +2675,17 @@
     "https://www.nielsen.com/insights/2017/going-gaga-on-the-gridiron/",
     "https://www.nielsen.com/insights/2018/nielsen-neuro-cmindex2/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R31-E2-F1",
@@ -2055,7 +2723,13 @@
     "https://msi.org/events/msi-lunch-lecture-with-kantar-analytics/",
     "https://msi.org/events/best-of-msi-its-time-for-happiness/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R32-E1-F1",
@@ -2094,7 +2768,13 @@
     "https://www.askattest.com/solution/pr-content-pitch",
     "https://www.askattest.com/webinars/ecommerce-gen-z-how-beauty-pie-nike-and-asos-are-maintaining-post-pandemic-momentum"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R32-E2-F1",
@@ -2133,7 +2813,61 @@
     "https://www.askattest.com/our-research/2025-uk-spending-trends-report",
     "https://www.askattest.com/events/ymsonline-europe"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R34-E2-F1",
+   "entry_ids": [
+    "S1-R34-E2"
+   ],
+   "target": "https://www.circana.com/industries 入口前缀 /industries/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.circana\\.com/industries/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "none",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.circana.com/industries/center-store-and-frozen-foods",
+    "https://www.circana.com/industries/home",
+    "https://www.circana.com/industries/retail",
+    "https://www.circana.com/industries/video-games"
+   ],
+   "holdout_pos": [
+    "https://www.circana.com/industries/alcoholic-beverages",
+    "https://www.circana.com/industries/automotive",
+    "https://www.circana.com/industries/automotive-aftermarket",
+    "https://www.circana.com/industries/consumer-technology",
+    "https://www.circana.com/industries/golf",
+    "https://www.circana.com/industries/perimeter-store-and-fresh-foods"
+   ],
+   "holdout_neg": [
+    "https://www.circana.com/industries",
+    "https://www.circana.com/post/circana-reports-global-foodservice-traffic-grew-in-2025-despite-economic-headwinds",
+    "https://www.circana.com/post/the-cpg-innovation-playbook-from-concept-to-launch-success",
+    "https://www.circana.com/post/circana-announced-as-official-data-and-insights-partner-to-the-beverage-forum-europe-2025",
+    "https://www.circana.com/post/global-flavors-local-success-how-smaller-qsrs-are-winning-canadian-foodservice-consumers"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R35-E1-F1",
@@ -2142,26 +2876,39 @@
    ],
    "target": "https://www.comscore.com/Insights/Blog 入口前缀 /Insights/Blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
    "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.comscore\\.com/Insights/Blog/[a-zA-Z0-9-]+$",
+   "pattern": "^https://www\\.comscore\\.com/Insights/Blog/[a-zA-Z-]+$",
    "variables": {
-    "seg0": "[a-zA-Z0-9-]+"
+    "seg0": "[a-zA-Z-]+"
    },
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.comscore.com/Insights/Blog/Audio-Activated",
     "https://www.comscore.com/Insights/Blog/CIMM-East-Highlights-and-Currency-Clarity",
     "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
-    "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
     "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next"
    ],
-   "holdout_pos": [],
-   "holdout_neg": [
-    "https://www.comscore.com/Insights/Blog"
+   "holdout_pos": [
+    "https://www.comscore.com/Insights/Blog/Flexible-by-Design",
+    "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+    "https://www.comscore.com/Insights/Blog/TV-Measurement-Has-Entered-Its-Next-Era",
+    "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement"
    ],
-   "inference_redirected_away": []
+   "holdout_neg": [
+    "https://www.comscore.com/Insights/Blog",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2015/Push-Play-Is-your-video-strategy-driving-results-or-stuck-on-Pause-US-CA",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2020/A-Look-at-Local-How-COVID-19-is-Shaping-Media-Consumption",
+    "https://www.comscore.com/Products/Digital-Media"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R35-E2-F1",
@@ -2179,19 +2926,36 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Fall-and-Halloween-Guide",
     "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-State-of-Programmatic-Report",
     "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Summer-Guide",
-    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Holiday-Gaming-and-Entertainment-One-Sheet",
-    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Political-Targeting-Playbook"
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Holiday-Gaming-and-Entertainment-One-Sheet"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Football-Kickoff-Guide",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Political-Targeting-Playbook",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-2026-Finance-Guide",
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-2026-Winter-Sports-Playbook"
+   ],
    "holdout_neg": [
-    "https://www.comscore.com/Insights/Presentations-and-Whitepapers"
+    "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+    "https://www.comscore.com/About/Leadership",
+    "https://www.comscore.com/Insights/Blog?page=3",
+    "https://www.comscore.com/Insights/Blog/Spotify-Makes-a-Splash-among-U.S.-Early-Adopters"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R36-E2-F1",
@@ -2230,7 +2994,13 @@
     "https://marketingscience.info/companies/orkla-asa",
     "https://marketingscience.info/faqs/who-can-apply-to-attend-the-program"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R39-E1-F1",
@@ -2270,7 +3040,13 @@
     "https://www.gwi.com/blog/product-research",
     "https://www.gwi.com/reports/social-media-marketing-guide/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R39-E2-F1",
@@ -2311,7 +3087,13 @@
     "https://www.gwi.com/blog/tag/talk-data-to-me",
     "https://www.gwi.com/blog/tag/product"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R39-E2-F2",
@@ -2329,15 +3111,16 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.gwi.com/blog/tag/consumer-behavior",
     "https://www.gwi.com/blog/tag/data-journalism",
     "https://www.gwi.com/blog/tag/digital-trends",
     "https://www.gwi.com/blog/tag/product",
     "https://www.gwi.com/blog/tag/talk-data-to-me"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.gwi.com/blog/tag/consumer-behavior"
+   ],
    "holdout_neg": [
     "https://www.gwi.com/blog",
     "https://www.gwi.com/connecting-the-dots/attention-economy/romania",
@@ -2347,7 +3130,17 @@
     "https://www.gwi.com/blog/future-of-ai",
     "https://www.gwi.com/blog/user-generated-content-marketing"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "tag"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R39-E3-F1",
@@ -2382,7 +3175,13 @@
     "https://www.gwi.com/blog/targeting-affluent-consumers",
     "https://www.gwi.com/blog/mental-health"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R40-E1-F1",
@@ -2415,7 +3214,13 @@
     "https://www.wearehuman8.com/blog/the-pursuit-of-well-being-for-chinas-youth/",
     "https://www.wearehuman8.com/cases/developing-a-hallmark-for-glass-packaging/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R41-E1-F1",
@@ -2450,12 +3255,22 @@
    ],
    "holdout_neg": [
     "https://interbrand.com/best-global-brands/",
-    "https://interbrand.com/work/stc/",
+    "https://interbrand.com/thinking/unicef-brand-leadership/",
+    "https://interbrand.com/work/banamex/",
     "https://interbrand.com/work/latam-airlines/",
-    "https://interbrand.com/work/se-saudi-energy/",
     "https://interbrand.com/best-global-brands/global-2025-report-download/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "global"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R41-E2-F1",
@@ -2493,7 +3308,13 @@
     "https://interbrand.com/services/brand-governance/",
     "https://interbrand.com/ko/homepage/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R42-E1-F1",
@@ -2533,7 +3354,17 @@
     "https://www.numerator.com/solutions/data-feeds/promo/",
     "https://www.numerator.com/industries/qsr/insights-to-grow/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R43-E1-F1",
@@ -2565,7 +3396,13 @@
     "https://system1group.com/feelmore50/a-christmas-you-can-believe-in",
     "https://system1group.com/feelmore50/stage-production-layered-ice-cream-range"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R45-E3-F1",
@@ -2604,7 +3441,13 @@
     "https://yougov.com/articles/47222-examining-premier-league-betting-appetite-in-six-key-markets",
     "https://yougov.com/articles/37606-43-uks-small-businesses-are-looking-expand-interna"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R48-E1-F1",
@@ -2645,7 +3488,13 @@
     "https://www.bain.com/insights/topics/bain-webinars/",
     "https://www.bain.com/insights/topics/bain-webinars-expire/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R49-E1-F1",
@@ -2681,14 +3530,29 @@
    ],
    "holdout_neg": [
     "https://www.deloitte.com/global/en/insights.html",
-    "https://www.deloitte.com/in/en/about/people/blogs/dona-el-sayah-forensic.html",
+    "https://www.deloitte.com/in/en/Industries/telecom-media-entertainment/collections/semiconductor.html",
     "https://www.deloitte.com/gh/en/about/recognition/analyst-relations/gx-human-capital-consulting-awards-recognition.html",
-    "https://www.deloitte.com/us/en/industries/life-sciences-health-care/research/consumers-are-the-ceos-of-their-own-health.html",
-    "https://www.deloitte.com/nz/en/services/tax/perspectives/september-2024-are-you-an-ethical-tax-advisor.html",
+    "https://www.deloitte.com/us/en/industries/life-sciences-health-care/articles/deloitte-health-institute.html",
+    "https://www.deloitte.com/nz/en/services/tax/perspectives/march-2025-remote-working-in-new-zealand.html",
     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html",
     "https://www.deloitte.com/global/en/insights/multimedia/podcasts.html"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "varext",
+     "[a-z0-9-]+",
+     "html"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R49-E1-F2",
@@ -2727,14 +3591,185 @@
    ],
    "holdout_neg": [
     "https://www.deloitte.com/global/en/insights.html",
-    "https://www.deloitte.com/mu/en/our-thinking/insights/industry/government-public-services/government-trends/2020.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/covid-19/future-of-mobility-after-covid-19-transportation-scenarios.html",
-    "https://www.deloitte.com/ce/en/our-thinking/insights/topics/emerging-technologies/cognitive-technologies/design-principles-ethical-artificial-intelligence.html",
-    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/asia-pacific/pandemic-affect-on-asian-consumers.html",
-    "https://www.deloitte.com/global/en/insights/topics/emerging-technologies.html",
-    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions.html"
+    "https://www.deloitte.com/ug/en/our-thinking/insights/topics/economy/covid-19/covid-19-insurance-companies-reputational-risk.html",
+    "https://www.deloitte.com/cy/en/our-thinking/insights/topics/economy/covid-19/state-budget-shortfalls.html",
+    "https://www.deloitte.com/ug/en/our-thinking/insights/industry/consumer-retail/consumer-behavior_trends/financial-sentiment-consumer-spending-income-groups.html",
+    "https://www.deloitte.com/us/en/insights/industry/government-public-sector-services/government-trends/2023/regulatory-agencies-and-innovation.html",
+    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/future-of-infrastructure.html"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "lit",
+     "2026"
+    ],
+    [
+     "varext",
+     "[a-z-]+",
+     "html"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R52-E1-F1",
+   "entry_ids": [
+    "S1-R52-E1"
+   ],
+   "target": "https://www.pewresearch.org/topic/economy-work/ 入口前缀 /topic/economy-work/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.pewresearch\\.org/topic/economy\\-work/page/[0-9]+/$",
+   "variables": {
+    "seg1": "[0-9]+"
+   },
+   "literals": {
+    "seg0": "page"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "slash",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.pewresearch.org/topic/economy-work/page/163/",
+    "https://www.pewresearch.org/topic/economy-work/page/4/",
+    "https://www.pewresearch.org/topic/economy-work/page/5/"
+   ],
+   "holdout_pos": [
+    "https://www.pewresearch.org/topic/economy-work/page/161/",
+    "https://www.pewresearch.org/topic/economy-work/page/162/",
+    "https://www.pewresearch.org/topic/economy-work/page/2/",
+    "https://www.pewresearch.org/topic/economy-work/page/3/",
+    "https://www.pewresearch.org/topic/economy-work/page/6/"
+   ],
+   "holdout_neg": [
+    "https://www.pewresearch.org/topic/economy-work/",
+    "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/digital-divide/",
+    "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-harassment-bullying/",
+    "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/news-coverage/",
+    "https://www.pewresearch.org/topic/internet-technology/emerging-technology/future-of-the-internet/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "page"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R52-E2-F1",
+   "entry_ids": [
+    "S1-R52-E2"
+   ],
+   "target": "https://www.pewresearch.org/topic/internet-technology/ 入口前缀 /topic/internet-technology/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+    "https://www.pewresearch.org/topic/internet-technology/page/2/",
+    "https://www.pewresearch.org/topic/internet-technology/page/239/",
+    "https://www.pewresearch.org/topic/internet-technology/page/3/"
+   ],
+   "holdout_pos": [
+    "https://www.pewresearch.org/topic/internet-technology/emerging-technology/bots/",
+    "https://www.pewresearch.org/topic/internet-technology/platforms-services/more-platforms-services/",
+    "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-harassment-bullying/",
+    "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-privacy-security/",
+    "https://www.pewresearch.org/topic/internet-technology/user-demographics/age-generations-tech/",
+    "https://www.pewresearch.org/topic/internet-technology/user-demographics/racial-ethnic-groups-online/"
+   ],
+   "holdout_neg": [
+    "https://www.pewresearch.org/topic/internet-technology/",
+    "https://www.pewresearch.org/topic/economy-work/economic-policy/government-spending-the-deficit-1/",
+    "https://www.pewresearch.org/topic/economy-work/income-wealth-poverty/middle-class/",
+    "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/state-of-the-news-media-project/",
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/american-news-pathways-2020-project/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R52-E3-F1",
+   "entry_ids": [
+    "S1-R52-E3"
+   ],
+   "target": "https://www.pewresearch.org/topic/news-habits-media/ 入口前缀 /topic/news-habits-media/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+    "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+    "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+    "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+    "https://www.pewresearch.org/topic/news-habits-media/page/6/"
+   ],
+   "holdout_pos": [
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/freedom-of-the-press/",
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/media-attitudes/",
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/misinformation/",
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/news-knowledge/",
+    "https://www.pewresearch.org/topic/news-habits-media/media-society/politics-media-1/",
+    "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/media-industry/"
+   ],
+   "holdout_neg": [
+    "https://www.pewresearch.org/topic/news-habits-media/",
+    "https://www.pewresearch.org/topic/internet-technology/lifestyle-relationships-online/social-relations-tech/",
+    "https://www.pewresearch.org/topic/economy-work/income-wealth-poverty/middle-class/",
+    "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/tech-companies-1/",
+    "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+    "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/news-platforms-sources/digital-news-landscape-1/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R53-E1-F1",
@@ -2750,15 +3785,16 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "optional",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.idc.com/research/digital-business",
     "https://www.idc.com/research/emerging-vendor",
     "https://www.idc.com/research/industry",
-    "https://www.idc.com/research/investment-research",
     "https://www.idc.com/research/tech-markets"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.idc.com/research/investment-research"
+   ],
    "holdout_neg": [
     "https://www.idc.com/research/",
     "https://www.idc.com/developer/rest-api/",
@@ -2766,7 +3802,13 @@
     "https://www.idc.com/showcase/is-your-data-ready-for-ai/",
     "https://www.idc.com/client/sap-business-network/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R53-E2-F1",
@@ -2800,7 +3842,13 @@
     "https://www.idc.com/resource-topic/ai-capability-transfer/",
     "https://www.idc.com/resource-topic/hospitality-technology/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R53-E3-F1",
@@ -2833,7 +3881,13 @@
     "https://www.idc.com/resource-topic/analyst-led-research/",
     "https://www.idc.com/custom-solutions/sales-enablement/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R53-E4-F1",
@@ -2876,7 +3930,17 @@
     "https://www.idc.com/resource-center/blog/",
     "https://www.idc.com/resource-center/futurescape/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "blog"
+    ],
+    [
+     "var",
+     "[a-z0-9%-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R53-E4-F2",
@@ -2917,7 +3981,56 @@
     "https://www.idc.com/resource-center/blog/us-robotics-ban-humanoids-europe/",
     "https://www.idc.com/resource-center/blog/%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%bc%80%e5%a7%8b%e6%8c%89%e6%9f%9c%e4%ba%a4%e4%bb%98%ef%bc%9a%e6%8e%a5%e5%be%97%e4%bd%8f%ef%bc%8c%e6%89%8d%e6%98%af%e6%95%b0%e6%8d%ae%e4%b8%ad%e5%bf%83%e7%9a%84/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R62-E1-F1",
+   "entry_ids": [
+    "S1-R62-E1"
+   ],
+   "target": "https://ads.tiktok.com/creative/creativeCenter 入口前缀 /creative/creativeCenter/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://ads\\.tiktok\\.com/creative/creativeCenter/tools/[a-zA-Z]+$",
+   "variables": {
+    "seg1": "[a-zA-Z]+"
+   },
+   "literals": {
+    "seg0": "tools"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://ads.tiktok.com/creative/creativeCenter/tools/api",
+    "https://ads.tiktok.com/creative/creativeCenter/tools/automation",
+    "https://ads.tiktok.com/creative/creativeCenter/tools/creativeTools"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://ads.tiktok.com/creative/creativeCenter",
+    "https://ads.tiktok.com/business/pt-BR/blog/tiktok-funciona-meta-analise",
+    "https://ads.tiktok.com/business/en/blog/tiktok-ad-awards-benelux-winners-25",
+    "https://ads.tiktok.com/business/id/goals/generate-leads",
+    "https://ads.tiktok.com/business/id/blog/tiktok-creative-assistant-smart-ai-tool",
+    "https://ads.tiktok.com/creative/creativeCenter/trends"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "tools"
+    ],
+    [
+     "var",
+     "[a-zA-Z]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R65-E1-F1",
@@ -2952,11 +4065,23 @@
    ],
    "holdout_neg": [
     "https://www.linkedin.com/business/marketing/blog",
-    "https://www.linkedin.com/business/marketing/blog?page0=2",
-    "https://www.linkedin.com/business/marketing/blog/research-and-insights",
+    "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.brandwatch.com%2Fsocial-media-glossary%2Fcarousel%2F%3Futm_source%3Dsocial%26utm_medium%3Dlinkedin%26utm_term%3D%26utm_campaign%3D&description=",
+    "https://www.linkedin.com/business/marketing/blog?page0=10",
+    "https://www.linkedin.com/groups/4109452/profile",
+    "https://www.linkedin.com/business/marketing/blog/skills",
     "https://www.linkedin.com/business/marketing/blog/topics"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R65-E1-F2",
@@ -2990,11 +4115,19 @@
    ],
    "holdout_neg": [
     "https://www.linkedin.com/business/marketing/blog",
-    "https://www.linkedin.com/business/marketing/blog?page0=2",
-    "https://www.linkedin.com/business/marketing/blog/strategy-best-practices/b2b-performance-principles-outcomes",
-    "https://www.linkedin.com/business/marketing/blog/research-and-insights/the-credibility-code-how-b2b-brands-win-trust-that-converts"
+    "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.wppmedia.com%2Fthought-leadership%2Fthis-year-next-year",
+    "https://www.linkedin.com/company/us-census-bureau",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://blog.hubspot.com/marketing/tabid/6307/bid/10322/the-ultimate-list-50-local-business-directories.aspx",
+    "https://www.linkedin.com/business/marketing/blog/research-and-insights/the-credibility-code-how-b2b-brands-win-trust-that-converts",
+    "https://www.linkedin.com/business/marketing/blog/strategy-best-practices/b2b-performance-principles-outcomes"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R66-E1-F1",
@@ -3035,7 +4168,13 @@
     "https://effie.org/insights/page/52/",
     "https://effie.org/insights/page/6/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R66-E1-F2",
@@ -3071,7 +4210,17 @@
     "https://effie.org/insights/the-creative-dividend-advertising-that-pays-back/",
     "https://effie.org/insights/making-effectiveness-happen/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "page"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R68-E1-F1",
@@ -3110,7 +4259,13 @@
     "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
     "https://www.iab.com/news/insight-inspiration-transformation/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R69-E1-F1",
@@ -3148,7 +4303,13 @@
     "https://esomar.org/newsroom/happiness-language-and-personality",
     "https://esomar.org/newsroom/how-to-register-and-submit-your-entry-for-the-esomar-awards"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R73-E1-F2",
@@ -3187,7 +4348,13 @@
     "https://www.cim.co.uk/content-insights/articles/claude-cant-replace-your-marketing-team-but-it-can-replace-the-idea-of-what-a-marketing-team-is-for/",
     "https://www.cim.co.uk/content-insights/articles/sustainable-marketing-how-to-communicate-purpose-products-and-services/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R84-E1-F1",
@@ -3216,12 +4383,18 @@
    ],
    "holdout_neg": [
     "https://contentmarketinginstitute.com/research",
-    "https://contentmarketinginstitute.com/content-optimization/confused-about-agile-marketing-your-questions-answered-with-video",
-    "https://contentmarketinginstitute.com/career-development/get-your-content-team-out-of-that-creative-rut",
-    "https://contentmarketinginstitute.com/content-distribution-promotion/fresh-ideas-and-expert-advice-for-writing-email-that-gets-opened-and-read",
-    "https://contentmarketinginstitute.com/content-marketing-strategy/go-for-the-win-win-game-your-paid-media-strategy"
+    "https://contentmarketinginstitute.com/content-marketing-strategy/you-may-be-undermining-your-content-marketing",
+    "https://contentmarketinginstitute.com/b2b-research/engage-the-c-suite-through-a-client-advisory-board",
+    "https://contentmarketinginstitute.com/content-distribution-promotion/6-ways-to-energize-your-content-marketing-team-and-your-content",
+    "https://contentmarketinginstitute.com/content-marketing-strategy/are-you-really-smart-about-how-ai-works-in-marketing"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E1-F1",
@@ -3263,7 +4436,17 @@
     "https://www.dandad.org/work/annual-2026/trends-from-the-jury-rooms",
     "https://www.dandad.org/work/annual-2026/behind-the-work"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9íüē-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E1-F2",
@@ -3272,22 +4455,23 @@
    ],
    "target": "https://www.dandad.org/work/annual-2026/ 入口前缀 /work/annual-2026/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
    "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.dandad\\.org/work/annual\\-2026/[a-z0-9-]+$",
+   "pattern": "^https://www\\.dandad\\.org/work/annual\\-2026/[a-z-]+$",
    "variables": {
-    "seg0": "[a-z0-9-]+"
+    "seg0": "[a-z-]+"
    },
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.dandad.org/work/annual-2026/behind-the-work",
-    "https://www.dandad.org/work/annual-2026/d-ad-in-2026",
     "https://www.dandad.org/work/annual-2026/judges-curations",
     "https://www.dandad.org/work/annual-2026/trends-from-the-jury-rooms",
     "https://www.dandad.org/work/annual-2026/voices"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.dandad.org/work/annual-2026/d-ad-in-2026"
+   ],
    "holdout_neg": [
     "https://www.dandad.org/work/annual-2026",
     "https://www.dandad.org/creative-community/directory/will-farrelly",
@@ -3297,7 +4481,13 @@
     "https://www.dandad.org/work/annual-2026/judges-curations/curation-by-yoshihiro-yagi-art-direction",
     "https://www.dandad.org/work/annual-2026/voices/think-like-a-newsroom-tahirah-hairston-on-what-brands-can-learn-from-journalism"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E2-F1",
@@ -3344,7 +4534,17 @@
     "https://www.dandad.org/insights/features",
     "https://www.dandad.org/insights/case-studies-and-partnerships"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9ü-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E2-F2",
@@ -3360,14 +4560,15 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.dandad.org/insights/awards",
     "https://www.dandad.org/insights/case-studies-and-partnerships",
     "https://www.dandad.org/insights/features",
     "https://www.dandad.org/insights/learning"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.dandad.org/insights/awards"
+   ],
    "holdout_neg": [
     "https://www.dandad.org/insights",
     "https://www.dandad.org/about/sustainability",
@@ -3377,7 +4578,13 @@
     "https://www.dandad.org/insights/learning/how-use-tech-land-new-blood-pencil-new-blood-advice",
     "https://www.dandad.org/insights/learning/how-unlock-your-ideas-learning-content"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E3-F1",
@@ -3393,15 +4600,17 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.dandad.org/insights/case-studies-and-partnerships/glimpse-masterclass-case-study",
     "https://www.dandad.org/insights/case-studies-and-partnerships/kraft-heinz--masterclass-case-study",
     "https://www.dandad.org/insights/case-studies-and-partnerships/sony-music-masterclass-case-study",
-    "https://www.dandad.org/insights/case-studies-and-partnerships/wetransfer-sustainability-bespoke-creative-training-content",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/wetransfer-sustainability-bespoke-creative-training-content"
+   ],
+   "holdout_pos": [
+    "https://www.dandad.org/insights/case-studies-and-partnerships/how-creativity-and-innovation-drive-impact",
     "https://www.dandad.org/insights/case-studies-and-partnerships/work-through-diageo-brief-nyc-shifters-case-study-insights"
    ],
-   "holdout_pos": [],
    "holdout_neg": [
     "https://www.dandad.org/insights/case-studies-and-partnerships",
     "https://www.dandad.org/work/d-ad-awards-archive/knives-out",
@@ -3409,7 +4618,13 @@
     "https://www.dandad.org/creative-community/companies/zixishi",
     "https://www.dandad.org/work/new-blood-archive/news-blackout"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R86-E4-F1",
@@ -3448,7 +4663,13 @@
     "https://www.dandad.org/creative-community/directory/jincheng-zou",
     "https://www.dandad.org/creative-community/directory/graham-walker"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R87-E1-F1",
@@ -3483,7 +4704,13 @@
     "https://www.demandcurve.com/newsletters/growth-newsletter-103",
     "https://www.demandcurve.com/newsletters/growth-newsletter-074"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R87-E3-F1",
@@ -3499,15 +4726,20 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://gp.demandcurve.com/blog/cold-email-subject-lines",
-    "https://gp.demandcurve.com/blog/cold-email-template",
     "https://gp.demandcurve.com/blog/copywriting-examples",
     "https://gp.demandcurve.com/blog/hiring-marketers",
     "https://gp.demandcurve.com/blog/linkedin-influencers"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://gp.demandcurve.com/blog/cold-email-marketing",
+    "https://gp.demandcurve.com/blog/cold-email-subject-lines",
+    "https://gp.demandcurve.com/blog/cold-email-template",
+    "https://gp.demandcurve.com/blog/email-marketing-best-practices",
+    "https://gp.demandcurve.com/blog/how-to-grow-your-email-list",
+    "https://gp.demandcurve.com/blog/influencer-marketing"
+   ],
    "holdout_neg": [
     "https://gp.demandcurve.com/blog",
     "https://gp.demandcurve.com/lessons/outreach-that-actually-works-b2b",
@@ -3515,7 +4747,13 @@
     "https://gp.demandcurve.com/newsletters/growth-newsletter-054",
     "https://gp.demandcurve.com/newsletters/growth-newsletter-139"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R89-E2-F1",
@@ -3557,7 +4795,17 @@
     "https://www.greenbook.org/insights/insights-industry-news",
     "https://www.greenbook.org/insights/research-methodologies"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R89-E2-F2",
@@ -3598,7 +4846,13 @@
     "https://www.greenbook.org/insights/the-prompt-ai/beyond-distinctiveness-building-meaning-through-a-system-of-brand-assets",
     "https://www.greenbook.org/insights/the-prompt-ai/how-ai-is-changing-survey-design-what-every-market-researcher-should-know"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R89-E3-F1",
@@ -3630,7 +4884,13 @@
     "https://www.greenbook.org/marketing-research/becoming-a-hidden-champion-in-niche-marketing",
     "https://www.greenbook.org/marketing-research/free-webinar-developing-winning-claims-12413"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R90-E1-F1",
@@ -3646,22 +4906,34 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://growth.design/case-studies/labor-perception-bias",
-    "https://growth.design/case-studies/nps-surveys",
     "https://growth.design/case-studies/sniper-link",
     "https://growth.design/case-studies/strava-premium-preview",
     "https://growth.design/case-studies/temu-onboarding-psychology"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://growth.design/case-studies/adobe-trial-ux",
+    "https://growth.design/case-studies/duolingo-user-retention",
+    "https://growth.design/case-studies/nps-surveys",
+    "https://growth.design/case-studies/tinder-monetization",
+    "https://growth.design/case-studies/trial-paywall-challenge",
+    "https://growth.design/case-studies/zeigarnik-effect"
+   ],
    "holdout_neg": [
     "https://growth.design/case-studies",
     "https://growth.design/courses/clear-ui",
     "https://growth.design/courses/product-psychology",
     "https://growth.design/courses/bundle"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R91-E1-F1",
@@ -3677,15 +4949,17 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://growthhackers.com/growth-studies/airbnb/",
     "https://growthhackers.com/growth-studies/hubspot/",
     "https://growthhackers.com/growth-studies/ibm/",
-    "https://growthhackers.com/growth-studies/slack/",
-    "https://growthhackers.com/growth-studies/uber/"
+    "https://growthhackers.com/growth-studies/slack/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://growthhackers.com/growth-studies/uber/",
+    "https://growthhackers.com/growth-studies/whatsapp/"
+   ],
    "holdout_neg": [
     "https://growthhackers.com/growth-studies/",
     "https://growthhackers.com/tag/growth-ideas/",
@@ -3693,7 +4967,13 @@
     "https://growthhackers.com/tag/slack/",
     "https://growthhackers.com/tag/case-study/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R95-E3-F1",
@@ -3709,7 +4989,7 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://marketingexamples.com/social/ama",
     "https://marketingexamples.com/social/billboards",
@@ -3717,7 +4997,12 @@
     "https://marketingexamples.com/social/mail-time",
     "https://marketingexamples.com/social/two-tweets"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://marketingexamples.com/social/calvin-klein",
+    "https://marketingexamples.com/social/innocent",
+    "https://marketingexamples.com/social/lil-nas-x",
+    "https://marketingexamples.com/social/zero-likes"
+   ],
    "holdout_neg": [
     "https://marketingexamples.com/social",
     "https://marketingexamples.com/sales/nikes-first-shoes",
@@ -3725,7 +5010,13 @@
     "https://marketingexamples.com/seo/unsplash",
     "https://marketingexamples.com/landing-page/rows"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R95-E4-F1",
@@ -3741,15 +5032,18 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://marketingexamples.com/copywriting/bou",
-    "https://marketingexamples.com/copywriting/customers",
     "https://marketingexamples.com/copywriting/promise",
     "https://marketingexamples.com/copywriting/rhetorical-devices",
     "https://marketingexamples.com/copywriting/think-different"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://marketingexamples.com/copywriting/adjectives",
+    "https://marketingexamples.com/copywriting/customers",
+    "https://marketingexamples.com/copywriting/psychology-of-persuasion"
+   ],
    "holdout_neg": [
     "https://marketingexamples.com/copywriting",
     "https://marketingexamples.com/ads/leeches",
@@ -3757,7 +5051,13 @@
     "https://marketingexamples.com/social/rev-chris",
     "https://marketingexamples.com/social/billboards"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R99-E1-F1",
@@ -3798,7 +5098,13 @@
     "https://www.reforge.com/blog/collection/frameworks",
     "https://www.reforge.com/blog/collection/growth"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R99-E1-F2",
@@ -3832,7 +5138,17 @@
     "https://www.reforge.com/blog/eval-rubrics",
     "https://www.reforge.com/blog/the-compounding-os"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "collection"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R103-E1-F2",
@@ -3860,12 +5176,12 @@
     "https://www.oneclub.org/awards/theoneshow/-award/65126/three-words/"
    ],
    "holdout_pos": [
-    "https://www.oneclub.org/awards/theoneshow/-award/21921/thick-fine/",
-    "https://www.oneclub.org/awards/theoneshow/-award/23495/doors/",
-    "https://www.oneclub.org/awards/theoneshow/-award/23707/do-it-yourself-mcwhoppers/",
-    "https://www.oneclub.org/awards/theoneshow/-award/3447/anti-corruption/",
-    "https://www.oneclub.org/awards/theoneshow/-award/39078/mother-blanket/",
-    "https://www.oneclub.org/awards/theoneshow/-award/6162/presidium-brochure/"
+    "https://www.oneclub.org/awards/theoneshow/-award/1131/bucket/",
+    "https://www.oneclub.org/awards/theoneshow/-award/2778/wwwpjddbcom/",
+    "https://www.oneclub.org/awards/theoneshow/-award/34053/gracie-ai/",
+    "https://www.oneclub.org/awards/theoneshow/-award/44732/oreo-thins-protection-program/",
+    "https://www.oneclub.org/awards/theoneshow/-award/6034/specialized-movies/",
+    "https://www.oneclub.org/awards/theoneshow/-award/7250/adidas-futball-meets-football-web-film/"
    ],
    "holdout_neg": [
     "https://www.oneclub.org/awards/theoneshow/",
@@ -3876,7 +5192,113 @@
     "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/all/Immersive+Spaces",
     "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/all/Short+Form+Video"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "-award"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R104-E1-F1",
+   "entry_ids": [
+    "S1-R104-E1"
+   ],
+   "target": "https://www.thinkbox.tv/research 入口前缀 /research/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.thinkbox\\.tv/research/[a-z-]+/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "none",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.thinkbox.tv/research/nickable-charts/addressable",
+    "https://www.thinkbox.tv/research/thinkbox-research/adnormal-behaviour",
+    "https://www.thinkbox.tv/research/thinkbox-research/as-seen-on-tv-supercharging-your-small-business",
+    "https://www.thinkbox.tv/research/thinkbox-research/get-with-the-programmes",
+    "https://www.thinkbox.tv/research/thinkbox-research/staying-power-the-longevity-of-advertising"
+   ],
+   "holdout_pos": [
+    "https://www.thinkbox.tv/research/charts-on-film/media-signalling",
+    "https://www.thinkbox.tv/research/charts-on-film/the-needs-that-drive-viewing",
+    "https://www.thinkbox.tv/research/nickable-charts/effectiveness-and-planning",
+    "https://www.thinkbox.tv/research/thinkbox-research/bvod-almighty-reach-and-return",
+    "https://www.thinkbox.tv/research/thinkbox-research/creative-drivers-of-effectiveness",
+    "https://www.thinkbox.tv/research/thinkbox-research/the-drivers-of-profitability"
+   ],
+   "holdout_neg": [
+    "https://www.thinkbox.tv/research",
+    "https://www.thinkbox.tv/news-and-opinion/newsroom/tv-ranked-uks-most-culturally-influential-medium",
+    "https://www.thinkbox.tv/news-and-opinion/events/watch-tv-the-next-episode-broadcaster-panel",
+    "https://www.thinkbox.tv/news-and-opinion/tv-planning-awards/tv-planning-awards-2025-winners",
+    "https://www.thinkbox.tv/creative/tv-ad-galleries/classic-ads-part-2",
+    "https://www.thinkbox.tv/research/charts-on-film",
+    "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables/tv-advertisings-ultimate-nickable-charts"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R104-E1-F2",
+   "entry_ids": [
+    "S1-R104-E1"
+   ],
+   "target": "https://www.thinkbox.tv/research 入口前缀 /research/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.thinkbox\\.tv/research/[a-z-]+$",
+   "variables": {
+    "seg0": "[a-z-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "slash_mode": "none",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.thinkbox.tv/research/charts-on-film",
+    "https://www.thinkbox.tv/research/reports",
+    "https://www.thinkbox.tv/research/thinkbox-research"
+   ],
+   "holdout_pos": [
+    "https://www.thinkbox.tv/research/nickable-charts"
+   ],
+   "holdout_neg": [
+    "https://www.thinkbox.tv/research",
+    "https://www.thinkbox.tv/thinkbox-tv-ads/harvey-and-harmony",
+    "https://www.thinkbox.tv/case-studies/readly-leverages-tv-to-reach-digital-magazine-subscribers",
+    "https://www.thinkbox.tv/case-studies/powersheds-from-back-gardens-to-broadcast-growth-with-tv",
+    "https://www.thinkbox.tv/about/environmental-sustainability",
+    "https://www.thinkbox.tv/research/thinkbox-research/earning-attention",
+    "https://www.thinkbox.tv/research/charts-on-film/the-immediate-and-carry-over-effects-of-advertising"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R104-E3-F1",
@@ -3915,7 +5337,13 @@
     "https://www.thinkbox.tv/case-studies/macmillan-cancer-support-whatever-it-takes",
     "https://www.thinkbox.tv/how-to-use-tv/spots"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R105-E1-F1",
@@ -3949,7 +5377,13 @@
     "https://nrf.com/research/monthly-economic-review-september-2024",
     "https://nrf.com/research/customer-returns-retail-industry-2021"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R105-E2-F1",
@@ -3987,7 +5421,13 @@
     "https://nrf.com/blog/consumers-dont-want-pay-price-swipe-fees",
     "https://nrf.com/about-us/nrf-staff/nrf-management-team"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R108-E1-F1",
@@ -4003,14 +5443,15 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wppmedia.com/thought-leadership/research-business-intelligence/How-Humans-Decide-primed-for-preference",
     "https://www.wppmedia.com/thought-leadership/research-business-intelligence/advertising-intelligence-framework-first-edition",
-    "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-research",
+    "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-research"
+   ],
+   "holdout_pos": [
     "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-understanding-receptivity"
    ],
-   "holdout_pos": [],
    "holdout_neg": [
     "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
     "https://www.wppmedia.com/thought-leadership/Thought-leadership-Nordics/staying-human-in-the-age-of-AI-3",
@@ -4018,7 +5459,13 @@
     "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026",
     "https://www.wppmedia.com/thought-leadership/Thought-leadership-Nordics/trendsemianr-Zillennials"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R108-E2-F1",
@@ -4057,7 +5504,13 @@
     "https://www.wppmedia.com/case-studies/du-your-home-your-way",
     "https://www.wppmedia.com/case-studies/uber-backseat-arcade"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R108-E3-F1",
@@ -4073,14 +5526,15 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wppmedia.com/thought-leadership/this-year-next-year/December-2025",
     "https://www.wppmedia.com/thought-leadership/this-year-next-year/archive-articles-this-year-next-year",
-    "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026",
     "https://www.wppmedia.com/thought-leadership/this-year-next-year/tyny-midyear-2025-research"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026"
+   ],
    "holdout_neg": [
     "https://www.wppmedia.com/thought-leadership/this-year-next-year",
     "https://www.wppmedia.com/thought-leadership/Thought-leadership-Nordics/trendsemianr-Zillennials",
@@ -4088,7 +5542,13 @@
     "https://www.wppmedia.com/thought-leadership/Thought-leadership-Nordics/staying-human-in-the-age-of-AI-3",
     "https://www.wppmedia.com/thought-leadership/research-business-intelligence/shaping-the-nation"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R111-E1-F1",
@@ -4104,22 +5564,34 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.ogilvy.com/cn/ideas/aomeiyatai-2024-zengzhangzhishudongchashichangqushiyinlingpinpaijiesuozengzhangxinlujing",
     "https://www.ogilvy.com/cn/ideas/aomeizhongguorenmingneil-nandweiaomeishanghaichuangyijishuzongjian",
-    "https://www.ogilvy.com/cn/ideas/ogilvy-opens-shenzhen-office-capture-opportunities-chinas-silicon-valley",
     "https://www.ogilvy.com/cn/ideas/yigongqingzhiligoujianpinpaizhongchengdu",
     "https://www.ogilvy.com/cn/ideas/yishejiaohuaweixiandepinpaijianshe"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.ogilvy.com/cn/ideas/aomeironghuo-2024-dazhonghuaquaifeijiangzuijushixiaodailigongsiwangluo",
+    "https://www.ogilvy.com/cn/ideas/aomeiyatai2025zengzhangzhishu",
+    "https://www.ogilvy.com/cn/ideas/aomeizhongguorenmingyuanyangyangwei-kehuguanxiguanli-yewulingdaoren",
+    "https://www.ogilvy.com/cn/ideas/customer-value-beyond-money-talks",
+    "https://www.ogilvy.com/cn/ideas/ogilvy-launches-china-cmo-study",
+    "https://www.ogilvy.com/cn/ideas/ogilvy-opens-shenzhen-office-capture-opportunities-chinas-silicon-valley"
+   ],
    "holdout_neg": [
     "https://www.ogilvy.com/cn/ideas",
-    "https://www.ogilvy.com/work/so-much-more-locker-room",
-    "https://www.ogilvy.com/ideas/zippo-appoints-ogilvy-global-creative-pr-social-agency-partner",
-    "https://www.ogilvy.com/work/nothingcoin"
+    "https://www.ogilvy.com/work/shower",
+    "https://www.ogilvy.com/ideas/why-time-newest-experience-currency",
+    "https://www.ogilvy.com/work/nipple-sponsorship"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R114-E1-F1",
@@ -4162,6 +5634,12 @@
      "https://amplitude.com/resources/forrester-wave-report",
      "https://amplitude.com/blog/roi-of-amplitude"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-zA-Z0-9-]+"
+    ]
    ]
   },
   {
@@ -4203,7 +5681,13 @@
     "https://amplitude.com/blog/author/eric-kim",
     "https://amplitude.com/blog/category/company"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R114-E2-F2",
@@ -4245,7 +5729,17 @@
     "https://amplitude.com/blog/headless-amplitude",
     "https://amplitude.com/blog/what-ai-engineers-do"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R115-E1-F1",
@@ -4261,15 +5755,16 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://analyticpartners.com/knowledge-hub/blog/",
     "https://analyticpartners.com/knowledge-hub/customer-stories/",
     "https://analyticpartners.com/knowledge-hub/newsroom/",
     "https://analyticpartners.com/knowledge-hub/resources/",
     "https://analyticpartners.com/knowledge-hub/roi-genome/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://analyticpartners.com/knowledge-hub/blog/"
+   ],
    "holdout_neg": [
     "https://analyticpartners.com/knowledge-hub/",
     "https://analyticpartners.com/about/what-we-do/",
@@ -4279,7 +5774,13 @@
     "https://analyticpartners.com/knowledge-hub/resources/forrester-wave-2026/",
     "https://analyticpartners.com/knowledge-hub/resources/cfo-playbook/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R115-E1-F2",
@@ -4314,13 +5815,23 @@
    ],
    "holdout_neg": [
     "https://analyticpartners.com/knowledge-hub/",
-    "https://analyticpartners.com/industries/retail/",
-    "https://analyticpartners.com/industries/financial-services/",
-    "https://analyticpartners.com/content-type/ebook/",
+    "https://analyticpartners.com/industries/hospitality/",
+    "https://analyticpartners.com/industries/",
+    "https://analyticpartners.com/content-type/analyst-reports/",
     "https://analyticpartners.com/knowledge-hub/roi-genome/",
     "https://analyticpartners.com/knowledge-hub/blog/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "resources"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R116-E1-F1",
@@ -4361,7 +5872,17 @@
     "https://www.appsflyer.com/blog/measurement-analytics/predictive-marketing-user-privacy/",
     "https://www.appsflyer.com/de/glossary/mobile-attribution/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "reports"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R116-E2-F1",
@@ -4402,7 +5923,17 @@
     "https://www.appsflyer.com/es/customers/gett/",
     "https://www.appsflyer.com/blog/ceo/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R117-E1-F1",
@@ -4445,6 +5976,16 @@
      "https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/",
      "https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
    ]
   },
   {
@@ -4486,7 +6027,13 @@
     "https://www.brandwatch.com/blog/author/crimson-hexagon/",
     "https://www.brandwatch.com/blog/author/ksenia-newton/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R118-E2-F2",
@@ -4528,7 +6075,17 @@
     "https://www.brandwatch.com/blog/brandwatch-named-leader-idc-marketscape-social-marketing-software-large-enterprises/",
     "https://www.brandwatch.com/blog/football-boots-tournament-trends/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R118-E4-F1",
@@ -4544,7 +6101,7 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.brandwatch.com/social-media-glossary/carousel/",
     "https://www.brandwatch.com/social-media-glossary/conversion-tracking/",
@@ -4552,7 +6109,14 @@
     "https://www.brandwatch.com/social-media-glossary/stories/",
     "https://www.brandwatch.com/social-media-glossary/user-generated-content/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.brandwatch.com/social-media-glossary/content-pillars/",
+    "https://www.brandwatch.com/social-media-glossary/cost-per-mille/",
+    "https://www.brandwatch.com/social-media-glossary/cross-posting/",
+    "https://www.brandwatch.com/social-media-glossary/emotion-analysis/",
+    "https://www.brandwatch.com/social-media-glossary/social-media-dashboard/",
+    "https://www.brandwatch.com/social-media-glossary/social-media-strategy/"
+   ],
    "holdout_neg": [
     "https://www.brandwatch.com/social-media-glossary/",
     "https://www.brandwatch.com/blog/blackpink-facts-and-statistics/",
@@ -4560,7 +6124,13 @@
     "https://www.brandwatch.com/use-cases/data-democratization/",
     "https://www.brandwatch.com/blog/10-major-brandwatch-product-updates/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R118-E6-F1",
@@ -4599,7 +6169,13 @@
     "https://www.brandwatch.com/blog/market-insights-customer-loyalty/",
     "https://www.brandwatch.com/webinars/unifying-two-powerhouse-platforms-bw/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R119-E1-F1",
@@ -4636,7 +6212,13 @@
     "https://www.braze.com/resources/videos/establishing-human-communication-with-your-customers",
     "https://www.braze.com/resources/reports-and-guides/the-loyalty-habit"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R119-E2-F1",
@@ -4673,7 +6255,13 @@
     "https://www.braze.com/resources/articles/empathy-at-scale-brand-humanity",
     "https://www.braze.com/resources/articles/hrc-equality-100-award-2025-corporate-equality-index"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R120-E1-F1",
@@ -4714,7 +6302,13 @@
     "https://buffer.com/resources/author/ariel-taranski/",
     "https://buffer.com/resources/author/carlos/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R120-E1-F2",
@@ -4757,7 +6351,17 @@
     "https://buffer.com/resources/build-week-2026/",
     "https://buffer.com/resources/social-media-calendar-template/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "author"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R121-E1-F1",
@@ -4796,7 +6400,13 @@
     "https://contentsquare.com/customers/clarks/",
     "https://contentsquare.com/customers/totalenergies/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R121-E2-F1",
@@ -4832,7 +6442,17 @@
     "https://contentsquare.com/ja-ja/blog/contentsquare-vs-mixpanel/",
     "https://contentsquare.com/guides/net-promoter-score/calculate/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "page"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R121-E3-F1",
@@ -4871,7 +6491,13 @@
     "https://contentsquare.com/press/600m-growth-investment/",
     "https://contentsquare.com/blog/digital-marketing-trends/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R122-E1-F1",
@@ -4913,7 +6539,17 @@
     "https://www.hootsuite.com/resources/social-ai-prompts",
     "https://www.hootsuite.com/resources/nba-team-case-study"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R122-E1-F2",
@@ -4958,6 +6594,12 @@
      "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report-resource-library",
      "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
    ]
   },
   {
@@ -4999,7 +6641,13 @@
     "https://blog.hubspot.com/marketing/meet-the-founder-who-raised-6.3m-to-literally-make-it-rain",
     "https://blog.hubspot.com/marketing/10-alternatives-to-jasper.ai-chatgpt-and-other-popular-ai-tools"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R123-E1-F2",
@@ -5036,7 +6684,30 @@
     "https://blog.hubspot.com/marketing/protect-from-phishing",
     "https://blog.hubspot.com/marketing/demo-video"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "tabid"
+    ],
+    [
+     "lit",
+     "6307"
+    ],
+    [
+     "lit",
+     "bid"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "varext",
+     "[a-z0-9-]+",
+     "aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R123-E1-F3",
@@ -5068,12 +6739,39 @@
    "holdout_neg": [
     "https://blog.hubspot.com/marketing",
     "https://blog.hubspot.com/service/blog/tabid/6307/bid/6449/understanding-the-roi-of-customer-evangelism.aspx",
-    "https://blog.hubspot.com/sales/how-to-sell-expensive-product",
-    "https://blog.hubspot.com/website/wordpress-job-board-plugin",
+    "https://blog.hubspot.com/sales/how-to-price-a-product",
+    "https://blog.hubspot.com/website/web-design-contract",
     "https://blog.hubspot.com/marketing/502-bad-gateway",
     "https://blog.hubspot.com/marketing/notebooklm-gets-new-features"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "blog"
+    ],
+    [
+     "lit",
+     "tabid"
+    ],
+    [
+     "lit",
+     "6307"
+    ],
+    [
+     "lit",
+     "bid"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "varext",
+     "[a-z0-9-]+",
+     "aspx"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R123-E2-F1",
@@ -5109,7 +6807,13 @@
     "https://blog.hubspot.com/sales/how-this-swag-startup-made-3.3-million-in-year-one",
     "https://blog.hubspot.com/sales/how-to-stitch-together-your-share-of-the-6.8b-sewing-boom"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9ü-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R123-E3-F1",
@@ -5150,7 +6854,13 @@
     "https://blog.hubspot.com/service/wiki-vs.-knowledge-base",
     "https://blog.hubspot.com/service/polls-vs.-survey"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R123-E4-F1",
@@ -5198,6 +6908,53 @@
      "https://blog.hubspot.com/website/html-span",
      "https://blog.hubspot.com/website"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
+  },
+  {
+   "id": "R3-S1-R124-E1-F1",
+   "entry_ids": [
+    "S1-R124-E1"
+   ],
+   "target": "https://www.intercom.com/blog/ 入口前缀 /blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.intercom\\.com/blog/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.intercom.com/blog/5-new-intercom-messenger-apps",
+    "https://www.intercom.com/blog/churn-retention-and-reengaging-customers",
+    "https://www.intercom.com/blog/coffee-dock-meetings",
+    "https://www.intercom.com/blog/our-next-research-and-development-hub-berlin",
+    "https://www.intercom.com/blog/what-do-you-do-when-a-feature-grows-faster-than-expected"
+   ],
+   "holdout_pos": [
+    "https://www.intercom.com/blog/podcasts",
+    "https://www.intercom.com/blog/videos"
+   ],
+   "holdout_neg": [
+    "https://www.intercom.com/blog",
+    "https://www.intercom.com/learning-center/ai-agents",
+    "https://www.intercom.com/learning-center/intercom-vs-hiver",
+    "https://www.intercom.com/learning-center/intercom-vs-gorgias",
+    "https://www.intercom.com/customers/agriwebb"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
    ]
   },
   {
@@ -5239,7 +6996,13 @@
     "https://www.klaviyo.com/blog/category/artificial-intelligence",
     "https://www.klaviyo.com/blog/category/developer"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R125-E1-F2",
@@ -5282,7 +7045,17 @@
     "https://www.klaviyo.com/blog/boxing-day-sales-uk",
     "https://www.klaviyo.com/blog/best-email-marketing-platforms"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "category"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R125-E2-F1",
@@ -5321,7 +7094,13 @@
     "https://www.klaviyo.com/glossary/what-is-personalized-marketing",
     "https://www.klaviyo.com/ai-prompt-library/build-customer-agent-social-proof-skill"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R125-E3-F1",
@@ -5362,7 +7141,17 @@
     "https://www.klaviyo.com/uk/composer/email-marketing-audit-find-revenue-leaks",
     "https://www.klaviyo.com/au/marketing-resources/sms-plays-to-boost-roi"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "case-studies"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R126-E1-F1",
@@ -5378,15 +7167,21 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://landor.com/en/our-work/ao/",
-    "https://landor.com/en/our-work/bancomat/",
     "https://landor.com/en/our-work/iz/",
     "https://landor.com/en/our-work/misura/",
     "https://landor.com/en/our-work/qt/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://landor.com/en/our-work/bancomat/",
+    "https://landor.com/en/our-work/iucnsos/",
+    "https://landor.com/en/our-work/leshuttle/",
+    "https://landor.com/en/our-work/reykjavik-global-forum/",
+    "https://landor.com/en/our-work/saudia-airlines/",
+    "https://landor.com/en/our-work/saudia/"
+   ],
    "holdout_neg": [
     "https://landor.com/en/our-work/",
     "https://landor.com/de/our-work/west-loop",
@@ -5394,7 +7189,13 @@
     "https://landor.com/de/our-work/kelloggs",
     "https://landor.com/de/our-work/imperia"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R127-E1-F1",
@@ -5433,7 +7234,13 @@
     "https://mailchimp.com/integrations/groove-for-mailchimp/",
     "https://mailchimp.com/find-an-expert/matchmaking"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R128-E1-F1",
@@ -5474,7 +7281,13 @@
     "https://www.meltwater.com/en/blog/category/generative-engine-optimization",
     "https://www.meltwater.com/en/blog/category/internal-communication"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R128-E1-F2",
@@ -5491,15 +7304,20 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://www.meltwater.com/en/blog/category/brand-management",
     "https://www.meltwater.com/en/blog/category/customer-journey",
     "https://www.meltwater.com/en/blog/category/media-monitoring",
     "https://www.meltwater.com/en/blog/network/x",
     "https://www.meltwater.com/en/blog/network/youtube"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.meltwater.com/en/blog/category/brand-management",
+    "https://www.meltwater.com/en/blog/category/influencer-marketing",
+    "https://www.meltwater.com/en/blog/category/reputation-management",
+    "https://www.meltwater.com/en/blog/category/social-media-marketing",
+    "https://www.meltwater.com/en/blog/network/linkedin"
+   ],
    "holdout_neg": [
     "https://www.meltwater.com/en/blog",
     "https://www.meltwater.com/fr/blog/category/internal-communication",
@@ -5509,7 +7327,17 @@
     "https://www.meltwater.com/en/blog/intelligence-in-style-launch",
     "https://www.meltwater.com/en/blog/social-media-statistics-south-korea"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R128-E2-F1",
@@ -5548,7 +7376,13 @@
     "https://www.meltwater.com/jp/blog/influencer-marketing-case-studies",
     "https://www.meltwater.com/de/blog/kundenmanagement-customer-data-management"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R129-E1-F1",
@@ -5587,7 +7421,13 @@
     "https://www.optimizely.com/de/legal/campaign-services-supplement",
     "https://www.optimizely.com/de/developers/optimizely-one"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R129-E2-F1",
@@ -5626,7 +7466,13 @@
     "https://www.optimizely.com/field-notes/customer-stories/unisa",
     "https://www.optimizely.com/legal/terms/api"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R130-E1-F1",
@@ -5666,7 +7512,17 @@
     "https://www.qualtrics.com/de/events/sr-super-session/",
     "https://www.qualtrics.com/en-au/customers/hgs/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R130-E2-F1",
@@ -5704,7 +7560,13 @@
     "https://www.qualtrics.com/marketplace/clarabridge-analytics-connector/",
     "https://www.qualtrics.com/news/qualtrics-unveils-xm-data-ai/?utm_lp=news-featured-articles"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R130-E4-F1",
@@ -5739,7 +7601,13 @@
     "https://www.qualtrics.com/author/brian-jefferis/",
     "https://www.qualtrics.com/eng/think-full-stack/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R131-E1-F1",
@@ -5785,7 +7653,13 @@
     "https://www.semrush.com/blog/user/145673201/",
     "https://www.semrush.com/blog/user/146335905/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R131-E1-F2",
@@ -5827,7 +7701,17 @@
     "https://www.semrush.com/blog/the-top-ai-challenges-in-marketing-and-how-to-solve-them-/",
     "https://www.semrush.com/blog/client-management/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R131-E1-F3",
@@ -5873,7 +7757,21 @@
     "https://www.semrush.com/blog/enterprise-seo-audit/",
     "https://www.semrush.com/blog/saas-content-marketing/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "category"
+    ],
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R132-E1-F1",
@@ -5898,20 +7796,29 @@
     "https://www.shopify.com/blog/what-is-shopify"
    ],
    "holdout_pos": [
-    "https://www.shopify.com/blog/email-marketing",
-    "https://www.shopify.com/blog/markets",
-    "https://www.shopify.com/blog/topics"
+    "https://www.shopify.com/blog/best-web-hosting-services",
+    "https://www.shopify.com/blog/brand-architecture",
+    "https://www.shopify.com/blog/camillete-maker-business",
+    "https://www.shopify.com/blog/fireflyslime",
+    "https://www.shopify.com/blog/how-to-make-money-on-twitch",
+    "https://www.shopify.com/blog/win-brands-ecommerce"
    ],
    "holdout_neg": [
     "https://www.shopify.com/blog",
-    "https://www.shopify.com/co/online",
-    "https://www.shopify.com/services/capture-email",
-    "https://www.shopify.com/cl/oferta-prueba-gratis",
     "https://www.shopify.com/co/partners",
-    "https://www.shopify.com/blog/topics/brand",
+    "https://www.shopify.com/sell/memorabilia",
+    "https://www.shopify.com/bd/plus",
+    "https://www.shopify.com/ch/kostenloses-testangebot",
+    "https://www.shopify.com/blog/topics/podcasts",
     "https://www.shopify.com/blog/topics/conversion"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R132-E1-F2",
@@ -5957,6 +7864,16 @@
      "https://www.shopify.com/blog/topics/branding",
      "https://www.shopify.com/blog/topics/brand"
     ]
+   ],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ],
+    [
+     "var",
+     "[a-z-]+"
+    ]
    ]
   },
   {
@@ -5966,21 +7883,22 @@
    ],
    "target": "https://www.siegelgale.com/ideas/ 入口前缀 /ideas/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
    "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.siegelgale\\.com/ideas/[a-z-]+/$",
+   "pattern": "^https://www\\.siegelgale\\.com/ideas/[a-z]+/$",
    "variables": {
-    "seg0": "[a-z-]+"
+    "seg0": "[a-z]+"
    },
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.siegelgale.com/ideas/ai/",
     "https://www.siegelgale.com/ideas/insights/",
-    "https://www.siegelgale.com/ideas/ma-spin-off/",
     "https://www.siegelgale.com/ideas/news/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.siegelgale.com/ideas/ma-spin-off/"
+   ],
    "holdout_neg": [
     "https://www.siegelgale.com/ideas/",
     "https://www.siegelgale.com/focus/manufacturing-industrial/",
@@ -5988,7 +7906,13 @@
     "https://www.siegelgale.com/people/samantha-bertone/",
     "https://www.siegelgale.com/people/mei-wing-chan/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R135-E1-F1",
@@ -6029,7 +7953,13 @@
     "https://www.sistrix.com/blog/archive/?selected=2011",
     "https://www.sistrix.com/blog/archive/?selected=2012"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R135-E1-F2",
@@ -6045,15 +7975,20 @@
    },
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.sistrix.com/blog/archive/?selected=2007",
     "https://www.sistrix.com/blog/archive/?selected=2011",
     "https://www.sistrix.com/blog/archive/?selected=2017",
-    "https://www.sistrix.com/blog/archive/?selected=2019",
-    "https://www.sistrix.com/blog/archive/?selected=2022"
+    "https://www.sistrix.com/blog/archive/?selected=2019"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://www.sistrix.com/blog/archive/?selected=2008",
+    "https://www.sistrix.com/blog/archive/?selected=2016",
+    "https://www.sistrix.com/blog/archive/?selected=2022",
+    "https://www.sistrix.com/blog/archive/?selected=2025",
+    "https://www.sistrix.com/blog/archive/?selected=2026"
+   ],
    "holdout_neg": [
     "https://www.sistrix.com/blog/",
     "https://www.sistrix.com/support/demo/",
@@ -6063,7 +7998,13 @@
     "https://www.sistrix.com/blog/content-planning-how-to-identify-and-analyse-sector-leading-content-using-sistrix-and-screaming-frog/",
     "https://www.sistrix.com/blog/the-top-non-profit-domains-visibility-to-learn-from/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "archive"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R136-E1-F1",
@@ -6102,7 +8043,13 @@
     "https://sproutsocial.com/insights/press/sprout-social-named-a-leader-in-worldwide-influencer-marketing-platforms-for-large-enterprises-by-idc-marketscape/",
     "https://sproutsocial.com/insights/templates/social-media-policy-template/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R137-E1-F1",
@@ -6141,7 +8088,13 @@
     "https://www.talkwalker.com/ja/social-media-analysis-tool",
     "https://www.talkwalker.com/fr/customer-intelligence"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R138-E1-F1",
@@ -6171,7 +8124,13 @@
     "https://unbounce.com/landing-pages/exit-popups-make-your-offer-more-persuasive/",
     "https://unbounce.com/contact-us/media/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R138-E2-F1",
@@ -6205,7 +8164,13 @@
     "https://unbounce.com/conversion-rate-optimization/3-major-cro-challenges-how-to-overcome-them/",
     "https://unbounce.com/social-media/how-successful-marketers-use-pinterest-to-drive-conversions/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R139-E1-F1",
@@ -6246,7 +8211,21 @@
     "https://wearesocial.com/it/blog/2017/05/thank-god-we-are-social-307/",
     "https://wearesocial.com/us/blog/2015/04/instant-messaging-101/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ],
+    [
+     "var",
+     "[a-z0-9_-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R140-E1-F1",
@@ -6285,7 +8264,13 @@
     "https://wingify.com/br/media-kit/",
     "https://wingify.com/solutions/media-and-publishing/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R140-E2-F1",
@@ -6301,15 +8286,17 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
-    "https://wingify.com/ebooks/30-black-friday-tests-how-to-win-big-during-the-e-commerce-holiday-season/",
     "https://wingify.com/ebooks/airline-mobile-booking-benchmark-report/",
-    "https://wingify.com/ebooks/feature-experimentation-trends-2026-where-digital-brands-are-investing/",
     "https://wingify.com/ebooks/shopping-cart-abandonment/",
     "https://wingify.com/ebooks/the-lead-gen-playbook/"
    ],
-   "holdout_pos": [],
+   "holdout_pos": [
+    "https://wingify.com/ebooks/30-black-friday-tests-how-to-win-big-during-the-e-commerce-holiday-season/",
+    "https://wingify.com/ebooks/feature-experimentation-trends-2026-where-digital-brands-are-investing/",
+    "https://wingify.com/ebooks/the-spontaneous-shift-consumer-ecommerce-trends-for-2026/"
+   ],
    "holdout_neg": [
     "https://wingify.com/ebooks/",
     "https://wingify.com/blog/how-to-boost-ancillary-revenue/",
@@ -6317,7 +8304,13 @@
     "https://wingify.com/blog/progressive-rollout-the-safer-smarter-way-to-launch/",
     "https://wingify.com/blog/mobile-app-analytics-tools/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R140-E3-F1",
@@ -6354,7 +8347,13 @@
     "https://wingify.com/blog/better-understand-and-optimize-your-average-basket-size/",
     "https://wingify.com/blog/why-is-cro-a-value-center/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R151-E2-F1",
@@ -6396,7 +8395,17 @@
     "https://www.cbinsights.com/research/repeat-founders-insurtech-2026/",
     "https://www.cbinsights.com/research/replit-acquisition-predictions/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z-]+"
+    ],
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   },
   {
    "id": "R3-S1-R151-E2-F2",
@@ -6410,9 +8419,9 @@
     "seg0": "[a-z0-9-]+"
    },
    "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测",
    "slash_mode": "slash",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "sitemap",
    "inference": [
     "https://www.cbinsights.com/research/14-repeat-founders-building-agentic-commerce/",
     "https://www.cbinsights.com/research/9-big-tech-engineers-building-the-next-wave-of-fintech/",
@@ -6421,23 +8430,29 @@
     "https://www.cbinsights.com/research/replit-acquisition-predictions/"
    ],
    "holdout_pos": [
-    "https://www.cbinsights.com/research/artificial-intelligence/",
-    "https://www.cbinsights.com/research/bitcoin-blockchain/",
-    "https://www.cbinsights.com/research/financial-services/",
-    "https://www.cbinsights.com/research/funding/",
-    "https://www.cbinsights.com/research/mosaic-score/",
-    "https://www.cbinsights.com/research/state-of/"
+    "https://www.cbinsights.com/research/alcohol-tobacco-gambling-sex-tech-market-map/",
+    "https://www.cbinsights.com/research/google-acquisitions-investments-2014/",
+    "https://www.cbinsights.com/research/shiftsmart-series-b-funding/",
+    "https://www.cbinsights.com/research/tech-market-map-lending-underwriting-financial-services/",
+    "https://www.cbinsights.com/research/tia-series-b-funding/",
+    "https://www.cbinsights.com/research/top-ride-hailing-startup-investors-map/"
    ],
    "holdout_neg": [
     "https://www.cbinsights.com/research/",
-    "https://www.cbinsights.com/company/stagee",
-    "https://www.cbinsights.com/company/upstart-business-incubator",
-    "https://www.cbinsights.com/company/emicool",
     "https://www.cbinsights.com/company/hefeng-shiye",
-    "https://www.cbinsights.com/research/featured-topics/insurtech/",
-    "https://www.cbinsights.com/research/briefing/webinar-venture-trends-q3-2026/"
+    "https://www.cbinsights.com/company/the-mother-company",
+    "https://www.cbinsights.com/company/hoang-minh-technology-jsc",
+    "https://www.cbinsights.com/company/cilian",
+    "https://www.cbinsights.com/research/briefing/webinar-ai-fraud-prevention-cybersecurity/",
+    "https://www.cbinsights.com/research/briefing/webinar-behind-the-scenes-fintech-100-2026/"
    ],
-   "inference_redirected_away": []
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ]
   }
  ],
  "dropped": [
@@ -6690,34 +8705,24 @@
    ]
   },
   {
-   "id": "R3-S1-R34-E2-F1",
-   "entry_id": "S1-R34-E2",
+   "id": "R3-S1-R34-E3-F1",
+   "entry_id": "S1-R34-E3",
    "why": "归纳样本落地不足 3 个正常页面",
    "checked": [
     [
-     "https://www.circana.com/industries/automotive",
-     200,
-     "https://www.circana.com/industries/automotive"
+     "https://www.circana.com/news/analyst-reports",
+     429,
+     "https://www.circana.com/news/analyst-reports"
     ],
     [
-     "https://www.circana.com/industries/center-store-and-frozen-foods",
+     "https://www.circana.com/news/media-coverage",
      200,
-     "https://www.circana.com/industries/center-store-and-frozen-foods"
+     "https://www.circana.com/news/media-coverage"
     ],
     [
-     "https://www.circana.com/industries/home",
+     "https://www.circana.com/news/product-training",
      200,
-     "https://www.circana.com/industries/home"
-    ],
-    [
-     "https://www.circana.com/industries/retail",
-     200,
-     "https://www.circana.com/industries/retail"
-    ],
-    [
-     "https://www.circana.com/industries/video-games",
-     200,
-     "https://www.circana.com/industries/video-games"
+     "https://www.circana.com/news/product-training"
     ]
    ]
   },
@@ -6944,38 +8949,6 @@
      "https://www.brandwatch.com/guides/vizia-agility-collaboration-focus/",
      200,
      "https://www.brandwatch.com/guides/vizia-agility-collaboration-focus/"
-    ]
-   ]
-  },
-  {
-   "id": "R3-S1-R124-E1-F1",
-   "entry_id": "S1-R124-E1",
-   "why": "归纳样本落地不足 3 个正常页面",
-   "checked": [
-    [
-     "https://www.intercom.com/blog/5-new-intercom-messenger-apps",
-     200,
-     "https://www.intercom.com/blog/5-new-intercom-messenger-apps"
-    ],
-    [
-     "https://www.intercom.com/blog/churn-retention-and-reengaging-customers",
-     200,
-     "https://www.intercom.com/blog/churn-retention-and-reengaging-customers"
-    ],
-    [
-     "https://www.intercom.com/blog/coffee-dock-meetings",
-     200,
-     "https://www.intercom.com/blog/coffee-dock-meetings"
-    ],
-    [
-     "https://www.intercom.com/blog/our-next-research-and-development-hub-berlin",
-     200,
-     "https://www.intercom.com/blog/our-next-research-and-development-hub-berlin"
-    ],
-    [
-     "https://www.intercom.com/blog/what-do-you-do-when-a-feature-grows-faster-than-expected",
-     200,
-     "https://www.intercom.com/blog/what-do-you-do-when-a-feature-grows-faster-than-expected"
     ]
    ]
   },

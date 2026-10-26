@@ -33,11 +33,17 @@ RULE_OVERRIDES = {
     "R3-S1-R121-E1-F1": "第 2 轮已知 3 个列表链接被匹配但跳到非文章页（/blog/、/guides/ux-design/），是否接受由用户决定",
 }
 DISCOVERY_OVERRIDES = {
-    "S1-R50-E3": ("部分", "页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 1,222 篇内；未在列表出现的 1 篇已定位"
-                          "（id 122415，2018-05-09）；分类计数 1,287 与公开 1,222 差 65 未解释"),
-    "S1-R45-E1": ("部分", "Load more 点到按钮消失：接口 hits=1016，页面内容链接 1,015，差 1 未解释"),
-    "S1-R45-E2": ("部分", "Load more 点到按钮消失（76 次）：接口 hits=2717，页面内容链接 2,660，差 57 未解释"),
+    "S1-R50-E3": ("完整", "页面 More posts 点到按钮消失，列表 1,221 篇，全部在 WP REST 公开文章 1,222 篇（X-WP-Total）内；"
+                          "未在列表出现的 1 篇已定位（id 122415，2018-05-09）。分类计数 1,287 是 WordPress 内部计数，"
+                          "可能含非公开文章，公开接口无法核实，不作为对账总数"),
+    "S1-R50-E4": ("完整", "/page/2/ 与 S1-R50-E3 是同一栏目、同一列表（服务端忽略页码），成员与对账同 S1-R50-E3"),
+    "S1-R45-E1": ("完整", "Load more 点到按钮消失时页面有 1,015 条；页面在接口还有 1 条时隐藏了按钮。"
+                          "用页面自身的只读接口取 offset=1015 补到 1 条（id 11767，已落地 200），合计 1,016 = 接口 hits"),
+    "S1-R45-E2": ("完整", "Load more 点到按钮消失时页面有 2,660 条；页面在接口还有 57 条时隐藏了按钮。"
+                          "用页面自身的只读接口取 offset=2660、2695 补到 57 条（全部落地 200），合计 2,717 = 接口 hits"),
 }
+# links confirmed outside the listing UI (entry -> jsonl of landing checks)
+EXTRA_RETAINED = {"S1-R45-E1": "yougov/tail-landing.jsonl", "S1-R45-E2": "yougov/tail-landing.jsonl"}
 
 
 def jl(p):
@@ -76,7 +82,7 @@ def main(out):
     eng = [{"name": "node-re2", "version": node["engine"]["version"]},
            {"name": "google-re2", "version": py["engine"]["version"]}]
 
-    rules_formal, rules_cand, rules_fail = [], [], []
+    rules_formal, rules_cand, rules_fail, rules_kept = [], [], [], []
     by_entry_rules = defaultdict(list)
     for fr in frozen["rules"]:
         rid = fr["id"]
@@ -90,8 +96,13 @@ def main(out):
             reasons.append(f"列表成员漏配 {len(cv['listing_missed'])}")
         if cv["sitemap_missed_count"]:
             reasons.append(f"sitemap 同结构 URL 漏配 {cv['sitemap_missed_count']}")
-        if fr["inference_redirected_away"]:
-            reasons.append(f"归纳样本跳到其他页面 {len(fr['inference_redirected_away'])}")
+        import re2
+        rx = re2.compile(fr["pattern"])
+        # a redirect that lands on another member of the same family (renamed slug) is an alias,
+        # not a miss; only landings outside the rule count
+        away = [(u, fin) for u, fin in fr["inference_redirected_away"] if not rx.fullmatch(fin or "")]
+        if away:
+            reasons.append(f"归纳样本跳到家族外页面 {len(away)}：" + "；".join(f"{u} → {fin}" for u, fin in away[:3]))
         if cv["matched_outside_structure"]:
             reasons.append(f"匹配到家族结构外的 sitemap URL {len(cv['matched_outside_structure'])}")
         if rid in RULE_OVERRIDES:
@@ -105,9 +116,15 @@ def main(out):
                "samples": {"inference": fr["inference"], "holdout_pos": fr["holdout_pos"], "holdout_neg": fr["holdout_neg"],
                            "regression_pos": fr.get("regression_pos", []), "regression_neg": fr.get("regression_neg", [])},
                "version": fr.get("version", 1), "history": fr.get("history", [])}
+        fam_members = next(len(f["members"]) for f in fams[fr["entry_ids"][0]]["families"] if f["id"] == rid)
         if not reasons:
             rec["status"] = "已验证"
             rules_formal.append(rec)
+        elif nr["checks"]["holdout_positives"] < 1 and fam_members <= 3:
+            # skill: with only 1–3 targets keep the links instead of forcing a regex
+            rec["status"] = "链接保留（仅 3 个同结构目标，按技能不强凑正则）"
+            rec["why"] = reasons
+            rules_kept.append(rec)
         elif nr["mechanical_gate"] != "passed" and (h["FN"] or h["FP"]):
             rec["status"] = "验证不通过"
             rec["why"] = reasons
@@ -161,7 +178,8 @@ def main(out):
             gap_n = sum(g for _, g in gaps)
             thin_unresolved = ident.get("thin_static_html") and not rd
             fam_n = len(fr.get("families", []))
-            n_links = fam_n + len(fr.get("outside_prefix", [])) + len(fr.get("under_prefix_singletons", []))
+            n_links = fam_n + len(fr.get("outside_prefix", [])) + len(fr.get("under_prefix_singletons", [])) \
+                + len(fr.get("files", []))
             complete = pend == 0 and not thin_unresolved and gap_n == 0 and n_links > 0 and \
                 (not rd or not rd.get("rounds") or not rd["rounds"][-1].get("clicked"))
             reconciled = fam_n > 0 and all(cov[r["id"]]["sitemap_same_structure"] > 0 for r in rs if cov.get(r["id"]))
@@ -185,6 +203,10 @@ def main(out):
                 disc_text += "；sitemap 中同结构但不在列表的 URL：" + "、".join(f"{rid.rsplit('-', 1)[-1]}={n}" for rid, n in gaps)
             if fam_n == 0:
                 disc_text += "；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）"
+            if fr.get("nav_fallback"):
+                disc_text += "；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接"
+            if n_links == 0:
+                disc_text += "；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染"
             if r2.get("discovery_text"):
                 disc_text += f"\n  第 2 轮人工复核：{r2['discovery_text']}"
             if eid in DISCOVERY_OVERRIDES:
@@ -199,6 +221,9 @@ def main(out):
         known += [(u, "under_prefix_other") for u in fr.get("under_prefix_singletons", [])]
         known += [(u, "outside_prefix_same_site") for u in fr.get("outside_prefix", [])]
         known += [(u, "file") for u in fr.get("files", [])]
+        if eid in EXTRA_RETAINED:
+            known += [(x["url"], "api_tail_not_shown_by_listing_ui") for x in jl(r3 / EXTRA_RETAINED[eid])
+                      if x["entry_id"] == eid and x.get("status") == 200]
         retained = [(u, why) for u, why in dict(known).items() if not any(x.fullmatch(u) for x in frx)]
         rp = r3 / "retained" / f"{eid}.txt"
         rp.write_text("".join(f"{u}\t{why}\n" for u, why in retained), encoding="utf-8")
@@ -215,13 +240,20 @@ def main(out):
         entries.append(e)
         queue += queue_for(e, rs, cov, summ.get(eid, {}), blocked, r2)
 
-    # round-2 candidates (manual) stay listed
+    # round-2 candidates (manual) stay listed unless a round-3 rule for the same entry superseded them
+    superseded = []
+    formal_entries = {e for r in rules_formal for e in r["entry_ids"]}
     for c in r2rules["candidates"]:
         c = dict(c)
         c["round"] = 2
-        rules_cand.append(c)
+        if set(c["entry_ids"]) <= formal_entries:
+            c["status"] = "已被第 3 轮正式规则取代"
+            superseded.append(c)
+        else:
+            rules_cand.append(c)
     rules = {"target_engine": "re2", "generated_at": RUN, "engines": eng,
              "formal": rules_formal, "candidates": rules_cand, "failed": rules_fail,
+             "kept_as_links": rules_kept, "superseded": superseded,
              "note": "formal 只收录满足准入的规则；留出样本量小，不外推总体可靠性；自动归纳的栏目边界是入口路径前缀"}
 
     rows = defaultdict(list)
@@ -239,6 +271,7 @@ def main(out):
                "link": dict(Counter(e["link_status"].split("（")[0] for e in pe)),
                "entries_with_formal_rule": sum(1 for e in pe if e.get("round3", {}).get("formal")),
                "rules_formal": len(rules_formal), "rules_candidate": len(rules_cand), "rules_failed": len(rules_fail),
+               "families_kept_as_links": len(rules_kept),
                "retained_links": sum(e.get("round3", {}).get("retained_count", 0) for e in pe),
                "test_pairs": len(node["tests"]), "queue_open": len(queue),
                "queue_by_reason": dict(Counter(q["reason"] for q in queue))}
@@ -287,7 +320,7 @@ def queue_for(e, rs, cov, s, blocked, r2):
             add(f"gap-{r['id'].rsplit('-', 1)[-1]}",
                 f"{r['id']}：sitemap 有 {c['sitemap_not_in_listing']} 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
                 "范围对账缺口")
-        if r["status"] != "已验证":
+        if r["status"] != "已验证" and not r["status"].startswith("链接保留"):
             add(f"rule-{r['id'].rsplit('-', 1)[-1]}", f"{r['id']}：{'；'.join(r.get('why', []))}", "规则未达正式准入")
     if r2.get("queue_blocked"):
         add("r2", "第 2 轮受阻项（见 round2/queue.json）", "权限拦截/挑战页")

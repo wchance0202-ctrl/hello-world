@@ -7,7 +7,8 @@
 // Usage: node render_probe.js <url> <out.json> [--rounds N] [--prefix /path/] [--selector CSS]
 // --selector clicks that element each round instead of matching button text.
 // --api SUBSTR records, for responses whose URL contains SUBSTR, the full request URL and
-//   the JSON top-level keys plus any numeric total/count fields (no bodies kept).
+//   the JSON top-level keys, any numeric total/count fields, and per item only its identifying
+//   fields (id/type/url/path/slug...); no bodies kept.
 // --hide CSS hides overlays (e.g. a consent banner) with a style rule; nothing is clicked on them.
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -37,7 +38,13 @@ const MORE = /^(load more|show more|more posts|see more|view more|load more arti
         } };
       walk(j, '', 0);
       const arr = Array.isArray(j) ? j : Object.values(j).find(Array.isArray) || [];
-      api.push({ url: r.url(), status: r.status(), keys: Array.isArray(j) ? ['<array>'] : Object.keys(j), numbers: nums, items: arr.length });
+      // per item: identifying fields only (no bodies)
+      const pick = o => { const out = {}; if (!o || typeof o !== 'object') return out;
+        for (const k of ['id', 'type', 'url', 'link', 'path', 'slug', 'href', 'permalink', 'canonical_url'])
+          if (o[k] !== undefined && typeof o[k] !== 'object') out[k] = String(o[k]).slice(0, 300);
+        return out; };
+      api.push({ url: r.url(), status: r.status(), keys: Array.isArray(j) ? ['<array>'] : Object.keys(j), numbers: nums,
+                 items: arr.length, item_ids: arr.map(pick), item_keys: arr[0] && typeof arr[0] === 'object' ? Object.keys(arr[0]).slice(0, 40) : [] });
     } catch (e) { api.push({ url: r.url(), status: r.status(), error: String(e).slice(0, 120) }); }
   });
   const startedAt = new Date().toISOString();

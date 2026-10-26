@@ -18703,8 +18703,11 @@
    "https://www.imf.org/external/np/g20/pdf/102909.pdf"
   ],
   "under_prefix_singletons": [
+   "https://www.bis.org/statistics/frame/capital-liquidity",
+   "https://www.bis.org/statistics/frame/too-big-to-fail",
    "https://www.bis.org/statistics/frame"
   ],
+  "nav_fallback": true,
   "final_url": "https://www.bis.org/statistics",
   "scheme_host": "https://www.bis.org",
   "prefix": "/statistics/",
@@ -22919,7 +22922,47 @@
   "raw": "https://www.itu.int/itu-d/sites/statistics/",
   "host": "www.itu.int",
   "pages": 1,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R18-E2-F1",
+    "signature": [
+     1,
+     true,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ]
+    ],
+    "members": [
+     "https://www.itu.int/itu-d/sites/statistics/ar/",
+     "https://www.itu.int/itu-d/sites/statistics/es/",
+     "https://www.itu.int/itu-d/sites/statistics/fr/",
+     "https://www.itu.int/itu-d/sites/statistics/ru/",
+     "https://www.itu.int/itu-d/sites/statistics/zh-hans/"
+    ],
+    "inference": [
+     "https://www.itu.int/itu-d/sites/statistics/ar/",
+     "https://www.itu.int/itu-d/sites/statistics/es/",
+     "https://www.itu.int/itu-d/sites/statistics/fr/",
+     "https://www.itu.int/itu-d/sites/statistics/ru/",
+     "https://www.itu.int/itu-d/sites/statistics/zh-hans/"
+    ],
+    "later_members": [],
+    "slash_mode": "slash",
+    "queries": [
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   }
+  ],
   "outside_prefix": [
    "https://datahub.itu.int/",
    "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
@@ -22938,6 +22981,7 @@
   ],
   "files": [],
   "under_prefix_singletons": [],
+  "nav_fallback": true,
   "final_url": "https://www.itu.int/itu-d/sites/statistics/",
   "scheme_host": "https://www.itu.int",
   "prefix": "/itu-d/sites/statistics/",
@@ -32288,7 +32332,41 @@
   "raw": "https://www.circana.com/news",
   "host": "www.circana.com",
   "pages": 1,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R34-E3-F1",
+    "signature": [
+     1,
+     false,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ]
+    ],
+    "members": [
+     "https://www.circana.com/news/analyst-reports",
+     "https://www.circana.com/news/media-coverage",
+     "https://www.circana.com/news/product-training"
+    ],
+    "inference": [
+     "https://www.circana.com/news/analyst-reports",
+     "https://www.circana.com/news/media-coverage",
+     "https://www.circana.com/news/product-training"
+    ],
+    "later_members": [],
+    "slash_mode": "none",
+    "queries": [
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   }
+  ],
   "outside_prefix": [
    "https://www.circana.com",
    "https://www.circana.com/",
@@ -32327,6 +32405,7 @@
   ],
   "files": [],
   "under_prefix_singletons": [],
+  "nav_fallback": true,
   "final_url": "https://www.circana.com/news",
   "scheme_host": "https://www.circana.com",
   "prefix": "/news/",
@@ -37727,7 +37806,10 @@
    "https://www.forrester.com/webinars/from-experience-scores-to-revenue-impact-a-total-experience-playbook-for-growth-webinar"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.forrester.com/b2c-marketing/",
   "scheme_host": "https://www.forrester.com",
   "prefix": "/b2c-marketing/",
@@ -39661,7 +39743,45 @@
   "raw": "https://www.pewresearch.org/topic/economy-work/",
   "host": "www.pewresearch.org",
   "pages": 3,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R52-E1-F1",
+    "signature": [
+     2,
+     true,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "lit",
+      "page"
+     ],
+     [
+      "var",
+      "[0-9]+"
+     ]
+    ],
+    "members": [
+     "https://www.pewresearch.org/topic/economy-work/page/163/",
+     "https://www.pewresearch.org/topic/economy-work/page/4/",
+     "https://www.pewresearch.org/topic/economy-work/page/5/"
+    ],
+    "inference": [
+     "https://www.pewresearch.org/topic/economy-work/page/163/",
+     "https://www.pewresearch.org/topic/economy-work/page/4/",
+     "https://www.pewresearch.org/topic/economy-work/page/5/"
+    ],
+    "later_members": [],
+    "slash_mode": "slash",
+    "queries": [
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   }
+  ],
   "outside_prefix": [
    "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/",
    "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/",
@@ -39696,6 +39816,7 @@
   ],
   "files": [],
   "under_prefix_singletons": [],
+  "nav_fallback": true,
   "final_url": "https://www.pewresearch.org/topic/economy-work/",
   "scheme_host": "https://www.pewresearch.org",
   "prefix": "/topic/economy-work/",
@@ -39708,7 +39829,48 @@
   "raw": "https://www.pewresearch.org/topic/internet-technology/",
   "host": "www.pewresearch.org",
   "pages": 1,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R52-E2-F1",
+    "signature": [
+     2,
+     true,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ],
+     [
+      "var",
+      "[a-z0-9-]+"
+     ]
+    ],
+    "members": [
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+     "https://www.pewresearch.org/topic/internet-technology/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/page/239/",
+     "https://www.pewresearch.org/topic/internet-technology/page/3/"
+    ],
+    "inference": [
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+     "https://www.pewresearch.org/topic/internet-technology/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/page/239/",
+     "https://www.pewresearch.org/topic/internet-technology/page/3/"
+    ],
+    "later_members": [],
+    "slash_mode": "slash",
+    "queries": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "sitemap"
+   }
+  ],
   "outside_prefix": [
    "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/",
    "https://www.pewresearch.org/data-labs/2026/10/07/what-do-health-and-wellness-influencers-post-about/",
@@ -39734,6 +39896,7 @@
   ],
   "files": [],
   "under_prefix_singletons": [],
+  "nav_fallback": true,
   "final_url": "https://www.pewresearch.org/topic/internet-technology/",
   "scheme_host": "https://www.pewresearch.org",
   "prefix": "/topic/internet-technology/",
@@ -39746,7 +39909,51 @@
   "raw": "https://www.pewresearch.org/topic/news-habits-media/",
   "host": "www.pewresearch.org",
   "pages": 3,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R52-E3-F1",
+    "signature": [
+     2,
+     true,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ],
+     [
+      "var",
+      "[a-z0-9-]+"
+     ]
+    ],
+    "members": [
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/6/"
+    ],
+    "inference": [
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/6/"
+    ],
+    "later_members": [],
+    "slash_mode": "slash",
+    "queries": [
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "sitemap"
+   }
+  ],
   "outside_prefix": [
    "https://www.pewresearch.org/data-labs/2026/03/26/religious-radio-across-america/",
    "https://www.pewresearch.org/journalism/2024/02/06/an-audio-tour-through-americas-top-ranked-podcasts/",
@@ -39791,7 +39998,10 @@
    "https://www.pewresearch.org/short-reads/2026/10/23/growing-share-of-americans-say-social-media-is-an-important-news-source-for-them/"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/news-platforms-sources/digital-news-landscape-1/"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.pewresearch.org/topic/news-habits-media/",
   "scheme_host": "https://www.pewresearch.org",
   "prefix": "/topic/news-habits-media/",
@@ -40217,7 +40427,45 @@
   "raw": "https://ads.tiktok.com/creative/creativeCenter",
   "host": "ads.tiktok.com",
   "pages": 1,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R62-E1-F1",
+    "signature": [
+     2,
+     false,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "lit",
+      "tools"
+     ],
+     [
+      "var",
+      "[a-zA-Z]+"
+     ]
+    ],
+    "members": [
+     "https://ads.tiktok.com/creative/creativeCenter/tools/api",
+     "https://ads.tiktok.com/creative/creativeCenter/tools/automation",
+     "https://ads.tiktok.com/creative/creativeCenter/tools/creativeTools"
+    ],
+    "inference": [
+     "https://ads.tiktok.com/creative/creativeCenter/tools/api",
+     "https://ads.tiktok.com/creative/creativeCenter/tools/automation",
+     "https://ads.tiktok.com/creative/creativeCenter/tools/creativeTools"
+    ],
+    "later_members": [],
+    "slash_mode": "none",
+    "queries": [
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   }
+  ],
   "outside_prefix": [
    "https://ads.tiktok.com/business/creativecenter/inspiration/topads/",
    "https://ads.tiktok.com/business/creativecenter/tools/api",
@@ -40227,7 +40475,10 @@
    "https://ads.tiktok.com/creative?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://ads.tiktok.com/creative/creativeCenter/trends"
+  ],
+  "nav_fallback": true,
   "final_url": "https://ads.tiktok.com/creative/creativeCenter",
   "scheme_host": "https://ads.tiktok.com",
   "prefix": "/creative/creativeCenter/",
@@ -51723,10 +51974,207 @@
   "raw": "https://www.thinkbox.tv/research",
   "host": "www.thinkbox.tv",
   "pages": 1,
-  "families": [],
+  "families": [
+   {
+    "id": "R3-S1-R104-E1-F1",
+    "signature": [
+     2,
+     false,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ],
+     [
+      "var",
+      "[a-z0-9-]+"
+     ]
+    ],
+    "members": [
+     "https://www.thinkbox.tv/research/charts-on-film/advertising-effectiveness-shifts-post-covid-have-been-incremental",
+     "https://www.thinkbox.tv/research/charts-on-film/factors-driving-roi",
+     "https://www.thinkbox.tv/research/charts-on-film/identifying-the-reach-extenders",
+     "https://www.thinkbox.tv/research/charts-on-film/media-signalling",
+     "https://www.thinkbox.tv/research/charts-on-film/profitability-varies-by-media-channel",
+     "https://www.thinkbox.tv/research/charts-on-film/the-effect-of-mood-and-stress-on-ad-awareness",
+     "https://www.thinkbox.tv/research/charts-on-film/the-effects-of-group-size-on-perceived-humour",
+     "https://www.thinkbox.tv/research/charts-on-film/the-immediate-and-carry-over-effects-of-advertising",
+     "https://www.thinkbox.tv/research/charts-on-film/the-needs-that-drive-viewing",
+     "https://www.thinkbox.tv/research/charts-on-film/tv-has-the-highest-saturation-point",
+     "https://www.thinkbox.tv/research/nickable-charts/addressable",
+     "https://www.thinkbox.tv/research/nickable-charts/creativity",
+     "https://www.thinkbox.tv/research/nickable-charts/effectiveness-and-planning",
+     "https://www.thinkbox.tv/research/nickable-charts/sector-specific",
+     "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables",
+     "https://www.thinkbox.tv/research/nickable-charts/viewing-and-audiences",
+     "https://www.thinkbox.tv/research/reports/effectiveness-in-context-free-download",
+     "https://www.thinkbox.tv/research/reports/from-good-to-great-improving-the-odds",
+     "https://www.thinkbox.tv/research/reports/giving-attention-a-little-attention-download-the-white-paper",
+     "https://www.thinkbox.tv/research/reports/media-in-focus-free-download",
+     "https://www.thinkbox.tv/research/reports/profit-ability-2-the-new-business-case-for-advertising-report",
+     "https://www.thinkbox.tv/research/reports/the-growth-gap-report",
+     "https://www.thinkbox.tv/research/reports/the-value-of-tv-a-behavioural-science-perspective",
+     "https://www.thinkbox.tv/research/reports/tv-is-at-the-heart-of-effectiveness-whitepaper-by-peter-field",
+     "https://www.thinkbox.tv/research/thinkbox-research/a-matter-of-time-the-importance-of-time-length-in-tv-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/adnormal-behaviour",
+     "https://www.thinkbox.tv/research/thinkbox-research/as-seen-on-tv-supercharging-your-small-business",
+     "https://www.thinkbox.tv/research/thinkbox-research/bvod-almighty-reach-and-return",
+     "https://www.thinkbox.tv/research/thinkbox-research/context-effects",
+     "https://www.thinkbox.tv/research/thinkbox-research/creative-drivers-of-effectiveness",
+     "https://www.thinkbox.tv/research/thinkbox-research/cultural-advantage",
+     "https://www.thinkbox.tv/research/thinkbox-research/earning-attention",
+     "https://www.thinkbox.tv/research/thinkbox-research/from-brand-to-bland",
+     "https://www.thinkbox.tv/research/thinkbox-research/get-with-the-programmes",
+     "https://www.thinkbox.tv/research/thinkbox-research/marketing-effectiveness-in-the-digital-era-media-in-focus",
+     "https://www.thinkbox.tv/research/thinkbox-research/profit-ability-2-the-new-business-case-for-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/signalling-success",
+     "https://www.thinkbox.tv/research/thinkbox-research/staying-power-the-longevity-of-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-age-of-television-the-needs-that-drive-us",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-drivers-of-profitability",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-long-and-the-short-of-it",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-tv-playbook-for-online-businesses",
+     "https://www.thinkbox.tv/research/thinkbox-research/tv-response-new-rules-new-roles"
+    ],
+    "inference": [
+     "https://www.thinkbox.tv/research/charts-on-film/advertising-effectiveness-shifts-post-covid-have-been-incremental",
+     "https://www.thinkbox.tv/research/charts-on-film/factors-driving-roi",
+     "https://www.thinkbox.tv/research/charts-on-film/identifying-the-reach-extenders",
+     "https://www.thinkbox.tv/research/charts-on-film/media-signalling",
+     "https://www.thinkbox.tv/research/charts-on-film/profitability-varies-by-media-channel",
+     "https://www.thinkbox.tv/research/charts-on-film/the-effect-of-mood-and-stress-on-ad-awareness",
+     "https://www.thinkbox.tv/research/charts-on-film/the-effects-of-group-size-on-perceived-humour",
+     "https://www.thinkbox.tv/research/charts-on-film/the-immediate-and-carry-over-effects-of-advertising",
+     "https://www.thinkbox.tv/research/charts-on-film/the-needs-that-drive-viewing",
+     "https://www.thinkbox.tv/research/charts-on-film/tv-has-the-highest-saturation-point",
+     "https://www.thinkbox.tv/research/nickable-charts/addressable",
+     "https://www.thinkbox.tv/research/nickable-charts/creativity",
+     "https://www.thinkbox.tv/research/nickable-charts/effectiveness-and-planning",
+     "https://www.thinkbox.tv/research/nickable-charts/sector-specific",
+     "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables",
+     "https://www.thinkbox.tv/research/nickable-charts/viewing-and-audiences",
+     "https://www.thinkbox.tv/research/reports/effectiveness-in-context-free-download",
+     "https://www.thinkbox.tv/research/reports/from-good-to-great-improving-the-odds",
+     "https://www.thinkbox.tv/research/reports/giving-attention-a-little-attention-download-the-white-paper",
+     "https://www.thinkbox.tv/research/reports/media-in-focus-free-download",
+     "https://www.thinkbox.tv/research/reports/profit-ability-2-the-new-business-case-for-advertising-report",
+     "https://www.thinkbox.tv/research/reports/the-growth-gap-report",
+     "https://www.thinkbox.tv/research/reports/the-value-of-tv-a-behavioural-science-perspective",
+     "https://www.thinkbox.tv/research/reports/tv-is-at-the-heart-of-effectiveness-whitepaper-by-peter-field",
+     "https://www.thinkbox.tv/research/thinkbox-research/a-matter-of-time-the-importance-of-time-length-in-tv-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/adnormal-behaviour",
+     "https://www.thinkbox.tv/research/thinkbox-research/as-seen-on-tv-supercharging-your-small-business",
+     "https://www.thinkbox.tv/research/thinkbox-research/bvod-almighty-reach-and-return",
+     "https://www.thinkbox.tv/research/thinkbox-research/context-effects",
+     "https://www.thinkbox.tv/research/thinkbox-research/creative-drivers-of-effectiveness",
+     "https://www.thinkbox.tv/research/thinkbox-research/cultural-advantage",
+     "https://www.thinkbox.tv/research/thinkbox-research/earning-attention",
+     "https://www.thinkbox.tv/research/thinkbox-research/from-brand-to-bland",
+     "https://www.thinkbox.tv/research/thinkbox-research/get-with-the-programmes",
+     "https://www.thinkbox.tv/research/thinkbox-research/marketing-effectiveness-in-the-digital-era-media-in-focus",
+     "https://www.thinkbox.tv/research/thinkbox-research/profit-ability-2-the-new-business-case-for-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/signalling-success",
+     "https://www.thinkbox.tv/research/thinkbox-research/staying-power-the-longevity-of-advertising",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-age-of-television-the-needs-that-drive-us",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-drivers-of-profitability",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-long-and-the-short-of-it",
+     "https://www.thinkbox.tv/research/thinkbox-research/the-tv-playbook-for-online-businesses",
+     "https://www.thinkbox.tv/research/thinkbox-research/tv-response-new-rules-new-roles"
+    ],
+    "later_members": [],
+    "slash_mode": "none",
+    "queries": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   },
+   {
+    "id": "R3-S1-R104-E1-F2",
+    "signature": [
+     1,
+     false,
+     [],
+     ""
+    ],
+    "template": [
+     [
+      "var",
+      "[a-z-]+"
+     ]
+    ],
+    "members": [
+     "https://www.thinkbox.tv/research/charts-on-film",
+     "https://www.thinkbox.tv/research/nickable-charts",
+     "https://www.thinkbox.tv/research/reports",
+     "https://www.thinkbox.tv/research/thinkbox-research"
+    ],
+    "inference": [
+     "https://www.thinkbox.tv/research/charts-on-film",
+     "https://www.thinkbox.tv/research/nickable-charts",
+     "https://www.thinkbox.tv/research/reports",
+     "https://www.thinkbox.tv/research/thinkbox-research"
+    ],
+    "later_members": [],
+    "slash_mode": "none",
+    "queries": [
+     "",
+     "",
+     "",
+     ""
+    ],
+    "holdout_mode": "later_pagination_pages"
+   }
+  ],
   "outside_prefix": [],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables/tv-advertisings-ultimate-nickable-charts"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.thinkbox.tv/research",
   "scheme_host": "https://www.thinkbox.tv",
   "prefix": "/research/",
@@ -81245,7 +81693,11 @@
    "https://www.qualtrics.com/watch-demo/xmos-2/"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.qualtrics.com/resources/events/",
+   "https://www.qualtrics.com/resources/webinars/"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.qualtrics.com/resources/",
   "scheme_host": "https://www.qualtrics.com",
   "prefix": "/resources/",
@@ -90200,7 +90652,10 @@
    "https://www.talkwalker.com/resources?page=9"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.talkwalker.com/resources/case-studies"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.talkwalker.com/resources?category=Reports",
   "scheme_host": "https://www.talkwalker.com",
   "prefix": "/resources/",
@@ -90241,7 +90696,10 @@
    "https://www.talkwalker.com/resources?page=2"
   ],
   "files": [],
-  "under_prefix_singletons": [],
+  "under_prefix_singletons": [
+   "https://www.talkwalker.com/resources/case-studies"
+  ],
+  "nav_fallback": true,
   "final_url": "https://www.talkwalker.com/resources",
   "scheme_host": "https://www.talkwalker.com",
   "prefix": "/resources/",
@@ -101918,7 +102376,7 @@
      "",
      ""
     ],
-    "holdout_mode": "later_pagination_pages"
+    "holdout_mode": "sitemap"
    }
   ],
   "outside_prefix": [],

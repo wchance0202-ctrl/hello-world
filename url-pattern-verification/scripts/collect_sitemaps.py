@@ -6,7 +6,9 @@
 Sitemaps are an independent membership source for holdout samples and coverage
 checks; they are not proof that a URL belongs to a given column.
 
-Usage: python3 -I collect_sitemaps.py <entries.json> <out_dir> [--max-files N] [--max-urls N]
+Usage: python3 -I collect_sitemaps.py <entries.json> <out_dir> [--max-files N] [--max-urls N] [--prefix-filter]
+  --prefix-filter keeps only URLs under the path prefixes of that host's entries (all sitemap
+  files are still read), so very large sites can be traversed completely.
 Writes <out_dir>/<host>.txt (one <loc> per line) and <out_dir>/_summary.json
 """
 import argparse
@@ -18,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
+from urllib.parse import urlsplit
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/130.0 Safari/537.36")
@@ -38,7 +41,7 @@ def get(s, url):
     return r.status_code, body.decode("utf-8", "replace")
 
 
-def host_job(host, out, max_files, max_urls):
+def host_job(host, out, max_files, max_urls, keep=None):
     s = requests.Session()
     s.headers.update({"User-Agent": UA})
     log = {"host": host, "robots": None, "files": [], "urls": 0, "truncated": False}
@@ -61,7 +64,9 @@ def host_job(host, out, max_files, max_urls):
         if is_index:
             queue += [l for l in locs if l not in seen]
         else:
-            urls += locs
+            urls += [l for l in locs if keep is None or any(urlsplit(l).path.startswith(k) for k in keep)]
+            log.setdefault("locs_seen", 0)
+            log["locs_seen"] += len(locs)
         time.sleep(0.5)
     if queue or len(urls) >= max_urls:
         log["truncated"] = True
@@ -79,13 +84,20 @@ def main():
     ap.add_argument("--max-files", type=int, default=150)
     ap.add_argument("--max-urls", type=int, default=300000)
     ap.add_argument("--workers", type=int, default=16)
+    ap.add_argument("--prefix-filter", action="store_true")
     a = ap.parse_args()
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
-    hosts = sorted({e["host"] for e in json.loads(Path(a.entries).read_text(encoding="utf-8"))
-                    if e["kind"] == "path_entry"})
+    ents = [e for e in json.loads(Path(a.entries).read_text(encoding="utf-8")) if e["kind"] == "path_entry"]
+    hosts = sorted({e["host"] for e in ents})
+    keep = {}
+    for e in ents:
+        p = e["path"] or "/"
+        # the entry directory (file-like entries: their parent) is the kept prefix
+        keep.setdefault(e["host"], set()).add(p if p.endswith("/") else p.rsplit("/", 1)[0] + "/")
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
-        logs = list(ex.map(lambda h: host_job(h, out, a.max_files, a.max_urls), hosts))
+        logs = list(ex.map(lambda h: host_job(h, out, a.max_files, a.max_urls,
+                                              keep[h] if a.prefix_filter else None), hosts))
     (out / "_summary.json").write_text(json.dumps(logs, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps({"hosts": len(logs), "with_urls": sum(1 for l in logs if l["urls"]),
                       "urls": sum(l["urls"] for l in logs),

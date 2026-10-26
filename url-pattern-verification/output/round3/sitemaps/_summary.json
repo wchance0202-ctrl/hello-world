@@ -905,7 +905,7 @@
    }
   ],
   "urls": 2397,
-  "truncated": true,
+  "truncated": false,
   "pending_files": [
    "https://ads.tiktok.com/business/sitemap/sitemap_guides_es.xml",
    "https://ads.tiktok.com/business/sitemap/sitemap_guides_es-419.xml",
@@ -957,7 +957,13 @@
    "https://ads.tiktok.com/business/sitemap/sitemap_industries_ms.xml",
    "https://ads.tiktok.com/business/sitemap/sitemap_industries_nb-NO.xml",
    "https://ads.tiktok.com/business/sitemap/sitemap_industries_nl-NL.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 262,
+   "locs_seen": 6525,
+   "kept_under_entry_prefixes": 0,
+   "truncated": false
+  }
  },
  {
   "host": "advertising.amazon.com",
@@ -2812,8 +2818,8 @@
     "locs": 13
    }
   ],
-  "urls": 2922,
-  "truncated": true,
+  "urls": 3099,
+  "truncated": false,
   "pending_files": [
    "https://contentmarketinginstitute.com/news/archive/2015/june.xml",
    "https://contentmarketinginstitute.com/news/archive/2014/april.xml",
@@ -2865,7 +2871,13 @@
    "https://contentmarketinginstitute.com/news/archive/2014/november.xml",
    "https://contentmarketinginstitute.com/news/archive/2014/march.xml",
    "https://contentmarketinginstitute.com/news/archive/2013/october.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 478,
+   "locs_seen": 8633,
+   "kept_under_entry_prefixes": 3098,
+   "truncated": false
+  }
  },
  {
   "host": "contentsquare.com",
@@ -3370,8 +3382,8 @@
     "locs": 5000
    }
   ],
-  "urls": 181292,
-  "truncated": true,
+  "urls": 417491,
+  "truncated": false,
   "pending_files": [
    "https://documents.worldbank.org/content/vdam/sitemap/documents-worldbank-org/sitemap-documents-worldbank-org-151.xml",
    "https://documents.worldbank.org/content/vdam/sitemap/documents-worldbank-org/sitemap-documents-worldbank-org-152.xml",
@@ -3423,7 +3435,13 @@
    "https://documents.worldbank.org/content/vdam/sitemap/documents-worldbank-org/sitemap-documents-worldbank-org-1008.xml",
    "https://documents.worldbank.org/content/vdam/sitemap/documents-worldbank-org/sitemap-documents-worldbank-org-1009.xml",
    "https://documents.worldbank.org/content/vdam/sitemap/documents-worldbank-org/sitemap-documents-worldbank-org-1010.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 999,
+   "locs_seen": 1396326,
+   "kept_under_entry_prefixes": 417491,
+   "truncated": false
+  }
  },
  {
   "host": "dpaaglobal.com",
@@ -5762,8 +5780,8 @@
     "locs": 4
    }
   ],
-  "urls": 12917,
-  "truncated": true,
+  "urls": 12922,
+  "truncated": false,
   "pending_files": [
    "https://wearesocial.com/au/country-sitemap.xml",
    "https://wearesocial.com/au/sector-sitemap.xml",
@@ -5796,7 +5814,13 @@
    "https://wearesocial.com/id/brand-sitemap.xml",
    "https://wearesocial.com/id/market-sitemap.xml",
    "https://wearesocial.com/id/language-sitemap.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 181,
+   "locs_seen": 13875,
+   "kept_under_entry_prefixes": 2682,
+   "truncated": false
+  }
  },
  {
   "host": "wfanet.org",
@@ -8451,8 +8475,8 @@
     "locs": 4752
    }
   ],
-  "urls": 300000,
-  "truncated": true,
+  "urls": 308404,
+  "truncated": false,
   "pending_files": [
    "https://www.cbinsights.com/sitemap/sitemap_company_75.xml",
    "https://www.cbinsights.com/sitemap/sitemap_company_76.xml",
@@ -8504,7 +8528,13 @@
    "https://www.cbinsights.com/sitemap/sitemap_company_122.xml",
    "https://www.cbinsights.com/sitemap/sitemap_company_123.xml",
    "https://www.cbinsights.com/sitemap/sitemap_company_124.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 1615,
+   "locs_seen": 5808513,
+   "kept_under_entry_prefixes": 8405,
+   "truncated": false
+  }
  },
  {
   "host": "www.census.gov",
@@ -9809,8 +9839,8 @@
     "locs": 350
    }
   ],
-  "urls": 171182,
-  "truncated": true,
+  "urls": 172078,
+  "truncated": false,
   "pending_files": [
    "https://www.deloitte.com/altlang/sitemap_altlang_66.xml",
    "https://www.deloitte.com/altlang/sitemap_altlang_67.xml",
@@ -9862,7 +9892,13 @@
    "https://www.deloitte.com/altlang/sitemap_altlang_113.xml",
    "https://www.deloitte.com/altlang/sitemap_altlang_114.xml",
    "https://www.deloitte.com/altlang/sitemap_altlang_115.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 316,
+   "locs_seen": 245386,
+   "kept_under_entry_prefixes": 6003,
+   "truncated": false
+  }
  },
  {
   "host": "www.demandcurve.com",
@@ -10058,10 +10094,16 @@
    }
   ],
   "urls": 296454,
-  "truncated": true,
+  "truncated": false,
   "pending_files": [
    "https://www.epo.org/de/boards-of-appeal/sitemap-de-2.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 29,
+   "locs_seen": 317835,
+   "kept_under_entry_prefixes": 100070,
+   "truncated": false
+  }
  },
  {
   "host": "www.euromonitor.com",
@@ -11454,8 +11496,8 @@
     "locs": 10000
    }
   ],
-  "urls": 295282,
-  "truncated": true,
+  "urls": 1714450,
+  "truncated": false,
   "pending_files": [
    "https://www.lovethework.com/sitemap/campaigns23.xml",
    "https://www.lovethework.com/sitemap/campaigns24.xml",
@@ -11507,7 +11549,13 @@
    "https://www.lovethework.com/sitemap/entries43.xml",
    "https://www.lovethework.com/sitemap/entries44.xml",
    "https://www.lovethework.com/sitemap/entries45.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 191,
+   "locs_seen": 1727341,
+   "kept_under_entry_prefixes": 1714450,
+   "truncated": false
+  }
  },
  {
   "host": "www.mckinsey.com",
@@ -13182,8 +13230,8 @@
     "locs": 92
    }
   ],
-  "urls": 30851,
-  "truncated": true,
+  "urls": 54294,
+  "truncated": false,
   "pending_files": [
    "https://www.oneclub.org/scripts/sitemap/sitemap_awards_323.xml",
    "https://www.oneclub.org/scripts/sitemap/sitemap_awards_301.xml",
@@ -13235,7 +13283,13 @@
    "https://www.oneclub.org/scripts/sitemap/sitemap_awards_225.xml",
    "https://www.oneclub.org/scripts/sitemap/sitemap_awards_205.xml",
    "https://www.oneclub.org/scripts/sitemap/sitemap_awards_187.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 277,
+   "locs_seen": 67098,
+   "kept_under_entry_prefixes": 40075,
+   "truncated": false
+  }
  },
  {
   "host": "www.optimizely.com",
@@ -14168,7 +14222,7 @@
     "locs": 152
    }
   ],
-  "urls": 226,
+  "urls": 349,
   "truncated": true,
   "pending_files": [
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2026&amp;mm=02&amp;dd=04",
@@ -14221,7 +14275,13 @@
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2025&amp;mm=10&amp;dd=09",
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2025&amp;mm=10&amp;dd=08",
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2025&amp;mm=10&amp;dd=07"
-  ]
+  ],
+  "full_traversal": {
+   "files": 5000,
+   "locs_seen": 1304,
+   "kept_under_entry_prefixes": 123,
+   "truncated": true
+  }
  },
  {
   "host": "www.qualtrics.com",
@@ -15389,7 +15449,7 @@
    }
   ],
   "urls": 300000,
-  "truncated": true,
+  "truncated": false,
   "pending_files": [
    "https://de.semrush.com/website/sitemap/sitemap-competitors.xml?p=3",
    "https://www.semrush.com/trending-websites/ad/sitemap",
@@ -15441,7 +15501,13 @@
    "https://www.semrush.com/trending-websites/cm/sitemap",
    "https://www.semrush.com/trending-websites/cn/sitemap",
    "https://www.semrush.com/trending-websites/co/sitemap"
-  ]
+  ],
+  "full_traversal": {
+   "files": 278,
+   "locs_seen": 379772,
+   "kept_under_entry_prefixes": 3866,
+   "truncated": false
+  }
  },
  {
   "host": "www.shopify.com",
@@ -16348,8 +16414,8 @@
     "locs": 20
    }
   ],
-  "urls": 78362,
-  "truncated": true,
+  "urls": 84923,
+  "truncated": false,
   "pending_files": [
    "https://www.shopify.com/ee/sell/sitemap.xml",
    "https://www.shopify.com/ee/sitemap.xml",
@@ -16401,7 +16467,13 @@
    "https://www.shopify.com/fi/sitemap_blog.xml",
    "https://www.shopify.com/fi/tools/sitemap.xml",
    "https://www.shopify.com/fr/blog/authors/sitemap.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 639,
+   "locs_seen": 314411,
+   "kept_under_entry_prefixes": 6893,
+   "truncated": false
+  }
  },
  {
   "host": "www.siegelgale.com",
@@ -17633,7 +17705,7 @@
    }
   ],
   "urls": 43999,
-  "truncated": true,
+  "truncated": false,
   "pending_files": [
    "http://patentscope.wipo.int/sitemap/fr/sitemap_Patentscope198501.xml",
    "http://patentscope.wipo.int/sitemap/en/sitemap_Patentscope198502.xml",
@@ -17685,7 +17757,13 @@
    "http://patentscope.wipo.int/sitemap/de/sitemap_Patentscope198612.xml",
    "http://patentscope.wipo.int/sitemap/en/sitemap_Patentscope198701.xml",
    "http://patentscope.wipo.int/sitemap/fr/sitemap_Patentscope198701.xml"
-  ]
+  ],
+  "full_traversal": {
+   "files": 2297,
+   "locs_seen": 12228824,
+   "kept_under_entry_prefixes": 0,
+   "truncated": false
+  }
  },
  {
   "host": "www.worldbank.org",

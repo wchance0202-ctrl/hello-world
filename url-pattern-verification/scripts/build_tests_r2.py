@@ -33,8 +33,12 @@ def identity_map(path):
             same = (r.get("final_url") or "").rstrip("/") == r["url"].rstrip("/")
             if r.get("status") == 200 and r.get("title") and same:
                 out[r["url"]] = "normal"
+            elif r.get("redirected") and not same:
+                out[r["url"]] = "redirected_away"
+            elif r.get("status") is not None and r["status"] != 200:
+                out[r["url"]] = f"landing_failed_{r['status']}"
             else:
-                out[r["url"]] = "redirected_away" if r.get("redirected") else "unverified"
+                out[r["url"]] = "unverified"
     return out
 
 
@@ -63,6 +67,12 @@ def generalized(samples, checks, override=None, overlay=None):
                     # a listed link that lands on a non-detail page: kept on record, not a positive
                     t["expected"] = None
                     t["note"] = "列表链接跳转到非详情页，身份不正常，不作为正例"
+                    excluded.append(t)
+                    continue
+                elif exp and state.startswith("landing_failed_"):
+                    # decided by the page's own status, not by the rule's match result
+                    t["expected"] = None
+                    t["note"] = f"样本落地失败（HTTP {state.rsplit('_', 1)[1]}），不作为正例"
                     excluded.append(t)
                     continue
                 tests.append(t)
