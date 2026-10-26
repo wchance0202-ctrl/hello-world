@@ -1,0 +1,141 @@
+{
+  "observed_at": "2026-10-26T06:59:29.379Z",
+  "engine": {
+    "name": "re2",
+    "version": "1.24.1",
+    "runtime": "v22.22.0",
+    "module": "<scratchpad>/nodere2/node_modules/re2/re2.js"
+  },
+  "target_engine": "re2",
+  "target_engine_executed": true,
+  "note": "Mechanical checks only; no proof of scope, identity, label truth, hidden holdout, website coverage or future performance.",
+  "rules": [
+    {
+      "id": "SYNTHETIC-R1",
+      "pattern": "^https://reports\\.example/research/report/[0-9]+/$",
+      "compiled": true,
+      "compile_error": null,
+      "metrics": {
+        "inference": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "TN": 0,
+          "excluded": 0,
+          "accuracy": 1,
+          "precision": 1,
+          "recall": 1
+        },
+        "holdout": {
+          "TP": 1,
+          "FP": 0,
+          "FN": 0,
+          "TN": 3,
+          "excluded": 0,
+          "accuracy": 1,
+          "precision": 1,
+          "recall": 1
+        },
+        "regression": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 0,
+          "excluded": 0,
+          "accuracy": null,
+          "precision": null,
+          "recall": null
+        }
+      },
+      "mechanical_gate": "passed",
+      "scope_review_required": true,
+      "checks": {
+        "anchored": true,
+        "target_engine_executed": true,
+        "inference_positives": 3,
+        "holdout_positives": 1,
+        "holdout_negatives": 3,
+        "duplicate_samples": false,
+        "observed_split_overlap": false,
+        "positives_have_identity": true,
+        "all_labeled_tests_pass": true
+      }
+    }
+  ],
+  "tests": [
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/report/101/",
+      "expected": true,
+      "split": "inference",
+      "source_id": "synthetic-101",
+      "identity": "normal",
+      "actual": true,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/report/205/",
+      "expected": true,
+      "split": "inference",
+      "source_id": "synthetic-205",
+      "identity": "normal",
+      "actual": true,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/report/309/",
+      "expected": true,
+      "split": "inference",
+      "source_id": "synthetic-309",
+      "identity": "normal",
+      "actual": true,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/report/411/",
+      "expected": true,
+      "split": "holdout",
+      "source_id": "synthetic-411",
+      "identity": "normal",
+      "actual": true,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/reports/",
+      "expected": false,
+      "split": "holdout",
+      "source_id": "synthetic-list",
+      "actual": false,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/research/reports/3/-1/",
+      "expected": false,
+      "split": "holdout",
+      "source_id": "synthetic-filter",
+      "actual": false,
+      "status": "executed",
+      "passed": true
+    },
+    {
+      "rule_id": "SYNTHETIC-R1",
+      "url": "https://reports.example/news/411/",
+      "expected": false,
+      "split": "holdout",
+      "source_id": "synthetic-other-route",
+      "actual": false,
+      "status": "executed",
+      "passed": true
+    }
+  ]
+}
