@@ -1,0 +1,52 @@
+{
+"entry": "https://yougov.com/business/sectors/consumer",
+"observed_at": "2026-10-26T08:45:52.172Z",
+"method": "playwright-chromium; 点击 button.load-more（CSS 隐藏 #onetrust-consent-sdk，未点击同意）",
+"api_calls": [],
+"rounds": [
+{
+"round": 0,
+"anchors": 199,
+"new_in_prefix": 199,
+"clicked": null
+},
+{
+"round": 1,
+"anchors": 199,
+"new_in_prefix": 0
+}
+],
+"main_links": [
+"https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+"https://business.yougov.com/content/50038-loacker-custom-tracker-case-study",
+"https://business.yougov.com/content/50355-fmcg-audience-insights-case-study",
+"https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study",
+"https://yougov.com/articles/54681-norway-biggest-brand-movers-2026",
+"https://yougov.com/articles/54682-finland-biggest-brand-movers-2026",
+"https://yougov.com/articles/54683-sweden-biggest-brand-movers-2026",
+"https://yougov.com/articles/55745-everyday-habits-australias-most-considered-personal-care-brands-2026",
+"https://yougov.com/articles/55746-everyday-habits-indonesias-most-considered-personal-care-brands-2026",
+"https://yougov.com/articles/55747-everyday-habits-hongkongs-most-considered-personal-care-brands-2026",
+"https://yougov.com/articles/55748-everyday-habits-singapores-most-considered-beauty-personal-care-brands-2026",
+"https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026",
+"https://yougov.com/business/ai-innovation",
+"https://yougov.com/business/data",
+"https://yougov.com/business/expertise",
+"https://yougov.com/business/panel",
+"https://yougov.com/business/sectors/consumer?marketo=contact",
+"https://yougov.com/business/sectors/consumer?marketo=newsletter",
+"https://yougov.com/business/solutions",
+"https://yougov.com/business/solutions/audience-intelligence",
+"https://yougov.com/business/solutions/market-intelligence",
+"https://yougov.com/business/solutions/research-surveys",
+"https://yougov.com/business/solutions/shopper-intelligence",
+"https://yougov.com/case-studies",
+"https://yougov.com/case-studies/35211-sarsons-direct-case-study",
+"https://yougov.com/case-studies/46827-platanomelon-yougov-profiles-achieve-exponential-growth",
+"https://yougov.com/case-studies/49977-cps-gfk-harvest-house-case-study",
+"https://yougov.com/case-studies/51464-unilever-innovation-centric-insights-case-study",
+"https://yougov.com/content/consumer",
+"https://yougov.com/en-us/business/solutions/brand-tracking",
+"https://yougov.com/reports/most-recommended-brands"
+]
+}

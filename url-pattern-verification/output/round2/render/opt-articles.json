@@ -1,0 +1,504 @@
+{
+ "url": "https://www.optimizely.com/field-notes/articles",
+ "observed_at": "2026-10-26T08:31:14.543Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.optimizely.com/field-notes/articles",
+ "status": 200,
+ "error": null,
+ "title": "Blog",
+ "h1": "Blog",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 41,
+   "new_in_prefix": 8,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 41,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://rum.optimizely.com/rum"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&auid=5839971.1793003477&dt=Blog&en=page_view&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Farticles&scrsrc=www.googletagmanager.com&rnd=792531554.1793003477&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1h1v76440394za200zd76440394xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120385423~1204"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=5839971.1793003477&gtm=45He6al1h1v76440394za200zd76440394xeaxf1&fmt=8"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/plans?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/developers?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/partners?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-C7SLJ6HMJ5&gtm=45je6al1h1v884819886za20ozb76440394zd76440394xf1&_p=1793003476970&_gaz=1&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=262245558&_eu=AAAAAGAC&cid=1490524523.1793003478&ec_mode=a&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=L"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/854039651/?random=1793003477591&cv=11&fst=1793003477591&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1h1v884819886za20ozb76440394zd76440394xecxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-no"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/951533114/?random=1793003477614&cv=11&fst=1793003477614&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1h1v884819886za20ozb76440394zd76440394xecxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-no"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/854039651/?random=1793003477625&cv=11&fst=1793003477625&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45je6al1h1v884819886z876440394za20gzb76440394zd76440394xeaxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&auid=5839971.1793003477&dt=Blog&tid=AW-854039651&en=page_view&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Farticles&scrsrc=www.googletagmanager.com&rnd=792531554.1793003477&navt=n&npa=0&ep.page_type=Other&ep.resource_topic=null&ep.author=null&ep.first_resource_topic=null&ep.template=null&ep.gated=null&ep.allowLinker=true&gtm=45je6al1h1v"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&auid=5839971.1793003477&dt=Blog&tid=AW-854039651&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Farticles&scrsrc=www.googletagmanager.com&rnd=792531554.1793003477&navt=n&npa=0&_tu=CA&gtm=45je6al1h1v884819886z876440394za20gzb76440394zd76440394xeaxf1&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~1188979"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.optimizely.com/field-notes/articles"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=Custom"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=Custom"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=PageVisit"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/get-started?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/?_rsc=kzRd0SswPoxHFNs7"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/Wv4xPtsKf4MZ6qV7EUMAKf.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "POST",
+   "url": "https://e.calibermind.com/v1/p"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/events"
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=Wv4xPtsKf4MZ6qV7EUMAKf&st=oaiq-web&sv=0.1.93&t=1793003479394&ec=2"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://r.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv6.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://epsilon.6sense.com/v3/company/details"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/refresh"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/?m=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://o209747.ingest.us.sentry.io/api/4508915056574464/envelope/?sentry_key=c36ec735e564530732f0d75311d173b6&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.119.1"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/cdn-cgi/rum?"
+  },
+  {
+   "method": "POST",
+   "url": "https://rum.optimizely.com/rum"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=a5ba6608-e069-4b39-8813-ece3f70d7b2b&uuid=873fe6e3-8488-43ab-ab73-67dc5e29f7dc"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions"
+  },
+  {
+   "method": "POST",
+   "url": "https://r.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://ws.zoominfo.com/pixel/61aa34848a6093001ca594ff/?iszitag=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://insight.adsrvr.org/track/realtimeconversion"
+  },
+  {
+   "method": "POST",
+   "url": "https://r.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/ingest"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-C7SLJ6HMJ5&gtm=45je6al1h1v884819886z876440394za20gzb76440394zd76440394xf1&_p=1793003476970&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=262245558&_eu=AAAAAGQC&cid=1490524523.1793003478&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&ua"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/product-updates?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/connectors?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products/services?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes/events?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/life-at-optimizely?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/optimizers?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/press?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/contact?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/search?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/website-terms-of-use?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/privacy-notice?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/trust-center?_rsc=wF4dnhQRIHqbh9oU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/esg?_rsc=wF4dnhQRIHqbh9oU"
+  }
+ ],
+ "anchors": [
+  {
+   "href": "https://www.optimizely.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/plans",
+   "text": "Plans",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/developers",
+   "text": "Developers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/partners",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://home.optimizely.com/",
+   "text": "Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/get-started",
+   "text": "Get started",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes",
+   "text": "FIELD NOTES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/your-collaboration-tools-didnt-get-the-memo/",
+   "text": "article\nArticle\nOct 21, 2026\nYour collaboration tools were built for a team with no AI on it\n\nAI made individuals faster",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/ai-agents-second-consumer/",
+   "text": "article\nArticle\nOct 15, 2026\nThe web's second consumer is learning to act\n\nAI agents are bringing hidden demand to your ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/does-llms-txt-work/",
+   "text": "article\nArticle\nOct 14, 2026\nDoes llms.txt work? The honest answer, with receipts\n\nFour studies, 500M+ AI bot visits, an",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/agentic-migration-no-developers-harmed/",
+   "text": "article\nArticle\nOct 9, 2026\nWe used our AI to migrate 2,500 CMS pages\n\n*No developers were harmed.*",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/measuring-customer-progress-beyond-the-thank-you-page/",
+   "text": "article\nArticle\nOct 8, 2026\nMeasuring customer progress beyond the Thank You page\n\nWhereoware has spent over twenty-five",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/webmcp-agentic-web/",
+   "text": "article\nArticle\nOct 8, 2026\nThe web was built for eyes. The agentic web is here for hands\n\nWebMCP: The invisible upgrade",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/under-the-hood-mark-privacy/",
+   "text": "article\nArticle\nOct 8, 2026\nUnder the hood: What privacy actually looks like with Mark, Optimizely's AI\n\nTwo Optimizely ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles/rebuilding-a-website-with-ai-agents/",
+   "text": "article\nArticle\nOct 6, 2026\nRebuilding a website in the age of AI agents\n\nThe lessons Optimizely learned rebuilding a 1,",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/products",
+   "text": "All products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/plans",
+   "text": "Plans & pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/product-updates",
+   "text": "Roadmap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/connectors",
+   "text": "Integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/partners",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/products/services",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes",
+   "text": "All resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/developers",
+   "text": "Developers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://support.optimizely.com/",
+   "text": "Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://docs.optimizely.com/",
+   "text": "Documentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.optimizely.com/",
+   "text": "Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company",
+   "text": "About us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/life-at-optimizely",
+   "text": "Life at Optimizely",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/optimizers",
+   "text": "Optimizers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/press",
+   "text": "Press",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/contact",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/search",
+   "text": "Search",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/legal/website-terms-of-use",
+   "text": "Website terms of use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/legal/privacy-notice",
+   "text": "Privacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/trust-center",
+   "text": "Trust Center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/company/esg",
+   "text": "ESG",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://privacyportal-cdn.onetrust.com/dsarwebform/1b599339-d045-4e2a-bde8-37ce346ab896/f6b0dc19-39c9-4553-bae5-b0306087d29e.html",
+   "text": "Do not sell or share my personal information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/articles#cookie-settings",
+   "text": "Cookie Settings",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/products/ai",
+   "text": "Running on Mark",
+   "region": "FOOTER"
+  }
+ ]
+}

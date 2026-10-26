@@ -1,0 +1,147 @@
+{
+ "checked_at": "2026-10-26",
+ "engine": "google-re2 1.1.20251105",
+ "source": "optimizely sitemap (evidence/sitemaps)",
+ "rules": {
+  "R2-OPT-GUIDES-DETAIL": {
+   "pattern": "^https://www\\.optimizely\\.com/field-notes/guides/[a-z0-9]+(?:-[a-z0-9]+)*/?$",
+   "members": 52,
+   "unmatched": [
+    "https://www.optimizely.com/field-notes/guides/ai-use-case-discovery-template/thank-you",
+    "https://www.optimizely.com/field-notes/guides/content-management-rfp-template/thank-you",
+    "https://www.optimizely.com/field-notes/guides/experimentation-rfp-template/thank-you",
+    "https://www.optimizely.com/field-notes/guides/forrester-wave-content-management-systems/thank-you",
+    "https://www.optimizely.com/field-notes/guides/forrester-wave-digital-experience-platforms/thank-you",
+    "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing"
+   ]
+  },
+  "R2-OPT-ARTICLES-DETAIL": {
+   "pattern": "^https://www\\.optimizely\\.com/field-notes/articles/[a-z0-9]+(?:-+[a-z0-9]+)*/?$",
+   "members": 418,
+   "unmatched": [
+    "https://www.optimizely.com/field-notes/articles/AI-experimentation",
+    "https://www.optimizely.com/field-notes/articles/AI-personalization-how-AI-outperforms-human-customization",
+    "https://www.optimizely.com/field-notes/articles/How-to-start-with-ab-testing-and-run-experiments",
+    "https://www.optimizely.com/field-notes/articles/Optimizelys-hipaa-ready-dxp",
+    "https://www.optimizely.com/field-notes/articles/WTF-is-going-on-with-ai-search",
+    "https://www.optimizely.com/field-notes/articles/how-to-convince-your-CMO",
+    "https://www.optimizely.com/field-notes/articles/how-to-roll-out-AI-tools-without-losing-brand-control",
+    "https://www.optimizely.com/field-notes/articles/migrating-from-Contentful-to-Optimizely",
+    "https://www.optimizely.com/field-notes/articles/opal-ki-workflows-",
+    "https://www.optimizely.com/field-notes/articles/optimizely-and-AD-identify-3-e-commerce-investments-for-distributors"
+   ]
+  }
+ },
+ "landing": [
+  {
+   "entry_id": "S1-R129-E2",
+   "url": "https://www.optimizely.com/field-notes/articles/AI-experimentation",
+   "parent_url": null,
+   "relation": "R2-OPT-coverage-check",
+   "observed_at": "2026-10-26T08:52:42+00:00",
+   "method": "GET",
+   "hops": [
+    {
+     "url": "https://www.optimizely.com/field-notes/articles/AI-experimentation",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "final_url": "https://www.optimizely.com/field-notes/articles/AI-experimentation",
+   "status": 200,
+   "redirected": false,
+   "error": null,
+   "content_type": "text/html; charset=utf-8",
+   "title": "AI experimentation: From ideation to results faster (for real)",
+   "meta_refresh": null
+  },
+  {
+   "entry_id": "S1-R129-E2",
+   "url": "https://www.optimizely.com/field-notes/articles/opal-ki-workflows-",
+   "parent_url": null,
+   "relation": "R2-OPT-coverage-check",
+   "observed_at": "2026-10-26T08:52:44+00:00",
+   "method": "GET",
+   "hops": [
+    {
+     "url": "https://www.optimizely.com/field-notes/articles/opal-ki-workflows-",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "final_url": "https://www.optimizely.com/field-notes/articles/opal-ki-workflows-",
+   "status": 200,
+   "redirected": false,
+   "error": null,
+   "content_type": "text/html; charset=utf-8",
+   "title": "Opal-Workflows: Von der Kampagnenidee zum Reporting-Summary",
+   "meta_refresh": null
+  },
+  {
+   "entry_id": "S1-R129-E2",
+   "url": "https://www.optimizely.com/field-notes/articles/ai-experimentation",
+   "parent_url": null,
+   "relation": "R2-OPT-coverage-check",
+   "observed_at": "2026-10-26T08:52:47+00:00",
+   "method": "GET",
+   "hops": [
+    {
+     "url": "https://www.optimizely.com/field-notes/articles/ai-experimentation",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "final_url": "https://www.optimizely.com/field-notes/articles/ai-experimentation",
+   "status": 200,
+   "redirected": false,
+   "error": null,
+   "content_type": "text/html; charset=utf-8",
+   "title": "AI experimentation: From ideation to results faster (for real)",
+   "meta_refresh": null
+  },
+  {
+   "entry_id": "S1-R129-E1",
+   "url": "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing",
+   "parent_url": null,
+   "relation": "R2-OPT-coverage-check",
+   "observed_at": "2026-10-26T08:52:48+00:00",
+   "method": "GET",
+   "hops": [
+    {
+     "url": "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "final_url": "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing",
+   "status": 200,
+   "redirected": false,
+   "error": null,
+   "content_type": "text/html; charset=utf-8",
+   "title": "June 2026 Gartner® Emerging Market Quadrant for AI Agents for Marketing – Established Vendors",
+   "meta_refresh": null
+  },
+  {
+   "entry_id": "S1-R129-E1",
+   "url": "https://www.optimizely.com/field-notes/guides/experimentation-rfp-template/thank-you",
+   "parent_url": null,
+   "relation": "R2-OPT-coverage-check",
+   "observed_at": "2026-10-26T08:52:50+00:00",
+   "method": "GET",
+   "hops": [
+    {
+     "url": "https://www.optimizely.com/field-notes/guides/experimentation-rfp-template/thank-you",
+     "status": 200,
+     "location": null
+    }
+   ],
+   "final_url": "https://www.optimizely.com/field-notes/guides/experimentation-rfp-template/thank-you",
+   "status": 200,
+   "redirected": false,
+   "error": null,
+   "content_type": "text/html; charset=utf-8",
+   "title": null,
+   "meta_refresh": null
+  }
+ ]
+}

@@ -1,0 +1,6127 @@
+{
+"source": "GET https://go.forrester.com/wp-json/wp/v2/posts?categories=50231&per_page=100&page=1..13&orderby=id&order=asc",
+"observed_at": "2026-10-26T08:25Z",
+"x_wp_total": 1222,
+"category_term": {
+"id": 50231,
+"slug": "b2b-research",
+"count": 1287
+},
+"listing_page": {
+"data-pages": 62,
+"per_page_implied": 20,
+"loadmore": "POST https://go.forrester.com/wp-admin/admin-ajax.php action=loadposts page=N category=b2b-research author=all (not executed this round: blocked by session permission classifier)"
+},
+"members": [
+{
+"id": 121001,
+"date": "2020-06-18T00:00:00",
+"link": "https://www.forrester.com/blogs/how-diverse-are-b2b-companies-in-america/"
+},
+{
+"id": 121004,
+"date": "2020-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-spectrum-sales-needs-marketing-strategy/"
+},
+{
+"id": 121007,
+"date": "2020-05-28T00:00:00",
+"link": "https://www.forrester.com/blogs/ways-teleservices-teams-can-add-value/"
+},
+{
+"id": 121010,
+"date": "2020-05-04T00:00:00",
+"link": "https://www.forrester.com/blogs/how-product-management-can-prepare-for-covid19-pandemic/"
+},
+{
+"id": 121013,
+"date": "2020-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-operations-and-buying-groups/"
+},
+{
+"id": 121016,
+"date": "2020-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/balancing-value-b2b-measurement/"
+},
+{
+"id": 121019,
+"date": "2020-05-07T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-operations-sunburst-model-debuts-at-summit/"
+},
+{
+"id": 121022,
+"date": "2020-05-05T00:00:00",
+"link": "https://www.forrester.com/blogs/transform-buyers-journey-revenue-efficiency/"
+},
+{
+"id": 121025,
+"date": "2020-05-08T00:00:00",
+"link": "https://www.forrester.com/blogs/johnny-cupcakes-playbook-for-business-success/"
+},
+{
+"id": 121027,
+"date": "2020-05-11T00:00:00",
+"link": "https://www.forrester.com/blogs/martech-that-drives-value/"
+},
+{
+"id": 121030,
+"date": "2020-05-21T00:00:00",
+"link": "https://www.forrester.com/blogs/protect-and-motivate-sales-during-pandemic/"
+},
+{
+"id": 121033,
+"date": "2020-05-12T00:00:00",
+"link": "https://www.forrester.com/blogs/how-asia-pacific-marketing-leaders-are-managing-covid19/"
+},
+{
+"id": 121036,
+"date": "2020-05-13T00:00:00",
+"link": "https://www.forrester.com/blogs/principles-and-best-practices-for-teleprospecting/"
+},
+{
+"id": 121039,
+"date": "2020-05-14T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-operations-during-pandemic/"
+},
+{
+"id": 121042,
+"date": "2020-05-19T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-success-not-about-hitting-quota/"
+},
+{
+"id": 121045,
+"date": "2020-05-12T00:00:00",
+"link": "https://www.forrester.com/blogs/successful-content-operations/"
+},
+{
+"id": 121048,
+"date": "2020-05-26T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-bold-at-work/"
+},
+{
+"id": 121051,
+"date": "2020-06-10T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-asset-management-have-you-leveled-up/"
+},
+{
+"id": 121054,
+"date": "2020-06-12T00:00:00",
+"link": "https://www.forrester.com/blogs/bold-at-work-gigamon-marketing-operations/"
+},
+{
+"id": 121057,
+"date": "2020-06-17T00:00:00",
+"link": "https://www.forrester.com/blogs/buying-groups-fueling-revenue-growth/"
+},
+{
+"id": 121060,
+"date": "2020-06-24T00:00:00",
+"link": "https://www.forrester.com/blogs/process-best-practices-in-crisis/"
+},
+{
+"id": 121063,
+"date": "2020-06-25T00:00:00",
+"link": "https://www.forrester.com/blogs/reimagining-marketing-skills/"
+},
+{
+"id": 121066,
+"date": "2020-07-01T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-marketers-and-buying-groups/"
+},
+{
+"id": 121069,
+"date": "2020-06-23T00:00:00",
+"link": "https://www.forrester.com/blogs/portfolio-marketing-kodak-wins-program-of-the-year-at-summit/"
+},
+{
+"id": 121072,
+"date": "2020-06-29T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-gaining-consensus-marketing-investments/"
+},
+{
+"id": 121075,
+"date": "2020-07-14T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-reps-knowing-buyers-expectations/"
+},
+{
+"id": 121078,
+"date": "2020-07-22T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-sales-leaders-challenge/"
+},
+{
+"id": 121081,
+"date": "2020-06-25T00:00:00",
+"link": "https://www.forrester.com/blogs/most-important-question-in-measurement-and-analytics/"
+},
+{
+"id": 121084,
+"date": "2020-07-02T00:00:00",
+"link": "https://www.forrester.com/blogs/managing-sales-data/"
+},
+{
+"id": 121087,
+"date": "2020-06-26T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-advertising-framework/"
+},
+{
+"id": 121090,
+"date": "2020-07-30T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-emea-2020-virtual-event/"
+},
+{
+"id": 121093,
+"date": "2020-07-30T00:00:00",
+"link": "https://www.forrester.com/blogs/forrester-siriusdecisions-summit-asia-pacific-2020-sales-leaders/"
+},
+{
+"id": 121096,
+"date": "2020-08-03T00:00:00",
+"link": "https://www.forrester.com/blogs/forrester-siriusdecisions-summit-asia-pacific-2020-role-of-brand-and-comms/"
+},
+{
+"id": 121099,
+"date": "2020-08-04T00:00:00",
+"link": "https://www.forrester.com/blogs/cadence-optimization-sales-rep-prospecting/"
+},
+{
+"id": 121102,
+"date": "2020-02-13T00:00:00",
+"link": "https://www.forrester.com/blogs/set-up-demand-unit-waterfall-in-salesforce/"
+},
+{
+"id": 121105,
+"date": "2019-11-19T00:00:00",
+"link": "https://www.forrester.com/blogs/why-customer-success-helps-sales-leaders-meet-quota/"
+},
+{
+"id": 121852,
+"date": "2019-11-13T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-spotlight-using-account-based-marketing/"
+},
+{
+"id": 121855,
+"date": "2019-11-14T00:00:00",
+"link": "https://www.forrester.com/blogs/things-to-do-in-denver-before-and-after-techx/"
+},
+{
+"id": 121858,
+"date": "2019-11-15T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-leadership-strategies/"
+},
+{
+"id": 121861,
+"date": "2020-06-04T00:00:00",
+"link": "https://www.forrester.com/blogs/when-should-marketing-ops-reduce-spend-during-disruption/"
+},
+{
+"id": 121864,
+"date": "2020-06-01T00:00:00",
+"link": "https://www.forrester.com/blogs/sap-and-qualtrics-leverage-combined-strength/"
+},
+{
+"id": 121867,
+"date": "2020-06-08T00:00:00",
+"link": "https://www.forrester.com/blogs/atlassian-poy-summit-2020/"
+},
+{
+"id": 121870,
+"date": "2020-06-11T00:00:00",
+"link": "https://www.forrester.com/blogs/four-steps-for-pivoting-programs-during-crisis/"
+},
+{
+"id": 121873,
+"date": "2020-06-09T00:00:00",
+"link": "https://www.forrester.com/blogs/timely-customer-focus/"
+},
+{
+"id": 121876,
+"date": "2022-12-21T00:00:00",
+"link": "https://www.forrester.com/blogs/alignment-on-martech-decisions/"
+},
+{
+"id": 121879,
+"date": "2020-04-20T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-cmo-study-apac-priorities/"
+},
+{
+"id": 121882,
+"date": "2020-04-27T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2020-buying-groups/"
+},
+{
+"id": 121885,
+"date": "2020-04-28T00:00:00",
+"link": "https://www.forrester.com/blogs/applying-campaigns-in-global-markets/"
+},
+{
+"id": 121888,
+"date": "2020-04-28T00:00:00",
+"link": "https://www.forrester.com/blogs/cmos-helping-other-cmos-through-crisis/"
+},
+{
+"id": 121891,
+"date": "2020-04-29T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-optimize-channel-demand/"
+},
+{
+"id": 121894,
+"date": "2020-06-03T00:00:00",
+"link": "https://www.forrester.com/blogs/seven-areas-for-product-management-to-lead-in-crisis/"
+},
+{
+"id": 121897,
+"date": "2020-05-27T00:00:00",
+"link": "https://www.forrester.com/blogs/should-you-pay-more-for-account-based-advertising/"
+},
+{
+"id": 121900,
+"date": "2020-05-07T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-enablement-know-your-customer-and-strategy/"
+},
+{
+"id": 121903,
+"date": "2020-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/existing-products-and-product-portfolio/"
+},
+{
+"id": 121906,
+"date": "2020-05-04T00:00:00",
+"link": "https://www.forrester.com/blogs/courage-to-care-brene-brown/"
+},
+{
+"id": 121909,
+"date": "2020-07-23T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-metrics-search/"
+},
+{
+"id": 121912,
+"date": "2020-02-05T00:00:00",
+"link": "https://www.forrester.com/blogs/super-bowl-ads-and-digital-marketing/"
+},
+{
+"id": 121915,
+"date": "2020-02-10T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-organization-move-faster/"
+},
+{
+"id": 121918,
+"date": "2020-03-11T00:00:00",
+"link": "https://www.forrester.com/blogs/responding-to-coronavirus-playbook-for-marketing-communications-2/"
+},
+{
+"id": 121921,
+"date": "2020-03-13T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-and-marketing-approach-during-crisis-customer-advocates/"
+},
+{
+"id": 121924,
+"date": "2020-03-17T00:00:00",
+"link": "https://www.forrester.com/blogs/virtual-content-when-event-plans-change/"
+},
+{
+"id": 121927,
+"date": "2020-03-23T00:00:00",
+"link": "https://www.forrester.com/blogs/buyers-journey-in-age-of-the-customer/"
+},
+{
+"id": 121930,
+"date": "2020-03-25T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-insight-threads/"
+},
+{
+"id": 121933,
+"date": "2020-03-26T00:00:00",
+"link": "https://www.forrester.com/blogs/whats-your-sales-operations-type/"
+},
+{
+"id": 121936,
+"date": "2020-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-during-a-market-crisis/"
+},
+{
+"id": 121939,
+"date": "2020-04-06T00:00:00",
+"link": "https://www.forrester.com/blogs/making-sales-calls-again/"
+},
+{
+"id": 121942,
+"date": "2020-03-04T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-executive-perspective-on-alignment/"
+},
+{
+"id": 121945,
+"date": "2020-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/responding-to-coronavirus-playbook-for-portfolio-marketing/"
+},
+{
+"id": 121948,
+"date": "2020-04-23T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-plan-socially-distant-world/"
+},
+{
+"id": 122047,
+"date": "2018-01-08T00:00:00",
+"link": "https://www.forrester.com/blogs/cybersecurity-breaches-a-guide-for-sales-marketing-and-communications-executives/"
+},
+{
+"id": 122050,
+"date": "2018-01-09T00:00:00",
+"link": "https://www.forrester.com/blogs/featuring-an-industry-anaylst-on-your-webcast/"
+},
+{
+"id": 122053,
+"date": "2018-01-12T00:00:00",
+"link": "https://www.forrester.com/blogs/whats-new-at-siriusdecisions-summit-2018/"
+},
+{
+"id": 122056,
+"date": "2018-01-22T00:00:00",
+"link": "https://www.forrester.com/blogs/help-sales-is-trying-to-change-my-product-roadmap/"
+},
+{
+"id": 122059,
+"date": "2018-01-24T00:00:00",
+"link": "https://www.forrester.com/blogs/intent-monitoring-investigating-buyer-behavior/"
+},
+{
+"id": 122062,
+"date": "2018-01-05T00:00:00",
+"link": "https://www.forrester.com/blogs/content-consistency-culprits-and-their-content-capers/"
+},
+{
+"id": 122065,
+"date": "2018-01-16T00:00:00",
+"link": "https://www.forrester.com/blogs/seven-ways-to-rock-demand-creation-with-artificial-intelligence/"
+},
+{
+"id": 122068,
+"date": "2018-01-26T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-agile-engine-for-product-management/"
+},
+{
+"id": 122071,
+"date": "2018-01-30T00:00:00",
+"link": "https://www.forrester.com/blogs/cmos-and-marketing-leaders-out-with-the-old-and-in-with-the-new/"
+},
+{
+"id": 122074,
+"date": "2018-01-29T00:00:00",
+"link": "https://www.forrester.com/blogs/three-ways-cmos-are-using-agile-in-marketing/"
+},
+{
+"id": 122077,
+"date": "2018-10-03T00:00:00",
+"link": "https://www.forrester.com/blogs/adobe-acquires-marketo/"
+},
+{
+"id": 122080,
+"date": "2018-10-03T00:00:00",
+"link": "https://www.forrester.com/blogs/data-privacy-and-compliance-regulations/"
+},
+{
+"id": 122083,
+"date": "2018-10-29T00:00:00",
+"link": "https://www.forrester.com/blogs/audience-centric-approach-to-marketing/"
+},
+{
+"id": 122086,
+"date": "2018-10-26T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-develop-value-based-pricing-strategy/"
+},
+{
+"id": 122089,
+"date": "2018-10-25T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-dominic-tavassoli-hid-global/"
+},
+{
+"id": 122092,
+"date": "2018-10-24T00:00:00",
+"link": "https://www.forrester.com/blogs/alteryx-tech-transformation/"
+},
+{
+"id": 122095,
+"date": "2018-10-23T00:00:00",
+"link": "https://www.forrester.com/blogs/pareto-principle-for-sales/"
+},
+{
+"id": 122097,
+"date": "2018-10-22T00:00:00",
+"link": "https://www.forrester.com/blogs/describe-your-b2b-content-team/"
+},
+{
+"id": 122100,
+"date": "2018-10-22T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-enablement-leadership-skills/"
+},
+{
+"id": 122103,
+"date": "2018-10-19T00:00:00",
+"link": "https://www.forrester.com/blogs/create-a-quota-model-for-fy19/"
+},
+{
+"id": 122106,
+"date": "2018-10-30T00:00:00",
+"link": "https://www.forrester.com/blogs/pareto-principle-for-sales-part-2/"
+},
+{
+"id": 122109,
+"date": "2018-10-16T00:00:00",
+"link": "https://www.forrester.com/blogs/leadership-characteristics-that-drive-growth/"
+},
+{
+"id": 122112,
+"date": "2018-10-10T00:00:00",
+"link": "https://www.forrester.com/blogs/three-key-techx-takeaways/"
+},
+{
+"id": 122115,
+"date": "2018-10-11T00:00:00",
+"link": "https://www.forrester.com/blogs/seven-best-practices-for-account-based-digital-display-advertising/"
+},
+{
+"id": 122117,
+"date": "2018-10-12T00:00:00",
+"link": "https://www.forrester.com/blogs/keep-zombies-out-of-btob-demand-marketing/"
+},
+{
+"id": 122120,
+"date": "2018-10-11T00:00:00",
+"link": "https://www.forrester.com/blogs/two-considerations-tech-enable-abm/"
+},
+{
+"id": 122123,
+"date": "2018-10-08T00:00:00",
+"link": "https://www.forrester.com/blogs/are-sales-and-marketing-in-sync-content-tech/"
+},
+{
+"id": 122126,
+"date": "2018-10-08T00:00:00",
+"link": "https://www.forrester.com/blogs/do-i-have-to-develop-all-that-messaging/"
+},
+{
+"id": 122129,
+"date": "2018-10-09T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-david-somers-redhat-part-two/"
+},
+{
+"id": 122131,
+"date": "2018-10-04T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2018-content-marketing-strategy/"
+},
+{
+"id": 122134,
+"date": "2018-10-05T00:00:00",
+"link": "https://www.forrester.com/blogs/techx-2018-takes-on-the-big-easy/"
+},
+{
+"id": 122137,
+"date": "2018-10-02T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-david-somers-redhat/"
+},
+{
+"id": 122138,
+"date": "2018-10-18T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-christophe-djaouani-sdl/"
+},
+{
+"id": 122140,
+"date": "2018-10-18T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-unit-waterfall-tech-alignment/"
+},
+{
+"id": 122143,
+"date": "2018-10-31T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-kathleen-pierce-illumina-part-2/"
+},
+{
+"id": 122144,
+"date": "2018-11-05T00:00:00",
+"link": "https://www.forrester.com/blogs/your-buyers-hive-mind/"
+},
+{
+"id": 122147,
+"date": "2018-11-12T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-bryan-hauptman-datto-part-2/"
+},
+{
+"id": 122149,
+"date": "2018-11-14T00:00:00",
+"link": "https://www.forrester.com/blogs/close-sales-knowledge-gaps/"
+},
+{
+"id": 122152,
+"date": "2018-02-05T00:00:00",
+"link": "https://www.forrester.com/blogs/actionable-takeaways-siriusdecisions-2017-buying-study/"
+},
+{
+"id": 122155,
+"date": "2018-02-23T00:00:00",
+"link": "https://www.forrester.com/blogs/where-should-social-media-sit-in-an-organization/"
+},
+{
+"id": 122158,
+"date": "2018-02-20T00:00:00",
+"link": "https://www.forrester.com/blogs/whats-new-with-social-media-technology/"
+},
+{
+"id": 122161,
+"date": "2018-02-28T00:00:00",
+"link": "https://www.forrester.com/blogs/fueling-the-revenue-engine-with-buyer-insights/"
+},
+{
+"id": 122164,
+"date": "2018-02-01T00:00:00",
+"link": "https://www.forrester.com/blogs/three-reasons-to-attend-the-2018-sales-leadership-exchange/"
+},
+{
+"id": 122167,
+"date": "2018-02-07T00:00:00",
+"link": "https://www.forrester.com/blogs/priorities-for-account-based-marketing-leader/"
+},
+{
+"id": 122170,
+"date": "2018-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/are-traditional-field-marketers-a-dying-breed/"
+},
+{
+"id": 122173,
+"date": "2018-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/many-things-you-can-do-ai-can-do-better/"
+},
+{
+"id": 122176,
+"date": "2018-04-23T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-bigtincan/"
+},
+{
+"id": 122179,
+"date": "2018-04-12T00:00:00",
+"link": "https://www.forrester.com/blogs/what-is-account-based-marketing/"
+},
+{
+"id": 122183,
+"date": "2018-04-04T00:00:00",
+"link": "https://www.forrester.com/blogs/introducing-the-launch-plan-on-a-page-template/"
+},
+{
+"id": 122186,
+"date": "2018-04-20T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-customer-advocacy/"
+},
+{
+"id": 122189,
+"date": "2018-04-11T00:00:00",
+"link": "https://www.forrester.com/blogs/content-strategy-at-summit-2018/"
+},
+{
+"id": 122192,
+"date": "2018-04-10T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-prescriptions-for-your-customer-engagement-headaches/"
+},
+{
+"id": 122195,
+"date": "2018-04-05T00:00:00",
+"link": "https://www.forrester.com/blogs/a-framework-for-customer-advocate-marketing/"
+},
+{
+"id": 122198,
+"date": "2018-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-true-influence/"
+},
+{
+"id": 122201,
+"date": "2018-03-26T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-infrastructure-the-stack-that-drives-growth/"
+},
+{
+"id": 122204,
+"date": "2018-03-28T00:00:00",
+"link": "https://www.forrester.com/blogs/boost-your-demand-creation-with-buyer-insights/"
+},
+{
+"id": 122207,
+"date": "2018-03-19T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-resource-management-binds-marketing/"
+},
+{
+"id": 122210,
+"date": "2018-03-22T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-operations-configure-price-quote-applications/"
+},
+{
+"id": 122213,
+"date": "2018-03-27T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-haikus-gdpr/"
+},
+{
+"id": 122216,
+"date": "2018-06-13T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-steve-hardy-perkinelmer/"
+},
+{
+"id": 122218,
+"date": "2018-06-11T00:00:00",
+"link": "https://www.forrester.com/blogs/booz-allen-hamilton-digital-transformation/"
+},
+{
+"id": 122221,
+"date": "2018-11-06T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-asset-management-solutions/"
+},
+{
+"id": 122224,
+"date": "2018-11-08T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-tech-stack-on-a-page-debuts-at-techx/"
+},
+{
+"id": 122227,
+"date": "2018-11-09T00:00:00",
+"link": "https://www.forrester.com/blogs/abm-and-sales-technology-using-demand-unit-waterfall/"
+},
+{
+"id": 122230,
+"date": "2018-11-13T00:00:00",
+"link": "https://www.forrester.com/blogs/cmo-2019-planning-north-america-emea-apac/"
+},
+{
+"id": 122233,
+"date": "2018-11-15T00:00:00",
+"link": "https://www.forrester.com/blogs/financial-services-marketers-outlook-on-abm/"
+},
+{
+"id": 122236,
+"date": "2018-11-19T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-compensation-plan-in-crisis/"
+},
+{
+"id": 122238,
+"date": "2018-11-29T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-channel-marketing-strategy/"
+},
+{
+"id": 122241,
+"date": "2018-11-26T00:00:00",
+"link": "https://www.forrester.com/blogs/buyers-want-to-talk-to-you/"
+},
+{
+"id": 122244,
+"date": "2018-02-09T00:00:00",
+"link": "https://www.forrester.com/blogs/three-ways-to-guarantee-terrible-day/"
+},
+{
+"id": 122247,
+"date": "2018-02-08T00:00:00",
+"link": "https://www.forrester.com/blogs/four-healthcare-product-management-trends-for-2018/"
+},
+{
+"id": 122250,
+"date": "2018-02-16T00:00:00",
+"link": "https://www.forrester.com/blogs/gdpr-compliance-client-snapshot-data-intake/"
+},
+{
+"id": 122253,
+"date": "2018-02-26T00:00:00",
+"link": "https://www.forrester.com/blogs/digital-transformation-in-b2b/"
+},
+{
+"id": 122256,
+"date": "2018-04-27T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-zoho/"
+},
+{
+"id": 122259,
+"date": "2018-04-27T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-tech-buying/"
+},
+{
+"id": 122262,
+"date": "2018-04-25T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-pardot/"
+},
+{
+"id": 122265,
+"date": "2018-04-23T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sales-intelligence/"
+},
+{
+"id": 122268,
+"date": "2018-04-16T00:00:00",
+"link": "https://www.forrester.com/blogs/new-look-at-the-b2b-content-factory/"
+},
+{
+"id": 122271,
+"date": "2018-04-16T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-customer-data-for-post-sale-engagement/"
+},
+{
+"id": 122274,
+"date": "2018-04-13T00:00:00",
+"link": "https://www.forrester.com/blogs/are-you-making-the-most-out-of-your-webinar-technology-investment/"
+},
+{
+"id": 122277,
+"date": "2018-04-12T00:00:00",
+"link": "https://www.forrester.com/blogs/forecast-channel-partner-growth/"
+},
+{
+"id": 122280,
+"date": "2018-04-24T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-nurture-in-the-context-of-the-demand-unit-waterfall/"
+},
+{
+"id": 122283,
+"date": "2018-04-20T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-n3/"
+},
+{
+"id": 122286,
+"date": "2018-04-19T00:00:00",
+"link": "https://www.forrester.com/blogs/the-science-of-selling/"
+},
+{
+"id": 122289,
+"date": "2018-04-18T00:00:00",
+"link": "https://www.forrester.com/blogs/seo-capabilities-for-demand-marketers-tech-stack/"
+},
+{
+"id": 122292,
+"date": "2018-04-18T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-6sense/"
+},
+{
+"id": 122295,
+"date": "2018-04-17T00:00:00",
+"link": "https://www.forrester.com/blogs/gdpr-compliance-data-maintenance/"
+},
+{
+"id": 122299,
+"date": "2018-04-11T00:00:00",
+"link": "https://www.forrester.com/blogs/building-the-b2b-customer-engagement-technology-stack/"
+},
+{
+"id": 122302,
+"date": "2018-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-patty-foley-reid-veracode/"
+},
+{
+"id": 122305,
+"date": "2018-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/being-a-boston-sports-fan-at-siriusdecisions-summit/"
+},
+{
+"id": 122309,
+"date": "2018-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-bryan-hauptman-datto/"
+},
+{
+"id": 122310,
+"date": "2018-03-23T00:00:00",
+"link": "https://www.forrester.com/blogs/driving-engagement-through-influencer-prioritization/"
+},
+{
+"id": 122313,
+"date": "2018-03-26T00:00:00",
+"link": "https://www.forrester.com/blogs/the-human-side-of-digital-marketing/"
+},
+{
+"id": 122316,
+"date": "2018-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-summit-2018-preview-demand-unit-waterfall-the-data-model/"
+},
+{
+"id": 122319,
+"date": "2018-03-30T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-learning-and-coaching-technology/"
+},
+{
+"id": 122322,
+"date": "2018-03-05T00:00:00",
+"link": "https://www.forrester.com/blogs/digital-transformation-is-the-buzziest-buzz-word-in-b-to-b-today/"
+},
+{
+"id": 122325,
+"date": "2018-03-02T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-and-marketing-alignment-in-abm-are-you-in-the-36-percent/"
+},
+{
+"id": 122328,
+"date": "2018-03-12T00:00:00",
+"link": "https://www.forrester.com/blogs/what-is-value-based-pricing/"
+},
+{
+"id": 122331,
+"date": "2018-03-07T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-building-an-inspiring-brand-through-customer-engagement/"
+},
+{
+"id": 122334,
+"date": "2018-03-13T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-sales-and-marketing-annual-planning-processes/"
+},
+{
+"id": 122337,
+"date": "2018-03-14T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-your-abm-program/"
+},
+{
+"id": 122340,
+"date": "2018-03-16T00:00:00",
+"link": "https://www.forrester.com/blogs/effective-channel-partner-sales-training-the-missing-link/"
+},
+{
+"id": 122343,
+"date": "2018-03-21T00:00:00",
+"link": "https://www.forrester.com/blogs/time-to-modernize-channel-partner-program/"
+},
+{
+"id": 122344,
+"date": "2018-03-27T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-building-a-marketing-campaign-plan/"
+},
+{
+"id": 122347,
+"date": "2018-06-04T00:00:00",
+"link": "https://www.forrester.com/blogs/success-factors-implementing-abm/"
+},
+{
+"id": 122350,
+"date": "2018-06-05T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-gretchen-eischen-sap-ariba/"
+},
+{
+"id": 122353,
+"date": "2018-06-07T00:00:00",
+"link": "https://www.forrester.com/blogs/digital-transformation-campaign/"
+},
+{
+"id": 122356,
+"date": "2018-06-18T00:00:00",
+"link": "https://www.forrester.com/blogs/top-signs-your-digital-transformation-is-in-trouble/"
+},
+{
+"id": 122359,
+"date": "2018-04-10T00:00:00",
+"link": "https://www.forrester.com/blogs/why-sales-compensation-management-systems-are-critical/"
+},
+{
+"id": 122362,
+"date": "2018-04-06T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-force-automation-and-your-tech-stack/"
+},
+{
+"id": 122365,
+"date": "2018-04-05T00:00:00",
+"link": "https://www.forrester.com/blogs/listening-to-sales-can-deliver-these-5-benefits/"
+},
+{
+"id": 122368,
+"date": "2018-04-02T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-2018-summit-is-for-channel-leaders/"
+},
+{
+"id": 122371,
+"date": "2018-06-14T00:00:00",
+"link": "https://www.forrester.com/blogs/2018-global-cso-study/"
+},
+{
+"id": 122374,
+"date": "2018-06-21T00:00:00",
+"link": "https://www.forrester.com/blogs/rethink-b2b-email-marketing/"
+},
+{
+"id": 122377,
+"date": "2018-06-19T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-campaign-implementation/"
+},
+{
+"id": 122380,
+"date": "2018-06-29T00:00:00",
+"link": "https://www.forrester.com/blogs/great-sales-coaching/"
+},
+{
+"id": 122383,
+"date": "2018-06-28T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-revenue-engine/"
+},
+{
+"id": 122386,
+"date": "2018-06-25T00:00:00",
+"link": "https://www.forrester.com/blogs/setting-up-demand-unit-waterfall-top-10-tips/"
+},
+{
+"id": 122389,
+"date": "2018-05-04T00:00:00",
+"link": "https://www.forrester.com/blogs/top-5-ways-for-cmos-to-transform-marketing-in-sales-led-orgs/"
+},
+{
+"id": 122392,
+"date": "2018-05-14T00:00:00",
+"link": "https://www.forrester.com/blogs/defining-digital-transformation-summit-2018/"
+},
+{
+"id": 122395,
+"date": "2018-05-01T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-waterfall-modular-system/"
+},
+{
+"id": 122398,
+"date": "2018-05-03T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-sales-tech-stack/"
+},
+{
+"id": 122401,
+"date": "2018-05-02T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-preview-advanced-messaging-techniques/"
+},
+{
+"id": 122404,
+"date": "2018-05-02T00:00:00",
+"link": "https://www.forrester.com/blogs/why-sales-doesnt-read-your-email/"
+},
+{
+"id": 122407,
+"date": "2018-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/tweetable-moments-siriusdecisions-summit-2018-day-one/"
+},
+{
+"id": 122409,
+"date": "2018-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-what-artificial-intelligence-means-for-b2b/"
+},
+{
+"id": 122412,
+"date": "2018-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-keynote-speaker-molly-blooms-story-of-reinvention/"
+},
+{
+"id": 122415,
+"date": "2018-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/the-brand-experience-navigator-a-gps-for-reaching-your-best-brand-and-customer-experience/"
+},
+{
+"id": 122418,
+"date": "2018-05-10T00:00:00",
+"link": "https://www.forrester.com/blogs/time-to-rethink-b2b-lead-nurture/"
+},
+{
+"id": 122421,
+"date": "2018-05-10T00:00:00",
+"link": "https://www.forrester.com/blogs/tweetable-moments-siriusdecisions-summit-2018-day-two/"
+},
+{
+"id": 122423,
+"date": "2018-05-10T00:00:00",
+"link": "https://www.forrester.com/blogs/guest-speaker-platon-inspires-summit-2018-audience-of-b2b-leaders/"
+},
+{
+"id": 122426,
+"date": "2018-05-15T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-align-sales-and-marketing-summit-2018/"
+},
+{
+"id": 122429,
+"date": "2018-05-16T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2018-highlights-wow/"
+},
+{
+"id": 122432,
+"date": "2018-05-21T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-mary-backstrom-parexel/"
+},
+{
+"id": 122434,
+"date": "2018-05-24T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-partner-data-privacy-policies-and-processes-gdpr/"
+},
+{
+"id": 122437,
+"date": "2018-05-31T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-operations-revenue-opportunities/"
+},
+{
+"id": 122440,
+"date": "2018-05-17T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-unit-waterfall-what-sales-operations-needs-to-know/"
+},
+{
+"id": 122443,
+"date": "2018-05-23T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-and-finance-compensation-authorizations/"
+},
+{
+"id": 122446,
+"date": "2018-08-20T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-compensation-planning-guide/"
+},
+{
+"id": 122449,
+"date": "2018-08-28T00:00:00",
+"link": "https://www.forrester.com/blogs/cmo-planning-for-2019/"
+},
+{
+"id": 122452,
+"date": "2018-08-15T00:00:00",
+"link": "https://www.forrester.com/blogs/why-attend-2018-siriusdecisions-summit-europe/"
+},
+{
+"id": 122455,
+"date": "2018-08-08T00:00:00",
+"link": "https://www.forrester.com/blogs/how-your-agency-uses-technology/"
+},
+{
+"id": 122459,
+"date": "2018-08-02T00:00:00",
+"link": "https://www.forrester.com/blogs/ready-to-sell-gdpr-world/"
+},
+{
+"id": 122462,
+"date": "2018-08-07T00:00:00",
+"link": "https://www.forrester.com/blogs/where-to-start-with-customer-advocacy/"
+},
+{
+"id": 122465,
+"date": "2018-08-22T00:00:00",
+"link": "https://www.forrester.com/blogs/martech-beer-sales-growth-part-1/"
+},
+{
+"id": 122468,
+"date": "2018-08-16T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-product-management-trends/"
+},
+{
+"id": 122471,
+"date": "2018-08-13T00:00:00",
+"link": "https://www.forrester.com/blogs/how-sales-leaders-can-accelerate-revenue-growth/"
+},
+{
+"id": 122474,
+"date": "2018-08-13T00:00:00",
+"link": "https://www.forrester.com/blogs/are-you-ready-for-abm/"
+},
+{
+"id": 122478,
+"date": "2018-08-14T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-karen-loiterstein-enterprise-bank-and-trust/"
+},
+{
+"id": 122480,
+"date": "2018-08-14T00:00:00",
+"link": "https://www.forrester.com/blogs/new-frontiers-b2b-alignment/"
+},
+{
+"id": 122483,
+"date": "2018-08-29T00:00:00",
+"link": "https://www.forrester.com/blogs/martech-beer-sales-growth-part-2/"
+},
+{
+"id": 122486,
+"date": "2018-08-29T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-kathleen-pierce-illumina/"
+},
+{
+"id": 122488,
+"date": "2018-07-12T00:00:00",
+"link": "https://www.forrester.com/blogs/does-your-dashboard-keep-pace-with-your-abm-program/"
+},
+{
+"id": 122491,
+"date": "2018-07-17T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-intelligence-path-to-success/"
+},
+{
+"id": 122494,
+"date": "2018-07-25T00:00:00",
+"link": "https://www.forrester.com/blogs/are-buyers-consuming-your-webinars/"
+},
+{
+"id": 122497,
+"date": "2018-07-30T00:00:00",
+"link": "https://www.forrester.com/blogs/consent-for-a-marketing-asset/"
+},
+{
+"id": 122500,
+"date": "2018-07-16T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2018-help-for-marketing-operations-leaders-dealing-with-change/"
+},
+{
+"id": 122503,
+"date": "2018-05-18T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-compensation-splits-or-team-quotas/"
+},
+{
+"id": 122506,
+"date": "2018-08-09T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-improve-buyer-nurture/"
+},
+{
+"id": 122509,
+"date": "2018-08-27T00:00:00",
+"link": "https://www.forrester.com/blogs/brand-and-communications-2019-planning/"
+},
+{
+"id": 122512,
+"date": "2018-08-24T00:00:00",
+"link": "https://www.forrester.com/blogs/six-ways-portfolio-marketers-set-scene-planning-2019/"
+},
+{
+"id": 122515,
+"date": "2018-08-23T00:00:00",
+"link": "https://www.forrester.com/blogs/five-ways-to-improve-emerging-company-marketing-planning/"
+},
+{
+"id": 122518,
+"date": "2018-08-21T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-cyrille-brisson-emea-marketing-eaton/"
+},
+{
+"id": 122520,
+"date": "2018-08-17T00:00:00",
+"link": "https://www.forrester.com/blogs/six-changes-product-managers-pricing-saas-product/"
+},
+{
+"id": 122521,
+"date": "2018-07-02T00:00:00",
+"link": "https://www.forrester.com/blogs/why-b-to-b-financial-services-marketers-are-focusing-on-the-accounts-that-matter-most/"
+},
+{
+"id": 122524,
+"date": "2018-07-05T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2018-demand-creation-preview/"
+},
+{
+"id": 122527,
+"date": "2018-07-03T00:00:00",
+"link": "https://www.forrester.com/blogs/whats-new-at-summit-europe-2018/"
+},
+{
+"id": 122530,
+"date": "2018-07-10T00:00:00",
+"link": "https://www.forrester.com/blogs/categories-of-in-person-event-data/"
+},
+{
+"id": 122534,
+"date": "2018-07-09T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-experience-brand-message-part-one/"
+},
+{
+"id": 122537,
+"date": "2018-07-11T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-regan-yeldell-comcast/"
+},
+{
+"id": 122539,
+"date": "2018-07-13T00:00:00",
+"link": "https://www.forrester.com/blogs/break-bad-b2b-habits/"
+},
+{
+"id": 122542,
+"date": "2018-07-19T00:00:00",
+"link": "https://www.forrester.com/blogs/abm-and-privacy/"
+},
+{
+"id": 122545,
+"date": "2018-07-23T00:00:00",
+"link": "https://www.forrester.com/blogs/brand-experience-customer-experience-part-two/"
+},
+{
+"id": 122548,
+"date": "2018-07-26T00:00:00",
+"link": "https://www.forrester.com/blogs/what-boards-of-directors-really-want/"
+},
+{
+"id": 122551,
+"date": "2018-09-06T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-zoe-mol-marketing-platts/"
+},
+{
+"id": 122553,
+"date": "2018-09-26T00:00:00",
+"link": "https://www.forrester.com/blogs/artificial-intelligence-replace-salespeople/"
+},
+{
+"id": 122556,
+"date": "2018-09-25T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-marketing-planning-for-2019/"
+},
+{
+"id": 122559,
+"date": "2018-09-24T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-enablement-pace-to-win-race/"
+},
+{
+"id": 122562,
+"date": "2018-09-21T00:00:00",
+"link": "https://www.forrester.com/blogs/on-premises-to-saas-product-management/"
+},
+{
+"id": 122565,
+"date": "2018-09-07T00:00:00",
+"link": "https://www.forrester.com/blogs/email-overload-in-your-sales-organization/"
+},
+{
+"id": 122568,
+"date": "2018-09-04T00:00:00",
+"link": "https://www.forrester.com/blogs/perpetual-to-recurring-revenue-model/"
+},
+{
+"id": 122571,
+"date": "2018-09-04T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-and-marketing-tech-adoption-game/"
+},
+{
+"id": 122580,
+"date": "2018-09-20T00:00:00",
+"link": "https://www.forrester.com/blogs/how-cmos-can-transform-marketing/"
+},
+{
+"id": 122583,
+"date": "2018-09-18T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-sales-ops-trends/"
+},
+{
+"id": 122586,
+"date": "2018-09-19T00:00:00",
+"link": "https://www.forrester.com/blogs/buyers-journey-map-not-a-program-plan/"
+},
+{
+"id": 122589,
+"date": "2018-09-17T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-quotes-sales-enablement/"
+},
+{
+"id": 122592,
+"date": "2018-09-13T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-mark-erwich-imprivata/"
+},
+{
+"id": 122594,
+"date": "2018-09-12T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-marketing-operations-planning-assumptions/"
+},
+{
+"id": 122597,
+"date": "2018-09-11T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-healthcare-marketing-planning-assumptions/"
+},
+{
+"id": 122600,
+"date": "2018-09-11T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-health-scores/"
+},
+{
+"id": 122603,
+"date": "2018-09-10T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-engagement-planning-2019/"
+},
+{
+"id": 122606,
+"date": "2018-09-10T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-to-customer-success/"
+},
+{
+"id": 122609,
+"date": "2018-09-05T00:00:00",
+"link": "https://www.forrester.com/blogs/worst-sales-hiring-mistake-ever-made/"
+},
+{
+"id": 122612,
+"date": "2018-09-28T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-manager-enablement-playbook/"
+},
+{
+"id": 122615,
+"date": "2018-09-27T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-miriam-newton-criteo/"
+},
+{
+"id": 122617,
+"date": "2018-12-04T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-marketing-measurement/"
+},
+{
+"id": 122620,
+"date": "2018-12-11T00:00:00",
+"link": "https://www.forrester.com/blogs/three-ways-customer-onboarding-strategy/"
+},
+{
+"id": 122623,
+"date": "2018-12-06T00:00:00",
+"link": "https://www.forrester.com/blogs/leading-with-confidence-siriusdecisions-womens-network/"
+},
+{
+"id": 122626,
+"date": "2018-12-13T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-operations-changing/"
+},
+{
+"id": 122629,
+"date": "2018-12-12T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-lifecycle-management-uber/"
+},
+{
+"id": 122632,
+"date": "2018-12-14T00:00:00",
+"link": "https://www.forrester.com/blogs/night-before-product-launch/"
+},
+{
+"id": 122635,
+"date": "2018-12-17T00:00:00",
+"link": "https://www.forrester.com/blogs/contact-data-records/"
+},
+{
+"id": 122638,
+"date": "2018-12-18T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-demand-marketing/"
+},
+{
+"id": 122642,
+"date": "2018-12-19T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-enagement-technology/"
+},
+{
+"id": 122645,
+"date": "2018-12-20T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-excellence/"
+},
+{
+"id": 122648,
+"date": "2018-12-20T00:00:00",
+"link": "https://www.forrester.com/blogs/abm-gdpr-digital-transformation/"
+},
+{
+"id": 122651,
+"date": "2018-12-21T00:00:00",
+"link": "https://www.forrester.com/blogs/why-learning-matters/"
+},
+{
+"id": 122654,
+"date": "2018-12-21T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-portfolio-marketers-sales-kickoff-content/"
+},
+{
+"id": 122657,
+"date": "2018-12-27T00:00:00",
+"link": "https://www.forrester.com/blogs/seven-words-value-propositions/"
+},
+{
+"id": 122660,
+"date": "2019-01-02T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-engage-c-suite-executives-close-deals/"
+},
+{
+"id": 122663,
+"date": "2019-02-06T00:00:00",
+"link": "https://www.forrester.com/blogs/portfolio-marketing-avoid-failed-launches/"
+},
+{
+"id": 122666,
+"date": "2019-02-11T00:00:00",
+"link": "https://www.forrester.com/blogs/product-manager-portfolio-marketer-love-story/"
+},
+{
+"id": 122669,
+"date": "2019-02-18T00:00:00",
+"link": "https://www.forrester.com/blogs/where-do-we-start-for-customer-engagement/"
+},
+{
+"id": 122672,
+"date": "2019-02-19T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-integrated-b2b-campaigns/"
+},
+{
+"id": 122676,
+"date": "2019-02-27T00:00:00",
+"link": "https://www.forrester.com/blogs/asking-for-customer-references/"
+},
+{
+"id": 122679,
+"date": "2019-03-05T00:00:00",
+"link": "https://www.forrester.com/blogs/five-questions-to-ask-before-building-brand-survey/"
+},
+{
+"id": 122683,
+"date": "2019-03-06T00:00:00",
+"link": "https://www.forrester.com/blogs/abm-budgets-study-findings/"
+},
+{
+"id": 122686,
+"date": "2019-03-13T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-is-not-your-customer/"
+},
+{
+"id": 122689,
+"date": "2019-03-14T00:00:00",
+"link": "https://www.forrester.com/blogs/four-truths-about-respect-and-relevance/"
+},
+{
+"id": 122692,
+"date": "2019-03-20T00:00:00",
+"link": "https://www.forrester.com/blogs/portfolio-marketing-key-benchmarks/"
+},
+{
+"id": 122695,
+"date": "2019-03-08T00:00:00",
+"link": "https://www.forrester.com/blogs/demand-marketing-customer-marketing-cross-sell-summit/"
+},
+{
+"id": 122698,
+"date": "2019-03-11T00:00:00",
+"link": "https://www.forrester.com/blogs/measure-event-success/"
+},
+{
+"id": 122700,
+"date": "2019-03-15T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-thought-leadership/"
+},
+{
+"id": 122703,
+"date": "2019-03-19T00:00:00",
+"link": "https://www.forrester.com/blogs/pinterest-recipe-how-marketers-share-recipes-for-success/"
+},
+{
+"id": 122706,
+"date": "2019-03-18T00:00:00",
+"link": "https://www.forrester.com/blogs/brand-and-communications-leaders-overcome-wishful-thinking-syndrome/"
+},
+{
+"id": 122709,
+"date": "2019-03-21T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-for-event-measurement/"
+},
+{
+"id": 122712,
+"date": "2019-03-27T00:00:00",
+"link": "https://www.forrester.com/blogs/mysteries-of-an-enterprise-aligned-agile-approach/"
+},
+{
+"id": 122715,
+"date": "2019-03-22T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-automation-extinct-or-evolve/"
+},
+{
+"id": 122718,
+"date": "2019-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/interconnected-buyers-and-sellers/"
+},
+{
+"id": 122721,
+"date": "2019-03-28T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-agile-development-and-product-launches/"
+},
+{
+"id": 122724,
+"date": "2019-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/cant-miss-content-for-sales-ops/"
+},
+{
+"id": 122727,
+"date": "2019-04-24T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-operations-for-the-b2b-revenue-engine/"
+},
+{
+"id": 122730,
+"date": "2019-04-24T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-spotlight-improving-customer-experience-with-journey-mapping/"
+},
+{
+"id": 122734,
+"date": "2019-04-22T00:00:00",
+"link": "https://www.forrester.com/blogs/what-baking-taught-me-b2b-tech/"
+},
+{
+"id": 122737,
+"date": "2019-04-18T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-show-the-full-value-of-marketing/"
+},
+{
+"id": 122740,
+"date": "2019-04-19T00:00:00",
+"link": "https://www.forrester.com/blogs/privacy-is-a-brand-opportunity/"
+},
+{
+"id": 122743,
+"date": "2019-04-16T00:00:00",
+"link": "https://www.forrester.com/blogs/5-b2c-brands-we-love/"
+},
+{
+"id": 122746,
+"date": "2019-04-16T00:00:00",
+"link": "https://www.forrester.com/blogs/tactical-innovations-demand-marketing/"
+},
+{
+"id": 122749,
+"date": "2019-04-17T00:00:00",
+"link": "https://www.forrester.com/blogs/the-revenue-operations-charter-is-born/"
+},
+{
+"id": 122752,
+"date": "2019-04-12T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-leaders-hybrid-sales-roles/"
+},
+{
+"id": 122754,
+"date": "2019-04-15T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-summit-and-enabling-sellers/"
+},
+{
+"id": 122757,
+"date": "2019-04-29T00:00:00",
+"link": "https://www.forrester.com/blogs/high-performing-revenue-engine/"
+},
+{
+"id": 122760,
+"date": "2019-04-10T00:00:00",
+"link": "https://www.forrester.com/blogs/jim-ninivaggi/"
+},
+{
+"id": 122763,
+"date": "2019-04-10T00:00:00",
+"link": "https://www.forrester.com/blogs/value-from-product-enhancements/"
+},
+{
+"id": 122766,
+"date": "2019-04-10T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-channel-leaders-dont-miss-out/"
+},
+{
+"id": 122769,
+"date": "2019-04-05T00:00:00",
+"link": "https://www.forrester.com/blogs/total-addressable-market-and-the-importance-of-scale/"
+},
+{
+"id": 122772,
+"date": "2019-04-05T00:00:00",
+"link": "https://www.forrester.com/blogs/strategic-account-planning-how-to-win/"
+},
+{
+"id": 122775,
+"date": "2019-04-04T00:00:00",
+"link": "https://www.forrester.com/blogs/top-10-priorities-accelerating-sales/"
+},
+{
+"id": 122779,
+"date": "2019-04-01T00:00:00",
+"link": "https://www.forrester.com/blogs/ai-baseball-umpires-and-revenue-ops/"
+},
+{
+"id": 122782,
+"date": "2019-04-01T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-retention-model/"
+},
+{
+"id": 122785,
+"date": "2019-04-02T00:00:00",
+"link": "https://www.forrester.com/blogs/minimum-viable-products/"
+},
+{
+"id": 122788,
+"date": "2019-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/winter-is-coming-for-abm-planning/"
+},
+{
+"id": 122791,
+"date": "2019-04-25T00:00:00",
+"link": "https://www.forrester.com/blogs/quarterly-sales-planning/"
+},
+{
+"id": 122794,
+"date": "2019-04-23T00:00:00",
+"link": "https://www.forrester.com/blogs/women-in-business-and-tech/"
+},
+{
+"id": 122797,
+"date": "2019-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/content-strategy-why-a-team-handshake-is-better-than-a-handoff/"
+},
+{
+"id": 122800,
+"date": "2019-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-summit-keynote-common/"
+},
+{
+"id": 122803,
+"date": "2019-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/customers-respect-and-relevance/"
+},
+{
+"id": 122806,
+"date": "2019-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-talking-to-executives/"
+},
+{
+"id": 122809,
+"date": "2019-05-13T00:00:00",
+"link": "https://www.forrester.com/blogs/neutralize-competitors-with-buyer-insights/"
+},
+{
+"id": 122812,
+"date": "2019-05-24T00:00:00",
+"link": "https://www.forrester.com/blogs/gdpr-report-card/"
+},
+{
+"id": 122815,
+"date": "2019-06-04T00:00:00",
+"link": "https://www.forrester.com/blogs/three-mistakes-sales-enablement/"
+},
+{
+"id": 122818,
+"date": "2019-06-11T00:00:00",
+"link": "https://www.forrester.com/blogs/revops-three-insights-that-drive-revenue-engine/"
+},
+{
+"id": 122821,
+"date": "2019-06-05T00:00:00",
+"link": "https://www.forrester.com/blogs/make-your-content-a-national-treasure/"
+},
+{
+"id": 122824,
+"date": "2019-06-13T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-operations-and-cmos/"
+},
+{
+"id": 122827,
+"date": "2019-06-26T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-leaders-subscription-important-metric/"
+},
+{
+"id": 122830,
+"date": "2019-06-25T00:00:00",
+"link": "https://www.forrester.com/blogs/value-reviews-finding-nemo/"
+},
+{
+"id": 122833,
+"date": "2019-06-21T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-leaders-digitally-transform-their-teams/"
+},
+{
+"id": 122834,
+"date": "2022-08-02T10:00:00",
+"link": "https://www.forrester.com/blogs/how-to-create-customer-obsessed-culture/"
+},
+{
+"id": 122837,
+"date": "2019-08-05T00:00:00",
+"link": "https://www.forrester.com/blogs/enabling-b2b-buyers-through-voice-experiences/"
+},
+{
+"id": 122840,
+"date": "2019-08-08T00:00:00",
+"link": "https://www.forrester.com/blogs/what-we-need-know-about-artificial-intelligence/"
+},
+{
+"id": 122843,
+"date": "2019-08-19T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-brandon-roberts-mindbody/"
+},
+{
+"id": 122845,
+"date": "2019-08-14T00:00:00",
+"link": "https://www.forrester.com/blogs/customers-between-field-and-hq/"
+},
+{
+"id": 122848,
+"date": "2019-08-26T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-social-review-sites-to-consider/"
+},
+{
+"id": 122851,
+"date": "2019-09-11T00:00:00",
+"link": "https://www.forrester.com/blogs/why-are-buyer-insights-vital-for-product-marketing-sales/"
+},
+{
+"id": 122854,
+"date": "2019-09-24T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-b2b-buyer-insights-study-summit-apac/"
+},
+{
+"id": 122857,
+"date": "2019-09-23T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-case-study-bigtincan/"
+},
+{
+"id": 122860,
+"date": "2019-04-09T00:00:00",
+"link": "https://www.forrester.com/blogs/content-taxonomy-strategy/"
+},
+{
+"id": 122863,
+"date": "2019-04-11T00:00:00",
+"link": "https://www.forrester.com/blogs/satisfied-customers-become-loyal-advocates/"
+},
+{
+"id": 122866,
+"date": "2019-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/future-of-the-revenue-engine/"
+},
+{
+"id": 122869,
+"date": "2019-05-02T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-coverage-design-success/"
+},
+{
+"id": 122872,
+"date": "2019-05-15T00:00:00",
+"link": "https://www.forrester.com/blogs/high-performing-portfolio-marketers/"
+},
+{
+"id": 122875,
+"date": "2019-05-17T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-avoid-distraction/"
+},
+{
+"id": 122878,
+"date": "2019-05-21T00:00:00",
+"link": "https://www.forrester.com/blogs/hens-and-b2b-buyers/"
+},
+{
+"id": 122881,
+"date": "2019-05-29T00:00:00",
+"link": "https://www.forrester.com/blogs/what-you-cant-see-is-hurting-your-pipeline/"
+},
+{
+"id": 122884,
+"date": "2019-06-12T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-and-sales-productivity-business-development/"
+},
+{
+"id": 122887,
+"date": "2019-06-14T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-fernando-santos-decarvalho-nokia/"
+},
+{
+"id": 122889,
+"date": "2019-06-17T00:00:00",
+"link": "https://www.forrester.com/blogs/agencies-that-lost-your-bid/"
+},
+{
+"id": 122892,
+"date": "2019-06-18T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-align-revenue-engine/"
+},
+{
+"id": 122895,
+"date": "2019-06-19T00:00:00",
+"link": "https://www.forrester.com/blogs/unlock-your-demand-potential/"
+},
+{
+"id": 122898,
+"date": "2019-06-20T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-new-campaign-framework/"
+},
+{
+"id": 122901,
+"date": "2019-08-29T00:00:00",
+"link": "https://www.forrester.com/blogs/3-is-intern-management/"
+},
+{
+"id": 122904,
+"date": "2019-08-21T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-2020-priorities/"
+},
+{
+"id": 122907,
+"date": "2019-07-15T00:00:00",
+"link": "https://www.forrester.com/blogs/implementing-engagement-and-customer-health-siriusdecisions/"
+},
+{
+"id": 122910,
+"date": "2019-07-02T00:00:00",
+"link": "https://www.forrester.com/blogs/why-is-navigating-sales-tech-so-hard/"
+},
+{
+"id": 122913,
+"date": "2019-07-08T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-advocacy-matters-for-customer-engagement/"
+},
+{
+"id": 122916,
+"date": "2019-07-09T00:00:00",
+"link": "https://www.forrester.com/blogs/account-based-marketing-jll-siriusdecisions-summit-2019/"
+},
+{
+"id": 122919,
+"date": "2019-07-11T00:00:00",
+"link": "https://www.forrester.com/blogs/successful-managers-are-leaders-first/"
+},
+{
+"id": 122922,
+"date": "2019-05-01T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-asset-management-solution-productivity-benefits/"
+},
+{
+"id": 122925,
+"date": "2019-05-07T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-revenue-operations/"
+},
+{
+"id": 122928,
+"date": "2019-05-07T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-customer-retention-for-growth/"
+},
+{
+"id": 122931,
+"date": "2019-05-08T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-2019-andrew-gordon-storytelling/"
+},
+{
+"id": 122934,
+"date": "2019-05-08T00:00:00",
+"link": "https://www.forrester.com/blogs/myths-of-agile-new-aligned-process/"
+},
+{
+"id": 122937,
+"date": "2019-06-11T00:00:00",
+"link": "https://www.forrester.com/blogs/upland-acquires-kapost/"
+},
+{
+"id": 122940,
+"date": "2019-07-22T00:00:00",
+"link": "https://www.forrester.com/blogs/strategic-account-planning-steps/"
+},
+{
+"id": 122943,
+"date": "2019-07-25T00:00:00",
+"link": "https://www.forrester.com/blogs/white-house-press-secretaries-and-brand-building/"
+},
+{
+"id": 122946,
+"date": "2019-07-17T00:00:00",
+"link": "https://www.forrester.com/blogs/why-attend-summit-europe-2019/"
+},
+{
+"id": 122949,
+"date": "2019-07-29T00:00:00",
+"link": "https://www.forrester.com/blogs/benefits-of-using-agile/"
+},
+{
+"id": 122952,
+"date": "2019-07-31T00:00:00",
+"link": "https://www.forrester.com/blogs/potential-of-digital-content-fingerprints/"
+},
+{
+"id": 122955,
+"date": "2019-09-09T00:00:00",
+"link": "https://www.forrester.com/blogs/tele-and-sales-start-low-revenue-engine-goes-high/"
+},
+{
+"id": 122958,
+"date": "2019-09-04T00:00:00",
+"link": "https://www.forrester.com/blogs/elements-of-sales-incentive-trip-program/"
+},
+{
+"id": 122961,
+"date": "2019-09-05T00:00:00",
+"link": "https://www.forrester.com/blogs/whollstoptherain/"
+},
+{
+"id": 122964,
+"date": "2019-09-12T00:00:00",
+"link": "https://www.forrester.com/blogs/joint-business-planning-pitfalls/"
+},
+{
+"id": 122967,
+"date": "2019-09-16T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-heidi-kovac-cuna-mutual/"
+},
+{
+"id": 122969,
+"date": "2019-09-17T00:00:00",
+"link": "https://www.forrester.com/blogs/cmo-vs-regional-business-leader/"
+},
+{
+"id": 122972,
+"date": "2019-09-18T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-and-sales-productivity-opportunity-management/"
+},
+{
+"id": 122975,
+"date": "2019-09-20T00:00:00",
+"link": "https://www.forrester.com/blogs/social-media-more-is-less/"
+},
+{
+"id": 122978,
+"date": "2019-09-19T00:00:00",
+"link": "https://www.forrester.com/blogs/joint-business-planning-with-channel-partners/"
+},
+{
+"id": 122981,
+"date": "2019-09-30T00:00:00",
+"link": "https://www.forrester.com/blogs/leads-arent-leads-anymore/"
+},
+{
+"id": 122984,
+"date": "2019-09-26T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-engine-time-to-retire-lead-object/"
+},
+{
+"id": 122987,
+"date": "2019-11-11T00:00:00",
+"link": "https://www.forrester.com/blogs/what-is-product-management/"
+},
+{
+"id": 122990,
+"date": "2019-11-07T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-partner-success-mirrors-hiking-grand-canyon/"
+},
+{
+"id": 122993,
+"date": "2019-11-08T00:00:00",
+"link": "https://www.forrester.com/blogs/honeybees-and-the-modern-b2b-buyer/"
+},
+{
+"id": 122996,
+"date": "2019-11-04T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-operations-on-the-road/"
+},
+{
+"id": 122999,
+"date": "2019-11-01T00:00:00",
+"link": "https://www.forrester.com/blogs/marketers-capabilities-in-2020/"
+},
+{
+"id": 123002,
+"date": "2019-11-06T00:00:00",
+"link": "https://www.forrester.com/blogs/ideal-technology-stack/"
+},
+{
+"id": 123005,
+"date": "2019-11-06T00:00:00",
+"link": "https://www.forrester.com/blogs/portfolio-marketing-post-brexit/"
+},
+{
+"id": 123008,
+"date": "2019-11-05T00:00:00",
+"link": "https://www.forrester.com/blogs/does-measuring-marketing-sourcing-still-matter/"
+},
+{
+"id": 123011,
+"date": "2019-11-12T00:00:00",
+"link": "https://www.forrester.com/blogs/integration-of-quote-to-cash-platforms/"
+},
+{
+"id": 123014,
+"date": "2019-10-02T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-enablement-is-the-new-black/"
+},
+{
+"id": 123017,
+"date": "2019-10-07T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-roxanne-tashjian-monster/"
+},
+{
+"id": 123019,
+"date": "2019-10-01T00:00:00",
+"link": "https://www.forrester.com/blogs/messaging-your-audiences-need/"
+},
+{
+"id": 123022,
+"date": "2019-10-31T00:00:00",
+"link": "https://www.forrester.com/blogs/steps-for-data-confidence/"
+},
+{
+"id": 123025,
+"date": "2019-10-30T00:00:00",
+"link": "https://www.forrester.com/blogs/not-the-author-of-your-best-content/"
+},
+{
+"id": 123028,
+"date": "2019-10-29T00:00:00",
+"link": "https://www.forrester.com/blogs/building-your-personal-brand/"
+},
+{
+"id": 123031,
+"date": "2019-10-28T00:00:00",
+"link": "https://www.forrester.com/blogs/content-planning-and-calamities/"
+},
+{
+"id": 123034,
+"date": "2019-10-23T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-marketing-pain-points/"
+},
+{
+"id": 123037,
+"date": "2019-10-25T00:00:00",
+"link": "https://www.forrester.com/blogs/lead-quality-vs-quantity/"
+},
+{
+"id": 123040,
+"date": "2019-10-15T00:00:00",
+"link": "https://www.forrester.com/blogs/buyer-insights-product-management-leaders/"
+},
+{
+"id": 123043,
+"date": "2019-10-17T00:00:00",
+"link": "https://www.forrester.com/blogs/when-is-it-time-to-fire-a-channel-partner/"
+},
+{
+"id": 123046,
+"date": "2019-10-11T00:00:00",
+"link": "https://www.forrester.com/blogs/buying-study-buying-behaviors/"
+},
+{
+"id": 123049,
+"date": "2019-10-14T00:00:00",
+"link": "https://www.forrester.com/blogs/how-merrill-built-common-language-around-personas/"
+},
+{
+"id": 123052,
+"date": "2019-10-10T00:00:00",
+"link": "https://www.forrester.com/blogs/high-performance-b2b-revenue-engines/"
+},
+{
+"id": 123055,
+"date": "2019-10-10T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-enablement-new-lbd/"
+},
+{
+"id": 123058,
+"date": "2019-10-08T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-and-sales-productivity-sales-management/"
+},
+{
+"id": 123061,
+"date": "2019-10-04T00:00:00",
+"link": "https://www.forrester.com/blogs/trade-sales-dashboards-for-data-driven-stories/"
+},
+{
+"id": 123064,
+"date": "2019-10-21T00:00:00",
+"link": "https://www.forrester.com/blogs/linkedin-research-report-on-b2b-marketing-effectiveness/"
+},
+{
+"id": 123067,
+"date": "2019-10-18T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-treat-unique-buyers-as-you-enter-new-industries/"
+},
+{
+"id": 123070,
+"date": "2019-01-08T00:00:00",
+"link": "https://www.forrester.com/blogs/why-portfolio-marketing-must-understand-sales-personas/"
+},
+{
+"id": 123073,
+"date": "2019-01-09T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-regan-yeldell-part-2/"
+},
+{
+"id": 123075,
+"date": "2019-01-11T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-driving-sales-asset-productivity/"
+},
+{
+"id": 123078,
+"date": "2019-01-07T00:00:00",
+"link": "https://www.forrester.com/blogs/2019-brand-management/"
+},
+{
+"id": 123081,
+"date": "2019-01-10T00:00:00",
+"link": "https://www.forrester.com/blogs/center-of-excellence/"
+},
+{
+"id": 123084,
+"date": "2019-01-14T00:00:00",
+"link": "https://www.forrester.com/blogs/digital-approach-for-customer-engagement/"
+},
+{
+"id": 123087,
+"date": "2019-01-14T00:00:00",
+"link": "https://www.forrester.com/blogs/enable-sales-activity-study/"
+},
+{
+"id": 123090,
+"date": "2019-01-15T00:00:00",
+"link": "https://www.forrester.com/blogs/b2b-buyer-personas-how-personal-should-they-be/"
+},
+{
+"id": 123093,
+"date": "2019-01-16T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-cyrille-brisson-emea-marketing-eaton-part2/"
+},
+{
+"id": 123094,
+"date": "2019-01-17T00:00:00",
+"link": "https://www.forrester.com/blogs/training-helps-emerging-companies-grow/"
+},
+{
+"id": 123097,
+"date": "2019-01-18T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-canada-2019-preview/"
+},
+{
+"id": 123100,
+"date": "2019-01-18T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-enabler-sales-inflictor/"
+},
+{
+"id": 123103,
+"date": "2019-01-24T00:00:00",
+"link": "https://www.forrester.com/blogs/gating-content/"
+},
+{
+"id": 123106,
+"date": "2019-01-25T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusstar-kathy-english-vocera/"
+},
+{
+"id": 123109,
+"date": "2019-01-30T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-org-design/"
+},
+{
+"id": 123239,
+"date": "2017-01-17T00:00:00",
+"link": "https://www.forrester.com/blogs/from-mall-to-warehouse-ges-ecommerce-revamp/"
+},
+{
+"id": 123241,
+"date": "2017-01-11T00:00:00",
+"link": "https://www.forrester.com/blogs/mailbox-meets-mobile-pitney-bowes-dual-strategy/"
+},
+{
+"id": 123243,
+"date": "2017-01-12T00:00:00",
+"link": "https://www.forrester.com/blogs/the-rise-of-marketing-ops-at-emerging-companies/"
+},
+{
+"id": 123245,
+"date": "2017-01-09T00:00:00",
+"link": "https://www.forrester.com/blogs/what-2017-will-mean-for-sales-technology/"
+},
+{
+"id": 123247,
+"date": "2017-01-19T00:00:00",
+"link": "https://www.forrester.com/blogs/how-microsoft-applied-agile-marketing-to-office-365/"
+},
+{
+"id": 123249,
+"date": "2017-02-02T00:00:00",
+"link": "https://www.forrester.com/blogs/are-your-pams-on-your-tech-roadmap/"
+},
+{
+"id": 123251,
+"date": "2017-01-25T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-experience-in-an-augmented-world/"
+},
+{
+"id": 123253,
+"date": "2017-02-09T00:00:00",
+"link": "https://www.forrester.com/blogs/influencer-marketing-tech-and-my-pr-internship/"
+},
+{
+"id": 123255,
+"date": "2017-02-13T00:00:00",
+"link": "https://www.forrester.com/blogs/rep-brains-will-love-consolidated-sales-enablement/"
+},
+{
+"id": 123257,
+"date": "2017-02-15T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-investment-latest-trends-in-b-to-b/"
+},
+{
+"id": 123259,
+"date": "2017-03-02T00:00:00",
+"link": "https://www.forrester.com/blogs/finding-value-in-marketing-automation/"
+},
+{
+"id": 123261,
+"date": "2017-02-27T00:00:00",
+"link": "https://www.forrester.com/blogs/b-to-b-applications-for-vr-ar/"
+},
+{
+"id": 123263,
+"date": "2017-02-23T00:00:00",
+"link": "https://www.forrester.com/blogs/is-it-time-for-mrm-software/"
+},
+{
+"id": 123265,
+"date": "2017-03-06T00:00:00",
+"link": "https://www.forrester.com/blogs/succeeding-with-abm-without-abm-technology/"
+},
+{
+"id": 123267,
+"date": "2017-03-13T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-advocacys-role-in-the-abm-tech-stack/"
+},
+{
+"id": 123269,
+"date": "2017-03-09T00:00:00",
+"link": "https://www.forrester.com/blogs/do-advanced-digital-capabilities-mean-more-tools/"
+},
+{
+"id": 123271,
+"date": "2017-03-08T00:00:00",
+"link": "https://www.forrester.com/blogs/five-technology-tips-for-great-btob-webinars/"
+},
+{
+"id": 123273,
+"date": "2017-03-16T00:00:00",
+"link": "https://www.forrester.com/blogs/tech-spotlight-how-ge-cleaned-up-its-channel-data/"
+},
+{
+"id": 123275,
+"date": "2017-03-14T00:00:00",
+"link": "https://www.forrester.com/blogs/the-influencer-marketing-technology-siriusview/"
+},
+{
+"id": 123277,
+"date": "2017-03-15T00:00:00",
+"link": "https://www.forrester.com/blogs/five-and-a-half-questions-to-ask-sam-providers/"
+},
+{
+"id": 123279,
+"date": "2017-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/consider-a-middleware-solution-for-your-organization/"
+},
+{
+"id": 123281,
+"date": "2017-08-31T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-support-data-privacy-regulation-gdpr/"
+},
+{
+"id": 123283,
+"date": "2017-03-22T00:00:00",
+"link": "https://www.forrester.com/blogs/five-tips-to-get-started-with-wechat/"
+},
+{
+"id": 123285,
+"date": "2017-03-27T00:00:00",
+"link": "https://www.forrester.com/blogs/hey-portfolio-marketers-dont-have-any-toys/"
+},
+{
+"id": 123287,
+"date": "2017-04-12T00:00:00",
+"link": "https://www.forrester.com/blogs/which-comes-first-the-process-or-the-technology/"
+},
+{
+"id": 123289,
+"date": "2017-04-20T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-advocacy-platforms-nine-questions-to-ask/"
+},
+{
+"id": 123291,
+"date": "2017-04-03T00:00:00",
+"link": "https://www.forrester.com/blogs/disruptive-tech-presidential-lessons-for-business/"
+},
+{
+"id": 123293,
+"date": "2017-05-01T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-investment-whats-old-is-new-again/"
+},
+{
+"id": 123296,
+"date": "2017-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/does-your-social-media-tool-have-a-baby-unicorn/"
+},
+{
+"id": 123299,
+"date": "2017-05-03T00:00:00",
+"link": "https://www.forrester.com/blogs/technology-user-adoption-the-winning-approach/"
+},
+{
+"id": 123302,
+"date": "2017-05-05T00:00:00",
+"link": "https://www.forrester.com/blogs/the-four-horsemen-of-the-abm-technology-apocalypse/"
+},
+{
+"id": 123305,
+"date": "2017-05-09T00:00:00",
+"link": "https://www.forrester.com/blogs/content-ai-and-human-domination/"
+},
+{
+"id": 123308,
+"date": "2017-05-23T00:00:00",
+"link": "https://www.forrester.com/blogs/how-many-fields-should-web-contact-forms-have/"
+},
+{
+"id": 123311,
+"date": "2017-06-06T00:00:00",
+"link": "https://www.forrester.com/blogs/keeping-it-real-vr-and-ar-for-demand-creation/"
+},
+{
+"id": 123314,
+"date": "2017-06-13T00:00:00",
+"link": "https://www.forrester.com/blogs/debunking-informal-learning-myths/"
+},
+{
+"id": 123317,
+"date": "2017-05-25T00:00:00",
+"link": "https://www.forrester.com/blogs/the-real-reason-reps-dont-update-opportunities/"
+},
+{
+"id": 123320,
+"date": "2017-07-06T00:00:00",
+"link": "https://www.forrester.com/blogs/who-manages-martech-it-or-marketing/"
+},
+{
+"id": 123323,
+"date": "2017-07-12T00:00:00",
+"link": "https://www.forrester.com/blogs/eight-steps-for-navigating-technology-procurement/"
+},
+{
+"id": 123326,
+"date": "2017-06-26T00:00:00",
+"link": "https://www.forrester.com/blogs/seven-elements-of-a-successful-prm-implementation/"
+},
+{
+"id": 123329,
+"date": "2017-06-21T00:00:00",
+"link": "https://www.forrester.com/blogs/tech-interview-spotlight-customer-advocacy/"
+},
+{
+"id": 123334,
+"date": "2017-01-03T00:00:00",
+"link": "https://www.forrester.com/blogs/primepays-predictive-marketing-journey/"
+},
+{
+"id": 123336,
+"date": "2017-01-04T00:00:00",
+"link": "https://www.forrester.com/blogs/whats-in-your-technology-future-build-a-roadmap/"
+},
+{
+"id": 123985,
+"date": "2018-02-22T00:00:00",
+"link": "https://www.forrester.com/blogs/refineyourestimatesofthetotaladdressablemarketforbettertargeting/"
+},
+{
+"id": 124194,
+"date": "2020-05-04T00:00:00",
+"link": "https://www.forrester.com/blogs/future-of-b2b-buying/"
+},
+{
+"id": 124197,
+"date": "2020-05-06T00:00:00",
+"link": "https://www.forrester.com/blogs/post-acquisition-branding-decisions/"
+},
+{
+"id": 124200,
+"date": "2020-05-15T00:00:00",
+"link": "https://www.forrester.com/blogs/over-deliver-after-a-crisis/"
+},
+{
+"id": 124203,
+"date": "2020-03-05T00:00:00",
+"link": "https://www.forrester.com/blogs/interview-with-sir-martin-sorrell/"
+},
+{
+"id": 124206,
+"date": "2020-04-02T00:00:00",
+"link": "https://www.forrester.com/blogs/identifying-growth-opportunities/"
+},
+{
+"id": 124209,
+"date": "2019-12-02T00:00:00",
+"link": "https://www.forrester.com/blogs/what-can-customer-data-platforms-do/"
+},
+{
+"id": 124212,
+"date": "2019-12-17T00:00:00",
+"link": "https://www.forrester.com/blogs/podcasts-for-sales-learning/"
+},
+{
+"id": 124215,
+"date": "2021-01-19T00:00:00",
+"link": "https://www.forrester.com/blogs/demonstrate-full-value-of-marketing/"
+},
+{
+"id": 124218,
+"date": "2019-12-09T00:00:00",
+"link": "https://www.forrester.com/blogs/revenue-engine-bridging-functional-technology-gap/"
+},
+{
+"id": 124221,
+"date": "2019-12-10T00:00:00",
+"link": "https://www.forrester.com/blogs/treat-content-like-data/"
+},
+{
+"id": 124224,
+"date": "2019-12-16T00:00:00",
+"link": "https://www.forrester.com/blogs/year-end-revenue-enablement/"
+},
+{
+"id": 124227,
+"date": "2019-11-20T00:00:00",
+"link": "https://www.forrester.com/blogs/one-solution-for-sales-superpowers/"
+},
+{
+"id": 124230,
+"date": "2019-11-26T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-success-at-scale/"
+},
+{
+"id": 124233,
+"date": "2019-12-04T00:00:00",
+"link": "https://www.forrester.com/blogs/prices-public-on-website/"
+},
+{
+"id": 124236,
+"date": "2019-12-18T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-top-research-articles-2019/"
+},
+{
+"id": 124239,
+"date": "2019-12-23T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-marketing-program-planning/"
+},
+{
+"id": 124242,
+"date": "2019-12-12T00:00:00",
+"link": "https://www.forrester.com/blogs/influence-people-to-approve-your-tech-stack/"
+},
+{
+"id": 124245,
+"date": "2019-12-30T00:00:00",
+"link": "https://www.forrester.com/blogs/cso-sales-investment-strategy/"
+},
+{
+"id": 124249,
+"date": "2019-11-27T00:00:00",
+"link": "https://www.forrester.com/blogs/sdtechx-case-study-preview-6sense/"
+},
+{
+"id": 124252,
+"date": "2019-11-25T00:00:00",
+"link": "https://www.forrester.com/blogs/what-good-tech-and-pancake-stacks-have-in-common/"
+},
+{
+"id": 124255,
+"date": "2019-11-22T00:00:00",
+"link": "https://www.forrester.com/blogs/ops-supports-engagement/"
+},
+{
+"id": 124258,
+"date": "2020-04-16T00:00:00",
+"link": "https://www.forrester.com/blogs/prepared-data-driven/"
+},
+{
+"id": 124261,
+"date": "2020-04-23T00:00:00",
+"link": "https://www.forrester.com/blogs/if-you-build-it/"
+},
+{
+"id": 124264,
+"date": "2020-04-29T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-ops-four-disruptions/"
+},
+{
+"id": 124267,
+"date": "2020-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-playlist-five-inspirational-trends/"
+},
+{
+"id": 124270,
+"date": "2020-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/foundations-of-business-development-excellence/"
+},
+{
+"id": 124273,
+"date": "2020-04-30T00:00:00",
+"link": "https://www.forrester.com/blogs/how-b2b-companies-integrate-brand-and-demand-marketing/"
+},
+{
+"id": 124276,
+"date": "2020-05-01T00:00:00",
+"link": "https://www.forrester.com/blogs/content-in-the-campaign-universe/"
+},
+{
+"id": 124279,
+"date": "2020-04-24T00:00:00",
+"link": "https://www.forrester.com/blogs/five-pitfalls-of-sales-comp-design/"
+},
+{
+"id": 124282,
+"date": "2020-07-06T00:00:00",
+"link": "https://www.forrester.com/blogs/how-sales-ops-can-be-a-differentiator/"
+},
+{
+"id": 124285,
+"date": "2020-07-07T00:00:00",
+"link": "https://www.forrester.com/blogs/use-science-to-improve-sales-productivity/"
+},
+{
+"id": 124288,
+"date": "2020-07-28T00:00:00",
+"link": "https://www.forrester.com/blogs/forrester-siriusdecisions-asia-pacific-summit-2020-b2b-normal/"
+},
+{
+"id": 124290,
+"date": "2020-07-29T00:00:00",
+"link": "https://www.forrester.com/blogs/bold-at-work-vmware-carbon-black-revenue-operations/"
+},
+{
+"id": 124293,
+"date": "2020-06-11T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-operations-considerations-for-redirecting-spend-during-marketing-disruption/"
+},
+{
+"id": 124296,
+"date": "2020-03-03T00:00:00",
+"link": "https://www.forrester.com/blogs/ai-and-your-buyers/"
+},
+{
+"id": 124299,
+"date": "2020-04-01T00:00:00",
+"link": "https://www.forrester.com/blogs/survival-tips-b2b-cmo-changing-economic-conditions/"
+},
+{
+"id": 124302,
+"date": "2020-01-24T00:00:00",
+"link": "https://www.forrester.com/blogs/how-tech-assessment-can-yield-roi-kenna-security/"
+},
+{
+"id": 124305,
+"date": "2020-03-18T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-selling-in-age-of-pandemic/"
+},
+{
+"id": 124308,
+"date": "2020-04-15T00:00:00",
+"link": "https://www.forrester.com/blogs/employee-communications-during-covid19/"
+},
+{
+"id": 124311,
+"date": "2020-03-27T00:00:00",
+"link": "https://www.forrester.com/blogs/buyer-persona-development/"
+},
+{
+"id": 124314,
+"date": "2020-04-08T00:00:00",
+"link": "https://www.forrester.com/blogs/approach-cmos-use-to-redirect-marketing-focus/"
+},
+{
+"id": 124317,
+"date": "2020-04-21T00:00:00",
+"link": "https://www.forrester.com/blogs/buying-groups-manifesto/"
+},
+{
+"id": 124320,
+"date": "2020-03-17T00:00:00",
+"link": "https://www.forrester.com/blogs/achieving-campaign-bliss/"
+},
+{
+"id": 124323,
+"date": "2020-03-20T00:00:00",
+"link": "https://www.forrester.com/blogs/grizzly-bear-strategy-to-align-demand-marketing-and-abm/"
+},
+{
+"id": 124326,
+"date": "2020-04-07T00:00:00",
+"link": "https://www.forrester.com/blogs/portfolio-marketers-survival-guide/"
+},
+{
+"id": 124329,
+"date": "2020-01-30T00:00:00",
+"link": "https://www.forrester.com/blogs/waterfall-product-managers-can-be-agile/"
+},
+{
+"id": 124332,
+"date": "2020-02-18T00:00:00",
+"link": "https://www.forrester.com/blogs/what-channel-sales-leaders-need-to-do-differently/"
+},
+{
+"id": 124335,
+"date": "2020-04-09T00:00:00",
+"link": "https://www.forrester.com/blogs/tips-for-productizing-your-services/"
+},
+{
+"id": 124338,
+"date": "2020-03-30T00:00:00",
+"link": "https://www.forrester.com/blogs/are-virtual-events-worth-attending/"
+},
+{
+"id": 124341,
+"date": "2020-03-31T00:00:00",
+"link": "https://www.forrester.com/blogs/five-pricing-and-packaging-steps-in-age-of-pandemic/"
+},
+{
+"id": 124344,
+"date": "2020-04-13T00:00:00",
+"link": "https://www.forrester.com/blogs/updated-pmm-model/"
+},
+{
+"id": 124347,
+"date": "2020-02-21T00:00:00",
+"link": "https://www.forrester.com/blogs/benefits-to-focusing-go-to-market-efforts/"
+},
+{
+"id": 124350,
+"date": "2020-04-17T00:00:00",
+"link": "https://www.forrester.com/blogs/content-projects-during-covid19-crisis/"
+},
+{
+"id": 124353,
+"date": "2020-04-21T00:00:00",
+"link": "https://www.forrester.com/blogs/how-b2b-content-leaders-respond-to-covid19/"
+},
+{
+"id": 124356,
+"date": "2020-02-26T00:00:00",
+"link": "https://www.forrester.com/blogs/five-soft-spots-managing-martech/"
+},
+{
+"id": 124359,
+"date": "2020-01-21T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-spotlight-moving-from-product-to-audience-centricity/"
+},
+{
+"id": 124362,
+"date": "2020-02-06T00:00:00",
+"link": "https://www.forrester.com/blogs/healthcare-pricing-and-packaging-value-based-subscription-pricing/"
+},
+{
+"id": 124365,
+"date": "2020-01-17T00:00:00",
+"link": "https://www.forrester.com/blogs/product-management-leadership-priorities-2020/"
+},
+{
+"id": 124368,
+"date": "2020-03-19T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-success-crisis-mitigation-strategy/"
+},
+{
+"id": 124371,
+"date": "2020-04-14T00:00:00",
+"link": "https://www.forrester.com/blogs/responding-to-coronavirus-when-rules-no-longer-apply/"
+},
+{
+"id": 124374,
+"date": "2020-04-13T00:00:00",
+"link": "https://www.forrester.com/blogs/how-brands-must-act-during-crisis/"
+},
+{
+"id": 124377,
+"date": "2020-04-15T00:00:00",
+"link": "https://www.forrester.com/blogs/canceling-your-big-event/"
+},
+{
+"id": 124380,
+"date": "2020-04-22T00:00:00",
+"link": "https://www.forrester.com/blogs/what-if-world-depended-on-data-accuracy/"
+},
+{
+"id": 124383,
+"date": "2020-02-03T00:00:00",
+"link": "https://www.forrester.com/blogs/supercharging-sales-with-dynamic-guided-selling/"
+},
+{
+"id": 124534,
+"date": "2017-09-29T00:00:00",
+"link": "https://www.forrester.com/blogs/nis-marketing-tech-transformation-part-i/"
+},
+{
+"id": 124537,
+"date": "2017-09-29T00:00:00",
+"link": "https://www.forrester.com/blogs/nis-marketing-tech-transformation-part-ii/"
+},
+{
+"id": 124540,
+"date": "2017-09-29T00:00:00",
+"link": "https://www.forrester.com/blogs/three-contributions-marketing-makes-to-sfa-success/"
+},
+{
+"id": 124543,
+"date": "2017-10-03T00:00:00",
+"link": "https://www.forrester.com/blogs/the-three-degrees-of-guided-selling/"
+},
+{
+"id": 124545,
+"date": "2017-08-28T00:00:00",
+"link": "https://www.forrester.com/blogs/innovative-training-tech-must-focus-on-the-learner/"
+},
+{
+"id": 124548,
+"date": "2017-08-10T00:00:00",
+"link": "https://www.forrester.com/blogs/leveraging-enablement-tools-lessons-from-a-horse/"
+},
+{
+"id": 124551,
+"date": "2017-08-18T00:00:00",
+"link": "https://www.forrester.com/blogs/martech-tools-to-help-emerging-orgs-grow-faster/"
+},
+{
+"id": 124554,
+"date": "2017-05-14T00:00:00",
+"link": "https://www.forrester.com/blogs/aetnacreatingrealtimewebpersonalization/"
+},
+{
+"id": 124736,
+"date": "2017-01-03T00:00:00",
+"link": "https://www.forrester.com/blogs/whatclassicdinersandsalesonboardinghaveincommon/"
+},
+{
+"id": 124739,
+"date": "2017-01-05T00:00:00",
+"link": "https://www.forrester.com/blogs/marketingdashboardsforfinancialservices/"
+},
+{
+"id": 124742,
+"date": "2017-01-04T00:00:00",
+"link": "https://www.forrester.com/blogs/newyearsresolutionsharpenyourcorporatemessage/"
+},
+{
+"id": 124745,
+"date": "2017-01-09T00:00:00",
+"link": "https://www.forrester.com/blogs/tolocalizeornottolocalizethatisthequestion/"
+},
+{
+"id": 124748,
+"date": "2017-01-13T00:00:00",
+"link": "https://www.forrester.com/blogs/salesleadershipexchange2017previewfoursecretstoachievingbalanceinyoursalesorganization/"
+},
+{
+"id": 124751,
+"date": "2017-01-17T00:00:00",
+"link": "https://www.forrester.com/blogs/saleslearningyourrepsdontcomewithaninstructionmanualpart1/"
+},
+{
+"id": 124754,
+"date": "2017-01-19T00:00:00",
+"link": "https://www.forrester.com/blogs/sixwaystoprepareyourbtobcompanyspokespersonformediainterviews/"
+},
+{
+"id": 124757,
+"date": "2017-01-24T00:00:00",
+"link": "https://www.forrester.com/blogs/saleslearningyourrepsdontcomewithaninstructionmanualpart2/"
+},
+{
+"id": 124760,
+"date": "2017-01-25T00:00:00",
+"link": "https://www.forrester.com/blogs/summitsponsoressentialsqawithgeorgiedonahue/"
+},
+{
+"id": 124763,
+"date": "2017-01-25T00:00:00",
+"link": "https://www.forrester.com/blogs/thethreefacetsofeventsponsorshipcustomerengagementnewbusinessandbrandawareness/"
+},
+{
+"id": 124766,
+"date": "2017-01-26T00:00:00",
+"link": "https://www.forrester.com/blogs/fourcriticalstepsforestablishingaproductmanagementfunction/"
+},
+{
+"id": 124769,
+"date": "2017-01-30T00:00:00",
+"link": "https://www.forrester.com/blogs/demandcentersthenonfinancialbenefitsparttwo/"
+},
+{
+"id": 124772,
+"date": "2017-02-01T00:00:00",
+"link": "https://www.forrester.com/blogs/whencontentmarketinggoestothedogs/"
+},
+{
+"id": 124775,
+"date": "2017-02-03T00:00:00",
+"link": "https://www.forrester.com/blogs/threeobstaclesthatcouldbeholdingyourorganizationbackfromaudiencecentricity/"
+},
+{
+"id": 124778,
+"date": "2017-02-06T00:00:00",
+"link": "https://www.forrester.com/blogs/doyouknowyoursalessolsticefromitsequinox/"
+},
+{
+"id": 124785,
+"date": "2017-02-07T00:00:00",
+"link": "https://www.forrester.com/blogs/fiveeasystepstoanalyzeanyproblem/"
+},
+{
+"id": 124788,
+"date": "2017-02-09T00:00:00",
+"link": "https://www.forrester.com/blogs/localizationvstranslationwhatsthedifferenceandwhydoesitmatter/"
+},
+{
+"id": 124791,
+"date": "2017-02-10T00:00:00",
+"link": "https://www.forrester.com/blogs/whatsthecostofabadsaleshire/"
+},
+{
+"id": 124794,
+"date": "2017-02-13T00:00:00",
+"link": "https://www.forrester.com/blogs/howseoatemergingcompaniesislikeskippingstones/"
+},
+{
+"id": 124797,
+"date": "2017-02-15T00:00:00",
+"link": "https://www.forrester.com/blogs/abmroundtableinlondontheimportanceofinterlockandactionabledata/"
+},
+{
+"id": 124800,
+"date": "2017-02-17T00:00:00",
+"link": "https://www.forrester.com/blogs/fromkickofftotouchdowneveryminutecounts/"
+},
+{
+"id": 124803,
+"date": "2017-02-21T00:00:00",
+"link": "https://www.forrester.com/blogs/threereasonsyourelearningdoesntwork/"
+},
+{
+"id": 124806,
+"date": "2017-02-24T00:00:00",
+"link": "https://www.forrester.com/blogs/salesleadershipexchange2017highlightsimprovesalescoachingwithperformancemetrics/"
+},
+{
+"id": 124809,
+"date": "2017-02-23T00:00:00",
+"link": "https://www.forrester.com/blogs/eventsandtechnologyenhancingattendeeexperienceanddata/"
+},
+{
+"id": 124812,
+"date": "2017-02-23T00:00:00",
+"link": "https://www.forrester.com/blogs/salesleadershipexchange2017highlightsoptimizingsalestalentassetsandcommunications/"
+},
+{
+"id": 124815,
+"date": "2017-03-02T00:00:00",
+"link": "https://www.forrester.com/blogs/isbantstillrelevant/"
+},
+{
+"id": 124818,
+"date": "2017-03-06T00:00:00",
+"link": "https://www.forrester.com/blogs/thetopfivemarketingskillsetsfor2017/"
+},
+{
+"id": 124820,
+"date": "2017-03-07T00:00:00",
+"link": "https://www.forrester.com/blogs/salesleadershipexchange2017insightstheevolutionofsalesenablement/"
+},
+{
+"id": 124823,
+"date": "2017-03-10T00:00:00",
+"link": "https://www.forrester.com/blogs/financialservicesthefoundationalelementsofcustomerexperience/"
+},
+{
+"id": 124826,
+"date": "2017-03-09T00:00:00",
+"link": "https://www.forrester.com/blogs/salesleadershipexchange2017salesandmarketingbettertogether/"
+},
+{
+"id": 124828,
+"date": "2017-03-13T00:00:00",
+"link": "https://www.forrester.com/blogs/channelpartnersselltopeopletoo/"
+},
+{
+"id": 124830,
+"date": "2017-03-14T00:00:00",
+"link": "https://www.forrester.com/blogs/wranglingblackmarketsalespresentationdecks/"
+},
+{
+"id": 124833,
+"date": "2017-03-16T00:00:00",
+"link": "https://www.forrester.com/blogs/leveragingtabootopicshowtocraftmeaningfulthoughtleadershipthattakesnosides/"
+},
+{
+"id": 124836,
+"date": "2017-03-21T00:00:00",
+"link": "https://www.forrester.com/blogs/marketingmeasurementwhatsthecmogottodowithit/"
+},
+{
+"id": 124839,
+"date": "2017-03-20T00:00:00",
+"link": "https://www.forrester.com/blogs/dataprivacycompliancetheraceison/"
+},
+{
+"id": 124843,
+"date": "2017-03-23T00:00:00",
+"link": "https://www.forrester.com/blogs/whatareyourportfoliomarketingprioritiesandchallenges/"
+},
+{
+"id": 124846,
+"date": "2017-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/marketplaceessentialsqawithcarllanders/"
+},
+{
+"id": 124849,
+"date": "2017-03-22T00:00:00",
+"link": "https://www.forrester.com/blogs/portfoliomarketingcentralizedorregional/"
+},
+{
+"id": 124851,
+"date": "2017-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/strategicadvisorvsservicebureauthemanyhatscommunicationsleaderswear/"
+},
+{
+"id": 124854,
+"date": "2017-03-29T00:00:00",
+"link": "https://www.forrester.com/blogs/wheredoeseventstrategyfitin/"
+},
+{
+"id": 124857,
+"date": "2017-03-28T00:00:00",
+"link": "https://www.forrester.com/blogs/thefourcsofeffectiveexecutivecommunications/"
+},
+{
+"id": 124859,
+"date": "2017-03-30T00:00:00",
+"link": "https://www.forrester.com/blogs/foursignsaproductexpertisaproductmarketingcandidate/"
+},
+{
+"id": 124862,
+"date": "2017-03-31T00:00:00",
+"link": "https://www.forrester.com/blogs/isbantstillrelevantpartii/"
+},
+{
+"id": 124865,
+"date": "2017-03-31T00:00:00",
+"link": "https://www.forrester.com/blogs/thepowerofsalesandmarketingalignmentforaccountplanning/"
+},
+{
+"id": 124868,
+"date": "2017-04-07T00:00:00",
+"link": "https://www.forrester.com/blogs/gettingonboardwithpartneraccountmanageronboarding/"
+},
+{
+"id": 124871,
+"date": "2017-04-05T00:00:00",
+"link": "https://www.forrester.com/blogs/developingsalesrepswhiletheysell/"
+},
+{
+"id": 124874,
+"date": "2017-04-14T00:00:00",
+"link": "https://www.forrester.com/blogs/digitaladvertisingisontopareyou/"
+},
+{
+"id": 124877,
+"date": "2017-04-24T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions2017summitanalystsessionpicksforcmos/"
+},
+{
+"id": 124880,
+"date": "2017-04-12T00:00:00",
+"link": "https://www.forrester.com/blogs/commscopeprogrammeoftheyearawardwinneratsiriusdecisionsemeasummit/"
+},
+{
+"id": 124883,
+"date": "2017-04-11T00:00:00",
+"link": "https://www.forrester.com/blogs/whatsalesoperationsneedstoknowaboutasc606ifrs15/"
+},
+{
+"id": 124886,
+"date": "2017-04-18T00:00:00",
+"link": "https://www.forrester.com/blogs/partnerenablementinsightsfromachannelroundtable/"
+},
+{
+"id": 124889,
+"date": "2017-04-19T00:00:00",
+"link": "https://www.forrester.com/blogs/salesroleaftertheclose/"
+},
+{
+"id": 124892,
+"date": "2017-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/marketplaceessentialsqawithdavidbuffaloe/"
+},
+{
+"id": 124895,
+"date": "2017-04-26T00:00:00",
+"link": "https://www.forrester.com/blogs/reachbeyondnamedcontactsforinboundtelequalification/"
+},
+{
+"id": 124898,
+"date": "2017-04-25T00:00:00",
+"link": "https://www.forrester.com/blogs/eventstrategythefourprogramfamilies/"
+},
+{
+"id": 124900,
+"date": "2017-05-01T00:00:00",
+"link": "https://www.forrester.com/blogs/keystoovercomingregulatoryhurdlestocreatingdemandinfinancialservices/"
+},
+{
+"id": 124903,
+"date": "2017-06-05T00:00:00",
+"link": "https://www.forrester.com/blogs/salesenablementprioritizingandexecuting/"
+},
+{
+"id": 124906,
+"date": "2017-06-12T00:00:00",
+"link": "https://www.forrester.com/blogs/metrics-leading-leaning-and-lagging-oh-my/"
+},
+{
+"id": 124909,
+"date": "2017-06-06T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions2017siriusviewofproductmanagementtools/"
+},
+{
+"id": 124912,
+"date": "2017-06-14T00:00:00",
+"link": "https://www.forrester.com/blogs/namaste-customer-engagement/"
+},
+{
+"id": 124915,
+"date": "2017-06-19T00:00:00",
+"link": "https://www.forrester.com/blogs/three-keys-to-making-your-audience-centric-marketing-approach-stick/"
+},
+{
+"id": 124918,
+"date": "2017-06-15T00:00:00",
+"link": "https://www.forrester.com/blogs/sorting-through-the-scoring-mess/"
+},
+{
+"id": 124921,
+"date": "2017-06-20T00:00:00",
+"link": "https://www.forrester.com/blogs/customerengagementtherangeofresponsibilitiesdefined/"
+},
+{
+"id": 124924,
+"date": "2017-05-17T00:00:00",
+"link": "https://www.forrester.com/blogs/accelerating-the-b-to-b-revenue-engine/"
+},
+{
+"id": 124927,
+"date": "2017-05-18T00:00:00",
+"link": "https://www.forrester.com/blogs/areyouasgoodatdemandcreationasyouthink/"
+},
+{
+"id": 124929,
+"date": "2017-05-18T00:00:00",
+"link": "https://www.forrester.com/blogs/navigatingbythestarsthesiriusway/"
+},
+{
+"id": 124932,
+"date": "2017-05-18T00:00:00",
+"link": "https://www.forrester.com/blogs/sixcomponentsofahighlyeffectivesalesmachine/"
+},
+{
+"id": 124935,
+"date": "2017-05-25T00:00:00",
+"link": "https://www.forrester.com/blogs/leveragingamarketecturesolutionwhenoneproductisntenough/"
+},
+{
+"id": 124938,
+"date": "2017-05-31T00:00:00",
+"link": "https://www.forrester.com/blogs/asummitlikenoothersummit2017anastoundingsuccessbyallmeasures/"
+},
+{
+"id": 124941,
+"date": "2017-05-31T00:00:00",
+"link": "https://www.forrester.com/blogs/marketplaceessentialsqawithheatherfoeh/"
+},
+{
+"id": 124944,
+"date": "2017-05-08T00:00:00",
+"link": "https://www.forrester.com/blogs/vivalassummitfivethingstoexpectatsummit2017/"
+},
+{
+"id": 124946,
+"date": "2017-05-11T00:00:00",
+"link": "https://www.forrester.com/blogs/whatrecruitersshouldlookforinabtobcmo/"
+},
+{
+"id": 124949,
+"date": "2017-05-10T00:00:00",
+"link": "https://www.forrester.com/blogs/customermessagingpostsale/"
+},
+{
+"id": 124952,
+"date": "2017-05-10T00:00:00",
+"link": "https://www.forrester.com/blogs/howtodomarketingplanningatemergingcompaniesinsixsteps/"
+},
+{
+"id": 124955,
+"date": "2017-05-15T00:00:00",
+"link": "https://www.forrester.com/blogs/2017summithaikus/"
+},
+{
+"id": 124958,
+"date": "2017-05-15T00:00:00",
+"link": "https://www.forrester.com/blogs/whybitesizedlearningisheretostay/"
+},
+{
+"id": 124961,
+"date": "2017-05-12T00:00:00",
+"link": "https://www.forrester.com/blogs/marketing-operations-impacts-revenue/"
+},
+{
+"id": 124964,
+"date": "2017-05-17T00:00:00",
+"link": "https://www.forrester.com/blogs/authenticitymindfulnessandhowtolivealifeuncommonjewelsetsaninspirationaltoneforsummit2017/"
+},
+{
+"id": 124967,
+"date": "2017-05-19T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-partner-segmentation-identifying-emerging-superstars/"
+},
+{
+"id": 124970,
+"date": "2017-05-19T00:00:00",
+"link": "https://www.forrester.com/blogs/thecustomerengagementmodelthesecrettoalonglastingrelationship/"
+},
+{
+"id": 124973,
+"date": "2017-11-10T00:00:00",
+"link": "https://www.forrester.com/blogs/five-steps-to-skills-transformation/"
+},
+{
+"id": 124976,
+"date": "2017-11-09T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-techx-2017-recap/"
+},
+{
+"id": 124979,
+"date": "2017-11-13T00:00:00",
+"link": "https://www.forrester.com/blogs/cultivating-kula-yoga-as-a-model-for-online-community-launch-best-practices/"
+},
+{
+"id": 124982,
+"date": "2017-11-17T00:00:00",
+"link": "https://www.forrester.com/blogs/let-me-make-my-number/"
+},
+{
+"id": 124985,
+"date": "2017-06-13T00:00:00",
+"link": "https://www.forrester.com/blogs/dontwaituntilproductlaunchtopriceyourproduct/"
+},
+{
+"id": 124988,
+"date": "2017-06-21T00:00:00",
+"link": "https://www.forrester.com/blogs/sales-operations-is-a-force-multiplier/"
+},
+{
+"id": 124990,
+"date": "2017-06-27T00:00:00",
+"link": "https://www.forrester.com/blogs/lessons-from-the-2017-customer-engagement-programs-of-the-year/"
+},
+{
+"id": 124993,
+"date": "2017-06-26T00:00:00",
+"link": "https://www.forrester.com/blogs/how-four-marketing-leaders-are-tackling-transformation-insights-from-summit-2017/"
+},
+{
+"id": 124996,
+"date": "2017-06-01T00:00:00",
+"link": "https://www.forrester.com/blogs/fivecomponentsofanevolvingpreferencemanagementstrategy/"
+},
+{
+"id": 124999,
+"date": "2017-05-18T00:00:00",
+"link": "https://www.forrester.com/blogs/makingthetransformationfromaproductfocustoanaudiencecentricgotomarketmodel/"
+},
+{
+"id": 125002,
+"date": "2017-05-23T00:00:00",
+"link": "https://www.forrester.com/blogs/whattoolsareproductmanagersusingresultsfromour2017study/"
+},
+{
+"id": 125005,
+"date": "2017-05-30T00:00:00",
+"link": "https://www.forrester.com/blogs/backinthecmosaddle/"
+},
+{
+"id": 125008,
+"date": "2017-05-17T00:00:00",
+"link": "https://www.forrester.com/blogs/meetthenewestsiriusdecisionsdemandwaterfall/"
+},
+{
+"id": 125011,
+"date": "2017-05-16T00:00:00",
+"link": "https://www.forrester.com/blogs/thebesttweetablemomentsofsiriusdecisionssummit2017dayone/"
+},
+{
+"id": 125013,
+"date": "2017-05-20T00:00:00",
+"link": "https://www.forrester.com/blogs/thepeoplessharkdaymondjohndeliversaninsightfulclosingkeynoteatsummit2017/"
+},
+{
+"id": 125016,
+"date": "2017-11-01T00:00:00",
+"link": "https://www.forrester.com/blogs/keys-to-implementing-the-siriusdecisions-demand-unit-waterfall-and-how-tech-can-help/"
+},
+{
+"id": 125019,
+"date": "2017-11-09T00:00:00",
+"link": "https://www.forrester.com/blogs/the-missing-link-brand-in-the-siriusdecisions-demand-waterfall/"
+},
+{
+"id": 125022,
+"date": "2017-11-14T00:00:00",
+"link": "https://www.forrester.com/blogs/three-big-ideas-from-siriusdecisions-techx-2017/"
+},
+{
+"id": 125025,
+"date": "2017-11-15T00:00:00",
+"link": "https://www.forrester.com/blogs/sdwomensnetwork-launches-with-a-little-magic-at-emea-summit/"
+},
+{
+"id": 125028,
+"date": "2017-11-27T00:00:00",
+"link": "https://www.forrester.com/blogs/five-steps-to-an-annual-sales-force-automation-audit/"
+},
+{
+"id": 125031,
+"date": "2017-11-20T00:00:00",
+"link": "https://www.forrester.com/blogs/six-things-i-wish-i-knew-when-i-was-a-cmo/"
+},
+{
+"id": 125034,
+"date": "2017-11-29T00:00:00",
+"link": "https://www.forrester.com/blogs/its-alive-maintaining-an-evergreen-channel-program/"
+},
+{
+"id": 125037,
+"date": "2017-10-02T00:00:00",
+"link": "https://www.forrester.com/blogs/top-seven-ways-to-enhance-cmo-cio-alignment/"
+},
+{
+"id": 125040,
+"date": "2017-10-24T00:00:00",
+"link": "https://www.forrester.com/blogs/customer-experience-governance-three-models/"
+},
+{
+"id": 125043,
+"date": "2017-10-20T00:00:00",
+"link": "https://www.forrester.com/blogs/ca-automic-programme-of-the-year-winner-at-summit-emea/"
+},
+{
+"id": 125046,
+"date": "2017-10-20T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-techx-2017-preview-a-roundtable-on-tech-trends/"
+},
+{
+"id": 125049,
+"date": "2017-10-18T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-summit-apac-2017-optimizing-the-regional-program-design-and-marketing-mix/"
+},
+{
+"id": 125051,
+"date": "2017-10-18T00:00:00",
+"link": "https://www.forrester.com/blogs/four-factors-to-consider-when-evaluating-intent-data-monitoring-providers/"
+},
+{
+"id": 125054,
+"date": "2017-10-19T00:00:00",
+"link": "https://www.forrester.com/blogs/the-dirty-little-secret-six-strategies-for-mitigating-channel-partner-risks/"
+},
+{
+"id": 125057,
+"date": "2017-10-19T00:00:00",
+"link": "https://www.forrester.com/blogs/the-five-audience-levels-that-drive-messaging-resonance/"
+},
+{
+"id": 125060,
+"date": "2017-10-17T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-techx-2017-preview-how-technology-purchases-happen/"
+},
+{
+"id": 125063,
+"date": "2017-10-16T00:00:00",
+"link": "https://www.forrester.com/blogs/how-emerging-companies-can-slingshot-to-hypergrowth-part-two/"
+},
+{
+"id": 125066,
+"date": "2017-10-16T00:00:00",
+"link": "https://www.forrester.com/blogs/six-key-areas-that-should-drive-portfolio-marketings-agenda-in-2018/"
+},
+{
+"id": 125069,
+"date": "2017-10-13T00:00:00",
+"link": "https://www.forrester.com/blogs/three-elements-of-a-sales-intelligence-program/"
+},
+{
+"id": 125072,
+"date": "2017-10-10T00:00:00",
+"link": "https://www.forrester.com/blogs/meet-the-siriusdecisions-channel-operating-model/"
+},
+{
+"id": 125075,
+"date": "2017-10-10T00:00:00",
+"link": "https://www.forrester.com/blogs/techx-2017-preview-case-study-highlights/"
+},
+{
+"id": 125078,
+"date": "2017-10-25T00:00:00",
+"link": "https://www.forrester.com/blogs/marketplace-essentials-qa-with-rachel-merkin/"
+},
+{
+"id": 125081,
+"date": "2017-10-25T00:00:00",
+"link": "https://www.forrester.com/blogs/the-customer-success-functions-role-on-the-path-to-value-for-customers/"
+},
+{
+"id": 125084,
+"date": "2017-10-23T00:00:00",
+"link": "https://www.forrester.com/blogs/a-b-or-c-sales-enablements-challenge-of-choice/"
+},
+{
+"id": 125087,
+"date": "2017-10-12T00:00:00",
+"link": "https://www.forrester.com/blogs/a-simple-one-step-guide-to-making-smart-technology-choices-for-b-to-b-sales-and-marketing-leaders/"
+},
+{
+"id": 125090,
+"date": "2017-10-12T00:00:00",
+"link": "https://www.forrester.com/blogs/channel-chiefs-4-ways-to-improve-channel-sales-planning/"
+},
+{
+"id": 125093,
+"date": "2017-10-05T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2017-highlights-unlocking-the-strategic-potential-of-sales-operations/"
+},
+{
+"id": 125096,
+"date": "2017-10-11T00:00:00",
+"link": "https://www.forrester.com/blogs/the-top-ten-ways-siriusdecisions-global-cmo-study-can-benefit-you/"
+},
+{
+"id": 125099,
+"date": "2017-10-11T00:00:00",
+"link": "https://www.forrester.com/blogs/confessions-of-a-research-director-the-first-month/"
+},
+{
+"id": 125102,
+"date": "2017-10-06T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2017-highlights-building-a-localization-informed-b-to-b-content-engine/"
+},
+{
+"id": 125105,
+"date": "2017-10-03T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-summit-apac-2017-the-demand-unit-waterfall-which-approach-is-right-for-you/"
+},
+{
+"id": 125108,
+"date": "2017-10-27T00:00:00",
+"link": "https://www.forrester.com/blogs/corporate-messaging-tales-from-the-front-lines-an-executive-forum-summary/"
+},
+{
+"id": 125111,
+"date": "2017-10-31T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-techx-2017-highlights-how-do-you-justify-a-technology-purchase/"
+},
+{
+"id": 125114,
+"date": "2017-08-01T00:00:00",
+"link": "https://www.forrester.com/blogs/three-advantages-of-prioritizing-planning-efforts/"
+},
+{
+"id": 125117,
+"date": "2017-08-08T00:00:00",
+"link": "https://www.forrester.com/blogs/four-ingredients-for-account-based-marketing-success-in-asia/"
+},
+{
+"id": 125120,
+"date": "2017-08-11T00:00:00",
+"link": "https://www.forrester.com/blogs/do-your-global-personas-work-in-regions/"
+},
+{
+"id": 125123,
+"date": "2017-08-23T00:00:00",
+"link": "https://www.forrester.com/blogs/10-weeks-with-siriusdecisions-an-interns-reflections/"
+},
+{
+"id": 125126,
+"date": "2017-08-21T00:00:00",
+"link": "https://www.forrester.com/blogs/winning-the-btob-dating-game/"
+},
+{
+"id": 125129,
+"date": "2017-08-25T00:00:00",
+"link": "https://www.forrester.com/blogs/event-strategy-qa-with-ray-kemper-of-televerde/"
+},
+{
+"id": 125132,
+"date": "2017-08-29T00:00:00",
+"link": "https://www.forrester.com/blogs/recruiting-the-right-partners-four-reasons-you-need-channel-development-managers/"
+},
+{
+"id": 125135,
+"date": "2017-09-08T00:00:00",
+"link": "https://www.forrester.com/blogs/b-to-b-digital-marketing-training-siriusdecisions-and-manhattanville-colleges-partnership/"
+},
+{
+"id": 125138,
+"date": "2017-09-13T00:00:00",
+"link": "https://www.forrester.com/blogs/three-steps-advanced-manufacturers-should-take-to-become-audience-centric/"
+},
+{
+"id": 125141,
+"date": "2017-09-26T00:00:00",
+"link": "https://www.forrester.com/blogs/five-tips-for-building-a-better-cmo-dashboard/"
+},
+{
+"id": 125145,
+"date": "2017-09-29T00:00:00",
+"link": "https://www.forrester.com/blogs/the-six-factors-driving-corporate-and-regional-marketing-alignment/"
+},
+{
+"id": 125148,
+"date": "2017-07-10T00:00:00",
+"link": "https://www.forrester.com/blogs/getting-the-most-out-of-your-event-investment-with-measurement/"
+},
+{
+"id": 125151,
+"date": "2017-07-12T00:00:00",
+"link": "https://www.forrester.com/blogs/four-sales-enablement-facts-that-will-make-you-nervous-about-taking-too-much-summer-vacation-part-i/"
+},
+{
+"id": 125154,
+"date": "2017-07-14T00:00:00",
+"link": "https://www.forrester.com/blogs/are-you-recruiting-the-right-channel-partners/"
+},
+{
+"id": 125157,
+"date": "2017-07-19T00:00:00",
+"link": "https://www.forrester.com/blogs/four-golf-shots-four-approaches-to-demand-creation-and-engagement/"
+},
+{
+"id": 125161,
+"date": "2017-07-26T00:00:00",
+"link": "https://www.forrester.com/blogs/how-do-you-measure-event-performance/"
+},
+{
+"id": 125164,
+"date": "2017-07-27T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2017-preview-qa-with-julian-archer/"
+},
+{
+"id": 125167,
+"date": "2017-07-28T00:00:00",
+"link": "https://www.forrester.com/blogs/four-sales-enablement-facts-that-will-make-you-nervous-about-taking-too-much-summer-vacation-part-ii/"
+},
+{
+"id": 125170,
+"date": "2017-07-31T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2017-preview-qa-with-isabel-montesdeoca/"
+},
+{
+"id": 125173,
+"date": "2017-06-28T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusperspective-using-social-media-to-maximize-event-effectiveness/"
+},
+{
+"id": 125175,
+"date": "2017-12-13T00:00:00",
+"link": "https://www.forrester.com/blogs/gdpr-compliance-the-clock-is-ticking/"
+},
+{
+"id": 125178,
+"date": "2017-12-22T00:00:00",
+"link": "https://www.forrester.com/blogs/eventstrategyqawithbetsyhargusofmrp/"
+},
+{
+"id": 125181,
+"date": "2017-12-27T00:00:00",
+"link": "https://www.forrester.com/blogs/how-should-cmos-transform-marketing-in-product-led-organizations/"
+},
+{
+"id": 125184,
+"date": "2017-12-08T00:00:00",
+"link": "https://www.forrester.com/blogs/the-siriusdecisions-rearchitected-holiday-model/"
+},
+{
+"id": 125188,
+"date": "2017-08-14T00:00:00",
+"link": "https://www.forrester.com/blogs/public-relations-marketings-canary-in-a-coal-mine/"
+},
+{
+"id": 125191,
+"date": "2017-08-15T00:00:00",
+"link": "https://www.forrester.com/blogs/techx-sneak-preview-taming-the-sales-data-beast/"
+},
+{
+"id": 125194,
+"date": "2017-08-16T00:00:00",
+"link": "https://www.forrester.com/blogs/three-concept-data-driven-adaptive-content-delivery/"
+},
+{
+"id": 125197,
+"date": "2017-08-18T00:00:00",
+"link": "https://www.forrester.com/blogs/summit-europe-2017-preview-qa-with-meta-karagianni/"
+},
+{
+"id": 125200,
+"date": "2017-08-28T00:00:00",
+"link": "https://www.forrester.com/blogs/event-marketers-essential-knowledge-and-skills/"
+},
+{
+"id": 125203,
+"date": "2017-08-25T00:00:00",
+"link": "https://www.forrester.com/blogs/three-ways-to-kick-start-your-product-sunsetting-engine/"
+},
+{
+"id": 125206,
+"date": "2017-09-05T00:00:00",
+"link": "https://www.forrester.com/blogs/gearing-up-to-refresh-your-partner-program/"
+},
+{
+"id": 125209,
+"date": "2017-09-07T00:00:00",
+"link": "https://www.forrester.com/blogs/the-top-five-ways-to-enhance-cmo-chro-alignment/"
+},
+{
+"id": 125212,
+"date": "2017-09-11T00:00:00",
+"link": "https://www.forrester.com/blogs/how-emerging-companies-can-slingshot-to-hypergrowth/"
+},
+{
+"id": 125215,
+"date": "2017-09-19T00:00:00",
+"link": "https://www.forrester.com/blogs/cmos-rank-skills-enhancement-for-2018-and-beyond/"
+},
+{
+"id": 125219,
+"date": "2017-09-14T00:00:00",
+"link": "https://www.forrester.com/blogs/creating-a-customer-health-score-in-five-steps/"
+},
+{
+"id": 125222,
+"date": "2017-09-25T00:00:00",
+"link": "https://www.forrester.com/blogs/gdpr-is-coming-five-unexpected-marketing-automation-pitfalls-to-plan-for/"
+},
+{
+"id": 125226,
+"date": "2017-09-20T00:00:00",
+"link": "https://www.forrester.com/blogs/putting-transformation-into-action-insights-from-summit-2017/"
+},
+{
+"id": 125229,
+"date": "2017-09-27T00:00:00",
+"link": "https://www.forrester.com/blogs/three-tips-for-planning-next-years-product-roadmap/"
+},
+{
+"id": 125232,
+"date": "2017-09-27T00:00:00",
+"link": "https://www.forrester.com/blogs/event-strategy-qa-with-stuart-gold-of-domo/"
+},
+{
+"id": 125235,
+"date": "2017-09-27T00:00:00",
+"link": "https://www.forrester.com/blogs/events-their-use-in-pipeline-acceleration-programs/"
+},
+{
+"id": 125237,
+"date": "2017-09-28T00:00:00",
+"link": "https://www.forrester.com/blogs/b-to-b-marketing-lessons-from-mario-and-luigi/"
+},
+{
+"id": 125240,
+"date": "2017-07-05T00:00:00",
+"link": "https://www.forrester.com/blogs/the-siriusdecisions-command-center-a-conversation-with-bruce-brien/"
+},
+{
+"id": 125243,
+"date": "2017-07-11T00:00:00",
+"link": "https://www.forrester.com/blogs/is-digital-advertising-hurting-your-brand/"
+},
+{
+"id": 125246,
+"date": "2017-07-17T00:00:00",
+"link": "https://www.forrester.com/blogs/a-minimalists-four-step-approach-to-decluttering-social-media-accounts/"
+},
+{
+"id": 125249,
+"date": "2017-07-18T00:00:00",
+"link": "https://www.forrester.com/blogs/how-to-use-metrics-to-drive-alignment-and-accountability/"
+},
+{
+"id": 125253,
+"date": "2017-07-20T00:00:00",
+"link": "https://www.forrester.com/blogs/one-in-seven-abm-programs-is-doomed-because-of-this-single-factor-and-what-you-can-do-about-it/"
+},
+{
+"id": 125256,
+"date": "2017-07-25T00:00:00",
+"link": "https://www.forrester.com/blogs/event-strategy-qa-with-paralee-walls-of-kapost/"
+},
+{
+"id": 125259,
+"date": "2017-07-24T00:00:00",
+"link": "https://www.forrester.com/blogs/siriusdecisions-tech-exchange-2017-what-to-expect/"
+},
+{
+"id": 125262,
+"date": "2017-07-24T00:00:00",
+"link": "https://www.forrester.com/blogs/is-25-percent-a-bad-number/"
+},
+{
+"id": 125265,
+"date": "2017-06-28T00:00:00",
+"link": "https://www.forrester.com/blogs/we-knew-it-wasnt-about-leads-anymore-the-inside-story-of-the-new-siriusdecisions-demand-waterfall/"
+},
+{
+"id": 125268,
+"date": "2017-06-28T00:00:00",
+"link": "https://www.forrester.com/blogs/marketplace-essentials-qa-with-amanda-wynne/"
+},
+{
+"id": 125271,
+"date": "2017-12-15T00:00:00",
+"link": "https://www.forrester.com/blogs/three-ways-technology-and-marketing-can-improve-lives-brand-implications-for-cmos/"
+},
+{
+"id": 125274,
+"date": "2017-12-18T00:00:00",
+"link": "https://www.forrester.com/blogs/is-agile-marketing-a-passing-fad/"
+},
+{
+"id": 125277,
+"date": "2017-12-20T00:00:00",
+"link": "https://www.forrester.com/blogs/account-based-marketing-adjusting-your-approach-with-the-demand-spectrum/"
+},
+{
+"id": 125280,
+"date": "2017-12-01T00:00:00",
+"link": "https://www.forrester.com/blogs/where-are-all-the-technical-workers/"
+},
+{
+"id": 125283,
+"date": "2017-12-04T00:00:00",
+"link": "https://www.forrester.com/blogs/is-marketing-claiming-victory-while-sales-are-in-the-red/"
+},
+{
+"id": 125286,
+"date": "2017-12-06T00:00:00",
+"link": "https://www.forrester.com/blogs/the-five-building-blocks-of-gdpr-compliance/"
+},
+{
+"id": 125289,
+"date": "2017-12-11T00:00:00",
+"link": "https://www.forrester.com/blogs/six-tips-for-organizations-considering-account-based-marketing/"
+},
+{
+"id": 125292,
+"date": "2018-01-03T00:00:00",
+"link": "https://www.forrester.com/blogs/nine-ways-to-integrate-chat-for-b-to-b-demand-creation/"
+},
+{
+"id": 125480,
+"date": "2020-08-06T00:00:00",
+"link": "https://www.forrester.com/blogs/questions-marketers-should-ask-planning-for-2021-part-one/"
+},
+{
+"id": 125482,
+"date": "2020-08-07T00:00:00",
+"link": "https://www.forrester.com/blogs/bold-at-work-cme-group-go-to-market-strategy-product-launch/"
+},
+{
+"id": 125485,
+"date": "2020-08-12T00:00:00",
+"link": "https://www.forrester.com/blogs/questions-marketers-should-ask-planning-for-2021-part-two/"
+},
+{
+"id": 125487,
+"date": "2020-08-11T00:00:00",
+"link": "https://www.forrester.com/blogs/predictive-content-increases-sales-velocity/"
+},
+{
+"id": 125490,
+"date": "2020-08-17T00:00:00",
+"link": "https://www.forrester.com/blogs/how-equally-represented-are-american-women-in-b2b-companies/"
+},
+{
+"id": 125494,
+"date": "2020-08-18T00:00:00",
+"link": "https://www.forrester.com/blogs/kindness-is-sticky/"
+},
+{
+"id": 125497,
+"date": "2020-08-20T00:00:00",
+"link": "https://www.forrester.com/blogs/forrester-sales-advisory-council/"
+},
+{
+"id": 125500,
+"date": "2020-08-17T00:00:00",
+"link": "https://www.forrester.com/blogs/how-demand-and-account-based-marketers-evolve-to-buyer-enablement/"
+},
+{
+"id": 125502,
+"date": "2020-08-19T00:00:00",
+"link": "https://www.forrester.com/blogs/prepare-org-path-back-to-growth-summit-emea/"
+},
+{
+"id": 125504,
+"date": "2020-08-10T00:00:00",
+"link": "https://www.forrester.com/blogs/three-changing-buyer-expectations-portfolio-marketers/"
+},
+{
+"id": 125507,
+"date": "2020-08-12T00:00:00",
+"link": "https://www.forrester.com/blogs/q2-earnings-window-into-market-dynamics/"
+},
+{
+"id": 125510,
+"date": "2020-08-11T00:00:00",
+"link": "https://www.forrester.com/blogs/future-of-b2b-buying-in-the-channel/"
+},
+{
+"id": 125513,
+"date": "2020-08-20T00:00:00",
+"link": "https://www.forrester.com/blogs/messaging-hierarchy-for-buyer-messaging/"
+},
+{
+"id": 125515,
+"date": "2020-08-21T00:00:00",
+"link": "https://www.forrester.com/blogs/real-time-buyer-enablement-in-b2b/"
+},
+{
+"id": 125518,
+"date": "2020-08-21T00:00:00",
+"link": "https://www.forrester.com/blogs/bold-at-work-cisco-integrated-partner-ecosystem/"
+},
+{
+"id": 127681,
+"date": "2020-09-02T09:59:49",
+"link": "https://www.forrester.com/blogs/the-birds-and-the-bees-do-it-introducing-the-b2b-buyer-signals-model/"
+},
+{
+"id": 127720,
+"date": "2020-09-02T14:43:12",
+"link": "https://www.forrester.com/blogs/sales-reps-value-from-customer-interactions/"
+},
+{
+"id": 127797,
+"date": "2020-09-03T11:58:54",
+"link": "https://www.forrester.com/blogs/why-choosing-a-localization-vendor-is-like-dating/"
+},
+{
+"id": 127884,
+"date": "2020-09-04T11:08:20",
+"link": "https://www.forrester.com/blogs/early-findings-from-forrester-siriusdecisions-global-audit-of-account-based-marketing/"
+},
+{
+"id": 128287,
+"date": "2020-09-10T15:36:13",
+"link": "https://www.forrester.com/blogs/i-see-you-how-technology-increases-customer-transparency-and-lifetime-value/"
+},
+{
+"id": 128317,
+"date": "2020-09-11T11:19:39",
+"link": "https://www.forrester.com/blogs/is-your-content-helping-or-annoying-your-customer-success-team/"
+},
+{
+"id": 128345,
+"date": "2020-09-11T14:45:37",
+"link": "https://www.forrester.com/blogs/three-tips-for-using-design-thinking-in-product-management-activities/"
+},
+{
+"id": 128527,
+"date": "2020-09-15T14:43:28",
+"link": "https://www.forrester.com/blogs/leaders-from-sales-marketing-and-strategy-walk-into-a-bar-can-they-agree-on-the-message/"
+},
+{
+"id": 128545,
+"date": "2020-09-15T16:10:17",
+"link": "https://www.forrester.com/blogs/the-science-of-embedding-resilience-in-marketing-and-sales-plans/"
+},
+{
+"id": 128698,
+"date": "2020-09-17T12:00:16",
+"link": "https://www.forrester.com/blogs/planning-assumptions-2021-seizing-opportunity-amid-disruption/"
+},
+{
+"id": 128909,
+"date": "2020-09-18T12:15:46",
+"link": "https://www.forrester.com/blogs/is-it-2021-yet-five-things-b2b-cmos-must-do-to-prepare-for-the-year-ahead/"
+},
+{
+"id": 128943,
+"date": "2020-09-18T15:53:02",
+"link": "https://www.forrester.com/blogs/is-your-sales-organization-ready-to-become-a-hunk-and-emerge-its-fittest-self/"
+},
+{
+"id": 129061,
+"date": "2020-09-21T15:53:53",
+"link": "https://www.forrester.com/blogs/navigating-a-new-wilderness-five-steps-marketing-operations-must-take-to-provide-leadership/"
+},
+{
+"id": 129073,
+"date": "2020-09-21T16:51:13",
+"link": "https://www.forrester.com/blogs/product-management-and-portfolio-marketing-how-much-do-they-matter/"
+},
+{
+"id": 129163,
+"date": "2020-09-22T11:53:56",
+"link": "https://www.forrester.com/blogs/time-to-shift-the-top-priorities-for-emerging-company-marketing-leaders/"
+},
+{
+"id": 129181,
+"date": "2020-09-22T14:05:04",
+"link": "https://www.forrester.com/blogs/a-faster-pace-of-innovation-demands-more-agile-ways-to-bring-products-to-market/"
+},
+{
+"id": 129276,
+"date": "2020-09-23T15:20:10",
+"link": "https://www.forrester.com/blogs/welcome-to-the-year-of-the-customer-marketer/"
+},
+{
+"id": 129304,
+"date": "2020-09-23T16:37:36",
+"link": "https://www.forrester.com/blogs/lead-based-measurement-is-older-than-the-smartphone-its-time-to-update-how-we-measure-marketing-impact/"
+},
+{
+"id": 129399,
+"date": "2020-09-24T12:31:54",
+"link": "https://www.forrester.com/blogs/apply-six-reporting-dimensions-to-show-more-account-based-marketing-value/"
+},
+{
+"id": 129421,
+"date": "2020-09-24T15:35:00",
+"link": "https://www.forrester.com/blogs/the-show-must-go-on-for-portfolio-marketers-in-2021/"
+},
+{
+"id": 129521,
+"date": "2020-09-25T13:21:35",
+"link": "https://www.forrester.com/blogs/five-questions-to-ask-before-changing-sales-methodologies/"
+},
+{
+"id": 129544,
+"date": "2020-09-25T16:20:34",
+"link": "https://www.forrester.com/blogs/product-management-leadership-for-this-new-era/"
+},
+{
+"id": 129608,
+"date": "2020-09-28T13:13:23",
+"link": "https://www.forrester.com/blogs/quoting-is-about-more-than-just-efficiency-its-also-a-key-sales-driver/"
+},
+{
+"id": 129614,
+"date": "2020-09-28T14:08:18",
+"link": "https://www.forrester.com/blogs/sales-leaders-four-ways-to-set-an-achievable-number-for-2021/"
+},
+{
+"id": 129700,
+"date": "2020-09-29T12:21:12",
+"link": "https://www.forrester.com/blogs/how-to-create-a-sales-plan-while-dodging-the-curveballs-the-world-keeps-throwing/"
+},
+{
+"id": 129719,
+"date": "2020-09-29T15:22:47",
+"link": "https://www.forrester.com/blogs/why-marketing-should-build-better-buyer-enablement-content/"
+},
+{
+"id": 129784,
+"date": "2020-09-30T14:52:03",
+"link": "https://www.forrester.com/blogs/sales-operations-leaders-set-realistic-sales-goals-for-2021/"
+},
+{
+"id": 129797,
+"date": "2020-09-30T15:18:16",
+"link": "https://www.forrester.com/blogs/dialogue-in-demand-enabling-buyers-through-conversational-interactions/"
+},
+{
+"id": 130405,
+"date": "2020-10-01T13:59:18",
+"link": "https://www.forrester.com/blogs/building-a-sales-enablement-team-know-the-what-when-and-why-but-focus-on-the-who/"
+},
+{
+"id": 130498,
+"date": "2020-10-02T11:27:39",
+"link": "https://www.forrester.com/blogs/adoption-may-be-a-luxury-but-respect-is-essential/"
+},
+{
+"id": 130583,
+"date": "2020-10-05T10:01:27",
+"link": "https://www.forrester.com/blogs/predicting-six-more-weeks-of-winter-for-b2b-cmos/"
+},
+{
+"id": 130627,
+"date": "2020-10-05T12:45:43",
+"link": "https://www.forrester.com/blogs/six-opportunities-for-demand-and-account-based-marketing-leaders-in-2021/"
+},
+{
+"id": 130733,
+"date": "2020-10-06T10:46:15",
+"link": "https://www.forrester.com/blogs/five-tips-for-getting-2021-channel-sales-off-to-a-fast-start/"
+},
+{
+"id": 130740,
+"date": "2020-10-06T02:11:06",
+"link": "https://www.forrester.com/blogs/beware-false-precision-in-your-analytics/"
+},
+{
+"id": 130830,
+"date": "2020-10-07T10:55:19",
+"link": "https://www.forrester.com/blogs/finding-the-saas-goldilocks-zone-value-based-pricing-thats-just-right/"
+},
+{
+"id": 130879,
+"date": "2020-10-07T14:53:12",
+"link": "https://www.forrester.com/blogs/a-look-ahead-what-sales-operations-leaders-must-prepare-for-in-2021/"
+},
+{
+"id": 130960,
+"date": "2020-10-08T10:34:20",
+"link": "https://www.forrester.com/blogs/fall-is-the-best-time-for-planting-seeds-and-planning-for-growth/"
+},
+{
+"id": 131174,
+"date": "2020-10-13T10:19:52",
+"link": "https://www.forrester.com/blogs/would-you-buy-a-car-without-knowing-how-to-drive-and-other-sales-enablement-head-scratchers-from-2020/"
+},
+{
+"id": 131369,
+"date": "2020-10-14T12:31:48",
+"link": "https://www.forrester.com/blogs/handling-complication-and-complexity-in-marketing-measurement/"
+},
+{
+"id": 132096,
+"date": "2020-10-20T13:24:13",
+"link": "https://www.forrester.com/blogs/four-critical-planning-considerations-for-sales-enablement-leaders-in-2021/"
+},
+{
+"id": 133127,
+"date": "2020-10-29T14:09:24",
+"link": "https://www.forrester.com/blogs/adapt-innovate-and-integrate-how-to-thrive-in-a-disrupted-b2b-event-sector/"
+},
+{
+"id": 133363,
+"date": "2020-11-02T10:14:58",
+"link": "https://www.forrester.com/blogs/what-my-love-hate-relationship-with-golf-taught-me-about-sales-role-playing/"
+},
+{
+"id": 133698,
+"date": "2020-11-05T14:14:30",
+"link": "https://www.forrester.com/blogs/all-happy-families-are-alike-but-all-happy-customers-are-not/"
+},
+{
+"id": 134130,
+"date": "2020-11-11T14:07:43",
+"link": "https://www.forrester.com/blogs/deciding-when-and-what-to-transition-for-your-organizations-digital-transformation/"
+},
+{
+"id": 134384,
+"date": "2020-11-24T11:57:38",
+"link": "https://www.forrester.com/blogs/the-six-components-of-effective-sales-compensation-plans/"
+},
+{
+"id": 134635,
+"date": "2020-11-19T13:11:09",
+"link": "https://www.forrester.com/blogs/four-tips-for-better-product-portfolio-management/"
+},
+{
+"id": 134694,
+"date": "2020-11-20T12:02:37",
+"link": "https://www.forrester.com/blogs/four-secrets-of-successful-upskilling-that-youre-probably-not-doing/"
+},
+{
+"id": 134757,
+"date": "2020-11-23T13:47:25",
+"link": "https://www.forrester.com/blogs/looking-ahead-what-channel-marketing-leaders-must-prepare-for-in-2021/"
+},
+{
+"id": 134783,
+"date": "2020-11-24T10:00:40",
+"link": "https://www.forrester.com/blogs/ist-es-endlich-2021-funf-dinge-die-b2b-cmos-tun-mussen-um-sich-auf-das-kommende-jahr-vorzubereiten/"
+},
+{
+"id": 135068,
+"date": "2020-12-01T13:19:05",
+"link": "https://www.forrester.com/blogs/healthcare-spotlight-accelerating-international-market-growth-with-product-to-audience-transformations/"
+},
+{
+"id": 135394,
+"date": "2020-12-07T13:32:29",
+"link": "https://www.forrester.com/blogs/under-the-forrester-tree-twelve-surprise-gifts-from-our-analysts-to-you/"
+},
+{
+"id": 135434,
+"date": "2020-12-08T13:10:12",
+"link": "https://www.forrester.com/blogs/on-the-second-day-of-christmas-my-analyst-gave-to-me-solutions-to-the-top-two-account-based-marketing-challenges/"
+},
+{
+"id": 135544,
+"date": "2020-12-09T12:28:46",
+"link": "https://www.forrester.com/blogs/agile-marketing-cui-bono/"
+},
+{
+"id": 135559,
+"date": "2020-12-09T16:01:39",
+"link": "https://www.forrester.com/blogs/bold-at-work-profile-uipaths-marketing-transformation/"
+},
+{
+"id": 135613,
+"date": "2020-12-10T11:58:20",
+"link": "https://www.forrester.com/blogs/hope-you-got-a-gift-receipt-for-those-three-french-hens/"
+},
+{
+"id": 135650,
+"date": "2020-12-14T12:21:48",
+"link": "https://www.forrester.com/blogs/2020-b2b-marketing-practices-that-you-should-keep-or-adopt-in-2021/"
+},
+{
+"id": 135665,
+"date": "2020-12-11T11:07:49",
+"link": "https://www.forrester.com/blogs/the-grand-trine-redux-achieving-more-effective-b2b-marketing-post-pandemic/"
+},
+{
+"id": 135687,
+"date": "2020-12-14T12:25:41",
+"link": "https://www.forrester.com/blogs/what-2020-taught-b2b-sales-leaders-and-teams/"
+},
+{
+"id": 135759,
+"date": "2020-12-14T15:49:08",
+"link": "https://www.forrester.com/blogs/tips-from-santa-on-real-time-chat/"
+},
+{
+"id": 135761,
+"date": "2020-12-14T16:33:24",
+"link": "https://www.forrester.com/blogs/the-red-kettle-campaign-an-inspiration-for-digital-changes-to-demand-programs/"
+},
+{
+"id": 135811,
+"date": "2020-12-15T11:40:11",
+"link": "https://www.forrester.com/blogs/three-sales-methodology-trends-we-can-all-get-behind/"
+},
+{
+"id": 135831,
+"date": "2020-12-15T16:05:48",
+"link": "https://www.forrester.com/blogs/on-the-sixth-day-of-christmas-my-analyst-gave-to-me-six-demand-and-abm-planning-tips-for-2021/"
+},
+{
+"id": 135870,
+"date": "2020-12-16T12:05:49",
+"link": "https://www.forrester.com/blogs/on-the-seventh-day-of-christmas-we-share-the-seven-must-dos-for-buying-groups/"
+},
+{
+"id": 135894,
+"date": "2020-12-16T15:01:51",
+"link": "https://www.forrester.com/blogs/happy-b2b-contentukkah-spinning-the-editorial-dreidel/"
+},
+{
+"id": 135925,
+"date": "2020-12-17T10:02:31",
+"link": "https://www.forrester.com/blogs/on-the-ninth-day-of-christmas-my-analyst-gave-to-me-handy-tips-to-make-my-demand-management-processs-performance-dance/"
+},
+{
+"id": 135947,
+"date": "2020-12-17T13:14:10",
+"link": "https://www.forrester.com/blogs/confessions-of-a-former-charterless-sales-enablement-practitioner/"
+},
+{
+"id": 136179,
+"date": "2020-12-18T12:45:42",
+"link": "https://www.forrester.com/blogs/ai-and-the-sales-rep-where-does-the-machine-stop-and-the-human-begin/"
+},
+{
+"id": 136200,
+"date": "2020-12-21T15:35:44",
+"link": "https://www.forrester.com/blogs/the-10-best-ways-to-spend-your-b2b-paid-media-budget-in-2021/"
+},
+{
+"id": 136204,
+"date": "2020-12-21T16:14:52",
+"link": "https://www.forrester.com/blogs/santa-claus-or-krampus-a-seasonal-guide-to-buying-signals/"
+},
+{
+"id": 136293,
+"date": "2020-12-23T14:57:18",
+"link": "https://www.forrester.com/blogs/twelve-christmas-tips-to-make-your-virtual-events-go-off-with-a-bang-in-2021/"
+},
+{
+"id": 136366,
+"date": "2020-12-30T16:00:51",
+"link": "https://www.forrester.com/blogs/the-ideal-partner-profile-a-channel-sales-leaders-north-star/"
+},
+{
+"id": 136438,
+"date": "2021-01-05T11:58:26",
+"link": "https://www.forrester.com/blogs/can-your-sales-rep-be-influenced-by-commission/"
+},
+{
+"id": 136543,
+"date": "2021-01-07T13:27:18",
+"link": "https://www.forrester.com/blogs/emerging-company-leaders-are-you-prepared-for-exit/"
+},
+{
+"id": 136709,
+"date": "2021-01-11T15:52:27",
+"link": "https://www.forrester.com/blogs/emerging-company-sales-leaders-shape-shift-or-face-failure/"
+},
+{
+"id": 136867,
+"date": "2021-01-13T14:51:31",
+"link": "https://www.forrester.com/blogs/frustrated-with-findability-tagging-content-takes-teamwork/"
+},
+{
+"id": 137023,
+"date": "2021-01-15T14:35:16",
+"link": "https://www.forrester.com/blogs/what-b2b-marketing-leaders-are-measuring-five-key-takeaways/"
+},
+{
+"id": 137101,
+"date": "2021-01-19T12:54:21",
+"link": "https://www.forrester.com/blogs/what-you-cant-see-will-hurt-you-leveraging-digital-insights-to-drive-sales/"
+},
+{
+"id": 137397,
+"date": "2021-01-21T13:40:46",
+"link": "https://www.forrester.com/blogs/five-actions-every-portfolio-marketer-should-take-to-drive-business-value-in-2021/"
+},
+{
+"id": 137747,
+"date": "2021-01-28T14:27:21",
+"link": "https://www.forrester.com/blogs/ge-healthcare-brand-storytelling-during-a-crisis/"
+},
+{
+"id": 138154,
+"date": "2021-02-04T14:00:27",
+"link": "https://www.forrester.com/blogs/the-future-of-response-management-is-insight-driven/"
+},
+{
+"id": 138440,
+"date": "2021-02-09T14:29:30",
+"link": "https://www.forrester.com/blogs/new-to-you-doesnt-mean-new-how-sales-tech-providers-have-reinvented-their-solutions/"
+},
+{
+"id": 138857,
+"date": "2021-02-17T13:28:36",
+"link": "https://www.forrester.com/blogs/are-you-optimizing-your-sales-compensation-program/"
+},
+{
+"id": 138962,
+"date": "2021-02-18T15:15:18",
+"link": "https://www.forrester.com/blogs/sales-tech-convergence-and-confusion/"
+},
+{
+"id": 139042,
+"date": "2021-02-24T11:02:09",
+"link": "https://www.forrester.com/blogs/b2b-marketing-strategy-value-in-time-of-change/"
+},
+{
+"id": 139222,
+"date": "2021-02-23T14:18:33",
+"link": "https://www.forrester.com/blogs/inside-the-black-box-designing-sensors-to-decode-b2b-buying-signals/"
+},
+{
+"id": 139506,
+"date": "2021-02-25T12:57:07",
+"link": "https://www.forrester.com/blogs/lessons-from-a-cold-texan-how-marketers-can-prepare-for-a-crisis/"
+},
+{
+"id": 139857,
+"date": "2021-03-02T11:27:47",
+"link": "https://www.forrester.com/blogs/sales-leaders-what-happens-when-we-all-get-to-travel-again/"
+},
+{
+"id": 139892,
+"date": "2021-03-08T08:45:50",
+"link": "https://www.forrester.com/blogs/how-many-products-can-a-b2b-sales-rep-sell/"
+},
+{
+"id": 139953,
+"date": "2021-03-10T12:00:36",
+"link": "https://www.forrester.com/blogs/three-ways-to-protect-your-customer-base-from-competitors/"
+},
+{
+"id": 140067,
+"date": "2021-03-04T14:08:26",
+"link": "https://www.forrester.com/blogs/three-simple-guidelines-for-goal-setting/"
+},
+{
+"id": 140345,
+"date": "2021-03-08T14:48:09",
+"link": "https://www.forrester.com/blogs/targeting-better-together-six-insights-driven-best-practices-for-sales-and-marketing-leaders/"
+},
+{
+"id": 140497,
+"date": "2021-03-10T14:50:03",
+"link": "https://www.forrester.com/blogs/pole-position-three-ways-to-fuel-your-content-engine-for-success/"
+},
+{
+"id": 140505,
+"date": "2021-03-16T04:34:22",
+"link": "https://www.forrester.com/blogs/get-the-content-you-need-from-global-campaigns/"
+},
+{
+"id": 141053,
+"date": "2021-03-22T16:33:57",
+"link": "https://www.forrester.com/blogs/the-bridge-between-strategy-and-planning-dont-end-up-in-the-water/"
+},
+{
+"id": 141074,
+"date": "2021-03-24T09:58:22",
+"link": "https://www.forrester.com/blogs/dont-leave-your-b2b-marketing-campaigns-on-auto-pilot/"
+},
+{
+"id": 141204,
+"date": "2021-03-22T16:31:06",
+"link": "https://www.forrester.com/blogs/this-years-b2b-summit-sales-enablement-track-howd-we-do-and-what-comes-next/"
+},
+{
+"id": 141433,
+"date": "2022-08-01T09:20:09",
+"link": "https://www.forrester.com/blogs/four-common-strategy-mistakes-b2b-marketing-leaders-make/"
+},
+{
+"id": 141778,
+"date": "2021-03-31T13:05:25",
+"link": "https://www.forrester.com/blogs/the-future-of-sales-compensation-is-insight-driven/"
+},
+{
+"id": 141933,
+"date": "2021-04-12T13:26:55",
+"link": "https://www.forrester.com/blogs/why-your-brand-needs-more-attention/"
+},
+{
+"id": 142036,
+"date": "2021-03-31T13:42:01",
+"link": "https://www.forrester.com/blogs/four-building-blocks-to-help-campaign-leaders-balance-economies-of-scale-and-localization-requirements/"
+},
+{
+"id": 142249,
+"date": "2021-04-06T10:31:10",
+"link": "https://www.forrester.com/blogs/why-the-tech-enhanced-sales-rep-will-be-your-differentiator/"
+},
+{
+"id": 142289,
+"date": "2021-04-02T12:10:08",
+"link": "https://www.forrester.com/blogs/focusing-demand-teams-on-the-buying-group-experience-is-a-valuable-mind-shift/"
+},
+{
+"id": 142556,
+"date": "2021-04-06T15:12:23",
+"link": "https://www.forrester.com/blogs/too-cool-for-school-try-these-four-tips-for-effective-product-manager-upskilling/"
+},
+{
+"id": 142667,
+"date": "2021-04-09T10:03:11",
+"link": "https://www.forrester.com/blogs/read-real-signals-of-customer-retention-and-growth/"
+},
+{
+"id": 142817,
+"date": "2021-04-08T13:43:37",
+"link": "https://www.forrester.com/blogs/four-steps-to-overcome-the-audience-centric-transformation-paradox/"
+},
+{
+"id": 143138,
+"date": "2021-04-12T14:56:26",
+"link": "https://www.forrester.com/blogs/sales-operations-as-switzerland-how-sales-leaders-can-avoid-the-politics-of-territory-design/"
+},
+{
+"id": 143402,
+"date": "2021-04-15T12:30:41",
+"link": "https://www.forrester.com/blogs/b2b-revenue-engine-planning/"
+},
+{
+"id": 143440,
+"date": "2021-04-14T12:17:46",
+"link": "https://www.forrester.com/blogs/three-seismic-shifts-in-buying-behavior-from-forresters-2021-b2b-buying-survey/"
+},
+{
+"id": 143595,
+"date": "2021-04-16T08:17:33",
+"link": "https://www.forrester.com/blogs/positioning-for-fast-thinking-priming-your-buyer-to-gain-market-advantage/"
+},
+{
+"id": 143680,
+"date": "2021-04-16T12:18:54",
+"link": "https://www.forrester.com/blogs/four-mistakes-to-avoid-in-customer-advocacy-content/"
+},
+{
+"id": 143814,
+"date": "2021-04-19T15:26:30",
+"link": "https://www.forrester.com/blogs/the-three-reasons-portfolio-marketers-must-enable-all-buyer-and-customer-facing-roles/"
+},
+{
+"id": 143948,
+"date": "2021-04-20T16:34:42",
+"link": "https://www.forrester.com/blogs/lighting-up-your-existing-tech-stack-to-uncover-buyer-customer-and-market-insights/"
+},
+{
+"id": 143968,
+"date": "2021-04-26T12:45:31",
+"link": "https://www.forrester.com/blogs/from-monolithic-to-modular-kicking-your-sales-content-engine-into-high-gear/"
+},
+{
+"id": 144027,
+"date": "2021-04-21T11:05:45",
+"link": "https://www.forrester.com/blogs/brand-storytelling-is-a-competitive-advantage/"
+},
+{
+"id": 144333,
+"date": "2021-05-26T08:40:15",
+"link": "https://www.forrester.com/blogs/how-to-increase-sales-productivity/"
+},
+{
+"id": 144381,
+"date": "2021-04-22T12:12:15",
+"link": "https://www.forrester.com/blogs/reaching-a-verdict-on-channel-marketings-return/"
+},
+{
+"id": 144423,
+"date": "2021-04-27T10:00:06",
+"link": "https://www.forrester.com/blogs/why-we-have-a-new-waterfall-for-2021-and-why-you-should-care/"
+},
+{
+"id": 144513,
+"date": "2021-04-26T17:21:12",
+"link": "https://www.forrester.com/blogs/forresters-b2b-summit-is-here-and-with-it-comes-the-future-of-b2b-sales/"
+},
+{
+"id": 144555,
+"date": "2021-04-29T13:29:55",
+"link": "https://www.forrester.com/blogs/why-sales-leaders-must-leverage-a-systematic-approach-to-earn-retain-and-grow-customers/"
+},
+{
+"id": 144628,
+"date": "2021-04-26T14:49:09",
+"link": "https://www.forrester.com/blogs/the-perfect-multitouch-attribution-model-doesnt-exist/"
+},
+{
+"id": 144912,
+"date": "2021-04-28T21:12:06",
+"link": "https://www.forrester.com/blogs/create-empathetic-helpful-content/"
+},
+{
+"id": 145537,
+"date": "2021-04-29T13:12:37",
+"link": "https://www.forrester.com/blogs/the-100-best-channel-podcasts-of-2021/"
+},
+{
+"id": 145860,
+"date": "2021-04-30T11:32:33",
+"link": "https://www.forrester.com/blogs/the-four-step-b2b-formula-for-achieving-right-audience-right-content-right-place-right-time/"
+},
+{
+"id": 145994,
+"date": "2021-04-30T16:08:21",
+"link": "https://www.forrester.com/blogs/optimizing-the-outside-sales-inside-sales-mix/"
+},
+{
+"id": 146556,
+"date": "2021-05-06T10:02:06",
+"link": "https://www.forrester.com/blogs/welcome-to-the-future-have-you-heard-about-the-5-ps-of-sales/"
+},
+{
+"id": 146805,
+"date": "2021-05-06T13:57:47",
+"link": "https://www.forrester.com/blogs/how-regional-marketing-can-solve-the-top-five-b2b-global-local-content-collaboration-challenges/"
+},
+{
+"id": 146842,
+"date": "2021-05-19T10:18:31",
+"link": "https://www.forrester.com/blogs/use-sales-activity-study-findings-to-continuously-improve/"
+},
+{
+"id": 147292,
+"date": "2021-05-11T09:10:49",
+"link": "https://www.forrester.com/blogs/building-cx-influence-choose-your-friends-carefully/"
+},
+{
+"id": 147630,
+"date": "2021-05-13T15:38:31",
+"link": "https://www.forrester.com/blogs/b2b-revenue-operations-is-seeing-greater-centralization-but-can-organizations-make-it-stick/"
+},
+{
+"id": 148459,
+"date": "2021-05-21T14:00:31",
+"link": "https://www.forrester.com/blogs/moneyball-for-b2b-sales-the-insights-driven-sales-system/"
+},
+{
+"id": 149802,
+"date": "2021-06-04T12:50:32",
+"link": "https://www.forrester.com/blogs/how-to-talk-to-executives-and-avoid-a-boardroom-ambush/"
+},
+{
+"id": 149976,
+"date": "2021-06-07T12:05:19",
+"link": "https://www.forrester.com/blogs/five-digital-audience-types-that-help-b2b-marketers-deliver-better-experiences/"
+},
+{
+"id": 150026,
+"date": "2021-07-08T11:12:34",
+"link": "https://www.forrester.com/blogs/top-143-social-media-groups-for-msps-vars-and-tech-channel-professionals/"
+},
+{
+"id": 150422,
+"date": "2021-09-13T17:25:09",
+"link": "https://www.forrester.com/blogs/for-b2b-marketers-this-is-the-next-best-thing-to-time-travel/"
+},
+{
+"id": 150647,
+"date": "2022-08-30T10:15:20",
+"link": "https://www.forrester.com/blogs/to-formulate-marketing-strategy-understand-your-business-context/"
+},
+{
+"id": 151697,
+"date": "2021-06-23T10:49:16",
+"link": "https://www.forrester.com/blogs/content-measurement-dilemma-build-dashboards-eu/"
+},
+{
+"id": 151769,
+"date": "2021-06-23T12:56:17",
+"link": "https://www.forrester.com/blogs/b2b-digital-advertising-optimization-is-broken-heres-how-to-fix-it/"
+},
+{
+"id": 152828,
+"date": "2021-07-01T13:59:45",
+"link": "https://www.forrester.com/blogs/conversational-interactions-and-ai-enhancing-the-digital-buying-experience-and-closing-gaps-in-your-sales-process/"
+},
+{
+"id": 152926,
+"date": "2021-07-08T13:14:36",
+"link": "https://www.forrester.com/blogs/your-buyer-is-a-group-not-a-person-what-are-you-doing-about-it/"
+},
+{
+"id": 152964,
+"date": "2021-07-06T08:50:52",
+"link": "https://www.forrester.com/blogs/losung-b2b-content-measurement-dashboards/"
+},
+{
+"id": 153061,
+"date": "2021-07-06T13:17:24",
+"link": "https://www.forrester.com/blogs/putting-b2b-personalization-in-context/"
+},
+{
+"id": 154195,
+"date": "2021-08-05T16:54:49",
+"link": "https://www.forrester.com/blogs/marketing-survey-findings/"
+},
+{
+"id": 154368,
+"date": "2021-07-22T11:25:20",
+"link": "https://www.forrester.com/blogs/putting-forresters-b2b-revenue-waterfall-into-action-six-tips-for-laser-focused-targeting/"
+},
+{
+"id": 154521,
+"date": "2021-07-20T22:53:51",
+"link": "https://www.forrester.com/blogs/the-countdown-to-b2b-summit-apac-2021-keynote-presentations/"
+},
+{
+"id": 154530,
+"date": "2021-07-20T23:44:56",
+"link": "https://www.forrester.com/blogs/the-countdown-to-b2b-summit-apac-2021-track-presentations/"
+},
+{
+"id": 154575,
+"date": "2021-07-22T11:20:07",
+"link": "https://www.forrester.com/blogs/the-glengarry-glen-ross-effect-why-sales-isnt-attractive-to-recent-college-grads/"
+},
+{
+"id": 154675,
+"date": "2021-07-22T13:14:24",
+"link": "https://www.forrester.com/blogs/is-your-sales-methodology-an-innie-or-an-outie/"
+},
+{
+"id": 154999,
+"date": "2021-07-26T15:19:46",
+"link": "https://www.forrester.com/blogs/buyer-insights-findings-from-the-2021-b2b-buying-survey/"
+},
+{
+"id": 155145,
+"date": "2021-07-27T10:23:46",
+"link": "https://www.forrester.com/blogs/should-sales-enablement-be-responsible-for-hiring-new-reps/"
+},
+{
+"id": 156097,
+"date": "2021-08-05T04:41:50",
+"link": "https://www.forrester.com/blogs/launching-forrester-tech-tide-b2b-payments-research/"
+},
+{
+"id": 156201,
+"date": "2021-08-03T16:02:25",
+"link": "https://www.forrester.com/blogs/the-unfortunate-connection-between-professional-athletes-and-b2b-sellers/"
+},
+{
+"id": 157047,
+"date": "2021-08-11T23:24:21",
+"link": "https://www.forrester.com/blogs/how-to-crack-the-code-on-b2b-recruiting/"
+},
+{
+"id": 158192,
+"date": "2021-08-18T23:30:08",
+"link": "https://www.forrester.com/blogs/optimising-global-campaigns-in-the-region/"
+},
+{
+"id": 158202,
+"date": "2021-08-22T22:30:13",
+"link": "https://www.forrester.com/blogs/b2b-summit-apac-preview-turn-insight-into-opportunity-with-the-b2b-revenue-waterfall/"
+},
+{
+"id": 158551,
+"date": "2021-08-23T12:55:55",
+"link": "https://www.forrester.com/blogs/sales-enablement-leaders-name-the-last-time-you-spoke-with-a-buyer/"
+},
+{
+"id": 158783,
+"date": "2021-08-24T12:44:55",
+"link": "https://www.forrester.com/blogs/demand-planning-determine-marketing-approach/"
+},
+{
+"id": 158857,
+"date": "2021-08-24T12:48:02",
+"link": "https://www.forrester.com/blogs/prepare-now-for-data-deprecations-impact-on-b2b-advertising/"
+},
+{
+"id": 159034,
+"date": "2020-05-12T09:07:56",
+"link": "https://www.forrester.com/blogs/strategie-content-b2b-marketing-reussie-fr/"
+},
+{
+"id": 160996,
+"date": "2021-09-15T13:59:05",
+"link": "https://www.forrester.com/blogs/crm-and-dx-programs-are-set-to-collide-what-to-do-about-it/"
+},
+{
+"id": 161829,
+"date": "2021-10-05T10:00:14",
+"link": "https://www.forrester.com/blogs/sales-enablement-planning-assumptions-2022-takeaways/"
+},
+{
+"id": 162379,
+"date": "2021-09-27T16:03:50",
+"link": "https://www.forrester.com/blogs/the-top-nine-emerging-company-ceo-expectations-for-marketing-and-sales-leaders/"
+},
+{
+"id": 163259,
+"date": "2021-10-07T10:03:59",
+"link": "https://www.forrester.com/blogs/workload-affinity-expands-edge-computing-opportunities-in-2022/"
+},
+{
+"id": 163332,
+"date": "2021-10-07T13:40:03",
+"link": "https://www.forrester.com/blogs/two-pillars-of-successful-annual-sales-planning/"
+},
+{
+"id": 163467,
+"date": "2021-10-13T11:35:07",
+"link": "https://www.forrester.com/blogs/three-outcomes-sales-leaders-should-expect-from-marketing-in-2022/"
+},
+{
+"id": 165492,
+"date": "2021-10-26T05:45:11",
+"link": "https://www.forrester.com/blogs/predictions-2022/"
+},
+{
+"id": 167699,
+"date": "2021-11-11T17:20:05",
+"link": "https://www.forrester.com/blogs/closing-the-b2b-trust-gap/"
+},
+{
+"id": 167985,
+"date": "2021-11-15T07:50:15",
+"link": "https://www.forrester.com/blogs/b2b-marketing-event-trends-virtual-is-here-to-stay-hybrid-is-on-the-way/"
+},
+{
+"id": 168057,
+"date": "2021-12-06T13:36:18",
+"link": "https://www.forrester.com/blogs/mvp-baseball-product-development-and-b2b-content-strategy/"
+},
+{
+"id": 169915,
+"date": "2021-12-10T13:00:08",
+"link": "https://www.forrester.com/blogs/2021-in-review-a-recap-of-the-shifts-that-every-sales-leader-should-know-about/"
+},
+{
+"id": 171172,
+"date": "2022-01-07T11:41:08",
+"link": "https://www.forrester.com/blogs/three-reasons-why-your-ceo-should-embrace-an-audience-focused-go-to-market-strategy/"
+},
+{
+"id": 173373,
+"date": "2022-01-31T17:32:16",
+"link": "https://www.forrester.com/blogs/asking-the-right-questions-for-b2b-marketing-roi/"
+},
+{
+"id": 173925,
+"date": "2022-04-12T12:02:47",
+"link": "https://www.forrester.com/blogs/sustainability-business-value-proposition/"
+},
+{
+"id": 174629,
+"date": "2022-02-14T16:22:03",
+"link": "https://www.forrester.com/blogs/who-are-the-b2b-early-deciders/"
+},
+{
+"id": 175261,
+"date": "2022-02-23T15:05:29",
+"link": "https://www.forrester.com/blogs/invest-wisely-in-customer-obsession/"
+},
+{
+"id": 175526,
+"date": "2022-03-03T14:37:44",
+"link": "https://www.forrester.com/blogs/recycle-opportunities-to-make-the-most-of-your-b2b-investments/"
+},
+{
+"id": 175867,
+"date": "2022-03-10T09:56:59",
+"link": "https://www.forrester.com/blogs/b2b-sellers-must-reevaluate-how-they-build-trust-with-buyers/"
+},
+{
+"id": 176065,
+"date": "2022-03-07T09:21:40",
+"link": "https://www.forrester.com/blogs/the-new-digital-sales-experience-dsx-manifesto/"
+},
+{
+"id": 176143,
+"date": "2022-03-10T02:31:56",
+"link": "https://www.forrester.com/blogs/use-innovation-to-reshape-the-b2b-payment-experience-in-apac/"
+},
+{
+"id": 176441,
+"date": "2022-03-09T07:43:46",
+"link": "https://www.forrester.com/blogs/most-thought-leadership-isnt-thoughtful-or-leading-how-can-we-fix-that/"
+},
+{
+"id": 176567,
+"date": "2022-03-14T15:00:58",
+"link": "https://www.forrester.com/blogs/b2b-rebranding-is-on-the-rise/"
+},
+{
+"id": 177475,
+"date": "2022-03-25T12:36:16",
+"link": "https://www.forrester.com/blogs/forresters-b2b-summit-new-research-will-emphasize-four-key-areas-in-which-portfolio-marketers-can-drive-organizational-growth-in-a-post-covid-world/"
+},
+{
+"id": 177808,
+"date": "2022-03-23T22:56:56",
+"link": "https://www.forrester.com/blogs/announcing-the-forrester-tech-tide-b2b-payment-augmentation-how-to-improve-b2b-payments-for-your-firm/"
+},
+{
+"id": 178648,
+"date": "2022-04-01T14:18:41",
+"link": "https://www.forrester.com/blogs/three-critical-factors-for-designing-a-marketing-operations-function-that-supports-growth/"
+},
+{
+"id": 178742,
+"date": "2022-04-20T09:44:44",
+"link": "https://www.forrester.com/blogs/sales-leaders-can-improve-sales-productivity-by-focusing-on-four-wellness-steps/"
+},
+{
+"id": 178760,
+"date": "2022-04-04T09:51:13",
+"link": "https://www.forrester.com/blogs/four-key-ways-b2b-buying-varies-across-global-regions/"
+},
+{
+"id": 178907,
+"date": "2022-04-05T14:10:27",
+"link": "https://www.forrester.com/blogs/lets-chat-about-conversation-automation-technology-in-b2b-marketing/"
+},
+{
+"id": 179047,
+"date": "2022-12-16T10:00:00",
+"link": "https://www.forrester.com/blogs/marketing-enablement-improves-business-outcomes-show-me-the-value/"
+},
+{
+"id": 179204,
+"date": "2022-04-05T20:02:56",
+"link": "https://www.forrester.com/blogs/are-you-an-effective-change-catalyst/"
+},
+{
+"id": 179279,
+"date": "2022-04-11T12:03:27",
+"link": "https://www.forrester.com/blogs/how-does-b2b-cx-quality-impact-loyalty-a-forrester-b2b-summit-2022-session-preview/"
+},
+{
+"id": 179312,
+"date": "2022-04-06T08:48:01",
+"link": "https://www.forrester.com/blogs/co-b2b-leaders-give-more-and-get-more-do-you/"
+},
+{
+"id": 179803,
+"date": "2022-04-14T10:45:34",
+"link": "https://www.forrester.com/blogs/the-revenue-process-alignment-series-part-1-the-end-of-mqls/"
+},
+{
+"id": 179842,
+"date": "2022-04-14T10:47:01",
+"link": "https://www.forrester.com/blogs/the-revenue-process-alignment-series-part-2-more-reasons-to-end-your-addiction-to-mqls/"
+},
+{
+"id": 179849,
+"date": "2022-04-14T10:49:09",
+"link": "https://www.forrester.com/blogs/the-revenue-process-alignment-series-part-3-why-marketing-qualified-accounts-are-not-the-answer/"
+},
+{
+"id": 179856,
+"date": "2022-04-14T10:51:41",
+"link": "https://www.forrester.com/blogs/the-revenue-process-alignment-series-part-4-an-opportunity-centric-revenue-process-is-all-about-context/"
+},
+{
+"id": 179899,
+"date": "2022-09-09T11:00:59",
+"link": "https://www.forrester.com/blogs/the-quantum-physics-of-future-ready-b2b-content/"
+},
+{
+"id": 181511,
+"date": "2022-04-28T11:02:52",
+"link": "https://www.forrester.com/blogs/the-top-three-solutions-for-b2b-commerce-in-2022/"
+},
+{
+"id": 181513,
+"date": "2022-04-29T15:28:43",
+"link": "https://www.forrester.com/blogs/why-headless-commerce-is-a-pain-in-the-neck/"
+},
+{
+"id": 181518,
+"date": "2022-05-03T11:16:52",
+"link": "https://www.forrester.com/blogs/doing-selling-and-being-headless-commerce/"
+},
+{
+"id": 182845,
+"date": "2022-05-13T17:57:18",
+"link": "https://www.forrester.com/blogs/change-and-a-new-forrester-analysts-perspective/"
+},
+{
+"id": 183190,
+"date": "2022-05-19T00:42:53",
+"link": "https://www.forrester.com/blogs/the-sales-engagement-landscape-and-the-case-for-the-single-pane-of-glass/"
+},
+{
+"id": 183961,
+"date": "2022-05-23T13:11:24",
+"link": "https://www.forrester.com/blogs/the-ukraine-war-galvanizes-consumers-into-demanding-action/"
+},
+{
+"id": 184064,
+"date": "2022-06-06T15:42:24",
+"link": "https://www.forrester.com/blogs/u-s-b2b-e-commerce-will-reach-3-trillion-by-2027/"
+},
+{
+"id": 184214,
+"date": "2022-05-25T02:28:45",
+"link": "https://www.forrester.com/blogs/call-for-entries-forrester-b2b-summit-apac-awards/"
+},
+{
+"id": 184433,
+"date": "2022-06-02T16:19:35",
+"link": "https://www.forrester.com/blogs/b2b-companies-take-action-to-a-point-in-response-to-the-war-in-ukraine/"
+},
+{
+"id": 185516,
+"date": "2022-06-08T19:51:10",
+"link": "https://www.forrester.com/blogs/four-takeaways-from-b2b-summit-north-america/"
+},
+{
+"id": 186385,
+"date": "2022-06-26T17:23:49",
+"link": "https://www.forrester.com/blogs/lessons-in-b2b-growth-strategy-that-are-literally-out-of-this-world/"
+},
+{
+"id": 186462,
+"date": "2022-06-20T11:48:48",
+"link": "https://www.forrester.com/blogs/is-the-sales-tech-party-over/"
+},
+{
+"id": 187529,
+"date": "2022-07-07T21:15:50",
+"link": "https://www.forrester.com/blogs/b2b-summit-apac-2022-back-live-and-digital-with-a-rock-star-agenda/"
+},
+{
+"id": 187609,
+"date": "2022-07-05T04:46:57",
+"link": "https://www.forrester.com/blogs/firms-struggle-to-embed-sustainability-in-customer-journeys/"
+},
+{
+"id": 188367,
+"date": "2022-07-19T06:04:15",
+"link": "https://www.forrester.com/blogs/what-to-expect-at-forrester-b2b-summit-emea-2022/"
+},
+{
+"id": 189369,
+"date": "2022-08-05T10:17:00",
+"link": "https://www.forrester.com/blogs/productivity-and-customer-focus-are-top-of-mind-for-german-manufacturers-and-financial-services-and-insurance-providers/"
+},
+{
+"id": 189499,
+"date": "2022-08-02T11:24:16",
+"link": "https://www.forrester.com/blogs/getting-marketing-leaders-back-together-eu/"
+},
+{
+"id": 190082,
+"date": "2022-08-04T15:41:53",
+"link": "https://www.forrester.com/blogs/first-line-sales-managers-are-your-secret-agents-of-change/"
+},
+{
+"id": 190747,
+"date": "2022-08-10T12:55:52",
+"link": "https://www.forrester.com/blogs/three-mindflaying-facts-about-ai-for-b2b-marketers/"
+},
+{
+"id": 191081,
+"date": "2022-08-30T02:00:18",
+"link": "https://www.forrester.com/blogs/planning-guides-marketing-operations/"
+},
+{
+"id": 191239,
+"date": "2022-08-19T09:26:53",
+"link": "https://www.forrester.com/blogs/three-reasons-why-demand-marketers-should-attend-b2b-summit-emea/"
+},
+{
+"id": 191701,
+"date": "2022-08-30T02:00:25",
+"link": "https://www.forrester.com/blogs/planning-guides-demand-and-abm/"
+},
+{
+"id": 192026,
+"date": "2022-08-25T12:58:11",
+"link": "https://www.forrester.com/blogs/what-happens-to-trust-in-times-of-economic-volatility/"
+},
+{
+"id": 193470,
+"date": "2022-09-12T08:59:09",
+"link": "https://www.forrester.com/blogs/oh-how-i-love-thee-brand-preference-measurement-goes-deeper-than-awareness/"
+},
+{
+"id": 193615,
+"date": "2022-09-07T21:56:14",
+"link": "https://www.forrester.com/blogs/forr-the-planet-sustainability-interview-series-amazon-web-services/"
+},
+{
+"id": 193711,
+"date": "2022-09-08T07:30:37",
+"link": "https://www.forrester.com/blogs/dive-deep-into-marketing-operations-at-b2b-summit-emea/"
+},
+{
+"id": 195652,
+"date": "2022-09-29T13:24:20",
+"link": "https://www.forrester.com/blogs/how-a-strong-collaboration-between-cmo-and-cio-accelerates-businesses-success/"
+},
+{
+"id": 196386,
+"date": "2022-10-27T17:26:35",
+"link": "https://www.forrester.com/blogs/sales-technology-innovation/"
+},
+{
+"id": 196847,
+"date": "2022-10-13T14:38:08",
+"link": "https://www.forrester.com/blogs/the-b2b-cmo-and-marketing-operations-a-symbiotic-relationship/"
+},
+{
+"id": 197699,
+"date": "2022-10-25T11:00:41",
+"link": "https://www.forrester.com/blogs/gain-insight-into-b2b-martech-decisions-and-trends/"
+},
+{
+"id": 197996,
+"date": "2022-10-21T18:58:53",
+"link": "https://www.forrester.com/blogs/overcoming-the-insights-gaps-of-the-b2b-revenue-engine/"
+},
+{
+"id": 200221,
+"date": "2022-11-17T13:43:22",
+"link": "https://www.forrester.com/blogs/how-marketing-operations-leaders-set-clear-boundaries-using-project-acceptance-and-prioritization-strategies/"
+},
+{
+"id": 200719,
+"date": "2022-11-17T09:29:40",
+"link": "https://www.forrester.com/blogs/forresters-buyer-insights-reports-reveal-current-business-drivers-and-buying-behaviors/"
+},
+{
+"id": 202566,
+"date": "2022-12-13T16:57:33",
+"link": "https://www.forrester.com/blogs/we-have-lift-off-effective-customer-onboarding-is-the-launchpad-to-customer-value/"
+},
+{
+"id": 203602,
+"date": "2023-03-17T09:52:35",
+"link": "https://www.forrester.com/blogs/is-your-revenue-tech-strategy-beach-ready/"
+},
+{
+"id": 204038,
+"date": "2023-01-19T01:43:29",
+"link": "https://www.forrester.com/blogs/practitioner-to-analyst-what-i-would-have-done-differently-if-i-had-access-to-the-research-i-have-now/"
+},
+{
+"id": 205587,
+"date": "2023-02-06T10:48:44",
+"link": "https://www.forrester.com/blogs/three-questions-to-ask-when-navigating-the-new-b2b-event-management-technology-landscape/"
+},
+{
+"id": 206771,
+"date": "2023-02-22T10:00:55",
+"link": "https://www.forrester.com/blogs/the-top-five-reasons-to-attend-b2b-summit-north-america-2023/"
+},
+{
+"id": 206934,
+"date": "2023-02-23T16:36:42",
+"link": "https://www.forrester.com/blogs/leverage-data-in-your-sales-strategy-to-win-2023/"
+},
+{
+"id": 207946,
+"date": "2023-03-08T07:52:46",
+"link": "https://www.forrester.com/blogs/how-are-postsale-customer-engagement-responsibilities-changing/"
+},
+{
+"id": 208201,
+"date": "2023-07-25T01:00:18",
+"link": "https://www.forrester.com/blogs/how-b2b-companies-will-win-the-competition-for-growth/"
+},
+{
+"id": 209364,
+"date": "2023-03-30T18:37:00",
+"link": "https://www.forrester.com/blogs/cpq-empowering-buyers-to-buy-with-omnichannel-sales/"
+},
+{
+"id": 209645,
+"date": "2023-04-18T18:20:25",
+"link": "https://www.forrester.com/blogs/the-emerging-role-of-the-field-sales-coach-a-success-story/"
+},
+{
+"id": 209884,
+"date": "2023-04-04T08:30:01",
+"link": "https://www.forrester.com/blogs/forrester-event-content-what-does-it-take-to-stand-on-that-stage/"
+},
+{
+"id": 210221,
+"date": "2023-04-05T09:43:34",
+"link": "https://www.forrester.com/blogs/the-goodbye-mql-transformation-accelerates-moving-from-wild-idea-to-reality/"
+},
+{
+"id": 210793,
+"date": "2023-04-13T04:44:31",
+"link": "https://www.forrester.com/blogs/forrester-wave-b2b-event-management-technology-q1-2023-a-new-digital-era-for-b2b-events/"
+},
+{
+"id": 210860,
+"date": "2023-04-20T09:00:28",
+"link": "https://www.forrester.com/blogs/cmos-can-unlock-new-value-with-lifecycle-revenue-marketing/"
+},
+{
+"id": 211581,
+"date": "2023-04-19T05:25:28",
+"link": "https://www.forrester.com/blogs/cybersecurity-firms-arent-immune-to-the-economic-downturn/"
+},
+{
+"id": 212509,
+"date": "2023-04-27T12:00:55",
+"link": "https://www.forrester.com/blogs/up-your-game-driving-better-results-through-revenue-process-improvement/"
+},
+{
+"id": 213310,
+"date": "2023-05-04T11:49:51",
+"link": "https://www.forrester.com/blogs/marketers-if-b2b-content-is-your-thing-we-got-you-forrester-b2b-summit-agenda-highlights/"
+},
+{
+"id": 213877,
+"date": "2023-05-11T20:47:30",
+"link": "https://www.forrester.com/blogs/what-does-it-take-to-successfully-execute-a-marketing-transformation/"
+},
+{
+"id": 213898,
+"date": "2023-05-11T10:46:50",
+"link": "https://www.forrester.com/blogs/who-do-b2b-buyers-trust/"
+},
+{
+"id": 214171,
+"date": "2023-05-16T15:20:34",
+"link": "https://www.forrester.com/blogs/adding-a-product-led-growth-strategy-to-a-traditional-b2b-organization/"
+},
+{
+"id": 215385,
+"date": "2023-06-15T15:37:32",
+"link": "https://www.forrester.com/blogs/shift-into-high-gear-unlocking-insights-to-outpace-your-rivals/"
+},
+{
+"id": 217594,
+"date": "2023-07-12T13:07:19",
+"link": "https://www.forrester.com/blogs/from-trend-to-destination-embracing-lifecycle-revenue-marketing/"
+},
+{
+"id": 218064,
+"date": "2023-07-13T15:27:33",
+"link": "https://www.forrester.com/blogs/the-2023-fifa-womens-world-cup-is-a-bonanza-for-brands/"
+},
+{
+"id": 218755,
+"date": "2023-07-25T08:05:53",
+"link": "https://www.forrester.com/blogs/the-b2b-chief-customer-officer-unicorn-or-camel/"
+},
+{
+"id": 218956,
+"date": "2023-07-31T16:56:17",
+"link": "https://www.forrester.com/blogs/which-type-of-intent-data-provider-is-best-for-your-b2b-business/"
+},
+{
+"id": 219685,
+"date": "2023-08-07T09:00:38",
+"link": "https://www.forrester.com/blogs/frontline-marketing-innovation-coalition-key-to-generative-ai-success-for-b2b-marketers/"
+},
+{
+"id": 219707,
+"date": "2023-08-03T10:23:46",
+"link": "https://www.forrester.com/blogs/steering-towards-success-three-approaches-to-building-outcomes-based-joint-success-plans/"
+},
+{
+"id": 219840,
+"date": "2023-08-07T17:13:40",
+"link": "https://www.forrester.com/blogs/growth-strategy-in-action-apple-plants-new-seeds/"
+},
+{
+"id": 220029,
+"date": "2023-08-14T10:54:25",
+"link": "https://www.forrester.com/blogs/brand-investments-are-up-but-maybe-not-where-you-think/"
+},
+{
+"id": 220133,
+"date": "2023-08-10T16:33:02",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-whats-the-big-deal-about-getting-rid-of-mqls/"
+},
+{
+"id": 220226,
+"date": "2023-08-17T10:00:22",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-so-were-onboard-with-buying-groups-but-what-about-the-individual/"
+},
+{
+"id": 220489,
+"date": "2023-09-11T16:34:36",
+"link": "https://www.forrester.com/blogs/robust-survey-data-tei-study/"
+},
+{
+"id": 221268,
+"date": "2023-08-24T11:02:10",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-whats-the-business-impact-of-leaving-mqls/"
+},
+{
+"id": 221307,
+"date": "2023-08-24T11:04:14",
+"link": "https://www.forrester.com/blogs/three-tips-to-guide-b2b-demand-marketing-leaders-plans-for-2024/"
+},
+{
+"id": 221721,
+"date": "2023-08-29T12:19:20",
+"link": "https://www.forrester.com/blogs/power-up-your-content-with-a-plan-on-a-page/"
+},
+{
+"id": 221791,
+"date": "2023-08-31T10:00:05",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-accounts-buying-groups-opportunities-oh-my-how-is-it-all-connected/"
+},
+{
+"id": 221817,
+"date": "2023-09-05T14:08:30",
+"link": "https://www.forrester.com/blogs/its-not-you-its-me-what-it-really-means-when-budget-is-the-reason-for-the-break-up/"
+},
+{
+"id": 222155,
+"date": "2023-09-07T10:00:20",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-whats-the-role-of-the-opportunity-entity-in-the-revenue-process/"
+},
+{
+"id": 222179,
+"date": "2023-08-08T09:46:04",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-read-all-the-posts-in-our-series/"
+},
+{
+"id": 222776,
+"date": "2023-09-14T10:00:05",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-how-does-the-buyers-journey-change-in-a-buying-groups-world/"
+},
+{
+"id": 223359,
+"date": "2023-09-21T10:00:20",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-when-should-we-create-the-opportunity-entity/"
+},
+{
+"id": 223885,
+"date": "2023-09-28T10:42:14",
+"link": "https://www.forrester.com/blogs/improv-and-playbooks-navigating-the-unscripted-world-of-modern-selling/"
+},
+{
+"id": 223931,
+"date": "2023-09-28T09:40:11",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-we-promise-its-not-clickbait/"
+},
+{
+"id": 224082,
+"date": "2023-10-02T09:38:07",
+"link": "https://www.forrester.com/blogs/state-of-business-buying-2023/"
+},
+{
+"id": 224276,
+"date": "2023-10-05T10:00:42",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-learn-how-reltio-transformed-their-revenue-process-in-60-days/"
+},
+{
+"id": 224329,
+"date": "2023-10-05T11:22:21",
+"link": "https://www.forrester.com/blogs/from-text-analytics-to-text-and-document-mining-and-analytics-platforms/"
+},
+{
+"id": 224712,
+"date": "2023-10-12T12:28:30",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-what-changes-in-the-rdr-function-when-we-move-to-buying-groups/"
+},
+{
+"id": 224917,
+"date": "2023-10-17T16:13:14",
+"link": "https://www.forrester.com/blogs/introducing-forresters-new-sales-force-automation-sfa-wave/"
+},
+{
+"id": 225157,
+"date": "2023-10-19T06:31:17",
+"link": "https://www.forrester.com/blogs/align-purpose-and-value-proposition-to-activate-sustainability/"
+},
+{
+"id": 225709,
+"date": "2023-10-20T06:03:14",
+"link": "https://www.forrester.com/blogs/embrace-storymaking-to-change-your-sustainability-brand-narrative/"
+},
+{
+"id": 226832,
+"date": "2023-10-30T10:02:14",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-6-mql-myths-squashed-to-shift-your-leads-based-culture/"
+},
+{
+"id": 227406,
+"date": "2023-11-09T15:35:22",
+"link": "https://www.forrester.com/blogs/b2b-marketing-planning-is-connected-but-doesnt-need-to-be-overwhelming/"
+},
+{
+"id": 227453,
+"date": "2023-11-08T08:21:01",
+"link": "https://www.forrester.com/blogs/planning-season-is-the-time-to-revisit-your-cmo-dashboard/"
+},
+{
+"id": 228283,
+"date": "2023-11-21T07:44:17",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-sweet-and-no-sorrow/"
+},
+{
+"id": 228467,
+"date": "2023-11-22T13:43:18",
+"link": "https://www.forrester.com/blogs/evolving-b2b-marketing-mindsets/"
+},
+{
+"id": 229260,
+"date": "2023-11-30T14:26:15",
+"link": "https://www.forrester.com/blogs/are-scaled-and-digital-led-customer-success-the-same-thing-inconceivable/"
+},
+{
+"id": 230032,
+"date": "2023-12-11T10:00:56",
+"link": "https://www.forrester.com/blogs/saying-goodbye-to-mqls-how-does-marketings-life-change-when-saying-goodbye-to-mqls/"
+},
+{
+"id": 230254,
+"date": "2023-12-14T11:34:04",
+"link": "https://www.forrester.com/blogs/three-key-findings-from-the-forrester-wave-sales-readiness-solutions-q4-2023/"
+},
+{
+"id": 230871,
+"date": "2023-12-21T07:19:40",
+"link": "https://www.forrester.com/blogs/what-content-actually-matters-find-out-with-a-touch-analysis/"
+},
+{
+"id": 231215,
+"date": "2024-01-02T09:40:12",
+"link": "https://www.forrester.com/blogs/how-to-capitalize-on-conversational-search/"
+},
+{
+"id": 232280,
+"date": "2024-01-24T12:09:17",
+"link": "https://www.forrester.com/blogs/are-b2b-buyers-cowards/"
+},
+{
+"id": 232710,
+"date": "2024-02-02T06:57:25",
+"link": "https://www.forrester.com/blogs/marketers-must-embrace-ai-to-maximize-b2b-event-success/"
+},
+{
+"id": 233649,
+"date": "2024-02-17T11:26:55",
+"link": "https://www.forrester.com/blogs/unleashing-the-b2b-revolution-the-bold-power-of-e-commerce/"
+},
+{
+"id": 233914,
+"date": "2024-02-26T06:48:54",
+"link": "https://www.forrester.com/blogs/ditch-the-old-playbook-b2b-cmos-its-time-to-lead-the-e-commerce-charge/"
+},
+{
+"id": 234538,
+"date": "2024-02-27T06:41:27",
+"link": "https://www.forrester.com/blogs/participate-in-the-2024-b2b-event-trends-survey-unlock-valuable-insights-for-your-organization/"
+},
+{
+"id": 234581,
+"date": "2024-02-28T10:52:18",
+"link": "https://www.forrester.com/blogs/customer-success-platform-consolidation-reflects-market-dynamism/"
+},
+{
+"id": 236488,
+"date": "2024-04-02T01:00:32",
+"link": "https://www.forrester.com/blogs/b2b-summit-emea-award-submissions/"
+},
+{
+"id": 236659,
+"date": "2024-04-05T10:32:44",
+"link": "https://www.forrester.com/blogs/five-ways-that-generative-ai-brings-superpowers-to-portfolio-marketers/"
+},
+{
+"id": 236992,
+"date": "2024-04-03T09:44:05",
+"link": "https://www.forrester.com/blogs/change-now-for-sustainable-and-profitable-solutions/"
+},
+{
+"id": 237348,
+"date": "2024-04-05T11:41:33",
+"link": "https://www.forrester.com/blogs/a-new-supergroup-for-revenue-technology-emerges-revenue-orchestration-platforms/"
+},
+{
+"id": 239142,
+"date": "2024-04-30T14:23:04",
+"link": "https://www.forrester.com/blogs/buying-signals-help-b2b-organizations-reignite-revenue-interactions/"
+},
+{
+"id": 239144,
+"date": "2024-05-03T11:59:41",
+"link": "https://www.forrester.com/blogs/brand-is-a-long-game-the-tangible-value-of-b2b-brand-investments/"
+},
+{
+"id": 239146,
+"date": "2024-04-30T14:22:23",
+"link": "https://www.forrester.com/blogs/harness-the-power-of-buying-signals-at-forresters-b2b-summit/"
+},
+{
+"id": 239866,
+"date": "2024-06-10T12:14:04",
+"link": "https://www.forrester.com/blogs/first-line-sales-managers-promote-or-hire/"
+},
+{
+"id": 239882,
+"date": "2024-05-14T14:34:26",
+"link": "https://www.forrester.com/blogs/focus-on-customer-value-to-deliver-b2b-customer-growth/"
+},
+{
+"id": 241561,
+"date": "2024-06-04T21:47:26",
+"link": "https://www.forrester.com/blogs/embrace-reinvention-to-drive-growth-five-key-takeaways-from-forresters-b2b-summit-north-america-2024/"
+},
+{
+"id": 241721,
+"date": "2024-06-07T14:58:33",
+"link": "https://www.forrester.com/blogs/forresters-ai-webinar-series-navigate-the-choppy-and-exciting-waters-of-enterprise-ai/"
+},
+{
+"id": 241789,
+"date": "2024-06-11T07:00:00",
+"link": "https://www.forrester.com/blogs/five-stand-out-features-of-real-time-revenue-execution-providers/"
+},
+{
+"id": 242820,
+"date": "2024-06-24T12:20:00",
+"link": "https://www.forrester.com/blogs/eight-key-takeaways-from-cvent-connect-san-antonio-2024/"
+},
+{
+"id": 243372,
+"date": "2024-07-08T10:33:33",
+"link": "https://www.forrester.com/blogs/the-global-state-of-b2b-events-8-key-findings-from-the-forrester-2024-b2b-event-trends-survey/"
+},
+{
+"id": 243573,
+"date": "2024-07-09T19:18:38",
+"link": "https://www.forrester.com/blogs/every-revenue-process-transformation-will-be-unique-just-get-started/"
+},
+{
+"id": 244386,
+"date": "2024-07-22T11:06:05",
+"link": "https://www.forrester.com/blogs/can-your-customer-success-strategy-withstand-the-heat/"
+},
+{
+"id": 244913,
+"date": "2024-07-25T04:12:24",
+"link": "https://www.forrester.com/blogs/b2b-summit-apac-2024-transform-your-revenue-engine/"
+},
+{
+"id": 245644,
+"date": "2024-08-07T10:00:54",
+"link": "https://www.forrester.com/blogs/for-demand-and-abm-teams-2025-wont-be-about-doing-the-same-with-less-but-doing-better-with-less/"
+},
+{
+"id": 245651,
+"date": "2024-08-05T12:53:36",
+"link": "https://www.forrester.com/blogs/why-is-demand-marketing-an-obstacle-to-its-own-success/"
+},
+{
+"id": 245665,
+"date": "2024-08-05T12:23:03",
+"link": "https://www.forrester.com/blogs/paris-olympics-luxury-democratized-ads-lose-the-plot-women-shine/"
+},
+{
+"id": 246784,
+"date": "2024-08-27T04:25:24",
+"link": "https://www.forrester.com/blogs/why-you-cant-afford-to-miss-forresters-b2b-summit-emea-2024/"
+},
+{
+"id": 246792,
+"date": "2024-09-10T03:58:13",
+"link": "https://www.forrester.com/blogs/dont-miss-out-keynotes-at-forresters-b2b-summit-emea-2024/"
+},
+{
+"id": 247510,
+"date": "2024-09-16T08:21:10",
+"link": "https://www.forrester.com/blogs/keeping-ahead-of-the-curve-how-to-master-european-b2b-growth-amidst-challenges/"
+},
+{
+"id": 247600,
+"date": "2024-09-17T04:03:37",
+"link": "https://www.forrester.com/blogs/lets-get-our-hands-dirty-workshops-at-forresters-b2b-summit-emea/"
+},
+{
+"id": 248849,
+"date": "2024-09-25T08:12:27",
+"link": "https://www.forrester.com/blogs/unlock-sustainable-growth-join-forresters-b2b-summit-emea-2024-for-cutting-edge-strategies-and-insights/"
+},
+{
+"id": 249515,
+"date": "2024-10-21T04:01:39",
+"link": "https://www.forrester.com/blogs/embracing-local-flavors-understand-regional-differences-in-b2b-marketing-in-europe/"
+},
+{
+"id": 249612,
+"date": "2024-10-08T02:33:09",
+"link": "https://www.forrester.com/blogs/the-future-of-genai-is-increasingly-agentic/"
+},
+{
+"id": 250147,
+"date": "2024-10-24T08:00:38",
+"link": "https://www.forrester.com/blogs/predictions-2025-business-buyers/"
+},
+{
+"id": 250853,
+"date": "2024-10-22T08:00:00",
+"link": "https://www.forrester.com/blogs/predictions-2025/"
+},
+{
+"id": 251136,
+"date": "2024-10-28T10:19:56",
+"link": "https://www.forrester.com/blogs/red-flags-revealed-navigating-the-path-to-b2b-operational-excellence/"
+},
+{
+"id": 251181,
+"date": "2024-10-23T09:36:01",
+"link": "https://www.forrester.com/blogs/zero-in-2024-aims-to-elevate-customer-success/"
+},
+{
+"id": 251348,
+"date": "2024-10-30T09:00:10",
+"link": "https://www.forrester.com/blogs/call-for-entries-forrester-2025-b2b-summit-north-america-awards/"
+},
+{
+"id": 252476,
+"date": "2024-11-12T11:50:36",
+"link": "https://www.forrester.com/blogs/better-your-brand-measurement-with-these-best-in-class-providers/"
+},
+{
+"id": 253165,
+"date": "2024-11-25T14:46:50",
+"link": "https://www.forrester.com/blogs/data-and-insights-for-smart-go-to-market-decision-making/"
+},
+{
+"id": 253759,
+"date": "2024-12-05T17:25:30",
+"link": "https://www.forrester.com/blogs/five-steps-to-drive-customer-growth-with-plg/"
+},
+{
+"id": 254036,
+"date": "2024-12-06T09:54:42",
+"link": "https://www.forrester.com/blogs/b2b-marketing-measurement-isnt-trusted-and-its-about-to-get-worse-a-bonus-prediction/"
+},
+{
+"id": 254487,
+"date": "2024-12-17T02:30:03",
+"link": "https://www.forrester.com/blogs/predictions-2025-2/"
+},
+{
+"id": 254902,
+"date": "2024-12-30T15:31:17",
+"link": "https://www.forrester.com/blogs/buyer-enablement-five-b2b-companies-who-do-it-well/"
+},
+{
+"id": 254952,
+"date": "2025-01-02T16:13:19",
+"link": "https://www.forrester.com/blogs/look-for-these-five-brand-and-customer-experience-themes-at-ces-2025/"
+},
+{
+"id": 255034,
+"date": "2025-03-26T10:04:33",
+"link": "https://www.forrester.com/blogs/european-tech-spend-grows-5-in-2025-to-reach-e1-4-trillion/"
+},
+{
+"id": 255270,
+"date": "2025-01-13T10:00:35",
+"link": "https://www.forrester.com/blogs/align-b2b-strategy-planning-and-execution-to-achieve-growth-with-precision-and-purpose/"
+},
+{
+"id": 255415,
+"date": "2025-01-16T09:00:42",
+"link": "https://www.forrester.com/blogs/introducing-forresters-brand-experience-index-drive-growth-with-both-brand-and-cx/"
+},
+{
+"id": 256275,
+"date": "2025-01-23T14:52:44",
+"link": "https://www.forrester.com/blogs/from-sprint-to-marathon-passing-the-baton-from-sales-to-cs-for-seamless-account-transitions/"
+},
+{
+"id": 256564,
+"date": "2025-01-28T15:54:57",
+"link": "https://www.forrester.com/blogs/take-an-audience-centric-approach-to-create-compelling-b2b-event-content/"
+},
+{
+"id": 256658,
+"date": "2025-01-28T15:58:05",
+"link": "https://www.forrester.com/blogs/revitalizing-deals-that-detour-with-adaptive-programs/"
+},
+{
+"id": 257094,
+"date": "2025-02-06T12:37:02",
+"link": "https://www.forrester.com/blogs/tis-the-season-for-b2b-summit/"
+},
+{
+"id": 257109,
+"date": "2025-02-10T15:51:52",
+"link": "https://www.forrester.com/blogs/why-attend-b2b-summit-2025/"
+},
+{
+"id": 257299,
+"date": "2025-02-06T10:30:42",
+"link": "https://www.forrester.com/blogs/participate-in-the-2025-forrester-b2b-event-trends-survey-and-unlock-valuable-insights-for-your-organization/"
+},
+{
+"id": 257408,
+"date": "2025-02-12T10:00:37",
+"link": "https://www.forrester.com/blogs/the-essential-role-of-process-in-executing-your-b2b-strategy/"
+},
+{
+"id": 257601,
+"date": "2025-02-11T17:29:31",
+"link": "https://www.forrester.com/blogs/if-process-is-so-important-why-isnt-process-prioritized/"
+},
+{
+"id": 257764,
+"date": "2025-02-13T14:14:39",
+"link": "https://www.forrester.com/blogs/is-your-postsale-cs-strategy-setting-customers-up-to-succeed/"
+},
+{
+"id": 257870,
+"date": "2025-02-14T13:09:32",
+"link": "https://www.forrester.com/blogs/adopt-an-internal-product-team-approach/"
+},
+{
+"id": 258010,
+"date": "2025-02-25T11:17:31",
+"link": "https://www.forrester.com/blogs/sync-or-swim-mastering-b2b-processes/"
+},
+{
+"id": 258437,
+"date": "2025-03-18T15:47:43",
+"link": "https://www.forrester.com/blogs/align-product-and-portfolio-marketing-to-create-three-growth-trajectories/"
+},
+{
+"id": 258925,
+"date": "2025-03-04T14:05:04",
+"link": "https://www.forrester.com/blogs/reorganizing-your-frontline-marketing-teams-without-clear-purpose-is-marketing-malfeasance/"
+},
+{
+"id": 259817,
+"date": "2025-03-19T07:00:54",
+"link": "https://www.forrester.com/blogs/compensation-solutions-increase-roi-by-enabling-administrators/"
+},
+{
+"id": 259944,
+"date": "2025-03-20T12:58:22",
+"link": "https://www.forrester.com/blogs/all-leaders-must-be-change-leaders-b2b-cx-summit/"
+},
+{
+"id": 260362,
+"date": "2025-03-27T09:01:55",
+"link": "https://www.forrester.com/blogs/to-thrive-through-volatility-master-these-three-areas/"
+},
+{
+"id": 260599,
+"date": "2025-03-28T07:07:27",
+"link": "https://www.forrester.com/blogs/e-commerce-evolution-beyond-the-horizon/"
+},
+{
+"id": 261329,
+"date": "2025-04-07T13:03:32",
+"link": "https://www.forrester.com/blogs/brands-take-cover-the-tariffs-have-hit-the-fan/"
+},
+{
+"id": 261362,
+"date": "2025-04-09T13:54:41",
+"link": "https://www.forrester.com/blogs/stuck-stage-zero-opportunities-expose-critical-gaps-in-sales-processes/"
+},
+{
+"id": 261593,
+"date": "2025-04-10T05:00:25",
+"link": "https://www.forrester.com/blogs/navigating-the-storm-how-b2b-leaders-can-weather-volatility-and-thrive/"
+},
+{
+"id": 261962,
+"date": "2025-04-14T12:02:57",
+"link": "https://www.forrester.com/blogs/apple-gets-tariff-relief-just-kidding/"
+},
+{
+"id": 262013,
+"date": "2025-04-17T10:30:57",
+"link": "https://www.forrester.com/blogs/leaders-need-to-review-event-plans-amid-economic-and-political-uncertainty/"
+},
+{
+"id": 262593,
+"date": "2025-04-23T09:21:06",
+"link": "https://www.forrester.com/blogs/the-verdict-is-in-its-buying-groups-for-the-win/"
+},
+{
+"id": 262632,
+"date": "2025-04-23T10:38:55",
+"link": "https://www.forrester.com/blogs/to-doge-or-not-to-doge-tesla-hits-a-road-block/"
+},
+{
+"id": 262797,
+"date": "2025-04-25T16:14:55",
+"link": "https://www.forrester.com/blogs/seven-insights-from-our-postsale-strategy-workshop-at-b2b-summit/"
+},
+{
+"id": 262931,
+"date": "2025-04-30T07:02:01",
+"link": "https://www.forrester.com/blogs/firing-all-cylinders-turning-product-launches-from-a-whimper-to-a-bang/"
+},
+{
+"id": 262949,
+"date": "2025-05-07T20:06:49",
+"link": "https://www.forrester.com/blogs/b2b-summit-emea-awards-call-for-entries/"
+},
+{
+"id": 263209,
+"date": "2025-05-02T09:15:11",
+"link": "https://www.forrester.com/blogs/the-end-of-sales-force-automation-as-a-tech-category/"
+},
+{
+"id": 263395,
+"date": "2025-05-05T13:29:19",
+"link": "https://www.forrester.com/blogs/refocus-on-customer-retention-and-growth-during-volatile-times/"
+},
+{
+"id": 264644,
+"date": "2025-05-23T07:45:51",
+"link": "https://www.forrester.com/blogs/events-are-under-pressure-6-findings-from-forresters-q1-2025-state-of-b2b-events-survey/"
+},
+{
+"id": 265135,
+"date": "2025-06-03T09:47:38",
+"link": "https://www.forrester.com/blogs/ai-in-events-a-promise-waiting-to-be-realized/"
+},
+{
+"id": 266296,
+"date": "2025-06-11T16:32:46",
+"link": "https://www.forrester.com/blogs/low-survey-response-rates-are-you-asking-the-wrong-question/"
+},
+{
+"id": 267052,
+"date": "2025-06-23T09:00:20",
+"link": "https://www.forrester.com/blogs/ai-assistants-and-analytics-what-stood-out-at-cvent-connect-2025/"
+},
+{
+"id": 267564,
+"date": "2025-06-25T11:21:58",
+"link": "https://www.forrester.com/blogs/ask-again-later-no-thanks-the-future-of-customer-success-is-now/"
+},
+{
+"id": 267883,
+"date": "2025-07-01T13:20:21",
+"link": "https://www.forrester.com/blogs/how-to-evaluate-intent-data-providers/"
+},
+{
+"id": 268629,
+"date": "2025-07-23T16:06:03",
+"link": "https://www.forrester.com/blogs/shrinking-budgets-and-rising-expectations-challenge-b2b-agency-partnerships/"
+},
+{
+"id": 268642,
+"date": "2025-07-23T13:06:26",
+"link": "https://www.forrester.com/blogs/economic-volatility-and-genai-are-forcing-a-rethink-of-b2b-brand-and-communications-budgets-in-2025/"
+},
+{
+"id": 271265,
+"date": "2025-08-06T16:43:56",
+"link": "https://www.forrester.com/blogs/meet-the-ai-agents-redefining-b2b-gtm-strategies-and-approaches-at-b2b-summit-emea/"
+},
+{
+"id": 272192,
+"date": "2025-08-20T09:00:34",
+"link": "https://www.forrester.com/blogs/fueling-revenue-process-transformation-through-b2b-events/"
+},
+{
+"id": 272298,
+"date": "2025-08-28T07:39:07",
+"link": "https://www.forrester.com/blogs/my-highlights-for-forresters-upcoming-b2b-summit-emea/"
+},
+{
+"id": 273306,
+"date": "2025-09-01T15:39:14",
+"link": "https://www.forrester.com/blogs/ready-to-master-buying-mayhem-join-us-at-an-upcoming-b2b-summit/"
+},
+{
+"id": 273311,
+"date": "2025-09-02T11:24:00",
+"link": "https://www.forrester.com/blogs/your-postsale-customer-data-unwrapped/"
+},
+{
+"id": 273748,
+"date": "2025-09-09T08:30:28",
+"link": "https://www.forrester.com/blogs/introducing-ai-access/"
+},
+{
+"id": 273855,
+"date": "2025-09-05T15:10:20",
+"link": "https://www.forrester.com/blogs/advance-your-b2b-content-engine-maturity-in-the-age-of-ai/"
+},
+{
+"id": 274077,
+"date": "2025-09-09T16:04:23",
+"link": "https://www.forrester.com/blogs/search-is-changing-is-your-content-strategy-ready/"
+},
+{
+"id": 274161,
+"date": "2025-09-09T14:03:45",
+"link": "https://www.forrester.com/blogs/three-takeaways-from-hubspots-inbound-2025/"
+},
+{
+"id": 274352,
+"date": "2025-09-25T15:47:20",
+"link": "https://www.forrester.com/blogs/everyone-wants-to-grow-few-want-to-do-the-work/"
+},
+{
+"id": 274376,
+"date": "2025-09-25T04:00:16",
+"link": "https://www.forrester.com/blogs/sales-leadership-why-now-is-the-time-to-embrace-revenue-process-transformation/"
+},
+{
+"id": 275220,
+"date": "2025-09-18T15:41:14",
+"link": "https://www.forrester.com/blogs/raise-your-revenue-process-transformation-iq-at-b2b-summit-emea/"
+},
+{
+"id": 275349,
+"date": "2025-10-08T04:00:36",
+"link": "https://www.forrester.com/blogs/predictions-2026-europes-push-for-simplification-and-sovereignty-wont-dislodge-us-tech-dominance/"
+},
+{
+"id": 275474,
+"date": "2025-09-23T09:11:45",
+"link": "https://www.forrester.com/blogs/revolutionizing-b2b-practices-bridging-generational-gaps-to-accelerate-revenue-growth/"
+},
+{
+"id": 276159,
+"date": "2025-09-25T07:59:04",
+"link": "https://www.forrester.com/blogs/the-implications-of-saleslofts-drift-data-breach/"
+},
+{
+"id": 277063,
+"date": "2025-10-15T16:08:23",
+"link": "https://www.forrester.com/blogs/reimagine-your-event-strategy-with-ai-at-forresters-b2b-summit-apac/"
+},
+{
+"id": 277121,
+"date": "2025-10-02T15:50:33",
+"link": "https://www.forrester.com/blogs/build-your-foundation-first-the-hard-truth-about-successful-ai-deployments/"
+},
+{
+"id": 277929,
+"date": "2025-10-09T12:48:35",
+"link": "https://www.forrester.com/blogs/from-scattered-tools-to-strategic-systems-three-themes-from-the-forrester-wave-customer-success-platforms-q4-2025/"
+},
+{
+"id": 278043,
+"date": "2025-10-10T11:37:29",
+"link": "https://www.forrester.com/blogs/personalization-makes-every-postsale-journey-your-b2b-customers-own/"
+},
+{
+"id": 278561,
+"date": "2025-10-28T04:00:54",
+"link": "https://www.forrester.com/blogs/predictions-2026-trust-gets-tested-for-b2b-marketing-sales-and-product-leaders/"
+},
+{
+"id": 279195,
+"date": "2025-10-21T11:25:09",
+"link": "https://www.forrester.com/blogs/introducing-the-forrester-wave-human-capital-management-solutions-q4-2025/"
+},
+{
+"id": 280986,
+"date": "2025-11-05T13:51:09",
+"link": "https://www.forrester.com/blogs/forresters-b2b-summit-emea-reconfigured-and-reenergized/"
+},
+{
+"id": 281109,
+"date": "2025-11-07T11:30:38",
+"link": "https://www.forrester.com/blogs/its-time-to-put-ai-to-work-in-postsale-engagement/"
+},
+{
+"id": 281171,
+"date": "2025-11-13T11:01:44",
+"link": "https://www.forrester.com/blogs/predictions-2026-trust-will-be-the-ultimate-currency-for-b2b-buyers/"
+},
+{
+"id": 281256,
+"date": "2025-11-10T14:58:36",
+"link": "https://www.forrester.com/blogs/its-time-to-reinvent-b2b-influencer-relations/"
+},
+{
+"id": 281649,
+"date": "2025-11-17T08:30:24",
+"link": "https://www.forrester.com/blogs/call-for-entries-forrester-b2b-summit-north-america-2026-awards/"
+},
+{
+"id": 283335,
+"date": "2025-12-01T17:48:30",
+"link": "https://www.forrester.com/blogs/make-internal-communications-a-strategic-lever-for-employee-and-brand-experience/"
+},
+{
+"id": 283437,
+"date": "2026-01-08T11:06:48",
+"link": "https://www.forrester.com/blogs/6-essentials-for-managing-platforms-and-portfolios/"
+},
+{
+"id": 283638,
+"date": "2025-12-05T17:53:13",
+"link": "https://www.forrester.com/blogs/your-secret-weapon-for-your-win-loss-program-three-ways-to-get-buyer-feedback-and-make-it-actionable/"
+},
+{
+"id": 284411,
+"date": "2025-12-17T08:00:42",
+"link": "https://www.forrester.com/blogs/in-the-ai-era-the-value-of-a-research-firm-is-still-largely-human/"
+},
+{
+"id": 284583,
+"date": "2025-12-18T10:15:24",
+"link": "https://www.forrester.com/blogs/predictions-2026-2/"
+},
+{
+"id": 284765,
+"date": "2025-12-23T11:49:48",
+"link": "https://www.forrester.com/blogs/five-practices-that-make-the-cmo-cpo-partnership-work/"
+},
+{
+"id": 284809,
+"date": "2026-01-07T21:47:23",
+"link": "https://www.forrester.com/blogs/enterprise-architecture-tools-become-a-1-billion-strategic-battleground/"
+},
+{
+"id": 285174,
+"date": "2026-01-08T16:11:22",
+"link": "https://www.forrester.com/blogs/reflecting-on-european-b2b-marketing-trends-from-2025-why-alignment-is-your-growth-engine/"
+},
+{
+"id": 285267,
+"date": "2026-01-15T08:30:58",
+"link": "https://www.forrester.com/blogs/hello-gtm-singularity-turn-ideas-into-action-at-b2b-summit-north-america/"
+},
+{
+"id": 285292,
+"date": "2026-01-09T08:08:19",
+"link": "https://www.forrester.com/blogs/is-ai-in-sales-a-sustainable-competitive-advantage-or-just-table-stakes/"
+},
+{
+"id": 285347,
+"date": "2026-01-27T08:30:46",
+"link": "https://www.forrester.com/blogs/social-media-takes-center-stage-in-b2b-buying-even-in-the-ai-era/"
+},
+{
+"id": 285861,
+"date": "2026-01-22T11:29:50",
+"link": "https://www.forrester.com/blogs/when-a-crisis-hits-too-many-b2b-companies-arent-ready/"
+},
+{
+"id": 285982,
+"date": "2026-01-21T08:30:57",
+"link": "https://www.forrester.com/blogs/state-of-business-buying-2026/"
+},
+{
+"id": 286392,
+"date": "2026-01-23T15:36:12",
+"link": "https://www.forrester.com/blogs/five-findings-about-todays-market-and-competitive-intelligence-programs/"
+},
+{
+"id": 286415,
+"date": "2026-01-20T18:12:35",
+"link": "https://www.forrester.com/blogs/demystifying-latent-demand/"
+},
+{
+"id": 286546,
+"date": "2026-02-02T11:25:07",
+"link": "https://www.forrester.com/blogs/customers-hold-the-key-to-your-new-aeo-strategy/"
+},
+{
+"id": 286758,
+"date": "2026-01-21T08:09:53",
+"link": "https://www.forrester.com/blogs/participate-in-forresters-2026-state-of-b2b-events-survey-and-gain-critical-insights-to-guide-your-event-strategy/"
+},
+{
+"id": 286911,
+"date": "2026-01-22T09:40:45",
+"link": "https://www.forrester.com/blogs/ai-in-b2b-digital-commerce-the-fast-lane-is-open-are-you-ready-to-drive/"
+},
+{
+"id": 287138,
+"date": "2026-01-27T08:29:57",
+"link": "https://www.forrester.com/blogs/why-cvent-acquired-on24-and-goldcast-and-what-comes-next/"
+},
+{
+"id": 288326,
+"date": "2026-02-03T17:11:15",
+"link": "https://www.forrester.com/blogs/a-defining-moment-for-cpq-inside-the-conga-pros-merger/"
+},
+{
+"id": 288905,
+"date": "2026-02-12T10:31:13",
+"link": "https://www.forrester.com/blogs/zero-click-is-only-half-the-ai-story/"
+},
+{
+"id": 289135,
+"date": "2026-02-12T12:23:22",
+"link": "https://www.forrester.com/blogs/from-pandemic-peak-to-practical-reality-the-new-virtual-event-landscape/"
+},
+{
+"id": 289738,
+"date": "2026-02-24T09:00:10",
+"link": "https://www.forrester.com/blogs/building-preference-is-the-key-to-winning-b2b-buyers/"
+},
+{
+"id": 289941,
+"date": "2026-02-24T09:19:52",
+"link": "https://www.forrester.com/blogs/agentic-ai-is-on-the-cusp-of-transforming-financial-services/"
+},
+{
+"id": 290483,
+"date": "2026-02-27T12:25:49",
+"link": "https://www.forrester.com/blogs/how-to-shape-ai-at-b2b-summit-from-ideas-to-execution/"
+},
+{
+"id": 290796,
+"date": "2026-03-10T10:00:45",
+"link": "https://www.forrester.com/blogs/the-future-of-b2b-gtm-isnt-human-versus-ai/"
+},
+{
+"id": 290838,
+"date": "2026-03-23T07:59:50",
+"link": "https://www.forrester.com/blogs/virtual-event-platforms-in-2026-the-live-event-is-no-longer-the-product/"
+},
+{
+"id": 291559,
+"date": "2026-03-16T17:13:48",
+"link": "https://www.forrester.com/blogs/why-an-ai-event-strategy-is-becoming-a-leadership-issue-not-a-technology-one/"
+},
+{
+"id": 291663,
+"date": "2026-03-16T11:46:07",
+"link": "https://www.forrester.com/blogs/new-report-released-on-the-state-of-buying-in-the-public-sector-in-2026/"
+},
+{
+"id": 291714,
+"date": "2026-03-16T13:51:44",
+"link": "https://www.forrester.com/blogs/from-two-teams-to-one-conga-line-conga-and-pros-creating-momentum-together/"
+},
+{
+"id": 292099,
+"date": "2026-03-23T06:17:43",
+"link": "https://www.forrester.com/blogs/banks-are-losing-their-place-in-small-business-decisions-heres-how-to-reclaim-it/"
+},
+{
+"id": 292512,
+"date": "2026-03-24T14:59:26",
+"link": "https://www.forrester.com/blogs/cs-operations-the-air-traffic-control-tower-your-cs-team-needs/"
+},
+{
+"id": 292842,
+"date": "2026-04-02T08:30:03",
+"link": "https://www.forrester.com/blogs/announcing-the-winners-of-forresters-b2b-return-on-integration-honors-for-north-america-2026/"
+},
+{
+"id": 293392,
+"date": "2026-04-01T15:23:38",
+"link": "https://www.forrester.com/blogs/what-oracles-layoffs-really-signal-for-b2b-marketing-sales-and-revenue-operations/"
+},
+{
+"id": 294035,
+"date": "2026-04-07T14:22:05",
+"link": "https://www.forrester.com/blogs/why-marketing-plans-fail-and-how-a-plan-of-record-fixes-it/"
+},
+{
+"id": 294290,
+"date": "2026-04-10T10:07:06",
+"link": "https://www.forrester.com/blogs/customer-success-enters-the-agentic-era/"
+},
+{
+"id": 294835,
+"date": "2026-04-15T13:22:20",
+"link": "https://www.forrester.com/blogs/ai-search-will-crack-the-foundation-of-b2b-marketings-accountability-model/"
+},
+{
+"id": 295329,
+"date": "2026-04-23T10:26:42",
+"link": "https://www.forrester.com/blogs/cpq-vendors-face-a-new-test-handling-real-world-complexity/"
+},
+{
+"id": 295733,
+"date": "2026-04-23T10:31:39",
+"link": "https://www.forrester.com/blogs/your-growth-strategy-isnt-broken-its-avoiding-decisions/"
+},
+{
+"id": 295861,
+"date": "2026-04-27T11:30:15",
+"link": "https://www.forrester.com/blogs/mission-possible-navigating-the-gtm-singularity/"
+},
+{
+"id": 295881,
+"date": "2026-05-04T09:46:34",
+"link": "https://www.forrester.com/blogs/marketing-program-proliferation-hurts-customer-experience-and-limits-business-growth/"
+},
+{
+"id": 295884,
+"date": "2026-04-24T07:49:23",
+"link": "https://www.forrester.com/blogs/digital-natives-are-rewriting-b2b-buying-and-its-impacting-your-revenue-performance/"
+},
+{
+"id": 296027,
+"date": "2026-04-29T17:50:04",
+"link": "https://www.forrester.com/blogs/parting-thoughts-b2b-summit-north-america-2026/"
+},
+{
+"id": 297008,
+"date": "2026-05-07T10:00:54",
+"link": "https://www.forrester.com/blogs/ai-is-everywhere-in-gtm-customer-value-isnt/"
+},
+{
+"id": 297197,
+"date": "2026-05-11T14:03:15",
+"link": "https://www.forrester.com/blogs/never-stop-learning-what-future-leaders-taught-us/"
+},
+{
+"id": 297398,
+"date": "2026-05-14T10:00:57",
+"link": "https://www.forrester.com/blogs/rdrs-arent-going-away-theyre-becoming-the-center-of-revenue-execution-in-the-age-of-ai-and-buying-groups/"
+},
+{
+"id": 297778,
+"date": "2026-05-21T03:35:33",
+"link": "https://www.forrester.com/blogs/most-b2b-marketing-organizations-are-not-short-on-activity-they-are-short-on-learning/"
+},
+{
+"id": 297860,
+"date": "2026-05-20T17:06:26",
+"link": "https://www.forrester.com/blogs/honeywells-gtm-transformation-what-we-learned-at-b2b-summit/"
+},
+{
+"id": 298406,
+"date": "2026-06-01T10:14:13",
+"link": "https://www.forrester.com/blogs/european-b2b-marketing-has-a-data-problem-not-a-vision-problem/"
+},
+{
+"id": 298409,
+"date": "2026-06-01T10:56:22",
+"link": "https://www.forrester.com/blogs/if-buyers-change-how-they-search-marketing-must-change-how-it-shows-up/"
+},
+{
+"id": 298413,
+"date": "2026-06-01T10:56:48",
+"link": "https://www.forrester.com/blogs/italys-b2b-marketing-challenge-is-not-strategy-its-focus-and-alignment/"
+},
+{
+"id": 298490,
+"date": "2026-06-02T07:06:32",
+"link": "https://www.forrester.com/blogs/the-state-of-portfolio-and-product-marketing-in-2026/"
+},
+{
+"id": 298502,
+"date": "2026-06-04T10:00:34",
+"link": "https://www.forrester.com/blogs/unlock-your-ai-opportunity-at-forresters-ai-forums/"
+},
+{
+"id": 298554,
+"date": "2026-06-15T10:08:06",
+"link": "https://www.forrester.com/blogs/coupas-inspire-2026-unveils-a-strategy-and-acquisition-spree-to-build-the-autonomous-spend-management-network/"
+},
+{
+"id": 299115,
+"date": "2026-06-10T15:51:00",
+"link": "https://www.forrester.com/blogs/customer-success-and-customer-experience-the-difference-is-more-than-semantic/"
+},
+{
+"id": 299139,
+"date": "2026-06-10T17:07:46",
+"link": "https://www.forrester.com/blogs/retention-as-a-service-is-an-intriguing-idea-heres-what-it-actually-means/"
+},
+{
+"id": 299219,
+"date": "2026-06-30T18:00:25",
+"link": "https://www.forrester.com/blogs/get-ready-for-the-gtm-singularity-at-forresters-b2b-forum-emea/"
+},
+{
+"id": 299452,
+"date": "2026-06-17T04:00:25",
+"link": "https://www.forrester.com/blogs/call-for-entries-forresters-b2b-forum-emea-2026-awards/"
+},
+{
+"id": 299995,
+"date": "2026-06-25T15:07:22",
+"link": "https://www.forrester.com/blogs/the-next-era-of-b2b-events-eight-data-backed-shifts-defining-2026/"
+},
+{
+"id": 300364,
+"date": "2026-07-06T08:00:30",
+"link": "https://www.forrester.com/blogs/net-zero-in-2026-why-pragmatism-drives-companies-to-take-different-paths/"
+},
+{
+"id": 300856,
+"date": "2026-07-15T17:29:53",
+"link": "https://www.forrester.com/blogs/as-ai-use-expands-b2b-marketers-become-more-selective-about-agency-spend/"
+},
+{
+"id": 301791,
+"date": "2026-07-29T10:33:00",
+"link": "https://www.forrester.com/blogs/the-quiet-fix-for-silos-frontline-marketings-biggest-self-inflicted-problem/"
+},
+{
+"id": 302184,
+"date": "2026-08-05T10:27:14",
+"link": "https://www.forrester.com/blogs/b2b-marketing-is-moving-faster-than-its-foundations-can-handle/"
+},
+{
+"id": 302858,
+"date": "2026-08-24T05:19:24",
+"link": "https://www.forrester.com/blogs/too-many-ai-use-cases-too-little-impact/"
+},
+{
+"id": 303392,
+"date": "2026-09-02T11:00:29",
+"link": "https://www.forrester.com/blogs/meet-the-winners-of-the-2026-b2b-awards-and-hear-their-stories-live-at-b2b-forum-emea/"
+},
+{
+"id": 303631,
+"date": "2026-09-11T05:59:41",
+"link": "https://www.forrester.com/blogs/how-leading-organizations-are-rethinking-b2b-event-strategy/"
+},
+{
+"id": 303916,
+"date": "2026-09-14T14:15:50",
+"link": "https://www.forrester.com/blogs/if-everyone-has-ai-where-will-advantage-come-from/"
+},
+{
+"id": 303949,
+"date": "2026-09-10T13:39:54",
+"link": "https://www.forrester.com/blogs/companies-get-the-marketing-they-expect/"
+},
+{
+"id": 303953,
+"date": "2026-09-10T14:30:31",
+"link": "https://www.forrester.com/blogs/the-world-that-spawned-revops-is-unrecognizable/"
+},
+{
+"id": 304011,
+"date": "2026-09-11T11:38:49",
+"link": "https://www.forrester.com/blogs/b2b-growth-is-a-team-sport-winning-the-buying-group-era-requires-every-function-to-play-together/"
+},
+{
+"id": 305105,
+"date": "2026-09-29T13:59:24",
+"link": "https://www.forrester.com/blogs/as-ai-adoption-surges-in-b2b-marketing-work-is-changing/"
+},
+{
+"id": 305775,
+"date": "2026-10-20T08:00:17",
+"link": "https://www.forrester.com/blogs/ten-rules-for-building-a-sustainable-b2b-webinar-program/"
+},
+{
+"id": 306177,
+"date": "2026-10-15T11:11:38",
+"link": "https://www.forrester.com/blogs/ai-wont-save-revops-it-will-redefine-it/"
+},
+{
+"id": 306468,
+"date": "2026-10-19T18:58:48",
+"link": "https://www.forrester.com/blogs/marketings-next-ai-challenge-scale-what-works-without-losing-control/"
+},
+{
+"id": 306852,
+"date": "2026-10-22T16:24:26",
+"link": "https://www.forrester.com/blogs/the-next-generation-of-cpq-wont-look-much-like-cpq/"
+}
+]
+}

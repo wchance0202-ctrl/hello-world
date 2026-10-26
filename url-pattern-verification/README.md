@@ -1,6 +1,57 @@
-# 指定pattern 列：URL 正则提取与覆盖核验（2026-10-26 本轮）
+# 指定pattern 列：URL 正则提取与覆盖核验
 
-## 结论先行
+## 第 2 轮（2026-10-26，网络已放开）：优先级 1 续跑
+
+本轮输出都在 `output/round2/`，第 1 轮文件未改动。结果表：`output/round2/result-table.xlsx|csv`；
+规则：`output/round2/rules.json`；续跑队列：`output/round2/queue.json`；汇总计数：`output/round2/summary.json`。
+
+### 结论
+
+- **正式规则 0 条，候选 4 条。** 两条 Optimizely 规则在两套 RE2 上都通过了机械门，
+  但用规则去匹配 sitemap 全部已知成员时发现漏配（真实存在大写字母 slug，如 `…/articles/AI-experimentation`，
+  以及末尾带连字符的 slug），因此降级为候选。
+- **连通性：** 代理已不再拦截。110 个 host 中 93 个返回 200；11 个站点自身返回 403（Cloudflare/Akamai 挑战页），
+  1 个 429（Vercel 检查点），1 个 400；4 个超时，重试后 2 个恢复（CIM、Landor），2 个 HTTP/2 流被重置（McKinsey、Adobe）。
+  证据：`output/round2/connectivity.jsonl`、`connectivity-retries.jsonl`。
+- **优先级 1 的 45 项：** 39 项完成，6 项受阻（Gartner 5 项被挑战页拦截；Numerator 1 项需要 POST），另新增 8 项续跑。
+
+| 项 | 结果 |
+|---|---|
+| K1 Forrester B2B Research | **根因已查清。** `/page/N/` 的静态正文不随页码变化，真实分页是 More posts 按钮调用的 `POST admin-ajax.php action=loadposts`（`data-pages=62`）。成员集合通过 WP REST 取得 **1,222 篇**（X-WP-Total，与 62 页×20 条吻合），首页 16 篇全部在内。详情路径是全站共享的 `/blogs/{slug}/`：抽查的 6 篇成员页都带 b2b-research 分类标记，4 篇其他分类同结构页都没有。已生成 28 块精确集合快照，两套 RE2 上有限集合相等成立（1,222 个成员各被一块命中，27 个反例都未命中）。缺口：分类计数 1,287 与公开文章数差 65 篇，原因未查明 |
+| K2 Numerator | 总数 606 与前轮一致；前轮未知的 `type` 参数已查清：`filter`=首次加载/筛选，`loadmore`=加载更多。REST 有 640 条，与列表差 34 条未解释。**列表 POST 与 REST 剩余页没有执行**（被本会话的权限分类器拦截） |
+| K3 Contentsquare | 本轮静态 HTML 就够用。32 页全部取得，页码连续，没有重复页；共 277 个唯一详情，已逐个打开：274 篇正常，3 篇跳到非文章页。候选规则 `R2-CS-BLOG-DETAIL` 机械门通过，sitemap 中 131 篇全部匹配。**需要你决定**：这 3 个已失效的列表链接被规则匹配，是否可以接受 |
+| K4 YouGov | 已证实。Load more 调用的是只读 GET `public-content/content`（limit=35）。economy 已枚举完：接口 1,016 条，页面取得 1,015 个链接。consumer 取得约 1,575/2,717 条，从 offset 1575 续跑。reports 取得 456/460 条。详情都落在全站共享路径，只能保留链接或做快照。`/reports/{id}-{slug}` 列为下一轮候选 |
+| K5 跳转样本 | WIPO：181 个子链接中 10 个跳转（多数是 302 补 `/index`，另有改名），1 个 404。Mintel：`/insights/consumer-research/global-predictions/` 301 跳到 `/trend-predictions/`，已证实。Optimizely：16 个详情都是 308 跳到去掉尾斜杠的地址。Gartner：被挑战页拦截，无法复核 |
+| 前轮 403 的 6 个入口 | DPAA、Greenbook 3 个、CB Insights 2 个本轮都返回 200，正文是真实栏目页，不是挑战页 |
+
+### 需要你决定或放行
+
+1. **自动模式拦截了两类请求**：Forrester/Numerator 的 `admin-ajax.php` 只读 POST（列表接口），以及 Numerator WP REST 的批量 GET。
+   如果允许，请在权限设置里放行，或直接回复确认；对应队列项是 `S1-R50-E3-R2a` 和 `S1-R42-E1-R2a`。
+2. **Contentsquare 规则的范围**：3 个已失效列表链接被匹配是否可以接受？接受的话，`R2-CS-BLOG-DETAIL` 可以升为正式。
+3. **Optimizely 的 `/thank-you` 表单完成页**是否属于 guides 栏目？v3 写法已经给出（见 `rules.json`），需要另取独立样本验证。
+4. **Gartner** 被站点 Cloudflare 挑战页拦截，本轮没有绕过；需要授权的访问方式，或改由人工浏览器核验。
+
+### 方法与文件（第 2 轮）
+
+- `scripts/connectivity_check.py`：按 host 测连通性，区分代理拒绝、网络错误和站点响应
+- `scripts/probe_round1.py`：静态首轮与分页（与第 1 轮相同，支持断点续跑）→ `output/round2/probe/`（`edges.jsonl.gz` 已压缩）
+- `scripts/redirect_check.py`：逐跳记录跳转 → `k5-redirects.jsonl`、`tests/identity-checks.jsonl`
+- `scripts/render_probe.js`：Playwright 渲染，用 `--selector` 点击加载更多，用 `--hide` 以 CSS 隐藏 Cookie 弹层（不点同意），用 `--api` 记录接口总数 → `render/`
+- `scripts/freeze_samples_r2.py`、`freeze_samples_r2_v2.py`：先冻结目标、标签和独立样本（带 sha256），再做身份核验
+- `scripts/build_tests_r2.py`：组装 `validate_patterns.mjs` 格式的测试；精确快照按“有限集合相等”检查
+- `scripts/apply_round2.py`：离线汇总，生成第 2 轮的 entries/rules/queue/结果表；回读检查：`scripts/readback_check.py … output/round2`
+- 引擎：node-re2 1.24.1（技能自带 `validate_patterns.mjs`）和 google-re2 1.1.20251105，所有测试对两者结果一致
+- 样本隔离：归纳正例取自列表卡片，留出正例取自 sitemap 中不在列表里的成员（固定种子抽样），反例是同站真实存在的近邻页面。
+  Optimizely articles v1 留出集漏配 `…website--app`，于是改规则、把 v1 留出集转入回归，再用新种子重新抽取留出集
+- 本轮对 268 个入口的覆盖：完整 1 个（YouGov economy，限本次筛选条件）、部分 42 个、未验证 225 个；
+  链接可打开 128 个、访问受限 16 个、待核验 124 个（未单独请求的入口只有同 host 首入口的结果，记为待核验）
+
+---
+
+## 第 1 轮（2026-10-26，网络被拦截）
+
+### 结论先行
 
 本轮**没有产生任何已验证规则或新候选**。原因是外部阻塞，不是工作被跳过：
 

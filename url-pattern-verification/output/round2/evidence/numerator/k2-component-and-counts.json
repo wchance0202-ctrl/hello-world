@@ -1,0 +1,62 @@
+{
+ "observed_at": "2026-10-26T08:27Z",
+ "entry": "https://www.numerator.com/resources/",
+ "page_result_count_text": "606 Results",
+ "component": {
+  "endpoint": "POST https://www.numerator.com/wp-admin/admin-ajax.php",
+  "action": "filter_resources",
+  "params": [
+   "searchText",
+   "categoryText",
+   "postperpage=8",
+   "currentPostCount",
+   "insightsPaged",
+   "type"
+  ],
+  "type_values": {
+   "filter": "首次加载/筛选按钮/回车（insightsPaged 重置为 1）",
+   "loadmore": "Load More 按钮（insightsPaged+1）"
+  },
+  "end_marker": "data.data == 'false' 时隐藏 Load More",
+  "category_options": {
+   "68": "Article (slug blog)",
+   "70": "Case Study",
+   "69": "Report",
+   "67": "Webinar",
+   "71": "White Paper"
+  },
+  "executed_this_round": false,
+  "why_not": "本会话权限分类器拦截了对 admin-ajax 的 POST 与后续 REST 批量 GET"
+ },
+ "rest_cross_check": {
+  "endpoint": "GET https://www.numerator.com/wp-json/wp/v2/resource",
+  "x_wp_total": 640,
+  "pages_fetched": "1/7",
+  "intelligence_type_counts": {
+   "blog(68)": 231,
+   "case-study(70)": 20,
+   "report(69)": 254,
+   "webinar(67)": 108,
+   "white-paper(71)": 24,
+   "analysis(73)": 3
+  },
+  "gap": "REST 640 vs 列表 606，差 34 条未解释（5 个可选类型合计 637，另有 analysis 3 条不在下拉中）"
+ },
+ "first_page_cards": [
+  "https://www.numerator.com/resources/blog/2026-holiday-toy-shopping/",
+  "https://www.numerator.com/resources/report/purposeful-pantry/",
+  "https://www.numerator.com/resources/webinar/olipop-spark-session/",
+  "https://www.numerator.com/resources/blog/from-hype-to-habit/",
+  "https://www.numerator.com/resources/blog/asian-consumer-spending-outlook/",
+  "https://www.numerator.com/resources/webinar/restaurant-guest-relationship/",
+  "https://www.numerator.com/resources/report/pizza-share/",
+  "https://www.numerator.com/resources/report/sip-season-showdown-summer-2026/"
+ ],
+ "rest_page1_link_shapes": [
+  "https://www.numerator.com/resources/blog/{slug}/",
+  "https://www.numerator.com/resources/case-study/{slug}/",
+  "https://www.numerator.com/resources/report/{slug}/",
+  "https://www.numerator.com/resources/webinar/{slug}/",
+  "https://www.numerator.com/resources/white-paper/{slug}/"
+ ]
+}

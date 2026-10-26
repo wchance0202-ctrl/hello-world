@@ -1,0 +1,3683 @@
+{
+ "url": "https://yougov.com/reports",
+ "observed_at": "2026-10-26T08:44:29.590Z",
+ "method": "playwright-chromium",
+ "final_url": "https://yougov.com/reports",
+ "status": 200,
+ "error": null,
+ "title": "White papers & reports: Gain deeper insight into your sector",
+ "h1": "White papers and research reports",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 204,
+   "new_in_prefix": 204,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 1,
+   "anchors": 204,
+   "new_in_prefix": 0,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 240,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 3,
+   "anchors": 276,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 4,
+   "anchors": 312,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 5,
+   "anchors": 348,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 6,
+   "anchors": 384,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 7,
+   "anchors": 420,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 8,
+   "anchors": 456,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 9,
+   "anchors": 492,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 10,
+   "anchors": 528,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 11,
+   "anchors": 564,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 12,
+   "anchors": 600,
+   "new_in_prefix": 35,
+   "clicked": "button.load-more"
+  },
+  {
+   "round": 13,
+   "anchors": 636,
+   "new_in_prefix": 35,
+   "clicked": null
+  },
+  {
+   "round": 14,
+   "anchors": 636,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/d6184387-4576-4218-9f38-639c735ffe2e/d6184387-4576-4218-9f38-639c735ffe2e.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=553266&u=https%3A%2F%2Fyougov.com%2Freports&vn=2.2&ph=1&st=4185&x=true"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/d6184387-4576-4218-9f38-639c735ffe2e/01a13564-ae63-7810-ace8-8c70fdd4986a/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/otCenterRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.yougov.com/platform/attributor/v1/attributions/d31-40--5-2-84----99-d2-8f-91d38-f-----caf-c0f689935------------"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/connect/2/28418fab15?a=553988785&v=1.324.0&s=15e9195336e2f2c3"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004269734&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_1%26trace.firstTimestamp%3D1793004269734%26trace.lastTimestamp%3D1793004284552%26trace.nodes%3D145%26trace.originTimestamp"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/rum/2/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=15439&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1&af=err,spa,xhr,stn,ins&ap=0.576664&be=1239&fe=13579&dc=13571&fp=4204&fcp=5576&perf=%7B%22timing%22:%7B%22of%22:1793004269595,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:3,%22s%22:33,%22ce%22:102,%22r"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=15445&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/jserrors/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=15451&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=15471&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004273920&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_2%26trace.firstTimestamp%3D1793004273920%26trace.lastTimestamp%3D1793004285170%26trace.nodes%3D46%26trace.originTimestamp%"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/ins/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=15481&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdn.dreamdata.cloud/api/v1/p"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/concierge-api/status"
+  },
+  {
+   "method": "GET",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=35&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004282723&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_3%26trace.firstTimestamp%3D1793004282723%26trace.lastTimestamp%3D1793004292041%26trace.nodes%3D123%26trace.originTimestamp"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004286386&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_4%26trace.firstTimestamp%3D1793004286386%26trace.lastTimestamp%3D1793004297075%26trace.nodes%3D126%26trace.originTimestamp"
+  },
+  {
+   "method": "GET",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AEAAACA&_fplc=0&ae=a&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Bran"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=70&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004295840&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_5%26trace.firstTimestamp%3D1793004295840%26trace.lastTimestamp%3D1793004300995%26trace.nodes%3D131%26trace.originTimestamp"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=105&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004300593&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_6%26trace.firstTimestamp%3D1793004300593%26trace.lastTimestamp%3D1793004306921%26trace.nodes%3D136%26trace.originTimestamp"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=140&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=175&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004305580&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_7%26trace.firstTimestamp%3D1793004305580%26trace.lastTimestamp%3D1793004312975%26trace.nodes%3D138%26trace.originTimestamp"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=45086&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/jserrors/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=45087&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=45089&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004291996&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_8%26trace.firstTimestamp%3D1793004291996%26trace.lastTimestamp%3D1793004314115%26trace.nodes%3D48%26trace.originTimestamp%"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/ins/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=45090&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=210&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=245&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004313983&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_9%26trace.firstTimestamp%3D1793004313983%26trace.lastTimestamp%3D1793004322299%26trace.nodes%3D135%26trace.originTimestamp"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=280&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004320994&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_10%26trace.firstTimestamp%3D1793004320994%26trace.lastTimestamp%3D1793004326075%26trace.nodes%3D127%26trace.originTimestam"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=315&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004323595&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_11%26trace.firstTimestamp%3D1793004323595%26trace.lastTimestamp%3D1793004331095%26trace.nodes%3D129%26trace.originTimestam"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=350&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004327256&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_12%26trace.firstTimestamp%3D1793004327256%26trace.lastTimestamp%3D1793004336183%26trace.nodes%3D134%26trace.originTimestam"
+  },
+  {
+   "method": "GET",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=385&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004329802&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_13%26trace.firstTimestamp%3D1793004329802%26trace.lastTimestamp%3D1793004342931%26trace.nodes%3D142%26trace.originTimestam"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=420&site=yougov.com&language=en&article_type=WhitePaperPage"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/jserrors/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=75344&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=75346&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/blobs?browser_monitoring_key=28418fab15&type=BrowserSessionChunk&app_id=553988785&protocol_version=0&timestamp=1793004342937&attributes=entityGuid%3DMzcwNzAzfEJST1dTRVJ8QVBQTElDQVRJT058NTk0NTI4ODIy%26harvestId%3D15e9195336e2f2c3_0330de2301441bdc_14%26trace.firstTimestamp%3D1793004342937%26trace.lastTimestamp%3D1793004345070%26trace.nodes%3D35%26trace.originTimestamp"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/ins/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=75357&s=15e9195336e2f2c3&ref=https://yougov.com/reports&ptid=0330de2301441bdc&ht=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://server-side.yougov.com/g/collect?v=2&tid=G-JE93606XK0&gtm=45he6al1v872062383z89208480756za20kzb9208480756zd9208480756xf3xg4&_p=1793004273781&gcs=G100&gcd=13p3pPp2p5l1&npa=1&dma_cps=-&dma=1&gdid=dYWJhMj&ecid=433039279&_eu=AAAAACA&_fplc=0&cid=2017239173.1793004278&ec_mode=c&frm=0&gtm_up=1&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2"
+  }
+ ],
+ "api": [
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=35&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=70&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=105&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=140&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=175&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=210&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=245&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=280&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=315&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=350&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=385&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  },
+  {
+   "url": "https://api-test.yougov.com/public-content/content?type=article&limit=35&offset=420&site=yougov.com&language=en&article_type=WhitePaperPage",
+   "status": 200,
+   "keys": [
+    "data",
+    "hits",
+    "aggregations"
+   ],
+   "numbers": {
+    "hits": 460
+   },
+   "items": 35
+  }
+ ],
+ "anchors": [
+  {
+   "href": "https://d18w79e3uiqk2z.cloudfront.net/ed751885/#main",
+   "text": "Skip to main content",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-gb/reports",
+   "text": "United Kingdom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/de-de/reports",
+   "text": "Deutschland",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/rapports",
+   "text": "France",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/es-es/informes",
+   "text": "España",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/it-it/report",
+   "text": "Italia",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "International",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-gb/reports",
+   "text": "United Kingdom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/de-de/reports",
+   "text": "Deutschland",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/rapports",
+   "text": "France",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/es-es/informes",
+   "text": "España",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/it-it/report",
+   "text": "Italia",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "International",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "Switch to United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "Contact sales",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/reports/most-recommended-brands",
+   "text": "YouGov’s Most Recommended Brands 2026 across the globe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/consumer",
+   "text": "Consumer & retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/economy",
+   "text": "Economy & business",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/entertainment",
+   "text": "Entertainment, arts, & media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/health",
+   "text": "Health & pharma",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/politics",
+   "text": "Politics & current affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/society",
+   "text": "Society & lifestyle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/sports",
+   "text": "Sports & esports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/technology",
+   "text": "Technology & digital",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/travel",
+   "text": "Travel & transport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/articles",
+   "text": "Articles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content",
+   "text": "All publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/audience-activation",
+   "text": "Audience activation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles/profiles-api",
+   "text": "Data integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/market-intelligence",
+   "text": "Market & category intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/channel-strategy",
+   "text": "Media, comms & channel strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/persona-creation",
+   "text": "Persona creation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/audience-intelligence",
+   "text": "Understanding an audience",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/brand-tracking",
+   "text": "Brand health tracking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/campaign-measurement",
+   "text": "Campaign measurement & attribution",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/competitor-monitoring",
+   "text": "Competitor tracking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/public-relations",
+   "text": "PR & crisis management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/sports-sponsorship",
+   "text": "Sponsorship valuation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/ad-testing",
+   "text": "Creative & ad testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/trend-monitoring",
+   "text": "Emerging trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/product-development",
+   "text": "Product development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/qualitative-research",
+   "text": "Qualitative research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/research-surveys",
+   "text": "Quantitative research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/category-management",
+   "text": "Category management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/customer-satisfaction",
+   "text": "Customer satisfaction",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/purchase-path",
+   "text": "Path to purchase",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/price-promotion-strategy",
+   "text": "Price & promotion strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/shopper",
+   "text": "Shopper insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles",
+   "text": "ProfilesDiscover our flagship audience tool: deep audience understanding",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles/profiles-api",
+   "text": "Profiles API & MCPIngest YouGov Profiles data directly into your systems, AI models, agentic workflows,",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/categoryview",
+   "text": "CategoryViewBrand, industry, and audience tracking.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex",
+   "text": "BrandIndexDiscover our flagship tool: daily brand and competitor tracking across 16 metrics.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex/brandindex-api",
+   "text": "BrandIndex API & MCPInfuse BrandIndex data directly into your in-house systems, AI models, and solutions.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-trackers",
+   "text": "Custom TrackingDynamic, integrated performance monitoring for your brand.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/parallax",
+   "text": "New: YouGov ParallaxAI twins answer all your questions instantly. Live panelists validate in 30 minutes.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/self-serve-surveys",
+   "text": "Surveys: Self-serve24/7 survey-building research platform with exceptional speed.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/research-surveys",
+   "text": "SurveysRun research to nat rep or targeted audiences with research-supported options.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-research",
+   "text": "Custom quantitativeBespoke market research with end-to-end expert support.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex/voices",
+   "text": "YouGov Voices AI InterviewerAI-powered interviewing tool that enables brands to hear directly from real people.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/qualitative-research/video-voices-uk",
+   "text": "Video VoicesAdd qualitative video answers to your next YouGov survey.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-research",
+   "text": "Custom qualitativeBespoke market research with end-to-end expert support.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/academia",
+   "text": "Academia & non-profits",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/agencies",
+   "text": "Agencies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/financial-services",
+   "text": "Financial services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/politics",
+   "text": "Government & politics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/health-pharmaceutical",
+   "text": "Health & pharma",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/media",
+   "text": "Media & entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "Retail & FMCG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/sports",
+   "text": "Sport & esports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/technology",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/travel",
+   "text": "Travel, transport & auto",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/data",
+   "text": "Data accuracy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/panel",
+   "text": "Panel quality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/ai-innovation",
+   "text": "Technology & innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/expertise",
+   "text": "YouGov Thinking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About YouGov",
+   "region": "NAV"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Our methodology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our panel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Work with us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/case-studies",
+   "text": "Client case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/events",
+   "text": "Industry events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/guides",
+   "text": "How-to guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "Industry reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panel member support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/search",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://account.yougov.com/region?sourceid=3631640",
+   "text": "Log in",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://platform.yougov.com/",
+   "text": "Log in",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://account.yougov.com/region?sourceid=3631640",
+   "text": "Register",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://platform.yougov.com/register/home",
+   "text": "Register",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://d18w79e3uiqk2z.cloudfront.net/ed751885/#main",
+   "text": "Skip to main content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-gb/reports",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "United States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/de-de/reports",
+   "text": "Deutschland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/rapports",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/es-es/informes",
+   "text": "España",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/it-it/report",
+   "text": "Italia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "International",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-gb/reports",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "United States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/de-de/reports",
+   "text": "Deutschland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/rapports",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/es-es/informes",
+   "text": "España",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/it-it/report",
+   "text": "Italia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "International",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/reports",
+   "text": "Switch to United StatesSwitch to US",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "Contact sales",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/search",
+   "text": "Search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/reports/most-recommended-brands",
+   "text": "YouGov's Most Recommended Brands 2026\nExplore YouGov’s Most Recommended Brands 2026 reports to discover the brands custo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55721-sustainability-decisions-building-decision-confidence-in-a-changing-shopper-environment-yougov-shopper",
+   "text": "Sustainability decisions: Building decision confidence in a changing shopper environment\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55727-au-mega-sales-report-2026",
+   "text": "The bots and the basket: AI's role in Black Friday and Cyber Monday 2026 in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55704-uae-mega-sales-report-dsf",
+   "text": "[UAE] The bots and the basket: AI’s role in Dubai Shopping Festival 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55593-india-festive-shopping-report-2026",
+   "text": "India Festive Shopping Report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55624-yougov-shopper-stay-on-top-of-the-latest-fmcg-market-developments-in-the-netherlands",
+   "text": "Stay on top of the latest FMCG market developments in the Netherlands\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55519-denmarks-most-recommended-brands-2026",
+   "text": "Denmark´s Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55524-norways-most-recommended-brands-2026",
+   "text": "Norway´s Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55523-finlands-most-recommended-brands-2026",
+   "text": "Finland´s Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55522-swedens-most-recommended-brands-2026",
+   "text": "Sweden´s Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55470-mena-most-recommended-brands-2026",
+   "text": "UAE & KSA's Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55464-apac-most-recommended-brands-2026",
+   "text": "APAC's Most Recommended Brands 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55456-following-the-music-apac-concert-goers-report-2026",
+   "text": "Following the music: APAC concert goers report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55360-yougov-shopper-european-shoppers-priorities",
+   "text": "European shopper priorities\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55178-pride-brand-check-2026-between-purpose-and-impact-denmark",
+   "text": "Pride brand check 2026: Between purpose and impact - Denmark\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55140-pride-brand-check-2026-between-purpose-and-impact-sweden",
+   "text": "Pride brand check 2026: Between purpose and impact - Sweden\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55147-beauty-perspectives",
+   "text": "Beauty Perspectives: Four tensions defining FMCG\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55102-au-websearch-ai-report-2026",
+   "text": "[Australia] Searching for answers: How AI is changing online discovery in ​2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55100-india-websearch-ai-report-2026",
+   "text": "[India] Searching for answers: How AI is changing online discovery in ​2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54970-influence-in-hong-kong-celebrities-brand-collaborations-and-sponsorship-impact",
+   "text": "Influence in Hong Kong: Celebrities, brand collaborations and sponsorship impact\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/55024-beyond-non-food-how-action-and-dealz-are-reshaping-retail-in-poland",
+   "text": "Beyond Non-Food: How Action and Dealz Are Reshaping Retail in Poland\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54971-the-rise-of-pet-friendly-retail-in-hong-kong",
+   "text": "The rise of pet-friendly retail in Hong Kong\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54910-uae-podcast-advertising-report-2026",
+   "text": "More than meets the ear: UAE podcast ads report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54909-sg-podcast-advertising-report-2026",
+   "text": "More than meets the ear: Singapore podcast ads report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54836-indian-cricket-fandom-report-2026",
+   "text": "Indian cricket fandom report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54820-flying-high-nordics-airline-rankings-2026",
+   "text": "Flying high: Nordics airline rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54773-flying-high-singapore-airline-rankings-2026",
+   "text": "Flying high: Singapore airline rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54776-flying-high-ksa-airline-rankings-2026",
+   "text": "Flying high: KSA airline rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54617-th-auto-rankings-report-2026",
+   "text": "Thailand auto rankings 2026: ​Driving brand preference\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54616-id-auto-rankings-report-2026",
+   "text": "Indonesia auto rankings 2026: ​Driving brand preference\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54553-india-debt-savings-investment-report-2026",
+   "text": "Getting by or getting ahead? India's debt, investment, and savings report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54551-au-debt-savings-investment-report-2026",
+   "text": "Getting by or getting ahead? Australia debt, investment, and savings report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54577-polish-shopper-behavior-what-shapes-responsible-buying-decisions-in-fmcg",
+   "text": "Polish shopper behavior: What shapes responsible buying decisions in FMCG?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54509-fifa-world-cup-2026-global-brand-handbook-us",
+   "text": "FIFA World Cup 2026 global brand handbook\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54515-the-gap-opportunity-unlocking-newly-measured-segments-with-distinct-drivers-and-dynamics",
+   "text": "The Gap Opportunity: Unlocking newly measured segments with distinct drivers and dynamics\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54468-iran-conflict-cost-shock",
+   "text": "From headline to household: How conflict in the Middle East brings a new cost shock to seasoned European shoppers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54447-hk-qsr-rankings-report-2026",
+   "text": "Best bites 2026: Hong Kong quick service restaurant (QSR) and casual dining rankings​​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54438-ksa-qsr-rankings-report-2026",
+   "text": "Best bites 2026: KSA quick service restaurant (QSR) rankings​​ ​ ​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54319-uae-anti-aging-report-2026",
+   "text": "Forever young? The UAE anti-aging report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54308-id-anti-aging-report-2026",
+   "text": "Forever young? Indonesia anti-ageing report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54307-sg-anti-aging-report-2026",
+   "text": "Forever young? Singapore anti-ageing report 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54359-european-shopper-trends-2026",
+   "text": "European shopper trends 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54275-shopper-perspectives",
+   "text": "Shopper Perspectives: How FMCG retailers can balance value, convenience, and joy\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54323-apac-report-the-gen-z-brand-leaderboard",
+   "text": "APAC report: The Gen Z brand leaderboard\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54229-retailer-rankings-2026",
+   "text": "Retailer Rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54300-reality-resilience-the-shoppers-balancing-act",
+   "text": "Reality & resilience: the shoppers’ balancing act\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54251-top-threads-singapore-fashion-retailer-rankings-2026",
+   "text": "Top threads: Singapore fashion retailer rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54250-top-threads-fashion-retailer-rankings-2026-for-sweden",
+   "text": "Top threads: Fashion retailer rankings 2026 for Sweden\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54170-empowering-minds-closing-the-mental-load-gap-across-the-nordics",
+   "text": "Empowering minds – Closing the mental load gap across the Nordics\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54252-top-threads-thailand-fashion-retailer-rankings-2026",
+   "text": "Top threads: Thailand fashion retailer rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54127-multi-market-sport-tourism-measuring-fan-appetite",
+   "text": "[Multi-market] Sport tourism: Measuring fan appetite\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54144-finding-the-real-growth-lever-the-shopper-conversion-leakage",
+   "text": "Finding the real growth lever: The shopper conversion leakage case\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54056-top-in-tech-india-consumer-electronics-rankings-2026",
+   "text": "Top in tech: India consumer electronics rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54055-top-in-tech-thailand-smartphone-tablet-rankings-2026",
+   "text": "Top in tech: Thailand smartphone & tablet rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54054-top-in-tech-australia-consumer-electronics-rankings-2026",
+   "text": "Top in tech: Australia consumer electronics rankings 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/54087-milan-cortina-2026-winter-olympic-games",
+   "text": "Milano Cortina​ 2026 Winter Olympic Games​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53936-yougov-best-brand-rankings-2026-nordics-edition",
+   "text": "YouGov Best Brand Rankings 2026 – Nordics edition\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53860-dividend-drivers-winning-with-australians-prioritising-investments",
+   "text": "Dividend Drivers : Winning with Australians prioritising investments\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53754-ramadan-2026-consumer-insight-snapshot-uae-ksa-turkiye",
+   "text": "Ramadan 2026: Consumer insight snapshot (UAE, KSA & Türkiye)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53775-ramadan-2026-consumer-insight-snapshot-id-my",
+   "text": "Ramadan 2026: Consumer insight snapshot (Indonesia and Malaysia)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53586-hk-international-traveler-outlook-2026",
+   "text": "Globetrotter guide: Hong Kong international traveler outlook 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53688-yougov-behavioral-healthcare-trends-public-interest-report-december-2025",
+   "text": "YouGov Behavioral: Healthcare Trends - Public Interest Report (December 2025)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53585-sg-international-traveler-outlook-2026",
+   "text": "Globetrotter guide: Singapore international traveler outlook 2026\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53462-how-brand-origins-influence-hong-kong-consumers",
+   "text": "How brand origins influence Hong Kong consumers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53576-cocoa-crisis-how-inflation-and-consumer-resilience-are-redefining-the-chocolate-economy",
+   "text": "Cocoa crisis: ​How inflation and consumer resilience are redefining the chocolate economy​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53381-id-next-gen-car-outlook-2025",
+   "text": "The road ahead: Indonesia next-gen car outlook 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53387-uae-next-gen-car-outlook-2025",
+   "text": "The road ahead: UAE next-gen car outlook 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53398-fmcg-shopper-types",
+   "text": "Unlock shopper insights with FMCG Shopper Types\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53307-sg-consumer-bank-rankings-2025",
+   "text": "Singapore Consumer bank rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53305-au-consumer-bank-rankings-2025",
+   "text": "Australia Consumer bank rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53297-danish-consumer-bank-rankings-2025",
+   "text": "Danish Consumer Bank Rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53270-from-likes-to-loyalty-winning-gen-z-in-australias-quick-service-dining-scene",
+   "text": "From likes to loyalty: Winning Gen Z in Australia's quick service dining scene\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53205-check-please-uae-dining-out-report-2025",
+   "text": "Check, please:​ UAE dining out report 2025​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53183-bill-please-singapore-dining-out-report-2025",
+   "text": "Bill, please:​ Singapore dining out report 2025​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53181-dining-out-report-2025-schweden",
+   "text": "Dining out Report 2025 Sweden\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53146-apac-advertiser-impact-q3-2025-report",
+   "text": "APAC Advertiser impact: Q3 2025 report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52990-ksa-most-persuasive-brands-2025",
+   "text": "KSA's most persuasive brands 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53114-the-diwali-pulse-2025-gen-z-and-millennial-shopping-trends",
+   "text": "The Diwali Pulse 2025: Gen Z and Millennial Shopping Trends\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53084-th-everyday-essentials-personal-care-brand-rankings-2025",
+   "text": "Everyday essentials: Thailand personal care brand rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53083-id-everyday-essentials-personal-care-brand-rankings-2025",
+   "text": "Everyday essentials: Indonesia personal care brand rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53082-hk-everyday-essentials-personal-care-brand-rankings-2025",
+   "text": "Everyday essentials: Hong Kong personal care brand rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53037-changes-in-travel-behaviours-2025",
+   "text": "Changes in travel behaviours 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52991-uae-appetite-for-dubai-shopping-festival-2025-26",
+   "text": "UAE’s appetite for Dubai Shopping Festival 2025-26\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52992-india-appetite-for-black-friday-and-cyber-monday-2025",
+   "text": "India’s appetite for Black Friday & Cyber Monday 2025​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53033-how-chiikawa-campaigns-reshaped-brand-sentiment-in-hong-kong",
+   "text": "How ChiiKAWA campaigns reshaped brand sentiment in Hong Kong\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/53014-yougov-behavioral-the-rise-of-vertical-shorts-september-2025",
+   "text": "YouGov Behavioral: The Rise of Vertical Shorts (September 2025)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52939-au-most-persuasive-brand-rankings-2025",
+   "text": "Australia's most persuasive brands: 2025 rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52870-black-friday-cyber-monday-webinar-2025",
+   "text": "[Webinar] Black Friday & Cyber Monday Outlook 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52856-india-sports-on-the-rise-2025",
+   "text": "India sports on the rise 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52859-au-sports-on-the-rise-2025",
+   "text": "Australia sports on the rise 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52819-uae-most-persuasive-brands-2025",
+   "text": "UAE's most persuasive brands 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52828-european-shopper-trends-shaping-fmcg-in-2025",
+   "text": "European shopper trends shaping FMCG\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52757-au-the-act-of-giving-2025",
+   "text": "[AU] The act of giving in 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52742-uae-media-consumption-report-2025",
+   "text": "Screens, streams, and scrolls:​ State of the UAE's media consumption in 2025​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52747-id-media-consumption-report-2025",
+   "text": "Screens, streams, and scrolls:​ State of the Indonesia's media consumption in 2025​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52718-the-rise-of-value-shoppers-apac-grocery-retail-report",
+   "text": "The rise of value shoppers: APAC grocery retail report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52698-sg-most-persuasive-brand-rankings-2025",
+   "text": "Singapore's most persuasive brands: 2025 rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52643-apac-advertiser-impact-q2-2025-report",
+   "text": "APAC Advertiser impact: Q2 2025 report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51372-product-placement-whitepaper-2021",
+   "text": "Product placement whitepaper 2021\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52607-sports-apparel-in-store-online-experience",
+   "text": "Sports apparel retailers: Understanding the in-store experience\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52499-apac-spotlight-pr-calendar-2025-jul-to-dec",
+   "text": "APAC Spotlight PR Calendar 2025 - Jul to Dec\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52475-yougov-most-recommended-brands-2025",
+   "text": "YouGov's Most Recommended Brands 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52494-recording-lets-use-sales-data-in-media-planning-buying-possible-solutions-based-on-yougov-shopper",
+   "text": "[Recording] Let’s use sales data in media planning & buying - possible solutions based on YouGov Shopper\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52477-less-noise-more-choice-what-drove-fmcg-decisions-in-2024",
+   "text": "Less noise, more choice: what drove FMCG decisions in 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52451-brand-footprint-what-are-the-most-chosen-fmcg-brands-in-the-netherlands-and-belgium",
+   "text": "Brand Footprint – What are the Most Chosen FMCG brands in the Netherlands and Belgium?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52419-rising-costs-resilient-minds-indonesia-2025",
+   "text": "Rising costs, resilient minds: Indonesia’s personal finance outlook 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52369-strategic-category-growth-through-simit-web",
+   "text": "Strategic category growth through SimIT Web\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52329-indonesia-beverage-rankings-2025",
+   "text": "Indonesia beverage rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52368-swedish-phishing-fears-in-the-ai-era",
+   "text": "Swedish Phishing fears in the AI era\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52336-uae-beverage-brand-rankings-2025",
+   "text": "UAE beverage brand rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52277-au-star-power-in-sports-global-report",
+   "text": "Australia report - Star power: The role of individual athletes on sports fandom\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52249-booking-burnout-india-travel-report-2025",
+   "text": "Booking Burnout: India travel report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52243-au-retail-online-delivery-report-2025",
+   "text": "Unboxing online shopping: What Australians expect from retail & delivery\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52180-uae-report-trust-or-concern-gen-ai-in-media",
+   "text": "UAE Report: Trust or concern? Gen Ai in media\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52155-hk-id-sg-media-attitudes-to-ai-report",
+   "text": "Generative AI in media: Consumer sentiment across Hong Kong, Indonesia and Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52145-yougov-behavioral-global-film-tv-report-2024",
+   "text": "YouGov Behavioral: The Global Film & TV Report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52107-wellness-takes-the-aisle-uae-ksa-grocery-report",
+   "text": "Wellness takes the aisle: UAE & KSA grocery report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52075-hk-fs-phishing-report-2025",
+   "text": "HK Phishing fears in the AI era\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52067-sg-fs-phishing-report-2025",
+   "text": "SG Phishing fears in the AI era\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/52038-apac-advertiser-impact-q1-2025-report",
+   "text": "APAC Advertiser impact: Q1 2025 report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51895-super-apps-in-apac-the-future-of-convenience-or-cause-for-concern",
+   "text": "Super apps in APAC: The future of convenience or cause for concern\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51939-uae-ksa-whos-taking-the-biggest-bite-out-of-the-qsr-market",
+   "text": "UAE & KSA Report: Who's taking the biggest bite out of the QSR market?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51923-indian-cricket-fandom-report-2025",
+   "text": "Indian cricket fandom report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51914-shoppers-in-central-and-eastern-europe",
+   "text": "Shoppers in Central and Eastern Europe: Don’t miss out on them!\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51874-from-screen-to-shelves-makeup-livestreaming-report-apac",
+   "text": "[Report] From screen to shelves: How content creators are driving makeup buying behavior in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51918-trust-or-concern-how-urban-indians-feel-about-generative-ai-in-media",
+   "text": "Trust or concern?: How urban Indians feel about generative AI in media\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51869-au-media-attitudes-to-ai-report",
+   "text": "Trust or trepidation: How Australians feels about generative AI in media\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51871-european-retail-landscape-report-en-2025",
+   "text": "European Retail Landscape Report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51815-ksa-grocery-store-rankings-2025",
+   "text": "KSA grocery store rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51796-hk-grocery-store-rankings-2025",
+   "text": "Hong Kong grocery store rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51797-th-grocery-store-rankings-2025",
+   "text": "Thailand grocery store rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51799-sweden-grocery-store-brand-rankings-2025",
+   "text": "Sweden grocery store brand rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51776-us-international-visitor-outlook-2025",
+   "text": "US international visitor outlook 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51769-how-to-build-a-resilient-brand-in-2025-part-2",
+   "text": "APAC report: How to build a resilient brand in 2025 (Part 2)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51766-uk-personalised-advertising-report-2025",
+   "text": "Ad-verse reactions: personalised advertising report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51698-mapping-the-mindset-parents-in-the-market-for-insurance",
+   "text": "Mapping the mindset: Parents in the market for insurance\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51771-understanding-the-aging-shopper-perspective",
+   "text": "Understanding the aging shopper perspective\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51708-india-value-rankings-2025",
+   "text": "India Value Rankings 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51710-beauty-secrets-discovering-spains-skincare-shoppers",
+   "text": "Beauty Secrets: Discovering Spain's Skincare Shoppers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51673-uk-media-attitudes-to-ai-report",
+   "text": "Trust or trepidation: Attitudes to AI in media\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51563-id-travel-stress-report-2025",
+   "text": "Booking burnout: Indonesia travel stress report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51636-young-shoppers-in-fmcg-whats-the-deal",
+   "text": "Young shoppers in FMCG: What’s the deal?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51541-apac-biggest-brand-movers-january-2025",
+   "text": "APAC Biggest Brand Movers - January 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51641-booking-burnout-what-stresses-uae-residents-in-2025",
+   "text": "Booking burnout: What stresses UAE residents in 2025?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51542-report-how-to-build-a-resilient-brand-in-2025",
+   "text": "APAC report: How to build a resilient brand in 2025 (Part 1)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51537-global-sports-rankings-report-2025",
+   "text": "YouGov Global Sports Rankings 2025: The world's buzziest sports events – ranked\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51520-apac-spotlight-pr-calendar-2025-jan-to-jul",
+   "text": "APAC Spotlight PR Calendar 2025 - Jan to Jul\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51470-face-value-unmasking-skincare-shoppers-in-singapore-in-2025",
+   "text": "Face value: Unmasking skincare shoppers in Singapore in 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51469-face-value-unmasking-australian-skincare-shoppers-in-2025",
+   "text": "Face value: Unmasking Australian skincare shoppers in 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51437-ramadan-2025-consumer-insights",
+   "text": "Ramadan 2025: Key consumer insights for brands in the UAE & KSA\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51444-yougov-best-global-brands-2025",
+   "text": "YouGov’s Best Global Brands 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51285-apac-biggest-brand-movers-december-2024",
+   "text": "APAC Biggest Brand Movers - December 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51213-capturing-the-hearts-of-super-streamers-in-apac",
+   "text": "Capturing the hearts of super streamers in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51176-singapore-lunar-new-year-gifting-report-2025",
+   "text": "Singapore Lunar New Year gifting report 2025\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51085-apac-biggest-brand-movers-november-2024",
+   "text": "APAC Biggest Brand Movers - November 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51084-india-general-insurance-landscape-report-2024",
+   "text": "India’s general insurance landscape 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51002-sg-top-accommodation-brands-2024",
+   "text": "Staying power: SG top accommodation brands 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51088-spain-christmas-gifting-consumer-report-2024",
+   "text": "Spain Christmas gifting consumer report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/51001-au-airline-rankings-2024",
+   "text": "Australia airline rankings report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50984-2024-leading-insurance-brands-for-young-adults",
+   "text": "2024 Leading insurance brands for young adults\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50850-rising-above-how-leading-brands-weather-the-storm",
+   "text": "Rising Above: How leading brands weather the storm\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50981-au-christmas-gifting-report-2024",
+   "text": "AU Christmas gifting trend report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50972-ksa-budget-travelers-report-2024",
+   "text": "KSA Budget travelers report 2024: On a budget, but going far\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50907-apac-brands-with-the-biggest-word-of-mouth-surge-october-2024",
+   "text": "APAC Brands with the biggest Word-of-Mouth surge - October 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50908-apac-biggest-brand-movers-october-2024",
+   "text": "APAC Biggest Brand Movers - October 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50944-sponsorship-assessment-spanish-beer-industry",
+   "text": "Sponsorship Assessment Spanish Beer industry\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50888-dubai-shopping-festival-consumer-report-2024",
+   "text": "Dubai Shopping Festival Consumer Report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50829-indonesia-singles-day-and-double-12-consumer-report-2024",
+   "text": "Indonesia Singles' Day and Double 12 Consumer Report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50777-shoppers-are-slackening-their-coping-strategy",
+   "text": "Shoppers are slackening their coping strategy\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50792-data-driven-pathways-to-sustainable-consumer-behavior",
+   "text": "Mind the Gap: Data-Driven Pathways to Sustainable Consumer Behavior\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50785-ca-bfcm-report-2024",
+   "text": "Canada Black Friday Cyber Monday report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50787-yougov-behavioral-adhd-autism-dyslexia-social-listening-report",
+   "text": "YouGov Behavioral: ADHD, Autism, Dyslexia - Social Listening Report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50749-consumer-insights-on-the-air-india-vistara-merger-india-abm-oct-2024",
+   "text": "Consumer insights on the Air India-Vistara merger\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50771-european-retail-trends-driving-2024",
+   "text": "European retail trends driving 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50664-apac-biggest-brand-movers-september-2024",
+   "text": "APAC Biggest Brand Movers - September 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50607-mice-in-the-spotlight-apacs-top-destinations",
+   "text": "MICE in the spotlight: APAC's top destinations\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50689-diwali-consumer-report-india-2024",
+   "text": "YouGov’s Diwali 2024 consumer report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50690-es-consumer-bank-rankings-2024",
+   "text": "ES consumer bank rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50662-apac-brands-with-the-biggest-word-of-mouth-surge-september-2024",
+   "text": "APAC Brands with the biggest Word-of-Mouth surge - September 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50635-spain-auto-sector-rankings-2024",
+   "text": "Spain auto rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50580-apac-festive-pr-calendar-2024-october-november-december",
+   "text": "APAC Festive PR Calendar 2024 - October, November, December\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50519-apac-brands-with-the-biggest-word-of-mouth-surge-august-2024",
+   "text": "APAC Brands with the biggest Word-of-Mouth surge - August 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50552-how-brands-grow-in-scandinavia-2024",
+   "text": "How Brands Grow in Scandinavia 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50599-mena-auto-rankings-2024",
+   "text": "KSA auto rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50598-india-auto-rankings-2024",
+   "text": "India auto rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50506-gatorade-powers-up-to-the-top-as-australias-biggest-brand-mover-for-august-2024",
+   "text": "Gatorade powers up to the top as Australia’s Biggest Brand Mover for August 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50505-apac-biggest-brand-movers-august-2024",
+   "text": "APAC Biggest Brand Movers - August 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50517-canada-automotive-rankings-report-2024",
+   "text": "Canada automotive rankings report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50502-apac-advertisers-of-the-month-august-2024",
+   "text": "APAC Advertisers of the month - August 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50789-au-bank-rankings-2024",
+   "text": "Australia Consumer Bank Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50717-id-bank-rankings-2024",
+   "text": "Indonesia consumer bank rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50581-automotive-rankings-th-2024",
+   "text": "Thailand Automotive Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50457-singapore-malaysia-qsr-rankings-2024",
+   "text": "Singapore & Malaysia QSR Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50417-apac-personal-care-rankings-2024",
+   "text": "APAC Personal care rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50422-click-vs-brick-grocery-shopping-trends-in-singapore",
+   "text": "Click vs brick: Grocery shopping trends in Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50359-canada-alcohol-rankings-report-2024",
+   "text": "Canada alcohol rankings report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50389-yougov-australia-beer-rankings-2024",
+   "text": "YouGov Australia beer rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50361-yougov-mobile-gadget-buzz-rankings-2024",
+   "text": "YouGov mobile gadget buzz rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50360-yougov-airlines-rankings-2024",
+   "text": "YouGov airlines rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50320-ca-retirement-report-2024",
+   "text": "Clocking out: CA retirement report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49812-apac-packaged-food-rankings-2024",
+   "text": "APAC Packaged food rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50318-apac-biggest-brand-movers-july",
+   "text": "APAC Biggest Brand Movers - July 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50274-the-future-of-bleisure-travel-in-apac",
+   "text": "The future of bleisure travel in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50255-a-look-at-singapores-growing-running-community",
+   "text": "A look at Singapore’s growing running community\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50219-beyond-the-feed-sg-social-media-report-2024",
+   "text": "Beyond the​ feed: SG social media report 2024​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50237-australia-and-new-zealand-qsr-rankings-2024",
+   "text": "Australia and New Zealand QSR Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50138-yougov-behavioral-canada-favourite-movies-tv-shows-2024",
+   "text": "YouGov Behavioral: Canada's Favourite Movies & TV Shows (2024)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49803-food-health-2024",
+   "text": "Nordics food and health report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/50019-apac-biggest-brand-movers-june-2024",
+   "text": "APAC Biggest Brand Movers – June 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49999-global-summer-olympics-report-2024",
+   "text": "Ahead of the Games: Summer Olympics 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49832-beyond-borders-an-overview-on-cross-border-shopping-patterns",
+   "text": "Beyond borders: An overview on cross-border shopping patterns\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49963-mena-yougov-recommend-rankings-2024-report",
+   "text": "YouGov Recommend rankings 2024: MENA\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49962-india-yougov-recommend-rankings-2024-report",
+   "text": "YouGov Recommend rankings 2024: India\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49902-ksa-social-media-report-2024",
+   "text": "Beyond the feed: KSA social media report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49872-india-music-mania-fav-artists-fan-fever-online-gigs",
+   "text": "India’s music mania: Fav artists, fan fever & online gigs\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49864-global-uefa-euro-championships-report-2024",
+   "text": "Enter the fan zone: UEFA Euro Championships 2024 report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49845-recommend-rankings-2024",
+   "text": "YouGov Recommend rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49813-apac-preferred-payment-providers-rankings-2024",
+   "text": "APAC Preferred payment provider rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49831-me-brand-boycott-report",
+   "text": "Understanding brand boycotts in the UAE and KSA: Consumer sentiment and sectoral trends\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49687-stadium-surfers-exploring-the-profiles-of-concert-goers-in-singapore-indonesia",
+   "text": "Stadium surfers: Exploring the profiles of concert goers in Singapore & Indonesia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49728-apac-biggest-brand-movers-may-2024",
+   "text": "APAC Biggest Brand Movers – May 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49689-hong-kong-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024",
+   "text": "Hong Kong: Which online travel agencies are best at turning awareness to purchase intent in Q1 2024?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49688-indonesia-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024",
+   "text": "Indonesia: Which online travel agencies are best at turning awareness to purchase intent in Q1 2024?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49686-thailand-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024",
+   "text": "Thailand: Which online travel agencies are best at turning awareness to purchase intent in Q1 2024?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49685-australia-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024",
+   "text": "Australia: Which online travel agencies are best at turning awareness to purchase intent in Q1 2024?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49662-singapore-online-travel-agencies-best-at-turning-awareness-to-purchase-intent-q1-2024",
+   "text": "Singapore: Which online travel agencies are best at turning awareness to purchase intent in Q1 2024?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49641-influence-of-brands-stance-how-global-causes-drive-consumer-choices-in-apac",
+   "text": "Influence of brand's stance: How global causes drive consumer choices in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49624-apac-spotlight-surveys-calendar-july-august-september",
+   "text": "APAC Spotlight Surveys Calendar - July, August, September\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49566-us-cpg-rankings-2024",
+   "text": "US CPG rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49601-fmcg-rankings-2024-mena-report",
+   "text": "YouGov FMCG Rankings 2024: UAE & KSA\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49598-discover-click-purchase-shopping-report",
+   "text": "Discover, click, purchase: 2024 online shopping trend report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49482-empowering-financial-well-being-webinar-report",
+   "text": "Empowering financial well-being webinar report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49422-most-talked-about-brands-2024-q1",
+   "text": "Most talked about brands: Q1 2024 report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49373-response-quality-in-brand-tracking",
+   "text": "Response quality in brand tracking: Using awareness cross-entropy to detect response anomalies\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49399-apac-biggest-brand-movers-april-2024",
+   "text": "APAC Biggest Brand Movers – April 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49274-raising-awareness-on-financial-fraud",
+   "text": "Raising awareness on financial fraud\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49240-unveiling-apacs-retail-loyalty-landscape-report",
+   "text": "Unveiling APAC’s retail loyalty landscape\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49234-2024-q1-advertiser-impact-report",
+   "text": "The most memorable advertisers of 2024 (so far)\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49259-conscious-consumers-of-uae-and-ksa-report",
+   "text": "Profile Peek: Conscious consumers of UAE and KSA\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49052-exploring-buy-now-pay-later-customers-in-indonesia",
+   "text": "Exploring Buy Now Pay Later customers in Indonesia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49222-apac-spotlight-calendar-april-may-and-june",
+   "text": "APAC Spotlight Calendar - April, May and June\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49159-brand-boycotters-2024",
+   "text": "Brand boycotters 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49069-apac-biggest-brand-movers-march-2024",
+   "text": "APAC Biggest Brand Movers – March 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49050-escaping-the-bustle-exploring-the-singaporean-wellness-traveler-in-2024",
+   "text": "Escaping the bustle: Exploring the Singaporean wellness traveler in 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49031-frequency-tactics-and-solutions-for-financial-scams-in-new-zealand",
+   "text": "Frequency, tactics, and solutions for financial scams in New Zealand\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49018-demand-for-sparkling-soft-drinks-during-eid",
+   "text": "Demand for sparkling soft drinks during Eid\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/49047-india-media-morph-2024-trend-report",
+   "text": "India media morph: 2024 trend report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48997-yougov-australia-ad-rankings-2024",
+   "text": "YouGov Australia Ad Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48961-the-2024-media-morph-in-thailand",
+   "text": "The 2024 media morph in Thailand\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48865-apac-biggest-brand-movers-february-2024",
+   "text": "APAC Biggest Brand Movers – February 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48834-finlands-strongest-brands-in-2023",
+   "text": "Finland's strongest brands in 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48817-swedens-strongest-brands-in-2023",
+   "text": "Sweden's strongest brands in 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48899-yougov-apac-best-brand-rankings-2-2024",
+   "text": "YouGov APAC Best Brand Rankings 2024 - Part 2\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48904-jet-setting-for-eid-2024-report",
+   "text": "Jet-setting for Eid 2024​\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48787-ca-best-brand-rankings-2024",
+   "text": "Canada best brand rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48806-yougov-apac-sparkling-soft-drinks-rankings",
+   "text": "YouGov APAC sparkling soft drinks rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48808-the-uae-media-morph-2024-trend-report",
+   "text": "The UAE Media Morph: 2024 trend report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48717-beyond-the-binge-unveiling-the-habits-attitudes-and-lives-of-apacs-streaming-customers",
+   "text": "Beyond the binge: Unveiling the habits, attitudes, and lives of APAC's streaming customers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48723-elevating-elegance-unveiling-the-pinnacle-of-luxury-retail-in-hong-kong",
+   "text": "Elevating Elegance: Unveiling the Pinnacle of Luxury Retail in Hong Kong\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48697-yougov-apac-best-brand-rankings-2024",
+   "text": "YouGov APAC Best Brand Rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48774-indian-cricket-fandom-report-2024",
+   "text": "Indian cricket fandom report 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48718-rankings-coca-cola-in-apacs-sparkling-soft-drink-scene",
+   "text": "Rankings: Coca-Cola in APAC's sparkling soft drinks scene\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48515-the-rise-of-sparkling-soft-drinks-as-lunar-new-year-favorites",
+   "text": "The rise of sparkling soft drinks as Lunar New Year favorites\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48711-norways-strongest-brands-in-2023",
+   "text": "Norway's strongest brands in 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48710-denmarks-strongest-brands-in-2023",
+   "text": "Denmark's strongest brands in 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48722-guide-to-2024-ramadan-shopping-insights-report",
+   "text": "Guide to 2024 Ramadan shopping insights\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48605-apac-biggest-brand-movers-january-2024",
+   "text": "APAC Biggest Brand Movers – January 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48516-thailand-packaged-food-brand-equity-rankings-2023",
+   "text": "Thailand Packaged Food Brand Equity Rankings 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48517-singapore-insurance-brand-equity-rankings",
+   "text": "Singapore Insurance Brand Equity Rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48658-uae-aspiring-homeowners-sellers-report",
+   "text": "Profile Peek: UAE’s aspiring homeowners and sellers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48519-singapore-payment-providers-brand-equity-rankings",
+   "text": "Singapore Payment Providers Brand Equity Rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48520-hong-kong-virtual-banks-brand-equity-rankings",
+   "text": "Hong Kong Virtual Banks Brand Equity Rankings\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48593-global-sports-rankings-report-2024",
+   "text": "YouGov Global Sports Rankings: The world's buzziest sports events - ranked\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48575-mena-best-brand-rankings-2024",
+   "text": "MENA best brand rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48572-india-best-brand-rankings-2024",
+   "text": "India best brand rankings 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48561-india-credit-landscape-report",
+   "text": "India’s credit landscape 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48444-lets-get-physical-profiles-of-hong-kong-and-thai-consumers-who-aspire-to-be-fit-and-healthy",
+   "text": "Let’s get physical: Profiles of Hong Kong and Thai consumers who aspire to be fit and healthy\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48431-ksa-mobile-banking-power-users-profile-peeks",
+   "text": "KSA's mobile banking power users\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48338-game-set-match-who-are-the-australian-open-fans",
+   "text": "Game, Set, Match: Who are the Australian Open fans?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48287-apac-biggest-brand-movers-report-december-2023",
+   "text": "APAC Biggest Brand Movers Report - December\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48332-unwrap-the-latest-apac-gifting-trends-in-2024",
+   "text": "Unwrap the latest APAC gifting trends in 2024\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48363-india-pro-kabaddi-league-fan-report",
+   "text": "Game changer: India’s Pro Kabaddi League\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48275-us-smart-home-report-2024",
+   "text": "Connecting with Smart Home Adopters: 2024 US Trend Report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48244-dbs-paylah-revolutionizing-transactions-in-singapore",
+   "text": "DBS PayLah!: Revolutionizing transactions in Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48245-the-fit-and-fab-exploring-the-profiles-of-gym-goers-in-australia",
+   "text": "The fit and fab: Exploring the profiles of gym goers in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48242-exploring-the-profiles-of-grab-apps-current-users-in-singapore-vs-malaysia",
+   "text": "Exploring the profiles of Grab App’s current users in Singapore vs Malaysia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48261-shopping-aisle-rivals-mums-vs-dads",
+   "text": "Shopping aisle rivals: Mums vs. Dads\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48243-mapping-the-esports-arena-in-apac",
+   "text": "Mapping the esports arena in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48054-retaining-girls-in-organised-sports-in-australia",
+   "text": "Retaining Girls in Organised Sports in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48135-apac-biggest-brand-movers-report-november-2023",
+   "text": "APAC Biggest Brand Movers Report - November\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48186-podcast-bingers-in-the-uk",
+   "text": "Podcast bingers in the UK\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48174-the-brits-placing-their-bets",
+   "text": "The Brits placing their bets: attitudes and behaviours towards gambling in the UK\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47881-conscious-consumerism-report",
+   "text": "Conscious consumerism: a balancing act\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48052-au-home-ownership-report-2023",
+   "text": "Building the future: Home ownership in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48134-qsr-and-cafe-preferences-report-india",
+   "text": "Bites & brews: Navigating Gen Z and Millennials' QSR and café preferences\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48053-au-shopping-aisle-rivals-mums-vs-dads-grocery-trend-report",
+   "text": "AU Shopping Aisle Rivals: Mums vs. Dads - Grocery Trend Report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/48102-the-uae-loyalty-program-enthusiasts",
+   "text": "The UAE’s loyalty program enthusiasts\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47882-auto-under-the-hood-with-tesla",
+   "text": "Under the hood with Tesla\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47987-behind-the-wheels-car-ownership-in-singapore",
+   "text": "Behind the wheels: car ownership in Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47908-us-reaching-redditors-report",
+   "text": "Reaching Redditors Report: Inside the hivemind\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47946-who-are-uae-and-ksa-luxury-aficionados",
+   "text": "Who are UAE and KSA’s luxury aficionados?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47907-improving-response-quality-in-brand-tracking",
+   "text": "Improving response quality in brand tracking: YouGov white paper\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47855-hong-kong-shopping-aisle-rivals-moms-vs-dads",
+   "text": "Hong Kong Shopping Aisle Rivals: Moms vs Dads\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47912-apac-biggest-brand-movers-report-october-2023",
+   "text": "APAC Biggest Brand Movers Report - October 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47890-indian-super-league-watchers-report",
+   "text": "Decoding ISL watchers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47730-the-future-of-home-living-hong-kong-singapore",
+   "text": "The future of home living in Hong Kong and Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47605-sustainability-in-fashion-part-3",
+   "text": "Sustainability in Fashion Part 3: Buy Now Pay Later\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47604-sustainability-in-fashion-part-2",
+   "text": "Sustainability in Fashion Part 2: Real potential for sustainable fashion\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47724-the-future-of-home-living-smart-home-appliances-ownership-in-australia",
+   "text": "The future of home living: Smart home appliances ownership in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47706-india-loyalty-program-enthusiasts-report",
+   "text": "Profile Peek: India’s loyalty program enthusiasts\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47663-unveiling-indonesian-gen-zs-wanderlust-sentiments",
+   "text": "Unveiling Indonesian Gen Z's wanderlust sentiments\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47659-apac-biggest-brand-movers-report-september-2023",
+   "text": "APAC Biggest Brand Movers Report - September 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47675-the-evolution-of-sports-media-consumption-report",
+   "text": "The evolution of sports media consumption\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47642-cultural-travellers-of-the-uae-and-ksa-profile-peek",
+   "text": "Cultural travellers of the UAE and KSA\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47617-a-close-look-at-australian-gen-zs-insta-lovers",
+   "text": "A close look at Australian Gen Z's Insta lovers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47612-themed-rounds-in-australian-sport",
+   "text": "Themed rounds in Australian sport\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47630-the-young-and-beautiful-game-sport-sector-report",
+   "text": "The (young and) beautiful game: discover the new generation of English Premier League fans\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47557-here-oui-go-travel-sector-report",
+   "text": "Here, oui, go: the Brits considering France for their next holiday\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47570-a-deep-dive-into-australians-considering-bali-as-a-travel-destination",
+   "text": "A deep dive into Australians considering Bali as a travel destination\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47531-tiktok-power-users-in-singapore-and-thailand",
+   "text": "TikTok power users in Singapore and Thailand\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47521-global-gambling-report-2023",
+   "text": "Global Gambling Report 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47474-swipe-shop-and-repeat-infographic",
+   "text": "Swipe, shop, and repeat\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47417-apac-biggest-brand-movers-report-august-2023",
+   "text": "APAC Biggest Brand Movers Report - August 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47393-the-brits-paying-now-and-later-but-always-on-their-phones",
+   "text": "The Brits paying now, and later but always on their phones\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47451-luxury-shopping-in-hong-kong-and-singapore",
+   "text": "Luxury Shopping in Hong Kong and Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47392-apac-festive-surveys-calendar-2023",
+   "text": "APAC Festive Surveys Calendar 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47373-motivations-behind-vegan-choices-in-australia",
+   "text": "Motivations behind vegan choices in Australia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47395-the-saudi-gamer-chronicles-infographic",
+   "text": "The Saudi gamer chronicles\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47394-visualizing-dhanteras-2023-infographic",
+   "text": "Visualizing Dhanteras 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47376-the-boom-in-social-commerce-in-apac",
+   "text": "The Boom in Social Commerce in APAC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47272-festive-insights-unwrapped-report-2023",
+   "text": "2023 Festive insights unwrapped: Ad tactics, eco-consciousness, and shopping dynamics\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47221-uae-swipe-right-for-shopping-infographic",
+   "text": "Swipe right for shopping\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47186-who-are-the-online-danish-gen-z",
+   "text": "Who are the online Danish Gen Z?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47188-who-are-the-online-swedish-gen-z",
+   "text": "Who are the online Swedish Gen Z?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47057-canada-mini-sports-report",
+   "text": "Canada: What do sports fans expect from sports organizations?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47056-global-sports-rankings-report-2023",
+   "text": "YouGov Global Sports Rankings 2023: The world's buzziest sports events - ranked\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47055-2023-sports-report",
+   "text": "2023 Sports Report: The Global Sports Media Landscape\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47070-the-sustainability-in-fashion-report-series-UKI",
+   "text": "UKI: The sustainability in fashion report series\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47060-global-sports-2022-report",
+   "text": "Global Sports 2022: Uncovering the Socially Responsible Sports Fan\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/47041-cracking-the-code-of-how-india-invests",
+   "text": "Cracking the code of how India invests\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46976-apac-biggest-brand-movers-report-june-2023",
+   "text": "APAC Biggest Brand Movers Report - June 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46914-uae-tiktok-power-users-report",
+   "text": "UAE’s TikTok Power Users Report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46932-how-are-consumers-shopping-smartly-in-australia-and-indonesia",
+   "text": "How are consumers shopping smartly in Australia and Indonesia\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46929-chatbots-shaping-the-future-of-personal-banking-apac",
+   "text": "Chatbots: Shaping the future of personal banking\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46895-the-rise-of-neobanks-in-india",
+   "text": "The Rise of Neobanks in India\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46760-global-fmcg-whitepaper-2023",
+   "text": "Global FMCG/CPG & Retail whitepaper 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46732-sizzling-summers-unveiling-leisure-and-entertainment-trends-in-the-gcc",
+   "text": "Sizzling Summers: Unveiling Leisure and Entertainment Trends in the GCC\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46637-profile-peek-india-gen-z-who-love-the-gram",
+   "text": "India’s Gen Z, who love the ‘GRAM\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46447-car-brands-rankings-2023",
+   "text": "Global Car Brand Rankings 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46446-profile-peek-saudi-cinephiles",
+   "text": "Profile Peek: Saudi’s Cinephiles\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45510-apac-gamers-lead-globe-most-time-spent-gaming-week",
+   "text": "APAC gamers lead the globe on most time spent gaming per week: YouGov \nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46425-global-gaming-report-2023-reaching-gamers-everywhere",
+   "text": "Global Gaming & Esports whitepaper 2023: Reaching Gamers - everywhere\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46325-understanding-the-indian-alco-bev-consumer",
+   "text": "Understanding the Indian Alco-Bev consumer\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45369-where-do-women-australia-need-most-and-least-hep-t",
+   "text": "Where do women in Australia need the most and least help with their finances?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46273-a-gifting-guide-for-eid-2023",
+   "text": "A Gifting Guide for Eid 2023\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/46286-global-whitepaper-2023-luxury-travel-post-pandemic",
+   "text": "Global travel & tourism whitepaper 2023: Luxury travel post-pandemic\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45270-har-ar-de-favoritvaror-som-flest-svenskar-overvage",
+   "text": "Här är de favoritvaror som flest svenskar överväger att lägga i varukorgen\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45197-more-third-urban-indians-claim-their-disposable-in",
+   "text": "More than a third of urban Indians claim their disposable income has decreased in the last 12 months\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45180-hur-globala-och-svenska-konsumenter-hanterar-de-st",
+   "text": "Hur globala och svenska konsumenter hanterar de stigande levnadskostnaderna\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/45179-sadan-takler-globale-og-danske-forbrugere-de-stige",
+   "text": "Sådan takler globale og danske forbrugere de stigende leveomkostninger\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44988-svenskarna-sparar-sina-gamla-elektronikprylar",
+   "text": "Svenskarna sparar sina gamla elektronikprylar\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44987-sa-mange-genbruger-elektronikprodukter",
+   "text": "Så mange genbruger elektronikprodukter\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44938-digital-exclusion-issue-many-norway",
+   "text": "Digital exclusion is an issue for many in Norway\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44823-norwegians-satisfied-coverage-uefa-world-cup",
+   "text": "Norwegians satisfied with the coverage of the UEFA World Cup\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44794-toys-diversity-inclusion-responsible-shopper-study",
+   "text": "Playing with diversity and inclusion: Consumer views toward the toy industry\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44688-travel-tourism-insights-roundup-2022-part-2",
+   "text": "Travel and Tourism: Trends and insights roundup for 2022 — Part 2\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44712-travel-tourism-insights-roundup-2022-part-1",
+   "text": "Travel and Tourism: Trends and insights roundup for 2022 — Part 1\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44684-svenskarnas-medievanor-har-kartlagts",
+   "text": "Svenskarnas medievanor har kartlagts\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44682-danskernes-medievaner-kortlagt",
+   "text": "Danskernes medievaner kortlagt\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44458-mexicans-interest-electric-vehicles",
+   "text": "Measuring consumer interest in EVs in Mexico\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44179-eco-investing-nordics",
+   "text": "Eco-investing in the Nordics\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44178-internationell-undersokning-sa-koper-vi-bil",
+   "text": "Internationell undersökning: Så köper vi bil\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44177-internasjonal-undersokelse-slik-kjoper-vi-bil",
+   "text": "Internasjonal undersøkelse: Slik kjøper vi bil\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44176-kansainvalinen-tutkimus-nain-ostamme-autoja",
+   "text": "Kansainvälinen tutkimus: Näin ostamme autoja\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/44175-international-undersogelse-sadan-kober-vi-bil",
+   "text": "International undersøgelse: Sådan køber vi bil\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43900-internationell-undersokning-darfor-behaller-vi-var",
+   "text": "Internationell undersökning: Därför behåller vi vår mobil\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43899-international-undersogelse-derfor-beholder-vi-vore",
+   "text": "International undersøgelse: Derfor beholder vi vores mobil\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43720-svenskarna-ar-skeptiska-till-onlinespel",
+   "text": "Svenskarna är skeptiska till onlinespel\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43719-mener-ikke-online-pengespil-burde-vaere-lovligt",
+   "text": "42% mener ikke online pengespil burde være lovligt\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43281-global-measuring-expenditure-seasonal-events-data",
+   "text": "Global: Measuring expenditure during key seasonal shopping events\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43271-global-social-media-as-source-of-news-2022",
+   "text": "Global: To what extent do people use social media to catch up on the news?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/43302-when-consumers-search-shop-seasonal-events-data",
+   "text": "How brands can use search data to plan for key seasonal occasions\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42835-changing-financial-landscape-singapore",
+   "text": "Report: The Changing Financial Landscape in Singapore\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42974-profiling-young-nordic-travelers",
+   "text": "Profiling the young Nordic travelers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42973-APAC-biggest-brand-movers-May-2022",
+   "text": "APAC Biggest Brand Movers – May 2022\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42903-gen-zs-uae-have-strong-desire-international-travel",
+   "text": "Gen Zs in UAE have a strong desire for international travel and a higher preference for luxury stay\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42902-urban-indian-gen-zs-are-more-likely-travel-locally",
+   "text": "Urban Indian Gen Zs are more likely to travel locally in the next 12 months\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42879-about-half-uaes-sports-fans-prefer-watching-womens",
+   "text": "About half of the UAE's sports fans prefer watching women's sports to men's\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42702-how-are-consumers-planning-deal-price-increases",
+   "text": "How are consumers planning to deal with price increases?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42654-us-how-has-consumer-consumption-changed-discussion",
+   "text": "US: How has consumer consumption changed post the pandemic. Agency experts weigh in\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42601-consumer-trends-preferences-snacking-poll",
+   "text": "Consumer trends and preferences in snacking\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42460-uk-agencies-leaders-post-pandemic-discussion-2022",
+   "text": "UK: What agency leaders are learning about navigating the post-pandemic world\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42436-these-are-ingredients-nordic-consumers-are-most-co",
+   "text": "These are the ingredients Nordic consumers are most concerned about\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42430-hongkong-choose-financial-service-provider-2022",
+   "text": "What do Hong Kong’s consumers most consider when choosing a financial service provider?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42429-indonesia-choose-financial-service-provider-2022",
+   "text": "What do Indonesia’s consumers most consider when choosing a financial service provider?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/42426-singapore-choose-financial-service-provider-2022",
+   "text": "What do Singapore’s consumers most consider when choosing a financial service provider?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/41850-two-thirds-uae-adults-are-interested-cryptocurrenc",
+   "text": "Two-thirds of UAE adults are interested in cryptocurrency, with young adults showing most interest\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/41849-india-leads-globe-future-intent-use-buy-now-pay-la",
+   "text": "India leads the globe in future intent to use ‘Buy Now Pay Later’ services\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/41057-emirates-tops-yougovs-travel-and-tourism-rankings-",
+   "text": "Emirates tops YouGov’s Travel and Tourism Rankings 2022 in the UAE\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/41033-young-consumers-are-likely-drive-streaming-growth-",
+   "text": "Young consumers are likely to drive streaming growth in India\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/41032-young-adults-likely-drive-paid-subscriptions-audio",
+   "text": "Young adults likely to drive paid subscriptions for audio & video services in the UAE\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/39833-uae-residents-dont-mind-automation-their-homes-pre",
+   "text": "UAE residents don't mind automation in their homes but prefer humans for medical consultation\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/39738-singaporeans-dont-mind-automation-their-homes-pref",
+   "text": "Singaporeans don't mind automation in their homes but prefer humans for medical consultation\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/39715-urban-indians-prefer-automation-their-homes-want-h",
+   "text": "Urban Indians prefer automation in their homes but want humans for medical consultation & education\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/39120-asian-markets-have-highest-gaming-influencer-follo",
+   "text": "Asian markets have the highest gaming influencer following across the globe\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/39119-young-males-uae-are-most-likely-follow-gaming-infl",
+   "text": "Young males in UAE are most likely to follow gaming influencers: YouGov Study\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38942-biggest-tech-worries-globally",
+   "text": "The biggest tech worries globally\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38841-apac-yougovs-retail-rankings-2021",
+   "text": "APAC: YouGov’s Retail Rankings 2021\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38826-international-gaming-report-2021",
+   "text": "Game-changers: the power of gaming influencers\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38522-young-adults-uae-are-more-likely-others-buy-car-on",
+   "text": "Young adults in UAE are more likely than others to buy a car online: YouGov Study\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38456-indonesians-intend-use-personal-vehicles-more-pre-",
+   "text": "Indonesians intend to use personal vehicles more than the pre-pandemic times in the future\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/38455-urban-indians-intend-use-personal-vehicles-more-pr",
+   "text": "Urban Indians intend to use personal vehicles more than the pre-pandemic times in the future\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/37838-indonesians-are-more-likely-other-global-consumers",
+   "text": "Indonesians are more likely than other global consumers to pay more to access 5G\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/37837-more-half-uae-residents-are-willing-pay-more-5g-ac",
+   "text": "More than half of UAE residents are willing to pay more for 5G access\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/37588-olympics-sponsors-made-biggest-impact-us-and-uk",
+   "text": "The Olympics sponsors that made the biggest impact in the US and UK\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/36780-urban-indians-have-appetite-travel-health-safety-r",
+   "text": "Urban Indians have an appetite for travel but health & safety risks play the biggest barrier\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/36045-uae-residents-willing-adopt-augmented-reality-reta",
+   "text": "UAE residents willing to adopt augmented reality for retail shopping\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/36043-urban-indians-likely-adopt-ar-vr-technology-retail",
+   "text": "Urban Indians likely to adopt augmented reality technology for retail shopping\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35699-covid-19-one-year-overview-report",
+   "text": "COVID-19 Global Behaviours and Attitudes: The Year in Review\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35674-nordic-food-health-report",
+   "text": "Nordic food & health report\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35430-SG-media-consumption-habits",
+   "text": "YouGov study: Singaporeans media consumption habits\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35257-internasjonal-undersokelse-forbruk-i-en-krisetid",
+   "text": "Internasjonal undersøkelse: Forbruk i en krisetid\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35256-internationell-undersokning-konsumtion-i-kristid",
+   "text": "Internationell undersökning: Konsumtion i kristid\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/35255-international-undersogelse-dagligvareforbrug-i-en-",
+   "text": "International undersøgelse: Dagligvareforbrug i en krisetid\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33372-tutkimus-koronapandemia-lisannyt-suomalaisten-luot",
+   "text": "Tutkimus: Koronapandemia on lisännyt suomalaisten luottamusta toimialojen yhteiskuntavastuullisuutee\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33258-18-maailman-vaestosta-teknologian-varhaisia-kaytto",
+   "text": "18 % maailman väestöstä on teknologian varhaisia käyttöönottajia. Keitä he ovat?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33256-18-av-verdens-befolkning-er-early-adopters-tidlige",
+   "text": "18 % av verdens befolkning er Early Adopters (tidlige brukere) av teknologi. Hvem er de?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33255-18-av-varldens-befolkning-ar-early-adopters-inom-t",
+   "text": "18 % av världens befolkning är ”early adopters” inom teknik. Vilka är de?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33254-18-af-verdens-befolkning-er-early-adopters-af-tekn",
+   "text": "18% af verdens befolkning er Early Adopters af teknologi. Hvem er de?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/33185-global-technology-2020",
+   "text": "First in line: Early technology adopters around the globe\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32970-suomen-10-suosituinta-tuotemerkkia",
+   "text": "Suomen 10 suosituinta tuotemerkkiä\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32968-har-ar-de-hogst-rankade-varumarkena",
+   "text": "Här är de högst rankade varumärkena\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32720-skandinaverna-gejmar-minst-i-varlden",
+   "text": "Skandinaverna gejmar minst i världen\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32718-skandinavene-gamer-minst-i-verden",
+   "text": "Skandinavene gamer minst i verden\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32716-skandinaverne-gamer-mindst-i-verden",
+   "text": "Skandinaverne gamer mindst i verden\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32485-vad-far-svenskarna-att-bojkotta-ett-varumarke",
+   "text": "Vad får svenskarna att bojkotta ett varumärke?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32487-mika-saa-suomalaiset-boikotoimaan-brandia",
+   "text": "Mikä saa suomalaiset boikotoimaan brändiä?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32486-hva-far-nordmenn-til-boikotte-et-merke",
+   "text": "Hva får nordmenn til å boikotte et merke?\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/32484-skattesvindel-er-den-hyppigste-arsag-til-boykotte-",
+   "text": "Skattesvindel er den hyppigste årsag til at boykotte brands i Danmark\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/31966-yougov-eurooppalaisten-kuluttajien-kiinnostus-sahk",
+   "text": "YouGov: Eurooppalaisten kuluttajien kiinnostus sähköautoihin pysyy vakaana koronan aiheuttamasta epä\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/31965-yougov-europeiska-konsumenters-intresse-elbilar-fo",
+   "text": "YouGov: Europeiska konsumenters intresse för elbilar fortsatt stabilt trots coronaosäkerhet\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/31964-yougov-europeiske-forbrukeres-interesse-elbiler-ho",
+   "text": "YouGov: Europeiske forbrukeres interesse for elbiler holder seg stabil på tross av korona-usikkerhet\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/31963-yougov-europaeiske-forbrugeres-interesse-elbiler-f",
+   "text": "YouGov: Europæiske forbrugeres interesse for elbiler forbliver stabil på trods af corona-usikkerhed\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/30028-vi-vil-helst-donere-penge-til-forskning-i-sygdomme",
+   "text": "Vi vil helst donere penge til forskning i sygdomme og danske udsatte børn\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/29794-koronakriisi-saanut-meidat-ostamaan-enemman-suomal",
+   "text": "Koronakriisi on saanut meidät ostamaan enemmän suomalaista\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/29792-koronakrisen-har-fatt-oss-til-kjope-mer-norske-pro",
+   "text": "Koronakrisen har fått oss til å kjøpe mer norske produkter\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/28304-atta-av-tio-personer-i-norden-ar-med-i-ett-lojalit",
+   "text": "Åtta av tio personer i Norden är med i ett lojalitetsprogram\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/34335-apac-advertising-industry-study",
+   "text": "APAC Advertising Industry Study\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/24779-svenskar-skulle-helst-skanka-pengar-till-barncance",
+   "text": "Svenskar skulle helst skänka pengar till Barncancerfonden och Läkare utan gränser\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/23293-her-er-danskernes-foretrukne-offentlige-organisati",
+   "text": "Her er danskernes foretrukne offentlige organisation\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/23142-klimadebatten-har-pavirket-nordmenns-matvaner",
+   "text": "Klimadebatten har påvirket nordmenns matvaner\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/23140-ilmastokeskustelu-vaikuttanut-suomalaisten-ruokail",
+   "text": "Ilmastokeskustelu on vaikuttanut suomalaisten ruokailutottumuksiin\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/23118-klimadebatten-har-sat-aftryk-pa-danskernes-madvane",
+   "text": "Klimadebatten har sat aftryk på danskernes madvaner\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/23105-klimatdebatten-har-paverkat-svenskarnas-matvanor",
+   "text": "Klimatdebatten har påverkat svenskarnas matvanor\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/34386-apac-fitness-and-health-industry-study",
+   "text": "APAC Fitness and Health Industry Study\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports/34387-apac-beauty-industry-study",
+   "text": "APAC Beauty Industry Study\nReport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/reports?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/53502-vauxhall-direct-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/53498-tiktok-allison-partners-realtime-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/46488-how-fox-sports-proves-ad-effectiveness-fifa-world-cup",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/50492-havas-village-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/49979-cheerz-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/51464-unilever-innovation-centric-insights-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/50432-visa-financial-services-audience-insights-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/panel",
+   "text": "Real people",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/data",
+   "text": "Accurate data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/ai-innovation",
+   "text": "Pioneering tech & AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/expertise",
+   "text": "Award-winning experts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://bsky.app/profile/today.yougov.com",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://facebook.com/YouGovUS",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/YouGov",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/yougov",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/en/rss",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Methodology",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/team",
+   "text": "Our team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/business/products",
+   "text": "All products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/content/2010-03",
+   "text": "Publication archive",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://account.yougov.com/region",
+   "text": "Join the Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/website",
+   "text": "Website terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "Privacy notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/public-data-license",
+   "text": "Public data licence",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/modern-slavery-act-statement",
+   "text": "Modern slavery act",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Methodology",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/team",
+   "text": "Our team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/business/products",
+   "text": "All products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/content/2010-03",
+   "text": "Publication archive",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://account.yougov.com/region",
+   "text": "Join the Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/website",
+   "text": "Website terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "Privacy notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/public-data-license",
+   "text": "Public data licence",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/modern-slavery-act-statement",
+   "text": "Modern slavery act",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "cookies notice.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://platform.yougov.com/legal/privacy-notice",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

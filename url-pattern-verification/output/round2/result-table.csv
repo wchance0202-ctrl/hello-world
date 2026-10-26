@@ -1,0 +1,1094 @@
+﻿原表行,指定pattern,Pattern 正则,保留链接,匹配样例,结果类型,规则验证,来源映射,发现覆盖,备注与风险
+2,"https://www.census.gov/retail/
+https://www.census.gov/programs-surveys/e-stats.html",,"S1-R2-E1: https://www.census.gov/retail/
+S1-R2-E2: https://www.census.gov/programs-surveys/e-stats.html",,E1 链接保留；E2 链接保留,"S1-R2-E1 无规则；链接 可打开（200）
+S1-R2-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R2-E1：可打开（200））","S1-R2-E1 = S1!指定pattern 第2行 第1个入口: https://www.census.gov/retail/
+S1-R2-E2 = S1!指定pattern 第2行 第2个入口: https://www.census.gov/programs-surveys/e-stats.html","S1-R2-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R2-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+3,"https://www.bls.gov/cex/
+https://www.bls.gov/news.release/cesan.htm",,"S1-R3-E1: https://www.bls.gov/cex/
+S1-R3-E2: https://www.bls.gov/news.release/cesan.htm",,E1 链接保留；E2 链接保留,"S1-R3-E1 无规则；链接 访问受限（站点 403，挑战页，AkamaiGHost）
+S1-R3-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R3-E1：访问受限（站点 403，挑战页，AkamaiGHost））","S1-R3-E1 = S1!指定pattern 第3行 第1个入口: https://www.bls.gov/cex/
+S1-R3-E2 = S1!指定pattern 第3行 第2个入口: https://www.bls.gov/news.release/cesan.htm","S1-R3-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R3-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+4,/,,,,,,,,
+5,/,,,,,,,,
+6,"https://www.worldbank.org/ext/en/development-topics
+https://www.worldbank.org/ext/en/where-we-work
+https://www.worldbank.org/ext/en/research-publications
+https://www.worldbank.org/ext/en/what-we-do
+https://www.worldbank.org/ext/en/news
+https://data.worldbank.org
+https://data360.worldbank.org
+https://databank.worldbank.org
+https://datacatalog.worldbank.org
+https://microdata.worldbank.org
+https://projects.worldbank.org
+https://openknowledge.worldbank.org
+https://documents.worldbank.org/en/publication/documents-reports
+https://blogs.worldbank.org/en/home",,"S1-R6-E1: https://www.worldbank.org/ext/en/development-topics
+S1-R6-E2: https://www.worldbank.org/ext/en/where-we-work
+S1-R6-E3: https://www.worldbank.org/ext/en/research-publications
+S1-R6-E4: https://www.worldbank.org/ext/en/what-we-do
+S1-R6-E5: https://www.worldbank.org/ext/en/news
+S1-R6-E13: https://documents.worldbank.org/en/publication/documents-reports
+S1-R6-E14: https://blogs.worldbank.org/en/home",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E13 链接保留；E14 链接保留；E6 host免提；E7 host免提；E8 host免提；E9 host免提；E10 host免提；E11 host免提；E12 host免提,"S1-R6-E1 无规则；链接 可打开（200）
+S1-R6-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R6-E1：可打开（200））
+S1-R6-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R6-E1：可打开（200））
+S1-R6-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R6-E1：可打开（200））
+S1-R6-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R6-E1：可打开（200））
+S1-R6-E13 无规则；链接 可打开（200）
+S1-R6-E14 无规则；链接 可打开（200）","S1-R6-E1 = S1!指定pattern 第6行 第1个入口: https://www.worldbank.org/ext/en/development-topics
+S1-R6-E2 = S1!指定pattern 第6行 第2个入口: https://www.worldbank.org/ext/en/where-we-work
+S1-R6-E3 = S1!指定pattern 第6行 第3个入口: https://www.worldbank.org/ext/en/research-publications
+S1-R6-E4 = S1!指定pattern 第6行 第4个入口: https://www.worldbank.org/ext/en/what-we-do
+S1-R6-E5 = S1!指定pattern 第6行 第5个入口: https://www.worldbank.org/ext/en/news
+S1-R6-E13 = S1!指定pattern 第6行 第13个入口: https://documents.worldbank.org/en/publication/documents-reports
+S1-R6-E14 = S1!指定pattern 第6行 第14个入口: https://blogs.worldbank.org/en/home","S1-R6-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E13: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R6-E14: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+7,/,,,,,,,,
+8,/,,,,,,,,
+9,/,,,,,,,,
+10,/,,,,,,,,
+11,/,,,,,,,,
+12,/,,,,,,,,
+13,/,,,,,,,,
+14,/,,,,,,,,
+15,/,,,,,,,,
+16,"https://www.bis.org/publications
+https://www.bis.org/statistics
+https://data.bis.org/
+https://www.bis.org/speeches
+https://www.bis.org/committees/overview
+https://www.bis.org/about/fsi/overview
+https://www.bis.org/about/innovation-hub/overview
+https://www.bis.org/media/news",,"S1-R16-E1: https://www.bis.org/publications
+S1-R16-E2: https://www.bis.org/statistics
+S1-R16-E4: https://www.bis.org/speeches
+S1-R16-E5: https://www.bis.org/committees/overview
+S1-R16-E6: https://www.bis.org/about/fsi/overview
+S1-R16-E7: https://www.bis.org/about/innovation-hub/overview
+S1-R16-E8: https://www.bis.org/media/news",,E1 链接保留；E2 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E3 host免提,"S1-R16-E1 无规则；链接 可打开（200）
+S1-R16-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））
+S1-R16-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））
+S1-R16-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））
+S1-R16-E6 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））
+S1-R16-E7 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））
+S1-R16-E8 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R16-E1：可打开（200））","S1-R16-E1 = S1!指定pattern 第16行 第1个入口: https://www.bis.org/publications
+S1-R16-E2 = S1!指定pattern 第16行 第2个入口: https://www.bis.org/statistics
+S1-R16-E4 = S1!指定pattern 第16行 第4个入口: https://www.bis.org/speeches
+S1-R16-E5 = S1!指定pattern 第16行 第5个入口: https://www.bis.org/committees/overview
+S1-R16-E6 = S1!指定pattern 第16行 第6个入口: https://www.bis.org/about/fsi/overview
+S1-R16-E7 = S1!指定pattern 第16行 第7个入口: https://www.bis.org/about/innovation-hub/overview
+S1-R16-E8 = S1!指定pattern 第16行 第8个入口: https://www.bis.org/media/news","S1-R16-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E6: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E7: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R16-E8: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+17,/,,,,,,,,
+18,"https://www.itu.int/hub/pubs/
+https://www.itu.int/itu-d/sites/statistics/
+https://datahub.itu.int/
+https://www.itu.int/en/action/Pages/default.aspx
+https://www.itu.int/en/ITU-R/Pages/default.aspx
+https://www.itu.int/en/ITU-T/Pages/default.aspx
+https://www.itu.int/en/ITU-D/Pages/default.aspx
+https://www.itu.int/hub/news/
+https://www.itu.int/en/publications/Pages/media.aspx",,"S1-R18-E1: https://www.itu.int/hub/pubs/
+S1-R18-E2: https://www.itu.int/itu-d/sites/statistics/
+S1-R18-E4: https://www.itu.int/en/action/Pages/default.aspx
+S1-R18-E5: https://www.itu.int/en/ITU-R/Pages/default.aspx
+S1-R18-E6: https://www.itu.int/en/ITU-T/Pages/default.aspx
+S1-R18-E7: https://www.itu.int/en/ITU-D/Pages/default.aspx
+S1-R18-E8: https://www.itu.int/hub/news/
+S1-R18-E9: https://www.itu.int/en/publications/Pages/media.aspx",,E1 链接保留；E2 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E3 host免提,"S1-R18-E1 无规则；链接 可打开（200）
+S1-R18-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E6 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E7 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E8 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））
+S1-R18-E9 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R18-E1：可打开（200））","S1-R18-E1 = S1!指定pattern 第18行 第1个入口: https://www.itu.int/hub/pubs/
+S1-R18-E2 = S1!指定pattern 第18行 第2个入口: https://www.itu.int/itu-d/sites/statistics/
+S1-R18-E4 = S1!指定pattern 第18行 第4个入口: https://www.itu.int/en/action/Pages/default.aspx
+S1-R18-E5 = S1!指定pattern 第18行 第5个入口: https://www.itu.int/en/ITU-R/Pages/default.aspx
+S1-R18-E6 = S1!指定pattern 第18行 第6个入口: https://www.itu.int/en/ITU-T/Pages/default.aspx
+S1-R18-E7 = S1!指定pattern 第18行 第7个入口: https://www.itu.int/en/ITU-D/Pages/default.aspx
+S1-R18-E8 = S1!指定pattern 第18行 第8个入口: https://www.itu.int/hub/news/
+S1-R18-E9 = S1!指定pattern 第18行 第9个入口: https://www.itu.int/en/publications/Pages/media.aspx","S1-R18-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E6: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E7: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E8: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R18-E9: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+19,"https://www.wipo.int/en/web/ip-resources
+https://www.wipo.int/publications/en/
+https://www.wipo.int/en/web/ip-statistics
+https://www.wipo.int/en/web/patentscope/
+https://patentscope.wipo.int/
+https://www.wipo.int/en/web/global-brand-database
+https://branddb.wipo.int/
+https://www.wipo.int/en/web/global-design-database
+https://designdb.wipo.int/
+https://www.wipo.int/en/web/patent-analytics
+https://www.wipo.int/en/web/wipolex
+https://www.wipo.int/en/web/business
+https://www.wipo.int/en/web/economics
+https://www.wipo.int/en/web/technology-transfer
+https://www.wipo.int/en/web/ip-commercialization
+https://www.wipo.int/en/web/ip-financing
+https://www.wipo.int/en/web/intangible-assets
+https://www.wipo.int/en/web/innovation-ecosystems
+https://www.wipo.int/en/web/competition-policy
+https://www.wipo.int/en/web/frontier-technologies
+https://www.wipo.int/en/web/wipo-magazine
+https://www.wipo.int/en/web/ip-advantage
+https://www.wipo.int/en/web/technology-trends
+https://www.wipo.int/en/web/global-innovation-index
+https://www.wipo.int/en/web/world-ip-report
+https://www.wipo.int/en/web/country-profiles
+https://www3.wipo.int/madrid/monitor/en/
+https://www3.wipo.int/ipstats/
+https://www.wipo.int/en/web/patentscope/data/index",,"S1-R19-E1: https://www.wipo.int/en/web/ip-resources
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E1）
+S1-R19-E2: https://www.wipo.int/publications/en/
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E2）
+S1-R19-E3: https://www.wipo.int/en/web/ip-statistics
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E3）
+S1-R19-E4: https://www.wipo.int/en/web/patentscope/
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E4）
+S1-R19-E6: https://www.wipo.int/en/web/global-brand-database
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E6）
+S1-R19-E8: https://www.wipo.int/en/web/global-design-database
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E8）
+S1-R19-E10: https://www.wipo.int/en/web/patent-analytics
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E10）
+S1-R19-E11: https://www.wipo.int/en/web/wipolex
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E11）
+S1-R19-E12: https://www.wipo.int/en/web/business
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E12）
+S1-R19-E13: https://www.wipo.int/en/web/economics
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E13）
+S1-R19-E14: https://www.wipo.int/en/web/technology-transfer
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E14）
+S1-R19-E15: https://www.wipo.int/en/web/ip-commercialization
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E15）
+S1-R19-E16: https://www.wipo.int/en/web/ip-financing
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E16）
+S1-R19-E17: https://www.wipo.int/en/web/intangible-assets
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E17）
+S1-R19-E18: https://www.wipo.int/en/web/innovation-ecosystems
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E18）
+S1-R19-E19: https://www.wipo.int/en/web/competition-policy
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E19）
+S1-R19-E20: https://www.wipo.int/en/web/frontier-technologies
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E20）
+S1-R19-E21: https://www.wipo.int/en/web/wipo-magazine
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E21）
+S1-R19-E22: https://www.wipo.int/en/web/ip-advantage
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E22）
+S1-R19-E23: https://www.wipo.int/en/web/technology-trends
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E23）
+S1-R19-E24: https://www.wipo.int/en/web/global-innovation-index
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E24）
+S1-R19-E25: https://www.wipo.int/en/web/world-ip-report
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E25）
+S1-R19-E26: https://www.wipo.int/en/web/country-profiles
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E26）
+S1-R19-E27: https://www3.wipo.int/madrid/monitor/en/
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E27）
+S1-R19-E28: https://www3.wipo.int/ipstats/
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E28）
+S1-R19-E29: https://www.wipo.int/en/web/patentscope/data/index
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R19-E29）",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E6 链接保留；E8 链接保留；E10 链接保留；E11 链接保留；E12 链接保留；E13 链接保留；E14 链接保留；E15 链接保留；E16 链接保留；E17 链接保留；E18 链接保留；E19 链接保留；E20 链接保留；E21 链接保留；E22 链接保留；E23 链接保留；E24 链接保留；E25 链接保留；E26 链接保留；E27 链接保留；E28 链接保留；E29 链接保留；E5 host免提；E7 host免提；E9 host免提,"S1-R19-E1 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E2 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E3 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E4 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E6 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E8 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E10 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E11 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E12 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E13 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E14 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E15 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E16 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E17 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E18 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E19 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E20 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E21 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E22 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E23 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E24 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E25 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E26 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E27 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E28 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）
+S1-R19-E29 无规则（门户页，下级为异构子页面，归属待定）；链接 可打开（入口 200）","S1-R19-E1 = S1!指定pattern 第19行 第1个入口: https://www.wipo.int/en/web/ip-resources
+S1-R19-E2 = S1!指定pattern 第19行 第2个入口: https://www.wipo.int/publications/en/
+S1-R19-E3 = S1!指定pattern 第19行 第3个入口: https://www.wipo.int/en/web/ip-statistics
+S1-R19-E4 = S1!指定pattern 第19行 第4个入口: https://www.wipo.int/en/web/patentscope/
+S1-R19-E6 = S1!指定pattern 第19行 第6个入口: https://www.wipo.int/en/web/global-brand-database
+S1-R19-E8 = S1!指定pattern 第19行 第8个入口: https://www.wipo.int/en/web/global-design-database
+S1-R19-E10 = S1!指定pattern 第19行 第10个入口: https://www.wipo.int/en/web/patent-analytics
+S1-R19-E11 = S1!指定pattern 第19行 第11个入口: https://www.wipo.int/en/web/wipolex
+S1-R19-E12 = S1!指定pattern 第19行 第12个入口: https://www.wipo.int/en/web/business
+S1-R19-E13 = S1!指定pattern 第19行 第13个入口: https://www.wipo.int/en/web/economics
+S1-R19-E14 = S1!指定pattern 第19行 第14个入口: https://www.wipo.int/en/web/technology-transfer
+S1-R19-E15 = S1!指定pattern 第19行 第15个入口: https://www.wipo.int/en/web/ip-commercialization
+S1-R19-E16 = S1!指定pattern 第19行 第16个入口: https://www.wipo.int/en/web/ip-financing
+S1-R19-E17 = S1!指定pattern 第19行 第17个入口: https://www.wipo.int/en/web/intangible-assets
+S1-R19-E18 = S1!指定pattern 第19行 第18个入口: https://www.wipo.int/en/web/innovation-ecosystems
+S1-R19-E19 = S1!指定pattern 第19行 第19个入口: https://www.wipo.int/en/web/competition-policy
+S1-R19-E20 = S1!指定pattern 第19行 第20个入口: https://www.wipo.int/en/web/frontier-technologies
+S1-R19-E21 = S1!指定pattern 第19行 第21个入口: https://www.wipo.int/en/web/wipo-magazine
+S1-R19-E22 = S1!指定pattern 第19行 第22个入口: https://www.wipo.int/en/web/ip-advantage
+S1-R19-E23 = S1!指定pattern 第19行 第23个入口: https://www.wipo.int/en/web/technology-trends
+S1-R19-E24 = S1!指定pattern 第19行 第24个入口: https://www.wipo.int/en/web/global-innovation-index
+S1-R19-E25 = S1!指定pattern 第19行 第25个入口: https://www.wipo.int/en/web/world-ip-report
+S1-R19-E26 = S1!指定pattern 第19行 第26个入口: https://www.wipo.int/en/web/country-profiles
+S1-R19-E27 = S1!指定pattern 第19行 第27个入口: https://www3.wipo.int/madrid/monitor/en/
+S1-R19-E28 = S1!指定pattern 第19行 第28个入口: https://www3.wipo.int/ipstats/
+S1-R19-E29 = S1!指定pattern 第19行 第29个入口: https://www.wipo.int/en/web/patentscope/data/index","S1-R19-E1: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E2: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E3: 部分：入口静态首轮 1 页；入口路径下子链接 5 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E4: 部分：入口静态首轮 1 页；入口路径下子链接 10 个逐跳复核（跳转 2、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E6: 部分：入口静态首轮 1 页；入口路径下子链接 6 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E8: 部分：入口静态首轮 1 页；入口路径下子链接 4 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E10: 部分：入口静态首轮 1 页；入口路径下子链接 11 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E11: 部分：入口静态首轮 1 页；入口路径下子链接 1 个逐跳复核（跳转 0、非200 1）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E12: 部分：入口静态首轮 1 页；入口路径下子链接 28 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E13: 部分：入口静态首轮 1 页；入口路径下子链接 13 个逐跳复核（跳转 3、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E14: 部分：入口静态首轮 1 页；入口路径下子链接 16 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E15: 部分：入口静态首轮 1 页；入口路径下子链接 2 个逐跳复核（跳转 1、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E16: 部分：入口静态首轮 1 页；入口路径下子链接 8 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E17: 部分：入口静态首轮 1 页；入口路径下子链接 1 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E18: 部分：入口静态首轮 1 页；入口路径下子链接 2 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E19: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E20: 部分：入口静态首轮 1 页；入口路径下子链接 4 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E21: 部分：入口静态首轮 1 页；入口路径下子链接 14 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E22: 部分：入口静态首轮 1 页；入口路径下子链接 33 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E23: 部分：入口静态首轮 1 页；入口路径下子链接 3 个逐跳复核（跳转 2、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E24: 部分：入口静态首轮 1 页；入口路径下子链接 15 个逐跳复核（跳转 2、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E25: 部分：入口静态首轮 1 页；入口路径下子链接 4 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E26: 部分：入口静态首轮 1 页；入口路径下子链接 1 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E27: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E28: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json
+S1-R19-E29: 部分：入口静态首轮 1 页；入口路径下子链接 0 个逐跳复核（跳转 0、非200 0）；子页面栏目归属与下级目录未枚举；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R19-E1 [K5 复核] 跳转样本：无
+S1-R19-E2 [K5 复核] 跳转样本：无
+S1-R19-E3 [K5 复核] 跳转样本：无
+S1-R19-E4 [K5 复核] 跳转样本：https://www.wipo.int/en/web/patentscope/webinar →302→ https://www.wipo.int/en/web/patentscope/webinar/index；https://www.wipo.int/en/web/patentscope/data/ →302→ https://www.wipo.int/en/web/patentscope/data/index
+S1-R19-E6 [K5 复核] 跳转样本：无
+S1-R19-E8 [K5 复核] 跳转样本：无
+S1-R19-E10 [K5 复核] 跳转样本：无
+S1-R19-E11 [K5 复核] 跳转样本：无
+S1-R19-E11 [K5] 404：https://www.wipo.int/en/web/wipolex/faq
+S1-R19-E12 [K5 复核] 跳转样本：无
+S1-R19-E13 [K5 复核] 跳转样本：https://www.wipo.int/en/web/economics/innovation-economics-and-policy-design →302→ https://www.wipo.int/en/web/economics/innovation-economics-and-policy-design/index；https://www.wipo.int/en/web/economics/cup-series →302→ https://www.wipo.int/en/web/economics/cup-series/index；https://www.wipo.int/en/web/economics/studies →302→ https://www.wipo.int/en/web/economics/studies/index
+S1-R19-E14 [K5 复核] 跳转样本：无
+S1-R19-E15 [K5 复核] 跳转样本：https://www.wipo.int/en/web/ip-commercialization/blog →301→ https://www.wipo.int/en/web/ip-commercialization/hub
+S1-R19-E16 [K5 复核] 跳转样本：无
+S1-R19-E17 [K5 复核] 跳转样本：无
+S1-R19-E18 [K5 复核] 跳转样本：无
+S1-R19-E19 [K5 复核] 跳转样本：无
+S1-R19-E20 [K5 复核] 跳转样本：无
+S1-R19-E21 [K5 复核] 跳转样本：无
+S1-R19-E22 [K5 复核] 跳转样本：无
+S1-R19-E23 [K5 复核] 跳转样本：https://www.wipo.int/en/web/technology-trends/assistive_technology →301/302→ https://www.wipo.int/en/web/technology-trends/assistive-technology/index；https://www.wipo.int/en/web/technology-trends/artificial_intelligence →301/302→ https://www.wipo.int/en/web/technology-trends/artificial_intelligence/index
+S1-R19-E24 [K5 复核] 跳转样本：https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2021 →301→ https://www.wipo.int/en/web/global-innovation-index/2021/index；https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2022 →301→ https://www.wipo.int/en/web/global-innovation-index/2022/index
+S1-R19-E25 [K5 复核] 跳转样本：无
+S1-R19-E26 [K5 复核] 跳转样本：无
+S1-R19-E27 [K5 复核] 跳转样本：无
+S1-R19-E28 [K5 复核] 跳转样本：无
+S1-R19-E29 [K5 复核] 跳转样本：无"
+20,"https://www.epo.org/en/searching-for-patents
+https://www.epo.org/en/news-events
+https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results
+https://e-courses.epo.org/",,"S1-R20-E1: https://www.epo.org/en/searching-for-patents
+S1-R20-E2: https://www.epo.org/en/news-events
+S1-R20-E3: https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",,E1 链接保留；E2 链接保留；E3 链接保留；E4 host免提,"S1-R20-E1 无规则；链接 可打开（200）
+S1-R20-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R20-E1：可打开（200））
+S1-R20-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R20-E1：可打开（200））","S1-R20-E1 = S1!指定pattern 第20行 第1个入口: https://www.epo.org/en/searching-for-patents
+S1-R20-E2 = S1!指定pattern 第20行 第2个入口: https://www.epo.org/en/news-events
+S1-R20-E3 = S1!指定pattern 第20行 第3个入口: https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results","S1-R20-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R20-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R20-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+21,/,,,,,,,,
+22,"https://www.kantar.com/inspiration
+https://www.kantar.com/marketplace",,"S1-R22-E1: https://www.kantar.com/inspiration
+S1-R22-E2: https://www.kantar.com/marketplace",,E1 链接保留；E2 链接保留,"S1-R22-E1 无规则；链接 可打开（200）
+S1-R22-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R22-E1：可打开（200））","S1-R22-E1 = S1!指定pattern 第22行 第1个入口: https://www.kantar.com/inspiration
+S1-R22-E2 = S1!指定pattern 第22行 第2个入口: https://www.kantar.com/marketplace","S1-R22-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R22-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+23,/,,,,,,,,
+24,/,,,,,,,,
+25,/,,,,,,,,
+26,"https://www.mintel.com/insights/
+https://www.mintel.com/press-centre/
+https://www.mintel.com/events/",,"S1-R26-E1: https://www.mintel.com/insights/
+  子链接与跳转链见 output/round2/k5-redirects.jsonl（entry_id=S1-R26-E1）
+S1-R26-E2: https://www.mintel.com/press-centre/
+S1-R26-E3: https://www.mintel.com/events/",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R26-E1 无规则；链接 可打开（入口 200）
+S1-R26-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R26-E1：可打开（200））
+S1-R26-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R26-E1：可打开（200））","S1-R26-E1 = S1!指定pattern 第26行 第1个入口: https://www.mintel.com/insights/
+S1-R26-E2 = S1!指定pattern 第26行 第2个入口: https://www.mintel.com/press-centre/
+S1-R26-E3 = S1!指定pattern 第26行 第3个入口: https://www.mintel.com/events/","S1-R26-E1: 部分：入口静态首轮 1 页；main/body 内入口前缀子链接 45 个逐跳复核；insights 分类/分页/动态加载与全部详情未枚举；续跑见 output/round2/queue.json
+S1-R26-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R26-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R26-E1 [K5 已证实] https://www.mintel.com/insights/emea → https://www.mintel.com/insights/events/emea-cleaning-products-europe-2022/；https://www.mintel.com/insights/americas → https://www.mintel.com/insights/events/americas-beauty-show-2024/；https://www.mintel.com/insights/asia → https://www.mintel.com/insights/food-and-drink/asia-is-a-hot-market-for-new-alternative-meat-formats/；https://www.mintel.com/insights/consumer-research/global-predictions/ → https://www.mintel.com/trend-predictions/。其中 3 个地区链接（americas/asia/emea）跳到不相关的旧活动/文章页，按跳转源与目标分别登记，不据此泛化"
+27,"https://www.euromonitor.com/articles
+https://www.euromonitor.com/webinar
+https://www.euromonitor.com/store/explore-reports",,"S1-R27-E1: https://www.euromonitor.com/articles
+S1-R27-E2: https://www.euromonitor.com/webinar
+S1-R27-E3: https://www.euromonitor.com/store/explore-reports",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R27-E1 无规则；链接 可打开（200）
+S1-R27-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R27-E1：可打开（200））
+S1-R27-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R27-E1：可打开（200））","S1-R27-E1 = S1!指定pattern 第27行 第1个入口: https://www.euromonitor.com/articles
+S1-R27-E2 = S1!指定pattern 第27行 第2个入口: https://www.euromonitor.com/webinar
+S1-R27-E3 = S1!指定pattern 第27行 第3个入口: https://www.euromonitor.com/store/explore-reports","S1-R27-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R27-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R27-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+28,/,,,,,,,,
+29,https://www.accenture.com/en/insights-index,,S1-R29-E1: https://www.accenture.com/en/insights-index,,E1 链接保留,S1-R29-E1 无规则；链接 可打开（200）,S1-R29-E1 = S1!指定pattern 第29行 第1个入口: https://www.accenture.com/en/insights-index,S1-R29-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+30,"https://www.nielsen.com/insights/
+https://www.nielsen.com/news-center/",,"S1-R30-E1: https://www.nielsen.com/insights/
+S1-R30-E2: https://www.nielsen.com/news-center/",,E1 链接保留；E2 链接保留,"S1-R30-E1 无规则；链接 可打开（200）
+S1-R30-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R30-E1：可打开（200））","S1-R30-E1 = S1!指定pattern 第30行 第1个入口: https://www.nielsen.com/insights/
+S1-R30-E2 = S1!指定pattern 第30行 第2个入口: https://www.nielsen.com/news-center/","S1-R30-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R30-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+31,"https://msi.org/library/
+https://msi.org/research/",,"S1-R31-E1: https://msi.org/library/
+S1-R31-E2: https://msi.org/research/",,E1 链接保留；E2 链接保留,"S1-R31-E1 无规则；链接 可打开（200）
+S1-R31-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R31-E1：可打开（200））","S1-R31-E1 = S1!指定pattern 第31行 第1个入口: https://msi.org/library/
+S1-R31-E2 = S1!指定pattern 第31行 第2个入口: https://msi.org/research/","S1-R31-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R31-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+32,"https://www.askattest.com/resources
+https://www.askattest.com/blog",,"S1-R32-E1: https://www.askattest.com/resources
+S1-R32-E2: https://www.askattest.com/blog",,E1 链接保留；E2 链接保留,"S1-R32-E1 无规则；链接 可打开（200）
+S1-R32-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R32-E1：可打开（200））","S1-R32-E1 = S1!指定pattern 第32行 第1个入口: https://www.askattest.com/resources
+S1-R32-E2 = S1!指定pattern 第32行 第2个入口: https://www.askattest.com/blog","S1-R32-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R32-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+33,https://brandfinance.com/about,,S1-R33-E1: https://brandfinance.com/about,,E1 链接保留,S1-R33-E1 无规则；链接 可打开（200）,S1-R33-E1 = S1!指定pattern 第33行 第1个入口: https://brandfinance.com/about,S1-R33-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+34,"https://www.circana.com/insights
+https://www.circana.com/industries
+https://www.circana.com/news",,"S1-R34-E1: https://www.circana.com/insights
+S1-R34-E2: https://www.circana.com/industries
+S1-R34-E3: https://www.circana.com/news",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R34-E1 无规则；链接 可打开（200）
+S1-R34-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R34-E1：可打开（200））
+S1-R34-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R34-E1：可打开（200））","S1-R34-E1 = S1!指定pattern 第34行 第1个入口: https://www.circana.com/insights
+S1-R34-E2 = S1!指定pattern 第34行 第2个入口: https://www.circana.com/industries
+S1-R34-E3 = S1!指定pattern 第34行 第3个入口: https://www.circana.com/news","S1-R34-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R34-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R34-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+35,"https://www.comscore.com/Insights/Blog
+https://www.comscore.com/Insights/Presentations-and-Whitepapers",,"S1-R35-E1: https://www.comscore.com/Insights/Blog
+S1-R35-E2: https://www.comscore.com/Insights/Presentations-and-Whitepapers",,E1 链接保留；E2 链接保留,"S1-R35-E1 无规则；链接 可打开（200）
+S1-R35-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R35-E1：可打开（200））","S1-R35-E1 = S1!指定pattern 第35行 第1个入口: https://www.comscore.com/Insights/Blog
+S1-R35-E2 = S1!指定pattern 第35行 第2个入口: https://www.comscore.com/Insights/Presentations-and-Whitepapers","S1-R35-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R35-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+36,"https://marketingscience.info/open-access-knowledge
+https://marketingscience.info/news-and-insights",,"S1-R36-E1: https://marketingscience.info/open-access-knowledge
+S1-R36-E2: https://marketingscience.info/news-and-insights",,E1 链接保留；E2 链接保留,"S1-R36-E1 无规则；链接 可打开（200）
+S1-R36-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R36-E1：可打开（200））","S1-R36-E1 = S1!指定pattern 第36行 第1个入口: https://marketingscience.info/open-access-knowledge
+S1-R36-E2 = S1!指定pattern 第36行 第2个入口: https://marketingscience.info/news-and-insights","S1-R36-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R36-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+37,/,,,,,,,,
+38,https://www.futurebrand.com/contact-us,,S1-R38-E1: https://www.futurebrand.com/contact-us,,E1 链接保留,S1-R38-E1 无规则；链接 可打开（200）,S1-R38-E1 = S1!指定pattern 第38行 第1个入口: https://www.futurebrand.com/contact-us,S1-R38-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+39,"https://www.gwi.com/reports
+https://www.gwi.com/blog
+https://www.gwi.com/case-studies",,"S1-R39-E1: https://www.gwi.com/reports
+S1-R39-E2: https://www.gwi.com/blog
+S1-R39-E3: https://www.gwi.com/case-studies",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R39-E1 无规则；链接 可打开（200）
+S1-R39-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R39-E1：可打开（200））
+S1-R39-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R39-E1：可打开（200））","S1-R39-E1 = S1!指定pattern 第39行 第1个入口: https://www.gwi.com/reports
+S1-R39-E2 = S1!指定pattern 第39行 第2个入口: https://www.gwi.com/blog
+S1-R39-E3 = S1!指定pattern 第39行 第3个入口: https://www.gwi.com/case-studies","S1-R39-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R39-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R39-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+40,https://www.wearehuman8.com/inspiration/,,S1-R40-E1: https://www.wearehuman8.com/inspiration/,,E1 链接保留,S1-R40-E1 无规则；链接 可打开（200）,S1-R40-E1 = S1!指定pattern 第40行 第1个入口: https://www.wearehuman8.com/inspiration/,S1-R40-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+41,"https://interbrand.com/best-global-brands/
+https://interbrand.com/thinking/",,"S1-R41-E1: https://interbrand.com/best-global-brands/
+S1-R41-E2: https://interbrand.com/thinking/",,E1 链接保留；E2 链接保留,"S1-R41-E1 无规则；链接 可打开（200）
+S1-R41-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R41-E1：可打开（200））","S1-R41-E1 = S1!指定pattern 第41行 第1个入口: https://interbrand.com/best-global-brands/
+S1-R41-E2 = S1!指定pattern 第41行 第2个入口: https://interbrand.com/thinking/","S1-R41-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R41-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+42,https://www.numerator.com/resources/,,"S1-R42-E1: https://www.numerator.com/resources/
+  首屏 8 条与组件参数见 output/round2/evidence/numerator/k2-component-and-counts.json",,E1 链接保留,S1-R42-E1 无规则（线索：/resources/{blog|case-study|report|webinar|white-paper}/{slug}/，未测）；链接 可打开（入口 200）,S1-R42-E1 = S1!指定pattern 第42行 第1个入口: https://www.numerator.com/resources/,S1-R42-E1: 部分：入口显示「606 Results」，与前轮总数一致；组件 type 参数取值已查清（filter=首次/筛选，loadmore=加载更多）；WP REST resource 类型 X-WP-Total=640，与 606 差 34 未解释；本轮未执行 filter_resources POST 与 REST 剩余 6 页（权限拦截）；续跑见 output/round2/queue.json,"行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R42-E1 [K2] 前轮未知的 type 取值已确定；URL 正则无法表达 POST body 条件；606 个详情/文件/外站跳转仍未逐项验收"
+43,https://system1group.com/resources,,S1-R43-E1: https://system1group.com/resources,,E1 链接保留,S1-R43-E1 无规则；链接 可打开（200）,S1-R43-E1 = S1!指定pattern 第43行 第1个入口: https://system1group.com/resources,S1-R43-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+44,https://tolunacorporate.com/insights-and-news/,,S1-R44-E1: https://tolunacorporate.com/insights-and-news/,,E1 链接保留,S1-R44-E1 无规则；链接 可打开（200）,S1-R44-E1 = S1!指定pattern 第44行 第1个入口: https://tolunacorporate.com/insights-and-news/,S1-R44-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+45,"https://yougov.com/content/economy
+https://yougov.com/content/consumer
+https://yougov.com/reports
+https://yougov.com/business/sectors/consumer",,"S1-R45-E1: https://yougov.com/content/economy
+  成员链接与接口调用见 output/round2/evidence/yougov/yg-economy.json
+S1-R45-E2: https://yougov.com/content/consumer
+  成员链接与接口调用见 output/round2/evidence/yougov/yg-consumer.json
+S1-R45-E3: https://yougov.com/reports
+  成员链接与接口调用见 output/round2/evidence/yougov/yg-reports.json
+S1-R45-E4: https://yougov.com/business/sectors/consumer
+  成员链接与接口调用见 output/round2/evidence/yougov/yg-sectors-consumer.json",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R45-E1 无规则（详情在全站共享 /articles/、/reports/ 等路径）；链接 可打开（入口 200）
+S1-R45-E2 无规则（详情在全站共享 /articles/、/reports/ 等路径）；链接 可打开（入口 200）
+S1-R45-E3 无规则（详情在全站共享 /articles/、/reports/ 等路径）；链接 可打开（入口 200）
+S1-R45-E4 无规则（详情在全站共享 /articles/、/reports/ 等路径）；链接 可打开（入口 200）","S1-R45-E1 = S1!指定pattern 第45行 第1个入口: https://yougov.com/content/economy
+S1-R45-E2 = S1!指定pattern 第45行 第2个入口: https://yougov.com/content/consumer
+S1-R45-E3 = S1!指定pattern 第45行 第3个入口: https://yougov.com/reports
+S1-R45-E4 = S1!指定pattern 第45行 第4个入口: https://yougov.com/business/sectors/consumer","S1-R45-E1: 完整（本次筛选条件下）：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=1016，点击 28 次后按钮消失，页面取得 1,015 个内容链接（articles 899、reports 92、case-studies 13、guides 8、events 3），差 1 未解释；续跑见 output/round2/queue.json
+S1-R45-E2: 部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 hits=2717，本批 45 轮取得约 1,575 个内容链接（articles 1,300、reports 229…），剩余约 1,142 条待续跑；续跑见 output/round2/queue.json
+S1-R45-E3: 部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；接口 article_type=WhitePaperPage，hits=460，页面取得 456 个 /reports/ 链接，差 4 未解释；续跑见 output/round2/queue.json
+S1-R45-E4: 部分：浏览器渲染并点击 button.load-more（CSS 隐藏 Cookie 弹层，未点同意）；组件只读 GET api-test.yougov.com/public-content/content（limit=35，offset 递增）；静态落地页，无 Load more；主体 30 个链接（articles/business/case-studies 等）；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R45-E1 [K4 已证实] 栏目详情落在共享路径，不能仅凭路径认定栏目成员；需要 regex 时只能做精确集合快照
+S1-R45-E1 本轮浏览器加载未再出现 d18w79e3uiqk2z.cloudfront.net 被拦截
+S1-R45-E2 [K4 已证实] 栏目详情落在共享路径，不能仅凭路径认定栏目成员；需要 regex 时只能做精确集合快照
+S1-R45-E2 本轮浏览器加载未再出现 d18w79e3uiqk2z.cloudfront.net 被拦截
+S1-R45-E3 [K4 已证实] 栏目详情落在共享路径，不能仅凭路径认定栏目成员；需要 regex 时只能做精确集合快照
+S1-R45-E3 本轮浏览器加载未再出现 d18w79e3uiqk2z.cloudfront.net 被拦截
+S1-R45-E3 /reports/{id}-{slug} 可能是报告专属路径，列为下一轮候选
+S1-R45-E4 [K4 已证实] 栏目详情落在共享路径，不能仅凭路径认定栏目成员；需要 regex 时只能做精确集合快照
+S1-R45-E4 本轮浏览器加载未再出现 d18w79e3uiqk2z.cloudfront.net 被拦截"
+46,"https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights
+https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights
+https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",,"S1-R46-E1: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights
+S1-R46-E2: https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights
+S1-R46-E3: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R46-E1 无规则；链接 待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)）
+S1-R46-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R46-E1：待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)））
+S1-R46-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R46-E1：待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)））","S1-R46-E1 = S1!指定pattern 第46行 第1个入口: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights
+S1-R46-E2 = S1!指定pattern 第46行 第2个入口: https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights
+S1-R46-E3 = S1!指定pattern 第46行 第3个入口: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations","S1-R46-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R46-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R46-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+47,"https://www.bcg.com/capabilities/marketing-sales/insights
+https://www.bcg.com/capabilities/customer-insights/insights
+https://www.bcg.com/industries/retail/insights
+https://www.bcg.com/industries/consumer-products-industry/insights",,"S1-R47-E1: https://www.bcg.com/capabilities/marketing-sales/insights
+S1-R47-E2: https://www.bcg.com/capabilities/customer-insights/insights
+S1-R47-E3: https://www.bcg.com/industries/retail/insights
+S1-R47-E4: https://www.bcg.com/industries/consumer-products-industry/insights",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R47-E1 无规则；链接 访问受限（站点 403，挑战页，AkamaiGHost）
+S1-R47-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R47-E1：访问受限（站点 403，挑战页，AkamaiGHost））
+S1-R47-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R47-E1：访问受限（站点 403，挑战页，AkamaiGHost））
+S1-R47-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R47-E1：访问受限（站点 403，挑战页，AkamaiGHost））","S1-R47-E1 = S1!指定pattern 第47行 第1个入口: https://www.bcg.com/capabilities/marketing-sales/insights
+S1-R47-E2 = S1!指定pattern 第47行 第2个入口: https://www.bcg.com/capabilities/customer-insights/insights
+S1-R47-E3 = S1!指定pattern 第47行 第3个入口: https://www.bcg.com/industries/retail/insights
+S1-R47-E4 = S1!指定pattern 第47行 第4个入口: https://www.bcg.com/industries/consumer-products-industry/insights","S1-R47-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R47-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R47-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R47-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+48,https://www.bain.com/insights/,,S1-R48-E1: https://www.bain.com/insights/,,E1 链接保留,S1-R48-E1 无规则；链接 可打开（200）,S1-R48-E1 = S1!指定pattern 第48行 第1个入口: https://www.bain.com/insights/,S1-R48-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+49,https://www.deloitte.com/global/en/insights.html,,S1-R49-E1: https://www.deloitte.com/global/en/insights.html,,E1 链接保留,S1-R49-E1 无规则；链接 可打开（200）,S1-R49-E1 = S1!指定pattern 第49行 第1个入口: https://www.deloitte.com/global/en/insights.html,S1-R49-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+50,"https://www.forrester.com/b2b-marketing/
+https://www.forrester.com/b2c-marketing/
+https://www.forrester.com/blogs/category/b2b-research/
+https://www.forrester.com/blogs/category/b2b-research/page/2/",,"S1-R50-E1: https://www.forrester.com/b2b-marketing/
+S1-R50-E2: https://www.forrester.com/b2c-marketing/
+S1-R50-E3: https://www.forrester.com/blogs/category/b2b-research/
+  1,222 个成员见 output/round2/evidence/forrester/b2b-research-members.json
+S1-R50-E4: https://www.forrester.com/blogs/category/b2b-research/page/2/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R50-E1 无规则；链接 可打开（200）
+S1-R50-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R50-E1：可打开（200））
+S1-R50-E3 候选：精确集合快照 R2-FORR-B2B-SNAP-01..28（有限集合相等通过）；链接 可打开（入口 200）
+S1-R50-E4 无规则（同栏目快照挂在 S1-R50-E3）；链接 可打开（200，内容与第 1 页相同）","S1-R50-E1 = S1!指定pattern 第50行 第1个入口: https://www.forrester.com/b2b-marketing/
+S1-R50-E2 = S1!指定pattern 第50行 第2个入口: https://www.forrester.com/b2c-marketing/
+S1-R50-E3 = S1!指定pattern 第50行 第3个入口: https://www.forrester.com/blogs/category/b2b-research/
+S1-R50-E4 = S1!指定pattern 第50行 第4个入口: https://www.forrester.com/blogs/category/b2b-research/page/2/","S1-R50-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R50-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R50-E3: 部分：根因已查清——列表页底部 More posts 调用 POST go.forrester.com/wp-admin/admin-ajax.php action=loadposts&page=N&category=b2b-research，data-pages=62；/page/N/ 地址的静态正文不随页码变化。成员集合经 WP REST GET（categories=50231）取得 1,222 篇（X-WP-Total=1222，与 62 页×20 吻合），首页 16 篇全部在内；分类计数 1,287 与公开文章数差 65 未解释；loadposts POST 本轮未执行（权限拦截）；续跑见 output/round2/queue.json
+S1-R50-E4: 部分：/page/2/ 静态返回与第 1 页相同的 16 篇（30/30 链接一致），JS 变量 current_page=2，仅影响 More posts 起始页；同栏目成员见 S1-R50-E3；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R50-E3 [K1 根因] 第 2 页与第 1 页相同是因为服务端对 /page/N/ 不分页，真实分页走 admin-ajax loadposts
+S1-R50-E3 详情位于全站共享 /blogs/{slug}/：抽样 6 篇成员页均带 b2b-research 分类标记，4 篇其他分类同结构页无，证实不能泛化
+S1-R50-E3 快照只覆盖 2026-10-26 已确认的 1,222 篇，不覆盖未来文章；成员页落地仅抽查 6/1,222
+S1-R50-E4 [K1] 服务器忽略 /page/N/ 页码的静态列表，不能当新增内容"
+51,"https://www.gartner.com/en/marketing/insights
+https://www.gartner.com/en/sales/insights
+https://www.gartner.com/en/customer-service-support/insights
+https://www.gartner.com/en/finance/insights
+https://www.gartner.com/en/supply-chain
+https://www.gartner.com/en/insights/finance",,"S1-R51-E1: https://www.gartner.com/en/marketing/insights
+S1-R51-E2: https://www.gartner.com/en/sales/insights
+S1-R51-E3: https://www.gartner.com/en/customer-service-support/insights
+S1-R51-E4: https://www.gartner.com/en/finance/insights
+S1-R51-E5: https://www.gartner.com/en/supply-chain
+S1-R51-E6: https://www.gartner.com/en/insights/finance",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留,"S1-R51-E1 无规则；链接 访问受限（站点 403 挑战页）
+S1-R51-E2 无规则；链接 访问受限（站点 403 挑战页）
+S1-R51-E3 无规则；链接 访问受限（站点 403 挑战页）
+S1-R51-E4 无规则；链接 访问受限（站点 403 挑战页）
+S1-R51-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R51-E1：访问受限（站点 403，挑战页，cloudflare））
+S1-R51-E6 无规则；链接 访问受限（站点 403 挑战页）","S1-R51-E1 = S1!指定pattern 第51行 第1个入口: https://www.gartner.com/en/marketing/insights
+S1-R51-E2 = S1!指定pattern 第51行 第2个入口: https://www.gartner.com/en/sales/insights
+S1-R51-E3 = S1!指定pattern 第51行 第3个入口: https://www.gartner.com/en/customer-service-support/insights
+S1-R51-E4 = S1!指定pattern 第51行 第4个入口: https://www.gartner.com/en/finance/insights
+S1-R51-E5 = S1!指定pattern 第51行 第5个入口: https://www.gartner.com/en/supply-chain
+S1-R51-E6 = S1!指定pattern 第51行 第6个入口: https://www.gartner.com/en/insights/finance","S1-R51-E1: 未验证：站点返回 Cloudflare 挑战页（403，cf-mitigated: challenge，标题 Just a moment...），未绕过；续跑见 output/round2/queue.json
+S1-R51-E2: 未验证：站点返回 Cloudflare 挑战页（403，cf-mitigated: challenge，标题 Just a moment...），未绕过；续跑见 output/round2/queue.json
+S1-R51-E3: 未验证：站点返回 Cloudflare 挑战页（403，cf-mitigated: challenge，标题 Just a moment...），未绕过；续跑见 output/round2/queue.json
+S1-R51-E4: 未验证：站点返回 Cloudflare 挑战页（403，cf-mitigated: challenge，标题 Just a moment...），未绕过；续跑见 output/round2/queue.json
+S1-R51-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R51-E6: 未验证：站点返回 Cloudflare 挑战页（403，cf-mitigated: challenge，标题 Just a moment...），未绕过；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R51-E1 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页拦截（不是代理拒绝）。不使用绕过手段；需要授权会话或改由人工浏览器核验
+S1-R51-E2 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页拦截（不是代理拒绝）。不使用绕过手段；需要授权会话或改由人工浏览器核验
+S1-R51-E3 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页拦截（不是代理拒绝）。不使用绕过手段；需要授权会话或改由人工浏览器核验
+S1-R51-E4 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页拦截（不是代理拒绝）。不使用绕过手段；需要授权会话或改由人工浏览器核验
+S1-R51-E6 [K5] 前轮跳转样本本轮无法复核：入口被站点挑战页拦截（不是代理拒绝）。不使用绕过手段；需要授权会话或改由人工浏览器核验"
+52,"https://www.pewresearch.org/topic/economy-work/
+https://www.pewresearch.org/topic/internet-technology/
+https://www.pewresearch.org/topic/news-habits-media/
+https://www.pewresearch.org/topic/economy-work/business-workplace/",,"S1-R52-E1: https://www.pewresearch.org/topic/economy-work/
+S1-R52-E2: https://www.pewresearch.org/topic/internet-technology/
+S1-R52-E3: https://www.pewresearch.org/topic/news-habits-media/
+S1-R52-E4: https://www.pewresearch.org/topic/economy-work/business-workplace/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R52-E1 无规则；链接 可打开（200）
+S1-R52-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R52-E1：可打开（200））
+S1-R52-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R52-E1：可打开（200））
+S1-R52-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R52-E1：可打开（200））","S1-R52-E1 = S1!指定pattern 第52行 第1个入口: https://www.pewresearch.org/topic/economy-work/
+S1-R52-E2 = S1!指定pattern 第52行 第2个入口: https://www.pewresearch.org/topic/internet-technology/
+S1-R52-E3 = S1!指定pattern 第52行 第3个入口: https://www.pewresearch.org/topic/news-habits-media/
+S1-R52-E4 = S1!指定pattern 第52行 第4个入口: https://www.pewresearch.org/topic/economy-work/business-workplace/","S1-R52-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R52-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R52-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R52-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+53,"https://www.idc.com/research/
+https://www.idc.com/data-analytics/
+https://www.idc.com/quanta/
+https://www.idc.com/resource-center/",,"S1-R53-E1: https://www.idc.com/research/
+S1-R53-E2: https://www.idc.com/data-analytics/
+S1-R53-E3: https://www.idc.com/quanta/
+S1-R53-E4: https://www.idc.com/resource-center/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R53-E1 无规则；链接 可打开（200）
+S1-R53-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R53-E1：可打开（200））
+S1-R53-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R53-E1：可打开（200））
+S1-R53-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R53-E1：可打开（200））","S1-R53-E1 = S1!指定pattern 第53行 第1个入口: https://www.idc.com/research/
+S1-R53-E2 = S1!指定pattern 第53行 第2个入口: https://www.idc.com/data-analytics/
+S1-R53-E3 = S1!指定pattern 第53行 第3个入口: https://www.idc.com/quanta/
+S1-R53-E4 = S1!指定pattern 第53行 第4个入口: https://www.idc.com/resource-center/","S1-R53-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R53-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R53-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R53-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+54,/,,,,,,,,
+55,/,,,,,,,,
+56,/,,,,,,,,
+57,/,,,,,,,,
+58,/,,,,,,,,
+59,/,,,,,,,,
+60,/,,,,,,,,
+61,/,,,,,,,,
+62,https://ads.tiktok.com/creative/creativeCenter,,S1-R62-E1: https://ads.tiktok.com/creative/creativeCenter,,E1 链接保留,S1-R62-E1 无规则；链接 可打开（200）,S1-R62-E1 = S1!指定pattern 第62行 第1个入口: https://ads.tiktok.com/creative/creativeCenter,S1-R62-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+63,https://transparency.meta.com/policies/,,S1-R63-E1: https://transparency.meta.com/policies/,,E1 链接保留,S1-R63-E1 无规则；链接 访问受限（站点 400，）,S1-R63-E1 = S1!指定pattern 第63行 第1个入口: https://transparency.meta.com/policies/,S1-R63-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+64,https://advertising.amazon.com/resources/library,,S1-R64-E1: https://advertising.amazon.com/resources/library,,E1 链接保留,S1-R64-E1 无规则；链接 可打开（200）,S1-R64-E1 = S1!指定pattern 第64行 第1个入口: https://advertising.amazon.com/resources/library,S1-R64-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+65,https://www.linkedin.com/business/marketing/blog,,S1-R65-E1: https://www.linkedin.com/business/marketing/blog,,E1 链接保留,S1-R65-E1 无规则；链接 可打开（200）,S1-R65-E1 = S1!指定pattern 第65行 第1个入口: https://www.linkedin.com/business/marketing/blog,S1-R65-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+66,https://effie.org/insights/,,S1-R66-E1: https://effie.org/insights/,,E1 链接保留,S1-R66-E1 无规则；链接 可打开（200）,S1-R66-E1 = S1!指定pattern 第66行 第1个入口: https://effie.org/insights/,S1-R66-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+67,"https://www.lovethework.com/en/talks
+https://www.lovethework.com/en/reports",,"S1-R67-E1: https://www.lovethework.com/en/talks
+S1-R67-E2: https://www.lovethework.com/en/reports",,E1 链接保留；E2 链接保留,"S1-R67-E1 无规则；链接 可打开（200）
+S1-R67-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R67-E1：可打开（200））","S1-R67-E1 = S1!指定pattern 第67行 第1个入口: https://www.lovethework.com/en/talks
+S1-R67-E2 = S1!指定pattern 第67行 第2个入口: https://www.lovethework.com/en/reports","S1-R67-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R67-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+68,"https://www.iab.com/events/
+https://www.iab.com/get-involved/",,"S1-R68-E1: https://www.iab.com/events/
+S1-R68-E2: https://www.iab.com/get-involved/",,E1 链接保留；E2 链接保留,"S1-R68-E1 无规则；链接 可打开（200）
+S1-R68-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R68-E1：可打开（200））","S1-R68-E1 = S1!指定pattern 第68行 第1个入口: https://www.iab.com/events/
+S1-R68-E2 = S1!指定pattern 第68行 第2个入口: https://www.iab.com/get-involved/","S1-R68-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R68-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+69,"https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports
+https://ana.esomar.org/
+https://esomar.org/resources/glossary",,"S1-R69-E1: https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports
+S1-R69-E3: https://esomar.org/resources/glossary",,E1 链接保留；E3 链接保留；E2 host免提,"S1-R69-E1 无规则；链接 可打开（200）
+S1-R69-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R69-E1：可打开（200））","S1-R69-E1 = S1!指定pattern 第69行 第1个入口: https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports
+S1-R69-E3 = S1!指定pattern 第69行 第3个入口: https://esomar.org/resources/glossary","S1-R69-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R69-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+70,"https://thearf.org/research/
+https://thearf.org/access-knowledge-2/",,"S1-R70-E1: https://thearf.org/research/
+S1-R70-E2: https://thearf.org/access-knowledge-2/",,E1 链接保留；E2 链接保留,"S1-R70-E1 无规则；链接 可打开（200）
+S1-R70-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R70-E1：可打开（200））","S1-R70-E1 = S1!指定pattern 第70行 第1个入口: https://thearf.org/research/
+S1-R70-E2 = S1!指定pattern 第70行 第2个入口: https://thearf.org/access-knowledge-2/","S1-R70-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R70-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+71,"https://www.ana.net/schoolofmarketing
+https://www.ana.net/advocacy
+https://www.ana.net/membership",,"S1-R71-E1: https://www.ana.net/schoolofmarketing
+S1-R71-E2: https://www.ana.net/advocacy
+S1-R71-E3: https://www.ana.net/membership",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R71-E1 无规则；链接 可打开（200）
+S1-R71-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R71-E1：可打开（200））
+S1-R71-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R71-E1：可打开（200））","S1-R71-E1 = S1!指定pattern 第71行 第1个入口: https://www.ana.net/schoolofmarketing
+S1-R71-E2 = S1!指定pattern 第71行 第2个入口: https://www.ana.net/advocacy
+S1-R71-E3 = S1!指定pattern 第71行 第3个入口: https://www.ana.net/membership","S1-R71-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R71-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R71-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+72,https://www.ama.org/job-boards-join-our-team/,,S1-R72-E1: https://www.ama.org/job-boards-join-our-team/,,E1 链接保留,S1-R72-E1 无规则；链接 可打开（200）,S1-R72-E1 = S1!指定pattern 第72行 第1个入口: https://www.ama.org/job-boards-join-our-team/,S1-R72-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+73,"https://www.cim.co.uk/content-insights/
+https://www.cim.co.uk/learn-develop/training-development/training-courses/",,"S1-R73-E1: https://www.cim.co.uk/content-insights/
+S1-R73-E2: https://www.cim.co.uk/learn-develop/training-development/training-courses/",,E1 链接保留；E2 链接保留,"S1-R73-E1 无规则；链接 可打开（重试 200）
+S1-R73-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R73-E1：可打开（重试 200））","S1-R73-E1 = S1!指定pattern 第73行 第1个入口: https://www.cim.co.uk/content-insights/
+S1-R73-E2 = S1!指定pattern 第73行 第2个入口: https://www.cim.co.uk/learn-develop/training-development/training-courses/","S1-R73-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R73-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+74,/,,,,,,,,
+75,/,,,,,,,,
+76,https://wfanet.org/news/,,S1-R76-E1: https://wfanet.org/news/,,E1 链接保留,S1-R76-E1 无规则；链接 可打开（200）,S1-R76-E1 = S1!指定pattern 第76行 第1个入口: https://wfanet.org/news/,S1-R76-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+77,/,,,,,,,,
+78,/,,,,,,,,
+79,/,,,,,,,,
+80,/,,,,,,,,
+81,"https://www.campaignlive.com/news
+https://www.campaignlive.com/in-depth",,"S1-R81-E1: https://www.campaignlive.com/news
+S1-R81-E2: https://www.campaignlive.com/in-depth",,E1 链接保留；E2 链接保留,"S1-R81-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）
+S1-R81-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R81-E1：访问受限（站点 403，挑战页，cloudflare））","S1-R81-E1 = S1!指定pattern 第81行 第1个入口: https://www.campaignlive.com/news
+S1-R81-E2 = S1!指定pattern 第81行 第2个入口: https://www.campaignlive.com/in-depth","S1-R81-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R81-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+82,/,,,,,,,,
+83,"https://www.contagious.com/news-and-views
+https://www.contagious.com/reports",,"S1-R83-E1: https://www.contagious.com/news-and-views
+S1-R83-E2: https://www.contagious.com/reports",,E1 链接保留；E2 链接保留,"S1-R83-E1 无规则；链接 可打开（200）
+S1-R83-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R83-E1：可打开（200））","S1-R83-E1 = S1!指定pattern 第83行 第1个入口: https://www.contagious.com/news-and-views
+S1-R83-E2 = S1!指定pattern 第83行 第2个入口: https://www.contagious.com/reports","S1-R83-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R83-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+84,"https://contentmarketinginstitute.com/research
+https://contentmarketinginstitute.com/latest-news
+https://contentmarketinginstitute.com/keyword/e-books-and-templates",,"S1-R84-E1: https://contentmarketinginstitute.com/research
+S1-R84-E2: https://contentmarketinginstitute.com/latest-news
+S1-R84-E3: https://contentmarketinginstitute.com/keyword/e-books-and-templates",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R84-E1 无规则；链接 可打开（200）
+S1-R84-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R84-E1：可打开（200））
+S1-R84-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R84-E1：可打开（200））","S1-R84-E1 = S1!指定pattern 第84行 第1个入口: https://contentmarketinginstitute.com/research
+S1-R84-E2 = S1!指定pattern 第84行 第2个入口: https://contentmarketinginstitute.com/latest-news
+S1-R84-E3 = S1!指定pattern 第84行 第3个入口: https://contentmarketinginstitute.com/keyword/e-books-and-templates","S1-R84-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R84-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R84-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+85,https://cxl.com/blog-archive/,,S1-R85-E1: https://cxl.com/blog-archive/,,E1 链接保留,S1-R85-E1 无规则；链接 可打开（200）,S1-R85-E1 = S1!指定pattern 第85行 第1个入口: https://cxl.com/blog-archive/,S1-R85-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+86,"https://www.dandad.org/work/annual-2026/
+https://www.dandad.org/insights
+https://www.dandad.org/insights/case-studies-and-partnerships
+https://www.dandad.org/work/d-ad-awards-archive
+https://www.dandad.org/subjects/case-study",,"S1-R86-E1: https://www.dandad.org/work/annual-2026/
+S1-R86-E2: https://www.dandad.org/insights
+S1-R86-E3: https://www.dandad.org/insights/case-studies-and-partnerships
+S1-R86-E4: https://www.dandad.org/work/d-ad-awards-archive
+S1-R86-E5: https://www.dandad.org/subjects/case-study",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S1-R86-E1 无规则；链接 可打开（200）
+S1-R86-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R86-E1：可打开（200））
+S1-R86-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R86-E1：可打开（200））
+S1-R86-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R86-E1：可打开（200））
+S1-R86-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R86-E1：可打开（200））","S1-R86-E1 = S1!指定pattern 第86行 第1个入口: https://www.dandad.org/work/annual-2026/
+S1-R86-E2 = S1!指定pattern 第86行 第2个入口: https://www.dandad.org/insights
+S1-R86-E3 = S1!指定pattern 第86行 第3个入口: https://www.dandad.org/insights/case-studies-and-partnerships
+S1-R86-E4 = S1!指定pattern 第86行 第4个入口: https://www.dandad.org/work/d-ad-awards-archive
+S1-R86-E5 = S1!指定pattern 第86行 第5个入口: https://www.dandad.org/subjects/case-study","S1-R86-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R86-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R86-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R86-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R86-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+87,"https://www.demandcurve.com/frontier-library
+https://gp.demandcurve.com/resources
+https://gp.demandcurve.com/blog",,"S1-R87-E1: https://www.demandcurve.com/frontier-library
+S1-R87-E2: https://gp.demandcurve.com/resources
+S1-R87-E3: https://gp.demandcurve.com/blog",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R87-E1 无规则；链接 可打开（200）
+S1-R87-E2 无规则；链接 可打开（200）
+S1-R87-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R87-E2：可打开（200））","S1-R87-E1 = S1!指定pattern 第87行 第1个入口: https://www.demandcurve.com/frontier-library
+S1-R87-E2 = S1!指定pattern 第87行 第2个入口: https://gp.demandcurve.com/resources
+S1-R87-E3 = S1!指定pattern 第87行 第3个入口: https://gp.demandcurve.com/blog","S1-R87-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R87-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R87-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+88,https://dpaaglobal.com/omnichannel-study/,,S1-R88-E1: https://dpaaglobal.com/omnichannel-study/,,E1 链接保留,S1-R88-E1 无规则；链接 可打开（200，标题「Omnichannel Study | DPAA | Global Digital Out-of-Home」）,S1-R88-E1 = S1!指定pattern 第88行 第1个入口: https://dpaaglobal.com/omnichannel-study/,S1-R88-E1: 部分：入口静态首轮 1 页（2189 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json,"行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R88-E1 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页"
+89,"https://www.greenbook.org/directory
+https://www.greenbook.org/insights
+https://www.greenbook.org/grit",,"S1-R89-E1: https://www.greenbook.org/directory
+S1-R89-E2: https://www.greenbook.org/insights
+S1-R89-E3: https://www.greenbook.org/grit",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R89-E1 无规则；链接 可打开（200，标题「Greenbook: Find Market Research Companies and Focus Group Fa」）
+S1-R89-E2 无规则；链接 可打开（200，标题「Insights — Greenbook」）
+S1-R89-E3 无规则；链接 可打开（200，标题「GRIT — Greenbook」）","S1-R89-E1 = S1!指定pattern 第89行 第1个入口: https://www.greenbook.org/directory
+S1-R89-E2 = S1!指定pattern 第89行 第2个入口: https://www.greenbook.org/insights
+S1-R89-E3 = S1!指定pattern 第89行 第3个入口: https://www.greenbook.org/grit","S1-R89-E1: 部分：入口静态首轮 1 页（4420 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json
+S1-R89-E2: 部分：入口静态首轮 1 页（37390 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json
+S1-R89-E3: 部分：入口静态首轮 1 页（16977 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R89-E1 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页
+S1-R89-E2 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页
+S1-R89-E3 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页"
+90,https://growth.design/case-studies,,S1-R90-E1: https://growth.design/case-studies,,E1 链接保留,S1-R90-E1 无规则；链接 可打开（200）,S1-R90-E1 = S1!指定pattern 第90行 第1个入口: https://growth.design/case-studies,S1-R90-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+91,"https://growthhackers.com/growth-studies/
+https://growthhackers.com/opinions/",,"S1-R91-E1: https://growthhackers.com/growth-studies/
+S1-R91-E2: https://growthhackers.com/opinions/",,E1 链接保留；E2 链接保留,"S1-R91-E1 无规则；链接 可打开（200）
+S1-R91-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R91-E1：可打开（200））","S1-R91-E1 = S1!指定pattern 第91行 第1个入口: https://growthhackers.com/growth-studies/
+S1-R91-E2 = S1!指定pattern 第91行 第2个入口: https://growthhackers.com/opinions/","S1-R91-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R91-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+92,https://iabeurope.eu/knowledge-hub-categories/research-and-insights/,,S1-R92-E1: https://iabeurope.eu/knowledge-hub-categories/research-and-insights/,,E1 链接保留,S1-R92-E1 无规则；链接 可打开（200）,S1-R92-E1 = S1!指定pattern 第92行 第1个入口: https://iabeurope.eu/knowledge-hub-categories/research-and-insights/,S1-R92-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+93,"https://lbbonline.com/work
+https://lbbonline.com/news
+https://lbbonline.com/reels",,"S1-R93-E1: https://lbbonline.com/work
+S1-R93-E2: https://lbbonline.com/news
+S1-R93-E3: https://lbbonline.com/reels",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R93-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）
+S1-R93-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R93-E1：访问受限（站点 403，挑战页，cloudflare））
+S1-R93-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R93-E1：访问受限（站点 403，挑战页，cloudflare））","S1-R93-E1 = S1!指定pattern 第93行 第1个入口: https://lbbonline.com/work
+S1-R93-E2 = S1!指定pattern 第93行 第2个入口: https://lbbonline.com/news
+S1-R93-E3 = S1!指定pattern 第93行 第3个入口: https://lbbonline.com/reels","S1-R93-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R93-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R93-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+94,https://www.marketingdive.com/,,,,host免提,,,,
+95,"https://marketingexamples.com/
+https://marketingexamples.com/inspiration
+https://marketingexamples.com/social
+https://marketingexamples.com/copywriting",,"S1-R95-E2: https://marketingexamples.com/inspiration
+S1-R95-E3: https://marketingexamples.com/social
+S1-R95-E4: https://marketingexamples.com/copywriting",,E2 链接保留；E3 链接保留；E4 链接保留；E1 host免提,"S1-R95-E2 无规则；链接 可打开（200）
+S1-R95-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R95-E2：可打开（200））
+S1-R95-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R95-E2：可打开（200））","S1-R95-E2 = S1!指定pattern 第95行 第2个入口: https://marketingexamples.com/inspiration
+S1-R95-E3 = S1!指定pattern 第95行 第3个入口: https://marketingexamples.com/social
+S1-R95-E4 = S1!指定pattern 第95行 第4个入口: https://marketingexamples.com/copywriting","S1-R95-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R95-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R95-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+96,https://www.marketingweek.com/,,,,host免提,,,,
+97,https://www.marketingprofs.com/,,,,host免提,,,,
+98,https://www.radiocentre.org/research/,,S1-R98-E1: https://www.radiocentre.org/research/,,E1 链接保留,S1-R98-E1 无规则；链接 可打开（200）,S1-R98-E1 = S1!指定pattern 第98行 第1个入口: https://www.radiocentre.org/research/,S1-R98-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+99,https://www.reforge.com/blog,,S1-R99-E1: https://www.reforge.com/blog,,E1 链接保留,S1-R99-E1 无规则；链接 可打开（200）,S1-R99-E1 = S1!指定pattern 第99行 第1个入口: https://www.reforge.com/blog,S1-R99-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+100,/,,,,,,,,
+101,"https://searchengineland.com/library/guide
+https://searchengineland.com/guide
+https://searchengineland.com/library/guide/content-marketing-guide
+https://searchengineland.com/library/guide/ppc-guide
+https://searchengineland.com/library/guide/seo-guide",,"S1-R101-E1: https://searchengineland.com/library/guide
+S1-R101-E2: https://searchengineland.com/guide
+S1-R101-E3: https://searchengineland.com/library/guide/content-marketing-guide
+S1-R101-E4: https://searchengineland.com/library/guide/ppc-guide
+S1-R101-E5: https://searchengineland.com/library/guide/seo-guide",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S1-R101-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）
+S1-R101-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R101-E1：访问受限（站点 403，挑战页，cloudflare））
+S1-R101-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R101-E1：访问受限（站点 403，挑战页，cloudflare））
+S1-R101-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R101-E1：访问受限（站点 403，挑战页，cloudflare））
+S1-R101-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R101-E1：访问受限（站点 403，挑战页，cloudflare））","S1-R101-E1 = S1!指定pattern 第101行 第1个入口: https://searchengineland.com/library/guide
+S1-R101-E2 = S1!指定pattern 第101行 第2个入口: https://searchengineland.com/guide
+S1-R101-E3 = S1!指定pattern 第101行 第3个入口: https://searchengineland.com/library/guide/content-marketing-guide
+S1-R101-E4 = S1!指定pattern 第101行 第4个入口: https://searchengineland.com/library/guide/ppc-guide
+S1-R101-E5 = S1!指定pattern 第101行 第5个入口: https://searchengineland.com/library/guide/seo-guide","S1-R101-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R101-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R101-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R101-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R101-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+102,https://www.socialmediaexaminer.com/,,,,host免提,,,,
+103,https://www.oneclub.org/awards/theoneshow/,,S1-R103-E1: https://www.oneclub.org/awards/theoneshow/,,E1 链接保留,S1-R103-E1 无规则；链接 可打开（200）,S1-R103-E1 = S1!指定pattern 第103行 第1个入口: https://www.oneclub.org/awards/theoneshow/,S1-R103-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+104,"https://www.thinkbox.tv/research
+https://www.thinkbox.tv/case-studies
+https://www.thinkbox.tv/news-and-opinion",,"S1-R104-E1: https://www.thinkbox.tv/research
+S1-R104-E2: https://www.thinkbox.tv/case-studies
+S1-R104-E3: https://www.thinkbox.tv/news-and-opinion",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R104-E1 无规则；链接 可打开（200）
+S1-R104-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R104-E1：可打开（200））
+S1-R104-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R104-E1：可打开（200））","S1-R104-E1 = S1!指定pattern 第104行 第1个入口: https://www.thinkbox.tv/research
+S1-R104-E2 = S1!指定pattern 第104行 第2个入口: https://www.thinkbox.tv/case-studies
+S1-R104-E3 = S1!指定pattern 第104行 第3个入口: https://www.thinkbox.tv/news-and-opinion","S1-R104-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R104-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R104-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+105,"https://nrf.com/membership
+https://nrf.com/about-us",,"S1-R105-E1: https://nrf.com/membership
+S1-R105-E2: https://nrf.com/about-us",,E1 链接保留；E2 链接保留,"S1-R105-E1 无规则；链接 可打开（200）
+S1-R105-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R105-E1：可打开（200））","S1-R105-E1 = S1!指定pattern 第105行 第1个入口: https://nrf.com/membership
+S1-R105-E2 = S1!指定pattern 第105行 第2个入口: https://nrf.com/about-us","S1-R105-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R105-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+106,/,,,,,,,,
+107,/,,,,,,,,
+108,"https://www.wppmedia.com/thought-leadership/research-business-intelligence
+https://www.wppmedia.com/news
+https://www.wppmedia.com/thought-leadership/this-year-next-year",,"S1-R108-E1: https://www.wppmedia.com/thought-leadership/research-business-intelligence
+S1-R108-E2: https://www.wppmedia.com/news
+S1-R108-E3: https://www.wppmedia.com/thought-leadership/this-year-next-year",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R108-E1 无规则；链接 可打开（200）
+S1-R108-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R108-E1：可打开（200））
+S1-R108-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R108-E1：可打开（200））","S1-R108-E1 = S1!指定pattern 第108行 第1个入口: https://www.wppmedia.com/thought-leadership/research-business-intelligence
+S1-R108-E2 = S1!指定pattern 第108行 第2个入口: https://www.wppmedia.com/news
+S1-R108-E3 = S1!指定pattern 第108行 第3个入口: https://www.wppmedia.com/thought-leadership/this-year-next-year","S1-R108-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R108-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R108-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+109,/,,,,,,,,
+110,"https://www.vml.com/expertise/intelligence
+https://www.vml.com/insights",,"S1-R110-E1: https://www.vml.com/expertise/intelligence
+S1-R110-E2: https://www.vml.com/insights",,E1 链接保留；E2 链接保留,"S1-R110-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）
+S1-R110-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R110-E1：访问受限（站点 403，挑战页，cloudflare））","S1-R110-E1 = S1!指定pattern 第110行 第1个入口: https://www.vml.com/expertise/intelligence
+S1-R110-E2 = S1!指定pattern 第110行 第2个入口: https://www.vml.com/insights","S1-R110-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R110-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+111,https://www.ogilvy.com/cn/ideas,,S1-R111-E1: https://www.ogilvy.com/cn/ideas,,E1 链接保留,S1-R111-E1 无规则；链接 可打开（200）,S1-R111-E1 = S1!指定pattern 第111行 第1个入口: https://www.ogilvy.com/cn/ideas,S1-R111-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+112,"https://www.adjust.com/resources/
+https://www.adjust.com/blog/",,"S1-R112-E1: https://www.adjust.com/resources/
+S1-R112-E2: https://www.adjust.com/blog/",,E1 链接保留；E2 链接保留,"S1-R112-E1 无规则；链接 访问受限（站点 429，Vercel）
+S1-R112-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R112-E1：访问受限（站点 429，Vercel））","S1-R112-E1 = S1!指定pattern 第112行 第1个入口: https://www.adjust.com/resources/
+S1-R112-E2 = S1!指定pattern 第112行 第2个入口: https://www.adjust.com/blog/","S1-R112-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R112-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+113,/,,,,,,,,
+114,"https://amplitude.com/resources
+https://amplitude.com/blog
+https://academy.amplitude.com/",,"S1-R114-E1: https://amplitude.com/resources
+S1-R114-E2: https://amplitude.com/blog",,E1 链接保留；E2 链接保留；E3 host免提,"S1-R114-E1 无规则；链接 可打开（200）
+S1-R114-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R114-E1：可打开（200））","S1-R114-E1 = S1!指定pattern 第114行 第1个入口: https://amplitude.com/resources
+S1-R114-E2 = S1!指定pattern 第114行 第2个入口: https://amplitude.com/blog","S1-R114-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R114-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+115,https://analyticpartners.com/knowledge-hub/,,S1-R115-E1: https://analyticpartners.com/knowledge-hub/,,E1 链接保留,S1-R115-E1 无规则；链接 可打开（200）,S1-R115-E1 = S1!指定pattern 第115行 第1个入口: https://analyticpartners.com/knowledge-hub/,S1-R115-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+116,"https://www.appsflyer.com/resources/
+https://www.appsflyer.com/blog/",,"S1-R116-E1: https://www.appsflyer.com/resources/
+S1-R116-E2: https://www.appsflyer.com/blog/",,E1 链接保留；E2 链接保留,"S1-R116-E1 无规则；链接 可打开（200）
+S1-R116-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R116-E1：可打开（200））","S1-R116-E1 = S1!指定pattern 第116行 第1个入口: https://www.appsflyer.com/resources/
+S1-R116-E2 = S1!指定pattern 第116行 第2个入口: https://www.appsflyer.com/blog/","S1-R116-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R116-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+117,"https://www.branch.io/resources/
+https://www.branch.io/use-cases/",,"S1-R117-E1: https://www.branch.io/resources/
+S1-R117-E2: https://www.branch.io/use-cases/",,E1 链接保留；E2 链接保留,"S1-R117-E1 无规则；链接 可打开（200）
+S1-R117-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R117-E1：可打开（200））","S1-R117-E1 = S1!指定pattern 第117行 第1个入口: https://www.branch.io/resources/
+S1-R117-E2 = S1!指定pattern 第117行 第2个入口: https://www.branch.io/use-cases/","S1-R117-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R117-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+118,"https://www.brandwatch.com/reports/
+https://www.brandwatch.com/blog/
+https://www.brandwatch.com/guides/
+https://www.brandwatch.com/social-media-glossary/
+https://academy.brandwatch.com/
+https://www.brandwatch.com/case-studies/",,"S1-R118-E1: https://www.brandwatch.com/reports/
+S1-R118-E2: https://www.brandwatch.com/blog/
+S1-R118-E3: https://www.brandwatch.com/guides/
+S1-R118-E4: https://www.brandwatch.com/social-media-glossary/
+S1-R118-E6: https://www.brandwatch.com/case-studies/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E6 链接保留；E5 host免提,"S1-R118-E1 无规则；链接 可打开（200）
+S1-R118-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R118-E1：可打开（200））
+S1-R118-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R118-E1：可打开（200））
+S1-R118-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R118-E1：可打开（200））
+S1-R118-E6 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R118-E1：可打开（200））","S1-R118-E1 = S1!指定pattern 第118行 第1个入口: https://www.brandwatch.com/reports/
+S1-R118-E2 = S1!指定pattern 第118行 第2个入口: https://www.brandwatch.com/blog/
+S1-R118-E3 = S1!指定pattern 第118行 第3个入口: https://www.brandwatch.com/guides/
+S1-R118-E4 = S1!指定pattern 第118行 第4个入口: https://www.brandwatch.com/social-media-glossary/
+S1-R118-E6 = S1!指定pattern 第118行 第6个入口: https://www.brandwatch.com/case-studies/","S1-R118-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R118-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R118-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R118-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R118-E6: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+119,"https://www.braze.com/resources/articles
+https://www.braze.com/resources/reports-and-guides",,"S1-R119-E1: https://www.braze.com/resources/articles
+S1-R119-E2: https://www.braze.com/resources/reports-and-guides",,E1 链接保留；E2 链接保留,"S1-R119-E1 无规则；链接 可打开（200）
+S1-R119-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R119-E1：可打开（200））","S1-R119-E1 = S1!指定pattern 第119行 第1个入口: https://www.braze.com/resources/articles
+S1-R119-E2 = S1!指定pattern 第119行 第2个入口: https://www.braze.com/resources/reports-and-guides","S1-R119-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R119-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+120,"https://buffer.com/resources/
+https://buffer.com/library/",,"S1-R120-E1: https://buffer.com/resources/
+S1-R120-E2: https://buffer.com/library/",,E1 链接保留；E2 链接保留,"S1-R120-E1 无规则；链接 可打开（200）
+S1-R120-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R120-E1：可打开（200））","S1-R120-E1 = S1!指定pattern 第120行 第1个入口: https://buffer.com/resources/
+S1-R120-E2 = S1!指定pattern 第120行 第2个入口: https://buffer.com/library/","S1-R120-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R120-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+121,"https://contentsquare.com/blog/
+https://contentsquare.com/ebooks-reports/
+https://contentsquare.com/guides/",,"S1-R121-E1: https://contentsquare.com/blog/
+  277 个详情与 32 个分页见 output/round2/probe/pages.jsonl、output/round2/tests/identity-checks.jsonl；跳转到非文章页的列表链接：https://contentsquare.com/blog/contentsquare-appoints-gabriel-gabe-benavides-as-global-chief-revenue-officer/；https://contentsquare.com/blog/data-driven-web-design-the-recipe-for-success/；https://contentsquare.com/blog/empathy-driven-design-how-sonos-used-customer-journey-data/
+S1-R121-E2: https://contentsquare.com/ebooks-reports/
+S1-R121-E3: https://contentsquare.com/guides/",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R121-E1 候选：R2-CS-BLOG-DETAIL（机械门 passed，留出 6 正 8 反全部正确）——待你确认范围后可升正式；链接 可打开（入口 200）
+S1-R121-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R121-E1：可打开（200））
+S1-R121-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R121-E1：可打开（200））","S1-R121-E1 = S1!指定pattern 第121行 第1个入口: https://contentsquare.com/blog/
+S1-R121-E2 = S1!指定pattern 第121行 第2个入口: https://contentsquare.com/ebooks-reports/
+S1-R121-E3 = S1!指定pattern 第121行 第3个入口: https://contentsquare.com/guides/","S1-R121-E1: 部分：静态分页 /blog/page/N/ 共 32 页全部取得（页码连续、无重复页、末页 5 条），唯一详情 277 个；sitemap_index.xml 截断（138 条，止于 f 开头）不能作全集对账，其中 6 篇不在列表；筛选分支未处理；277 篇详情已逐一落地（274 正常、3 跳转到非文章页）；续跑见 output/round2/queue.json
+S1-R121-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R121-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R121-E1 [K3] 本轮静态 HTML 已足够（前轮需渲染的情况不复现）
+S1-R121-E1 3 个列表链接会被候选规则匹配，但落地为 /blog/ 或 /guides/ux-design/，不是文章；是否接受由你决定"
+122,"https://www.hootsuite.com/resources/
+https://blog.hootsuite.com/
+https://blog.hootsuite.com/resources/",,"S1-R122-E1: https://www.hootsuite.com/resources/
+S1-R122-E3: https://blog.hootsuite.com/resources/",,E1 链接保留；E3 链接保留；E2 host免提,"S1-R122-E1 无规则；链接 可打开（200）
+S1-R122-E3 无规则；链接 可打开（200）","S1-R122-E1 = S1!指定pattern 第122行 第1个入口: https://www.hootsuite.com/resources/
+S1-R122-E3 = S1!指定pattern 第122行 第3个入口: https://blog.hootsuite.com/resources/","S1-R122-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R122-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+123,"https://blog.hubspot.com/marketing
+https://blog.hubspot.com/sales
+https://blog.hubspot.com/service
+https://blog.hubspot.com/website
+https://www.hubspot.com/resources",,"S1-R123-E1: https://blog.hubspot.com/marketing
+S1-R123-E2: https://blog.hubspot.com/sales
+S1-R123-E3: https://blog.hubspot.com/service
+S1-R123-E4: https://blog.hubspot.com/website
+S1-R123-E5: https://www.hubspot.com/resources",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S1-R123-E1 无规则；链接 可打开（200）
+S1-R123-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R123-E1：可打开（200））
+S1-R123-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R123-E1：可打开（200））
+S1-R123-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R123-E1：可打开（200））
+S1-R123-E5 无规则；链接 可打开（200）","S1-R123-E1 = S1!指定pattern 第123行 第1个入口: https://blog.hubspot.com/marketing
+S1-R123-E2 = S1!指定pattern 第123行 第2个入口: https://blog.hubspot.com/sales
+S1-R123-E3 = S1!指定pattern 第123行 第3个入口: https://blog.hubspot.com/service
+S1-R123-E4 = S1!指定pattern 第123行 第4个入口: https://blog.hubspot.com/website
+S1-R123-E5 = S1!指定pattern 第123行 第5个入口: https://www.hubspot.com/resources","S1-R123-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R123-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R123-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R123-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R123-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+124,https://www.intercom.com/blog/,,S1-R124-E1: https://www.intercom.com/blog/,,E1 链接保留,S1-R124-E1 无规则；链接 可打开（200）,S1-R124-E1 = S1!指定pattern 第124行 第1个入口: https://www.intercom.com/blog/,S1-R124-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+125,"https://www.klaviyo.com/blog
+https://www.klaviyo.com/marketing-resources
+https://www.klaviyo.com/customers",,"S1-R125-E1: https://www.klaviyo.com/blog
+S1-R125-E2: https://www.klaviyo.com/marketing-resources
+S1-R125-E3: https://www.klaviyo.com/customers",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R125-E1 无规则；链接 可打开（200）
+S1-R125-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R125-E1：可打开（200））
+S1-R125-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R125-E1：可打开（200））","S1-R125-E1 = S1!指定pattern 第125行 第1个入口: https://www.klaviyo.com/blog
+S1-R125-E2 = S1!指定pattern 第125行 第2个入口: https://www.klaviyo.com/marketing-resources
+S1-R125-E3 = S1!指定pattern 第125行 第3个入口: https://www.klaviyo.com/customers","S1-R125-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R125-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R125-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+126,https://landor.com/en/our-work/,,S1-R126-E1: https://landor.com/en/our-work/,,E1 链接保留,S1-R126-E1 无规则；链接 可打开（重试 200）,S1-R126-E1 = S1!指定pattern 第126行 第1个入口: https://landor.com/en/our-work/,S1-R126-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+127,https://mailchimp.com/resources/,,S1-R127-E1: https://mailchimp.com/resources/,,E1 链接保留,S1-R127-E1 无规则；链接 可打开（200）,S1-R127-E1 = S1!指定pattern 第127行 第1个入口: https://mailchimp.com/resources/,S1-R127-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+128,"https://www.meltwater.com/en/blog
+https://www.meltwater.com/en/resources",,"S1-R128-E1: https://www.meltwater.com/en/blog
+S1-R128-E2: https://www.meltwater.com/en/resources",,E1 链接保留；E2 链接保留,"S1-R128-E1 无规则；链接 可打开（200）
+S1-R128-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R128-E1：可打开（200））","S1-R128-E1 = S1!指定pattern 第128行 第1个入口: https://www.meltwater.com/en/blog
+S1-R128-E2 = S1!指定pattern 第128行 第2个入口: https://www.meltwater.com/en/resources","S1-R128-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R128-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+129,"https://www.optimizely.com/field-notes/guides
+https://www.optimizely.com/field-notes/articles",,"S1-R129-E1: https://www.optimizely.com/field-notes/guides
+S1-R129-E2: https://www.optimizely.com/field-notes/articles",,E1 链接保留；E2 链接保留,"S1-R129-E1 候选（降级）：R2-OPT-GUIDES-DETAIL 机械门通过，但 sitemap 覆盖检查发现已知漏配（大写/末尾连字符 slug）；链接 可打开（入口 200）
+S1-R129-E2 候选（降级）：R2-OPT-ARTICLES-DETAIL 机械门通过，但 sitemap 覆盖检查发现已知漏配（大写/末尾连字符 slug）；链接 可打开（入口 200）","S1-R129-E1 = S1!指定pattern 第129行 第1个入口: https://www.optimizely.com/field-notes/guides
+S1-R129-E2 = S1!指定pattern 第129行 第2个入口: https://www.optimizely.com/field-notes/articles","S1-R129-E1: 部分：列表页静态与渲染均只展示 8 条（无分页/加载更多）；站点 sitemap 列出英文 guides 47 个；成员以 sitemap 为准，但未逐一落地，范围对账未完成；续跑见 output/round2/queue.json
+S1-R129-E2: 部分：列表页静态与渲染均只展示 8 条（无分页/加载更多）；站点 sitemap 列出英文 articles 418 个；成员以 sitemap 为准，但未逐一落地，范围对账未完成；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R129-E1 [K5 已处理] 列表链接带尾斜杠，308 跳到无尾斜杠最终地址；规则用 /?$ 同时覆盖两种实测形式
+S1-R129-E1 仅英文默认路径；/de/ 等语言版本作反例，不在入口范围
+S1-R129-E1 覆盖检查：sitemap 英文 guides 成员中 6/52 个不匹配，例如 …/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing；另 5 个 …/{slug}/thank-you 表单完成页（实测 200，大小写不敏感，小写别名同文）；因此不列正式。v3 候选写法 ^https://www\.optimizely\.com/field-notes/guides/[A-Za-z0-9]+(?:-+[A-Za-z0-9]+)*-?/?$ 需另取独立样本验证
+S1-R129-E2 [K5 已处理] 列表链接带尾斜杠，308 跳到无尾斜杠最终地址；规则用 /?$ 同时覆盖两种实测形式
+S1-R129-E2 仅英文默认路径；/de/ 等语言版本作反例，不在入口范围
+S1-R129-E2 v1 漏配双连字符 slug（…website--app），v2 放宽为 -+ 后重新冻结留出集
+S1-R129-E2 覆盖检查：sitemap 英文 articles 成员中 10/418 个不匹配，例如 …/articles/AI-experimentation、…/articles/opal-ki-workflows-（实测 200，大小写不敏感，小写别名同文）；因此不列正式。v3 候选写法 ^https://www\.optimizely\.com/field-notes/articles/[A-Za-z0-9]+(?:-+[A-Za-z0-9]+)*-?/?$ 需另取独立样本验证"
+130,"https://www.qualtrics.com/articles/
+https://www.qualtrics.com/news/
+https://www.qualtrics.com/resources/
+https://www.qualtrics.com/customers/",,"S1-R130-E1: https://www.qualtrics.com/articles/
+S1-R130-E2: https://www.qualtrics.com/news/
+S1-R130-E3: https://www.qualtrics.com/resources/
+S1-R130-E4: https://www.qualtrics.com/customers/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R130-E1 无规则；链接 可打开（200）
+S1-R130-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R130-E1：可打开（200））
+S1-R130-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R130-E1：可打开（200））
+S1-R130-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R130-E1：可打开（200））","S1-R130-E1 = S1!指定pattern 第130行 第1个入口: https://www.qualtrics.com/articles/
+S1-R130-E2 = S1!指定pattern 第130行 第2个入口: https://www.qualtrics.com/news/
+S1-R130-E3 = S1!指定pattern 第130行 第3个入口: https://www.qualtrics.com/resources/
+S1-R130-E4 = S1!指定pattern 第130行 第4个入口: https://www.qualtrics.com/customers/","S1-R130-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R130-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R130-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R130-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+131,https://www.semrush.com/blog/,,S1-R131-E1: https://www.semrush.com/blog/,,E1 链接保留,S1-R131-E1 无规则；链接 可打开（200）,S1-R131-E1 = S1!指定pattern 第131行 第1个入口: https://www.semrush.com/blog/,S1-R131-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+132,https://www.shopify.com/blog/,,S1-R132-E1: https://www.shopify.com/blog/,,E1 链接保留,S1-R132-E1 无规则；链接 可打开（200）,S1-R132-E1 = S1!指定pattern 第132行 第1个入口: https://www.shopify.com/blog/,S1-R132-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+133,https://www.siegelgale.com/ideas/,,S1-R133-E1: https://www.siegelgale.com/ideas/,,E1 链接保留,S1-R133-E1 无规则；链接 可打开（200）,S1-R133-E1 = S1!指定pattern 第133行 第1个入口: https://www.siegelgale.com/ideas/,S1-R133-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+134,/,,,,,,,,
+135,https://www.sistrix.com/blog/,,S1-R135-E1: https://www.sistrix.com/blog/,,E1 链接保留,S1-R135-E1 无规则；链接 可打开（200）,S1-R135-E1 = S1!指定pattern 第135行 第1个入口: https://www.sistrix.com/blog/,S1-R135-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+136,https://sproutsocial.com/insights/data/,,S1-R136-E1: https://sproutsocial.com/insights/data/,,E1 链接保留,S1-R136-E1 无规则；链接 可打开（200）,S1-R136-E1 = S1!指定pattern 第136行 第1个入口: https://sproutsocial.com/insights/data/,S1-R136-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+137,"https://www.talkwalker.com/blog
+https://www.talkwalker.com/resources?category=Reports
+https://www.talkwalker.com/resources",,"S1-R137-E1: https://www.talkwalker.com/blog
+S1-R137-E2: https://www.talkwalker.com/resources?category=Reports
+S1-R137-E3: https://www.talkwalker.com/resources",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R137-E1 无规则；链接 可打开（200）
+S1-R137-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R137-E1：可打开（200））
+S1-R137-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R137-E1：可打开（200））","S1-R137-E1 = S1!指定pattern 第137行 第1个入口: https://www.talkwalker.com/blog
+S1-R137-E2 = S1!指定pattern 第137行 第2个入口: https://www.talkwalker.com/resources?category=Reports
+S1-R137-E3 = S1!指定pattern 第137行 第3个入口: https://www.talkwalker.com/resources","S1-R137-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R137-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R137-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+138,"https://unbounce.com/landing-page-optimization/
+https://unbounce.com/conversion-benchmark-report/",,"S1-R138-E1: https://unbounce.com/landing-page-optimization/
+S1-R138-E2: https://unbounce.com/conversion-benchmark-report/",,E1 链接保留；E2 链接保留,"S1-R138-E1 无规则；链接 可打开（200）
+S1-R138-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R138-E1：可打开（200））","S1-R138-E1 = S1!指定pattern 第138行 第1个入口: https://unbounce.com/landing-page-optimization/
+S1-R138-E2 = S1!指定pattern 第138行 第2个入口: https://unbounce.com/conversion-benchmark-report/","S1-R138-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R138-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+139,"https://wearesocial.com/uk/blog/
+https://wearesocial.com/uk/reports/",,"S1-R139-E1: https://wearesocial.com/uk/blog/
+S1-R139-E2: https://wearesocial.com/uk/reports/",,E1 链接保留；E2 链接保留,"S1-R139-E1 无规则；链接 可打开（200）
+S1-R139-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R139-E1：可打开（200））","S1-R139-E1 = S1!指定pattern 第139行 第1个入口: https://wearesocial.com/uk/blog/
+S1-R139-E2 = S1!指定pattern 第139行 第2个入口: https://wearesocial.com/uk/reports/","S1-R139-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R139-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+140,"https://wingify.com/blog/
+https://wingify.com/ebooks/
+https://wingify.com/success-stories/
+https://wingify.com/resources/",,"S1-R140-E1: https://wingify.com/blog/
+S1-R140-E2: https://wingify.com/ebooks/
+S1-R140-E3: https://wingify.com/success-stories/
+S1-R140-E4: https://wingify.com/resources/",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S1-R140-E1 无规则；链接 可打开（200）
+S1-R140-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R140-E1：可打开（200））
+S1-R140-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R140-E1：可打开（200））
+S1-R140-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R140-E1：可打开（200））","S1-R140-E1 = S1!指定pattern 第140行 第1个入口: https://wingify.com/blog/
+S1-R140-E2 = S1!指定pattern 第140行 第2个入口: https://wingify.com/ebooks/
+S1-R140-E3 = S1!指定pattern 第140行 第3个入口: https://wingify.com/success-stories/
+S1-R140-E4 = S1!指定pattern 第140行 第4个入口: https://wingify.com/resources/","S1-R140-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R140-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R140-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R140-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+141,"https://www.zenithmedia.com/global-intelligence/thought-leadership/
+https://www.zenithmedia.com/news/",,"S1-R141-E1: https://www.zenithmedia.com/global-intelligence/thought-leadership/
+S1-R141-E2: https://www.zenithmedia.com/news/",,E1 链接保留；E2 链接保留,"S1-R141-E1 无规则；链接 可打开（200）
+S1-R141-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R141-E1：可打开（200））","S1-R141-E1 = S1!指定pattern 第141行 第1个入口: https://www.zenithmedia.com/global-intelligence/thought-leadership/
+S1-R141-E2 = S1!指定pattern 第141行 第2个入口: https://www.zenithmedia.com/news/","S1-R141-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R141-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+142,"https://www.salesforce.com/blog/
+https://www.salesforce.com/company/analyst-reports/
+https://www.salesforce.com/news/",,"S1-R142-E1: https://www.salesforce.com/blog/
+S1-R142-E2: https://www.salesforce.com/company/analyst-reports/
+S1-R142-E3: https://www.salesforce.com/news/",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R142-E1 无规则；链接 可打开（200）
+S1-R142-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R142-E1：可打开（200））
+S1-R142-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R142-E1：可打开（200））","S1-R142-E1 = S1!指定pattern 第142行 第1个入口: https://www.salesforce.com/blog/
+S1-R142-E2 = S1!指定pattern 第142行 第2个入口: https://www.salesforce.com/company/analyst-reports/
+S1-R142-E3 = S1!指定pattern 第142行 第3个入口: https://www.salesforce.com/news/","S1-R142-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R142-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R142-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+143,"https://business.adobe.com/resources/reports.html
+https://business.adobe.com/resources/digital-trends-research-center.html
+https://business.adobe.com/resources/adobe-digital-insights.html",,"S1-R143-E1: https://business.adobe.com/resources/reports.html
+S1-R143-E2: https://business.adobe.com/resources/digital-trends-research-center.html
+S1-R143-E3: https://business.adobe.com/resources/adobe-digital-insights.html",,E1 链接保留；E2 链接保留；E3 链接保留,"S1-R143-E1 无规则；链接 待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)）
+S1-R143-E2 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R143-E1：待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)））
+S1-R143-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R143-E1：待核验（无站点状态码：curl (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)））","S1-R143-E1 = S1!指定pattern 第143行 第1个入口: https://business.adobe.com/resources/reports.html
+S1-R143-E2 = S1!指定pattern 第143行 第2个入口: https://business.adobe.com/resources/digital-trends-research-center.html
+S1-R143-E3 = S1!指定pattern 第143行 第3个入口: https://business.adobe.com/resources/adobe-digital-insights.html","S1-R143-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R143-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R143-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+144,https://www.crunchbase.com/discover/organization.companies,,S1-R144-E1: https://www.crunchbase.com/discover/organization.companies,,E1 链接保留,S1-R144-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）,S1-R144-E1 = S1!指定pattern 第144行 第1个入口: https://www.crunchbase.com/discover/organization.companies,S1-R144-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+145,https://pitchbook.com/news,,S1-R145-E1: https://pitchbook.com/news,,E1 链接保留,S1-R145-E1 无规则；链接 访问受限（站点 403，挑战页，cloudflare）,S1-R145-E1 = S1!指定pattern 第145行 第1个入口: https://pitchbook.com/news,S1-R145-E1: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+146,/,,,,,,,,
+147,/,,,,,,,,
+148,/,,,,,,,,
+149,/,,,,,,,,
+150,/,,,,,,,,
+151,"https://app.cbinsights.com/
+https://www.cbinsights.com/research/
+https://www.cbinsights.com/strategy-terminal/",,"S1-R151-E2: https://www.cbinsights.com/research/
+S1-R151-E3: https://www.cbinsights.com/strategy-terminal/",,E2 链接保留；E3 链接保留；E1 host免提,"S1-R151-E2 无规则；链接 可打开（200，标题「CB Insights Research」）
+S1-R151-E3 无规则；链接 可打开（200，标题「Strategy Terminal<!-- --> - CB Insights」）","S1-R151-E2 = S1!指定pattern 第151行 第2个入口: https://www.cbinsights.com/research/
+S1-R151-E3 = S1!指定pattern 第151行 第3个入口: https://www.cbinsights.com/strategy-terminal/","S1-R151-E2: 部分：入口静态首轮 1 页（8100 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json
+S1-R151-E3: 部分：入口静态首轮 1 页（9994 字正文，链接已入 edges）；分页/详情/动态未处理；续跑见 output/round2/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+S1-R151-E2 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页
+S1-R151-E3 前轮 403 已不复现：本轮 200，正文为真实栏目页而非挑战页"
+152,"https://app.dealroom.co/
+https://dealroom.co/reports
+https://dealroom.co/resources
+https://dealroom.co/news/
+https://dealroom.co/companies/
+https://dealroom.co/investors/
+https://dealroom.co/market-maps/
+https://dealroom.co/power-law-outcomes/
+https://dealroom.co/talent/founder-mafias/
+https://dealroom.co/tech-macro-economics/
+https://dealroom.co/vc-investment-dashboard/",,"S1-R152-E2: https://dealroom.co/reports
+S1-R152-E3: https://dealroom.co/resources
+S1-R152-E4: https://dealroom.co/news/
+S1-R152-E5: https://dealroom.co/companies/
+S1-R152-E6: https://dealroom.co/investors/
+S1-R152-E7: https://dealroom.co/market-maps/
+S1-R152-E8: https://dealroom.co/power-law-outcomes/
+S1-R152-E9: https://dealroom.co/talent/founder-mafias/
+S1-R152-E10: https://dealroom.co/tech-macro-economics/
+S1-R152-E11: https://dealroom.co/vc-investment-dashboard/",,E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留；E1 host免提,"S1-R152-E2 无规则；链接 访问受限（站点 403，挑战页，cloudflare）
+S1-R152-E3 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E4 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E5 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E6 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E7 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E8 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E9 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E10 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））
+S1-R152-E11 无规则；链接 待核验（本入口未请求；同 host 首入口 S1-R152-E2：访问受限（站点 403，挑战页，cloudflare））","S1-R152-E2 = S1!指定pattern 第152行 第2个入口: https://dealroom.co/reports
+S1-R152-E3 = S1!指定pattern 第152行 第3个入口: https://dealroom.co/resources
+S1-R152-E4 = S1!指定pattern 第152行 第4个入口: https://dealroom.co/news/
+S1-R152-E5 = S1!指定pattern 第152行 第5个入口: https://dealroom.co/companies/
+S1-R152-E6 = S1!指定pattern 第152行 第6个入口: https://dealroom.co/investors/
+S1-R152-E7 = S1!指定pattern 第152行 第7个入口: https://dealroom.co/market-maps/
+S1-R152-E8 = S1!指定pattern 第152行 第8个入口: https://dealroom.co/power-law-outcomes/
+S1-R152-E9 = S1!指定pattern 第152行 第9个入口: https://dealroom.co/talent/founder-mafias/
+S1-R152-E10 = S1!指定pattern 第152行 第10个入口: https://dealroom.co/tech-macro-economics/
+S1-R152-E11 = S1!指定pattern 第152行 第11个入口: https://dealroom.co/vc-investment-dashboard/","S1-R152-E2: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E3: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E4: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E5: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E6: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E7: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E8: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E9: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E10: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json
+S1-R152-E11: 未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round2/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对
+153,/,,,,,,,,

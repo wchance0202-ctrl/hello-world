@@ -1,0 +1,74 @@
+{
+ "frozen_at": "2026-10-26T08:48:02+00:00",
+ "seed": 20261027,
+ "sha256": "d8f88af9ac0783d9b4b4c27e8adce788ccee68ed3599048f166031ea46b59ea6",
+ "supersedes_v1_sha256": "8890c5c08d9d881744f73416de02484e2f11c311108d43c43d67eead8a4a82b6",
+ "rules": [
+  {
+   "id": "R2-OPT-ARTICLES-DETAIL",
+   "entry_ids": [
+    "S1-R129-E2"
+   ],
+   "target": "Optimizely Field Notes 英文 articles 详情：同上，两种尾斜杠形式",
+   "family": "栏目专属路径",
+   "pattern": "^https://www\\.optimizely\\.com/field-notes/articles/[a-z0-9]+(?:-+[a-z0-9]+)*/?$",
+   "variables": {
+    "slug": "小写字母数字，组间允许一个或多个连字符（v1 留出集实测出现 '--'）",
+    "trailing_slash": "同上"
+   },
+   "assumptions": "同上",
+   "inference": [
+    "https://www.optimizely.com/field-notes/articles/agentic-migration-no-developers-harmed/",
+    "https://www.optimizely.com/field-notes/articles/ai-agents-second-consumer/",
+    "https://www.optimizely.com/field-notes/articles/does-llms-txt-work/",
+    "https://www.optimizely.com/field-notes/articles/measuring-customer-progress-beyond-the-thank-you-page/",
+    "https://www.optimizely.com/field-notes/articles/rebuilding-a-website-with-ai-agents/",
+    "https://www.optimizely.com/field-notes/articles/under-the-hood-mark-privacy/",
+    "https://www.optimizely.com/field-notes/articles/webmcp-agentic-web/",
+    "https://www.optimizely.com/field-notes/articles/your-collaboration-tools-didnt-get-the-memo/"
+   ],
+   "holdout_pos": [
+    "https://www.optimizely.com/field-notes/articles/55-ways-to-power-your-marketing-automation",
+    "https://www.optimizely.com/field-notes/articles/62-of-b2b-buyers-purchase-online-and-you-should-too",
+    "https://www.optimizely.com/field-notes/articles/ai-in-commerce",
+    "https://www.optimizely.com/field-notes/articles/customer-analytics-maturity-model",
+    "https://www.optimizely.com/field-notes/articles/how-to-measure-personalization-roi",
+    "https://www.optimizely.com/field-notes/articles/marketing-doesnt-have-to-be-this-messy-heres-the-fix"
+   ],
+   "holdout_neg": [
+    "https://www.optimizely.com/field-notes/guides/big-book-of-personalization",
+    "https://www.optimizely.com/field-notes/guides/agentic-experimentation-report",
+    "https://www.optimizely.com/de/field-notes/articles/why-consistent-messaging-is-important-for-your-brand",
+    "https://www.optimizely.com/de/field-notes/articles/ai-revolutioniert-e-mail-marketing",
+    "https://www.optimizely.com/field-notes/customer-stories/lossan-rail-corridor",
+    "https://www.optimizely.com/field-notes/videos/whats-new-in-optimizely-opal-june-4-2026",
+    "https://www.optimizely.com/field-notes/collections/content-and-beyond"
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.optimizely\\.com/field-notes/articles/[a-z0-9]+(?:-[a-z0-9]+)*/?$",
+     "result": "holdout FN 1/6: .../how-to-create-a-user-flow-map-for-your-website--app"
+    }
+   ],
+   "regression_pos": [
+    "https://www.optimizely.com/field-notes/articles/101-things-to-ab-test",
+    "https://www.optimizely.com/field-notes/articles/experimentation-use-cases-telecommunications-homepage",
+    "https://www.optimizely.com/field-notes/articles/financial-services-ai",
+    "https://www.optimizely.com/field-notes/articles/generative-ai-to-make-strategy-first-content-marketers-in-2024",
+    "https://www.optimizely.com/field-notes/articles/how-to-create-a-user-flow-map-for-your-website--app",
+    "https://www.optimizely.com/field-notes/articles/pizza-as-a-service"
+   ],
+   "regression_neg": [
+    "https://www.optimizely.com/field-notes/articles",
+    "https://www.optimizely.com/de/field-notes/articles/the-invisible-tax-of-fragmented-content-systems",
+    "https://www.optimizely.com/field-notes/guides/gartner-magic-quadrant-for-content-marketing-platforms",
+    "https://www.optimizely.com/field-notes/guides/ai-powered-marketing-opal-gemini",
+    "https://www.optimizely.com/field-notes/customer-stories/macpek",
+    "https://www.optimizely.com/field-notes/videos/whats-next-for-healthcare-cx",
+    "https://www.optimizely.com/field-notes/events/no-account-left-behind"
+   ]
+  }
+ ]
+}
