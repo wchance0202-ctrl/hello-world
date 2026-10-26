@@ -1,7 +1,8 @@
 // Rendered-DOM probe (Playwright, pre-installed Chromium). Read-only interactions only:
 // scroll, and click buttons whose text is "load more"/"show more"/"more posts"/"see more".
 // Records anchors after each round, the XHR/fetch requests the page itself made
-// (method + URL, no bodies or headers), and stops when a round adds no new anchors.
+// (method + URL, no bodies or headers), and stops when nothing is clicked and no new anchors
+// appear, or after 3 consecutive rounds without new anchors.
 //
 // Usage: node render_probe.js <url> <out.json> [--rounds N] [--prefix /path/] [--selector CSS]
 // --selector clicks that element each round instead of matching button text.
@@ -18,8 +19,8 @@ const MORE = /^(load more|show more|more posts|see more|view more|load more arti
 
 (async () => {
   const browser = await chromium.launch();
-  const page = await browser.newPage({ userAgent:
-    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36' });
+  // default Playwright user agent (identifies as HeadlessChrome); no UA disguise
+  const page = await browser.newPage();
   const requests = [];
   page.on('request', r => { if (['xhr', 'fetch'].includes(r.resourceType()))
     requests.push({ method: r.method(), url: r.url().slice(0, 400) }); });
@@ -53,7 +54,9 @@ const MORE = /^(load more|show more|more posts|see more|view more|load more arti
     fresh.forEach(a => seen.add(a.href));
     as.forEach(a => seen.add(a.href));
     rounds.push({ round: i, anchors: as.length, new_in_prefix: fresh.length });
-    if (i > 0 && fresh.length === 0 && !(opt.selector && rounds[i - 1].clicked === opt.selector)) break;
+    // stop after 3 consecutive rounds without new links (a slow load can yield one empty round)
+    const idle = rounds.slice(-3).every(r => r.new_in_prefix === 0);
+    if (i > 0 && fresh.length === 0 && (idle && rounds.length >= 3 || !rounds[i - 1].clicked)) break;
     let clicked = null;
     if (opt.selector) {
       const b = await page.$(opt.selector);

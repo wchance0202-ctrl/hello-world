@@ -72,7 +72,7 @@ def main():
     out = Path(a.out)
     done = set()
     if out.exists():
-        done = {json.loads(l)["url"] for l in out.read_text(encoding="utf-8").splitlines() if l.strip()}
+        done = {json.loads(l)["url"] for l in out.read_text(encoding="utf-8").split("\n") if l.strip()}
     by_host = defaultdict(list)
     seen = set(done)
     for t in json.loads(Path(a.targets).read_text(encoding="utf-8")):

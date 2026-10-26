@@ -1,0 +1,29 @@
+{
+ "run": "2026-10-26（第 3 轮：全量）",
+ "path_entries": 268,
+ "discovery": {
+  "完整（枚举结束，无独立全集对账）": 111,
+  "完整（列表+sitemap 合并枚举）": 55,
+  "未验证": 45,
+  "完整": 24,
+  "部分": 33
+ },
+ "link": {
+  "可打开": 223,
+  "访问受限": 39,
+  "待核验": 6
+ },
+ "entries_with_formal_rule": 75,
+ "rules_formal": 90,
+ "rules_candidate": 82,
+ "rules_failed": 2,
+ "retained_links": 38882,
+ "test_pairs": 2945,
+ "queue_open": 157,
+ "queue_by_reason": {
+  "规则未达正式准入": 80,
+  "访问受限": 45,
+  "范围对账缺口": 31,
+  "权限拦截/挑战页": 1
+ }
+}

@@ -1,0 +1,2338 @@
+{
+ "url": "https://www3.wipo.int/madrid/monitor/en/",
+ "observed_at": "2026-10-26T10:57:06.698Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www3.wipo.int/madrid/monitor/en/",
+ "status": 200,
+ "error": null,
+ "title": "WIPO Madrid Monitor",
+ "h1": "Madrid Monitor",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 458,
+   "new_in_prefix": 458,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 458,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/labels/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/menu/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/bookmarks/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/breadcrumbs/en-0234.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipp-navbar-bff.ipportal.prd.web1.wipo.int/bff/proxy/banners/app-0234"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "News",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#search",
+   "text": "Search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#divGazette",
+   "text": "WIPO \nGazette",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#support",
+   "text": "Support",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Text",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "MARK_ALL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "MARK_P",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "HOL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "REP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "GS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Number",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "IRN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "BAN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "BRN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "REF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Date",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "RD",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "ED",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Class",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "NC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "VCS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "OO",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "DS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#simple_search_container_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Number »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Int. Registration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Basic no.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Basic reg.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Basic app.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Gazette",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Original Gazette",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Pri. number",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Reference",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Office Reference",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Applicant Reference",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Mark »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Trademark (combined)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Trademark",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Phonetic",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Translation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transliteration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Description",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "= »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=: (Normal): match term(s) as entered",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=~: (Fuzzy): matches are spelled similarly to entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "P=: (Phonetic): matches sound like entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "S=: (Stemming): Match all forms of a word.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "= »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=: (Normal): match term(s) as entered",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=~: (Fuzzy): matches are spelled similarly to entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "P=: (Phonetic): matches sound like entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "S=: (Stemming): Match all forms of a word.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "= »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=: (Normal): match term(s) as entered",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=~: (Fuzzy): matches are spelled similarly to entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "S=: (Stemming): Match all forms of a word.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "= »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=: (Normal): match term(s) as entered",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "=~: (Fuzzy): matches are spelled similarly to entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "P=: (Phonetic): matches sound like entered term(s)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Name / Address »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder Address",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Representative",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Representative Address",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Representative Country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Prev. Holder",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Prev. Holder Address",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Prev. Holder Country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Date »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Registration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Expiration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Publication",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Pri. date",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Basic Application",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Basic Registration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "First Registration Date",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Classification »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Nice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Goods/Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Goods/Services (English)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Goods/Services (Spanish)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Goods/Services (French)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Vienna",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Country »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Origin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Designation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Pri. country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Use requirements",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Other »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transaction (gazette)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transaction (effect)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transaction (notification)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transaction (publication)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Transaction (recording)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Colors claimed",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Type of Mark",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#advanced_search_container_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#imageMode_image_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "»",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "+ (AND)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "| (OR)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "- (NOT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#image_search_container_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#status_container_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "image search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "download",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "PDF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "CSV",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "XLSX",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "HTML",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "XML",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "ZIP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "monitor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "holder only",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "mark only",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#status_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Origin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#origin_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Designation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#designation_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Nice Cl.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#nice_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Type of Mark",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#flag_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Reg. Year",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#rd_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Vienna Cl.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#vic2_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#hol_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Holder country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#holc_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Representative",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#rep_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Expiration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#expiration_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "Email Address Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#email_filter_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#pager_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#record_list_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#pager_help",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "searches »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "monitor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "view saved watches",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#saved_search",
+   "text": "help",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "records »",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "create record set",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "view record sets",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "clear current marks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/monitor-help.html#record_set",
+   "text": "help",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#faq_help",
+   "text": "FAQs",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.wipo.int/madrid/en/news/2016/news_0011.html%20target='_blank'",
+   "text": "News",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/nivilo/nice/index.htm",
+   "text": "Nice classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/nivilo/vienna/index.htm",
+   "text": "Vienna classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/standards/en/pdf/03-60-01.pdf#INID",
+   "text": "Inid codes",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/export/sites/www/standards/en/pdf/03-03-01.pdf",
+   "text": "Country/Office codes",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/members/ipoffices_info.html",
+   "text": "Information concerning National or Regional Procedures before IP Offices under the Madrid System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/members/declarations.html",
+   "text": "Declarations made by Contracting Parties of the Madrid System under the Agreement, the Protocol and the Common Regulatio",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#gazette_help",
+   "text": "WIPO Gazette",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#ealert_help",
+   "text": "Madrid E-alert",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#designation_status_tab_help",
+   "text": "Designation status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#realtime_search_help",
+   "text": "Madrid Realtime status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/monitor/tutorials.html",
+   "text": "Video tutorials",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#search_help",
+   "text": "search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#simple_search_container_help",
+   "text": "simple Search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#advanced_search_container_help",
+   "text": "advanced search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#realtime_search_help",
+   "text": "realtime search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/image_search_container_help",
+   "text": "image search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#gazette_help",
+   "text": "Gazette",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#results_list_help",
+   "text": "Search Results",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#filter_by_help",
+   "text": "Filters",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#faq_help",
+   "text": "FAQ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/contact/en/madrid/",
+   "text": "contact us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#operators_help",
+   "text": "more advanced operators",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#operators_help",
+   "text": "operators",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#wildcards_help",
+   "text": "wildcards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#numbers_search_help",
+   "text": "Numbers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#brand_search_help",
+   "text": "Mark",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#names_search_help",
+   "text": "Name",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#date_search_help",
+   "text": "Date",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#class_search_help",
+   "text": "Class",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#country_search_help",
+   "text": "Country",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#other_search_help",
+   "text": "Other",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/pressroom/en/articles/2014/article_0007.html",
+   "text": "image search demo video",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#realtime_help",
+   "text": "Realtime status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#wildcards_help",
+   "text": "wildcards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#operators_help",
+   "text": "operators",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#phonetic_help",
+   "text": "Phonetic Matching",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#fuzzy_help",
+   "text": "Fuzzy Matching",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#stemming_help",
+   "text": "Stemming",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#operators_help",
+   "text": "operator",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/nivilo/nice/index.htm?lang=EN",
+   "text": "Nice website",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/nivilo/vienna/index.htm?lang=EN",
+   "text": "Vienna website",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#status_filter_help",
+   "text": "Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#origin_filter_help",
+   "text": "Origin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#designation_filter_help",
+   "text": "Designation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#nice_filter_help",
+   "text": "Nice Class",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#indicator_filter_help",
+   "text": "Type of Mark",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#rd_filter_help",
+   "text": "Registration Year",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#vienna_filter_help",
+   "text": "Vienna class",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#holder_filter_help",
+   "text": "Holder Name",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#rep_filter_help",
+   "text": "Representative Name",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#expiration_filter_help",
+   "text": "Expiration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#email_filter_help",
+   "text": "Email Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/classifications/nice/en/",
+   "text": "Nice classification section of our website",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/contact/en/madrid/index.html",
+   "text": "provide an e-mail address via Contact Madrid",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#filter_by_help",
+   "text": "Filter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#results_list_help",
+   "text": "Results area",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#image_filter_help",
+   "text": "refine by image",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#download_help",
+   "text": "download",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#ealert_help",
+   "text": "monitor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#pager_help",
+   "text": "pager bar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#record_list_help",
+   "text": "record list",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#record_view_help",
+   "text": "Record view",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#record_view_help",
+   "text": "Record view",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#ealert_help",
+   "text": "alert list",
+   "region": "BODY"
+  },
+  {
+   "href": "http://tmfive.org/common-status-descriptors/",
+   "text": "TM5 Common Status Descriptors",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/extracts/",
+   "text": "Find out more",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "☆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "★",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/monitor/download.html",
+   "text": "Download Madrid Monitor update files",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#realtime_help",
+   "text": "Realtime Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#realtime_help",
+   "text": "Realtime Status",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/monitor/download.html",
+   "text": "Download Madrid Monitor update files",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/global_ip/en/activities/terms_and_conditions.html#3",
+   "text": "terms of use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/#",
+   "text": "search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/portal/en/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ipportal.wipo.int/home",
+   "text": "IP Portal",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/",
+   "text": "Home",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/madrid/en/",
+   "text": "Madrid System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://madrid.wipo.int/",
+   "text": "eMadrid",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/",
+   "text": "Madrid Monitor",
+   "region": "BODY"
+  }
+ ]
+}

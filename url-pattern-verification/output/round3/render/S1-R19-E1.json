@@ -1,0 +1,1051 @@
+{
+ "url": "https://www.wipo.int/en/web/ip-resources",
+ "observed_at": "2026-10-26T10:57:03.459Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.wipo.int/en/web/ip-resources",
+ "status": 200,
+ "error": null,
+ "title": "IP Resources",
+ "h1": "Intellectual Property Resources",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 199,
+   "new_in_prefix": 199,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 199,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.wipo.int/metrics/gs/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.wipo.int%2Fen%2Fweb%2Fip-resources&scrsrc=www.wipo.int&rnd=1209837248.1793012228&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dODdlYz&gtb=1&gtm=45E92e6al1v72685737za204zd72685737xeaxf4&gcs=G111&gcd=13t3t3p3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120385423~12046"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/labels/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/menu/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/bookmarks/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.wipo.int/metrics/g/collect?v=2&tid=G-15TSHJ0HWP&gtm=45g92e6al1v876068306za20szb72685737zd72685737xf4&_p=1793012227631&gcs=G111&gcd=13t3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=674808828&_eu=AAAAAGA&_fplc=0&cid=1789946275.1793012229&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Li"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wipo.int/metrics/gs/ccm/collect?rcb=0&frm=0&apvc=0&tid=AW-381553970&en=page_view&dl=https%3A%2F%2Fwww.wipo.int%2Fen%2Fweb%2Fip-resources&scrsrc=www.wipo.int&rnd=1209837248.1793012228&navt=n&npa=1&_tu=BA&gtb=2&gtm=45892e6al1v870608002za20szb72685737zd72685737xecxf4&gcs=G111&gcd=13t3t3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120420416~120"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.wipo.int/metrics/g/collect?v=2&tid=G-15TSHJ0HWP&gtm=45g92e6al1v876068306za20kzb72685737zd72685737xf4&_p=1793012227631&gcs=G111&gcd=13t3t3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dODdlYz&ecid=674808828&_eu=AEAAAGQ&_fplc=0&ae=a&cid=1789946275.1793012229&frm=0&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#main-content",
+   "text": "Skip to Main Content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-ip",
+   "text": "About Intellectual Property",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-ip#training",
+   "text": "IP Training",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/respect-for-ip",
+   "text": "Respect for IP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-outreach",
+   "text": "IP Outreach",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-ip#for",
+   "text": "IP for…",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-ip#and",
+   "text": "IP and...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-ip#in",
+   "text": "IP in...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patents/patent-information",
+   "text": "Patent & Technology Information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#trademarks",
+   "text": "Trademark Information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#designs",
+   "text": "Design Information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#geographical-indications",
+   "text": "Geographical Indication Information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.upov.int/",
+   "text": "Plant Variety Information (UPOV)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#legal",
+   "text": "IP Laws, Treaties & Judgments",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#analysis",
+   "text": "IP Resources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources#reports",
+   "text": "IP Reports",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patents/protection",
+   "text": "Patent Protection",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/trademarks/protection",
+   "text": "Trademark Protection",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/designs/protection",
+   "text": "Design Protection",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/geographical-indications/protection",
+   "text": "Geographical Indication Protection",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.upov.int/portal/index.html.en",
+   "text": "Plant Variety Protection (UPOV)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/amc",
+   "text": "IP Dispute Resolution",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-office-business-solutions",
+   "text": "IP Office Business Solutions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/paying-for-ip-services",
+   "text": "Paying for IP Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/decision-making-and-negotiating-bodies",
+   "text": "Negotiation & Decision-Making",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/cooperation",
+   "text": "IP Cooperation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patents#technology",
+   "text": "Innovation Support",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/cooperation/public-private-partnerships",
+   "text": "Public-Private Partnerships",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo",
+   "text": "The Organization",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-and-ai",
+   "text": "WIPO and Artificial Intelligence",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/working-at-wipo",
+   "text": "Working at WIPO",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo#accountability",
+   "text": "Accountability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patents",
+   "text": "Patents",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/trademarks",
+   "text": "Trademarks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/designs",
+   "text": "Designs",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/geographical-indications",
+   "text": "Geographical Indications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/copyright",
+   "text": "Copyright",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/trade-secrets",
+   "text": "Trade Secrets",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/future-of-ip",
+   "text": "Future of IP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-academy",
+   "text": "WIPO Academy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/meetings/en/topic_type.jsp?group_id=242",
+   "text": "Workshops & Seminars",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-enforcement",
+   "text": "IP Enforcement",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-alert",
+   "text": "WIPO ALERT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/respect-for-ip/awareness-raising",
+   "text": "Raising Awareness",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ipday",
+   "text": "World IP Day",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-magazine",
+   "text": "WIPO Magazine",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-advantage",
+   "text": "Case Studies & Success Stories",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/news/explore",
+   "text": "IP News",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/awards",
+   "text": "WIPO Awards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/business",
+   "text": "Business",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/women",
+   "text": "Women",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/universities",
+   "text": "Universities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/traditional-knowledge/engagement",
+   "text": "Indigenous Peoples",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/judiciaries",
+   "text": "Judiciaries",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/youth-engagement",
+   "text": "Youth",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/examiners",
+   "text": "Examiners",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/innovation-ecosystems",
+   "text": "Innovation Ecosystems",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/economics",
+   "text": "Economics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-financing",
+   "text": "Finance",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/intangible-assets",
+   "text": "Intangible Assets",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-health",
+   "text": "Global Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/climate-change",
+   "text": "Climate Change",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/competition-policy",
+   "text": "Competition Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/sdgs",
+   "text": "Sustainable Development Goals",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/traditional-knowledge",
+   "text": "Genetic Resources, Traditional Knowledge and Traditional Cultural Expressions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/frontier-technologies",
+   "text": "Frontier Technologies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/mobile-apps",
+   "text": "Mobile Applications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/sports",
+   "text": "Sports",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/tourism",
+   "text": "Tourism",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/music",
+   "text": "Music",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/fashion",
+   "text": "Fashion",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patentscope",
+   "text": "PATENTSCOPE",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/patent-analytics",
+   "text": "Patent Analytics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/classification-ipc",
+   "text": "International Patent Classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ardi",
+   "text": "ARDI – Research for Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/aspi",
+   "text": "ASPI – Specialized Patent Information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-brand-database",
+   "text": "Global Brand Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/",
+   "text": "Madrid Monitor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://6ter.wipo.int/struct-search",
+   "text": "Article 6ter Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/classification-nice",
+   "text": "Nice Classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/classification-vienna",
+   "text": "Vienna Classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-design-database",
+   "text": "Global Design Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hague.wipo.int/#/bulletin/browse-by-bulletin",
+   "text": "International Designs Bulletin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://designdb.wipo.int/designdb/hague/en/",
+   "text": "Hague Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/classification-locarno",
+   "text": "Locarno Classification",
+   "region": "BODY"
+  },
+  {
+   "href": "https://lisbon-express.wipo.int/",
+   "text": "Lisbon Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branddb.wipo.int/en/IPO-LISBON/quicksearch?by=brandName&v=&start=0&_=1676544734688",
+   "text": "Global Brand Database for GIs",
+   "region": "BODY"
+  },
+  {
+   "href": "https://pluto.upov.int/",
+   "text": "PLUTO Plant Variety Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.upov.int/genie/",
+   "text": "GENIE Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/treaties",
+   "text": "WIPO-Administered Treaties",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipolex",
+   "text": "WIPO Lex - IP Laws, Treaties & Judgments",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/standards",
+   "text": "WIPO Standards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-statistics",
+   "text": "IP Statistics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-pearl",
+   "text": "WIPO Pearl (Terminology)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/",
+   "text": "WIPO Publications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/country-profiles",
+   "text": "Country IP Profiles",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-knowledge-center",
+   "text": "WIPO Knowledge Center",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/intangible-assets/measuring-investments#highlights",
+   "text": "World Intangible Investment Highlights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/technology-trends",
+   "text": "WIPO Technology Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-innovation-index",
+   "text": "Global Innovation Index",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/world-ip-report",
+   "text": "World Intellectual Property Report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/pct-system",
+   "text": "PCT – The International Patent System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://pct.wipo.int/ePCT/",
+   "text": "ePCT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/budapest-system",
+   "text": "Budapest – The International Microorganism Deposit System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/madrid-system",
+   "text": "Madrid – The International Trademark System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://madrid.wipo.int/",
+   "text": "eMadrid",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/article-6ter",
+   "text": "Article 6ter (armorial bearings, flags, state emblems)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/hague-system",
+   "text": "Hague – The International Design System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hague.wipo.int/",
+   "text": "eHague",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/lisbon-system",
+   "text": "Lisbon – The International System of Appellations of Origin and Geographical Indications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://lisbon-system.wipo.int/",
+   "text": "eLisbon",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/upovprisma",
+   "text": "UPOV PRISMA",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/amc#mediation",
+   "text": "Mediation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/amc#arbitration",
+   "text": "Arbitration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/amc#expert-determination",
+   "text": "Expert Determination",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/amc/domain-name-disputes",
+   "text": "Domain Name Disputes",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/case",
+   "text": "Centralized Access to Search and Examination (CASE)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/das",
+   "text": "Digital Access Service (DAS)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-pay",
+   "text": "WIPO Pay",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-wallet",
+   "text": "WIPO Wallet",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/assemblies",
+   "text": "WIPO Assemblies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/decision-making-and-negotiating-bodies#bodies",
+   "text": "Standing Committees",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/meetings/en/",
+   "text": "Calendar of Meetings",
+   "region": "BODY"
+  },
+  {
+   "href": "https://webcast.wipo.int/",
+   "text": "WIPO Webcast",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/meetings/en/archive.jsp",
+   "text": "WIPO Official Documents",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/development-agenda",
+   "text": "Development Agenda",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/cooperation/tailored-initiatives",
+   "text": "Tailored Initiatives & Projects",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/cooperation/collaborative-forums",
+   "text": "Collaborative Forums & Dialogues",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/innovation-creativity-and-development-acceleration-program",
+   "text": "Innovation, Creativity and Development Acceleration Program",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/pressroom/en/stories/",
+   "text": "IP for Impact",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/national-ip-strategies",
+   "text": "National IP & Innovation Strategies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/cooperation/cooperation-hub",
+   "text": "Cooperation Hub",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/tisc",
+   "text": "Technology and Innovation Support Centers (TISC)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/technology-transfer",
+   "text": "Technology Transfer",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/inventor-assistance-program",
+   "text": "Inventor Assistance Program",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-commercialization",
+   "text": "IP Commercialization",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/wipogreen/en/",
+   "text": "WIPO GREEN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/pat-informed/en/",
+   "text": "WIPO's Pat-INFORMED",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.accessiblebooksconsortium.org/en/portal/index",
+   "text": "Accessible Books Consortium",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/wipo-for-creators",
+   "text": "WIPO for Creators",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/members/en/",
+   "text": "Member States",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/observers",
+   "text": "Observers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/director-general",
+   "text": "Director General",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/activities-by-unit",
+   "text": "Activities by Unit",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/offices",
+   "text": "External Offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-forum-on-ip-and-ai",
+   "text": "Global Forum on IP and AI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ai-infrastructure-interchange",
+   "text": "AI Infrastructure Interchange",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ai-tools-services",
+   "text": "AI Tools & Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/working-at-wipo#staff",
+   "text": "Staff Positions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/working-at-wipo#affiliated",
+   "text": "Affiliated Personnel Positions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/procurement",
+   "text": "Procurement",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/budget",
+   "text": "Results & Budget",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/budget/financial",
+   "text": "Financial Reporting",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/about-wipo/oversight",
+   "text": "Oversight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/about-ip/en/",
+   "text": "intellectual property",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/library/en/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/library/en/index.html",
+   "text": "WIPO Knowledge Center",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/showcase/wipo-knowledge-and-resources",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/showcase/wipo-knowledge-and-resources",
+   "text": "Join us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/wipo-knowledge-center",
+   "text": "WIPO Knowledge Center",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/patentscope/en/",
+   "text": "PATENTSCOPE",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/pct/en/",
+   "text": "Patent Cooperation Treaty (PCT)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/ipc/en/",
+   "text": "IPC — Streamlining searches",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/patents/en/patent-information.html",
+   "text": "patent and technology information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/patent-analytics",
+   "text": "patent analytics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/reference/en/branddb/",
+   "text": "Global Brand Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/madrid/monitor/en/",
+   "text": "Madrid Monitor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://6ter.wipo.int/struct-search?lang=en",
+   "text": "Article 6ter Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/nice/en/",
+   "text": "Nice Classification (NCL)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/vienna/en/",
+   "text": "Vienna Classification (VCL)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/reference/en/designdb/",
+   "text": "Global Design Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/haguebulletin/",
+   "text": "International Designs Bulletin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/hague/en/design_search/",
+   "text": "Hague Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/classifications/locarno/en/",
+   "text": "Locarno Classification (LOC)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/ipdl/en/search/lisbon/search-struct.jsp",
+   "text": "Lisbon Express Database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/ipdl/en/search/lisbon/search-struct.jsp",
+   "text": "Global Brand Database for GIs",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/treaties/en/",
+   "text": "WIPO-administered treaties",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/wipolex",
+   "text": "WIPO Lex database",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/standards/en/",
+   "text": "WIPO Standards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/ipstats/en/",
+   "text": "IP statistics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/reference/en/wipopearl/",
+   "text": "WIPO Pearl – Multilingual Terminology Portal",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/",
+   "text": "WIPO Publications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/directory/en/",
+   "text": "Country IP profiles",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/library/en/",
+   "text": "WIPO Knowledge Center",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/wipo-knowledge-center",
+   "text": "WIPO Knowledge Center (WKC)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wipo.libguides.com/wkc_guide",
+   "text": "WKC Guide",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/details.jsp?id=4860&plang=EN",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/details.jsp?id=4860&plang=EN",
+   "text": "World Intangible Investment Highlights 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/tech_trends/en/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/tech_trends/en/",
+   "text": "WIPO Technology Trends Report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-innovation-index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/global-innovation-index",
+   "text": "Global Innovation Index",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/world-ip-report",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/web/world-ip-report",
+   "text": "World Intellectual Property Report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/details.jsp?id=4822",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/publications/en/details.jsp?id=4822",
+   "text": "World Intellectual Property Indicators 2025",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/portal/en/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/portal/en/",
+   "text": "Home",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-resources",
+   "text": "IP Resources",
+   "region": "BODY"
+  }
+ ]
+}

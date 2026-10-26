@@ -1,0 +1,215 @@
+{
+ "url": "https://www3.wipo.int/ipstats/",
+ "observed_at": "2026-10-26T10:57:30.712Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www3.wipo.int/ipstats/key-search/indicator",
+ "status": 200,
+ "error": null,
+ "title": "WIPO IP Statistics Data Center",
+ "h1": "WIPO IP Statistics Data Center",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 27,
+   "new_in_prefix": 27,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 27,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www3.wipo.int/am/oauth2/.well-known/openid-configuration"
+  },
+  {
+   "method": "GET",
+   "url": "https://www3.wipo.int/am/oauth2/connect/jwk_uri"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/labels/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/menu/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/bookmarks/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www3.wipo.int/ipstats/assets/i18n/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www3.wipo.int/ipstats/assets/i18n/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://webcomponents.wipo.int/wipo-navbar/assets/i18n/breadcrumbs/en-0094.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipp-navbar-bff.ipportal.prd.web1.wipo.int/bff/proxy/banners/app-0094"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/keyindicator/keyindicators-json"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/ips-search/en/last-updated"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/keyindicator/keyindicators-json"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.ipstatsdc.deda.prd.web1.wipo.int/api/v1/public/ips-search/en/last-updated"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/indicator",
+   "text": "KEY INDICATORS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/countryprofiles",
+   "text": "COUNTRY PROFILES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/patent",
+   "text": "PATENT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/trademark",
+   "text": "TRADEMARK",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/industrial",
+   "text": "INDUSTRIAL DESIGN",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/utility",
+   "text": "UTILITY MODEL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/ips-search/geographical",
+   "text": "GEOGRAPHICAL INDICATIONS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/pmh-search/pct",
+   "text": "PCT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/pmh-search/madrid",
+   "text": "MADRID",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/pmh-search/hague",
+   "text": "HAGUE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/saved-searches",
+   "text": "SAVED SEARCHES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
+   "text": "Total applications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=202",
+   "text": "Applications by resident and non-resident",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=203",
+   "text": "Applications by regions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=205",
+   "text": "IP rights in force",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=221",
+   "text": "Patent - Applications for the top 20 offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=222",
+   "text": "Patent - Applications by filing route: Direct and PCT System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
+   "text": "Utility model - Applications for the top 10 offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
+   "text": "Trademark - Application class counts for the top 20 offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=242",
+   "text": "Trademark - Application class counts by filing route: Direct and Madrid System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=251",
+   "text": "Industrial design - Application design counts for the top 20 offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=252",
+   "text": "Industrial design - Application design counts by filing route: Direct and Hague System",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/portal/en/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ipportal.wipo.int/home",
+   "text": "IP Portal",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/",
+   "text": "Home",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wipo.int/en/web/ip-statistics",
+   "text": "IP Statistics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www3.wipo.int/ipstats/key-search/indicator",
+   "text": "Data Center",
+   "region": "BODY"
+  }
+ ]
+}

@@ -1,0 +1,1405 @@
+{
+ "url": "https://www.hubspot.com/resources",
+ "observed_at": "2026-10-26T11:03:37.289Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.hubspot.com/resources",
+ "status": 200,
+ "error": null,
+ "title": "Free Resources from HubSpot | Templates, Ebooks, & More",
+ "h1": "Resource Library",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 237,
+   "new_in_prefix": 237,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 237,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://wtcfns.hubspot.com/wt-api/current-user"
+  },
+  {
+   "method": "GET",
+   "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json?portalId=53"
+  },
+  {
+   "method": "POST",
+   "url": "https://o4508204002050048.ingest.us.sentry.io/api/4510760561344512/envelope/?sentry_version=7&sentry_key=d6b04b900d7e5e4d6b2880fa9068f790&sentry_client=sentry.javascript.browser%2F10.73.0"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.hs-banner.com/v2/cf-location"
+  },
+  {
+   "method": "POST",
+   "url": "https://js.hs-banner.com/v2/activity/view"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.hubspot.com/_hcms/livechat/widget?portalId=53&conversations-embed=static-1.28730&mobile=false&messagesUtk=c278cd630b58450bb0606615c653690a&traceId=c278cd630b58450bb0606615c653690a"
+  },
+  {
+   "method": "GET",
+   "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=53&currentUrl=https%3A%2F%2Fwww.hubspot.com%2Fresources&contentId=190638868304"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&ae=g&auid=1903287125.1793012630&dt=Free%20Resources%20from%20HubSpot%20%7C%20Templates%2C%20Ebooks%2C%20%26%20More&en=page_view&dl=https%3A%2F%2Fwww.hubspot.com%2Fresources&scrsrc=sgtm-amer.hubspot.com&rnd=1130935892.1793012630&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtb=2&gtm=45Fe6al1v71448581za204zd71448581xeaxf3xg4&gcs=G111&gcd=13r3r3r2r"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1903287125.1793012630&gtm=45Fe6al1v71448581za204zd71448581xeaxf3xg4&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.hubspot.com/cdn-cgi/rum?"
+  },
+  {
+   "method": "GET",
+   "url": "https://pixels.spotify.com/v1/config/15cba755555e46a88dd05355f96d1b6f"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.amazon-adsystem.com/aat/amzn.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://pixels.spotify.com/v1/ingest"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.amazon-adsystem.com/aat/amzn.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://s.amazon-adsystem.com/iu3?pid=1b3cf6ff-9fc9-4499-813a-12e87e83751e&event=PageView&gtmVersion=3.4&ts=1793012631314&eventSource=amzn.js&uuid=99bd4e7d-1109-473c-bdf6-454dcaf625e5"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-LXTM6CQ0XK&gtm=45je6al1v874835127z871448581za20gzb71448581zd71448581xf1&_p=1793012627526&_gaz=1&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma=0&_eu=AAAAAGAC&cid=2102299433.1793012632&frm=0&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&u"
+  },
+  {
+   "method": "GET",
+   "url": "https://ip.veritonicmetrics.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://sgtm-amer.hubspot.com/g/collect?v=2&tid=G-X&gtm=45he6al1z871448581za20kzb71448581zd71448581xf3xg4&_p=1793012627526&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma_cps=a&dma=1&ecid=18980118&_fplc=0&cid=2102299433.1793012632&ec_mode=c&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv="
+  },
+  {
+   "method": "GET",
+   "url": "https://sgtm-amer.hubspot.com/g/collect?v=2&tid=G-X&gtm=45he6al1z871448581za20kzb71448581zd71448581xf3xg4&_p=1793012627526&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma_cps=a&dma=1&ecid=18980118&_eu=AAAAAAQ&_fplc=0&cid=2102299433.1793012632&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uap"
+  },
+  {
+   "method": "GET",
+   "url": "https://feedback.hubapi.com/feedback/public/v1/web-config?portalId=53&utk=c2226a23fee8ee69df16488c979d6c78&bundleVersion=1.30910&currentUrl=https%3A%2F%2Fwww.hubspot.com%2Fresources&pageUrl=https%3A%2F%2Fwww.hubspot.com%2Fresources"
+  },
+  {
+   "method": "GET",
+   "url": "https://sgtm-amer.hubspot.com/g/collect?v=2&tid=G-X&gtm=45he6al1z871448581za20kzb71448581zd71448581xf3xg4&_p=1793012627526&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma_cps=a&dma=1&ecid=18980118&_eu=AAAAAAQ&_fplc=0&cid=2102299433.1793012632&frm=0&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uap"
+  },
+  {
+   "method": "GET",
+   "url": "https://52.71.121.170/is"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.tx4.pw.adn.cloud/V9WA75/8438349582327263118?id=7982336"
+  },
+  {
+   "method": "POST",
+   "url": "https://atr.veritonicmetrics.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://s.amazon-adsystem.com/iu3?pid=1b3cf6ff-9fc9-4499-813a-12e87e83751e&event=PageView&gtmVersion=3.4&ts=1793012631314&eventSource=amzn.js&uuid=99bd4e7d-1109-473c-bdf6-454dcaf625e5&dcc=t"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/activity;src=11620487;type=brows0;cat=allpa0;rcb=11;ord=3666929349851;npa=0;auiddc=1903287125.1793012630;u1=https%3A%2F%2Fwww.hubspot.com%2Fresources;u3=US;uaa=x86;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;user_data_mode=a;_tu=KFA;gtm=45fe6al1v9181794579z871448581"
+  },
+  {
+   "method": "GET",
+   "url": "https://pixel-config.reddit.com/pixels/t2_7lu6yhqo/config"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_7lu6yhqo&event=PageVisit"
+  },
+  {
+   "method": "POST",
+   "url": "https://go.try-hubspot.com/xc/2643745/976132/12893"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.tx4.pw.adn.cloud/V9WA75/8438349582327263118/06721e69-5a89-4e23-9fda-2620e639a315"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/871962588/?random=1793012635486&cv=11&fst=1793012635486&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9181638448z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hub"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  },
+  {
+   "method": "GET",
+   "url": "https://app.hubspot.com/api/livechat-public/v1/feedback/survey/CSAT/628?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.31173&conversations-visitor-ui=static-1.31173&traceId=c278cd630b58450bb0606615c653690a&sessionId=AMOaWbKmTgm7eL2TFx2zx4saDQk-32W8IXYEsa3N4PG0vCIvWY5L0X74ZhP-dlBFU9bmKy7jFG9jOju6NrW-d4iRpPqKpzRxG05Q8lTSVjtXV3broiGpdVyIEtXhsgnvJpeWVa2boUaDlX3bptI-kJUly3ZYYCYKp9lVCuYV"
+  },
+  {
+   "method": "GET",
+   "url": "https://app.hubspot.com/api/livechat-public/v1/bots/public/bot/13904117/welcomeMessages?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.31173&conversations-visitor-ui=static-1.31173&traceId=c278cd630b58450bb0606615c653690a&sessionId=AMOaWbKmTgm7eL2TFx2zx4saDQk-32W8IXYEsa3N4PG0vCIvWY5L0X74ZhP-dlBFU9bmKy7jFG9jOju6NrW-d4iRpPqKpzRxG05Q8lTSVjtXV3broiGpdVyIEtXhsgnvJpeWVa2boUaDlX3bptI-kJUl"
+  },
+  {
+   "method": "POST",
+   "url": "https://exceptions.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=conversations-visitor-ui"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/8984961564/?random=1793012636208&cv=11&fst=1793012636208&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hubspot.com%2Fresources"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/871962588/?random=1194788858&cv=11&fst=1793012635486&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9181638448z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/8984961564/?random=496496460&cv=11&fst=1793012636208&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hubspot.com%2"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/8984961564/?random=496496460&cv=11&fst=1793012636208&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hubspot.com%2Fresources&rcb=16&lab"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/871962588/?random=1194788858&cv=11&fst=1793012635486&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9181638448z871448581za20gzb71448581zd71448581xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hubspot.com%2"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-LXTM6CQ0XK&gtm=45je6al1v874835127z871448581za20gzb71448581zd71448581xf1&_p=1793012627526&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma=0&_eu=AAAAAGQC&cid=2102299433.1793012632&frm=0&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  },
+  {
+   "method": "POST",
+   "url": "https://obs.greencolumnart.com/mon"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.hubspot.com/resources#",
+   "text": "___",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/resources#global-nav-main-content",
+   "text": "Skip to content",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.hubspot.jp/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=cl-dropdown-menu-link",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.de/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=cl-dropdown-menu-link",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.es/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=cl-dropdown-menu-link",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://br.hubspot.com/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=cl-dropdown-menu-link",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.fr/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=cl-dropdown-menu-link",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-support",
+   "text": "Customer Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=nav-utility-contactsales&hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-contactsales",
+   "text": "Contact Sales",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.hubspot.com/login?hubs_signup-url=www.hubspot.com%2Fresources&hubs_signup-cta=nav-utility-login&hubs_content=www.hubspot.com%2Fresources&hubs_content-cta=nav-utility-login&uuid=anon6341385ca91e402765bb00dbab65",
+   "text": "Log in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/our-story?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-about",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/careers?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/contact?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-contact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ir.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-investors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/management?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-management",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=HubSpot",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-freecrm",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/get-started?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-platform",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-marketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-sales",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-service",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-content",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-data",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/revenue?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-revenue",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-smartcrm",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-agents",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/starter?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-starter",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/aeo?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-aeo",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/apps?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-marketplace",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/generate-leads?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-leads",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/automate-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-automate",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/build-sales-pipeline?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-pipeline",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/close-more-deals?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-deals",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/scale-customer-service-support?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-support",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/drive-customer-satisfaction?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-retention",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/create-content-for-customer-journey?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-create",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/manage-content?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-manage",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/find-and-reach-customers?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-find",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/grow-sales-and-get-paid-faster?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-grow",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/understand-and-organize-customer-data?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-data",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence/ai-customer-service-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-customeragent",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-prospectagent",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence/ai-data-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-dataagent",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/starter?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-smallbiz",
+   "text": "Learn more\n        \n          about HubSpot’s Starter Customer Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/enterprise?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-enterprise",
+   "text": "Learn more\n        \n          about HubSpot’s Enterprise Customer Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/why-choose-hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-wch",
+   "text": "Learn more\n        \n          about why how HubSpot’s solution is different",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/case-studies?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-casestudies",
+   "text": "See all case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/spotlight?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-spotlight",
+   "text": "Explore product updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/pricing/marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-pricing",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/spotlight?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-spotlight",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/new?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-new",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/why-choose-hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-wch",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/sustainability?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-sustainability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://unbound.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-unbound",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources/webinar?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-webinars#resource-library-page-headers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://community.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-community",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/hubspot-user-groups?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-usergroups",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/solutions?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-solutions",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/app?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-tech",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/affiliates?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-affiliate",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.hubspot.com/education-partner-program?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-education",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/startups/partners?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-startup",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/loop-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-loopmarketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/inbound-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-inboundmarketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-blogs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-academy",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://knowledge.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-knowledge",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/templates?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-templates",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developers.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-devtools",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/services/onboarding?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-onboarding",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/services/premium-support?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-support",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/solutions?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-hirepartner",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-freecrm",
+   "text": "Free HubSpot CRM",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/get-started?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-platform",
+   "text": "Overview of all products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-marketing",
+   "text": "Marketing Hub\n      \n      Marketing automation software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-sales",
+   "text": "Sales Hub\n      \n      Sales software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/service?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-service",
+   "text": "Service Hub\n      \n      Customer service software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/content?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-content",
+   "text": "Content Hub\n      \n      Content marketing software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/data?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-data",
+   "text": "Data Hub\n      \n      Data management software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/revenue?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-revenue",
+   "text": "Revenue Hub\n      \n      CPQ, billing, and payments software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/ai-crm?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-smartcrm",
+   "text": "Smart CRM\n      \n      AI-powered, flexible CRM software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-agents",
+   "text": "Agent Hub\n      \n      Your central home for building and managing AI agents across the platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/starter?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-starter",
+   "text": "Small Business Bundle\n      \n      The Starter edition of each product, built for startups and small businesses",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/aeo?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-aeo",
+   "text": "AEO (Beta)\n      \n      Answer engine optimization tools that track and improve your brand's visibility in AI results",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/apps?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-software-marketplace",
+   "text": "HubSpot Marketplace\n      \n      Connect your favorite apps to HubSpot",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/generate-leads?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-leads",
+   "text": "Generate leads",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/automate-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-automate",
+   "text": "Automate marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/build-sales-pipeline?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-pipeline",
+   "text": "Build pipeline",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/close-more-deals?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-deals",
+   "text": "Close deals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/scale-customer-service-support?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-support",
+   "text": "Scale support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/drive-customer-satisfaction?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-retention",
+   "text": "Drive retention",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/create-content-for-customer-journey?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-create",
+   "text": "Create content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/manage-content?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-manage",
+   "text": "Manage content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/find-and-reach-customers?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-find",
+   "text": "Find and reach customers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/grow-sales-and-get-paid-faster?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-grow",
+   "text": "Grow sales and get paid",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/use-case/understand-and-organize-customer-data?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-data",
+   "text": "Organize customer data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence/ai-customer-service-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-customeragent",
+   "text": "Resolve customer queries 24/7",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-prospectagent",
+   "text": "Automate sales prospecting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence/ai-data-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-dataagent",
+   "text": "Research customers faster",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/starter?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-smallbiz",
+   "text": "Learn more\n        \n          about HubSpot’s Starter Customer Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/enterprise?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-enterprise",
+   "text": "Learn more\n        \n          about HubSpot’s Enterprise Customer Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/why-choose-hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-wch",
+   "text": "Learn more\n        \n          about why how HubSpot’s solution is different",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/case-studies?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-casestudies",
+   "text": "See all case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/spotlight?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-solutions-spotlight",
+   "text": "Explore product updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/pricing/marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-pricing",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/spotlight?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-spotlight",
+   "text": "Spotlight: Product Updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/new?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-new",
+   "text": "What's New in HubSpot",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/why-choose-hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-wch",
+   "text": "Why Choose HubSpot?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/sustainability?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-sustainability",
+   "text": "Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://unbound.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-unbound",
+   "text": "UNBOUND Event",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources/webinar?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-webinars#resource-library-page-headers",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://community.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-community",
+   "text": "HubSpot Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/hubspot-user-groups?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-usergroups",
+   "text": "HubSpot User Groups",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/solutions?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-solutions",
+   "text": "Solutions Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/app?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-tech",
+   "text": "Technology Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/affiliates?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-affiliate",
+   "text": "Affiliate Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.hubspot.com/education-partner-program?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-education",
+   "text": "Education Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/startups/partners?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-startup",
+   "text": "Startup Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/loop-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-loopmarketing",
+   "text": "The Loop Marketing Playbook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/inbound-marketing?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-inboundmarketing",
+   "text": "What Is Inbound Marketing?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-blogs",
+   "text": "HubSpot Blogs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-academy",
+   "text": "Free Courses & Certifications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "Ebooks, Guides & More",
+   "region": "NAV"
+  },
+  {
+   "href": "https://knowledge.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-knowledge",
+   "text": "HubSpot Knowledge Base",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/templates?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-templates",
+   "text": "Website Templates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developers.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-devtools",
+   "text": "Developer Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/services/onboarding?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-onboarding",
+   "text": "Onboarding",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/services/premium-support?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-support",
+   "text": "Premium Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/solutions?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-resources-hirepartner",
+   "text": "Hire a Solutions Partner",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/our-story?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-about",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/careers?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-careers",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/contact?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-contact",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ir.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-investors",
+   "text": "Investor Relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/management?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-management",
+   "text": "Management Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/get-started?hubs_content=www.hubspot.com/resources&hubs_content-cta=homepage-nav",
+   "text": "Start free or get a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.hubspot.com/login?hubs_signup-url=www.hubspot.com%2Fresources&hubs_signup-cta=nav-utility-login&hubs_content=www.hubspot.com%2Fresources&hubs_content-cta=nav-utility-login&uuid=anon6341385ca91e402765bb00dbab65",
+   "text": "Log in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.jp/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-nav-mobile-list-item-link",
+   "text": "日本語",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.de/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-nav-mobile-list-item-link",
+   "text": "Deutsch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "English",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.es/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-nav-mobile-list-item-link",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://br.hubspot.com/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-nav-mobile-list-item-link",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.fr/resources?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-nav-mobile-list-item-link",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-support",
+   "text": "Customer Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://offers.hubspot.com/contact-sales?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=nav-utility-contactsales&hubs_content=www.hubspot.com/resources&hubs_content-cta=nav-utility-contactsales",
+   "text": "Contact Sales",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources#resource-library-page-headers",
+   "text": "Explore All Resources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-marketing?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=our-latest-report",
+   "text": "Our Latest Report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/resources/templates/aeo-dashboard?hubs_content=www.hubspot.com/resources&hubs_content-cta=resource-library-featured-resources-card-link",
+   "text": "Template\n\nGoogle Sheets\n\nMarketing,\nDashboards & Reports\nAEO Dashboard\n\nTrack your brand's monthly presence in ChatGPT, ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/state-of-marketing",
+   "text": "Guides\n\nMarketing\nThe 2026 State of Marketing Report\n\nDiscover the strategies shaping 2026 and how data-driven decisions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/resources/templates/marketing-dashboard?hubs_content=www.hubspot.com/resources&hubs_content-cta=resource-library-featured-resources-card-link",
+   "text": "Template\n\nMarketing,\nDashboards & Reports\nMarketing Dashboard Template\n\nTrack the success of your latest marketing campa",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/free-business-tools/hubspot-for-google-sheets",
+   "text": "Tool\n          \n          \n            Google Sheets\n          \n        \n        \n      \n      \n        \n          \n    ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/science-of-scaling-cold-calls?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Guides\n          \n          \n        \n        \n      \n      \n        \n          \n            Sales Strategy\n          \n ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/chatgpt-sales-email-system?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Kit\n          \n          \n        \n        \n      \n      \n        \n          \n            Sales Email\n          \n       ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-customer-review-analysis?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Guides\n          \n          \n        \n        \n      \n      \n        \n          \n            Customer Feedback,\n        ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/net-promoter-score-kit?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Template\n          \n          \n            Excel\n          \n        \n        \n      \n      \n        \n          \n        ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/customer-service-training-manual-template?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Template\n          \n          \n            PDF\n          \n        \n        \n      \n      \n        \n          \n          ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/mfm-chatgpt-executive-coach?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Guides\n          \n          \n        \n        \n      \n      \n        \n          \n            Personal Branding and Devel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/how-to-motivate-and-manage-millennials?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Guides\n          \n          \n        \n        \n      \n      \n        \n          \n            Sales Management\n          ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/workplace-communicator-database?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Guides\n          \n          \n        \n        \n      \n      \n        \n          \n            Sales Communication\n       ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-marketing?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Ebook\n          \n          \n            PDF\n          \n        \n        \n      \n      \n        \n          \n            M",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/aeo-grader",
+   "text": "Tool\n          \n          \n        \n        \n      \n      \n        \n          \n            Brand Marketing,\n          \n ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-agents-playbook?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+   "text": "Ebook\n          \n          \n        \n        \n      \n      \n        \n          \n            Marketing Automation\n       ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "Home",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-ad-workflows?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/eric-ryan-product-ideas?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/marketing-space-makers?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/mfm-ai-business-playbook?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/ai-content-marketers-jasper?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/next-super-material?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/science-of-scaling-five-sales-pivots?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/smart-prompt-workflow-system?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/5-ai-tools-to-make-your-first-million?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Free Download",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/loop-marketing-research?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/top-chatgpt-marketing-stack?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://offers.hubspot.com/partnership-that-built-doola?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+   "text": "Access for Free",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm?hubs_content=www.hubspot.com/resources&hubs_content-cta=-medium",
+   "text": "Get free CRM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hubspot.com/products?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-all",
+   "text": "All Products and Features\nAll Products and Features",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/aeo?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-aeo",
+   "text": "HubSpot AEO\nHubSpot AEO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales/schedule-meeting?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-meetings",
+   "text": "Free Meeting Scheduler App\nFree Meeting Scheduler App",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-agents",
+   "text": "Agent Hub\nAgent Hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales/email-tracking?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-emailtracking",
+   "text": "Email Tracking Software\nEmail Tracking Software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/cms/ai-content-writer?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-aicontent",
+   "text": "AI Content Writer\nAI Content Writer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/cms/ai-website-generator?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-aiwebsite",
+   "text": "AI Website Generator\nAI Website Generator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing/email?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-emailmarketing",
+   "text": "Email Marketing Software\nEmail Marketing Software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/lead-management?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-leads",
+   "text": "Lead Management Software\nLead Management Software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-aiprospecting",
+   "text": "AI Prospecting Agent\nAI Prospecting Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-website",
+   "text": "Free Website Builder\nFree Website Builder",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing/landing-pages?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-landingpages",
+   "text": "Free Landing Page Builder\nFree Landing Page Builder",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing/forms?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-forms",
+   "text": "Free Online Form Builder\nFree Online Form Builder",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/chatbot-builder?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-chatbots",
+   "text": "Free Chatbot Builder\nFree Chatbot Builder",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/crm/live-chat?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-livechat",
+   "text": "Free Live Chat Software\nFree Live Chat Software",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/marketing/analytics?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-analytics",
+   "text": "Marketing Analytics\nMarketing Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/artificial-intelligence/breeze-ai-assistant?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-breeze",
+   "text": "Breeze Assistant\nBreeze Assistant",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/products/cms/web-hosting?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-features-hosting",
+   "text": "Free Web Hosting\nFree Web Hosting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/free-business-tools?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-all",
+   "text": "See All Free Business Tools\nSee All Free Business Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/aeo-grader?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-aeo",
+   "text": "AEO Grader\nopens in a new tab\nAEO Grader",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/aeo-sensor?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-search",
+   "text": "AI Search Sensor\nopens in a new tab\nAI Search Sensor",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/make-my-persona?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-persona",
+   "text": "Make My Persona\nopens in a new tab\nMake My Persona",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/email-signature-generator?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-emailsig",
+   "text": "Email Signature Generator\nEmail Signature Generator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/resources/templates?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-biztemplates",
+   "text": "Free Business Templates\nFree Business Templates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/comparisons?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-comparisons",
+   "text": "Software Comparisons Library\nSoftware Comparisons Library",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ecosystem.hubspot.com/marketplace/website?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-tools-webtemplates",
+   "text": "Website Templates\nWebsite Templates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/claude?hubs_content=www.hubspot.com/resources&hubs_content-cta=connector-for-claude-connector-for-claude",
+   "text": "Connector for Claude\nConnector for Claude",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/our-story?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-about",
+   "text": "About Us\nAbout Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/careers?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-careers",
+   "text": "Careers\nCareers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/management?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-management",
+   "text": "Management Team\nManagement Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/board-of-directors?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-directors",
+   "text": "Board of Directors\nBoard of Directors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ir.hubspot.com/?_ga=2.262843276.12874469.1592422655-430007000.1592422655&hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-investors",
+   "text": "Investor Relations\nopens in a new tab\nInvestor Relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-blog",
+   "text": "Blog\nopens in a new tab\nBlog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/sustainability?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-company-sustainability",
+   "text": "Sustainability\nSustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/ai-instructions",
+   "text": "AI Instructions\nAI Instructions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/company/contact",
+   "text": "Contact Us\nContact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-customers-support",
+   "text": "Customer Support\nopens in a new tab\nCustomer Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/hubspot-user-groups?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-customers-hugs",
+   "text": "Join a Local User Group\nJoin a Local User Group",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-partners-all",
+   "text": "All Partner Programs\nAll Partner Programs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/solutions?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-partners-solutions",
+   "text": "Solutions Partner Program\nSolutions Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/app?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-partners-technology",
+   "text": "Technology Partner Program\nTechnology Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/startups/partners?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-partners-startups",
+   "text": "HubSpot for Startups\nopens in a new tab\nHubSpot for Startups",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hubspot.com/partners/affiliates?hubs_content=www.hubspot.com/resources&hubs_content-cta=footer-partners-affiliate",
+   "text": "Affiliate Program\nAffiliate Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_facebook",
+   "text": "Facebook",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/hubspot/?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_instagram",
+   "text": "Instagram",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://youtube.com/user/HubSpot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_youtube",
+   "text": "Youtube",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/HubSpot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_twitter",
+   "text": "Twitter",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_linkedin",
+   "text": "Linkedin",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.reddit.com/r/hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_reddit",
+   "text": "Reddit",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.tiktok.com/@hubspot?hubs_content=www.hubspot.com/resources&hubs_content-cta=hstc_medium",
+   "text": "Tiktok",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://apps.apple.com/us/app/hubspot/id1107711722?hubs_content=www.hubspot.com/resources&hubs_content-cta=global-footer__app",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://play.google.com/store/apps/details?id=com.hubspot.android&hl=en_US&hubs_content=www.hubspot.com/resources&hubs_content-cta=global-footer__app",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hubspot.com/?hubs_content=www.hubspot.com/resources&hubs_content-cta=HubSpot",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://legal.hubspot.com/legal-center?hubs_content=www.hubspot.com/resources&hubs_content-cta=legal-center",
+   "text": "Legal Center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://legal.hubspot.com/privacy-policy?hubs_content=www.hubspot.com/resources&hubs_content-cta=privacy-policy",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://legal.hubspot.com/security?hubs_content=www.hubspot.com/resources&hubs_content-cta=security",
+   "text": "Security",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://legal.hubspot.com/website-accessibility?hubs_content=www.hubspot.com/resources&hubs_content-cta=website-accessibility",
+   "text": "Website Accessibility",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hubspot.com/resources",
+   "text": "Manage Cookies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hubspot.com/hubspot-privacy-preferences",
+   "text": "Your Privacy Choices",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://legal.hubspot.com/cookie-policy?_ga=2.50914222.648097249.1661181827-2085802971.1659562077",
+   "text": "Cookie Policy",
+   "region": "BODY"
+  }
+ ]
+}

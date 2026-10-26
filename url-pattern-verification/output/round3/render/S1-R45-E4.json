@@ -1,0 +1,1107 @@
+{
+ "url": "https://yougov.com/business/sectors/consumer",
+ "observed_at": "2026-10-26T11:10:01.020Z",
+ "method": "playwright-chromium",
+ "final_url": "https://yougov.com/business/sectors/consumer",
+ "status": 200,
+ "error": null,
+ "title": "Retail & FMCG Surveys, Market Research & Brand Tracking",
+ "h1": "Retail & FMCG",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 199,
+   "new_in_prefix": 199,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 199,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/d6184387-4576-4218-9f38-639c735ffe2e/d6184387-4576-4218-9f38-639c735ffe2e.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=553266&u=https%3A%2F%2Fyougov.com%2Fbusiness%2Fsectors%2Fconsumer&vn=2.2&ph=1&st=1717.2999999998137&x=true"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/d6184387-4576-4218-9f38-639c735ffe2e/01a13564-ae63-7810-ace8-8c70fdd4986a/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/otCenterRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202606.2.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/browser/connect/2/28418fab15?a=553988785&v=1.324.0&s=d44a6478f3e1b576"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdn.dreamdata.cloud/api/v1/p"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/rum/2/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8082&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a&af=err,spa,xhr,stn,ins&ap=0.5304&be=1139&fe=5425&dc=5247&fp=1732&fcp=3060&perf=%7B%22timing%22:%7B%22of%22:1793013001024,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:2,%22s%22:50,%22ce%22:"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8089&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/jserrors/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8091&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8093&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/events/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8095&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.nr-data.net/ins/1/28418fab15?a=553988785&v=1.324.0&to=YVFaZEdTWkZRBhBYC1gbdl9HX1VZWR8BVTFEXRca&rst=8097&s=d44a6478f3e1b576&ref=https://yougov.com/business/sectors/consumer&ptid=05a69f198a81fc5a"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-test.yougov.com/concierge-api/status"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.yougov.com/platform/attributor/v1/attributions/d31-40--5-2-84----99-e2-8f-cbd38-f-----caf-c0ff89c25------------"
+  },
+  {
+   "method": "POST",
+   "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/d2d3316b729e/0.944950048185424:1793009427:sw079nI-JaXI-_CVAGnChov0V9vvOzmwcO1UQ03705w/a509034c3b4996cf"
+  },
+  {
+   "method": "GET",
+   "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793016609~acl=%2F7c85d5db-1e52-4793-af27-ff7a6f134078%2Fpsid%3Deaad0f1e30a9b4635a5cc47c1341b3efbaf89ee01793013009%2F%2A~hmac=e45b5920271b26ee6541ad421bdb17ba6f8d018ec1c6a9034dc63f1df94c8af1/7c85d5db-1e52-4793-af27-ff7a6f134078/psid=eaad0f1e30a9b4635a5cc47c1341b3efbaf89ee01793013009/v2/playlist/av/primary/sub/272449982-en-x-autogen/prot/cXNyPTE/playlist.m3u"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://d18w79e3uiqk2z.cloudfront.net/ed751885/#main",
+   "text": "Skip to main content",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-gb/business/sectors/consumer",
+   "text": "United Kingdom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/de-de/geschaeft/sektoren/verbraucher",
+   "text": "Deutschland",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/entreprise/secteurs/retail",
+   "text": "France",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/es-es/business/sectores/consumidor",
+   "text": "España",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/it-it/business/settori/vendita-al-dettaglio",
+   "text": "Italia",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "International",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-gb/business/sectors/consumer",
+   "text": "United Kingdom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/de-de/geschaeft/sektoren/verbraucher",
+   "text": "Deutschland",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/entreprise/secteurs/retail",
+   "text": "France",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/es-es/business/sectores/consumidor",
+   "text": "España",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/it-it/business/settori/vendita-al-dettaglio",
+   "text": "Italia",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "International",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "Switch to United States",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "Contact sales",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/reports/most-recommended-brands",
+   "text": "YouGov’s Most Recommended Brands 2026 across the globe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/consumer",
+   "text": "Consumer & retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/economy",
+   "text": "Economy & business",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/entertainment",
+   "text": "Entertainment, arts, & media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/health",
+   "text": "Health & pharma",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/politics",
+   "text": "Politics & current affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/society",
+   "text": "Society & lifestyle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/sports",
+   "text": "Sports & esports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/technology",
+   "text": "Technology & digital",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content/travel",
+   "text": "Travel & transport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/articles",
+   "text": "Articles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/content",
+   "text": "All publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/audience-activation",
+   "text": "Audience activation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles/profiles-api",
+   "text": "Data integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/market-intelligence",
+   "text": "Market & category intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/channel-strategy",
+   "text": "Media, comms & channel strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/persona-creation",
+   "text": "Persona creation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/audience-intelligence",
+   "text": "Understanding an audience",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/brand-tracking",
+   "text": "Brand health tracking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/campaign-measurement",
+   "text": "Campaign measurement & attribution",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/competitor-monitoring",
+   "text": "Competitor tracking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/public-relations",
+   "text": "PR & crisis management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/sports-sponsorship",
+   "text": "Sponsorship valuation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/ad-testing",
+   "text": "Creative & ad testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/trend-monitoring",
+   "text": "Emerging trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/product-development",
+   "text": "Product development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/qualitative-research",
+   "text": "Qualitative research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/research-surveys",
+   "text": "Quantitative research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/category-management",
+   "text": "Category management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/customer-satisfaction",
+   "text": "Customer satisfaction",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/purchase-path",
+   "text": "Path to purchase",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/price-promotion-strategy",
+   "text": "Price & promotion strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/shopper",
+   "text": "Shopper insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles",
+   "text": "ProfilesDiscover our flagship audience tool: deep audience understanding",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/profiles/profiles-api",
+   "text": "Profiles API & MCPIngest YouGov Profiles data directly into your systems, AI models, agentic workflows,",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/categoryview",
+   "text": "CategoryViewBrand, industry, and audience tracking.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex",
+   "text": "BrandIndexDiscover our flagship tool: daily brand and competitor tracking across 16 metrics.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex/brandindex-api",
+   "text": "BrandIndex API & MCPInfuse BrandIndex data directly into your in-house systems, AI models, and solutions.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-trackers",
+   "text": "Custom TrackingDynamic, integrated performance monitoring for your brand.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/parallax",
+   "text": "New: YouGov ParallaxAI twins answer all your questions instantly. Live panelists validate in 30 minutes.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/self-serve-surveys",
+   "text": "Surveys: Self-serve24/7 survey-building research platform with exceptional speed.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/research-surveys",
+   "text": "SurveysRun research to nat rep or targeted audiences with research-supported options.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-research",
+   "text": "Custom quantitativeBespoke market research with end-to-end expert support.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/brandindex/voices",
+   "text": "YouGov Voices AI InterviewerAI-powered interviewing tool that enables brands to hear directly from real people.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/qualitative-research/video-voices-uk",
+   "text": "Video VoicesAdd qualitative video answers to your next YouGov survey.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/products/custom-research",
+   "text": "Custom qualitativeBespoke market research with end-to-end expert support.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/academia",
+   "text": "Academia & non-profits",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/agencies",
+   "text": "Agencies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/financial-services",
+   "text": "Financial services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/politics",
+   "text": "Government & politics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/health-pharmaceutical",
+   "text": "Health & pharma",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/media",
+   "text": "Media & entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "Retail & FMCG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/sports",
+   "text": "Sport & esports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/technology",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/travel",
+   "text": "Travel, transport & auto",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/data",
+   "text": "Data accuracy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/panel",
+   "text": "Panel quality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/ai-innovation",
+   "text": "Technology & innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/expertise",
+   "text": "YouGov Thinking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About YouGov",
+   "region": "NAV"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Our methodology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our panel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Work with us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/case-studies",
+   "text": "Client case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/events",
+   "text": "Industry events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/guides",
+   "text": "How-to guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/reports",
+   "text": "Industry reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panel member support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/search",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://account.yougov.com/region?sourceid=3631638",
+   "text": "Log in",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://platform.yougov.com/",
+   "text": "Log in",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://account.yougov.com/region?sourceid=3631638",
+   "text": "Register",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://platform.yougov.com/register/home",
+   "text": "Register",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://d18w79e3uiqk2z.cloudfront.net/ed751885/#main",
+   "text": "Skip to main content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-gb/business/sectors/consumer",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "United States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/de-de/geschaeft/sektoren/verbraucher",
+   "text": "Deutschland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/entreprise/secteurs/retail",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/es-es/business/sectores/consumidor",
+   "text": "España",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/it-it/business/settori/vendita-al-dettaglio",
+   "text": "Italia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "International",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-gb/business/sectors/consumer",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "United States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/de-de/geschaeft/sektoren/verbraucher",
+   "text": "Deutschland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/fr-fr/entreprise/secteurs/retail",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/es-es/business/sectores/consumidor",
+   "text": "España",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/it-it/business/settori/vendita-al-dettaglio",
+   "text": "Italia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer",
+   "text": "International",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/sectors/consumer",
+   "text": "Switch to United StatesSwitch to US",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "Contact sales",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/search",
+   "text": "Search",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "Get in touch",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://yougov.com/reports/most-recommended-brands",
+   "text": "YouGov's Most Recommended Brands 2026\nExplore YouGov’s Most Recommended Brands 2026 reports to discover the brands custo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/shopper-intelligence",
+   "text": "Unpack shopper behavior\nKnow who buys what, where, how much, how often, and why with shopper intelligence.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/en-us/business/solutions/brand-tracking",
+   "text": "Monitor your brand across metrics that matter\nDeep brand health tracking in your sector to improve awareness, considerat",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/audience-intelligence",
+   "text": "Identify, size & profile your ideal customer\nAudience analysis on segments that will be most receptive to your products ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/research-surveys",
+   "text": "Run market research to your audience\nFrom quick surveys to custom research – work with our experts for actionable intell",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/solutions/market-intelligence",
+   "text": "Market and category intelligence\nUnderstand shifts in consumer behavior, track market trends, and uncover key segments t",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "Not sure what solution you need? Let's chat.\nGet in touch",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/solutions",
+   "text": "View all solutions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/51464-unilever-innovation-centric-insights-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://business.yougov.com/content/50038-loacker-custom-tracker-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/46827-platanomelon-yougov-profiles-achieve-exponential-growth",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/35211-sarsons-direct-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies/49977-cps-gfk-harvest-house-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://business.yougov.com/content/50355-fmcg-audience-insights-case-study",
+   "text": "View case study",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/case-studies",
+   "text": "View all case studies",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=newsletter",
+   "text": "Subscribe to our FMCG and Retail newsletter",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Thailand's most considered personal care brands 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55748-everyday-habits-singapores-most-considered-beauty-personal-care-brands-2026",
+   "text": "Everyday habits: Singapore's most considered beauty & personal care brands 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55746-everyday-habits-indonesias-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Indonesia's most considered personal care brands 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55745-everyday-habits-australias-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Australia's most considered personal care brands 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55747-everyday-habits-hongkongs-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Hong Kong's most considered personal care brands 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54683-sweden-biggest-brand-movers-2026",
+   "text": "Sweden Biggest Brand Movers 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54682-finland-biggest-brand-movers-2026",
+   "text": "Finland Biggest Brand Movers 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54681-norway-biggest-brand-movers-2026",
+   "text": "Norway Biggest Brand Movers 2026\nArticle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Thailand's most considered personal care brands 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55748-everyday-habits-singapores-most-considered-beauty-personal-care-brands-2026",
+   "text": "Everyday habits: Singapore's most considered beauty & personal care brands 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55746-everyday-habits-indonesias-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Indonesia's most considered personal care brands 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55745-everyday-habits-australias-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Australia's most considered personal care brands 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/55747-everyday-habits-hongkongs-most-considered-personal-care-brands-2026",
+   "text": "Everyday habits: Hong Kong's most considered personal care brands 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54683-sweden-biggest-brand-movers-2026",
+   "text": "Sweden Biggest Brand Movers 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54682-finland-biggest-brand-movers-2026",
+   "text": "Finland Biggest Brand Movers 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/articles/54681-norway-biggest-brand-movers-2026",
+   "text": "Norway Biggest Brand Movers 2026Article",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/content/consumer",
+   "text": "View all retail and consumer content",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/sectors/consumer?marketo=contact",
+   "text": "No matter your research needs, YouGov can help\nOur connected data ecosystem was built to bring answers to your burning q",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/panel",
+   "text": "Real people",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/data",
+   "text": "Accurate data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/ai-innovation",
+   "text": "Pioneering tech & AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://yougov.com/business/expertise",
+   "text": "Award-winning experts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://bsky.app/profile/today.yougov.com",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://facebook.com/YouGovUS",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/YouGov",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/yougov",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/en/rss",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Methodology",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/team",
+   "text": "Our team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/business/products",
+   "text": "All products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/content/2010-03",
+   "text": "Publication archive",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://account.yougov.com/region",
+   "text": "Join the Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/website",
+   "text": "Website terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "Privacy notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/public-data-license",
+   "text": "Public data licence",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/modern-slavery-act-statement",
+   "text": "Modern slavery act",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/methodology",
+   "text": "Methodology",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/panel",
+   "text": "Our Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/team",
+   "text": "Our team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/business/products",
+   "text": "All products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/content/2010-03",
+   "text": "Publication archive",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://account.yougov.com/region",
+   "text": "Join the Panel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.zendesk.com/hc/en-001/requests/new",
+   "text": "Panelist support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jobs.yougov.com/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/",
+   "text": "Investor relations",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/website",
+   "text": "Website terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "Privacy notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/public-data-license",
+   "text": "Public data licence",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://corporate.yougov.com/modern-slavery-act-statement",
+   "text": "Modern slavery act",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://yougov.com/about/terms/privacy",
+   "text": "cookies notice.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://platform.yougov.com/legal/privacy-notice",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://platform.yougov.com/legal/privacy-notice",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

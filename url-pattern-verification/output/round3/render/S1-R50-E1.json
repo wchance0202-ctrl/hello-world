@@ -1,0 +1,1470 @@
+{
+ "url": "https://www.forrester.com/b2b-marketing/",
+ "observed_at": "2026-10-26T10:58:57.869Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.forrester.com/b2b-marketing/",
+ "status": 200,
+ "error": null,
+ "title": "B2B Marketing Impact And Strategic Value",
+ "h1": "Forrester for B2B Marketing Executives",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 254,
+   "new_in_prefix": 254,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 254,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/9aaa5c19-25f5-4113-a95b-17bcd8c33295.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/9aaa5c19-25f5-4113-a95b-17bcd8c33295/018deae7-fe7b-74b6-9723-ba07c7418333/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=1242455341.1793012342&dt=B2B%20Marketing%20Impact%20And%20Strategic%20Value&en=page_view&dl=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&scrsrc=www.googletagmanager.com&rnd=1336305971.1793012342&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dNGJiYT.dYWJhMj&gtm=45He6al1v854421006za200zd854421006xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1242455341.1793012342&gtm=45He6al1v854421006za200zd854421006xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-PMXYWTHPVN&gtm=45je6al1v876606566z8854421006za20gzb854421006zd854421006xf1&_p=1793012339393&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dNGJiYT.dYWJhMj&_eu=EAAAAGAC&cid=687019600.1793012343&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1050577862/?random=1793012343964&cv=11&fst=1793012343964&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9168637344za20ozb854421006zd854421006xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1050577862/?random=1793012344009&cv=11&fst=1793012344009&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9168637344z8854421006za20gzb854421006zd854421006xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&rcb="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=1242455341.1793012342&dt=B2B%20Marketing%20Impact%20And%20Strategic%20Value&tid=AW-1050577862&en=page_view&dl=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&scrsrc=www.googletagmanager.com&rnd=1336305971.1793012342&navt=n&npa=0&did=dNGJiYT%2CdYWJhMj&gdid=dNGJiYT.dYWJhMj&gtm=45be6al1v9168637344za20ozb854421006zd854421006xecxf1&gcd=13l3l"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&ae=g&auid=1242455341.1793012342&dt=B2B%20Marketing%20Impact%20And%20Strategic%20Value&tid=AW-1050577862&dl=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&scrsrc=www.googletagmanager.com&rnd=1336305971.1793012342&navt=n&npa=0&did=dNGJiYT%2CdYWJhMj&gdid=dNGJiYT.dYWJhMj&_tu=CA&gtm=45be6al1v9168637344z8854421006za20gzb854421006zd854421006xeaxf1"
+  },
+  {
+   "method": "GET",
+   "url": "https://pixel-config.reddit.com/pixels/a2_hh0g9sfjwqfw/config"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hh0g9sfjwqfw&event=PageVisit"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_iexldb9l1ypa&event=PageVisit"
+  },
+  {
+   "method": "HEAD",
+   "url": "https://ingest.quantummetric.com/horizon/d"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?wu=13650834-cdb4-471a-a329-cf2a8c6424b2&uuid=f61d7b2b-a9ed-4e57-8a6a-319a9df68f35"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17413863709/?random=1793012346032&cv=11&fst=1793012346032&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z8854421006za20gzb854421006zd854421006xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&rcb=17&frm=0&t"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&auid=1242455341.1793012342&dt=B2B%20Marketing%20Impact%20And%20Strategic%20Value&tid=AW-17413863709&dl=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&scrsrc=www.googletagmanager.com&rnd=1336305971.1793012342&navt=n&npa=0&did=dNGJiYT%2CdYWJhMj&gdid=dNGJiYT.dYWJhMj&_tu=CA&gtm=45be6al1z8854421006za20gzb854421006zd854421006xeaxf1&gcd=13l3"
+  },
+  {
+   "method": "GET",
+   "url": "https://people.api.zetaglobal.net/identify/resolve?data=eyJjb29raWUiOnsiYnNpbiI6IiJ9LCJxdWVyeXN0cmluZyI6e30sImV4dGVybmFsX2lkcyI6eyJ6eW5jIjoiZDIzNTU4MTktZjkwMC00MDgwLWJhYzQtMTE2YzFiNmJlYTI5OjE3OTMwMTIzNDMuMDIzNSJ9fQ%3D%3D&site_id=forrester-research-ltd"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/c2pm6UmLFpqKykqE/visitor_events?wu=13650834-cdb4-471a-a329-cf2a8c6424b2&uuid=f61d7b2b-a9ed-4e57-8a6a-319a9df68f35"
+  },
+  {
+   "method": "POST",
+   "url": "https://events.api.boomtrain.com/event/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-PMXYWTHPVN&gtm=45je6al1v876606566z8854421006za20gzb854421006zd854421006xf1&_p=1793012339393&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dNGJiYT.dYWJhMj&_eu=EAAAAGQC&cid=687019600.1793012343&frm=0&ir=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&u"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.forrester.com/rb_bf34414eoq?type=js3&sn=v_4_srv_1_sn_872408AAC9811FBBAC52E7A5CF2A93C1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1&svrid=1&flavor=post&vi=UHRKERDGAOPNUDUFUACNNHMKWVCPFFKO-0&modifiedSince=1792046041675&bp=3&app=ea7c4b59f27d43eb&crc=863204195&en=st035p7x&end=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://ff.d41.co/v1/init?req=vff2384"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012348663&P=0&N=0&S=0&b=1337&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012348900&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&U=54bce2d85c12670d408ad0e2fe3a1b96&N=0&Q=2&S=0&b=662&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012348903&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&U=54bce2d85c12670d408ad0e2fe3a1b96&Q=1&Y=1&X=688749ade6384016b2b0acd4394652dd&S=0&b=302521&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012348915&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&P=1&N=1&S=0&b=965&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012349225&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&N=1&Q=2&S=662&b=623&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/resource-loader/forrester/hash-check"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/resource-loader/forrester/hashes"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.forrester.com/rb_bf34414eoq?type=js3&sn=v_4_srv_1_sn_872408AAC9811FBBAC52E7A5CF2A93C1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1&svrid=1&flavor=post&vi=UHRKERDGAOPNUDUFUACNNHMKWVCPFFKO-0&modifiedSince=1792046041675&bp=3&app=ea7c4b59f27d43eb&crc=1007057171&en=st035p7x&end=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012352164&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&P=2&N=2&S=965&b=5989&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012352164&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&N=2&Q=2&S=1285&b=273&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.forrester.com/rb_bf34414eoq?type=js3&sn=v_4_srv_1_sn_872408AAC9811FBBAC52E7A5CF2A93C1_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1&svrid=1&flavor=post&vi=UHRKERDGAOPNUDUFUACNNHMKWVCPFFKO-0&modifiedSince=1792046041675&bp=3&app=ea7c4b59f27d43eb&crc=3261634408&en=st035p7x&end=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012355673&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&P=3&N=3&S=6954&b=9087&z=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ingest.quantummetric.com/horizon/forrester?T=B&u=https%3A%2F%2Fwww.forrester.com%2Fb2b-marketing%2F&t=1793012348655&v=1793012355673&H=7c32df6af53fb9d04ff5c350&s=d9b94062c3954e01990f27f50493c601&N=3&Q=2&S=1558&b=712&z=1"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#main",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.forrester.com/bold/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Who We Serve",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/data-ai-leaders/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/security-risk/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/architecture-delivery/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/demand-abm/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/product-management/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/revenue/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2c-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/customer-experience/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/digital-business/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/financial-services/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/government/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/healthcare/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/high-tech/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/retail/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "What We Offer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-decisions/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/wave/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-ai/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-market-insights/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/consulting/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/ai-access/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/cx/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/technology/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/sponsorship/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/forrester-awards/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/analyst-relations-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/certification/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/reprints/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "How We Think",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/ai/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/podcasts",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/predictions/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/aegis-framework/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/b2b-gtm-strategy/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/cross-functional-alignment/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/customer-obsession/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/emerging-technology/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/generative-ai/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/risk-management/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/technology-strategy/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/zero-trust/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Who We Are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/executive-leadership/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/our-board/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/press-newsroom/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/careers/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://investor.forrester.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/cx/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/technology/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/sponsorship/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/forrester-awards/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/login",
+   "text": "Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/become-a-client",
+   "text": "Request A Demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/login",
+   "text": "Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Who We Serve",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "TECHNOLOGY",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/data-ai-leaders/",
+   "text": "Data, AI & Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/security-risk/",
+   "text": "Security & Risk",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/architecture-delivery/",
+   "text": "Technology Architecture And Delivery",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "B2B",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/",
+   "text": "B2B Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/demand-abm/",
+   "text": "Demand & ABM",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/product-management/",
+   "text": "Portfolio & Product",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/revenue/",
+   "text": "Revenue Operations & Enablement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "B2C",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2c-marketing/",
+   "text": "B2C Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/customer-experience/",
+   "text": "Customer Experience",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/digital-business/",
+   "text": "Digital Business",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "INDUSTRIES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/government/",
+   "text": "Government",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/healthcare/",
+   "text": "Healthcare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/high-tech/",
+   "text": "High Tech",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/retail/",
+   "text": "Retail & CPG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "What We Offer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-decisions/",
+   "text": "Forrester Decisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/wave/",
+   "text": "The Forrester Wave™",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-ai/",
+   "text": "Forrester AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-market-insights/",
+   "text": "Forrester Market Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/consulting/",
+   "text": "Consulting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/create-content-that-fuels-demand/",
+   "text": "Demand Generation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/ai-access/",
+   "text": "AI Access",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/",
+   "text": "Signature Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/marketing/",
+   "text": "B2B Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/cx/",
+   "text": "CX Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/technology/",
+   "text": "Technology Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/sponsorship/",
+   "text": "Event Sponsorship",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/forrester-awards/",
+   "text": "Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/analyst-relations-council/",
+   "text": "Analyst Relations Council",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/certification/",
+   "text": "Certification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/research/reprints/",
+   "text": "Reprints",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "How We Think",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "RESOURCES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/ai/",
+   "text": "AI Into Action",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/",
+   "text": "Blog Posts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/",
+   "text": "Client Success Stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/podcasts",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/predictions/",
+   "text": "Predictions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Blank",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "FEATURED TOPICS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/aegis-framework/",
+   "text": "Agentic AI Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/b2b-gtm-strategy/",
+   "text": "B2B GTM Strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+   "text": "B2B Marketing Strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2c-marketing/b2c-marketing-transformation/",
+   "text": "B2C Marketing Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/cross-functional-alignment/",
+   "text": "Cross-Functional Alignment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/bold/customer-obsession/",
+   "text": "Customer Obsession",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/emerging-technology/",
+   "text": "Emerging Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/generative-ai/",
+   "text": "Generative AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/risk-management/",
+   "text": "Risk Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/technology/technology-strategy/",
+   "text": "Technology Strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/zero-trust/",
+   "text": "Zero Trust Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Who We Are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/executive-leadership/",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/our-board/",
+   "text": "Board",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/press-newsroom/",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://investor.forrester.com/",
+   "text": "Investor Relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/marketing/",
+   "text": "B2B Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/cx/",
+   "text": "CX Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/technology/",
+   "text": "Technology Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/events/sponsorship/",
+   "text": "Event Sponsorship",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/forrester-awards/",
+   "text": "Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/become-a-client",
+   "text": "Request A Demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.forrester.com/",
+   "text": "Home",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#",
+   "text": "Who We Serve",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#overview",
+   "text": "Overview",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#solutions",
+   "text": "Solutions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#client-stories",
+   "text": "Client Stories",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#events",
+   "text": "Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#faq",
+   "text": "FAQ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#insights",
+   "text": "Insights",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/#capabilities",
+   "text": "Learn More About The Forrester B2B Marketing Capabilities Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/#competencies",
+   "text": "Learn More About The Forrester B2B Marketing Competency Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#collapse5017_1",
+   "text": "How can I prove marketing’s impact on revenue and growth?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#collapse5017_2",
+   "text": "How do I identify the capabilities my team needs?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/#collapse5017_3",
+   "text": "How can I align teams and improve performance during transformation?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/stand-out-in-ai-search-guide/",
+   "text": "GET THE AEO GUIDE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/bold/customer-obsession/",
+   "text": "Customer obsession research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/predictions/",
+   "text": "Trends and predictions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/forecasts/",
+   "text": "Market forecasts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/category/planning-guides/",
+   "text": "Planning guides",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/wave/",
+   "text": "Forrester Wave™ evaluations",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/wave/",
+   "text": "Forrester Wave™ evaluations for your function",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/certification/b2b-marketing/",
+   "text": "Certification courses",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/events/marketing/",
+   "text": "Event attendance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-ai/",
+   "text": "REQUEST A DEMO",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-ai/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/research/forrester-decisions/",
+   "text": "LEARN MORE ABOUT FORRESTER DECISIONS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups/",
+   "text": "Palo Alto Networks Boosts Win Rates 17% By Ditching MQLs For Buying Groups",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups/",
+   "text": "LEARN MORE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+   "text": "How Palo Alto Networks Drives Revenue With Buying Groups",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+   "text": "LEARN MORE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/panasonic-connect-data-driven-marketing-culture/",
+   "text": "How Panasonic Connect Fuels A Data-Driven Marketing Culture",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/panasonic-connect-data-driven-marketing-culture/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/panasonic-connect-data-driven-marketing-culture/",
+   "text": "LEARN MORE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/wolters-kluwer-healthcare-marketing/",
+   "text": "How Wolters Kluwer Health Revamped Its Marketing For A Changing Landscape",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/wolters-kluwer-healthcare-marketing/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/client-stories/wolters-kluwer-healthcare-marketing/",
+   "text": "LEARN MORE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/event/b2b-summit-north-america/",
+   "text": "B2B Summit North America\n\nPhoenix\n\nMay 2-4\n2027",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/event/singapore-forum/",
+   "text": "Forrester Forum Singapore\n\nSingapore\n\nAugust 19\n2027",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/event/b2b-emea/",
+   "text": "B2B Summit EMEA\n\nLondon\n\nSeptember 30-October 1\n2027",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/buyers-journey-answer-engine-optimization",
+   "text": "Beyond The Click: Winning B2B Buyers In The Age Of AI Search And AEO",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/buyers-journey-answer-engine-optimization",
+   "text": "Watch Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/b2b-marketing-retool-budgeting-for-2026-success/",
+   "text": "Retool Your B2B Marketing Budgeting For 2026 Success",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/b2b-marketing-retool-budgeting-for-2026-success/",
+   "text": "Watch Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/2026-b2b-leaders-predictions/",
+   "text": "Predictions 2026 Webinar: B2B Marketing, Sales, & Product",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/webinars/2026-b2b-leaders-predictions/",
+   "text": "Watch Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/product-management/",
+   "text": "Learn More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/revenue/",
+   "text": "Learn More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2c-marketing/",
+   "text": "Learn More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/simon_daniels/",
+   "text": "Simon Daniels\n\nPrincipal Analyst",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/vicki_brown/",
+   "text": "Vicki Brown\n\nVP, Principal Analyst",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/sean_mccormick/",
+   "text": "Sean McCormick\n\nPrincipal Consultant",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/kathy_freeman_contreras/",
+   "text": "Kathy Contreras\n\nVP, Principal Analyst",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/when-case-studies-are-too-much-of-a-good-thing/",
+   "text": "When Case Studies Are Too Much Of A Good Thing",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/amy_bills/",
+   "text": "Amy Bills",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/when-case-studies-are-too-much-of-a-good-thing/",
+   "text": "Read More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/predictions-2027-the-pursuit-and-peril-of-control/",
+   "text": "Predictions 2027: The Pursuit And Peril Of Control",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/sharyn_leaver/",
+   "text": "Sharyn Leaver",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/predictions-2027-the-pursuit-and-peril-of-control/",
+   "text": "Read More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/b2b-marketing/stand-out-in-ai-search-guide/",
+   "text": "GET THE AEO GUIDE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/",
+   "text": "Predictions 2027: B2B Go-To-Market Teams Must Adapt As AI Shifts Control To Buyers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/karen_tran/",
+   "text": "Karen Tran",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/",
+   "text": "Read More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/ten-rules-for-building-a-sustainable-b2b-webinar-program/",
+   "text": "Ten Rules For Building A Sustainable B2B Webinar Program",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/author/conrad_mills/",
+   "text": "Conrad Mills",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/ten-rules-for-building-a-sustainable-b2b-webinar-program/",
+   "text": "Read More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/blogs/category/b2b-marketing/",
+   "text": "DISCOVER MORE INSIGHTS FOR B2B MARKETING EXECUTIVES",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forrester.com/become-a-client/",
+   "text": "BECOME A CLIENT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://chat.openai.com/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools.",
+   "text": "ChatGPT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.perplexity.ai/?q=As+a+business+leader%2C+explain+what+it%E2%80%99s+like+to+work+with+Forrester.+%0D%0ADescribe+the+experience+of+using+Forrester+research+and+data%2C+working+with+analysts%2C+and+using+Forrester+AI+to+support+important+decisions+%E2%80%94+and+how+this+differs+from+public+AI+tools.",
+   "text": "Perplexity",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/help/analyst-briefing/",
+   "text": "Analyst Briefings",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/press-newsroom/",
+   "text": "Newsroom",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/webinars",
+   "text": "Complimentary Webinars",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/contact-us/",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://investor.forrester.com/",
+   "text": "Investor Information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/careers/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/policies/",
+   "text": "Policies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/podcasts",
+   "text": "Podcasts",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/about-us/fraud-alerts/",
+   "text": "Fraud Alerts",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/brand/platform/",
+   "text": "Brand",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/policies#statement",
+   "text": "UK Slavery Statement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/become-a-client",
+   "text": "Request A Demo",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/policies/terms-of-use/",
+   "text": "Terms of use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/policies/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/forrester-research",
+   "text": "LinkedIn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/ForresterResearch",
+   "text": "YouTube",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.forrester.com/policies/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/products/cookie-consent/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

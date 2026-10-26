@@ -1,0 +1,2257 @@
+{
+ "url": "https://contentmarketinginstitute.com/latest-news",
+ "observed_at": "2026-10-26T11:03:37.293Z",
+ "method": "playwright-chromium",
+ "final_url": "https://contentmarketinginstitute.com/latest-news",
+ "status": 200,
+ "error": null,
+ "title": "news",
+ "h1": "News",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 405,
+   "new_in_prefix": 405,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 405,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "HEAD",
+   "url": "https://www3.doubleclick.net/"
+  },
+  {
+   "method": "HEAD",
+   "url": "https://marketingplatform.google.com/about/enterprise/"
+  },
+  {
+   "method": "GET",
+   "url": "https://transcend-cdn.com/cm/ef49a3f1-d8c1-47d6-88fc-50e41130631f/translations/en.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxVGLDsTe8fjn_REsSKB0zkieC8qetkACBChBnOezIWUEotqNBmSHUkpTF1JHFROAHMj32Jj-i75ytECiX7QRTaHdZ1EugC34Z6dBvVgU8rlJho5VnCUwr5BjEpRt7t4kSJpIvFGsA=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxWLR1ZWU9tm_8J_-KLbngOptmLaZsgG7T9JnfeY0IF5bWXlZc0sAIYElQjomd2nc-FCvoHs-Iq776l33zuwZRtGMUnErIgXdWBa4gEL8RTXLructdOINxv6cqIuFDanzyK3XOgpyg=="
+  },
+  {
+   "method": "POST",
+   "url": "https://fundingchoicesmessages.google.com/el/AGSKWxV29ib1AvvdMKkc02jCXQiGcjLVQz_hA0v_9K6dvwplnz5kX7X34DQ-f6VTyOOBTqORge7dZflA1u9Ktcimm9qLUHyqpm_jkV7n5yYm8t7V44X2PQ_r42e21ss9CrxY7XUD3eF8eg=="
+  },
+  {
+   "method": "GET",
+   "url": "https://contentmarketinginstitute.com/api/isRobotIP"
+  },
+  {
+   "method": "POST",
+   "url": "https://contentmarketinginstitute.com/api/navigation-recent-content"
+  },
+  {
+   "method": "GET",
+   "url": "https://contentmarketinginstitute.com/api/dynamic-module?contentTypeUid=module_content_cards&uid=bltc4385b89d1e870fc&location=sidebar"
+  },
+  {
+   "method": "GET",
+   "url": "https://contentmarketinginstitute.com/api/current-weather?zipCode=50036"
+  },
+  {
+   "method": "GET",
+   "url": "https://contentmarketinginstitute.com/__manifest?paths=%2F%2C%2Fabout-the-content-marketing-institute%2C%2Fai-content-creation-tools%2C%2Fai-content-creation-tools%2Fethical-ai-content-creation%2C%2Fai-in-marketing%2C%2Fai-in-marketing%2Fai-answer-engines-brand%2C%2Fai-in-marketing%2Fai-disclosure-trust-content%2C%2Fai-in-marketing%2Fmarketing-ai-efficiency%2C%2Fai-in-marketing%2Fmarketing-teams-a"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=207467319.1793012628&dt=news&en=page_view&dl=https%3A%2F%2Fcontentmarketinginstitute.com%2Flatest-news&scrsrc=www.googletagmanager.com&rnd=1269206205.1793012628&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v892650545za200zd892650545xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616986~115938465~115938469~118897920~1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=207467319.1793012628&gtm=45He6al1v892650545za200zd892650545xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/browser/connect/2/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&s=8e85c4fefcc04899"
+  },
+  {
+   "method": "GET",
+   "url": "https://contentmarketinginstitute.com/__manifest?paths=%2F%2C%2Fabout-the-content-marketing-institute%2C%2Fai-content-creation-tools%2C%2Fai-content-creation-tools%2Fethical-ai-content-creation%2C%2Fai-in-marketing%2C%2Fai-in-marketing%2Fai-answer-engines-brand%2C%2Fai-in-marketing%2Fai-disclosure-trust-content%2C%2Fai-in-marketing%2Fmarketing-ai-efficiency%2C%2Fai-in-marketing%2Fmarketing-teams-a"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-NBYJQ8Q13E&gtm=45je6al1v881101451z8892650545za20gzb892650545zd892650545xf1&_p=1793012627490&_gaz=1&gcs=G111&gcd=13t3t3t3t7l1&npa=1&dma=0&tcfd=10000&_eu=EgAAAGAC&cid=1561490229.1793012629&frm=0&ir=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-8K02DKE4VC&gtm=45je6al1v9241417933z8892650545za20gzb892650545zd892650545xf1&_p=1793012627490&_gaz=1&gcs=G111&gcd=13t3t3t3t7l1&npa=1&dma=0&tcfd=10000&_eu=AAAAAGA&cid=1561490229.1793012629&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux"
+  },
+  {
+   "method": "POST",
+   "url": "https://c.contentmarketinginstitute.com/com.iiris/ed0"
+  },
+  {
+   "method": "GET",
+   "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=5262920646162558"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=1x1&ifi=1&dids=bigsky_v&adfs=3438764142&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1793012629977&lmt=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=1x1&ifi=2&dids=wallpaper_v&adfs=2235433170&sfv=1-0-45&ists=1&sc=1&cookie_enabled=1&abxe=1&dt=179301262"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=1x1&ifi=3&dids=oop_v&adfs=3869267157&sfv=1-0-45&ists=1&sc=1&cookie_enabled=1&abxe=1&dt=1793012629989&l"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=1x1&ifi=4&dids=floor_v&adfs=1986694201&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1793012629991&lmt=17"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=1x1&ifi=5&dids=adhesion_v&adfs=3434009926&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1793012629993&lmt"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/rum/2/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&to=MhBSZQoZWEEDU0ZaXgtac0QLDFlfTR8WR14VHFM%3D&rst=12724&s=8e85c4fefcc04899&ref=https://contentmarketinginstitute.com/latest-news&ptid=f1aa9c2db15d7bc5&af=err,spa,xhr,stn,ins&ap=130.656529&be=381&fe=8598&dc=1662&fp=1220&fcp=1220&perf=%7B%22timing%22:%7B%22of%22:1793012617302,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/events/1/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&to=MhBSZQoZWEEDU0ZaXgtac0QLDFlfTR8WR14VHFM%3D&rst=12727&s=8e85c4fefcc04899&ref=https://contentmarketinginstitute.com/latest-news&ptid=f1aa9c2db15d7bc5"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/jserrors/1/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&to=MhBSZQoZWEEDU0ZaXgtac0QLDFlfTR8WR14VHFM%3D&rst=12729&s=8e85c4fefcc04899&ref=https://contentmarketinginstitute.com/latest-news&ptid=f1aa9c2db15d7bc5&pve=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/events/1/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&to=MhBSZQoZWEEDU0ZaXgtac0QLDFlfTR8WR14VHFM%3D&rst=12732&s=8e85c4fefcc04899&ref=https://contentmarketinginstitute.com/latest-news&ptid=f1aa9c2db15d7bc5"
+  },
+  {
+   "method": "POST",
+   "url": "https://bam.eu01.nr-data.net/events/1/NRJS-26ae6a3b09493bbcc87?a=514067201&v=1.324.0&to=MhBSZQoZWEEDU0ZaXgtac0QLDFlfTR8WR14VHFM%3D&rst=12736&s=8e85c4fefcc04899&ref=https://contentmarketinginstitute.com/latest-news&ptid=f1aa9c2db15d7bc5"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=320x50%7C600x250%7C728x90%7C970x90%7C970x250%7C1x1&fluid=height&ifi=6&dids=728_1v&adfs=2577034749&sfv="
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=5x5&ifi=7&dids=resource_v&adfs=3995254325&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&dt=1793012630465&lmt"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=300x100%7C300x250%7C300x600&ifi=8&dids=300_1v&adfs=1161825304&sfv=1-0-45&sc=1&cookie_enabled=1&abxe=1&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/947079196/?random=1793012630939&cv=11&fst=1793012630939&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9255571716z8892650545za20gzb892650545zd892650545xeaxf1&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776&u_w=1280&u_h=720&url=https%3A%2F%2Fcontentmark"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&auid=207467319.1793012628&dt=news&tid=AW-947079196&dl=https%3A%2F%2Fcontentmarketinginstitute.com%2Flatest-news&scrsrc=www.googletagmanager.com&rnd=1269206205.1793012628&navt=n&npa=0&_tu=CA&gtm=45be6al1v9255571716z8892650545za20gzb892650545zd892650545xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616985~115938465~115938469~11"
+  },
+  {
+   "method": "POST",
+   "url": "https://a.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://a.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://a.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-NBYJQ8Q13E&gtm=45je6al1v881101451za20gzb892650545zd892650545xf1&_p=1793012627490&gcs=G111&gcd=13t3t3t3t7l1&npa=1&dma=0&tcfd=10000&_eu=AAgAAGQC&cid=1561490229.1793012629&frm=0&ir=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/947079196/?random=1793012637930&cv=11&fst=1793012637930&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9255571716z8892650545za20gzb892650545zd892650545xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776&u_w=1280"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/947079196/?random=1409684512&cv=11&fst=1793012637930&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9255571716z8892650545za20gzb892650545zd892650545xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~1236207"
+  },
+  {
+   "method": "POST",
+   "url": "https://a.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/947079196/?random=1409684512&cv=11&fst=1793012637930&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9255571716z8892650545za20gzb892650545zd892650545xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tcfd=10000&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776&u_w=1280&u_h=720&u"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-NBYJQ8Q13E&gtm=45je6al1v881101451z8892650545za20gzb892650545zd892650545xf1&_p=1793012627490&_gaz=1&gcs=G111&gcd=13t3t3t3t7l1&npa=1&dma=0&tcfd=10000&_eu=EgAAAGQC&cid=1561490229.1793012629&frm=0&ir=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap"
+  },
+  {
+   "method": "GET",
+   "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=5262920646162558&correlator=3877509582875125&eid=95404655%2C122880507%2C122881719%2C122881813%2C31096832&output=ldjh&gdfp_req=1&vrg=202610200101&ptt=17&impl=fif&gdpr=0&iu_parts=3834%2Ccontentmarket.home%2Cnews-list&enc_prev_ius=%2F0%2F1%2F2&prev_iu_szs=320x50%7C600x250%7C728x90%7C970x90&fluid=height&ifi=9&dids=728_4v&adfs=1424137172&sfv=1-0-4"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://informa.com/",
+   "text": "Informa PLC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://informa.com/about-us/",
+   "text": "ABOUT US",
+   "region": "NAV"
+  },
+  {
+   "href": "https://informa.com/Investors/",
+   "text": "INVESTOR RELATIONS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://informa.com/Talent/",
+   "text": "TALENT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/program/content-marketing-awards-spotlight",
+   "text": "Award Winners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contentmarketingworld.com/?_mc=hsad_cmi_pillar&utm_medium=referral&utm_source=cmi&utm_campaign=pillar",
+   "text": "Content Marketing World",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/why-work-with-us",
+   "text": "Advertise",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/contact",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/2416452",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.instagram.com/cmicontent/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/ContentMarketingInstitute",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.youtube.com/cmi42",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+   "text": "Content Marketing Strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/demand-generation",
+   "text": "Demand Generation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/audience-building",
+   "text": "Audience Building",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-operations",
+   "text": "Content Operations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI in Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "Strategy & Planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "SEE ALL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI in Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "Strategy & Planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/matt-kramer",
+   "text": "Matt Kramer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/social-media-content",
+   "text": "Social Media Content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/video-visual-content",
+   "text": "Video & Visual Content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/ai-content-creation-tools",
+   "text": "AI Content Creation & Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+   "text": "Content Distribution & Promotion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution",
+   "text": "Content Creation & Distribution",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution",
+   "text": "SEE ALL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI in Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-content-creation-tools/ethical-ai-content-creation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/ai-content-creation-tools",
+   "text": "AI Content Creation & Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/webinars",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-content-creation-tools/ethical-ai-content-creation",
+   "text": "Ethical AI Content Creation: A Hands-On Guide to Responsible Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-content-creation-tools/ethical-ai-content-creation",
+   "text": "Ethical AI Content Creation: A Hands-On Guide to Responsible Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization/analytics-data",
+   "text": "Content Marketing Analytics Data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization/seo-for-content",
+   "text": "SEO for Content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization/content-optimization",
+   "text": "Content Optimization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization",
+   "text": "Measurement & Optimization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization",
+   "text": "SEE ALL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI in Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "Strategy & Planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/matt-kramer",
+   "text": "Matt Kramer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contentmarketinguniversity.com/?utm_medium=referral&utm_source=cmi&utm_campaign=navigation",
+   "text": "Content Marketing University",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinguniversity.com/content-marketing-certification/?utm_medium=referral&utm_source=cmi&utm_campaign=navigation",
+   "text": "Content Marketing Certification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://news.contentinstitute.com/consulting",
+   "text": "Marketing Training & Guidance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contentmarketingworld.com/?_mc=hsad_CMI_nav&utm_medium=referral&utm_source=cmi&utm_campaign=navigation",
+   "text": "Content Marketing World",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/webinars",
+   "text": "Webinars & Digital Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/mentorship-program",
+   "text": "CMI Mentorship Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/career-development",
+   "text": "Career Development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "Education & Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "SEE ALL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "Training & Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "The Simple Test That Fixes Marketing and Sales Misalignment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "The Simple Test That Fixes Marketing and Sales Misalignment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "Training & Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/b2b-research",
+   "text": "B2B Content Marketing Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/b2c-research",
+   "text": "B2C Content Marketing Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/career-salary-outlook",
+   "text": "Career & Salary Outlook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/demand-generation-research",
+   "text": "Demand Generation Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/enterprise-research",
+   "text": "Enterprise Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/technology-research",
+   "text": "Technology Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research",
+   "text": "Research Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research",
+   "text": "SEE ALL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-operations/companies-destroying-marketing-teams",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-operations",
+   "text": "Content Operations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-operations/companies-destroying-marketing-teams",
+   "text": "How Companies Are Accidentally Destroying Their Marketing Teams",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-operations/companies-destroying-marketing-teams",
+   "text": "How Companies Are Accidentally Destroying Their Marketing Teams",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-salary-outlook/content-marketing-salary-outlook",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/research/career-salary-outlook",
+   "text": "Content and Marketing Career & Salary Outlook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-salary-outlook/content-marketing-salary-outlook",
+   "text": "How Long Will Content and Marketing Careers Remain Viable? [Research]",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-salary-outlook/content-marketing-salary-outlook",
+   "text": "How Long Will Content and Marketing Careers Remain Viable? [Research]",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/stephanie-stahl",
+   "text": "Stephanie Stahl",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/keyword/e-books-and-templates",
+   "text": "E-Books, Guides, and Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/career-development",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/program/content-marketing-awards-spotlight",
+   "text": "Awards Spotlight",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/chief-content-officer",
+   "text": "Chief Content Officer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/series/rose-colored-glasses",
+   "text": "Rose-Colored Glasses",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/program/press-room",
+   "text": "Press Room",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/what-is-content-marketing",
+   "text": "What Is Content Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cmi.media/employee-flight-risk-assessment/",
+   "text": "Employee Flight Risk Assessment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-resources",
+   "text": "Resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-resources",
+   "text": "SEE MORE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "Training & Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "Training & Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "The Business Fundamentals Every Marketer Should Know, But Nobody Teaches",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "The Business Fundamentals Every Marketer Should Know, But Nobody Teaches",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/",
+   "text": "HOME",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news",
+   "text": "LATEST NEWS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI IN MARKETING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-answer-engines-brand",
+   "text": "Why AI Answer Engines Keep Leaving Your Brand Out (And How To Fix That)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/matt-kramer",
+   "text": "Matt Kramer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-cost",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-cost",
+   "text": "Why the Best Content Marketing in 2027 Will Cost More (Just Not in Money)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-cost",
+   "text": "Why the Best Content Marketing in 2027 Will Cost More (Just Not in Money)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "AI Made More Content, But It Didn't Make More Authority",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "AI Made More Content, But It Didn't Make More Authority",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "Courage, Curiosity, and Care — What It Takes To Turn Insight Into Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "Courage, Curiosity, and Care — What It Takes To Turn Insight Into Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/stephanie-stahl",
+   "text": "Stephanie Stahl",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+   "text": "CONTENT DISTRIBUTION & PROMOTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "How the Same Old Topics Blossomed Into an Award-Winning Destination Marketing Campaign",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "How the Same Old Topics Blossomed Into an Award-Winning Destination Marketing Campaign",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-disclosure-trust-content",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI IN MARKETING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-disclosure-trust-content",
+   "text": "Why AI Disclosure Won’t Build Trust in Your Content (and What Will)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/ai-disclosure-trust-content",
+   "text": "Why AI Disclosure Won’t Build Trust in Your Content (and What Will)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-machine-growth-engine",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-machine-growth-engine",
+   "text": "How To Turn Your Content Machine Into a Growth Engine",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-machine-growth-engine",
+   "text": "How To Turn Your Content Machine Into a Growth Engine",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "How Eaton Reorganized Its Marketing Team Around the Buyer, Not the Product",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "How Eaton Reorganized Its Marketing Team Around the Buyer, Not the Product",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-ai-efficiency",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI IN MARKETING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-ai-efficiency",
+   "text": "Who’s Really Paying for Your Marketing’s AI Efficiency?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-ai-efficiency",
+   "text": "Who’s Really Paying for Your Marketing’s AI Efficiency?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/ai-kpi-marketers-tracking",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution",
+   "text": "CONTENT CREATION & DISTRIBUTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/ai-kpi-marketers-tracking",
+   "text": "What’s the AI KPI That Most Marketers Aren’t Tracking Yet?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/ai-kpi-marketers-tracking",
+   "text": "What’s the AI KPI That Most Marketers Aren’t Tracking Yet?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-optimization/content-discoverable-blue-links",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/measurement-optimization/content-optimization",
+   "text": "CONTENT OPTIMIZATION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-optimization/content-discoverable-blue-links",
+   "text": "How To Make Your Content Discoverable as Blue Links Fade",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-optimization/content-discoverable-blue-links",
+   "text": "How To Make Your Content Discoverable as Blue Links Fade",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/robot-buyer-b2b",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI IN MARKETING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/robot-buyer-b2b",
+   "text": "The Robot Buyer Isn’t Here Yet. So Why Is B2B Sprinting to It?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/robot-buyer-b2b",
+   "text": "The Robot Buyer Isn’t Here Yet. So Why Is B2B Sprinting to It?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-teams-ai-watermarks",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+   "text": "AI IN MARKETING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-teams-ai-watermarks",
+   "text": "3 Changes Marketing Teams Must Make as AI Watermarks Emerge",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/ai-in-marketing/marketing-teams-ai-watermarks",
+   "text": "3 Changes Marketing Teams Must Make as AI Watermarks Emerge",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/jodi-harris",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/jodi-harris",
+   "text": "Jodi Harris",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/paid-media-budget",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/paid-media-budget",
+   "text": "Make Paid Media Earn Its Place in Your 2027 Budget",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/paid-media-budget",
+   "text": "Make Paid Media Earn Its Place in Your 2027 Budget",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "TRAINING & EDUCATION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "The Simple Test That Fixes Marketing and Sales Misalignment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketing-sales-misalignment-fix",
+   "text": "The Simple Test That Fixes Marketing and Sales Misalignment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/content-subject-matter-experts",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+   "text": "CONTENT MARKETING STRATEGY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/content-subject-matter-experts",
+   "text": "How To Get Great Content Without Asking Your Subject Matter Experts To Write",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/content-subject-matter-experts",
+   "text": "How To Get Great Content Without Asking Your Subject Matter Experts To Write",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/eve-chen",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/eve-chen",
+   "text": "Eve Chen",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/audience-building/build-direct-audience-relationships",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/audience-building",
+   "text": "AUDIENCE BUILDING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/audience-building/build-direct-audience-relationships",
+   "text": "How To Build Direct Audience Relationships No Algorithm Can Touch",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/audience-building/build-direct-audience-relationships",
+   "text": "How To Build Direct Audience Relationships No Algorithm Can Touch",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "TRAINING & EDUCATION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/marketers-speak-plainly-remove-jargon",
+   "text": "Why Marketers Should Speak Plainly: 3 Drills To Remove Jargon",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/thought-leadership-roi",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/thought-leadership-roi",
+   "text": "What’s Your Thought Leadership Worth? IBM Research Shows $107 Million Potential",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/thought-leadership-roi",
+   "text": "What’s Your Thought Leadership Worth? IBM Research Shows $107 Million Potential",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/executive-approval-content-budgets",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/executive-approval-content-budgets",
+   "text": "8 Proven Ways To Get Executive Approval for Content Budgets",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/executive-approval-content-budgets",
+   "text": "8 Proven Ways To Get Executive Approval for Content Budgets",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education",
+   "text": "TRAINING & EDUCATION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "The Business Fundamentals Every Marketer Should Know, But Nobody Teaches",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/business-fundamentals-marketer-know",
+   "text": "The Business Fundamentals Every Marketer Should Know, But Nobody Teaches",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/ai-pr-earned-media",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+   "text": "CONTENT DISTRIBUTION & PROMOTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/ai-pr-earned-media",
+   "text": "AI Reawakens the Need for PR and Earned Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/ai-pr-earned-media",
+   "text": "AI Reawakens the Need for PR and Earned Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/blockers-content-converts",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/blockers-content-converts",
+   "text": "4 Blockers Standing Between You and Content That Converts (and How To Solve Them)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/blockers-content-converts",
+   "text": "4 Blockers Standing Between You and Content That Converts (and How To Solve Them)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/cathy-mcknight",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/cathy-mcknight",
+   "text": "Cathy McKnight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/marketers-ai-expertise-illusion",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/career-development",
+   "text": "CAREER DEVELOPMENT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/marketers-ai-expertise-illusion",
+   "text": "How Marketers Can Make the AI-Created ‘Expertise Illusion’ Disappear",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/marketers-ai-expertise-illusion",
+   "text": "How Marketers Can Make the AI-Created ‘Expertise Illusion’ Disappear",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-college-athletics",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution",
+   "text": "CONTENT CREATION & DISTRIBUTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-college-athletics",
+   "text": "The Easy Content Route Won't Win in College Athletics (or Anywhere Else)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-college-athletics",
+   "text": "The Easy Content Route Won't Win in College Athletics (or Anywhere Else)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/joe-moore",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/joe-moore",
+   "text": "Joe Moore",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/audience-data-content-gold",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+   "text": "CONTENT MARKETING STRATEGY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/audience-data-content-gold",
+   "text": "How To Turn Your Audience Data Into Content Gold",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-marketing-strategy/audience-data-content-gold",
+   "text": "How To Turn Your Audience Data Into Content Gold",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/marketing-ai-cleanup",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/marketing-ai-cleanup",
+   "text": "Marketing Shouldn’t Be the AI Cleanup Crew",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/marketing-ai-cleanup",
+   "text": "Marketing Shouldn’t Be the AI Cleanup Crew",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/find-authority-gap",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/find-authority-gap",
+   "text": "Before You Close the Authority Gap, Find Out Which One You Have",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/find-authority-gap",
+   "text": "Before You Close the Authority Gap, Find Out Which One You Have",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-ai-driven",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-ai-driven",
+   "text": "How To Make Your Content Part of AI-Driven Buyer Research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-ai-driven",
+   "text": "How To Make Your Content Part of AI-Driven Buyer Research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/content-marketing-institute-team",
+   "text": "Content Marketing Institute Team",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+   "text": "What's Next for Your Brand Website?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/brand-website-ready",
+   "text": "What's Next for Your Brand Website?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/clare-mcdermott",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/clare-mcdermott",
+   "text": "Clare McDermott",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction",
+   "text": "Why Your Best Content Strategy Is Subtraction",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/content-strategy-subtraction",
+   "text": "Why Your Best Content Strategy Is Subtraction",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/managing-outdated-content-ai",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/managing-outdated-content-ai",
+   "text": "Your Outdated Content Lives Forever in AI Search: Here's How To Manage It",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/managing-outdated-content-ai",
+   "text": "Your Outdated Content Lives Forever in AI Search: Here's How To Manage It",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/jodi-harris",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/jodi-harris",
+   "text": "Jodi Harris",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/finding-b2b-creators",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+   "text": "CONTENT DISTRIBUTION & PROMOTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/finding-b2b-creators",
+   "text": "12 Expert Ideas For Finding B2B Creators Who Drive Results",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/finding-b2b-creators",
+   "text": "12 Expert Ideas For Finding B2B Creators Who Drive Results",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/ann-gynn",
+   "text": "Ann Gynn",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/build-marketing-judgment",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/videos",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/training-education/career-development",
+   "text": "CAREER DEVELOPMENT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/build-marketing-judgment",
+   "text": "How To Build Marketing Judgment Without Producing Clones",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/career-development/build-marketing-judgment",
+   "text": "How To Build Marketing Judgment Without Producing Clones",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/author/robert-rose",
+   "text": "Robert Rose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news",
+   "text": "Previous",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news",
+   "text": "1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=2",
+   "text": "2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=3",
+   "text": "3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=4",
+   "text": "4",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=5",
+   "text": "5",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=65",
+   "text": "65",
+   "region": "NAV"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news?page=2",
+   "text": "Next",
+   "region": "NAV"
+  },
+  {
+   "href": "https://google.com/preferences/source?q=https://contentmarketinginstitute.com",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://google.com/preferences/source?q=https://contentmarketinginstitute.com",
+   "text": "ADD US NOW",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/latest-news",
+   "text": "SEE ALL",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+   "text": "How Brand Leaders Turn Customer Insights Into Marketing Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "AI Made More Content, But It Didn't Make More Authority",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+   "text": "AI Made More Content, But It Didn't Make More Authority",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "Courage, Curiosity, and Care — What It Takes To Turn Insight Into Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+   "text": "Courage, Curiosity, and Care — What It Takes To Turn Insight Into Impact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+   "text": "CONTENT DISTRIBUTION & PROMOTION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "How the Same Old Topics Blossomed Into an Award-Winning Destination Marketing Campaign",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+   "text": "How the Same Old Topics Blossomed Into an Award-Winning Destination Marketing Campaign",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning",
+   "text": "STRATEGY & PLANNING",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "How Eaton Reorganized Its Marketing Team Around the Buyer, Not the Product",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "text": "How Eaton Reorganized Its Marketing Team Around the Buyer, Not the Product",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.contentmarketingworld.com/?mc=hsad_CMI_footer&utm_medium=referral&utm_source=cmi&utm_campaign=footer",
+   "text": "Content Marketing World",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.contentmarketinguniversity.com/?utm_medium=referral&utm_source=cmi&utm_campaign=footer",
+   "text": "Content Marketing University",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.contentmarketingawards.com/?utm_medium=referral&utm_source=cmi&utm_campaign=footer",
+   "text": "Content Marketing Awards",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/chief-content-officer",
+   "text": "Chief Content Officer",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/why-work-with-us",
+   "text": "Advertise/Sponsor",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://news.contentinstitute.com/consulting?_ga=2.256381128.279877616.1683723681-772606568.1646748419&_gl=1*uuir0c*_gcl_au*MTk3MzU4OTA1Mi4xNzM0MDIyMTI2*_ga*MTU4NDM2MzM1MC4xNzM0MDIyMTIz*_ga_NBYJQ8Q13E*MTczODI0OTg0Mi40OS4xLjE3MzgyNTA0MTYuMC4wLjA.",
+   "text": "Consulting Services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/cmi-guest-blogging-guidelines",
+   "text": "Submit an Article",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/guidelines-for-sharing-and-republishing-content",
+   "text": "Share/Republish",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/about-the-content-marketing-institute",
+   "text": "Our Story",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/meet-the-cmi-team",
+   "text": "Our Team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/program/press-room",
+   "text": "Press Room",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/what-is-content-marketing",
+   "text": "What Is Content Marketing?",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://contentmarketinginstitute.com/contact",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/2416452",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/cmicontent/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/ContentMarketingInstitute",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/cmi42",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.lions.co/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://informa.com/",
+   "text": "Home|",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.informa.com/generic-content/cookie-policy/",
+   "text": "Cookies|",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://privacyportal-eu-cdn.onetrust.com/dsarwebform/c1f53e84-9f05-4169-a854-85052b63c50b/5f26b553-52cc-4973-a761-295d5634a6b6.html",
+   "text": "CCPA: Do not sell my personal info|",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.informa.com/privacy-policy/",
+   "text": "Privacy|",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.informa.com/generic-content/terms--conditions",
+   "text": "Terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://transcend.io/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://privacy.informa.com/",
+   "text": "See our privacy policy",
+   "region": "BODY"
+  }
+ ]
+}

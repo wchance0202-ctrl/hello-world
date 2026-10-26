@@ -1,0 +1,882 @@
+{
+ "url": "https://wfanet.org/news/",
+ "observed_at": "2026-10-26T11:02:02.765Z",
+ "method": "playwright-chromium",
+ "final_url": "https://wfanet.org/news",
+ "status": 200,
+ "error": null,
+ "title": "News - World Federation of Advertisers",
+ "h1": "News",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 170,
+   "new_in_prefix": 170,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 170,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://wfa.containers.piwik.pro/fed2ff69-c01e-4a2d-b4ba-759869f6bf75/privacy-widgets.json"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://wfanet.org/news#content",
+   "text": "Jump to the content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/news#navigation",
+   "text": "Jump to the menu",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/",
+   "text": "The only global network\nfor senior marketers",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/forums",
+   "text": "Communities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing/cmo-forum",
+   "text": "CMO Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/media",
+   "text": "Media Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/sourcing",
+   "text": "Sourcing Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/marketing-capability",
+   "text": "Marketing Capability Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/in-house",
+   "text": "In-House Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/insight",
+   "text": "Insight Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/policy",
+   "text": "Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/policy-action-group",
+   "text": "Policy Action Group",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/digital-governance-exchange",
+   "text": "Privacy & Tech Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/alcohol-marketing",
+   "text": "Alcohol Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/responsible-advertising-and-children",
+   "text": "Responsible Advertising and Children",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/communities",
+   "text": "Communities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/ai-community",
+   "text": "AI Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing/inclusive-marketing-community",
+   "text": "Inclusive Marketing Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/planet-pledge",
+   "text": "Sustainable Marketing Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/clients-creativity-2026",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/clients-creativity-2026",
+   "text": "Download",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership",
+   "text": "Initiatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/globalmediacharter",
+   "text": "Global Media Charter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/cross-media-measurement",
+   "text": "Halo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/media/marketer-of-the-future",
+   "text": "Marketer of the Future",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/positive-marketing-behaviours",
+   "text": "Positive Marketing Behaviours",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/globalbrandtransformation",
+   "text": "Global Brand Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/clients-creativity-2026",
+   "text": "Clients & creativity 2026",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/media-effectiveness",
+   "text": "Media Effectiveness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/cmo-series",
+   "text": "CMO series",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/better-marketing-pod-with-david-wheldon",
+   "text": "Better Marketing Pod",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/candidcmo",
+   "text": "The Candid CMO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/awards",
+   "text": "Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/global-marketer-of-the-year",
+   "text": "Global Marketer Of The Year",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/president-awards",
+   "text": "WFA President's Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/14/the-candid-cmo-natalia-ball-global-chief-growth-officer-mars-pet-nutrition",
+   "text": "Read the interview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/connections/events",
+   "text": "All events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/all-events/event-overview",
+   "text": "Event overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/peer-to-peer-forums/peer-to-peer-forums",
+   "text": "Peer-to-Peer Forums",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/all-events/webinars",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/connections/events/global-marketer-week",
+   "text": "Featured events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forum-connect",
+   "text": "Forum Connect",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/gmw",
+   "text": "Global Marketer Week",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forum-connect",
+   "text": "Book your seat",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/marketing-tools",
+   "text": "Marketing tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/agency-cost-index2",
+   "text": "Agency Cost Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/marketing-tools/outlook",
+   "text": "Outlook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/policy-heatmaps-tools",
+   "text": "Policy heatmaps & tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/global-alcohol-marketing-heatmap",
+   "text": "Alcohol Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/green-claims-policy-heatmap",
+   "text": "Green Claims",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/influencer-marketing-heatmap",
+   "text": "Influencer Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/marketing-and-children-heatmap",
+   "text": "Food Marketing and Children",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/global-privacy-map",
+   "text": "Privacy Heatmap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/policy-tools/privacy-enforcement-cases",
+   "text": "Privacy Enforcement Cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/outlook",
+   "text": "Download",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/knowledge",
+   "text": "Knowledge hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/become-a-member",
+   "text": "Become a member",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/search-result",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/news#mobileNavigation",
+   "text": "Jump to navigation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/about-wfa",
+   "text": "About WFA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/news",
+   "text": "News",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/job-board",
+   "text": "Job Board",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/meta-menu/login",
+   "text": "Login",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/create-account",
+   "text": "Create an account",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/search-result",
+   "text": "Search",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wfanet.org/l/rss/collect/weblog/50819",
+   "text": "RSS Feed",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://gmoty.wfanet.org/jury",
+   "text": "panel",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/10/26/wfa-names-expert-jury-for-2026-global-marketer-of-the-year?originNode=3905",
+   "text": "Read more about \"WFA names expert jury for 2026 Global Marketer of the Year\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/10/19/wfa-reveals-first-speakers-and-agenda-for-global-marketer-week-in-london?originNode=3905",
+   "text": "Read more about \"WFA reveals first speakers and agenda for Global Marketer Week in London\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/10/07/national-associations-to-meet-in-warsaw?originNode=3905",
+   "text": "Read more about \"National associations to meet in Warsaw\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/10/05/latam-regional-meeting-comes-to-central-america-for-the-first-time?originNode=3905",
+   "text": "Read more about \"LATAM regional meeting comes to Central America for the first time\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/30/96-of-major-brands-now-use-ai-in-marketing-wfa-research-finds?originNode=3905",
+   "text": "Read more about \"96% of major brands now use AI in marketing, WFA research finds\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/29/canadian-advertisers-present-their-top-industry-honour-for-2026?originNode=3905",
+   "text": "Read more about \"Canadian advertisers present their top industry honour for 2026\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/29/global-brands-are-shifting-to-paying-for-outputs-not-time-wfa-research?originNode=3905",
+   "text": "Read more about \"Global brands are shifting to paying for outputs not time, WFA research\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/22/strategic-thinking-is-the-biggest-skills-gap-for-marketing-wfa-research?originNode=3905",
+   "text": "Read more about \"Strategic thinking is the biggest skills gap for marketing, WFA research\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/item/2026/09/16/cross-media-measurement-advances-in-belgium-and-india?originNode=3905",
+   "text": "Read more about \"Cross-media measurement advances in Belgium and India\"",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/news?weblog-page=2#weblog-list-1",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/news?weblog-page=3#weblog-list-1",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/news?weblog-page=4#weblog-list-1",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/news?weblog-page=105#weblog-list-1",
+   "text": "105",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/news?weblog-page=2#weblog-list-1",
+   "text": "Next page",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfa.stravito.com/app/home",
+   "text": "here",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:w.gilroy@wfanet.org",
+   "text": "w.gilroy@wfanet.org.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://wfanet.org/newsletter-registration",
+   "text": "Subscribe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wfanet.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/join-wfa",
+   "text": "Become a member",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wfa",
+   "text": "LinkedIn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/WFAMarketers",
+   "text": "Youtube",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://open.spotify.com/show/1kpatAy6BDcn507cJSLSoW",
+   "text": "Spotify",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://podcasts.apple.com/be/podcast/wfas-better-marketing-pod-with-david-wheldon/id1538619739",
+   "text": "Apple",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/wfamarketers/",
+   "text": "Instagram",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.coca-colacompany.com/",
+   "text": "https://www.coca-colacompany.com/",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.perrigo.com/",
+   "text": "http://www.perrigo.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://essity.com/",
+   "text": "http://essity.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.unilever.com/",
+   "text": "http://www.unilever.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.kenvue.com/",
+   "text": "https://www.kenvue.com/",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.cbrands.com/",
+   "text": "http://www.cbrands.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.mars.com/",
+   "text": "http://www.mars.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.swarovskigroup.com/S/home/index.en.html",
+   "text": "https://www.swarovskigroup.com/S/home/index.en.html",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.jnj.com/",
+   "text": "http://www.jnj.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/news",
+   "text": "News",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/disclaimer",
+   "text": "Disclaimer",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/privacy-policy",
+   "text": "Privacy policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/change-cookie-settings",
+   "text": "Change cookie settings",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/sitemap",
+   "text": "Sitemap",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.procurios.com/",
+   "text": "Powered by Procurios",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wfanet.org/forums",
+   "text": "Communities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing/cmo-forum",
+   "text": "CMO Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/media",
+   "text": "Media Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/sourcing",
+   "text": "Sourcing Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/marketing-capability",
+   "text": "Marketing Capability Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/in-house",
+   "text": "In-House Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/insight",
+   "text": "Insight Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/policy",
+   "text": "Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/policy-action-group",
+   "text": "Policy Action Group",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/digital-governance-exchange",
+   "text": "Privacy & Tech Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/alcohol-marketing",
+   "text": "Alcohol Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/services/connect-to-your-peers/responsible-advertising-and-children",
+   "text": "Responsible Advertising and Children",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/communities",
+   "text": "Communities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/ai-community",
+   "text": "AI Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/marketing/inclusive-marketing-community",
+   "text": "Inclusive Marketing Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forums/planet-pledge",
+   "text": "Sustainable Marketing Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership",
+   "text": "Initiatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/globalmediacharter",
+   "text": "Global Media Charter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/cross-media-measurement",
+   "text": "Halo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/media/marketer-of-the-future",
+   "text": "Marketer of the Future",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/positive-marketing-behaviours",
+   "text": "Positive Marketing Behaviours",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/globalbrandtransformation",
+   "text": "Global Brand Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/clients-creativity-2026",
+   "text": "Clients & creativity 2026",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/marketing/media-effectiveness",
+   "text": "Media Effectiveness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/cmo-series",
+   "text": "CMO series",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/knowledge/better-marketing-pod-with-david-wheldon",
+   "text": "Better Marketing Pod",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/candidcmo",
+   "text": "The Candid CMO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/awards",
+   "text": "Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/global-marketer-of-the-year",
+   "text": "Global Marketer Of The Year",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/leadership/president-awards",
+   "text": "WFA President's Awards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/connections/events",
+   "text": "All events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/all-events/event-overview",
+   "text": "Event overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/peer-to-peer-forums/peer-to-peer-forums",
+   "text": "Peer-to-Peer Forums",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/events/all-events/webinars",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/connections/events/global-marketer-week",
+   "text": "Featured events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/forum-connect",
+   "text": "Forum Connect",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/gmw",
+   "text": "Global Marketer Week",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/marketing-tools",
+   "text": "Marketing tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/agency-cost-index2",
+   "text": "Agency Cost Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/marketing-tools/outlook",
+   "text": "Outlook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/policy-heatmaps-tools",
+   "text": "Policy heatmaps & tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/global-alcohol-marketing-heatmap",
+   "text": "Alcohol Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/green-claims-policy-heatmap",
+   "text": "Green Claims",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/influencer-marketing-heatmap",
+   "text": "Influencer Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/marketing-and-children-heatmap",
+   "text": "Food Marketing and Children",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/global-privacy-map",
+   "text": "Privacy Heatmap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/tools/policy-tools/privacy-enforcement-cases",
+   "text": "Privacy Enforcement Cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/knowledge",
+   "text": "Knowledge hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/become-a-member",
+   "text": "Become a member",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/about-wfa",
+   "text": "About WFA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/news",
+   "text": "News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/job-board",
+   "text": "Job Board",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/meta-menu/login",
+   "text": "Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/create-account",
+   "text": "Create an account",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wfanet.org/privacy-policy",
+   "text": "our privacy policy",
+   "region": "BODY"
+  }
+ ]
+}

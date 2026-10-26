@@ -1,0 +1,369 @@
+{
+ "url": "https://www.lovethework.com/en/reports",
+ "observed_at": "2026-10-26T11:01:15.895Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.lovethework.com/en/reports",
+ "status": 200,
+ "error": null,
+ "title": "Reports",
+ "h1": "Reports",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 41,
+   "new_in_prefix": 41,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 41,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://transcend-cdn.com/cm/ef49a3f1-d8c1-47d6-88fc-50e41130631f/translations/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/auth/profile"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdn.builder.io/api/v1/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/learn-more?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=315857943.1793012481&dt=Reports&en=page_view&dl=https%3A%2F%2Fwww.lovethework.com%2Fen%2Freports&scrsrc=www.googletagmanager.com&rnd=1865974305.1793012481&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9209818275za200zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~117776795~118897920~118897"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/learn-more"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/request-a-demo?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/sa.jpeg"
+  },
+  {
+   "method": "POST",
+   "url": "https://t.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6al1v9219650960za20ozb9209818275zd9209818275xf1&_p=1793012480563&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&cid=1472279057.1793012482&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&ta"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en"
+  },
+  {
+   "method": "POST",
+   "url": "https://t.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17183769252/?random=1793012481802&cv=11&fst=1793012481802&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z89209818275za20gzb9209818275zd9209818275xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.lovethework.com%2Fen%2Freports&rcb"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=315857943.1793012481&dt=Reports&tid=AW-17183769252&dl=https%3A%2F%2Fwww.lovethework.com%2Fen%2Freports&scrsrc=www.googletagmanager.com&rnd=1865974305.1793012481&navt=n&npa=0&_tu=CA&gtm=45be6al1z89209818275za20gzb9209818275zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~117776795~118897920~118897930~12021"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/request-a-demo"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=km-0DhWNSDppa-5HcZBGag&is_js=true&landing_url=https%3A%2F%2Fwww.lovethework.com%2Fen%2Freports&t=Reports&tip=a3yDjArS4fv7cy4-TkgOfPrg5wBbSMtEhY9Q9Ql6Gio&host=https%3A%2F%2Fwww.lovethework.com&l_src=&l_src_d=&u_src=&u_src_d=&shop=false&sa-user-id-v4=s%253ACiQwMWExNzdkZi0zY2JmLTcxNDgtYWMzNS05MjQ0M2RmOTJjNWEQBBoCTkEgLA.9KalZU9FXlhWbr4RD9PGG7GYv8%252F%252Bez"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6al1v9219650960z89209818275za20gzb9209818275zd9209818275xf1&_p=1793012480563&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1472279057.1793012482&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/the-work?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/awards?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/talks?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/reports?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/the-work-ai?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/the-work"
+  },
+  {
+   "method": "POST",
+   "url": "https://t.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/awards"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/the-work-ai"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/talks"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/reports"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/ai/terms-of-use?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/contact-us?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/ai/terms-of-use"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.lovethework.com/en/contact-us"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.lovethework.com/en/reports#main-content",
+   "text": "ArrowDown\n\nSkip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/",
+   "text": "Lions | The Work logo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.lovethework.com/learn-more",
+   "text": "Learn more",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.lovethework.com/request-a-demo",
+   "text": "Request a Demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.lovethework.com/learn-more",
+   "text": "Learn more",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/the-cannes-lions-talent-report-2026?tab=introduction",
+   "text": "Cannes Lions Talent Report 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/cannes-lions-rankings-report-2026",
+   "text": "Cannes Lions Rankings Report 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/cannes-lions-creativity-report-2026",
+   "text": "Cannes Lions Creativity Report 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/en/cannes-lions-wrap-up-report-2026",
+   "text": "Cannes Lions Wrap-up 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/spikes-asia-creativity-report-2026",
+   "text": "Spikes Asia Creativity Report 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/cannes-lions-wrap-up-report-2025",
+   "text": "Cannes Lions Wrap-up 2025",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/apple-the-creative-debrief-2",
+   "text": "Apple: The Creative Debrief",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports/spikes-asia-creativity-report-2025",
+   "text": "Spikes Asia Creativity Report 2025",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/request-a-demo",
+   "text": "Request a demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/the-work",
+   "text": "Work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/awards",
+   "text": "Awards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/talks",
+   "text": "Talks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports",
+   "text": "Reports",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/the-work-ai",
+   "text": "The Work AI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.canneslions.com/",
+   "text": "Cannes Lions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.warc.com/",
+   "text": "WARC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/",
+   "text": "Contagious",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.acuitypricing.com/",
+   "text": "Acuity Pricing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/the-work",
+   "text": "Work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/awards",
+   "text": "Awards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/talks",
+   "text": "Talks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/reports",
+   "text": "Reports",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/the-work-ai",
+   "text": "The Work AI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.canneslions.com/",
+   "text": "Cannes Lions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.warc.com/",
+   "text": "WARC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/",
+   "text": "Contagious",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.acuitypricing.com/",
+   "text": "Acuity Pricing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/cannes_lions/",
+   "text": "InstagramCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.facebook.com/Cannes.Lions.Festival.of.Creativity/",
+   "text": "FacebookCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://x.com/Cannes_Lions",
+   "text": "TwitterCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/company/cannes-lions-international-advertising-festival/",
+   "text": "LinkedinCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/terms-and-conditions",
+   "text": "Terms & Conditions\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/website-terms-of-use",
+   "text": "Website Terms of Use\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/copyright-policy",
+   "text": "Copyright Policy\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/ai/terms-of-use",
+   "text": "AI Terms of Use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lovethework.com/contact-us",
+   "text": "Contact us",
+   "region": "BODY"
+  }
+ ]
+}

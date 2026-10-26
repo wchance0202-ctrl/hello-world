@@ -1,0 +1,2444 @@
+{
+ "url": "https://www.worldbank.org/ext/en/news",
+ "observed_at": "2026-10-26T10:58:34.422Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.worldbank.org/ext/en/news",
+ "status": 200,
+ "error": null,
+ "title": "News | World Bank Group",
+ "h1": "News",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 452,
+   "new_in_prefix": 452,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 454,
+   "new_in_prefix": 2,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 454,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/cdn-cgi/rum?"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/ext/en/siteconfig/i18n.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/ext/placeholders.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/api/globalsearch/google"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/everything/search"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/everything/search"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/everything/search"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/blogs/global/search"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/everything/search"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/ext/en/placeholders.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/wbg/aem/service/footer/en"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/wblive/global/search"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/wbg/aem/service/header/en"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/ext/taxonomy.json?sheet=en"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.worldbank.org/wbg/aem/service/dateformat"
+  },
+  {
+   "method": "GET",
+   "url": "https://extdataportal.worldbank.org/api/ext/langtoggler/ext/en/news"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.worldbank.org/wbg/aem/service/meetingcountdownbanner"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/019193fb-cd58-7946-a2d0-aaadadb95f80/019193fb-cd58-7946-a2d0-aaadadb95f80.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&d_nsid=0&ts=1793012324060"
+  },
+  {
+   "method": "GET",
+   "url": "https://trustfunds.worldbank.org/portal/tfsearch"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://worldbankgroup.sc.omtrdc.net/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&mid=78896003912112042586750108106650076240&ts=1793012324396"
+  },
+  {
+   "method": "GET",
+   "url": "https://worldbank.tt.omtrdc.net/m2/worldbank/mbox/json?mbox=target-global-mbox&mboxSession=cc094f23bfa14c80a4d5d4ae3f661080&mboxPC=&mboxPage=729c98cf742845649ba2a141605b9a09&mboxRid=85954d0539154a918ac25e3106a77942&mboxVersion=1.8.3&mboxCount=1&mboxTime=1793012324130&mboxHost=www.worldbank.org&mboxURL=https%3A%2F%2Fwww.worldbank.org%2Fext%2Fen%2Fnews&mboxReferrer=&browserHeight=720&browserWidth=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/019193fb-cd58-7946-a2d0-aaadadb95f80/01974121-ce09-723d-8651-9ac63d76c66f/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&d_nsid=0&d_mid=78896003912112042586750108106650076240&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&ts=1793012324897"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCookieSettingsButton.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.worldbank.org/ext/en/news#main",
+   "text": "Skip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English&qterm=",
+   "text": "Press Releases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/all",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://live.worldbank.org/en/home",
+   "text": "World Bank Live",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home",
+   "text": "Blogs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/feature",
+   "text": "Feature Stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/news",
+   "text": "All News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/news",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/news",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/news",
+   "text": "العربية",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/news",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.shihang.org/ext/zh/news",
+   "text": "中文",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/home",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/development-topics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/where-we-work",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/work-with-us",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/jobs",
+   "text": "Jobs: Creating more, better, and inclusive jobs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/agriconnect",
+   "text": "AgriConnect: Scaling agri-finance and agribusiness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/health-works",
+   "text": "Health Works: Enabling access to affordable, quality care",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/energizingafrica",
+   "text": "Mission 300: Powering communities with electricity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/gender",
+   "text": "Gender: Unlocking Women’s Economic Potential",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/water",
+   "text": "Water Forward: Securing water for people, food, and planet",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/digital-ai",
+   "text": "Digital & AI: Expanding access, skills, and AI readiness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/topic/digital-and-ai",
+   "text": "Digital and AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/topic/fiscal-policy-and-growth",
+   "text": "Fiscal Policy and Growth",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/topic/education",
+   "text": "Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/topic/poverty",
+   "text": "Poverty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/topic/transport",
+   "text": "Transport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/development-topics",
+   "text": "All Topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/impact-and-data",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/annual-report",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://scorecard.worldbank.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://targets.worldbank.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/data-privacy",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/public-financial-disclosure",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://accountability.worldbank.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.inspectionpanel.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ieg.worldbankgroup.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cao-ombudsman.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/corporate-responsibility",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://financesone.worldbank.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://policies.worldbank.org/en/policies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/how-we-work",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/leadership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/archive/history",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/archive/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/leadership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/board-of-governors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/who-we-are/board-of-directors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/people/all",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/who-we-are/ibrd",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ida.worldbank.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ifc.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.miga.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://icsid.worldbank.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://projects.worldbank.org/en/projects-operations/projects-home?lang=en",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://projects.worldbank.org/en/projects-operations/project-country",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://projects.worldbank.org/en/projects-operations/project-sector",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://projects.worldbank.org/en/projects-operations/project-theme",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do/projects-operations/country-engagement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/projects-operations/environmental-and-social-policies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do/project-procurement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do/outcomes",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/what-we-do/products-and-services",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://treasury.worldbank.org/en/about/unit/treasury",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://treasury.worldbank.org/en/about/unit/treasury/asset-management",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/programs/trust-funds-and-programs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.worldbank.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/research",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.worldbank.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.worldbank.org/country",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.worldbank.org/indicator",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://opensource.worldbank.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wbg.edcast.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://openknowledge.worldbank.org/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/afr",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/sar",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca/eu",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mic",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/smallstates",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/afghanistan",
+   "text": "Afghanistan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/albania",
+   "text": "Albania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/sq/country/albania",
+   "text": "shqip",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/algeria",
+   "text": "Algeria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/algeria",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/algeria",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/angola",
+   "text": "Angola",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/angola",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Antigua and Barbuda",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/argentina",
+   "text": "Argentina",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/argentina",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/armenia",
+   "text": "Armenia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/australia",
+   "text": "Australia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/austria",
+   "text": "Austria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/azerbaijan",
+   "text": "Azerbaijan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "Bahrain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/gcc",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/bangladesh",
+   "text": "Bangladesh",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/barbados",
+   "text": "Barbados",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/belarus",
+   "text": "Belarus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/belarus",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/belgium",
+   "text": "Belgium",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/belgium",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Belize",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/benin",
+   "text": "Benin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/benin",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/bhutan",
+   "text": "Bhutan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/bolivia",
+   "text": "Bolivia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/bolivia",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/bosniaandherzegovina",
+   "text": "Bosnia and Herzegovina",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/botswana",
+   "text": "Botswana",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/brazil",
+   "text": "Brazil",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/brazil",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/bulgaria",
+   "text": "Bulgaria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/bg/country/bulgaria",
+   "text": "Български",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/burkinafaso",
+   "text": "Burkina Faso",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/burkinafaso",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/burundi",
+   "text": "Burundi",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/burundi",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/caboverde",
+   "text": "Cabo Verde",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/caboverde",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/cambodia",
+   "text": "Cambodia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/km/country/cambodia",
+   "text": "ភាសាខ្មែរ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/cameroon",
+   "text": "Cameroon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/cameroon",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/canada",
+   "text": "Canada",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/canada",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/centralafricanrepublic",
+   "text": "Central African Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/centralafricanrepublic",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/chad",
+   "text": "Chad",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/chad",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/chile",
+   "text": "Chile",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/chile",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/china",
+   "text": "China",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.shihang.org/ext/zh/country/china",
+   "text": "中文",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/colombia",
+   "text": "Colombia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/colombia",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/comoros",
+   "text": "Comoros",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/comoros",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/drc",
+   "text": "Congo, Democratic Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/drc",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/congo",
+   "text": "Congo, Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/congo",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/costarica",
+   "text": "Costa Rica",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/costarica",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/cotedivoire",
+   "text": "Cote d'Ivoire",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/cotedivoire",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/croatia",
+   "text": "Croatia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca/eu",
+   "text": "Czechia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/denmark",
+   "text": "Denmark",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/djibouti",
+   "text": "Djibouti",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/djibouti",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Dominica",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/dominicanrepublic",
+   "text": "Dominican Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/dominicanrepublic",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/ecuador",
+   "text": "Ecuador",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/ecuador",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/egypt",
+   "text": "Egypt, Arab Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ar/country/egypt",
+   "text": "العربية",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/elsalvador",
+   "text": "El Salvador",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/elsalvador",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/equatorialguinea",
+   "text": "Equatorial Guinea",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/eritrea",
+   "text": "Eritrea",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/estonia",
+   "text": "Estonia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/eswatini",
+   "text": "Eswatini",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/ethiopia",
+   "text": "Ethiopia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Fiji",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/finland",
+   "text": "Finland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/france",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/france",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/gabon",
+   "text": "Gabon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/gabon",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/gambia",
+   "text": "Gambia, The",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/georgia",
+   "text": "Georgia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/germany",
+   "text": "Germany",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/ghana",
+   "text": "Ghana",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/greece",
+   "text": "Greece",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Grenada",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/guatemala",
+   "text": "Guatemala",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/guatemala",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/guinea",
+   "text": "Guinea",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/guinea",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/guineabissau",
+   "text": "Guinea-Bissau",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/guineabissau",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Guyana",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/haiti",
+   "text": "Haiti",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/haiti",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/honduras",
+   "text": "Honduras",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/honduras",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca/eu",
+   "text": "Hungary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/iceland",
+   "text": "Iceland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/india",
+   "text": "India",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/hi/country/india",
+   "text": "Hindi",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/indonesia",
+   "text": "Indonesia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/in/country/indonesia",
+   "text": "Bahasa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/iran",
+   "text": "Iran, Islamic Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/iraq",
+   "text": "Iraq",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/iraq",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/ireland",
+   "text": "Ireland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.worldbank.org/country/israel",
+   "text": "Israel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/italy",
+   "text": "Italy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/jamaica",
+   "text": "Jamaica",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/japan",
+   "text": "Japan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/ja/country/japan",
+   "text": "日本語",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/jordan",
+   "text": "Jordan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/jordan",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/kazakhstan",
+   "text": "Kazakhstan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/kazakhstan",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/kenya",
+   "text": "Kenya",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Kiribati",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/korea",
+   "text": "Korea, Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/kosovo",
+   "text": "Kosovo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "Kuwait",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/kyrgyzrepublic",
+   "text": "Kyrgyz Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/kyrgyzrepublic",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/lao",
+   "text": "Lao People's Democratic Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/latvia",
+   "text": "Latvia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/lebanon",
+   "text": "Lebanon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/lebanon",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/lesotho",
+   "text": "Lesotho",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/liberia",
+   "text": "Liberia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/libya",
+   "text": "Libya",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/libya",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/lithuania",
+   "text": "Lithuania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/luxembourg",
+   "text": "Luxembourg",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/luxembourg",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/madagascar",
+   "text": "Madagascar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/madagascar",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/malawi",
+   "text": "Malawi",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/malaysia",
+   "text": "Malaysia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/maldives",
+   "text": "Maldives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mali",
+   "text": "Mali",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/mali",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Marshall Islands",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mauritania",
+   "text": "Mauritania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/mauritania",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mauritius",
+   "text": "Mauritius",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/mauritius",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mexico",
+   "text": "Mexico",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/mexico",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Micronesia, Federated States of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/moldova",
+   "text": "Moldova",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/ro/country/moldova",
+   "text": "română",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mongolia",
+   "text": "Mongolia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/mn/country/mongolia",
+   "text": "Монгол",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/montenegro",
+   "text": "Montenegro",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/morocco",
+   "text": "Morocco",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/morocco",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/morocco",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/mozambique",
+   "text": "Mozambique",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/mozambique",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/myanmar",
+   "text": "Myanmar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/namibia",
+   "text": "Namibia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Nauru",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/nepal",
+   "text": "Nepal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/netherlands",
+   "text": "Netherlands",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/nicaragua",
+   "text": "Nicaragua",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/nicaragua",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/niger",
+   "text": "Niger",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/niger",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/nigeria",
+   "text": "Nigeria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/northmacedonia",
+   "text": "North Macedonia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/mk/country/northmacedonia",
+   "text": "Северна Македонија",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/norway",
+   "text": "Norway",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "Oman",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/gcc",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/pakistan",
+   "text": "Pakistan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Palau",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/panama",
+   "text": "Panama",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/panama",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/png",
+   "text": "Papua New Guinea",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/paraguay",
+   "text": "Paraguay",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/paraguay",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/peru",
+   "text": "Peru",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/peru",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/philippines",
+   "text": "Philippines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/poland",
+   "text": "Poland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pl/country/poland",
+   "text": "Polski",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/portugal",
+   "text": "Portugal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "Qatar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/gcc",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/romania",
+   "text": "Romania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/ro/country/romania",
+   "text": "Română",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/russia",
+   "text": "Russian Federation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/russia",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/rwanda",
+   "text": "Rwanda",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/rwanda",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Samoa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/saotome",
+   "text": "Sao Tome and Principe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/pt/country/saotome",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/saudiarabia",
+   "text": "Saudi Arabia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/saudiarabia",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/senegal",
+   "text": "Senegal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/senegal",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/serbia",
+   "text": "Serbia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/seychelles",
+   "text": "Seychelles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/seychelles",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/sierraleone",
+   "text": "Sierra Leone",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/singapore",
+   "text": "Singapore",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca/eu",
+   "text": "Slovak Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eca/eu",
+   "text": "Slovenia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Solomon Islands",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/somalia",
+   "text": "Somalia, Federal Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/southafrica",
+   "text": "South Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/southsudan",
+   "text": "South Sudan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/spain",
+   "text": "Spain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/spain",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/srilanka",
+   "text": "Sri Lanka",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "St. Kitts and Nevis",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "St. Lucia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "St. Vincent and the Grenadines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/sudan",
+   "text": "Sudan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/suriname",
+   "text": "Suriname",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/sweden",
+   "text": "Sweden",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/switzerland",
+   "text": "Switzerland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/syria",
+   "text": "Syrian Arab Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/syria",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/tajikistan",
+   "text": "Tajikistan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/tajikistan",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/tanzania",
+   "text": "Tanzania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/thailand",
+   "text": "Thailand",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/th/country/thailand",
+   "text": "ภาษาไทย",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/timor-leste",
+   "text": "Timor Leste",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/togo",
+   "text": "Togo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/togo",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Tonga",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/lac/caribbean",
+   "text": "Trinidad and Tobago",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/tunisia",
+   "text": "Tunisia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/tunisia",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.banquemondiale.org/ext/fr/country/tunisia",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/turkey",
+   "text": "Türkiye",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/tr/country/turkey",
+   "text": "Türkçe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/turkmenistan",
+   "text": "Turkmenistan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/turkmenistan",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Tuvalu",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/uganda",
+   "text": "Uganda",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/ukraine",
+   "text": "Ukraine",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/uk/country/ukraine",
+   "text": "Yкраїнський",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/mena/gcc",
+   "text": "United Arab Emirates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/gcc",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/unitedkingdom",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/unitedstates",
+   "text": "United States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/uruguay",
+   "text": "Uruguay",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/uruguay",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/uzbekistan",
+   "text": "Uzbekistan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.vsemirnyjbank.org/ext/ru/country/uzbekistan",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/region/eap/pacific-islands",
+   "text": "Vanuatu",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/venezuela",
+   "text": "Venezuela, Republica Bolivariana de",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bancomundial.org/ext/es/country/venezuela",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/vietnam",
+   "text": "Viet Nam",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/vi/country/vietnam",
+   "text": "Tiẽng Việt",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/westbankandgaza",
+   "text": "West Bank and Gaza (Palestinian territories)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/westbankandgaza",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/yemen",
+   "text": "Yemen, Republic of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.albankaldawli.org/ext/ar/country/yemen",
+   "text": "عربي",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/zambia",
+   "text": "Zambia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/country/zimbabwe",
+   "text": "Zimbabwe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/careers/career-paths",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/careers/talent-programs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/work-with-us/partnerships",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/work-with-us/philanthropy-hub",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ifc.org/en/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://consultations.worldbank.org/en/consultations/home?map=1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/who-we-are/parliamentarians",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/corporate-procurement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://treasury.worldbank.org/en/about/unit/treasury/ibrd",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://treasury.worldbank.org/en/about/unit/treasury",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.miga.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/home",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/speech/2026/10/16/remarks-by-world-bank-group-president-ajay-banga-at-the-2026-annual-meetings-plena",
+   "text": "Remarks by World Bank Group President Ajay Banga at the 2026 Annual Meetings Plenary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/contacts",
+   "text": "Media Contacts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://media.worldbank.org/",
+   "text": "Sign In",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://media.worldbank.org/user/register",
+   "text": "Register",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English&qterm=",
+   "text": "See All Press Releases",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/20/world-bank-group-launches-first-digital-strategy-to-expand-access-and-create-jobs",
+   "text": "World Bank Group Launches First Digital Strategy to Expand Access and Create Jobs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/18/uae-signs-agreement-to-host-2029-world-bank-group-annual-meetings",
+   "text": "UAE Signs Agreement to Host 2029 World Bank Group and IMF Annual Meetings in Abu Dhabi",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/12/world-bank-group-launches-philanthropy-hub-to-unlock-capital-knowledge-and-network",
+   "text": "World Bank Group Launches Philanthropy Hub to Unlock Capital, Knowledge and Networks for Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/what-we-do/regional-economic-updates",
+   "text": "Regional Economic Updates",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/09/17/world-bank-group-mobilizes-record-private-capital-for-developing-countries-driving",
+   "text": "WBG Mobilizes Record Private Capital for Developing Countries, Driving Job Creation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/09/10/world-bank-group-launches-initiative-to-help-local-financial-institutions-expand-d",
+   "text": "WBG Launches Initiative to Help Local Financial Institutions Expand Digital Payments in Emerging Markets",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?displayconttype_exact=Press+Release&lang_exact=English&qterm=",
+   "text": "See All Press Releases",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/all",
+   "text": "See All Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/10/13/sadc-mobile-phone-data-technical-workshop",
+   "text": "SADC Mobile Phone Data Technical Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/10/13/sadc-mobile-phone-data-technical-workshop",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/10/27/from-cities-to-corridors-unlocking-the-philippines-urban-growth-potential",
+   "text": "Report Launch and Forum | From Cities to Corridors: Unlocking the Philippines' Urban Growth Potential",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/10/27/from-cities-to-corridors-unlocking-the-philippines-urban-growth-potential",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/09/25/communities-of-practice-webinar-auctions-to-reduce-costs-and-scale-up-renewable-en",
+   "text": "Auctions to Reduce Costs and Scale Up Renewable Energy in East Asia and Pacific",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/2026/09/25/communities-of-practice-webinar-auctions-to-reduce-costs-and-scale-up-renewable-en",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/events/all?",
+   "text": "See All Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/video",
+   "text": "See All Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/immersive-story",
+   "text": "See All Immersive Stories",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/podcast",
+   "text": "See All Podcasts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/video/2026/09/30/what-is-private-capital-mobilization",
+   "text": "SINCE YOU ASKED\n\nWhat Is Private Capital Mobilization?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/podcast/2026/07/24/will-ai-make-or-take-the-next-billion-jobs",
+   "text": "THE DEVELOPMENT PODCAST\n\nWill AI Make or Take the Next Billion Jobs?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+   "text": "IMMERSIVE STORIES\n\nJobs, Small AI, and Private Capital: 2026 Annual Meetings Highlights",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://forms.office.com/Pages/ResponsePage.aspx?id=wP6iMWsmZ0y1bieW2PWcNoEEy0EVrupJhFurt1UCDAhUMTJBUTVOUERVMFNYNVEwU0tMUThSRUNTSC4u%20",
+   "text": "Register",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/26/stronger-domestic-revenues-key-to-growth-jobs-and-better-services-in-somalia",
+   "text": "Stronger Domestic Revenues - Key to Growth, Jobs, and Better Services in Somalia",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/22/pakistan-faster-implementation-of-structural-reforms-could-see-incomes-triple-by-2",
+   "text": "Pakistan: Faster implementation of structural reforms could see incomes triple by 2050",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/21/world-bank-approves-us-500-million-to-strengthen-mexico-resilience-to-disasters",
+   "text": "World Bank Approves US$500 Million to Strengthen Mexico's Resilience to Disasters and Climate Change",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/press-release/2026/10/21/world-bank-group-debars-idmon-engineering-and-construction-company-limited",
+   "text": "World Bank Group Debars Idmon Engineering and Construction Company Limited",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Press%20Release&",
+   "text": "See All Press Releases",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/statement/2026/10/17/joint-statement-by-mdb-heads-advancing-joint-action-amid-global-uncertainty",
+   "text": "Joint Statement by MDB Heads: Advancing Joint Action amid Global Uncertainty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/statement/2026/10/16/health-works-vaccines-to-budgets-wbg-backs-proven-solutions-asean",
+   "text": "Health Works: From Vaccines to Health Budgets, World Bank Group Backs Proven Solutions to Reach 1.5 Billion People",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/statement/2026/10/15/nepal-and-the-world-bank-group-announce-partnership-to-explore-catastrophe-bond-fo",
+   "text": "Nepal and the World Bank Group Announce Partnership to Explore Catastrophe Bond for Earthquake Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/statement/2026/10/14/global-sovereign-debt-roundtable-7th-co-chairs-progress-report",
+   "text": "Global Sovereign Debt Roundtable - 7th Co-Chairs Progress Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Statement&",
+   "text": "See All Statements",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/feature/2026/10/22/how-rwandas-solar-revolution-is-powering-jobs-and-transforming-lives-for-women",
+   "text": "How Rwanda’s Solar Revolution Is Powering Jobs and Transforming Lives for Women",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/feature/2026/10/02/small-ai-big-learning-possibilities",
+   "text": "Small AI, Big Learning Possibilities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/feature/2026/10/21/powering-jobs-how-electricity-access-is-transforming-livelihoods-in-niger",
+   "text": "Powering Jobs: How Electricity Access is Transforming Livelihoods in Niger",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/feature/2026/10/20/turning-research-into-jobs-and-opportunity-across-africa",
+   "text": "Turning Research into Jobs and Opportunity Across Africa",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?displayconttype_exact=Feature+Story&lang_exact=English&",
+   "text": "See All Feature Stories",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations/weekly-links-october-23--macro-impacts-of-migration-on-poverty--",
+   "text": "Weekly links October 23: macro impacts of migration on poverty, big African cities and jobs, how to read a paper, and mo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig",
+   "text": "Celebrating 20 years of the World Bank Enterprise Surveys: Insights from the first complete global cycle, 2023-2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/arabvoices/agriconnect-and-djibouti--creating-jobs-and-boosting-food-securi",
+   "text": "AgriConnect and Djibouti: Creating jobs and boosting food security in a resource-constrained region",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk/efforts-toward-closing-the-gender-gap--lessons-from-two-decades-",
+   "text": "Efforts toward closing the gender gap: Lessons from two decades of reform in Egypt",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/search?",
+   "text": "See All Blogs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/speech/2026/10/20/global-ai-digital-summit-opening-remarks-sangbu-kim",
+   "text": "Opening remarks by Sangbu Kim, World Bank Group Vice President for Digital and AI, at the Global AI and Digital Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/speech/2026/10/20/anna-bjerde-remarks-global-ai-digital-summit",
+   "text": "Opening remarks by Anna Bjerde, Managing Director of Operations, World Bank Group, at the Global AI and Digital Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/speech/2026/10/16/remarks-by-world-bank-group-president-ajay-banga-at-the-2026-annual-meetings-plena",
+   "text": "Remarks by World Bank Group President Ajay Banga at the 2026 Annual Meetings Plenary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/speech/2026/10/13/remarks-by-wbg-president-ajay-banga-at-msmes-leveraging-data-for-jobs",
+   "text": "Remarks by World Bank Group President Ajay Banga at MSMEs: Leveraging Data for Jobs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Speeches%20and%20Transcripts&",
+   "text": "See All Speeches and Transcript",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/home",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/who-we-are/ibrd",
+   "text": "IBRD",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://ida.worldbank.org/en/home",
+   "text": "IDA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ifc.org/en/home",
+   "text": "IFC",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miga.org/",
+   "text": "MIGA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://icsid.worldbank.org/",
+   "text": "ICSID",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/worldbankgroup",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/the-world-bank/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/worldbankgroup/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/@WorldBankGroup",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/worldbankgroup",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.whatsapp.com/channel/0029VaeLyAgAojYvg7Wbr91k",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.flickr.com/photos/worldbank/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/careers",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/newsletter-subscription",
+   "text": "Newsletters",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/contacts",
+   "text": "Contacts",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/access-to-information",
+   "text": "Access to Information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/legal",
+   "text": "Legal",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wbgcmsprod.microsoftcrmportals.com/en-US/anonymous-users/int-fraud-management/create-new-complaint/",
+   "text": "File a Complaint",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/legal/scam-alert",
+   "text": "Scam Alert",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/legal/privacy-notice",
+   "text": "Privacy Notice.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

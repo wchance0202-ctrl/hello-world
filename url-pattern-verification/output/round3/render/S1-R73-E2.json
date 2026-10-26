@@ -1,0 +1,1132 @@
+{
+ "url": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+ "observed_at": "2026-10-26T11:02:40.756Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+ "status": 200,
+ "error": null,
+ "title": "Training courses | CIM",
+ "h1": "Training courses",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 212,
+   "new_in_prefix": 212,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 212,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.cim.co.uk/api/CountriesList/GetAllIsdCodes"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cim.co.uk/api/CountriesList/GetAllIsdCodes"
+  },
+  {
+   "method": "GET",
+   "url": "https://consentcdn.cookiebot.com/consentconfig/b55bad23-4d10-4131-a81a-0e1abf3ea852/settings.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://accdn.lpsnmedia.net/api/account/58897886/configuration/setting/accountproperties?__d=43533"
+  },
+  {
+   "method": "GET",
+   "url": "https://accdn.lpsnmedia.net/api/account/58897886/configuration/le-campaigns/zones?fields=id&fields=zoneValue&__d=36475"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cim.co.uk/api/countrieslist/getallisdcodes/"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cim.co.uk/api/countrieslist/getallisdcodes/"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.cim.co.uk/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5245695417118196:1793009427:6xx_MFAELsSYfrne26tOkcrc_GYiU0PUsA-eUBuKYks/a508f85c2b771697"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.cim.co.uk/cdn-cgi/rum?"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/recaptcha/api2/reload?k=6LfKFpsrAAAAAKfj6ITZ-McArwKwnst7hvQCEtpx"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/recaptcha/api2/clr?k=6LfKFpsrAAAAAKfj6ITZ-McArwKwnst7hvQCEtpx"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Consent",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Details",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "[#IABV2SETTINGS#]",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "About",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/cookies/",
+   "text": "here",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Customise",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Cookiebot1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cookiebot.com/goto/privacy-policy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Google7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Guestline3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.guestline.com/privacy-policy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "LinkedIn3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/legal/privacy-policy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Vimeo1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vimeo.com/privacy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "YouTube1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "analytics.cim.co.ukconsent.cookiebot.compayments.cim.co.uk8",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "businesscentre.cim.co.ukmy.cim.co.ukregions.cim.co.uksigs.cim.co.ukwww.cim.co.uk10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "businesscentre.cim.co.ukwww.cim.co.uk4",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "cim.co.uk8",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "euwe1.v.liveperson.netlo.v.liveperson.net2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "linkedin.comtwitter.comvimeo.com3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lpsnmedia.netmy.cim.co.ukwww.cim.co.uk3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "my.cim.co.uk1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.tiktokcdn-eu.com2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "www.cim.co.uk5",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "LinkedIn1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/legal/privacy-policy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lpcdn.lpsnmedia.netlptag.liveperson.net3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lptag.liveperson.net1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Google21",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "LinkedIn1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/legal/privacy-policy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Microsoft5",
+   "region": "BODY"
+  },
+  {
+   "href": "https://privacy.microsoft.com/en-us/privacystatement",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Vimeo1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vimeo.com/privacy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "YouTube1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "cim.co.uk1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "d10lpsik1i8c69.cloudfront.netsigs.cim.co.uk2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "euwe1.v.liveperson.netlo.v.liveperson.net2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lptag.liveperson.net2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Meta Platforms, Inc.4",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.facebook.com/policy.php/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Google10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "LinkedIn2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/legal/privacy-policy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Microsoft15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://privacy.microsoft.com/en-US/privacystatement",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "TikTok3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.tiktok.com/legal/privacy-policy?lang=en",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Vimeo7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vimeo.com/privacy",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "YouTube10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy/",
+   "text": "Learn more about this provider",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "analytics.cim.co.uk1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "cim.co.uk1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lpsnmedia.net1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.tiktokcdn-eu.com7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.ttwstatic.com1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.ttwstatic.comsf16-website-login.neutral.tiktokcdn-eu.com2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "tiktokw.eusf16-website-login.neutral.ttwstatic.com2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "euwe1.v.liveperson.net1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "lptag.liveperson.net1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "marketingindex.cim.co.uk1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.tiktokcdn-eu.com5",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "sf16-website-login.neutral.ttwstatic.com1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "share.transistor.fm1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "Cross-domain consent7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://marketingindex.cim.co.uk/",
+   "text": "marketingindex.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://my.cim.co.uk/",
+   "text": "my.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://payments.cim.co.uk/",
+   "text": "payments.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://regions.cim.co.uk/",
+   "text": "regions.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://sigs.cim.co.uk/",
+   "text": "sigs.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/",
+   "text": "www.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://businesscentre.cim.co.uk/",
+   "text": "businesscentre.cim.co.uk",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cookiebot.com/",
+   "text": "Cookiebot",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/privacy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/articles/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/sustainable-marketing-hub/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+   "text": "Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+   "text": "Featured Content\n\n    Training courses\n\n        Build specific marketing skills quickly with short, practical CIM course",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/ai-marketing-training-courses/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/brand-and-product/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/commercial/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/copywriting/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/customer-experience/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/data-and-insights-courses/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/digital-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/leadership-and-management/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/marketing-communications/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/professional-skills/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/social-and-content/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/strategy/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cim-impact-development-programme/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/developing-your-team/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/for-business/company-affiliate/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/cim-academy/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/",
+   "text": "Qualifications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/",
+   "text": "Featured Content\n\n    CIM qualifications\n\n        Gain a recognised CIM qualification through structured study. Designed",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/foundation-certificate-in-professional-digital-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/certificate-in-professional-digital-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/diploma-in-professional-digital-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/postgraduate-diplomas-in-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/marketing-leadership-programme/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/study-centre-filter/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/marketing-apprenticeships/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/qualifications/cim-accredited-and-recognised-degrees/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/",
+   "text": "Membership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/",
+   "text": "Featured Content\n\n    Membership\n\n        Access professional recognition, practical resources, career support and a con",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/cim-standards/chartered-marketer/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cpd/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/our-community/marketing-club/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/cim-standards/code-of-professional-conduct/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/cim-standards/global-professional-marketing-framework-gpmf/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/",
+   "text": "Content hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/",
+   "text": "Featured Content\n\n    Content hub\n\n        Discover marketing insight, expert guidance, thought leadership and practical",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/articles/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/podcasts/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/webinars/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/catalyst/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/newsletters/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/sustainable-marketing-hub/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/content-insights/ai/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/for-business/",
+   "text": "For business",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/for-business/",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/for-business/",
+   "text": "Featured Content\n\n    For business\n\n        Develop your marketing team with CIM business solutions, from tailored train",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/developing-your-team/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/for-business/company-affiliate/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/partnerships/",
+   "text": "Partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://mycim.cim.co.uk/",
+   "text": "MyCIM",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.cim.co.uk/basket/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/training-courses/#",
+   "text": "My CIM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/create-account/",
+   "text": "Create a free account",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/media/r3mdir2v/guide-to-building-a-business-case-for-marketing-training-approval.pdf",
+   "text": "Download the guide",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:01628 427360",
+   "text": "Call 01628 427360",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/ai-marketing-training-courses/",
+   "text": "AI\n\n14 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/brand-and-product",
+   "text": "Brand and Product\n\n13 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/commercial",
+   "text": "Commercial\n\n10 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/copywriting",
+   "text": "Copywriting\n\n10 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/customer-experience",
+   "text": "Customer Experience\n\n5 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/data-and-insights-courses",
+   "text": "Data and Insights\n\n10 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/digital-marketing",
+   "text": "Digital\n\n16 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/leadership-and-management",
+   "text": "Leadership and Management\n\n5 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/marketing-communications",
+   "text": "Marketing Comms\n\n15 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/professional-skills",
+   "text": "Professional Skills\n\n7 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/social-and-content",
+   "text": "Social Media and Content\n\n16 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/strategy-and-planning",
+   "text": "Strategy and Planning\n\n25 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cim-impact-development-programme/",
+   "text": "Impact Development Programme\n\n5 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses",
+   "text": "View all courses\n\n107 courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cim-impact-development-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-marketing-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-digital-marketing-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-brand-marketing-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-social-media-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-ai-in-marketing-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/developing-your-team/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/terms-and-conditions",
+   "text": "Terms & Conditions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/privacy",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/cim-academy/",
+   "text": "CIM Academy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/virtual-courses/",
+   "text": "Virtual training courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/in-person/",
+   "text": "In-person",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/e-learning/",
+   "text": "E-learning",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-agents-and-automation/",
+   "text": "AI Agents and Automation\n\nA practical guide to identifying automation opportunities and building no-code AI agents and w",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-answer-engine-marketing-aem/",
+   "text": "AI Answer Engine Marketing (AEM)\n\nOptimising content for language, generative and AI answer engines (LEO / GEO / AEO / A",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-content-creation/",
+   "text": "AI Content Creation\n\nBoost your efficiency and creativity with AI-enabled tools for text, image, audio and video content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-copywriting-masterclass/",
+   "text": "AI Copywriting Masterclass\n\nAugment your copywriting processes by customising and training generative AI models to deliv",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-customer-journey/",
+   "text": "AI Customer Journey\n\nEffectively leverage AI to optimise the customer journey for superior customer experiences.\n\nFROM: ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-marketing-strategy-and-tools/",
+   "text": "AI Marketing Strategy and Tools\n\nHow AI is transforming marketing through creativity, insight and technology.\n\nFROM: £52",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/",
+   "text": "View all training courses",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/terms-and-conditions",
+   "text": "Terms & Conditions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/privacy",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cim-impact-development-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/media/afgbgak0/guide-to-building-a-business-case-for-marketing-training-approval.pdf",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/learn-develop/training-development/cim-impact-development-programme/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.facebook.com/TheCIM",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/cim_marketing",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/school/479618",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.tiktok.com/@cim_marketing",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youtube.com/user/TheCIMTube",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/about/",
+   "text": "About CIM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim-careers.co.uk/vacancies",
+   "text": "Careers at CIM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://businesscentre.cim.co.uk/",
+   "text": "Business Centre",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/faqs/",
+   "text": "FAQs",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cimbf.co.uk/",
+   "text": "Benevolent Fund",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/",
+   "text": "Become a member",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/membership/cim-standards/chartered-marketer/",
+   "text": "Become Chartered",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/cim-networks/",
+   "text": "CIM Networks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/events/",
+   "text": "Events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/cim-networks/volunteering-opportunities/",
+   "text": "Volunteering Opportunities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/contact-us/",
+   "text": "Contact us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/terms-and-conditions/",
+   "text": "Terms and conditions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/privacy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/accessibility/",
+   "text": "Accessibility",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cim.co.uk/cookies/",
+   "text": "Cookies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cantarus.com/",
+   "text": "Website Designed and Built in Partnership with",
+   "region": "BODY"
+  }
+ ]
+}

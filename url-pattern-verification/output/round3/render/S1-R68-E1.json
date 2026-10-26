@@ -1,0 +1,2751 @@
+{
+ "url": "https://www.iab.com/events/",
+ "observed_at": "2026-10-26T11:00:40.777Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.iab.com/events/",
+ "status": 200,
+ "error": null,
+ "title": "Events",
+ "h1": "Featured Events",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 535,
+   "new_in_prefix": 535,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 535,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/cb06b6aa-c568-4a77-9f2e-09ccc1b7be07/cb06b6aa-c568-4a77-9f2e-09ccc1b7be07.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/cb06b6aa-c568-4a77-9f2e-09ccc1b7be07/5773fce2-524f-4126-bfa1-d7c729a29035/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202306.2.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202306.2.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202306.2.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DTXR7VJTJE&gtm=45Pe6al1v9246922693za208zd9246922693xf1&_p=1793012444294&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dZTNiMT&cid=2001191681.1793012445&frm=0&ngs=1&pscdl=denied&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul="
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=23143307&currentUrl=https%3A%2F%2Fwww.iab.com%2Fevents%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.iab.com/wp-admin/admin-ajax.php?action=iab_get_events_ajax&p=1&type=upcoming"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.iab.com/wp-admin/admin-ajax.php?action=iab_get_events_ajax&p=1&type=past"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.iab.com/events/#main-content",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Leadership & Advocacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy",
+   "text": "Public Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Centers of Excellence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/legal-affairs/",
+   "text": "Legal Affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/professional-development-and-education-center/",
+   "text": "Professional Development and Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/digital-advertising-policy-resource-center/",
+   "text": "Resources for Policymakers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/shop/",
+   "text": "Learning Shop",
+   "region": "NAV"
+  },
+  {
+   "href": "https://iabtechlab.com/?__hstc=230754752.5a7208ddb7615d9311df556726207f57.1793012448524.1793012448524.1793012448524.1&__hssc=230754752.1.1793012448524&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "IAB Tech Lab",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/artificial-intelligence/",
+   "text": "IAB Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/commerce-center/",
+   "text": "Commerce Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/experience-center/",
+   "text": "Experience Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/measurement-center/",
+   "text": "Measurement Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/media-center/",
+   "text": "Media Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/professional-development-and-education-center/",
+   "text": "Training and Certification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/online-training-access/",
+   "text": "Training Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/commerce-center/",
+   "text": "Commerce Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/experience-center/",
+   "text": "Experience Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/measurement-center/",
+   "text": "Measurement Center",
+   "region": "NAV"
+  },
+  {
+   "href": "http://www.iab.com/organizations/media-center/",
+   "text": "Media Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Market Intelligence & Best Practices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/",
+   "text": "Guidelines & Best Practices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/research/",
+   "text": "Research & Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/insights-engine/",
+   "text": "IAB Insights Engine",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/blog/",
+   "text": "IAB Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Industry Initiatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://safeguardprivacy.com/iab-diligence-platform/",
+   "text": "IAB Diligence Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iabprivacy.com/",
+   "text": "IAB Multi-State Privacy Agreement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/videos/iab-there/",
+   "text": "IAB There",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/videos/iab-pulse/",
+   "text": "IAB Pulse",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-ad-net-zero/",
+   "text": "Ad Net Zero",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/project-eidos/",
+   "text": "Project Eidos",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/cross-channel-measurement-guide-open-for-15-day-public-comment/",
+   "text": "Cross-Channel Measurement Guide Open for 15-Day Public Comment Period",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/getting-digital-out-of-home-on-media-plan/",
+   "text": "Getting Digital Out-of-Home on the Media Plan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/data-clean-rooms-in-commerce-common-use-cases/",
+   "text": "Data Clean Rooms in Commerce: Common Use Cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/a-new-standard-for-classifying-video-advertising/",
+   "text": "A New Standard for Classifying Video Advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/",
+   "text": "Conferences & Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/",
+   "text": "Upcoming Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/faqs/events/",
+   "text": "Event FAQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/download-my-iab-mobile-app/",
+   "text": "IAB Events Mobile App",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/video-on-demand/",
+   "text": "Video On Demand",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/",
+   "text": "AI Transparency and Disclosure WorkshopOct 28",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+   "text": "Beyond IAB CreatorFronts: What’s Next for Creator MarketingNov 12",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/",
+   "text": "Attribution in the AI Era WebinarNov 13",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "2026 IAB State Privacy Law SummitNov 18",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/",
+   "text": "Optimizing Audio For Use In MMM WorkshopNov 18",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting | Register NowFeb 1-3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "2027 IAB NewFronts | Registration is Now Open!Mar 22-25",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "2027 IAB Connected Commerce Summit | Register TodayApr 20",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "2026 IAB State Privacy Law Summit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting | Register Now",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "2027 IAB NewFronts | Registration is Now Open!",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "2027 IAB Connected Commerce Summit | Register Today",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/",
+   "text": "Get Involved",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/unlock-a-world-of-opportunities-by-creating-your-personal-iab-account/",
+   "text": "Create an Account",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/membership/",
+   "text": "Become a Member",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/iabplus/",
+   "text": "IAB+",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/groups/",
+   "text": "Councils & Committees",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/careers/",
+   "text": "Work at IAB",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/#membership-benefits",
+   "text": "Member Benefits",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-membership/",
+   "text": "Tiers and Requirements",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/member-directory/",
+   "text": "Current Members",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-global-network-worldwide-members/",
+   "text": "IAB Global Network",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/member-directory/",
+   "text": "Member Directory",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-global-network-worldwide-members/",
+   "text": "IAB Global Network: Worldwide Members",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/",
+   "text": "Get Involved",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Leadership & Advocacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy",
+   "text": "Public Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Centers of Excellence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/legal-affairs/",
+   "text": "Legal Affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/professional-development-and-education-center/",
+   "text": "Professional Development and Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/digital-advertising-policy-resource-center/",
+   "text": "Resources for Policymakers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/shop/",
+   "text": "Learning Shop",
+   "region": "NAV"
+  },
+  {
+   "href": "https://iabtechlab.com/?__hstc=230754752.5a7208ddb7615d9311df556726207f57.1793012448524.1793012448524.1793012448524.1&__hssc=230754752.1.1793012448524&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "IAB Tech Lab",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/artificial-intelligence/",
+   "text": "IAB Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/commerce-center/",
+   "text": "Commerce Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/experience-center/",
+   "text": "Experience Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/measurement-center/",
+   "text": "Measurement Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/media-center/",
+   "text": "Media Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/professional-development-and-education-center/",
+   "text": "Training and Certification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/online-training-access/",
+   "text": "Training Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/commerce-center/",
+   "text": "Commerce Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/experience-center/",
+   "text": "Experience Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/organizations/measurement-center/",
+   "text": "Measurement Center",
+   "region": "NAV"
+  },
+  {
+   "href": "http://www.iab.com/organizations/media-center/",
+   "text": "Media Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Market Intelligence & Best Practices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/",
+   "text": "Guidelines & Best Practices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/research/",
+   "text": "Research & Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/insights-engine/",
+   "text": "IAB Insights Engine",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/blog/",
+   "text": "IAB Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Industry Initiatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://safeguardprivacy.com/iab-diligence-platform/",
+   "text": "IAB Diligence Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iabprivacy.com/",
+   "text": "IAB Multi-State Privacy Agreement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/videos/iab-there/",
+   "text": "IAB There",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/videos/iab-pulse/",
+   "text": "IAB Pulse",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-ad-net-zero/",
+   "text": "Ad Net Zero",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/project-eidos/",
+   "text": "Project Eidos",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/cross-channel-measurement-guide-open-for-15-day-public-comment/",
+   "text": "Cross-Channel Measurement Guide Open for 15-Day Public Comment Period",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/getting-digital-out-of-home-on-media-plan/",
+   "text": "Getting Digital Out-of-Home on the Media Plan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/data-clean-rooms-in-commerce-common-use-cases/",
+   "text": "Data Clean Rooms in Commerce: Common Use Cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/guidelines/a-new-standard-for-classifying-video-advertising/",
+   "text": "A New Standard for Classifying Video Advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/",
+   "text": "Conferences & Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/",
+   "text": "Upcoming Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/faqs/events/",
+   "text": "Event FAQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/download-my-iab-mobile-app/",
+   "text": "IAB Events Mobile App",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/video-on-demand/",
+   "text": "Video On Demand",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/",
+   "text": "AI Transparency and Disclosure WorkshopOct 28",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+   "text": "Beyond IAB CreatorFronts: What’s Next for Creator MarketingNov 12",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/",
+   "text": "Attribution in the AI Era WebinarNov 13",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "2026 IAB State Privacy Law SummitNov 18",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/",
+   "text": "Optimizing Audio For Use In MMM WorkshopNov 18",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting | Register NowFeb 1-3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "2027 IAB NewFronts | Registration is Now Open!Mar 22-25",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "2027 IAB Connected Commerce Summit | Register TodayApr 20",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "2026 IAB State Privacy Law Summit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting | Register Now",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "2027 IAB NewFronts | Registration is Now Open!",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "2027 IAB Connected Commerce Summit | Register Today",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/",
+   "text": "Get Involved",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/unlock-a-world-of-opportunities-by-creating-your-personal-iab-account/",
+   "text": "Create an Account",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/membership/",
+   "text": "Become a Member",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/topics/iabplus/",
+   "text": "IAB+",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/groups/",
+   "text": "Councils & Committees",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/careers/",
+   "text": "Work at IAB",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/#membership-benefits",
+   "text": "Member Benefits",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-membership/",
+   "text": "Tiers and Requirements",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/member-directory/",
+   "text": "Current Members",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-global-network-worldwide-members/",
+   "text": "IAB Global Network",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/member-directory/",
+   "text": "Member Directory",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/iab-global-network-worldwide-members/",
+   "text": "IAB Global Network: Worldwide Members",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/get-involved/",
+   "text": "Get Involved",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/cart",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:?subject=&body=",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.facebook.com/sharer/sharer.php?u=",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.linkedin.com/sharing/share-offsite/?url=",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://twitter.com/intent/tweet?text=&url=&via=iab",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "Learn More",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/faqs/events/",
+   "text": "IAB Events & Conferences FAQ",
+   "region": "MAIN"
+  },
+  {
+   "href": "javascript:;",
+   "text": "Upcoming Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "javascript:;",
+   "text": "Past Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/brand-academy/",
+   "text": "Brand Academy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/committee-council/",
+   "text": "Committee & Council",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/conferences/",
+   "text": "Conference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/leadership-summit/",
+   "text": "Leadership Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/networking/",
+   "text": "Networking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/online/",
+   "text": "Online",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/town-hall/",
+   "text": "Town Hall",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/training/",
+   "text": "Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/webinar/",
+   "text": "Webinar",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/workshop/",
+   "text": "Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Popular topics",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "A - D",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "E - H",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "I - L",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "M - P",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Q - T",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "U - Z",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/30-years/",
+   "text": "30th Anniversary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/addressability/",
+   "text": "Addressability",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/ad-revenue/",
+   "text": "Advertising Revenue",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/audio/",
+   "text": "Audio",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/brands/",
+   "text": "Brand Disruption",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/brand-safety/",
+   "text": "Brand Safety",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/consumers/",
+   "text": "Consumers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/creator-economy/",
+   "text": "Creator Economy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/ctv/",
+   "text": "CTV",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/digital-video/",
+   "text": "Digital Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/education/",
+   "text": "Education",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/gaming/",
+   "text": "Gaming",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-alm/",
+   "text": "IAB ALM",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-anniversary/",
+   "text": "IAB Anniversary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/insights-engine/",
+   "text": "IAB Insights Engine",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-member-only/",
+   "text": "IAB Member Only",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/state-of-data/",
+   "text": "IAB State of Data Reports",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iabplus/",
+   "text": "IAB+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/legal-affairs/",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/measurement/",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/news/",
+   "text": "News",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/privacy/",
+   "text": "Privacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/professional-development/",
+   "text": "Professional Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/project-eidos/",
+   "text": "Project Eidos",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy/",
+   "text": "Public Policy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy-newsletter/",
+   "text": "Public Policy Newsletter",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/research/",
+   "text": "Research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/retail-media/",
+   "text": "Retail Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/subscriber-only/",
+   "text": "Subscriber Only",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/tech-lab/",
+   "text": "Tech Lab",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/terms-conditions/",
+   "text": "Terms & Conditions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/the-rise-of-retail-media-networks/",
+   "text": "The Rise of Retail Media Networks",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/video-on-demand/",
+   "text": "Video On Demand",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "6",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "7",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "8",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "9",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "10",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "11",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "12",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "13",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "14",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "15",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "16",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "17",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "18",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "20",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "21",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "22",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "23",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "24",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "25",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "31",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "6",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "7",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "8",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "9",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "10",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "11",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "12",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "13",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "14",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "15",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "16",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "17",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "18",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "20",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "21",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "22",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "23",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "24",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "25",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "31",
+   "region": "MAIN"
+  },
+  {
+   "href": "javascript:;",
+   "text": "Apply",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/brand-academy/",
+   "text": "Brand Academy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/committee-council/",
+   "text": "Committee & Council",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/conferences/",
+   "text": "Conference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/leadership-summit/",
+   "text": "Leadership Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/networking/",
+   "text": "Networking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/online/",
+   "text": "Online",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/town-hall/",
+   "text": "Town Hall",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/training/",
+   "text": "Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/webinar/",
+   "text": "Webinar",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/iab_event_type/workshop/",
+   "text": "Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "6",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "7",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "8",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "9",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "10",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "11",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "12",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "13",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "14",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "15",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "16",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "17",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "18",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "20",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "21",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "22",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "23",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "24",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "25",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "31",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "6",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "7",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "8",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "9",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "10",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "11",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "12",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "13",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "14",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "15",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "16",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "17",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "18",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "20",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "21",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "22",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "23",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "24",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "25",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "27",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "28",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "29",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "30",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "31",
+   "region": "MAIN"
+  },
+  {
+   "href": "javascript:;",
+   "text": "Apply",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Popular topics",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "A - D",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "E - H",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "I - L",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "M - P",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Q - T",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "U - Z",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/30-years/",
+   "text": "30th Anniversary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/addressability/",
+   "text": "Addressability",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/ad-revenue/",
+   "text": "Advertising Revenue",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/audio/",
+   "text": "Audio",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/brands/",
+   "text": "Brand Disruption",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/brand-safety/",
+   "text": "Brand Safety",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/consumers/",
+   "text": "Consumers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/creator-economy/",
+   "text": "Creator Economy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/ctv/",
+   "text": "CTV",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/digital-video/",
+   "text": "Digital Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/education/",
+   "text": "Education",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/gaming/",
+   "text": "Gaming",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-alm/",
+   "text": "IAB ALM",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-anniversary/",
+   "text": "IAB Anniversary",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/insights-engine/",
+   "text": "IAB Insights Engine",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iab-member-only/",
+   "text": "IAB Member Only",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/state-of-data/",
+   "text": "IAB State of Data Reports",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/iabplus/",
+   "text": "IAB+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/legal-affairs/",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/measurement/",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/news/",
+   "text": "News",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/privacy/",
+   "text": "Privacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/professional-development/",
+   "text": "Professional Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/project-eidos/",
+   "text": "Project Eidos",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy/",
+   "text": "Public Policy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/public-policy-newsletter/",
+   "text": "Public Policy Newsletter",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/research/",
+   "text": "Research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/retail-media/",
+   "text": "Retail Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/subscriber-only/",
+   "text": "Subscriber Only",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/tech-lab/",
+   "text": "Tech Lab",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/terms-conditions/",
+   "text": "Terms & Conditions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/the-rise-of-retail-media-networks/",
+   "text": "The Rise of Retail Media Networks",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topics/video-on-demand/",
+   "text": "Video On Demand",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Apply",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Clear all",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/influencer-marketing-in-the-age-of-ai-the-legal-issues/",
+   "text": "Influencer Marketing in the Age of AI: The Legal Issues",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/influencer-marketing-in-the-age-of-ai-the-legal-issues/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/legal-affairs",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/influencer-marketing-in-the-age-of-ai-the-legal-issues/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/influencer-marketing-in-the-age-of-ai-the-legal-issues/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/influencer-marketing-in-the-age-of-ai-the-legal-issues/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/",
+   "text": "AI Transparency and Disclosure Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/artificial-intelligence",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/ai-transparency-and-disclosure-workshop/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+   "text": "Beyond IAB CreatorFronts: What’s Next for Creator Marketing",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/creator-economy",
+   "text": "Creator Economy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/",
+   "text": "Attribution in the AI Era Webinar",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/ad-revenue",
+   "text": "Advertising Revenue",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/artificial-intelligence",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/consumers",
+   "text": "Consumers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/retail-media",
+   "text": "Retail Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/the-rise-of-retail-media-networks",
+   "text": "The Rise of Retail Media Networks",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/attribution-in-the-ai-era-webinar/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/",
+   "text": "IAB+ Optimizing Audio For Use In MMM Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/audio",
+   "text": "Audio",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/iabplus",
+   "text": "IAB+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/professional-development",
+   "text": "Professional Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-optimizing-audio-for-use-in-mmm-workshop/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "2026 IAB State Privacy Law Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/legal-affairs",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/privacy",
+   "text": "Privacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-state-privacy-law-summit/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "2027 IAB Annual Leadership Meeting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/iab-alm",
+   "text": "IAB ALM",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/iab-member-only",
+   "text": "IAB Member Only",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-annual-leadership-meeting/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "2027 IAB NewFronts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/digital-video",
+   "text": "Digital Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-newfronts/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "2027 IAB Connected Commerce Summit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/brands",
+   "text": "Brand Disruption",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/consumers",
+   "text": "Consumers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/ctv",
+   "text": "CTV",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/retail-media",
+   "text": "Retail Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/the-rise-of-retail-media-networks",
+   "text": "The Rise of Retail Media Networks",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2027-iab-connected-commerce-summit/#register",
+   "text": "Register Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Load More Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/",
+   "text": "Unlocking the Power of Mobile Gaming: Attention, Audiences & Impact with Zynga Ads+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/gaming",
+   "text": "Gaming",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-audience-what-ai-needs-to-work-in-ctv/",
+   "text": "State of Data Webinar – Beyond Audience: What AI Needs to Actually Work in CTV",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-audience-what-ai-needs-to-work-in-ctv/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/artificial-intelligence",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/ctv",
+   "text": "CTV",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/beyond-audience-what-ai-needs-to-work-in-ctv/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/redefining-media-types-a-shared-language-for-digital-video/",
+   "text": "Redefining Media Types: A Shared Language for Digital Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/redefining-media-types-a-shared-language-for-digital-video/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/digital-video",
+   "text": "Digital Video",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/redefining-media-types-a-shared-language-for-digital-video/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/",
+   "text": "IAB+ Unifying and Harmonizing Measurement Standards Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/iabplus",
+   "text": "IAB+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/measurement",
+   "text": "Measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/professional-development",
+   "text": "Professional Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/american-marketing-association-presents-iab-spotlight-on-ai/",
+   "text": "American Marketing Association Presents IAB Spotlight on AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/american-marketing-association-presents-iab-spotlight-on-ai/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/artificial-intelligence",
+   "text": "Artificial Intelligence",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/american-marketing-association-presents-iab-spotlight-on-ai/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-privacy-compliance-salon/",
+   "text": "2026 IAB Privacy Compliance Salon",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-privacy-compliance-salon/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/legal-affairs",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/privacy",
+   "text": "Privacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-iab-privacy-compliance-salon/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-jupiter-festival/",
+   "text": "2026 Jupiter Festival",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-jupiter-festival/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-jupiter-festival/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-terms-conditions-workshop/",
+   "text": "IAB+ Terms & Conditions (General Terms + Direct Buy) Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-terms-conditions-workshop/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/iabplus",
+   "text": "IAB+",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/professional-development",
+   "text": "Professional Development",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/terms-conditions",
+   "text": "Terms & Conditions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/iab-terms-conditions-workshop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-online-tracking-technology-insights-and-implementation-workshop/",
+   "text": "2026 Online Tracking Technology Insights and Implementation Workshop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-online-tracking-technology-insights-and-implementation-workshop/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/legal-affairs",
+   "text": "Legal Affairs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/2026-online-tracking-technology-insights-and-implementation-workshop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/playfronts-2026/",
+   "text": "2026 IAB PlayFronts",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/playfronts-2026/",
+   "text": "read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/topic/gaming",
+   "text": "Gaming",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/playfronts-2026/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "Load More Events",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.industrycalendar.com/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.iab.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/IAB",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/iab",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/iab/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://instagram.com/iab_com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/IABtv",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/our-story/",
+   "text": "About IAB",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/iab-annual-reports/",
+   "text": "Annual Report",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/contact/",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/global/",
+   "text": "IAB Global Network",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/news/",
+   "text": "Statements & Press",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/careers/",
+   "text": "IAB Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/manage-preferences/",
+   "text": "Manage Email Marketing Preferences",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/policies/",
+   "text": "All Policies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/terms-of-use/",
+   "text": "Terms of Use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/iab-accessibility-statement/",
+   "text": "Accessibility",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.iab.com/events/#",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://cookiepedia.co.uk/giving-consent-to-cookies",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/products/cookie-consent/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

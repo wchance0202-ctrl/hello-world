@@ -1,0 +1,454 @@
+{
+ "url": "https://msi.org/library/",
+ "observed_at": "2026-10-26T10:56:51.716Z",
+ "method": "playwright-chromium",
+ "final_url": "https://msi.org/library/1",
+ "status": 200,
+ "error": null,
+ "title": "Library - MSI",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 82,
+   "new_in_prefix": 82,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 82,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-0GKK9EKZFM&gtm=45je6am0h2v9118025086za208zd9118025086xf1&_p=1793012216230&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=137804265.1793012217&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616985~1159"
+  },
+  {
+   "method": "POST",
+   "url": "https://msi.org/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://msi.org/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5245695417118196:1793009427:6xx_MFAELsSYfrne26tOkcrc_GYiU0PUsA-eUBuKYks/a508efd6cd909a65"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://msi.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://msi.org/library/",
+   "text": "RESOURCES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/event-categories/conferences/",
+   "text": "CONFERENCES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/event-categories/webinars/",
+   "text": "WEBINARS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/",
+   "text": "RESEARCH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/research-support/",
+   "text": "RESEARCH SUPPORT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/msi-research-competition-and-call-for-proposals/",
+   "text": "RESEARCH COMPETITION",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/submit-working-paper/",
+   "text": "SUBMIT WORKING PAPER",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/msi-scholars/",
+   "text": "MSI SCHOLARS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/msi-young-scholars/",
+   "text": "MSI YOUNG SCHOLARS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/research/clayton-dissertation-proposal-competition/",
+   "text": "ALDEN G. CLAYTON AWARD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/awards-programs/",
+   "text": "AWARDS PROGRAMS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/initiatives/",
+   "text": "INITIATIVES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/navigating-uncertainty-strategic-insights-for-marketers-and-brands/",
+   "text": "NAVIGATING UNCERTAINTY: STRATEGIC INSIGHTS FOR MARKETERS AND BRANDS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/marketing-mix-models-initiative/",
+   "text": "MARKETING MIX MODELS INITIATIVE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/msi-solutions/",
+   "text": "SOLUTIONS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/msi-privacy-regulations-initiative-2/",
+   "text": "PRIVACY REGULATIONS INITIATIVE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/healthcare-initiative/",
+   "text": "OUTCOMES-BASED HEALTHCARE INITIATIVE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/insightsexchange/",
+   "text": "INSIGHTS EXCHANGE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/msi-community/",
+   "text": "COMMUNITY",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/news-from-msi/",
+   "text": "NEWS FROM MSI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/msi-arf-b2b-exchange/",
+   "text": "MSI/ARF B2B EXCHANGE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/marketing-connections/",
+   "text": "MSI PODCAST",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/community/expert-directory/",
+   "text": "EXPERT NETWORK",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/about/",
+   "text": "ABOUT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/about/staff/",
+   "text": "STAFF",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/about/member-companies/",
+   "text": "MEMBER COMPANIES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/about/committees/",
+   "text": "COMMITTEES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/events-calendar/",
+   "text": "EVENTS CALENDAR",
+   "region": "NAV"
+  },
+  {
+   "href": "https://my.msi.org/services/oauth2/authorize?response_type=code&client_id=3MVG9gTv.DiE8cKTnPO2az3PBGviBaApHlE2PLpsg4mGhHKrC4c.mwWDNQ0o69yDb4HFhlGomlp6VzANyptvB&scope=openid+email+profile&redirect_uri=https%3A%2F%2Fmsi.org%2F&state=https%3A%2F%2Fmsi.org%2Flibrary%2F",
+   "text": "Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "View all Research Recap",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "Research Recap",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/customer-engagement-in-social-media-platforms-findings-from-a-longitudinal-field-experiment",
+   "text": "View",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "RESEARCH RECAP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/generative-ai-for-content-targeting-at-scale/",
+   "text": "Generative AI for Content Targeting at Scale",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#working-paper",
+   "text": "WORKING PAPER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/working-paper/generative-personalization-with-textual-and-non-textual-data/",
+   "text": "Generative Personalization with Textual and Non-textual Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "RESEARCH RECAP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/how-ai-will-replace-some-but-augment-other-marketing-jobs/",
+   "text": "How AI Will Replace Some—But Augment Other—Marketing Jobs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#working-paper",
+   "text": "WORKING PAPER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/working-paper/marketing-ai-exposure-applicability-breadth-substitution-depth-and-job-outcomes/",
+   "text": "Marketing AI Exposure: Applicability Breadth, Substitution Depth, and Job Outcomes",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "RESEARCH RECAP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/the-key-to-brand-growth-in-mind-in-stock-and-in-genai-responses/",
+   "text": "The Key to Brand Growth? In Mind, In Stock--and In GenAI Responses",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#working-paper",
+   "text": "WORKING PAPER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/working-paper/tri-system-brand-growth-the-ai-mediation-layer/",
+   "text": "Tri-System Brand Growth: The AI Mediation Layer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "RESEARCH RECAP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/augmented-reality-augments-sales-how-to-measure-and-manage/",
+   "text": "Augmented Reality Augments Sales: How to Measure and Manage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#working-paper",
+   "text": "WORKING PAPER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/working-paper/measuring-what-matters-in-ar-marketing-with-the-augmented-reality-experience-scale-ares/",
+   "text": "Measuring What Matters in AR Marketing with the Augmented Reality Experience Scale (ARES)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#research-recap",
+   "text": "RESEARCH RECAP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/research-recap/how-genai-can-distort-search-results-and-how-to-stop-it/",
+   "text": "How GenAI Can Distort Search Results (And How to Stop It)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/#working-paper",
+   "text": "WORKING PAPER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/working-paper/competitive-dynamics-of-ranking-manipulations-on-large-language-model-based-search-engines/",
+   "text": "Competitive Dynamics of Ranking Manipulations on Large Language Model-Based Search Engines",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "First",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "Last",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://msi.org/contact-us/",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "EXPLORE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/library/",
+   "text": "Resources",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/news-from-msi/",
+   "text": "News",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "LEARN MORE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/about/",
+   "text": "About MSI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/marketing-connections/",
+   "text": "Community",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/library/1#",
+   "text": "GET CONNECTED",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/community/expert-directory/",
+   "text": "Meet Our Experts",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.linkedin.com/company/marketing-science-institute",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/MarketingScienceInstitute",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/MktgScience",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel: +1 617 491-2060",
+   "text": "+1 617 491-2060",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto: msi@msi.org",
+   "text": "msi@msi.org",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/terms-of-use/",
+   "text": "Terms of Use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://msi.org/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "MAIN"
+  }
+ ]
+}

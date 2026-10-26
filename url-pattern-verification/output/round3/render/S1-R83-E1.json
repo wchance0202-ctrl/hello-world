@@ -1,0 +1,408 @@
+{
+ "url": "https://www.contagious.com/news-and-views",
+ "observed_at": "2026-10-26T11:01:39.476Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.contagious.com/en/news-and-views",
+ "status": 200,
+ "error": null,
+ "title": "News & views",
+ "h1": "News & Views",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 40,
+   "new_in_prefix": 40,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 40,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://transcend-cdn.com/cm/ef49a3f1-d8c1-47d6-88fc-50e41130631f/translations/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/auth/profile"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdn.builder.io/api/v1/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/news-and-views/all?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=2092701217.1793012505&dt=News%20%26%20views&en=page_view&dl=https%3A%2F%2Fwww.contagious.com%2Fen%2Fnews-and-views&scrsrc=www.googletagmanager.com&rnd=637450723.1793012505&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v9209818275za200zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/contagious-iq?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/events?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "POST",
+   "url": "https://n.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/sa.jpeg"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/news-and-views/all"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6al1v9219650960za20ozb9209818275zd9209818275xf1&_p=1793012504962&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&cid=496111549.1793012506&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/news-and-views?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/contagious-iq"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/events"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=km-0DhWNSDppa-5HcZBGag&is_js=true&landing_url=https%3A%2F%2Fwww.contagious.com%2Fen%2Fnews-and-views&t=News%20%26%20views&tip=nIbu7QqUrOESY8Uf9bcWLyIVSZcoDT8bFqfCs_M_5tQ&host=https%3A%2F%2Fwww.contagious.com&sa_conv_data_css_value=%27CiQwMWExNzdkZi05YzcxLTdiZTctOTUwZi1mZDhjN2I0ZjU0NjgQBBoCTkEgNg%27&sa_conv_data_image_value=ffd8ffe000104a46494600010101006"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/reports?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/resources/podcast?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/request-a-demo?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17183769252/?random=1793012506695&cv=11&fst=1793012506695&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z89209818275za20gzb9209818275zd9209818275xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.contagious.com%2Fen%2Fnews-and-views&rcb=14&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&ae=g&auid=2092701217.1793012505&dt=News%20%26%20views&tid=AW-17183769252&dl=https%3A%2F%2Fwww.contagious.com%2Fen%2Fnews-and-views&scrsrc=www.googletagmanager.com&rnd=637450723.1793012505&navt=n&npa=0&_tu=CA&gtm=45be6al1z89209818275za20gzb9209818275zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~1188979"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/news-and-views"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/reports"
+  },
+  {
+   "method": "POST",
+   "url": "https://n.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/resources/podcast"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/request-a-demo"
+  },
+  {
+   "method": "POST",
+   "url": "https://n.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6al1v9219650960z89209818275za20gzb9209818275zd9209818275xf1&_p=1793012504962&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAAAQ&cid=496111549.1793012506&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv="
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/about-us?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/get-in-touch?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/submit-your-work?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/event-sponsorship?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/newsletter?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/about-us"
+  },
+  {
+   "method": "POST",
+   "url": "https://n.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/submit-your-work"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/event-sponsorship"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/get-in-touch"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/terms-of-use-contagious-ai?_rsc=s4BN9myoPPGuZ_9J"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/newsletter"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/terms-of-use-contagious-ai"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.contagious.com/en/news-and-views#main-content",
+   "text": "ArrowDown\n\nSkip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/",
+   "text": "Contagious logo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/contagious-iq",
+   "text": "Contagious IQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Events & Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/news-and-views",
+   "text": "News & Views",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/resources/podcast",
+   "text": "Podcast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/request-a-demo",
+   "text": "Request a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34",
+   "text": "Carl’s Jr makes a meal of rivals’ one-star reviews",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/news-and-views/all",
+   "text": "View all\n\nChevronRight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/news-and-views/all",
+   "text": "View allChevronRight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34",
+   "text": "Carl’s Jr makes a meal of rivals’ one-star reviews",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/the-stage-could-be-yours-4b7420cf8e904f2bae6824c9f4ad8a03",
+   "text": "The stage could be yours",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/the-new-rules-of-social-media-marketing-72dbbb5049414501b6b92b90511da609",
+   "text": "The new rules of social media marketing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125",
+   "text": "Flipkart turns Gen Z slang into savings",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/coupon-comments-533ef8798350471dbc66ebb68a707e0a",
+   "text": "Penny puts a price on being funny in the comments",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/how-brands-are-winning-in-2026-lessons-from-the-contagious-brands-report-45181bee5c68495fb2349b6aca9dd2ae",
+   "text": "How brands are winning in 2026: Lessons from the Contagious Brands Report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/news-and-views/wheels-4-wheels-ae62e4ac769e4a43b5888d2d922cbc15",
+   "text": "Bolt turns e-scooters into accessibility mapping tools",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/article/the-chaos-advantage-a413f67270b44021a9477a9166633e59",
+   "text": "The Chaos Advantage",
+   "region": "BODY"
+  },
+  {
+   "href": "https://privacy.informa.com/policies/en/",
+   "text": "privacy policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/about-us",
+   "text": "About us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Our events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/get-in-touch",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/submit-your-work",
+   "text": "Submit your work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/event-sponsorship",
+   "text": "Event sponsorship",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/newsletter",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/about-us",
+   "text": "About us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Our events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/get-in-touch",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/submit-your-work",
+   "text": "Submit your work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/event-sponsorship",
+   "text": "Event sponsorship",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/newsletter",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/company/contagious-communications",
+   "text": "LinkedinCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/contagious",
+   "text": "InstagramCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://x.com/contagious",
+   "text": "TwitterCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.facebook.com/contagiousmag",
+   "text": "FacebookCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/terms-and-conditions",
+   "text": "Terms & Conditions\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/website-terms-of-use",
+   "text": "Website Terms of Use\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/copyright-policy",
+   "text": "Copyright Policy\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/terms-of-use-contagious-ai",
+   "text": "Terms of use for Contagious AI",
+   "region": "BODY"
+  }
+ ]
+}

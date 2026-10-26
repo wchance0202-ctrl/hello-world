@@ -1,0 +1,752 @@
+{
+ "url": "https://www.branch.io/use-cases/",
+ "observed_at": "2026-10-26T11:03:10.231Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.branch.io/use-cases/",
+ "status": 200,
+ "error": null,
+ "title": "How Branch Helps Drive Mobile Growth - Use Cases | Branch",
+ "h1": "Built for mobile growth",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 124,
+   "new_in_prefix": 124,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 126,
+   "new_in_prefix": 2,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 126,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=1223660&u=https%3A%2F%2Fwww.branch.io%2Fuse-cases%2F&vn=2.2&ph=1&st=454.20000000006985&x=true"
+  },
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-1812c0acae942a04cd4f8b40cf6cf31a.br.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-6581d5c0e6f8bd1fa564683a7853a317.br.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/nc-dd9e0c7dab1bf38311adad8bb210147f.br.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.rudderstack.com/sourceConfig/?p=cdn&v=3.35.1&build=modern&writeKey=3Ki5VumtStkr3ygnVoFzkyhdOhI&lockIntegrationsVersion=true&lockPluginsVersion=true"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/use-case-hero.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/Use-Cases-Basic-Flow-The-Real-Real.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/Use-Cases-Basic-Flow-TBS.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/Use-Cases-Basic-Flow-Instacart.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/Use-Cases-Basic-Flow-Boohoo.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/Use-Cases-Basic-Flow-The-Joe-and-Juice.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.branch.io/wp-content/uploads/2026/02/strava_use_case.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/ad2157bc-3975-42a2-8a67-40a25e675d27/ad2157bc-3975-42a2-8a67-40a25e675d27.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/ad2157bc-3975-42a2-8a67-40a25e675d27/0197b2e0-0a90-77e4-b1d2-1b0b7a8e7671/en.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/conversions/c/j"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202208.1.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202208.1.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202208.1.0/assets/otCookieSettingsButton.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202208.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://branchsetsbgxs.dataplane.rudderstack.com/v1/page"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/conversions/c/j"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.branch.io/use-cases/#wp--skip-link--target",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.branch.io/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.branch.io/products/",
+   "text": "Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#",
+   "text": "Left Column",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/engagement/",
+   "text": "Engagement\nIncrease conversions from owned and organic channels.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/performance/",
+   "text": "Performance\nImprove ads ROI with sophisticated attribution.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/activation/",
+   "text": "Activation\nDrive actions with branded short links and QR codes.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/discovery/",
+   "text": "Discovery\nReach your users with targeted programmatic media buying.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#",
+   "text": "Right column",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/data-exports/",
+   "text": "Data Exports\nGet your data where and how you want it, on your schedule.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/ivyai/",
+   "text": "Ivy\nIntelligence that accelerates growth.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/banners/",
+   "text": "Banners\nTargeted web-to-app banners that convert browsers into buyers.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/linkhub/",
+   "text": "Link Management\nCreate, manage, and analyze links at scale",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/deep-linking/",
+   "text": "Deep Linking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/attribution/",
+   "text": "Attribution",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/advanced-compliance/",
+   "text": "Advanced Compliance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/health-industry-hub/",
+   "text": "Health",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/finance-industry-hub/",
+   "text": "Finance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/retail-and-e-commerce-industry-hub/",
+   "text": "Retail & E-commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/food-and-beverage-industry-hub/",
+   "text": "Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/media-and-entertainment-industry-hub/",
+   "text": "Media & Entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/travel-industry-hub/",
+   "text": "Travel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/partners/",
+   "text": "Partners Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/",
+   "text": "Learn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/blog/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/guide/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/glossary/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/white-paper/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/webinar/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/podcast/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/case-study/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/events/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://university.branch.io/paths",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/mobile-growth-maturity-assessment/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.branch.io/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/pricing/",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.branch.io/signin",
+   "text": "Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/contact-sales/",
+   "text": "Request a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/contact-sales/",
+   "text": "Request a demo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/deep-linking/",
+   "text": "Learn more about deep linking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/attribution/",
+   "text": "Learn more about attribution",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/advanced-compliance/",
+   "text": "Learn more about Advanced Compliance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/payoneer-unlocks-mobile-app-growth-by-leveraging-branch-smart-banners/",
+   "text": "Learn how payoneer drove 204K installs",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/products/banners/",
+   "text": "Learn more about smart banners",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/6thstreet-drives-60-higher-app-installs-and-13-roas-growth-with-branch/",
+   "text": "Learn how 6thStreet increased conversions from paid ads",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/products/performance/",
+   "text": "Learn more about Branch Performance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/engagement-builder/",
+   "text": "Learn more about audience building",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/a-e-networks-optimizes-campaign-performance-and-measurement-efforts-horizon-media/",
+   "text": "Learn how A&E Networks optimized OTT campaign performance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/household-measurement/",
+   "text": "Learn more about household measurement",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/ancestry-increases-app-engagement-by-3x-using-branchs-universal-email/",
+   "text": "Learn how Ancestry tripled its app engagement with Branch",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/universal-email/",
+   "text": "Learn more about Branch for email",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/seo-app-attribution/",
+   "text": "Learn more about SEO App Attribution",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/kentucky-fried-chicken-how-qr-codes-and-a-pub-drove-an-85-lift-in-app-installs/",
+   "text": "Learn how KFC scaled QR codes across its restaurants",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/qr-codes/",
+   "text": "Learn more about Branch’s QR code solution",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/rtlzwei-breaks-channel-barriers-to-grow-app-installs-by-20-percent/",
+   "text": "Learn how RTLZWEI drove installs and engagement from social",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/blog/mobile-apps-and-healthcare-maximizing-revenue-and-efficiency/",
+   "text": "Learn how Branch helps healthcare companies reduce their cost to serve",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/health-industry-hub/",
+   "text": "Go to health",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/finance-industry-hub/",
+   "text": "Go to finance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/retail-and-e-commerce-industry-hub/",
+   "text": "Go to retail & ecommerce",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/food-and-beverage-industry-hub/",
+   "text": "Go to food & beverage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/media-and-entertainment-industry-hub/",
+   "text": "Go to media & entertainment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/guides/travel-industry-hub/",
+   "text": "Go to travel",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/partners/",
+   "text": "Partners",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/housing-com-sees-30-yoy-lead-growth-by-spotting-real-business-drivers/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/case-study/",
+   "text": "CASE STUDY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/housing-com-sees-30-yoy-lead-growth-by-spotting-real-business-drivers/",
+   "text": "Read more\n: Housing.com Sees 30% YOY Lead Growth by Spotting Real Business Drivers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/how-toters-unified-app-strategy-increased-app-opens-by-503/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/case-study/",
+   "text": "CASE STUDY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/how-toters-unified-app-strategy-increased-app-opens-by-503/",
+   "text": "Read more\n: How Toters’ Unified App Strategy Increased App Opens by 503%",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/how-a-fortune-100-retailer-rebuilt-its-mobile-foundation-to-outpace-desktop/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/case-study/",
+   "text": "CASE STUDY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/resources/case-study/how-a-fortune-100-retailer-rebuilt-its-mobile-foundation-to-outpace-desktop/",
+   "text": "Read more\n: How a Fortune 100 Retailer Rebuilt Its Mobile Foundation To Outpace Desktop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/contact-sales/",
+   "text": "Request a demo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.branch.io/products/",
+   "text": "Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/engagement/",
+   "text": "Engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/performance/",
+   "text": "Performance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/activation/",
+   "text": "Activation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/discovery/",
+   "text": "Discovery",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/data-exports/",
+   "text": "Data Exports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/ivyai/",
+   "text": "AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/linkhub/",
+   "text": "Link Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/products/banners/",
+   "text": "Banners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/deep-linking/",
+   "text": "Deep Linking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/attribution/",
+   "text": "Attribution",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/advanced-compliance/",
+   "text": "Advanced Compliance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/health-industry-hub/",
+   "text": "Health",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/finance-industry-hub/",
+   "text": "Finance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/retail-and-e-commerce-industry-hub/",
+   "text": "Retail & E-commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/food-and-beverage-industry-hub/",
+   "text": "Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/media-and-entertainment-industry-hub/",
+   "text": "Media & Entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/guide/travel-industry-hub/",
+   "text": "Travel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/partners/",
+   "text": "Partners Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/",
+   "text": "Learn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/blog/",
+   "text": "Blogs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/guide/",
+   "text": "Guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/glossary/",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/white-paper/",
+   "text": "White Papers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/webinar/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/podcast/",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://university.branch.io/paths/",
+   "text": "Branch University",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/mobile-growth-maturity-assessment/",
+   "text": "Maturity Assessment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.branch.io/",
+   "text": "Help Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#0",
+   "text": "Company",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/about/",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/careers/culture/",
+   "text": "Culture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/leadership/",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/resources/category/news/",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/brand/",
+   "text": "Brand Guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/contact/",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/pricing/",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://legal.branch.io/saas/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://legal.branch.io/website-terms-of-service/",
+   "text": "Terms of Service",
+   "region": "NAV"
+  },
+  {
+   "href": "https://legal.branch.io/saas/privacy-opt-out/",
+   "text": "Opt-Out",
+   "region": "NAV"
+  },
+  {
+   "href": "https://legal.branch.io/discovery/",
+   "text": "Discovery Policies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.branch.io/use-cases/#cookie-banner-modal-link",
+   "text": "Your Privacy Choices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/branch-metrics/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/@Branch-Metrics",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://cookiepedia.co.uk/giving-consent-to-cookies",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

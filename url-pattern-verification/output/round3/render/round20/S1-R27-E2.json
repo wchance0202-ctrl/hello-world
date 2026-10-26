@@ -1,0 +1,2317 @@
+{
+ "url": "https://www.euromonitor.com/webinar",
+ "observed_at": "2026-10-26T10:58:31.811Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.euromonitor.com/webinar",
+ "status": 200,
+ "error": null,
+ "title": "Market Research, Data Analysis and Business Intelligence Webinars - Euromonitor.com",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 228,
+   "new_in_prefix": 228,
+   "clicked": "Load More"
+  },
+  {
+   "round": 1,
+   "anchors": 240,
+   "new_in_prefix": 7,
+   "clicked": "Load More"
+  },
+  {
+   "round": 2,
+   "anchors": 251,
+   "new_in_prefix": 10,
+   "clicked": "Load More"
+  },
+  {
+   "round": 3,
+   "anchors": 263,
+   "new_in_prefix": 7,
+   "clicked": "Load More"
+  },
+  {
+   "round": 4,
+   "anchors": 275,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 5,
+   "anchors": 286,
+   "new_in_prefix": 8,
+   "clicked": "Load More"
+  },
+  {
+   "round": 6,
+   "anchors": 298,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 7,
+   "anchors": 310,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 8,
+   "anchors": 322,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 9,
+   "anchors": 333,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 10,
+   "anchors": 344,
+   "new_in_prefix": 8,
+   "clicked": "Load More"
+  },
+  {
+   "round": 11,
+   "anchors": 356,
+   "new_in_prefix": 9,
+   "clicked": "Load More"
+  },
+  {
+   "round": 12,
+   "anchors": 368,
+   "new_in_prefix": 10,
+   "clicked": "Load More"
+  },
+  {
+   "round": 13,
+   "anchors": 380,
+   "new_in_prefix": 10,
+   "clicked": "Load More"
+  },
+  {
+   "round": 14,
+   "anchors": 389,
+   "new_in_prefix": 7,
+   "clicked": "Load More"
+  },
+  {
+   "round": 15,
+   "anchors": 389,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv4.pdscrb.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://p.typekit.net/p.gif?s=1&k=php8ozf&ht=tk&h=www.euromonitor.com&f=139.173.175.176.5474.5475.25136.23591.23595.23596.23597.23605.23609.23611&a=87830525&js=1.13.0&app=typekit&e=js&_=1793012314442"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/cc637a/00000000000000007735de0a/30/m?features=ALL&v=4&chunks=63.533&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/f6d7e0/00000000000000007735de0b/30/m?features=ALL&v=4&chunks=63.533&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/7e8037/00000000000000007735de07/30/m?features=ALL&v=4&chunks=63.533&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/f55f81/00000000000000007735de06/30/m?features=ALL&v=4&chunks=63.533&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/97665d/00000000000000007735de18/30/m?features=ALL&v=4&chunks=63.535&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/e7105f/00000000000000007735de15/30/m?features=ALL&v=4&chunks=63.535&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/40c3c7/00000000000000007735de1a/30/m?features=ALL&v=4&chunks=63.535&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd/0198add1-e3f6-7b38-8102-8c10a669f174/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://euromonitor.halocrm.io/api/chatprofile/10f93e7b-c412-425d-8805-d494e76916ee?key=179bb107-3c86-4cab-941c-c776b4fe95ff&check_available=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6D3QFKH8G9&gtm=45je6al1v869383771za20ozb9230715334zd9230715334xf1&_p=1793012313133&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=AAAAAGAC&cid=1334780419.1793012315&frm=0&pscdl=denied&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linu"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar&scrsrc=www.googletagmanager.com&rnd=787774187.1793012315&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6al1v9230715334za200zd9230715334xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120385422~12"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-shims.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v5-font-face.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-font-face.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://kit.fontawesome.com/af8acba4f8/97913804/kit-upload.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&tid=AW-11300803089&en=page_view&dl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar&scrsrc=www.googletagmanager.com&rnd=787774187.1793012315&navt=n&npa=1&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6al1v9171504249za20ozb9230715334zd9230715334xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938469~118897920~118897930~12021311"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/otCenterRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/v2/otPcTab.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/api/SiteSettings/GetStates"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/api/sitesettings/getstates"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_2tig2Hc1H1QpeVl&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=9"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=12"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=15"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=18"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=21"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=24"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=27"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=30"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=33"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=36"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=39"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=42"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=45"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=48"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/abstractinsightslandingpage/loadmorecards?pageId=103546&contentType=Webinars&take=3&skip=51"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.euromonitor.com/webinar#content",
+   "text": "Skip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/newsroom",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://go.euromonitor.com/newsletter-sign-up.html",
+   "text": "Sign up",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "English (Default)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/de",
+   "text": "DE / Deutsch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/es",
+   "text": "ES / Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/fr",
+   "text": "FR / Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/jp",
+   "text": "JP / 日本語",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/kr",
+   "text": "KR / 한국어",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/pt",
+   "text": "PT / Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.portal.euromonitor.com/",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/myprofile",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar#",
+   "text": "0\nNumber of items in cart: 0",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cartpage",
+   "text": "View Cart",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "Visit the Euromonitor International homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/connect",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/connect/api",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/Passport-academics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/e-commerce",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/sustainability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/loyalty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/consumers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/marketing-claims",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/industry-benchmarking",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/opportunity-assessment",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/market-landscape-report",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/ipo-prospectus",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/export-guidebook",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/product-positioning",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/channel-forecasting",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/e-commerce-tracking",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/advertising-and-media-agencies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/financial-services",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/professional-services-firms",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/trade-promotion-organisations",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/Passport-academics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions",
+   "text": "View all solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/content-licensing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "Buy reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#industry",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#geographies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#companies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#consumers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store#report-types",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "View all reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/appliances-electronics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/automotive-mobility",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/consumer-foodservice",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/drinks",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/food-nutrition",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/health-beauty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/home-products",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/industrial-markets",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/ingredients-packaging",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/luxury-fashion",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/nicotine-cannabis",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/payments-lending",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/retail-ecommerce",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/sports",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/travel",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "View all industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/us-israel-iran-war-impact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/trending-topics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar#ae804146f995b4b61bb63154a2322e09d",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar#ab2591bb675b6435fb3e0f4e86b32d54c",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar#a653ed45e9ed34f9598904934240bf687",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar#a900a1aebc467452491487e8ca517e76a",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/loyalty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/market-research-in-action",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/wellness",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/appliances-and-electronics",
+   "text": "Appliances and Electronics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-foodservice",
+   "text": "Consumer Foodservice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/drinks",
+   "text": "Drinks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/food-and-nutrition",
+   "text": "Food and Nutrition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/home-products",
+   "text": "Home Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/industrial-markets",
+   "text": "Industrial Markets",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/ingredients-and-packaging",
+   "text": "Ingredients and Packaging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/luxury-fashion",
+   "text": "Luxury and Fashion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/nicotine-and-cannabis",
+   "text": "Nicotine and Cannabis",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/payments-and-lending",
+   "text": "Payments and Lending",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/asia-pacific",
+   "text": "Asia Pacific",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/australasia",
+   "text": "Australasia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/europe",
+   "text": "Europe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/latin-america",
+   "text": "Latin America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/middle-east-and-north-africa",
+   "text": "Middle East and North Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/north-america",
+   "text": "North America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sub-saharan-africa",
+   "text": "Sub-Saharan Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/article",
+   "text": "Articles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/podcast",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/video",
+   "text": "Videos",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/whitepaper",
+   "text": "Whitepapers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "View all insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "Who we are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-experts",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/awards-and-recognition",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/about-us",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/our-history",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/meet-the-team",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/research-methodology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/corporate-social-responsibility",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/diversity-equity-and-inclusion",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/office-locations",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/search",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/appliances-and-electronics",
+   "text": "Appliances and Electronics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-foodservice",
+   "text": "Consumer Foodservice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/drinks",
+   "text": "Drinks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/food-and-nutrition",
+   "text": "Food and Nutrition",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/home-products",
+   "text": "Home Products",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/industrial-markets",
+   "text": "Industrial Markets",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/ingredients-and-packaging",
+   "text": "Ingredients and Packaging",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/luxury-fashion",
+   "text": "Luxury and Fashion",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/nicotine-and-cannabis",
+   "text": "Nicotine and Cannabis",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/payments-and-lending",
+   "text": "Payments and Lending",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/loyalty",
+   "text": "Loyalty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/wellness",
+   "text": "Wellness",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "Euromonitor",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-us-marketing-claims.html",
+   "text": "No claim, no gain: Winning your category with irrefutable data",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-us-marketing-claims.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/appliances-and-electronics",
+   "text": "Appliances and Electronics",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-on-demand-shoptalk-europe-2026.html",
+   "text": "Navigating rapid AI adoption in European retail",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-on-demand-shoptalk-europe-2026.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar",
+   "text": "E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-opportunities-in-global-sportswear.html",
+   "text": "Sportswear to 2030: Strategies for growth and resilience",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-opportunities-in-global-sportswear.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Apparel-and-Footwear&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar",
+   "text": "Apparel and Footwear",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-the-new-engines-of-loyalty.html",
+   "text": "New loyalty engines: Who drives choice?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-the-new-engines-of-loyalty.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/loyalty",
+   "text": "Loyalty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-gct-next-asian-wave.html",
+   "text": "Next Asian Wave: Strategies influencing global markets",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-gct-next-asian-wave.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-travel-from-disruption-to-recovery-navigating-the-new-travel-landscape-in-the-middle-east.html",
+   "text": "Navigating the new travel landscape in the Middle East",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-travel-from-disruption-to-recovery-navigating-the-new-travel-landscape-in-the-middle-east.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-ai-shopping-session-1-asia-europe.html",
+   "text": "How AI is rewiring the traditional shopper funnel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-ai-shopping-session-1-asia-europe.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar",
+   "text": "E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2026-consumer-trends-and-industry-insights.html",
+   "text": "2026 Consumer Trends and Industry Insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2026-consumer-trends-and-industry-insights.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumer-health-2025-asia-pacific-outlook.html",
+   "text": "2025 Asia Pacific Outlook: Consumer Health trends & opportunities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumer-health-2025-asia-pacific-outlook.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Consumer-Health&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar",
+   "text": "Asia-Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economic-outlook-for-2026.html",
+   "text": "Economic Outlook for 2026: Global Forecasts and Insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economic-outlook-for-2026.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-whats-in-the-basket.html",
+   "text": "What’s in the basket? Unpacking which sustainability claims drive consumer purchases across Europe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-whats-in-the-basket.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/europe",
+   "text": "Europe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-eyes-on-africa-2025.html",
+   "text": "Eyes on Africa 2025 - Unlocking consumer goods growth opportunities in Africa",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-eyes-on-africa-2025.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=lifestyles&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D9",
+   "text": "Lifestyles",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-video-snacks-industry-trends-sharing.html",
+   "text": "2025 Asia Pacific Outlook: Snacks trends and opportunities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-video-snacks-industry-trends-sharing.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Packaged-Food&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D12",
+   "text": "Packaged Food",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Retailing&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D12",
+   "text": "Retail",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-video-bpc-industry-trends-sharing.html",
+   "text": "2025 Asia Pacific Outlook: Beauty trends & opportunities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-video-bpc-industry-trends-sharing.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Beauty-and-Personal-Care&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D12",
+   "text": "Beauty and Personal Care",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D12",
+   "text": "Asia-Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-innovation-deminar-202507.html",
+   "text": "Faster, smarter innovation: Leveraging e-commerce insight to track and predict NPD success",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-innovation-deminar-202507.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-trump-policies-impact-across-industries",
+   "text": "The Business of Uncertainty: Impact of Trump Policies Across Industries",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-trump-policies-impact-across-industries",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-ecommerce-finding-the-next-big-thing.html",
+   "text": "Finding the next big thing: Digitally native disruptors in FMCG",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-ecommerce-finding-the-next-big-thing.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D15",
+   "text": "E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2025-consumer-trends-and-industry-insights.html",
+   "text": "2025 Consumer Trends and Industry Insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2025-consumer-trends-and-industry-insights.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economic-outlook-for-2025.html",
+   "text": "Economic Outlook for 2025: Global Forecasts and Insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economic-outlook-for-2025.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D18",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-kwave-in-southeast-asia-impact-and-strategies.html",
+   "text": "K-wave in Southeast Asia webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-kwave-in-southeast-asia-impact-and-strategies.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D18",
+   "text": "Asia-Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-innovation-passport-innovation-live-product-demo.html",
+   "text": "Passport Innovation: Live product demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-innovation-passport-innovation-live-product-demo.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D18",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-sustainable-transformation.html",
+   "text": "Sustainable Transformation: Aligning Brand Claims with Positive Change",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-sustainable-transformation.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D21",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-passport-ai-live-demo.html",
+   "text": "Passport AI: Live demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-passport-ai-live-demo.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=passport&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D21",
+   "text": "Passport",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-innovation-product-demo.html?utm_source=website&utm_medium=webinar&utm_campaign=WB_24_05_22_LON_UK_NPD_Innovation_Product_Demo_2024+",
+   "text": "Passport Innovation: Live Product Demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-innovation-product-demo.html?utm_source=website&utm_medium=webinar&utm_campaign=WB_24_05_22_LON_UK_NPD_Innovation_Product_Demo_2024+",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-customer-loyalty-in-the-mea-region.html?utm_source=webinar&utm_medium=website&utm_campaign=WB_24_01_25_LIVE_Customer_Loyalty",
+   "text": "Customer Loyalty in the MEA Region",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-customer-loyalty-in-the-mea-region.html?utm_source=webinar&utm_medium=website&utm_campaign=WB_24_01_25_LIVE_Customer_Loyalty",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/loyalty",
+   "text": "Loyalty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=dubai&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D24",
+   "text": "Dubai",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2024-consumer-trends-to-watch.html?utm_source=webinar&utm_medium=website&utm_campaign=WB_24_02_08_LIVE_2024_Consumer_Trends_to_Watch",
+   "text": "2024 Consumer Trends to Watch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-2024-consumer-trends-to-watch.html?utm_source=webinar&utm_medium=website&utm_campaign=WB_24_02_08_LIVE_2024_Consumer_Trends_to_Watch",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=global-consumer-trends&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D24",
+   "text": "Global Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-230504-mastering-ecommerce-growth.html?utm_source=website+&utm_medium=webinar&utm_campaign=WB_23_05_04_LIVE_Mastering_E-Commerce_Growth",
+   "text": "Mastering E-Commerce Growth: How to Win Online Amid Uncertainty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-230504-mastering-ecommerce-growth.html?utm_source=website+&utm_medium=webinar&utm_campaign=WB_23_05_04_LIVE_Mastering_E-Commerce_Growth",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D24",
+   "text": "E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumers-230413-Top_APAC_Consumer_Trends_2023.html?utm_source=insights_page&utm_medium=website&utm_campaign=Top_APAC_Consumer_Trends_2023",
+   "text": "Global Consumer Trends in Asia Pacific 2023",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumers-230413-Top_APAC_Consumer_Trends_2023.html?utm_source=insights_page&utm_medium=website&utm_campaign=Top_APAC_Consumer_Trends_2023",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=global-consumer-trends&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D27",
+   "text": "Global Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "Innovation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-230202-2023-digital-shopper-trends.html?utm_source=website+&utm_medium=webinar&utm_campaign=WB_23_02_02_REC_2023+Digital+Shopper+Trends",
+   "text": "2023 Digital Shopper Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-230202-2023-digital-shopper-trends.html?utm_source=website+&utm_medium=webinar&utm_campaign=WB_23_02_02_REC_2023+Digital+Shopper+Trends",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=digital-shopper&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D27",
+   "text": "Digital Shopper",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economies-221129-global-economy-2023.html?utm_source=webinar&utm_medium=website&utm_campaign=Global_Economy_2023",
+   "text": "Global Economy 2023: What are the Key Recession Risks?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economies-221129-global-economy-2023.html?utm_source=webinar&utm_medium=website&utm_campaign=Global_Economy_2023",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D27",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-health-and-beauty-221110-personalisation-in-health-beauty.html?utm_source=webinar&utm_medium=website&utm_campaign=How_Personalisation_is_Shaping_Health_and_Beauty_Sectors",
+   "text": "How Personalisation is Shaping Health and Beauty Sectors",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-health-and-beauty-221110-personalisation-in-health-beauty.html?utm_source=webinar&utm_medium=website&utm_campaign=How_Personalisation_is_Shaping_Health_and_Beauty_Sectors",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D30",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-221020-building-resilience-in-CEE.html?utm_source=webinar&utm_medium=website&utm_campaign=Building_Resilience_During_Economic_Uncertainty_in_CEE&utm_content=Economic_Uncertainty",
+   "text": "Building Resilience During Economic Uncertainty in CEE",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-221020-building-resilience-in-CEE.html?utm_source=webinar&utm_medium=website&utm_campaign=Building_Resilience_During_Economic_Uncertainty_in_CEE&utm_content=Economic_Uncertainty",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=economy-finance-and-trade&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D30",
+   "text": "Economy, Finance and Trade",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SAN-consumerfoodservice-220929-food_on-demand_in_LATAM.html?utm_source=webinar_page&utm_medium=webiste&utm_campaign=EV_22_09_29_FDB_SAN_DIG_Jeto_Food_on-demand_in_Latam",
+   "text": "Explorando la era de alimentos on-demand",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SAN-consumerfoodservice-220929-food_on-demand_in_LATAM.html?utm_source=webinar_page&utm_medium=webiste&utm_campaign=EV_22_09_29_FDB_SAN_DIG_Jeto_Food_on-demand_in_Latam",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=spanish&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D30",
+   "text": "Spanish",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/latin-america",
+   "text": "Latin America",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-220920-new-era-of-consumerism.html?utm_source=webinar_page&utm_medium=webiste&utm_campaign=The_New_Era_of_Consumerism&utm_content=The_New_Era_of_Consumerism",
+   "text": "The New Era of Consumerism",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-220920-new-era-of-consumerism.html?utm_source=webinar_page&utm_medium=webiste&utm_campaign=The_New_Era_of_Consumerism&utm_content=The_New_Era_of_Consumerism",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=households&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D33",
+   "text": "Households",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-economies-220830-Emerging_ASEAN.html?utm_source=insight_page&utm_medium=website&utm_campaign=EV_22_08_30_FDB_SIN_DIG_Jeto_Emerging_ASEAN",
+   "text": "EXPERT TALK Emerging ASEAN in the New Economic Era",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-economies-220830-Emerging_ASEAN.html?utm_source=insight_page&utm_medium=website&utm_campaign=EV_22_08_30_FDB_SIN_DIG_Jeto_Emerging_ASEAN",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "Economies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D33",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-finance-220726-bnpl.html?utm_source=insight_page&utm_medium=webiste&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later&utm_term=Buy_Now_Pay_Later&utm_content=Buy_Now_Pay_Later_Webinar",
+   "text": "Buy Now, Pay Later: Trends, Challenges and Drivers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-finance-220726-bnpl.html?utm_source=insight_page&utm_medium=webiste&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later&utm_term=Buy_Now_Pay_Later&utm_content=Buy_Now_Pay_Later_Webinar",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/payments-and-lending",
+   "text": "Payments and Lending",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Retailing&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D33",
+   "text": "Retail",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-220628-seizing-sustainable-opportunities.html?utm_source=insight_page&utm_medium=website&utm_campaign=WB_22_06_28_REC_Seizing_Sustainable_Opportunities",
+   "text": "How to Attract and Win Customers with Sustainable Products",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-220628-seizing-sustainable-opportunities.html?utm_source=insight_page&utm_medium=website&utm_campaign=WB_22_06_28_REC_Seizing_Sustainable_Opportunities",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-travel-220622-Travel_Transformation_in_ASEAN.html?utm_source=insight_page&utm_medium=website&utm_campaign=EV_22_06_22_FDB_SIN_DIG_Jeto_Travel_Transformation_in_ASEAN",
+   "text": "How to Thrive with Travel Transformation in ASEAN’s New Normal",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-travel-220622-Travel_Transformation_in_ASEAN.html?utm_source=insight_page&utm_medium=website&utm_campaign=EV_22_06_22_FDB_SIN_DIG_Jeto_Travel_Transformation_in_ASEAN",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D36",
+   "text": "Asia-Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-via-220531-tracking-inflation.html?utm_source=insight_page&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends",
+   "text": "Inflation at Breakfast: Tracking Inflation from a Variety of Perspectives",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-via-220531-tracking-inflation.html?utm_source=insight_page&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/food-and-nutrition",
+   "text": "Food and Nutrition",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=commodities&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D36",
+   "text": "Commodities",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-consumers-220511-top_global_consumer_trends_APAC.html?utm_source=insights_page&utm_medium=website&utm_campaign=EV_22_05_11_SIN_DIG_Jeto_2022_Top_Global_Consumer_Trends_in_APAC",
+   "text": "2022 Top Consumer Trends in Asia Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/event-SIN-consumers-220511-top_global_consumer_trends_APAC.html?utm_source=insights_page&utm_medium=website&utm_campaign=EV_22_05_11_SIN_DIG_Jeto_2022_Top_Global_Consumer_Trends_in_APAC",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D39",
+   "text": "Asia-Pacific",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economies-consumers-220426-future-of-work-and-education.html",
+   "text": "The Future of Work and Education",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-economies-consumers-220426-future-of-work-and-education.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-cannabis-22420-cannabis-and-modern-relaxation.html?utm_source=website&utm_medium=website&utm_campaign=WB_22_04_20_REC_4_20_Cannabis",
+   "text": "Role of Cannabis in Modern Relaxation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-cannabis-22420-cannabis-and-modern-relaxation.html?utm_source=website&utm_medium=website&utm_campaign=WB_22_04_20_REC_4_20_Cannabis",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=cannabis&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D39",
+   "text": "Cannabis",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=tobacco&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D39",
+   "text": "Tobacco",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumer-health-220412-self-love-product-claims-in-consumer-health.html",
+   "text": "How To Drive Product Innovation Using Health Product Claims",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumer-health-220412-self-love-product-claims-in-consumer-health.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Consumer-Health&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D42",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D42",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-EC_2022-Global-Consumer-Trends-GMT.html",
+   "text": "Top 10 Global Consumer Trends 2022",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-EC_2022-Global-Consumer-Trends-GMT.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "Consumer Trends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=lifestyles&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D42",
+   "text": "Lifestyles",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-220202-top-5-digital-consumer-trends-2022.html",
+   "text": "Top 5 Digital Consumer Trends in 2022",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-digital-consumer-220202-top-5-digital-consumer-trends-2022.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=digital-shopper&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D42",
+   "text": "Digital Shopper",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-211123-Applying-Megatrends-To-Business-Models.html?utm_source=website&utm_medium=website&utm_campaign=WB_21_11_23_LIVE_Quantifying_Megatrends_How_Businesses_Use_the_Data",
+   "text": "Quantifying Megatrends: Building Future Strategies with Confidence",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-211123-Applying-Megatrends-To-Business-Models.html?utm_source=website&utm_medium=website&utm_campaign=WB_21_11_23_LIVE_Quantifying_Megatrends_How_Businesses_Use_the_Data",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=megatrends&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D45",
+   "text": "Megatrends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D45",
+   "text": "Webinar",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-retail-2021-commerce-2040-future-of-the-store.html",
+   "text": "Commerce 2040: The Future of the Store in a Digital World",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-retail-2021-commerce-2040-future-of-the-store.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Retailing&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D45",
+   "text": "Retail",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "Digital",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-megatrends-210408-quantifying-megatrends.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_04_08_LIVE_Intro_Megatrends_Index",
+   "text": "Quantifying Megatrends: Expanding Your Portfolio in the Right Spaces",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-megatrends-210408-quantifying-megatrends.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_04_08_LIVE_Intro_Megatrends_Index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=megatrends&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D45",
+   "text": "Megatrends",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-travel-top-100-city-destinations-210311.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_11_REC_Top_100_Cities",
+   "text": "Top 100 City Destinations: From Adversity to Recovery",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-travel-top-100-city-destinations-210311.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_11_REC_Top_100_Cities",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-21-03-23-sustainability-to-purpose-the-new-way-of-doing-business.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_23_LIVE_Sustainability_to_Purpose",
+   "text": "From Sustainability to Purpose: The New Way of Doing Business",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-sustainability-21-03-23-sustainability-to-purpose-the-new-way-of-doing-business.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_23_LIVE_Sustainability_to_Purpose",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "Sustainability",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumers-210204-top-digital-consumer-trends-2021.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_02_04_REC_Digital_Consumer_Trends_2021",
+   "text": "Top Five Digital Consumer Trends in 2021",
+   "region": "BODY"
+  },
+  {
+   "href": "https://go.euromonitor.com/webinar-consumers-210204-top-digital-consumer-trends-2021.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_02_04_REC_Digital_Consumer_Trends_2021",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=digital-shopper&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D48",
+   "text": "Digital Shopper",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport",
+   "text": "Passport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research",
+   "text": "Custom Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "Buy reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/content-licensing",
+   "text": "Content licensing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/e-commerce",
+   "text": "E-commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/innovation",
+   "text": "Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/sustainability",
+   "text": "Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/consumers",
+   "text": "Consumers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/economies",
+   "text": "Economies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://go.euromonitor.com/newsletter-sign-up.html",
+   "text": "Join our community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "Who we are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/about-us",
+   "text": "About us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/how-we-use-ai",
+   "text": "How we use AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/careers",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/corporate-social-responsibility",
+   "text": "Corporate social responsibility",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/diversity-equity-and-inclusion",
+   "text": "Diversity, equity and inclusion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events-past",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/newsroom",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cookie-policy",
+   "text": "Cookies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/footer/corporate-governance.pdf",
+   "text": "Corporate governance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/CSR/reportpaygap26-2.pdf",
+   "text": "Gender Pay Gap report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/2025-modern-slavery-statement.pdf",
+   "text": "Modern Slavery Act",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/privacy-policy",
+   "text": "Privacy policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/terms-and-conditions",
+   "text": "Terms and conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/security-posture",
+   "text": "Security posture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/sitemap",
+   "text": "Sitemap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Get in touch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cartpage",
+   "text": "Shopping cart",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/definitions",
+   "text": "Definitions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/euromonitor/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.instagram.com/euromonitorint/?igshid=YmMyMTA2M2Y%3D",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/euromonitor-international",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.youtube.com/user/Euromonitor",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.tiktok.com/@euromonitorinternational",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s?__biz=MzI2ODA4OTYzMw==&mid=2650221568&idx=1&sn=83cd7f6287335c652387d9b487112b24&chksm=f2f76c4ec580e558c152532a7b1f26d98941bac43aca7582e37f8b1aef96ba5dd8ae723a3b17&token=444607437&lang=zh_CN#rd",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cookie-policy",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

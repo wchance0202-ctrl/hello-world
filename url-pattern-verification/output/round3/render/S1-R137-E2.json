@@ -1,0 +1,839 @@
+{
+ "url": "https://www.talkwalker.com/resources?category=Reports",
+ "observed_at": "2026-10-26T11:04:23.170Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.talkwalker.com/resources?category=Reports",
+ "status": 200,
+ "error": null,
+ "title": "Talkwalker Resources: Social Listening Case Studies & Research",
+ "h1": "Consumer intelligence is in our DNA",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 105,
+   "new_in_prefix": 105,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 105,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 105,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/LmwyCnUAijaU47fv/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://o3805.ingest.us.sentry.io/api/6608832/envelope/?sentry_key=f44c14ec894c4667b3fd34b84042794d&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.120.3"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/LmwyCnUAijaU47fv/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/LmwyCnUAijaU47fv/visitor_events?wu=6140f5c7-3793-4495-baa4-93b5d5b34cad&uuid=1893aefc-0278-4dd6-a7fc-7da559b732a2"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/events"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/index.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/why-talkwalker.json?locale=why-talkwalker"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resources/case-studies.json?locale=resources&slug=case-studies"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/pricing.json?locale=pricing"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/free-demo.json?locale=free-demo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resources.json?category=Reports&locale=resources"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resources.json?locale=resources"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/us-brand-love-2022.json?locale=resource&slug=reports&slug=us-brand-love-2022"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/social-listening-analytics-for-tv-broadcasters.json?locale=resource&slug=reports&slug=social-listening-analytics-for-tv-broadcasters"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/voc-report.json?locale=resource&slug=reports&slug=voc-report"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9ZZYCN29EN&gtm=45je6al1v871248176z89192213468za20gzb9192213468zd9192213468xf1&_p=1793012663594&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1374634705&_eu=EAAAAGAC&cid=214614386.1793012666&frm=0&ir=1&pscdl=denied&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&"
+  },
+  {
+   "method": "GET",
+   "url": "https://edge.fullstory.com/s/settings/o-1A0H2C-na1/v1/web"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/0196f9c1-8fcc-785e-821a-bd272edab675/0196f9c1-8fcc-785e-821a-bd272edab675.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/LmwyCnUAijaU47fv/visitor_events?wu=6140f5c7-3793-4495-baa4-93b5d5b34cad&uuid=1893aefc-0278-4dd6-a7fc-7da559b732a2"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/events"
+  },
+  {
+   "method": "POST",
+   "url": "https://rs.fullstory.com/rec/page"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/0196f9c1-8fcc-785e-821a-bd272edab675/019ce334-52f8-7a21-95f0-4888a1b9a596/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otFloatingRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/v2/otPcPanel.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.talkwalker.com%2Fresources%3Fcategory%3DReports&scrsrc=www.googletagmanager.com&rnd=824032857.1793012667&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6al1v9192213468za200zd9192213468xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JS4LZ8JD27&gtm=45je6al1v873109728za20ozb9192213468zd9192213468xf1&_p=1793012663594&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=AAAAAGAC&cid=214614386.1793012666&frm=0&pscdl=denied&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&tid=AW-821506853&en=page_view&dl=https%3A%2F%2Fwww.talkwalker.com%2Fresources%3Fcategory%3DReports&scrsrc=www.googletagmanager.com&rnd=824032857.1793012667&navt=n&npa=1&did=dYWJhMj&gdid=dYWJhMj&gtm=45je6al1v873109728za20ozb9192213468zd9192213468xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938466~115938469"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv6.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://epsilon.6sense.com/v3/company/details"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/refresh"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/?m=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=o-1A0H2C-na1&UserId=7c9f9538-d91a-4b00-a589-058a10f48903&SessionId=eea80aff-a6c2-40c1-9143-11d6fe743ced&PageId=1e587a80-e902-423a-a495-4302a3be8c95&Seq=1&ClientTime=1793012669332&CompiledVersion=9177873e332ed500eceb15ab9a0ab6d2fa758635&PageStart=1793012666724&PrevBundleTime=0&LastActivity=2345&IsNewSession=true&ContentEncoding=gzip"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9ZZYCN29EN&gtm=45je6al1v871248176z89192213468za20gzb9192213468zd9192213468xf1&_p=1793012663594&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1374634705&_eu=EAAAAGAC&cid=214614386.1793012666&frm=0&ir=1&pscdl=denied&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&"
+  },
+  {
+   "method": "POST",
+   "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=o-1A0H2C-na1&UserId=7c9f9538-d91a-4b00-a589-058a10f48903&SessionId=eea80aff-a6c2-40c1-9143-11d6fe743ced&PageId=1e587a80-e902-423a-a495-4302a3be8c95&Seq=2&ClientTime=1793012671799&CompiledVersion=9177873e332ed500eceb15ab9a0ab6d2fa758635&PageStart=1793012666724&PrevBundleTime=1793012669571&LastActivity=4840&IsNewSession=true&ContentEncoding=gzip"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/social-media-audience-trends-during-the-pandemic.json?locale=resource&slug=reports&slug=social-media-audience-trends-during-the-pandemic"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/shape-tomorrow-mea.json?locale=resource&slug=reports&slug=shape-tomorrow-mea"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports/smart-social-report.json?locale=resource&slug=reports&slug=smart-social-report"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/products/social-listening.json?locale=products&slug=social-listening"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/products/social-benchmarking.json?locale=products&slug=social-benchmarking"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/products/media-monitoring.json?locale=products&slug=media-monitoring"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/products/audience-insights.json?locale=products&slug=audience-insights"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/products/customer-feedback-analytics.json?locale=products&slug=customer-feedback-analytics"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/consumer-goods.json?locale=solutions&slug=consumer-goods"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/sports.json?locale=solutions&slug=sports"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/media.json?locale=solutions&slug=media"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/financial-services.json?locale=solutions&slug=financial-services"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/pharmaceuticals-healthcare.json?locale=solutions&slug=pharmaceuticals-healthcare"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/technology.json?locale=solutions&slug=technology"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/solutions/agencies.json?locale=solutions&slug=agencies"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog.json?locale=blog"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/resource/reports.json?locale=resource&slug=reports"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/about-us.json?locale=about-us"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/life-at-talkwalker.json?locale=life-at-talkwalker"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/news.json?locale=news"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/contact-us.json?locale=contact-us"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/forrester-ai-enabled-consumer-intelligence-platforms-leader.json?locale=blog&slug=forrester-ai-enabled-consumer-intelligence-platforms-leader"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/social-media-listening-guide.json?locale=blog&slug=social-media-listening-guide"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/social-media-analytics-guide.json?locale=blog&slug=social-media-analytics-guide"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/pr-crisis-management.json?locale=blog&slug=pr-crisis-management"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/consumer-intelligence-guide.json?locale=blog&slug=consumer-intelligence-guide"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/blog/best-osint-tools.json?locale=blog&slug=best-osint-tools"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/legal.json?locale=legal"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.talkwalker.com/_next/data/jfTlCSKlL4qZpNMxvQoUU/impressum.json?locale=impressum"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9ZZYCN29EN&gtm=45je6al1v871248176z89192213468za20gzb9192213468zd9192213468xf1&_p=1793012663594&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&ecid=1374634705&_eu=EAAAAGAC&cid=214614386.1793012666&frm=0&ir=1&pscdl=denied&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B1"
+  },
+  {
+   "method": "POST",
+   "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=o-1A0H2C-na1&UserId=7c9f9538-d91a-4b00-a589-058a10f48903&SessionId=eea80aff-a6c2-40c1-9143-11d6fe743ced&PageId=1e587a80-e902-423a-a495-4302a3be8c95&Seq=3&ClientTime=1793012676799&CompiledVersion=9177873e332ed500eceb15ab9a0ab6d2fa758635&PageStart=1793012666724&PrevBundleTime=1793012672021&LastActivity=4055&IsNewSession=true&ContentEncoding=gzip"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JS4LZ8JD27&gtm=45je6al1v873109728za20gzb9192213468zd9192213468xf1&_p=1793012663594&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=AEAAAGAC&ae=a&cid=214614386.1793012666&frm=0&pscdl=denied&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap="
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.hootsuite.com/webinars/re-connect-2026?utm_source=talkwalker&utm_medium=butter-bar&utm_campaign=reconnect-2026&utm_content=talkwalker-site-banner-navy",
+   "text": "Save my seat",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources?category=Reports#start-of-content",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.talkwalker.com/",
+   "text": "homepage",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.talkwalker.com/why-talkwalker",
+   "text": "Why us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/social-listening",
+   "text": "Social listening",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/media-monitoring",
+   "text": "Media monitoring",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/social-benchmarking",
+   "text": "Social benchmarking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/audience-insights",
+   "text": "Audience insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/customer-feedback-analytics",
+   "text": "Customer feedback analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/social-content-ratings",
+   "text": "Social content ratings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/marketplace",
+   "text": "Marketplace",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/data",
+   "text": "Data coverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/consumer-goods",
+   "text": "Consumer goods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/pharmaceuticals-healthcare",
+   "text": "Pharmaceuticals healthcare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/sports",
+   "text": "Sports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/media",
+   "text": "Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/financial-services",
+   "text": "Financial services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/technology",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/pr-communication",
+   "text": "PR & comms",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/social-media-managers",
+   "text": "Social marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/digital-marketing",
+   "text": "Digital marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/consumer-insights",
+   "text": "Consumer insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/customer-experience",
+   "text": "Customer experience",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/agencies",
+   "text": "Agencies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/use-cases/reputation-management",
+   "text": "Reputation management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/use-cases/crisis-management",
+   "text": "Crisis management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/use-cases/competitive-intelligence",
+   "text": "Competitive intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/use-cases/trend-research",
+   "text": "Trend research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/customer-feedback-analytics/location-insights",
+   "text": "Location insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/use-cases/product-insights",
+   "text": "Product insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources",
+   "text": "Resource library",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://helpcenter.talkwalker.com/",
+   "text": "Help center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/free-social-media-monitoring-analytics-tools",
+   "text": "Free tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources/case-studies",
+   "text": "Customer stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/pricing",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.talkwalker.com/app/login",
+   "text": "Sign in",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.talkwalker.com/free-demo",
+   "text": "Request a demo",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.talkwalker.com/",
+   "text": "homepage",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.talkwalker.com/free-demo",
+   "text": "Request a demo",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.talkwalker.com/",
+   "text": "homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/why-talkwalker",
+   "text": "Why us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources/case-studies",
+   "text": "Customer stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/pricing",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.talkwalker.com/app/login",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/free-demo",
+   "text": "Request a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources?category=Reports",
+   "text": "Apply",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources",
+   "text": "Clear",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/us-brand-love-2022",
+   "text": "US Brand Love 2022 - How sustainability builds love Brand Love is back for 2022. This year Talkwalker teamed up with Hoo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+   "text": "Social Listening & Analytics for TV Broadcasters Understand how TV producers and broadcasters benefits from social insig",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/voc-report",
+   "text": "What voice of the customer can do for your brand Discover how to collect customer feedback about a product or service, n",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence",
+   "text": "White paper: Blue Silk™ GPT for consumer intelligence A look at the latest development in AI technology, and how GPT wil",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/uniqlo-brand-report",
+   "text": "UNIQLO brand report With Talkwalker’s AI-powered consumer intelligence platform, we dissect the UNIQLO brand by analyzin",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+   "text": "UK Utilities Industry Established and Challenger energy providers are shaping the tomorrow of their industry to adapt to",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food",
+   "text": "Birdseye Report: Industry deep dive - Food We partnered with Twitter to analyze the food industry, and tap into the conv",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/towards-a-winning-social-media-strategy-learning-from-10-leading-insurance-brands",
+   "text": "Social Media Strategy from 10 Leading Insurance Brands Using Talkwalker social listening to monitor and analyse the soci",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/state-of-social-intelligence-report",
+   "text": "Case study - State of Social Intelligence Report How do you rate your Social Intelligence? Learn how industry experts li",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic",
+   "text": "Social Media Audience Trends during the Pandemic Social Media audience trends since the Pandemic - where audiences are s",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/shape-tomorrow-mea",
+   "text": "Shape Tomorrow Middle East & Africa Report Our MEA report on how today’s consumer connections will shape your brand’s fu",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports/smart-social-report",
+   "text": "Smart Social Report To explore the latest in social media trends, we decided to work alongside our new partners at Khoro",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/en-us/resources?page=1",
+   "text": "1\npage 1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/en-us/resources?page=2",
+   "text": "2\ngo to page 2",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/en-us/resources?page=3",
+   "text": "3\ngo to page 3",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/en-us/resources?page=4",
+   "text": "4\ngo to page 4",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources?category=Reports&page=2",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.talkwalker.com/",
+   "text": "Talkwalker homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/social-listening",
+   "text": "Social listening",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/social-benchmarking",
+   "text": "Social benchmarking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/media-monitoring",
+   "text": "Media monitoring",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/audience-insights",
+   "text": "Audience insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/products/customer-feedback-analytics",
+   "text": "Customer feedback analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://apps.hootsuite.com/",
+   "text": "Marketplace",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/consumer-goods",
+   "text": "Consumer goods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/sports",
+   "text": "Sports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/media",
+   "text": "Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/financial-services",
+   "text": "Financial services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/pharmaceuticals-healthcare",
+   "text": "Pharma & healthcare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/technology",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/solutions/agencies",
+   "text": "Agency",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resource/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/resources",
+   "text": "Marketing essentials",
+   "region": "NAV"
+  },
+  {
+   "href": "https://status.talkwalker.com/",
+   "text": "Talkwalker status",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.talkwalker.com/",
+   "text": "Developer portal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/about-us",
+   "text": "Our story",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/life-at-talkwalker",
+   "text": "Life @ Talkwalker",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/news",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/forrester-ai-enabled-consumer-intelligence-platforms-leader",
+   "text": "The Forrester New Wave™",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/social-media-listening-guide",
+   "text": "Social media listening guide",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/social-media-analytics-guide",
+   "text": "Social media analytics guide",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/pr-crisis-management",
+   "text": "PR crisis management guide",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/consumer-intelligence-guide",
+   "text": "Consumer intelligence guide",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.talkwalker.com/blog/best-osint-tools",
+   "text": "Best OSINT tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/cookies",
+   "text": "Cookies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.talkwalker.com/legal",
+   "text": "Legal Terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/privacy",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.talkwalker.com/impressum",
+   "text": "Impressum",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/talkwalker",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/talkwalker",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/Talkwalker",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/cookies",
+   "text": "Cookie Notice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/cookies",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

@@ -23,7 +23,7 @@ SEED = 20261026
 
 
 def read_jsonl(p):
-    return [json.loads(l) for l in Path(p).read_text(encoding="utf-8").splitlines() if l.strip()]
+    return [json.loads(l) for l in Path(p).read_text(encoding="utf-8").split("\n") if l.strip()]
 
 
 def main(r2, raw):

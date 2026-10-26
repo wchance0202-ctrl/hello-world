@@ -1,0 +1,1504 @@
+{
+ "url": "https://wingify.com/resources/",
+ "observed_at": "2026-10-26T11:04:42.926Z",
+ "method": "playwright-chromium",
+ "final_url": "https://wingify.com/resources/",
+ "status": 200,
+ "error": null,
+ "title": "Resources On Testing, Personalization, Customer Experience & Web Experimentation | Wingify",
+ "h1": "Explore the thinking behind better experiences",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 276,
+   "new_in_prefix": 276,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 276,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://app.wingify.com/login/status"
+  },
+  {
+   "method": "GET",
+   "url": "https://wingify.com/bd_list.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/2e8e9622-176d-4f09-b346-9a6b8e00251d/2e8e9622-176d-4f09-b346-9a6b8e00251d.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SG3VFDK4EH&gtm=45je6al1v9127931514za20ozb6604445zd6604445xf1&_p=1793012683379&gcs=G100&gcd=13p3p3V3p5l1&npa=1&dma_cps=-&dma=0&_eu=AAAAACAC&cid=1259893288.1793012686&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/2e8e9622-176d-4f09-b346-9a6b8e00251d/019eaba4-ab9d-721e-8897-e0d3c9e406f2/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://edge.wingify.net/cdn/analysis/4.0/worker-70faafffa0475802f5ee03ca5ff74179br.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcTab.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/insights/c/q"
+  },
+  {
+   "method": "GET",
+   "url": "https://grsm.io/pr/grc/pk_FyqmcwyBfFkWpXIa7exFj5v8Os0SyvQ8?get_pscd=true"
+  },
+  {
+   "method": "GET",
+   "url": "https://pxl.sprouts.ai/config/c944f98b4f0db1b1d70a1ab2706a3a7f.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://affiliates.vwo.com/pr/grc/pk_FyqmcwyBfFkWpXIa7exFj5v8Os0SyvQ8"
+  },
+  {
+   "method": "GET",
+   "url": "https://partnerlinks.io/pr/grc/pk_FyqmcwyBfFkWpXIa7exFj5v8Os0SyvQ8"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.vector.co/pixel/ip-info"
+  },
+  {
+   "method": "POST",
+   "url": "https://rec02-us01.wingify.net/analyze?_a=1271785&_u=https%3A%2F%2Fwingify.com%2Fresources%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.clearbit.com/v1/p"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.vector.co/pixel/phoenix/rp/j?dtstmp=1793012688981&did=did-006l&se=e30&duid=42d71f8fb8ee--01m5vy4rt3jrafmqp5bxr43r3n&tv=v3.17.0&pu=https%3A%2F%2Fwingify.com%2Fresources%2F&wpn=lc-bundle&wpv=v3.17.0&cd=.wingify.com&pv=aa473baa-c4bb-4980-a8d6-ece99d937747"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.vector.co/pixel/phoenix/rp/j?dtstmp=1793012688981&did=did-006l&se=e30&duid=42d71f8fb8ee--01m5vy4rt3jrafmqp5bxr43r3n&tv=v3.17.0&pu=https%3A%2F%2Fwingify.com%2Fresources%2F&wpn=lc-bundle&wpv=v3.17.0&cd=.wingify.com&pv=aa473baa-c4bb-4980-a8d6-ece99d937747&n3pc=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://rec02-us01.wingify.net/analyze?_a=1271785&_u=https%3A%2F%2Fwingify.com%2Fresources%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/insights/c/q"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://wingify.com/blog/vwo-and-ab-tasty-join-forces/",
+   "text": "Learn about the merger",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://wingify.com/experimentation/",
+   "text": "Experimentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/ab-testing/",
+   "text": "A/B Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/split-url-testing/",
+   "text": "Split URL Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/multivariate-testing/",
+   "text": "Multivariate Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/",
+   "text": "Personalization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/predictive-data/",
+   "text": "Predictive Data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/emotions-ai/",
+   "text": "Emotions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/data-studio/",
+   "text": "Data Studio",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/segmentation-targeting/",
+   "text": "Segmentation & Targeting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/",
+   "text": "Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/user-feedback/",
+   "text": "User Feedback",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/behaviour-analytics/",
+   "text": "Behavior Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/journey-analytics/",
+   "text": "Journey Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/",
+   "text": "Feature Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-rollout/",
+   "text": "Feature Rollouts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-experimentation/",
+   "text": "Feature Experimentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-personalization/",
+   "text": "Feature Personalization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/mobile-app-testing/",
+   "text": "Mobile App Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/",
+   "text": "Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/search/",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/recommendations/",
+   "text": "Recommendations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/merchandising/",
+   "text": "Merchandising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/customer-engagement/",
+   "text": "Customer Engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/wingz-ai/",
+   "text": "Wingz AI\n                        \n                                            \n                    \n                    ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/platform/",
+   "text": "Wingify Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/why-wingify/",
+   "text": "Why Wingify?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/data-platform/",
+   "text": "Data Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/program-management/",
+   "text": "Program Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/marketing/",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/product/",
+   "text": "Product",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/data-analytics/",
+   "text": "Data Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/ux-ui/",
+   "text": "UX/ UI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/digital-transformation/",
+   "text": "Digital Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/engineering/",
+   "text": "Engineering",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/merchandising/",
+   "text": "Merchandising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/retail-and-ecommerce/",
+   "text": "Retail & ecommerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/travel-and-hospitality/",
+   "text": "Travel & Hospitality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/media-and-publishing/",
+   "text": "Media & Publishing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/saas-and-technology/",
+   "text": "SaaS & Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/enterprises/",
+   "text": "For Enterprise                \n                            \n            \n                One platform, fully governed, g",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/blog/",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/ebooks/",
+   "text": "Ebooks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/guides/",
+   "text": "Guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/glossary/",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "Success Stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/webinars/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/podcast/",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/tools/",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/product-updates/",
+   "text": "Product Updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.wingify.com/",
+   "text": "Knowledge Base",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/resources/",
+   "text": "All Resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/pricing/",
+   "text": "Plans",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/about-us/",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/leadership/",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/offices/",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/news/",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/media-kit/",
+   "text": "Media Kit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/contact/",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/security/",
+   "text": "Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/information-security-policy/",
+   "text": "Information Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/conduct/",
+   "text": "Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/responsible-ai-policy/",
+   "text": "Responsible AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/responsible-disclosure-policy/",
+   "text": "Responsible Disclosure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms of Use",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/",
+   "text": "Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/affiliate/",
+   "text": "Affiliate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/agencies/",
+   "text": "Agency",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/integrations/",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.wingify.com/",
+   "text": "Wingify Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://auth.abtasty.com/login",
+   "text": "AB Tasty Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/demo/",
+   "text": "Get a Demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/free-trial/",
+   "text": "Start Trial",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/",
+   "text": "Experimentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/ab-testing/",
+   "text": "A/B Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/split-url-testing/",
+   "text": "Split URL Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/experimentation/multivariate-testing/",
+   "text": "Multivariate Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/",
+   "text": "Personalization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/predictive-data/",
+   "text": "Predictive Data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/emotions-ai/",
+   "text": "Emotions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/data-studio/",
+   "text": "Data Studio",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/segmentation-targeting/",
+   "text": "Segmentation & Targeting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/",
+   "text": "Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/user-feedback/",
+   "text": "User Feedback",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/behaviour-analytics/",
+   "text": "Behavior Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/journey-analytics/",
+   "text": "Journey Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/",
+   "text": "Feature Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-rollout/",
+   "text": "Feature Rollouts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-experimentation/",
+   "text": "Feature Experimentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/feature-personalization/",
+   "text": "Feature Personalization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/mobile-app-testing/",
+   "text": "Mobile App Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/",
+   "text": "Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/search/",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/recommendations/",
+   "text": "Recommendations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/merchandising/",
+   "text": "Merchandising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/customer-engagement/",
+   "text": "Customer Engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/wingz-ai/",
+   "text": "Wingz AI\n                        \n                                            \n                    \n                    ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/platform/",
+   "text": "Wingify Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/why-wingify/",
+   "text": "Why Wingify?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/data-platform/",
+   "text": "Data Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/program-management/",
+   "text": "Program Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/marketing/",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/product/",
+   "text": "Product",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/data-analytics/",
+   "text": "Data Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/ux-ui/",
+   "text": "UX/ UI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/digital-transformation/",
+   "text": "Digital Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/engineering/",
+   "text": "Engineering",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/merchandising/",
+   "text": "Merchandising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/retail-and-ecommerce/",
+   "text": "Retail & ecommerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/travel-and-hospitality/",
+   "text": "Travel & Hospitality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/media-and-publishing/",
+   "text": "Media & Publishing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/saas-and-technology/",
+   "text": "SaaS & Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/enterprises/",
+   "text": "For Enterprise                \n                            \n            \n                One platform, fully governed, g",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/blog/",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/ebooks/",
+   "text": "Ebooks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/guides/",
+   "text": "Guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/glossary/",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "Success Stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/webinars/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/podcast/",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/tools/",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/product-updates/",
+   "text": "Product Updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.wingify.com/",
+   "text": "Knowledge Base",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/resources/",
+   "text": "All Resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/pricing/",
+   "text": "Plans",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/about-us/",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/leadership/",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/offices/",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/news/",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/media-kit/",
+   "text": "Media Kit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/contact/",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/security/",
+   "text": "Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/information-security-policy/",
+   "text": "Information Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/conduct/",
+   "text": "Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/responsible-ai-policy/",
+   "text": "Responsible AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compliance/responsible-disclosure-policy/",
+   "text": "Responsible Disclosure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms of Use",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/",
+   "text": "Partner Program",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/affiliate/",
+   "text": "Affiliate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/agencies/",
+   "text": "Agency",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/integrations/",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.wingify.com/",
+   "text": "Wingify Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://auth.abtasty.com/login",
+   "text": "AB Tasty Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/demo/",
+   "text": "Get a Demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "Blog",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "Success Stories",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/webinars/",
+   "text": "Webinars",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/podcast/",
+   "text": "Podcasts",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "Events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/ebooks/",
+   "text": "Ebooks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/glossary/",
+   "text": "Glossary",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/guides/",
+   "text": "Guides",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/tools/",
+   "text": "Free tools",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.wingify.com/hc/en-us",
+   "text": "Knowledge base\n↗",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/events/experience-next-nyc-2026/",
+   "text": "ON-SITE FLAGSHIP EVENT\nExperience Next New York 2026\n\nThank you for the overwhelming response! We have reached capacity ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/events/experience-next-manchester-2026/",
+   "text": "ON-SITE FLAGSHIP EVENT\nExperience Next Manchester\n\nExperience Next is Wingify's global customer meet-up, bringing togeth",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "View all events →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "Blog\n\nFresh perspectives and how-to's on experimentation, AI, personalization, and digital growth.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "Success stories\n\nSee how leading teams turn bold ideas into measurable business impact.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/webinars/",
+   "text": "Webinars\n\nLearn from practitioners and industry leaders through interactive sessions that turn ideas into action.\n\nView ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/podcast/",
+   "text": "Podcasts\n\nThought-provoking conversations with the people shaping the future of digital experiences.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "Events\n\nWhere ideas are shared, perspectives are challenged, and meaningful connections begin.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/guides/",
+   "text": "Guides\n\nPractical advice for every stage of your digital optimization journey.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/glossary/",
+   "text": "Glossary\n\nClear, straightforward explanations of the concepts shaping modern digital optimization.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/ebooks/",
+   "text": "Ebooks\n\nIn-depth playbooks that help you tackle your biggest optimization challenges.\n\nView all →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/product-updates/",
+   "text": "Product Updates\n\nStay informed with the latest releases, feature enhancements, and platform improvements across Wingify.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/tools/",
+   "text": "Free Tools\n\nAccess calculators, checklists, and utilities designed to simplify everyday optimization challenges.\n\nView a",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.wingify.com/hc/en-us",
+   "text": "Knowledge Base\n\nFind answers, implementation guides, and product documentation to get the most out of Wingify.\n\nView all",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/ubisoft-ab-testing-lead-generation/",
+   "text": "How Ubisoft Used A/B Testing To Increase Lead Generation\n\n+12%\n\nsign-ups",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/garanti-bbva/",
+   "text": "Garanti Payment Systems Increased Bonus Credit Card Application Leads Using Wingify\n\n+24%\n\nsign-ups",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/defacto/",
+   "text": "DeFacto Increases User Logins and Registrations During Black Friday Using Wingify\n\n+21.53%\n\nuser logins",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/performics-hdfc-ergo/",
+   "text": "Performics Lowers Cost Per Conversion, Improves RoAS 1.5X for HDFC ERGO General Insurance with Wingify\n\n-47%\n\ncost per a",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "View more customer stories →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "View more articles →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/blog/how-to-go-from-zero-to-one-in-your-server-side-experimentation-journey/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/blog/mobile-app-funnel-analysis/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/blog/what-do-you-get-with-wingify-free-trial/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/demo/",
+   "text": "Get a Demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/free-trial/",
+   "text": "Start Trial",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/wingify",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wingify/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/Wingify",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/de/#locale_lang",
+   "text": "DE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/es/#locale_lang",
+   "text": "ES",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/br/#locale_lang",
+   "text": "BR",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/fr/#locale_lang",
+   "text": "FR",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/resources/#locale_lang",
+   "text": "EN",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/de/#locale_lang",
+   "text": "DE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/es/#locale_lang",
+   "text": "ES",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/br/#locale_lang",
+   "text": "BR",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/fr/#locale_lang",
+   "text": "FR",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/experimentation/",
+   "text": "Experimentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/personalization/",
+   "text": "Personalization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/commerce/",
+   "text": "Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/analytics/",
+   "text": "Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/feature-management/",
+   "text": "Feature Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/customer-engagement/",
+   "text": "Customer Engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/platform/",
+   "text": "Wingify Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/why-wingify/",
+   "text": "Why Wingify?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/program-management/",
+   "text": "Program Management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/integrations/",
+   "text": "Integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/data-platform/",
+   "text": "Data Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/marketing/",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/product/",
+   "text": "Product",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/data-analytics/",
+   "text": "Data Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/ux-ui/",
+   "text": "UX/ UI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/digital-transformation/",
+   "text": "Digital Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/engineering/",
+   "text": "Engineering",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/merchandising/",
+   "text": "Merchandising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/retail-and-ecommerce/",
+   "text": "Retail & ecommerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/travel-and-hospitality/",
+   "text": "Travel & Hospitality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/media-and-publishing/",
+   "text": "Media & Publishing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/digital-transformation/",
+   "text": "Digital Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/solutions/saas-and-technology/",
+   "text": "SaaS & Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/blog/",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/product-updates/",
+   "text": "Product Updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/success-stories/",
+   "text": "Success Stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/webinars/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/guides/",
+   "text": "Guides",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/glossary/",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://help.wingify.com/",
+   "text": "Knowledge Base",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/tools/",
+   "text": "Free Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/ebooks/",
+   "text": "Ebooks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/about-us/",
+   "text": "About Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/leadership/",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/offices/",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/news/",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/company/media-kit/",
+   "text": "Media Kit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/partners/",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/contact/",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-optimizely/",
+   "text": "Wingify vs Optimizely",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-adobe/",
+   "text": "Wingify vs Adobe Target",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-mouseflow/",
+   "text": "Wingify vs Mouseflow",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-contentsquare/",
+   "text": "Wingify vs Contentsquare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-dynamic-yield/",
+   "text": "Wingify vs Dynamic Yield",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-kameleoon/",
+   "text": "Wingify vs. Kameleoon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-monetate/",
+   "text": "Wingify vs. Monetate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/compare/wingify-vs-convert/",
+   "text": "Wingify vs Convert",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/security/",
+   "text": "Security",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/compliance/",
+   "text": "Compliance",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/conduct/",
+   "text": "Code of Conduct",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/compliance/responsible-ai-policy/",
+   "text": "AI Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/imprint/",
+   "text": "Imprint",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/opt-out/",
+   "text": "Opt-out",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/llm-info/",
+   "text": "Hey AI, learn about us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://wingify.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:support@wingify.com",
+   "text": "support@wingify.com",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:+14153493207",
+   "text": "+1 415-349-3207",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:support@wingify.com",
+   "text": "support@wingify.com",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/terms/",
+   "text": "Terms",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wingify.com/compliance/cookies-notice/",
+   "text": "Read more about Wingify cookies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

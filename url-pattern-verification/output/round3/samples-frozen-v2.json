@@ -1,0 +1,4040 @@
+{
+ "frozen_at": "2026-10-26T12:08:38+00:00",
+ "seed": 20261028,
+ "sha256": "bf6d4adda419bef31f7b5648508a40345fb8e6c1387136fd06070f4bb5eac8b3",
+ "rules": [
+  {
+   "id": "R3-S1-R2-E2-F1",
+   "entry_ids": [
+    "S1-R2-E2"
+   ],
+   "target": "https://www.census.gov/programs-surveys/e-stats.html 入口前缀 /programs-surveys/e-stats/ 下签名 [2, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.census\\.gov/programs\\-surveys/e\\-stats/[a-z-]+/[a-z-]+\\.html$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z-]+ + .html"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.census.gov/programs-surveys/e-stats/data/tables.html",
+    "https://www.census.gov/programs-surveys/e-stats/library/publications.html",
+    "https://www.census.gov/programs-surveys/e-stats/news-updates/updates.html"
+   ],
+   "holdout_pos": [
+    "https://www.census.gov/programs-surveys/e-stats/technical-documentation/questionnaires.html"
+   ],
+   "holdout_neg": [
+    "https://www.census.gov/programs-surveys/sipp/about/Respondent-Information.html",
+    "https://www.census.gov/newsroom/press-releases/2022/fastest-growing-cities-population-estimates.html",
+    "https://www.census.gov/topics/employment/commuting/data.html",
+    "https://www.census.gov/newsroom/press-releases/2014/cb14-tps01.html",
+    "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/past-updates.html"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.census\\.gov/programs\\-surveys/e\\-stats/[a-z-]+/[a-z]+\\.html$",
+     "holdout_fn": [
+      "https://www.census.gov/programs-surveys/e-stats/technical-documentation/summary-of-changes.html"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 3
+    }
+   ],
+   "regression_pos": [
+    "https://www.census.gov/programs-surveys/e-stats/about/faqs.html",
+    "https://www.census.gov/programs-surveys/e-stats/about/glossary.html",
+    "https://www.census.gov/programs-surveys/e-stats/library/visualizations.html",
+    "https://www.census.gov/programs-surveys/e-stats/news-updates/news.html",
+    "https://www.census.gov/programs-surveys/e-stats/technical-documentation/methodology.html",
+    "https://www.census.gov/programs-surveys/e-stats/technical-documentation/summary-of-changes.html"
+   ],
+   "regression_neg": [
+    "https://www.census.gov/programs-surveys/e-stats.html",
+    "https://www.census.gov/library/video/2018/usa-trade-online-how-to-find-commodity-code.html",
+    "https://www.census.gov/about/partners/cdl/utah.html",
+    "https://www.census.gov/library/working-papers/2012/demo.html",
+    "https://www.census.gov/newsroom/archives/2015-pr/cb15-35.html",
+    "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html",
+    "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html"
+   ]
+  },
+  {
+   "id": "R3-S1-R16-E4-F1",
+   "entry_ids": [
+    "S1-R16-E4"
+   ],
+   "target": "https://www.bis.org/speeches 入口前缀 /speeches/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.bis\\.org/speeches/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.bis.org/speeches/20110625-what-financial-system-21st-century",
+    "https://www.bis.org/speeches/20151009-speech-stefan-ingves-iif-annual-membership-meeting",
+    "https://www.bis.org/speeches/20200928-supervisory-priorities-age-covid-and-beyond",
+    "https://www.bis.org/speeches/20201013-basel-committees-initiatives-climate-related-financial-risks",
+    "https://www.bis.org/speeches/20240902-strong-together-benefits-international-cooperation"
+   ],
+   "holdout_pos": [
+    "https://www.bis.org/speeches/20020213-life-outside-euroland",
+    "https://www.bis.org/speeches/20081208-namibias-monetary-policy-framework",
+    "https://www.bis.org/speeches/20091005-current-issues-monetary-policy-hungary",
+    "https://www.bis.org/speeches/20141208-federal-reserves-financial-stability-agenda",
+    "https://www.bis.org/speeches/20150924-economic-outlook",
+    "https://www.bis.org/speeches/20210623-lessons-and-lasting-effects-pandemic"
+   ],
+   "holdout_neg": [
+    "https://www.bis.org/author/renato-baldini-jr",
+    "https://www.bis.org/author/anita-angelovska-bezhoska",
+    "https://www.bis.org/publications/200601-commentary-ibs-gli",
+    "https://www.bis.org/publications/202407-standards-disclosure-cryptoasset-exposures"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.bis\\.org/speeches/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 11
+    }
+   ],
+   "regression_pos": [
+    "https://www.bis.org/speeches/19990108-mr-greenspan-testifies-state-us-economy-central-bank-articles-and-speeches-20-jan-99",
+    "https://www.bis.org/speeches/20110202-there-will-be-no-break-euro-area-interview-in-sud-ouest",
+    "https://www.bis.org/speeches/20150304-emerging-issues-cyber-security-financial-sector",
+    "https://www.bis.org/speeches/20151218-supervision-business-practices",
+    "https://www.bis.org/speeches/20160114-competitiveness-swiss-companies-swiss-national-banks-contribution",
+    "https://www.bis.org/speeches/20210218-speech-association-russian-banks"
+   ],
+   "regression_neg": [
+    "https://www.bis.org/speeches",
+    "https://www.bis.org/author/tim-dabringhausen",
+    "https://www.bis.org/media-releases/20150716-revised-guide-account-opening-consultation-issued-basel-committee",
+    "https://www.bis.org/author/rani-wijayanti",
+    "https://www.bis.org/publications/fast-retail-payment-systems",
+    "https://www.bis.org/speeches/20260128-fulfilling-mandates-central-banks-changing-world?language=es",
+    "https://www.bis.org/speeches/20240729-monetary-policy-and-challenges-americas-2024?language=es"
+   ]
+  },
+  {
+   "id": "R3-S1-R18-E6-F2",
+   "entry_ids": [
+    "S1-R18-E6"
+   ],
+   "target": "https://www.itu.int/en/ITU-T/Pages/default.aspx 入口前缀 /en/ITU-T/ 下签名 [4, False, (), 'aspx'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.itu\\.int/en/ITU\\-T/[a-z0-9]+/[a-z0-9-]+/Pages/default\\.aspx$",
+   "variables": {
+    "seg0": "[a-z0-9]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {
+    "seg2": "Pages",
+    "seg3": "default.aspx"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.itu.int/en/ITU-T/extcoop/ai4resilience/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/focusgroups/ai4ssc/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx"
+   ],
+   "holdout_pos": [
+    "https://www.itu.int/en/ITU-T/focusgroups/ai4a/Pages/default.aspx"
+   ],
+   "holdout_neg": [
+    "https://www.itu.int/en/ITU-T/academia/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/ipr/Pages/default.aspx"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.itu\\.int/en/ITU\\-T/[a-z]+/[a-z0-9]+/Pages/default\\.aspx$",
+     "holdout_fn": [
+      "https://www.itu.int/en/ITU-T/studygroups/2025-2028/Pages/default.aspx",
+      "https://www.itu.int/en/ITU-T/wtsa20/wise/Pages/default.aspx"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://www.itu.int/en/ITU-T/focusgroups/ai4h/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/focusgroups/ai4ndm/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/focusgroups/ainn/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/focusgroups/eai/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/studygroups/2025-2028/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/wtsa20/wise/Pages/default.aspx"
+   ],
+   "regression_neg": [
+    "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+    "https://www.itu.int/en/journal/j-fet/webinars/Pages/default.aspx",
+    "https://www.itu.int/en/about/Pages/terms-of-use.aspx",
+    "https://www.itu.int/Pages/VariationRoot.aspx",
+    "https://www.itu.int/en/ITU-T/tsbdir/Pages/default.aspx",
+    "https://www.itu.int/en/ITU-T/climatechange/Pages/default.aspx"
+   ]
+  },
+  {
+   "id": "R3-S1-R19-E6-F2",
+   "entry_ids": [
+    "S1-R19-E6"
+   ],
+   "target": "https://www.wipo.int/en/web/global-brand-database 入口前缀 /en/web/global-brand-database/ 下签名 [4, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z0-9_-]+$",
+   "variables": {
+    "seg2": "[0-9]+",
+    "seg3": "[a-z0-9_-]+"
+   },
+   "literals": {
+    "seg0": "w",
+    "seg1": "news"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-croatia-are-now-available-in-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2026/trademarks-of-paraguay-are-now-available-in-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2026/trademarks-of-peru-are-now-available-in-the-global-brand-database"
+   ],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-saint-vincent-and-the-grenadines-now-available-in-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-trinidad-and-tobago-now-available-in-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-sri-lanka-are-now-available-in-the-global-brand-database"
+   ],
+   "holdout_neg": [
+    "https://www.wipo.int/en/web/global-brand-database/terms_and_conditions"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.wipo.int/en/web/global-brand-database/w/news/2023/news_0002",
+      "https://www.wipo.int/en/web/global-brand-database/w/news/2024/news_0001"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2023/news_0002",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/new-tooltips-added-to-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/news_0001",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-qatar-now-available-in-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2024/updates-to-the-global-brand-database",
+    "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-norway-are-now-available-in-the-global-brand-database"
+   ],
+   "regression_neg": [
+    "https://www.wipo.int/en/web/global-brand-database",
+    "https://www.wipo.int/meetings/en/archive.jsp",
+    "https://www.wipo.int/en/web/treaties",
+    "https://www.wipo.int/en/web/judiciaries",
+    "https://www.wipo.int/en/web/global-brand-database/news",
+    "https://www.wipo.int/en/web/global-brand-database/faqs_branddb"
+   ]
+  },
+  {
+   "id": "R3-S1-R19-E12-F1",
+   "entry_ids": [
+    "S1-R19-E12"
+   ],
+   "target": "https://www.wipo.int/en/web/business 入口前缀 /en/web/business/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.wipo\\.int/en/web/business/[a-z-]+$",
+   "variables": {
+    "seg0": "[a-z-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.wipo.int/en/web/business/enterprising-ideas",
+    "https://www.wipo.int/en/web/business/ip-valuation",
+    "https://www.wipo.int/en/web/business/news",
+    "https://www.wipo.int/en/web/business/trade-secrets",
+    "https://www.wipo.int/en/web/business/traditional-knowledge"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://www.wipo.int/en/web/patents/patent-information",
+    "https://www.wipo.int/en/web/cooperation/public-private-partnerships",
+    "https://www.wipo.int/en/web/designs/protection",
+    "https://www.wipo.int/en/web/cooperation/cooperation-hub",
+    "https://www.wipo.int/en/web/business/w/news/2026/ipmc-shanghai-yangtze-river-delta-green-technology-intellectual-property-management-clinic-ipmc-officially-launches",
+    "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-new-ip-diagnostics-tool-for-the-fashion-industry"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.wipo\\.int/en/web/business/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [
+      "https://www.wipo.int/en/web/business//ip-workshop-for-startups"
+     ],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [],
+   "regression_neg": [
+    "https://www.wipo.int/en/web/business",
+    "https://www.wipo.int/en/web/cooperation/collaborative-forums",
+    "https://www.wipo.int/en/web/amc/domain-name-disputes",
+    "https://www.wipo.int/en/web/respect-for-ip/awareness-raising",
+    "https://www.wipo.int/en/web/about-wipo/activities-by-unit",
+    "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center",
+    "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-algeria-venture-join-forces-to-launch-a-joint-ip-for-business-center-for-algerian-startups-and-smes"
+   ]
+  },
+  {
+   "id": "R3-S1-R19-E22-F1",
+   "entry_ids": [
+    "S1-R19-E22"
+   ],
+   "target": "https://www.wipo.int/en/web/ip-advantage 入口前缀 /en/web/ip-advantage/ 下签名 [3, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-advantage/w/stories/[a-z0-9-]+$",
+   "variables": {
+    "seg2": "[a-z0-9-]+"
+   },
+   "literals": {
+    "seg0": "w",
+    "seg1": "stories"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/fourier-healthcare-robots-with-humanoid-designs",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/longines-pilot-watches-design-in-flight-and-beyond",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/preventing-wild-animal-intrusions-with-smart-crop-protection-systems",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/synegram-music-visualization-software",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/vestel-s-approach-to-innovation-design-protection-and-aesthetic-excellence"
+   ],
+   "holdout_pos": [
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/elevating-bandung-sweet-legacy-through-innovation-and-ip",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/ingelec-morocco-building-an-arab-african-brand-leader-through-trademarks-and-design-protection",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/mie-aceh-seulawah-crafting-legacy-flavour-and-innovation",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/mother-of-pearl-jewelry-and-natural-beauty-products-from-fiji",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/poppetite-co-nurturing",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/wakangay-santi-the-young-indigenous-kichwa-woman"
+   ],
+   "holdout_neg": [
+    "https://www.wipo.int/en/web/ip-advantage/madrid-system-stories",
+    "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-advantage/w/stories/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.wipo.int/en/web/ip-advantage/w/stories/tapa-cloth-an-ancient-fijian-craft-revisited-by-creations-23"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/emily-waqalevu-indigenous-women-entrepreneurship-program",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/farmwell-rice-seeder-transforming-agriculture-one-seed-at-a-time",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/pan-carbon-fiber",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/shandong-bomo-low-carbon-energy-systems",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/tapa-cloth-an-ancient-fijian-craft-revisited-by-creations-23",
+    "https://www.wipo.int/en/web/ip-advantage/w/stories/wearable-shark-repellents-that-protect-people-and-sharks"
+   ],
+   "regression_neg": [
+    "https://www.wipo.int/en/web/ip-advantage",
+    "https://www.wipo.int/en/web/wipo-alert",
+    "https://www.wipo.int/en/web/intangible-assets/measuring-investments",
+    "https://www.wipo.int/en/web/treaties",
+    "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories",
+    "https://www.wipo.int/en/web/ip-advantage/pct-system-stories"
+   ]
+  },
+  {
+   "id": "R3-S1-R20-E1-F3",
+   "entry_ids": [
+    "S1-R20-E1"
+   ],
+   "target": "https://www.epo.org/en/searching-for-patents 入口前缀 /en/searching-for-patents/ 下签名 [3, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.epo\\.org/en/searching\\-for\\-patents/helpful\\-resources/patent\\-knowledge\\-news/[a-z0-9-]+$",
+   "variables": {
+    "seg2": "[a-z0-9-]+"
+   },
+   "literals": {
+    "seg0": "helpful-resources",
+    "seg1": "patent-knowledge-news"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/changes-vietnamese-patent-law",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/inpadoc-unlocked",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/world-water-day"
+   ],
+   "holdout_pos": [
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/accelerated-examination-and-speedy",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/adding-ep-register-data-epo-worldwide",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/analysing-unitary-patent-data-patstat",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/comparing-federated-register-and",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/free-patent-knowledge-online-seminars",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/regular-patent-monitoring-why-you"
+   ],
+   "holdout_neg": [
+    "https://www.epo.org/de/legal/guidelines-epc/2021/g_i_2.html",
+    "https://www.epo.org/en/legal/guidelines-epc/2026/d_vi_6.html",
+    "https://www.epo.org/fr/legal/case-law/2025/clr_iv_b_3_7_2.html",
+    "https://www.epo.org/en/legal/case-law/2019/clr_iii_c_4_4.html",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-translate",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.epo\\.org/en/searching\\-for\\-patents/helpful\\-resources/patent\\-knowledge\\-news/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/500-million-legal-events-epos-inpadoc",
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/docdb-putting-square-peg-round-hole-1",
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patent-knowledge-online-training-0",
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patenticulars-14",
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patenticulars-26",
+      "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/searching-and-retrieving-unitary-2"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 126
+    }
+   ],
+   "regression_pos": [
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/500-million-legal-events-epos-inpadoc",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/docdb-putting-square-peg-round-hole-1",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patent-knowledge-online-training-0",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patenticulars-14",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/patenticulars-26",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/searching-and-retrieving-unitary-2"
+   ],
+   "regression_neg": [
+    "https://www.epo.org/en/searching-for-patents",
+    "https://www.epo.org/fr/legal/case-law/2022/clr_iii_g_3_2_9.html",
+    "https://www.epo.org/en/legal/guidelines-pct/2025/a_ii_1_2_1.html",
+    "https://www.epo.org/de/legal/case-law/2025/clr_iii_g_4_3_2_b.html",
+    "https://www.epo.org/fr/legal/guidelines-epc/2026/b_iii_3_2_5.html",
+    "https://www.epo.org/en/searching-for-patents/business",
+    "https://www.epo.org/en/searching-for-patents/helpful-resources"
+   ]
+  },
+  {
+   "id": "R3-S1-R20-E2-F1",
+   "entry_ids": [
+    "S1-R20-E2"
+   ],
+   "target": "https://www.epo.org/en/news-events 入口前缀 /en/news-events/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.epo\\.org/en/news\\-events/[a-z-]+/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026",
+    "https://www.epo.org/en/news-events/events/inspiring-inventors-joachim-fiedlers-magnetic-fasteners",
+    "https://www.epo.org/en/news-events/events/pmac-arbitration-day",
+    "https://www.epo.org/en/news-events/events/standards-patents-and-competitiveness-forum",
+    "https://www.epo.org/en/news-events/news/epo-platforms-back-online"
+   ],
+   "holdout_pos": [
+    "https://www.epo.org/en/news-events/events/upcoming-myepo-services-seminars",
+    "https://www.epo.org/en/news-events/news/epo-meets-samsung-sdi",
+    "https://www.epo.org/en/news-events/news/epo-user-day-2022-updating-users-quality-digital-user-services-and-sustainable",
+    "https://www.epo.org/en/news-events/news/new-report-reveals-global-patenting-trends-space-technologies",
+    "https://www.epo.org/en/news-events/news/observatory-patents-and-technology-starts-work-today",
+    "https://www.epo.org/en/news-events/news/surge-inventions-electricity-grids"
+   ],
+   "holdout_neg": [
+    "https://www.epo.org/de/boards-of-appeal/decisions/t191725eu1",
+    "https://www.epo.org/en/boards-of-appeal/decisions/j860003ep1",
+    "https://www.epo.org/fr/boards-of-appeal/decisions/t100294du1",
+    "https://www.epo.org/en/boards-of-appeal/decisions/t112400eu1",
+    "https://www.epo.org/en/news-events/press-centre",
+    "https://www.epo.org/en/news-events/in-focus"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.epo\\.org/en/news\\-events/[a-z]+/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 42
+    }
+   ],
+   "regression_pos": [
+    "https://www.epo.org/en/news-events/news/automatic-debiting-procedure-more-flexibility-users",
+    "https://www.epo.org/en/news-events/news/epo-uspto-co-operation-support-innovators",
+    "https://www.epo.org/en/news-events/news/high-level-online-meetings-enhance-user-engagement-epo",
+    "https://www.epo.org/en/news-events/news/reminder-myepo-services-set-fully-replace-several-tools-and-fax-services-1-july",
+    "https://www.epo.org/en/news-events/news/search-and-examination-matters-2025",
+    "https://www.epo.org/en/news-events/news/unitary-patent-guide-updated"
+   ],
+   "regression_neg": [
+    "https://www.epo.org/en/news-events",
+    "https://www.epo.org/fr/boards-of-appeal/decisions/t151291eu1",
+    "https://www.epo.org/fr/boards-of-appeal/decisions/t161655eu1",
+    "https://www.epo.org/de/boards-of-appeal/decisions/t081090eu1",
+    "https://www.epo.org/en/boards-of-appeal/decisions/t900376ex1",
+    "https://www.epo.org/en/news-events/news",
+    "https://www.epo.org/en/news-events/young-inventors-prize"
+   ]
+  },
+  {
+   "id": "R3-S1-R22-E1-F1",
+   "entry_ids": [
+    "S1-R22-E1"
+   ],
+   "target": "https://www.kantar.com/inspiration 入口前缀 /inspiration/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.kantar\\.com/inspiration/[a-z-]+/[a-z0-9\\$-]+$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9\\$-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.kantar.com/inspiration/advertising-media/cannes-in-a-can-2026-four-signals-shaping-the-future-of-brand-growth",
+    "https://www.kantar.com/inspiration/ai/real-human-stories-at-scale-with-kantar-converser",
+    "https://www.kantar.com/inspiration/brands/how-to-navigate-the-tariff-turmoil",
+    "https://www.kantar.com/inspiration/brands/kantar-brandz-2025-ranking-reveals-the-worlds-most-valuable-brands",
+    "https://www.kantar.com/inspiration/customer-experience/brand-growth-through-experience"
+   ],
+   "holdout_pos": [
+    "https://www.kantar.com/inspiration/agile-market-research/great-market-research-should-not-be-complicated",
+    "https://www.kantar.com/inspiration/analytics/dealing-with-the-marketing-data-deluge",
+    "https://www.kantar.com/inspiration/fmcg/2023-wp-grocery-price-inflation-rises-to-record-16-7",
+    "https://www.kantar.com/inspiration/fmcg/fmcg-in-china-on-the-road-to-recovery",
+    "https://www.kantar.com/inspiration/research-services/what-is-pilot-testing-pf",
+    "https://www.kantar.com/inspiration/social-media/the-china-social-media-landscape-2019"
+   ],
+   "holdout_neg": [
+    "https://www.kantar.com/uki/campaigns/finding-the-future-beauty-cosmetics-trends",
+    "https://www.kantar.com/fr/contact/cn-contact",
+    "https://www.kantar.com/north-america/company-news/gen-ai-consulting-press-release",
+    "https://www.kantar.com/north-america/contact/wp-general-contact"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.kantar\\.com/inspiration/[a-z-]+/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://www.kantar.com/inspiration/brands/brands-need-to-build-more-than-just-salience-to-grow",
+    "https://www.kantar.com/inspiration/experience/streaming-media-provider-brand-promise-must-shine-both-onscreen-and-in-life",
+    "https://www.kantar.com/inspiration/fmcg/egypt-learnings-to-win-a-second-pandemic-ramadan",
+    "https://www.kantar.com/inspiration/fmcg/how-covid-19-has-re-shaped-latin-america-shopping-habits",
+    "https://www.kantar.com/inspiration/fmcg/record-demand-for-grocers-as-ireland-entered-lockdown",
+    "https://www.kantar.com/inspiration/fmcg/top-10-trends-in-taiwans-fmcg-market-for-2025"
+   ],
+   "regression_neg": [
+    "https://www.kantar.com/inspiration",
+    "https://www.kantar.com/industries/consumer-packaged-goods/cocreating-breakthrough-ideas-with-a-snack-brand",
+    "https://www.kantar.com/it/company-news/uscire-dalla-folla-degli-spot-di-natale",
+    "https://www.kantar.com/campaigns/marketing-trends-2025/contact-us",
+    "https://www.kantar.com/it/contact/pb-uk-contact",
+    "https://www.kantar.com/inspiration/webinars"
+   ]
+  },
+  {
+   "id": "R3-S1-R26-E1-F2",
+   "entry_ids": [
+    "S1-R26-E1"
+   ],
+   "target": "https://www.mintel.com/insights/ 入口前缀 /insights/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.mintel\\.com/insights/[a-z0-9-]+/[a-z0-9%_-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+",
+    "seg1": "[a-z0-9%_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.mintel.com/insights/beauty-and-personal-care/biohacking-sleep/",
+    "https://www.mintel.com/insights/consumer-research/connection-economy-uk/",
+    "https://www.mintel.com/insights/consumer-research/system-thinking-new-rules-for-brand-growth-2027/",
+    "https://www.mintel.com/insights/consumer-research/visibility-gap-us/",
+    "https://www.mintel.com/insights/events/2027-global-consumer-predictions-emea/",
+    "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-emea/",
+    "https://www.mintel.com/insights/events/in-cosmetics-asia/"
+   ],
+   "holdout_pos": [
+    "https://www.mintel.com/insights/consumer-research/how-is-consumers-perception-of-value-changing-in-2024/",
+    "https://www.mintel.com/insights/events/merieux-with-ift-president-shifts-in-consumer-tides/",
+    "https://www.mintel.com/insights/events/pchi-2019/",
+    "https://www.mintel.com/insights/events/think-indulgence-and-innovation-in-ice-cream-development-webinar/",
+    "https://www.mintel.com/insights/financial-services/trading-craft-for-calculators-the-clubs-raising-financial-awareness-in-children/",
+    "https://www.mintel.com/insights/food-and-drink/podcast-how-brands-can-bring-pleasure-to-consumers-in-tough-times/"
+   ],
+   "holdout_neg": [
+    "https://www.mintel.com/jp/insights/consumer-research/",
+    "https://www.mintel.com/de/press-centre/spargelextrakt-baobab-frucht-maqui-beere-mintel-identifiziert-funktionelle-inhaltsstoffe-mit-trend-potenzial/",
+    "https://www.mintel.com/de/press-centre/grossbritannien-bevorstehende-koenigliche-hochzeit-kurbelt-die-wirtschaft-an/",
+    "https://www.mintel.com/jp/case-studies/wincanton/",
+    "https://www.mintel.com/insights/travel-and-tourism/",
+    "https://www.mintel.com/insights/tv-phone-and-internet/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.mintel\\.com/insights/[a-z-]+/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 8
+    }
+   ],
+   "regression_pos": [
+    "https://www.mintel.com/insights/beauty-and-personal-care/overcoming-hair-wash-phobia-in-china/",
+    "https://www.mintel.com/insights/consumer-research/world-oceans-day-life-livelihoods/",
+    "https://www.mintel.com/insights/food-and-drink/10-ways-restaurants-can-take-action-during-covid-19-and-beyond/",
+    "https://www.mintel.com/insights/food-and-drink/food-and-drink-industry-in-china-follows-fast-fashion-trends-to-attract-more-customers/",
+    "https://www.mintel.com/insights/mintel/mintel-media-weeks-highlights-36/",
+    "https://www.mintel.com/insights/retail/today-in-retail-highlights-christmas-trading-results/"
+   ],
+   "regression_neg": [
+    "https://www.mintel.com/insights/",
+    "https://www.mintel.com/de/press-centre/vegane-snackeinfuhrungen-haben-sich-in-den-letzten-funf-jahren-knapp-verdoppelt/",
+    "https://www.mintel.com/de/case-studies/solvay-home-and-personal-care/",
+    "https://www.mintel.com/jp/products/spark-concept-generator/",
+    "https://www.mintel.com/kr/products/ingredientscape-ai/",
+    "https://www.mintel.com/insights/consumer-research/",
+    "https://www.mintel.com/insights/food-and-drink"
+   ]
+  },
+  {
+   "id": "R3-S1-R26-E2-F1",
+   "entry_ids": [
+    "S1-R26-E2"
+   ],
+   "target": "https://www.mintel.com/press-centre/ 入口前缀 /press-centre/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.mintel\\.com/press\\-centre/[a-z0-9_-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.mintel.com/press-centre/2027-household-predictions/",
+    "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+    "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+    "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+    "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/"
+   ],
+   "holdout_pos": [
+    "https://www.mintel.com/press-centre/canadas-seniors-contribute-to-declining-beer-consumption/",
+    "https://www.mintel.com/press-centre/indian-consumers-look-to-brands-for-transparency-as-the-cost-of-living-soars/",
+    "https://www.mintel.com/press-centre/nuts-seeds-and-dried-fruit-crack-britains-snack-market/",
+    "https://www.mintel.com/press-centre/over-a-third-of-all-anti-pollution-beauty-products-were-launched-in-asia-pacific-in-2016-mintel-reports/",
+    "https://www.mintel.com/press-centre/rebuilding-trust-and-engaging-millennials-key-for-the-future-of-investment-services/",
+    "https://www.mintel.com/press-centre/uk-coffee-shop-sales-enjoy-a-growth-high/"
+   ],
+   "holdout_neg": [
+    "https://www.mintel.com/products/field-services/",
+    "https://www.mintel.com/case-studies/general-mills/",
+    "https://www.mintel.com/insights/insurance/",
+    "https://www.mintel.com/fr/notre-culture/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.mintel\\.com/press\\-centre/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://www.mintel.com/press-centre/four-in-ten-brits-financially-prepared-for-unemployment/",
+    "https://www.mintel.com/press-centre/hair-today-gone-tomorrow-uk-sales-of-temporary-hair-colour-triples/",
+    "https://www.mintel.com/press-centre/hispanic-men-present-opportunities-for-marketers-reports-mintel/",
+    "https://www.mintel.com/press-centre/mintel-reveals-japanese-beauty-trends-at-in-cosmetics-korea-2023/",
+    "https://www.mintel.com/press-centre/mortgage-and-home-equity-direct-mail-cut-in-half-for-2008-reports-mintel-comperemedia/",
+    "https://www.mintel.com/press-centre/smells-like-teen-spirit-deodorant-and-fragrances-clean-up/"
+   ],
+   "regression_neg": [
+    "https://www.mintel.com/press-centre/",
+    "https://www.mintel.com/case-studies/consumer-council/",
+    "https://www.mintel.com/jp/press-centre/",
+    "https://www.mintel.com/products/market-dynamics/",
+    "https://www.mintel.com/de/case-studies/"
+   ]
+  },
+  {
+   "id": "R3-S1-R26-E3-F1",
+   "entry_ids": [
+    "S1-R26-E3"
+   ],
+   "target": "https://www.mintel.com/events/ 入口前缀 /insights/events/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.mintel\\.com/insights/events/[a-z0-9%_-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9%_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.mintel.com/insights/events/2027-global-consumer-predictions-emea/",
+    "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-apac-south-korea/",
+    "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-emea/",
+    "https://www.mintel.com/insights/events/2027-global-predictions-household-emea/",
+    "https://www.mintel.com/insights/events/in-cosmetics-asia/",
+    "https://www.mintel.com/insights/events/mintel-x-fi-europe-2026/"
+   ],
+   "holdout_pos": [
+    "https://www.mintel.com/insights/events/2026-fd-predictions-sea/",
+    "https://www.mintel.com/insights/events/fi-hi-india-virtual-expo-2021/",
+    "https://www.mintel.com/insights/events/healthy-living-for-thais-a-spotlight-on-dietary-supplement-beauty-and-wellness/",
+    "https://www.mintel.com/insights/events/household-summit-2023/",
+    "https://www.mintel.com/insights/events/in-cosmetics-global-2022/",
+    "https://www.mintel.com/insights/events/mintel-and-ptnpa-innovation-during-a-recession/"
+   ],
+   "holdout_neg": [
+    "https://www.mintel.com/insights/beauty-and-personal-care/smart-mirrors-encourage-consumers-to-brush-up-on-their-oral-care/",
+    "https://www.mintel.com/br/products/spark-concept-generator/",
+    "https://www.mintel.com/jp/insights/automotive/",
+    "https://www.mintel.com/insights/consumer-research/she-power-is-influencing-the-world-how-brands-do-communications-with-female-consumers/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.mintel\\.com/insights/events/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 3
+    }
+   ],
+   "regression_pos": [
+    "https://www.mintel.com/insights/events/2025-household-care-trends-webinar-emea/",
+    "https://www.mintel.com/insights/events/flavors-fragrances-2019/",
+    "https://www.mintel.com/insights/events/key-account-webinar-frustration-and-food-a-cost-of-living-crisis-story/",
+    "https://www.mintel.com/insights/events/scs-formulate-2024-coventry/",
+    "https://www.mintel.com/insights/events/tate-lyle-mintel-stevia-consumer-perceptions-and-purchase-drivers/",
+    "https://www.mintel.com/insights/events/the-future-of-food-sourcing-and-the-supply-chain-a-summary/"
+   ],
+   "regression_neg": [
+    "https://www.mintel.com/insights/events/",
+    "https://www.mintel.com/insights/mintel/mintel-in-the-media-this-weeks-highlights-6-june-2015/",
+    "https://www.mintel.com/insights/food-and-drink/innovation-spotlight-diy-superfood-based-drink-in-china/",
+    "https://www.mintel.com/insights/consumer-research/trending-ingredients-to-watch-kombu-seaweed/",
+    "https://www.mintel.com/insights/advertising-and-marketing/social-media/"
+   ]
+  },
+  {
+   "id": "R3-S1-R27-E1-F2",
+   "entry_ids": [
+    "S1-R27-E1"
+   ],
+   "target": "https://www.euromonitor.com/articles 入口前缀 /insights/ 下签名 [1, False, ('returnUrl', 'tag'), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.euromonitor\\.com/insights/insight\\-search\\-result\\-page\\-tags\\?tag=[a-zA-Z_-]*&returnUrl=[a-zA-Z0-9%\\.]*$",
+   "variables": {},
+   "literals": {
+    "seg0": "insight-search-result-page-tags"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=consumer-appliances&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=iran-war&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=market_research_in_action&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=tobacco&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://www.euromonitor.com/video/snacking-innovation-now-and-in-the-future",
+    "https://www.euromonitor.com/cigars-cigarillos-and-smoking-tobacco-in-algeria/report",
+    "https://www.euromonitor.com/dietary-supplements-in-lithuania/report",
+    "https://www.euromonitor.com/article/key-trends-shaping-the-global-business-environment",
+    "https://www.euromonitor.com/insights/latin-america",
+    "https://www.euromonitor.com/insights/nicotine-and-cannabis"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.euromonitor\\.com/insights/insight\\-search\\-result\\-page\\-tags\\?tag=[a-zA-Z_-]*&returnUrl=https%3A%2F%2Fwww\\.euromonitor\\.com%2Finsights$",
+     "holdout_fn": [
+      "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Apparel-and-Footwear&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+      "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Consumer-Health&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+      "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+      "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Apparel-and-Footwear&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Consumer-Health&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp",
+    "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=e-commerce&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar%3Famp"
+   ],
+   "regression_neg": [
+    "https://www.euromonitor.com/insights",
+    "https://www.euromonitor.com/home-audio-and-cinema-in-morocco/report",
+    "https://www.euromonitor.com/butter-and-spreads-in-hungary/report",
+    "https://www.euromonitor.com/dairy-in-honduras/report",
+    "https://www.euromonitor.com/processed-meat-seafood-and-alternatives-to-meat-in-the-united-arab-emirates/report",
+    "https://www.euromonitor.com/insights/luxury-fashion",
+    "https://www.euromonitor.com/insights/industrial-markets"
+   ]
+  },
+  {
+   "id": "R3-S1-R30-E1-F1",
+   "entry_ids": [
+    "S1-R30-E1"
+   ],
+   "target": "https://www.nielsen.com/insights/ 入口前缀 /insights/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.nielsen\\.com/insights/[a-z0-9]+/[a-z0-9%_-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9]+",
+    "seg1": "[a-z0-9%_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.nielsen.com/insights/2025/what-are-nielsen-ratings/",
+    "https://www.nielsen.com/insights/2026/2026-dis-black-consumer-engagement-loyalty/",
+    "https://www.nielsen.com/insights/2026/nielsen-fifa-world-cup-2026-local-fandom-insights-report/",
+    "https://www.nielsen.com/insights/topic/tv-streaming/",
+    "https://www.nielsen.com/insights/type/report/"
+   ],
+   "holdout_pos": [
+    "https://www.nielsen.com/insights/2010/age-matters-mobile-youth-in-vietnam/",
+    "https://www.nielsen.com/insights/2015/booklet-handel-verbraucher-werbung-2015/",
+    "https://www.nielsen.com/insights/2015/the-future-of-grocery-e-commerce-digital-technology-and-changing-shopping-preferences-around-the-world-cn1/",
+    "https://www.nielsen.com/insights/2017/playlisting-the-21st-century-mixtape/",
+    "https://www.nielsen.com/insights/2017/what-is-the-consumer-paying-attention-to/",
+    "https://www.nielsen.com/insights/2019/red-carpet-repost-award-shows-are-big-winners-on-social-media/"
+   ],
+   "holdout_neg": [
+    "https://www.nielsen.com/news-center/2018/nielsen-audio-advertising-week-audio-messaging-right/",
+    "https://www.nielsen.com/news-center/2019/20190904-go-global-vietnam/",
+    "https://www.nielsen.com/news-center/2015/nielsen-highlights-upcoming-initiatives-for-2015-2016-at-annual-analyst-day/",
+    "https://www.nielsen.com/news-center/2017/keeping-an-ear-on-local-listeners-market-level-streaming-helps-radio-find-the-next-hit/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.nielsen\\.com/insights/[a-z0-9]+/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 63
+    }
+   ],
+   "regression_pos": [
+    "https://www.nielsen.com/insights/2014/more-of-what-we-want/",
+    "https://www.nielsen.com/insights/2014/why-marketing-to-consumers-not-the-masses-is-the-key-to-brand-success-in-africa/",
+    "https://www.nielsen.com/insights/2015/uncommon-sense-are-media-companies-charging-streaming-services-enough/",
+    "https://www.nielsen.com/insights/2017/social-tv-an-increasing-and-evolving-phenomenon/",
+    "https://www.nielsen.com/insights/2019/the-evolution-of-super-bowl-consumption/",
+    "https://www.nielsen.com/insights/2021/redefining-content-strategy-for-influencer-marketing/"
+   ],
+   "regression_neg": [
+    "https://www.nielsen.com/insights/",
+    "https://www.nielsen.com/news-center/2020/black-enterprise-women-of-power-summit-inspires-a-new-circle-of-women-at-nielsen/",
+    "https://www.nielsen.com/news-center/2024/australia-remains-nzs-top-travel-destination-according-to-latest-nielsen-data/",
+    "https://www.nielsen.com/news-center/2016/nielsen-releases-first-diversity-inclusion-report/",
+    "https://www.nielsen.com/news-center/2024/nielsen-launches-the-media-distributor-gauge-first-convergent-tv-comparison-of-its-kind/"
+   ]
+  },
+  {
+   "id": "R3-S1-R31-E2-F1",
+   "entry_ids": [
+    "S1-R31-E2"
+   ],
+   "target": "https://msi.org/research/ 入口前缀 /research/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://msi\\.org/research/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://msi.org/research/clayton-dissertation-proposal-competition/",
+    "https://msi.org/research/msi-research-competition-and-call-for-proposals/",
+    "https://msi.org/research/msi-scholars/",
+    "https://msi.org/research/research-support/",
+    "https://msi.org/research/submit-working-paper/"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://msi.org/events/beyond-advertising-creating-value-through-all-customer-touchpoints/",
+    "https://msi.org/events/msi-analytics-conference-rebroadcast-ai-and-the-future-of-online-retailing-shopping/",
+    "https://msi.org/events/analytics-rebroadcast-future-proof-your-marketing-strategy-in-a-privacy-first-world/",
+    "https://msi.org/events/analyzing-text-images-sales-and-unstructured-data-to-understand-consumer-pr/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://msi\\.org/research/[a-z-]+/$",
+     "holdout_fn": [
+      "https://msi.org/research/awards-programs-2/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://msi.org/research/ama-msi-h-paul-root-award/",
+    "https://msi.org/research/awards-programs-2/",
+    "https://msi.org/research/awards-programs/",
+    "https://msi.org/research/msi-top-download-award/",
+    "https://msi.org/research/robert-d-buzzell-msi-best-paper-award/"
+   ],
+   "regression_neg": [
+    "https://msi.org/research/",
+    "https://msi.org/events/msi-webinar-balancing-user-privacy-and-personalization/",
+    "https://msi.org/events/msi-book-series-webinar-thriving-with-ai-deploying-the-house-of-ai-for-competitive-advantage/",
+    "https://msi.org/events/msi-lunch-lecture-with-kantar-analytics/",
+    "https://msi.org/events/best-of-msi-its-time-for-happiness/"
+   ]
+  },
+  {
+   "id": "R3-S1-R36-E2-F1",
+   "entry_ids": [
+    "S1-R36-E2"
+   ],
+   "target": "https://marketingscience.info/news-and-insights 入口前缀 /news-and-insights/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://marketingscience\\.info/news\\-and\\-insights/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://marketingscience.info/news-and-insights/are-swede-dreams-made-of-this-ikea-wicker-and-the-art-of-staying-on-brand",
+    "https://marketingscience.info/news-and-insights/byron-sharp-says-distinctive-assets-reign-over-brand-story-who-cares-it-doesnt-matter",
+    "https://marketingscience.info/news-and-insights/mascots-are-back-thanks-to-social-media-but-did-they-ever-go-away",
+    "https://marketingscience.info/news-and-insights/reducing-risks-when-modernising-packaging",
+    "https://marketingscience.info/news-and-insights/the-magic-split-between-brand-performance-spending-needs-to-end"
+   ],
+   "holdout_pos": [
+    "https://marketingscience.info/news-and-insights/exploring-brand-health-with-jenni-romaniuk",
+    "https://marketingscience.info/news-and-insights/mark-ritson-marketers-silence-on-cambridge-analytica-speaks-volumes",
+    "https://marketingscience.info/news-and-insights/the-drawbacks-of-renting-fame",
+    "https://marketingscience.info/news-and-insights/watch-now-future-now-heart-or-head",
+    "https://marketingscience.info/news-and-insights/why-luxury-brands-really-need-to-advertise",
+    "https://marketingscience.info/news-and-insights/woolworths-cost-cutting-with-reward-program-changes-say-analysts"
+   ],
+   "holdout_neg": [
+    "https://marketingscience.info/portal-categories/brand-loyalty",
+    "https://marketingscience.info/staff/dr-nicole-hartnett",
+    "https://marketingscience.info/staff/laura-hammond",
+    "https://marketingscience.info/staff-categories/business-team"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://marketingscience\\.info/news\\-and\\-insights/[a-z-]+$",
+     "holdout_fn": [
+      "https://marketingscience.info/news-and-insights/book-review-the-22-immutable-laws-of-marketing-violate-them-at-your-own-risk-by-al-ries-and-jack-trout",
+      "https://marketingscience.info/news-and-insights/the-directory-big-won-rankings-2016-editors-report"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 67
+    }
+   ],
+   "regression_pos": [
+    "https://marketingscience.info/news-and-insights/book-review-the-22-immutable-laws-of-marketing-violate-them-at-your-own-risk-by-al-ries-and-jack-trout",
+    "https://marketingscience.info/news-and-insights/brand-loyalists-have-nothing-to-teach-you",
+    "https://marketingscience.info/news-and-insights/building-new-brands-addressing-some-common-misconceptions-and-questions",
+    "https://marketingscience.info/news-and-insights/junkee-empirica-research-ehrenberg-bass-and-the-centre-for-amplified-intelligence-join-the-mumbrella-msix-program",
+    "https://marketingscience.info/news-and-insights/obsessed-lululemon-fans-are-paying-hundreds-for-sold-out-styles-online",
+    "https://marketingscience.info/news-and-insights/the-directory-big-won-rankings-2016-editors-report"
+   ],
+   "regression_neg": [
+    "https://marketingscience.info/news-and-insights",
+    "https://marketingscience.info/companies/perfetti-van-melle",
+    "https://marketingscience.info/portal-categories/business-to-business",
+    "https://marketingscience.info/companies/orkla-asa",
+    "https://marketingscience.info/faqs/who-can-apply-to-attend-the-program"
+   ]
+  },
+  {
+   "id": "R3-S1-R39-E1-F1",
+   "entry_ids": [
+    "S1-R39-E1"
+   ],
+   "target": "https://www.gwi.com/reports 入口前缀 /reports/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.gwi\\.com/reports/[a-z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.gwi.com/reports/beauty-buyers",
+    "https://www.gwi.com/reports/brand-tracker",
+    "https://www.gwi.com/reports/germany-consumers",
+    "https://www.gwi.com/reports/take-flight",
+    "https://www.gwi.com/reports/us-consumers"
+   ],
+   "holdout_pos": [
+    "https://www.gwi.com/reports/global-vacationers-2018",
+    "https://www.gwi.com/reports/middle-east-africa",
+    "https://www.gwi.com/reports/morocco-consumers",
+    "https://www.gwi.com/reports/mothers",
+    "https://www.gwi.com/reports/road-to-recovery-b",
+    "https://www.gwi.com/reports/the-banking-consumer"
+   ],
+   "holdout_neg": [
+    "https://www.gwi.com/blog/online-grocery-shopping-trends",
+    "https://www.gwi.com/blog/alternative-data-finance",
+    "https://www.gwi.com/blog/persona-spotlight-the-online-shopper",
+    "https://www.gwi.com/blog/ai-marketing-tools"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.gwi\\.com/reports/[a-z0-9-]+$",
+     "holdout_fn": [
+      "https://www.gwi.com/reports/ad-targeting-media-planning/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.gwi.com/reports/ad-targeting-media-planning/",
+    "https://www.gwi.com/reports/asia-pacific",
+    "https://www.gwi.com/reports/b2b-in-2021-b",
+    "https://www.gwi.com/reports/hispanics-media-consumption-infographic",
+    "https://www.gwi.com/reports/social-media-motivations-2019",
+    "https://www.gwi.com/reports/uae-consumers"
+   ],
+   "regression_neg": [
+    "https://www.gwi.com/reports",
+    "https://www.gwi.com/blog/eco-conscious-consumer",
+    "https://www.gwi.com/blog/working-from-home-vs-office",
+    "https://www.gwi.com/blog/e-waste",
+    "https://www.gwi.com/blog/product-research",
+    "https://www.gwi.com/reports/social-media-marketing-guide/"
+   ]
+  },
+  {
+   "id": "R3-S1-R41-E1-F1",
+   "entry_ids": [
+    "S1-R41-E1"
+   ],
+   "target": "https://interbrand.com/best-global-brands/ 入口前缀 /best-global-brands/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://interbrand\\.com/best\\-global\\-brands/global/[a-z0-9-]+/$",
+   "variables": {
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {
+    "seg0": "global"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://interbrand.com/best-global-brands/global/apple/",
+    "https://interbrand.com/best-global-brands/global/coca-cola/",
+    "https://interbrand.com/best-global-brands/global/google/",
+    "https://interbrand.com/best-global-brands/global/mercedes-benz/"
+   ],
+   "holdout_pos": [
+    "https://interbrand.com/best-global-brands/global/ebay/",
+    "https://interbrand.com/best-global-brands/global/qualcomm/",
+    "https://interbrand.com/best-global-brands/global/range-rover/",
+    "https://interbrand.com/best-global-brands/global/schneider-electric/",
+    "https://interbrand.com/best-global-brands/global/volkswagen/",
+    "https://interbrand.com/best-global-brands/global/zara/"
+   ],
+   "holdout_neg": [],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://interbrand\\.com/best\\-global\\-brands/global/[a-z-]+/$",
+     "holdout_fn": [
+      "https://interbrand.com/best-global-brands/global/2022-report/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 6
+    }
+   ],
+   "regression_pos": [
+    "https://interbrand.com/best-global-brands/global/2022-report/",
+    "https://interbrand.com/best-global-brands/global/colgate/",
+    "https://interbrand.com/best-global-brands/global/goldman-sachs/",
+    "https://interbrand.com/best-global-brands/global/sony/",
+    "https://interbrand.com/best-global-brands/global/spotify/",
+    "https://interbrand.com/best-global-brands/global/youtube/"
+   ],
+   "regression_neg": [
+    "https://interbrand.com/best-global-brands/",
+    "https://interbrand.com/work/stc/",
+    "https://interbrand.com/work/latam-airlines/",
+    "https://interbrand.com/work/se-saudi-energy/",
+    "https://interbrand.com/best-global-brands/global-2025-report-download/"
+   ]
+  },
+  {
+   "id": "R3-S1-R42-E1-F1",
+   "entry_ids": [
+    "S1-R42-E1"
+   ],
+   "target": "https://www.numerator.com/resources/ 入口前缀 /resources/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.numerator\\.com/resources/[a-z-]+/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.numerator.com/resources/blog/asian-consumer-spending-outlook/",
+    "https://www.numerator.com/resources/blog/from-hype-to-habit/",
+    "https://www.numerator.com/resources/report/pizza-share/",
+    "https://www.numerator.com/resources/report/purposeful-pantry/",
+    "https://www.numerator.com/resources/webinar/restaurant-guest-relationship/"
+   ],
+   "holdout_pos": [
+    "https://www.numerator.com/resources/blog/consumers-react-rising-gas-prices/",
+    "https://www.numerator.com/resources/blog/under-pressure-rise-multi-cooker/",
+    "https://www.numerator.com/resources/blog/weather-impact-consumer-behavior/",
+    "https://www.numerator.com/resources/report/dollar-channels-pandemic-glow/",
+    "https://www.numerator.com/resources/report/love-insights-actually/",
+    "https://www.numerator.com/resources/webinar/quick-service-covid-19-what-worked-and-whats-next/"
+   ],
+   "holdout_neg": [
+    "https://www.numerator.com/solutions/data-feeds/product/",
+    "https://www.numerator.com/solutions/survey/segmentations/",
+    "https://www.numerator.com/solutions/insights/promotion/",
+    "https://www.numerator.com/solutions/insights/product/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.numerator\\.com/resources/[a-z]+/[a-z0-9-]+/$",
+     "holdout_fn": [
+      "https://www.numerator.com/resources/case-study/every-man-jack/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 44
+    }
+   ],
+   "regression_pos": [
+    "https://www.numerator.com/resources/blog/2019-fathers-day-promotional-review/",
+    "https://www.numerator.com/resources/case-study/every-man-jack/",
+    "https://www.numerator.com/resources/report/2020-holiday-planning-consumer-intentions-survey/",
+    "https://www.numerator.com/resources/report/home-improvement-consumer-survey-report/",
+    "https://www.numerator.com/resources/report/prime-day-2022-recap/",
+    "https://www.numerator.com/resources/report/win-once-win-shopper-amazon-revolution/"
+   ],
+   "regression_neg": [
+    "https://www.numerator.com/resources/",
+    "https://www.numerator.com/industries/finserv/sell-side/",
+    "https://www.numerator.com/solutions/survey/in-platform-research/",
+    "https://www.numerator.com/solutions/data-feeds/promo/",
+    "https://www.numerator.com/industries/qsr/insights-to-grow/"
+   ]
+  },
+  {
+   "id": "R3-S1-R45-E3-F1",
+   "entry_ids": [
+    "S1-R45-E3"
+   ],
+   "target": "https://yougov.com/reports 入口前缀 /reports/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://yougov\\.com/reports/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://yougov.com/reports/54616-id-auto-rankings-report-2026",
+    "https://yougov.com/reports/54773-flying-high-singapore-airline-rankings-2026",
+    "https://yougov.com/reports/54836-indian-cricket-fandom-report-2026",
+    "https://yougov.com/reports/55024-beyond-non-food-how-action-and-dealz-are-reshaping-retail-in-poland",
+    "https://yougov.com/reports/55102-au-websearch-ai-report-2026"
+   ],
+   "holdout_pos": [
+    "https://yougov.com/reports/37837-more-half-uae-residents-are-willing-pay-more-5g-ac",
+    "https://yougov.com/reports/49832-beyond-borders-an-overview-on-cross-border-shopping-patterns",
+    "https://yougov.com/reports/50320-ca-retirement-report-2024",
+    "https://yougov.com/reports/51874-from-screen-to-shelves-makeup-livestreaming-report-apac",
+    "https://yougov.com/reports/54275-shopper-perspectives",
+    "https://yougov.com/reports/54307-sg-anti-aging-report-2026"
+   ],
+   "holdout_neg": [
+    "https://yougov.com/articles/42979-new-yorks-gambling-landscape-after-legalisation-on",
+    "https://yougov.com/articles/19957-brand-boycott-2",
+    "https://yougov.com/articles/38319-use-first-party-data-test-solutions-boost-transpar",
+    "https://yougov.com/articles/29326-75-b2b-marketers-are-looking-investments-towards-d"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://yougov\\.com/reports/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 3
+    }
+   ],
+   "regression_pos": [
+    "https://yougov.com/reports/32968-har-ar-de-hogst-rankade-varumarkena",
+    "https://yougov.com/reports/33258-18-maailman-vaestosta-teknologian-varhaisia-kaytto",
+    "https://yougov.com/reports/36780-urban-indians-have-appetite-travel-health-safety-r",
+    "https://yougov.com/reports/41033-young-consumers-are-likely-drive-streaming-growth-",
+    "https://yougov.com/reports/48711-norways-strongest-brands-in-2023",
+    "https://yougov.com/reports/50749-consumer-insights-on-the-air-india-vistara-merger-india-abm-oct-2024"
+   ],
+   "regression_neg": [
+    "https://yougov.com/reports",
+    "https://yougov.com/articles/42208-uk-announces-three-point-reform-agenda-tackle-fake",
+    "https://yougov.com/articles/41116-podcasts-are-losing-sheen-go-platforms-americans-c",
+    "https://yougov.com/articles/47222-examining-premier-league-betting-appetite-in-six-key-markets",
+    "https://yougov.com/articles/37606-43-uks-small-businesses-are-looking-expand-interna"
+   ]
+  },
+  {
+   "id": "R3-S1-R48-E1-F1",
+   "entry_ids": [
+    "S1-R48-E1"
+   ],
+   "target": "https://www.bain.com/insights/ 入口前缀 /insights/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.bain\\.com/insights/[a-zA-Z0-9_-]+/$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+    "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+    "https://www.bain.com/insights/inside-bains-2026-technology-report-webinar/",
+    "https://www.bain.com/insights/the-ai-opportunity-in-boring-businesses-with-brookfields-anuj-ranjan-podcast/",
+    "https://www.bain.com/insights/winning-with-ai-podcast-carsten-rasch-egeriis/"
+   ],
+   "holdout_pos": [
+    "https://www.bain.com/insights/2020-year-in-review-the-surprising-resilience-m-and-a-report-2021/",
+    "https://www.bain.com/insights/banks-should-scrap-pilot-programs-and-do-this-instead-american-banker/",
+    "https://www.bain.com/insights/btb-emerging-technologies/",
+    "https://www.bain.com/insights/john-senior-reinvigorating-cross-selling-video/",
+    "https://www.bain.com/insights/passing-on-the-culture-of-business-building-fm-blog/",
+    "https://www.bain.com/insights/trade-spending-investment-or-expense/"
+   ],
+   "holdout_neg": [
+    "https://www.bain.com/our-team/careers-nehir-mentes/",
+    "https://www.bain.com/our-team/jonathan-mccrostie/",
+    "https://www.bain.com/our-team/simon-breysse/",
+    "https://www.bain.com/our-team/roberta-berlinghieri-alumni/",
+    "https://www.bain.com/insights/topics/technology-report/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.bain\\.com/insights/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 50
+    }
+   ],
+   "regression_pos": [
+    "https://www.bain.com/insights/about-face/",
+    "https://www.bain.com/insights/bumpy-road-ahead-for-pe-ame-info/",
+    "https://www.bain.com/insights/kundenorientierte-wachstumsstrategien-im-privatkundengeschaft/",
+    "https://www.bain.com/insights/of-note-where-the-action-is/",
+    "https://www.bain.com/insights/the-best-companies-dont-have-more-stars-hbr/",
+    "https://www.bain.com/insights/the-untapped-potential-of-southeast-asias-green-economy-video/"
+   ],
+   "regression_neg": [
+    "https://www.bain.com/insights/",
+    "https://www.bain.com/our-team/careers-mingxuan-sun/",
+    "https://www.bain.com/our-team/emma-zumsen-alumni/",
+    "https://www.bain.com/our-team/careers-chung-yen-wong/",
+    "https://www.bain.com/our-team/gopal-pai/",
+    "https://www.bain.com/insights/topics/bain-webinars/",
+    "https://www.bain.com/insights/topics/bain-webinars-expire/"
+   ]
+  },
+  {
+   "id": "R3-S1-R49-E1-F1",
+   "entry_ids": [
+    "S1-R49-E1"
+   ],
+   "target": "https://www.deloitte.com/global/en/insights.html 入口前缀 /global/en/insights/ 下签名 [3, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+",
+    "seg2": "[a-zA-Z0-9_-]+ + .html"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-agents-human-workplace.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-investment-strategy.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/frontier-ai-challenges-enterprise-controls.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends.html"
+   ],
+   "holdout_pos": [
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/critical-need-for-cybersecurity-in-space-systems.html",
+    "https://www.deloitte.com/global/en/insights/industry/manufacturing-industrial-products/global-supply-chain-resilience-amid-disruptions.html",
+    "https://www.deloitte.com/global/en/insights/industry/power-and-utilities/nuclear-energy-powering-data-centers.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/artificial-intelligence-roi.html",
+    "https://www.deloitte.com/global/en/insights/multimedia/podcasts/ai-for-good-summit-review-and-ramifications.html",
+    "https://www.deloitte.com/global/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html"
+   ],
+   "holdout_neg": [
+    "https://www.deloitte.com/global/en/services/consulting-financial/about/infrastructure-for-good.html",
+    "https://www.deloitte.com/ch/en/services/consulting/case-studies/loudon-water-cloud-transformation.html",
+    "https://www.deloitte.com/il/en/services/consulting/services/marketing-commerce.html",
+    "https://www.deloitte.com/an/en/services/consulting/services/forensic-financial-crime.html",
+    "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z0-9-]+\\.html$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 25
+    }
+   ],
+   "regression_pos": [
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/post-pandemic-hybrid-learning.html",
+    "https://www.deloitte.com/global/en/insights/industry/health-care/health-care-pricing-strategies.html",
+    "https://www.deloitte.com/global/en/insights/industry/retail-distribution/from-throw-away-culture-to-repair-revolution.html",
+    "https://www.deloitte.com/global/en/insights/multimedia/videos/holiday-retail-strategies-ai.html",
+    "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth/chro-roles-and-responsibilities.html",
+    "https://www.deloitte.com/global/en/insights/topics/talent/tech-leaders-reimagining-work-workforce-workplace.html"
+   ],
+   "regression_neg": [
+    "https://www.deloitte.com/global/en/insights.html",
+    "https://www.deloitte.com/in/en/about/people/blogs/dona-el-sayah-forensic.html",
+    "https://www.deloitte.com/gh/en/about/recognition/analyst-relations/gx-human-capital-consulting-awards-recognition.html",
+    "https://www.deloitte.com/us/en/industries/life-sciences-health-care/research/consumers-are-the-ceos-of-their-own-health.html",
+    "https://www.deloitte.com/nz/en/services/tax/perspectives/september-2024-are-you-an-ethical-tax-advisor.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html",
+    "https://www.deloitte.com/global/en/insights/multimedia/podcasts.html"
+   ]
+  },
+  {
+   "id": "R3-S1-R49-E1-F2",
+   "entry_ids": [
+    "S1-R49-E1"
+   ],
+   "target": "https://www.deloitte.com/global/en/insights.html 入口前缀 /global/en/insights/ 下签名 [5, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z0-9-]+\\.html$",
+   "variables": {
+    "seg0": "[a-z]+",
+    "seg1": "[a-z-]+",
+    "seg2": "[a-z-]+",
+    "seg4": "[a-z0-9-]+ + .html"
+   },
+   "literals": {
+    "seg3": "2026"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html",
+    "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2026/decision-making-with-ai.html",
+    "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2026/managing-disinformation-at-scale.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+    "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html"
+   ],
+   "holdout_pos": [
+    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2026/agentic-ai-wealth-management-productivity.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/cognitive-government-ai-driven-decision-making.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/future-of-regulation.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/modern-operating-model-government-ai-era.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/new-supply-chain-tech.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/next-gen-satellite-internet.html"
+   ],
+   "holdout_neg": [
+    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/spotlight/economics-insights-analysis-05-2021.html",
+    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/talent/technology-and-the-future-of-work/intelligent-automation-technologies-strategies.html",
+    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/covid-19-collection/audit-committee-climate-change.html",
+    "https://www.deloitte.com/global/en/our-thinking/insights/topics/economy/asia-pacific/india-economic-outlook-07-2022.html",
+    "https://www.deloitte.com/global/en/insights/industry/manufacturing-industrial-products/2025-smart-manufacturing-survey.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/future-of-infrastructure.html"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z-]+\\.html$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2026/private-capital-defined-contribution-plans.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/future-of-infrastructure/2026/infrastructure-delivery-permitting-procurement-coordination.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/agentic-ai-government-customized-service-delivery.html",
+    "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/human-ai-collaboration-government-workforce.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/saas-ai-agents.html",
+    "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/tech-sovereignty.html"
+   ],
+   "regression_neg": [
+    "https://www.deloitte.com/global/en/insights.html",
+    "https://www.deloitte.com/mu/en/our-thinking/insights/industry/government-public-services/government-trends/2020.html",
+    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/covid-19/future-of-mobility-after-covid-19-transportation-scenarios.html",
+    "https://www.deloitte.com/ce/en/our-thinking/insights/topics/emerging-technologies/cognitive-technologies/design-principles-ethical-artificial-intelligence.html",
+    "https://www.deloitte.com/gh/en/our-thinking/insights/topics/economy/asia-pacific/pandemic-affect-on-asian-consumers.html",
+    "https://www.deloitte.com/global/en/insights/topics/emerging-technologies.html",
+    "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions.html"
+   ]
+  },
+  {
+   "id": "R3-S1-R53-E4-F2",
+   "entry_ids": [
+    "S1-R53-E4"
+   ],
+   "target": "https://www.idc.com/resource-center/ 入口前缀 /resource-center/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.idc\\.com/resource\\-center/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.idc.com/resource-center/blog/",
+    "https://www.idc.com/resource-center/executive-insights-hub/",
+    "https://www.idc.com/resource-center/futurescape/",
+    "https://www.idc.com/resource-center/middle-east-conflict/",
+    "https://www.idc.com/resource-center/webinars/"
+   ],
+   "holdout_pos": [
+    "https://www.idc.com/resource-center/ai-hub/",
+    "https://www.idc.com/resource-center/customer-spotlight/",
+    "https://www.idc.com/resource-center/definitions/",
+    "https://www.idc.com/resource-center/generative-ai/",
+    "https://www.idc.com/resource-center/middle-east-conflict-market-implications-video/",
+    "https://www.idc.com/resource-center/sustainability/"
+   ],
+   "holdout_neg": [
+    "https://www.idc.com/resource-topic/disaster-recovery/",
+    "https://www.idc.com/resource-topic/sustainability-vendor-selection/",
+    "https://www.idc.com/resource-topic/real-time-data/",
+    "https://www.idc.com/resource-topic/apple-ecosystem-strategy/",
+    "https://www.idc.com/resource-center/blog/ai%e9%9c%80%e6%b1%82%e5%a2%9e%e9%95%bf%e4%b9%8b%e5%90%8e%ef%bc%8c%e6%95%b0%e6%8d%ae%e4%b8%ad%e5%bf%83%e7%9a%84%e7%ab%9e%e4%ba%89%e5%8a%9b%e5%a6%82%e4%bd%95%e8%a1%a1%e9%87%8f%ef%bc%9f/",
+    "https://www.idc.com/resource-center/blog/asia-pacific-ai-infrastructure/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.idc\\.com/resource\\-center/[a-z-]+/$",
+     "holdout_fn": [
+      "https://www.idc.com/resource-center/2025-ceo-priorities/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.idc.com/resource-center/2025-ceo-priorities/",
+    "https://www.idc.com/resource-center/ai-security-in-the-age-of-generative-ai-video/",
+    "https://www.idc.com/resource-center/creating-advantage-in-the-agentic-economy-ebook/",
+    "https://www.idc.com/resource-center/leadership-insights-executive-tech-talk/",
+    "https://www.idc.com/resource-center/marketing-ai/",
+    "https://www.idc.com/resource-center/navigating-the-agentic-economy-crosscurrents-ebook/"
+   ],
+   "regression_neg": [
+    "https://www.idc.com/resource-center/",
+    "https://www.idc.com/resource-topic/agentic-ai-and-multi-agent-systems/",
+    "https://www.idc.com/resource-topic/hyperscale-datacenters/",
+    "https://www.idc.com/about/rss/",
+    "https://www.idc.com/resource-topic/ai-orchestration-best-practices/",
+    "https://www.idc.com/resource-center/blog/us-robotics-ban-humanoids-europe/",
+    "https://www.idc.com/resource-center/blog/%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%bc%80%e5%a7%8b%e6%8c%89%e6%9f%9c%e4%ba%a4%e4%bb%98%ef%bc%9a%e6%8e%a5%e5%be%97%e4%bd%8f%ef%bc%8c%e6%89%8d%e6%98%af%e6%95%b0%e6%8d%ae%e4%b8%ad%e5%bf%83%e7%9a%84/"
+   ]
+  },
+  {
+   "id": "R3-S1-R68-E1-F1",
+   "entry_ids": [
+    "S1-R68-E1"
+   ],
+   "target": "https://www.iab.com/events/ 入口前缀 /events/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.iab\\.com/events/[a-z0-9_-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+    "https://www.iab.com/events/iab-terms-conditions-workshop/",
+    "https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/",
+    "https://www.iab.com/events/playfronts-2026/",
+    "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/"
+   ],
+   "holdout_pos": [
+    "https://www.iab.com/events/2020-01-22-sales-leadership-training/",
+    "https://www.iab.com/events/3ms-educational-forum-february-2015/",
+    "https://www.iab.com/events/grand-opening-iab-san-francisco-ad-lab/",
+    "https://www.iab.com/events/iab-tech-lab-addressability-system-designs/",
+    "https://www.iab.com/events/iabplus-q1-2026-trends-webinar/",
+    "https://www.iab.com/events/messaging-app-working-group-kick-off-meeting/"
+   ],
+   "holdout_neg": [
+    "https://www.iab.com/news/iab-australia-mobile-location-data-handbook-april-2017/",
+    "https://www.iab.com/video/2020-iab-podcast-upfront-art19/",
+    "https://www.iab.com/product/11-10-advanced-television-the-quest-for-universal-addressability/",
+    "https://www.iab.com/news/iabpwc-release-fourth-quarter-fy-2005-internet-ad-revenue-figures/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.iab\\.com/events/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 6
+    }
+   ],
+   "regression_pos": [
+    "https://www.iab.com/events/2019-iab-cannes/",
+    "https://www.iab.com/events/ads-txt-across-supply-chain-business-perspectives/",
+    "https://www.iab.com/events/digital-essentials-san-francisco-2019-11-13/",
+    "https://www.iab.com/events/info-session-digital-media-sales-certification-11515/",
+    "https://www.iab.com/events/practical-guidance-for-european-privacy-laws-gdpr-eprivacy-and-beyond-05-01-2024/",
+    "https://www.iab.com/events/privacy-law-essentials-for-digital-advertising-professionals-3-2-22/"
+   ],
+   "regression_neg": [
+    "https://www.iab.com/events/",
+    "https://www.iab.com/blog/advertisers-of-new-york-noah-porter-360i/",
+    "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year/",
+    "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
+    "https://www.iab.com/news/insight-inspiration-transformation/"
+   ]
+  },
+  {
+   "id": "R3-S1-R86-E2-F1",
+   "entry_ids": [
+    "S1-R86-E2"
+   ],
+   "target": "https://www.dandad.org/insights 入口前缀 /insights/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-zA-Z0-9ü-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.dandad.org/insights/awards/dad-awards-2026-watch-our-webinars-on-whats-new-and-how-to-enter",
+    "https://www.dandad.org/insights/awards/how-do-juries-award-ai-work-awards-insights",
+    "https://www.dandad.org/insights/awards/what-are-judges-looking-dads-new-health-wellbeing-features-opinions",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/glimpse-masterclass-case-study",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/kraft-heinz--masterclass-case-study",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/sony-music-masterclass-case-study",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/wetransfer-sustainability-bespoke-creative-training-content",
+    "https://www.dandad.org/insights/case-studies-and-partnerships/work-through-diageo-brief-nyc-shifters-case-study-insights",
+    "https://www.dandad.org/insights/features/from-dropping-out-of-school-to-exhibiting-work-at-the-barbican-the-southbank-centre-and-chanel",
+    "https://www.dandad.org/insights/learning/kickstart-your-career-these-tips-vfx-artist-features-opinions"
+   ],
+   "holdout_pos": [
+    "https://www.dandad.org/insights/awards/amex-small-business-saturday-case-study-insights",
+    "https://www.dandad.org/insights/awards/case-study-inglorious-fruits-social-good",
+    "https://www.dandad.org/insights/features/how-taste-plays-important-role-evaluating-portfolios-features-opinions",
+    "https://www.dandad.org/insights/features/story-behind-pencils",
+    "https://www.dandad.org/insights/learning/creative-leadership-tips-training-content",
+    "https://www.dandad.org/insights/learning/what-do-when-your-project-management-schedule-slip-new-blood-advice"
+   ],
+   "holdout_neg": [
+    "https://www.dandad.org/work/new-blood-archive/duospeak-ride",
+    "https://www.dandad.org/work/d-ad-awards-archive/seedsman",
+    "https://www.dandad.org/work/d-ad-awards-archive/heinrich",
+    "https://www.dandad.org/creative-community/directory/mukesh-jadhav",
+    "https://www.dandad.org/insights/awards",
+    "https://www.dandad.org/insights/learning"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-z0-9ü-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.dandad.org/insights/awards/lynx-pulse-case-study-insights",
+    "https://www.dandad.org/insights/features/how-new-york-fashion-student-got-her-start-features-opinions",
+    "https://www.dandad.org/insights/features/snaps-resh-sidhu-on-how-the-creative-frontier-has-shifted",
+    "https://www.dandad.org/insights/learning/how-carl-jungs-12-character-archetypes-apply-brand-training-content",
+    "https://www.dandad.org/insights/learning/how-to-build-creative-portfolio-new-blood-advice",
+    "https://www.dandad.org/insights/learning/three-ways-humanise-your-video-storytelling-training-content"
+   ],
+   "regression_neg": [
+    "https://www.dandad.org/insights",
+    "https://www.dandad.org/work/d-ad-awards-archive/history-of-the-internet",
+    "https://www.dandad.org/work/d-ad-awards-archive/the-legend-of-zelda-phantom-hourglass",
+    "https://www.dandad.org/creative-community/directory/vita-vilcina",
+    "https://www.dandad.org/creative-community/directory/wanda-ximena-morgana-calix-ponce",
+    "https://www.dandad.org/insights/features",
+    "https://www.dandad.org/insights/case-studies-and-partnerships"
+   ]
+  },
+  {
+   "id": "R3-S1-R86-E4-F1",
+   "entry_ids": [
+    "S1-R86-E4"
+   ],
+   "target": "https://www.dandad.org/work/d-ad-awards-archive 入口前缀 /work/d-ad-awards-archive/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.dandad\\.org/work/d\\-ad\\-awards\\-archive/[a-z0-9_ßàáâãäåæçèéêíðñòóôöøúüāđēīņōœśšžǎǐ我水-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_ßàáâãäåæçèéêíðñòóôöøúüāđēīņōœśšžǎǐ我水-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.dandad.org/work/d-ad-awards-archive/100-words-for-water-a-projective-ecosocial-vocabulary",
+    "https://www.dandad.org/work/d-ad-awards-archive/14-a-collection-of-typography-from-the-worlds-most-beautiful-books",
+    "https://www.dandad.org/work/d-ad-awards-archive/18-months",
+    "https://www.dandad.org/work/d-ad-awards-archive/2025-fan-life",
+    "https://www.dandad.org/work/d-ad-awards-archive/9v-flavour"
+   ],
+   "holdout_pos": [
+    "https://www.dandad.org/work/d-ad-awards-archive/ariel-share-the-load",
+    "https://www.dandad.org/work/d-ad-awards-archive/body-colours",
+    "https://www.dandad.org/work/d-ad-awards-archive/itv-great-characters-make-great-drama-the-patriarch-2",
+    "https://www.dandad.org/work/d-ad-awards-archive/prank-calls",
+    "https://www.dandad.org/work/d-ad-awards-archive/reunion",
+    "https://www.dandad.org/work/d-ad-awards-archive/the-ideas-fund"
+   ],
+   "holdout_neg": [
+    "https://www.dandad.org/creative-community/directory/juan-andrés-kebork",
+    "https://www.dandad.org/creative-community/companies/zucker-art-books",
+    "https://www.dandad.org/creative-community/directory/gustavo-nassar",
+    "https://www.dandad.org/creative-community/directory/habib-khan"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.dandad\\.org/work/d\\-ad\\-awards\\-archive/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 240
+    }
+   ],
+   "regression_pos": [
+    "https://www.dandad.org/work/d-ad-awards-archive/bar-experience",
+    "https://www.dandad.org/work/d-ad-awards-archive/clash-from-the-past",
+    "https://www.dandad.org/work/d-ad-awards-archive/fabulous-hats",
+    "https://www.dandad.org/work/d-ad-awards-archive/jazz-posters",
+    "https://www.dandad.org/work/d-ad-awards-archive/spider-2",
+    "https://www.dandad.org/work/d-ad-awards-archive/thrice-removed"
+   ],
+   "regression_neg": [
+    "https://www.dandad.org/work/d-ad-awards-archive",
+    "https://www.dandad.org/insights/features/david-kennedy-tribute-susan-hoffman",
+    "https://www.dandad.org/creative-community/companies/solab",
+    "https://www.dandad.org/creative-community/directory/jincheng-zou",
+    "https://www.dandad.org/creative-community/directory/graham-walker"
+   ]
+  },
+  {
+   "id": "R3-S1-R89-E2-F1",
+   "entry_ids": [
+    "S1-R89-E2"
+   ],
+   "target": "https://www.greenbook.org/insights 入口前缀 /insights/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.greenbook\\.org/insights/[a-z0-9-]+/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.greenbook.org/insights/artificial-intelligence-and-machine-learning/beyond-synthetic-consumers-building-a-human-ai-model-for-better-brand-decisions",
+    "https://www.greenbook.org/insights/authors/brian-fowler",
+    "https://www.greenbook.org/insights/authors/egalvin2",
+    "https://www.greenbook.org/insights/authors/jbrazil",
+    "https://www.greenbook.org/insights/the-prompt-ai/synthetic-research-when-are-findings-decision-ready"
+   ],
+   "holdout_pos": [
+    "https://www.greenbook.org/insights/artificial-intelligence-and-machine-learning/how-to-get-real-insights-from-synthetic-personas",
+    "https://www.greenbook.org/insights/authors/gbbeditors",
+    "https://www.greenbook.org/insights/focus-on-apac/improving-data-quality-with-rapport-and-relationship-building",
+    "https://www.greenbook.org/insights/insights-industry-news/reaching-for-the-stars-while-standing-on-a-garbage-pile",
+    "https://www.greenbook.org/insights/market-research-trends/tmre-recap-actionable-insights-storytelling-and-big-change",
+    "https://www.greenbook.org/insights/research-methodologies/rethink-your-approach-are-you-making-the-most-of-your-resources"
+   ],
+   "holdout_neg": [
+    "https://www.greenbook.org/podcast-network/the-greenbook-podcast/riding-the-waves-of-technological-hype-a-market-research-journey-with-edward-appleton",
+    "https://www.greenbook.org/podcast-network/the-exchange/when-consumer-behavior-moves-faster-than-your-business-model",
+    "https://www.greenbook.org/podcast-network/ceo-series/reimagining-qual-how-conveoai-scales-deep-insights-with-ai",
+    "https://www.greenbook.org/tech-showcase/on-demand/addmaple-find-the-data-story-statistically-share-explorable-insights",
+    "https://www.greenbook.org/insights/grow-your-insights-business",
+    "https://www.greenbook.org/insights/inclusive-insights"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.greenbook\\.org/insights/[a-z-]+/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 4
+    }
+   ],
+   "regression_pos": [
+    "https://www.greenbook.org/insights/authors/jmallett",
+    "https://www.greenbook.org/insights/insights-industry-news/hard-hat-stats-some-common-and-uncommon-sense-part-3",
+    "https://www.greenbook.org/insights/insights-industry-news/the-future-of-communicating-quantitative-data",
+    "https://www.greenbook.org/insights/research-methodologies/a-debate-between-survey-length-and-data-quality",
+    "https://www.greenbook.org/insights/tags/olay",
+    "https://www.greenbook.org/insights/tags/suzy"
+   ],
+   "regression_neg": [
+    "https://www.greenbook.org/insights",
+    "https://www.greenbook.org/podcast-network/the-greenbook-podcast/cutting-through-the-noise-ensuring-data-quality-in-ai-driven-research-with-dynata",
+    "https://www.greenbook.org/podcast-network/the-greenbook-podcast/sentient-design-and-the-future-of-ai-powered-ux-with-josh-clark-and-veronika-kindred",
+    "https://www.greenbook.org/tech-showcase/on-demand/greenbooks-guide-to-product-and-concept-testing-technology",
+    "https://www.greenbook.org/tech-showcase/on-demand/voxpopme-ai-tools-to-plan-moderate-and-analyze-your-interviews-focus-groups",
+    "https://www.greenbook.org/insights/insights-industry-news",
+    "https://www.greenbook.org/insights/research-methodologies"
+   ]
+  },
+  {
+   "id": "R3-S1-R89-E2-F2",
+   "entry_ids": [
+    "S1-R89-E2"
+   ],
+   "target": "https://www.greenbook.org/insights 入口前缀 /insights/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.greenbook\\.org/insights/[a-z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.greenbook.org/insights/data-quality-privacy-and-ethics",
+    "https://www.greenbook.org/insights/executive-insights",
+    "https://www.greenbook.org/insights/grit",
+    "https://www.greenbook.org/insights/respondent-experience",
+    "https://www.greenbook.org/insights/topics"
+   ],
+   "holdout_pos": [
+    "https://www.greenbook.org/insights/empowered-to-lead-with-empathy-how-experian-health-used-alida-to-discover-and-act-on-voc-and-voe",
+    "https://www.greenbook.org/insights/happy-holidays-from-the-greenbook-team",
+    "https://www.greenbook.org/insights/renewable-energies-benefiting-supply-chain-reliability",
+    "https://www.greenbook.org/insights/the-death-of-market-research-brand-tracking",
+    "https://www.greenbook.org/insights/the-important-role-of-ux-in-education-technology-edtech",
+    "https://www.greenbook.org/insights/vision-critical-newmr-the-future-of-market-research-an-interview-with-ray-poynter"
+   ],
+   "holdout_neg": [
+    "https://www.greenbook.org/market-research-firms/virtual-personas-digital-twins",
+    "https://www.greenbook.org/company/Op4G-Opinions4Good",
+    "https://www.greenbook.org/company/Alpha-and-Beta-Research",
+    "https://www.greenbook.org/case-study/girls-who-code-quantifies-barriers-to-close-the-cybersecurity-gender-gap",
+    "https://www.greenbook.org/insights/authors/market-research-institute-international-mrii-undefined",
+    "https://www.greenbook.org/insights/grit/the-quiet-infrastructure-behind-modern-insights"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.greenbook\\.org/insights/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.greenbook.org/insights/a-preview-of-the-spring-2015-grit-report"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 243
+    }
+   ],
+   "regression_pos": [
+    "https://www.greenbook.org/insights/a-preview-of-the-spring-2015-grit-report",
+    "https://www.greenbook.org/insights/data-strategies-that-will-make-mta-multi-touch-attribution-work-for-your-organization",
+    "https://www.greenbook.org/insights/how-human-behavioral-research-went-from-lab-to-living-room",
+    "https://www.greenbook.org/insights/quit-using-quant-as-a-crutch",
+    "https://www.greenbook.org/insights/the-key-to-a-compelling-market-research-story-transparency-methodological-agnosticism",
+    "https://www.greenbook.org/insights/the-power-of-play"
+   ],
+   "regression_neg": [
+    "https://www.greenbook.org/insights",
+    "https://www.greenbook.org/marketing-research/kinesis-partners-with-startsampling-for-comprehensive-in-home-product-testing-07856",
+    "https://www.greenbook.org/market-research-firms/africa-middle-east",
+    "https://www.greenbook.org/case-study/global-entertainment-company-validates-gen-alpha-platform-concepts",
+    "https://www.greenbook.org/company/Best-Language-Services-Ltd",
+    "https://www.greenbook.org/insights/the-prompt-ai/beyond-distinctiveness-building-meaning-through-a-system-of-brand-assets",
+    "https://www.greenbook.org/insights/the-prompt-ai/how-ai-is-changing-survey-design-what-every-market-researcher-should-know"
+   ]
+  },
+  {
+   "id": "R3-S1-R89-E3-F1",
+   "entry_ids": [
+    "S1-R89-E3"
+   ],
+   "target": "https://www.greenbook.org/grit 入口前缀 /grit/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+    "https://www.greenbook.org/grit/insights-practice-edition",
+    "https://www.greenbook.org/grit/latam"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://www.greenbook.org/insights/the-difference-between-analyzing-text-and-analyzing-language-the-confidence-of-linguistic-analysis",
+    "https://www.greenbook.org/market-research-firms/eastern-europe-russia",
+    "https://www.greenbook.org/company/C-and-C-Market-Research",
+    "https://www.greenbook.org/marketing-research/webinar-recording-7-Key-Insights-to-Help-You-Predict-the-Next-Shift-in-Your-Market"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.greenbook\\.org/grit/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.greenbook.org/grit/insights-practice-edition-2025"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.greenbook.org/grit/insights-practice-edition-2025"
+   ],
+   "regression_neg": [
+    "https://www.greenbook.org/grit",
+    "https://www.greenbook.org/insights/did-peloton-just-experience-the-worst-product-placement-in-history",
+    "https://www.greenbook.org/insights/channels",
+    "https://www.greenbook.org/marketing-research/becoming-a-hidden-champion-in-niche-marketing",
+    "https://www.greenbook.org/marketing-research/free-webinar-developing-winning-claims-12413"
+   ]
+  },
+  {
+   "id": "R3-S1-R99-E1-F1",
+   "entry_ids": [
+    "S1-R99-E1"
+   ],
+   "target": "https://www.reforge.com/blog 入口前缀 /blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.reforge\\.com/blog/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.reforge.com/blog/aeo-playbook",
+    "https://www.reforge.com/blog/ai-evals-course",
+    "https://www.reforge.com/blog/eval-rubrics",
+    "https://www.reforge.com/blog/the-executive-builder",
+    "https://www.reforge.com/blog/the-rise-of-the-operators"
+   ],
+   "holdout_pos": [
+    "https://www.reforge.com/blog/ai-reality-check",
+    "https://www.reforge.com/blog/build-growth-team",
+    "https://www.reforge.com/blog/dropbox-international-growth-chenli-wang",
+    "https://www.reforge.com/blog/howwebuiltit",
+    "https://www.reforge.com/blog/interview-guide-templates",
+    "https://www.reforge.com/blog/product-requirement-document-prd-templates"
+   ],
+   "holdout_neg": [
+    "https://www.reforge.com/artifacts/brand-development-process-by-allyson-letteri",
+    "https://www.reforge.com/artifacts/community-builder-job-description-at-talent-io",
+    "https://www.reforge.com/profiles/martina-tam",
+    "https://www.reforge.com/artifacts/interview-assignment-for-ict-consultant-role",
+    "https://www.reforge.com/blog/collection/product-in-the-age-of-ai"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.reforge\\.com/blog/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.reforge.com/blog/brief-does-content-marketing-actually-work-the-data-says-yes",
+    "https://www.reforge.com/blog/casey-winters-pinterest-retention-seo",
+    "https://www.reforge.com/blog/crypto-referral-growth",
+    "https://www.reforge.com/blog/insights-context-engine",
+    "https://www.reforge.com/blog/reforge-build-capture-flow",
+    "https://www.reforge.com/blog/the-marketing-competency-matrix"
+   ],
+   "regression_neg": [
+    "https://www.reforge.com/blog",
+    "https://www.reforge.com/artifacts/enterprise-features-impact-review-at-webflow",
+    "https://www.reforge.com/profiles/naema-baskanderi",
+    "https://www.reforge.com/artifacts/growth-vectors-for-a-cpg-company",
+    "https://www.reforge.com/artifacts/go-to-market-checklist-at-bloomfire",
+    "https://www.reforge.com/blog/collection/frameworks",
+    "https://www.reforge.com/blog/collection/growth"
+   ]
+  },
+  {
+   "id": "R3-S1-R104-E3-F1",
+   "entry_ids": [
+    "S1-R104-E3"
+   ],
+   "target": "https://www.thinkbox.tv/news-and-opinion 入口前缀 /news-and-opinion/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.thinkbox\\.tv/news\\-and\\-opinion/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.thinkbox.tv/news-and-opinion/events",
+    "https://www.thinkbox.tv/news-and-opinion/must-see-tv",
+    "https://www.thinkbox.tv/news-and-opinion/newsroom",
+    "https://www.thinkbox.tv/news-and-opinion/opinion",
+    "https://www.thinkbox.tv/news-and-opinion/tv-planning-awards"
+   ],
+   "holdout_pos": [
+    "https://www.thinkbox.tv/news-and-opinion/cflight-your-questions-answered",
+    "https://www.thinkbox.tv/news-and-opinion/christmas-and-tv-what-you-need-to-know",
+    "https://www.thinkbox.tv/news-and-opinion/feeling-seen-how-diverse-advertising-unites-us",
+    "https://www.thinkbox.tv/news-and-opinion/lies-damn-lies-and-statistics",
+    "https://www.thinkbox.tv/news-and-opinion/tvs-having-a-moment",
+    "https://www.thinkbox.tv/news-and-opinion/why-does-the-pedlar-sing"
+   ],
+   "holdout_neg": [
+    "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics",
+    "https://www.thinkbox.tv/case-studies/beautybay-com-teamed-up-with-girls-aloud-to-deliver-great-results",
+    "https://www.thinkbox.tv/training-and-tools/media-mix-navigator",
+    "https://www.thinkbox.tv/case-studies/the-national-trust-for-scotland-using-tv-to-ask-for-help"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.thinkbox\\.tv/news\\-and\\-opinion/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 3
+    }
+   ],
+   "regression_pos": [
+    "https://www.thinkbox.tv/news-and-opinion/can-brands-harness-the-power-of-a-cliff-hanger",
+    "https://www.thinkbox.tv/news-and-opinion/ctv-your-questions-answered",
+    "https://www.thinkbox.tv/news-and-opinion/how-brands-can-harness-the-principle-of-costly-signalling",
+    "https://www.thinkbox.tv/news-and-opinion/risky-business-the-risks-of-risk-aversion",
+    "https://www.thinkbox.tv/news-and-opinion/the-seduction-of-time-in-advertising",
+    "https://www.thinkbox.tv/news-and-opinion/what-do-we-know-about-advertising-time-lengths"
+   ],
+   "regression_neg": [
+    "https://www.thinkbox.tv/news-and-opinion",
+    "https://www.thinkbox.tv/case-studies/twycross-zoo",
+    "https://www.thinkbox.tv/case-studies/ebay-created-bangers-mad-for-cars",
+    "https://www.thinkbox.tv/case-studies/macmillan-cancer-support-whatever-it-takes",
+    "https://www.thinkbox.tv/how-to-use-tv/spots"
+   ]
+  },
+  {
+   "id": "R3-S1-R105-E1-F1",
+   "entry_ids": [
+    "S1-R105-E1"
+   ],
+   "target": "https://nrf.com/membership 入口前缀 /membership/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://nrf\\.com/membership/[a-z-]+/?$",
+   "variables": {
+    "seg0": "[a-z-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://nrf.com/membership/nrf-industry-partner-membership",
+    "https://nrf.com/membership/nrf-retailer-membership",
+    "https://nrf.com/membership/nrf-university-membership"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://nrf.com/blog/inflation-is-only-beginning-to-bite",
+    "https://nrf.com/podcast/ai-skills-first-hiring-and-the-next-era-of-retail-jobs",
+    "https://nrf.com/blog/4-principles-retails-use-of-ai",
+    "https://nrf.com/blog/cargo-theft-trends-and-lessons-learned"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://nrf\\.com/membership/[a-z-]+$",
+     "holdout_fn": [
+      "https://nrf.com/membership/committees-and-councils/",
+      "https://nrf.com/membership/fira-membership/"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://nrf.com/membership/committees-and-councils/",
+    "https://nrf.com/membership/current-university-members",
+    "https://nrf.com/membership/fira-membership/"
+   ],
+   "regression_neg": [
+    "https://nrf.com/membership",
+    "https://nrf.com/blog/retail-ceos-share-tariff-impacts-ahead-of-holiday-shopping",
+    "https://nrf.com/resources/nrf-center-retail-sustainability/",
+    "https://nrf.com/research/monthly-economic-review-september-2024",
+    "https://nrf.com/research/customer-returns-retail-industry-2021"
+   ]
+  },
+  {
+   "id": "R3-S1-R105-E2-F1",
+   "entry_ids": [
+    "S1-R105-E2"
+   ],
+   "target": "https://nrf.com/about-us 入口前缀 /about-us/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://nrf\\.com/about\\-us/[a-z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://nrf.com/about-us/2025",
+    "https://nrf.com/about-us/board-directors",
+    "https://nrf.com/about-us/careers-nrf",
+    "https://nrf.com/about-us/nrf-staff"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://nrf.com/blog/4-ways-vote-retail-november",
+    "https://nrf.com/blog/where-shoppers-are-finding-inspiration-for-the-2026-back-to-school-season",
+    "https://nrf.com/blog/how-ulta-beauty-leverages-digital-innovation-customer-connection-and-personalization",
+    "https://nrf.com/research/retail-trade-issues-may-2025"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://nrf\\.com/about\\-us/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://nrf.com/about-us/2024",
+    "https://nrf.com/about-us/contact-us",
+    "https://nrf.com/about-us/privacy-policy",
+    "https://nrf.com/about-us/privacy-policy-eu-residents",
+    "https://nrf.com/about-us/terms-and-conditions"
+   ],
+   "regression_neg": [
+    "https://nrf.com/about-us",
+    "https://nrf.com/blog/life-out-here-continues-to-look-good-for-tractor-supply-company",
+    "https://nrf.com/blog/laying-foundation-modern-resale-thredup",
+    "https://nrf.com/podcast/why-retail-remains-stronger-than-headlines-suggest",
+    "https://nrf.com/blog/consumers-dont-want-pay-price-swipe-fees",
+    "https://nrf.com/about-us/nrf-staff/nrf-management-team"
+   ]
+  },
+  {
+   "id": "R3-S1-R108-E2-F1",
+   "entry_ids": [
+    "S1-R108-E2"
+   ],
+   "target": "https://www.wppmedia.com/news 入口前缀 /news/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.wppmedia\\.com/news/[a-zA-Z0-9'\\+\\.:_£åæçéøı’-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9'\\+\\.:_£åæçéøı’-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.wppmedia.com/news/comvergence-h1-2026",
+    "https://www.wppmedia.com/news/doordash-global-media-partnership",
+    "https://www.wppmedia.com/news/mm-the-rare-disease-marketing-gap",
+    "https://www.wppmedia.com/news/mm-what-the-reddit-decline-means-for-brands",
+    "https://www.wppmedia.com/news/mm-your-retail-feed-is-the-new-search-engine"
+   ],
+   "holdout_pos": [
+    "https://www.wppmedia.com/news/ai-powered-intelligence",
+    "https://www.wppmedia.com/news/commerce-2026",
+    "https://www.wppmedia.com/news/trainline-joins-open-intelligence-for-commerce",
+    "https://www.wppmedia.com/news/warc-effective-media-100",
+    "https://www.wppmedia.com/news/wpp-media-clients-win-2026-global-media-awards",
+    "https://www.wppmedia.com/news/wpp-monthly-digest-updates-october"
+   ],
+   "holdout_neg": [
+    "https://www.wppmedia.com/case-studies/Love-squad",
+    "https://www.wppmedia.com/case-studies/heineken-x-sivas",
+    "https://www.wppmedia.com/case-studies/yes-we-can-nabis",
+    "https://www.wppmedia.com/case-studies/Not-just-a-store-a-story"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.wppmedia\\.com/news/[a-z0-9-]+$",
+     "holdout_fn": [
+      "https://www.wppmedia.com/news/AWNY2026culture",
+      "https://www.wppmedia.com/news/IKEA-Malaysia-win",
+      "https://www.wppmedia.com/news/This-Year-Next-Year-WPP-Media-MENA's-midyear-forecast"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 128
+    }
+   ],
+   "regression_pos": [
+    "https://www.wppmedia.com/news/AWNY2026culture",
+    "https://www.wppmedia.com/news/IKEA-Malaysia-win",
+    "https://www.wppmedia.com/news/This-Year-Next-Year-WPP-Media-MENA's-midyear-forecast",
+    "https://www.wppmedia.com/news/commerce-education-curriculum-lanches",
+    "https://www.wppmedia.com/news/trugreen-awards-deepening-strategic-business",
+    "https://www.wppmedia.com/news/tyny-2023"
+   ],
+   "regression_neg": [
+    "https://www.wppmedia.com/news",
+    "https://www.wppmedia.com/case-studies/chupa-chups-and-stranger-things",
+    "https://www.wppmedia.com/pages/privacy-policy",
+    "https://www.wppmedia.com/case-studies/du-your-home-your-way",
+    "https://www.wppmedia.com/case-studies/uber-backseat-arcade"
+   ]
+  },
+  {
+   "id": "R3-S1-R114-E1-F1",
+   "entry_ids": [
+    "S1-R114-E1"
+   ],
+   "target": "https://amplitude.com/resources 入口前缀 /resources/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://amplitude\\.com/resources/[a-zA-Z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://amplitude.com/resources/north-star-playbook",
+    "https://amplitude.com/resources/product-benchmark-report",
+    "https://amplitude.com/resources/product-engagement-workbook",
+    "https://amplitude.com/resources/product-metrics"
+   ],
+   "holdout_pos": [
+    "https://amplitude.com/resources/digital-product-adoption-guide",
+    "https://amplitude.com/resources/keep-calm-and-product-on",
+    "https://amplitude.com/resources/learning-loops-your-secret-weapon-to-drive-growth",
+    "https://amplitude.com/resources/reducing-complexities-webinar",
+    "https://amplitude.com/resources/top-10-mistakes-in-digital-analytics",
+    "https://amplitude.com/resources/upselling-cross-selling"
+   ],
+   "holdout_neg": [
+    "https://amplitude.com/case-studies/calm",
+    "https://amplitude.com/benchmarks/enterprise",
+    "https://amplitude.com/fr-fr/get-started-ai-builder",
+    "https://amplitude.com/releases/chart-cleanup-page"
+   ],
+   "inference_redirected_away": [
+    [
+     "https://amplitude.com/resources/forrester-wave-report",
+     "https://amplitude.com/blog/roi-of-amplitude"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://amplitude\\.com/resources/[a-zA-Z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://amplitude.com/resources/amplitude-over-pendo",
+    "https://amplitude.com/resources/customer-success-18-may-2022",
+    "https://amplitude.com/resources/data-driven-delivery-transformation",
+    "https://amplitude.com/resources/lessons-in-experimentation",
+    "https://amplitude.com/resources/media-experimentation",
+    "https://amplitude.com/resources/plg-series-engagement-summer-2022"
+   ],
+   "regression_neg": [
+    "https://amplitude.com/resources",
+    "https://amplitude.com/blog/marketing-analytics-predictions-2026",
+    "https://amplitude.com/glossary/terms",
+    "https://amplitude.com/blog/ai-first-quest",
+    "https://amplitude.com/press/amplitude-announces-confidential-submission-of-draft-registration-statement-for-proposed-direct-listing"
+   ]
+  },
+  {
+   "id": "R3-S1-R114-E2-F1",
+   "entry_ids": [
+    "S1-R114-E2"
+   ],
+   "target": "https://amplitude.com/blog 入口前缀 /blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://amplitude\\.com/blog/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://amplitude.com/blog/agent-data-security",
+    "https://amplitude.com/blog/ai-context-configuration",
+    "https://amplitude.com/blog/cashbook-ai-failure-rate",
+    "https://amplitude.com/blog/docs-redesign",
+    "https://amplitude.com/blog/jev-analysis"
+   ],
+   "holdout_pos": [
+    "https://amplitude.com/blog/ai-agents-confluencevc",
+    "https://amplitude.com/blog/carwow-content-consumption",
+    "https://amplitude.com/blog/dual-y-axis",
+    "https://amplitude.com/blog/find-value-failed-ab-test",
+    "https://amplitude.com/blog/google-cloud-ready-bigquery",
+    "https://amplitude.com/blog/june-product-update-collaborate-charts-add-cohorts-dashboards"
+   ],
+   "holdout_neg": [
+    "https://amplitude.com/es-es/get-started",
+    "https://amplitude.com/integrations/userlist",
+    "https://amplitude.com/fr-fr/enterprise",
+    "https://amplitude.com/press/amplitude-welcomes-elisa-steele-and-catherine-wong-to-its-board-of-directors",
+    "https://amplitude.com/blog/category/customers",
+    "https://amplitude.com/blog/category/product"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://amplitude\\.com/blog/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 16
+    }
+   ],
+   "regression_pos": [
+    "https://amplitude.com/blog/amplitude-expands-ai-visibility",
+    "https://amplitude.com/blog/go-beyond-conversions-measure-customer-engagement",
+    "https://amplitude.com/blog/ifood-amplitude",
+    "https://amplitude.com/blog/instacart-increased-conversion-understanding-user-behavior",
+    "https://amplitude.com/blog/mercado-libre-ai-native-amplitude",
+    "https://amplitude.com/blog/session-replay-data-delivery"
+   ],
+   "regression_neg": [
+    "https://amplitude.com/blog",
+    "https://amplitude.com/compare/best-mixpanel-alternatives",
+    "https://amplitude.com/pt-br/solutions",
+    "https://amplitude.com/pt-pt/web-analytics",
+    "https://amplitude.com/press/amplitude-launches-web-experimentation",
+    "https://amplitude.com/blog/author/eric-kim",
+    "https://amplitude.com/blog/category/company"
+   ]
+  },
+  {
+   "id": "R3-S1-R114-E2-F2",
+   "entry_ids": [
+    "S1-R114-E2"
+   ],
+   "target": "https://amplitude.com/blog 入口前缀 /blog/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://amplitude\\.com/blog/[a-z]+/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z]+",
+    "seg1": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://amplitude.com/blog/author/eric-kim",
+    "https://amplitude.com/blog/category/company",
+    "https://amplitude.com/blog/category/customers",
+    "https://amplitude.com/blog/category/insights",
+    "https://amplitude.com/blog/category/product"
+   ],
+   "holdout_pos": [
+    "https://amplitude.com/blog/author/cat-perezamplitudenew-com",
+    "https://amplitude.com/blog/author/franciska-dethlefsen",
+    "https://amplitude.com/blog/author/tifenn-dano-kwan",
+    "https://amplitude.com/blog/author/wade-chambers",
+    "https://amplitude.com/blog/tag/employee-resource-group",
+    "https://amplitude.com/blog/tag/event-tracking"
+   ],
+   "holdout_neg": [
+    "https://amplitude.com/glossary/terms/trigger-based-messaging",
+    "https://amplitude.com/track/typo3/funnel-drop-off",
+    "https://amplitude.com/docs/session-replay/session-replay-viewer",
+    "https://amplitude.com/de-de/blog/the-economist-saves-analysts-hours",
+    "https://amplitude.com/blog/jev-analysis",
+    "https://amplitude.com/blog/docs-redesign"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://amplitude\\.com/blog/[a-z]+/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 9
+    }
+   ],
+   "regression_pos": [
+    "https://amplitude.com/blog/author/ahn-sang-hyeon",
+    "https://amplitude.com/blog/author/christine-yang",
+    "https://amplitude.com/blog/author/kaitlin-pike",
+    "https://amplitude.com/blog/author/tiahn-wetzleramplitudenew-com",
+    "https://amplitude.com/blog/author/tyler-joyce",
+    "https://amplitude.com/blog/tag/cohort-analysis"
+   ],
+   "regression_neg": [
+    "https://amplitude.com/blog",
+    "https://amplitude.com/track/react/weekly-active-users",
+    "https://amplitude.com/track/d3/avg-revenue-per-user",
+    "https://amplitude.com/glossary/terms/app-metrics",
+    "https://amplitude.com/track/wordpress/navigation-click",
+    "https://amplitude.com/blog/headless-amplitude",
+    "https://amplitude.com/blog/what-ai-engineers-do"
+   ]
+  },
+  {
+   "id": "R3-S1-R116-E2-F1",
+   "entry_ids": [
+    "S1-R116-E2"
+   ],
+   "target": "https://www.appsflyer.com/blog/ 入口前缀 /blog/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.appsflyer\\.com/blog/[a-z-]+/[a-z0-9_-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.appsflyer.com/blog/deep-linking/facebook-deep-link/",
+    "https://www.appsflyer.com/blog/measurement-analytics/holiday-season-2026/",
+    "https://www.appsflyer.com/blog/measurement-analytics/mobile-apps-omnichannel-measurement/",
+    "https://www.appsflyer.com/blog/measurement-analytics/onelink-api-growth-scale/",
+    "https://www.appsflyer.com/blog/measurement-analytics/the-optimal-tech-stack/"
+   ],
+   "holdout_pos": [
+    "https://www.appsflyer.com/blog/industries/entertainment/",
+    "https://www.appsflyer.com/blog/login-content-countries/benin/",
+    "https://www.appsflyer.com/blog/outlets/adzine/",
+    "https://www.appsflyer.com/blog/outlets/medianews-4u/",
+    "https://www.appsflyer.com/blog/outlets/the-ai-journal/",
+    "https://www.appsflyer.com/blog/trends-insights/app-gamification/"
+   ],
+   "holdout_neg": [
+    "https://www.appsflyer.com/de/glossary/apple-privacy-manifest/",
+    "https://www.appsflyer.com/ja/customers/town-wifi/",
+    "https://www.appsflyer.com/pt/infograms/mobile-fraud-report-2020/",
+    "https://www.appsflyer.com/de/glossary/ltv/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.appsflyer\\.com/blog/[a-z-]+/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 64
+    }
+   ],
+   "regression_pos": [
+    "https://www.appsflyer.com/blog/event-language/english/",
+    "https://www.appsflyer.com/blog/login-content-countries/cl/",
+    "https://www.appsflyer.com/blog/measurement-analytics/deep-linking-for-developers/",
+    "https://www.appsflyer.com/blog/mobile-marketing/mobile-ads-anatomy/",
+    "https://www.appsflyer.com/blog/outlets/cmo/",
+    "https://www.appsflyer.com/blog/outlets/martech-vibe/"
+   ],
+   "regression_neg": [
+    "https://www.appsflyer.com/blog/",
+    "https://www.appsflyer.com/pt/customers/letgo/",
+    "https://www.appsflyer.com/de/glossary/instant-apps/",
+    "https://www.appsflyer.com/resources/reports/india-ecommerce-marketers/",
+    "https://www.appsflyer.com/es/customers/gett/",
+    "https://www.appsflyer.com/blog/ceo/"
+   ]
+  },
+  {
+   "id": "R3-S1-R117-E1-F1",
+   "entry_ids": [
+    "S1-R117-E1"
+   ],
+   "target": "https://www.branch.io/resources/ 入口前缀 /resources/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.branch\\.io/resources/[a-z-]+/[a-z0-9_-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.branch.io/resources/blog/branch-brings-paid-and-organic-chatgpt-measurement-together/",
+    "https://www.branch.io/resources/guide/fitness-wellness-hub/",
+    "https://www.branch.io/resources/podcast/retargeting-in-a-post-privacy-world-how-angela-humphrey-navigates-mobile-growth-and-the-rise-of-ctv/",
+    "https://www.branch.io/resources/podcast/the-end-of-false-choices-putting-privacy-first-to-unlock-performance-marketing-in-healthcare/"
+   ],
+   "holdout_pos": [
+    "https://www.branch.io/resources/author/rob-gioia/",
+    "https://www.branch.io/resources/blog/branch-is-ready-for-custom-product-pages-from-apple/",
+    "https://www.branch.io/resources/blog/how-to-track-organic-and-viral-mobile-app-installs/",
+    "https://www.branch.io/resources/blog/mobile-funnels-are-a-hot-mess-but-yours-doesnt-have-to-be/",
+    "https://www.branch.io/resources/blog/top-linkedin-voices-in-mobile-growth-and-marketing/",
+    "https://www.branch.io/resources/blog/what-changed-with-deep-linking-on-ios-9-3/"
+   ],
+   "holdout_neg": [],
+   "inference_redirected_away": [
+    [
+     "https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/",
+     "https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.branch\\.io/resources/[a-z-]+/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.branch.io/resources/blog/boost-app-acquisition-with-email-marketing/",
+    "https://www.branch.io/resources/blog/branch-universal-object-for-deep-linking-and-indexing/",
+    "https://www.branch.io/resources/blog/our-favorite-apps-and-their-unique-branch-links/",
+    "https://www.branch.io/resources/blog/what-are-intrusive-interstitials-and-what-is-their-mobile-seo-ranking-penalty/",
+    "https://www.branch.io/resources/case-study/the-league-boosts-installs-and-engagement-with-a-world-class-mobile-referral-program/",
+    "https://www.branch.io/resources/podcast/ceo-chairman-and-co-founder-of-todaytix-group-brian-fenty-mixing-e-commerce-and-culture/"
+   ],
+   "regression_neg": [
+    "https://www.branch.io/resources/",
+    "https://www.branch.io/products/activation/bitly-vs-tinyurl/",
+    "https://www.branch.io/products/activation/branch-vs-flowcode/",
+    "https://www.branch.io/glossary/mobile-acquisition/"
+   ]
+  },
+  {
+   "id": "R3-S1-R118-E2-F2",
+   "entry_ids": [
+    "S1-R118-E2"
+   ],
+   "target": "https://www.brandwatch.com/blog/ 入口前缀 /blog/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.brandwatch\\.com/blog/[a-z]+/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.brandwatch.com/blog/author/adam-speight/",
+    "https://www.brandwatch.com/blog/author/emily-smith/",
+    "https://www.brandwatch.com/blog/author/nick-taylor/",
+    "https://www.brandwatch.com/blog/author/peter-fairfax/",
+    "https://www.brandwatch.com/blog/stream/marketing/"
+   ],
+   "holdout_pos": [
+    "https://www.brandwatch.com/blog/author/aj-wilcox/",
+    "https://www.brandwatch.com/blog/author/christel-quek/",
+    "https://www.brandwatch.com/blog/author/james-taylor/",
+    "https://www.brandwatch.com/blog/author/jeremy/",
+    "https://www.brandwatch.com/blog/author/jonathan-wickham/",
+    "https://www.brandwatch.com/blog/author/mabel-chua/"
+   ],
+   "holdout_neg": [
+    "https://www.brandwatch.com/de/blog/interview-datenwissenschaft-sentimentanalyse/",
+    "https://www.brandwatch.com/fr/blog/brandwatch-et-twitter-renforcent-leur-partenariat-strategique/",
+    "https://www.brandwatch.com/fr/blog/greve-des-transports-en-france-j1-mois-que-disent-les-francais-sur-les-reseaux-sociaux/",
+    "https://www.brandwatch.com/de/reports/ein-jahrzehnt-daten/",
+    "https://www.brandwatch.com/blog/social-media-holidays-august/",
+    "https://www.brandwatch.com/blog/campaign-measurement-social-search-signals/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.brandwatch\\.com/blog/[a-z]+/[a-z-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 5
+    }
+   ],
+   "regression_pos": [
+    "https://www.brandwatch.com/blog/author/james-creech/",
+    "https://www.brandwatch.com/blog/author/justin-clark/",
+    "https://www.brandwatch.com/blog/author/michelle-vangel/",
+    "https://www.brandwatch.com/blog/author/naomi-trickey/",
+    "https://www.brandwatch.com/blog/author/paul-shepherd/",
+    "https://www.brandwatch.com/blog/author/sophie-eagan/"
+   ],
+   "regression_neg": [
+    "https://www.brandwatch.com/blog/",
+    "https://www.brandwatch.com/es/blog/experiencia-post-compra-de-tus-clientes/",
+    "https://www.brandwatch.com/fr/blog/news-brandwatch-premier-offrir-un-acces-complet-aux-donnees-reddit/",
+    "https://www.brandwatch.com/de/blog/die-besten-community-manager-besitzen-diese-5-eigenschaften/",
+    "https://www.brandwatch.com/de/blog/brandwatch-academy/",
+    "https://www.brandwatch.com/blog/brandwatch-named-leader-idc-marketscape-social-marketing-software-large-enterprises/",
+    "https://www.brandwatch.com/blog/football-boots-tournament-trends/"
+   ]
+  },
+  {
+   "id": "R3-S1-R119-E1-F1",
+   "entry_ids": [
+    "S1-R119-E1"
+   ],
+   "target": "https://www.braze.com/resources/articles 入口前缀 /resources/articles/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.braze\\.com/resources/articles/[a-zA-Z0-9-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.braze.com/resources/articles/account-executive-day-in-the-life-berlin",
+    "https://www.braze.com/resources/articles/content-optimizer-product-spotlight",
+    "https://www.braze.com/resources/articles/october-2026-bonfire-marketer-of-the-month"
+   ],
+   "holdout_pos": [
+    "https://www.braze.com/resources/articles/ai-decisioning-for-marketing",
+    "https://www.braze.com/resources/articles/canvas-context",
+    "https://www.braze.com/resources/articles/in-browser-messages-interstitials",
+    "https://www.braze.com/resources/articles/mobile-acquisition-costs-are-a-serious-problem-but-engagement-can-be-the-solution",
+    "https://www.braze.com/resources/articles/user-experience-seamlessness-friction",
+    "https://www.braze.com/resources/articles/why-taking-a-cross-channel-approach-to-customer-engagement-matters"
+   ],
+   "holdout_neg": [
+    "https://www.braze.com/resources/reports-and-guides/insurance-inspiration-guide",
+    "https://www.braze.com/resources/videos/mifx-customer-testimonials",
+    "https://www.braze.com/ja/customers/equinox-case-study",
+    "https://www.braze.com/ja/customers/nurse-stage-case-study"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.braze\\.com/resources/articles/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.braze.com/resources/articles/2025-braze-reporting-announcements",
+    "https://www.braze.com/resources/articles/appboy-business-insider-nyc-coolest-startups",
+    "https://www.braze.com/resources/articles/iterate-test-iterate-retention-lessons-soundcloud",
+    "https://www.braze.com/resources/articles/rcs-getting-started",
+    "https://www.braze.com/resources/articles/the-state-of-customer-engagement-in-apac-in-2024",
+    "https://www.braze.com/resources/articles/the-ultimate-guide-to-being-a-successful-email-marketer"
+   ],
+   "regression_neg": [
+    "https://www.braze.com/resources/articles",
+    "https://www.braze.com/resources/webinars-and-events/data-activation-with-braze-snowflake-and-rudderstack",
+    "https://www.braze.com/resources/webinars-and-events/global-customer-engagement-review-2025",
+    "https://www.braze.com/resources/videos/establishing-human-communication-with-your-customers",
+    "https://www.braze.com/resources/reports-and-guides/the-loyalty-habit"
+   ]
+  },
+  {
+   "id": "R3-S1-R120-E1-F1",
+   "entry_ids": [
+    "S1-R120-E1"
+   ],
+   "target": "https://buffer.com/resources/ 入口前缀 /resources/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://buffer\\.com/resources/[a-z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://buffer.com/resources/how-buffer-helped-me-triple-my-linkedin-impressions-and-grow-my-newsletter/",
+    "https://buffer.com/resources/influencer-marketing-platforms/",
+    "https://buffer.com/resources/linkedin-collab-posts/",
+    "https://buffer.com/resources/social-media-calendar-template/",
+    "https://buffer.com/resources/youtube-shorts-ideas/"
+   ],
+   "holdout_pos": [
+    "https://buffer.com/resources/5-simple-seo-tactics/",
+    "https://buffer.com/resources/career-in-marketing/",
+    "https://buffer.com/resources/instagram-editing-apps/",
+    "https://buffer.com/resources/januel-johnson-case-study/",
+    "https://buffer.com/resources/social-media-break/",
+    "https://buffer.com/resources/why-personalization-is-the-next-big-opportunity-in-social-media-marketing/"
+   ],
+   "holdout_neg": [
+    "https://buffer.com/social-media-terms/jpeg",
+    "https://buffer.com/pt/facebook",
+    "https://buffer.com/es/start-page",
+    "https://buffer.com/social-media-terms/impressions",
+    "https://buffer.com/resources/author/hailley/",
+    "https://buffer.com/resources/author/mike-e/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://buffer\\.com/resources/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://buffer.com/resources/how-to-add-captions-on-tiktok/",
+    "https://buffer.com/resources/pr-agency/",
+    "https://buffer.com/resources/side-hustle-to-business/",
+    "https://buffer.com/resources/snowmelt-meetings/",
+    "https://buffer.com/resources/survive-thrive/",
+    "https://buffer.com/resources/youtube-shorts-scheduling/"
+   ],
+   "regression_neg": [
+    "https://buffer.com/resources/",
+    "https://buffer.com/fr/press",
+    "https://buffer.com/nl/publish",
+    "https://buffer.com/de/pricing",
+    "https://buffer.com/es/developer-api",
+    "https://buffer.com/resources/author/ariel-taranski/",
+    "https://buffer.com/resources/author/carlos/"
+   ]
+  },
+  {
+   "id": "R3-S1-R120-E1-F2",
+   "entry_ids": [
+    "S1-R120-E1"
+   ],
+   "target": "https://buffer.com/resources/ 入口前缀 /resources/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://buffer\\.com/resources/author/[a-z0-9-]+/$",
+   "variables": {
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {
+    "seg0": "author"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://buffer.com/resources/author/eric-lam/",
+    "https://buffer.com/resources/author/hailley/",
+    "https://buffer.com/resources/author/jerrica/",
+    "https://buffer.com/resources/author/kevanlee/",
+    "https://buffer.com/resources/author/rochi-zalani/"
+   ],
+   "holdout_pos": [
+    "https://buffer.com/resources/author/amanda-holliday/",
+    "https://buffer.com/resources/author/erickhun/",
+    "https://buffer.com/resources/author/leo/",
+    "https://buffer.com/resources/author/peggy-dean/",
+    "https://buffer.com/resources/author/stephanie-lin/",
+    "https://buffer.com/resources/author/steven/"
+   ],
+   "holdout_neg": [
+    "https://buffer.com/it/partners/agencies",
+    "https://buffer.com/it/integrations/chatgpt",
+    "https://buffer.com/es/integrations/n8n",
+    "https://buffer.com/nl/integrations/ifttt",
+    "https://buffer.com/resources/bufferupdates/",
+    "https://buffer.com/resources/meet-insights/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://buffer\\.com/resources/author/[a-z-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://buffer.com/resources/author/derek-flanzraich/",
+    "https://buffer.com/resources/author/hannah-alvarez/",
+    "https://buffer.com/resources/author/sarah-forrai/",
+    "https://buffer.com/resources/author/solene/",
+    "https://buffer.com/resources/author/sophie/",
+    "https://buffer.com/resources/author/teresa-comi/"
+   ],
+   "regression_neg": [
+    "https://buffer.com/resources/",
+    "https://buffer.com/nl/integrations/microsoft-power-automate",
+    "https://buffer.com/fr/integrations/evergreen-content-poster",
+    "https://buffer.com/pt/integrations/unsplash",
+    "https://buffer.com/de/integrations/n8n",
+    "https://buffer.com/resources/build-week-2026/",
+    "https://buffer.com/resources/social-media-calendar-template/"
+   ]
+  },
+  {
+   "id": "R3-S1-R121-E3-F1",
+   "entry_ids": [
+    "S1-R121-E3"
+   ],
+   "target": "https://contentsquare.com/guides/ 入口前缀 /guides/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://contentsquare\\.com/guides/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://contentsquare.com/guides/business-intelligence/",
+    "https://contentsquare.com/guides/customer-churn/",
+    "https://contentsquare.com/guides/data-analytics/",
+    "https://contentsquare.com/guides/model-context-protocol-mcp/",
+    "https://contentsquare.com/guides/product-discovery/"
+   ],
+   "holdout_pos": [
+    "https://contentsquare.com/guides/concept-testing/",
+    "https://contentsquare.com/guides/customer-experience/",
+    "https://contentsquare.com/guides/frustrated-users/",
+    "https://contentsquare.com/guides/performance-reporting/",
+    "https://contentsquare.com/guides/ux-research/",
+    "https://contentsquare.com/guides/web-app-design/"
+   ],
+   "holdout_neg": [
+    "https://contentsquare.com/blog/behavioral-data-third-party-cookies/",
+    "https://contentsquare.com/blog/ux-for-conversions/",
+    "https://contentsquare.com/ja-ja/events/",
+    "https://contentsquare.com/ja-ja/page-platform-ai-spring-launch-update-1/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://contentsquare\\.com/guides/[a-z-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://contentsquare.com/guides/behavior-analytics/",
+    "https://contentsquare.com/guides/customer-feedback/",
+    "https://contentsquare.com/guides/google-analytics-glossary/",
+    "https://contentsquare.com/guides/product-feedback/",
+    "https://contentsquare.com/guides/voice-of-customer/",
+    "https://contentsquare.com/guides/website-problems/"
+   ],
+   "regression_neg": [
+    "https://contentsquare.com/guides/",
+    "https://contentsquare.com/blog/what-does-contentsquare-do/",
+    "https://contentsquare.com/customers/clarins/",
+    "https://contentsquare.com/press/600m-growth-investment/",
+    "https://contentsquare.com/blog/digital-marketing-trends/"
+   ]
+  },
+  {
+   "id": "R3-S1-R122-E1-F1",
+   "entry_ids": [
+    "S1-R122-E1"
+   ],
+   "target": "https://www.hootsuite.com/resources/ 入口前缀 /resources/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.hootsuite\\.com/resources/[a-z-]+/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.hootsuite.com/resources/blog/competitive-analysis-template",
+    "https://www.hootsuite.com/resources/case-study/barcelo-hotel-group",
+    "https://www.hootsuite.com/resources/case-study/global-insurance-provider",
+    "https://www.hootsuite.com/resources/case-study/johnson-financial-group",
+    "https://www.hootsuite.com/resources/guide/insights"
+   ],
+   "holdout_pos": [
+    "https://www.hootsuite.com/resources/blog/healthcare-social-media-policy-template",
+    "https://www.hootsuite.com/resources/blog/influencer-strategy-template",
+    "https://www.hootsuite.com/resources/blog/social-media-monitoring-guide",
+    "https://www.hootsuite.com/resources/blog/social-media-proposal-template",
+    "https://www.hootsuite.com/resources/blog/social-media-report-template",
+    "https://www.hootsuite.com/resources/blog/social-media-swot-analysis-checklist"
+   ],
+   "holdout_neg": [
+    "https://www.hootsuite.com/it/legal/code-of-ethics",
+    "https://www.hootsuite.com/de/pages/enterprise-resources",
+    "https://www.hootsuite.com/it/legal/general-data-protection-regulation",
+    "https://www.hootsuite.com/pt/legal/app-directory-tos",
+    "https://www.hootsuite.com/resources/influencer-marketing-myths",
+    "https://www.hootsuite.com/resources/the-gym-group"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.hootsuite\\.com/resources/[a-z-]+/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 6
+    }
+   ],
+   "regression_pos": [
+    "https://www.hootsuite.com/resources/blog/facebook-ads-budget-calculator",
+    "https://www.hootsuite.com/resources/blog/free-instagram-presets",
+    "https://www.hootsuite.com/resources/blog/reels-creative-workbook",
+    "https://www.hootsuite.com/resources/blog/social-advertising-guide",
+    "https://www.hootsuite.com/resources/blog/social-media-contest-template",
+    "https://www.hootsuite.com/resources/blog/social-media-report-sm-goals"
+   ],
+   "regression_neg": [
+    "https://www.hootsuite.com/resources",
+    "https://www.hootsuite.com/de/ressourcen/rmwb",
+    "https://www.hootsuite.com/newsroom/press-releases/linkedin-extended",
+    "https://www.hootsuite.com/pt/webinars/2026-social-trends",
+    "https://www.hootsuite.com/es/research/social-media-career-report-education",
+    "https://www.hootsuite.com/resources/social-ai-prompts",
+    "https://www.hootsuite.com/resources/nba-team-case-study"
+   ]
+  },
+  {
+   "id": "R3-S1-R122-E1-F2",
+   "entry_ids": [
+    "S1-R122-E1"
+   ],
+   "target": "https://www.hootsuite.com/resources/ 入口前缀 /resources/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.hootsuite\\.com/resources/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.hootsuite.com/resources/influencer-marketing-myths",
+    "https://www.hootsuite.com/resources/nba-team-case-study",
+    "https://www.hootsuite.com/resources/social-ai-prompts",
+    "https://www.hootsuite.com/resources/the-gym-group"
+   ],
+   "holdout_pos": [
+    "https://www.hootsuite.com/resources/croda",
+    "https://www.hootsuite.com/resources/organize-your-social-business",
+    "https://www.hootsuite.com/resources/research-your-social-media-audience",
+    "https://www.hootsuite.com/resources/smb-social-makeover-case-study",
+    "https://www.hootsuite.com/resources/social-performance-guide",
+    "https://www.hootsuite.com/resources/uhaul"
+   ],
+   "holdout_neg": [
+    "https://www.hootsuite.com/whats-new/reports-by-product-area",
+    "https://www.hootsuite.com/whats-new/access-security-logs-when-you-need-them-with-social-archive",
+    "https://www.hootsuite.com/whats-new/netx-app-added-to-the-hootsuite-app-directory",
+    "https://www.hootsuite.com/whats-new/addition-of-instagram-profile-to-hootsuite-dashboard-prompting-a-500-internal-error",
+    "https://www.hootsuite.com/resources/case-study/barcelo-hotel-group",
+    "https://www.hootsuite.com/resources/blog/competitive-analysis-template"
+   ],
+   "inference_redirected_away": [
+    [
+     "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report-resource-library",
+     "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.hootsuite\\.com/resources/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 26
+    }
+   ],
+   "regression_pos": [
+    "https://www.hootsuite.com/resources/apo-case-study",
+    "https://www.hootsuite.com/resources/british-museum-increased-engagement",
+    "https://www.hootsuite.com/resources/hootsuite-mobile-a-quick-start-guide",
+    "https://www.hootsuite.com/resources/instagram-master-tactics",
+    "https://www.hootsuite.com/resources/small-biz-content-creation-resource",
+    "https://www.hootsuite.com/resources/tutorials-and-demos"
+   ],
+   "regression_neg": [
+    "https://www.hootsuite.com/resources",
+    "https://www.hootsuite.com/whats-new/publisher-for-advocates",
+    "https://www.hootsuite.com/whats-new/facebook-page-geotargeting",
+    "https://www.hootsuite.com/whats-new/pixxio-app-released",
+    "https://www.hootsuite.com/whats-new/recommended-metrics-in-reports",
+    "https://www.hootsuite.com/resources/case-study/johnson-financial-group",
+    "https://www.hootsuite.com/resources/case-study/global-insurance-provider"
+   ]
+  },
+  {
+   "id": "R3-S1-R123-E1-F1",
+   "entry_ids": [
+    "S1-R123-E1"
+   ],
+   "target": "https://blog.hubspot.com/marketing 入口前缀 /marketing/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://blog\\.hubspot\\.com/marketing/[a-z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "later_pagination_pages",
+   "inference": [
+    "https://blog.hubspot.com/marketing/gain-instagram-followers",
+    "https://blog.hubspot.com/marketing/how-to-repost-on-instagram",
+    "https://blog.hubspot.com/marketing/loop-marketing",
+    "https://blog.hubspot.com/marketing/social-media-calendar-tools",
+    "https://blog.hubspot.com/marketing/tracking-ai-overviews"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://blog.hubspot.com/sales/cost-based-pricing",
+    "https://blog.hubspot.com/customers/editing-original-source-property",
+    "https://blog.hubspot.com/sales/entrepreneurs-are-struggling-with-mental-health-but-wheres-the-support",
+    "https://blog.hubspot.com/sales/entrepreneur-vs-business-owner",
+    "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/5363/5-gifts-on-the-marketing-content-creator-s-holiday-wish-list.aspx",
+    "https://blog.hubspot.com/marketing/tabid/6307/bid/10322/the-ultimate-list-50-local-business-directories.aspx"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://blog\\.hubspot\\.com/marketing/[a-z-]+$",
+     "holdout_fn": [
+      "https://blog.hubspot.com/marketing/b2c-marketing-trends"
+     ],
+     "listing_missed": [
+      "https://blog.hubspot.com/marketing/10-best-storytellers",
+      "https://blog.hubspot.com/marketing/10-brands-to-follow-on-social-media",
+      "https://blog.hubspot.com/marketing/10-commandments-diy-marketing-design",
+      "https://blog.hubspot.com/marketing/10-examples-of-effective-re-engagement-emails",
+      "https://blog.hubspot.com/marketing/10-hard-truths-about-management-no-one-tells-you",
+      "https://blog.hubspot.com/marketing/10-steve-jobs-marketing-lessons",
+      "https://blog.hubspot.com/marketing/10-ways-to-speak-to-customers-who-dont-know-they-need-you",
+      "https://blog.hubspot.com/marketing/100-tips-tricks-professional-bloggers-use-list",
+      "https://blog.hubspot.com/marketing/11-artificial-intelligence-examples-from-real-brands-in-2024",
+      "https://blog.hubspot.com/marketing/11-well-made-print-advertisements"
+     ],
+     "sitemap_missed": 187
+    }
+   ],
+   "regression_pos": [
+    "https://blog.hubspot.com/marketing/b2c-marketing-trends",
+    "https://blog.hubspot.com/marketing/blogging-myths-ht",
+    "https://blog.hubspot.com/marketing/free-saas-mini-tool-marketing",
+    "https://blog.hubspot.com/marketing/how-to-turn-off-instagrams-new-last-online-feature",
+    "https://blog.hubspot.com/marketing/market-research-buyers-journey-guide",
+    "https://blog.hubspot.com/marketing/semantic-search"
+   ],
+   "regression_neg": [
+    "https://blog.hubspot.com/marketing",
+    "https://blog.hubspot.com/agency/about-pages",
+    "https://blog.hubspot.com/service/survey-monkey-vs-qualtrics",
+    "https://blog.hubspot.com/sales/why-reps-wont-make-quota",
+    "https://blog.hubspot.com/sales/motivate-your-sales-team",
+    "https://blog.hubspot.com/marketing/meet-the-founder-who-raised-6.3m-to-literally-make-it-rain",
+    "https://blog.hubspot.com/marketing/10-alternatives-to-jasper.ai-chatgpt-and-other-popular-ai-tools"
+   ]
+  },
+  {
+   "id": "R3-S1-R123-E2-F1",
+   "entry_ids": [
+    "S1-R123-E2"
+   ],
+   "target": "https://blog.hubspot.com/sales 入口前缀 /sales/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://blog\\.hubspot\\.com/sales/[a-zA-Z0-9%ü-]+$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9%ü-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://blog.hubspot.com/sales/avoid-burnout-q4",
+    "https://blog.hubspot.com/sales/creative-ai-uses",
+    "https://blog.hubspot.com/sales/partner-ecosystems",
+    "https://blog.hubspot.com/sales/places-to-research-a-prospect-before-sales-call",
+    "https://blog.hubspot.com/sales/sales-execution"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://blog.hubspot.com/marketing/rfp-grant",
+    "https://blog.hubspot.com/website/are-web-developers-using-ai",
+    "https://blog.hubspot.com/marketing/new-linkedin-features",
+    "https://blog.hubspot.com/marketing/feedback-loop"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://blog\\.hubspot\\.com/sales/[a-z0-9ü-]+$",
+     "holdout_fn": [
+      "https://blog.hubspot.com/sales/how-dylan-jacob-scaled-br%C3%BCmate-to-100m-in-5-years"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://blog.hubspot.com/sales/how-dylan-jacob-scaled-br%C3%BCmate-to-100m-in-5-years"
+   ],
+   "regression_neg": [
+    "https://blog.hubspot.com/sales",
+    "https://blog.hubspot.com/marketing/kpi-dashboard",
+    "https://blog.hubspot.com/service/social-media-crisis-management",
+    "https://blog.hubspot.com/marketing/presentation-cover-page",
+    "https://blog.hubspot.com/service/identity-graph",
+    "https://blog.hubspot.com/sales/how-this-swag-startup-made-3.3-million-in-year-one",
+    "https://blog.hubspot.com/sales/how-to-stitch-together-your-share-of-the-6.8b-sewing-boom"
+   ]
+  },
+  {
+   "id": "R3-S1-R123-E3-F1",
+   "entry_ids": [
+    "S1-R123-E3"
+   ],
+   "target": "https://blog.hubspot.com/service 入口前缀 /service/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://blog\\.hubspot\\.com/service/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "later_pagination_pages",
+   "inference": [
+    "https://blog.hubspot.com/service/customer-success-metrics",
+    "https://blog.hubspot.com/service/customer-support-analytics",
+    "https://blog.hubspot.com/service/customer-winback",
+    "https://blog.hubspot.com/service/feedback-management",
+    "https://blog.hubspot.com/service/thank-you-letter-for-customer-feedback"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://blog.hubspot.com/marketing/email-subject-lines-restart-conversations",
+    "https://blog.hubspot.com/marketing/above-the-fold",
+    "https://blog.hubspot.com/marketing/ppc-courses",
+    "https://blog.hubspot.com/sales/what-is-the-buyers-journey"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://blog\\.hubspot\\.com/service/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [
+      "https://blog.hubspot.com/service/10-best-customer-service-apps-of-2023",
+      "https://blog.hubspot.com/service/360-customer-view",
+      "https://blog.hubspot.com/service/5g-customer-service",
+      "https://blog.hubspot.com/service/9-voip-trends-for-2020-to-pay-attention-to",
+      "https://blog.hubspot.com/service/b2b-customer-acquisition-strategy",
+      "https://blog.hubspot.com/service/b2b-customer-experience",
+      "https://blog.hubspot.com/service/b2b-customer-funnel",
+      "https://blog.hubspot.com/service/b2b-customer-onboarding-best-practices",
+      "https://blog.hubspot.com/service/b2b-customer-segmentation",
+      "https://blog.hubspot.com/service/b2b-customer-service"
+     ],
+     "sitemap_missed": 13
+    }
+   ],
+   "regression_pos": [
+    "https://blog.hubspot.com/service/customer-service-tweets",
+    "https://blog.hubspot.com/service/key-driver-analysis",
+    "https://blog.hubspot.com/service/pos-system-customer-loyalty-program",
+    "https://blog.hubspot.com/service/product-led-onboarding",
+    "https://blog.hubspot.com/service/survey-logic",
+    "https://blog.hubspot.com/service/surveys"
+   ],
+   "regression_neg": [
+    "https://blog.hubspot.com/service",
+    "https://blog.hubspot.com/website/travel-wordpress-theme",
+    "https://blog.hubspot.com/marketing/ai-content-brand-identity",
+    "https://blog.hubspot.com/marketing/what-are-psychographics-faqs-ht",
+    "https://blog.hubspot.com/sales/cost-plus-pricing",
+    "https://blog.hubspot.com/service/wiki-vs.-knowledge-base",
+    "https://blog.hubspot.com/service/polls-vs.-survey"
+   ]
+  },
+  {
+   "id": "R3-S1-R123-E4-F1",
+   "entry_ids": [
+    "S1-R123-E4"
+   ],
+   "target": "https://blog.hubspot.com/website 入口前缀 /website/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://blog\\.hubspot\\.com/website/[a-z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "later_pagination_pages",
+   "inference": [
+    "https://blog.hubspot.com/website/avoid-ai-credit-overages",
+    "https://blog.hubspot.com/website/become-a-ux-designer",
+    "https://blog.hubspot.com/website/ecommerce-website-testing"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://blog.hubspot.com/marketing/how-newsletters-make-money",
+    "https://blog.hubspot.com/sales/lead-routing-automation",
+    "https://blog.hubspot.com/sales/financial-risk",
+    "https://blog.hubspot.com/sales/revenue-performance-management"
+   ],
+   "inference_redirected_away": [
+    [
+     "https://blog.hubspot.com/website/html-elements",
+     "https://blog.hubspot.com/website"
+    ],
+    [
+     "https://blog.hubspot.com/website/html-span",
+     "https://blog.hubspot.com/website"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://blog\\.hubspot\\.com/website/[a-z-]+$",
+     "holdout_fn": [
+      "https://blog.hubspot.com/website/10-best-wordpress-tab-plugins"
+     ],
+     "listing_missed": [
+      "https://blog.hubspot.com/website/10-best-amazon-affiliate-wordpress-plugins",
+      "https://blog.hubspot.com/website/10-best-free-social-sharing-button-widgets-2018",
+      "https://blog.hubspot.com/website/10-best-online-tools-spying-competitors-traffic",
+      "https://blog.hubspot.com/website/10-best-redirect-wordpress-plugins",
+      "https://blog.hubspot.com/website/10-best-technology-website-designs-in-2023",
+      "https://blog.hubspot.com/website/10-best-wordpress-tab-plugins",
+      "https://blog.hubspot.com/website/10-questions-ask-local-seo-agencies",
+      "https://blog.hubspot.com/website/10-tools-for-wordpress-blog-to-make-money",
+      "https://blog.hubspot.com/website/10000-vector-icons-wordpress",
+      "https://blog.hubspot.com/website/11-examples-of-one-page-websites-for-inspiration"
+     ],
+     "sitemap_missed": 44
+    }
+   ],
+   "regression_pos": [
+    "https://blog.hubspot.com/website/10-best-wordpress-tab-plugins",
+    "https://blog.hubspot.com/website/ai-cms-integrations",
+    "https://blog.hubspot.com/website/blogger-website-templates",
+    "https://blog.hubspot.com/website/bootstrap-form-template",
+    "https://blog.hubspot.com/website/download-manager-wordpress",
+    "https://blog.hubspot.com/website/screen-sizes-for-responsive-design"
+   ],
+   "regression_neg": [
+    "https://blog.hubspot.com/website",
+    "https://blog.hubspot.com/marketing/plan-execute-welcome-email",
+    "https://blog.hubspot.com/sales/product-market-fit",
+    "https://blog.hubspot.com/sales/selling-price",
+    "https://blog.hubspot.com/service/customer-experience-optimization",
+    "https://blog.hubspot.com/website/how-to-fix-the-package-could-not-be-installed.-the-theme-is-missing-the-style.css-stylesheet-error-in-wordpress",
+    "https://blog.hubspot.com/website/graphql-vs.-rest-api-whats-the-difference-and-which-is-better-for-your-project"
+   ]
+  },
+  {
+   "id": "R3-S1-R125-E1-F1",
+   "entry_ids": [
+    "S1-R125-E1"
+   ],
+   "target": "https://www.klaviyo.com/blog 入口前缀 /blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.klaviyo\\.com/blog/[a-z0-9-]+$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.klaviyo.com/blog/abandoned-cart-email",
+    "https://www.klaviyo.com/blog/best-email-marketing-platforms",
+    "https://www.klaviyo.com/blog/custom-product-feeds",
+    "https://www.klaviyo.com/blog/new-years-marketing-ideas",
+    "https://www.klaviyo.com/blog/welcome-flow-strategy"
+   ],
+   "holdout_pos": [
+    "https://www.klaviyo.com/blog/ab-testing-for-crm-optimization",
+    "https://www.klaviyo.com/blog/enterprise-bfcm-agency-strategies",
+    "https://www.klaviyo.com/blog/google-buy-for-me",
+    "https://www.klaviyo.com/blog/how-to-create-a-newsletter",
+    "https://www.klaviyo.com/blog/single-touch-vs-multi-touch-attribution",
+    "https://www.klaviyo.com/blog/the-email-automation-all-consumable-goods-brands-need-that-many-dont-yet-use"
+   ],
+   "holdout_neg": [
+    "https://www.klaviyo.com/ai-prompt-library/recipient-health-profiling-for-family-or-household-accounts",
+    "https://www.klaviyo.com/legal/modern-slavery-statement-06272024",
+    "https://www.klaviyo.com/glossary/what-is-unwanted-messages",
+    "https://www.klaviyo.com/sg/about",
+    "https://www.klaviyo.com/blog/category/sms-marketing",
+    "https://www.klaviyo.com/blog/category/customer-data-ownership"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.klaviyo\\.com/blog/[a-z-]+$",
+     "holdout_fn": [
+      "https://www.klaviyo.com/blog/klaviyo-wins-best-api-postcon-2024"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 97
+    }
+   ],
+   "regression_pos": [
+    "https://www.klaviyo.com/blog/exit-popups",
+    "https://www.klaviyo.com/blog/helen-of-troy-interview",
+    "https://www.klaviyo.com/blog/introducing-klaviyo-ai-customer-agent",
+    "https://www.klaviyo.com/blog/introducing-omnichannel-attribution",
+    "https://www.klaviyo.com/blog/klaviyo-wins-best-api-postcon-2024",
+    "https://www.klaviyo.com/blog/mobile-push-dynamic-images"
+   ],
+   "regression_neg": [
+    "https://www.klaviyo.com/blog",
+    "https://www.klaviyo.com/marketing-resources/wix-ecommerce-guide",
+    "https://www.klaviyo.com/features/customer-profiles",
+    "https://www.klaviyo.com/marketing-resources/customer-first-marketing-guide",
+    "https://www.klaviyo.com/ai-prompt-library/find-segments-to-archive",
+    "https://www.klaviyo.com/blog/category/artificial-intelligence",
+    "https://www.klaviyo.com/blog/category/developer"
+   ]
+  },
+  {
+   "id": "R3-S1-R126-E1-F1",
+   "entry_ids": [
+    "S1-R126-E1"
+   ],
+   "target": "https://landor.com/en/our-work/ 入口前缀 /en/our-work/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "other_entries_pages",
+   "inference": [
+    "https://landor.com/en/our-work/ao/",
+    "https://landor.com/en/our-work/bancomat/",
+    "https://landor.com/en/our-work/iz/",
+    "https://landor.com/en/our-work/misura/",
+    "https://landor.com/en/our-work/qt/"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://landor.com/de/our-work/elica",
+    "https://landor.com/de/our-work/bp",
+    "https://landor.com/de/our-work/syensqo",
+    "https://landor.com/de/our-work/saudia-airlines"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 38
+    }
+   ],
+   "regression_pos": [],
+   "regression_neg": [
+    "https://landor.com/en/our-work/",
+    "https://landor.com/de/our-work/west-loop",
+    "https://landor.com/de/our-work/ao-shearman",
+    "https://landor.com/de/our-work/kelloggs",
+    "https://landor.com/de/our-work/imperia"
+   ]
+  },
+  {
+   "id": "R3-S1-R127-E1-F1",
+   "entry_ids": [
+    "S1-R127-E1"
+   ],
+   "target": "https://mailchimp.com/resources/ 入口前缀 /resources/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://mailchimp\\.com/resources/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://mailchimp.com/resources/email-marketing-mistakes/",
+    "https://mailchimp.com/resources/email/",
+    "https://mailchimp.com/resources/maximize-sales-potential-quickbooks-segmentation/",
+    "https://mailchimp.com/resources/prep-and-start/",
+    "https://mailchimp.com/resources/the-art-of-the-opt-in/"
+   ],
+   "holdout_pos": [
+    "https://mailchimp.com/resources/blog-name-ideas/",
+    "https://mailchimp.com/resources/broadcast-email/",
+    "https://mailchimp.com/resources/hicks-law/",
+    "https://mailchimp.com/resources/practical-steps-for-website-gdpr-compliance/",
+    "https://mailchimp.com/resources/small-business-saturday/",
+    "https://mailchimp.com/resources/turn-window-shoppers-customers-product-retargeting-emails/"
+   ],
+   "holdout_neg": [
+    "https://mailchimp.com/help/add-subscribers-to-groups/",
+    "https://mailchimp.com/case-studies/petrescue-nonprofit-marketing-automation-flows/",
+    "https://mailchimp.com/culture/a-look-at-the-motherships-first-year/",
+    "https://mailchimp.com/solutions/marketing-tools-startups/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://mailchimp\\.com/resources/[a-z-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 157
+    }
+   ],
+   "regression_pos": [
+    "https://mailchimp.com/resources/building-rapport/",
+    "https://mailchimp.com/resources/company-newsletter-ideas/",
+    "https://mailchimp.com/resources/direct-to-consumer/",
+    "https://mailchimp.com/resources/email-marketing-for-restaurants/",
+    "https://mailchimp.com/resources/how-to-design-a-beautiful-website/",
+    "https://mailchimp.com/resources/website-launch-checklist/"
+   ],
+   "regression_neg": [
+    "https://mailchimp.com/resources/",
+    "https://mailchimp.com/newsroom/covid19-public-service-support/",
+    "https://mailchimp.com/culture/developing-interview-skills-through-practice/",
+    "https://mailchimp.com/integrations/groove-for-mailchimp/",
+    "https://mailchimp.com/find-an-expert/matchmaking"
+   ]
+  },
+  {
+   "id": "R3-S1-R128-E1-F1",
+   "entry_ids": [
+    "S1-R128-E1"
+   ],
+   "target": "https://www.meltwater.com/en/blog 入口前缀 /en/blog/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.meltwater\\.com/en/blog/[a-z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.meltwater.com/en/blog/beyond-polarity-attitude-analysis",
+    "https://www.meltwater.com/en/blog/digital-2027",
+    "https://www.meltwater.com/en/blog/meltwater-mcp-announcement",
+    "https://www.meltwater.com/en/blog/non-marketing-employees-an-untapped-content-resource",
+    "https://www.meltwater.com/en/blog/what-does-it-mean-to-be-a-data-driven-content-team-how-to-think-long-term-about-the-impact-of-your-content-on-strategic-business-growth"
+   ],
+   "holdout_pos": [
+    "https://www.meltwater.com/en/blog/3-steps-to-social-media-holiday-strategy-with-examples",
+    "https://www.meltwater.com/en/blog/5-reasons-why-gaming-is-the-next-big-brand-opportunity",
+    "https://www.meltwater.com/en/blog/best-influencer-search-tools",
+    "https://www.meltwater.com/en/blog/executive-marketing-reporting-insights",
+    "https://www.meltwater.com/en/blog/tiktok-influencers-guide",
+    "https://www.meltwater.com/en/blog/turbocharge-pr-media-monitoring"
+   ],
+   "holdout_neg": [
+    "https://www.meltwater.com/en/resources/how-ai-in-marketing-really-works",
+    "https://www.meltwater.com/jp/blog/cpf",
+    "https://www.meltwater.com/fr/resources/webinar-ereputation",
+    "https://www.meltwater.com/de/blog/marketing-kommunikations-strategie",
+    "https://www.meltwater.com/en/blog/network/youtube",
+    "https://www.meltwater.com/en/blog/category/social-media-marketing"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.meltwater\\.com/en/blog/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.meltwater.com/en/blog/ai-luxury-marketing-consumer-insights",
+    "https://www.meltwater.com/en/blog/best-brand24-alternatives",
+    "https://www.meltwater.com/en/blog/data-drives-decision-making-netflix",
+    "https://www.meltwater.com/en/blog/end-to-end-pr-campaign-management",
+    "https://www.meltwater.com/en/blog/media-monitoring-companies-in-india-how-to-put-public-data-to-work",
+    "https://www.meltwater.com/en/blog/social-sidekick-your-monthly-guide-to-social-holidays-themes-and-noteworthy-events"
+   ],
+   "regression_neg": [
+    "https://www.meltwater.com/en/blog",
+    "https://www.meltwater.com/fr/resources/the-ultimate-guide-to-influencer-marketing",
+    "https://www.meltwater.com/jp/customer-stories/milbon",
+    "https://www.meltwater.com/jp/product-tours/mira-studio",
+    "https://www.meltwater.com/de/blog/ki-content-creation",
+    "https://www.meltwater.com/en/blog/category/generative-engine-optimization",
+    "https://www.meltwater.com/en/blog/category/internal-communication"
+   ]
+  },
+  {
+   "id": "R3-S1-R128-E2-F1",
+   "entry_ids": [
+    "S1-R128-E2"
+   ],
+   "target": "https://www.meltwater.com/en/resources 入口前缀 /en/resources/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.meltwater\\.com/en/resources/[a-z0-9_-]+$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.meltwater.com/en/resources/ai-visibility-australian-higher-education",
+    "https://www.meltwater.com/en/resources/data-driven-pr-toolkit",
+    "https://www.meltwater.com/en/resources/influencer-marketing-guide",
+    "https://www.meltwater.com/en/resources/meltwater-insights-report-australia-black-friday-2025-unpacked",
+    "https://www.meltwater.com/en/resources/social-media-national-days-calendar"
+   ],
+   "holdout_pos": [
+    "https://www.meltwater.com/en/resources/2024-consumer-insights-food-beverage",
+    "https://www.meltwater.com/en/resources/apac-5-habits-of-highly-effective-marketers",
+    "https://www.meltwater.com/en/resources/digital-summit-future-pr-marketing-tech",
+    "https://www.meltwater.com/en/resources/on-demand-social-in-b2b",
+    "https://www.meltwater.com/en/resources/social-media-audit-guide",
+    "https://www.meltwater.com/en/resources/ultimate-guide-social-media-management"
+   ],
+   "holdout_neg": [
+    "https://www.meltwater.com/en/customer-stories/american-indian-college-fund",
+    "https://www.meltwater.com/en/blog/list-of-micro-influencers",
+    "https://www.meltwater.com/en/blog/customer-intelligence-analytics",
+    "https://www.meltwater.com/de/blog/was-ist-bluesky"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.meltwater\\.com/en/resources/[a-z0-9-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.meltwater.com/en/resources/automotive-influencer-benchmarking-snapshot",
+    "https://www.meltwater.com/en/resources/how-the-instagram-algorithm-works",
+    "https://www.meltwater.com/en/resources/on-demand-integrated-marketing-communications",
+    "https://www.meltwater.com/en/resources/on-demand-webinar-social-media-forecast",
+    "https://www.meltwater.com/en/resources/ondemand-webinar-how-to-evolve-your-content-marketing-strategy",
+    "https://www.meltwater.com/en/resources/retail-fashion-the-big-game"
+   ],
+   "regression_neg": [
+    "https://www.meltwater.com/en/resources",
+    "https://www.meltwater.com/jp/blog/word-of-mouth-customer-acquisition",
+    "https://www.meltwater.com/en/customer-stories/luscid",
+    "https://www.meltwater.com/jp/blog/influencer-marketing-case-studies",
+    "https://www.meltwater.com/de/blog/kundenmanagement-customer-data-management"
+   ]
+  },
+  {
+   "id": "R3-S1-R129-E1-F1",
+   "entry_ids": [
+    "S1-R129-E1"
+   ],
+   "target": "https://www.optimizely.com/field-notes/guides 入口前缀 /field-notes/guides/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.optimizely\\.com/field\\-notes/guides/[a-zA-Z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.optimizely.com/field-notes/guides/ai-experimentation-mapping-template/",
+    "https://www.optimizely.com/field-notes/guides/ai-use-case-discovery-template/",
+    "https://www.optimizely.com/field-notes/guides/how-to-build-a-website/",
+    "https://www.optimizely.com/field-notes/guides/the-big-book-of-experimentation/",
+    "https://www.optimizely.com/field-notes/guides/the-personalization-playbook/"
+   ],
+   "holdout_pos": [
+    "https://www.optimizely.com/field-notes/guides/experience-dividend",
+    "https://www.optimizely.com/field-notes/guides/experimentation-buyers-guide",
+    "https://www.optimizely.com/field-notes/guides/forrester-tei-dxp",
+    "https://www.optimizely.com/field-notes/guides/ship-confidently",
+    "https://www.optimizely.com/field-notes/guides/split-testing-case-studies",
+    "https://www.optimizely.com/field-notes/guides/the-new-content-operating-model"
+   ],
+   "holdout_neg": [
+    "https://www.optimizely.com/field-notes/articles/breaking-down-the-different-types-of-personalization",
+    "https://www.optimizely.com/de/glossary/experiential-marketing",
+    "https://www.optimizely.com/de/connectors/qbank-connector",
+    "https://www.optimizely.com/de/optimizers/shafqat-islam"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.optimizely\\.com/field\\-notes/guides/[a-z-]+/?$",
+     "holdout_fn": [
+      "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 5
+    }
+   ],
+   "regression_pos": [
+    "https://www.optimizely.com/field-notes/guides/anz-ai-readiness",
+    "https://www.optimizely.com/field-notes/guides/content-management-system-enterprise-buyer-guide",
+    "https://www.optimizely.com/field-notes/guides/experimentation-rfp-template",
+    "https://www.optimizely.com/field-notes/guides/gartner-emerging-market-quadrant-for-AI-agents-for-marketing",
+    "https://www.optimizely.com/field-notes/guides/master-digital-experience-optimization",
+    "https://www.optimizely.com/field-notes/guides/passion-pressure-paradox"
+   ],
+   "regression_neg": [
+    "https://www.optimizely.com/field-notes/guides",
+    "https://www.optimizely.com/field-notes/customer-stories/smeg",
+    "https://www.optimizely.com/de/optimizers/dejan-dragusin2",
+    "https://www.optimizely.com/de/legal/campaign-services-supplement",
+    "https://www.optimizely.com/de/developers/optimizely-one"
+   ]
+  },
+  {
+   "id": "R3-S1-R129-E2-F1",
+   "entry_ids": [
+    "S1-R129-E2"
+   ],
+   "target": "https://www.optimizely.com/field-notes/articles 入口前缀 /field-notes/articles/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.optimizely\\.com/field\\-notes/articles/[a-zA-Z0-9-]+/?$",
+   "variables": {
+    "seg0": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.optimizely.com/field-notes/articles/agentic-migration-no-developers-harmed/",
+    "https://www.optimizely.com/field-notes/articles/does-llms-txt-work/",
+    "https://www.optimizely.com/field-notes/articles/measuring-customer-progress-beyond-the-thank-you-page/",
+    "https://www.optimizely.com/field-notes/articles/webmcp-agentic-web/",
+    "https://www.optimizely.com/field-notes/articles/your-collaboration-tools-didnt-get-the-memo/"
+   ],
+   "holdout_pos": [
+    "https://www.optimizely.com/field-notes/articles/ai-platform-built-for-whats-next",
+    "https://www.optimizely.com/field-notes/articles/cmp-vs-cms",
+    "https://www.optimizely.com/field-notes/articles/content-marketing-social-team-alignment",
+    "https://www.optimizely.com/field-notes/articles/dynamic-experiences-in-personalization",
+    "https://www.optimizely.com/field-notes/articles/what-can-a-virtual-teammate-do",
+    "https://www.optimizely.com/field-notes/articles/what-type-of-ai-relatonship-are-you-in"
+   ],
+   "holdout_neg": [
+    "https://www.optimizely.com/legal/online-order-ssa/end-customer-use-terms",
+    "https://www.optimizely.com/field-notes/customer-stories/comptia",
+    "https://www.optimizely.com/field-notes/customer-stories/postnord",
+    "https://www.optimizely.com/de/connectors/leadsrx"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.optimizely\\.com/field\\-notes/articles/[a-z-]+/?$",
+     "holdout_fn": [
+      "https://www.optimizely.com/field-notes/articles/10-practical-use-cases-for-opal-in-campaign",
+      "https://www.optimizely.com/field-notes/articles/why-shopify-and-bigcommerce-dont-meet-the-needs-of-b2b-commerce"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 67
+    }
+   ],
+   "regression_pos": [
+    "https://www.optimizely.com/field-notes/articles/10-practical-use-cases-for-opal-in-campaign",
+    "https://www.optimizely.com/field-notes/articles/accelerating-growth-through-experiment-velocity",
+    "https://www.optimizely.com/field-notes/articles/best-digital-asset-management-software",
+    "https://www.optimizely.com/field-notes/articles/drivers-for-cms-migration",
+    "https://www.optimizely.com/field-notes/articles/shafqat-islam-named-president-of-optimizely",
+    "https://www.optimizely.com/field-notes/articles/why-shopify-and-bigcommerce-dont-meet-the-needs-of-b2b-commerce"
+   ],
+   "regression_neg": [
+    "https://www.optimizely.com/field-notes/articles",
+    "https://www.optimizely.com/company/press/optimizely-models",
+    "https://www.optimizely.com/de/connectors/flexible-content-approval-plugin",
+    "https://www.optimizely.com/field-notes/customer-stories/unisa",
+    "https://www.optimizely.com/legal/terms/api"
+   ]
+  },
+  {
+   "id": "R3-S1-R130-E1-F1",
+   "entry_ids": [
+    "S1-R130-E1"
+   ],
+   "target": "https://www.qualtrics.com/articles/ 入口前缀 /articles/ 下签名 [2, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.qualtrics\\.com/articles/[a-z-]+/[a-zA-Z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z-]+",
+    "seg1": "[a-zA-Z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.qualtrics.com/articles/customer-experience/designing-for-failure/",
+    "https://www.qualtrics.com/articles/customer-experience/manage-online-reputation/",
+    "https://www.qualtrics.com/articles/customer-experience/where-ai-meets-human-care-building-future-healthcare-intelligence/",
+    "https://www.qualtrics.com/articles/employee-experience/employee-engagement-healthcare/",
+    "https://www.qualtrics.com/articles/strategy-research/getting-insights-decision-makers/"
+   ],
+   "holdout_pos": [
+    "https://www.qualtrics.com/articles/customer-experience/3-potential-roles-cios/",
+    "https://www.qualtrics.com/articles/employee-experience/cost-of-employee-turnover/",
+    "https://www.qualtrics.com/articles/employee-experience/global-employee-job-criteria/",
+    "https://www.qualtrics.com/articles/employee-experience/personal-development-plan/",
+    "https://www.qualtrics.com/articles/qualtrics-life/manager-software-engineering-krakow-mk/",
+    "https://www.qualtrics.com/articles/qualtrics-life/things-to-do-in-salt-lake-city/"
+   ],
+   "holdout_neg": [
+    "https://www.qualtrics.com/ja/resources/nikkei-mj-forum-2022/",
+    "https://www.qualtrics.com/en-gb/ebooks-guides/4-ways-marry-ai/",
+    "https://www.qualtrics.com/ja/ebooks-guides/modernize-research/",
+    "https://www.qualtrics.com/ja/press/2025-11-apj-leader/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.qualtrics\\.com/articles/[a-z-]+/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.qualtrics.com/articles/customer-experience/b2b-buyer-journey/",
+    "https://www.qualtrics.com/articles/customer-experience/retail-cx/",
+    "https://www.qualtrics.com/articles/employee-experience/company-values-employee-retention/",
+    "https://www.qualtrics.com/articles/employee-experience/employee-benefits-management/",
+    "https://www.qualtrics.com/articles/experience-management/global-unemployment-rates/",
+    "https://www.qualtrics.com/articles/tag/user-experience/"
+   ],
+   "regression_neg": [
+    "https://www.qualtrics.com/articles/",
+    "https://www.qualtrics.com/es/employee-experience/research/",
+    "https://www.qualtrics.com/en-au/employee-experience/research/",
+    "https://www.qualtrics.com/de/events/sr-super-session/",
+    "https://www.qualtrics.com/en-au/customers/hgs/"
+   ]
+  },
+  {
+   "id": "R3-S1-R132-E1-F2",
+   "entry_ids": [
+    "S1-R132-E1"
+   ],
+   "target": "https://www.shopify.com/blog/ 入口前缀 /blog/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.shopify\\.com/blog/[a-z]+/[a-zA-Z0-9%-]+$",
+   "variables": {
+    "seg0": "[a-z]+",
+    "seg1": "[a-zA-Z0-9%-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.shopify.com/blog/authors/shuang-esther-shan",
+    "https://www.shopify.com/blog/topics/conversion",
+    "https://www.shopify.com/blog/topics/find-an-idea",
+    "https://www.shopify.com/blog/topics/podcasts"
+   ],
+   "holdout_pos": [
+    "https://www.shopify.com/blog/authors/altaira-northe",
+    "https://www.shopify.com/blog/authors/david-silverberg",
+    "https://www.shopify.com/blog/authors/e-shwake",
+    "https://www.shopify.com/blog/authors/kat-ambrose",
+    "https://www.shopify.com/blog/authors/kaz-nejatian",
+    "https://www.shopify.com/blog/authors/rebecca-rosenberg"
+   ],
+   "holdout_neg": [
+    "https://www.shopify.com/co/vender/platos",
+    "https://www.shopify.com/ca/blog/product-launch-press-release",
+    "https://www.shopify.com/be/case-studies/everlast",
+    "https://www.shopify.com/br/blog/66668293-como-prever-o-sucesso-do-seu-proximo-empreendimento",
+    "https://www.shopify.com/blog/ashley-alexander-nami-matcha",
+    "https://www.shopify.com/blog/120261189-conversion-rate-optimization"
+   ],
+   "inference_redirected_away": [
+    [
+     "https://www.shopify.com/blog/topics/branding",
+     "https://www.shopify.com/blog/topics/brand"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.shopify\\.com/blog/[a-z]+/[a-z-]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.shopify.com/blog/authors/emma-shanahan",
+    "https://www.shopify.com/blog/authors/hannah-walhout",
+    "https://www.shopify.com/blog/authors/lauren-scherr",
+    "https://www.shopify.com/blog/authors/marianne-wisenthal",
+    "https://www.shopify.com/blog/authors/mike-mcguire",
+    "https://www.shopify.com/blog/authors/thea-earl"
+   ],
+   "regression_neg": [
+    "https://www.shopify.com/blog",
+    "https://www.shopify.com/ch-it/case-studies/blenders-eyewear",
+    "https://www.shopify.com/cz/blog/online-marketingovy-specialista",
+    "https://www.shopify.com/ca/partners/technology-partners",
+    "https://www.shopify.com/br/blog/113659333-apresentamos-o-shopify-para-wordpress",
+    "https://www.shopify.com/blog/pickleball-business-guide",
+    "https://www.shopify.com/blog/young-entrepreneurs"
+   ]
+  },
+  {
+   "id": "R3-S1-R135-E1-F1",
+   "entry_ids": [
+    "S1-R135-E1"
+   ],
+   "target": "https://www.sistrix.com/blog/ 入口前缀 /blog/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.sistrix\\.com/blog/[a-z0-9%_-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9%_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "optional",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.sistrix.com/blog/core-web-vitals-wix-vs-wordpress-shopify-vs-shopware-whats-fastest/",
+    "https://www.sistrix.com/blog/love-your-website-a-case-for-more-independence/",
+    "https://www.sistrix.com/blog/successfully-combining-user-intention-and-serp-features/",
+    "https://www.sistrix.com/blog/why-almost-everything-you-knew-about-google-ctr-is-no-longer-valid/",
+    "https://www.sistrix.com/blog/you-have-to-know-the-past-to-understand-the-present-case-study-patient-co-uk/"
+   ],
+   "holdout_pos": [
+    "https://www.sistrix.com/blog/ancillary-copyright-law-how-much-journalistic-content-is-found-in-google-search/",
+    "https://www.sistrix.com/blog/google-click-to-call/",
+    "https://www.sistrix.com/blog/links-and-the-medic-update/",
+    "https://www.sistrix.com/blog/people-also-search-for-the-short-click-box-in-googles-search-results/",
+    "https://www.sistrix.com/blog/quality-rater-guidelines-updated-july-2022/",
+    "https://www.sistrix.com/blog/the-spread-of-structured-data-on-the-web/"
+   ],
+   "holdout_neg": [
+    "https://www.sistrix.com/trends/trendwatch-february-2022",
+    "https://www.sistrix.com/faq/is-it-possible-to-compare-the-visibility-index-history-of-several-destinations/",
+    "https://www.sistrix.com/faq/how-can-i-use-my-optimizer-keywords-in-the-seo-module/",
+    "https://www.sistrix.com/faq/what-data-do-we-collect-from-the-amazon-marketplace/",
+    "https://www.sistrix.com/blog/archive/?selected=2023",
+    "https://www.sistrix.com/blog/archive/?selected=2026"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.sistrix\\.com/blog/[a-z0-9-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 6
+    }
+   ],
+   "regression_pos": [
+    "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently/",
+    "https://www.sistrix.com/blog/feb-2026-serps-movements-are-significant-discover-update-rolling/",
+    "https://www.sistrix.com/blog/pagerank-update-112008/",
+    "https://www.sistrix.com/blog/seo-2022-three-predictions-and-some-opinions/",
+    "https://www.sistrix.com/blog/who-wrote-that-content-google-recommends-declaring-authors-in-markup/",
+    "https://www.sistrix.com/blog/yahoo-doubles-profits/"
+   ],
+   "regression_neg": [
+    "https://www.sistrix.com/blog/",
+    "https://www.sistrix.com/ai-insights/ai-overviews/",
+    "https://www.sistrix.com/changelog/extensive-hreflang-checks-now-in-the-optimizer/",
+    "https://www.sistrix.com/customer-stories/ph-d-study-successfully-uses-sistrix-data-is-accepted-by-journal-of-marketing/",
+    "https://www.sistrix.com/expert/sistrix-data-journalism-team-en/",
+    "https://www.sistrix.com/blog/archive/?selected=2011",
+    "https://www.sistrix.com/blog/archive/?selected=2012"
+   ]
+  },
+  {
+   "id": "R3-S1-R140-E1-F1",
+   "entry_ids": [
+    "S1-R140-E1"
+   ],
+   "target": "https://wingify.com/blog/ 入口前缀 /blog/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://wingify\\.com/blog/[a-z0-9-]+/$",
+   "variables": {
+    "seg0": "[a-z0-9-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://wingify.com/blog/insights-into-action-wingz-ai/",
+    "https://wingify.com/blog/introducing-journey-analytics/",
+    "https://wingify.com/blog/mobile-app-ab-testing-ideas-you-can-try-immediately/",
+    "https://wingify.com/blog/multi-armed-bandit-algorithm/",
+    "https://wingify.com/blog/roi-enterprise-ab-testing-platform/"
+   ],
+   "holdout_pos": [
+    "https://wingify.com/blog/feature-flags-agile-software-development/",
+    "https://wingify.com/blog/how-to-use-visuals-to-increase-ecommerce-conversions/",
+    "https://wingify.com/blog/personalized-marketing-platforms/",
+    "https://wingify.com/blog/pros-cons-multivariate-tests/",
+    "https://wingify.com/blog/usability-testing/",
+    "https://wingify.com/blog/wingify-customizable-widget-library/"
+   ],
+   "holdout_neg": [
+    "https://wingify.com/es/personalizacion-web/",
+    "https://wingify.com/de/free-trial/",
+    "https://wingify.com/fr/wingz-ai/",
+    "https://wingify.com/es/personalization/"
+   ],
+   "inference_redirected_away": [],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://wingify\\.com/blog/[a-z-]+/$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 112
+    }
+   ],
+   "regression_pos": [
+    "https://wingify.com/blog/feature-toggle-best-practices/",
+    "https://wingify.com/blog/hidden-cost-of-ignoring-e-commerce-kpis/",
+    "https://wingify.com/blog/how-experimentation-helps-travel-hospitality-industry-thrive/",
+    "https://wingify.com/blog/instagram-followers-travel-brand/",
+    "https://wingify.com/blog/interpret-a-b-test-results-from-software/",
+    "https://wingify.com/blog/shopify-heatmap/"
+   ],
+   "regression_neg": [
+    "https://wingify.com/blog/",
+    "https://wingify.com/es/heatmap-web/",
+    "https://wingify.com/partners/agencies/",
+    "https://wingify.com/br/media-kit/",
+    "https://wingify.com/solutions/media-and-publishing/"
+   ]
+  }
+ ],
+ "skipped": []
+}

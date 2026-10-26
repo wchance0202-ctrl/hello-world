@@ -1,0 +1,502 @@
+{
+ "url": "https://www.greenbook.org/directory",
+ "observed_at": "2026-10-26T11:02:27.549Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.greenbook.org/directory",
+ "status": 200,
+ "error": null,
+ "title": "Greenbook: Find Market Research Companies and Focus Group Facilities",
+ "h1": "Greenbook Directory",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 62,
+   "new_in_prefix": 62,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 62,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.greenbook.org/api/banner?location=2&slug=undefined"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.greenbook.org/api/header/getHeaderData"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.greenbook.org/api/bars"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.greenbook.org/api/auth/check-auth"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=83576860.1793012550&dt=Greenbook%3A%20Find%20Market%20Research%20Companies%20and%20Focus%20Group%20Facilities&en=page_view&dl=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&scrsrc=www.googletagmanager.com&rnd=2100818000.1793012550&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v78239187za200zd78239187xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_e"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=83576860.1793012550&gtm=45He6al1v78239187za200zd78239187xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-CN093WME6N&gtm=45je6al1v898810636za20ozb78239187zd78239187xf1&_p=1793012549467&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1529820896.1793012551&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/593673715/?random=1793012550850&cv=11&fst=1793012550850&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L3YY929239&gtm=45be6al1v9199270498za20ozb78239187zd78239187xf1&_p=1793012549467&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1529820896.1793012551&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=1156169"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/593673715/?random=1793012550918&cv=11&fst=1793012550918&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=83576860.1793012550&dt=Greenbook%3A%20Find%20Market%20Research%20Companies%20and%20Focus%20Group%20Facilities&tid=AW-593673715&en=page_view&dl=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&scrsrc=www.googletagmanager.com&rnd=2100818000.1793012550&navt=n&npa=0&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_e"
+  },
+  {
+   "method": "GET",
+   "url": "https://polo.feathr.co/v1/accounts/5fbdacb4f7653485f930a8e0/integrations"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1848788038&t=pageview&_s=1&dl=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&ul=en-us&dt=Greenbook%3A%20Find%20Market%20Research%20Companies%20and%20Focus%20Group%20Facilities&sr=1280x720&vp=1280x720&_u=YADAAEABAAAAACAAI~&jid=914160437&gjid=586326925&cid=1529820896.1793012551&tid=UA-1554430-1&_gid=1574536302.1793012551&_r=1&_slc=1&gtm=45He6al1n"
+  },
+  {
+   "method": "GET",
+   "url": "https://aplo-evnt.com/api/v1/intent_pixel/can_track_visitor?x_app_id=66aa55459e1dd101b3714fef"
+  },
+  {
+   "method": "GET",
+   "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=6530786&currentUrl=https%3A%2F%2Fwww.greenbook.org%2Fdirectory"
+  },
+  {
+   "method": "GET",
+   "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=6530786&utk="
+  },
+  {
+   "method": "GET",
+   "url": "https://js.hs-banner.com/v2/cf-location"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/593673715/?random=942310954&cv=11&fst=1793012550918&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gre"
+  },
+  {
+   "method": "POST",
+   "url": "https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66aa55459e1dd101b3714fef"
+  },
+  {
+   "method": "POST",
+   "url": "https://b.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=6530786"
+  },
+  {
+   "method": "POST",
+   "url": "https://js.hs-banner.com/v2/activity/view"
+  },
+  {
+   "method": "POST",
+   "url": "https://b.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/593673715/?random=942310954&cv=11&fst=1793012550918&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org%2Fdirector"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/593673715/?random=1793012552015&cv=11&fst=1793012552015&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/593673715/?random=1793012552051&cv=11&fst=1793012552051&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=83576860.1793012550&dt=Greenbook%3A%20Find%20Market%20Research%20Companies%20and%20Focus%20Group%20Facilities&tid=AW-593673715&en=page_view&dl=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&scrsrc=www.googletagmanager.com&rnd=2100818000.1793012550&navt=n&npa=0&did=dZTQ1Zm&gdid=dZTQ1Zm&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd"
+  },
+  {
+   "method": "POST",
+   "url": "https://api2.amplitude.com/2/httpapi"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/593673715/?random=1382829698&cv=11&fst=1793012552051&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gr"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.greenbook.org/cdn-cgi/rum?"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/593673715/?random=1382829698&cv=11&fst=1793012552051&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1v9199270498za20ozb78239187zd78239187xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.greenbook.org%2Fdirecto"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions"
+  },
+  {
+   "method": "GET",
+   "url": "https://ws.zoominfo.com/pixel/63c52faf9a45c86518ebaf90/?iszitag=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.i.posthog.com/flags/?v=2&compression=base64"
+  },
+  {
+   "method": "GET",
+   "url": "https://us.i.posthog.com/api/surveys/?token=phc_O3RRyG775Wlvl7HUQIDgaM9pS2ypHpuV55lMU21ThIJ&_=1793012554498"
+  },
+  {
+   "method": "POST",
+   "url": "https://b.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-CN093WME6N&gtm=45je6al1v898810636z878239187za20gzb78239187zd78239187xf1&_p=1793012549467&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1529820896.1793012551&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en"
+  },
+  {
+   "method": "GET",
+   "url": "https://polo.feathr.co/v1/analytics/crumb?cb=f6d04b98bfe89&a_id=5fbdacb4f7653485f930a8e0&f_id=6adf3347df0ad60002d11890&ses_id=6adf3347483ee0ed9193d341&flvr=page_view&loc_url=https%3A%2F%2Fwww.greenbook.org%2Fdirectory&s_w=1280&s_h=720&b_w=1280&b_h=720"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L3YY929239&gtm=45be6al1v9199270498za20ozb78239187zd78239187xf1&_p=1793012549467&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTQ1Zm&_eu=AAACAAQ&cid=1529820896.1793012551&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=e"
+  },
+  {
+   "method": "POST",
+   "url": "https://b.clarity.ms/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.sisinternational.com/?utm_source=Greenbook&utm_medium=directory",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.greenbook.org/grit",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.greenbook.org/find-market-research",
+   "text": "Find Research Suppliers\n\nBrowse verified market research providers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/buyers-guide",
+   "text": "Browse Free Guides\n\nAccess industry insights and best practices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/create-company-listing",
+   "text": "List Your Company\n\nJoin our directory of trusted suppliers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://share.hsforms.com/1Lth3GcGyRfuceWCpmY8k5g3vz6q",
+   "text": "Download Media Kit\n\nGet comprehensive resources and templates",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/b2b-industry",
+   "text": "Business-to-Business Research\n\nB2B Market Research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/artificial-intelligence",
+   "text": "AI-Powered Insight Platforms\n\nMarket Research Software\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/online-panels",
+   "text": "Online Research Panels\n\nMarket Research Panels\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/political-polls",
+   "text": "Political Polling\n\nPublic Opinion research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/consumer-research",
+   "text": "Consumer Market Research\n\nConsumer Research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/healthcare",
+   "text": "Healthcare Market Research\n\nMarket Sector Expertise\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/online-focus-groups",
+   "text": "Online Focus Groups\n\nOnline Qualitative Research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/advertising-research",
+   "text": "Advertising Research\n\nAdvertising Research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/online-communities",
+   "text": "Insight Communities\n\nMarket Research Communities\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/ethnography",
+   "text": "Ethnography\n\nObservational Research\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/moderator",
+   "text": "Moderators & Interviewers\n\nQualitative Research Services\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/market-research-firms/customer-satisfaction",
+   "text": "Customer Satisfaction Research\n\nCustomer Satisfaction / VOC / CX\n\nView Companies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/find-market-research",
+   "text": "SEARCH DIRECTORY",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/directory#search-section",
+   "text": "START YOUR SEARCH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/create-company-listing",
+   "text": "LIST YOUR COMPANY",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.greenbook.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/greenbookmr",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/greenBook",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/greenbook",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/c/InsightInnovation",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/create-company-listing",
+   "text": "Create a New Listing",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://greenbook.org/account/",
+   "text": "Manage My Listing",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/find-market-research",
+   "text": "by Specialty",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/find-company-by-location",
+   "text": "by Location",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/find-company-by-name",
+   "text": "by Name",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/find-focus-group-facility",
+   "text": "by Location",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/find-focus-group-facility-by-name",
+   "text": "by Name",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/events",
+   "text": "In-person",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/webinars",
+   "text": "Webinars",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://events.greenbook.org/tech-showcase",
+   "text": "Tech Showcases",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/grit",
+   "text": "GRIT Report",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights",
+   "text": "Insights",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/podcast-network/the-greenbook-podcast",
+   "text": "Podcast",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights/channels",
+   "text": "Expert Channels",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/glossary",
+   "text": "Glossary",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights/tags",
+   "text": "Tags",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://greenbook-wiki.notion.site/Greenbook-Logos-b7fe759692694ed1b852d279aeabf055",
+   "text": "Brand Kit",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/about-us",
+   "text": "About",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/faq",
+   "text": "FAQ",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/our-team",
+   "text": "Our team",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/get-in-touch",
+   "text": "Get in touch",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/projects",
+   "text": "All projects",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights/quantitative-market-research/5-examples-of-quantitative-research-methods-when-to-use-them",
+   "text": "Examples of Quantitative Research",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights/qualitative-market-research/8-examples-of-qualitative-research",
+   "text": "Examples of Qualitative Research",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/for-suppliers",
+   "text": "Marketing Services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/products",
+   "text": "All Products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/tech-showcase",
+   "text": "Insights Tech Showcases",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/authors",
+   "text": "Our Authors",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/future-list",
+   "text": "Future List",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://greenbook-wiki.notion.site/Greenbook-Content-Submission-Form-c8c2932f05db4b649d0a1e2057bc42d6",
+   "text": "Publish With Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/insights/market-research-insights-careers",
+   "text": "Market Research & Insights Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/privacy-policy",
+   "text": "Privacy policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/cookie-policy",
+   "text": "Cookie policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.greenbook.org/terms",
+   "text": "Terms of use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:+12128492752",
+   "text": "(212) 849-2752",
+   "region": "FOOTER"
+  }
+ ]
+}

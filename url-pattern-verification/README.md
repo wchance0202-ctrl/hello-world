@@ -1,5 +1,61 @@
 # 指定pattern 列：URL 正则提取与覆盖核验
 
+## 第 3 轮（2026-10-26）：全部 268 个入口全量处理 — 最终结果
+
+**最终交付在 `output/round3/`**：结果表 `result-table.xlsx|csv`（152 行原值 + 8 个结果字段，回读检查通过），
+规则 `rules.json`，入口账本 `entries.json`，剩余队列 `queue.json`，计数 `summary.json`。
+每个入口未被正式规则覆盖的已知目标都列在 `retained/<entry_id>.txt`（共 38,882 条）。
+
+### 结果
+
+| 维度 | 数量 |
+|---|---|
+| 正式规则（已验证） | **90 条，覆盖 75 个入口** |
+| 候选规则 | 82 条（其中 4 条来自第 2 轮人工复核） |
+| 验证不通过 | 2 条（规则同时匹配了入口列表页本身） |
+| 发现覆盖：完整 | 24 个（列表与 sitemap 对账一致） |
+| 发现覆盖：完整（列表 + sitemap 合并枚举） | 55 个（列表只展示一部分，sitemap 完整且正式规则匹配全部成员） |
+| 发现覆盖：完整（枚举结束，无独立全集对账） | 111 个（翻页、加载更多已到底，但没有独立总数可对账） |
+| 发现覆盖：部分 | 33 个 |
+| 未验证（访问受限 / 无响应） | 45 个 |
+| 测试对 | 2,945 对；node-re2 1.24.1 与 google-re2 1.1.20251105 逐对一致 |
+
+### 无法完成的部分
+
+1. **45 个入口被站点拦截，没有绕过**：
+   Cloudflare 挑战页（Gartner 6、campaignlive、lbbonline、searchengineland、vml、pitchbook、crunchbase 1、dealroom 10 等）、
+   Akamai `Access Denied`（bls.gov 2、bcg.com 4）、Vercel 429（adjust 2）、Meta 400，
+   以及 McKinsey 3、Adobe 3（HTTP/2 流被重置，无站点状态码）。
+   我尝试用浏览器重新访问这些站点时，自动模式判定为“绕过机器人检测”并拦截，此后没有再尝试。
+   需要授权的访问方式、白名单，或改由人工浏览器核验。
+2. **62 条候选规则找不到独立留出样本**：同结构链接只出现在入口首页上，
+   sitemap、后续分页、其他入口页面、详情页链接里都没有，按技能准入不能列为正式规则。
+3. **Contentsquare 规则**（`R3-S1-R121-E1-F1`）机械门与覆盖检查都通过了，但第 2 轮发现有 3 个列表链接跳到非文章页，
+   是否接受需要你决定；接受的话，就可以升为正式。
+4. **差额未解释**：YouGov economy 差 1 条、consumer 差 57 条；Forrester 分类计数 1,287 与公开文章 1,222 差 65 篇。
+   其中 Forrester 已通过页面自身的 More posts 枚举到 1,221 篇，全部在 REST 集合内；没出现在列表里的 1 篇已定位。
+
+### 方法（第 3 轮）
+
+- `scripts/probe_round1.py`：全部入口静态抓取与翻页，同站串行，单入口先跑 300 页，
+  BIS publications 与 Semrush blog 续跑到队列清空（510 / 486 页）
+- `scripts/collect_sitemaps.py`：109 个站点的 robots/sitemap，共 261 万个 URL，13 个站点达到上限被截断（`sitemaps/_summary.json`）
+- `scripts/render_batch.py` + `render_probe.js`：91 个静态内容不足的入口用浏览器渲染并点击“加载更多”。
+  浏览器以默认 HeadlessChrome 身份访问，不伪装 UA；第 2 轮的渲染曾经伪装过普通 Chrome UA，本轮已改正。
+  渲染只用于能正常访问的站点
+- `scripts/analyze_r3.py`：
+  - `families`：以入口路径前缀作为栏目边界，按结构签名分组，同结构 ≥3 个才算一个家族；
+  - `freeze`：先打开归纳样本确认落地，再冻结标签、留出样本和反例（带 sha256）。
+    留出来源依次取 sitemap、后续分页、其他入口页面、详情页链接中第一个非空的；
+  - `coverage`：用规则匹配列表全部成员和 sitemap 全部同结构 URL；
+  - `revise`：对漏配了真实成员、且没有误配的规则，按漏配样本扩展字符集，v1 留出转回归，重新抽取留出（62 条规则）
+- `scripts/apply_round3.py`：汇总；`scripts/run_round3.sh`：完整重跑流程
+- 正式准入：两套引擎机械门通过且逐对一致、覆盖检查无漏配、归纳样本没有跳到其他页面、
+  不匹配家族结构之外的 sitemap URL。留出样本量小（每条 ≤6 正），不外推总体可靠性
+- 已压缩的数据：`probe/edges.jsonl.gz`、`detail-links.jsonl.gz`、`sitemaps/*.txt.gz`（`analyze_r3.py` 可以直接读取）
+
+---
+
 ## 第 2 轮（2026-10-26，网络已放开）：优先级 1 续跑
 
 本轮输出都在 `output/round2/`，第 1 轮文件未改动。结果表：`output/round2/result-table.xlsx|csv`；

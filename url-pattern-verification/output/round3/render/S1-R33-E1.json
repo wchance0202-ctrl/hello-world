@@ -1,0 +1,215 @@
+{
+ "url": "https://brandfinance.com/about",
+ "observed_at": "2026-10-26T10:56:51.740Z",
+ "method": "playwright-chromium",
+ "final_url": "https://brandfinance.com/about",
+ "status": 200,
+ "error": null,
+ "title": "About | Brand Finance",
+ "h1": "About Brand Finance",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 35,
+   "new_in_prefix": 35,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 35,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/gbr/FormLoader/public/locales/en-US/translation.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://assets-gbr.mkt.dynamics.com/ed4d6fe5-01de-4882-97bb-967439434d3a/digitalassets/forms/bdbf7b50-814b-f011-877b-7c1e522e097a"
+  },
+  {
+   "method": "POST",
+   "url": "https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/ed4d6fe5-01de-4882-97bb-967439434d3a/landingpageforms/forms/bdbf7b50-814b-f011-877b-7c1e522e097a/visits"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://brandfinance.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting",
+   "text": "Consulting",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting/brand-research",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting/brand-valuation",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting/brand-strategy",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/training",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting/sponsorship",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/consulting/sustainability-services",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/data",
+   "text": "Brand Data",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/events",
+   "text": "Events",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/insights",
+   "text": "Insights",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/press-releases",
+   "text": "Newsroom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/about",
+   "text": "About",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/offices",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/contact-us",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/about#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://brandfinance.com/data",
+   "text": "Learn more about our Data Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/insights/rigour-and-structure-in-brand-evaluation-best-practice-and-iso-20671/",
+   "text": "Find out more about International Standards",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/training",
+   "text": "Learn more about Brand Training",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vi360.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vi360.com/",
+   "text": "Visit VI360",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brand-dialogue.co.uk/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brand-dialogue.co.uk/",
+   "text": "Visit Brand Dialogue",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://brandfinance.com/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/terms-of-use",
+   "text": "Terms of Use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://brandfinance.com/terms-of-use",
+   "text": "Terms Of Use",
+   "region": "NAV"
+  },
+  {
+   "href": "https://linkedin.com/company/brand-finance",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/BrandFinance",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://fb.com/Brand.Finance",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://instagram.com/brand.finance",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/BrandFinance",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://brandfinance.com/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brandfinance.com/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  }
+ ]
+}

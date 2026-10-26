@@ -1,0 +1,5306 @@
+[
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/data.html",
+"parent_url": "https://www.census.gov/retail/index.html",
+"relation": "R3-S1-R2-E1-F1:inference"
+},
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/definitions.html",
+"parent_url": "https://www.census.gov/retail/index.html",
+"relation": "R3-S1-R2-E1-F1:inference"
+},
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/contact.html",
+"parent_url": "https://www.census.gov/retail/index.html",
+"relation": "R3-S1-R2-E1-F1:inference"
+},
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/about_the_surveys.html",
+"parent_url": "https://www.census.gov/retail/index.html",
+"relation": "R3-S1-R2-E1-F1:inference"
+},
+{
+"entry_id": "S1-R2-E1",
+"url": "https://www.census.gov/retail/faqs.html",
+"parent_url": "https://www.census.gov/retail/index.html",
+"relation": "R3-S1-R2-E1-F1:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/news-updates/updates.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F1:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/library/publications.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F1:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/data/tables.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F1:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/past-updates.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F2:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F2:inference"
+},
+{
+"entry_id": "S1-R2-E2",
+"url": "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html",
+"parent_url": "https://www.census.gov/programs-surveys/e-stats.html",
+"relation": "R3-S1-R2-E2-F2:inference"
+},
+{
+"entry_id": "S1-R6-E13",
+"url": "https://documents.worldbank.org/en/publication/documents-reports/faqs",
+"parent_url": "https://documents.worldbank.org/en/publication/documents-reports",
+"relation": "R3-S1-R6-E13-F1:inference"
+},
+{
+"entry_id": "S1-R6-E13",
+"url": "https://documents.worldbank.org/en/publication/documents-reports/disclosure",
+"parent_url": "https://documents.worldbank.org/en/publication/documents-reports",
+"relation": "R3-S1-R6-E13-F1:inference"
+},
+{
+"entry_id": "S1-R6-E13",
+"url": "https://documents.worldbank.org/en/publication/documents-reports/docadvancesearch",
+"parent_url": "https://documents.worldbank.org/en/publication/documents-reports",
+"relation": "R3-S1-R6-E13-F1:inference"
+},
+{
+"entry_id": "S1-R6-E13",
+"url": "https://documents.worldbank.org/en/publication/documents-reports/api",
+"parent_url": "https://documents.worldbank.org/en/publication/documents-reports",
+"relation": "R3-S1-R6-E13-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/200401-guidelines-modifications-capital-treatment-expected-and-unexpected-credit-losses",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/statement-account-31-july-2020",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/working-paper-263-determinants-house-prices-nine-asia-pacific-economies",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/working-paper-538-sovereign-yields-and-risk-taking-channel-currency-appreciation",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/harmonisation-unique-transaction-identifier-technical-guidance",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F1:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/qr-201403/non-us-banks-claims-federal-reserve",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F2:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/aer-2018/editorial",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F2:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/qr-201909/non-bank-counterparties-international-banking",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F2:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/qr-202412/international-finance-through-lens-bis-statistics-geography-banks-operations",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F2:inference"
+},
+{
+"entry_id": "S1-R16-E1",
+"url": "https://www.bis.org/publications/aer-2021/bumpy-pandexit",
+"parent_url": "https://www.bis.org/publications",
+"relation": "R3-S1-R16-E1-F2:inference"
+},
+{
+"entry_id": "S1-R16-E4",
+"url": "https://www.bis.org/speeches/20151009-speech-stefan-ingves-iif-annual-membership-meeting",
+"parent_url": "https://www.bis.org/speeches",
+"relation": "R3-S1-R16-E4-F1:inference"
+},
+{
+"entry_id": "S1-R16-E4",
+"url": "https://www.bis.org/speeches/20240902-strong-together-benefits-international-cooperation",
+"parent_url": "https://www.bis.org/speeches",
+"relation": "R3-S1-R16-E4-F1:inference"
+},
+{
+"entry_id": "S1-R16-E4",
+"url": "https://www.bis.org/speeches/20201013-basel-committees-initiatives-climate-related-financial-risks",
+"parent_url": "https://www.bis.org/speeches",
+"relation": "R3-S1-R16-E4-F1:inference"
+},
+{
+"entry_id": "S1-R16-E4",
+"url": "https://www.bis.org/speeches/20200928-supervisory-priorities-age-covid-and-beyond",
+"parent_url": "https://www.bis.org/speeches",
+"relation": "R3-S1-R16-E4-F1:inference"
+},
+{
+"entry_id": "S1-R16-E4",
+"url": "https://www.bis.org/speeches/20110625-what-financial-system-21st-century",
+"parent_url": "https://www.bis.org/speeches",
+"relation": "R3-S1-R16-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/gender-equality",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/youth",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/environment-and-climate-change",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/entrepreneurship",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/accessibility",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F1:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/entrepreneurship/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F2:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/gateways-public-digital-learning/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F2:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/internet/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F2:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/environment-and-climate-change/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F2:inference"
+},
+{
+"entry_id": "S1-R18-E4",
+"url": "https://www.itu.int/en/action/ai/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/action/Pages/default.aspx",
+"relation": "R3-S1-R18-E4-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/conferences/wrc",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F1:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/Conferences/RA",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F1:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/study-groups/rcpm",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F1:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/conferences/RA",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F1:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/Conferences/WRC",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F1:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-26-asia%26pacific/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-asia%26pacific/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Americas/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/rrs-25-americas/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/rrs/RRS-26-Europe/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F2:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/Director",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F3:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/terrestrial",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F3:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/space",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F3:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/about",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F3:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/study-groups",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F3:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/seminars/ML-in-radio-prop/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F4:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/study-groups/rcpm/Pages/cpm-27.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F4:inference"
+},
+{
+"entry_id": "S1-R18-E5",
+"url": "https://www.itu.int/en/ITU-R/study-groups/rsg7/Pages/Seminar-Science-Services-RR-WRC27-2025.aspx",
+"parent_url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+"relation": "R3-S1-R18-E5-F4:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/ipr/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F1:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/info/Pages/resources.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F1:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/NoW/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F1:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/membership/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F1:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/about/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F1:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/extcoop/ai4resilience/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F2:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F2:inference"
+},
+{
+"entry_id": "S1-R18-E6",
+"url": "https://www.itu.int/en/ITU-T/focusgroups/ai4ssc/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+"relation": "R3-S1-R18-E6-F2:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/Resolutions.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F1:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/Circulars.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F1:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F1:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/regional-initiatives-2026-2029.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F1:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/Videos.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F1:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Regional-Presence/CIS/Pages/Events2026.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F2:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F2:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Conferences/TDAG/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F2:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/MembersPartners/Pages/tech-talks.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F3:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Pages/digital-transformation-approach/index.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F3:inference"
+},
+{
+"entry_id": "S1-R18-E7",
+"url": "https://www.itu.int/en/ITU-D/Projects/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+"relation": "R3-S1-R18-E7-F3:inference"
+},
+{
+"entry_id": "S1-R18-E8",
+"url": "https://www.itu.int/hub/news/did-you-know/",
+"parent_url": "https://www.itu.int/hub/news/",
+"relation": "R3-S1-R18-E8-F1:inference"
+},
+{
+"entry_id": "S1-R18-E8",
+"url": "https://www.itu.int/hub/news/meet-the-experts/",
+"parent_url": "https://www.itu.int/hub/news/",
+"relation": "R3-S1-R18-E8-F1:inference"
+},
+{
+"entry_id": "S1-R18-E8",
+"url": "https://www.itu.int/hub/news/itu-newsletter-subscribe/",
+"parent_url": "https://www.itu.int/hub/news/",
+"relation": "R3-S1-R18-E8-F1:inference"
+},
+{
+"entry_id": "S1-R18-E8",
+"url": "https://www.itu.int/hub/news/impact-videos/",
+"parent_url": "https://www.itu.int/hub/news/",
+"relation": "R3-S1-R18-E8-F1:inference"
+},
+{
+"entry_id": "S1-R18-E9",
+"url": "https://www.itu.int/en/publications/Pages/online.aspx",
+"parent_url": "https://www.itu.int/en/publications/Pages/media.aspx",
+"relation": "R3-S1-R18-E9-F1:inference"
+},
+{
+"entry_id": "S1-R18-E9",
+"url": "https://www.itu.int/en/publications/Pages/Req-cat.aspx",
+"parent_url": "https://www.itu.int/en/publications/Pages/media.aspx",
+"relation": "R3-S1-R18-E9-F1:inference"
+},
+{
+"entry_id": "S1-R18-E9",
+"url": "https://www.itu.int/en/publications/Pages/pubnoticelist.aspx",
+"parent_url": "https://www.itu.int/en/publications/Pages/media.aspx",
+"relation": "R3-S1-R18-E9-F1:inference"
+},
+{
+"entry_id": "S1-R18-E9",
+"url": "https://www.itu.int/en/publications/Pages/eb.aspx",
+"parent_url": "https://www.itu.int/en/publications/Pages/media.aspx",
+"relation": "R3-S1-R18-E9-F1:inference"
+},
+{
+"entry_id": "S1-R18-E9",
+"url": "https://www.itu.int/en/publications/Pages/default.aspx",
+"parent_url": "https://www.itu.int/en/publications/Pages/media.aspx",
+"relation": "R3-S1-R18-E9-F1:inference"
+},
+{
+"entry_id": "S1-R19-E3",
+"url": "https://www.wipo.int/en/web/ip-statistics/w/news/2026/new-wipo-report-reveals-rapid-growth-in-global-green-technology-innovation",
+"parent_url": "https://www.wipo.int/en/web/ip-statistics",
+"relation": "R3-S1-R19-E3-F1:inference"
+},
+{
+"entry_id": "S1-R19-E3",
+"url": "https://www.wipo.int/en/web/ip-statistics/w/news/2026/international-patent-applications-rose-in-2025-with-digital-communication-and-semiconductor-technologies-showing-strong-growth",
+"parent_url": "https://www.wipo.int/en/web/ip-statistics",
+"relation": "R3-S1-R19-E3-F1:inference"
+},
+{
+"entry_id": "S1-R19-E3",
+"url": "https://www.wipo.int/en/web/ip-statistics/w/news/2025/world-intellectual-property-indicators-global-patent-and-design-filings-reach-new-records-in-2024-trademarks-flat",
+"parent_url": "https://www.wipo.int/en/web/ip-statistics",
+"relation": "R3-S1-R19-E3-F1:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/faqs_patentscope",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F1:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/webinar",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F1:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/news",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F1:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/national_databases",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F1:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-broadens-its-sep-coverage-with-the-addition-of-etsi-family-extension-data",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F2:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-ai-assisted-search-now-available",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F2:inference"
+},
+{
+"entry_id": "S1-R19-E4",
+"url": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
+"parent_url": "https://www.wipo.int/en/web/patentscope/",
+"relation": "R3-S1-R19-E4-F2:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/terms_and_conditions",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F1:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/faqs_branddb",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F1:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/news",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F1:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/w/news/2026/trademarks-of-peru-are-now-available-in-the-global-brand-database",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F2:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-croatia-are-now-available-in-the-global-brand-database",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F2:inference"
+},
+{
+"entry_id": "S1-R19-E6",
+"url": "https://www.wipo.int/en/web/global-brand-database/w/news/2026/trademarks-of-paraguay-are-now-available-in-the-global-brand-database",
+"parent_url": "https://www.wipo.int/en/web/global-brand-database",
+"relation": "R3-S1-R19-E6-F2:inference"
+},
+{
+"entry_id": "S1-R19-E8",
+"url": "https://www.wipo.int/en/web/global-design-database/w/news/2026/designs-of-sri-lanka-added-to-the-global-design-database",
+"parent_url": "https://www.wipo.int/en/web/global-design-database",
+"relation": "R3-S1-R19-E8-F1:inference"
+},
+{
+"entry_id": "S1-R19-E8",
+"url": "https://www.wipo.int/en/web/global-design-database/w/news/2025/designs-of-croatia-added-to-the-global-design-database",
+"parent_url": "https://www.wipo.int/en/web/global-design-database",
+"relation": "R3-S1-R19-E8-F1:inference"
+},
+{
+"entry_id": "S1-R19-E8",
+"url": "https://www.wipo.int/en/web/global-design-database/w/news/2026/designs-of-norway-added-to-the-global-design-database",
+"parent_url": "https://www.wipo.int/en/web/global-design-database",
+"relation": "R3-S1-R19-E8-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/why-electrifying-truck-fleets-is-really-a-digital-problem",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/news/2026/the-genai-landscape-is-getting-bigger-and-more-competitive-according-to-new-wipo-report",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/the-smart-game-football-innovation-on-the-road-to-the-2026-football-world-cup",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/news/2026/wipo-launches-new-e-tutorial-on-patent-analytics",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/w/blog/2026/beyond-the-chatbot-what-patent-data-reveals-about-the-next-phase-of-genai",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F1:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/community-of-practice",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F2:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/patent-landscapes-reports",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F2:inference"
+},
+{
+"entry_id": "S1-R19-E10",
+"url": "https://www.wipo.int/en/web/patent-analytics/ai-inventions",
+"parent_url": "https://www.wipo.int/en/web/patent-analytics",
+"relation": "R3-S1-R19-E10-F2:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/traditional-knowledge",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F1:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/trade-secrets",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F1:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/ip-valuation",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F1:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/news",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F1:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/enterprising-ideas",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F1:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-algeria-venture-join-forces-to-launch-a-joint-ip-for-business-center-for-algerian-startups-and-smes",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F2:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/ipmc-shanghai-yangtze-river-delta-green-technology-intellectual-property-management-clinic-ipmc-officially-launches",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F2:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-new-ip-diagnostics-tool-for-the-fashion-industry",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F2:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/wipo-launches-2026-ip-management-clinic-for-med-tech-smes-and-start-ups-in-poland-and-israel",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F2:inference"
+},
+{
+"entry_id": "S1-R19-E12",
+"url": "https://www.wipo.int/en/web/business/w/news/2026/wipo-and-myipo-establish-joint-ip-business-center",
+"parent_url": "https://www.wipo.int/en/web/business",
+"relation": "R3-S1-R19-E12-F2:inference"
+},
+{
+"entry_id": "S1-R19-E13",
+"url": "https://www.wipo.int/en/web/economics/innovating-towards-development",
+"parent_url": "https://www.wipo.int/en/web/economics",
+"relation": "R3-S1-R19-E13-F1:inference"
+},
+{
+"entry_id": "S1-R19-E13",
+"url": "https://www.wipo.int/en/web/economics/innovation-hotspots",
+"parent_url": "https://www.wipo.int/en/web/economics",
+"relation": "R3-S1-R19-E13-F1:inference"
+},
+{
+"entry_id": "S1-R19-E13",
+"url": "https://www.wipo.int/en/web/economics/creative-industries-insights",
+"parent_url": "https://www.wipo.int/en/web/economics",
+"relation": "R3-S1-R19-E13-F1:inference"
+},
+{
+"entry_id": "S1-R19-E13",
+"url": "https://www.wipo.int/en/web/economics/street-art-insights",
+"parent_url": "https://www.wipo.int/en/web/economics",
+"relation": "R3-S1-R19-E13-F1:inference"
+},
+{
+"entry_id": "S1-R19-E13",
+"url": "https://www.wipo.int/en/web/economics/resources-for-researchers",
+"parent_url": "https://www.wipo.int/en/web/economics",
+"relation": "R3-S1-R19-E13-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/access-market",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/national-model-institutional-ip-policy",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/agreements",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/tt-incentives-guide",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/academic-assets-management",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F1:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/news/2025/call-for-applications-wipo-asean-lab-to-market-l2m-program-2025-2026",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F2:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/news/2026/open-for-applications-wipo-stem-south-asia-ip-and-technology-transfer-professional-program-2026-2027",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F2:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/news/2026/wipo-signs-a-memorandum-of-understanding-with-attp",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F2:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/stories/tech-transfer-southern-africa",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F3:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/stories/taltech-covid-19-technology",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F3:inference"
+},
+{
+"entry_id": "S1-R19-E14",
+"url": "https://www.wipo.int/en/web/technology-transfer/w/stories/sadc-technology-transfer-mentorship-program-building-regional-capacity",
+"parent_url": "https://www.wipo.int/en/web/technology-transfer",
+"relation": "R3-S1-R19-E14-F3:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2023",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F1:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2026",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F1:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/events/ip-finance-dialogue/2025",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F1:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-convenes-asean-investors-to-advance-ip-in-investment-decisions",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F2:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-report-launch-highlights-mexico-s-ip-financing-potential",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F2:inference"
+},
+{
+"entry_id": "S1-R19-E16",
+"url": "https://www.wipo.int/en/web/ip-financing/w/news/2026/turning-ip-value-into-finance-southeast-asia-builds-regional-momentum",
+"parent_url": "https://www.wipo.int/en/web/ip-financing",
+"relation": "R3-S1-R19-E16-F2:inference"
+},
+{
+"entry_id": "S1-R19-E20",
+"url": "https://www.wipo.int/en/web/frontier-technologies/w/news/2026/wipo-launches-artificial-intelligence-infrastructure-interchange",
+"parent_url": "https://www.wipo.int/en/web/frontier-technologies",
+"relation": "R3-S1-R19-E20-F1:inference"
+},
+{
+"entry_id": "S1-R19-E20",
+"url": "https://www.wipo.int/en/web/frontier-technologies/w/news/2025/wipo-conversation-12-synthetic-media-create-new-avenues-for-creativity-challenges-for-policymakers",
+"parent_url": "https://www.wipo.int/en/web/frontier-technologies",
+"relation": "R3-S1-R19-E20-F1:inference"
+},
+{
+"entry_id": "S1-R19-E20",
+"url": "https://www.wipo.int/en/web/frontier-technologies/w/news/2024/news_0004",
+"parent_url": "https://www.wipo.int/en/web/frontier-technologies",
+"relation": "R3-S1-R19-E20-F1:inference"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/su-super-league-chinese-football-and-the-role-of-ip-97375",
+"parent_url": "https://www.wipo.int/en/web/wipo-magazine",
+"relation": "R3-S1-R19-E21-F1:inference"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/combatting-ai-deepfakes-to-safeguard-indian-cricketers-image-rights-100827",
+"parent_url": "https://www.wipo.int/en/web/wipo-magazine",
+"relation": "R3-S1-R19-E21-F1:inference"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/owning-the-celebration-signature-moves-in-the-age-of-synthetic-media-93050",
+"parent_url": "https://www.wipo.int/en/web/wipo-magazine",
+"relation": "R3-S1-R19-E21-F1:inference"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/taylor-swift-trademark-strategy-a-model-for-artist-ip-protection-78728",
+"parent_url": "https://www.wipo.int/en/web/wipo-magazine",
+"relation": "R3-S1-R19-E21-F1:inference"
+},
+{
+"entry_id": "S1-R19-E21",
+"url": "https://www.wipo.int/en/web/wipo-magazine/articles/how-saudi-producer-ahmed-alsallal-uses-music-to-promote-intellectual-property-74728",
+"parent_url": "https://www.wipo.int/en/web/wipo-magazine",
+"relation": "R3-S1-R19-E21-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/w/stories/preventing-wild-animal-intrusions-with-smart-crop-protection-systems",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/w/stories/longines-pilot-watches-design-in-flight-and-beyond",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/w/stories/fourier-healthcare-robots-with-humanoid-designs",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/w/stories/vestel-s-approach-to-innovation-design-protection-and-aesthetic-excellence",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/w/stories/synegram-music-visualization-software",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F1:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/pct-system-stories",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F2:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/music-stories",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F2:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/asia-pacific-region-stories",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F2:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/madrid-system-stories",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F2:inference"
+},
+{
+"entry_id": "S1-R19-E22",
+"url": "https://www.wipo.int/en/web/ip-advantage/indigenous-peoples-stories",
+"parent_url": "https://www.wipo.int/en/web/ip-advantage",
+"relation": "R3-S1-R19-E22-F2:inference"
+},
+{
+"entry_id": "S1-R19-E23",
+"url": "https://www.wipo.int/en/web/technology-trends/artificial_intelligence",
+"parent_url": "https://www.wipo.int/en/web/technology-trends",
+"relation": "R3-S1-R19-E23-F1:inference"
+},
+{
+"entry_id": "S1-R19-E23",
+"url": "https://www.wipo.int/en/web/technology-trends/assistive_technology",
+"parent_url": "https://www.wipo.int/en/web/technology-trends",
+"relation": "R3-S1-R19-E23-F1:inference"
+},
+{
+"entry_id": "S1-R19-E23",
+"url": "https://www.wipo.int/en/web/technology-trends/future-of-transportation",
+"parent_url": "https://www.wipo.int/en/web/technology-trends",
+"relation": "R3-S1-R19-E23-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/news/2026/launch-of-the-2026-gii-ranking-of-world-s-top-100-innovation-clusters",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/the-value-of-corporate-intangible-assets-worldwide",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/software-collaboration-hits-5-billion-github-commits",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/lights-camera-records-global-film-production",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/w/blogs/2026/international-trade-in-ideas-know-how-and-intellectual-property",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F1:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/2025/innovation-clusters",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F2:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/2026/index",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F2:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/2024/index",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F2:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/2026/innovation-clusters",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F2:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/2025/index",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F2:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/news",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F3:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2022",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F3:inference"
+},
+{
+"entry_id": "S1-R19-E24",
+"url": "https://www.wipo.int/en/web/global-innovation-index/global-innovation-index-2021",
+"parent_url": "https://www.wipo.int/en/web/global-innovation-index",
+"relation": "R3-S1-R19-E24-F3:inference"
+},
+{
+"entry_id": "S1-R19-E25",
+"url": "https://www.wipo.int/en/web/world-ip-report/2019/index",
+"parent_url": "https://www.wipo.int/en/web/world-ip-report",
+"relation": "R3-S1-R19-E25-F1:inference"
+},
+{
+"entry_id": "S1-R19-E25",
+"url": "https://www.wipo.int/en/web/world-ip-report/2024/index",
+"parent_url": "https://www.wipo.int/en/web/world-ip-report",
+"relation": "R3-S1-R19-E25-F1:inference"
+},
+{
+"entry_id": "S1-R19-E25",
+"url": "https://www.wipo.int/en/web/world-ip-report/2026/index",
+"parent_url": "https://www.wipo.int/en/web/world-ip-report",
+"relation": "R3-S1-R19-E25-F1:inference"
+},
+{
+"entry_id": "S1-R19-E25",
+"url": "https://www.wipo.int/en/web/world-ip-report/2022/index",
+"parent_url": "https://www.wipo.int/en/web/world-ip-report",
+"relation": "R3-S1-R19-E25-F1:inference"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=252",
+"parent_url": "https://www3.wipo.int/ipstats/",
+"relation": "R3-S1-R19-E28-F1:inference"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=222",
+"parent_url": "https://www3.wipo.int/ipstats/",
+"relation": "R3-S1-R19-E28-F1:inference"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
+"parent_url": "https://www3.wipo.int/ipstats/",
+"relation": "R3-S1-R19-E28-F1:inference"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
+"parent_url": "https://www3.wipo.int/ipstats/",
+"relation": "R3-S1-R19-E28-F1:inference"
+},
+{
+"entry_id": "S1-R19-E28",
+"url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
+"parent_url": "https://www3.wipo.int/ipstats/",
+"relation": "R3-S1-R19-E28-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/technical/espacenet",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/patlib",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/legal/register",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/business-and-statistics",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F1:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/technical",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F2:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/business",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F2:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F2:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/legal",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F2:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/data",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F2:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/changes-vietnamese-patent-law",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F3:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/world-water-day",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F3:inference"
+},
+{
+"entry_id": "S1-R20-E1",
+"url": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news/inpadoc-unlocked",
+"parent_url": "https://www.epo.org/en/searching-for-patents",
+"relation": "R3-S1-R20-E1-F3:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/events/inspiring-inventors-joachim-fiedlers-magnetic-fasteners",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F1:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/events/pmac-arbitration-day",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F1:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/news/epo-platforms-back-online",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F1:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/events/standards-patents-and-competitiveness-forum",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F1:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F1:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/podcast",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F2:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/events",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F2:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/in-focus",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F2:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/young-inventors-prize",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F2:inference"
+},
+{
+"entry_id": "S1-R20-E2",
+"url": "https://www.epo.org/en/news-events/news",
+"parent_url": "https://www.epo.org/en/news-events",
+"relation": "R3-S1-R20-E2-F2:inference"
+},
+{
+"entry_id": "S1-R22-E1",
+"url": "https://www.kantar.com/inspiration/ai/real-human-stories-at-scale-with-kantar-converser",
+"parent_url": "https://www.kantar.com/inspiration",
+"relation": "R3-S1-R22-E1-F1:inference"
+},
+{
+"entry_id": "S1-R22-E1",
+"url": "https://www.kantar.com/inspiration/brands/kantar-brandz-2025-ranking-reveals-the-worlds-most-valuable-brands",
+"parent_url": "https://www.kantar.com/inspiration",
+"relation": "R3-S1-R22-E1-F1:inference"
+},
+{
+"entry_id": "S1-R22-E1",
+"url": "https://www.kantar.com/inspiration/customer-experience/brand-growth-through-experience",
+"parent_url": "https://www.kantar.com/inspiration",
+"relation": "R3-S1-R22-E1-F1:inference"
+},
+{
+"entry_id": "S1-R22-E1",
+"url": "https://www.kantar.com/inspiration/advertising-media/cannes-in-a-can-2026-four-signals-shaping-the-future-of-brand-growth",
+"parent_url": "https://www.kantar.com/inspiration",
+"relation": "R3-S1-R22-E1-F1:inference"
+},
+{
+"entry_id": "S1-R22-E1",
+"url": "https://www.kantar.com/inspiration/brands/how-to-navigate-the-tariff-turmoil",
+"parent_url": "https://www.kantar.com/inspiration",
+"relation": "R3-S1-R22-E1-F1:inference"
+},
+{
+"entry_id": "S1-R22-E2",
+"url": "https://www.kantar.com/marketplace/solutions",
+"parent_url": "https://www.kantar.com/marketplace",
+"relation": "R3-S1-R22-E2-F1:inference"
+},
+{
+"entry_id": "S1-R22-E2",
+"url": "https://www.kantar.com/marketplace/pricing",
+"parent_url": "https://www.kantar.com/marketplace",
+"relation": "R3-S1-R22-E2-F1:inference"
+},
+{
+"entry_id": "S1-R22-E2",
+"url": "https://www.kantar.com/marketplace/request-demo",
+"parent_url": "https://www.kantar.com/marketplace",
+"relation": "R3-S1-R22-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/retail/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/financial-services/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/tags/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/sports-gaming-and-entertainment/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/downloads/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F1:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/events/in-cosmetics-asia/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F2:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/consumer-research/connection-economy-uk/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F2:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/beauty-and-personal-care/biohacking-sleep/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F2:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/consumer-research/system-thinking-new-rules-for-brand-growth-2027/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F2:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/consumer-research/visibility-gap-us/",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F2:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/food-and-drink",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F3:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/beauty-and-personal-care",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F3:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/americas",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F3:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/asia",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F3:inference"
+},
+{
+"entry_id": "S1-R26-E1",
+"url": "https://www.mintel.com/insights/emea",
+"parent_url": "https://www.mintel.com/insights/",
+"relation": "R3-S1-R26-E1-F3:inference"
+},
+{
+"entry_id": "S1-R26-E2",
+"url": "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/",
+"parent_url": "https://www.mintel.com/press-centre/",
+"relation": "R3-S1-R26-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E2",
+"url": "https://www.mintel.com/press-centre/2027-household-predictions/",
+"parent_url": "https://www.mintel.com/press-centre/",
+"relation": "R3-S1-R26-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E2",
+"url": "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+"parent_url": "https://www.mintel.com/press-centre/",
+"relation": "R3-S1-R26-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E2",
+"url": "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+"parent_url": "https://www.mintel.com/press-centre/",
+"relation": "R3-S1-R26-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E2",
+"url": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+"parent_url": "https://www.mintel.com/press-centre/",
+"relation": "R3-S1-R26-E2-F1:inference"
+},
+{
+"entry_id": "S1-R26-E3",
+"url": "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-emea/",
+"parent_url": "https://www.mintel.com/insights/events/",
+"relation": "R3-S1-R26-E3-F1:inference"
+},
+{
+"entry_id": "S1-R26-E3",
+"url": "https://www.mintel.com/insights/events/mintel-x-fi-europe-2026/",
+"parent_url": "https://www.mintel.com/insights/events/",
+"relation": "R3-S1-R26-E3-F1:inference"
+},
+{
+"entry_id": "S1-R26-E3",
+"url": "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-apac-south-korea/",
+"parent_url": "https://www.mintel.com/insights/events/",
+"relation": "R3-S1-R26-E3-F1:inference"
+},
+{
+"entry_id": "S1-R26-E3",
+"url": "https://www.mintel.com/insights/events/2027-global-predictions-household-emea/",
+"parent_url": "https://www.mintel.com/insights/events/",
+"relation": "R3-S1-R26-E3-F1:inference"
+},
+{
+"entry_id": "S1-R26-E3",
+"url": "https://www.mintel.com/insights/events/2027-global-consumer-predictions-emea/",
+"parent_url": "https://www.mintel.com/insights/events/",
+"relation": "R3-S1-R26-E3-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/europe",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/wellness",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/consumer-foodservice",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/home-products",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F1:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=market_research_in_action&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F2:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=asia-pacific&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F2:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=consumer-appliances&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F2:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=iran-war&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F2:inference"
+},
+{
+"entry_id": "S1-R27-E1",
+"url": "https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=tobacco&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Finsights",
+"parent_url": "https://www.euromonitor.com/insights",
+"relation": "R3-S1-R27-E1-F2:inference"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
+"parent_url": "https://www.euromonitor.com/store/explore-reports",
+"relation": "R3-S1-R27-E3-F1:inference"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+"parent_url": "https://www.euromonitor.com/store/explore-reports",
+"relation": "R3-S1-R27-E3-F1:inference"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
+"parent_url": "https://www.euromonitor.com/store/explore-reports",
+"relation": "R3-S1-R27-E3-F1:inference"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+"parent_url": "https://www.euromonitor.com/store/explore-reports",
+"relation": "R3-S1-R27-E3-F1:inference"
+},
+{
+"entry_id": "S1-R27-E3",
+"url": "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+"parent_url": "https://www.euromonitor.com/store/explore-reports",
+"relation": "R3-S1-R27-E3-F1:inference"
+},
+{
+"entry_id": "S1-R30-E1",
+"url": "https://www.nielsen.com/insights/type/report/",
+"parent_url": "https://www.nielsen.com/insights/",
+"relation": "R3-S1-R30-E1-F1:inference"
+},
+{
+"entry_id": "S1-R30-E1",
+"url": "https://www.nielsen.com/insights/2026/nielsen-fifa-world-cup-2026-local-fandom-insights-report/",
+"parent_url": "https://www.nielsen.com/insights/",
+"relation": "R3-S1-R30-E1-F1:inference"
+},
+{
+"entry_id": "S1-R30-E1",
+"url": "https://www.nielsen.com/insights/topic/tv-streaming/",
+"parent_url": "https://www.nielsen.com/insights/",
+"relation": "R3-S1-R30-E1-F1:inference"
+},
+{
+"entry_id": "S1-R30-E1",
+"url": "https://www.nielsen.com/insights/2026/2026-dis-black-consumer-engagement-loyalty/",
+"parent_url": "https://www.nielsen.com/insights/",
+"relation": "R3-S1-R30-E1-F1:inference"
+},
+{
+"entry_id": "S1-R30-E1",
+"url": "https://www.nielsen.com/insights/2025/what-are-nielsen-ratings/",
+"parent_url": "https://www.nielsen.com/insights/",
+"relation": "R3-S1-R30-E1-F1:inference"
+},
+{
+"entry_id": "S1-R30-E2",
+"url": "https://www.nielsen.com/news-center/2026/the-gauge-poland-september-2026/",
+"parent_url": "https://www.nielsen.com/news-center/",
+"relation": "R3-S1-R30-E2-F1:inference"
+},
+{
+"entry_id": "S1-R30-E2",
+"url": "https://www.nielsen.com/news-center/2026/mcdonalds-takes-top-spot-as-new-zealands-fast-food-tastes-evolve-according-to-nielsen/",
+"parent_url": "https://www.nielsen.com/news-center/",
+"relation": "R3-S1-R30-E2-F1:inference"
+},
+{
+"entry_id": "S1-R30-E2",
+"url": "https://www.nielsen.com/news-center/2026/nielsen-to-introduce-new-content-measurement-solutions-in-early-2027/",
+"parent_url": "https://www.nielsen.com/news-center/",
+"relation": "R3-S1-R30-E2-F1:inference"
+},
+{
+"entry_id": "S1-R30-E2",
+"url": "https://www.nielsen.com/news-center/2026/nielsen-accelerates-streaming-data-delivery-with-enhancements-to-streaming-content-ratings/",
+"parent_url": "https://www.nielsen.com/news-center/",
+"relation": "R3-S1-R30-E2-F1:inference"
+},
+{
+"entry_id": "S1-R30-E2",
+"url": "https://www.nielsen.com/news-center/2026/the-gauge-poland-august-2026/",
+"parent_url": "https://www.nielsen.com/news-center/",
+"relation": "R3-S1-R30-E2-F1:inference"
+},
+{
+"entry_id": "S1-R31-E2",
+"url": "https://msi.org/research/submit-working-paper/",
+"parent_url": "https://msi.org/research/",
+"relation": "R3-S1-R31-E2-F1:inference"
+},
+{
+"entry_id": "S1-R31-E2",
+"url": "https://msi.org/research/clayton-dissertation-proposal-competition/",
+"parent_url": "https://msi.org/research/",
+"relation": "R3-S1-R31-E2-F1:inference"
+},
+{
+"entry_id": "S1-R31-E2",
+"url": "https://msi.org/research/msi-scholars/",
+"parent_url": "https://msi.org/research/",
+"relation": "R3-S1-R31-E2-F1:inference"
+},
+{
+"entry_id": "S1-R31-E2",
+"url": "https://msi.org/research/research-support/",
+"parent_url": "https://msi.org/research/",
+"relation": "R3-S1-R31-E2-F1:inference"
+},
+{
+"entry_id": "S1-R31-E2",
+"url": "https://msi.org/research/msi-research-competition-and-call-for-proposals/",
+"parent_url": "https://msi.org/research/",
+"relation": "R3-S1-R31-E2-F1:inference"
+},
+{
+"entry_id": "S1-R32-E1",
+"url": "https://www.askattest.com/our-research/2026-us-consumer-trends-report",
+"parent_url": "https://www.askattest.com/our-research",
+"relation": "R3-S1-R32-E1-F1:inference"
+},
+{
+"entry_id": "S1-R32-E1",
+"url": "https://www.askattest.com/our-research/2026-us-media-consumption-report",
+"parent_url": "https://www.askattest.com/our-research",
+"relation": "R3-S1-R32-E1-F1:inference"
+},
+{
+"entry_id": "S1-R32-E1",
+"url": "https://www.askattest.com/our-research/2026-uk-media-consumption-report",
+"parent_url": "https://www.askattest.com/our-research",
+"relation": "R3-S1-R32-E1-F1:inference"
+},
+{
+"entry_id": "S1-R32-E1",
+"url": "https://www.askattest.com/our-research/2027-consumer-trends-report",
+"parent_url": "https://www.askattest.com/our-research",
+"relation": "R3-S1-R32-E1-F1:inference"
+},
+{
+"entry_id": "S1-R32-E1",
+"url": "https://www.askattest.com/our-research/uk-gen-alpha-report",
+"parent_url": "https://www.askattest.com/our-research",
+"relation": "R3-S1-R32-E1-F1:inference"
+},
+{
+"entry_id": "S1-R32-E2",
+"url": "https://www.askattest.com/blog/articles/from-idea-to-impact-how-brands-use-attest-at-every-stage-of-ad-campaign-planning",
+"parent_url": "https://www.askattest.com/blog",
+"relation": "R3-S1-R32-E2-F1:inference"
+},
+{
+"entry_id": "S1-R32-E2",
+"url": "https://www.askattest.com/blog/articles/how-to-create-surveys-faster",
+"parent_url": "https://www.askattest.com/blog",
+"relation": "R3-S1-R32-E2-F1:inference"
+},
+{
+"entry_id": "S1-R32-E2",
+"url": "https://www.askattest.com/blog/research/6-ways-advertisers-can-capitalize-on-second-screening",
+"parent_url": "https://www.askattest.com/blog",
+"relation": "R3-S1-R32-E2-F1:inference"
+},
+{
+"entry_id": "S1-R32-E2",
+"url": "https://www.askattest.com/blog/attest-news/whats-new-in-the-attest-autumn-wave",
+"parent_url": "https://www.askattest.com/blog",
+"relation": "R3-S1-R32-E2-F1:inference"
+},
+{
+"entry_id": "S1-R32-E2",
+"url": "https://www.askattest.com/blog/research/how-to-reach-over-50s-audiences",
+"parent_url": "https://www.askattest.com/blog",
+"relation": "R3-S1-R32-E2-F1:inference"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/automotive",
+"parent_url": "https://www.circana.com/industries",
+"relation": "R3-S1-R34-E2-F1:inference"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/retail",
+"parent_url": "https://www.circana.com/industries",
+"relation": "R3-S1-R34-E2-F1:inference"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/center-store-and-frozen-foods",
+"parent_url": "https://www.circana.com/industries",
+"relation": "R3-S1-R34-E2-F1:inference"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/video-games",
+"parent_url": "https://www.circana.com/industries",
+"relation": "R3-S1-R34-E2-F1:inference"
+},
+{
+"entry_id": "S1-R34-E2",
+"url": "https://www.circana.com/industries/home",
+"parent_url": "https://www.circana.com/industries",
+"relation": "R3-S1-R34-E2-F1:inference"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+"parent_url": "https://www.comscore.com/Insights/Blog",
+"relation": "R3-S1-R35-E1-F1:inference"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/Audio-Activated",
+"parent_url": "https://www.comscore.com/Insights/Blog",
+"relation": "R3-S1-R35-E1-F1:inference"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/CIMM-East-Highlights-and-Currency-Clarity",
+"parent_url": "https://www.comscore.com/Insights/Blog",
+"relation": "R3-S1-R35-E1-F1:inference"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next",
+"parent_url": "https://www.comscore.com/Insights/Blog",
+"relation": "R3-S1-R35-E1-F1:inference"
+},
+{
+"entry_id": "S1-R35-E1",
+"url": "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
+"parent_url": "https://www.comscore.com/Insights/Blog",
+"relation": "R3-S1-R35-E1-F1:inference"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Political-Targeting-Playbook",
+"parent_url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+"relation": "R3-S1-R35-E2-F1:inference"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/Proximic-Holiday-Gaming-and-Entertainment-One-Sheet",
+"parent_url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+"relation": "R3-S1-R35-E2-F1:inference"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Fall-and-Halloween-Guide",
+"parent_url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+"relation": "R3-S1-R35-E2-F1:inference"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-State-of-Programmatic-Report",
+"parent_url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+"relation": "R3-S1-R35-E2-F1:inference"
+},
+{
+"entry_id": "S1-R35-E2",
+"url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/2026-Summer-Guide",
+"parent_url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+"relation": "R3-S1-R35-E2-F1:inference"
+},
+{
+"entry_id": "S1-R36-E2",
+"url": "https://marketingscience.info/news-and-insights/reducing-risks-when-modernising-packaging",
+"parent_url": "https://marketingscience.info/news-and-insights",
+"relation": "R3-S1-R36-E2-F1:inference"
+},
+{
+"entry_id": "S1-R36-E2",
+"url": "https://marketingscience.info/news-and-insights/mascots-are-back-thanks-to-social-media-but-did-they-ever-go-away",
+"parent_url": "https://marketingscience.info/news-and-insights",
+"relation": "R3-S1-R36-E2-F1:inference"
+},
+{
+"entry_id": "S1-R36-E2",
+"url": "https://marketingscience.info/news-and-insights/are-swede-dreams-made-of-this-ikea-wicker-and-the-art-of-staying-on-brand",
+"parent_url": "https://marketingscience.info/news-and-insights",
+"relation": "R3-S1-R36-E2-F1:inference"
+},
+{
+"entry_id": "S1-R36-E2",
+"url": "https://marketingscience.info/news-and-insights/byron-sharp-says-distinctive-assets-reign-over-brand-story-who-cares-it-doesnt-matter",
+"parent_url": "https://marketingscience.info/news-and-insights",
+"relation": "R3-S1-R36-E2-F1:inference"
+},
+{
+"entry_id": "S1-R36-E2",
+"url": "https://marketingscience.info/news-and-insights/the-magic-split-between-brand-performance-spending-needs-to-end",
+"parent_url": "https://marketingscience.info/news-and-insights",
+"relation": "R3-S1-R36-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E1",
+"url": "https://www.gwi.com/reports/take-flight",
+"parent_url": "https://www.gwi.com/reports",
+"relation": "R3-S1-R39-E1-F1:inference"
+},
+{
+"entry_id": "S1-R39-E1",
+"url": "https://www.gwi.com/reports/us-consumers",
+"parent_url": "https://www.gwi.com/reports",
+"relation": "R3-S1-R39-E1-F1:inference"
+},
+{
+"entry_id": "S1-R39-E1",
+"url": "https://www.gwi.com/reports/germany-consumers",
+"parent_url": "https://www.gwi.com/reports",
+"relation": "R3-S1-R39-E1-F1:inference"
+},
+{
+"entry_id": "S1-R39-E1",
+"url": "https://www.gwi.com/reports/brand-tracker",
+"parent_url": "https://www.gwi.com/reports",
+"relation": "R3-S1-R39-E1-F1:inference"
+},
+{
+"entry_id": "S1-R39-E1",
+"url": "https://www.gwi.com/reports/beauty-buyers",
+"parent_url": "https://www.gwi.com/reports",
+"relation": "R3-S1-R39-E1-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/ai-and-gen-z-the-risk-of-letting-ai-define-your-audience",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/future-of-ai",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/who-is-the-2026-traveler-really",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/2025-predictions-vs-reality",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/women-in-saudi-arabia",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F1:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/data-journalism",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F2:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/digital-trends",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F2:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/talk-data-to-me",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F2:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/product",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F2:inference"
+},
+{
+"entry_id": "S1-R39-E2",
+"url": "https://www.gwi.com/blog/tag/consumer-behavior",
+"parent_url": "https://www.gwi.com/blog",
+"relation": "R3-S1-R39-E2-F2:inference"
+},
+{
+"entry_id": "S1-R39-E3",
+"url": "https://www.gwi.com/case-studies/buzzfeed",
+"parent_url": "https://www.gwi.com/case-studies",
+"relation": "R3-S1-R39-E3-F1:inference"
+},
+{
+"entry_id": "S1-R39-E3",
+"url": "https://www.gwi.com/case-studies/verb",
+"parent_url": "https://www.gwi.com/case-studies",
+"relation": "R3-S1-R39-E3-F1:inference"
+},
+{
+"entry_id": "S1-R39-E3",
+"url": "https://www.gwi.com/case-studies/barefoot-proximity",
+"parent_url": "https://www.gwi.com/case-studies",
+"relation": "R3-S1-R39-E3-F1:inference"
+},
+{
+"entry_id": "S1-R39-E3",
+"url": "https://www.gwi.com/case-studies/tequila-avion",
+"parent_url": "https://www.gwi.com/case-studies",
+"relation": "R3-S1-R39-E3-F1:inference"
+},
+{
+"entry_id": "S1-R39-E3",
+"url": "https://www.gwi.com/case-studies/dentsu",
+"parent_url": "https://www.gwi.com/case-studies",
+"relation": "R3-S1-R39-E3-F1:inference"
+},
+{
+"entry_id": "S1-R40-E1",
+"url": "https://www.wearehuman8.com/inspiration/reports-and-ebooks/",
+"parent_url": "https://www.wearehuman8.com/inspiration/",
+"relation": "R3-S1-R40-E1-F1:inference"
+},
+{
+"entry_id": "S1-R40-E1",
+"url": "https://www.wearehuman8.com/inspiration/cases/",
+"parent_url": "https://www.wearehuman8.com/inspiration/",
+"relation": "R3-S1-R40-E1-F1:inference"
+},
+{
+"entry_id": "S1-R40-E1",
+"url": "https://www.wearehuman8.com/inspiration/events/",
+"parent_url": "https://www.wearehuman8.com/inspiration/",
+"relation": "R3-S1-R40-E1-F1:inference"
+},
+{
+"entry_id": "S1-R40-E1",
+"url": "https://www.wearehuman8.com/inspiration/blog/",
+"parent_url": "https://www.wearehuman8.com/inspiration/",
+"relation": "R3-S1-R40-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E1",
+"url": "https://interbrand.com/best-global-brands/global/samsung/",
+"parent_url": "https://interbrand.com/best-global-brands/",
+"relation": "R3-S1-R41-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E1",
+"url": "https://interbrand.com/best-global-brands/global/mercedes-benz/",
+"parent_url": "https://interbrand.com/best-global-brands/",
+"relation": "R3-S1-R41-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E1",
+"url": "https://interbrand.com/best-global-brands/global/apple/",
+"parent_url": "https://interbrand.com/best-global-brands/",
+"relation": "R3-S1-R41-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E1",
+"url": "https://interbrand.com/best-global-brands/global/google/",
+"parent_url": "https://interbrand.com/best-global-brands/",
+"relation": "R3-S1-R41-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E1",
+"url": "https://interbrand.com/best-global-brands/global/coca-cola/",
+"parent_url": "https://interbrand.com/best-global-brands/",
+"relation": "R3-S1-R41-E1-F1:inference"
+},
+{
+"entry_id": "S1-R41-E2",
+"url": "https://interbrand.com/thinking/pandora-brand-meaning/",
+"parent_url": "https://interbrand.com/thinking/",
+"relation": "R3-S1-R41-E2-F1:inference"
+},
+{
+"entry_id": "S1-R41-E2",
+"url": "https://interbrand.com/thinking/allianz-brand-trust/",
+"parent_url": "https://interbrand.com/thinking/",
+"relation": "R3-S1-R41-E2-F1:inference"
+},
+{
+"entry_id": "S1-R41-E2",
+"url": "https://interbrand.com/thinking/meta-ai-brand/",
+"parent_url": "https://interbrand.com/thinking/",
+"relation": "R3-S1-R41-E2-F1:inference"
+},
+{
+"entry_id": "S1-R41-E2",
+"url": "https://interbrand.com/thinking/ferrari-brand-coherence/",
+"parent_url": "https://interbrand.com/thinking/",
+"relation": "R3-S1-R41-E2-F1:inference"
+},
+{
+"entry_id": "S1-R42-E1",
+"url": "https://www.numerator.com/resources/webinar/restaurant-guest-relationship/",
+"parent_url": "https://www.numerator.com/resources/",
+"relation": "R3-S1-R42-E1-F1:inference"
+},
+{
+"entry_id": "S1-R42-E1",
+"url": "https://www.numerator.com/resources/blog/from-hype-to-habit/",
+"parent_url": "https://www.numerator.com/resources/",
+"relation": "R3-S1-R42-E1-F1:inference"
+},
+{
+"entry_id": "S1-R42-E1",
+"url": "https://www.numerator.com/resources/blog/asian-consumer-spending-outlook/",
+"parent_url": "https://www.numerator.com/resources/",
+"relation": "R3-S1-R42-E1-F1:inference"
+},
+{
+"entry_id": "S1-R42-E1",
+"url": "https://www.numerator.com/resources/report/purposeful-pantry/",
+"parent_url": "https://www.numerator.com/resources/",
+"relation": "R3-S1-R42-E1-F1:inference"
+},
+{
+"entry_id": "S1-R42-E1",
+"url": "https://www.numerator.com/resources/report/pizza-share/",
+"parent_url": "https://www.numerator.com/resources/",
+"relation": "R3-S1-R42-E1-F1:inference"
+},
+{
+"entry_id": "S1-R43-E1",
+"url": "https://system1group.com/resources/diversity-usa",
+"parent_url": "https://system1group.com/resources",
+"relation": "R3-S1-R43-E1-F1:inference"
+},
+{
+"entry_id": "S1-R43-E1",
+"url": "https://system1group.com/resources/blog",
+"parent_url": "https://system1group.com/resources",
+"relation": "R3-S1-R43-E1-F1:inference"
+},
+{
+"entry_id": "S1-R43-E1",
+"url": "https://system1group.com/resources/podcast",
+"parent_url": "https://system1group.com/resources",
+"relation": "R3-S1-R43-E1-F1:inference"
+},
+{
+"entry_id": "S1-R45-E3",
+"url": "https://yougov.com/reports/55024-beyond-non-food-how-action-and-dealz-are-reshaping-retail-in-poland",
+"parent_url": "https://yougov.com/reports",
+"relation": "R3-S1-R45-E3-F1:inference"
+},
+{
+"entry_id": "S1-R45-E3",
+"url": "https://yougov.com/reports/55102-au-websearch-ai-report-2026",
+"parent_url": "https://yougov.com/reports",
+"relation": "R3-S1-R45-E3-F1:inference"
+},
+{
+"entry_id": "S1-R45-E3",
+"url": "https://yougov.com/reports/54616-id-auto-rankings-report-2026",
+"parent_url": "https://yougov.com/reports",
+"relation": "R3-S1-R45-E3-F1:inference"
+},
+{
+"entry_id": "S1-R45-E3",
+"url": "https://yougov.com/reports/54836-indian-cricket-fandom-report-2026",
+"parent_url": "https://yougov.com/reports",
+"relation": "R3-S1-R45-E3-F1:inference"
+},
+{
+"entry_id": "S1-R45-E3",
+"url": "https://yougov.com/reports/54773-flying-high-singapore-airline-rankings-2026",
+"parent_url": "https://yougov.com/reports",
+"relation": "R3-S1-R45-E3-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/winning-with-ai-podcast-carsten-rasch-egeriis/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/the-ai-opportunity-in-boring-businesses-with-brookfields-anuj-ranjan-podcast/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/inside-bains-2026-technology-report-webinar/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F1:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/topics/technology-report/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F2:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/topics/bain-webinars/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F2:inference"
+},
+{
+"entry_id": "S1-R48-E1",
+"url": "https://www.bain.com/insights/topics/bain-webinars-expire/",
+"parent_url": "https://www.bain.com/insights/",
+"relation": "R3-S1-R48-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-agents-human-workplace.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F1:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/frontier-ai-challenges-enterprise-controls.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F1:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F1:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F1:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-investment-strategy.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F1:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2026/managing-disinformation-at-scale.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2026/decision-making-with-ai.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F2:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/multimedia/podcasts.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F3:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F3:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/finance-transformation.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F3:inference"
+},
+{
+"entry_id": "S1-R49-E1",
+"url": "https://www.deloitte.com/global/en/insights/topics/emerging-technologies.html",
+"parent_url": "https://www.deloitte.com/global/en/insights.html",
+"relation": "R3-S1-R49-E1-F3:inference"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/digital-business",
+"parent_url": "https://www.idc.com/research/",
+"relation": "R3-S1-R53-E1-F1:inference"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/emerging-vendor",
+"parent_url": "https://www.idc.com/research/",
+"relation": "R3-S1-R53-E1-F1:inference"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/industry",
+"parent_url": "https://www.idc.com/research/",
+"relation": "R3-S1-R53-E1-F1:inference"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/investment-research",
+"parent_url": "https://www.idc.com/research/",
+"relation": "R3-S1-R53-E1-F1:inference"
+},
+{
+"entry_id": "S1-R53-E1",
+"url": "https://www.idc.com/research/tech-markets",
+"parent_url": "https://www.idc.com/research/",
+"relation": "R3-S1-R53-E1-F1:inference"
+},
+{
+"entry_id": "S1-R53-E2",
+"url": "https://www.idc.com/data-analytics/tracker",
+"parent_url": "https://www.idc.com/data-analytics/",
+"relation": "R3-S1-R53-E2-F1:inference"
+},
+{
+"entry_id": "S1-R53-E2",
+"url": "https://www.idc.com/data-analytics/wallet",
+"parent_url": "https://www.idc.com/data-analytics/",
+"relation": "R3-S1-R53-E2-F1:inference"
+},
+{
+"entry_id": "S1-R53-E2",
+"url": "https://www.idc.com/data-analytics/services-contracts-database",
+"parent_url": "https://www.idc.com/data-analytics/",
+"relation": "R3-S1-R53-E2-F1:inference"
+},
+{
+"entry_id": "S1-R53-E2",
+"url": "https://www.idc.com/data-analytics/spending-guide",
+"parent_url": "https://www.idc.com/data-analytics/",
+"relation": "R3-S1-R53-E2-F1:inference"
+},
+{
+"entry_id": "S1-R53-E2",
+"url": "https://www.idc.com/data-analytics/black-book",
+"parent_url": "https://www.idc.com/data-analytics/",
+"relation": "R3-S1-R53-E2-F1:inference"
+},
+{
+"entry_id": "S1-R53-E3",
+"url": "https://www.idc.com/quanta/use-cases/",
+"parent_url": "https://www.idc.com/quanta/",
+"relation": "R3-S1-R53-E3-F1:inference"
+},
+{
+"entry_id": "S1-R53-E3",
+"url": "https://www.idc.com/quanta/tech-leader/",
+"parent_url": "https://www.idc.com/quanta/",
+"relation": "R3-S1-R53-E3-F1:inference"
+},
+{
+"entry_id": "S1-R53-E3",
+"url": "https://www.idc.com/quanta/tech-supplier/",
+"parent_url": "https://www.idc.com/quanta/",
+"relation": "R3-S1-R53-E3-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/the-enterprise-ai-deal-has-changed-heres-what-vendors-need-to-prove/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/asia-pacific-ai-infrastructure/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/spatial-intelligence-what-it-is-how-it-works-where-it-delivers-value/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/ai-is-short-of-capacity-not-demand/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/ai-orchestration-are-your-employees-ready/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F1:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/blog/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F2:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/executive-insights-hub/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F2:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/webinars/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F2:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/futurescape/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F2:inference"
+},
+{
+"entry_id": "S1-R53-E4",
+"url": "https://www.idc.com/resource-center/middle-east-conflict/",
+"parent_url": "https://www.idc.com/resource-center/",
+"relation": "R3-S1-R53-E4-F2:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/research-and-insights/the-b2b-marketing-mistake-thats-costing-you-the-deal-outcomes",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F1:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/marketing-collective/global-marketing-jobs-outlook-trends-skills",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F1:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/research-and-insights/why-ai-is-forcing-a-b2b-marketing-shift-from-visibility-to-buyability",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F1:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/ai-search/why-your-brand-needs-a-point-of-view-artificial-intelligence-cant-replicate",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F1:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/events/convert-events-marketing-cost-center-to-demand-driver",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F1:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/content-marketing",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F2:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/topics",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F2:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/research-and-insights",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F2:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/linkedin-ads",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F2:inference"
+},
+{
+"entry_id": "S1-R65-E1",
+"url": "https://www.linkedin.com/business/marketing/blog/ai-search",
+"parent_url": "https://www.linkedin.com/business/marketing/blog",
+"relation": "R3-S1-R65-E1-F2:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/the-creative-dividend-advertising-that-pays-back/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F1:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/martin-cordova-ceo-la-sociedad-capital-dbg/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F1:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/ipsos-effie-us-feel-focus-forge-three-moves-to-win-effies-and-grow-brands/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F1:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/inside-the-judges-room-with-the-2026-peru-grand-effie-jury/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F1:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/faces-behind-the-cases-verizon-ogilvy-and-beyonce/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F1:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/page/53/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F2:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/page/5/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F2:inference"
+},
+{
+"entry_id": "S1-R66-E1",
+"url": "https://effie.org/insights/page/52/",
+"parent_url": "https://effie.org/insights/",
+"relation": "R3-S1-R66-E1-F2:inference"
+},
+{
+"entry_id": "S1-R68-E1",
+"url": "https://www.iab.com/events/iab-terms-conditions-workshop/",
+"parent_url": "https://www.iab.com/events/",
+"relation": "R3-S1-R68-E1-F1:inference"
+},
+{
+"entry_id": "S1-R68-E1",
+"url": "https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/",
+"parent_url": "https://www.iab.com/events/",
+"relation": "R3-S1-R68-E1-F1:inference"
+},
+{
+"entry_id": "S1-R68-E1",
+"url": "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
+"parent_url": "https://www.iab.com/events/",
+"relation": "R3-S1-R68-E1-F1:inference"
+},
+{
+"entry_id": "S1-R68-E1",
+"url": "https://www.iab.com/events/playfronts-2026/",
+"parent_url": "https://www.iab.com/events/",
+"relation": "R3-S1-R68-E1-F1:inference"
+},
+{
+"entry_id": "S1-R68-E1",
+"url": "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/",
+"parent_url": "https://www.iab.com/events/",
+"relation": "R3-S1-R68-E1-F1:inference"
+},
+{
+"entry_id": "S1-R69-E1",
+"url": "https://esomar.org/resources/publications/forecasting-the-data-and-insights-industry-a-2027-outlook-fdi2025",
+"parent_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+"relation": "R3-S1-R69-E1-F1:inference"
+},
+{
+"entry_id": "S1-R69-E1",
+"url": "https://esomar.org/resources/publications/global-research-software-2024",
+"parent_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+"relation": "R3-S1-R69-E1-F1:inference"
+},
+{
+"entry_id": "S1-R69-E1",
+"url": "https://esomar.org/resources/publications/global-research-software-2026",
+"parent_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+"relation": "R3-S1-R69-E1-F1:inference"
+},
+{
+"entry_id": "S1-R69-E1",
+"url": "https://esomar.org/resources/publications/global-research-software-2025",
+"parent_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+"relation": "R3-S1-R69-E1-F1:inference"
+},
+{
+"entry_id": "S1-R69-E1",
+"url": "https://esomar.org/resources/publications/global-market-research-2025",
+"parent_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+"relation": "R3-S1-R69-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/podcasts/be-cheeky-pete-markey-on-brand-careers-and-the-ai-experience-gap/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/articles/sustainable-marketing-how-to-communicate-purpose-products-and-services/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/articles/sustainable-marketing-what-s-happening-right-now/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/articles/what-is-a-buyer-persona-and-how-do-you-create-one/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/webinars/member-exclusive-performance-marketing-on-linkedin-balancing-brand-demand-and-revenue/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F1:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/sustainable-marketing-hub/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F2:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/podcasts/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F2:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/articles/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F2:inference"
+},
+{
+"entry_id": "S1-R73-E1",
+"url": "https://www.cim.co.uk/content-insights/webinars/",
+"parent_url": "https://www.cim.co.uk/content-insights/",
+"relation": "R3-S1-R73-E1-F2:inference"
+},
+{
+"entry_id": "S1-R84-E1",
+"url": "https://contentmarketinginstitute.com/research/career-salary-outlook",
+"parent_url": "https://contentmarketinginstitute.com/research",
+"relation": "R3-S1-R84-E1-F1:inference"
+},
+{
+"entry_id": "S1-R84-E1",
+"url": "https://contentmarketinginstitute.com/research/demand-generation-research",
+"parent_url": "https://contentmarketinginstitute.com/research",
+"relation": "R3-S1-R84-E1-F1:inference"
+},
+{
+"entry_id": "S1-R84-E1",
+"url": "https://contentmarketinginstitute.com/research/technology-research",
+"parent_url": "https://contentmarketinginstitute.com/research",
+"relation": "R3-S1-R84-E1-F1:inference"
+},
+{
+"entry_id": "S1-R84-E1",
+"url": "https://contentmarketinginstitute.com/research/b2b-research",
+"parent_url": "https://contentmarketinginstitute.com/research",
+"relation": "R3-S1-R84-E1-F1:inference"
+},
+{
+"entry_id": "S1-R84-E1",
+"url": "https://contentmarketinginstitute.com/research/manufacturing-content-marketing-challenges-research",
+"parent_url": "https://contentmarketinginstitute.com/research",
+"relation": "R3-S1-R84-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/trends-from-the-jury-rooms/maximalism-is-back-in-design-and-its-needed-more-than-ever",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/behind-the-work/how-bad-bunnys-interactive-album-teaser-bridged-local-and-global-fandoms",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/voices/goodvertising-founder-thomas-kolster-on-creativitys-commitment-problem",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/voices/think-like-a-newsroom-tahirah-hairston-on-what-brands-can-learn-from-journalism",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/judges-curations/curation-by-chi-an-de-leo-brand-transformation",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F1:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/behind-the-work",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F2:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/voices",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F2:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/d-ad-in-2026",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F2:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/trends-from-the-jury-rooms",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F2:inference"
+},
+{
+"entry_id": "S1-R86-E1",
+"url": "https://www.dandad.org/work/annual-2026/judges-curations",
+"parent_url": "https://www.dandad.org/work/annual-2026",
+"relation": "R3-S1-R86-E1-F2:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/learning/kickstart-your-career-these-tips-vfx-artist-features-opinions",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F1:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/awards/what-are-judges-looking-dads-new-health-wellbeing-features-opinions",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F1:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/features/from-dropping-out-of-school-to-exhibiting-work-at-the-barbican-the-southbank-centre-and-chanel",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F1:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/awards/dad-awards-2026-watch-our-webinars-on-whats-new-and-how-to-enter",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F1:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/awards/how-do-juries-award-ai-work-awards-insights",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F1:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/learning",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F2:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/awards",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F2:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/features",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F2:inference"
+},
+{
+"entry_id": "S1-R86-E2",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"parent_url": "https://www.dandad.org/insights",
+"relation": "R3-S1-R86-E2-F2:inference"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/kraft-heinz--masterclass-case-study",
+"parent_url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"relation": "R3-S1-R86-E3-F1:inference"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/work-through-diageo-brief-nyc-shifters-case-study-insights",
+"parent_url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"relation": "R3-S1-R86-E3-F1:inference"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/glimpse-masterclass-case-study",
+"parent_url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"relation": "R3-S1-R86-E3-F1:inference"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/wetransfer-sustainability-bespoke-creative-training-content",
+"parent_url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"relation": "R3-S1-R86-E3-F1:inference"
+},
+{
+"entry_id": "S1-R86-E3",
+"url": "https://www.dandad.org/insights/case-studies-and-partnerships/sony-music-masterclass-case-study",
+"parent_url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+"relation": "R3-S1-R86-E3-F1:inference"
+},
+{
+"entry_id": "S1-R86-E4",
+"url": "https://www.dandad.org/work/d-ad-awards-archive/2025-fan-life",
+"parent_url": "https://www.dandad.org/work/d-ad-awards-archive",
+"relation": "R3-S1-R86-E4-F1:inference"
+},
+{
+"entry_id": "S1-R86-E4",
+"url": "https://www.dandad.org/work/d-ad-awards-archive/100-words-for-water-a-projective-ecosocial-vocabulary",
+"parent_url": "https://www.dandad.org/work/d-ad-awards-archive",
+"relation": "R3-S1-R86-E4-F1:inference"
+},
+{
+"entry_id": "S1-R86-E4",
+"url": "https://www.dandad.org/work/d-ad-awards-archive/18-months",
+"parent_url": "https://www.dandad.org/work/d-ad-awards-archive",
+"relation": "R3-S1-R86-E4-F1:inference"
+},
+{
+"entry_id": "S1-R86-E4",
+"url": "https://www.dandad.org/work/d-ad-awards-archive/9v-flavour",
+"parent_url": "https://www.dandad.org/work/d-ad-awards-archive",
+"relation": "R3-S1-R86-E4-F1:inference"
+},
+{
+"entry_id": "S1-R86-E4",
+"url": "https://www.dandad.org/work/d-ad-awards-archive/14-a-collection-of-typography-from-the-worlds-most-beautiful-books",
+"parent_url": "https://www.dandad.org/work/d-ad-awards-archive",
+"relation": "R3-S1-R86-E4-F1:inference"
+},
+{
+"entry_id": "S1-R87-E1",
+"url": "https://www.demandcurve.com/frontier-library/all",
+"parent_url": "https://www.demandcurve.com/frontier-library",
+"relation": "R3-S1-R87-E1-F1:inference"
+},
+{
+"entry_id": "S1-R87-E1",
+"url": "https://www.demandcurve.com/frontier-library/teardowns",
+"parent_url": "https://www.demandcurve.com/frontier-library",
+"relation": "R3-S1-R87-E1-F1:inference"
+},
+{
+"entry_id": "S1-R87-E1",
+"url": "https://www.demandcurve.com/frontier-library/cro",
+"parent_url": "https://www.demandcurve.com/frontier-library",
+"relation": "R3-S1-R87-E1-F1:inference"
+},
+{
+"entry_id": "S1-R87-E1",
+"url": "https://www.demandcurve.com/frontier-library/playbooks",
+"parent_url": "https://www.demandcurve.com/frontier-library",
+"relation": "R3-S1-R87-E1-F1:inference"
+},
+{
+"entry_id": "S1-R87-E1",
+"url": "https://www.demandcurve.com/frontier-library/ai-growth",
+"parent_url": "https://www.demandcurve.com/frontier-library",
+"relation": "R3-S1-R87-E1-F1:inference"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/hiring-marketers",
+"parent_url": "https://gp.demandcurve.com/blog",
+"relation": "R3-S1-R87-E3-F1:inference"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/linkedin-influencers",
+"parent_url": "https://gp.demandcurve.com/blog",
+"relation": "R3-S1-R87-E3-F1:inference"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/cold-email-subject-lines",
+"parent_url": "https://gp.demandcurve.com/blog",
+"relation": "R3-S1-R87-E3-F1:inference"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/copywriting-examples",
+"parent_url": "https://gp.demandcurve.com/blog",
+"relation": "R3-S1-R87-E3-F1:inference"
+},
+{
+"entry_id": "S1-R87-E3",
+"url": "https://gp.demandcurve.com/blog/cold-email-template",
+"parent_url": "https://gp.demandcurve.com/blog",
+"relation": "R3-S1-R87-E3-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/authors/brian-fowler",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/authors/jbrazil",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/the-prompt-ai/synthetic-research-when-are-findings-decision-ready",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/artificial-intelligence-and-machine-learning/beyond-synthetic-consumers-building-a-human-ai-model-for-better-brand-decisions",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/authors/egalvin2",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F1:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/grit",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F2:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/executive-insights",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F2:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/data-quality-privacy-and-ethics",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F2:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/respondent-experience",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F2:inference"
+},
+{
+"entry_id": "S1-R89-E2",
+"url": "https://www.greenbook.org/insights/topics",
+"parent_url": "https://www.greenbook.org/insights",
+"relation": "R3-S1-R89-E2-F2:inference"
+},
+{
+"entry_id": "S1-R89-E3",
+"url": "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+"parent_url": "https://www.greenbook.org/grit",
+"relation": "R3-S1-R89-E3-F1:inference"
+},
+{
+"entry_id": "S1-R89-E3",
+"url": "https://www.greenbook.org/grit/insights-practice-edition",
+"parent_url": "https://www.greenbook.org/grit",
+"relation": "R3-S1-R89-E3-F1:inference"
+},
+{
+"entry_id": "S1-R89-E3",
+"url": "https://www.greenbook.org/grit/latam",
+"parent_url": "https://www.greenbook.org/grit",
+"relation": "R3-S1-R89-E3-F1:inference"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/temu-onboarding-psychology",
+"parent_url": "https://growth.design/case-studies",
+"relation": "R3-S1-R90-E1-F1:inference"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/labor-perception-bias",
+"parent_url": "https://growth.design/case-studies",
+"relation": "R3-S1-R90-E1-F1:inference"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/strava-premium-preview",
+"parent_url": "https://growth.design/case-studies",
+"relation": "R3-S1-R90-E1-F1:inference"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/sniper-link",
+"parent_url": "https://growth.design/case-studies",
+"relation": "R3-S1-R90-E1-F1:inference"
+},
+{
+"entry_id": "S1-R90-E1",
+"url": "https://growth.design/case-studies/nps-surveys",
+"parent_url": "https://growth.design/case-studies",
+"relation": "R3-S1-R90-E1-F1:inference"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/uber/",
+"parent_url": "https://growthhackers.com/growth-studies/",
+"relation": "R3-S1-R91-E1-F1:inference"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/airbnb/",
+"parent_url": "https://growthhackers.com/growth-studies/",
+"relation": "R3-S1-R91-E1-F1:inference"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/hubspot/",
+"parent_url": "https://growthhackers.com/growth-studies/",
+"relation": "R3-S1-R91-E1-F1:inference"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/ibm/",
+"parent_url": "https://growthhackers.com/growth-studies/",
+"relation": "R3-S1-R91-E1-F1:inference"
+},
+{
+"entry_id": "S1-R91-E1",
+"url": "https://growthhackers.com/growth-studies/slack/",
+"parent_url": "https://growthhackers.com/growth-studies/",
+"relation": "R3-S1-R91-E1-F1:inference"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/mail-time",
+"parent_url": "https://marketingexamples.com/social",
+"relation": "R3-S1-R95-E3-F1:inference"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/fast",
+"parent_url": "https://marketingexamples.com/social",
+"relation": "R3-S1-R95-E3-F1:inference"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/ama",
+"parent_url": "https://marketingexamples.com/social",
+"relation": "R3-S1-R95-E3-F1:inference"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/two-tweets",
+"parent_url": "https://marketingexamples.com/social",
+"relation": "R3-S1-R95-E3-F1:inference"
+},
+{
+"entry_id": "S1-R95-E3",
+"url": "https://marketingexamples.com/social/billboards",
+"parent_url": "https://marketingexamples.com/social",
+"relation": "R3-S1-R95-E3-F1:inference"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/customers",
+"parent_url": "https://marketingexamples.com/copywriting",
+"relation": "R3-S1-R95-E4-F1:inference"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/think-different",
+"parent_url": "https://marketingexamples.com/copywriting",
+"relation": "R3-S1-R95-E4-F1:inference"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/promise",
+"parent_url": "https://marketingexamples.com/copywriting",
+"relation": "R3-S1-R95-E4-F1:inference"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/bou",
+"parent_url": "https://marketingexamples.com/copywriting",
+"relation": "R3-S1-R95-E4-F1:inference"
+},
+{
+"entry_id": "S1-R95-E4",
+"url": "https://marketingexamples.com/copywriting/rhetorical-devices",
+"parent_url": "https://marketingexamples.com/copywriting",
+"relation": "R3-S1-R95-E4-F1:inference"
+},
+{
+"entry_id": "S1-R98-E1",
+"url": "https://www.radiocentre.org/research/building-shelf-awareness/",
+"parent_url": "https://www.radiocentre.org/research/",
+"relation": "R3-S1-R98-E1-F1:inference"
+},
+{
+"entry_id": "S1-R98-E1",
+"url": "https://www.radiocentre.org/research/beyond-the-bubble/",
+"parent_url": "https://www.radiocentre.org/research/",
+"relation": "R3-S1-R98-E1-F1:inference"
+},
+{
+"entry_id": "S1-R98-E1",
+"url": "https://www.radiocentre.org/research/re-evaluating-media-for-recovery/",
+"parent_url": "https://www.radiocentre.org/research/",
+"relation": "R3-S1-R98-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/the-rise-of-the-operators",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/ai-evals-course",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/aeo-playbook",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/the-executive-builder",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/eval-rubrics",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F1:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/collection/growth",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F2:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/collection/frameworks",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F2:inference"
+},
+{
+"entry_id": "S1-R99-E1",
+"url": "https://www.reforge.com/blog/collection/product-in-the-age-of-ai",
+"parent_url": "https://www.reforge.com/blog",
+"relation": "R3-S1-R99-E1-F2:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/all/Film+[a]+Video+for+Good",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F1:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/21/select",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F1:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/all/Best+of+Brand[d]Side+[s]+In[d]House",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F1:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/142/all/select",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F1:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-archive/awards/2026/all/all/Music+Adaptation",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F1:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/65126/three-words/",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F2:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/64939/vaseline-verified/",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F2:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/64868/the-mori-roll-call/",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F2:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/64223/the-mori-roll-call/",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F2:inference"
+},
+{
+"entry_id": "S1-R103-E1",
+"url": "https://www.oneclub.org/awards/theoneshow/-award/63830/breastmilk-money/",
+"parent_url": "https://www.oneclub.org/awards/theoneshow/",
+"relation": "R3-S1-R103-E1-F2:inference"
+},
+{
+"entry_id": "S1-R104-E3",
+"url": "https://www.thinkbox.tv/news-and-opinion/newsroom",
+"parent_url": "https://www.thinkbox.tv/news-and-opinion",
+"relation": "R3-S1-R104-E3-F1:inference"
+},
+{
+"entry_id": "S1-R104-E3",
+"url": "https://www.thinkbox.tv/news-and-opinion/tv-planning-awards",
+"parent_url": "https://www.thinkbox.tv/news-and-opinion",
+"relation": "R3-S1-R104-E3-F1:inference"
+},
+{
+"entry_id": "S1-R104-E3",
+"url": "https://www.thinkbox.tv/news-and-opinion/must-see-tv",
+"parent_url": "https://www.thinkbox.tv/news-and-opinion",
+"relation": "R3-S1-R104-E3-F1:inference"
+},
+{
+"entry_id": "S1-R104-E3",
+"url": "https://www.thinkbox.tv/news-and-opinion/opinion",
+"parent_url": "https://www.thinkbox.tv/news-and-opinion",
+"relation": "R3-S1-R104-E3-F1:inference"
+},
+{
+"entry_id": "S1-R104-E3",
+"url": "https://www.thinkbox.tv/news-and-opinion/events",
+"parent_url": "https://www.thinkbox.tv/news-and-opinion",
+"relation": "R3-S1-R104-E3-F1:inference"
+},
+{
+"entry_id": "S1-R105-E1",
+"url": "https://nrf.com/membership/nrf-industry-partner-membership",
+"parent_url": "https://nrf.com/membership",
+"relation": "R3-S1-R105-E1-F1:inference"
+},
+{
+"entry_id": "S1-R105-E1",
+"url": "https://nrf.com/membership/nrf-retailer-membership",
+"parent_url": "https://nrf.com/membership",
+"relation": "R3-S1-R105-E1-F1:inference"
+},
+{
+"entry_id": "S1-R105-E1",
+"url": "https://nrf.com/membership/nrf-university-membership",
+"parent_url": "https://nrf.com/membership",
+"relation": "R3-S1-R105-E1-F1:inference"
+},
+{
+"entry_id": "S1-R105-E2",
+"url": "https://nrf.com/about-us/nrf-staff",
+"parent_url": "https://nrf.com/about-us",
+"relation": "R3-S1-R105-E2-F1:inference"
+},
+{
+"entry_id": "S1-R105-E2",
+"url": "https://nrf.com/about-us/careers-nrf",
+"parent_url": "https://nrf.com/about-us",
+"relation": "R3-S1-R105-E2-F1:inference"
+},
+{
+"entry_id": "S1-R105-E2",
+"url": "https://nrf.com/about-us/2025",
+"parent_url": "https://nrf.com/about-us",
+"relation": "R3-S1-R105-E2-F1:inference"
+},
+{
+"entry_id": "S1-R105-E2",
+"url": "https://nrf.com/about-us/board-directors",
+"parent_url": "https://nrf.com/about-us",
+"relation": "R3-S1-R105-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/advertising-intelligence-framework-first-edition",
+"parent_url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+"relation": "R3-S1-R108-E1-F1:inference"
+},
+{
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-research",
+"parent_url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+"relation": "R3-S1-R108-E1-F1:inference"
+},
+{
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/How-Humans-Decide-primed-for-preference",
+"parent_url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+"relation": "R3-S1-R108-E1-F1:inference"
+},
+{
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/how-humans-decide-understanding-receptivity",
+"parent_url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+"relation": "R3-S1-R108-E1-F1:inference"
+},
+{
+"entry_id": "S1-R108-E1",
+"url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence/ai-voices-audio-ads-research",
+"parent_url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+"relation": "R3-S1-R108-E1-F1:inference"
+},
+{
+"entry_id": "S1-R108-E2",
+"url": "https://www.wppmedia.com/news/mm-the-rare-disease-marketing-gap",
+"parent_url": "https://www.wppmedia.com/news",
+"relation": "R3-S1-R108-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E2",
+"url": "https://www.wppmedia.com/news/mm-your-retail-feed-is-the-new-search-engine",
+"parent_url": "https://www.wppmedia.com/news",
+"relation": "R3-S1-R108-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E2",
+"url": "https://www.wppmedia.com/news/doordash-global-media-partnership",
+"parent_url": "https://www.wppmedia.com/news",
+"relation": "R3-S1-R108-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E2",
+"url": "https://www.wppmedia.com/news/comvergence-h1-2026",
+"parent_url": "https://www.wppmedia.com/news",
+"relation": "R3-S1-R108-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E2",
+"url": "https://www.wppmedia.com/news/mm-what-the-reddit-decline-means-for-brands",
+"parent_url": "https://www.wppmedia.com/news",
+"relation": "R3-S1-R108-E2-F1:inference"
+},
+{
+"entry_id": "S1-R108-E3",
+"url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026",
+"parent_url": "https://www.wppmedia.com/thought-leadership/this-year-next-year",
+"relation": "R3-S1-R108-E3-F1:inference"
+},
+{
+"entry_id": "S1-R108-E3",
+"url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/tyny-midyear-2025-research",
+"parent_url": "https://www.wppmedia.com/thought-leadership/this-year-next-year",
+"relation": "R3-S1-R108-E3-F1:inference"
+},
+{
+"entry_id": "S1-R108-E3",
+"url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/archive-articles-this-year-next-year",
+"parent_url": "https://www.wppmedia.com/thought-leadership/this-year-next-year",
+"relation": "R3-S1-R108-E3-F1:inference"
+},
+{
+"entry_id": "S1-R108-E3",
+"url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/December-2025",
+"parent_url": "https://www.wppmedia.com/thought-leadership/this-year-next-year",
+"relation": "R3-S1-R108-E3-F1:inference"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/aomeiyatai-2024-zengzhangzhishudongchashichangqushiyinlingpinpaijiesuozengzhangxinlujing",
+"parent_url": "https://www.ogilvy.com/cn/ideas",
+"relation": "R3-S1-R111-E1-F1:inference"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/yishejiaohuaweixiandepinpaijianshe",
+"parent_url": "https://www.ogilvy.com/cn/ideas",
+"relation": "R3-S1-R111-E1-F1:inference"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/ogilvy-opens-shenzhen-office-capture-opportunities-chinas-silicon-valley",
+"parent_url": "https://www.ogilvy.com/cn/ideas",
+"relation": "R3-S1-R111-E1-F1:inference"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/aomeizhongguorenmingneil-nandweiaomeishanghaichuangyijishuzongjian",
+"parent_url": "https://www.ogilvy.com/cn/ideas",
+"relation": "R3-S1-R111-E1-F1:inference"
+},
+{
+"entry_id": "S1-R111-E1",
+"url": "https://www.ogilvy.com/cn/ideas/yigongqingzhiligoujianpinpaizhongchengdu",
+"parent_url": "https://www.ogilvy.com/cn/ideas",
+"relation": "R3-S1-R111-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E1",
+"url": "https://amplitude.com/resources/product-engagement-workbook",
+"parent_url": "https://amplitude.com/resources",
+"relation": "R3-S1-R114-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E1",
+"url": "https://amplitude.com/resources/product-metrics",
+"parent_url": "https://amplitude.com/resources",
+"relation": "R3-S1-R114-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E1",
+"url": "https://amplitude.com/resources/product-benchmark-report",
+"parent_url": "https://amplitude.com/resources",
+"relation": "R3-S1-R114-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E1",
+"url": "https://amplitude.com/resources/north-star-playbook",
+"parent_url": "https://amplitude.com/resources",
+"relation": "R3-S1-R114-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E1",
+"url": "https://amplitude.com/resources/forrester-wave-report",
+"parent_url": "https://amplitude.com/resources",
+"relation": "R3-S1-R114-E1-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/cashbook-ai-failure-rate",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/ai-context-configuration",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/jev-analysis",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/agent-data-security",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/docs-redesign",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F1:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/category/product",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F2:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/category/company",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F2:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/author/eric-kim",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F2:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/category/customers",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F2:inference"
+},
+{
+"entry_id": "S1-R114-E2",
+"url": "https://amplitude.com/blog/category/insights",
+"parent_url": "https://amplitude.com/blog",
+"relation": "R3-S1-R114-E2-F2:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/customer-stories/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F1:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/newsroom/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F1:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/resources/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F1:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/roi-genome/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F1:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/blog/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F1:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/resources/cfo-and-cmo-strategy-guide-a-collaboration-to-drive-growth/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F2:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/resources/cfo-playbook/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F2:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/resources/mmm-testing-rivals-friends-or-lovers/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F2:inference"
+},
+{
+"entry_id": "S1-R115-E1",
+"url": "https://analyticpartners.com/knowledge-hub/resources/forrester-wave-2026/",
+"parent_url": "https://analyticpartners.com/knowledge-hub/",
+"relation": "R3-S1-R115-E1-F2:inference"
+},
+{
+"entry_id": "S1-R116-E1",
+"url": "https://www.appsflyer.com/resources/reports/creative-optimization/",
+"parent_url": "https://www.appsflyer.com/resources/",
+"relation": "R3-S1-R116-E1-F1:inference"
+},
+{
+"entry_id": "S1-R116-E1",
+"url": "https://www.appsflyer.com/resources/reports/state-of-marketing-apac/",
+"parent_url": "https://www.appsflyer.com/resources/",
+"relation": "R3-S1-R116-E1-F1:inference"
+},
+{
+"entry_id": "S1-R116-E1",
+"url": "https://www.appsflyer.com/resources/reports/india-ecommerce-marketers/",
+"parent_url": "https://www.appsflyer.com/resources/",
+"relation": "R3-S1-R116-E1-F1:inference"
+},
+{
+"entry_id": "S1-R116-E1",
+"url": "https://www.appsflyer.com/resources/reports/subscription-marketing/",
+"parent_url": "https://www.appsflyer.com/resources/",
+"relation": "R3-S1-R116-E1-F1:inference"
+},
+{
+"entry_id": "S1-R116-E1",
+"url": "https://www.appsflyer.com/resources/reports/india-festive-report/",
+"parent_url": "https://www.appsflyer.com/resources/",
+"relation": "R3-S1-R116-E1-F1:inference"
+},
+{
+"entry_id": "S1-R116-E2",
+"url": "https://www.appsflyer.com/blog/measurement-analytics/holiday-season-2026/",
+"parent_url": "https://www.appsflyer.com/blog/",
+"relation": "R3-S1-R116-E2-F1:inference"
+},
+{
+"entry_id": "S1-R116-E2",
+"url": "https://www.appsflyer.com/blog/deep-linking/facebook-deep-link/",
+"parent_url": "https://www.appsflyer.com/blog/",
+"relation": "R3-S1-R116-E2-F1:inference"
+},
+{
+"entry_id": "S1-R116-E2",
+"url": "https://www.appsflyer.com/blog/measurement-analytics/mobile-apps-omnichannel-measurement/",
+"parent_url": "https://www.appsflyer.com/blog/",
+"relation": "R3-S1-R116-E2-F1:inference"
+},
+{
+"entry_id": "S1-R116-E2",
+"url": "https://www.appsflyer.com/blog/measurement-analytics/onelink-api-growth-scale/",
+"parent_url": "https://www.appsflyer.com/blog/",
+"relation": "R3-S1-R116-E2-F1:inference"
+},
+{
+"entry_id": "S1-R116-E2",
+"url": "https://www.appsflyer.com/blog/measurement-analytics/the-optimal-tech-stack/",
+"parent_url": "https://www.appsflyer.com/blog/",
+"relation": "R3-S1-R116-E2-F1:inference"
+},
+{
+"entry_id": "S1-R117-E1",
+"url": "https://www.branch.io/resources/blog/branch-brings-paid-and-organic-chatgpt-measurement-together/",
+"parent_url": "https://www.branch.io/resources/",
+"relation": "R3-S1-R117-E1-F1:inference"
+},
+{
+"entry_id": "S1-R117-E1",
+"url": "https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/",
+"parent_url": "https://www.branch.io/resources/",
+"relation": "R3-S1-R117-E1-F1:inference"
+},
+{
+"entry_id": "S1-R117-E1",
+"url": "https://www.branch.io/resources/guide/fitness-wellness-hub/",
+"parent_url": "https://www.branch.io/resources/",
+"relation": "R3-S1-R117-E1-F1:inference"
+},
+{
+"entry_id": "S1-R117-E1",
+"url": "https://www.branch.io/resources/podcast/the-end-of-false-choices-putting-privacy-first-to-unlock-performance-marketing-in-healthcare/",
+"parent_url": "https://www.branch.io/resources/",
+"relation": "R3-S1-R117-E1-F1:inference"
+},
+{
+"entry_id": "S1-R117-E1",
+"url": "https://www.branch.io/resources/podcast/retargeting-in-a-post-privacy-world-how-angela-humphrey-navigates-mobile-growth-and-the-rise-of-ctv/",
+"parent_url": "https://www.branch.io/resources/",
+"relation": "R3-S1-R117-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/brand-comparison-nike-vs-reebok/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/2020-brand-purpose/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/brand-loyalty/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/financial-services-trends-2022/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/influencer-ranking-report/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F1:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/state-of-social-2025/view/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F2:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/the-brandwatch-change-makers-report-h2-2023/view/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F2:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/the-brandwatch-change-makers-report/view/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F2:inference"
+},
+{
+"entry_id": "S1-R118-E1",
+"url": "https://www.brandwatch.com/reports/marketer-2025/view/",
+"parent_url": "https://www.brandwatch.com/reports/",
+"relation": "R3-S1-R118-E1-F2:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/forrester-privacy-security/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F1:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/how-to-optimize-your-brand-for-social-media-search/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F1:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/football-boots-tournament-trends/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F1:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/brandwatch-named-leader-idc-marketscape-social-marketing-software-large-enterprises/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F1:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/social-media-holidays-september/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F1:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/stream/marketing/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F2:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/author/adam-speight/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F2:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/author/emily-smith/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F2:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/author/nick-taylor/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F2:inference"
+},
+{
+"entry_id": "S1-R118-E2",
+"url": "https://www.brandwatch.com/blog/author/peter-fairfax/",
+"parent_url": "https://www.brandwatch.com/blog/",
+"relation": "R3-S1-R118-E2-F2:inference"
+},
+{
+"entry_id": "S1-R118-E3",
+"url": "https://www.brandwatch.com/guides/linkedin-video/",
+"parent_url": "https://www.brandwatch.com/guides/",
+"relation": "R3-S1-R118-E3-F1:inference"
+},
+{
+"entry_id": "S1-R118-E3",
+"url": "https://www.brandwatch.com/guides/social-listening-in-practice-community-management/",
+"parent_url": "https://www.brandwatch.com/guides/",
+"relation": "R3-S1-R118-E3-F1:inference"
+},
+{
+"entry_id": "S1-R118-E3",
+"url": "https://www.brandwatch.com/guides/reddit-for-product-consumer-research/",
+"parent_url": "https://www.brandwatch.com/guides/",
+"relation": "R3-S1-R118-E3-F1:inference"
+},
+{
+"entry_id": "S1-R118-E3",
+"url": "https://www.brandwatch.com/guides/ideas-experts-social-consumer-market-insights/",
+"parent_url": "https://www.brandwatch.com/guides/",
+"relation": "R3-S1-R118-E3-F1:inference"
+},
+{
+"entry_id": "S1-R118-E3",
+"url": "https://www.brandwatch.com/guides/vizia-agility-collaboration-focus/",
+"parent_url": "https://www.brandwatch.com/guides/",
+"relation": "R3-S1-R118-E3-F1:inference"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/conversion-tracking/",
+"parent_url": "https://www.brandwatch.com/social-media-glossary/",
+"relation": "R3-S1-R118-E4-F1:inference"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/carousel/",
+"parent_url": "https://www.brandwatch.com/social-media-glossary/",
+"relation": "R3-S1-R118-E4-F1:inference"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/creator-marketplace/",
+"parent_url": "https://www.brandwatch.com/social-media-glossary/",
+"relation": "R3-S1-R118-E4-F1:inference"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/user-generated-content/",
+"parent_url": "https://www.brandwatch.com/social-media-glossary/",
+"relation": "R3-S1-R118-E4-F1:inference"
+},
+{
+"entry_id": "S1-R118-E4",
+"url": "https://www.brandwatch.com/social-media-glossary/stories/",
+"parent_url": "https://www.brandwatch.com/social-media-glossary/",
+"relation": "R3-S1-R118-E4-F1:inference"
+},
+{
+"entry_id": "S1-R118-E6",
+"url": "https://www.brandwatch.com/case-studies/art-of-the-possible/",
+"parent_url": "https://www.brandwatch.com/case-studies/",
+"relation": "R3-S1-R118-E6-F1:inference"
+},
+{
+"entry_id": "S1-R118-E6",
+"url": "https://www.brandwatch.com/case-studies/barilla/",
+"parent_url": "https://www.brandwatch.com/case-studies/",
+"relation": "R3-S1-R118-E6-F1:inference"
+},
+{
+"entry_id": "S1-R118-E6",
+"url": "https://www.brandwatch.com/case-studies/mymichigan-health/",
+"parent_url": "https://www.brandwatch.com/case-studies/",
+"relation": "R3-S1-R118-E6-F1:inference"
+},
+{
+"entry_id": "S1-R118-E6",
+"url": "https://www.brandwatch.com/case-studies/hato-hone-st-john/",
+"parent_url": "https://www.brandwatch.com/case-studies/",
+"relation": "R3-S1-R118-E6-F1:inference"
+},
+{
+"entry_id": "S1-R118-E6",
+"url": "https://www.brandwatch.com/case-studies/thinketers-and-bwt/",
+"parent_url": "https://www.brandwatch.com/case-studies/",
+"relation": "R3-S1-R118-E6-F1:inference"
+},
+{
+"entry_id": "S1-R119-E1",
+"url": "https://www.braze.com/resources/articles/content-optimizer-product-spotlight",
+"parent_url": "https://www.braze.com/resources/articles",
+"relation": "R3-S1-R119-E1-F1:inference"
+},
+{
+"entry_id": "S1-R119-E1",
+"url": "https://www.braze.com/resources/articles/october-2026-bonfire-marketer-of-the-month",
+"parent_url": "https://www.braze.com/resources/articles",
+"relation": "R3-S1-R119-E1-F1:inference"
+},
+{
+"entry_id": "S1-R119-E1",
+"url": "https://www.braze.com/resources/articles/account-executive-day-in-the-life-berlin",
+"parent_url": "https://www.braze.com/resources/articles",
+"relation": "R3-S1-R119-E1-F1:inference"
+},
+{
+"entry_id": "S1-R119-E2",
+"url": "https://www.braze.com/resources/reports-and-guides/grocery-inspiration-guide",
+"parent_url": "https://www.braze.com/resources/reports-and-guides",
+"relation": "R3-S1-R119-E2-F1:inference"
+},
+{
+"entry_id": "S1-R119-E2",
+"url": "https://www.braze.com/resources/reports-and-guides/us-loyalty-trends-2026",
+"parent_url": "https://www.braze.com/resources/reports-and-guides",
+"relation": "R3-S1-R119-E2-F1:inference"
+},
+{
+"entry_id": "S1-R119-E2",
+"url": "https://www.braze.com/resources/reports-and-guides/qphoria",
+"parent_url": "https://www.braze.com/resources/reports-and-guides",
+"relation": "R3-S1-R119-E2-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/how-buffer-helped-me-triple-my-linkedin-impressions-and-grow-my-newsletter/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/youtube-shorts-ideas/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/social-media-calendar-template/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/linkedin-collab-posts/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/influencer-marketing-platforms/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F1:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/author/hailley/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F2:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/author/rochi-zalani/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F2:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/author/jerrica/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F2:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/author/eric-lam/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F2:inference"
+},
+{
+"entry_id": "S1-R120-E1",
+"url": "https://buffer.com/resources/author/kevanlee/",
+"parent_url": "https://buffer.com/resources/",
+"relation": "R3-S1-R120-E1-F2:inference"
+},
+{
+"entry_id": "S1-R121-E1",
+"url": "https://contentsquare.com/blog/website-conversions/",
+"parent_url": "https://contentsquare.com/blog/",
+"relation": "R3-S1-R121-E1-F1:inference"
+},
+{
+"entry_id": "S1-R121-E1",
+"url": "https://contentsquare.com/blog/new-vs-returning-visitors/",
+"parent_url": "https://contentsquare.com/blog/",
+"relation": "R3-S1-R121-E1-F1:inference"
+},
+{
+"entry_id": "S1-R121-E1",
+"url": "https://contentsquare.com/blog/how-to-track-optimize-ai-traffic/",
+"parent_url": "https://contentsquare.com/blog/",
+"relation": "R3-S1-R121-E1-F1:inference"
+},
+{
+"entry_id": "S1-R121-E1",
+"url": "https://contentsquare.com/blog/website-users-drop-off/",
+"parent_url": "https://contentsquare.com/blog/",
+"relation": "R3-S1-R121-E1-F1:inference"
+},
+{
+"entry_id": "S1-R121-E1",
+"url": "https://contentsquare.com/blog/mcp-anthropic-claude/",
+"parent_url": "https://contentsquare.com/blog/",
+"relation": "R3-S1-R121-E1-F1:inference"
+},
+{
+"entry_id": "S1-R121-E2",
+"url": "https://contentsquare.com/ebooks-reports/page/3/",
+"parent_url": "https://contentsquare.com/ebooks-reports/",
+"relation": "R3-S1-R121-E2-F1:inference"
+},
+{
+"entry_id": "S1-R121-E2",
+"url": "https://contentsquare.com/ebooks-reports/page/5/",
+"parent_url": "https://contentsquare.com/ebooks-reports/",
+"relation": "R3-S1-R121-E2-F1:inference"
+},
+{
+"entry_id": "S1-R121-E2",
+"url": "https://contentsquare.com/ebooks-reports/page/4/",
+"parent_url": "https://contentsquare.com/ebooks-reports/",
+"relation": "R3-S1-R121-E2-F1:inference"
+},
+{
+"entry_id": "S1-R121-E3",
+"url": "https://contentsquare.com/guides/business-intelligence/",
+"parent_url": "https://contentsquare.com/guides/",
+"relation": "R3-S1-R121-E3-F1:inference"
+},
+{
+"entry_id": "S1-R121-E3",
+"url": "https://contentsquare.com/guides/product-discovery/",
+"parent_url": "https://contentsquare.com/guides/",
+"relation": "R3-S1-R121-E3-F1:inference"
+},
+{
+"entry_id": "S1-R121-E3",
+"url": "https://contentsquare.com/guides/model-context-protocol-mcp/",
+"parent_url": "https://contentsquare.com/guides/",
+"relation": "R3-S1-R121-E3-F1:inference"
+},
+{
+"entry_id": "S1-R121-E3",
+"url": "https://contentsquare.com/guides/data-analytics/",
+"parent_url": "https://contentsquare.com/guides/",
+"relation": "R3-S1-R121-E3-F1:inference"
+},
+{
+"entry_id": "S1-R121-E3",
+"url": "https://contentsquare.com/guides/customer-churn/",
+"parent_url": "https://contentsquare.com/guides/",
+"relation": "R3-S1-R121-E3-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/guide/insights",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/case-study/global-insurance-provider",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/case-study/johnson-financial-group",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/blog/competitive-analysis-template",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/case-study/barcelo-hotel-group",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F1:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/consumer-intelligence-snacks-report-resource-library",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F2:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/influencer-marketing-myths",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F2:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/nba-team-case-study",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F2:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/the-gym-group",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F2:inference"
+},
+{
+"entry_id": "S1-R122-E1",
+"url": "https://www.hootsuite.com/resources/social-ai-prompts",
+"parent_url": "https://www.hootsuite.com/resources",
+"relation": "R3-S1-R122-E1-F2:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/social-media-calendar-tools",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F1:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/loop-marketing",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F1:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/gain-instagram-followers",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F1:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/how-to-repost-on-instagram",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F1:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/tracking-ai-overviews",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F1:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/tabid/6307/bid/10322/the-ultimate-list-50-local-business-directories.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F2:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/tabid/6307/bid/1514/paid-search-vs-organic-search.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F2:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/tabid/6307/bid/1436/shortest-tutorial-ever-on-seo-search-engine-optimization.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F2:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/5363/5-gifts-on-the-marketing-content-creator-s-holiday-wish-list.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F3:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/6012/17-examples-of-great-presentation-design.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F3:inference"
+},
+{
+"entry_id": "S1-R123-E1",
+"url": "https://blog.hubspot.com/marketing/blog/tabid/6307/bid/33820/5-major-challenges-marketers-face-and-how-to-solve-them.aspx",
+"parent_url": "https://blog.hubspot.com/marketing",
+"relation": "R3-S1-R123-E1-F3:inference"
+},
+{
+"entry_id": "S1-R123-E2",
+"url": "https://blog.hubspot.com/sales/avoid-burnout-q4",
+"parent_url": "https://blog.hubspot.com/sales",
+"relation": "R3-S1-R123-E2-F1:inference"
+},
+{
+"entry_id": "S1-R123-E2",
+"url": "https://blog.hubspot.com/sales/sales-execution",
+"parent_url": "https://blog.hubspot.com/sales",
+"relation": "R3-S1-R123-E2-F1:inference"
+},
+{
+"entry_id": "S1-R123-E2",
+"url": "https://blog.hubspot.com/sales/creative-ai-uses",
+"parent_url": "https://blog.hubspot.com/sales",
+"relation": "R3-S1-R123-E2-F1:inference"
+},
+{
+"entry_id": "S1-R123-E2",
+"url": "https://blog.hubspot.com/sales/places-to-research-a-prospect-before-sales-call",
+"parent_url": "https://blog.hubspot.com/sales",
+"relation": "R3-S1-R123-E2-F1:inference"
+},
+{
+"entry_id": "S1-R123-E2",
+"url": "https://blog.hubspot.com/sales/partner-ecosystems",
+"parent_url": "https://blog.hubspot.com/sales",
+"relation": "R3-S1-R123-E2-F1:inference"
+},
+{
+"entry_id": "S1-R123-E3",
+"url": "https://blog.hubspot.com/service/customer-success-metrics",
+"parent_url": "https://blog.hubspot.com/service",
+"relation": "R3-S1-R123-E3-F1:inference"
+},
+{
+"entry_id": "S1-R123-E3",
+"url": "https://blog.hubspot.com/service/customer-support-analytics",
+"parent_url": "https://blog.hubspot.com/service",
+"relation": "R3-S1-R123-E3-F1:inference"
+},
+{
+"entry_id": "S1-R123-E3",
+"url": "https://blog.hubspot.com/service/customer-winback",
+"parent_url": "https://blog.hubspot.com/service",
+"relation": "R3-S1-R123-E3-F1:inference"
+},
+{
+"entry_id": "S1-R123-E3",
+"url": "https://blog.hubspot.com/service/thank-you-letter-for-customer-feedback",
+"parent_url": "https://blog.hubspot.com/service",
+"relation": "R3-S1-R123-E3-F1:inference"
+},
+{
+"entry_id": "S1-R123-E3",
+"url": "https://blog.hubspot.com/service/feedback-management",
+"parent_url": "https://blog.hubspot.com/service",
+"relation": "R3-S1-R123-E3-F1:inference"
+},
+{
+"entry_id": "S1-R123-E4",
+"url": "https://blog.hubspot.com/website/html-elements",
+"parent_url": "https://blog.hubspot.com/website",
+"relation": "R3-S1-R123-E4-F1:inference"
+},
+{
+"entry_id": "S1-R123-E4",
+"url": "https://blog.hubspot.com/website/avoid-ai-credit-overages",
+"parent_url": "https://blog.hubspot.com/website",
+"relation": "R3-S1-R123-E4-F1:inference"
+},
+{
+"entry_id": "S1-R123-E4",
+"url": "https://blog.hubspot.com/website/ecommerce-website-testing",
+"parent_url": "https://blog.hubspot.com/website",
+"relation": "R3-S1-R123-E4-F1:inference"
+},
+{
+"entry_id": "S1-R123-E4",
+"url": "https://blog.hubspot.com/website/html-span",
+"parent_url": "https://blog.hubspot.com/website",
+"relation": "R3-S1-R123-E4-F1:inference"
+},
+{
+"entry_id": "S1-R123-E4",
+"url": "https://blog.hubspot.com/website/become-a-ux-designer",
+"parent_url": "https://blog.hubspot.com/website",
+"relation": "R3-S1-R123-E4-F1:inference"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/what-do-you-do-when-a-feature-grows-faster-than-expected",
+"parent_url": "https://www.intercom.com/blog",
+"relation": "R3-S1-R124-E1-F1:inference"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/coffee-dock-meetings",
+"parent_url": "https://www.intercom.com/blog",
+"relation": "R3-S1-R124-E1-F1:inference"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/our-next-research-and-development-hub-berlin",
+"parent_url": "https://www.intercom.com/blog",
+"relation": "R3-S1-R124-E1-F1:inference"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/churn-retention-and-reengaging-customers",
+"parent_url": "https://www.intercom.com/blog",
+"relation": "R3-S1-R124-E1-F1:inference"
+},
+{
+"entry_id": "S1-R124-E1",
+"url": "https://www.intercom.com/blog/5-new-intercom-messenger-apps",
+"parent_url": "https://www.intercom.com/blog",
+"relation": "R3-S1-R124-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/custom-product-feeds",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/new-years-marketing-ideas",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/best-email-marketing-platforms",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/welcome-flow-strategy",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/abandoned-cart-email",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F1:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/category/developer",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F2:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/category/customer-data-ownership",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F2:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/category/artificial-intelligence",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F2:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/category/customer-acquisition",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F2:inference"
+},
+{
+"entry_id": "S1-R125-E1",
+"url": "https://www.klaviyo.com/blog/category/email-marketing",
+"parent_url": "https://www.klaviyo.com/blog",
+"relation": "R3-S1-R125-E1-F2:inference"
+},
+{
+"entry_id": "S1-R125-E2",
+"url": "https://www.klaviyo.com/marketing-resources/benchmark-report",
+"parent_url": "https://www.klaviyo.com/marketing-resources",
+"relation": "R3-S1-R125-E2-F1:inference"
+},
+{
+"entry_id": "S1-R125-E2",
+"url": "https://www.klaviyo.com/marketing-resources/7-best-practices-to-grow-subscriber-list",
+"parent_url": "https://www.klaviyo.com/marketing-resources",
+"relation": "R3-S1-R125-E2-F1:inference"
+},
+{
+"entry_id": "S1-R125-E2",
+"url": "https://www.klaviyo.com/marketing-resources/consolidating-email-sms-marketing-platform",
+"parent_url": "https://www.klaviyo.com/marketing-resources",
+"relation": "R3-S1-R125-E2-F1:inference"
+},
+{
+"entry_id": "S1-R125-E2",
+"url": "https://www.klaviyo.com/marketing-resources/2024-restaurant-marketing-trends",
+"parent_url": "https://www.klaviyo.com/marketing-resources",
+"relation": "R3-S1-R125-E2-F1:inference"
+},
+{
+"entry_id": "S1-R125-E2",
+"url": "https://www.klaviyo.com/marketing-resources/future-of-consumer-marketing",
+"parent_url": "https://www.klaviyo.com/marketing-resources",
+"relation": "R3-S1-R125-E2-F1:inference"
+},
+{
+"entry_id": "S1-R125-E3",
+"url": "https://www.klaviyo.com/customers/case-studies/naked-wardrobe",
+"parent_url": "https://www.klaviyo.com/customers",
+"relation": "R3-S1-R125-E3-F1:inference"
+},
+{
+"entry_id": "S1-R125-E3",
+"url": "https://www.klaviyo.com/customers/case-studies/kulani-kinis",
+"parent_url": "https://www.klaviyo.com/customers",
+"relation": "R3-S1-R125-E3-F1:inference"
+},
+{
+"entry_id": "S1-R125-E3",
+"url": "https://www.klaviyo.com/customers/case-studies/thirdlove",
+"parent_url": "https://www.klaviyo.com/customers",
+"relation": "R3-S1-R125-E3-F1:inference"
+},
+{
+"entry_id": "S1-R125-E3",
+"url": "https://www.klaviyo.com/customers/case-studies/montana-knife-company",
+"parent_url": "https://www.klaviyo.com/customers",
+"relation": "R3-S1-R125-E3-F1:inference"
+},
+{
+"entry_id": "S1-R125-E3",
+"url": "https://www.klaviyo.com/customers/case-studies/nanuk",
+"parent_url": "https://www.klaviyo.com/customers",
+"relation": "R3-S1-R125-E3-F1:inference"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/bancomat/",
+"parent_url": "https://landor.com/en/our-work/",
+"relation": "R3-S1-R126-E1-F1:inference"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/misura/",
+"parent_url": "https://landor.com/en/our-work/",
+"relation": "R3-S1-R126-E1-F1:inference"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/qt/",
+"parent_url": "https://landor.com/en/our-work/",
+"relation": "R3-S1-R126-E1-F1:inference"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/iz/",
+"parent_url": "https://landor.com/en/our-work/",
+"relation": "R3-S1-R126-E1-F1:inference"
+},
+{
+"entry_id": "S1-R126-E1",
+"url": "https://landor.com/en/our-work/ao/",
+"parent_url": "https://landor.com/en/our-work/",
+"relation": "R3-S1-R126-E1-F1:inference"
+},
+{
+"entry_id": "S1-R127-E1",
+"url": "https://mailchimp.com/resources/email/",
+"parent_url": "https://mailchimp.com/resources/",
+"relation": "R3-S1-R127-E1-F1:inference"
+},
+{
+"entry_id": "S1-R127-E1",
+"url": "https://mailchimp.com/resources/email-marketing-mistakes/",
+"parent_url": "https://mailchimp.com/resources/",
+"relation": "R3-S1-R127-E1-F1:inference"
+},
+{
+"entry_id": "S1-R127-E1",
+"url": "https://mailchimp.com/resources/the-art-of-the-opt-in/",
+"parent_url": "https://mailchimp.com/resources/",
+"relation": "R3-S1-R127-E1-F1:inference"
+},
+{
+"entry_id": "S1-R127-E1",
+"url": "https://mailchimp.com/resources/maximize-sales-potential-quickbooks-segmentation/",
+"parent_url": "https://mailchimp.com/resources/",
+"relation": "R3-S1-R127-E1-F1:inference"
+},
+{
+"entry_id": "S1-R127-E1",
+"url": "https://mailchimp.com/resources/prep-and-start/",
+"parent_url": "https://mailchimp.com/resources/",
+"relation": "R3-S1-R127-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/digital-2027",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/beyond-polarity-attitude-analysis",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/meltwater-mcp-announcement",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/what-does-it-mean-to-be-a-data-driven-content-team-how-to-think-long-term-about-the-impact-of-your-content-on-strategic-business-growth",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/non-marketing-employees-an-untapped-content-resource",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F1:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/network/youtube",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F2:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/brand-management",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F2:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/network/x",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F2:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/customer-journey",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F2:inference"
+},
+{
+"entry_id": "S1-R128-E1",
+"url": "https://www.meltwater.com/en/blog/category/media-monitoring",
+"parent_url": "https://www.meltwater.com/en/blog",
+"relation": "R3-S1-R128-E1-F2:inference"
+},
+{
+"entry_id": "S1-R128-E2",
+"url": "https://www.meltwater.com/en/resources/meltwater-insights-report-australia-black-friday-2025-unpacked",
+"parent_url": "https://www.meltwater.com/en/resources",
+"relation": "R3-S1-R128-E2-F1:inference"
+},
+{
+"entry_id": "S1-R128-E2",
+"url": "https://www.meltwater.com/en/resources/ai-visibility-australian-higher-education",
+"parent_url": "https://www.meltwater.com/en/resources",
+"relation": "R3-S1-R128-E2-F1:inference"
+},
+{
+"entry_id": "S1-R128-E2",
+"url": "https://www.meltwater.com/en/resources/data-driven-pr-toolkit",
+"parent_url": "https://www.meltwater.com/en/resources",
+"relation": "R3-S1-R128-E2-F1:inference"
+},
+{
+"entry_id": "S1-R128-E2",
+"url": "https://www.meltwater.com/en/resources/social-media-national-days-calendar",
+"parent_url": "https://www.meltwater.com/en/resources",
+"relation": "R3-S1-R128-E2-F1:inference"
+},
+{
+"entry_id": "S1-R128-E2",
+"url": "https://www.meltwater.com/en/resources/influencer-marketing-guide",
+"parent_url": "https://www.meltwater.com/en/resources",
+"relation": "R3-S1-R128-E2-F1:inference"
+},
+{
+"entry_id": "S1-R129-E1",
+"url": "https://www.optimizely.com/field-notes/guides/the-personalization-playbook/",
+"parent_url": "https://www.optimizely.com/field-notes/guides",
+"relation": "R3-S1-R129-E1-F1:inference"
+},
+{
+"entry_id": "S1-R129-E1",
+"url": "https://www.optimizely.com/field-notes/guides/how-to-build-a-website/",
+"parent_url": "https://www.optimizely.com/field-notes/guides",
+"relation": "R3-S1-R129-E1-F1:inference"
+},
+{
+"entry_id": "S1-R129-E1",
+"url": "https://www.optimizely.com/field-notes/guides/the-big-book-of-experimentation/",
+"parent_url": "https://www.optimizely.com/field-notes/guides",
+"relation": "R3-S1-R129-E1-F1:inference"
+},
+{
+"entry_id": "S1-R129-E1",
+"url": "https://www.optimizely.com/field-notes/guides/ai-use-case-discovery-template/",
+"parent_url": "https://www.optimizely.com/field-notes/guides",
+"relation": "R3-S1-R129-E1-F1:inference"
+},
+{
+"entry_id": "S1-R129-E1",
+"url": "https://www.optimizely.com/field-notes/guides/ai-experimentation-mapping-template/",
+"parent_url": "https://www.optimizely.com/field-notes/guides",
+"relation": "R3-S1-R129-E1-F1:inference"
+},
+{
+"entry_id": "S1-R129-E2",
+"url": "https://www.optimizely.com/field-notes/articles/does-llms-txt-work/",
+"parent_url": "https://www.optimizely.com/field-notes/articles",
+"relation": "R3-S1-R129-E2-F1:inference"
+},
+{
+"entry_id": "S1-R129-E2",
+"url": "https://www.optimizely.com/field-notes/articles/webmcp-agentic-web/",
+"parent_url": "https://www.optimizely.com/field-notes/articles",
+"relation": "R3-S1-R129-E2-F1:inference"
+},
+{
+"entry_id": "S1-R129-E2",
+"url": "https://www.optimizely.com/field-notes/articles/agentic-migration-no-developers-harmed/",
+"parent_url": "https://www.optimizely.com/field-notes/articles",
+"relation": "R3-S1-R129-E2-F1:inference"
+},
+{
+"entry_id": "S1-R129-E2",
+"url": "https://www.optimizely.com/field-notes/articles/your-collaboration-tools-didnt-get-the-memo/",
+"parent_url": "https://www.optimizely.com/field-notes/articles",
+"relation": "R3-S1-R129-E2-F1:inference"
+},
+{
+"entry_id": "S1-R129-E2",
+"url": "https://www.optimizely.com/field-notes/articles/measuring-customer-progress-beyond-the-thank-you-page/",
+"parent_url": "https://www.optimizely.com/field-notes/articles",
+"relation": "R3-S1-R129-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E1",
+"url": "https://www.qualtrics.com/articles/customer-experience/designing-for-failure/",
+"parent_url": "https://www.qualtrics.com/articles/",
+"relation": "R3-S1-R130-E1-F1:inference"
+},
+{
+"entry_id": "S1-R130-E1",
+"url": "https://www.qualtrics.com/articles/strategy-research/getting-insights-decision-makers/",
+"parent_url": "https://www.qualtrics.com/articles/",
+"relation": "R3-S1-R130-E1-F1:inference"
+},
+{
+"entry_id": "S1-R130-E1",
+"url": "https://www.qualtrics.com/articles/customer-experience/manage-online-reputation/",
+"parent_url": "https://www.qualtrics.com/articles/",
+"relation": "R3-S1-R130-E1-F1:inference"
+},
+{
+"entry_id": "S1-R130-E1",
+"url": "https://www.qualtrics.com/articles/employee-experience/employee-engagement-healthcare/",
+"parent_url": "https://www.qualtrics.com/articles/",
+"relation": "R3-S1-R130-E1-F1:inference"
+},
+{
+"entry_id": "S1-R130-E1",
+"url": "https://www.qualtrics.com/articles/customer-experience/where-ai-meets-human-care-building-future-healthcare-intelligence/",
+"parent_url": "https://www.qualtrics.com/articles/",
+"relation": "R3-S1-R130-E1-F1:inference"
+},
+{
+"entry_id": "S1-R130-E2",
+"url": "https://www.qualtrics.com/news/qualtrics-report-executives-are-hesitant-to-lead-in-ai-transformation-putting-up-to-1-3-trillion-at-risk/",
+"parent_url": "https://www.qualtrics.com/news/",
+"relation": "R3-S1-R130-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E2",
+"url": "https://www.qualtrics.com/news/qualtrics-caps-off-record-year-as-top-global-organizations-choose-to-expand-with-the-experience-management-leader/",
+"parent_url": "https://www.qualtrics.com/news/",
+"relation": "R3-S1-R130-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E2",
+"url": "https://www.qualtrics.com/news/news-blog-four-recommendations-for-colleges-and-universities-to-support-student-well-being/",
+"parent_url": "https://www.qualtrics.com/news/",
+"relation": "R3-S1-R130-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E2",
+"url": "https://www.qualtrics.com/news/cut-the-chaos-qualtrics-announces-top-employee-experience-trends-for-2025/",
+"parent_url": "https://www.qualtrics.com/news/",
+"relation": "R3-S1-R130-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E2",
+"url": "https://www.qualtrics.com/news/shake-shack-ushers-in-new-data-led-strategy-with-qualtrics-brandxm/",
+"parent_url": "https://www.qualtrics.com/news/",
+"relation": "R3-S1-R130-E2-F1:inference"
+},
+{
+"entry_id": "S1-R130-E4",
+"url": "https://www.qualtrics.com/customers/city-of-corona/",
+"parent_url": "https://www.qualtrics.com/customers/",
+"relation": "R3-S1-R130-E4-F1:inference"
+},
+{
+"entry_id": "S1-R130-E4",
+"url": "https://www.qualtrics.com/customers/cherokee-nation/",
+"parent_url": "https://www.qualtrics.com/customers/",
+"relation": "R3-S1-R130-E4-F1:inference"
+},
+{
+"entry_id": "S1-R130-E4",
+"url": "https://www.qualtrics.com/customers/chobani/",
+"parent_url": "https://www.qualtrics.com/customers/",
+"relation": "R3-S1-R130-E4-F1:inference"
+},
+{
+"entry_id": "S1-R130-E4",
+"url": "https://www.qualtrics.com/customers/stanford-health-care/",
+"parent_url": "https://www.qualtrics.com/customers/",
+"relation": "R3-S1-R130-E4-F1:inference"
+},
+{
+"entry_id": "S1-R130-E4",
+"url": "https://www.qualtrics.com/customers/softchoice/",
+"parent_url": "https://www.qualtrics.com/customers/",
+"relation": "R3-S1-R130-E4-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/how-to-use-excel-to-create-a-keyword-strategy/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/semrush-tools-to-monitor-ai-overviews/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/content-promotion/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/rfp-template/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/related-keywords/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F1:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/user/148814657/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F2:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/user/ajdin-perco/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F2:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/user/aleksandra-beka-jovicic/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F2:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/user/202560753/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F2:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/user/147485985/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F2:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/category/marketing/paid-advertising/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F3:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/category/marketing/general-marketing/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F3:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/category/seo/technical-seo/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F3:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/category/marketing/ecommerce/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F3:inference"
+},
+{
+"entry_id": "S1-R131-E1",
+"url": "https://www.semrush.com/blog/category/marketing/ai/",
+"parent_url": "https://www.semrush.com/blog/",
+"relation": "R3-S1-R131-E1-F3:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/neuro-from-reddit-to-retail",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F1:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/b2b-marketing-kpis",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F1:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/what-is-shopify",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F1:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/mija-books-community-over-volume",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F1:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/how-agentic-commerce-works",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F1:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/topics/podcasts",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F2:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/topics/conversion",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F2:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/topics/find-an-idea",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F2:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/topics/branding",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F2:inference"
+},
+{
+"entry_id": "S1-R132-E1",
+"url": "https://www.shopify.com/blog/authors/shuang-esther-shan",
+"parent_url": "https://www.shopify.com/blog",
+"relation": "R3-S1-R132-E1-F2:inference"
+},
+{
+"entry_id": "S1-R133-E1",
+"url": "https://www.siegelgale.com/ideas/news/",
+"parent_url": "https://www.siegelgale.com/ideas/",
+"relation": "R3-S1-R133-E1-F1:inference"
+},
+{
+"entry_id": "S1-R133-E1",
+"url": "https://www.siegelgale.com/ideas/ma-spin-off/",
+"parent_url": "https://www.siegelgale.com/ideas/",
+"relation": "R3-S1-R133-E1-F1:inference"
+},
+{
+"entry_id": "S1-R133-E1",
+"url": "https://www.siegelgale.com/ideas/ai/",
+"parent_url": "https://www.siegelgale.com/ideas/",
+"relation": "R3-S1-R133-E1-F1:inference"
+},
+{
+"entry_id": "S1-R133-E1",
+"url": "https://www.siegelgale.com/ideas/insights/",
+"parent_url": "https://www.siegelgale.com/ideas/",
+"relation": "R3-S1-R133-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/you-have-to-know-the-past-to-understand-the-present-case-study-patient-co-uk/",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/core-web-vitals-wix-vs-wordpress-shopify-vs-shopware-whats-fastest/",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/successfully-combining-user-intention-and-serp-features/",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/love-your-website-a-case-for-more-independence/",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/why-almost-everything-you-knew-about-google-ctr-is-no-longer-valid/",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F1:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2017",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F2:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2022",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F2:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2011",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F2:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2019",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F2:inference"
+},
+{
+"entry_id": "S1-R135-E1",
+"url": "https://www.sistrix.com/blog/archive/?selected=2007",
+"parent_url": "https://www.sistrix.com/blog/",
+"relation": "R3-S1-R135-E1-F2:inference"
+},
+{
+"entry_id": "S1-R136-E1",
+"url": "https://sproutsocial.com/insights/data/social-media-financial-services-benchmarks/",
+"parent_url": "https://sproutsocial.com/insights/data/",
+"relation": "R3-S1-R136-E1-F1:inference"
+},
+{
+"entry_id": "S1-R136-E1",
+"url": "https://sproutsocial.com/insights/data/social-intelligence-executive-brief/",
+"parent_url": "https://sproutsocial.com/insights/data/",
+"relation": "R3-S1-R136-E1-F1:inference"
+},
+{
+"entry_id": "S1-R136-E1",
+"url": "https://sproutsocial.com/insights/data/content-benchmarks/",
+"parent_url": "https://sproutsocial.com/insights/data/",
+"relation": "R3-S1-R136-E1-F1:inference"
+},
+{
+"entry_id": "S1-R136-E1",
+"url": "https://sproutsocial.com/insights/data/influencer-marketing-benchmarks/",
+"parent_url": "https://sproutsocial.com/insights/data/",
+"relation": "R3-S1-R136-E1-F1:inference"
+},
+{
+"entry_id": "S1-R136-E1",
+"url": "https://sproutsocial.com/insights/data/agency-pricing-packaging-report/",
+"parent_url": "https://sproutsocial.com/insights/data/",
+"relation": "R3-S1-R136-E1-F1:inference"
+},
+{
+"entry_id": "S1-R137-E1",
+"url": "https://www.talkwalker.com/blog/socmint",
+"parent_url": "https://www.talkwalker.com/blog",
+"relation": "R3-S1-R137-E1-F1:inference"
+},
+{
+"entry_id": "S1-R137-E1",
+"url": "https://www.talkwalker.com/blog/social-media-search",
+"parent_url": "https://www.talkwalker.com/blog",
+"relation": "R3-S1-R137-E1-F1:inference"
+},
+{
+"entry_id": "S1-R137-E1",
+"url": "https://www.talkwalker.com/blog/swift-kelce-wedding-insights",
+"parent_url": "https://www.talkwalker.com/blog",
+"relation": "R3-S1-R137-E1-F1:inference"
+},
+{
+"entry_id": "S1-R137-E1",
+"url": "https://www.talkwalker.com/blog/marketers-guide-to-competitive-intelligence",
+"parent_url": "https://www.talkwalker.com/blog",
+"relation": "R3-S1-R137-E1-F1:inference"
+},
+{
+"entry_id": "S1-R137-E1",
+"url": "https://www.talkwalker.com/blog/trend-analysis-life-of-a-showgirl",
+"parent_url": "https://www.talkwalker.com/blog",
+"relation": "R3-S1-R137-E1-F1:inference"
+},
+{
+"entry_id": "S1-R138-E1",
+"url": "https://unbounce.com/landing-page-optimization/landing-page-sales-funnel/",
+"parent_url": "https://unbounce.com/landing-page-optimization/",
+"relation": "R3-S1-R138-E1-F1:inference"
+},
+{
+"entry_id": "S1-R138-E1",
+"url": "https://unbounce.com/landing-page-optimization/case-studies/",
+"parent_url": "https://unbounce.com/landing-page-optimization/",
+"relation": "R3-S1-R138-E1-F1:inference"
+},
+{
+"entry_id": "S1-R138-E1",
+"url": "https://unbounce.com/landing-page-optimization/best-tools-software/",
+"parent_url": "https://unbounce.com/landing-page-optimization/",
+"relation": "R3-S1-R138-E1-F1:inference"
+},
+{
+"entry_id": "S1-R138-E2",
+"url": "https://unbounce.com/conversion-benchmark-report/entertainment-conversion-rate/",
+"parent_url": "https://unbounce.com/conversion-benchmark-report/",
+"relation": "R3-S1-R138-E2-F1:inference"
+},
+{
+"entry_id": "S1-R138-E2",
+"url": "https://unbounce.com/conversion-benchmark-report/finance-insurance-conversion-rate/",
+"parent_url": "https://unbounce.com/conversion-benchmark-report/",
+"relation": "R3-S1-R138-E2-F1:inference"
+},
+{
+"entry_id": "S1-R138-E2",
+"url": "https://unbounce.com/conversion-benchmark-report/legal-conversion-rate/",
+"parent_url": "https://unbounce.com/conversion-benchmark-report/",
+"relation": "R3-S1-R138-E2-F1:inference"
+},
+{
+"entry_id": "S1-R138-E2",
+"url": "https://unbounce.com/conversion-benchmark-report/ecommerce-conversion-rate/",
+"parent_url": "https://unbounce.com/conversion-benchmark-report/",
+"relation": "R3-S1-R138-E2-F1:inference"
+},
+{
+"entry_id": "S1-R138-E2",
+"url": "https://unbounce.com/conversion-benchmark-report/professional-services-conversion-rate/",
+"parent_url": "https://unbounce.com/conversion-benchmark-report/",
+"relation": "R3-S1-R138-E2-F1:inference"
+},
+{
+"entry_id": "S1-R139-E1",
+"url": "https://wearesocial.com/uk/blog/2010/09/watch/",
+"parent_url": "https://wearesocial.com/uk/blog/",
+"relation": "R3-S1-R139-E1-F1:inference"
+},
+{
+"entry_id": "S1-R139-E1",
+"url": "https://wearesocial.com/uk/blog/2012/06/mary-meekers-internet-trends-2012/",
+"parent_url": "https://wearesocial.com/uk/blog/",
+"relation": "R3-S1-R139-E1-F1:inference"
+},
+{
+"entry_id": "S1-R139-E1",
+"url": "https://wearesocial.com/uk/blog/2010/10/generation-media-3/",
+"parent_url": "https://wearesocial.com/uk/blog/",
+"relation": "R3-S1-R139-E1-F1:inference"
+},
+{
+"entry_id": "S1-R139-E1",
+"url": "https://wearesocial.com/uk/blog/2016/11/trends-go-social-part-2-personalisation-and-place/",
+"parent_url": "https://wearesocial.com/uk/blog/",
+"relation": "R3-S1-R139-E1-F1:inference"
+},
+{
+"entry_id": "S1-R139-E1",
+"url": "https://wearesocial.com/uk/blog/2015/03/big-sauce-debate-red-brown/",
+"parent_url": "https://wearesocial.com/uk/blog/",
+"relation": "R3-S1-R139-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E1",
+"url": "https://wingify.com/blog/mobile-app-ab-testing-ideas-you-can-try-immediately/",
+"parent_url": "https://wingify.com/blog/",
+"relation": "R3-S1-R140-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E1",
+"url": "https://wingify.com/blog/insights-into-action-wingz-ai/",
+"parent_url": "https://wingify.com/blog/",
+"relation": "R3-S1-R140-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E1",
+"url": "https://wingify.com/blog/introducing-journey-analytics/",
+"parent_url": "https://wingify.com/blog/",
+"relation": "R3-S1-R140-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E1",
+"url": "https://wingify.com/blog/roi-enterprise-ab-testing-platform/",
+"parent_url": "https://wingify.com/blog/",
+"relation": "R3-S1-R140-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E1",
+"url": "https://wingify.com/blog/multi-armed-bandit-algorithm/",
+"parent_url": "https://wingify.com/blog/",
+"relation": "R3-S1-R140-E1-F1:inference"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/30-black-friday-tests-how-to-win-big-during-the-e-commerce-holiday-season/",
+"parent_url": "https://wingify.com/ebooks/",
+"relation": "R3-S1-R140-E2-F1:inference"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/shopping-cart-abandonment/",
+"parent_url": "https://wingify.com/ebooks/",
+"relation": "R3-S1-R140-E2-F1:inference"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/airline-mobile-booking-benchmark-report/",
+"parent_url": "https://wingify.com/ebooks/",
+"relation": "R3-S1-R140-E2-F1:inference"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/the-lead-gen-playbook/",
+"parent_url": "https://wingify.com/ebooks/",
+"relation": "R3-S1-R140-E2-F1:inference"
+},
+{
+"entry_id": "S1-R140-E2",
+"url": "https://wingify.com/ebooks/feature-experimentation-trends-2026-where-digital-brands-are-investing/",
+"parent_url": "https://wingify.com/ebooks/",
+"relation": "R3-S1-R140-E2-F1:inference"
+},
+{
+"entry_id": "S1-R140-E3",
+"url": "https://wingify.com/success-stories/sorte-online/",
+"parent_url": "https://wingify.com/success-stories/",
+"relation": "R3-S1-R140-E3-F1:inference"
+},
+{
+"entry_id": "S1-R140-E3",
+"url": "https://wingify.com/success-stories/foxtale-purchases/",
+"parent_url": "https://wingify.com/success-stories/",
+"relation": "R3-S1-R140-E3-F1:inference"
+},
+{
+"entry_id": "S1-R140-E3",
+"url": "https://wingify.com/success-stories/la-planque-du-joueur/",
+"parent_url": "https://wingify.com/success-stories/",
+"relation": "R3-S1-R140-E3-F1:inference"
+},
+{
+"entry_id": "S1-R140-E3",
+"url": "https://wingify.com/success-stories/copado/",
+"parent_url": "https://wingify.com/success-stories/",
+"relation": "R3-S1-R140-E3-F1:inference"
+},
+{
+"entry_id": "S1-R140-E3",
+"url": "https://wingify.com/success-stories/tap-air-portugal-cta-clicks/",
+"parent_url": "https://wingify.com/success-stories/",
+"relation": "R3-S1-R140-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/author/amanda-lane/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/author/desiree-motamedi/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/author/george-saines/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/linked-content/scale-your-agentic-enterprise-a-step-by-step-guide/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/author/erin-hueffner/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F1:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/openai-agentforce/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F2:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/are-we-funding-marketing-that-works/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F2:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/what-does-salesforce-do/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F2:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/announcing-the-2027-salesforce-partner-of-the-year-award-winners/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F2:inference"
+},
+{
+"entry_id": "S1-R142-E1",
+"url": "https://www.salesforce.com/blog/agentic-ai-roi-report/",
+"parent_url": "https://www.salesforce.com/blog/?bc=OTH",
+"relation": "R3-S1-R142-E1-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/stories/why-we-post-trained-our-own-reasoning-model/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/stories/multiplayer-ai/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/stories/ai-model-choice/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/stories/consumer-goods-report-announcement-2025/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/linked-content/every-shift-every-site-every-team-introducing-slack-frontline/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F1:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/press-releases/2026/07/08/us-air-force-missionforce-modernize-sustainment-operations/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/press-releases/2026/09/10/agentforce-360-powers-future-of-chess-with-fide/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/press-releases/2026/09/15/siemens-agentforce-redefine-industrial-sales-service/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F2:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/media-library/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F3:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/stat-library/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F3:inference"
+},
+{
+"entry_id": "S1-R142-E3",
+"url": "https://www.salesforce.com/news/news-explorer/",
+"parent_url": "https://www.salesforce.com/news/?bc=OTH",
+"relation": "R3-S1-R142-E3-F3:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/report/fintech-trends-q2-2026/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F1:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/report/digital-health-trends-q3-2026/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F1:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/featured-topics/genai/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F1:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/featured-topics/fintech/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F1:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/briefing/webinar-behind-the-scenes-insurtech-50-2026/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F1:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/founders-aerospace-2026/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F2:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/replit-acquisition-predictions/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F2:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/9-big-tech-engineers-building-the-next-wave-of-fintech/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F2:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/14-repeat-founders-building-agentic-commerce/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F2:inference"
+},
+{
+"entry_id": "S1-R151-E2",
+"url": "https://www.cbinsights.com/research/newsletter-october-15-2026/",
+"parent_url": "https://www.cbinsights.com/research/",
+"relation": "R3-S1-R151-E2-F2:inference"
+}
+]

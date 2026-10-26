@@ -1,0 +1,934 @@
+{
+ "url": "https://www.ana.net/schoolofmarketing",
+ "observed_at": "2026-10-26T11:01:36.989Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.ana.net/schoolofmarketing",
+ "status": 200,
+ "error": null,
+ "title": "Marketing Training and Professional Development | ANA",
+ "h1": "Team Training",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 166,
+   "new_in_prefix": 166,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 166,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=1&ae=g&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&en=page_view&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v6754799za200zd6754799xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=1156"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1726780772.1793012499&gtm=45He6al1v6754799za200zd6754799xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18090790361/?random=1793012499705&cv=11&fst=1793012499705&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9250347209za20ozb6754799zd6754799xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketin"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&tid=AW-18090790361&en=page_view&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&gtm=45be6al1v9250347209za20ozb6754799zd6754799xecxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=11"
+  },
+  {
+   "method": "GET",
+   "url": "https://embed.navu.co/d/boot-data?client=embed&code=S07J462"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-H5FKLW1WSN&gtm=45je6al1v879929741za20ozb6754799zd6754799xf1&_p=1793012497542&_gaz=1&gcs=G111&gcd=13r3r3r2r5l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1797453466.1793012500&frm=0&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18130812394/?random=1793012500073&cv=11&fst=1793012500073&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9251556490za20ozb6754799zd6754799xecxf1&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&rcb=19&f"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18130812394/?random=1793012500111&cv=11&fst=1793012500111&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9251556490z86754799za20gzb6754799zd6754799xeaxf1&gcd=13r3r3r2r5l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&rcb=19&frm=0&t"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&tid=AW-18130812394&en=page_view&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&gtm=45be6al1v9251556490za20ozb6754799zd6754799xecxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=11"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&tid=AW-18130812394&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&_tu=CA&gtm=45be6al1v9251556490z86754799za20gzb6754799zd6754799xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&ta"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.growthbook.io/api/features/sdk-s1rTVchVNjdFthhi"
+  },
+  {
+   "method": "GET",
+   "url": "https://polo.feathr.co/v1/accounts/5f21f27feff8223d8ba6f6ec/integrations"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/838357799/?random=1793012500452&cv=11&fst=1793012500452&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1z86754799za20gzb6754799zd6754799xeaxf1&gcd=13r3r3r2r5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&rcb=15&frm=0&tiba=Marketing"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&tid=AW-838357799&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&_tu=CA&gtm=45be6al1z86754799za20gzb6754799zd6754799xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_exp=1156169"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/activity;src=8826991;type=invmedia;cat=remar0;rcb=4;ord=1612279510009;npa=0;auiddc=1726780772.1793012499;uaa=x86;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6al1v9190335685z86754799za20gzb6754799zd6754799xeaxf1;gcs=G111;gcd=13r3r3r2r5l1;dma=0;dc_fmt="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/925473931/?random=1793012500772&cv=11&fst=1793012500772&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9165046184z86754799za20gzb6754799zd6754799xeaxf1&gcd=13r3r3r2r5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&rcb=9&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&auid=1726780772.1793012499&dt=Marketing%20Training%20and%20Professional%20Development%20%7C%20ANA&tid=AW-925473931&dl=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&scrsrc=www.googletagmanager.com&rnd=1893005768.1793012499&navt=n&npa=0&_tu=CA&gtm=45be6al1v9165046184z86754799za20gzb6754799zd6754799xeaxf1&gcs=G111&gcd=13r3r3r2r5l1&dma=0&tag_e"
+  },
+  {
+   "method": "GET",
+   "url": "https://polo.feathr.co/v1/analytics/crumb?cb=1ae0acba8c3bc8&a_id=5f21f27feff8223d8ba6f6ec&f_id=6adf3314ac7205000253f551&ses_id=6adf3314cbe0eb426f2399ab&flvr=page_view&loc_url=https%3A%2F%2Fwww.ana.net%2Fschoolofmarketing&s_w=1280&s_h=720&b_w=1280&b_h=720"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.ana.net/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#",
+   "text": "Log in",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/membership",
+   "text": "Membership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/membership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-membership-corporate-marketer-benefits",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-membership-nonprofit-federation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-membership-msp-benefits",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/membership-faq",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/associates/payment",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/account/request",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/members/contact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/about",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/members/list",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/members/associatelist",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/board",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/pressroom",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/leadership",
+   "text": "Marketing Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/leadership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/brand",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/media",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/technology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/data",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/measurement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/talent",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/cultural-marketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/b2b",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/leadership-councils",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/leadership#initiatives",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/globalcmo-leadership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/growthagenda/index",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/events",
+   "text": "Events and Committees",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/events",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/conference/show/id/ANC-OCT26",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/conferences",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/mocs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/webinars",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/awards#galas",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/speaker-submission",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/sponsorship",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/volunteering-opportunities",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/calendar/index",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/committees",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/committee/joincomm",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/calendar/index/calendar_filter/committee",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing",
+   "text": "Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/training/coursecatalog",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/category/index/id/som-instructors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/calendar/index/calendar_filter/training",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/mkc",
+   "text": "Resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/mkc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/magazine",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/mkc-tools-and-templates",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/mkc-awards-intro-1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/podcasts",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/blogs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/videos",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/amplify",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/ask",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/awards",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/advocacy",
+   "text": "Advocacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/advocacy",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/adtax",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/state-privacy-legislation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/advocacy-nonprofit-policy",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/nonprofit",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/accountability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/accountability-ethics-code",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/accountability-consumer-trust-center",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/ANAmarketers/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://twitter.com/anamarketers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/association-of-national-advertisers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.instagram.com/anamarketers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#",
+   "text": "Log in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ana.net/members/list",
+   "text": "member list",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/account/request",
+   "text": "create a new account",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/account/request",
+   "text": "Forgot Password?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#team",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#team",
+   "text": "Team Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#team",
+   "text": "Optimize your Talent resources with ANA’s Corporate Training, Talent Diagnostics, and Change Management programs.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#team",
+   "text": "Build a competitive edge.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#individual",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#individual",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#individual",
+   "text": "Individual Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/home/channel/id/schoolofmarketing#individual",
+   "text": "Build a career-defining skill set and network with experts and peers through ANA Training resources.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#individual",
+   "text": "Expand your marketing skill set.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/member-training-benefit",
+   "text": "Member Corporate Training Benefit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/training/coursecatalog",
+   "text": "View our full workshop catalog.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-teamtraining-intro",
+   "text": "Marketing Enterprise Learning Services",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/enterprise-curricula",
+   "text": "Enterprise\nCurriculum",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "Open Enrollment Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "http://www.ana.net/calendar/index/calendar_filter/training",
+   "text": "View all upcoming workshops.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/ondemand/index",
+   "text": "On-Demand Training",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/camp-certification",
+   "text": "CAMP Certification",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.ana.net/membership",
+   "text": "Learn About Membership",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ana.net/privacy.html",
+   "text": "Privacy and Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/privacy.html",
+   "text": "Privacy and Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/privacy.html",
+   "text": "Privacy and Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#gdpr-preferences",
+   "text": "SETTINGS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/sponsorship-our-partners",
+   "text": "ANA STRATEGIC PARTNERS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.aenetworks.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/lp/build-your-business-with-amazon-advertising?tag=googhydr-20&hvadid=526977097407&hvpos=&hvexid=&hvnetw=g&hvrand=14439108333610792735&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9003998&hvtargid=kwd-1567361589&ref=pd_sl_53blt92vp7_e_sspa_ggl_d_us_ct_526977097407",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://analyticpartners.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.disneyadvertising.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.google.com/about/company/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.meta.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.monday.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://together.nbcuni.com/home/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.outfront.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://business.pinterest.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.tiktok.com/business/en-US",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.usps.com/business/advertise-with-mail.htm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.viantinc.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.walmartconnect.com/?utm_source=ana&utm_medium=membershippage&utm_campaign=2022_Q2",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/privacy-policy",
+   "text": "PRIVACY POLICY",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/site-terms-of-use",
+   "text": "TERMS OF USE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/about",
+   "text": "ABOUT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/pressroom",
+   "text": "PRESS ROOM",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/contact",
+   "text": "CONTACT US",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-careers",
+   "text": "CAREERS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/ana-logos",
+   "text": "ANA LOGOS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/content/show/id/privacy-policy#yac",
+   "text": "YOUR AD CHOICES",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ana.net/schoolofmarketing#gdpr-preferences",
+   "text": "COOKIE SETTINGS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/ANAmarketers/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/anamarketers",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/association-of-national-advertisers",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/anamarketers",
+   "text": "",
+   "region": "FOOTER"
+  }
+ ]
+}

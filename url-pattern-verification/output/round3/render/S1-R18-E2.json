@@ -1,0 +1,548 @@
+{
+ "url": "https://www.itu.int/itu-d/sites/statistics/",
+ "observed_at": "2026-10-26T10:57:23.666Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.itu.int/itu-d/sites/statistics/",
+ "status": 200,
+ "error": null,
+ "title": "ITU-D ICT Statistics",
+ "h1": "ITU-D ICT Statistics",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 100,
+   "new_in_prefix": 100,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 100,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-T69008QZXS&gtm=45je6al1v873299732za200xf1&_p=1793012245681&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1667764574.1793012246&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938466~115"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X521SCRNMQ&gtm=45je6al1v873299732za200xf1&_p=1793012245681&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1667764574.1793012246&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~11889792"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=571146031&t=pageview&_s=1&dl=https%3A%2F%2Fwww.itu.int%2Fitu-d%2Fsites%2Fstatistics%2F&ul=en-us&dt=ITU-D%20ICT%20Statistics&sr=1280x720&vp=1280x720&_u=YADAAUABAAAAACAAI~&jid=700182716&gjid=1640259133&cid=1667764574.1793012246&tid=UA-121074739-1&_gid=1444086013.1793012246&_r=1&_slc=1&gtm=45He6al1n81M2LC5X5v832391055za200zd832391055xf1&gcd=13l"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-T69008QZXS&gtm=45je6al1v873299732z8832391055za200xf1&_p=1793012245681&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAACAGQ&cid=1667764574.1793012246&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938466"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-X521SCRNMQ&gtm=45je6al1v873299732z8832391055za200xf1&_p=1793012245681&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAACAAQ&cid=1667764574.1793012246&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=11593"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.itu.int/en/ITU-R",
+   "text": "Radiocommunication",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+   "text": "Standardization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D",
+   "text": "Development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/#",
+   "text": "Click to switch language",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/",
+   "text": "English",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/ar/",
+   "text": "العربية",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/zh-hans/",
+   "text": "简体中文",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/fr/",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/ru/",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/es/",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-R",
+   "text": "Radiocommunication",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+   "text": "Standardization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D",
+   "text": "Development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/#",
+   "text": "Thematic Priorities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/capacity-development/",
+   "text": "Capacity Development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/cybersecurity/",
+   "text": "Cybersecurity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/digital-inclusion/",
+   "text": "Digital Inclusion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/innovation/",
+   "text": "Digital Innovation Ecosystems",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/ict-applications/",
+   "text": "Digital Services and Applications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/emergency-telecommunications/",
+   "text": "Emergency Telecommunications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/environment/",
+   "text": "Environment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/ict-infrastructure/",
+   "text": "Network and Digital Infrastructure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/regulatory-market/",
+   "text": "Policy and Regulation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/",
+   "text": "Statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/studygroups/",
+   "text": "Study Groups",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/#",
+   "text": "Regional Presence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/africa/",
+   "text": "Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/americas/",
+   "text": "Americas",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/arabstates/",
+   "text": "Arab States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/asiapacific/",
+   "text": "Asia and the Pacific",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/cis/",
+   "text": "Commonwealth of Independent States",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/europe/",
+   "text": "Europe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/#",
+   "text": "Thematic Priorities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/capacity-development/",
+   "text": "Capacity Development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/cybersecurity/",
+   "text": "Cybersecurity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/digital-inclusion/",
+   "text": "Digital Inclusion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/innovation/",
+   "text": "Digital Innovation Ecosystems",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/ict-applications/",
+   "text": "Digital Services and Applications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/emergency-telecommunications/",
+   "text": "Emergency Telecommunications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/environment/",
+   "text": "Environment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/ict-infrastructure/",
+   "text": "Network and Digital Infrastructure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/regulatory-market/",
+   "text": "Policy and Regulation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/",
+   "text": "Statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/#",
+   "text": "Click to switch language",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/",
+   "text": "English",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/ar/",
+   "text": "العربية",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/zh-hans/",
+   "text": "简体中文",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/fr/",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/ru/",
+   "text": "Русский",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/es/",
+   "text": "Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/about.aspx",
+   "text": "Read more",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/default.aspx",
+   "text": "Publications",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/events/default.aspx",
+   "text": "Events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/statistics/",
+   "text": "Contact Us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+   "text": "Measuring digital development - The ICT Development Index 2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/bigdata/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/bigdata/",
+   "text": "Data science for measuring the information society",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/StatisticsUpdate/October2026.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/StatisticsUpdate/October2026.aspx",
+   "text": "Read the October edition of the Statistics Update",
+   "region": "BODY"
+  },
+  {
+   "href": "https://datahub.itu.int/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://datahub.itu.int/",
+   "text": "Explore the new features on the ITU DataHub",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+   "text": "Facts and figures",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+   "text": "ICT prices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/projectumc/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/projectumc/",
+   "text": "Project on promoting and measuring universal and meaningful connectivity",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/bigdata/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/itu-d/sites/bigdata/",
+   "text": "Big data",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+   "text": "Expert groups",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+   "text": "Partnerships",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/definitions/default.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/definitions/default.aspx",
+   "text": "Standards and definitions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/capacitydev/default.aspx",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Statistics/Pages/capacitydev/default.aspx",
+   "text": "Capacity development",
+   "region": "BODY"
+  },
+  {
+   "href": "https://itu.int/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/en/Pages/default.aspx",
+   "text": "Who we are",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx",
+   "text": "Where we work",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.generationunlimited.org/",
+   "text": "Generation Unlimited",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://digital-world.itu.int/",
+   "text": "ITU Digital World",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.broadbandcommission.org/Pages/default.aspx",
+   "text": "Broadband Commission",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.unwomen.org/en/get-involved/beijing-plus-25",
+   "text": "Generation Equality",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu-cop-guidelines.com/",
+   "text": "Child Online Protection (COP)",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/en/itu-wsis/Pages/default.aspx",
+   "text": "WSIS Forum",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://aiforgood.itu.int/",
+   "text": "AI for good",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://giga.global/",
+   "text": "GIGA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/highlights-report-activities/connect2030/",
+   "text": "Connect 2030",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.equalsintech.org/",
+   "text": "Equals Global",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/en/ethics/Pages/helpline.aspx",
+   "text": "Report Misconduct",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/home/contact/index.html",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/linkedin",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/flickr",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/youtube",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/twitter",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/instagram",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.itu.int/facebook",
+   "text": "",
+   "region": "FOOTER"
+  }
+ ]
+}

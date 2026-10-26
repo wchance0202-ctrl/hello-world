@@ -1,0 +1,795 @@
+{
+ "url": "https://www.pewresearch.org/topic/news-habits-media/",
+ "observed_at": "2026-10-26T10:58:31.345Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.pewresearch.org/topic/news-habits-media/",
+ "status": 200,
+ "error": null,
+ "title": "News Habits & Media - Research and data from Pew Research Center",
+ "h1": "News Habits & Media",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 147,
+   "new_in_prefix": 147,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 147,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://o4510032606527488.ingest.us.sentry.io/api/4510352600072192/envelope/?sentry_version=7&sentry_key=3c89de1fec26c527e4eb1b2a777b0007&sentry_client=sentry.javascript.browser%2F8.55.0"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.parsely.com/v2/profile?apikey=pewresearch.org&uuid=pid%3Dfd3bfa56-c7c7-42a9-b172-c674c08dcb53&url=https%3A%2F%2Fwww.pewresearch.org%2Ftopic%2Fnews-habits-media%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.pewresearch.org%2Ftopic%2Fnews-habits-media%2F&scrsrc=www.googletagmanager.com&rnd=1635566929.1793012315&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dZTNiMT&gtm=45He6al1v71623206za200zd71623206xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938469~118897920~118897930~120"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JWLCYL52TJ&gtm=45je6al1v876368479za208zd876368479xf1&_p=1793012313560&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dZTNiMT&_eu=AAAAACAC&cid=1350012963.1793012315&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JWLCYL52TJ&gtm=45je6al1v876368479za208zd876368479xf1&_p=1793012313560&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dZTNiMT&_eu=AAACACAC&cid=1350012963.1793012315&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/pagead/conversion/975782686/?random=1793012317825&cv=11&fst=1793012317825&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9185072145z871623206za20gzb71623206zd71623206xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/pagead/conversion/16766548945/?random=1793012317847&cv=11&fst=1793012317847&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1v9185072145z871623206za20gzb71623206zd71623206xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=72"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JWLCYL52TJ&gtm=45je6al1v876368479z871623206za200zd876368479xf1&_p=1793012313560&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dZTNiMT&_eu=AAAAACAC&cid=1350012963.1793012315&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.pewresearch.org/follow-us/",
+   "text": "NEWSLETTERS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/press/",
+   "text": "PRESS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/my-account",
+   "text": "MY ACCOUNT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://pewresearchcenter.networkforgood.com/",
+   "text": "DONATE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/contactedbyus/",
+   "text": "CONTACTED BY US?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/politics-policy/leaders/donald-trump/",
+   "text": "Donald Trump",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/middle-east-north-africa/",
+   "text": "Middle East",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/politics-policy/",
+   "text": "Politics & Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/international-affairs/",
+   "text": "International Affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/immigration-migration/",
+   "text": "Immigration & Migration",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/race-ethnicity/",
+   "text": "Race & Ethnicity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/religion/",
+   "text": "Religion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/generations-age/",
+   "text": "Age & Generations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/gender-lgbtq/",
+   "text": "Gender & LGBTQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/family-relationships/",
+   "text": "Family & Relationships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/economy-work/",
+   "text": "Economy & Work",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/science/",
+   "text": "Science",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/internet-technology/",
+   "text": "Internet & Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/",
+   "text": "News Habits & Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/methodological-research/",
+   "text": "Methodological Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topics-categorized/",
+   "text": "Full Topic List",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/asia-pacific/",
+   "text": "Asia & the Pacific",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/europe-russia/",
+   "text": "Europe & Russia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/latin-america/",
+   "text": "Latin America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/middle-east-north-africa/",
+   "text": "Middle East & North Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/north-america/",
+   "text": "North America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/sub-saharan-africa/",
+   "text": "Sub-Saharan Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/multiple-regions-worldwide/",
+   "text": "Multiple Regions / Worldwide",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/?_formats=feature",
+   "text": "Feature",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/?_formats=fact-sheet",
+   "text": "Fact Sheet",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/?_formats=video",
+   "text": "Video",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/?_formats=data-essay",
+   "text": "Data Essay",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/",
+   "text": "PUBLICATIONS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/our-methods/",
+   "text": "OUR METHODS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/",
+   "text": "SHORT READS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/tools-and-datasets/",
+   "text": "TOOLS & DATASETS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/experts/",
+   "text": "EXPERTS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/",
+   "text": "ABOUT US",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topics/",
+   "text": "Research Topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/publications/",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/",
+   "text": "Short Reads",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/tools-and-resources/",
+   "text": "Tools & Datasets",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/",
+   "text": "About Pew Research Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/newsletters/",
+   "text": "Newsletters",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/press/",
+   "text": "Press",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/my-account/",
+   "text": "My Account",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/contactedbyus/",
+   "text": "Contacted By Us?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+   "text": "Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/politics-policy/leaders/donald-trump/",
+   "text": "Donald Trump",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/regions-countries/middle-east-north-africa/",
+   "text": "Middle East",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topics",
+   "text": "Research Topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/category/news-habits-media/media-society/politics-media-1/",
+   "text": "Politics & Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/news-platforms-sources/digital-news-landscape-1/",
+   "text": "Digital News Landscape",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/category/news-habits-media/media-society/media-attitudes/trust-in-media/",
+   "text": "Trust in Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/category/news-habits-media/media-society/misinformation/",
+   "text": "Misinformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/category/news-habits-media/news-media-trends/news-platforms-sources/",
+   "text": "News Platforms & Sources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+   "text": "Local News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topics-condensed/?activeTabIndex=TmV3cyBIYWJpdHMgJmFtcDsgTWVkaWFfXzEx",
+   "text": "+ More",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+   "text": "How Americans Are Engaged With News, Politics, Religion and Civic Life",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/younger-and-older-americans-engage-in-public-life-in-different-ways/",
+   "text": "Age",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/democrats-and-republicans-engage-in-public-life-in-similar-ways/",
+   "text": "Partisan affiliation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
+   "text": "Views of politics and news",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/07/16/highly-engaged-americans-know-more-about-politics/",
+   "text": "Civic knowledge",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/06/29/which-americans-are-most-likely-to-have-spoken-with-a-local-journalist/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/06/29/which-americans-are-most-likely-to-have-spoken-with-a-local-journalist/",
+   "text": "Which Americans are most likely to have spoken with a local journalist?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/05/14/what-americans-think-it-takes-to-be-a-good-news-consumer/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/05/14/what-americans-think-it-takes-to-be-a-good-news-consumer/",
+   "text": "What Americans think it takes to be a good news consumer",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/#refine-your-results",
+   "text": "Refine Your Results",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/23/growing-share-of-americans-say-social-media-is-an-important-news-source-for-them/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/23/growing-share-of-americans-say-social-media-is-an-important-news-source-for-them/",
+   "text": "Growing Share of Americans Say Social Media Is an Important News Source for Them",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/quiz/what-is-your-civic-personality/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/quiz/what-is-your-civic-personality/",
+   "text": "Quiz: What Is Your Civic Personality?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/",
+   "text": "1 in 5 Americans Regularly Get News on TikTok",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/",
+   "text": "News Platform Fact Sheet",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/",
+   "text": "Social Media and News Fact Sheet",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/07/how-do-americans-engage-with-news-online/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/10/07/how-do-americans-engage-with-news-online/",
+   "text": "How Do Americans Engage With News Online?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+   "text": "How urban, suburban and rural Americans engage in society",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+   "text": "Americans Value Press Freedom but Differ on Its Limits",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/quiz/how-much-do-you-know-about-the-first-amendment/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/quiz/how-much-do-you-know-about-the-first-amendment/",
+   "text": "Quiz: How much do you know about the First Amendment?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/06/05/americans-say-keeping-up-with-key-news-topics-is-crucial-but-fewer-say-theyre-highly-informed-themselves/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/short-reads/2026/06/05/americans-say-keeping-up-with-key-news-topics-is-crucial-but-fewer-say-theyre-highly-informed-themselves/",
+   "text": "Americans say keeping up with key news topics is crucial. But fewer say they’re highly informed themselves",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/page/2/",
+   "text": "2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+   "text": "3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+   "text": "161",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/page/2/",
+   "text": "NEXT PAGE→",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/08/20/how-americans-view-journalists-in-the-digital-age/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/08/20/how-americans-view-journalists-in-the-digital-age/",
+   "text": "How Americans View Journalists in the Digital Age",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/06/10/the-political-gap-in-americans-news-sources/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/06/10/the-political-gap-in-americans-news-sources/",
+   "text": "The Political Gap in Americans’ News Sources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/03/31/most-americans-say-they-are-tuned-in-to-news-about-the-trump-administration/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/03/31/most-americans-say-they-are-tuned-in-to-news-about-the-trump-administration/",
+   "text": "Most Americans Say They Are Tuned In to News About the Trump Administration",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2024/11/18/americas-news-influencers/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2024/11/18/americas-news-influencers/",
+   "text": "America’s News Influencers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/12/03/young-adults-and-the-future-of-news/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/12/03/young-adults-and-the-future-of-news/",
+   "text": "Young Adults and the Future of News",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/feature/news-media-tracker/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/feature/news-media-tracker/",
+   "text": "News Media Tracker",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/05/13/what-is-news/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2025/05/13/what-is-news/",
+   "text": "What Is News?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2024/02/06/an-audio-tour-through-americas-top-ranked-podcasts/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/journalism/2024/02/06/an-audio-tour-through-americas-top-ranked-podcasts/",
+   "text": "An Audio Tour Through America’s Top-Ranked Podcasts",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.pewresearch.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:+12024194300",
+   "text": "(+1) 202-419-4300",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/politics-policy/",
+   "text": "Politics & Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/international-affairs/",
+   "text": "International Affairs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/immigration-migration/",
+   "text": "Immigration & Migration",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/race-ethnicity/",
+   "text": "Race & Ethnicity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/religion/",
+   "text": "Religion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/generations-age/",
+   "text": "Age & Generations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/gender-lgbtq/",
+   "text": "Gender & LGBTQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/family-relationships/",
+   "text": "Family & Relationships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/economy-work/",
+   "text": "Economy & Work",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/science/",
+   "text": "Science",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/internet-technology/",
+   "text": "Internet & Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/news-habits-media/",
+   "text": "News Habits & Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/topic/methodological-research/",
+   "text": "Methodological Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/follow-us/",
+   "text": "Email Newsletters",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/PewResearchCenter/featured/",
+   "text": "YouTube",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/pewresearch/",
+   "text": "Instagram",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/pewresearch/",
+   "text": "Facebook",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/pew-research-center/",
+   "text": "LinkedIn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/pewresearch",
+   "text": "X",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://bsky.app/profile/pewresearch.org",
+   "text": "Bluesky",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.threads.com/@pewresearch",
+   "text": "Threads",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pewresearch.org/feed/",
+   "text": "RSS Feed",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pewresearch.org/about",
+   "text": "ABOUT PEW RESEARCH CENTER",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pew.org/",
+   "text": "The Pew Charitable Trusts",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/terms-and-conditions/",
+   "text": "Terms & Conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/cookie-policy/",
+   "text": "Cookie Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/contact-form/",
+   "text": "Feedback",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/contact/",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.pewresearch.org/about/privacy-policy/",
+   "text": "privacy policy",
+   "region": "FOOTER"
+  }
+ ]
+}

@@ -1,0 +1,457 @@
+{
+ "url": "https://www.ama.org/job-boards-join-our-team/",
+ "observed_at": "2026-10-26T11:01:27.105Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.ama.org/job-boards-join-our-team/",
+ "status": 200,
+ "error": null,
+ "title": "American Marketing Association | Job Boards - Join our team!",
+ "h1": "Job Boards",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 57,
+   "new_in_prefix": 57,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 57,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://l.sharethis.com/pview?event=pview&hostname=www.ama.org&location=%2Fjob-boards-join-our-team%2F&product=unknown&url=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&cms=unknown&publisher=5d1b5b2e5b5c0700129fbd24&sop=true&version=st_sop"
+  },
+  {
+   "method": "GET",
+   "url": "https://l.sharethis.com/sc?event=pview&hostname=www.ama.org&location=%2Fjob-boards-join-our-team%2F&product=unknown&url=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&source=sharethis.js&fcmp=false&fcmpv2=false&has_segmentio=false&title=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&cms=unknown&publisher=5d1b5b2e5b5c0700129fbd24&sop=true&version=st_sop.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&en=page_view&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v810564333za200zd810564333xeaxf1&gcd=13l3l3l3l1l1&dm"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1701700664.1793012490&gtm=45He6al1v810564333za200zd810564333xeaxf1&fmt=8"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.hs-banner.com/v2/cf-location"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.init_consent"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.init"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtag.config"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtag.config"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.dom"
+  },
+  {
+   "method": "GET",
+   "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=46387974&currentUrl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtag.config"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1013228709/?random=1793012491163&cv=11&fst=1793012491163&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9172709601za208zd9172709601xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-tea"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&tid=AW-1013228709&en=page_view&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&did=dNGJiYT&gdid=dNGJiYT&gtm=45be6al1v9172709601za208zd9172709601xecxf1&gcd"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=46387974"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-VZ6FMZZPER&gtm=45je6al1v874351006za20ozb810564333zd810564333xf1&_p=1793012488448&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&cid=1217790259.1793012491&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18130620532/?random=1793012491465&cv=11&fst=1793012491465&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v874351006za20ozb810564333zd810564333xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ama.org%2Fjob-boards-jo"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&tid=AW-18130620532&en=page_view&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&gtm=45je6al1v874351006za20ozb810564333zd810564333xecxf1&gcd=13l3l3l3l1l1&d"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtag.config"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.omappapi.com/v2/embed/137921?d=ama.org&device=desktop"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1032649363/?random=1793012491944&cv=11&fst=1793012491944&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9216559297za20ozb810564333zd810564333xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~117776796~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ama"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1032649363/?random=1793012492077&cv=11&fst=1793012492077&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1v9216559297z8810564333za20gzb810564333zd810564333xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~117776796~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ama.org"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1032649363/?random=1793012492101&cv=11&fst=1793012492101&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9216559297za20ozb810564333zd810564333xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~117776796~118897920~118897930~119793974~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ama"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&tid=AW-1032649363&en=page_view&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&gtm=45be6al1v9216559297za20ozb810564333zd810564333xecxf1&gcd=13l3l3l3l1l1&d"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&tid=AW-1032649363&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&_tu=CA&gtm=45be6al1v9216559297z8810564333za20gzb810564333zd810564333xeaxf1&gcd=13l3"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=1701700664.1793012490&dt=American%20Marketing%20Association%20%7C%20Job%20Boards%20-%20Join%20our%20team!&tid=AW-1032649363&en=page_view&dl=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&scrsrc=www.googletagmanager.com&rnd=685593152.1793012491&navt=n&npa=0&did=dNGJiYT%2CdZTQ1Zm&gdid=dNGJiYT.dZTQ1Zm&gtm=45be6al1v9216559297za20ozb81"
+  },
+  {
+   "method": "POST",
+   "url": "https://q.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/68myowQC11q9kdcGtgAs1g.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.load"
+  },
+  {
+   "method": "POST",
+   "url": "https://q.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=68myowQC11q9kdcGtgAs1g&st=oaiq-web&sv=0.1.93&t=1793012493907&ec=2"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=gtm.scrollDepth"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=a2_hglwg50712xh&event=scroll"
+  },
+  {
+   "method": "POST",
+   "url": "https://q.clarity.ms/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#site-content",
+   "text": "Skip to Content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#page-footer",
+   "text": "Skip to Footer",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ama.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://myama.my.site.com/services/oauth2/authorize?response_type=code&client_id=3MVG9CEn_O3jvv0w2UhdWBwPSVH0HQeYkNhAufvhjDMNkScGyF_5ncMuk0mJQWZ9vOZtfcRT0uuSlO65nJjvW&redirect_uri=https%3A%2F%2Fwww.ama.org%2Fsf%2Fredirect&state=https%3A%2F%2Fwww.ama.org%2Fjob-boards-join-our-team%2F&__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "LOGIN",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/ama-member-benefits/?return_url=https://www.ama.org/job-boards-join-our-team/",
+   "text": "JOIN AMA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/ama-member-benefits",
+   "text": "JOIN THE AMA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#",
+   "text": "LEARNING AND CERTIFICATION",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/topics/",
+   "text": "Find learning by topic",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/free-for-members/",
+   "text": "Free learning resources for members",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/on-demand/",
+   "text": "On-Demand Courses",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/credentialed-learning/",
+   "text": "Credentialed Learning",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/training-for-marketing/",
+   "text": "Why learn with the AMA?",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/events/?event_type=all",
+   "text": "EVENTS",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#",
+   "text": "PUBLICATIONS",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/marketing-news-home/",
+   "text": "Marketing News",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/ama-academic-journals/",
+   "text": "Academic Journals",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/topics/white-paper/",
+   "text": "Guides & eBooks",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/career-and-classroom/",
+   "text": "Career & Classroom",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/",
+   "text": "JOB BOARDS",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://jobs.ama.org/?_gl=1*hi7e3v*_gcl_au*MTQ4NTY4Nzc2Ni4xNjg3NTM4OTc3*_ga*Nzc4Njg5OTAuMTY4NzUzNTg5NQ..*_ga_VZ6FMZZPER*MTY5NDc5MTI1Ni4yOTQuMS4xNjk0NzkxNTA1LjU2LjAuMA..",
+   "text": "Marketing Job Board",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://academicplacement.ama.org/?_gl=1*hi7e3v*_gcl_au*MTQ4NTY4Nzc2Ni4xNjg3NTM4OTc3*_ga*Nzc4Njg5OTAuMTY4NzUzNTg5NQ..*_ga_VZ6FMZZPER*MTY5NDc5MTI1Ni4yOTQuMS4xNjk0NzkxNTA1LjU2LjAuMA..",
+   "text": "Academic Job Board",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#",
+   "text": "ABOUT THE AMA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/about-ama/",
+   "text": "About AMA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/about-ama-foundation/",
+   "text": "AMA Foundation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/dei-diversity-equity-inclusion-marketing/",
+   "text": "Diversity, Equity and Inclusion",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/pages/collegiate/",
+   "text": "Collegiate Resources",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/volunteer/",
+   "text": "Volunteer",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/awards/",
+   "text": "Awards and Scholarships",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Get Help",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://resources.ama.org/mediakit",
+   "text": "Sponsorship Opportunities",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ama.org/partnerships/",
+   "text": "Strategic Partnerships",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://boards.greenhouse.io/americanmarketingassociation",
+   "text": "EXPLORE JOBS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jobs.ama.org/",
+   "text": "EXPLORE JOBS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://academicplacement.ama.org/",
+   "text": "EXPLORE JOBS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ama.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/ama-member-benefits/?return_url=https://www.ama.org/job-boards-join-our-team/",
+   "text": "JOIN AMA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/about-ama/",
+   "text": "ABOUT AMA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/contactsupport?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "CONTACT US",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "GET HELP",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/article/Terms-of-Use?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "TERMS OF USE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/article/American-Marketing-Association-Privacy-Policy?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "PRIVACY POLICY",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/ama-code-of-conduct",
+   "text": "CODE OF CONDUCT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/topic/0TO6A000000HLcRWAW/frequently-asked-questions?__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "FAQ",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://resources.ama.org/mediakit",
+   "text": "MEDIA KIT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://elearning.ama.org/diweb/gateway?_ga=2.117043663.89163802.1571065398-1417038263.1571065397",
+   "text": "CERTIFICATION PORTAL",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/toolkits/",
+   "text": "TOOLKITS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/",
+   "text": "JOB BOARDS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://marketingresources.org/",
+   "text": "MARKETING SERVICES SEARCH",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/partnerships/",
+   "text": "STRATEGIC PARTNERSHIPS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ama.org/media/",
+   "text": "MEDIA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/AmericanMarketing/",
+   "text": "facebook",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/ama_marketing",
+   "text": "twitter",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/american-marketing-association/",
+   "text": "linkedin",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.securitymetrics.com/site_certificate?id=1480382&tk=64fc67acd12fe7e6bfd193ce1b280231",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://myama.my.site.com/s/article/American-Marketing-Association-Privacy-Policy?_ga=2.207123345.367087879.1613928983-1951994682.1582558148&__hstc=92629314.70983acdd235bcc80b2e8ef39da10000.1793012492803.1793012492803.1793012492803.1&__hssc=92629314.1.1793012492803&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "You can learn more about our privacy policy here",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ama.org/job-boards-join-our-team/#",
+   "text": "GOT IT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.wpadacompliance.com/",
+   "text": "The owner of this website has made a commitment to accessibility and inclusion, please report any problems that you enco",
+   "region": "BODY"
+  }
+ ]
+}

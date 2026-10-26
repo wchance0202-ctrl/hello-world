@@ -1,0 +1,2806 @@
+{
+ "url": "https://www.circana.com/news",
+ "observed_at": "2026-10-26T10:57:04.296Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.circana.com/news",
+ "status": 200,
+ "error": null,
+ "title": "Circana Insights - get the latest news, insights, blogs and more",
+ "h1": "Insights from Circana",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 388,
+   "new_in_prefix": 388,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 448,
+   "new_in_prefix": 60,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 448,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.wixapis.com/web50-server/static-versions"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/019df83d-f2f6-70d4-98b7-78bd024aa15f/019df83d-f2f6-70d4-98b7-78bd024aa15f.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScr"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/v1/access-tokens?cacheBust=1793012227015-122964067-1978992997"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/019df83d-f2f6-70d4-98b7-78bd024aa15f/019eb807-00fe-7242-967a-3802b3d94f79/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otFlat.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/v2/otPcCenter.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/tag-manager/api/v1/tags/sites/b19d135b-e8ad-4b92-be29-50998f05e8e1?wixSite=false&htmlsiteId=02d46efb-d519-4e52-8aff-00626029c9bb&language=en"
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScr"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements/1.15595.0/rb_wixui.thunderbolt.manifest.min.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements/1.15595.0/rb_dsgnsys.thunderbolt.manifest.min.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/mainSdks.209019bd.chunk.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/nonMainSdks.7495e9f0.chunk.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/dbsm-viewer-app/1.9047.0/app.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/wix-code-viewer-app/1.1479.751/app.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wixapis.com/oauth2/token"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.wixapis.com/web50-server/static-versions"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements/1.15595.0/rb_wixui.corvid.manifest.min.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements/1.15595.0/rb_dsgnsys.corvid.manifest.min.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&auid=4169227.1793012229&dt=Circana%20Insights%20-%20get%20the%20latest%20news%2C%20insights%2C%20blogs%20and%20more&en=page_view&dl=https%3A%2F%2Fwww.circana.com%2Fnews&scrsrc=www.googletagmanager.com&rnd=241856451.1793012229&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6al1v9103639365za200zd9103639365xeaxf1&gcs=G111&gcd=13r3"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=4169227.1793012229&gtm=45He6al1v9103639365za200zd9103639365xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/10789662350/?random=1793012230385&cv=11&fst=1793012230385&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9179015627za20ozb9103639365zd9103639365xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.circana.com%2Fnews&rcb=7&frm=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17907145747/?random=1793012230466&cv=11&fst=1793012230466&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9179015627za20ozb9103639365zd9103639365xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.circana.com%2Fnews&rcb=7&frm=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&auid=4169227.1793012229&dt=Circana%20Insights%20-%20get%20the%20latest%20news%2C%20insights%2C%20blogs%20and%20more&tid=AW-10789662350&en=page_view&dl=https%3A%2F%2Fwww.circana.com%2Fnews&scrsrc=www.googletagmanager.com&rnd=241856451.1793012229&navt=n&npa=0&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6al1v9179015627za20ozb9103639365zd9103639365xecxf1&gcs="
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-4XTC01D8W0&gtm=45je6al1v9103987675za20ozb9103639365zd9103639365xf1&_p=1793012229279&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&ecid=2035671098&_eu=AAAAACAC&cid=1516206331.1793012231&ec_mode=a&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B15"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.wixapis.com/web5/site-configuration"
+  },
+  {
+   "method": "GET",
+   "url": "https://scout.salesloft.com/r?tid=eyJhbGciOiJIUzI1NiJ9.eyJ0IjoxMTEwMjJ9.L21rENUROwlFbQ_weCmaNR2crAfqbadX828YCohMRnA"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.company-target.com/api/v3/ip.json?referrer=&page=https%3A%2F%2Fwww.circana.com%2Fnews&page_title=Circana%20Insights%20-%20get%20the%20latest%20news%2C%20insights%2C%20blogs%20and%20more"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_11376299ac6b4261be2bfa43d7e28df5.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_6a9929dbd2ed42e3b00ff5e3cd6df9f0.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_ebd498ecafc649b09b3c0cf355e725c6.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_1de5515c9d7e4c4a8dc3a06e9424e031.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_49e10c854cf340e381065f6c57e4a9a2.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_6e07249f13754b0a818bec4429e38282.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_1795a6ab07ae4f63895ca0ff99741f26.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_b575af1fc4294b378d3f8e784c6a3621.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_41af5afea038475189012d321d1279b3.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/b861b040274141de9c08999ec3b76edf.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_59e5e51242e448eda2acbd69ff7abe16.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_5f558369036c43f3b849f848c6dba78d.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_6ed72bec4a9a4d03a85c748d6b73190f.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/d1fcd1f5055c4a29af691f8bea3e4131.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_6110281d0d0f4df8be4b984792e61ae4.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_159635e52374458785eebc2dc91062a3.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_6c35f8467b38408792aee42f29cb0f34.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_b4ad64e14ecd4596916a3cb56b0051ee.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/503ea4_3dbf8cc099ca45eb81ab414a37292323.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_71f52305cbd74406920ba9e49c7bc56e.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_5a78d7bc892d49a0a62da19b1ed06ef7.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/cf545b123b6e4523b228d62bfa0dea9b.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_0b15bcb3a573455dabd366a0019776a6.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/11062b_a5a1cbf3af4548ea8d231e481f70e506.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/ad0f45_4b60b087184640a3ac9cacdc0cd59a6a.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/51a29a_6b5fcdde19864058a0d270d1db0268e4.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.wixstatic.com/shapes/1d3a0b_97d72ad4c8dc4903bfb02b2baa7763ae.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://tag-logger.demandbase.com/bg9s?x-amz-cf-id=mooZRNV4oOVGbOrjRNFVHchpuBsmw9RiZ2okWnmJKhetj0CLeED00w==&api-version=v3"
+  },
+  {
+   "method": "GET",
+   "url": "https://scout.salesloft.com/i"
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=23564597&utk="
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVar"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScr"
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVar"
+  },
+  {
+   "method": "GET",
+   "url": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%2214271d6f-ba62-d045-549b-ab972ae1f70e%22%3A%2225%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%3A%221684%22%7D&appDefinitionIdsWithCustomCss=%5B%2249a4ef91-9d6e-43ff-94de-88cb5481cdf5%22%5D&beckyExperiments=.DatePickerPortal%2C.DisableDocumentScr"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "POST",
+   "url": "https://frog.wix.com/bolt-performance"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=23564597"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wixapis.com/oauth2/token-info"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/10789662350/?random=1793012232398&cv=11&fst=1793012232398&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9179015627za20ozb9103639365zd9103639365xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.circana.com%2Fnews&rcb=7&frm=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17907145747/?random=1793012232443&cv=11&fst=1793012232443&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9179015627za20ozb9103639365zd9103639365xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.circana.com%2Fnews&rcb=7&frm=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&auid=4169227.1793012229&dt=Circana%20Insights%20-%20get%20the%20latest%20news%2C%20insights%2C%20blogs%20and%20more&tid=AW-10789662350&en=page_view&dl=https%3A%2F%2Fwww.circana.com%2Fnews&scrsrc=www.googletagmanager.com&rnd=241856451.1793012229&navt=n&npa=0&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&gtm=45be6al1v9179015627za20ozb9103639365zd910"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/auto-frontend-modules/1.6238.0/webworker/manifest-worker.min.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wixapis.com/web50-server/feature-toggles/conduct"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wixapis.com/web5-entitlements/v1/check-quota"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.wixapis.com/web5-entitlements/v1/is-free-plan"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions"
+  },
+  {
+   "method": "GET",
+   "url": "https://ws.zoominfo.com/pixel/68f25dcff66e1a7344b58ee2/?iszitag=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid~core.33cbbd66.bundle.min.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "POST",
+   "url": "https://frog.wix.com/bpm"
+  },
+  {
+   "method": "POST",
+   "url": "https://frog.wix.com/bolt-performance"
+  },
+  {
+   "method": "GET",
+   "url": "https://bundler-velo.parastorage.com/v3_metaSiteId_b19d135b-e8ad-4b92-be29-50998f05e8e1/gridAppId_8bfc4c4b-6b7f-4720-aea4-89872aabea35/filePath_public_delimiter_pages_delimiter_masterPage.js/fileType_js/compression_gzip/depToken_3938/bundlerRuntimeExperiments_bundlerTrafficToAws-typescriptListExportedFunctions/additionalOptions_?init-platform-api-provider=true&get-app-def-id-from-package-name=fals"
+  },
+  {
+   "method": "GET",
+   "url": "https://bundler-velo.parastorage.com/v3_metaSiteId_b19d135b-e8ad-4b92-be29-50998f05e8e1/gridAppId_8bfc4c4b-6b7f-4720-aea4-89872aabea35/filePath_public_delimiter_pages_delimiter_cp26i.js/fileType_js/compression_gzip/depToken_3938/bundlerRuntimeExperiments_bundlerTrafficToAws-typescriptListExportedFunctions/additionalOptions_?init-platform-api-provider=true&get-app-def-id-from-package-name=false&dis"
+  },
+  {
+   "method": "GET",
+   "url": "https://frog.wix.com/platform-viewer?_msid=b19d135b-e8ad-4b92-be29-50998f05e8e1&vsi=58704d2f-321e-4cb4-9a13-0ec9389d7084&_av=thunderbolt-1.18238.0&isb=true&isbr=ua&_siteOwnerId=ad0f454e-57d6-4117-8dd9-38893c531ddc&_viewMode=site&_mt_instance=89KYiYCgaR9uy1wgIoBZV4OZ-3yC4SBcqTg7AhDcjkU.eyJpbnN0YW5jZUlkIjoiYjE5ZDEzNWItZThhZC00YjkyLWJlMjktNTA5OThmMDVlOGUxIiwiYXBwRGVmSWQiOiIyMmJlZjM0NS0zYzViLTRjMTgtYj"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/wix-code-app-registry-global/v1/public-code-config"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/auto-frontend-modules/dist/webworker/auto-frontend-modules.68dbdc1c.umd.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid_bootstrap.6c431abf.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[Container].a2c24b1a.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[ImageX].85962d5d.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[MultiStateBox].a82e426a.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[VectorImage].16172657.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid_forms.5e9c217c.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[ExpandableMenu].e976c718.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[Menu].0b47a082.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerMenuRoot].77d99abb.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerOpenButton].5eac4b55.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerOverlay].70abc909.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerMenuContainer].d88bdc1f.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerMenuContent].f32b4962.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[HamburgerCloseButton].93becfda.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[Submenu].b0eb52f7.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[Section].00b14006.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[SelectionTagsList].0a9a30b8.bundle.min.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://static.parastorage.com/services/editor-elements-library/dist/corvid/rb_wixui.corvid[Pagination].9bb28506.bundle.min.js"
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/wix-code-app-registry-global/v1/public-code-config"
+  },
+  {
+   "method": "GET",
+   "url": "https://frog.wix.com/platform-viewer?_msid=b19d135b-e8ad-4b92-be29-50998f05e8e1&vsi=58704d2f-321e-4cb4-9a13-0ec9389d7084&_av=thunderbolt-1.18238.0&isb=true&isbr=ua&_siteOwnerId=ad0f454e-57d6-4117-8dd9-38893c531ddc&_viewMode=site&_mt_instance=89KYiYCgaR9uy1wgIoBZV4OZ-3yC4SBcqTg7AhDcjkU.eyJpbnN0YW5jZUlkIjoiYjE5ZDEzNWItZThhZC00YjkyLWJlMjktNTA5OThmMDVlOGUxIiwiYXBwRGVmSWQiOiIyMmJlZjM0NS0zYzViLTRjMTgtYj"
+  },
+  {
+   "method": "GET",
+   "url": "https://frog.wix.com/platform-viewer?_msid=b19d135b-e8ad-4b92-be29-50998f05e8e1&vsi=58704d2f-321e-4cb4-9a13-0ec9389d7084&_av=thunderbolt-1.18238.0&isb=true&isbr=ua&_siteOwnerId=ad0f454e-57d6-4117-8dd9-38893c531ddc&_viewMode=site&_mt_instance=89KYiYCgaR9uy1wgIoBZV4OZ-3yC4SBcqTg7AhDcjkU.eyJpbnN0YW5jZUlkIjoiYjE5ZDEzNWItZThhZC00YjkyLWJlMjktNTA5OThmMDVlOGUxIiwiYXBwRGVmSWQiOiIyMmJlZjM0NS0zYzViLTRjMTgtYj"
+  },
+  {
+   "method": "GET",
+   "url": "https://frog.wix.com/platform-viewer?_msid=b19d135b-e8ad-4b92-be29-50998f05e8e1&vsi=58704d2f-321e-4cb4-9a13-0ec9389d7084&_av=thunderbolt-1.18238.0&isb=true&isbr=ua&_siteOwnerId=ad0f454e-57d6-4117-8dd9-38893c531ddc&_viewMode=site&_mt_instance=89KYiYCgaR9uy1wgIoBZV4OZ-3yC4SBcqTg7AhDcjkU.eyJpbnN0YW5jZUlkIjoiYjE5ZDEzNWItZThhZC00YjkyLWJlMjktNTA5OThmMDVlOGUxIiwiYXBwRGVmSWQiOiIyMmJlZjM0NS0zYzViLTRjMTgtYj"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/cloud-data/v2/items/query?.r=eyJkYXRhQ29sbGVjdGlvbklkIjoiQmxvZy9DYXRlZ29yaWVzIiwicXVlcnkiOnsiZmlsdGVyIjp7fSwicGFnaW5nIjp7Im9mZnNldCI6MCwibGltaXQiOjEwMH0sImZpZWxkcyI6W119LCJyZWZlcmVuY2VkSXRlbU9wdGlvbnMiOltdLCJyZXR1cm5Ub3RhbENvdW50Ijp0cnVlLCJlbnZpcm9ubWVudCI6IkxJVkUiLCJhcHBJZCI6IjhiZmM0YzRiLTZiN2YtNDcyMC1hZWE0LTg5ODcyYWFiZWEzNSJ9"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/cloud-data/v2/items/query?.r=eyJkYXRhQ29sbGVjdGlvbklkIjoiQmxvZy9UYWdzIiwicXVlcnkiOnsiZmlsdGVyIjp7fSwicGFnaW5nIjp7Im9mZnNldCI6MCwibGltaXQiOjEwMH0sImZpZWxkcyI6W119LCJyZWZlcmVuY2VkSXRlbU9wdGlvbnMiOltdLCJyZXR1cm5Ub3RhbENvdW50Ijp0cnVlLCJlbnZpcm9ubWVudCI6IkxJVkUiLCJhcHBJZCI6IjhiZmM0YzRiLTZiN2YtNDcyMC1hZWE0LTg5ODcyYWFiZWEzNSJ9"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/cloud-data/v2/items/query?.r=eyJkYXRhQ29sbGVjdGlvbklkIjoiQmxvZy9Qb3N0cyIsInF1ZXJ5Ijp7ImZpbHRlciI6eyIkYW5kIjpbeyIkbm90IjpbeyJjYXRlZ29yaWVzIjp7IiRoYXNBbGwiOlsiNjg1YWViNzdiMmQzMGZkMzU2MWNmYTIwIl19fV19LHsiJG5vdCI6W3siY2F0ZWdvcmllcyI6eyIkaGFzQWxsIjpbIjY5NWQxYjkxYWUyMzZkMmIwZTY2ZmNmOSJdfX1dfSx7IiRub3QiOlt7InRpdGxlIjp7IiRjb250YWlucyI6IkRlbWFuZCBTaWduYWxzIFJlcG9ydDogVW5sb2NrIE"
+  },
+  {
+   "method": "POST",
+   "url": "https://frog.wix.com/bolt-performance"
+  },
+  {
+   "method": "POST",
+   "url": "https://panorama.wixapps.net/api/v1/bulklog"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.circana.com/_api/cloud-data/v2/items/query?.r=eyJkYXRhQ29sbGVjdGlvbklkIjoiQmxvZy9Qb3N0cyIsInF1ZXJ5Ijp7ImZpbHRlciI6eyIkYW5kIjpbeyJtYWluQ2F0ZWdvcnkiOnsiJG5lIjoiNjg1YWViNzdiMmQzMGZkMzU2MWNmYTIwIn19LHsibWFpbkNhdGVnb3J5Ijp7IiRuZSI6IjY5NWQxYjkxYWUyMzZkMmIwZTY2ZmNmOSJ9fSx7IiRub3QiOlt7InRpdGxlIjp7IiRjb250YWlucyI6IkRlbWFuZCBTaWduYWxzIFJlcG9ydDogVW5sb2NrIENQRywgQ29uc3VtZXIgQmVoYXZpb3IgSW5zaWdodH"
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://ws.zoominfo.com/pixel/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-4XTC01D8W0&gtm=45je6al1v9103987675za20gzb9103639365zd9103639365xf1&_p=1793012229279&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj.dZTQ1Zm&ecid=2035671098&_eu=AEAAACQC&ae=a&cid=1516206331.1793012231&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0."
+  },
+  {
+   "method": "POST",
+   "url": "https://k.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://ws.zoominfo.com/pixel/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.circana.com/industries",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/industries/alcoholic-beverages",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/apparel",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/appliances",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/automotive",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/automotive-aftermarket",
+   "text": "Automotive Aftermarket",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/gasoline-consumption",
+   "text": "Gasoline Consumption",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/replacement-tires",
+   "text": "Replacement Tires",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/b2b-technology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/beauty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/books",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/consumer-technology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/fashion-accessories",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/food-and-beverage",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/center-store-and-frozen-foods",
+   "text": "Center Store & Frozen Foods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/perimeter-store-and-fresh-foods",
+   "text": "Perimeter Store & Fresh Foods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/foodservice",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/footwear",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/health-and-wellness",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/home",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/home-improvement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/juvenile-products",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/media-entertainment",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/office-supplies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/pet-care",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/retail",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/sports",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/golf",
+   "text": "Golf",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/tobacco",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/toys",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/video-games",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/industry-index",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/growth-summit-2027",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/technology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/circana-behaviors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/offices",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/leadership",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/board-of-directors",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industry-experts",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.circana.com/careers?filter_department=-Scanscape+Field",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/culture-of-inclusion-and-belonging",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/philanthropy",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/51a29a_d2ec957e16da47bcbb7f8134c6c4e9d6.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_d095a94133de4c018ea36a35c280aa85.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_48a615a870554712b1460c83eae3bdd8.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_47efe184df014c538c87ca7cbc175609.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/code-of-conduct",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/51a29a_78c34ed8725142e58aa79751def2411a.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_d5ea31c5131a49edbad5bd6799c4fb6e.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_caaf92baa1c44b78ad65094017f48080.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_6b47ecd1e7d6405bb18686c00f7e7d5a.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/integrity-line",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_d08f468012f343759f6b84283c5174d8.pdf",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/media-data-requests",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/subscribe",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wearecircana/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/quick-insights",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/market",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-market",
+   "text": "Complete Market",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/store-audit",
+   "text": "Store Audit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/social-commerce",
+   "text": "Social Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "Complete Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "Complete Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-market",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/store-audit",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/social-commerce",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/consumer",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-consumer",
+   "text": "Complete Consumer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/survey",
+   "text": "Survey",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/national-eating-trends",
+   "text": "National Eating Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/crest",
+   "text": "CREST",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "Complete Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "Complete Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-consumer",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/survey",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/national-eating-trends",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/crest",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=accelerate%20demand",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-testing",
+   "text": "Liquid Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/concept-testing",
+   "text": "Concept Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/hendry-market-structure",
+   "text": "Hendry Market Structure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-predictor",
+   "text": "Growth Predictor",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/consumer-decision-tree",
+   "text": "Consumer Decision Tree",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-testing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/concept-testing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/hendry-market-structure",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-predictor",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/consumer-decision-tree",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/marketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/measurement",
+   "text": "Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/retail-media",
+   "text": "Retail Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-audiences",
+   "text": "Complete Audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/liquid-mix",
+   "text": "Liquid Mix",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/marketing-mix",
+   "text": "Marketing Mix",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/media-lift",
+   "text": "Media Lift",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/measurement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/retail-media",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-audiences",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/liquid-mix",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/marketing-mix",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/media-lift",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/analytics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/market-share-drivers",
+   "text": "Market Share Drivers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-why",
+   "text": "Complete Why",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/future-of",
+   "text": "Future of insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-consulting",
+   "text": "Growth Consulting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/forecasting",
+   "text": "Forecasting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/assortment",
+   "text": "Assortment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/price-and-promotion",
+   "text": "Price & Promotion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/market-share-drivers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-why",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/future-of",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-consulting",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/forecasting",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/assortment",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/price-and-promotion",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/supply-chain",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/on-shelf-availability",
+   "text": "On-Shelf Availability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-supply-chain",
+   "text": "Liquid Supply Chain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/on-shelf-availability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-supply-chain",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/ncsolutions",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-enablement",
+   "text": "NCS Enablement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-optimization",
+   "text": "NCS Optimization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-targeting",
+   "text": "NCS Targeting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-measurement",
+   "text": "NCS Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-enablement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-optimization",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-targeting",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-measurement",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=accelerate%20demand",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/technology",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-ai",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-go",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-engage",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-collaborate",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/essential-retailer-insights-for-stronger-collaboration",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/post/cpg-demand-signals-report",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/subscribe",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news?type=Blog",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news?type=press+releases",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news/media-coverage",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/industry-index",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/case-studies",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news?type=reports",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news/product-training",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news/analyst-reports",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/quick-insights",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news?type=webinars",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://event.on24.com/wcc/r/5380894/00214B54D99E2BB34603AE0D81405295",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/post/share-of-sip-mapping-the-beverage-evolution",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/post/sustainability-in-u-s-cpg-inside-the-consumer-mindset",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/news?type=webinars",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/circana-at-cannes-lions-2026",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/make-the-grade",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/keep-your-eye-on-the-ball",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/series/unpredictable-shoppers-predictable-success",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/series/the-2025-trends-redefining-the-industry",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/post/glp-1-medication-users-to-represent-35-percent-of-u-s-food-and-beverage-sales-by-2030",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-research-reveals-snap-households-spend-23-more-annually-on-cpg-food-and-beverages-than-non",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-go",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-go",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/consumer",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/essential-retailer-insights-for-stronger-collaboration",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wearecircana/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.instagram.com/wearecircana",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.youtube.com/@WeAreCircana",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "Contact Us",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.circana.com/subscribe",
+   "text": "Subscribe",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/media-data-requests",
+   "text": "Media Data Requests",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "Contact Us",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "Circana Unpacked",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "Listen to the Circana Unpacked podcast featuring thought leaders across our industries.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "Listen Now",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://feed.podbean.com/iriworldwide/feed.xml",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/cpg-demand-signals-report",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/cpg-demand-signals-report",
+   "text": "Demand Signals Report: Unlock CPG, Consumer Behavior Insights",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/top-10-video-games",
+   "text": "Top 10 Video Games",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/top-10-video-games",
+   "text": "Hardware spending fell 29% when compared to a year ago as all console platforms suffered year-on-year unit declines.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/top-10-books",
+   "text": "Top 10 Books",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/top-10-books",
+   "text": "Adult genre fiction is dominating the bestsellers in 2026 so far, with particular strength across science fiction, thril",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/cpg-demand-signals-report",
+   "text": "Demand Signals Report: Unlock CPG, Consumer Behavior Insights",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/cpg-demand-signals-report",
+   "text": "Monitoring macroeconomic impacts on volume, price, and other aspects of the U.S. CPG industry.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/keep-your-eye-on-the-ball",
+   "text": "Keep Your Eye on the Ball - Connect fan engagement to real-world spending",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub",
+   "text": "Distilling complex sales data into actionable insights",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/series/unpredictable-shoppers-predictable-success",
+   "text": "Unpredictable Shoppers. Predictable Success.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/series/the-2025-trends-redefining-the-industry",
+   "text": "A Collective View of Global Beauty Market Trends",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/ai-measured-the-math-of-ai-winning-as-a-brand-webinar",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/ai-measured-the-math-of-ai-winning-as-a-brand-webinar",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/ai-measured-the-math-of-ai-winning-as-a-brand-webinar",
+   "text": "AI, Measured: The Math of AI: Winning as a Brand Webinar",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/ai-measured-the-math-of-ai-winning-as-a-brand-webinar",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/holiday-2026-consumers-are-planning-earlier-and-spending-more-intentionally",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/holiday-2026-consumers-are-planning-earlier-and-spending-more-intentionally",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/holiday-2026-consumers-are-planning-earlier-and-spending-more-intentionally",
+   "text": "Holiday 2026: Consumers Are Planning Earlier and Spending More Intentionally",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/holiday-2026-consumers-are-planning-earlier-and-spending-more-intentionally",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/co-op-and-circana-extend-strategic-partnership-to-unlock-the-next-generation-of-retail-growth",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/co-op-and-circana-extend-strategic-partnership-to-unlock-the-next-generation-of-retail-growth",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/co-op-and-circana-extend-strategic-partnership-to-unlock-the-next-generation-of-retail-growth",
+   "text": "Co-op and Circana extend strategic partnership to unlock the next generation of retail growth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/co-op-and-circana-extend-strategic-partnership-to-unlock-the-next-generation-of-retail-growth",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+   "text": "Consumer Wellness Trends: Insights from Circana's Wellbeing Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+   "text": "Lynn Petrak",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Health+and+Wellness",
+   "text": "Health and Wellness",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/glp-1-unlocked",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/glp-1-unlocked",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/glp-1-unlocked",
+   "text": "GLP-1 Unlocked",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/glp-1-unlocked",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Food+and+Beverage",
+   "text": "Food and Beverage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-holidays-boost-consumption-what-s-the-opportunity-for-foodservice",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-holidays-boost-consumption-what-s-the-opportunity-for-foodservice",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-holidays-boost-consumption-what-s-the-opportunity-for-foodservice",
+   "text": "China Consumer Sentiment Study Holidays Boost Consumption: What’s the Opportunity for Foodservice?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-holidays-boost-consumption-what-s-the-opportunity-for-foodservice",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Foodservice",
+   "text": "Foodservice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-where-is-foodservice-headed",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-where-is-foodservice-headed",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-where-is-foodservice-headed",
+   "text": "China Consumer Sentiment Study Where Is Foodservice Headed?",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/china-consumer-sentiment-study-where-is-foodservice-headed",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Foodservice",
+   "text": "Foodservice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/insight-led-selling-how-ai-helps-cpg-sales-reps-win-retailer-meetings",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/insight-led-selling-how-ai-helps-cpg-sales-reps-win-retailer-meetings",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/insight-led-selling-how-ai-helps-cpg-sales-reps-win-retailer-meetings",
+   "text": "Insight-led Selling: How AI Helps CPG Sales Reps Win Retailer Meetings",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/insight-led-selling-how-ai-helps-cpg-sales-reps-win-retailer-meetings",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/same-field-different-strategies-how-ai-changes-the-playbook-for-brands-and-retailers",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/same-field-different-strategies-how-ai-changes-the-playbook-for-brands-and-retailers",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/same-field-different-strategies-how-ai-changes-the-playbook-for-brands-and-retailers",
+   "text": "Same Field, Different Strategies: How AI Changes the Playbook for Brands and Retailers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/same-field-different-strategies-how-ai-changes-the-playbook-for-brands-and-retailers",
+   "text": "Circana",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/how-one-truth-set-becomes-a-competitive-advantage",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/how-one-truth-set-becomes-a-competitive-advantage",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/how-one-truth-set-becomes-a-competitive-advantage",
+   "text": "How One Truth Set Becomes a Competitive Advantage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/how-one-truth-set-becomes-a-competitive-advantage",
+   "text": "Jonathan Isca",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-puts-third-party-marketplace-sales-on-the-map-200-billion-of-previously-hidden-demand-now",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-puts-third-party-marketplace-sales-on-the-map-200-billion-of-previously-hidden-demand-now",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-puts-third-party-marketplace-sales-on-the-map-200-billion-of-previously-hidden-demand-now",
+   "text": "Circana Puts Third-Party Marketplace Sales on the Map: $200 Billion of Previously Hidden Demand, Now Measured Weekly",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-puts-third-party-marketplace-sales-on-the-map-200-billion-of-previously-hidden-demand-now",
+   "text": "Stuart Aitken",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=Retail",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/emea-demand-signals-report-unlock-cpg-consumer-behavior-insights",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/emea-demand-signals-report-unlock-cpg-consumer-behavior-insights",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/emea-demand-signals-report-unlock-cpg-consumer-behavior-insights",
+   "text": "DEMAND SIGNALS SPOTLIGHT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/post/emea-demand-signals-report-unlock-cpg-consumer-behavior-insights",
+   "text": "Ananda Roy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/news?industry=CPG",
+   "text": "CPG",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=measure%20demand",
+   "text": "Measure Demand",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=accelerate%20demand",
+   "text": "Accelerate Demand",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wearecircana/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/wearecircana",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/@WeAreCircana",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/industry-index",
+   "text": "Industry Rankings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=Blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=press+releases",
+   "text": "Press Releases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=media+coverage",
+   "text": "Media Coverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=webinars",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=entertainment+monthly+insights",
+   "text": "Entertainment Monthly Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news/product-training",
+   "text": "Product Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news/analyst-reports",
+   "text": "Analyst Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "Solution Selector",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=measure%20demand",
+   "text": "Measure Demand",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions?tab=accelerate%20demand",
+   "text": "Accelerate Demand",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/circana-behaviors",
+   "text": "Our Behaviors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/culture-of-inclusion-and-belonging",
+   "text": "Culture of Inclusion and Belonging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/philanthropy",
+   "text": "Philanthropy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company",
+   "text": "Company",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/offices",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ncsolutions.com/services-privacy-statement/",
+   "text": "Services Privacy Statement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ncsolutions.com/california-privacy-statement/",
+   "text": "California Privacy Statement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ncsolutions.com/do-not-sell-my-information/",
+   "text": "Do Not Sell My Information",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ncsolutions.com/request-information/",
+   "text": "Request for Information",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/careers",
+   "text": "Circana Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.circana.com/careers?filter_department=-Scanscape+Field",
+   "text": "Job Openings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/terms-and-conditions",
+   "text": "Terms of Use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/the-circana-group-global-privacy-policy-and-notice",
+   "text": "Privacy Notices",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/ad0f45_004149eac3b04d61b7512da165c9eec8.pdf",
+   "text": "Modern Slavery Statement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/_files/ugd/51a29a_4073dc99aca045c09bc2ffd878639b21.pdf",
+   "text": "Data Privacy Framework",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://privacyportal.onetrust.com/webform/95580356-b46a-4234-8f47-d824de4dbbc6/2de05774-2e3d-45b0-a7c2-45bb6ba50ab1",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://privacyportal.onetrust.com/webform/95580356-b46a-4234-8f47-d824de4dbbc6/3aabe289-acb0-490c-98ff-401c081d5000",
+   "text": "Your Privacy Choices",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-go",
+   "text": "Liquid Data Go",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.circana.com/",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=Blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=press+releases",
+   "text": "Press Releases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=webinars",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/case-studies",
+   "text": "Case Studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news/media-coverage",
+   "text": "Media Coverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/podcast",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/quick-insights",
+   "text": "Quick Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/behind-the-wrapper",
+   "text": "Behind the Wrapper",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/series/the-2025-trends-redefining-the-industry",
+   "text": "A Collective View of Global Beauty Market Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/series/unpredictable-shoppers-predictable-success",
+   "text": "Unpredictable Shoppers. Predictable Success.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub",
+   "text": "View All",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/holiday-consumer-trends",
+   "text": "Holiday Consumer Shopping Predictions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/health-and-wellness-market-trends",
+   "text": "Health and Wellness Market Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/media-solutions-that-drive-real-outcomes",
+   "text": "Media Solutions That Drive Real Outcomes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/supply-chain-management-strategies",
+   "text": "Supply Chain Management Strategies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/audience-targeting-strategies",
+   "text": "Audience Targeting Strategies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/data-accuracy",
+   "text": "Ensuring Data Accuracy for Your Marketing Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/marketing-mix-modeling-strategies",
+   "text": "Marketing Mix Modeling Strategies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/supply-chain-disruptions",
+   "text": "Supply Chain Disruptions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/tariffs-and-the-global-economy",
+   "text": "Tariffs and the Global Economy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/hispanic-consumer-data",
+   "text": "Hispanic Consumer Data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/glp-1s-consumer-behavior",
+   "text": "GLP-1s and Consumer Behavior/Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/insights-hub/tv-advertising-strategies",
+   "text": "TV Advertising Strategies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/subscribe",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news/analyst-reports",
+   "text": "Analyst Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news/product-training",
+   "text": "Product Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industry-index",
+   "text": "Industry Rankings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions-selector",
+   "text": "Solution Recommender",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/market",
+   "text": "Market",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-market",
+   "text": "Complete Market",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/store-audit",
+   "text": "Store Audit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/social-commerce",
+   "text": "Social Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "Complete Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "Complete Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/consumer",
+   "text": "Consumer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-consumer",
+   "text": "Complete Consumer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-beauty",
+   "text": "Complete Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/survey",
+   "text": "Survey",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-food-and-beverage",
+   "text": "Complete Food & Beverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/crest",
+   "text": "CREST",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/national-eating-trends",
+   "text": "National Eating Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/innovation",
+   "text": "Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-testing",
+   "text": "Liquid Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/concept-testing",
+   "text": "Concept Testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/hendry-market-structure",
+   "text": "Hendry Market Structure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-predictor",
+   "text": "Growth Predictor",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/consumer-decision-tree",
+   "text": "Consumer Decision Tree",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/measurement",
+   "text": "Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/retail-media",
+   "text": "Retail Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-audiences",
+   "text": "Complete Audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/liquid-mix",
+   "text": "Liquid Mix",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/marketing-mix",
+   "text": "Marketing Mix",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/media-lift",
+   "text": "Media Lift",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/analytics",
+   "text": "Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/market-share-drivers",
+   "text": "Market Share Drivers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/complete-why",
+   "text": "Complete Why",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/future-of",
+   "text": "Future of",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/growth-consulting",
+   "text": "Growth Consulting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/forecasting",
+   "text": "Forecasting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/assortment",
+   "text": "Assortment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/price-and-promotion",
+   "text": "Price & Promotion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/supply-chain",
+   "text": "Supply Chain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/on-shelf-availability",
+   "text": "On-Shelf Availability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-supply-chain",
+   "text": "Liquid Supply Chain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solution-areas/ncsolutions",
+   "text": "NCSolutions Portfolio",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-optimization",
+   "text": "NCS Optimization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-measurement",
+   "text": "NCS Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-enablement",
+   "text": "NCS Enablement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/ncs-targeting",
+   "text": "NCS Targeting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/marketing-mix-modeling",
+   "text": "MMM Solution Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/post/circana-completes-acquisition-of-nielsen-s-marketing-mix-modeling-business",
+   "text": "MMM Press Release",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-go",
+   "text": "Liquid Data Go",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-engage",
+   "text": "Liquid Data Engage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-ai",
+   "text": "Liquid AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-data-collaborate",
+   "text": "Liquid Data Collaborate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/technology",
+   "text": "Our DNA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/solutions/liquid-ai",
+   "text": "Liquid AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industry-index",
+   "text": "Industry Rankings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/automotive",
+   "text": "Automotive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/automotive-aftermarket",
+   "text": "Automotive Aftermarket",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/gasoline-consumption",
+   "text": "Gasoline Consumption",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/replacement-tires",
+   "text": "Replacement Tires",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/books",
+   "text": "Books",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/media-entertainment",
+   "text": "Media Entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/toys",
+   "text": "Toys",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/video-games",
+   "text": "Video Games",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/alcoholic-beverages",
+   "text": "Alcoholic Beverages",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/food-and-beverage",
+   "text": "Consumption",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/center-store-and-frozen-foods",
+   "text": "Center Store and Frozen Foods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/perimeter-store-and-fresh-foods",
+   "text": "Perimeter Store and Fresh Foods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/foodservice",
+   "text": "Foodservice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/appliances",
+   "text": "Appliances",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/home",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/home-improvement",
+   "text": "Home Improvement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/office-supplies",
+   "text": "Office Supplies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/apparel",
+   "text": "Apparel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/beauty",
+   "text": "Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/fashion-accessories",
+   "text": "Fashion Accessories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/footwear",
+   "text": "Footwear",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/health-and-wellness",
+   "text": "Health and Wellness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/juvenile-products",
+   "text": "Juvenile Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/pet-care",
+   "text": "Pet Care",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/retail",
+   "text": "Retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/sports",
+   "text": "Sports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/tobacco",
+   "text": "Tobacco",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/b2b-technology",
+   "text": "B2B Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industries/consumer-technology",
+   "text": "Consumer Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/leadership",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/board-of-directors",
+   "text": "Board of Directors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/industry-experts",
+   "text": "Industry Experts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/news?type=press+releases",
+   "text": "Press Releases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/growth-summit-2027",
+   "text": "Growth Summit 2027",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company",
+   "text": "Company",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/circana-behaviors",
+   "text": "Our Behaviors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/offices",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/careers",
+   "text": "Circana Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.circana.com/careers?filter_department=-Scanscape+Field",
+   "text": "Job Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/culture-of-inclusion-and-belonging",
+   "text": "Culture of Inclusion and Belonging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/philanthropy",
+   "text": "Philanthropy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://b19d135b-e8ad-4b92-be29-50998f05e8e1.filesusr.com/ugd/ad0f45_594cd9587c7f48ad82d321879242d7e2.pdf?__hstc=73623117.512d8c3c375bf53f719d076c269c5c52.1793012233647.1793012233647.1793012233647.1&__hssc=73623117.1.1793012233647&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/code-of-conduct",
+   "text": "Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://b19d135b-e8ad-4b92-be29-50998f05e8e1.filesusr.com/ugd/ad0f45_caaf92baa1c44b78ad65094017f48080.pdf?__hstc=73623117.512d8c3c375bf53f719d076c269c5c52.1793012233647.1793012233647.1793012233647.1&__hssc=73623117.1.1793012233647&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Gov' Contracting Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://b19d135b-e8ad-4b92-be29-50998f05e8e1.filesusr.com/ugd/ad0f45_1f3964b0ba604d2baa28cf0f30a87efd.pdf?__hstc=73623117.512d8c3c375bf53f719d076c269c5c52.1793012233647.1793012233647.1793012233647.1&__hssc=73623117.1.1793012233647&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Modern Slavery Statement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/integrity-line",
+   "text": "Global Compliance Helpline",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "Contact Us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/media-data-requests",
+   "text": "Media Data Requests",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.circana.com/subscribe",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wearecircana/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/wearecircana/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youtube.com/@WeAreCircana",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.circana.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.circana.com/company/contact-us",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/company/wearecircana/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/wearecircana",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youtube.com/@WeAreCircana",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.circana.com/the-circana-group-global-privacy-policy-and-notice",
+   "text": "Privacy Notice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

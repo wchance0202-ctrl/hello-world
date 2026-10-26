@@ -1,0 +1,1014 @@
+{
+ "url": "https://www.thinkbox.tv/research",
+ "observed_at": "2026-10-26T11:02:53.035Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.thinkbox.tv/research",
+ "status": 200,
+ "error": null,
+ "title": "Research",
+ "h1": "Research",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 174,
+   "new_in_prefix": 174,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 174,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.thinkbox.tv/api/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.thinkbox.tv/api/graphql"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/static/css/bfbc09307378af05.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://0fkhqheg69-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.25.3)%3B%20Browser%3B%20instantsearch.js%20(4.84.0)%3B%20react%20(18.3.1)%3B%20react-instantsearch%20(7.20.0)%3B%20react-instantsearch-core%20(7.20.0)%3B%20next.js%20(14.2.33)%3B%20JS%20Helper%20(3.26.1)"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/index.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/why-tv.json?category=why-tv"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/case-studies.json?category=case-studies"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/creative.json?category=creative"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/news-and-opinion.json?category=news-and-opinion"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about/contact.json?slug=contact"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/getting-on-tv.json?category=getting-on-tv"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/how-to-use-tv.json?category=how-to-use-tv"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/research.json?category=research"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/training-and-tools.json?category=training-and-tools"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/thinkbox-tv-ads.json?category=thinkbox-tv-ads"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/measurement/conversion?random=1793012576616&cv=11&tid=G-FGWCVBRZDH&fst=1793012576616&fmt=8&en=page_view&gtm=45je6al1v895002346za20ozb71605244zd71605244xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.thinkbox.tv%2Fresearch&gacid=345361151.1793012577"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/measurement/conversion?random=1793012576616&cv=11&tid=G-FGWCVBRZDH&fst=1793012576616&fmt=8&en=first_visit&gtm=45je6al1v895002346za20ozb71605244zd71605244xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.thinkbox.tv%2Fresearch&gacid=345361151.17930125"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/measurement/conversion?random=1793012576616&cv=11&tid=G-FGWCVBRZDH&fst=1793012576616&fmt=8&en=session_start&gtm=45je6al1v895002346za20ozb71605244zd71605244xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.thinkbox.tv%2Fresearch&gacid=345361151.179301"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-FGWCVBRZDH&gtm=45je6al1v895002346za20ozb71605244zd71605244xf1&_p=1793012574931&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=345361151.1793012577&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=314447079&t=pageview&_s=1&dl=https%3A%2F%2Fwww.thinkbox.tv%2Fresearch&ul=en-us&dt=Research&sr=1280x720&vp=1280x720&_u=YADAAAABAAAAAC~&jid=1538731344&gjid=1021420039&cid=345361151.1793012577&tid=UA-324382-1&_gid=885468574.1793012577&_r=1&_slc=1&gtm=45He6al1n71MJ9H43v71605244za200zd71605244xf1&cd1=Logged%20out&gcd=13l3l3l3l1l1&dma=0&tag_exp=11"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/api/algolia/most-searched?limit=5"
+  },
+  {
+   "method": "POST",
+   "url": "https://0fkhqheg69-3.algolianet.com/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.25.3)%3B%20Browser%3B%20instantsearch.js%20(4.84.0)%3B%20react%20(18.3.1)%3B%20react-instantsearch%20(7.20.0)%3B%20react-instantsearch-core%20(7.20.0)%3B%20next.js%20(14.2.33)%3B%20JS%20Helper%20(3.26.1)"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/measurement/conversion?random=1793012582149&cv=11&tid=G-FGWCVBRZDH&fst=1793012582149&fmt=8&en=scroll&gtm=45je6al1v895002346za20gzb71605244zd71605244xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.thinkbox.tv%2Fresearch&gacid=345361151.1793012577&hn"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-FGWCVBRZDH&gtm=45je6al1v895002346za20gzb71605244zd71605244xf1&_p=1793012574931&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&_prs=ok&ae=a&cid=345361151.1793012577&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about/terms-and-conditions.json?slug=terms-and-conditions"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about/cookie-policy.json?slug=cookie-policy"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about/privacy-policy.json?slug=privacy-policy"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.thinkbox.tv/_next/data/1u_BeKX_5vBOCRnN0k0ws/about/environmental-sustainability.json?slug=environmental-sustainability"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.thinkbox.tv/",
+   "text": "Thinkbox",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/search?q=attention",
+   "text": "attention",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/search?q=food",
+   "text": "food",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/search?q=cinema",
+   "text": "cinema",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/search?q=netflix",
+   "text": "netflix",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/search?q=mood",
+   "text": "mood",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables/tv-advertisings-ultimate-nickable-charts",
+   "text": "Ultimate nickable charts.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/media-mix-navigator",
+   "text": "Media Mix Navigator.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/top-programmes-report",
+   "text": "Top programmes report.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/top-ads-report",
+   "text": "Top ads report.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv",
+   "text": "5 steps to getting on TV.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/training/tv-masters-our-online-training-course",
+   "text": "TV Masters.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/news-and-opinion/events",
+   "text": "Events.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/news-and-opinion/tv-planning-awards",
+   "text": "TV Planning Awards.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/thinkbox-tv-ads",
+   "text": "Thinkbox TV ads.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/team",
+   "text": "Meet the team.",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/why-tv",
+   "text": "Why TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics/different-ways-to-use-tv",
+   "text": "Different ways to use TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content/content-partnerships/content-partnerships-overview",
+   "text": "Content partnerships overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv",
+   "text": "Getting on TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me",
+   "text": "Is TV advertising right for me?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me/tv-advertising-is-for-everyone",
+   "text": "TV advertising is for everyone",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me/how-tv-generates-business-growth",
+   "text": "How TV generates business growth",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me/making-an-affordable-tv-ad",
+   "text": "Making an affordable TV ad",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me/how-to-test-tv-advertising",
+   "text": "How to test TV advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/is-tv-advertising-right-for-me/new-to-tv-success-stories",
+   "text": "New to TV success stories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics",
+   "text": "TV advertising basics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics/tv-ads-explained",
+   "text": "TV ads explained",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics/different-ways-to-use-tv",
+   "text": "Different ways to use TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics/cost-of-tv-advertising",
+   "text": "Cost of TV advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/tv-advertising-basics/targeting-explained",
+   "text": "Targeting explained",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv",
+   "text": "5 steps to getting on TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv/1-define-your-marketing-objectives",
+   "text": "1. Define your marketing objectives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv/2-choose-a-partner-to-work-with",
+   "text": "2. Choose a partner to work with",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv/3-decide-on-your-strategy",
+   "text": "3. Decide on your strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv/4-make-a-tv-ad",
+   "text": "4. Make a TV ad",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv/5-steps-to-getting-on-tv/5-measure-results-and-review",
+   "text": "5. Measure results and review",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv",
+   "text": "How to use TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots",
+   "text": "Spots",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/introduction-to-spot-advertising",
+   "text": "Introduction to spot advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/reach-and-frequency",
+   "text": "Reach and frequency",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/tv-advertising-time-lengths",
+   "text": "TV advertising time lengths",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/flighting-how-best-to-spread-your-ratings-across-a-campaign",
+   "text": "Flighting: How best to spread your ratings across a campaign",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/ad-break-innovation",
+   "text": "Ad break innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/spots/innovation-of-the-month",
+   "text": "Innovation of the Month: The TV Hijack - How Benenden Health paused the nation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod",
+   "text": "BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod/introduction-to-bvod",
+   "text": "Introduction to BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod/reasons-for-using-bvod",
+   "text": "Reasons for using BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod/creative-opportunities-in-bvod",
+   "text": "Creative opportunities in BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod/buying-bvod",
+   "text": "Buying BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/bvod/reporting-metrics-for-bvod",
+   "text": "Reporting metrics for BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content",
+   "text": "Sponsorship & content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content/content-partnerships",
+   "text": "Content partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content/tv-sponsorship",
+   "text": "TV Sponsorship",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content/afp-and-branded-content",
+   "text": "AFP and branded content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/sponsorship-and-content/product-placement",
+   "text": "Product placement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv",
+   "text": "Advanced TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/what-is-advanced-tv",
+   "text": "What is advanced TV?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/why-use-advanced-tv",
+   "text": "Why use advanced TV?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/advanced-tv-in-practice",
+   "text": "Advanced TV in practice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/buying-advanced-tv-advertising",
+   "text": "Buying advanced TV advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/the-advanced-tv-toolkit",
+   "text": "The advanced TV toolkit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/broadcaster-solutions",
+   "text": "Broadcaster solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/advanced-tv/measurement-cflight",
+   "text": "CFlight: measuring reach & frequency across linear TV & BVOD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact",
+   "text": "TV’s positive impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/introduction-to-accessible-tv-advertising",
+   "text": "Introduction to accessible TV advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/how-to-make-tv-ads-accessible",
+   "text": "How to make TV ads accessible",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/accessible-tv-advertising-on-uk-tv",
+   "text": "Accessible TV advertising on UK TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/how-advertising-can-address-the-climate-crisis-the-greenprint-by-itv-system1",
+   "text": "How advertising can address the climate crisis: The Greenprint, by ITV/System1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/tv-and-climate-action",
+   "text": "TV and climate action",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/channel-4s-change-climate-season",
+   "text": "Channel 4’s Change Climate Season",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/accessibility-tv-ad-collection-redirect",
+   "text": "Accessibility: TV ad collection",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/sustainability-ad-collection-redirect",
+   "text": "Sustainability ad collection",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables/tv-advertisings-ultimate-nickable-charts",
+   "text": "TV advertising’s ultimate nickable charts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/news-and-opinion/newsroom/nickable-studies-thinkbox-research-2025",
+   "text": "Nickable Studies: Thinkbox research 2025",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research",
+   "text": "Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research",
+   "text": "Thinkbox research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/staying-power-the-longevity-of-advertising",
+   "text": "Staying Power: The longevity of advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/cultural-advantage",
+   "text": "Cultural Advantage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/from-brand-to-bland",
+   "text": "Why brands still matter: Insights from ‘From Brand to Bland 2’",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/profit-ability-2-the-new-business-case-for-advertising",
+   "text": "Profit Ability 2: The new business case for advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/context-effects",
+   "text": "Context Effects",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/earning-attention",
+   "text": "Earning Attention",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/the-drivers-of-profitability",
+   "text": "The drivers of profitability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/creative-drivers-of-effectiveness",
+   "text": "Creative Drivers of Effectiveness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/bvod-almighty-reach-and-return",
+   "text": "BVOD Almighty: Reach and Return",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/adnormal-behaviour",
+   "text": "Adnormal Behaviour",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/the-tv-playbook-for-online-businesses",
+   "text": "The TV playbook for online businesses",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/signalling-success",
+   "text": "Signalling Success",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/as-seen-on-tv-supercharging-your-small-business",
+   "text": "As Seen on TV: supercharging your small business",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/a-matter-of-time-the-importance-of-time-length-in-tv-advertising",
+   "text": "A Matter of Time: the importance of time-length in TV advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/the-age-of-television-the-needs-that-drive-us",
+   "text": "The Age of Television: the needs that drive us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/get-with-the-programmes",
+   "text": "Get with the programmes: the Thinkbox guide to TV partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/marketing-effectiveness-in-the-digital-era-media-in-focus",
+   "text": "Marketing Effectiveness in the Digital Era: Media in Focus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/tv-response-new-rules-new-roles",
+   "text": "TV Response: new rules, new roles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/thinkbox-research/the-long-and-the-short-of-it",
+   "text": "The long and the short of it",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/the-growth-gap-report",
+   "text": "The Growth Gap report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/the-value-of-tv-a-behavioural-science-perspective",
+   "text": "The Value of TV: A Behavioural Science Perspective",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/profit-ability-2-the-new-business-case-for-advertising-report",
+   "text": "Download the full Profit Ability 2: The new business case for advertising report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/tv-is-at-the-heart-of-effectiveness-whitepaper-by-peter-field",
+   "text": "TV is at the heart of effectiveness white paper by Peter Field",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/from-good-to-great-improving-the-odds",
+   "text": "From Good to Great: Improving the Odds",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/giving-attention-a-little-attention-download-the-white-paper",
+   "text": "Giving attention a little attention: download the white paper",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/effectiveness-in-context-free-download",
+   "text": "Effectiveness in Context: free download",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/reports/media-in-focus-free-download",
+   "text": "Media in Focus: free download",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts",
+   "text": "Nickable Charts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/addressable",
+   "text": "Addressable",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/viewing-and-audiences",
+   "text": "Viewing & Audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/ultimate-nickables",
+   "text": "Ultimate Nickables",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/sector-specific",
+   "text": "Sector Specific",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/creativity",
+   "text": "Creativity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/nickable-charts/effectiveness-and-planning",
+   "text": "Effectiveness & Planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film",
+   "text": "Charts on film",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/the-effects-of-group-size-on-perceived-humour",
+   "text": "The Effects of Group Size on Perceived Humour",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/the-effect-of-mood-and-stress-on-ad-awareness",
+   "text": "The Effect of Mood and Stress on Ad Awareness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/the-immediate-and-carry-over-effects-of-advertising",
+   "text": "The immediate and carryover effects of advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/tv-has-the-highest-saturation-point",
+   "text": "TV has the highest saturation point",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/advertising-effectiveness-shifts-post-covid-have-been-incremental",
+   "text": "Advertising effectiveness shifts post-covid have been incremental",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/profitability-varies-by-media-channel",
+   "text": "Profitability varies by media channel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/identifying-the-reach-extenders",
+   "text": "Identifying the reach extenders",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/factors-driving-roi",
+   "text": "Factors driving ROI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/the-needs-that-drive-viewing",
+   "text": "The needs that drive viewing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research/charts-on-film/media-signalling",
+   "text": "Media Signalling",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/media-mix-navigator",
+   "text": "Media Mix Navigator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/strategies-for-marketing-through-a-downturn",
+   "text": "Strategies for marketing through a downturn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools",
+   "text": "Training & tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator",
+   "text": "Media Mix Navigator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/media-mix-navigator",
+   "text": "Media Mix Navigator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/what-is-the-media-mix-navigator",
+   "text": "What is the Media Mix Navigator?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/when-to-use-the-media-mix-navigator",
+   "text": "When to use the Media Mix Navigator",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/media-mix-navigator-there-are-no-guarantees-but-there-is-guidance",
+   "text": "Media Mix Navigator: There are no guarantees, but there is guidance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/media-mix-navigator/media-mix-navigator-its-a-guide-not-gospel",
+   "text": "Media Mix Navigator: it’s a guide, not gospel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data",
+   "text": "Barb data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/profile-report",
+   "text": "Profile report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/reach-report",
+   "text": "Reach report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/top-ads-report",
+   "text": "Top ads report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/top-programmes-report",
+   "text": "Top programmes report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/barb-the-gold-standard-in-media-research",
+   "text": "Barb: the industry’s standard for understanding what people watch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/barb-data/barb-glossary",
+   "text": "Barb Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/training",
+   "text": "Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/training/tv-masters-our-online-training-course",
+   "text": "TV Masters: our online training course",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/training/bespoke-advertiser-training",
+   "text": "Bespoke advertiser training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/training/other-useful-training",
+   "text": "Other useful training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources",
+   "text": "Useful resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/the-cultural-compass",
+   "text": "The Cultural Compass Tool",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/strategies-for-marketing-through-a-downturn",
+   "text": "Strategies for marketing through a downturn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/how-to-calculate-cpts",
+   "text": "How to calculate CPTs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/how-tv-is-traded",
+   "text": "How TV is traded",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/tv-channels-and-sales-house-contacts",
+   "text": "TV channels and sales house contacts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools/useful-resources/audience-profiles",
+   "text": "Audience profiles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/case-studies",
+   "text": "Case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/creative",
+   "text": "Creative",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/news-and-opinion",
+   "text": "News & Opinion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/contact",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/",
+   "text": "Thinkbox",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/why-tv",
+   "text": "Why TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/getting-on-tv",
+   "text": "Getting on TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/how-to-use-tv",
+   "text": "How to use TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/research",
+   "text": "Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/training-and-tools",
+   "text": "Training & tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/case-studies",
+   "text": "Case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/creative",
+   "text": "Creative",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/news-and-opinion",
+   "text": "News & Opinion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about#thinkboxs-shareholders",
+   "text": "Our Shareholders",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/thinkbox-tv-ads",
+   "text": "Thinkbox TV ads",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/thinkbox/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://bsky.app/profile/thinkbox.tv",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/terms-and-conditions",
+   "text": "Terms & Conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/cookie-policy",
+   "text": "Cookie Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.thinkbox.tv/about/environmental-sustainability",
+   "text": "Environmental Sustainability",
+   "region": "NAV"
+  }
+ ]
+}

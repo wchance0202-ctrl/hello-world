@@ -1,0 +1,763 @@
+{
+ "url": "https://www.comscore.com/Insights/Blog",
+ "observed_at": "2026-10-26T10:57:05.015Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.comscore.com/Insights/Blog",
+ "status": 200,
+ "error": null,
+ "title": "Blog - Comscore, Inc.",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 135,
+   "new_in_prefix": 135,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 135,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=1954645128.1793012227&dt=Blog%20-%20Comscore%2C%20Inc.&en=page_view&dl=https%3A%2F%2Fwww.comscore.com%2FInsights%2FBlog&scrsrc=www.googletagmanager.com&rnd=957876634.1793012227&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v71861243za200zd71861243xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~11889793"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1954645128.1793012227&gtm=45He6al1v71861243za200zd71861243xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZLVS5VTRQ7&gtm=45je6al1v890883970za20ozb71861243zd71861243xf1&_p=1793012226095&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1393112999.1793012228&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/950171744/?random=1793012228567&cv=11&fst=1793012228567&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871861243za20gzb71861243zd71861243xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.comscore.com%"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/950171744/?random=1467390034&cv=11&fst=1793012228567&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871861243za20gzb71861243zd71861243xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.co"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.userway.org/api/v1/tunings/cX7HzpZnJR"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/950171744/?random=1467390034&cv=11&fst=1793012228567&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6al1z871861243za20gzb71861243zd71861243xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.comscore.com%2FInsights"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.userway.org/widgetapp/2026-09-29-10-33-22/locales/en-US.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.userway.org/remediations/consolidated/1471460/nfhbL9tNasvnqhpx.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.userway.org/remediations/consolidated/1471460/nfhbL9tNasvnqhpx.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn77.api.userway.org/api/img-dscr/v2/cX7HzpZnJR/1471460/SsnVWnWST4drN44G/alts.json?dto=%7B%22sorted%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fwww.comscore.com%2Fcontent%2Fdownload%2F10745%2Fsvg_icon%2FActivation.svg%22%2C%22alt%22%3A%22Programmatic%20Targeting%22%2C%22dir%22%3A%22RO%22%7D%2C%7B%22src%22%3A%22https%3A%2F%2Fwww.comscore.com%2Fcontent%2Fdownload%2F13699%2Fsvg_icon%2Fdigital-01"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.userway.org/api/br-links/v0/links/1471460"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZLVS5VTRQ7&gtm=45je6al1v890883970z871861243za20gzb71861243zd71861243xf1&_p=1793012226095&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&cid=1393112999.1793012228&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.userway.org/api/a11y-data/v0/page/https%3A%2F%2Fwww.comscore.com%2FInsights%2FBlog/DESKTOP/WIDGET_ON/status"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.comscore.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Creators",
+   "text": "Creators",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Advertising",
+   "text": "AdvertisingMeasure and evaluate advertising across platforms",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/CTV",
+   "text": "CTVConnect the dots for CTV across all screens",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Digital",
+   "text": "DigitalMeasure digital audiences for all content types",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Marketing-Impact",
+   "text": "Marketing ImpactMaximize marketing effectiveness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Programmatic-Targeting",
+   "text": "Programmatic TargetingPowerful programmatic tools to target cross-platform audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Social",
+   "text": "SocialUnderstand the value of social media audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Television",
+   "text": "TelevisionGet a complete view of television audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Automotive",
+   "text": "Automotive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/CPG",
+   "text": "CPG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Digital-Media",
+   "text": "Digital Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Financial-Services",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Gaming",
+   "text": "Gaming",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Local-Media",
+   "text": "Local Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Pharmaceutical",
+   "text": "Pharmaceutical",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Political",
+   "text": "Political",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Retail",
+   "text": "Retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Technology",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Products/Travel",
+   "text": "Travel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Case Studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Case-Studies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Rankings",
+   "text": "Rankings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+   "text": "Presentations & Whitepapers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/communication-preference-center",
+   "text": "Join our Email List",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Advocacy-Political-Solutions",
+   "text": "Advocacy & Political Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Instant-Insights",
+   "text": "Instant Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Streaming",
+   "text": "Streaming",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Sports",
+   "text": "Sports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-Score-Report",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Presentations-and-Whitepapers/2026/The-Score-Report",
+   "text": "The Score Report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Events-and-Webinars",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Press-Room",
+   "text": "Press Room",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Leadership",
+   "text": "Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ir.comscore.com/",
+   "text": "Investor Relations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/office-locations",
+   "text": "Locations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Privacy",
+   "text": "Privacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Security",
+   "text": "Security",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Third-Party-Review",
+   "text": "Third-Party Accreditation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Careers",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/About/Careers/Job-Opportunities",
+   "text": "Job Opportunities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "Proximic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/home",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "ENGLISH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/ger/Insights/Blog",
+   "text": "Deutsch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/lat/Prensa-y-Eventos/Blog",
+   "text": "Español (América Latina)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/esl/Prensa-y-Eventos/Blog",
+   "text": "Español (España)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/fre/Perspectives/Blog",
+   "text": "Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/ita/Public-Relations/Blog",
+   "text": "Italiano",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/por/Insights/Blog",
+   "text": "Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "LOGIN",
+   "region": "NAV"
+  },
+  {
+   "href": "https://my.comscore.com/welcome/",
+   "text": "My Comscore Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://tv.comscore.com/",
+   "text": "Comscore TV",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ondemand.rentrak.com/login.html",
+   "text": "OnDemand Essentials",
+   "region": "NAV"
+  },
+  {
+   "href": "https://core.comscore.com/login/shareablee?next=/v2/insight-studio/view",
+   "text": "Shareablee",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/layout/set/popup/Request/Contact/Contact-Us",
+   "text": "CONTACT US",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#search_collapse",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Slow-Death-of-Age-and-Gender",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Slow-Death-of-Age-and-Gender",
+   "text": "Read more",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Summer-Signals",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Summer-Signals",
+   "text": "BLOG\n\nSummer Signals: Comscore’s Reading Guide to the Season That Was",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Audio-Activated",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Audio-Activated",
+   "text": "BLOG\n\nAudio, Activated: Expanding the Intelligence Layer for Omnichannel Advertising",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-New-Front-Door-to-Financial-Decision-Making",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-New-Front-Door-to-Financial-Decision-Making",
+   "text": "29 JUL 2026\n\nThe New Front Door to Financial Decision Making:...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Predictive-Audiences-and-Contextual-Targeting",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Predictive-Audiences-and-Contextual-Targeting",
+   "text": "15 JUL 2026\n\nPredictive Audiences and Contextual Targeting:...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Marketings-Next-Era",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Marketings-Next-Era",
+   "text": "9 JUL 2026\n\nMarketing's Next Era: How AI and Creators are...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/TV-Measurement-Has-Entered-Its-Next-Era",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/TV-Measurement-Has-Entered-Its-Next-Era",
+   "text": "18 JUN 2026\n\nTV Measurement Has Entered Its Next Era",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Last-Click-Factor",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Last-Click-Factor",
+   "text": "15 JUN 2026\n\nThe Last Click Factor: How Consumers Are Outsourcing...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Consumer-AI-Chatbots-Keep-Climbing-in-March",
+   "text": "26 MAY 2026\n\nConsumer AI Chatbots Keep Climbing in March —...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#refine_filter_form",
+   "text": "SEARCH & FILTER",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Upfronts-2026-and-the-Architecture-for-Modern-Measurement",
+   "text": "21 MAY 2026\n\nUpfronts 2026 and the Architecture for Modern Measurement",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/From-Connected-to-Intelligent",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/From-Connected-to-Intelligent",
+   "text": "14 JAN 2026\n\nFrom Connected to Intelligent: What CES 2026 Revealed About the Future of M...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/How-Local-Sports-Fuel-the-Heartbeat-of-Fandom",
+   "text": "20 OCT 2025\n\nHow Local Sports Fuel the Heartbeat of Fandom",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Were-Ready-for-What-s-Next",
+   "text": "11 SEP 2025\n\nWe’re Ready for What’s Next: Why It’s Time to Evolve Measurement",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/RIPGRPs-Evolving-the-Metrics-That-Move-Us-Forward",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/RIPGRPs-Evolving-the-Metrics-That-Move-Us-Forward",
+   "text": "27 JUN 2025\n\n#RIPGRPs: Evolving the Metrics That Move Us Forward",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Local-Is-Where-Currency-Begins",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Local-Is-Where-Currency-Begins",
+   "text": "12 JUN 2025\n\nLocal Is Where Currency Begins",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Rise-of-AI-Tools",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/The-Rise-of-AI-Tools",
+   "text": "11 JUN 2025\n\nThe Rise of AI Tools: A View of U.S. Consumer Adoption and Application",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Currency-for-How-Media-Actually-Works-Today",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Currency-for-How-Media-Actually-Works-Today",
+   "text": "3 JUN 2025\n\nCurrency for How Media Actually Works Today",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/CIMM-East-Highlights-and-Currency-Clarity",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/CIMM-East-Highlights-and-Currency-Clarity",
+   "text": "17 APR 2025\n\nCIMM East Highlights & Currency Clarity",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Flexible-by-Design",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog/Flexible-by-Design",
+   "text": "3 APR 2025\n\nFlexible by Design: Building Standards That Fit a Multi-Currency World",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog?",
+   "text": "1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog?page=2",
+   "text": "2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog?page=3",
+   "text": "3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "...",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog?page=53",
+   "text": "53",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/Blog#",
+   "text": "NEXT\n»",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.comscore.com/Insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.twitter.com/Comscore",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/comscore",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.tiktok.com/@comscoreinc",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/comscore",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/comscore",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/communication-preference-center",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/About/Privacy-Policy",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/About/Terms-of-Service",
+   "text": "Terms of Service",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/About/Consumer-Health-Data-Privacy-Notice",
+   "text": "Consumer Health Data Privacy Notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/About/Privacy/Data-Subject-Rights",
+   "text": "Do not sell my personal information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.comscore.com/layout/set/popup/Request/Contact/Contact-Us",
+   "text": "Contact Us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.twitter.com/Comscore",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.linkedin.com/company/comscore",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.tiktok.com/@comscoreinc",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.instagram.com/comscore",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.youtube.com/comscore",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/Insights/communication-preference-center",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/About/Privacy-Policy",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/About/Terms-of-Service",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/About/Consumer-Health-Data-Privacy-Notice",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/About/Privacy/Data-Subject-Rights",
+   "text": "",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.comscore.com/layout/set/popup/Request/Contact/Contact-Us",
+   "text": "",
+   "region": "ASIDE"
+  }
+ ]
+}

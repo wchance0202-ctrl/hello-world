@@ -1,0 +1,470 @@
+{
+ "url": "https://growthhackers.com/opinions/",
+ "observed_at": "2026-10-26T11:02:51.514Z",
+ "method": "playwright-chromium",
+ "final_url": "https://growthhackers.com/opinions/",
+ "status": 200,
+ "error": null,
+ "title": "Opinions - GrowthHackers.com",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 70,
+   "new_in_prefix": 70,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 70,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-1LYP8L7E5Q&gtm=45je6am0h2v876079225za208zd876079225xf1&_p=1793012572324&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGIzZG&_eu=AAAAAGAC&cid=1642895634.1793012573&frm=0&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1273278207&t=pageview&_s=1&dl=https%3A%2F%2Fgrowthhackers.com%2Fopinions%2F&ul=en-us&dt=Opinions%20-%20GrowthHackers.com&sr=1280x720&vp=1280x720&_u=YCDAiEABBAAAACAAI~&jid=1235041839&gjid=425189903&cid=1642895634.1793012573&tid=UA-180564503-1&_gid=1165651740.1793012576&_slc=1&gtm=45He6al1n71NTPFG9v72617497za200zd72617497xf1&gcd=13l3l3l3l1l1&d"
+  },
+  {
+   "method": "POST",
+   "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-180564503-1&cid=1642895634.1793012573&jid=1235041839&gjid=425189903&_gid=1165651740.1793012576&_u=YCDAiEABBAAAAGAAI~&z=1738628763"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1273278207&t=pageview&_s=1&dl=https%3A%2F%2Fgrowthhackers.com%2Fopinions%2F&ul=en-us&dt=Opinions%20-%20GrowthHackers.com&sr=1280x720&vp=1280x720&_u=YCDACEABBAAAAGAAI~&jid=2089898120&gjid=748602594&cid=1642895634.1793012573&tid=UA-180564503-13&_gid=1165651740.1793012576&_r=1&_slc=1&gtm=45He6al1n71NTPFG9v72617497za200zd72617497xf1&gcd=13l3l3l3"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-3NY7JXT9G0&gtm=45je6am0h2v9135653882za20ozd876079225xf1&_p=1793012572324&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1821634315&_eu=EAAIAGAC&cid=1642895634.1793012573&frm=0&ir=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=e"
+  },
+  {
+   "method": "GET",
+   "url": "https://collector.leadinfo.net/config/LI-6A22C8FAD8BE6/"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.leadinfo.com/v1/identify/LI-6A22C8FAD8BE6"
+  },
+  {
+   "method": "POST",
+   "url": "https://h.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://in-automate.brevo.com/p?key=y7gdsbzhp34gjtlcuplasxy9&cuid=bce6c4c3-00e7-4e5a-af3b-211276c42061&ma_url=https%3A%2F%2Fgrowthhackers.com%2Fopinions%2F&sib_type=page&ma_title=Opinions%20-%20GrowthHackers.com&sib_name=Opinions%20-%20GrowthHackers.com&ma_referrer=&ma_path=%2Fopinions%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/768210846/?random=1793012577305&cv=11&fst=1793012577305&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6am0h2z872617497za20gzb72617497zd72617497xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fgrowthhackers.com%2Fopinions%2F&rc"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=1556878835.1793012577&dt=Opinions%20-%20GrowthHackers.com&tid=AW-768210846&dl=https%3A%2F%2Fgrowthhackers.com%2Fopinions%2F&scrsrc=www.googletagmanager.com&rnd=949446447.1793012577&navt=n&npa=0&_tu=CA&gtm=45be6am0h2z872617497za20gzb72617497zd72617497xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~11889792"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1556878835.1793012577&gtm=45be6am0h2z872617497za20gzb72617497zd72617497xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://collector4.leadinfo.net/com.snowplowanalytics.snowplow/tp2"
+  },
+  {
+   "method": "POST",
+   "url": "https://collector.leadinfo.net/com.snowplowanalytics.snowplow/tp2"
+  },
+  {
+   "method": "POST",
+   "url": "https://h.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://growthhackers.com/cdn-cgi/rum?"
+  },
+  {
+   "method": "POST",
+   "url": "https://collector.leadinfo.net/com.snowplowanalytics.snowplow/tp2"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-1LYP8L7E5Q&gtm=45je6am0h2v876079225za208zd876079225xf1&_p=1793012572324&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGIzZG&_eu=AAACAGQC&cid=1642895634.1793012573&frm=0&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.by.wonderpush.com/config/webkeys/c2b930b686879ff8426e0bb83370408bca59d60a1835afa345ca6b6ac66999c0?_=1793012580589"
+  },
+  {
+   "method": "POST",
+   "url": "https://h.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://measurements-api.wonderpush.com/v1/events"
+  },
+  {
+   "method": "POST",
+   "url": "https://h.clarity.ms/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://growthhackers.com/opinions/#content",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/community/",
+   "text": "Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/theo-moulos-weekly-ama/",
+   "text": "Join our weekly 20′ – AMA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/growth-services/",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/university",
+   "text": "University",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/conference/",
+   "text": "Conference",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/newsletter/",
+   "text": "Newsletter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/sponsorships/",
+   "text": "Sponsorships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://intl.growthhackers.com/events",
+   "text": "Our Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/community/",
+   "text": "Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/theo-moulos-weekly-ama/",
+   "text": "Join our weekly 20′ – AMA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/growth-services/",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/university",
+   "text": "University",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/conference/",
+   "text": "Conference",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/newsletter/",
+   "text": "Newsletter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/sponsorships/",
+   "text": "Sponsorships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://intl.growthhackers.com/events",
+   "text": "Our Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/community/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/theo-moulos-weekly-ama/",
+   "text": "Join our weekly 20′ – AMA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/growth-services/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/university",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/conference/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/newsletter/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/sponsorships/",
+   "text": "Sponsorships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://intl.growthhackers.com/events",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/community/",
+   "text": "Community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/theo-moulos-weekly-ama/",
+   "text": "Join our weekly 20′ – AMA",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/growth-services/",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/university",
+   "text": "University",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/conference/",
+   "text": "Conference",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/newsletter/",
+   "text": "Newsletter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/sponsorships/",
+   "text": "Sponsorships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://intl.growthhackers.com/events",
+   "text": "Our Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://growthhackers.com/opinions/is-blogging-dying/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/author/t-moulosgrowthrocks-com/",
+   "text": "Theo Moulos",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/2025/03/13/",
+   "text": "March 13, 2025",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/tag/ai-effect/",
+   "text": "AI effect",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/tag/blogging/",
+   "text": "blogging",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/tag/content-marketing/",
+   "text": "content marketing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/opinions/is-blogging-dying/",
+   "text": "Is blogging dying?",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/opinions/is-blogging-dying/#respond",
+   "text": "0 Comments",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/opinions/is-blogging-dying/",
+   "text": "Read More",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growth-hacking/llm-rankings-the-new-battleground/",
+   "text": "LLM Rankings: The New Battleground",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growth-hacking/llm-rankings-all-you-need-to-know/",
+   "text": "LLM Rankings: All You Need to Know",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/",
+   "text": "The Growth Problems You’re Tired Of — and the System We Built to End Them",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growth-hacking/branded-vs-non-branded-keywords/",
+   "text": "Branded vs. Non-Branded Keywords: Why It Matters More Than You Think",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growthos/causality-report-when-business-actions-leave-a-digital-footprint/",
+   "text": "Causality Report: When Business Actions Leave a Digital Footprint",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/news/growthhackers-and-growthrocks-forge-strategic-partnership-a-new-era-of-growth-engineering-begins/",
+   "text": "GrowthHackers and GrowthRocks Forge Strategic Partnership: A New Era of Growth Engineering Begins",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/category/opinions/",
+   "text": "Opinions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/newsletter/",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/conference/",
+   "text": "Conference",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/community/",
+   "text": "Community",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/university/",
+   "text": "Growth University",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/opinions/",
+   "text": "Opinions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/creators/",
+   "text": "Become a Creator",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/state-of-growth-survey/",
+   "text": "The State Of Growth 2024 Survey",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/the-state-of-growth-report-2023/",
+   "text": "The State Of Growth 2023 Survey",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/downloads/",
+   "text": "Downloads",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growth-studies/",
+   "text": "Growth Studies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/news",
+   "text": "News and Updates",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/growthos",
+   "text": "Growth OS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://twitter.com/growthhackers",
+   "text": "Twitter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.tiktok.com/@growth_hackers",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/growthhackershq",
+   "text": "Instagram",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youtube.com/@GrowthHackersHQ",
+   "text": "Youtube",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/terms-of-service/",
+   "text": "Terms of Service",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/copyright-policy/",
+   "text": "Copyright Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://growthhackers.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  }
+ ]
+}

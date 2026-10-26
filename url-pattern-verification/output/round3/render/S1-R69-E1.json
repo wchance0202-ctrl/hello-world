@@ -1,0 +1,501 @@
+{
+ "url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+ "observed_at": "2026-10-26T11:00:46.928Z",
+ "method": "playwright-chromium",
+ "final_url": "https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://esomar.org/resources/publications?collections=Global+Market+Research,Global+Prices+Study,Global+Users+%26+Buyers+of+Insights,Industry+report+-+Global+Market+Research,Industry+report+-+other,Publications,Esomar+Reports\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "Reports | Esomar",
+ "h1": "Professional Resources",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 65,
+   "new_in_prefix": 65,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 65,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-6TJP1BG8L4&gtm=45je6al1v9121861132za20ozb812670612zd812670612xf1&_p=1793012450080&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1448274116.1793012451&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1007892416/?random=1793012450760&cv=11&fst=1793012450760&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v9121861132za20ozb812670612zd812670612xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fesomar.org%2Fresources%2Fpublications"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18011370050/?random=1793012450782&cv=11&fst=1793012450782&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v9121861132za20ozb812670612zd812670612xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fesomar.org%2Fresources%2Fpublication"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=1703555408.1793012451&dt=Reports%20%7C%20Esomar&tid=AW-1007892416&en=page_view&dl=https%3A%2F%2Fesomar.org%2Fresources%2Fpublications%3Fcollections%3DGlobal%2BMarket%2BResearch%2CGlobal%2BPrices%2BStudy%2CGlobal%2BUsers%2B%2526%2BBuyers%2Bof%2BInsights%2CIndustry%2Breport%2B-%2BGlobal%2BMarket%2BResearch%2CIndustry%2Breport%2B-%2Bother%2C"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1703555408.1793012451&gtm=45je6al1v9121861132za20ozb812670612zd812670612xecxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/api/auth/check"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/events?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/trainings?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/awards/esomar-awards?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/login?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.iconify.design/solar.json?icons=arrow-right-linear%2Cletter-bold%2Cphone-bold"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.iconify.design/ri.json?icons=facebook-fill%2Cinstagram-fill%2Clinkedin-fill%2Cyoutube-fill"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/cookies-policy?_rsc=1c4cj"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/payments-support?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/financial-statements?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/esomar-statutes?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/privacy-policy?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/terms-conditions?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/about-esomar?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/careers?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/business-opportunities?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/press?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/about/esomar?_rsc=1c4cj"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/newsroom?_rsc=1c4cj"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://esomar.org/cookies-policy",
+   "text": "Learn more about the cookies we use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://researchworld.com/",
+   "text": "Research World",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://directory.esomar.org/",
+   "text": "Directory",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://esomarfoundation.org/",
+   "text": "Esomar Foundation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://esomar.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/trainings",
+   "text": "Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/login",
+   "text": "Log in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2026",
+   "text": "Global Research Software 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2026",
+   "text": "Global Research Software 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2026",
+   "text": "View Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2026",
+   "text": "Global Market Research 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2026",
+   "text": "Global Market Research 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2026",
+   "text": "View Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-s-global-top-insights-companies",
+   "text": "Esomar’s Global Top Insights Companies",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-s-global-top-insights-companies",
+   "text": "Esomar’s Global Top Insights Companies",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-s-global-top-insights-companies",
+   "text": "View Ranking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-prices-study-2025",
+   "text": "Global Prices Study 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-prices-study-2025",
+   "text": "Global Prices Study 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-prices-study-2025",
+   "text": "View Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2025",
+   "text": "Global Research Software 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2025",
+   "text": "Global Research Software 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2025",
+   "text": "View Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2025",
+   "text": "Global Market Research 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2025",
+   "text": "Global Market Research 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-market-research-2025",
+   "text": "View Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/forecasting-the-data-and-insights-industry-a-2027-outlook-fdi2025",
+   "text": "Forecasting the Data and Insights Industry: A 2027 Outlook",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/forecasting-the-data-and-insights-industry-a-2027-outlook-fdi2025",
+   "text": "Forecasting the Data and Insights Industry: A 2027 Outlook",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/forecasting-the-data-and-insights-industry-a-2027-outlook-fdi2025",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-users-and-buyers-of-insights-2025",
+   "text": "Global Users & Buyers of Insights 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-users-and-buyers-of-insights-2025",
+   "text": "Global Users & Buyers of Insights 2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-users-and-buyers-of-insights-2025",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2024",
+   "text": "Global Research Software 2024",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2024",
+   "text": "Global Research Software 2024",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/global-research-software-2024",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/report-1",
+   "text": "Global Market Research 2024",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/report-1",
+   "text": "Global Market Research 2024",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/report-1",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/evolution-of-the-data-analytics-and-insights-industry-a-forecast-into-2026",
+   "text": "Evolution of the Data, Analytics and Insights Industry, a forecast into 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/evolution-of-the-data-analytics-and-insights-industry-a-forecast-into-2026",
+   "text": "Evolution of the Data, Analytics and Insights Industry, a forecast into 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/evolution-of-the-data-analytics-and-insights-industry-a-forecast-into-2026",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-basic-insights-questionnaire-design-biqd24",
+   "text": "Esomar Basic Insights - Questionnaire Design",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-basic-insights-questionnaire-design-biqd24",
+   "text": "Esomar Basic Insights - Questionnaire Design",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/publications/esomar-basic-insights-questionnaire-design-biqd24",
+   "text": "Order the report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/memberships/all-benefits",
+   "text": "See all benefits",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:+31206642141",
+   "text": "+31 20 664 2141",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:info@esomar.org",
+   "text": "info@esomar.org",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/payments-support",
+   "text": "Payments & Support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/financial-statements",
+   "text": "Financial Statements",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/esomar-statutes",
+   "text": "Esomar Statutes",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/terms-conditions",
+   "text": "Terms & Conditions",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/about-esomar",
+   "text": "About esomar",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/careers",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/business-opportunities",
+   "text": "Business Opportunities",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/press",
+   "text": "Press",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/newsroom",
+   "text": "Newsroom",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.activehosted.com/f/4",
+   "text": "Subscribe",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/esomar/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/ESOMAR",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/esomar_hq/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/webesomar",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/cookies-policy",
+   "text": "Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/sitemap.xml",
+   "text": "Sitemap",
+   "region": "FOOTER"
+  }
+ ]
+}

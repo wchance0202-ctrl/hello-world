@@ -1,0 +1,743 @@
+{
+ "url": "https://blogs.worldbank.org/en/home",
+ "observed_at": "2026-10-26T10:56:51.730Z",
+ "method": "playwright-chromium",
+ "final_url": "https://blogs.worldbank.org/en/home",
+ "status": 200,
+ "error": null,
+ "title": "Unlock Development Insights with World Bank Blogs",
+ "h1": "Unlock Development Insights with World Bank Group Blogs",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 131,
+   "new_in_prefix": 131,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 131,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&d_nsid=0&ts=1793012214103"
+  },
+  {
+   "method": "GET",
+   "url": "https://worldbankgroup.sc.omtrdc.net/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&mid=57446286614653584086952418131653445843&ts=1793012214743"
+  },
+  {
+   "method": "GET",
+   "url": "https://worldbank.tt.omtrdc.net/m2/worldbank/mbox/json?mbox=target-global-mbox&mboxSession=fa3ff2121590401a82cb200d787ff530&mboxPC=&mboxPage=059d97902c304106b1ff0cd989b44bee&mboxRid=d494b191289b41d28a10047520f5404b&mboxVersion=1.8.3&mboxCount=1&mboxTime=1793012214240&mboxHost=blogs.worldbank.org&mboxURL=https%3A%2F%2Fblogs.worldbank.org%2Fen%2Fhome&mboxReferrer=&browserHeight=720&browserWidth=1280"
+  },
+  {
+   "method": "GET",
+   "url": "https://trustfunds.worldbank.org/portal/tfsearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://webapi.worldbank.org/aemsite/blogs/global/search"
+  },
+  {
+   "method": "GET",
+   "url": "https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=1E7B833554B8360D0A4C98A5%40AdobeOrg&d_nsid=0&d_mid=57446286614653584086952418131653445843&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&ts=1793012215419"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/972661263/?random=1793012219034&cv=11&fst=1793012219034&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6am0h2v9181464779za208zd9181464779xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fblogs.worldbank.org%2Fen%2Fhome&rcb="
+  },
+  {
+   "method": "GET",
+   "url": "https://www.googleadservices.com/pagead/conversion/972661263/?random=1793012219098&cv=11&fst=1793012219098&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6am0h2v9181464779za200zd9181464779xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fblogs.worldbank.org%2F"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&auid=22282387.1793012219&dt=Unlock%20Development%20Insights%20with%20World%20Bank%20Blogs&tid=AW-972661263&en=page_view&dl=https%3A%2F%2Fblogs.worldbank.org%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1803402846.1793012219&navt=n&npa=0&gtm=45be6am0h2v9181464779za208zd9181464779xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=22282387.1793012219&gtm=45be6am0h2v9181464779za208zd9181464779xecxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972661263/?random=316698&cv=11&fst=1793012219098&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6am0h2v9181464779za200zd9181464779xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fblogs.worldbank"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.google.com/pagead/1p-conversion/972661263/?random=316698&cv=11&fst=1793012219098&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6am0h2v9181464779za200zd9181464779xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fblogs.worldbank.org%2Fen%2Fhome&rcb="
+  },
+  {
+   "method": "POST",
+   "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_ahoepSezTqpB2GV&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://blogs.worldbank.org/en/home#main",
+   "text": "Skip to Main Navigation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.worldbank.org/",
+   "text": "WORLDBANK.ORG",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home",
+   "text": "HOME",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/blogs",
+   "text": "ALL BLOGS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/topics",
+   "text": "TOPICS",
+   "region": "NAV"
+  },
+  {
+   "href": "mailto:voicesen@worldbank.org",
+   "text": "CONTACT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://live.worldbank.org/en/home?intcid=wbw_nav_WBL_en_ext",
+   "text": "WB LIVE LOGO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home#",
+   "text": "SEARCH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/search",
+   "text": "SEARCH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/search",
+   "text": "SEARCH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home",
+   "text": "English",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/fr/home",
+   "text": "Français",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/es/home",
+   "text": "Español",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ar/home",
+   "text": "العربية",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ru/home",
+   "text": "Русский",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/zh/home",
+   "text": "中文",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ja/home",
+   "text": "日本語",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/home",
+   "text": "English",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/fr/home",
+   "text": "Français",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/es/home",
+   "text": "Español",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ar/home",
+   "text": "العربية",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ru/home",
+   "text": "Русский",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/zh/home",
+   "text": "中文",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/ja/home",
+   "text": "日本語",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices",
+   "text": "VOICES",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/what-thailand-s-maya-bay-teaches-us-about-the-missing-link-in-bl",
+   "text": "What Thailand's Maya Bay teaches us about the missing link in blue finance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/what-thailand-s-maya-bay-teaches-us-about-the-missing-link-in-bl",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices",
+   "text": "VOICES",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/jobs-are-the-test-of-change-",
+   "text": "Jobs are the test of change",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/l/lisandro-martin",
+   "text": "LISANDRO MARTIN",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/jobs-are-the-test-of-change-",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk",
+   "text": "LET'S TALK DEVELOPMENT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk/does-private-lending-in-emerging-markets-deliver-competitive-ret",
+   "text": "Does private lending in emerging markets deliver competitive returns? Evidence suggests it does",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/c/cesaire-meh",
+   "text": "CESAIRE MEH",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/f/florian-moelders",
+   "text": "FLORIAN MOELDERS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk/does-private-lending-in-emerging-markets-deliver-competitive-ret",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+   "text": "September 2026 Global Poverty Update from the World Bank: One in ten worldwide live in extreme poverty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+   "text": "March 2026 global poverty update from the World Bank: New data and updated poverty numbers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "World Bank country classifications by income level for 2024-2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica",
+   "text": "Understanding country income: World Bank Group income classifications for FY26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "World Bank country classifications by income level for 2024-2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-",
+   "text": "Who moves up and why? A closer look at the 2026-2027 World Bank Group Country Income Classifications Release",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+   "text": "September 2026 Global Poverty Update from the World Bank: One in ten worldwide live in extreme poverty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+   "text": "March 2026 global poverty update from the World Bank: New data and updated poverty numbers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "World Bank country classifications by income level for 2024-2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica",
+   "text": "Understanding country income: World Bank Group income classifications for FY26",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "text": "World Bank country classifications by income level for 2024-2025",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-",
+   "text": "Who moves up and why? A closer look at the 2026-2027 World Bank Group Country Income Classifications Release",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+   "text": "Data as a Commodity: The New Geography of the Cloud Economy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+   "text": "How Fast Payment Systems Drive Economic Growth and Financial Inclusion",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+   "text": "Small AI, Big Bets: How the World’s Most Impactful AI Startups Will Be Built in Emerging Markets",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor",
+   "text": "Feeding the Next Generation: Why East Asia’s Agricultural Support Policies Need to Change",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+   "text": "Energy security: The foundation of job creation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+   "text": "What's new in the World Development Indicators: July 2026 update",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+   "text": "Data as a Commodity: The New Geography of the Cloud Economy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+   "text": "How Fast Payment Systems Drive Economic Growth and Financial Inclusion",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+   "text": "Small AI, Big Bets: How the World’s Most Impactful AI Startups Will Be Built in Emerging Markets",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor",
+   "text": "Feeding the Next Generation: Why East Asia’s Agricultural Support Policies Need to Change",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+   "text": "Energy security: The foundation of job creation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+   "text": "What's new in the World Development Indicators: July 2026 update",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations",
+   "text": "DEVELOPMENT IMPACT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations/weekly-links-october-23--macro-impacts-of-migration-on-poverty--",
+   "text": "Weekly links October 23: macro impacts of migration on poverty, big African cities and jobs, how to read a paper, and mo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/d/david-mckenzie",
+   "text": "DAVID MCKENZIE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations/weekly-links-october-23--macro-impacts-of-migration-on-poverty--",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata",
+   "text": "DATA BLOG",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig",
+   "text": "Celebrating 20 years of the World Bank Enterprise Surveys: Insights from the first complete global cycle, 2023-2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/e/eugenia-rodriguez",
+   "text": "EUGENIA RODRÍGUEZ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/c/cierra-wells",
+   "text": "CIERRA WELLS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/m/mohammad-amin",
+   "text": "MOHAMMAD AMIN",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/arabvoices",
+   "text": "AGRICULTURE & FOOD",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/arabvoices/agriconnect-and-djibouti--creating-jobs-and-boosting-food-securi",
+   "text": "AgriConnect and Djibouti: Creating jobs and boosting food security in a resource-constrained region",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/m/meskerem-brhane",
+   "text": "MESKEREM BRHANE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/y/yosuke-kotsuji",
+   "text": "YOSUKE KOTSUJI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/f/fatou-fall",
+   "text": "FATOU FALL",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/arabvoices/agriconnect-and-djibouti--creating-jobs-and-boosting-food-securi",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk",
+   "text": "LET'S TALK DEVELOPMENT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk/efforts-toward-closing-the-gender-gap--lessons-from-two-decades-",
+   "text": "Efforts toward closing the gender gap: Lessons from two decades of reform in Egypt",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/j/julia-braunmiller",
+   "text": "JULIA BRAUNMILLER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/m/mahmoud-elsaman",
+   "text": "MAHMOUD ELSAMAN",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/m/mirey-ovadiya",
+   "text": "MIREY OVADIYA",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/developmenttalk/efforts-toward-closing-the-gender-gap--lessons-from-two-decades-",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata",
+   "text": "DATA BLOG",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--october-2026--po",
+   "text": "What's new in the World Development Indicators, October 2026: poverty and inequality updates, new food security & nutrit",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/w/world-bank-data-team",
+   "text": "WORLD BANK DATA TEAM",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--october-2026--po",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices",
+   "text": "VOICES",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/getting-the-foundations-right--how-south-asia-can-make-ai-work-f",
+   "text": "Getting the foundations right: How South Asia can make AI work for growth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/j/johannes-zutt",
+   "text": "JOHANNES ZUTT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/voices/getting-the-foundations-right--how-south-asia-can-make-ai-work-f",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations",
+   "text": "DEVELOPMENT IMPACT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations/self-reports--scenarios--and-games--lessons-from-measuring-socio",
+   "text": "Self-reports, scenarios, and games: lessons from measuring socioemotional skills in three African countries: Guest post ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/team/d/development-impact-guest-blogger",
+   "text": "DEVELOPMENT IMPACT GUEST BLOGGER",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blogs.worldbank.org/en/impactevaluations/self-reports--scenarios--and-games--lessons-from-measuring-socio",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/legal",
+   "text": "Legal",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/about/legal/privacy-notice",
+   "text": "Privacy Notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/access-to-information",
+   "text": "Access to Information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/jobs",
+   "text": "Jobs",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/contacts",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/fraudandcorruption",
+   "text": "File a Complaint",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/home",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/en/who-we-are/ibrd",
+   "text": "IBRD",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://ida.worldbank.org/en/home",
+   "text": "IDA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ifc.org/en/home",
+   "text": "IFC",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miga.org/",
+   "text": "MIGA",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.worldbank.org/ext/en/contacts",
+   "text": "Contact",
+   "region": "FOOTER"
+  }
+ ]
+}

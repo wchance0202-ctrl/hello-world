@@ -1,0 +1,540 @@
+{
+ "url": "https://www.optimizely.com/field-notes/guides",
+ "observed_at": "2026-10-26T11:03:39.748Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.optimizely.com/field-notes/guides",
+ "status": 200,
+ "error": null,
+ "title": "Reports",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 40,
+   "new_in_prefix": 40,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 40,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://rum.optimizely.com/rum"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=2051915226.1793012627&dt=Reports&en=page_view&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Fguides&scrsrc=www.googletagmanager.com&rnd=1599177169.1793012627&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6al1v76440394za200zd76440394xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776796~118897920~118897930~120385422~12"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2051915226.1793012627&gtm=45He6al1v76440394za200zd76440394xeaxf1&fmt=8"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/plans?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/developers?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/partners?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/events"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=Custom"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=Custom"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_940el&event=PageVisit"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-C7SLJ6HMJ5&gtm=45je6al1v884819886za20ozb76440394zd76440394xf1&_p=1793012626358&_gaz=1&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=1838786064&_eu=AAAAAGAC&cid=1944684762.1793012629&ec_mode=a&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Li"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/854039651/?random=1793012628566&cv=11&fst=1793012628566&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v884819886za20ozb76440394zd76440394xecxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-note"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/951533114/?random=1793012628599&cv=11&fst=1793012628599&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v884819886za20ozb76440394zd76440394xecxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-note"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/854039651/?random=1793012628617&cv=11&fst=1793012628617&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45je6al1v884819886z876440394za20gzb76440394zd76440394xeaxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Fg"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=2051915226.1793012627&dt=Reports&tid=AW-854039651&en=page_view&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Fguides&scrsrc=www.googletagmanager.com&rnd=1599177169.1793012627&navt=n&npa=0&ep.page_type=Other&ep.resource_topic=null&ep.author=null&ep.first_resource_topic=null&ep.template=null&ep.gated=null&ep.allowLinker=true&gtm=45je6a"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&ae=g&auid=2051915226.1793012627&dt=Reports&tid=AW-854039651&dl=https%3A%2F%2Fwww.optimizely.com%2Ffield-notes%2Fguides&scrsrc=www.googletagmanager.com&rnd=1599177169.1793012627&navt=n&npa=0&_tu=CA&gtm=45je6al1v884819886z876440394za20gzb76440394zd76440394xeaxf1&gcs=G1--&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~1188"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=d8cd02e5-252e-4dde-bd6c-0c9e8635dfd2&uuid=c8416788-2eed-4d9b-93a3-854af547cc8a"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/Wv4xPtsKf4MZ6qV7EUMAKf.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/get-started?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/?_rsc=vebYZZZ99zAd4PKU"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/plans?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "POST",
+   "url": "https://e.calibermind.com/v1/p"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/developers?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "POST",
+   "url": "https://j.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=d8cd02e5-252e-4dde-bd6c-0c9e8635dfd2&uuid=c8416788-2eed-4d9b-93a3-854af547cc8a"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/partners?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/get-started?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=Wv4xPtsKf4MZ6qV7EUMAKf&st=oaiq-web&sv=0.1.93&t=1793012631758&ec=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv6.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://epsilon.6sense.com/v3/company/details"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/refresh"
+  },
+  {
+   "method": "POST",
+   "url": "https://j.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/?m=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://rum.optimizely.com/rum"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions"
+  },
+  {
+   "method": "GET",
+   "url": "https://ws.zoominfo.com/pixel/61aa34848a6093001ca594ff/?iszitag=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://insight.adsrvr.org/track/realtimeconversion"
+  },
+  {
+   "method": "POST",
+   "url": "https://j.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://logx.optimizely.com/v1/ingest"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-C7SLJ6HMJ5&gtm=45je6al1v884819886z876440394za20gzb76440394zd76440394xf1&_p=1793012626358&gcs=G1--&gcd=13l3l3R3l5l1&npa=0&dma=0&ecid=1838786064&_eu=AAAAAGQC&cid=1944684762.1793012629&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uap"
+  },
+  {
+   "method": "POST",
+   "url": "https://j.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/product-updates?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/connectors?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products/services?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes/events?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/life-at-optimizely?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/optimizers?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/press?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/contact?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/search?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/website-terms-of-use?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/privacy-notice?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/trust-center?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/esg?_rsc=NV2-IhFMXSR51Hzo"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/product-updates?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/connectors?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/products/services?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/field-notes/events?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/life-at-optimizely?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/optimizers?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/press?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/contact?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/search?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/website-terms-of-use?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/legal/privacy-notice?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/trust-center?_rsc=GzxeGJBbG-nhedHJ"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.optimizely.com/company/esg?_rsc=GzxeGJBbG-nhedHJ"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.optimizely.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/plans",
+   "text": "Plans",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/developers",
+   "text": "Developers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/partners",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://home.optimizely.com/",
+   "text": "Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/get-started",
+   "text": "Get started",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/ai-experimentation-mapping-template/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nAI Experimentation Mapping Template: Your Roadmap to Agentic AI for Experimentation\n\nDiscov",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/ai-playbook/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nThe AI playbook\n\nWondering how to make the move from generative to agentic AI? Say goodbye ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/the-personalization-playbook/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nThe Personalization Playbook\nPERSONALIZATION",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/the-big-book-of-experimentation/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nThe Big Book of Experimentation\nEXPERIMENTATION\nHOW WE OPTIMIZE",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/latest-personalization-buyers-guide/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nHow to choose a personalization platform\n\nLooking for a Personalization solution? Here are ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/how-to-build-a-website/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nHow to build a badass website\n\nBuckle in as we delve into the essential components you need",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/how-to-build-personalization-strategy/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nHow to build a personalization strategy (that's not pushy)\n\nPersonalization is a team sport",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides/ai-use-case-discovery-template/",
+   "text": "menu_book\nGuide\nSep 28, 2026\nFrom busy work to breakthroughs: Finding AI use cases\n\nThe highest-value AI use cases aren’",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.optimizely.com/products",
+   "text": "All products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/plans",
+   "text": "Plans & pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/product-updates",
+   "text": "Roadmap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/connectors",
+   "text": "Integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/partners",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/products/services",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes",
+   "text": "All resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/developers",
+   "text": "Developers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://support.optimizely.com/",
+   "text": "Support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://docs.optimizely.com/",
+   "text": "Documentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://academy.optimizely.com/",
+   "text": "Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company",
+   "text": "About us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/life-at-optimizely",
+   "text": "Life at Optimizely",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/optimizers",
+   "text": "Optimizers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/company/press",
+   "text": "Press",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/contact",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.optimizely.com/search",
+   "text": "Search",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/legal/website-terms-of-use",
+   "text": "Website terms of use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/legal/privacy-notice",
+   "text": "Privacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/trust-center",
+   "text": "Trust Center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/company/esg",
+   "text": "ESG",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://privacyportal-cdn.onetrust.com/dsarwebform/1b599339-d045-4e2a-bde8-37ce346ab896/f6b0dc19-39c9-4553-bae5-b0306087d29e.html",
+   "text": "Do not sell or share my personal information",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/field-notes/guides#cookie-settings",
+   "text": "Cookie Settings",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.optimizely.com/products/ai",
+   "text": "Running on Mark",
+   "region": "FOOTER"
+  }
+ ]
+}

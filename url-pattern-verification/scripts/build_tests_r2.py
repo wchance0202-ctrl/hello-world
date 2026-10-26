@@ -27,7 +27,7 @@ def identity_map(path):
     (a trailing-slash-only redirect is allowed). Landing on another path is not normal.
     """
     out = {}
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
+    for line in Path(path).read_text(encoding="utf-8").split("\n"):
         if line.strip():
             r = json.loads(line)
             same = (r.get("final_url") or "").rstrip("/") == r["url"].rstrip("/")

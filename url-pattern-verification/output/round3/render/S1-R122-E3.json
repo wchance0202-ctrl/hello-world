@@ -1,0 +1,935 @@
+{
+ "url": "https://blog.hootsuite.com/resources/",
+ "observed_at": "2026-10-26T11:03:18.853Z",
+ "method": "playwright-chromium",
+ "final_url": "https://blog.hootsuite.com/resources/",
+ "status": 200,
+ "error": null,
+ "title": "Free Social Media Resources, Tools and Templates | Hootsuite Blog",
+ "h1": "Resources",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 155,
+   "new_in_prefix": 155,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 155,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/81889fd2-497b-4157-9040-d28a2dafa477/81889fd2-497b-4157-9040-d28a2dafa477.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fblog.hootsuite.com%2Fresources%2F&scrsrc=www.googletagmanager.com&rnd=871413149.1793012602&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6al1v6127735za200zd6127735xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118012008~118897920~118897930~120385422~120420415~120469"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/consent/81889fd2-497b-4157-9040-d28a2dafa477/019ce334-52f8-7a21-95f0-4888a1b9a596/en.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/identify"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otFloatingRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcPanel.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-services.hootsuite.com/service/server-side-tag-manager/g/collect?v=2&tid=G-GG7BCVQZV5&gtm=45je6al1v9191753088za20ozb6127735zd6127735xf1&_p=1793012600389&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1985647715&_fplc=0&cid=1671126769.1793012603&ec_mode=c&frm=0&ngs=1&pscdl=denied&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CCh"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-83QRN2Y41M&gtm=45je6al1v9129824135z86127735za20gzb6127735zd6127735xf1&_p=1793012600389&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&cid=1671126769.1793012603&frm=0&ngs=1&pscdl=denied&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&u"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "GET",
+   "url": "https://us.api.userled.io/api/vector/id/f7a12580-e2d9-4958-a9a4-ad908e0c9e0d"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/inbound-campaigns/match"
+  },
+  {
+   "method": "GET",
+   "url": "https://us.assets.userled.io/inbound/f7a12580-e2d9-4958-a9a4-ad908e0c9e0d"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/metrics"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/metrics"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/sdk/events"
+  },
+  {
+   "method": "GET",
+   "url": "https://us.api.userled.io/latency"
+  },
+  {
+   "method": "GET",
+   "url": "https://us.api.userled.io/latency?latency=222&orgId=f7a12580-e2d9-4958-a9a4-ad908e0c9e0d"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/QqSxSYyTzY6a48bTtJ237y.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://mgln.ai/init"
+  },
+  {
+   "method": "POST",
+   "url": "https://alb.reddit.com/rp?id=t2_6kezk&event=PageVisit"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv6.6sc.co/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mgln.ai/view"
+  },
+  {
+   "method": "GET",
+   "url": "https://epsilon.6sense.com/v3/company/details"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/refresh"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/conversions/c/o"
+  },
+  {
+   "method": "GET",
+   "url": "https://c.6sc.co/?m=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=QqSxSYyTzY6a48bTtJ237y&st=oaiq-web&sv=0.1.93&t=1793012607688&ec=3"
+  },
+  {
+   "method": "POST",
+   "url": "https://us.api.userled.io/api/sdk/events"
+  },
+  {
+   "method": "POST",
+   "url": "https://bat.bing.com/p/conversions/c/o"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://blog.hootsuite.com/resources/#primary",
+   "text": "Skip to content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hootsuite.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/select-plan",
+   "text": "Free Trial",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/login",
+   "text": "Log In",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/select-plan",
+   "text": "Start your free trial",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Open main navigation menu",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-media-analytics/",
+   "text": "Analytics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-video/",
+   "text": "Video",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-media-engagement/",
+   "text": "Engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/experiments/",
+   "text": "Experiments",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-listening/",
+   "text": "Listening",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/influencer-marketing/",
+   "text": "Influencer marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-media-scheduling/",
+   "text": "Scheduling",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-media-advertising/",
+   "text": "Advertising",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/social-media-benchmarks/",
+   "text": "Benchmarks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/employee-advocacy/",
+   "text": "Employee advocacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/tag/content-creation/",
+   "text": "Content creation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/page/2",
+   "text": "Explore all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Networks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/instagram/",
+   "text": "Instagram",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/facebook/",
+   "text": "Facebook",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/tiktok/",
+   "text": "TikTok",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/linkedin-2/",
+   "text": "LinkedIn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/twitter/",
+   "text": "X/Twitter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/network/youtube/",
+   "text": "YouTube",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/page/2",
+   "text": "Explore all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/social-media-tools",
+   "text": "Free Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-definitions/",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/",
+   "text": "Templates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/webinars",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.youtube.com/c/HootsuiteLabs/videos",
+   "text": "Hootsuite Labs",
+   "region": "NAV"
+  },
+  {
+   "href": "https://education.hootsuite.com/",
+   "text": "Hootsuite Academy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/government",
+   "text": "Government",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/healthcare",
+   "text": "Healthcare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/higher-education",
+   "text": "Education",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/financial-services",
+   "text": "Financial services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/about/hootgiving",
+   "text": "Nonprofit",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/real-estate",
+   "text": "Real estate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/industries/legal",
+   "text": "Legal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/enterprise/industries",
+   "text": "Explore all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "About Hootsuite",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/plans",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/why-hootsuite",
+   "text": "Why Hootsuite",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/newsroom",
+   "text": "What’s new",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/",
+   "text": "Explore all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/?s=",
+   "text": "Clear filters",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/guide-to-getting-youtube-views/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/youtube-views-guide",
+   "text": "30-Day Plan to Kickstart Your YouTube Growth",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/instagram-followers-checklist/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/instagram-followers-checklist",
+   "text": "Instagram Followers Checklist",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/instagram-carousel-templates/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/instagram-carousel-templates",
+   "text": "Instagram Carousel Templates",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/content-creation/",
+   "text": "Content Creation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/buyer-persona-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/buyer-persona-template",
+   "text": "Buyer Persona Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-policy-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-policy-template",
+   "text": "Social Media Policy Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-content-calendar-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-content-calendar",
+   "text": "Social Media Content Calendar Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/content-creation/",
+   "text": "Content Creation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-strategy-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-strategy-template",
+   "text": "Social Media Strategy Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.hootsuite.com/owlygpt",
+   "text": "Meet OwlyGPT",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-report-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-report-template",
+   "text": "Social Media Report Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/reporting/",
+   "text": "Reporting",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-audit-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-audit-template",
+   "text": "Social Media Audit Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/social-media-manager-resume-templates/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/social-media-manager-resume-templates",
+   "text": "Social Media Manager Resume Templates",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/most-popular/",
+   "text": "Most Popular",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.hootsuite.com/offer/blog",
+   "text": "Start your free trial",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/buyer-audience-persona-template/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/buyer-persona-template",
+   "text": "Buyer/Audience Persona Template",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource/5-things-you-can-do-with-the-hootsuite-analytics-suite/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources/blog/5-things-you-can-do-with-the-hootsuite-analytics-suite",
+   "text": "5 Things You Can Do With the Hootsuite Analytics Suite",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resource-tags/strategy/",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/2/",
+   "text": "2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/3/",
+   "text": "3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/8/",
+   "text": "8",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/9/",
+   "text": "9",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/10/",
+   "text": "10",
+   "region": "NAV"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/page/2/",
+   "text": ">",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.hootsuite.com/why-hootsuite",
+   "text": "Why Hootsuite",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/about",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://careers.hootsuite.com/",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/about/leadership",
+   "text": "Leadership",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/customers",
+   "text": "Customers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/newsroom",
+   "text": "Newsroom",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/social-impact",
+   "text": "Social impact and DEI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/publishing",
+   "text": "Publish",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/engagement",
+   "text": "Engage",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/listening",
+   "text": "Monitor",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/advertising",
+   "text": "Advertise",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/analytics",
+   "text": "Analyze",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/plans/standard",
+   "text": "Standard",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/plans/advanced",
+   "text": "Advanced",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/plans/enterprise",
+   "text": "Enterprise",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-marketing-strategy/",
+   "text": "Social Media Marketing Strategy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-analytics/",
+   "text": "Social Media Analytics",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-listening-business/",
+   "text": "Social Listening",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/best-time-to-post-on-social-media/",
+   "text": "Best Times to Post",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-calendar/",
+   "text": "Social Media Calendar",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-engagement/",
+   "text": "Social Media Engagement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/employee-advocacy/",
+   "text": "Employee Advocacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-monitoring/",
+   "text": "Social Media Monitoring",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/social-media-advertising/",
+   "text": "Social Media Advertising",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://education.hootsuite.com/",
+   "text": "Academy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/resources",
+   "text": "Resource Library",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/customers",
+   "text": "Case studies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/webinars",
+   "text": "Webinars",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://apps.hootsuite.com/",
+   "text": "App directory",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/help",
+   "text": "Help center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/whats-new",
+   "text": "Product updates",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/platform/integrations",
+   "text": "Integrations",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/partners",
+   "text": "Partners",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/",
+   "text": "English",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/",
+   "text": "English",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal",
+   "text": "Legal Center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://trustcenter.hootsuite.com/",
+   "text": "Trust Center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/privacy",
+   "text": "Privacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://blog.hootsuite.com/resources/#",
+   "text": "Cookie Preferences",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/accessibility",
+   "text": "Accessibility",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://bnc.lt/79wh/x8ANDNlTE0",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://bnc.lt/79wh/NERDTRNTE0",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/hootsuite",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/hootsuite",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/hootsuite",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/hootsuite",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/hootsuite/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.tiktok.com/@hootsuite",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/cookies",
+   "text": "Cookie Notice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.hootsuite.com/legal/cookies",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

@@ -1,0 +1,1180 @@
+{
+ "url": "https://www.mintel.com/press-centre/",
+ "observed_at": "2026-10-26T10:57:46.524Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.mintel.com/press-centre/",
+ "status": 200,
+ "error": null,
+ "title": "Press office | Mintel",
+ "h1": "Mintel Press Office",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 216,
+   "new_in_prefix": 216,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 218,
+   "new_in_prefix": 2,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 218,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/gbr/FormLoader/public/locales/en-US/translation.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://playhouse.mintel.com/swiftype/search"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/947e79d2dba120e8b2f4d4f1/O0Jl36Q5.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/947e79d2dba120e8b2f4d4f1/config/eop9j5O9.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://mobile.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/947e79d2dba120e8b2f4d4f1/translations/OJ_QgaAN.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/TP4zBir39fZg9AmXWCwVpr.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/947e79d2dba120e8b2f4d4f1/audit-table/kPaWZem_.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.mintel.com/KGT3K9/ga/g/c?v=2&tid=G-ZG359D82V6&gtm=45g92e6al1v9139007648za20szb71428791zd71428791xf4&_p=1793012275458&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&gdid=dNGJiYT.dY2Q2ZW.dODdlYz&_uip=%3A%3A&cid=1748248618.1793012277&fp=1&frm=0&ngs=1&pscdl=denied&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&u"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.mintel.com/KGT3K9/gs/ccm/collect?rcb=14&frm=0&apvc=1&tid=AW-768912832&en=page_view&dl=https%3A%2F%2Fwww.mintel.com%2Fpress-centre%2F&scrsrc=www.mintel.com&rnd=1976164639.1793012277&navt=n&npa=1&did=dNGJiYT&gdid=dNGJiYT&_tu=CA&gtb=2&gtm=45892e6al1v890375393za20szb71428791zd71428791xecxf4&gcs=G100&gcd=13q3q3q3q5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.mintel.com/KGT3K9/ga/g/c?v=2&tid=G-KXD2X2E7FH&gtm=45g92e6al1v895881142za20szb71428791zd71428791xf4&_p=1793012275458&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&gdid=dNGJiYT&_eu=AAAAAGAC&_uip=%3A%3A&cid=1748248618.1793012277&fp=1&frm=0&pscdl=denied&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb="
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=TP4zBir39fZg9AmXWCwVpr&st=oaiq-web&sv=0.1.93&t=1793012277886&ec=3"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.mintel.com/KGT3K9/ga/g/c?v=2&tid=G-ZG359D82V6&gtm=45g92e6al1v9139007648za20kzb71428791zd71428791xf4&_p=1793012275458&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&gdid=dNGJiYT.dY2Q2ZW.dODdlYz&_eu=AEA&_uip=%3A%3A&ae=a&cid=1748248618.1793012277&fp=1&frm=0&gtm_up=1&ngs=1&pscdl=denied&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChro"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.mintel.com/KGT3K9/ga/g/c?v=2&tid=G-KXD2X2E7FH&gtm=45g92e6al1v895881142za20kzb71428791zd71428791xf4&_p=1793012275458&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&gdid=dNGJiYT.dY2Q2ZW.dODdlYz&_eu=AEAAAGAC&_uip=%3A%3A&ae=a&cid=1748248618.1793012277&fp=1&frm=0&gtm_up=1&pscdl=denied&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChrom"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.mintel.com/cookie-policy/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://business.safety.google/privacy",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#content",
+   "text": "Skip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "Download",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.mintel.com/about/",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/",
+   "text": "Press",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://store.mintel.com/",
+   "text": "Store",
+   "region": "NAV"
+  },
+  {
+   "href": "https://portal.mintel.com/external/primary-site",
+   "text": "Login",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/",
+   "text": "View Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/on-demand/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2025/04/Mintel_website_2025_digital_450x450_Solutions_On-",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Consulting_landing-page-elements_Consultin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/integrations/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2025/04/Mintel_website_2025_digital_450x450_Solutions_Int",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/advertising-and-marketing/",
+   "text": "Advertising and Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/beauty-and-personal-care/",
+   "text": "Beauty and Personal Care",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/education-and-libraries/",
+   "text": "Education and Libraries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/government/",
+   "text": "Government",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/household/",
+   "text": "Household",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/ingredients-flavours-and-fragrances/",
+   "text": "Ingredients, Flavours and Fragrances",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/insurance/",
+   "text": "Insurance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/media-and-content-producers/",
+   "text": "Media and Content Producers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/packaging/",
+   "text": "Packaging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/retail/",
+   "text": "Retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/sports-gaming-and-entertainment/",
+   "text": "Sports, Gaming and Entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/technology/",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/travel-and-tourism/",
+   "text": "Travel and Tourism",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/tv-phone-and-internet/",
+   "text": "TV, Phone and Internet",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Spotlight",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Visit Spotlight",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/articles/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Articles-100x",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/downloads/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Downloads-100",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/events/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Events-100x10",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/podcasts/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Podcasts-100x",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/tags/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Topics-100x10",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Global_Predictions_2027_Spotlight_Menu_100",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "Consulting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "Learn More",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Consulting_landing-page-elements_Consultin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/methodologies/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2025/04/Consulting_Methodologies_200x200-100x100.jpg\" alt",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/demand-and-supply/",
+   "text": "<img class=\"w-24 mr-8\" src=\"https://www.mintel.com/app/uploads/2026/06/Mintel_Demand-spaces_landing-page-elements_Consul",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/pricing/",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#get-in-touch-with-mintel",
+   "text": "Get in touch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/#press-releases/",
+   "text": "Subscribe",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/#contact-press-office/",
+   "text": "Contact",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/beauty-and-personal-care/",
+   "text": "Beauty and Personal Care",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/consumer/",
+   "text": "Consumer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/fashion/",
+   "text": "Fashion",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/financial-services/",
+   "text": "Financial Services",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/health-and-wellness/",
+   "text": "Health and Wellness",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/household/",
+   "text": "Household",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/inflation-and-cost-of-living/",
+   "text": "Inflation and Cost of Living",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/leisure/",
+   "text": "Leisure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-corporate/",
+   "text": "Mintel Corporate",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-in-the-media/",
+   "text": "Mintel in the Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/report/",
+   "text": "Report",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/retail/",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/social-and-lifestyle/",
+   "text": "Social and Lifestyle",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/technology/",
+   "text": "Technology",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/travel/",
+   "text": "Travel",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-wellness-predictions/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/health-and-wellness/",
+   "text": "Health and Wellness",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-wellness-predictions/",
+   "text": "Mintel 2027 Predictions: Wellness Brands Will Compete on Proof, Not Promises",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-wellness-predictions/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-food-and-drink-predictions/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-food-and-drink-predictions/",
+   "text": "Mintel 2027 Prediction: Food Brands Will Compete with Supplements, Technology and Healthcare for Growth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-food-and-drink-predictions/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-household-predictions/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/household/",
+   "text": "Household",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-household-predictions/",
+   "text": "Mintel 2027 Prediction: Household Care Brands Will Face New Competition from Appliances, Platforms and Service Providers",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/2027-household-predictions/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-in-the-media/",
+   "text": "Mintel in the Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+   "text": "Mintel in the Media: September 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/openbrand-acquires-comperemedia-from-mintel-group/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-corporate/",
+   "text": "Mintel Corporate",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/openbrand-acquires-comperemedia-from-mintel-group/",
+   "text": "OpenBrand Acquires Comperemedia from Mintel Group",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/openbrand-acquires-comperemedia-from-mintel-group/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-launches-gnpd-deep-research-to-help-brands-move-from-searching-data-to-making-confident-decisions/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-corporate/",
+   "text": "Mintel Corporate",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-launches-gnpd-deep-research-to-help-brands-move-from-searching-data-to-making-confident-decisions/",
+   "text": "Mintel launches GNPD Deep Research to help brands move from searching data to making confident decisions",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-launches-gnpd-deep-research-to-help-brands-move-from-searching-data-to-making-confident-decisions/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-corporate/",
+   "text": "Mintel Corporate",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+   "text": "Mintel and Dragonfly AI Partner to Help Brands Move from Product Insight to Packaging That Wins",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/mintel-corporate/",
+   "text": "Mintel Corporate",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+   "text": "Mintel Most Innovative 2026 Winners Announced",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/gen-z-redefines-dessert-culture-in-india/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/gen-z-redefines-dessert-culture-in-india/",
+   "text": "Gen Z Redefines India’s Dessert Culture with Demand for Novelty, Authenticity and Visual Appeal",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/gen-z-redefines-dessert-culture-in-india/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/thai-consumers-take-a-more-balanced-and-practical-approach-to-reducing-sugar/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/thai-consumers-take-a-more-balanced-and-practical-approach-to-reducing-sugar/",
+   "text": "Thai consumers take a more balanced and practical approach to reducing sugar",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/thai-consumers-take-a-more-balanced-and-practical-approach-to-reducing-sugar/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/consumer/",
+   "text": "Consumer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/",
+   "text": "Rest, Reconnection, Travel and Thoughtful Gifting to Drive 2026 Chinese New Year Trends",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/christmas-shoppers-to-leave-it-late-this-year/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-office/retail/",
+   "text": "Retail",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/christmas-shoppers-to-leave-it-late-this-year/",
+   "text": "Christmas shoppers to leave it late this year",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/christmas-shoppers-to-leave-it-late-this-year/",
+   "text": "Read more",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.mintel.com/#subscribe/",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/field-services/",
+   "text": "Field Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/global-consumer/",
+   "text": "Global Consumer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/gnpd/",
+   "text": "GNPD",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/ingredientscape-ai/",
+   "text": "Ingredientscape AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/leap-market-intelligence-ai/",
+   "text": "Leap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/market-dynamics/",
+   "text": "Market Dynamics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/reports/",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/spark-concept-generator/",
+   "text": "Spark",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/trends/",
+   "text": "Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/wellness/",
+   "text": "Wellness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/products/winning-innovation-territories/",
+   "text": "Winning Innovation Territories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/about/",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/black-swan-data/",
+   "text": "Black Swan Data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/corporate-social-responsibility/",
+   "text": "Corporate Responsibility",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/erdf/",
+   "text": "ERDF",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/about/market-intelligence/",
+   "text": "Market Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/most-innovative-awards/",
+   "text": "Mintel Most Innovative",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/",
+   "text": "Press",
+   "region": "NAV"
+  },
+  {
+   "href": "https://store.mintel.com/",
+   "text": "Store",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/vulnerability-disclosure-program/",
+   "text": "Vulnerability Disclosure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/articles/",
+   "text": "Articles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/downloads/",
+   "text": "Downloads",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/events/",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/podcasts/",
+   "text": "Podcast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Spotlight Hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#subscribe",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#",
+   "text": "Cookie Preferences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://insights.mintel.com/rs/193-JGD-439/images/Mintel_Gender_Pay_Gap_Report_2025.pdf",
+   "text": "Gender Pay Gap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/legal/",
+   "text": "Legal & Compliance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/modern-slavery-act/",
+   "text": "Modern Slavery Act",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/terms-of-use/",
+   "text": "Terms of Use",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.mintel.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/mintelnews/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://facebook.com/MintelGroup",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://twitter.com/mintelnews",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.linkedin.com/company/mintel",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.youtube.com/user/MintelTV",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "沪ICP备17034376号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.mintel.com/sitemap.xml",
+   "text": "Sitemap",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.mintel.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/",
+   "text": "Solutions",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/on-demand/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2025/04/Mintel_website_2025_digital_450x450_Solutions_On-",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Consulting_landing-page-elements_Consultin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/integrations/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2025/04/Mintel_website_2025_digital_450x450_Solutions_Int",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Industries",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/advertising-and-marketing/",
+   "text": "Advertising and Marketing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/beauty-and-personal-care/",
+   "text": "Beauty and Personal Care",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/education-and-libraries/",
+   "text": "Education and Libraries",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/financial-services/",
+   "text": "Financial Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/food-and-drink/",
+   "text": "Food and Drink",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/government/",
+   "text": "Government",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/household/",
+   "text": "Household",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/ingredients-flavours-and-fragrances/",
+   "text": "Ingredients, Flavours and Fragrances",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/insurance/",
+   "text": "Insurance",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/media-and-content-producers/",
+   "text": "Media and Content Producers",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/packaging/",
+   "text": "Packaging",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/retail/",
+   "text": "Retail",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/sports-gaming-and-entertainment/",
+   "text": "Sports, Gaming and Entertainment",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/technology/",
+   "text": "Technology",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/travel-and-tourism/",
+   "text": "Travel and Tourism",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/tv-phone-and-internet/",
+   "text": "TV, Phone and Internet",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/",
+   "text": "Spotlight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/articles/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Articles-150x",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/downloads/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Downloads-150",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/events/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Events-150x15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/podcasts/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Podcasts-150x",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/tags/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2024/02/Digital_website_2024_Blocks_200x200_Topics-150x15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/trend-predictions/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Global_Predictions_2027_Spotlight_Menu_100",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "Consulting",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2026/10/Mintel_Consulting_landing-page-elements_Consultin",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/methodologies/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2025/04/Consulting_Methodologies_200x200-150x150.jpg\"  al",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/solutions/consulting/demand-and-supply/",
+   "text": "<img class=\"w-16 mr-5\" src=\"https://www.mintel.com/app/uploads/2026/06/Mintel_Demand-spaces_landing-page-elements_Consul",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/pricing/",
+   "text": "Pricing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#",
+   "text": "Company",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/about/",
+   "text": "About",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/contact/",
+   "text": "Contact",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/",
+   "text": "Press",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/insights/events/",
+   "text": "Events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://store.mintel.com/",
+   "text": "Store",
+   "region": "BODY"
+  },
+  {
+   "href": "https://clients.mintel.com/",
+   "text": "Login",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/press-centre/#get-in-touch-with-mintel",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://portal.mintel.com/",
+   "text": "Login",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/",
+   "text": "EN / ENGLISH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://china.mintel.com/",
+   "text": "CN / 中文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/de/",
+   "text": "DE / DEUTSCH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/fr/",
+   "text": "FR / FRANÇAIS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/es/",
+   "text": "ES / ESPAÑOL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/jp/",
+   "text": "JP / 日本語",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/kr/",
+   "text": "KR / 한국어",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/pl/",
+   "text": "PL / POLSKI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/br/",
+   "text": "BR / PORTUGUÊS",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mintel.com/th/",
+   "text": "TH / THAI",
+   "region": "BODY"
+  }
+ ]
+}

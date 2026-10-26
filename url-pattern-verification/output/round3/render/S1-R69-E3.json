@@ -1,0 +1,2112 @@
+{
+ "url": "https://esomar.org/resources/glossary",
+ "observed_at": "2026-10-26T11:01:53.748Z",
+ "method": "playwright-chromium",
+ "final_url": "https://esomar.org/resources/glossary",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://esomar.org/resources/glossary\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "Glossary | Esomar",
+ "h1": "Glossary",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 400,
+   "new_in_prefix": 400,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 400,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-6TJP1BG8L4&gtm=45je6al1h1v9121861132za20ozb812670612zd812670612xf1&_p=1793012516485&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=559791851.1793012517&frm=0&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/1007892416/?random=1793012517281&cv=11&fst=1793012517281&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1h1v9121861132za20ozb812670612zd812670612xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fesomar.org%2Fresources%2Fglossary&r"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/18011370050/?random=1793012517332&cv=11&fst=1793012517332&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1h1v9121861132za20ozb812670612zd812670612xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fesomar.org%2Fresources%2Fglossary&"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&auid=971047113.1793012517&dt=Glossary%20%7C%20Esomar&tid=AW-1007892416&en=page_view&dl=https%3A%2F%2Fesomar.org%2Fresources%2Fglossary&scrsrc=www.googletagmanager.com&rnd=924679094.1793012517&navt=n&npa=0&gtm=45je6al1h1v9121861132za20ozb812670612zd812670612xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~1"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=971047113.1793012517&gtm=45je6al1h1v9121861132za20ozb812670612zd812670612xecxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/api/auth/check"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/?_rsc=7jwar"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/events?_rsc=7jwar"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/trainings?_rsc=7jwar"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/awards/esomar-awards?_rsc=7jwar"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/login?_rsc=7jwar"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.iconify.design/solar.json?icons=arrow-right-linear%2Cletter-bold%2Cphone-bold"
+  },
+  {
+   "method": "GET",
+   "url": "https://api.iconify.design/ri.json?icons=facebook-fill%2Cinstagram-fill%2Clinkedin-fill%2Cyoutube-fill"
+  },
+  {
+   "method": "GET",
+   "url": "https://esomar.org/cookies-policy?_rsc=7jwar"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "POST",
+   "url": "https://esomar.org/graphql"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://esomar.org/cookies-policy",
+   "text": "Learn more about the cookies we use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://researchworld.com/",
+   "text": "Research World",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://directory.esomar.org/",
+   "text": "Directory",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://esomarfoundation.org/",
+   "text": "Esomar Foundation",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://esomar.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/trainings",
+   "text": "Training",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/login",
+   "text": "Log in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-agent",
+   "text": "AI Agent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#excessive-agency",
+   "text": "Excessive Agency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#agentic-ai",
+   "text": "Agentic AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-system",
+   "text": "AI System",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#audit-trail-logging",
+   "text": "Audit Trail / Logging",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-impact-assessment",
+   "text": "AI Impact Assessment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#audit-trail-logging",
+   "text": "Audit Trail / Logging",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-protection-impact-assessment-dpia",
+   "text": "Data Protection Impact Assessment (DPIA)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intended-purpose",
+   "text": "Intended Purpose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#reasonably-foreseeable-misuse",
+   "text": "Reasonably Foreseeable Misuse",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#overreliance-automation-bias",
+   "text": "Overreliance / Automation Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-quality",
+   "text": "Data Quality",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-agent",
+   "text": "AI Agent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-system",
+   "text": "General-purpose AI System",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#provider",
+   "text": "Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#deployer",
+   "text": "Deployer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#downstream-provider",
+   "text": "Downstream Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#automated-coding",
+   "text": "Automated Coding",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#consent",
+   "text": "Consent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#harm",
+   "text": "Harm",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#bot",
+   "text": "Bot",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-quality",
+   "text": "Data Quality",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#bias",
+   "text": "Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#proxy-variable",
+   "text": "Proxy Variable",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#guardrails",
+   "text": "Guardrails",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intended-purpose",
+   "text": "Intended Purpose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#pseudonymisation",
+   "text": "Pseudonymisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#re-identification-risk",
+   "text": "Re-identification Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#disclosure-risk",
+   "text": "Disclosure Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-governance",
+   "text": "AI Governance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-leakage",
+   "text": "Data Leakage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sample-boosting",
+   "text": "Sample Boosting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-sample",
+   "text": "Synthetic Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-assisted-analysis",
+   "text": "AI-assisted Analysis",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ground-truth",
+   "text": "Ground Truth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#non-research-activity",
+   "text": "Non-research Activity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#profiling",
+   "text": "Profiling",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ground-truth",
+   "text": "Ground Truth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#algorithmic-bias",
+   "text": "Algorithmic Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#proxy-variable",
+   "text": "Proxy Variable",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#representativeness",
+   "text": "Representativeness",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#emotion-recognition",
+   "text": "Emotion Recognition",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#special-category-data-sensitive-personal-data",
+   "text": "Special Category Data / Sensitive Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-generated-respondent-fraud",
+   "text": "AI-generated Respondent Fraud",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#benchmarking",
+   "text": "Benchmarking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#reference-data",
+   "text": "Reference Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ground-truth",
+   "text": "Ground Truth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#uncertainty",
+   "text": "Uncertainty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#young-person",
+   "text": "Young Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#uncertainty",
+   "text": "Uncertainty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-leakage",
+   "text": "Data Leakage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intellectual-property-ip",
+   "text": "Intellectual Property (IP)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-information-disclosure",
+   "text": "Sensitive Information Disclosure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-notice",
+   "text": "Privacy Notice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#token",
+   "text": "Token",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#token-budget",
+   "text": "Token Budget",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#customer-satisfaction",
+   "text": "Customer satisfaction",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-processor",
+   "text": "Data Processor",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-notice",
+   "text": "Privacy Notice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-information-disclosure",
+   "text": "Sensitive Information Disclosure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#audit-trail-logging",
+   "text": "Audit Trail / Logging",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#minimum-viable-data",
+   "text": "Minimum Viable Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-controller",
+   "text": "Data Controller",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#provider",
+   "text": "Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-impact-assessment",
+   "text": "AI Impact Assessment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-notice",
+   "text": "Privacy Notice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#seed-data",
+   "text": "Seed Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#reference-data",
+   "text": "Reference Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#representativeness",
+   "text": "Representativeness",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#utility",
+   "text": "Utility",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-controller",
+   "text": "Data Controller",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-processor",
+   "text": "Data Processor",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#provider",
+   "text": "Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#downstream-provider",
+   "text": "Downstream Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-value-chain",
+   "text": "AI Value Chain",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#probabilistic",
+   "text": "Probabilistic",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-preserving-synthetic-data",
+   "text": "Privacy-preserving Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#utility",
+   "text": "Utility",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-persona",
+   "text": "Synthetic Persona",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#individual-person",
+   "text": "Individual/Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#non-research-activity",
+   "text": "Non-research Activity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#re-identification-risk",
+   "text": "Re-identification Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-preserving-synthetic-data",
+   "text": "Privacy-preserving Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#fidelity",
+   "text": "Fidelity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#relationship-preservation",
+   "text": "Relationship Preservation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#self-service-research-platforms",
+   "text": "Self-service Research Platforms",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#provider",
+   "text": "Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#deployer",
+   "text": "Deployer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-model",
+   "text": "General-purpose AI Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#confidence-interval",
+   "text": "Confidence Interval",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#uncertainty",
+   "text": "Uncertainty",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#weighting",
+   "text": "Weighting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#semantic-similarity",
+   "text": "Semantic Similarity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#vector-database",
+   "text": "Vector Database",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#biometric-categorisation",
+   "text": "Biometric Categorisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validity",
+   "text": "Validity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#agentic-ai",
+   "text": "Agentic AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-leakage",
+   "text": "Data Leakage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#focus-groups",
+   "text": "Focus groups",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#memorisation",
+   "text": "Memorisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#disclosure-risk",
+   "text": "Disclosure Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-drift",
+   "text": "Model Drift",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#consent",
+   "text": "Consent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#primary-data",
+   "text": "Primary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-model",
+   "text": "General-purpose AI Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#frontier-model",
+   "text": "Frontier Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#foundation-model",
+   "text": "Foundation Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-model",
+   "text": "General-purpose AI Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#partially-synthetic-data",
+   "text": "Partially Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-preserving-synthetic-data",
+   "text": "Privacy-preserving Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#generative-ai",
+   "text": "Generative AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-data",
+   "text": "Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#foundation-model",
+   "text": "Foundation Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-system",
+   "text": "General-purpose AI System",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-system",
+   "text": "AI System",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intended-purpose",
+   "text": "Intended Purpose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-data",
+   "text": "Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#benchmarking",
+   "text": "Benchmarking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#hallucination",
+   "text": "Hallucination",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#alignment",
+   "text": "Alignment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#grounded",
+   "text": "Grounded",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#testing-data",
+   "text": "Testing Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-data",
+   "text": "Validation Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-in-the-loop",
+   "text": "Human-in-the-Loop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-literacy",
+   "text": "AI Literacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#overreliance-automation-bias",
+   "text": "Overreliance / Automation Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-injection",
+   "text": "Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-information-disclosure",
+   "text": "Sensitive Information Disclosure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#minimum-viable-data",
+   "text": "Minimum Viable Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#confidentiality",
+   "text": "Confidentiality",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#reasonably-foreseeable-misuse",
+   "text": "Reasonably Foreseeable Misuse",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#utility",
+   "text": "Utility",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#multi-country-studies",
+   "text": "Multi-country studies",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#vector-database",
+   "text": "Vector Database",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#generative-ai",
+   "text": "Generative AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#multimodal-model",
+   "text": "Multimodal Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#fidelity",
+   "text": "Fidelity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#disclosure-risk",
+   "text": "Disclosure Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-minimisation",
+   "text": "Data Minimisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#online-quantitative-research",
+   "text": "Online quantitative research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#transparency",
+   "text": "Transparency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-provider",
+   "text": "Model Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#general-purpose-ai-model",
+   "text": "General-purpose AI Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ground-truth",
+   "text": "Ground Truth",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#provider",
+   "text": "Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#deployer",
+   "text": "Deployer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-value-chain",
+   "text": "AI Value Chain",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#voice-clone-voice-synthesis",
+   "text": "Voice Clone / Voice Synthesis",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#automated-decision-making",
+   "text": "Automated Decision-making",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#profiling",
+   "text": "Profiling",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#research",
+   "text": "Research",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#web-analytics",
+   "text": "Web analytics",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#social-media-and-communities",
+   "text": "Social media and communities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#holdout-sample",
+   "text": "Holdout Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#testing-data",
+   "text": "Testing Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-literacy",
+   "text": "AI Literacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#fully-synthetic-data",
+   "text": "Fully Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-preserving-synthetic-data",
+   "text": "Privacy-preserving Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#consent",
+   "text": "Consent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-persona",
+   "text": "Synthetic Persona",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-respondent",
+   "text": "Synthetic Respondent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-subject",
+   "text": "Data Subject",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#special-category-data-sensitive-personal-data",
+   "text": "Special Category Data / Sensitive Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#primary-data",
+   "text": "Primary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#consent",
+   "text": "Consent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-protection-impact-assessment-dpia",
+   "text": "Data Protection Impact Assessment (DPIA)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-notice",
+   "text": "Privacy Notice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#differential-privacy",
+   "text": "Differential Privacy",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#disclosure-risk",
+   "text": "Disclosure Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#utility",
+   "text": "Utility",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#deterministic",
+   "text": "Deterministic",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#automated-decision-making",
+   "text": "Automated Decision-making",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#non-research-activity",
+   "text": "Non-research Activity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-engineering",
+   "text": "Prompt Engineering",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-injection",
+   "text": "Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-injection",
+   "text": "Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#indirect-prompt-injection",
+   "text": "Indirect Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-information-disclosure",
+   "text": "Sensitive Information Disclosure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#deployer",
+   "text": "Deployer",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#downstream-provider",
+   "text": "Downstream Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-provider",
+   "text": "Model Provider",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#algorithmic-bias",
+   "text": "Algorithmic Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#profiling",
+   "text": "Profiling",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#anonymisation",
+   "text": "Anonymisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#knowledge-base",
+   "text": "Knowledge Base",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#vector-database",
+   "text": "Vector Database",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#indirect-prompt-injection",
+   "text": "Indirect Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#disclosure-risk",
+   "text": "Disclosure Risk",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#memorisation",
+   "text": "Memorisation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intended-purpose",
+   "text": "Intended Purpose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-impact-assessment",
+   "text": "AI Impact Assessment",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#excessive-agency",
+   "text": "Excessive Agency",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#jagged-edge",
+   "text": "Jagged Edge",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-injection",
+   "text": "Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-information-disclosure",
+   "text": "Sensitive Information Disclosure",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#benchmarking",
+   "text": "Benchmarking",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#calibration",
+   "text": "Calibration",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#distributional-similarity",
+   "text": "Distributional Similarity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#fidelity",
+   "text": "Fidelity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validity",
+   "text": "Validity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#bias",
+   "text": "Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-sample",
+   "text": "Synthetic Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#non-research-activity",
+   "text": "Non-research Activity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#trustworthy-ai",
+   "text": "Trustworthy AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-governance",
+   "text": "AI Governance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#augmented-synthetic-data",
+   "text": "Augmented Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#secondary-data",
+   "text": "Secondary Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-data",
+   "text": "Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#embedding",
+   "text": "Embedding",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#profiling",
+   "text": "Profiling",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#special-category-data-sensitive-personal-data",
+   "text": "Special Category Data / Sensitive Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#proxy-variable",
+   "text": "Proxy Variable",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-leakage",
+   "text": "Data Leakage",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#prompt-injection",
+   "text": "Prompt Injection",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sample-boosting",
+   "text": "Sample Boosting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-sample",
+   "text": "Synthetic Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#social-media-and-communities",
+   "text": "Social media and communities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#social-media-and-communities",
+   "text": "Social media and communities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#social-media-and-communities",
+   "text": "Social media and communities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sensitive-inference",
+   "text": "Sensitive Inference",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#vulnerable-person",
+   "text": "Vulnerable Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#confidence-interval",
+   "text": "Confidence Interval",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#unstructured-data",
+   "text": "Unstructured Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#tabular-synthetic-data",
+   "text": "Tabular Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#bias",
+   "text": "Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#overreliance-automation-bias",
+   "text": "Overreliance / Automation Bias",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#augmented-synthetic-data",
+   "text": "Augmented Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#fully-synthetic-data",
+   "text": "Fully Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-preserving-synthetic-data",
+   "text": "Privacy-preserving Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-slop",
+   "text": "AI Slop",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#voice-clone-voice-synthesis",
+   "text": "Voice Clone / Voice Synthesis",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-sample",
+   "text": "Synthetic Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-respondent",
+   "text": "Synthetic Respondent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#persona",
+   "text": "Persona",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-respondent",
+   "text": "Synthetic Respondent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#digital-twin",
+   "text": "Digital Twin",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#individual-person",
+   "text": "Individual/Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-sample",
+   "text": "Synthetic Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#augmented-synthetic-data",
+   "text": "Augmented Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-panel",
+   "text": "Synthetic Panel",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#structured-data",
+   "text": "Structured Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-data",
+   "text": "Synthetic Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#web-analytics",
+   "text": "Web analytics",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#social-media-and-communities",
+   "text": "Social media and communities",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-data",
+   "text": "Validation Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#holdout-sample",
+   "text": "Holdout Sample",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#reasoning-model",
+   "text": "Reasoning Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#context-window",
+   "text": "Context Window",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#token-budget",
+   "text": "Token Budget",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#token-optimising",
+   "text": "Token Optimising",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#token-budget",
+   "text": "Token Budget",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-data",
+   "text": "Validation Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#testing-data",
+   "text": "Testing Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#data-provenance",
+   "text": "Data Provenance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-governance",
+   "text": "AI Governance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#privacy-notice",
+   "text": "Privacy Notice",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#responsible-ai",
+   "text": "Responsible AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#responsible-ai",
+   "text": "Responsible AI",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-governance",
+   "text": "AI Governance",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#confidence-interval",
+   "text": "Confidence Interval",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#structured-data",
+   "text": "Structured Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#multimodal-model",
+   "text": "Multimodal Model",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#intended-purpose",
+   "text": "Intended Purpose",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#validation-framework",
+   "text": "Validation Framework",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#training-data",
+   "text": "Training Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#testing-data",
+   "text": "Testing Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#parallel-testing",
+   "text": "Parallel Testing",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#construct-validity",
+   "text": "Construct Validity",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#model-output-validation",
+   "text": "Model Output Validation",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#utility",
+   "text": "Utility",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#embedding",
+   "text": "Embedding",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#knowledge-base",
+   "text": "Knowledge Base",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#rag-retrieval-augmented-generation",
+   "text": "RAG (Retrieval-augmented Generation)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#synthetic-media",
+   "text": "Synthetic Media",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#personal-data",
+   "text": "Personal Data",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#child",
+   "text": "Child",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#young-person",
+   "text": "Young Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#harm",
+   "text": "Harm",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#effective-sample-size-ess",
+   "text": "Effective Sample Size (ESS)",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#sample-boosting",
+   "text": "Sample Boosting",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#ai-agent",
+   "text": "AI Agent",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#audit-trail-logging",
+   "text": "Audit Trail / Logging",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#human-oversight",
+   "text": "Human Oversight",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#child",
+   "text": "Child",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/resources/glossary#vulnerable-person",
+   "text": "Vulnerable Person",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://esomar.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:+31206642141",
+   "text": "+31 20 664 2141",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:info@esomar.org",
+   "text": "info@esomar.org",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/payments-support",
+   "text": "Payments & Support",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/financial-statements",
+   "text": "Financial Statements",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/esomar-statutes",
+   "text": "Esomar Statutes",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/privacy-policy",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/terms-conditions",
+   "text": "Terms & Conditions",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/about-esomar",
+   "text": "About esomar",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/careers",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/business-opportunities",
+   "text": "Business Opportunities",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/press",
+   "text": "Press",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/newsroom",
+   "text": "Newsroom",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.activehosted.com/f/4",
+   "text": "Subscribe",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/esomar/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/ESOMAR",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/esomar_hq/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/webesomar",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/cookies-policy",
+   "text": "Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://esomar.org/sitemap.xml",
+   "text": "Sitemap",
+   "region": "FOOTER"
+  }
+ ]
+}

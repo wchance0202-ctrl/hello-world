@@ -1,0 +1,1421 @@
+{
+ "url": "https://www.euromonitor.com/store/explore-reports",
+ "observed_at": "2026-10-26T11:00:12.857Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.euromonitor.com/store/explore-reports",
+ "status": 200,
+ "error": null,
+ "title": "Explore reports - Euromonitor.com",
+ "h1": "Explore reports",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 253,
+   "new_in_prefix": 253,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 253,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+  },
+  {
+   "method": "GET",
+   "url": "https://p.typekit.net/p.gif?s=1&k=php8ozf&ht=tk&h=www.euromonitor.com&f=139.173.175.176.5474.5475.25136.23591.23595.23596.23597.23605.23609.23611&a=87830525&js=1.13.0&app=typekit&e=js&_=1793012421005"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/cc637a/00000000000000007735de0a/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/f6d7e0/00000000000000007735de0b/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/7e8037/00000000000000007735de07/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/f55f81/00000000000000007735de06/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/97665d/00000000000000007735de18/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/e7105f/00000000000000007735de15/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://use.typekit.net/af/40c3c7/00000000000000007735de1a/30/m?features=ALL&v=4&chunks=63&order=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://ipv4.pdscrb.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://euromonitor.halocrm.io/api/chatprofile/10f93e7b-c412-425d-8805-d494e76916ee?key=179bb107-3c86-4cab-941c-c776b4fe95ff&check_available=true"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.euromonitor.com%2Fstore%2Fexplore-reports&scrsrc=www.googletagmanager.com&rnd=1368891308.1793012422&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6al1v9230715334za200zd9230715334xeaxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938469~118897920~118897930~1203"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-shims.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v5-font-face.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://ka-p.fontawesome.com/releases/v6.7.2/css/pro-v4-font-face.min.css?token=af8acba4f8"
+  },
+  {
+   "method": "GET",
+   "url": "https://kit.fontawesome.com/af8acba4f8/97913804/kit-upload.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/api/SiteSettings/GetStates"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.euromonitor.com/store/explore-reports/getresults"
+  },
+  {
+   "method": "POST",
+   "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&tid=AW-11300803089&en=page_view&dl=https%3A%2F%2Fwww.euromonitor.com%2Fstore%2Fexplore-reports&scrsrc=www.googletagmanager.com&rnd=1368891308.1793012422&navt=n&npa=1&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6al1v9171504249za20ozb9230715334zd9230715334xecxf1&gcs=G100&gcd=13p3p3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.euromonitor.com/api/sitesettings/getstates"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-6D3QFKH8G9&gtm=45je6al1v869383771za20ozb9230715334zd9230715334xf1&_p=1793012420425&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=AAAAAGAC&cid=360958370.1793012423&frm=0&pscdl=denied&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/consent/2e9e5f0c-cf29-4267-a5e2-ec8be67e09fd/0198add1-e3f6-7b38-8102-8c10a669f174/en.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/otCenterRounded.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/v2/otPcTab.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202609.2.0/assets/otCommonStyles.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-ukwest.onetrust.com/logos/static/ot_guard_logo.svg"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_2tig2Hc1H1QpeVl&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web"
+  },
+  {
+   "method": "POST",
+   "url": "https://dc.services.visualstudio.com/v2/track"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#content",
+   "text": "Skip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/newsroom",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://go.euromonitor.com/newsletter-sign-up.html",
+   "text": "Sign up",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "English (Default)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/de",
+   "text": "DE / Deutsch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/es",
+   "text": "ES / Español",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/fr",
+   "text": "FR / Français",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/jp",
+   "text": "JP / 日本語",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/kr",
+   "text": "KR / 한국어",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/pt",
+   "text": "PT / Português",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.portal.euromonitor.com/",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/myprofile",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#",
+   "text": "0\nNumber of items in cart: 0",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cartpage",
+   "text": "View Cart",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "Visit the Euromonitor International homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions",
+   "text": "Solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/connect",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/connect/api",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/Passport-academics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/e-commerce",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/sustainability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/loyalty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/consumers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/marketing-claims",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/industry-benchmarking",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/opportunity-assessment",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/market-landscape-report",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/ipo-prospectus",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/export-guidebook",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/product-positioning",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/channel-forecasting",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/e-commerce-tracking",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/advertising-and-media-agencies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/financial-services",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/professional-services-firms",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients/trade-promotion-organisations",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/Passport-academics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-clients",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions",
+   "text": "View all solutions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/content-licensing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "Buy reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#industry",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#geographies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#companies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#consumers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store#report-types",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "View all reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/appliances-electronics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/automotive-mobility",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/consumer-foodservice",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/drinks",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/food-nutrition",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/health-beauty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/home-products",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/industrial-markets",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/ingredients-packaging",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/luxury-fashion",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/nicotine-cannabis",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/payments-lending",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/retail-ecommerce",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/sports",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry/travel",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "View all industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/us-israel-iran-war-impact",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/trending-topics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#a187bb86807234820a784359f88c3825c",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#a14f3999c16a643198bc325d6227be6c0",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#a4b8e80d814d04cd5867fa55cbeb4f4e1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#aab8ee4876ea44ce0a2f39979570270d6",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-trends",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/digital",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/economies",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/innovation",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/loyalty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/market-research-in-action",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sustainability",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/wellness",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/appliances-and-electronics",
+   "text": "Appliances and Electronics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/consumer-foodservice",
+   "text": "Consumer Foodservice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/drinks",
+   "text": "Drinks",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/food-and-nutrition",
+   "text": "Food and Nutrition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/health-beauty",
+   "text": "Health and Beauty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/home-products",
+   "text": "Home Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/industrial-markets",
+   "text": "Industrial Markets",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/ingredients-and-packaging",
+   "text": "Ingredients and Packaging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/luxury-fashion",
+   "text": "Luxury and Fashion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/nicotine-and-cannabis",
+   "text": "Nicotine and Cannabis",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/payments-and-lending",
+   "text": "Payments and Lending",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/retail-and-ecommerce",
+   "text": "Retail and E-Commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/travel",
+   "text": "Travel",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/asia-pacific",
+   "text": "Asia Pacific",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/australasia",
+   "text": "Australasia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/europe",
+   "text": "Europe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/latin-america",
+   "text": "Latin America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/middle-east-and-north-africa",
+   "text": "Middle East and North Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/north-america",
+   "text": "North America",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights/sub-saharan-africa",
+   "text": "Sub-Saharan Africa",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/article",
+   "text": "Articles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/podcast",
+   "text": "Podcasts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/video",
+   "text": "Videos",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/webinar",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/whitepaper",
+   "text": "Whitepapers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "View all insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "Who we are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/our-experts",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/awards-and-recognition",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/about-us",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/our-history",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/meet-the-team",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/research-methodology",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/careers",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/corporate-social-responsibility",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/diversity-equity-and-inclusion",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/office-locations",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "View all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/search",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#",
+   "text": "View All Reports",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "Euromonitor",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "Buy Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/euromonitor-help",
+   "text": "Contact us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/vitamins-in-cambodia/report",
+   "text": "Vitamins in Cambodia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+   "text": "Vitamins",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/paediatric-consumer-health-in-the-united-states/report",
+   "text": "Paediatric Consumer Health in the United States",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
+   "text": "Paediatric consumer health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/digestive-remedies-in-finland/report",
+   "text": "Digestive Remedies in Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+   "text": "Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dietary-supplements-in-kazakhstan/report",
+   "text": "Dietary Supplements in Kazakhstan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+   "text": "Kazakhstan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/weight-management-and-wellbeing-in-canada/report",
+   "text": "Weight Management and Wellbeing in Canada",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+   "text": "Canada",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dermatologicals-in-ghana/report",
+   "text": "Dermatologicals in Ghana",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+   "text": "Dermatologicals",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/cough-cold-and-allergy-hay-fever-remedies-in-uzbekistan/report",
+   "text": "Cough, Cold and Allergy (Hay Fever) Remedies in Uzbekistan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+   "text": "Uzbekistan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/weight-management-and-wellbeing-in-cambodia/report",
+   "text": "Weight Management and Wellbeing in Cambodia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
+   "text": "Weight Management and Wellbeing",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/sports-nutrition-in-serbia/report",
+   "text": "Sports Nutrition in Serbia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
+   "text": "Serbia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dietary-supplements-in-austria/report",
+   "text": "Dietary Supplements in Austria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
+   "text": "Austria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/digestive-remedies-in-ghana/report",
+   "text": "Digestive Remedies in Ghana",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+   "text": "Digestive Remedies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dietary-supplements-in-serbia/report",
+   "text": "Dietary Supplements in Serbia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
+   "text": "Serbia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport",
+   "text": "Learn more",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dermatologicals-in-finland/report",
+   "text": "Dermatologicals in Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+   "text": "Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/nrt-smoking-cessation-aids-in-france/report",
+   "text": "NRT Smoking Cessation Aids in France",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/france",
+   "text": "France",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/digestive-remedies-in-france/report",
+   "text": "Digestive Remedies in France",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/france",
+   "text": "France",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/sports-nutrition-in-kazakhstan/report",
+   "text": "Sports Nutrition in Kazakhstan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+   "text": "Kazakhstan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/wound-care-in-ghana/report",
+   "text": "Wound Care in Ghana",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
+   "text": "Wound Care",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/paediatric-consumer-health-in-belgium/report",
+   "text": "Paediatric Consumer Health in Belgium",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/belgium",
+   "text": "Belgium",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/weight-management-and-wellbeing-in-algeria/report",
+   "text": "Weight Management and Wellbeing in Algeria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
+   "text": "Algeria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/consumer-health-in-kenya/report",
+   "text": "Consumer Health in Kenya",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
+   "text": "Kenya",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/cough-cold-and-allergy-hay-fever-remedies-in-finland/report",
+   "text": "Cough, Cold and Allergy (Hay Fever) Remedies in Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+   "text": "Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/sports-nutrition-in-austria/report",
+   "text": "Sports Nutrition in Austria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
+   "text": "Austria",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/dietary-supplements-in-kenya/report",
+   "text": "Dietary Supplements in Kenya",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
+   "text": "Kenya",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/analgesics-in-finland/report",
+   "text": "Analgesics in Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+   "text": "Finland",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/store/explore-reports/consumer-health",
+   "text": "Consumer Health",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research/book-meeting-demo",
+   "text": "Talk to our consulting team",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/euromonitor-help",
+   "text": "Get started",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport",
+   "text": "Passport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/custom-research",
+   "text": "Custom Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/store",
+   "text": "Buy reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/content-licensing",
+   "text": "Content licensing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/e-commerce",
+   "text": "E-commerce",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/innovation",
+   "text": "Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/sustainability",
+   "text": "Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/insights",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/industry",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/consumers",
+   "text": "Consumers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/solutions/passport/economies",
+   "text": "Economies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://go.euromonitor.com/newsletter-sign-up.html",
+   "text": "Join our community",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are",
+   "text": "Who we are",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/about-us",
+   "text": "About us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/how-we-use-ai",
+   "text": "How we use AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/careers",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/corporate-social-responsibility",
+   "text": "Corporate social responsibility",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/who-we-are/diversity-equity-and-inclusion",
+   "text": "Diversity, equity and inclusion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/events-past",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/newsroom",
+   "text": "Newsroom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cookie-policy",
+   "text": "Cookies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/footer/corporate-governance.pdf",
+   "text": "Corporate governance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/CSR/reportpaygap26-2.pdf",
+   "text": "Gender Pay Gap report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/globalassets/2025-modern-slavery-statement.pdf",
+   "text": "Modern Slavery Act",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/privacy-policy",
+   "text": "Privacy policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/terms-and-conditions",
+   "text": "Terms and conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/security-posture",
+   "text": "Security posture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/sitemap",
+   "text": "Sitemap",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Get in touch",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cartpage",
+   "text": "Shopping cart",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/definitions",
+   "text": "Definitions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/euromonitor/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.instagram.com/euromonitorint/?igshid=YmMyMTA2M2Y%3D",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.linkedin.com/company/euromonitor-international",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.youtube.com/user/Euromonitor",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.tiktok.com/@euromonitorinternational",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s?__biz=MzI2ODA4OTYzMw==&mid=2650221568&idx=1&sn=83cd7f6287335c652387d9b487112b24&chksm=f2f76c4ec580e558c152532a7b1f26d98941bac43aca7582e37f8b1aef96ba5dd8ae723a3b17&token=444607437&lang=zh_CN#rd",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.euromonitor.com/cookie-policy",
+   "text": "More information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.onetrust.com/solutions/consent-and-preferences/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

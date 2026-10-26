@@ -1,0 +1,1415 @@
+[
+ {
+  "queue_id": "S1-R2-E1-R3-rule-F1",
+  "entry_id": "S1-R2-E1",
+  "url": "https://www.census.gov/retail/",
+  "action": "R3-S1-R2-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、标注测试有失败（留出 FN0/FP1）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R2-E2-R3-rule-F2",
+  "entry_id": "S1-R2-E2",
+  "url": "https://www.census.gov/programs-surveys/e-stats.html",
+  "action": "R3-S1-R2-E2-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R3-E1-R3-access",
+  "entry_id": "S1-R3-E1",
+  "url": "https://www.bls.gov/cex/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R3-E2-R3-access",
+  "entry_id": "S1-R3-E2",
+  "url": "https://www.bls.gov/news.release/cesan.htm",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R6-E13-R3-rule-F1",
+  "entry_id": "S1-R6-E13",
+  "url": "https://documents.worldbank.org/en/publication/documents-reports",
+  "action": "R3-S1-R6-E13-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R18-E4-R3-rule-F2",
+  "entry_id": "S1-R18-E4",
+  "url": "https://www.itu.int/en/action/Pages/default.aspx",
+  "action": "R3-S1-R18-E4-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R18-E5-R3-rule-F2",
+  "entry_id": "S1-R18-E5",
+  "url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+  "action": "R3-S1-R18-E5-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R18-E6-R3-rule-F2",
+  "entry_id": "S1-R18-E6",
+  "url": "https://www.itu.int/en/ITU-T/Pages/default.aspx",
+  "action": "R3-S1-R18-E6-F2：机械门未通过：留出反例 2<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R18-E7-R3-rule-F1",
+  "entry_id": "S1-R18-E7",
+  "url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+  "action": "R3-S1-R18-E7-F1：机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R18-E8-R3-rule-F1",
+  "entry_id": "S1-R18-E8",
+  "url": "https://www.itu.int/hub/news/",
+  "action": "R3-S1-R18-E8-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E3-R3-rule-F1",
+  "entry_id": "S1-R19-E3",
+  "url": "https://www.wipo.int/en/web/ip-statistics",
+  "action": "R3-S1-R19-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E4-R3-rule-F1",
+  "entry_id": "S1-R19-E4",
+  "url": "https://www.wipo.int/en/web/patentscope/",
+  "action": "R3-S1-R19-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E4-R3-rule-F2",
+  "entry_id": "S1-R19-E4",
+  "url": "https://www.wipo.int/en/web/patentscope/",
+  "action": "R3-S1-R19-E4-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E6-R3-rule-F1",
+  "entry_id": "S1-R19-E6",
+  "url": "https://www.wipo.int/en/web/global-brand-database",
+  "action": "R3-S1-R19-E6-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E6-R3-rule-F2",
+  "entry_id": "S1-R19-E6",
+  "url": "https://www.wipo.int/en/web/global-brand-database",
+  "action": "R3-S1-R19-E6-F2：机械门未通过：留出反例 1<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E8-R3-rule-F1",
+  "entry_id": "S1-R19-E8",
+  "url": "https://www.wipo.int/en/web/global-design-database",
+  "action": "R3-S1-R19-E8-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E10-R3-rule-F1",
+  "entry_id": "S1-R19-E10",
+  "url": "https://www.wipo.int/en/web/patent-analytics",
+  "action": "R3-S1-R19-E10-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E10-R3-rule-F2",
+  "entry_id": "S1-R19-E10",
+  "url": "https://www.wipo.int/en/web/patent-analytics",
+  "action": "R3-S1-R19-E10-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E12-R3-rule-F1",
+  "entry_id": "S1-R19-E12",
+  "url": "https://www.wipo.int/en/web/business",
+  "action": "R3-S1-R19-E12-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；列表成员漏配 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E12-R3-rule-F2",
+  "entry_id": "S1-R19-E12",
+  "url": "https://www.wipo.int/en/web/business",
+  "action": "R3-S1-R19-E12-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E14-R3-rule-F2",
+  "entry_id": "S1-R19-E14",
+  "url": "https://www.wipo.int/en/web/technology-transfer",
+  "action": "R3-S1-R19-E14-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E16-R3-rule-F1",
+  "entry_id": "S1-R19-E16",
+  "url": "https://www.wipo.int/en/web/ip-financing",
+  "action": "R3-S1-R19-E16-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E16-R3-rule-F2",
+  "entry_id": "S1-R19-E16",
+  "url": "https://www.wipo.int/en/web/ip-financing",
+  "action": "R3-S1-R19-E16-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E20-R3-rule-F1",
+  "entry_id": "S1-R19-E20",
+  "url": "https://www.wipo.int/en/web/frontier-technologies",
+  "action": "R3-S1-R19-E20-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E21-R3-rule-F1",
+  "entry_id": "S1-R19-E21",
+  "url": "https://www.wipo.int/en/web/wipo-magazine",
+  "action": "R3-S1-R19-E21-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E22-R3-rule-F1",
+  "entry_id": "S1-R19-E22",
+  "url": "https://www.wipo.int/en/web/ip-advantage",
+  "action": "R3-S1-R19-E22-F1：机械门未通过：留出反例 2<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E22-R3-rule-F2",
+  "entry_id": "S1-R19-E22",
+  "url": "https://www.wipo.int/en/web/ip-advantage",
+  "action": "R3-S1-R19-E22-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E24-R3-rule-F1",
+  "entry_id": "S1-R19-E24",
+  "url": "https://www.wipo.int/en/web/global-innovation-index",
+  "action": "R3-S1-R19-E24-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E25-R3-rule-F1",
+  "entry_id": "S1-R19-E25",
+  "url": "https://www.wipo.int/en/web/world-ip-report",
+  "action": "R3-S1-R19-E25-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R19-E28-R3-rule-F1",
+  "entry_id": "S1-R19-E28",
+  "url": "https://www3.wipo.int/ipstats/",
+  "action": "R3-S1-R19-E28-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 2<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E1-R3-gap-F1",
+  "entry_id": "S1-R20-E1",
+  "url": "https://www.epo.org/en/searching-for-patents",
+  "action": "R3-S1-R20-E1-F1：sitemap 有 19 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E1-R3-rule-F1",
+  "entry_id": "S1-R20-E1",
+  "url": "https://www.epo.org/en/searching-for-patents",
+  "action": "R3-S1-R20-E1-F1：机械门未通过：有正例未完成落地身份核验",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E1-R3-rule-F2",
+  "entry_id": "S1-R20-E1",
+  "url": "https://www.epo.org/en/searching-for-patents",
+  "action": "R3-S1-R20-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E1-R3-gap-F3",
+  "entry_id": "S1-R20-E1",
+  "url": "https://www.epo.org/en/searching-for-patents",
+  "action": "R3-S1-R20-E1-F3：sitemap 有 255 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E2-R3-gap-F1",
+  "entry_id": "S1-R20-E2",
+  "url": "https://www.epo.org/en/news-events",
+  "action": "R3-S1-R20-E2-F1：sitemap 有 1078 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R20-E2-R3-rule-F2",
+  "entry_id": "S1-R20-E2",
+  "url": "https://www.epo.org/en/news-events",
+  "action": "R3-S1-R20-E2-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R27-E1-R3-rule-F2",
+  "entry_id": "S1-R27-E1",
+  "url": "https://www.euromonitor.com/articles",
+  "action": "R3-S1-R27-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R27-E3-R3-rule-F1",
+  "entry_id": "S1-R27-E3",
+  "url": "https://www.euromonitor.com/store/explore-reports",
+  "action": "R3-S1-R27-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R30-E1-R3-gap-F1",
+  "entry_id": "S1-R30-E1",
+  "url": "https://www.nielsen.com/insights/",
+  "action": "R3-S1-R30-E1-F1：sitemap 有 3015 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R30-E1-R3-rule-F1",
+  "entry_id": "S1-R30-E1",
+  "url": "https://www.nielsen.com/insights/",
+  "action": "R3-S1-R30-E1-F1：机械门未通过：有正例未完成落地身份核验",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R30-E2-R3-gap-F1",
+  "entry_id": "S1-R30-E2",
+  "url": "https://www.nielsen.com/news-center/",
+  "action": "R3-S1-R30-E2-F1：sitemap 有 100 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R30-E2-R3-rule-F1",
+  "entry_id": "S1-R30-E2",
+  "url": "https://www.nielsen.com/news-center/",
+  "action": "R3-S1-R30-E2-F1：机械门未通过：有正例未完成落地身份核验",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R31-E2-R3-gap-F1",
+  "entry_id": "S1-R31-E2",
+  "url": "https://msi.org/research/",
+  "action": "R3-S1-R31-E2-F1：sitemap 有 5 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R31-E2-R3-rule-F1",
+  "entry_id": "S1-R31-E2",
+  "url": "https://msi.org/research/",
+  "action": "R3-S1-R31-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R35-E1-R3-rule-F1",
+  "entry_id": "S1-R35-E1",
+  "url": "https://www.comscore.com/Insights/Blog",
+  "action": "R3-S1-R35-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R35-E2-R3-rule-F1",
+  "entry_id": "S1-R35-E2",
+  "url": "https://www.comscore.com/Insights/Presentations-and-Whitepapers",
+  "action": "R3-S1-R35-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）、留出反例 1<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R39-E1-R3-gap-F1",
+  "entry_id": "S1-R39-E1",
+  "url": "https://www.gwi.com/reports",
+  "action": "R3-S1-R39-E1-F1：sitemap 有 21 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R39-E1-R3-rule-F1",
+  "entry_id": "S1-R39-E1",
+  "url": "https://www.gwi.com/reports",
+  "action": "R3-S1-R39-E1-F1：机械门未通过：标注测试有失败（留出 FN0/FP0）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R39-E2-R3-rule-F2",
+  "entry_id": "S1-R39-E2",
+  "url": "https://www.gwi.com/blog",
+  "action": "R3-S1-R39-E2-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R40-E1-R3-gap-F1",
+  "entry_id": "S1-R40-E1",
+  "url": "https://www.wearehuman8.com/inspiration/",
+  "action": "R3-S1-R40-E1-F1：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R40-E1-R3-rule-F1",
+  "entry_id": "S1-R40-E1",
+  "url": "https://www.wearehuman8.com/inspiration/",
+  "action": "R3-S1-R40-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R41-E1-R3-gap-F1",
+  "entry_id": "S1-R41-E1",
+  "url": "https://interbrand.com/best-global-brands/",
+  "action": "R3-S1-R41-E1-F1：sitemap 有 95 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R41-E1-R3-rule-F1",
+  "entry_id": "S1-R41-E1",
+  "url": "https://interbrand.com/best-global-brands/",
+  "action": "R3-S1-R41-E1-F1：机械门未通过：留出反例 0<3",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R42-E1-R3-r2",
+  "entry_id": "S1-R42-E1",
+  "url": "https://www.numerator.com/resources/",
+  "action": "第 2 轮受阻项（见 round2/queue.json）",
+  "reason": "权限拦截/挑战页",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R46-E1-R3-access",
+  "entry_id": "S1-R46-E1",
+  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R46-E2-R3-access",
+  "entry_id": "S1-R46-E2",
+  "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R46-E3-R3-access",
+  "entry_id": "S1-R46-E3",
+  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R47-E1-R3-access",
+  "entry_id": "S1-R47-E1",
+  "url": "https://www.bcg.com/capabilities/marketing-sales/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R47-E2-R3-access",
+  "entry_id": "S1-R47-E2",
+  "url": "https://www.bcg.com/capabilities/customer-insights/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R47-E3-R3-access",
+  "entry_id": "S1-R47-E3",
+  "url": "https://www.bcg.com/industries/retail/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R47-E4-R3-access",
+  "entry_id": "S1-R47-E4",
+  "url": "https://www.bcg.com/industries/consumer-products-industry/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R48-E1-R3-gap-F1",
+  "entry_id": "S1-R48-E1",
+  "url": "https://www.bain.com/insights/",
+  "action": "R3-S1-R48-E1-F1：sitemap 有 6291 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R48-E1-R3-rule-F1",
+  "entry_id": "S1-R48-E1",
+  "url": "https://www.bain.com/insights/",
+  "action": "R3-S1-R48-E1-F1：机械门未通过：有正例未完成落地身份核验",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R49-E1-R3-gap-F1",
+  "entry_id": "S1-R49-E1",
+  "url": "https://www.deloitte.com/global/en/insights.html",
+  "action": "R3-S1-R49-E1-F1：sitemap 有 1098 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R49-E1-R3-gap-F2",
+  "entry_id": "S1-R49-E1",
+  "url": "https://www.deloitte.com/global/en/insights.html",
+  "action": "R3-S1-R49-E1-F2：sitemap 有 36 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E1-R3-access",
+  "entry_id": "S1-R51-E1",
+  "url": "https://www.gartner.com/en/marketing/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E2-R3-access",
+  "entry_id": "S1-R51-E2",
+  "url": "https://www.gartner.com/en/sales/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E3-R3-access",
+  "entry_id": "S1-R51-E3",
+  "url": "https://www.gartner.com/en/customer-service-support/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E4-R3-access",
+  "entry_id": "S1-R51-E4",
+  "url": "https://www.gartner.com/en/finance/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E5-R3-access",
+  "entry_id": "S1-R51-E5",
+  "url": "https://www.gartner.com/en/supply-chain",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R51-E6-R3-access",
+  "entry_id": "S1-R51-E6",
+  "url": "https://www.gartner.com/en/insights/finance",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R53-E1-R3-gap-F1",
+  "entry_id": "S1-R53-E1",
+  "url": "https://www.idc.com/research/",
+  "action": "R3-S1-R53-E1-F1：sitemap 有 6 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R53-E1-R3-rule-F1",
+  "entry_id": "S1-R53-E1",
+  "url": "https://www.idc.com/research/",
+  "action": "R3-S1-R53-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R63-E1-R3-access",
+  "entry_id": "S1-R63-E1",
+  "url": "https://transparency.meta.com/policies/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R68-E1-R3-gap-F1",
+  "entry_id": "S1-R68-E1",
+  "url": "https://www.iab.com/events/",
+  "action": "R3-S1-R68-E1-F1：sitemap 有 946 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R68-E1-R3-rule-F1",
+  "entry_id": "S1-R68-E1",
+  "url": "https://www.iab.com/events/",
+  "action": "R3-S1-R68-E1-F1：sitemap 同结构 URL 漏配 4",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R81-E1-R3-access",
+  "entry_id": "S1-R81-E1",
+  "url": "https://www.campaignlive.com/news",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R81-E2-R3-access",
+  "entry_id": "S1-R81-E2",
+  "url": "https://www.campaignlive.com/in-depth",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R86-E1-R3-rule-F2",
+  "entry_id": "S1-R86-E1",
+  "url": "https://www.dandad.org/work/annual-2026/",
+  "action": "R3-S1-R86-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R86-E2-R3-rule-F2",
+  "entry_id": "S1-R86-E2",
+  "url": "https://www.dandad.org/insights",
+  "action": "R3-S1-R86-E2-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R86-E3-R3-rule-F1",
+  "entry_id": "S1-R86-E3",
+  "url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+  "action": "R3-S1-R86-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R87-E3-R3-rule-F1",
+  "entry_id": "S1-R87-E3",
+  "url": "https://gp.demandcurve.com/blog",
+  "action": "R3-S1-R87-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R89-E3-R3-gap-F1",
+  "entry_id": "S1-R89-E3",
+  "url": "https://www.greenbook.org/grit",
+  "action": "R3-S1-R89-E3-F1：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R89-E3-R3-rule-F1",
+  "entry_id": "S1-R89-E3",
+  "url": "https://www.greenbook.org/grit",
+  "action": "R3-S1-R89-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R90-E1-R3-rule-F1",
+  "entry_id": "S1-R90-E1",
+  "url": "https://growth.design/case-studies",
+  "action": "R3-S1-R90-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R91-E1-R3-rule-F1",
+  "entry_id": "S1-R91-E1",
+  "url": "https://growthhackers.com/growth-studies/",
+  "action": "R3-S1-R91-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R93-E1-R3-access",
+  "entry_id": "S1-R93-E1",
+  "url": "https://lbbonline.com/work",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R93-E2-R3-access",
+  "entry_id": "S1-R93-E2",
+  "url": "https://lbbonline.com/news",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R93-E3-R3-access",
+  "entry_id": "S1-R93-E3",
+  "url": "https://lbbonline.com/reels",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R95-E3-R3-rule-F1",
+  "entry_id": "S1-R95-E3",
+  "url": "https://marketingexamples.com/social",
+  "action": "R3-S1-R95-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R95-E4-R3-rule-F1",
+  "entry_id": "S1-R95-E4",
+  "url": "https://marketingexamples.com/copywriting",
+  "action": "R3-S1-R95-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R99-E1-R3-rule-F2",
+  "entry_id": "S1-R99-E1",
+  "url": "https://www.reforge.com/blog",
+  "action": "R3-S1-R99-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R101-E1-R3-access",
+  "entry_id": "S1-R101-E1",
+  "url": "https://searchengineland.com/library/guide",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R101-E2-R3-access",
+  "entry_id": "S1-R101-E2",
+  "url": "https://searchengineland.com/guide",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R101-E3-R3-access",
+  "entry_id": "S1-R101-E3",
+  "url": "https://searchengineland.com/library/guide/content-marketing-guide",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R101-E4-R3-access",
+  "entry_id": "S1-R101-E4",
+  "url": "https://searchengineland.com/library/guide/ppc-guide",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R101-E5-R3-access",
+  "entry_id": "S1-R101-E5",
+  "url": "https://searchengineland.com/library/guide/seo-guide",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R103-E1-R3-gap-F2",
+  "entry_id": "S1-R103-E1",
+  "url": "https://www.oneclub.org/awards/theoneshow/",
+  "action": "R3-S1-R103-E1-F2：sitemap 有 16479 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R105-E1-R3-gap-F1",
+  "entry_id": "S1-R105-E1",
+  "url": "https://nrf.com/membership",
+  "action": "R3-S1-R105-E1-F1：sitemap 有 3 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R105-E1-R3-rule-F1",
+  "entry_id": "S1-R105-E1",
+  "url": "https://nrf.com/membership",
+  "action": "R3-S1-R105-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R105-E2-R3-gap-F1",
+  "entry_id": "S1-R105-E2",
+  "url": "https://nrf.com/about-us",
+  "action": "R3-S1-R105-E2-F1：sitemap 有 6 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R105-E2-R3-rule-F1",
+  "entry_id": "S1-R105-E2",
+  "url": "https://nrf.com/about-us",
+  "action": "R3-S1-R105-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R108-E1-R3-rule-F1",
+  "entry_id": "S1-R108-E1",
+  "url": "https://www.wppmedia.com/thought-leadership/research-business-intelligence",
+  "action": "R3-S1-R108-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R108-E3-R3-rule-F1",
+  "entry_id": "S1-R108-E3",
+  "url": "https://www.wppmedia.com/thought-leadership/this-year-next-year",
+  "action": "R3-S1-R108-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R110-E1-R3-access",
+  "entry_id": "S1-R110-E1",
+  "url": "https://www.vml.com/expertise/intelligence",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R110-E2-R3-access",
+  "entry_id": "S1-R110-E2",
+  "url": "https://www.vml.com/insights",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R111-E1-R3-rule-F1",
+  "entry_id": "S1-R111-E1",
+  "url": "https://www.ogilvy.com/cn/ideas",
+  "action": "R3-S1-R111-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R112-E1-R3-access",
+  "entry_id": "S1-R112-E1",
+  "url": "https://www.adjust.com/resources/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R112-E2-R3-access",
+  "entry_id": "S1-R112-E2",
+  "url": "https://www.adjust.com/blog/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R114-E1-R3-gap-F1",
+  "entry_id": "S1-R114-E1",
+  "url": "https://amplitude.com/resources",
+  "action": "R3-S1-R114-E1-F1：sitemap 有 152 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R114-E1-R3-rule-F1",
+  "entry_id": "S1-R114-E1",
+  "url": "https://amplitude.com/resources",
+  "action": "R3-S1-R114-E1-F1：归纳样本跳到其他页面 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R115-E1-R3-rule-F1",
+  "entry_id": "S1-R115-E1",
+  "url": "https://analyticpartners.com/knowledge-hub/",
+  "action": "R3-S1-R115-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R116-E2-R3-gap-F1",
+  "entry_id": "S1-R116-E2",
+  "url": "https://www.appsflyer.com/blog/",
+  "action": "R3-S1-R116-E2-F1：sitemap 有 807 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R116-E2-R3-rule-F1",
+  "entry_id": "S1-R116-E2",
+  "url": "https://www.appsflyer.com/blog/",
+  "action": "R3-S1-R116-E2-F1：机械门未通过：有正例未完成落地身份核验",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R117-E1-R3-gap-F1",
+  "entry_id": "S1-R117-E1",
+  "url": "https://www.branch.io/resources/",
+  "action": "R3-S1-R117-E1-F1：sitemap 有 1321 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R117-E1-R3-rule-F1",
+  "entry_id": "S1-R117-E1",
+  "url": "https://www.branch.io/resources/",
+  "action": "R3-S1-R117-E1-F1：机械门未通过：留出反例 0<3；归纳样本跳到其他页面 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R118-E4-R3-rule-F1",
+  "entry_id": "S1-R118-E4",
+  "url": "https://www.brandwatch.com/social-media-glossary/",
+  "action": "R3-S1-R118-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R121-E1-R3-gap-F1",
+  "entry_id": "S1-R121-E1",
+  "url": "https://contentsquare.com/blog/",
+  "action": "R3-S1-R121-E1-F1：sitemap 有 9 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R121-E1-R3-rule-F1",
+  "entry_id": "S1-R121-E1",
+  "url": "https://contentsquare.com/blog/",
+  "action": "R3-S1-R121-E1-F1：第 2 轮已知 3 个列表链接被匹配但跳到非文章页（/blog/、/guides/ux-design/），是否接受由用户决定",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R122-E1-R3-gap-F1",
+  "entry_id": "S1-R122-E1",
+  "url": "https://www.hootsuite.com/resources/",
+  "action": "R3-S1-R122-E1-F1：sitemap 有 121 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R122-E1-R3-gap-F2",
+  "entry_id": "S1-R122-E1",
+  "url": "https://www.hootsuite.com/resources/",
+  "action": "R3-S1-R122-E1-F2：sitemap 有 139 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R122-E1-R3-rule-F2",
+  "entry_id": "S1-R122-E1",
+  "url": "https://www.hootsuite.com/resources/",
+  "action": "R3-S1-R122-E1-F2：归纳样本跳到其他页面 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E1-R3-rule-F1",
+  "entry_id": "S1-R123-E1",
+  "url": "https://blog.hubspot.com/marketing",
+  "action": "R3-S1-R123-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E1-R3-rule-F2",
+  "entry_id": "S1-R123-E1",
+  "url": "https://blog.hubspot.com/marketing",
+  "action": "R3-S1-R123-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E1-R3-rule-F3",
+  "entry_id": "S1-R123-E1",
+  "url": "https://blog.hubspot.com/marketing",
+  "action": "R3-S1-R123-E1-F3：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E2-R3-gap-F1",
+  "entry_id": "S1-R123-E2",
+  "url": "https://blog.hubspot.com/sales",
+  "action": "R3-S1-R123-E2-F1：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E2-R3-rule-F1",
+  "entry_id": "S1-R123-E2",
+  "url": "https://blog.hubspot.com/sales",
+  "action": "R3-S1-R123-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E3-R3-rule-F1",
+  "entry_id": "S1-R123-E3",
+  "url": "https://blog.hubspot.com/service",
+  "action": "R3-S1-R123-E3-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R123-E4-R3-rule-F1",
+  "entry_id": "S1-R123-E4",
+  "url": "https://blog.hubspot.com/website",
+  "action": "R3-S1-R123-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到其他页面 2",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R126-E1-R3-gap-F1",
+  "entry_id": "S1-R126-E1",
+  "url": "https://landor.com/en/our-work/",
+  "action": "R3-S1-R126-E1-F1：sitemap 有 38 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R126-E1-R3-rule-F1",
+  "entry_id": "S1-R126-E1",
+  "url": "https://landor.com/en/our-work/",
+  "action": "R3-S1-R126-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R128-E1-R3-rule-F2",
+  "entry_id": "S1-R128-E1",
+  "url": "https://www.meltwater.com/en/blog",
+  "action": "R3-S1-R128-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R131-E1-R3-gap-F1",
+  "entry_id": "S1-R131-E1",
+  "url": "https://www.semrush.com/blog/",
+  "action": "R3-S1-R131-E1-F1：sitemap 有 80 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R131-E1-R3-gap-F2",
+  "entry_id": "S1-R131-E1",
+  "url": "https://www.semrush.com/blog/",
+  "action": "R3-S1-R131-E1-F2：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R132-E1-R3-gap-F1",
+  "entry_id": "S1-R132-E1",
+  "url": "https://www.shopify.com/blog/",
+  "action": "R3-S1-R132-E1-F1：sitemap 有 3 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R132-E1-R3-gap-F2",
+  "entry_id": "S1-R132-E1",
+  "url": "https://www.shopify.com/blog/",
+  "action": "R3-S1-R132-E1-F2：sitemap 有 323 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R132-E1-R3-rule-F2",
+  "entry_id": "S1-R132-E1",
+  "url": "https://www.shopify.com/blog/",
+  "action": "R3-S1-R132-E1-F2：机械门未通过：有正例未完成落地身份核验；归纳样本跳到其他页面 1",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R133-E1-R3-rule-F1",
+  "entry_id": "S1-R133-E1",
+  "url": "https://www.siegelgale.com/ideas/",
+  "action": "R3-S1-R133-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R135-E1-R3-rule-F2",
+  "entry_id": "S1-R135-E1",
+  "url": "https://www.sistrix.com/blog/",
+  "action": "R3-S1-R135-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R138-E1-R3-rule-F1",
+  "entry_id": "S1-R138-E1",
+  "url": "https://unbounce.com/landing-page-optimization/",
+  "action": "R3-S1-R138-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R139-E1-R3-gap-F1",
+  "entry_id": "S1-R139-E1",
+  "url": "https://wearesocial.com/uk/blog/",
+  "action": "R3-S1-R139-E1-F1：sitemap 有 90 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
+  "reason": "范围对账缺口",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R140-E2-R3-rule-F1",
+  "entry_id": "S1-R140-E2",
+  "url": "https://wingify.com/ebooks/",
+  "action": "R3-S1-R140-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "reason": "规则未达正式准入",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R143-E1-R3-access",
+  "entry_id": "S1-R143-E1",
+  "url": "https://business.adobe.com/resources/reports.html",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R143-E2-R3-access",
+  "entry_id": "S1-R143-E2",
+  "url": "https://business.adobe.com/resources/digital-trends-research-center.html",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R143-E3-R3-access",
+  "entry_id": "S1-R143-E3",
+  "url": "https://business.adobe.com/resources/adobe-digital-insights.html",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R144-E1-R3-access",
+  "entry_id": "S1-R144-E1",
+  "url": "https://www.crunchbase.com/discover/organization.companies",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R145-E1-R3-access",
+  "entry_id": "S1-R145-E1",
+  "url": "https://pitchbook.com/news",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E2-R3-access",
+  "entry_id": "S1-R152-E2",
+  "url": "https://dealroom.co/reports",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E3-R3-access",
+  "entry_id": "S1-R152-E3",
+  "url": "https://dealroom.co/resources",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E4-R3-access",
+  "entry_id": "S1-R152-E4",
+  "url": "https://dealroom.co/news/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E5-R3-access",
+  "entry_id": "S1-R152-E5",
+  "url": "https://dealroom.co/companies/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E6-R3-access",
+  "entry_id": "S1-R152-E6",
+  "url": "https://dealroom.co/investors/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E7-R3-access",
+  "entry_id": "S1-R152-E7",
+  "url": "https://dealroom.co/market-maps/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E8-R3-access",
+  "entry_id": "S1-R152-E8",
+  "url": "https://dealroom.co/power-law-outcomes/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E9-R3-access",
+  "entry_id": "S1-R152-E9",
+  "url": "https://dealroom.co/talent/founder-mafias/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E10-R3-access",
+  "entry_id": "S1-R152-E10",
+  "url": "https://dealroom.co/tech-macro-economics/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ },
+ {
+  "queue_id": "S1-R152-E11-R3-access",
+  "entry_id": "S1-R152-E11",
+  "url": "https://dealroom.co/vc-investment-dashboard/",
+  "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
+  "reason": "访问受限",
+  "cursor": null,
+  "status": "pending"
+ }
+]

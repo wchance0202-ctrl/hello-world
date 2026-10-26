@@ -1,0 +1,26 @@
+{
+ "url": "https://www.cbinsights.com/strategy-terminal/",
+ "observed_at": "2026-10-26T11:04:44.677Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.cbinsights.com/strategy-terminal/",
+ "status": 403,
+ "error": null,
+ "title": "ERROR: The request could not be satisfied",
+ "h1": "403 ERROR",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 0,
+   "new_in_prefix": 0,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 0,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": []
+}

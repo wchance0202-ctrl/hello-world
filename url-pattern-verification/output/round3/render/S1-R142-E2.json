@@ -1,0 +1,26 @@
+{
+ "url": "https://www.salesforce.com/company/analyst-reports/",
+ "observed_at": "2026-10-26T11:04:37.868Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.salesforce.com/company/analyst-reports/",
+ "status": 403,
+ "error": null,
+ "title": "Access Denied",
+ "h1": "Access Denied",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 0,
+   "new_in_prefix": 0,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 0,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": []
+}

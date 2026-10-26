@@ -1,0 +1,5476 @@
+{
+ "url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+ "observed_at": "2026-10-26T11:02:14.703Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+ "status": 200,
+ "error": null,
+ "title": "| epo.org",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 1080,
+   "new_in_prefix": 1080,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 1080,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.epo.org/sites/default/files/data/search-labels-en.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/api/as/v1/engines/main-content-master/search.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/es/web-legal-texts-delta-master/_search"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/es/web-legal-texts-delta-master/_search"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/es/web-boa-decisions/_search"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/es/web_drupal_epo_org_production/_search"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/api/as/v1/engines/main-content-master/search.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/api/as/v1/engines/main-content-master/search.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/es/web_drupal_epo_org_production/_search"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/api/as/v1/engines/main-content-master/search.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/api/as/v1/engines/main-content-master/search.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.epo.org/cdn-cgi/challenge-platform/h/b/precursor/d2d3316b729e/0.944950048185424:1793009427:sw079nI-JaXI-_CVAGnChov0V9vvOzmwcO1UQ03705w/a508f7bbae533cab"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#main-content",
+   "text": "Skip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#footer",
+   "text": "Skip to footer",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.epo.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/searching-for-patents",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/espacenet",
+   "text": "Espacenet - patent search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server",
+   "text": "European Publication Server",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/ep-full-text",
+   "text": "EP full-text search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register",
+   "text": "European Patent Register",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/bulletin",
+   "text": "European Patent Bulletin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/observations",
+   "text": "Third-party observations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business/ipscore",
+   "text": "IPscore",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business/technology-insight-reports",
+   "text": "Technology insight reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/technology-intelligence-platform",
+   "text": "Technology Intelligence Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/linked-open-data",
+   "text": "Linked open EP data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets",
+   "text": "Bulk data sets",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/web-services",
+   "text": "Web services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/coverage",
+   "text": "Coverage, codes and statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/quantum-technologies",
+   "text": "Quantum technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture",
+   "text": "Digital agriculture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/plastics",
+   "text": "Plastics in transition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/water-technologies",
+   "text": "Water innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/space-innovation",
+   "text": "Space innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer",
+   "text": "Technologies combatting cancer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting",
+   "text": "Firefighting technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy",
+   "text": "Clean energy technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus",
+   "text": "Fighting coronavirus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here",
+   "text": "First time here?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patlib",
+   "text": "Patent information centres",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-translate",
+   "text": "Patent Translate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news",
+   "text": "Patent Knowledge News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/business-and-statistics",
+   "text": "Business and statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/unitary-patent-information",
+   "text": "Unitary Patent information in patent knowledge",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/news/inventions-battery-reuse-and-recycling-increase-more-seven-fold-last-decade",
+   "text": "Technology insight report on battery circularity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/applying",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-changes-april-2027",
+   "text": "What changes on 1 April 2027?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/how-to-interact-digitally-with-us",
+   "text": "How to interact with us digitally",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-do-i-need-to-do",
+   "text": "What do I need to do?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-if-epo-online-services-are-unavailable",
+   "text": "What if EPO online services are unavailable?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/legal-references",
+   "text": "Legal references",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/support-help",
+   "text": "Support and help",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oppositions",
+   "text": "Oppositions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oral-proceedings",
+   "text": "Oral proceedings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/appeals",
+   "text": "Appeals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary",
+   "text": "Unitary Patent & Unified Patent Court",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/validation",
+   "text": "National validation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/request-extension-validation",
+   "text": "Request for extension/validation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/entry-european-phase",
+   "text": "Entry into the European phase",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/decisions",
+   "text": "EPO decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/provisions",
+   "text": "PCT provisions and resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/request-extension-validation",
+   "text": "Extension/validation request",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/reinforced-partnership-faq",
+   "text": "Reinforced partnership programme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/accelerating-application",
+   "text": "Accelerating your PCT application",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/patent-prosecution-highway",
+   "text": "Patent Prosecution Highway (PPH)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/training-events",
+   "text": "Training and events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/national",
+   "text": "National route",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/representatives",
+   "text": "Find a professional representative",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/understand",
+   "text": "Understand our services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/get-access",
+   "text": "Get access",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/file-with-us",
+   "text": "File with us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/interact",
+   "text": "Interact with us on your files",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/online-filing-outages",
+   "text": "Online filing & fee payment outages",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/forms",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/forms/examination",
+   "text": "Request for examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fees",
+   "text": "European fees (EPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/international-fees",
+   "text": "International fees (PCT)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/unitary-patent-fees",
+   "text": "Unitary Patent fees (UP)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment",
+   "text": "Fee payment and refunds",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/warning",
+   "text": "Warning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fee-assistant",
+   "text": "Fee Assistant",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fee-reductions-and-compensation",
+   "text": "Fee reductions and compensation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary",
+   "text": "Find out how the Unitary Patent can enhance your IP strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/law-practice",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc",
+   "text": "European Patent Convention",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/official-journal",
+   "text": "Official Journal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines",
+   "text": "Guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/extension-validation-system",
+   "text": "Extension / validation system",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/london-agreement",
+   "text": "London Agreement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/national-law",
+   "text": "National law relating to the EPC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/up-upc",
+   "text": "Unitary patent system",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/national-measures-up",
+   "text": "National measures relating to the Unitary Patent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/court-practices",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/court-practices/european-patent-judges-symposium",
+   "text": "European Patent Judges' Symposium",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation/ongoing",
+   "text": "Ongoing consultations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation/completed-consultations",
+   "text": "Completed consultations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation/tegernsee-process",
+   "text": "The Tegernsee process",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation/group-b-plus",
+   "text": "Group B+",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/convergence-of-practice",
+   "text": "Convergence of practice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/options-representatives",
+   "text": "Options for representatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/publications/abstracts-of-decisions",
+   "text": "Keep up with key aspects of selected BoA decisions with our monthly \"Abstracts of decisions”",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/news-events",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/news",
+   "text": "News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/about-award",
+   "text": "About the award",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/categories-and-prizes",
+   "text": "Categories and prizes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-finalists",
+   "text": "Meet the inventors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/nominations",
+   "text": "Nominations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/2026-event",
+   "text": "The 2026 event",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/every-limit-is-a-beginning",
+   "text": "Every limit is a beginning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network",
+   "text": "European Inventor Network",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/about-prize",
+   "text": "About the prize",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/nominations",
+   "text": "Nominations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/world-reimagined",
+   "text": "The world, reimagined",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/2025-event",
+   "text": "The 2025 event",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/technology-dashboard-and-statistics",
+   "text": "EPO Technology Dashboard and statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/search-press-centre",
+   "text": "Search in press centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/background",
+   "text": "Background information",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/copyright",
+   "text": "Copyright",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/contact",
+   "text": "Press contacts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/call-back-form",
+   "text": "Call back form",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/email-alert-service",
+   "text": "Email alert service",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest",
+   "text": "CodeFest",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech",
+   "text": "Green tech in focus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/research",
+   "text": "Research institutes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/lifestyle",
+   "text": "Lifestyle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/space",
+   "text": "Space and satellites",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/medical-technologies",
+   "text": "The future of medicine",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/materials",
+   "text": "Materials science",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/mobile-economy",
+   "text": "Mobile communications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents",
+   "text": "Biotechnology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification",
+   "text": "Patent classification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/digital-technologies",
+   "text": "Digital technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/future-of-manufacturing",
+   "text": "The future of manufacturing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/books",
+   "text": "Books by EPO experts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/podcast",
+   "text": "\"Talk innovation\" podcast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/podcast",
+   "text": "From ideas to inventions: tune into our podcast for the latest in tech and IP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/learning",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths/learning-activities-types-formats",
+   "text": "Learning activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths/learning-paths",
+   "text": "Learning paths",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe",
+   "text": "EQE - European qualifying examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/epac-european-patent-administration-certification",
+   "text": "EPAC - European patent administration certification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/candidate-support-programme",
+   "text": "CSP – Candidate Support Programme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/patent-granting",
+   "text": "Patent granting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/technology-transfer-and-dissemination",
+   "text": "Technology transfer and dissemination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/patent-enforcement-and-litigation",
+   "text": "Patent enforcement and litigation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers",
+   "text": "Business and IP managers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/eqe-epac-candidates",
+   "text": "EQE and EPAC Candidates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/judges-lawyers-and-prosecutors",
+   "text": "Judges, lawyers and prosecutors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/national-offices-and-ip-authorities",
+   "text": "National offices and IP authorities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/patent-attorneys-and-paralegals",
+   "text": "Patent attorneys and paralegals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres",
+   "text": "Universities, research centres and technology transfer centres (TTOs)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/children-and-youth",
+   "text": "Children and youth",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/news/european-patent-academy-training-catalogue",
+   "text": "Image",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/academy-training-catalogue",
+   "text": "Have a look at the extensive range of learning opportunities in the European Patent Academy training catalogue",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/about-us",
+   "text": "Go to overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/at-a-glance",
+   "text": "The EPO at a glance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/official-celebrations",
+   "text": "Official celebrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements",
+   "text": "Member states’ video statements",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/50-leading-tech-voices",
+   "text": "50 Leading Tech Voices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/athens-marathon",
+   "text": "Athens Marathon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/kids-collaborative-art-competition",
+   "text": "Kids’ collaborative art competition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/legal-foundations",
+   "text": "Legal foundations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/member-states",
+   "text": "Member states of the European Patent Organisation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/extension-states",
+   "text": "Extension states",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/validation-states",
+   "text": "Validation states",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques",
+   "text": "Communiqués",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/calendar",
+   "text": "Calendar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/documentation",
+   "text": "Documents and publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council",
+   "text": "Administrative Council",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/mission",
+   "text": "Our mission, vision, values and corporate policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028",
+   "text": "Strategic Plan 2028",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system",
+   "text": "Digital transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/new-normal",
+   "text": "Towards a New Normal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management/president",
+   "text": "President António Campinos",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management/management-committee",
+   "text": "Management Advisory Committee",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/environmental",
+   "text": "Environmental",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/social",
+   "text": "Social",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/governance",
+   "text": "Governance and Financial sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/services",
+   "text": "Our services & structure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality",
+   "text": "Quality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users",
+   "text": "Consulting our users",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation",
+   "text": "European and international co-operation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/academy",
+   "text": "European Patent Academy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/ombuds-office",
+   "text": "Ombuds Office",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/wrongdoing-reporting",
+   "text": "Reporting wrongdoing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies",
+   "text": "Technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors",
+   "text": "Innovation actors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding",
+   "text": "Foresight, policy and funding",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory",
+   "text": "About the Observatory",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-forecast",
+   "text": "Procurement forecast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/doing-business-with-the-epo",
+   "text": "Doing business with the EPO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-procedures",
+   "text": "Procurement procedures",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/sustainable-procurement-policy",
+   "text": "Sustainable Procurement Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/signatures",
+   "text": "About eTendering and electronic signatures",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-portal",
+   "text": "Procurement portal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/invoicing",
+   "text": "Invoicing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/general-conditions",
+   "text": "General conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/archived-tenders",
+   "text": "Archived tenders",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general",
+   "text": "General",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/human",
+   "text": "Human",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/environmental",
+   "text": "Environmental",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/organisational",
+   "text": "Organisational",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/social-and-relational",
+   "text": "Social and relational",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/economical",
+   "text": "Economic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/governance",
+   "text": "Governance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/statistics-centre",
+   "text": "Statistics & Trends Centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025",
+   "text": "EPO Technology Dashboard 2025",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/epo-data-hub",
+   "text": "EPO Data Hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/clarification-data-sources",
+   "text": "Clarification on data sources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1970s",
+   "text": "1970s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1980s",
+   "text": "1980s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1990s",
+   "text": "1990s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2000s",
+   "text": "2000s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2010s",
+   "text": "2010s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2020s",
+   "text": "2020s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/about",
+   "text": "The collection",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/lets-talk-about-art",
+   "text": "Let's talk about art",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/collection",
+   "text": "Artists",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/art-film",
+   "text": "Media library",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/whats-on",
+   "text": "What's on",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition",
+   "text": "Culture Space A&T 5-10",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/lange-nacht",
+   "text": "\"Long Night\"",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025",
+   "text": "Our latest EPO Technology Dashboard 2025",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/search",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#collapsiblelang",
+   "text": "en",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#collapsiblelang",
+   "text": "de",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#collapsiblelang",
+   "text": "fr",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%7B%22field%22%3A%22language%22%2C%22values%22%3A%5B%22en%22%5D%2C%22type%22%3A%22any%22%7D%5D&sortDirection=&sortField=&tab=all_results",
+   "text": "English",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/de/results?filters=%5B%7B%22field%22%3A%22language%22%2C%22values%22%3A%5B%22de%22%5D%2C%22type%22%3A%22any%22%7D%5D&sortDirection=&sortField=&tab=all_results",
+   "text": "Deutsch",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/fr/results?filters=%5B%7B%22field%22%3A%22language%22%2C%22values%22%3A%5B%22fr%22%5D%2C%22type%22%3A%22any%22%7D%5D&sortDirection=&sortField=&tab=all_results",
+   "text": "Français",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Homepage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents",
+   "text": "New to patents",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/your-business-and-patents",
+   "text": "Your business and patents",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/why-do-we-have-patents",
+   "text": "Why do we have patents?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/whats-your-big-idea",
+   "text": "What's your big idea?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/are-you-ready/1",
+   "text": "Are you ready?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/what-to-expect",
+   "text": "What to expect",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/how-to-apply-for-a-patent",
+   "text": "How to apply for a patent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/is-it-patentable",
+   "text": "Is it patentable?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/are-you-first",
+   "text": "Are you first?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/patent-quiz",
+   "text": "Patent quiz",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/new-to-patents/patent-basics-video",
+   "text": "Unitary patent video",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/espacenet",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/espacenet/national",
+   "text": "National patent office databases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/espacenet/gpi",
+   "text": "Global Patent Index (GPI)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/espacenet/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server/cross-references",
+   "text": "Cross-reference index for Euro-PCT applications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server/authority-file",
+   "text": "EP authority file",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/publication-server/help",
+   "text": "Help",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technical/ep-full-text",
+   "text": "EP full-text search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register/archive",
+   "text": "Release notes archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register/documentation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register/documentation/data-coverage",
+   "text": "Deep link data coverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register/documentation/federated-register",
+   "text": "Federated Register",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/register/documentation/events",
+   "text": "Register events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/bulletin",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/bulletin/download",
+   "text": "Download Bulletin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/bulletin/ep-bulletin-search",
+   "text": "EP Bulletin search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/bulletin/help",
+   "text": "Help",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/legal/observations",
+   "text": "Third-party observations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business/ipscore/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/business/technology-insight-reports",
+   "text": "Technology insight reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/technology-intelligence-platform",
+   "text": "Technology Intelligence Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/linked-open-data",
+   "text": "Linked open EP data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/manuals",
+   "text": "Manuals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/sequence-listing",
+   "text": "Sequence listings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/national-full-text-data",
+   "text": "National full-text data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/register-data",
+   "text": "European Patent Register data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/docdb",
+   "text": "EPO worldwide bibliographic data (DOCDB)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/data",
+   "text": "EP full-text data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/inpadoc",
+   "text": "EPO worldwide legal event data (INPADOC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/ebd",
+   "text": "EP bibliographic data (EBD)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/boards-of-appeal-decisions",
+   "text": "Boards of Appeal decisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/web-services",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/web-services/ops",
+   "text": "Open Patent Services (OPS)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/web-services/publication-server",
+   "text": "European Publication Server web service",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/coverage/weekly",
+   "text": "Weekly updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/data/coverage/regular",
+   "text": "Updated regularly",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/quantum-technologies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/quantum-technologies/communication",
+   "text": "Communication",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/quantum-technologies/computing",
+   "text": "Computing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/quantum-technologies/sensing",
+   "text": "Sensing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture/plant-agriculture",
+   "text": "Plant agriculture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture/artificial-growth-conditions",
+   "text": "Artificial growth conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture/livestock-management",
+   "text": "Livestock management",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/digital-agriculture/supporting-technologies",
+   "text": "Supporting technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/plastics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/plastics/plastics-waste-recovery",
+   "text": "Plastics waste recovery",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/plastics/plastics-waste-recycling",
+   "text": "Plastics waste recycling",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/plastics/alternative-plastics",
+   "text": "Alternative plastics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/water-technologies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/water-technologies/clean-water",
+   "text": "Clean water",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/water-technologies/protection-from-water",
+   "text": "Protection from water",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/space-innovation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/space-innovation/cosmonautics",
+   "text": "Cosmonautics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/space-innovation/space-observation",
+   "text": "Space observation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer/prevention",
+   "text": "Prevention and early detection",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer/diagnostics",
+   "text": "Diagnostics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer/therapies",
+   "text": "Therapies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/technologies-combatting-cancer/wellbeing",
+   "text": "Wellbeing and aftercare",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting/detection-and-prevention",
+   "text": "Detection and prevention of fires",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting/fire-extinguishing",
+   "text": "Fire extinguishing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting/protective-equipment",
+   "text": "Protective equipment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/firefighting/post-fire-restoration",
+   "text": "Post-fire restoration",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy/renewable-energy",
+   "text": "Renewable energy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy/carbon-intensive-industries",
+   "text": "Carbon-intensive industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy/energy-storage",
+   "text": "Energy storage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/clean-energy/other-enabling-technologies",
+   "text": "Other enabling technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/vaccines-and-therapeutics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/vaccines-and-therapeutics/vaccines",
+   "text": "Vaccines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/vaccines-and-therapeutics/candidate-therapies",
+   "text": "Overview of candidate therapies for COVID-19",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/vaccines-and-therapeutics/antiviral-and-symptomatic-therapeutics",
+   "text": "Candidate antiviral and symptomatic therapeutics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/vaccines-and-therapeutics/nucleic-acids",
+   "text": "Nucleic acids and antibodies to fight coronavirus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/diagnostics-and-analytics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/diagnostics-and-analytics/protein-and-nucleic-acid-assays",
+   "text": "Protein and nucleic acid assays",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/diagnostics-and-analytics/analytical-protocols",
+   "text": "Analytical protocols",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/informatics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/informatics/bioinformatics",
+   "text": "Bioinformatics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/informatics/healthcare-informatics",
+   "text": "Healthcare informatics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/technologies-for-the-new-normal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/technologies-for-the-new-normal/devices",
+   "text": "Devices, materials and equipment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/technologies-for-the-new-normal/procedures",
+   "text": "Procedures, actions and activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/technologies-for-the-new-normal/digital-technologies",
+   "text": "Digital technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/technology-platforms/fighting-coronavirus/inventors-against-coronavirus",
+   "text": "Inventors against coronavirus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/definitions",
+   "text": "Basic definitions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/classification",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/classification/cpc",
+   "text": "Cooperative Patent Classification (CPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families/docdb",
+   "text": "DOCDB simple patent family",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families/inpadoc",
+   "text": "INPADOC extended patent family",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/legal-event-data",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/legal-event-data/inpadoc-classification-scheme",
+   "text": "INPADOC classification scheme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patlib",
+   "text": "Patent information centres (PATLIB)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-translate",
+   "text": "Patent Translate",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/patent-knowledge-news",
+   "text": "Patent Knowledge News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/business-and-statistics",
+   "text": "Business and statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/searching-for-patents/helpful-resources/unitary-patent-information",
+   "text": "Unitary Patent information in patent knowledge",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-changes-april-2027",
+   "text": "What changes on 1 April 2027?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/how-to-interact-digitally-with-us",
+   "text": "How to interact with us digitally",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-do-i-need-to-do",
+   "text": "What do I need to do?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/what-if-epo-online-services-are-unavailable",
+   "text": "What if EPO online services are unavailable?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/legal-references",
+   "text": "Legal references",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fully-digital-patent-granting-process-1-april-2027-what-you-need-know-and-do/support-help",
+   "text": "Support and help",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oppositions",
+   "text": "Oppositions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oral-proceedings/proceedings/calendar",
+   "text": "Calendar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oral-proceedings/proceedings/public-access-to-appeal-proceedings",
+   "text": "Public access to appeal proceedings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oral-proceedings/proceedings/public-access",
+   "text": "Public access to opposition proceedings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/oral-proceedings/proceedings/technical-guidelines",
+   "text": "Technical guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/appeals",
+   "text": "Appeals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/legal-framework",
+   "text": "Legal framework",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/features",
+   "text": "Main features",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/applying",
+   "text": "Applying for a Unitary Patent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/cost",
+   "text": "Cost of a Unitary Patent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/compensation",
+   "text": "Translation and compensation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/start",
+   "text": "Start date",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/unitary-patent/introductory-brochures",
+   "text": "Introductory brochures",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/upc",
+   "text": "Unified Patent Court",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/unitary/pmac",
+   "text": "Patent Mediation and Arbitration Centre (PMAC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/validation",
+   "text": "National validation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/european/request-extension-validation",
+   "text": "Extension/validation request",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/entry-european-phase",
+   "text": "Entry into the European phase",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/decisions",
+   "text": "Decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/provisions",
+   "text": "PCT provisions and resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/request-extension-validation",
+   "text": "Extension/validation request",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/reinforced-partnership-faq",
+   "text": "Reinforced partnership programme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/accelerating-application",
+   "text": "Accelerating your PCT application",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/patent-prosecution-highway/outline",
+   "text": "Patent Prosecution Highway (PPH) programme outline",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/international/training-events",
+   "text": "Training and events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/national",
+   "text": "National route",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/understand",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/understand/api/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/get-access",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/get-access/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/file-with-us",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/file-with-us/cus",
+   "text": "What if our online filing services are down?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/file-with-us/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/interact/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/online-filing-outages",
+   "text": "Online filing & fee payment outages",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/myepo-services/new-user",
+   "text": "I’m a new user​",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fees",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fees/decisions-and-notices",
+   "text": "Decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/international-fees/reduction-in-fees",
+   "text": "Reduction in fees",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/international-fees/important-fees",
+   "text": "Fees for international applications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/international-fees/decisions-and-notices",
+   "text": "Decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/international-fees",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/unitary-patent-fees",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/unitary-patent-fees/decisions",
+   "text": "Decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/methods",
+   "text": "Payment methods",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/getting-started",
+   "text": "Getting started",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/FAQs-and-other-documentation",
+   "text": "FAQs and other documentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/technical-information-xml-and-csv-file-formats-batch-payments",
+   "text": "Technical information for batch payments",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/decisions-and-notices",
+   "text": "Decisions and notices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/payment/release-notes",
+   "text": "Release notes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/warning",
+   "text": "Warning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fee-assistant",
+   "text": "Fee Assistant",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/fees/fee-reductions-and-compensation/fee-support-scheme-insights",
+   "text": "Fee support scheme insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/forms",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/forms/examination",
+   "text": "Request for examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/applying/representatives",
+   "text": "Find a professional representative",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/diplomatic-conference-revision-epc",
+   "text": "Diplomatic Conference for the revision of the EPC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/travaux-preparatoires",
+   "text": "Travaux préparatoires",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/new-text",
+   "text": "New text",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/transitional-provisions",
+   "text": "Transitional provisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/implementing-regulations",
+   "text": "Implementing regulations to the EPC 2000",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/rules-relating-fees",
+   "text": "Rules relating to Fees",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/documentation-epc-revision-2000/ratifications",
+   "text": "Ratifications and accessions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/epc/archive/travaux",
+   "text": "Travaux Préparatoires EPC 1973",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/official-journal",
+   "text": "Official Journal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines-epc",
+   "text": "EPC Guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines-pct",
+   "text": "PCT-EPO Guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines-up",
+   "text": "Unitary Patent Guidelines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines-revision-cycle",
+   "text": "Guidelines revision cycle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines/consultation-results",
+   "text": "Consultation results",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines/responses",
+   "text": "Summary of user responses",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/guidelines/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/extension-validation-system",
+   "text": "Extension / validation system",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/london-agreement",
+   "text": "London Agreement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/national-law",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/national-law/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/up-upc/travaux-preparatoires-and-upc",
+   "text": "Travaux préparatoires to UP and UPC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/national-measures-up",
+   "text": "National measures relating to the Unitary Patent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/international-treaties",
+   "text": "International treaties",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/court-practices",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/court-practices/european-patent-judges-symposium",
+   "text": "European Patent Judges' Symposium",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation/ongoing",
+   "text": "Ongoing consultations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/consultation/completed-consultations",
+   "text": "Completed consultations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation/tegernsee-process",
+   "text": "The Tegernsee process",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/harmonisation/group-b-plus",
+   "text": "Group B+",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/convergence-of-practice",
+   "text": "Convergence of practice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/law-practice/options-representatives",
+   "text": "Options for representatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/news",
+   "text": "News",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/about-award",
+   "text": "About the award",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/categories-and-prizes",
+   "text": "Categories and prizes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-finalists",
+   "text": "Meet the inventors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/nominations",
+   "text": "Nominations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/2026-event",
+   "text": "The 2026 event",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/every-limit-is-a-beginning",
+   "text": "Every limit is a beginning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/2027-activities",
+   "text": "2027 activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/2026-activities",
+   "text": "2026 activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/2025-activities",
+   "text": "2025 activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/2024-activities",
+   "text": "2024 activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/learning-resources",
+   "text": "Learning resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/rules-criteria",
+   "text": "Rules and criteria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/european-inventor-award/european-inventor-network/faq",
+   "text": "FAQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/about-prize",
+   "text": "About the prize",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/nominations",
+   "text": "Nominations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/world-reimagined",
+   "text": "The world, reimagined",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/young-inventors-prize/2025-event",
+   "text": "The 2025 event",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/technology-dashboard-and-statistics",
+   "text": "EPO Technology Dashboard and statistics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/search-press-centre",
+   "text": "Search in press centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/background",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/fact-sheet/446602",
+   "text": "European Patent Office",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/fact-sheet/446605",
+   "text": "Q&A on patents related to coronavirus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/fact-sheet/447625",
+   "text": "Q&A on plant patents",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/copyright",
+   "text": "Copyright",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre/contact",
+   "text": "Press contacts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/call-back-form",
+   "text": "Call back form",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/email-alert-service",
+   "text": "Email alert service",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest/codefest-2026-patent-and-ip-portfolio-evaluation",
+   "text": "CodeFest 2026 on patent and IP portfolio (e)valuation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest/codefest-spring-2025-classifying-patent-data-sustainable-development",
+   "text": "CodeFest Spring 2025 on classifying patent data for sustainable development",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest/codefest-2024-generative-ai",
+   "text": "CodeFest 2024 on generative AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/codefest/codefest-green-plastics",
+   "text": "CodeFest 2023 on Green Plastics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech/about-green-tech",
+   "text": "About green tech",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech/renewable-energies",
+   "text": "Renewable energies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech/energy-transition-technologies",
+   "text": "Energy transition technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/green-tech/building-a-greener-future",
+   "text": "Building a greener future",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/research",
+   "text": "Research institutes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/lifestyle",
+   "text": "Lifestyle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/space",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/space/space-satellite",
+   "text": "Patents and space technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/medical-technologies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/medical-technologies/cancer",
+   "text": "Medical technologies and cancer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/medical-technologies/personalised-medicine",
+   "text": "Future of medicine: Personalised medicine",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/materials",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/materials/nanotechnology",
+   "text": "Nanotechnology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/mobile-economy",
+   "text": "Mobile communications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents/red-white-green",
+   "text": "Red, white or green",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents/the-role-of-the-epo",
+   "text": "The role of the EPO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents/what-is-patentable",
+   "text": "What is patentable?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/biotechnology-patents/biotech-inventors",
+   "text": "Biotech inventors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification/nanotechnology",
+   "text": "Nanotechnology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification/climate-change",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification/classification/partners",
+   "text": "External partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/classification/classification/updatesYO2andY04S",
+   "text": "Updates on Y02 and Y04S",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/digital-innovations/drivers-digital-technologies",
+   "text": "Drivers of digital technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/digital-innovations/patentability-digital-inventions",
+   "text": "Patentability of digital inventions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/digital-innovations/inventorship",
+   "text": "Inventorship",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/digital-innovations/ai-use-at-the-EPO",
+   "text": "AI use at the EPO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/future-of-manufacturing",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/future-of-manufacturing/about-AM",
+   "text": "About AM",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/future-of-manufacturing/am-innovation",
+   "text": "AM innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/in-focus/books",
+   "text": "Books by EPO experts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/podcast",
+   "text": "Podcast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths/learning-activities-types-formats",
+   "text": "Learning activities: types and formats",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-activities-paths/learning-paths",
+   "text": "Learning paths",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-f",
+   "text": "Paper F",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-m1",
+   "text": "Paper M1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-m2",
+   "text": "Paper M2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-m3",
+   "text": "Paper M3",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-m4",
+   "text": "Paper M4",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-a",
+   "text": "Paper A",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-b",
+   "text": "Paper B",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-c",
+   "text": "Paper C",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/paper-d",
+   "text": "Paper D",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/compendium/pre-examination",
+   "text": "Pre-examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/successful-candidates",
+   "text": "Candidates successful in the European qualifying examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/european-qualifying-examination-eqe/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/epac-european-patent-administration-certification/epac-benefits-and-timeline",
+   "text": "EPAC's benefits and timeline",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/eqe-epac/candidate-support-programme",
+   "text": "CSP – Candidate Support Programme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/patent-granting",
+   "text": "Patent granting",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/technology-transfer-and-dissemination",
+   "text": "Technology transfer and dissemination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-area-interest/patent-enforcement-and-litigation",
+   "text": "Patent enforcement and litigation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/innovation-case-studies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/innovation-case-studies/sme-case-studies",
+   "text": "SME case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/innovation-case-studies/technology-transfer-case-studies",
+   "text": "Technology transfer case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/innovation-case-studies/high-growth-technology-case-studies",
+   "text": "High-growth technology case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/introduction",
+   "text": "Introduction",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/disclosure-and-confidentiality",
+   "text": "Disclosure and confidentiality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/novelty-and-prior-art",
+   "text": "Novelty and prior art",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/competition-and-market-potential",
+   "text": "Competition and market potential",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/assessing-risk-ahead",
+   "text": "Assessing the risk ahead",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/proving-invention",
+   "text": "Proving the invention",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/protecting-your-idea",
+   "text": "Protecting your idea",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/building-team-and-seeking-funding",
+   "text": "Building a team and seeking funding",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/business-planning",
+   "text": "Business planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/finding-and-approaching-companies",
+   "text": "Finding and approaching companies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/inventors-handbook/dealing-companies",
+   "text": "Dealing with companies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/best-search-matters",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/best-search-matters/tools-and-databases",
+   "text": "Tools and databases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/best-search-matters/epo-procedures-and-initiatives",
+   "text": "EPO procedures and initiatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/best-search-matters/search-strategies",
+   "text": "Search strategies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/best-search-matters/challenges-and-specific-topics",
+   "text": "Challenges and specific topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/support-high-growth-technology-businesses",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/support-high-growth-technology-businesses/business-decision-makers",
+   "text": "Business decision-makers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/support-high-growth-technology-businesses/ip-professionals",
+   "text": "IP professionals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/business-and-ip-managers/support-high-growth-technology-businesses/stakeholders-innovation-ecosystem",
+   "text": "Stakeholders of the Innovation Ecosystem",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/eqe-epac-candidates",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/eqe-epac-candidates/european-qualifying-examination-guide-preparation",
+   "text": "European qualifying examination - Guide for preparation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/eqe-epac-candidates/epac",
+   "text": "EPAC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/judges-lawyers-and-prosecutors",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/judges-lawyers-and-prosecutors/compulsory-licensing-europe",
+   "text": "Compulsory licensing in Europe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/judges-lawyers-and-prosecutors/jurisdiction-european-courts-patent-disputes",
+   "text": "The jurisdiction of European courts in patent disputes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/national-offices-and-ip-authorities",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/national-offices-and-ip-authorities/learning-path-patent-examiners-national-offices",
+   "text": "Learning material for examiners of national officers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/national-offices-and-ip-authorities/learning-path-formalities-officers-and-paralegals",
+   "text": "Learning material for formalities officers and paralegals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/patent-attorneys-and-paralegals",
+   "text": "Patent attorneys and paralegals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/modular-ip-education-framework",
+   "text": "Modular IP Education Framework (MIPEF)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/pan-european-seal-professional-programme",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/pan-european-seal-professional-programme/for-universities",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/pan-european-seal-professional-programme/for-universities/e-learning",
+   "text": "IP education resources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/pan-european-seal-professional-programme/for-universities/university-memberships",
+   "text": "Participating universities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/ip-teaching-kit",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/ip-teaching-kit/download-modules",
+   "text": "Download modules",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/intellectual-property-course-design-manual",
+   "text": "Intellectual property course design manual",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/patlib-knowledge-transfer-to-africa/activities",
+   "text": "Core activities",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/universities-research-centres-and-technology-transfer-centres/patlib-knowledge-transfer-to-africa/stories-and-insights",
+   "text": "Stories and insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/learning/learning-resources-profile/children-and-youth",
+   "text": "Children and youth",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/at-a-glance",
+   "text": "The EPO at a glance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/official-celebrations",
+   "text": "Official celebrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/albania",
+   "text": "Albania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/austria",
+   "text": "Austria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/belgium",
+   "text": "Belgium",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/bulgaria",
+   "text": "Bulgaria",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/croatia",
+   "text": "Croatia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/cyprus",
+   "text": "Cyprus",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/czech-republic",
+   "text": "Czech Republic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/denmark",
+   "text": "Denmark",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/Estonia",
+   "text": "Estonia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/finland",
+   "text": "Finland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/france",
+   "text": "France",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/germany",
+   "text": "Germany",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/greece",
+   "text": "Greece",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/hungary",
+   "text": "Hungary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/iceland",
+   "text": "Iceland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/ireland",
+   "text": "Ireland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/italy",
+   "text": "Italy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/latvia",
+   "text": "Latvia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/liechtenstein",
+   "text": "Liechtenstein",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/lithuania",
+   "text": "Lithuania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/luxembourg",
+   "text": "Luxembourg",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/malta",
+   "text": "Malta",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/monaco",
+   "text": "Monaco",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/montenegro",
+   "text": "Montenegro",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/netherlands",
+   "text": "Netherlands",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/north-macedonia",
+   "text": "North Macedonia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/norway",
+   "text": "Norway",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/poland",
+   "text": "Poland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/portugal",
+   "text": "Portugal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/romania",
+   "text": "Romania",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/san-marino",
+   "text": "San Marino",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/serbia",
+   "text": "Serbia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/slovakia",
+   "text": "Slovakia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/slovenia",
+   "text": "Slovenia",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/spain",
+   "text": "Spain",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/sweden",
+   "text": "Sweden",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/switzerland",
+   "text": "Switzerland",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/turkiye",
+   "text": "Türkiye",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/member-states-video-statements/united-kingdom",
+   "text": "United Kingdom",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/50-leading-tech-voices",
+   "text": "50 Leading Tech Voices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/athens-marathon",
+   "text": "Athens Marathon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/50-epc-anniversary/kids-collaborative-art-competition",
+   "text": "Kids’ collaborative art competition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/legal-foundations",
+   "text": "Legal foundations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/member-states",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/member-states/date",
+   "text": "Member states by date of accession",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/extension-states",
+   "text": "Extension states",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/foundation/validation-states",
+   "text": "Validation states",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/communiques-2025",
+   "text": "2025",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2024",
+   "text": "2024",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2023",
+   "text": "2023",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2022",
+   "text": "2022",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2021",
+   "text": "2021",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2020",
+   "text": "2020",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2019",
+   "text": "2019",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2018",
+   "text": "2018",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2017",
+   "text": "2017",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2016",
+   "text": "2016",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2015",
+   "text": "2015",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2014",
+   "text": "2014",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/communiques/2013",
+   "text": "2013",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/calendar",
+   "text": "Calendar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/documentation",
+   "text": "Documents and publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/composition",
+   "text": "Composition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/representatives",
+   "text": "Representatives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/rules",
+   "text": "Rules of Procedure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/auditors",
+   "text": "Board of Auditors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/secretariat",
+   "text": "Secretariat",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/administrative-council/administrative-council/bodies",
+   "text": "Council bodies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/mission",
+   "text": "Mission, vision, values & corporate policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028/driver-1",
+   "text": "Driver 1: People",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028/driver-2",
+   "text": "Driver 2: Technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028/driver-3",
+   "text": "Driver 3: High-quality, timely products and services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028/driver-4",
+   "text": "Driver 4: Partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/strategic-plan-2028/driver-5",
+   "text": "Driver 5: Financial sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/myepo-services-users-gateway-our-fully-digital-pgp",
+   "text": "MyEPO services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/smarter-digital-tools",
+   "text": "Smarter digital tools for patent examiners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/actionable-patent-intelligence",
+   "text": "Actionable patent intelligence for all",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/modern-streamlined-administration",
+   "text": "Modern, streamlined administration for operational excellence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/responsible-use-of-ai",
+   "text": "Responsible use of AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/it-security-and-data-protection-standards",
+   "text": "Meeting the highest IT security and data protection standards",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/european-patent-network",
+   "text": "Strengthening the European Patent Network",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/leading-digital-transformation-european-patent-system/user-feedback",
+   "text": "Listening to and acting on user feedback",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/new-normal",
+   "text": "Towards a New Normal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/data-protection-and-privacy",
+   "text": "Data protection & privacy notice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management/president",
+   "text": "About the President",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/leadership-and-management/management-committee",
+   "text": "Management Advisory Committee",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/environmental",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/environmental/inspiring-environmental-inventions",
+   "text": "Inspiring environmental inventions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/social",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/sustainability-at-the-epo/social/inspiring-social-inventions",
+   "text": "Inspiring social inventions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/integrated-management-epo",
+   "text": "Integrated management at the EPO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-forecast",
+   "text": "Procurement forecast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/doing-business-with-the-epo",
+   "text": "Doing business with the EPO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-procedures",
+   "text": "Procurement procedures",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/dynamic-purchasing-system-dps-publications",
+   "text": "Dynamic Purchasing System (DPS) publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/call-expressions-interest",
+   "text": "Call for interests",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/sustainable-procurement-policy",
+   "text": "Sustainable Procurement Policy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/signatures",
+   "text": "About eTendering",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/invoicing",
+   "text": "Invoicing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-portal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/procurement-portal/e-signing-contracts",
+   "text": "e-Signing contracts",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/general-conditions",
+   "text": "General conditions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders/archived-tenders",
+   "text": "Archived tenders",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/services",
+   "text": "Our services & structure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/foundations",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/foundations/epc",
+   "text": "European Patent Convention",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/foundations/guidelines",
+   "text": "Guidelines for examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/foundations/staff",
+   "text": "Our staff",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/enabling-quality",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/enabling-quality/prior-art",
+   "text": "Prior art",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/enabling-quality/classification",
+   "text": "Classification",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/enabling-quality/tools",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/enabling-quality/processes",
+   "text": "Processes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/high-quality-products-services",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/high-quality-products-services/search",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/high-quality-products-services/examination",
+   "text": "Examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/high-quality-products-services/opposition",
+   "text": "Opposition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/high-quality-products-services/continual-improvement",
+   "text": "Continuous improvement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-through-networking",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-through-networking/user-engagement",
+   "text": "User engagement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-through-networking/cooperation",
+   "text": "Co-operation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-through-networking/surveys",
+   "text": "User satisfaction survey",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-through-networking/sqap",
+   "text": "Stakeholder Quality Assurance Panels",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/charter",
+   "text": "Patent Quality Charter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-action-plan",
+   "text": "Quality Action Plan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/quality-dashboard",
+   "text": "Quality dashboard",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/statistics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/statistics/search",
+   "text": "Search",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/statistics/examination",
+   "text": "Examination",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/quality/statistics/opposition",
+   "text": "Opposition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/voice-our-users",
+   "text": "Voice of our users",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/sacepo",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/sacepo/objectives",
+   "text": "Objectives",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/sacepo/members",
+   "text": "SACEPO and its working parties",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/sacepo/agenda",
+   "text": "Meetings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/sacepo/delegates",
+   "text": "Single Access Portal – SACEPO Area",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/surveys",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/patent-filings/methodology",
+   "text": "Detailed methodology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/search",
+   "text": "Search services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/examination",
+   "text": "Examination services, final actions and publication",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/opposition",
+   "text": "Opposition services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/formalities",
+   "text": "Formalities services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/customer-services",
+   "text": "Customer services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/filing",
+   "text": "Filing services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/consulting-our-users/surveys/key-account-management",
+   "text": "Key Account Management (KAM)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/website",
+   "text": "Website",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/surveys/patent-filings/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/servicecharter",
+   "text": "Our user service charter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/member-states",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/international-bilateral",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/international-bilateral/validation-system",
+   "text": "Validation system",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/international-bilateral/reinforced-partnership-programme",
+   "text": "Reinforced Partnership programme",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/international-multilateral",
+   "text": "Multilateral international co-operation with IP offices and organisations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/international-european-cooperation/organisations",
+   "text": "Co-operation with international organisations outside the IP system",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/academy",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/academy/partners",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/ombuds-office",
+   "text": "Ombuds Office",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/services-and-activities/wrongdoing-reporting",
+   "text": "Reporting wrongdoing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/innovation-against-cancer",
+   "text": "Innovation against cancer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/assistive-robotics",
+   "text": "Assistive robotics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/energy-enabling-technologies",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/energy-enabling-technologies/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/energy-generation-technologies",
+   "text": "Energy generation technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/water-technologies",
+   "text": "Water technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/plastics-in-transition",
+   "text": "Plastics in transition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/space-technologies",
+   "text": "Space technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/digital-agriculture",
+   "text": "Digital agriculture",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/technologies/quantum-technologies",
+   "text": "Quantum technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/startups-and-smes",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/startups-and-smes/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/startups-and-smes/events",
+   "text": "Events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/research-institutions",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/research-institutions/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/innovation-actors/women-inventors",
+   "text": "Women inventors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/financing-innovation-programme",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/financing-innovation-programme/our-studies-financing-innovation",
+   "text": "Our studies on the financing of innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/financing-innovation-programme/epo-initiatives-patent-applicants",
+   "text": "EPO initiatives for patent applicants",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/financing-innovation-programme/financial-support-innovators-europe",
+   "text": "Financial support for innovators in Europe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/patents-and-standards",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/patents-and-standards/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/patents-and-standards/patent-standards-explorer",
+   "text": "Patent standards explorer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/economy-and-ip",
+   "text": "The economy and IP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/policy-and-funding/scenarios-for-the-future",
+   "text": "Scenarios for the future 2025-2045",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/deep-tech-finder",
+   "text": "Deep Tech Finder",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/patstat",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/patstat/latest",
+   "text": "The latest from PATSTAT",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/patstat/new-to-patstat",
+   "text": "Are you new to PATSTAT?",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/patstat/documentation-and-coverage",
+   "text": "Documentation and coverage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/data-desk",
+   "text": "Data Desk",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/digital-library",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/contribute-to-digital-library",
+   "text": "Become a contributor to the Digital Library",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/work-plan",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/work-plan",
+   "text": "Work plan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/chief-economist",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/chief-economist/economic-studies",
+   "text": "Economic studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/chief-economist/academic-research-programme",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/chief-economist/academic-research-programme/current-research-projects",
+   "text": "Current research projects",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/chief-economist/academic-research-programme/completed-research-projects",
+   "text": "Completed research projects",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/observatory-patents-and-technology/about-observatory/collaboration-with-european-actors",
+   "text": "Collaboration with European actors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/executive-summary",
+   "text": "Executive summary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/driver-1",
+   "text": "Driver 1 – People",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/driver-2",
+   "text": "Driver 2 – Technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/driver-3",
+   "text": "Driver 3 – High-quality, timely products and services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/driver-4",
+   "text": "Driver 4 – Partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2025/driver-5",
+   "text": "Driver 5 – Financial Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/executive-summary",
+   "text": "Executive summary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/driver-1",
+   "text": "Driver 1 – People",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/driver-2",
+   "text": "Driver 2 – Technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/driver-3",
+   "text": "Driver 3 – High-quality, timely products and services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/driver-4",
+   "text": "Driver 4 – Partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2024/driver-5",
+   "text": "Driver 5 – Financial Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/foreword",
+   "text": "Foreword",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/executive-summary",
+   "text": "Executive summary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/50-years-epc",
+   "text": "50 years of the EPC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/strategic-key-performance-indicators",
+   "text": "Strategic key performance indicators",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/goal-1",
+   "text": "Goal 1: Engaged and empowered",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/goal-2",
+   "text": "Goal 2: Digital transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/goal-3",
+   "text": "Goal 3: Master quality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/goal-4",
+   "text": "Goal 4: Partner for positive impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2023/goal-5",
+   "text": "Goal 5: Secure sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/foreword",
+   "text": "Foreword",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/executive-summary",
+   "text": "Executive summary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/goal-1",
+   "text": "Goal 1: Engaged and empowered",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/goal-2",
+   "text": "Goal 2: Digital transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/goal-3",
+   "text": "Goal 3: Master quality",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/goal-4",
+   "text": "Goal 4: Partner for positive impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/general/annual-review-2022/goal-5",
+   "text": "Goal 5: Secure sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/human",
+   "text": "Human",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/environmental",
+   "text": "Environmental",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/organisational",
+   "text": "Organisational",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/social-and-relational",
+   "text": "Social and relational",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/economical",
+   "text": "Economic",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/transparency-portal/governance",
+   "text": "Governance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/statistics-centre",
+   "text": "Statistics & Trends Centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/insight-computer-technologies",
+   "text": "Insight into computer technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/insight-battery-energy-technologies",
+   "text": "Insight into battery and energy technologies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/insight-plant-biotechnology",
+   "text": "Insight into plant biotechnology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/key-trend-origin",
+   "text": "Key trend and origin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/computer-technology",
+   "text": "Computer technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/digital-communication",
+   "text": "Digital communication",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/electrical-machinery",
+   "text": "Electrical machinery, apparatus, energy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/medical-technology",
+   "text": "Medical technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/transport",
+   "text": "Transport",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/measurement",
+   "text": "Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/biotechnology",
+   "text": "Biotechnology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/pharmaceuticals",
+   "text": "Pharmaceuticals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/other-special-machines",
+   "text": "Other special machines",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/top-10-technical-fields/organic-fine-chemistry",
+   "text": "Organic fine chemistry",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/all-technical-fields",
+   "text": "All technical fields",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/european-patent-applications/per-mio-inhabitants-europe",
+   "text": "Per mio. inhabitants (Europe)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/applicants",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/applicants/top-50",
+   "text": "Top 50",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/applicants/categories",
+   "text": "Categories",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/applicants/women-inventors",
+   "text": "Women inventors",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/granted-patents",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/granted-patents/key-trend",
+   "text": "Key trend",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/granted-patents/origin",
+   "text": "Origin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/technology-dashboard-2025/statistics-and-indicators/granted-patents/designations",
+   "text": "Designations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/data-download",
+   "text": "Data to download",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/epo-data-hub",
+   "text": "EPO Data Hub",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/statistics/clarification-data-sources",
+   "text": "Clarification on data sources",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1970s",
+   "text": "1970s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1980s",
+   "text": "1980s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/1990s",
+   "text": "1990s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2000s",
+   "text": "2000s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2010s",
+   "text": "2010s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/timeline/2020s",
+   "text": "2020s",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/about",
+   "text": "The collection",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/lets-talk-about-art",
+   "text": "Let's talk about art",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/collection",
+   "text": "Artists",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/art-film",
+   "text": "Media library",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/whats-on",
+   "text": "What's on",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/contact",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/fragment-927",
+   "text": "Irene Sauter (DE)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/transparency-blackyellowblack",
+   "text": "AVPD (DK)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/underwater-landscape-trenches-islands",
+   "text": "Jan Robert Leegte (NL)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/untitled-1",
+   "text": "Jānis Dzirnieks (LV) #1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/untitled-2",
+   "text": "Jānis Dzirnieks (LV) #2",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/24-hours-sculpture",
+   "text": "Péter Szalay (HU)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/thesaurus",
+   "text": "Thomas Feuerstein (AT)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/folding-screen",
+   "text": "Tom Burr (US)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/paper-drop",
+   "text": "Wolfgang Tillmans (DE)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/terraport",
+   "text": "TerraPort",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/unfinished-sculpture-captives-1",
+   "text": "Unfinished Sculpture - Captives #1",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/black-box-deep-vision",
+   "text": "Deep vision – immersive exhibition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/catalyst-lab-curated-ars-electronica/previous-exhibitions",
+   "text": "Previous exhibitions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/european-patent-journey",
+   "text": "The European Patent Journey",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/sustaining-life-art-climate-emergency",
+   "text": "Sustaining life. Art in the climate emergency",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/next-generation-statements-colab-international-peace",
+   "text": "Next generation statements",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/schaulager-out-box",
+   "text": "Open storage",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/50-years-epc-exhibition/cosmic-bar",
+   "text": "Cosmic bar",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/art/lange-nacht",
+   "text": "\"Long Night\"",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/decisions",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/decisions/recent",
+   "text": "Recent decisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/decisions/selected",
+   "text": "Selected decisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/information-boards-appeal",
+   "text": "Information from the Boards of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/procedure",
+   "text": "Procedure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/oral-proceedings",
+   "text": "Oral proceedings",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/president",
+   "text": "President of the Boards of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/eba",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/eba/referrals-pending-enlarged-board-appeal",
+   "text": "Pending referrals (Art. 112 EPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/eba/decisions-and-opinions",
+   "text": "Decisions and opinions (Art. 112 EPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/eba/pending-petitions-review",
+   "text": "Pending petitions for review (Art. 112a EPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/eba/decisions-petitions-review-sorted-date",
+   "text": "Decisions on petitions for review (Art. 112a EPC)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/technical-boards-of-appeal",
+   "text": "Technical Boards of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/legal-board-appeal",
+   "text": "Legal Board of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/disciplinary-board-appeal",
+   "text": "Disciplinary Board of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/organisation/presidium",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/code-conduct",
+   "text": "Code of Conduct",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/business-distribution",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/business-distribution/technical-boards-appeal-ipc-2024",
+   "text": "Technical boards of appeal by IPC in 2026",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/business-distribution/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/annual-list-of-cases",
+   "text": "Annual list of cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/communications",
+   "text": "Communications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/annual-reports",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/publications",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/publications/abstracts-of-decisions",
+   "text": "Abstracts of decisions",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/publications/quality-focused-decision-making",
+   "text": "Quality-focused decision making",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/boards-of-appeal/search?filters%5B0%5D%5Bfield%5D=_index&filters%5B0%5D%5Bvalues%5D%5B0%5D=web-boa-decisions-abstracts&filters%5B0%5D%5Btype%5D=any",
+   "text": "Abstracts database",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/case-law",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/legal/case-law/archive",
+   "text": "Archive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals/diversity-and-inclusion",
+   "text": "Diversity and Inclusion",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/website-updates",
+   "text": "Website updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/availability-online-services",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/faq",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/patent-information-products",
+   "text": "Patent information products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/terms-and-conditions",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/pi-terms-and-conditions",
+   "text": "Patent information products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions",
+   "text": "Bulk data sets",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/patstat-data-terms-and-conditions",
+   "text": "EPO PATSTAT bulk data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/terms-and-conditions/ops-terms-and-conditions",
+   "text": "Open Patent Services (OPS)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/ordering/fair-use",
+   "text": "Fair use charter",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/procedural-communications",
+   "text": "Procedural communications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links/national-offices",
+   "text": "Patent offices of member states",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links/patent-offices",
+   "text": "Other patent offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links/attorneys",
+   "text": "Directories of patent attorneys",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links/databases",
+   "text": "Patent databases, registers and gazettes",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/useful-links/disclaimer",
+   "text": "Disclaimer",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/filing-options",
+   "text": "Filing options",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us/locations",
+   "text": "Locations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/subscription-centre",
+   "text": "Overview",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/subscription-centre/subscribe",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/subscription-centre/change-preferences",
+   "text": "Change preferences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/subscription-centre/unsubscribe",
+   "text": "Unsubscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/holidays",
+   "text": "Official holidays",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/glossary",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/rss-feeds",
+   "text": "RSS feeds",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://link.epo.org/web/boa_search_manual",
+   "text": "User manual",
+   "region": "MAIN"
+  },
+  {
+   "href": "http://www.wipo.int/ipcpub/",
+   "text": "Look up a class",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#",
+   "text": "Select All",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#",
+   "text": "Select All",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#",
+   "text": "Select All",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results#",
+   "text": "RSS feed for these search criteria",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en",
+   "text": "Home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support",
+   "text": "Service & support",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/website-updates",
+   "text": "Website updates",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/availability-online-services",
+   "text": "Availability of online services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/faq",
+   "text": "FAQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/publications",
+   "text": "Publications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/procedural-communications",
+   "text": "Procedural communications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/contact-us",
+   "text": "Contact us",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/subscription-centre",
+   "text": "Subscription centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/holidays",
+   "text": "Official holidays",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/service-support/glossary",
+   "text": "Glossary",
+   "region": "NAV"
+  },
+  {
+   "href": "https://jobs.epo.org/",
+   "text": "Jobs & careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/news-events/press-centre",
+   "text": "Press centre",
+   "region": "NAV"
+  },
+  {
+   "href": "https://epn.epo.org/",
+   "text": "Single Access Portal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/tenders",
+   "text": "Procurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/case-law-appeals",
+   "text": "Boards of Appeal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.facebook.com/europeanpatentoffice",
+   "text": "European Patent Office",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/epojobs",
+   "text": "EPO Jobs",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/europeanpatentoffice/",
+   "text": "EuropeanPatentOffice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/163722?trk=tyah",
+   "text": "European Patent Office",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/groups/4109452/profile",
+   "text": "EPO Jobs",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/showcase/epo-procurement/",
+   "text": "EPO Procurement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/EPOorg",
+   "text": "EPOorg",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/EPOjobs",
+   "text": "EPOjobs",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/@TheEPO",
+   "text": "TheEPO",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.epo.org/en/legal-notice",
+   "text": "Legal notice",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/terms-of-use",
+   "text": "Terms of use",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/about-us/office/data-protection-and-privacy",
+   "text": "Data protection and privacy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.epo.org/en/accessibility",
+   "text": "Accessibility",
+   "region": "NAV"
+  },
+  {
+   "href": "https://support.google.com/youtube/answer/2801895?hl=en",
+   "text": "check YouTube’s privacy policy",
+   "region": "BODY"
+  }
+ ]
+}

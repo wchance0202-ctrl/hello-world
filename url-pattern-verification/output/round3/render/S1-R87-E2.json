@@ -1,0 +1,420 @@
+{
+ "url": "https://gp.demandcurve.com/resources",
+ "observed_at": "2026-10-26T11:02:15.749Z",
+ "method": "playwright-chromium",
+ "final_url": "https://gp.demandcurve.com/resources",
+ "status": 200,
+ "error": null,
+ "title": "Demand Curve Resources",
+ "h1": "Demand Curve Resources",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 64,
+   "new_in_prefix": 64,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 64,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://memberstack-client.demandcurve.com/app-member"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.prod.website-files.com/5ca4efffd7cf6e732e4e4fb1/6394cdd76201a3a3eb993d64_hamburger-menu-transition-to-close-button%20(1).json"
+  },
+  {
+   "method": "GET",
+   "url": "https://bzrcdn.openai.com/pixel-config/v1/7YYq9F3696VoychfnCPfGv.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://nz28rfhzo0-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.26.0)%3B%20Browser%20(lite)%3B%20instantsearch.js%20(4.120.0)%3B%20JS%20Helper%20(3.30.0)&x-algolia-api-key=82a241e0c7507d4551960cdd16e9a3b6&x-algolia-application-id=NZ28RFHZO0"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn.segment.com/v1/projects/pchIppLSzvIS4XrftoKEp0krQ7tAyetV/settings"
+  },
+  {
+   "method": "POST",
+   "url": "https://idb.iubenda.com/csdata?db=hits1"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.sparkloop.app/team_4b0f1ebda2/settings"
+  },
+  {
+   "method": "POST",
+   "url": "https://bzr.openai.com/v1/sdk/events?pid=7YYq9F3696VoychfnCPfGv&st=oaiq-web&sv=0.1.93&t=1793012538793&ec=2"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.segment.io/v1/p"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.segment.io/v1/t"
+  },
+  {
+   "method": "POST",
+   "url": "https://api.segment.io/v1/t"
+  },
+  {
+   "method": "GET",
+   "url": "https://script-settings.sparkloop.app/team_4b0f1ebda2/settings"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/792032955/?random=1793012540212&cv=11&fst=1793012540212&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v869086660za208zd869086660xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616986~115938466~115938469~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fgp.demandcurve.com%2Fresources"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&auid=112718387.1793012540&dt=Demand%20Curve%20Resources&tid=AW-792032955&en=page_view&dl=https%3A%2F%2Fgp.demandcurve.com%2Fresources&scrsrc=www.googletagmanager.com&rnd=953684226.1793012540&navt=n&npa=0&us_privacy=1YN-&did=dZTJkMz&gdid=dZTJkMz&gpp=DBABL~BqgqAAAAAAA.QA&gpp_sid=7&_tu=CA&gtm=45be6al1v869086660za208zd869086660xecxf1&gcs=G111&gcd="
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=112718387.1793012540&gtm=45be6al1v869086660za208zd869086660xecxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&auid=112718387.1793012540&dt=Demand%20Curve%20Resources&en=page_view&dl=https%3A%2F%2Fgp.demandcurve.com%2Fresources&scrsrc=www.googletagmanager.com&rnd=953684226.1793012540&navt=n&npa=0&us_privacy=1YN-&ep.ads_data_redaction=1&gdid=dZTJkMz&_tu=CA&gtm=45He6al1v79993405za200zd79993405xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616985~1"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-VJ4EGXHGR2&gtm=45je6al1v871586517za20ozb79993405zd79993405xf1&_p=1793012539409&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AAAAAGAC&cid=1579148190.1793012541&frm=0&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw="
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://gp.demandcurve.com/",
+   "text": "🤘 2026 agency slots just opened. Let’s talk →🤘 2026 agency slots just opened. Let’s talk →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/",
+   "text": "DEMAND\nCURVE",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/#services",
+   "text": "Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Growth Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources#",
+   "text": "Resources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth-program",
+   "text": "🏎️Growth ProgramThe growth course used by 4,500+ startups to build their first growth engine.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "📰The Growth NewsletterTrusted by 100,000+ growth and GTM operators.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks",
+   "text": "📘PlaybooksTactical growth deep dives.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth/intro",
+   "text": "🚀Growth GuideThe most read growth resource on the internet.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources",
+   "text": "🌎View All ResourcesCheck out the full resource hub.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources#",
+   "text": "Company",
+   "region": "BODY"
+  },
+  {
+   "href": "https://saturation.co/",
+   "text": "SaturationCheck out our new AI search agency arm.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/sponsorships",
+   "text": "🤝SponsorshipsGet in front of our community of 100k+ growth pros.",
+   "region": "NAV"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Subscribe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/",
+   "text": "DEMANDCURVE",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Subscribe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/#services",
+   "text": "Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "The Growth Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth-program",
+   "text": "The Growth Program",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources",
+   "text": "Resources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/sponsorships",
+   "text": "Become a sponsor",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:help@demandcurve.com",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Subscribe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/blog",
+   "text": "Blog",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks",
+   "text": "Playbooks",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth/intro",
+   "text": "Growth Guide",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/teardowns",
+   "text": "Teardowns",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks",
+   "text": "📚\nPlaybooks\n10\n\nPlug-and-play growth strategies you can use to stop guessing and start executing.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/teardowns",
+   "text": "🔍\nTeardowns\n6\n\nBreakdowns of the highest converting startup landing pages.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/blog",
+   "text": "📖\nBlog articles\n34\n\nTactical growth articles, case studies, and interviews.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth/intro",
+   "text": "🗺️\nGrowth Guides\n8\n\nIn-depth growth guides to take your startup from 0 to 1.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "📚\nNewsletters\n242\n\nStrategies & tactics used by the fastest growing startups—in your inbox every week.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/blog",
+   "text": "Blog ArticlesAdvance your career with tactical growth articles, case studies, and interviews with the best marketers in ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks",
+   "text": "PlaybooksBreakdowns of the most relevant topics in marketing. We interview top marketers to create comprehensive, tactic",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/teardowns",
+   "text": "Landing Page TeardownsWe dig into the tactics that fast-growing companies use on their landing pages to convert.Explore ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/tactics-vault",
+   "text": "Growth VaultEvery tactic we've ever shared in our newsletter in a filterable and searchable database.Explore Vault →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter-vault",
+   "text": "Newsletter ArchiveThe complete archive of one of the most loved marketing newsletters—The Growth Newsletter.Explore Arch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth/intro",
+   "text": "Growth GuideThe most popular guide to growth marketing on the Internet.Explore Growth Guide →",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks/above-the-fold",
+   "text": "PLAYBOOK\nAbove-the-Fold Playbook\n\nAn in-depth guide to writing the above-the-fold section of your website. Learn the adv",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks/personalization-tactics",
+   "text": "PLAYBOOK\nPersonalization Playbook\n\nPersonalization drives growth—but you can't deliver personalized experiences without ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/playbooks/tiktok-ads-guide",
+   "text": "GUIDE\nTikTok Ads Guide\n\nThis five-part guide teaches you how to make high-converting TikTok ads. We share creative best ",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/blog/how-to-grow-your-email-list",
+   "text": "BLOG ARTICLE\nHow to Grow Your Email List\n\nIn this post, we cut through the noise with a proven 3-step process to start g",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/teardowns/ahrefs",
+   "text": "TEARDOWN\nAhrefs Teardown\n\nSee how Ahrefs increases conversion by pushing visitors to read their content before having th",
+   "region": "BODY"
+  },
+  {
+   "href": "https://tally.so/r/mVBy8j",
+   "text": "Join the waitlist",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/",
+   "text": "Growth Services",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/sponsorships",
+   "text": "Become a sponsor",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.saturation.co/",
+   "text": "Saturation",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:help@demandcurve.com?subject=Support",
+   "text": "Contact Us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/growth-program",
+   "text": "Explore GP2.0",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/log-in",
+   "text": "Login to GP2.0",
+   "region": "BODY"
+  },
+  {
+   "href": "https://learn.demandcurve.com/users/sign_in",
+   "text": "Login to GP1.0",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/newsletter",
+   "text": "Growth Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources",
+   "text": "Resource Hub",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/blog",
+   "text": "Blog",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/legal/terms",
+   "text": "Terms",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/legal/privacy",
+   "text": "Privacy & Cookies",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/sitemap",
+   "text": "Sitemap",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources#",
+   "text": "Privacy Preferences",
+   "region": "BODY"
+  },
+  {
+   "href": "https://twitter.com/growthtactics",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/company/demandcurve",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://youtube.com/@demandcurve?sub_confirmation=1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/resources#",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://gp.demandcurve.com/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

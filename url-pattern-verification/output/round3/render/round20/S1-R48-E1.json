@@ -1,0 +1,1298 @@
+{
+ "url": "https://www.bain.com/insights/",
+ "observed_at": "2026-10-26T10:59:02.541Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.bain.com/insights/",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.bain.com/insights/\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "Bain Insights & Publications | Bain & Company",
+ "h1": "Insights",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 250,
+   "new_in_prefix": 250,
+   "clicked": "LOAD MORE"
+  },
+  {
+   "round": 1,
+   "anchors": 250,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://consent.trustarc.com/analytics?action=0&domain=bain.com&implied=0&session=fce921620eba486fa8bfb6494b03ea23&new=1&referer=https://www.bain.com"
+  },
+  {
+   "method": "GET",
+   "url": "https://consent.trustarc.com/analytics?action=7&domain=bain.com&implied=0&session=fce921620eba486fa8bfb6494b03ea23&new=1&referer=https://www.bain.com"
+  },
+  {
+   "method": "GET",
+   "url": "https://consent.trustarc.com/cm/bain.com/modalconfig?type=bain_v9&layout=default_eu&locale=en&country=us"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.bain.com/api/page/events"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.bain.com/insights/GetFeedItems?start=0&results=21&filters=&searchValue=&isInPreviewMode=False"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.bain.com/insights/#maincontent",
+   "text": "Skip to Content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/atlanta/",
+   "text": "Atlanta",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/austin/",
+   "text": "Austin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/bogota/",
+   "text": "Bogota",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/boston/",
+   "text": "Boston",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/buenos-aires/",
+   "text": "Buenos Aires",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/Chicago/",
+   "text": "Chicago",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/dallas/",
+   "text": "Dallas",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/denver/",
+   "text": "Denver",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/houston/",
+   "text": "Houston",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/los-angeles/",
+   "text": "Los Angeles",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/mexico-city/",
+   "text": "Mexico City",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/minneapolis-frwd/",
+   "text": "Minneapolis",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/monterrey/",
+   "text": "Monterrey",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/montreal/",
+   "text": "Montreal",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/new-york/",
+   "text": "New York",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/rio-de-janeiro/",
+   "text": "Rio de Janeiro",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/san-francisco/",
+   "text": "San Francisco",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/santiago/",
+   "text": "Santiago",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/sao-paulo/",
+   "text": "São Paulo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/seattle/",
+   "text": "Seattle",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/silicon-valley/",
+   "text": "Silicon Valley",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/toronto/",
+   "text": "Toronto",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/washington-dc/",
+   "text": "Washington, DC",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/amsterdam/",
+   "text": "Amsterdam",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/athens/",
+   "text": "Athens",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/berlin/",
+   "text": "Berlin",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/brussels/",
+   "text": "Brussels",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/copenhagen/",
+   "text": "Copenhagen",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/dusseldorf/",
+   "text": "Dusseldorf",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/frankfurt/",
+   "text": "Frankfurt",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/helsinki/",
+   "text": "Helsinki",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/istanbul/",
+   "text": "Istanbul",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/johannesburg/",
+   "text": "Johannesburg",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/kyiv/",
+   "text": "Kyiv",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/lisbon/",
+   "text": "Lisbon",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/london/",
+   "text": "London",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/madrid/",
+   "text": "Madrid",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/milan/",
+   "text": "Milan",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/munich/",
+   "text": "Munich",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/oslo/",
+   "text": "Oslo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/paris/",
+   "text": "Paris",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/rome/",
+   "text": "Rome",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/stockholm/",
+   "text": "Stockholm",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/vienna/",
+   "text": "Vienna",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/warsaw/",
+   "text": "Warsaw",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/zurich/",
+   "text": "Zurich",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/middle-east/",
+   "text": "Middle East",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/abu-dhabi/",
+   "text": "Abu Dhabi",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/doha/",
+   "text": "Doha",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/dubai/",
+   "text": "Dubai",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/riyadh/",
+   "text": "Riyadh",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/bangkok/",
+   "text": "Bangkok",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/beijing/",
+   "text": "Beijing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/bengaluru/",
+   "text": "Bengaluru",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/brisbane/",
+   "text": "Brisbane",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/ho-chi-minh-city/",
+   "text": "Ho Chi Minh City",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/hong-kong/",
+   "text": "Hong Kong",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/jakarta/",
+   "text": "Jakarta",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/kuala-lumpur/",
+   "text": "Kuala Lumpur",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/manila/",
+   "text": "Manila",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/melbourne/",
+   "text": "Melbourne",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/mumbai/",
+   "text": "Mumbai",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/new-delhi/",
+   "text": "New Delhi",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/perth/",
+   "text": "Perth",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/seoul/",
+   "text": "Seoul",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/shanghai/",
+   "text": "Shanghai",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/singapore/",
+   "text": "Singapore",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/sydney/",
+   "text": "Sydney",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/offices/tokyo/",
+   "text": "Tokyo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/offices/",
+   "text": "See all offices",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/alumni-services/",
+   "text": "Alumni",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/media-center/",
+   "text": "Media Center",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/subscribe/",
+   "text": "Subscribe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/",
+   "text": "Contact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Global | English",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/",
+   "text": "Global\n                                            (English)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/pt-br/insights/",
+   "text": "Brazil\n                                            (Português)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/es-ar/insights/",
+   "text": "Argentina\n                                            (Español)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/fr-ca/insights/",
+   "text": "Canada\n                                            (Français)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/es-cl/insights/",
+   "text": "Chile\n                                            (Español)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/es-co/insights/",
+   "text": "Colombia\n                                            (Español)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/fr/points-de-vue/",
+   "text": "France\n                                            (Français)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/de/publikationen/",
+   "text": "DACH Region\n                                            (Deutsch)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/it/insights/",
+   "text": "Italy\n                                            (Italiano)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/es-es/insights/",
+   "text": "Spain\n                                            (Español)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/el/insights/",
+   "text": "Greece\n                                            (Elliniká)",
+   "region": "NAV"
+  },
+  {
+   "href": "http://www.bain.cn/",
+   "text": "China\n                                            (中文版)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/ko/insights/",
+   "text": "Korea\n                                            (한국어)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/ja/insights/",
+   "text": "Japan\n                                            (日本語)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Saved items\n    (0)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/curated-for-you-landing/?",
+   "text": "Saved items (0)",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/",
+   "text": "Explore Bain Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.bain.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/aerospace-defense-government-services/",
+   "text": "Aerospace & Defense",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/agribusiness/",
+   "text": "Agribusiness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/automotive/",
+   "text": "Automotive",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/chemicals/",
+   "text": "Chemicals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/construction-infrastructure/",
+   "text": "Construction & Infrastructure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/consumer-products/",
+   "text": "Consumer Products",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/financial-services/",
+   "text": "Financial Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/healthcare/",
+   "text": "Healthcare & Life Sciences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/industrial-machinery-equipment/",
+   "text": "Industrial Machinery & Equipment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/media-and-entertainment/",
+   "text": "Media & Entertainment",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/metals/",
+   "text": "Metals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/mining/",
+   "text": "Mining",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/oil-gas/",
+   "text": "Oil & Gas",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/paper-packaging/",
+   "text": "Paper & Packaging",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/private-equity/",
+   "text": "Private Equity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/retail/",
+   "text": "Retail",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/social-impact-consulting/",
+   "text": "Social Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/technology/",
+   "text": "Technology",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/telecommunications/",
+   "text": "Telecommunications",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/transportation/",
+   "text": "Transportation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/travel-leisure/",
+   "text": "Travel & Leisure",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/utilities-renewables/",
+   "text": "Utilities & Renewables",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/",
+   "text": "Consulting Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/",
+   "text": "Consulting Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/customer-experience-transformation/",
+   "text": "Customer Experience",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/strategy/innovation-business-building/",
+   "text": "Innovation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/mergers-acquisitions/",
+   "text": "M&A",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/operations/",
+   "text": "Operations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/organization/",
+   "text": "People & Organization",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/industry-expertise/private-equity/",
+   "text": "Private Equity",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/customer-strategy-and-marketing/",
+   "text": "Sales & Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/strategy/",
+   "text": "Strategy",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/sustainability-corporate-responsibility/",
+   "text": "Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/transformation/",
+   "text": "Transformation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/consulting-services/technology-ai/",
+   "text": "Applied Technology & AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/",
+   "text": "Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/industry-insights/",
+   "text": "Industry Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/consulting-services-insights/",
+   "text": "Services Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/books/",
+   "text": "Bain Books",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/bain-webinars-expire/",
+   "text": "Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/bain-futures/",
+   "text": "Bain Futures",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/",
+   "text": "View all insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/ai/",
+   "text": "Artificial Intelligence",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/volatility/",
+   "text": "Thriving in Uncertainty",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/executive-conversations/",
+   "text": "Executive Conversations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/macro-trends/",
+   "text": "Macro Trends",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/ceo-sustainability-guide/",
+   "text": "CEO's Guide to Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/gaming-report/",
+   "text": "Gaming Report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/b2b-growth-agenda/",
+   "text": "B2B Growth Agenda",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/global-private-equity-report/",
+   "text": "Private Equity Report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/m-and-a-report/",
+   "text": "M&A Report",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/ceo-agenda/",
+   "text": "CEO Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/cfo-insights/",
+   "text": "CFO Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/coo-insights/",
+   "text": "COO Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/cio-insights/",
+   "text": "CIO Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/cmo-insights/",
+   "text": "CMO Insights",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/featured-topics/",
+   "text": "View all featured topics",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/",
+   "text": "About",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/what-we-do/",
+   "text": "What We Do",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/what-we-believe/",
+   "text": "What We Believe",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/our-people/",
+   "text": "Our People & Leadership",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/client-results/",
+   "text": "Client Results",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/awards-recognition/",
+   "text": "Awards & Recognition",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/global-affiliations/",
+   "text": "Global Affiliations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/further/our-sustainability/",
+   "text": "Sustainability",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/further/our-social-impact/",
+   "text": "Social Impact",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/world-economic-forum/",
+   "text": "World Economic Forum",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/about/further/",
+   "text": "Learn more about Further",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/careers/",
+   "text": "Careers",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Agile",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Digital",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Strategy",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.bain.com/about/curated-for-you-landing/?",
+   "text": "SAVED ITEMS (\n0\n)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/curated-for-you-landing/?",
+   "text": "Saved items (0)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/insights/workers-are-less-worried-about-ai-if-its-done-by-them-not-to-them/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/workers-are-less-worried-about-ai-if-its-done-by-them-not-to-them/",
+   "text": "Consumer Products\nWorkers Are Less Worried About AI If It’s Done by Them, Not to Them\n\nWith mistrust growing alongside a",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+   "text": "Black Friday 2026 Sales Forecast",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ai-is-turning-procurement-into-an-earnings-engine/",
+   "text": "AI Is Turning Procurement Into an Earnings Engine",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/technology-report/",
+   "text": "Technology Report 2026",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/how-marketing-leadership-changed-over-the-last-decade-infographic/",
+   "text": "How Marketing Leadership Changed over the Last Decade",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.forbes.com/sites/davidmichels/2026/09/28/the-biggest-ai-risk-for-most-companies-is-not-the-one-you-think/",
+   "text": "The Biggest AI Risk For Most Companies Is Not The One You Think",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/survey-most-software-buyers-use-ai-to-find-vendors-snap-chart/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/survey-most-software-buyers-use-ai-to-find-vendors-snap-chart/",
+   "text": "Software\nSurvey: Most Software Buyers Use AI to Find Vendors\n\nAI has embedded itself in the B2B software buying journey.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+   "text": "Private Equity\nGetting Leadership Transition Right in Private Equity\n\nMoving past the founder can be challenging, but in",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/global-auto-consumer-survey-regional-trends-in-a-changing-world/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/global-auto-consumer-survey-regional-trends-in-a-changing-world/",
+   "text": "Automotive\nGlobal Auto Consumer Survey: Regional Trends in a Changing World\n\nBain’s comprehensive survey reveals global ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/pharmas-primordial-soup-from-functions-to-teams/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/pharmas-primordial-soup-from-functions-to-teams/",
+   "text": "Healthcare & Life Sciences\nPharma's Primordial Soup: From Functions to Teams\n\nFor decades, expertise couldn't be separat",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/the-ai-opportunity-in-boring-businesses-with-brookfields-anuj-ranjan-podcast/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/the-ai-opportunity-in-boring-businesses-with-brookfields-anuj-ranjan-podcast/",
+   "text": "Private Equity\nThe AI Opportunity in “Boring” Businesses with Brookfield’s Anuj Ranjan\n\nWe ask the CEO of Brookfield's P",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/winning-with-ai-podcast-carsten-rasch-egeriis/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/winning-with-ai-podcast-carsten-rasch-egeriis/",
+   "text": "Banking\nYour AI Competitive Advantage Is Temporary with Carsten Egeriis, CEO of Danske Bank\n\nCarsten Egeriis is embracin",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ai-in-software-engineering-the-reliability-paradox/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ai-in-software-engineering-the-reliability-paradox/",
+   "text": "Applied Technology & AI\nAI in Software Engineering: The Reliability Paradox\n\nIf AI lets your engineers write code 5 to 1",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/bain-webinars/",
+   "text": "REGISTER NOW",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/topics/bain-webinars-expire/",
+   "text": "VIEW PAST RECORDINGS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/chemical-companies-dont-have-to-settle-for-managed-decline/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/chemical-companies-dont-have-to-settle-for-managed-decline/",
+   "text": "Chemicals\nChemical Companies Don’t Have to Settle for Managed Decline\n\nCutting costs and waiting for recovery won’t work",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/us-consumer-health-indexes/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/us-consumer-health-indexes/",
+   "text": "Retail\nUS Consumer Health Update\n\nOctober’s data suggests US consumer strength may be declining.",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/2026-european-holiday-shopping-outlook-infographic/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/2026-european-holiday-shopping-outlook-infographic/",
+   "text": "Retail\n2026 European Holiday Shopping Outlook\n\nBain forecasts year-over-year holiday sales growth of 3.5% in the UK, 2.5",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/inside-bains-2026-technology-report-webinar/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/inside-bains-2026-technology-report-webinar/",
+   "text": "Technology\nInside Bain's 2026 Technology Report\n\nBain experts discuss key insights from our 2026 Technology Report, expl",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/scaling-ai-in-specialty-insurance-a-conversation-with-markels-simon-wilson/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/scaling-ai-in-specialty-insurance-a-conversation-with-markels-simon-wilson/",
+   "text": "Insurance\nScaling AI in Specialty Insurance: A Conversation with Markel’s Simon Wilson\n\n“AI is the defining tool that wi",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ai-is-turning-procurement-into-an-earnings-engine/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ai-is-turning-procurement-into-an-earnings-engine/",
+   "text": "Procurement\nAI Is Turning Procurement Into an Earnings Engine\n\nThe opportunity demands a new operating model, not an aut",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/subscribe/",
+   "text": "CHOOSE YOUR INTERESTS",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/the-2026-healthcare-ai-roi-scorecard/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/the-2026-healthcare-ai-roi-scorecard/",
+   "text": "Healthcare & Life Sciences\nThe 2026 Healthcare AI ROI Scorecard\n\nHealthcare executives indicate that AI’s returns have a",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/how-marketing-leadership-changed-over-the-last-decade-infographic/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/how-marketing-leadership-changed-over-the-last-decade-infographic/",
+   "text": "Modern Marketing\nHow Marketing Leadership Changed over the Last Decade\n\nWhat separates marketing leaders from laggards? ",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ceo-sessions-bruno-lasansky/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/ceo-sessions-bruno-lasansky/",
+   "text": "Retail\nBruno Lasansky, Localiza&Co: The Perfect Storm Playbook\n\nHow do you grow a billion dollar business in the face of",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+   "text": "Retail\nBlack Friday 2026 Sales Forecast\n\nBain research shows retail sales from Black Friday through Cyber Monday are exp",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/realization-rate-the-metric-reshaping-enterprise-ai/",
+   "text": "Software\nRealization Rate: The Metric Reshaping Enterprise AI\n\nSoftware providers that help customers realize more value",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/reduce-reuse-recycle-inside-faerchs-closed-loop-business-model-video/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/reduce-reuse-recycle-inside-faerchs-closed-loop-business-model-video/",
+   "text": "Advanced Manufacturing & Services\nReduce, Reuse, Recycle: Inside Faerch’s Closed-Loop Business Model\n\nAt Climate Week NY",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/why-the-energy-transition-is-scaling-and-circularity-isnt-yet-video/",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.bain.com/insights/why-the-energy-transition-is-scaling-and-circularity-isnt-yet-video/",
+   "text": "Advanced Manufacturing & Services\nWhy the Energy Transition Is Scaling and Circularity Isn’t—Yet\n\nAt Climate Week NYC 20",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.linkedin.com/company/bain-and-company",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/bainandcompany",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/bainandcompany",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/@bainandcompany",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/bainandcompany/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/",
+   "text": "Contact us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/further/our-sustainability/",
+   "text": "Sustainability",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/accessibility-statement/",
+   "text": "Accessibility",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/terms/",
+   "text": "Terms of use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/privacy/",
+   "text": "Privacy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/anti-slavery-statement/",
+   "text": "Modern Slavery Act Statement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/cookie-policy/",
+   "text": "Cookie Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/sitemap/",
+   "text": "Sitemap",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/account/dashboard/",
+   "text": "Log In",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.levelaccess.com/a/bain/",
+   "text": "Accessibility technology powered by Level Access",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/contact-form-page/?reasonforcontactingBain=Business%20inquiry:%20I%E2%80%99m%20exploring%20hiring%20Bain",
+   "text": "Business inquiry",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/contact-form-page/?reasonforcontactingBain=Career%20information:%20I%E2%80%99d%20like%20to%20work%20at%20Bain",
+   "text": "Career information",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/contact-form-page/?reasonforcontactingBain=Press%20relations:%20I%E2%80%99m%20a%20member%20of%20the%20media%20seeking%20a%20Bain%20expert%E2%80%99s%20comment",
+   "text": "Press relations",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/contact-form-page/?reasonforcontactingBain=Partnership%20request:%20I%E2%80%99d%20like%20to%20be%20considered%20for%20Bain%E2%80%99s%20Alliance%20Ecosystem",
+   "text": "Partnership request",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/contact-us/contact-form-page/?reasonforcontactingBain=Speaker%20request:%20I%E2%80%99d%20like%20to%20have%20a%20Bain%20expert%20speak%20at%20my%20event",
+   "text": "Speaker request",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/offices/",
+   "text": "See all offices",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/cookie-policy/",
+   "text": "Cookie Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/privacy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/insights/#",
+   "text": "Manage cookie settings",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bain.com/about/privacy/",
+   "text": "Privacy Policy",
+   "region": "BODY"
+  },
+  {
+   "href": "http://trustarc.com/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

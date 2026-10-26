@@ -28,7 +28,7 @@ from bs4 import BeautifulSoup
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/130.0 Safari/537.36")
 FILE_EXT = re.compile(r"\.(pdf|xlsx?|csv|docx?|pptx?|zip)$", re.I)
-PAGE_HINT = re.compile(r"(/page/[0-9]+/?$)|([?&](page|p|paged|pg|start|offset)=[0-9]+)", re.I)
+PAGE_HINT = re.compile(r"(/page/[0-9]+/?$)|([?&](page|p|paged|pg|start|offset|pagenum|pageNumber|currentPage|page_num|_page|pageindex|from)=[0-9]+)", re.I)
 CHALLENGE = re.compile(r"(just a moment|attention required|access denied|verify you are human|"
                        r"cf-chl|captcha-delivery|px-captcha)", re.I)
 REGIONS = ("header", "nav", "footer", "aside", "main")
@@ -47,7 +47,7 @@ def append(path, rec):
 def load_done(path):
     done = set()
     if path.exists():
-        for line in path.read_text(encoding="utf-8").splitlines():
+        for line in path.read_text(encoding="utf-8").split("\n"):
             if line.strip():
                 done.add(json.loads(line)["request_url"])
     return done
@@ -178,8 +178,11 @@ def probe_host(host, ents, out, args, done, pending):
                 # same main-link set as an earlier page: page parameter likely ignored or cached
                 time.sleep(args.delay)
                 continue
+            ep = urlsplit(e["raw"])
+            ebase = ep.path if ep.path.endswith("/") else ep.path.rsplit(".", 1)[0]
             for x in es:
-                if x["relation_hint"] == "pagination_hint":
+                # follow pagination only inside the entry's own path (not other locales/sections)
+                if x["relation_hint"] == "pagination_hint" and urlsplit(x["resolved_url"]).path.startswith(ebase):
                     u = x["resolved_url"].split("#", 1)[0]
                     if u not in done and all(u != q[0] for q in queue):
                         queue.append((u, url, "pagination"))

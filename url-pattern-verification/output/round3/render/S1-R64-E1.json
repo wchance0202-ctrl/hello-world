@@ -1,0 +1,873 @@
+{
+ "url": "https://advertising.amazon.com/resources/library",
+ "observed_at": "2026-10-26T10:58:21.947Z",
+ "method": "playwright-chromium",
+ "final_url": "https://advertising.amazon.com/resources/library",
+ "status": 200,
+ "error": null,
+ "title": "Advertising strategy guides, case studies, news, advice | Amazon Ads",
+ "h1": "Learn where your business can go next",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 161,
+   "new_in_prefix": 161,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 161,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://na.account.amazon.com/ap/sso/check?openid.pape.max_auth_age=1209600&openid.pape.auth_policies=Singlefactor"
+  },
+  {
+   "method": "GET",
+   "url": "https://m.media-amazon.com/images/G/01/csm/showads.v2.js?adspot_=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://d3to2j74noptt3.cloudfront.net/translations/translation-en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://d3to2j74noptt3.cloudfront.net/translations/translation.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://cognito-identity.us-east-1.amazonaws.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://advertising.amazon.com/a20m-api/v1/pages?subpageType=Education&locale=en-us"
+  },
+  {
+   "method": "GET",
+   "url": "https://m.media-amazon.com/images/I/41hFFRn9iEL.json?icon-library=fas"
+  },
+  {
+   "method": "POST",
+   "url": "https://cognito-identity.us-east-1.amazonaws.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://m.media-amazon.com/images/I/01AYkYhDvIL.json?icon=angle-right"
+  },
+  {
+   "method": "POST",
+   "url": "https://dataplane.rum.us-east-1.amazonaws.com/appmonitors/1ffd96de-b8fb-4a39-8d06-118a0dda6d10"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Skip to main content",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/?ref_=logo",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Goals",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/increase-sales?ref_=a20m_us_hnav_obj_sls",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/increase-traffic?ref_=a20m_us_hnav_obj_trffc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/reach-more-customers?ref_=a20m_us_hnav_obj_rch",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/customer-loyalty?ref_=a20m_us_hnav_obj_lylty",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/brand-awareness?ref_=a20m_us_hnav_obj_ba",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/rising-stars?ref_=a20m_us_hnav_obj_rs#rs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/directory?ref_=a20m_us_hnav_obj_prt_drct",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Products and channels",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/sponsored-ads?ref_=a20m_us_hnav_pr_p_sa",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/display-video-audio?ref_=a20m_us_hnav_pr_p_dva",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/full-funnel-campaigns?ref_=a20m_us_hnav_pr_p_ffc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products?ref_=a20m_us_hnav_pr_ap_p_all",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/imdb?ref_=a20m_us_hnav_pr_chn_imdb",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/fire-tv?ref_=a20m_us_hnav_pr_chn_ftv",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/live-sports-on-prime?ref_=a20m_us_hnav_pr_chn_ls",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/prime-video-ads?ref_=a20m_us_hnav_pr_chn_pva",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/twitch?ref_=a20m_us_hnav_pr_chn_twtch",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/amazon-business?ref_=a20m_us_hnav_pr_chn_ab",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels?ref_=a20m_us_hnav_pr_chn_all",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/products?ref_=a20m_us_hnav_pr_em_p_all",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/academy/student/activity/82719/plan-a-multi-channel-campaign-for-brand-awareness-off-amazon?ref_=a20m_us_hnav_pr_chn_ftrd_aaa",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-specs?ref_=a20m_us_hnav_pr_spcs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/directory?ref_=a20m_us_hnav_pr_drct",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Measurement",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/brand-lift?ref_=a20m_us_hnav_mea_p_bl",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/amazon-marketing-stream?ref_=a20m_us_hnav_mea_p_ams",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/rapid-retail-analytics?ref_=a20m_us_hnav_mea_p_rra",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/campaign-reporting?ref_=a20m_us_hnav_mea_p_cr",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/omnichannel-metrics?ref_=a20m_us_hnav_mea_p_ocm",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics?ref_=a20m_us_hnav_mea_p_all",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-specs?ref_=a20m_us_hnav_mea_spcs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Tools",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning?ref_=a20m_us_hnav_tls_p_ip",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning/audiences?ref_=a20m_us_hnav_tls_p_ip_aud",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning/media-planning?ref_=a20m_us_hnav_tls_p_ip_mp",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions?ref_=a20m_us_hnav_tls_p_crtv",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/enhancements?ref_=a20m_us_hnav_tls_p_crtv_enh",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/services?ref_=a20m_us_hnav_tls_p_crtv_serv",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/tools?ref_=a20m_us_hnav_tls_p_crtv_tls",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/adtech-solutions?ref_=a20m_us_hnav_tls_p_tech",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/adtech-solutions/amazon-ads-agent?ref_=a20m_us_hnav_tls_p_tech_a3",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/amazon-marketing-cloud?ref_=a20m_us_hnav_tls_p_tech_amc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/about-api?ref_=a20m_us_hnav_tls_p_tech_api",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://aps.amazon.com/?ref_=a20m_us_hnav_tls_p_tech_aps",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/retail-ad-service?ref_=a20m_us_hnav_tls_p_tech_ras",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/new-product-campaigns?ref_=a20m_us_hnav_tls_p_tech_npc",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/adtech-solutions/amazon-ads-agent?ref_=a20m_us_hnav_tls_ftrd_a3",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-specs?ref_=a20m_us_hnav_tls_spcs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Partners",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/directory?ref_=a20m_us_hnav_prt_drct",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/network?ref_=a20m_us_hnav_prt_prtnet",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/partner-awards?ref_=a20m_us_hnav_prt_ftrd_pa",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-policy/partner-network-policies?ref_=a20m_us_hnav_prt_pnp",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-policy/marketing-guidelines-agencies-tool-providers?ref_=a20m_us_hnav_prt_pmg",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "Learn",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/academy?ref_=a20m_us_hnav_lrn_aaa",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/whats-new?ref_=a20m_us_hnav_lrn_wn",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries?ref_=a20m_us_hnav_lrn_ind",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library?ref_=a20m_us_hnav_lrn_rs",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/guides/basics-of-success-understanding-amazon-advertising?ref_=a20m_us_hnav_lrn_ftrd_uaa",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/sign-in?ref_=a20m_us_hnav_sgn",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/register?ref_=a20m_us_hnav_rgstr",
+   "text": "Register",
+   "region": "NAV"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/news/forrester-wave-2026-advertising-report?ref_=a20m_us_lbr_df_z2_nws_fwave",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/news/cannes-lions-2026-news-advertising?ref_=a20m_us_lbr_df_z2_nws_cnns26",
+   "text": "Read the recap",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/case-studies/clementoni-kiliagon-prime-video-success?ref_=a20m_us_lbr_df_z2_cs_clmtni",
+   "text": "CASE STUDIES\n\nClementoni boosts conversion 1.7x with Prime Video ads\n\nLearn how Clementoni and Kiliagon drove a 70% incr",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/expert-advice/streaming-tv-ai-advertising?ref_=a20m_us_lbr_df_z2_exp_stvai",
+   "text": "EXPERT ADVICE\n\nHow AI transforms streaming TV advertising for brands\n\nDiscover how AI and authenticated signals are powe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/news/linkedin-ctv-ads-amazon-dsp?ref_=a20m_us_lbr_df_z2_nws_lnctvdsp",
+   "text": "NEWS\n\nLinkedIn CTV Ads are now available through Amazon DSP\n\nLearn about the announcement from Amazon Ads and LinkedIn t",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/guides/amazon-owned-and-operated-network?ref_=a20m_us_lbr_df_z2_gd_aoon",
+   "text": "GUIDES\n\nBoost campaign performance with the Amazon O&O Network\n\nDiscover how the Amazon Owned & Operated Network helps a",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/case-studies/acadia-bodi?ref_=a20m_us_lbr_df_z2_cs_bodi",
+   "text": "CASE STUDIES\n\nHow BODi grew category share 8x\n\nDiscover how Amazon Ads advanced partner Acadia helped challenger brand B",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/news/prime-video-emmy-awards/?ref_=a20m_us_libr",
+   "text": "NEWS\n\nPrime Video to stream the Emmy Awards\n\nPrime Video will be the exclusive global home of the Emmy Awards for six ye",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/expert-advice/streaming-simplicity-stv-research-2026/?ref_=a20m_us_libr",
+   "text": "EXPERT ADVICE\n\nNew research shows consumers want streaming simplicity\n\nNew research from Horizon Media and Amazon Ads sh",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/case-studies/boost-oxygen/?ref_=a20m_us_libr",
+   "text": "CASE STUDIES\n\nBoost Oxygen increases branded searches by 20% with AI\n\nLearn how Boost Oxygen used AI-powered video gener",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/case-studies/party-propz/?ref_=a20m_us_libr",
+   "text": "CASE STUDIES\n\nParty Propz scales video ads with AI-powered video generation\n\nLearn how Party Propz used AI-powered video",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/case-studies/mam-and-remazing/?ref_=a20m_us_libr",
+   "text": "CASE STUDIES\n\nMAM drives 39% more cart-adds with AI-powered video generation\n\nLearn how MAM tested AI creative against t",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/case-studies/revlon-rec-display-ads/?ref_=a20m_us_libr",
+   "text": "CASE STUDIES\n\nRevlon achieves 5.9x ROAS with display ads\n\nLearn how Revlon used Amazon DSP and Responsive eCommerce Crea",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/guides/holiday-advertising-guide/?ref_=a20m_us_libr",
+   "text": "GUIDES\n\nHoliday advertising: timing, strategy, and tools\n\nPlan your 2026 holiday advertising strategy with Amazon Ads. L",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/expert-advice/ai-measurement-advertising/?ref_=a20m_us_libr",
+   "text": "EXPERT ADVICE\n\nMeasurement's evolving role in AI-driven advertising\n\nLearn how measurement validates AI-driven advertisi",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/expert-advice/2026-partner-award-winners/?ref_=a20m_us_libr",
+   "text": "EXPERT ADVICE\n\nAnnouncing the 2026 Partner Award winners\n\nMeet the 2026 Amazon Ads Partner Award winners and discover th",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/guides/dva-plus-campaign-creation/?ref_=a20m_us_libr",
+   "text": "GUIDES\n\nDVA+ launches Display, Video, and Audio campaigns in minutes\n\nLearn how to create a Display, Video, and Audio ca",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/news/branded-conversations-review-requests/?ref_=a20m_us_libr",
+   "text": "NEWS\n\nBranded Conversations bring brand expertise to AI shopping\n\nAmazon Ads introduces Branded Conversations and Review",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/en-us/library/news/amazon-ads-agent/?ref_=a20m_us_libr",
+   "text": "NEWS\n\nMeet Amazon Ads Agent, your AI-powered ad platform\n\nAmazon Ads Agent brings Full-Funnel Campaigns, DVA+, and an en",
+   "region": "BODY"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/brand-awareness?ref_=a20m_us_fnav_obj_ba",
+   "text": "Build brand awareness",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/reach-more-customers?ref_=a20m_us_fnav_obj_rch",
+   "text": "Reach more customers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/increase-traffic?ref_=a20m_us_fnav_obj_trffc",
+   "text": "Increase traffic",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/increase-sales?ref_=a20m_us_fnav_obj_sls",
+   "text": "Increase sales and conversion",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/objectives/customer-loyalty?ref_=a20m_us_fnav_obj_lylty",
+   "text": "Improve customer loyalty",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products?ref_=a20m_us_fnav_p",
+   "text": "Ad products",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/sponsored-ads?ref_=a20m_us_fnav_p_sa",
+   "text": "Sponsored ads",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/display-video-audio?ref_=a20m_us_fnav_p_dva",
+   "text": "Display, Video, and Audio",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/full-funnel-campaigns?ref_=a20m_us_fnav_p_ffc",
+   "text": "Full-Funnel Campaigns",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products?ref_=a20m_us_fnav_p_all",
+   "text": "View all",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels?ref_=a20m_us_fnav_p_chn",
+   "text": "Channels",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/imdb?ref_=a20m_us_fnav_p_chn_imdb",
+   "text": "IMDb",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/fire-tv?ref_=a20m_us_fnav_p_chn_ftv",
+   "text": "Fire TV",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/live-sports-on-prime?ref_=a20m_us_fnav_p_chn_ls",
+   "text": "Live sports",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/products/prime-video-ads?ref_=a20m_us_fnav_p_chn_pva",
+   "text": "Prime Video",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/twitch?ref_=a20m_us_fnav_p_chn_twtch",
+   "text": "Twitch",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels/amazon-business?ref_=a20m_us_fnav_p_chn_ab",
+   "text": "Amazon Business",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/channels?ref_=a20m_us_fnav_p_chn_all",
+   "text": "View all",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning?ref_=a20m_us_fnav_p_ip",
+   "text": "Insights and planning",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning/audiences?ref_=a20m_us_fnav_p_ip_aud",
+   "text": "Audience insights",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/insights-and-planning/media-planning?ref_=a20m_us_fnav_p_ip_mp",
+   "text": "Media planning",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions?ref_=a20m_us_fnav_p_crtv",
+   "text": "Creative solutions",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/enhancements?ref_=a20m_us_fnav_p_crtv_enh",
+   "text": "Creative enhancements",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/services?ref_=a20m_us_fnav_p_crtv_serv",
+   "text": "Creative services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/creative-solutions/tools?ref_=a20m_us_fnav_p_crtv_tls",
+   "text": "Creative tools",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics?ref_=a20m_us_fnav_p_mea",
+   "text": "Measurement and analytics",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/brand-lift?ref_=a20m_us_fnav_p_mea_bl",
+   "text": "Amazon Brand Lift",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/amazon-marketing-stream?ref_=a20m_us_fnav_p_mea_ams",
+   "text": "Amazon Marketing Stream",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/campaign-reporting?ref_=a20m_us_fnav_p_mea_cr",
+   "text": "Campaign reporting",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/omnichannel-metrics?ref_=a20m_us_fnav_p_mea_ocm",
+   "text": "Omnichannel Metrics",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/measurement-analytics/rapid-retail-analytics?ref_=a20m_us_fnav_p_mea_rra",
+   "text": "Rapid retail analytics",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/adtech-solutions?ref_=a20m_us_fnav_p_tech",
+   "text": "Technology and services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/adtech-solutions/amazon-ads-agent?ref_=a20m_us_fnav_p_tech_a3",
+   "text": "Amazon Ads Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/amazon-marketing-cloud?ref_=a20m_us_fnav_p_tech_amc",
+   "text": "Amazon Marketing Cloud",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/about-api?ref_=a20m_us_fnav_p_tech_api",
+   "text": "Amazon Ads API",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://aps.amazon.com/?ref_=a20m_us_fnav_p_tech_aps",
+   "text": "Amazon Publisher Services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/retail-ad-service?ref_=a20m_us_fnav_p_tech_ras",
+   "text": "Amazon Retail Ad Service",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/products/new-product-campaigns?ref_=a20m_us_fnav_p_tech_npc",
+   "text": "New Product Campaigns",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries?ref_=a20m_us_fnav_ind",
+   "text": "Industries",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/automotive-marketing?ref_=a20m_us_fnav_ind_auto",
+   "text": "Automotive",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/beauty?ref_=a20m_us_fnav_ind_bty",
+   "text": "Beauty",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/consumer-electronics?ref_=a20m_us_fnav_ind_elc",
+   "text": "Consumer electronics",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/entertainment?ref_=a20m_us_fnav_ind_etnm",
+   "text": "Entertainment",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/fashion-marketing?ref_=a20m_us_fnav_ind_fshn",
+   "text": "Fashion",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/financial-services-marketing?ref_=a20m_us_fnav_ind_finsrv",
+   "text": "Financial services",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/grocery-marketing?ref_=a20m_us_fnav_ind_grcry",
+   "text": "Grocery",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/health-and-personal-care-marketing?ref_=a20m_us_fnav_ind_hpc",
+   "text": "Health and personal care",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/furniture-marketing?ref_=a20m_us_fnav_ind_furn",
+   "text": "Home goods and furniture",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/home-improvement-marketing?ref_=a20m_us_fnav_ind_hmimprv",
+   "text": "Home improvement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/book-ads?ref_=a20m_us_fnav_ind_pblshng",
+   "text": "Publishing",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/telecom-marketing?ref_=a20m_us_fnav_ind_telecom",
+   "text": "Telecom",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/toys-and-games-marketing?ref_=a20m_us_fnav_ind_tys",
+   "text": "Toys and games",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/solutions/industries/travel-marketing?ref_=a20m_us_fnav_ind_trvl",
+   "text": "Travel",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/academy?ref_=a20m_us_fnav_aaa",
+   "text": "Amazon Ads Academy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/whats-new?ref_=a20m_us_fnav_wn",
+   "text": "Product announcements",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/library?ref_=a20m_us_fnav_rs",
+   "text": "Resources",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-specs?ref_=a20m_us_fnav_spcs",
+   "text": "Ad specs and policies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/faq?ref_=a20m_us_fnav_faq",
+   "text": "FAQ",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/library/newsroom?ref_=a20m_us_fnav_nrm",
+   "text": "News and announcements",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/directory?ref_=a20m_us_fnav_prtdrct",
+   "text": "Find a partner",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/partners/network?ref_=a20m_us_fnav_prtnet",
+   "text": "Become a partner",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-policy/partner-network-policies?ref_=a20m_us_fnav_pnp",
+   "text": "Amazon Ads Partner Network Policies",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/resources/ad-policy/marketing-guidelines-agencies-tool-providers?ref_=a20m_us_fnav_pmg",
+   "text": "Marketing guidelines for Amazon Ads Partners",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/about-us?ref_=a20m_us_fnav_abtus",
+   "text": "About us",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/legal/conditions?ref_=a20m_us_fnav_l_cndtns",
+   "text": "Conditions of Use",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/legal/privacy-notice?ref_=a20m_us_fnav_l_prvcy",
+   "text": "Privacy Notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/legal/interest-based-ads?ref_=a20m_us_fnav_l_intrst",
+   "text": "Interest-Based Ads",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/legal/cookie-notice?ref_=a20m_us_fnav_l_cook",
+   "text": "Cookie Notice",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://status.ads.amazon.com/?ref_=a20m_us_fnav_status",
+   "text": "Amazon Ads Status",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/careers?ref_=a20m_us_fnav_l_cars",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/showcase/amazonadvertising/about/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/AmazonAds/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/amazonads/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/amazonadvertising/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/AmazonAds/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://advertising.amazon.com/",
+   "text": "",
+   "region": "FOOTER"
+  }
+ ]
+}

@@ -1,0 +1,711 @@
+{
+ "url": "https://www.gwi.com/case-studies",
+ "observed_at": "2026-10-26T11:04:09.776Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.gwi.com/case-studies",
+ "status": 200,
+ "error": null,
+ "title": "Case Studies - How Agencies, Businesses & Brands use our Data - GWI",
+ "h1": "Case studies",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 85,
+   "new_in_prefix": 85,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 94,
+   "new_in_prefix": 9,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 103,
+   "new_in_prefix": 9,
+   "clicked": null
+  },
+  {
+   "round": 3,
+   "anchors": 112,
+   "new_in_prefix": 9,
+   "clicked": null
+  },
+  {
+   "round": 4,
+   "anchors": 119,
+   "new_in_prefix": 7,
+   "clicked": null
+  },
+  {
+   "round": 5,
+   "anchors": 119,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/mbuMG9bFL3sRfFV3/visitor_events?"
+  },
+  {
+   "method": "GET",
+   "url": "https://app.hubspot.com/content-tools-menu/api/v1/tools-menu/has-permission-json?portalId=304927"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/mbuMG9bFL3sRfFV3/visitor_events?"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/mbuMG9bFL3sRfFV3/visitor_events?wu=86fc1efd-a26e-43da-bad6-82297004b556&uuid=25912936-3d1c-47a5-8cb8-dcb66e770fc9"
+  },
+  {
+   "method": "GET",
+   "url": "https://js.hs-banner.com/cookie-banner-public/v1/cf-location"
+  },
+  {
+   "method": "GET",
+   "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=304927&currentUrl=https%3A%2F%2Fwww.gwi.com%2Fcase-studies&contentId=20483083844"
+  },
+  {
+   "method": "GET",
+   "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=304927&utk="
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&ae=g&auid=334998003.1793012653&dt=Case%20Studies%20-%20How%20Agencies%2C%20Businesses%20%26%20Brands%20use%20our%20Data%20-%20GWI&en=page_view&dl=https%3A%2F%2Fwww.gwi.com%2Fcase-studies&scrsrc=www.googletagmanager.com&rnd=1067613206.1793012653&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dZTQ1Zm.dY2Q2ZW&_tu=CA&gtm=45He6al1v77087615za200zd77087615"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=334998003.1793012653&gtm=45He6al1v77087615za200zd77087615xeaxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://app.qualified.com/w/1/mbuMG9bFL3sRfFV3/visitor_events?wu=86fc1efd-a26e-43da-bad6-82297004b556&uuid=25912936-3d1c-47a5-8cb8-dcb66e770fc9"
+  },
+  {
+   "method": "GET",
+   "url": "https://t.vibe.co/pixel/s?aid=Ul9V2X&cid=179cb367-975b-4674-a497-62947e520a21&gid=&eid=3982614c-f1be-4255-b457-be894e4ff755&a=page_view&ed=&v=4&url=https%3A%2F%2Fwww.gwi.com%2Fcase-studies&ifr=0&ref=&ts=1793012653553&sr=1280x720&vp=1280x720&trk=trkid&t=xhr"
+  },
+  {
+   "method": "GET",
+   "url": "https://t6.vibe.co/pixel/s?aid=Ul9V2X&cid=179cb367-975b-4674-a497-62947e520a21&gid=&eid=3982614c-f1be-4255-b457-be894e4ff755&a=page_view&ed=&v=4&url=https%3A%2F%2Fwww.gwi.com%2Fcase-studies&ifr=0&ref=&ts=1793012653553&sr=1280x720&vp=1280x720&trk=trkid&t=xhr&t=xhr"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/e677c04d7fa0a2fcfc134f89/PLcSPLGR.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/e677c04d7fa0a2fcfc134f89/config/ZP0NLsKC.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/e677c04d7fa0a2fcfc134f89/translations/otrstGGA.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cdn-cookieyes.com/client_data/e677c04d7fa0a2fcfc134f89/audit-table/xsY612Rf.json"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.gwi.com/privacy",
+   "text": "Read our privacy policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=powered-by-cookieyes",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/book-demo",
+   "text": "See what GWI can do for your business. Speak to an expert.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/platform/spark",
+   "text": "Agent Spark",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/platform",
+   "text": "Platform",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/integrations",
+   "text": "Integrations",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/data",
+   "text": "GWI data",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/integrations/agentic",
+   "text": "Agentic Portfolio",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services",
+   "text": "Services",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/brand-tracking",
+   "text": "Brand tracking",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/market-segmentation",
+   "text": "Segmentation",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/audience-profiling",
+   "text": "Audience profiling",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/analysis-and-reporting-services",
+   "text": "Analyst hours",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/ad-effectivenes",
+   "text": "Ad effectiveness",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/services/concept-testing",
+   "text": "Concept testing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/teams",
+   "text": "Teams",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/teams/marketing",
+   "text": "Marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/teams/sales",
+   "text": "Sales",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/teams/product-development",
+   "text": "Product",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/teams/research",
+   "text": "Research",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases",
+   "text": "Use cases",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/agency-pitching",
+   "text": "Pitching",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/media-planning-data",
+   "text": "Media planning",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/content-strategy",
+   "text": "Content marketing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/sponsorship-partnership",
+   "text": "Partnerships",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/retail-media",
+   "text": "Retail media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/synthetic-audiences",
+   "text": "Synthetic audiences",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/use-cases/ad-selling",
+   "text": "Ad Selling",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries",
+   "text": "Industries",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries/agencies",
+   "text": "Agencies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries/media",
+   "text": "Media",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries/sports",
+   "text": "Sports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries/gaming",
+   "text": "Gaming",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/industries/finance",
+   "text": "Finance",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/blog",
+   "text": "Blog",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies",
+   "text": "Case studies",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/on-the-dot-subscribe",
+   "text": "Newsletter: On the dot",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/webinars",
+   "text": "Webinar & events",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/connecting-the-dots",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/pricing",
+   "text": "Pricing",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.gwi.com/book-demo",
+   "text": "Book a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://signin.globalwebindex.com/?__hstc=93079362.4632d06eb8f43969cbf12294f5fd11ff.1793012653017.1793012653017.1793012653017.1&__hssc=93079362.1.1793012653017&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Sign in",
+   "region": "NAV"
+  },
+  {
+   "href": "https://signin.globalwebindex.com/?__hstc=93079362.4632d06eb8f43969cbf12294f5fd11ff.1793012653017.1793012653017.1793012653017.1&__hssc=93079362.1.1793012653017&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Sign in",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/book-demo",
+   "text": "Book a demo",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/microsoft",
+   "text": "Democratizing data with AI market research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/tiktok",
+   "text": "Showcasing TikTok as a gateway to business leaders",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/serviceplan",
+   "text": "How Serviceplan Group is moving 10 times faster by plugging GWI into their AI agents",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/performics",
+   "text": "Connecting Axis Bank with new audiences through smarter media planning",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/uber-advertising",
+   "text": "Building powerful sales narratives with smarter profiling",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/microsoft",
+   "text": "Democratizing data with AI market research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/eventbrite",
+   "text": "Redefining connection with unique dating insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/x-ad-sales",
+   "text": "Strengthening ad sales with third-party data",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/nextdoor",
+   "text": "Driving ad sales and increasing web page views by 197%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/one-championship",
+   "text": "Increasing US viewers by 46% in just 6 months",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/tiktok",
+   "text": "Showcasing TikTok as a gateway to business leaders",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/passion-digital",
+   "text": "Using audience insights to boost visibility by 300%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/avery-dennison",
+   "text": "Reaching 2.9 million people with custom research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/advanced-sponsorship-insights",
+   "text": "Matching brands to the right partners (and proving the ROI)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/yw-2",
+   "text": "Boosting post interactions by 7,616%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/bright-shift",
+   "text": "Driving 41k revenue in the first month",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/20ten",
+   "text": "Enhancing campaign performance by 88%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/yw",
+   "text": "Doubling revenue in four months",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/verb",
+   "text": "Driving a 36% increase in high quality leads",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/kiwi-digital",
+   "text": "Cutting turnaround times by 3 days",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/city-pantry",
+   "text": "Lowering cost per lead by 75%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/tequila-avion",
+   "text": "Boosting campaign efficiency by 30%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/bcm",
+   "text": "Shaping a leading product",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/matchmedia",
+   "text": "Knowing where to pivot in a crisis",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/imille",
+   "text": "Linking strategy and creative",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/city-football-group",
+   "text": "Driving sponsorship growth",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/um-turkey",
+   "text": "Putting regional insight to the test",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/bigeye",
+   "text": "Growing a small agency's presence",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/blizzard",
+   "text": "Driving global growth with the right data",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/sony",
+   "text": "Using custom insight to steer the right strategy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/buzzfeed",
+   "text": "Shifting brand perceptions with insight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/eurosport",
+   "text": "Driving ad sales with custom research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/fnatic",
+   "text": "Telling the right story with better data",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/first-first-consulting",
+   "text": "Shaping a winning campaign",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/dentsu",
+   "text": "Using deep insight to tackle an unusual brief",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/mobily",
+   "text": "Using data to guide transformation",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/flipboard",
+   "text": "Shaping a consumer-first brand identity",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/bbdo",
+   "text": "Shaping a winning campaign",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/blis",
+   "text": "Unlocking new markets with insight",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/barefoot-proximity",
+   "text": "Reducing turnaround times by 35%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/brilliant-noise",
+   "text": "Powering better media planning",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/zenith",
+   "text": "Driving revenue with global insights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/mediacom",
+   "text": "Using rich insight to get more targeted",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/groupm",
+   "text": "Using custom data to go deeper",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/case-studies/tmw",
+   "text": "Putting consumer profiling into practice",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.gwi.com/platform",
+   "text": "Human insights platform",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/platform/spark",
+   "text": "Agent Spark: Human insights analyst",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/data",
+   "text": "Learn about our data",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/pricing",
+   "text": "Pricing",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/respondent-level-data",
+   "text": "RLD",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/audience-activation",
+   "text": "Audience activation",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/fusions",
+   "text": "Data partnerships",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/partners",
+   "text": "Become a GWI partner",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/blog",
+   "text": "Blog",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/reports",
+   "text": "Reports",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://help.globalwebindex.com/en/?__hstc=93079362.4632d06eb8f43969cbf12294f5fd11ff.1793012653017.1793012653017.1793012653017.1&__hssc=93079362.1.1793012653017&__hsfp=5b669e0b1c80e50684c675adce32d820",
+   "text": "Help center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/about-us",
+   "text": "Our story",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/careers",
+   "text": "Careers",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/press-center",
+   "text": "Press",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/contact",
+   "text": "Contact",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://trust.gwi.com/",
+   "text": "Trust center",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/terms",
+   "text": "Website terms and conditions",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/legal/privacy-policy",
+   "text": "Website privacy policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/cookie-policy",
+   "text": "Website cookie policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/legal/modern-slavery-statement",
+   "text": "Modern slavery statement",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/legal",
+   "text": "See all",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/gwidotcom",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://x.com/gwidotcom",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/gwidotcom/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.instagram.com/gwidotcom/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.tiktok.com/@gwidotcom",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/c/GlobalWebIndexNet",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.gwi.com/",
+   "text": "",
+   "region": "FOOTER"
+  }
+ ]
+}

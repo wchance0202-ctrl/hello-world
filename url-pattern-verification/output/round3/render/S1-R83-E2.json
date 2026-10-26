@@ -1,0 +1,395 @@
+{
+ "url": "https://www.contagious.com/reports",
+ "observed_at": "2026-10-26T11:01:55.268Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.contagious.com/en/reports",
+ "status": 200,
+ "error": null,
+ "title": "Free to access reports",
+ "h1": "Free Reports",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 39,
+   "new_in_prefix": 39,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 39,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://transcend-cdn.com/cm/ef49a3f1-d8c1-47d6-88fc-50e41130631f/translations/en.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/auth/profile"
+  },
+  {
+   "method": "POST",
+   "url": "https://cdn.builder.io/api/v1/track"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/article/the-chaos-advantage?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2049038998.1793012522&dt=Free%20to%20access%20reports&en=page_view&dl=https%3A%2F%2Fwww.contagious.com%2Fen%2Freports&scrsrc=www.googletagmanager.com&rnd=298629476.1793012522&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6am0h2v9209818275za200zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~11889"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/contagious-iq?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/events?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/news-and-views?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "POST",
+   "url": "https://g.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/article/the-chaos-advantage"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/sa.jpeg"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/contagious-iq"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6am0h2v9219650960za20ozb9209818275zd9209818275xf1&_p=1793012521812&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&cid=1830024527.1793012523&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/reports?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/events"
+  },
+  {
+   "method": "GET",
+   "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=km-0DhWNSDppa-5HcZBGag&is_js=true&landing_url=https%3A%2F%2Fwww.contagious.com%2Fen%2Freports&t=Free%20to%20access%20reports&tip=NUbhznrLuyCBbATXGY9ae81lwi1IXfmXSZ0a6oQl1Z8&host=https%3A%2F%2Fwww.contagious.com&l_src=&l_src_d=&u_src=&u_src_d=&shop=false&sa-user-id-v4=s%253ACiQwMWExNzdkZi1kZGNiLTc4Y2ItYTc4Ny1mNWU2ZDkyNjEyN2IQBBoCTkEgWg.8xMMLUUVHfB5wUnneNv"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/resources/podcast?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/news-and-views"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/request-a-demo?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "POST",
+   "url": "https://g.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/17183769252/?random=1793012523438&cv=11&fst=1793012523438&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6am0h2z89209818275za20gzb9209818275zd9209818275xeaxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.contagious.com%2Fen%2Freports&rc"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&auid=2049038998.1793012522&dt=Free%20to%20access%20reports&tid=AW-17183769252&dl=https%3A%2F%2Fwww.contagious.com%2Fen%2Freports&scrsrc=www.googletagmanager.com&rnd=298629476.1793012522&navt=n&npa=0&_tu=CA&gtm=45be6am0h2z89209818275za20gzb9209818275zd9209818275xeaxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/reports"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/resources/podcast"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/request-a-demo"
+  },
+  {
+   "method": "POST",
+   "url": "https://g.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHXEXEXNNE&gtm=45je6am0h2v9219650960z89209818275za20gzb9209818275zd9209818275xf1&_p=1793012521812&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAAAQ&cid=1830024527.1793012523&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&u"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/about-us?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/get-in-touch?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/submit-your-work?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/event-sponsorship?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/newsletter?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/about-us"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/get-in-touch"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/submit-your-work"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/event-sponsorship"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/newsletter"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/terms-of-use-contagious-ai?_rsc=woXjAbcv2aSfPweN"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.contagious.com/en/terms-of-use-contagious-ai"
+  },
+  {
+   "method": "POST",
+   "url": "https://g.clarity.ms/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.contagious.com/en/reports#main-content",
+   "text": "ArrowDown\n\nSkip to main content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/",
+   "text": "Contagious logo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/contagious-iq",
+   "text": "Contagious IQ",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Events & Webinars",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/news-and-views",
+   "text": "News & Views",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/reports",
+   "text": "Reports",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/resources/podcast",
+   "text": "Podcast",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/request-a-demo",
+   "text": "Request a demo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.contagious.com/article/the-chaos-advantage",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/en/article/contagious-brands-report-2026-e9e673f22b0d4facbc2954f43dd393c9",
+   "text": "Access the report\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/en/the-contagious-radar-2026",
+   "text": "Access the report\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/the-contagious-iq-download-2025",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/finding-your-centaur",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/the-contagious-iq-download-2024",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/grand-prix-winning-strategies-2024",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/the-contagious-radar-report-2024",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/the-best-of-strategists-digest-2023",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/grand-prix-winning-strategies-2023",
+   "text": "Access the report",
+   "region": "BODY"
+  },
+  {
+   "href": "https://privacy.informa.com/policies/en/",
+   "text": "privacy policy",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/about-us",
+   "text": "About us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Our events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/get-in-touch",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/submit-your-work",
+   "text": "Submit your work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/event-sponsorship",
+   "text": "Event sponsorship",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/newsletter",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/about-us",
+   "text": "About us",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/events",
+   "text": "Our events",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/get-in-touch",
+   "text": "Get in touch",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/submit-your-work",
+   "text": "Submit your work",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/event-sponsorship",
+   "text": "Event sponsorship",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/newsletter",
+   "text": "Newsletter",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkedin.com/company/contagious-communications",
+   "text": "LinkedinCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.instagram.com/contagious",
+   "text": "InstagramCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://x.com/contagious",
+   "text": "TwitterCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.facebook.com/contagiousmag",
+   "text": "FacebookCircle\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/terms-and-conditions",
+   "text": "Terms & Conditions\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/website-terms-of-use",
+   "text": "Website Terms of Use\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.lions.co/en/copyright-policy",
+   "text": "Copyright Policy\n\n(opens in a new tab)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.contagious.com/terms-of-use-contagious-ai",
+   "text": "Terms of use for Contagious AI",
+   "region": "BODY"
+  }
+ ]
+}

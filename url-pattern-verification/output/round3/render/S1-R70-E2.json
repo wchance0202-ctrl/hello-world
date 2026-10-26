@@ -1,0 +1,722 @@
+{
+ "url": "https://thearf.org/access-knowledge-2/",
+ "observed_at": "2026-10-26T11:01:25.563Z",
+ "method": "playwright-chromium",
+ "final_url": "https://thearf.org/access-knowledge-2/",
+ "status": 200,
+ "error": null,
+ "title": "Access Knowledge - The ARF",
+ "h1": "KNOWLEDGE CENTER",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 134,
+   "new_in_prefix": 134,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 134,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.google.com/rmkt/collect/11413403367/?random=1793012487412&cv=11&fst=1793012487412&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v9171925109za208zd9171925109xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121284208&u_w=1280&u_h=720&url=https%3A%2F%2Fthearf.org%2Faccess-knowledge-2%2F&r"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-K033JXZ74F&gtm=45be6al1v9171925109za208zd9171925109xf1&_p=1793012487129&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1777999229.1793012487&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&t"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=1672793740.1793012487&dt=Access%20Knowledge%20-%20The%20ARF&tid=AW-11413403367&en=page_view&dl=https%3A%2F%2Fthearf.org%2Faccess-knowledge-2%2F&scrsrc=www.googletagmanager.com&rnd=465855724.1793012487&navt=n&npa=0&gtm=45be6al1v9171925109za208zd9171925109xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116"
+  },
+  {
+   "method": "POST",
+   "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1672793740.1793012487&gtm=45be6al1v9171925109za208zd9171925109xecxf1&fmt=8"
+  },
+  {
+   "method": "POST",
+   "url": "https://thearf.org/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d2d3316b729e/0.5245695417118196:1793009427:6xx_MFAELsSYfrne26tOkcrc_GYiU0PUsA-eUBuKYks/a508f68538dfb1eb"
+  },
+  {
+   "method": "POST",
+   "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://thearf.org/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://thearf.org/membership-center/",
+   "text": "MEMBERSHIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/research/",
+   "text": "RESEARCH",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/",
+   "text": "ACCESS KNOWLEDGE",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/",
+   "text": "COMMUNITIES",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/arf-events/",
+   "text": "EVENTS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/",
+   "text": "ABOUT THE ARF",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/",
+   "text": "home",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/membership-center/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/membership-center/#committees",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/membership-center/#events",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/membership-center/#Selfservice",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/bulletin-board-landing-page/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/research",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/research/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/research/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/research/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/dash/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/topics",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/ad-effectiveness-roi/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/analytics-data-science/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/audience-media-measurement/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/creative-branded-content/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/future-states-ai/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/past-event-summaries/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/research-data-quality/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/targets-segments/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/ua_resource/2025-top-member-questions-with-answers/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/ua_resource_type/news-you-can-use/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/knowledge-at-hand",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/category/cmo-briefs/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/publications/journal-of-advertising-research/september-2026-journal-of-advertising-research/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=91&arf_event_categories%5B%5D=92&arf_event_categories%5B%5D=862&arf_event_categories%5B%5D=93&arf_event_categories%5B%5D=94&arf_event_categories%5B%5D=96&arf_event_categories%5B%5D=95&arf_event_categories%5B%5D=97",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=91",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=95",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=1317",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=past&arf_event_categories%5B%5D=1317",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=1318",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=past&arf_event_categories%5B%5D=1318",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/category/topics/past-event-summaries/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/submit/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/young-pros/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=95",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/young-pros/yp-connect/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/young-pros/advisory-board/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/young-pros/young-pros-spotlight/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/young-pros/young-pros-social-strategist-team/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/arf-young-pros-e-newsletters/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=past&arf_event_categories%5B%5D=95",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/women-in-analytics-3",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/women-in-analytics-3",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/women-in-analytics/board/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/communities/women-in-analytics/mentorship-program/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=upcoming&arf_event_categories%5B%5D=96",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/events/list/?arf_event_timing%5B%5D=past&arf_event_categories%5B%5D=96",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/learn-about-the-council-program/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/analytics-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/msi-arf-b2b-exchange-intro-page/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/creative-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/cognition-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/cross-platform-measurement-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/cultural-effectiveness-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/l-a-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/organizational-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/pharma-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/shopper-insights-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/councils/social-council/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/arf-board-of-directors/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/arf-team/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/arf-events/the-arf-at-90-a-legacy-of-advancing-the-scientific-practice-of-advertising-and-marketing/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.msi.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cimm-us.org/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://my.thearf.org/s/member-directory",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/arf-awards/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/press-kit/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/arf-news/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/contact-us/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/nyu-arf-certificate-in-marketing-optimization-and-insights/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/arf-wide/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/dash/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/#",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://my.thearf.org/nc__createaccount",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://thearf.org/wp-json/r/redir?cb=1793012489131&my_redirect=https://my.thearf.org/KCRequest&Reg=MO",
+   "text": "Ask the Knowledge Center",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/ua_resource/2025-top-member-questions-with-answers/",
+   "text": "2025 Top Member Questions",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.msi.org/community/expert-directory/",
+   "text": "MSI Academic Expert Network",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.thearf.org/submit/",
+   "text": "Submit",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/knowledge-at-hand/",
+   "text": "Knowledge at Hand",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/category/cmo-briefs/",
+   "text": "CMO Briefs",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/access-knowledge-2/publications/journal-of-advertising-research/september-2026-journal-of-advertising-research/",
+   "text": "Journal of Advertising Research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/ua_resource_type/news-you-can-use/",
+   "text": "News You Can Use",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/past-event-summaries/",
+   "text": "Post-Event Resources",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/research",
+   "text": "ARF Original Research",
+   "region": "BODY"
+  },
+  {
+   "href": "https://powersearch.thearf.org/",
+   "text": "PowerSearch ARF Archives",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/wp-json/r/redir?cb=1793012489131&my_redirect=https://my.thearf.org/KCRequest&Reg=MO",
+   "text": "Ask Now",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/ad-effectiveness-roi",
+   "text": "Ad Effectiveness & ROI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/analytics-data-science",
+   "text": "Analytics & Data Science",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/audience-media-measurement",
+   "text": "Audience & Media Measurement",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/creative-branded-content",
+   "text": "Creative & Branded Content",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/future-states-ai",
+   "text": "Future States & AI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/past-event-summaries",
+   "text": "Past Event Highlights",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/research-data-quality",
+   "text": "Research & Data Quality",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/category/topics/targets-segments",
+   "text": "Targets & Segments",
+   "region": "BODY"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/",
+   "text": "ABOUT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/dash/",
+   "text": "ARF DASH",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/arf-wide/",
+   "text": "ARF WIDE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/nyu-arf-certificate-in-marketing-optimization-and-insights/",
+   "text": "ARF/NYU CERTIFICATE",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://cimm-us.org/",
+   "text": "CIMM",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.msi.org/",
+   "text": "MSI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/about-arf/arf-news/",
+   "text": "PRESS",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/submit/",
+   "text": "SUBMIT",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.linkedin.com/company/thearf/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.youtube.com/user/TheARFvideos",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://twitter.com/The_ARF",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.facebook.com/ARF",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/",
+   "text": "Advertising Research Foundation",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/about-the-arf/privacy-policy/",
+   "text": "Privacy Policy",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://thearf.org/permission/",
+   "text": "Request Permission to Use Content",
+   "region": "FOOTER"
+  }
+ ]
+}
