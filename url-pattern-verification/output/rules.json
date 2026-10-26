@@ -1,0 +1,20 @@
+{
+ "target_engine": "re2",
+ "engines_ready": [
+  {
+   "name": "google-re2",
+   "language": "python",
+   "version": "1.1.20251105"
+  },
+  {
+   "name": "node-re2",
+   "language": "node",
+   "version": "1.24.1",
+   "harness": "extract-url-patterns/scripts/validate_patterns.mjs"
+  }
+ ],
+ "generated_at": "2026-10-26",
+ "formal": [],
+ "candidates": [],
+ "note": "本轮无可交付规则：目标站全部被网络策略拒绝；前轮 255 条候选与证据包未随附。formal 仅收录满足技能准入的已验证规则。"
+}

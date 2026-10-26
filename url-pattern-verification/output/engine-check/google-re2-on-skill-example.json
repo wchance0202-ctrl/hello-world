@@ -1,0 +1,112 @@
+{
+ "observed_at": "2026-10-26T07:02:36+00:00",
+ "engine": {
+  "name": "google-re2",
+  "version": "1.1.20251105",
+  "runtime": "3.13.17"
+ },
+ "target_engine": "re2",
+ "rules": [
+  {
+   "id": "SYNTHETIC-R1",
+   "compiled": true,
+   "anchored": true
+  }
+ ],
+ "metrics": [
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "split": "holdout",
+   "TP": 1,
+   "FP": 0,
+   "FN": 0,
+   "TN": 3,
+   "unlabelled": 0,
+   "accuracy": 1.0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "split": "inference",
+   "TP": 3,
+   "FP": 0,
+   "FN": 0,
+   "TN": 0,
+   "unlabelled": 0,
+   "accuracy": 1.0,
+   "precision": 1.0,
+   "recall": 1.0
+  }
+ ],
+ "results": [
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/report/101/",
+   "expected": true,
+   "split": "inference",
+   "source_id": "synthetic-101",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/report/205/",
+   "expected": true,
+   "split": "inference",
+   "source_id": "synthetic-205",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/report/309/",
+   "expected": true,
+   "split": "inference",
+   "source_id": "synthetic-309",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/report/411/",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "synthetic-411",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/reports/",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "synthetic-list",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/research/reports/3/-1/",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "synthetic-filter",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "SYNTHETIC-R1",
+   "url": "https://reports.example/news/411/",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "synthetic-other-route",
+   "actual": false,
+   "pass": true
+  }
+ ],
+ "note": "Mechanical checks only."
+}
