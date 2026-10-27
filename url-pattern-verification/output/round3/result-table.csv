@@ -880,9 +880,9 @@ S1-R52-E2 = S1!指定pattern 第52行 第2个入口: https://www.pewresearch.org
 S1-R52-E3 = S1!指定pattern 第52行 第3个入口: https://www.pewresearch.org/topic/news-habits-media/
 S1-R52-E4 = S1!指定pattern 第52行 第4个入口: https://www.pewresearch.org/topic/economy-work/business-workplace/","S1-R52-E1: 完整（枚举结束，无独立全集对账）：静态请求 6 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 129；前缀 /topic/economy-work/ 下家族 1 个、成员 3；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R52-E2: 部分：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
+S1-R52-E2: 完整（列表+sitemap 合并枚举）：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
-S1-R52-E3: 部分：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
+S1-R52-E3: 完整（列表+sitemap 合并枚举）：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json
 S1-R52-E4: 完整（枚举结束，无独立全集对账）：静态请求 15 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 120；前缀 /topic/economy-work/business-workplace/ 下家族 0 个、成员 0；前缀外同站链接 85、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
   第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对

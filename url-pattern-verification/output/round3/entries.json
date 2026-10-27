@@ -4105,13 +4105,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R52-E2-F1 已验证",
   "link_status": "可打开（200，标题「Internet & Technology - Research and data from Pew」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 4 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 145；前缀 /topic/internet-technology/ 下家族 1 个、成员 4；前缀外同站链接 21、文件 0；sitemap 中同结构但不在列表的 URL：F1=27；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R52-E2-F1"
    ],
@@ -4137,13 +4137,13 @@
   "query": "",
   "fragment": "",
   "row_boundary": "reconstructed",
-  "discovery_status": "部分",
+  "discovery_status": "完整（列表+sitemap 合并枚举）",
   "rule_status": "R3-S1-R52-E3-F1 已验证",
   "link_status": "可打开（200，标题「News Habits & Media - Research and data from Pew R」）",
   "previous_checkpoint": "2026-10-23 前轮：汇总称 HTTP 200 / 部分完成；逐入口证据未随附",
   "known_issues": [],
   "round3": {
-   "discovery_text": "部分：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
+   "discovery_text": "完整（列表+sitemap 合并枚举）：静态请求 7 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 147；前缀 /topic/news-habits-media/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=11；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接\n  第 2 轮人工复核：未验证：本轮只处理优先级 1；仅做 host 级连通性测试",
    "rules": [
     "R3-S1-R52-E3-F1"
    ],

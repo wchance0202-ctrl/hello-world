@@ -14223,7 +14223,7 @@
    }
   ],
   "urls": 349,
-  "truncated": true,
+  "truncated": false,
   "pending_files": [
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2026&amp;mm=02&amp;dd=04",
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2026&amp;mm=02&amp;dd=02",
@@ -14277,10 +14277,22 @@
    "https://www.pewresearch.org/sitemap-posts.xml?yyyy=2025&amp;mm=10&amp;dd=07"
   ],
   "full_traversal": {
-   "files": 5000,
-   "locs_seen": 1304,
+   "files": 5810,
+   "locs_seen": 98458,
    "kept_under_entry_prefixes": 123,
-   "truncated": true
+   "truncated": false,
+   "retry_of_failed_files": {
+    "retried": 405,
+    "ok": 404,
+    "still_failed": [
+     [
+      "https://www.pewresearch.org/sitemap-religious-projections.xml",
+      404
+     ]
+    ],
+    "locs_seen": 3185,
+    "kept_under_entry_prefixes": 0
+   }
   }
  },
  {
