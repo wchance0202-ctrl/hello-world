@@ -2,29 +2,30 @@
  "run": "2026-10-26（第 3 轮：全量）",
  "path_entries": 268,
  "discovery": {
-  "完整（枚举结束，无独立全集对账）": 107,
-  "完整（列表+sitemap 合并枚举）": 75,
+  "完整（枚举结束，无独立全集对账）": 108,
+  "完整（列表+sitemap 合并枚举）": 82,
   "未验证": 45,
-  "完整": 29,
-  "部分": 12
+  "完整": 30,
+  "部分": 3
  },
  "link": {
   "可打开": 223,
   "访问受限": 39,
   "待核验": 6
  },
- "entries_with_formal_rule": 116,
- "rules_formal": 146,
- "rules_candidate": 15,
+ "entries_with_formal_rule": 124,
+ "rules_formal": 154,
+ "of_which_adopted_by_user": 3,
+ "rules_candidate": 9,
  "rules_failed": 2,
- "families_kept_as_links": 17,
- "retained_links": 29454,
- "test_pairs": 3203,
- "queue_open": 72,
+ "families_kept_as_links": 15,
+ "retained_links": 29280,
+ "test_pairs": 3168,
+ "queue_open": 58,
  "queue_by_reason": {
-  "规则未达正式准入": 16,
+  "规则未达正式准入": 10,
   "访问受限": 45,
-  "范围对账缺口": 10,
-  "权限拦截/挑战页": 1
+  "权限拦截/挑战页": 1,
+  "范围对账缺口": 2
  }
 }

@@ -205,13 +205,15 @@ def template_of(urls, prefix):
     return tpl
 
 
-def same_structure(url, prefix, sig, template, scheme_host):
+def same_structure(url, prefix, sig, template, scheme_host, any_slash=True):
     """Structure-only test used to pick holdout/coverage URLs (literal positions + depth),
-    independent of the variable character classes."""
+    independent of the variable character classes. The other trailing-slash form counts as the
+    same family only when any_slash is set: i.e. the rule's own induction samples showed the two
+    forms redirect to each other (slash_mode "optional"); otherwise it is a different page type."""
     if not url.startswith(scheme_host + prefix):
         return False
     us = signature(url, prefix)
-    if (us[0], us[2], us[3]) != (sig[0], sig[2], sig[3]):  # trailing slash may differ (redirect forms)
+    if (us[0], us[2], us[3]) != (sig[0], sig[2], sig[3]) or (not any_slash and us[1] != sig[1]):
         return False
     parts, _ = segs_after(urlsplit(url).path, prefix)
     return all(t[0] != "lit" or parts[i] == t[1] for i, t in enumerate(template))
@@ -357,7 +359,14 @@ def sitemap_urls(r3, host_cache, scheme_host):
     host = urlsplit(scheme_host).netloc
     if host not in host_cache:
         txt = read_text(Path(r3) / "sitemaps" / f"{host}.txt")
-        host_cache[host] = [l.strip() for l in (txt or "").splitlines() if l.strip()]
+        urls = []
+        for l in (txt or "").splitlines():
+            l = l.strip()
+            if "#" in l and not re.search(r"#[!/]", l):
+                l = l.split("#", 1)[0]  # an ordinary anchor is not a separate page
+            if l:
+                urls.append(l)
+        host_cache[host] = list(dict.fromkeys(urls))
     return host_cache[host]
 
 
@@ -399,14 +408,15 @@ def freeze(r3):
             rnd = random.Random(f"{SEED}-{f['id']}-hold")
             if f["holdout_mode"] == "sitemap":
                 norm = {x.rstrip("/") for x in listing_all}
-                pool = [u for u in sm if same_structure(u, prefix, sig, tpl, sh) and u.rstrip("/") not in norm]
+                pool = [u for u in sm if same_structure(u, prefix, sig, tpl, sh, slash_mode == "optional")
+                        and u.rstrip("/") not in norm]
                 source = "sitemap"
             else:
                 pool, source = list(f["later_members"]), "later_pagination_pages"
             if not pool:
                 norm = {x.rstrip("/") for x in listing_all}
                 pool = sorted({u for u, eid2 in elsewhere[urlsplit(sh).netloc]
-                               if eid2 != rec["entry_id"] and same_structure(u, prefix, sig, tpl, sh)
+                               if eid2 != rec["entry_id"] and same_structure(u, prefix, sig, tpl, sh, slash_mode == "optional")
                                and u.rstrip("/") not in norm})
                 source = "other_entries_pages"
             # the entry page and its directory-index aliases are the listing itself, never a member
@@ -489,13 +499,14 @@ def coverage(r3, results_path, out_name="coverage.json"):
         rx = re2.compile(r["pattern"])
         sig = tuple(x if not isinstance(x, list) else tuple(x) for x in f["signature"])
         tpl = [tuple(t) for t in f["template"]]
+        anys = r.get("slash_mode") == "optional"
         sm = [u for u in sitemap_urls(r3, cache, rec["scheme_host"])
-              if same_structure(u, rec["prefix"], sig, tpl, rec["scheme_host"])]
+              if same_structure(u, rec["prefix"], sig, tpl, rec["scheme_host"], anys)]
         miss_list = [u for u in f["members"] if not rx.fullmatch(u)]
         miss_sm = [u for u in sm if not rx.fullmatch(u)]
         # also: anything the rule matches on the sitemap that is outside the structural family
         extra = [u for u in sitemap_urls(r3, cache, rec["scheme_host"])
-                 if rx.fullmatch(u) and not same_structure(u, rec["prefix"], sig, tpl, rec["scheme_host"])]
+                 if rx.fullmatch(u) and not same_structure(u, rec["prefix"], sig, tpl, rec["scheme_host"], True)]
         out[r["id"]] = {"listing_members": len(f["members"]), "listing_missed": miss_list,
                         "sitemap_same_structure": len(sm), "sitemap_missed": miss_sm,
                         "sitemap_missed_count": len(miss_sm), "matched_outside_structure": extra[:50],
@@ -551,12 +562,14 @@ def revise(r3, results_path):
         pre_used = {u.rstrip("/") for u in set(r["inference"]) | set(r["holdout_pos"]) | set(r["holdout_neg"])
                     | set(induced_from) | set(misses)}
         if r["holdout_source"] == "sitemap":
-            pre_pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh) and u.rstrip("/") not in pre_used]
+            pre_pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh, r["slash_mode"] == "optional")
+                        and u.rstrip("/") not in pre_used]
         else:
             pre_pool = [u for u in list(f["later_members"]) + list(f["members"]) if u.rstrip("/") not in pre_used]
         if not pre_pool:  # links seen on other pages of this host (other entries, detail pages)
             pre_pool = [u for u, e2 in elsewhere[urlsplit(sh).netloc] if e2 != rec["entry_id"]
-                        and same_structure(u, prefix, sig, tpl1, sh) and u.rstrip("/") not in pre_used]
+                        and same_structure(u, prefix, sig, tpl1, sh, r["slash_mode"] == "optional")
+                        and u.rstrip("/") not in pre_used]
         uniq_miss = sorted(set(misses))
         list_hold = []
         if not pre_pool and len(uniq_miss) < 2 and len(induced_from) >= 8:
@@ -578,12 +591,12 @@ def revise(r3, results_path):
         used = {u.rstrip("/") for u in set(r["inference"]) | set(r["holdout_pos"]) | set(r["holdout_neg"])
                 | set(induced_from) | set(misses) | set(list_hold)}
         if r["holdout_source"] == "sitemap":
-            pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh)]
+            pool = [u for u in sm if same_structure(u, prefix, sig, tpl1, sh, r["slash_mode"] == "optional")]
         elif r["holdout_source"] in ("later_pagination_pages", "listing_split"):
             pool = list(f["later_members"]) + list(f["members"])
         else:
             pool = [u for u, e2 in elsewhere[urlsplit(sh).netloc] if e2 != rec["entry_id"]
-                    and same_structure(u, prefix, sig, tpl1, sh)]
+                    and same_structure(u, prefix, sig, tpl1, sh, r["slash_mode"] == "optional")]
         alias = re.compile(r"^" + re.escape(sh + prefix) + r"(index|default)\.[a-z]+$", re.I)
         pool = sorted({u for u in pool if u.rstrip("/") not in used and not alias.match(u)
                        and u.rstrip("/") != rec["final_url"].rstrip("/")})

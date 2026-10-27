@@ -1,0 +1,46 @@
+﻿序号,entry_id,原表行,站点,链接,拦截原因
+1,S1-R3-E1,3,www.bls.gov,https://www.bls.gov/cex/,Akamai 拒绝访问（403）
+2,S1-R3-E2,3,www.bls.gov,https://www.bls.gov/news.release/cesan.htm,Akamai 拒绝访问（403）
+3,S1-R46-E1,46,www.mckinsey.com,https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights,连接超时（重试后仍超时）
+4,S1-R46-E2,46,www.mckinsey.com,https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights,连接超时（重试后仍超时）
+5,S1-R46-E3,46,www.mckinsey.com,https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations,连接超时（重试后仍超时）
+6,S1-R47-E1,47,www.bcg.com,https://www.bcg.com/capabilities/marketing-sales/insights,Akamai 拒绝访问（403）
+7,S1-R47-E2,47,www.bcg.com,https://www.bcg.com/capabilities/customer-insights/insights,Akamai 拒绝访问（403）
+8,S1-R47-E3,47,www.bcg.com,https://www.bcg.com/industries/retail/insights,Akamai 拒绝访问（403）
+9,S1-R47-E4,47,www.bcg.com,https://www.bcg.com/industries/consumer-products-industry/insights,Akamai 拒绝访问（403）
+10,S1-R51-E1,51,www.gartner.com,https://www.gartner.com/en/marketing/insights,Cloudflare 验证页（403）
+11,S1-R51-E2,51,www.gartner.com,https://www.gartner.com/en/sales/insights,Cloudflare 验证页（403）
+12,S1-R51-E3,51,www.gartner.com,https://www.gartner.com/en/customer-service-support/insights,Cloudflare 验证页（403）
+13,S1-R51-E4,51,www.gartner.com,https://www.gartner.com/en/finance/insights,Cloudflare 验证页（403）
+14,S1-R51-E5,51,www.gartner.com,https://www.gartner.com/en/supply-chain,Cloudflare 验证页（403）
+15,S1-R51-E6,51,www.gartner.com,https://www.gartner.com/en/insights/finance,Cloudflare 验证页（403）
+16,S1-R63-E1,63,transparency.meta.com,https://transparency.meta.com/policies/,站点返回 400
+17,S1-R81-E1,81,www.campaignlive.com,https://www.campaignlive.com/news,Cloudflare 验证页（403）
+18,S1-R81-E2,81,www.campaignlive.com,https://www.campaignlive.com/in-depth,Cloudflare 验证页（403）
+19,S1-R93-E1,93,lbbonline.com,https://lbbonline.com/work,Cloudflare 验证页（403）
+20,S1-R93-E2,93,lbbonline.com,https://lbbonline.com/news,Cloudflare 验证页（403）
+21,S1-R93-E3,93,lbbonline.com,https://lbbonline.com/reels,Cloudflare 验证页（403）
+22,S1-R101-E1,101,searchengineland.com,https://searchengineland.com/library/guide,Cloudflare 验证页（403）
+23,S1-R101-E2,101,searchengineland.com,https://searchengineland.com/guide,Cloudflare 验证页（403）
+24,S1-R101-E3,101,searchengineland.com,https://searchengineland.com/library/guide/content-marketing-guide,Cloudflare 验证页（403）
+25,S1-R101-E4,101,searchengineland.com,https://searchengineland.com/library/guide/ppc-guide,Cloudflare 验证页（403）
+26,S1-R101-E5,101,searchengineland.com,https://searchengineland.com/library/guide/seo-guide,Cloudflare 验证页（403）
+27,S1-R110-E1,110,www.vml.com,https://www.vml.com/expertise/intelligence,Cloudflare 验证页（403）
+28,S1-R110-E2,110,www.vml.com,https://www.vml.com/insights,Cloudflare 验证页（403）
+29,S1-R112-E1,112,www.adjust.com,https://www.adjust.com/resources/,Vercel 安全检查（429）
+30,S1-R112-E2,112,www.adjust.com,https://www.adjust.com/blog/,Vercel 安全检查（429）
+31,S1-R143-E1,143,business.adobe.com,https://business.adobe.com/resources/reports.html,连接超时（重试后仍超时）
+32,S1-R143-E2,143,business.adobe.com,https://business.adobe.com/resources/digital-trends-research-center.html,连接超时（重试后仍超时）
+33,S1-R143-E3,143,business.adobe.com,https://business.adobe.com/resources/adobe-digital-insights.html,连接超时（重试后仍超时）
+34,S1-R144-E1,144,www.crunchbase.com,https://www.crunchbase.com/discover/organization.companies,Cloudflare 验证页（403）
+35,S1-R145-E1,145,pitchbook.com,https://pitchbook.com/news,Cloudflare 验证页（403）
+36,S1-R152-E2,152,dealroom.co,https://dealroom.co/reports,Cloudflare 验证页（403）
+37,S1-R152-E3,152,dealroom.co,https://dealroom.co/resources,Cloudflare 验证页（403）
+38,S1-R152-E4,152,dealroom.co,https://dealroom.co/news/,Cloudflare 验证页（403）
+39,S1-R152-E5,152,dealroom.co,https://dealroom.co/companies/,Cloudflare 验证页（403）
+40,S1-R152-E6,152,dealroom.co,https://dealroom.co/investors/,Cloudflare 验证页（403）
+41,S1-R152-E7,152,dealroom.co,https://dealroom.co/market-maps/,Cloudflare 验证页（403）
+42,S1-R152-E8,152,dealroom.co,https://dealroom.co/power-law-outcomes/,Cloudflare 验证页（403）
+43,S1-R152-E9,152,dealroom.co,https://dealroom.co/talent/founder-mafias/,Cloudflare 验证页（403）
+44,S1-R152-E10,152,dealroom.co,https://dealroom.co/tech-macro-economics/,Cloudflare 验证页（403）
+45,S1-R152-E11,152,dealroom.co,https://dealroom.co/vc-investment-dashboard/,Cloudflare 验证页（403）

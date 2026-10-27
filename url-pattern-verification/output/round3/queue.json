@@ -48,7 +48,7 @@
   "queue_id": "S1-R19-E4-R3-rule-F1",
   "entry_id": "S1-R19-E4",
   "url": "https://www.wipo.int/en/web/patentscope/",
-  "action": "R3-S1-R19-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
+  "action": "R3-S1-R19-E4-F1：机械门未通过：归纳正例 2<3",
   "reason": "规则未达正式准入",
   "cursor": null,
   "status": "pending"
@@ -72,64 +72,10 @@
   "status": "pending"
  },
  {
-  "queue_id": "S1-R31-E2-R3-gap-F1",
-  "entry_id": "S1-R31-E2",
-  "url": "https://msi.org/research/",
-  "action": "R3-S1-R31-E2-F1：sitemap 有 5 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R31-E2-R3-rule-F1",
-  "entry_id": "S1-R31-E2",
-  "url": "https://msi.org/research/",
-  "action": "R3-S1-R31-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
   "queue_id": "S1-R35-E1-R3-rule-F1",
   "entry_id": "S1-R35-E1",
   "url": "https://www.comscore.com/Insights/Blog",
   "action": "R3-S1-R35-E1-F1：机械门未通过：留出与归纳/回归重叠",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R39-E1-R3-gap-F1",
-  "entry_id": "S1-R39-E1",
-  "url": "https://www.gwi.com/reports",
-  "action": "R3-S1-R39-E1-F1：sitemap 有 21 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R39-E1-R3-rule-F1",
-  "entry_id": "S1-R39-E1",
-  "url": "https://www.gwi.com/reports",
-  "action": "R3-S1-R39-E1-F1：机械门未通过：标注测试有失败（留出 FN0/FP0）",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R40-E1-R3-gap-F1",
-  "entry_id": "S1-R40-E1",
-  "url": "https://www.wearehuman8.com/inspiration/",
-  "action": "R3-S1-R40-E1-F1：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R40-E1-R3-rule-F1",
-  "entry_id": "S1-R40-E1",
-  "url": "https://www.wearehuman8.com/inspiration/",
-  "action": "R3-S1-R40-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
   "reason": "规则未达正式准入",
   "cursor": null,
   "status": "pending"
@@ -288,24 +234,6 @@
   "status": "pending"
  },
  {
-  "queue_id": "S1-R68-E1-R3-gap-F1",
-  "entry_id": "S1-R68-E1",
-  "url": "https://www.iab.com/events/",
-  "action": "R3-S1-R68-E1-F1：sitemap 有 946 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R68-E1-R3-rule-F1",
-  "entry_id": "S1-R68-E1",
-  "url": "https://www.iab.com/events/",
-  "action": "R3-S1-R68-E1-F1：sitemap 同结构 URL 漏配 4",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
   "queue_id": "S1-R81-E1-R3-access",
   "entry_id": "S1-R81-E1",
   "url": "https://www.campaignlive.com/news",
@@ -329,15 +257,6 @@
   "url": "https://www.dandad.org/work/annual-2026/",
   "action": "R3-S1-R86-E1-F2：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
   "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R89-E3-R3-gap-F1",
-  "entry_id": "S1-R89-E3",
-  "url": "https://www.greenbook.org/grit",
-  "action": "R3-S1-R89-E3-F1：sitemap 有 1 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
   "cursor": null,
   "status": "pending"
  },
@@ -423,33 +342,6 @@
   "status": "pending"
  },
  {
-  "queue_id": "S1-R105-E1-R3-gap-F1",
-  "entry_id": "S1-R105-E1",
-  "url": "https://nrf.com/membership",
-  "action": "R3-S1-R105-E1-F1：sitemap 有 3 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R105-E2-R3-gap-F1",
-  "entry_id": "S1-R105-E2",
-  "url": "https://nrf.com/about-us",
-  "action": "R3-S1-R105-E2-F1：sitemap 有 6 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R105-E2-R3-rule-F1",
-  "entry_id": "S1-R105-E2",
-  "url": "https://nrf.com/about-us",
-  "action": "R3-S1-R105-E2-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
   "queue_id": "S1-R110-E1-R3-access",
   "entry_id": "S1-R110-E1",
   "url": "https://www.vml.com/expertise/intelligence",
@@ -482,24 +374,6 @@
   "url": "https://www.adjust.com/blog/",
   "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
   "reason": "访问受限",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R126-E1-R3-gap-F1",
-  "entry_id": "S1-R126-E1",
-  "url": "https://landor.com/en/our-work/",
-  "action": "R3-S1-R126-E1-F1：sitemap 有 38 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R126-E1-R3-rule-F1",
-  "entry_id": "S1-R126-E1",
-  "url": "https://landor.com/en/our-work/",
-  "action": "R3-S1-R126-E1-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
-  "reason": "规则未达正式准入",
   "cursor": null,
   "status": "pending"
  },

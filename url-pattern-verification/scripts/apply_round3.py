@@ -48,6 +48,14 @@ USER_ACCEPTED_REDIRECTS = {
     "R3-S1-R121-E1-F1", "R3-S1-R114-E1-F1", "R3-S1-R117-E1-F1", "R3-S1-R123-E4-F1", "R3-S1-R19-E4-F1",
 }
 USER_DECISION_NOTE = "用户 2026-10-27 确认：接受部分列表链接跳到家族外页面"
+# Entries whose rules the user adopted on the existing evidence although no independent holdout
+# sample exists (2026-10-27). Only that one check is waived; every other check must pass.
+USER_ADOPTED_SMALL = {"S1-R31-E2", "S1-R40-E1", "S1-R89-E3", "S1-R105-E1", "S1-R105-E2", "S1-R126-E1"}
+ADOPTED_STATUS = "已采用（用户 2026-10-27 同意：小样本，未经独立留出验证）"
+DISCOVERY_OVERRIDES_EXTRA = {
+    "S1-R88-E1": ("完整", "单页活动落地页：页面链接只有页内锚点（#About、#Resources）、站外/其他研究页和 1 个文件，"
+                          "入口前缀 /omnichannel-study/ 下没有子页面（静态与浏览器渲染一致）"),
+}
 # links confirmed outside the listing UI (entry -> jsonl of landing checks)
 EXTRA_RETAINED = {"S1-R45-E1": "yougov/tail-landing.jsonl", "S1-R45-E2": "yougov/tail-landing.jsonl"}
 
@@ -132,7 +140,14 @@ def main(out):
                "version": fr.get("version", 1), "history": fr.get("history", []),
                "user_decisions": decisions}
         fam_members = next(len(f["members"]) for f in fams[fr["entry_ids"][0]]["families"] if f["id"] == rid)
-        if not reasons:
+        only_no_holdout = (reasons == [f"机械门未通过：{gate_failures(nr)[0]}"] and len(gate_failures(nr)) == 1
+                           and nr["checks"]["holdout_positives"] < 1)
+        if only_no_holdout and fr["entry_ids"][0] in USER_ADOPTED_SMALL:
+            rec["status"] = ADOPTED_STATUS
+            rec["adopted_by_user"] = True
+            rec["why_not_verified"] = reasons
+            rules_formal.append(rec)
+        elif not reasons:
             rec["status"] = "已验证"
             rules_formal.append(rec)
         elif nr["checks"]["holdout_positives"] < 1 and fam_members <= 3:
@@ -168,7 +183,7 @@ def main(out):
         status = (v0 or {}).get("status")
         blocked = status != 200 or ident.get("challenge_hint")
         rs = by_entry_rules.get(eid, [])
-        formal_ids = [r["id"] for r in rs if r["status"] == "已验证"]
+        formal_ids = [r["id"] for r in rs if r["status"] in ("已验证", ADOPTED_STATUS)]
         r2 = r2e.get(eid, {}).get("round2") or {}
         notes = list(r2.get("notes", []))
         if blocked:
@@ -201,7 +216,7 @@ def main(out):
             # sitemap members the listing does not show: explained when the host sitemap is complete
             # (not truncated) and a formal rule matches every same-structure sitemap URL of that family
             gap_explained = gap_n > 0 and e["host"] not in sm_trunc and all(
-                r["status"] == "已验证" and not cov[r["id"]]["sitemap_missed_count"]
+                r["status"] in ("已验证", ADOPTED_STATUS) and not cov[r["id"]]["sitemap_missed_count"]
                 for r in rs if cov.get(r["id"]) and cov[r["id"]]["sitemap_not_in_listing"])
             complete_merged = (pend == 0 and not thin_unresolved and gap_explained and
                                (not rd or not rd.get("rounds") or not rd["rounds"][-1].get("clicked")))
@@ -224,12 +239,15 @@ def main(out):
                 disc_text += "；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染"
             if r2.get("discovery_text"):
                 disc_text += f"\n  第 2 轮人工复核：{r2['discovery_text']}"
+            if eid in DISCOVERY_OVERRIDES_EXTRA:
+                disc, why = DISCOVERY_OVERRIDES_EXTRA[eid]
+                disc_text = f"{disc}：{why}\n  " + disc_text
             if eid in DISCOVERY_OVERRIDES:
                 disc, why = DISCOVERY_OVERRIDES[eid]
                 disc_text = f"{disc}：{why}\n  " + disc_text
         # retained links: everything known that no formal rule covers
         import re2
-        frx = [re2.compile(r["pattern"]) for r in rs if r["status"] == "已验证"]
+        frx = [re2.compile(r["pattern"]) for r in rs if r["status"] in ("已验证", ADOPTED_STATUS)]
         known = []
         for f in fr.get("families", []):
             known += [(u, f"family {f['id']}") for u in f["members"]]
@@ -285,7 +303,8 @@ def main(out):
                "discovery": dict(Counter(e["discovery_status"] for e in pe)),
                "link": dict(Counter(e["link_status"].split("（")[0] for e in pe)),
                "entries_with_formal_rule": sum(1 for e in pe if e.get("round3", {}).get("formal")),
-               "rules_formal": len(rules_formal), "rules_candidate": len(rules_cand), "rules_failed": len(rules_fail),
+               "rules_formal": len(rules_formal),
+               "of_which_adopted_by_user": sum(1 for r in rules_formal if r.get("adopted_by_user")), "rules_candidate": len(rules_cand), "rules_failed": len(rules_fail),
                "families_kept_as_links": len(rules_kept),
                "retained_links": sum(e.get("round3", {}).get("retained_count", 0) for e in pe),
                "test_pairs": len(node["tests"]), "queue_open": len(queue),
@@ -335,7 +354,7 @@ def queue_for(e, rs, cov, s, blocked, r2):
             add(f"gap-{r['id'].rsplit('-', 1)[-1]}",
                 f"{r['id']}：sitemap 有 {c['sitemap_not_in_listing']} 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
                 "范围对账缺口")
-        if r["status"] != "已验证" and not r["status"].startswith("链接保留"):
+        if r["status"] not in ("已验证", ADOPTED_STATUS) and not r["status"].startswith("链接保留"):
             add(f"rule-{r['id'].rsplit('-', 1)[-1]}", f"{r['id']}：{'；'.join(r.get('why', []))}", "规则未达正式准入")
     if r2.get("queue_blocked"):
         add("r2", "第 2 轮受阻项（见 round2/queue.json）", "权限拦截/挑战页")
@@ -360,6 +379,10 @@ def row_fields(row, es, formal):
             h = r["metrics"]["holdout"]
             ex = r["samples"]["holdout_pos"][:1] + r["samples"]["inference"][:1]
             samp.append(f"{eid} {rid}: " + "；".join(ex) + "（已落地核验 200，公开访问，2026-10-26）")
+            if r.get("adopted_by_user"):
+                rv.append(f"{eid} {rid} {ADOPTED_STATUS}：node-re2 {r['engines'][0]['version']} + google-re2 "
+                          f"{r['engines'][1]['version']} 上归纳/回归测试全部通过，覆盖检查无漏配；没有独立留出样本")
+                continue
             rv.append(f"{eid} {rid} 已验证：node-re2 {r['engines'][0]['version']} + google-re2 {r['engines'][1]['version']} 逐对一致；"
                       f"留出({r['holdout_source']}) TP{h['TP']}/FP{h['FP']}/FN{h['FN']}/TN{h['TN']}；"
                       f"覆盖检查：列表 {r['coverage']['listing_members']} 个、sitemap 同结构 {r['coverage']['sitemap_same_structure']} 个全部匹配")

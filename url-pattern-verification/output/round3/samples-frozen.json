@@ -1,7 +1,7 @@
 {
- "frozen_at": "2026-10-26T14:18:38+00:00",
+ "frozen_at": "2026-10-27T05:55:48+00:00",
  "seed": 20261028,
- "sha256": "6e54d5c47b827090ed1e01bfc20c9f8a51dbabdb56b9a5d4cb75963dcb0fbdfd",
+ "sha256": "d63c6d3042b81693017185ca0fa23f0e8519729bbc2f766c2896179824251f6d",
  "rules": [
   {
    "id": "R3-S1-R2-E1-F1",
@@ -219,10 +219,10 @@
    ],
    "holdout_neg": [
     "https://www.bis.org/publications",
-    "https://www.bis.org/speeches/20000609-role-monetary-policy-growth-sweden-central-bank-articles-and-speeches-6-jun-2000",
-    "https://www.bis.org/speeches/20220624-return-inflation-what-do-we-learn-survey-data",
-    "https://www.bis.org/speeches/20120430-strengthening-governance-microfinance-institutions-mfis-some-random-thoughts",
-    "https://www.bis.org/speeches/20120907-toward-stronger-growth-challenges-facing-japans-economy",
+    "https://www.bis.org/speeches/20000615-bank-japans-june-report-recent-economic-and-financial-developments-central-bank-articles-and-speeches-14-jun-2000",
+    "https://www.bis.org/speeches/20220624-signing-first-esg-islamic-repurchasing-agreement",
+    "https://www.bis.org/speeches/20120430-trust-pillar-industry",
+    "https://www.bis.org/speeches/20120907-twenty-five-years-bundesbanks-representative-office-tokyo",
     "https://www.bis.org/publications/aer-2022/no-respite",
     "https://www.bis.org/publications/qr-201612/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform"
    ],
@@ -319,10 +319,10 @@
    ],
    "holdout_neg": [
     "https://www.bis.org/speeches",
-    "https://www.bis.org/author/tim-dabringhausen",
-    "https://www.bis.org/media-releases/20150716-revised-guide-account-opening-consultation-issued-basel-committee",
-    "https://www.bis.org/author/rani-wijayanti",
-    "https://www.bis.org/publications/fast-retail-payment-systems",
+    "https://www.bis.org/author/tim-eisert",
+    "https://www.bis.org/media-releases/20150723-final-criteria-identifying-simple-transparent-and-comparable-securitisations-issued-basel",
+    "https://www.bis.org/author/ranjit-kumaresan",
+    "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
     "https://www.bis.org/speeches/20260128-fulfilling-mandates-central-banks-changing-world?language=es",
     "https://www.bis.org/speeches/20240729-monetary-policy-and-challenges-americas-2024?language=es"
    ],
@@ -818,23 +818,22 @@
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测",
    "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
+   "holdout_source": "listing_split",
    "inference": [
     "https://www.wipo.int/en/web/patentscope/faqs_patentscope",
-    "https://www.wipo.int/en/web/patentscope/national_databases",
     "https://www.wipo.int/en/web/patentscope/news"
    ],
    "holdout_pos": [
-    "https://www.wipo.int/en/web/patentscope/pct-edi/"
+    "https://www.wipo.int/en/web/patentscope/national_databases"
    ],
    "holdout_neg": [
     "https://www.wipo.int/en/web/patentscope/",
+    "https://www.wipo.int/en/web/designs/protection",
     "https://www.wipo.int/en/web/about-wipo/offices",
     "https://www.wipo.int/en/web/amc/domain-name-disputes",
     "https://www.wipo.int/en/web/about-wipo/oversight",
-    "https://www.wipo.int/tech_trends/en/artificial_intelligence/patentscope.html",
-    "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-ai-assisted-search-now-available",
-    "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection"
+    "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
+    "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-ai-assisted-search-now-available"
    ],
    "inference_redirected_away": [
     [
@@ -3025,11 +3024,11 @@
     "https://www.gwi.com/reports/us-consumers"
    ],
    "holdout_pos": [
-    "https://www.gwi.com/reports/ad-targeting-media-planning/",
-    "https://www.gwi.com/reports/asia-pacific",
     "https://www.gwi.com/reports/b2b-in-2021-b",
+    "https://www.gwi.com/reports/device-2019",
     "https://www.gwi.com/reports/hispanics-media-consumption-infographic",
     "https://www.gwi.com/reports/social-media-motivations-2019",
+    "https://www.gwi.com/reports/the-banking-consumer",
     "https://www.gwi.com/reports/uae-consumers"
    ],
    "holdout_neg": [
@@ -3038,7 +3037,8 @@
     "https://www.gwi.com/blog/working-from-home-vs-office",
     "https://www.gwi.com/blog/e-waste",
     "https://www.gwi.com/blog/product-research",
-    "https://www.gwi.com/reports/social-media-marketing-guide/"
+    "https://www.gwi.com/reports/social-media-marketing-guide/",
+    "https://www.gwi.com/reports/ad-targeting-media-planning/"
    ],
    "inference_redirected_away": [],
    "template": [
@@ -4245,19 +4245,19 @@
     "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/"
    ],
    "holdout_pos": [
-    "https://www.iab.com/events/2019-iab-cannes/",
-    "https://www.iab.com/events/ads-txt-across-supply-chain-business-perspectives/",
-    "https://www.iab.com/events/digital-essentials-san-francisco-2019-11-13/",
-    "https://www.iab.com/events/info-session-digital-media-sales-certification-11515/",
-    "https://www.iab.com/events/practical-guidance-for-european-privacy-laws-gdpr-eprivacy-and-beyond-05-01-2024/",
-    "https://www.iab.com/events/privacy-law-essentials-for-digital-advertising-professionals-3-2-22/"
+    "https://www.iab.com/events/2024-video-leadership-summit/",
+    "https://www.iab.com/events/cannabis-category-growth-and-the-untapped-opportunity-for-advertisers/",
+    "https://www.iab.com/events/data-transparency-standards-workshop-qa/",
+    "https://www.iab.com/events/digital-fundamentals-nyc-8212019/",
+    "https://www.iab.com/events/iab-q4-research-council-meeting-2019-12-16/",
+    "https://www.iab.com/events/study-session-digital-media-sales-certification-2916/"
    ],
    "holdout_neg": [
     "https://www.iab.com/events/",
     "https://www.iab.com/blog/advertisers-of-new-york-noah-porter-360i/",
-    "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year/",
-    "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
-    "https://www.iab.com/news/insight-inspiration-transformation/"
+    "https://www.iab.com/video/retail-media-online-to-in-store-attribution/",
+    "https://www.iab.com/news/internet-advertising-bureau-iab-offer-two-privacy-education-seminars-membership-industry-large/",
+    "https://www.iab.com/news/intel-receives-1998-marketer-year-award-internet-advertising-bureau-iab/"
    ],
    "inference_redirected_away": [],
    "template": [
@@ -5366,16 +5366,14 @@
     "https://nrf.com/membership/nrf-university-membership"
    ],
    "holdout_pos": [
-    "https://nrf.com/membership/committees-and-councils/",
-    "https://nrf.com/membership/current-university-members",
-    "https://nrf.com/membership/fira-membership/"
+    "https://nrf.com/membership/current-university-members"
    ],
    "holdout_neg": [
     "https://nrf.com/membership",
+    "https://nrf.com/blog/ulta-beauty-unleashes-energy-and-momentum",
+    "https://nrf.com/blog/circular-retail-gains-new-momentum",
     "https://nrf.com/blog/retail-ceos-share-tariff-impacts-ahead-of-holiday-shopping",
-    "https://nrf.com/resources/nrf-center-retail-sustainability/",
-    "https://nrf.com/research/monthly-economic-review-september-2024",
-    "https://nrf.com/research/customer-returns-retail-industry-2021"
+    "https://nrf.com/resources/nrf-center-retail-sustainability/"
    ],
    "inference_redirected_away": [],
    "template": [
@@ -6286,12 +6284,12 @@
     "https://buffer.com/resources/youtube-shorts-ideas/"
    ],
    "holdout_pos": [
-    "https://buffer.com/resources/how-to-add-captions-on-tiktok/",
-    "https://buffer.com/resources/pr-agency/",
-    "https://buffer.com/resources/side-hustle-to-business/",
-    "https://buffer.com/resources/snowmelt-meetings/",
-    "https://buffer.com/resources/survive-thrive/",
-    "https://buffer.com/resources/youtube-shorts-scheduling/"
+    "https://buffer.com/resources/culturelab-podcast/",
+    "https://buffer.com/resources/how-to-use-meta-business-suite/",
+    "https://buffer.com/resources/instagram-strategy-engagement/",
+    "https://buffer.com/resources/scheduled-posts/",
+    "https://buffer.com/resources/social-media-swipe-file/",
+    "https://buffer.com/resources/sunsetting-reply/"
    ],
    "holdout_neg": [
     "https://buffer.com/resources/",
@@ -7937,8 +7935,8 @@
     "https://www.sistrix.com/blog/you-have-to-know-the-past-to-understand-the-present-case-study-patient-co-uk/"
    ],
    "holdout_pos": [
-    "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently/",
-    "https://www.sistrix.com/blog/feb-2026-serps-movements-are-significant-discover-update-rolling/",
+    "https://www.sistrix.com/blog/christmas-at-sistrix-2025-you-click-we-donate/",
+    "https://www.sistrix.com/blog/march-2026-spam-update-visibility-data-analysis-and-background-updating/",
     "https://www.sistrix.com/blog/pagerank-update-112008/",
     "https://www.sistrix.com/blog/seo-2022-three-predictions-and-some-opinions/",
     "https://www.sistrix.com/blog/who-wrote-that-content-google-recommends-declaring-authors-in-markup/",

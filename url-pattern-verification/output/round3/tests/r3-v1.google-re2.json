@@ -1,5 +1,5 @@
 {
- "observed_at": "2026-10-26T14:18:39+00:00",
+ "observed_at": "2026-10-27T05:56:10+00:00",
  "engine": {
   "name": "google-re2",
   "version": "1.1.20251105",
@@ -1005,12 +1005,12 @@
    "split": "holdout",
    "TP": 1,
    "FP": 0,
-   "FN": 2,
+   "FN": 0,
    "TN": 5,
    "unlabelled": 0,
-   "accuracy": 0.75,
+   "accuracy": 1.0,
    "precision": 1.0,
-   "recall": 0.3333333333333333
+   "recall": 1.0
   },
   {
    "rule_id": "R3-S1-R105-E1-F1",
@@ -3307,19 +3307,19 @@
   {
    "rule_id": "R3-S1-R19-E4-F1",
    "split": "holdout",
-   "TP": 0,
+   "TP": 1,
    "FP": 0,
    "FN": 0,
    "TN": 7,
    "unlabelled": 0,
    "accuracy": 1.0,
-   "precision": null,
-   "recall": null
+   "precision": 1.0,
+   "recall": 1.0
   },
   {
    "rule_id": "R3-S1-R19-E4-F1",
    "split": "inference",
-   "TP": 3,
+   "TP": 2,
    "FP": 0,
    "FN": 0,
    "TN": 0,
@@ -4051,14 +4051,14 @@
   {
    "rule_id": "R3-S1-R39-E1-F1",
    "split": "holdout",
-   "TP": 5,
+   "TP": 6,
    "FP": 0,
-   "FN": 1,
-   "TN": 6,
+   "FN": 0,
+   "TN": 7,
    "unlabelled": 0,
-   "accuracy": 0.9166666666666666,
+   "accuracy": 1.0,
    "precision": 1.0,
-   "recall": 0.8333333333333334
+   "recall": 1.0
   },
   {
    "rule_id": "R3-S1-R39-E1-F1",
@@ -5798,37 +5798,37 @@
   },
   {
    "rule_id": "R3-S1-R16-E1-F1",
-   "url": "https://www.bis.org/speeches/20000609-role-monetary-policy-growth-sweden-central-bank-articles-and-speeches-6-jun-2000",
+   "url": "https://www.bis.org/speeches/20000615-bank-japans-june-report-recent-economic-and-financial-developments-central-bank-articles-and-speeches-14-jun-2000",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/speeches/20000609-role-monetary-policy-growth-sweden-central-bank-articles-and-speeches-6-jun-2000",
+   "source_id": "https://www.bis.org/speeches/20000615-bank-japans-june-report-recent-economic-and-financial-developments-central-bank-articles-and-speeches-14-jun-2000",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E1-F1",
-   "url": "https://www.bis.org/speeches/20220624-return-inflation-what-do-we-learn-survey-data",
+   "url": "https://www.bis.org/speeches/20220624-signing-first-esg-islamic-repurchasing-agreement",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/speeches/20220624-return-inflation-what-do-we-learn-survey-data",
+   "source_id": "https://www.bis.org/speeches/20220624-signing-first-esg-islamic-repurchasing-agreement",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E1-F1",
-   "url": "https://www.bis.org/speeches/20120430-strengthening-governance-microfinance-institutions-mfis-some-random-thoughts",
+   "url": "https://www.bis.org/speeches/20120430-trust-pillar-industry",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/speeches/20120430-strengthening-governance-microfinance-institutions-mfis-some-random-thoughts",
+   "source_id": "https://www.bis.org/speeches/20120430-trust-pillar-industry",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E1-F1",
-   "url": "https://www.bis.org/speeches/20120907-toward-stronger-growth-challenges-facing-japans-economy",
+   "url": "https://www.bis.org/speeches/20120907-twenty-five-years-bundesbanks-representative-office-tokyo",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/speeches/20120907-toward-stronger-growth-challenges-facing-japans-economy",
+   "source_id": "https://www.bis.org/speeches/20120907-twenty-five-years-bundesbanks-representative-office-tokyo",
    "actual": false,
    "pass": true
   },
@@ -6154,37 +6154,37 @@
   },
   {
    "rule_id": "R3-S1-R16-E4-F1",
-   "url": "https://www.bis.org/author/tim-dabringhausen",
+   "url": "https://www.bis.org/author/tim-eisert",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/author/tim-dabringhausen",
+   "source_id": "https://www.bis.org/author/tim-eisert",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E4-F1",
-   "url": "https://www.bis.org/media-releases/20150716-revised-guide-account-opening-consultation-issued-basel-committee",
+   "url": "https://www.bis.org/media-releases/20150723-final-criteria-identifying-simple-transparent-and-comparable-securitisations-issued-basel",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/media-releases/20150716-revised-guide-account-opening-consultation-issued-basel-committee",
+   "source_id": "https://www.bis.org/media-releases/20150723-final-criteria-identifying-simple-transparent-and-comparable-securitisations-issued-basel",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E4-F1",
-   "url": "https://www.bis.org/author/rani-wijayanti",
+   "url": "https://www.bis.org/author/ranjit-kumaresan",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/author/rani-wijayanti",
+   "source_id": "https://www.bis.org/author/ranjit-kumaresan",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R16-E4-F1",
-   "url": "https://www.bis.org/publications/fast-retail-payment-systems",
+   "url": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.bis.org/publications/fast-retail-payment-systems",
+   "source_id": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
    "actual": false,
    "pass": true
   },
@@ -7217,16 +7217,6 @@
   },
   {
    "rule_id": "R3-S1-R19-E4-F1",
-   "url": "https://www.wipo.int/en/web/patentscope/national_databases",
-   "expected": true,
-   "split": "inference",
-   "source_id": "https://www.wipo.int/en/web/patentscope/national_databases",
-   "identity": "normal",
-   "actual": true,
-   "pass": true
-  },
-  {
-   "rule_id": "R3-S1-R19-E4-F1",
    "url": "https://www.wipo.int/en/web/patentscope/news",
    "expected": true,
    "split": "inference",
@@ -7237,10 +7227,29 @@
   },
   {
    "rule_id": "R3-S1-R19-E4-F1",
+   "url": "https://www.wipo.int/en/web/patentscope/national_databases",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.wipo.int/en/web/patentscope/national_databases",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R19-E4-F1",
    "url": "https://www.wipo.int/en/web/patentscope/",
    "expected": false,
    "split": "holdout",
    "source_id": "https://www.wipo.int/en/web/patentscope",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R19-E4-F1",
+   "url": "https://www.wipo.int/en/web/designs/protection",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.wipo.int/en/web/designs/protection",
    "actual": false,
    "pass": true
   },
@@ -7273,10 +7282,10 @@
   },
   {
    "rule_id": "R3-S1-R19-E4-F1",
-   "url": "https://www.wipo.int/tech_trends/en/artificial_intelligence/patentscope.html",
+   "url": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.wipo.int/tech_trends/en/artificial_intelligence/patentscope.html",
+   "source_id": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
    "actual": false,
    "pass": true
   },
@@ -7286,15 +7295,6 @@
    "expected": false,
    "split": "holdout",
    "source_id": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-ai-assisted-search-now-available",
-   "actual": false,
-   "pass": true
-  },
-  {
-   "rule_id": "R3-S1-R19-E4-F1",
-   "url": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
-   "expected": false,
-   "split": "holdout",
-   "source_id": "https://www.wipo.int/en/web/patentscope/w/news/2026/patentscope-expands-verified-sep-data-collection",
    "actual": false,
    "pass": true
   },
@@ -13077,30 +13077,20 @@
   },
   {
    "rule_id": "R3-S1-R39-E1-F1",
-   "url": "https://www.gwi.com/reports/ad-targeting-media-planning/",
+   "url": "https://www.gwi.com/reports/b2b-in-2021-b",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.gwi.com/reports/ad-targeting-media-planning",
-   "identity": "normal",
-   "actual": false,
-   "pass": false
-  },
-  {
-   "rule_id": "R3-S1-R39-E1-F1",
-   "url": "https://www.gwi.com/reports/asia-pacific",
-   "expected": true,
-   "split": "holdout",
-   "source_id": "https://www.gwi.com/reports/asia-pacific",
+   "source_id": "https://www.gwi.com/reports/b2b-in-2021-b",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R39-E1-F1",
-   "url": "https://www.gwi.com/reports/b2b-in-2021-b",
+   "url": "https://www.gwi.com/reports/device-2019",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.gwi.com/reports/b2b-in-2021-b",
+   "source_id": "https://www.gwi.com/reports/device-2019",
    "identity": "normal",
    "actual": true,
    "pass": true
@@ -13121,6 +13111,16 @@
    "expected": true,
    "split": "holdout",
    "source_id": "https://www.gwi.com/reports/social-media-motivations-2019",
+   "identity": "normal",
+   "actual": true,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R39-E1-F1",
+   "url": "https://www.gwi.com/reports/the-banking-consumer",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.gwi.com/reports/the-banking-consumer",
    "identity": "normal",
    "actual": true,
    "pass": true
@@ -13186,6 +13186,15 @@
    "expected": false,
    "split": "holdout",
    "source_id": "https://www.gwi.com/reports/social-media-marketing-guide",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R39-E1-F1",
+   "url": "https://www.gwi.com/reports/ad-targeting-media-planning/",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.gwi.com/reports/ad-targeting-media-planning",
    "actual": false,
    "pass": true
   },
@@ -16674,60 +16683,60 @@
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/2019-iab-cannes/",
+   "url": "https://www.iab.com/events/2024-video-leadership-summit/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/2019-iab-cannes",
+   "source_id": "https://www.iab.com/events/2024-video-leadership-summit",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/ads-txt-across-supply-chain-business-perspectives/",
+   "url": "https://www.iab.com/events/cannabis-category-growth-and-the-untapped-opportunity-for-advertisers/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/ads-txt-across-supply-chain-business-perspectives",
+   "source_id": "https://www.iab.com/events/cannabis-category-growth-and-the-untapped-opportunity-for-advertisers",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/digital-essentials-san-francisco-2019-11-13/",
+   "url": "https://www.iab.com/events/data-transparency-standards-workshop-qa/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/digital-essentials-san-francisco-2019-11-13",
+   "source_id": "https://www.iab.com/events/data-transparency-standards-workshop-qa",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/info-session-digital-media-sales-certification-11515/",
+   "url": "https://www.iab.com/events/digital-fundamentals-nyc-8212019/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/info-session-digital-media-sales-certification-11515",
+   "source_id": "https://www.iab.com/events/digital-fundamentals-nyc-8212019",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/practical-guidance-for-european-privacy-laws-gdpr-eprivacy-and-beyond-05-01-2024/",
+   "url": "https://www.iab.com/events/iab-q4-research-council-meeting-2019-12-16/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/practical-guidance-for-european-privacy-laws-gdpr-eprivacy-and-beyond-05-01-2024",
+   "source_id": "https://www.iab.com/events/iab-q4-research-council-meeting-2019-12-16",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/events/privacy-law-essentials-for-digital-advertising-professionals-3-2-22/",
+   "url": "https://www.iab.com/events/study-session-digital-media-sales-certification-2916/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.iab.com/events/privacy-law-essentials-for-digital-advertising-professionals-3-2-22",
+   "source_id": "https://www.iab.com/events/study-session-digital-media-sales-certification-2916",
    "identity": "normal",
    "actual": true,
    "pass": true
@@ -16752,28 +16761,28 @@
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year/",
+   "url": "https://www.iab.com/video/retail-media-online-to-in-store-attribution/",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year",
+   "source_id": "https://www.iab.com/video/retail-media-online-to-in-store-attribution",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
+   "url": "https://www.iab.com/news/internet-advertising-bureau-iab-offer-two-privacy-education-seminars-membership-industry-large/",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo",
+   "source_id": "https://www.iab.com/news/internet-advertising-bureau-iab-offer-two-privacy-education-seminars-membership-industry-large",
    "actual": false,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R68-E1-F1",
-   "url": "https://www.iab.com/news/insight-inspiration-transformation/",
+   "url": "https://www.iab.com/news/intel-receives-1998-marketer-year-award-internet-advertising-bureau-iab/",
    "expected": false,
    "split": "holdout",
-   "source_id": "https://www.iab.com/news/insight-inspiration-transformation",
+   "source_id": "https://www.iab.com/news/intel-receives-1998-marketer-year-award-internet-advertising-bureau-iab",
    "actual": false,
    "pass": true
   },
@@ -20107,16 +20116,6 @@
   },
   {
    "rule_id": "R3-S1-R105-E1-F1",
-   "url": "https://nrf.com/membership/committees-and-councils/",
-   "expected": true,
-   "split": "holdout",
-   "source_id": "https://nrf.com/membership/committees-and-councils",
-   "identity": "normal",
-   "actual": false,
-   "pass": false
-  },
-  {
-   "rule_id": "R3-S1-R105-E1-F1",
    "url": "https://nrf.com/membership/current-university-members",
    "expected": true,
    "split": "holdout",
@@ -20127,20 +20126,28 @@
   },
   {
    "rule_id": "R3-S1-R105-E1-F1",
-   "url": "https://nrf.com/membership/fira-membership/",
-   "expected": true,
-   "split": "holdout",
-   "source_id": "https://nrf.com/membership/fira-membership",
-   "identity": "normal",
-   "actual": false,
-   "pass": false
-  },
-  {
-   "rule_id": "R3-S1-R105-E1-F1",
    "url": "https://nrf.com/membership",
    "expected": false,
    "split": "holdout",
    "source_id": "https://nrf.com/membership",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R105-E1-F1",
+   "url": "https://nrf.com/blog/ulta-beauty-unleashes-energy-and-momentum",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://nrf.com/blog/ulta-beauty-unleashes-energy-and-momentum",
+   "actual": false,
+   "pass": true
+  },
+  {
+   "rule_id": "R3-S1-R105-E1-F1",
+   "url": "https://nrf.com/blog/circular-retail-gains-new-momentum",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://nrf.com/blog/circular-retail-gains-new-momentum",
    "actual": false,
    "pass": true
   },
@@ -20159,24 +20166,6 @@
    "expected": false,
    "split": "holdout",
    "source_id": "https://nrf.com/resources/nrf-center-retail-sustainability",
-   "actual": false,
-   "pass": true
-  },
-  {
-   "rule_id": "R3-S1-R105-E1-F1",
-   "url": "https://nrf.com/research/monthly-economic-review-september-2024",
-   "expected": false,
-   "split": "holdout",
-   "source_id": "https://nrf.com/research/monthly-economic-review-september-2024",
-   "actual": false,
-   "pass": true
-  },
-  {
-   "rule_id": "R3-S1-R105-E1-F1",
-   "url": "https://nrf.com/research/customer-returns-retail-industry-2021",
-   "expected": false,
-   "split": "holdout",
-   "source_id": "https://nrf.com/research/customer-returns-retail-industry-2021",
    "actual": false,
    "pass": true
   },
@@ -22936,60 +22925,60 @@
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/how-to-add-captions-on-tiktok/",
+   "url": "https://buffer.com/resources/culturelab-podcast/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/how-to-add-captions-on-tiktok",
+   "source_id": "https://buffer.com/resources/culturelab-podcast",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/pr-agency/",
+   "url": "https://buffer.com/resources/how-to-use-meta-business-suite/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/pr-agency",
+   "source_id": "https://buffer.com/resources/how-to-use-meta-business-suite",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/side-hustle-to-business/",
+   "url": "https://buffer.com/resources/instagram-strategy-engagement/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/side-hustle-to-business",
+   "source_id": "https://buffer.com/resources/instagram-strategy-engagement",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/snowmelt-meetings/",
+   "url": "https://buffer.com/resources/scheduled-posts/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/snowmelt-meetings",
+   "source_id": "https://buffer.com/resources/scheduled-posts",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/survive-thrive/",
+   "url": "https://buffer.com/resources/social-media-swipe-file/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/survive-thrive",
+   "source_id": "https://buffer.com/resources/social-media-swipe-file",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R120-E1-F1",
-   "url": "https://buffer.com/resources/youtube-shorts-scheduling/",
+   "url": "https://buffer.com/resources/sunsetting-reply/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://buffer.com/resources/youtube-shorts-scheduling",
+   "source_id": "https://buffer.com/resources/sunsetting-reply",
    "identity": "normal",
    "actual": true,
    "pass": true
@@ -28088,20 +28077,20 @@
   },
   {
    "rule_id": "R3-S1-R135-E1-F1",
-   "url": "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently/",
+   "url": "https://www.sistrix.com/blog/christmas-at-sistrix-2025-you-click-we-donate/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently",
+   "source_id": "https://www.sistrix.com/blog/christmas-at-sistrix-2025-you-click-we-donate",
    "identity": "normal",
    "actual": true,
    "pass": true
   },
   {
    "rule_id": "R3-S1-R135-E1-F1",
-   "url": "https://www.sistrix.com/blog/feb-2026-serps-movements-are-significant-discover-update-rolling/",
+   "url": "https://www.sistrix.com/blog/march-2026-spam-update-visibility-data-analysis-and-background-updating/",
    "expected": true,
    "split": "holdout",
-   "source_id": "https://www.sistrix.com/blog/feb-2026-serps-movements-are-significant-discover-update-rolling",
+   "source_id": "https://www.sistrix.com/blog/march-2026-spam-update-visibility-data-analysis-and-background-updating",
    "identity": "normal",
    "actual": true,
    "pass": true

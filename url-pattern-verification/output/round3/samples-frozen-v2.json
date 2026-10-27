@@ -1,7 +1,7 @@
 {
- "frozen_at": "2026-10-26T14:19:25+00:00",
+ "frozen_at": "2026-10-27T05:56:52+00:00",
  "seed": 20261028,
- "sha256": "c0d8e5f5e2bfbb9be53505a432366e7ffdf47fadfe026a4ca399b993f029e331",
+ "sha256": "556f6eb7eceef441649208351f65f9650e3f72fd099d89df345b2b6f3f3b843f",
  "rules": [
   {
    "id": "R3-S1-R2-E2-F1",
@@ -107,10 +107,10 @@
     "https://www.bis.org/speeches/20210623-lessons-and-lasting-effects-pandemic"
    ],
    "holdout_neg": [
-    "https://www.bis.org/author/renato-baldini-jr",
-    "https://www.bis.org/author/anita-angelovska-bezhoska",
-    "https://www.bis.org/publications/200601-commentary-ibs-gli",
-    "https://www.bis.org/publications/202407-standards-disclosure-cryptoasset-exposures"
+    "https://www.bis.org/author/renato-dias-de-brito-gomes",
+    "https://www.bis.org/author/anja-duranovic",
+    "https://www.bis.org/publications/200602-guidelines-enhancing-corporate-governance-banking-organisations",
+    "https://www.bis.org/publications/202407-standards-recalibration-shocks-interest-rate-risk-banking-book"
    ],
    "inference_redirected_away": [],
    "template": [
@@ -139,10 +139,10 @@
    ],
    "regression_neg": [
     "https://www.bis.org/speeches",
-    "https://www.bis.org/author/tim-dabringhausen",
-    "https://www.bis.org/media-releases/20150716-revised-guide-account-opening-consultation-issued-basel-committee",
-    "https://www.bis.org/author/rani-wijayanti",
-    "https://www.bis.org/publications/fast-retail-payment-systems",
+    "https://www.bis.org/author/tim-eisert",
+    "https://www.bis.org/media-releases/20150723-final-criteria-identifying-simple-transparent-and-comparable-securitisations-issued-basel",
+    "https://www.bis.org/author/ranjit-kumaresan",
+    "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
     "https://www.bis.org/speeches/20260128-fulfilling-mandates-central-banks-changing-world?language=es",
     "https://www.bis.org/speeches/20240729-monetary-policy-and-challenges-americas-2024?language=es"
    ]
@@ -1280,78 +1280,6 @@
    ]
   },
   {
-   "id": "R3-S1-R39-E1-F1",
-   "entry_ids": [
-    "S1-R39-E1"
-   ],
-   "target": "https://www.gwi.com/reports 入口前缀 /reports/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.gwi\\.com/reports/[a-z0-9-]+/?$",
-   "variables": {
-    "seg0": "[a-z0-9-]+"
-   },
-   "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
-   "holdout_source": "sitemap",
-   "inference": [
-    "https://www.gwi.com/reports/beauty-buyers",
-    "https://www.gwi.com/reports/brand-tracker",
-    "https://www.gwi.com/reports/germany-consumers",
-    "https://www.gwi.com/reports/take-flight",
-    "https://www.gwi.com/reports/us-consumers"
-   ],
-   "holdout_pos": [
-    "https://www.gwi.com/reports/global-vacationers-2018",
-    "https://www.gwi.com/reports/middle-east-africa",
-    "https://www.gwi.com/reports/morocco-consumers",
-    "https://www.gwi.com/reports/mothers",
-    "https://www.gwi.com/reports/road-to-recovery-b",
-    "https://www.gwi.com/reports/the-banking-consumer"
-   ],
-   "holdout_neg": [
-    "https://www.gwi.com/blog/online-grocery-shopping-trends",
-    "https://www.gwi.com/blog/alternative-data-finance",
-    "https://www.gwi.com/blog/persona-spotlight-the-online-shopper",
-    "https://www.gwi.com/blog/ai-marketing-tools"
-   ],
-   "inference_redirected_away": [],
-   "template": [
-    [
-     "var",
-     "[a-z0-9-]+"
-    ]
-   ],
-   "version": 2,
-   "history": [
-    {
-     "version": 1,
-     "pattern": "^https://www\\.gwi\\.com/reports/[a-z0-9-]+$",
-     "holdout_fn": [
-      "https://www.gwi.com/reports/ad-targeting-media-planning/"
-     ],
-     "listing_missed": [],
-     "sitemap_missed": 1
-    }
-   ],
-   "regression_pos": [
-    "https://www.gwi.com/reports/ad-targeting-media-planning/",
-    "https://www.gwi.com/reports/asia-pacific",
-    "https://www.gwi.com/reports/b2b-in-2021-b",
-    "https://www.gwi.com/reports/hispanics-media-consumption-infographic",
-    "https://www.gwi.com/reports/social-media-motivations-2019",
-    "https://www.gwi.com/reports/uae-consumers"
-   ],
-   "regression_neg": [
-    "https://www.gwi.com/reports",
-    "https://www.gwi.com/blog/eco-conscious-consumer",
-    "https://www.gwi.com/blog/working-from-home-vs-office",
-    "https://www.gwi.com/blog/e-waste",
-    "https://www.gwi.com/blog/product-research",
-    "https://www.gwi.com/reports/social-media-marketing-guide/"
-   ]
-  },
-  {
    "id": "R3-S1-R41-E1-F1",
    "entry_ids": [
     "S1-R41-E1"
@@ -1905,13 +1833,13 @@
    ],
    "target": "https://www.iab.com/events/ 入口前缀 /events/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
    "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.iab\\.com/events/[a-z0-9_-]+/?$",
+   "pattern": "^https://www\\.iab\\.com/events/[a-z0-9_-]+/$",
    "variables": {
     "seg0": "[a-z0-9_-]+"
    },
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
+   "slash_mode": "slash",
    "holdout_source": "sitemap",
    "inference": [
     "https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/",
@@ -1921,18 +1849,18 @@
     "https://www.iab.com/events/unlocking-the-power-of-mobile-gaming/"
    ],
    "holdout_pos": [
-    "https://www.iab.com/events/2020-01-22-sales-leadership-training/",
-    "https://www.iab.com/events/3ms-educational-forum-february-2015/",
+    "https://www.iab.com/events/2019-iab-global-summit/",
+    "https://www.iab.com/events/3-31-project-rearc-webinar-how-did-we-get-to-where-we-are-today/",
     "https://www.iab.com/events/grand-opening-iab-san-francisco-ad-lab/",
     "https://www.iab.com/events/iab-tech-lab-addressability-system-designs/",
     "https://www.iab.com/events/iabplus-q1-2026-trends-webinar/",
-    "https://www.iab.com/events/messaging-app-working-group-kick-off-meeting/"
+    "https://www.iab.com/events/meet-marketer-avis/"
    ],
    "holdout_neg": [
     "https://www.iab.com/news/iab-australia-mobile-location-data-handbook-april-2017/",
-    "https://www.iab.com/video/2020-iab-podcast-upfront-art19/",
-    "https://www.iab.com/product/11-10-advanced-television-the-quest-for-universal-addressability/",
-    "https://www.iab.com/news/iabpwc-release-fourth-quarter-fy-2005-internet-ad-revenue-figures/"
+    "https://www.iab.com/video/2020-iab-podcast-upfront-barstool-sports/",
+    "https://www.iab.com/product/6-9-ctv-video-advertising-growing-with-standards/",
+    "https://www.iab.com/news/iabpwc-release-fourth-quarter-fy-2006-internet-ad-revenue-figures/"
    ],
    "inference_redirected_away": [],
    "template": [
@@ -1948,23 +1876,23 @@
      "pattern": "^https://www\\.iab\\.com/events/[a-z0-9-]+/$",
      "holdout_fn": [],
      "listing_missed": [],
-     "sitemap_missed": 6
+     "sitemap_missed": 1
     }
    ],
    "regression_pos": [
-    "https://www.iab.com/events/2019-iab-cannes/",
-    "https://www.iab.com/events/ads-txt-across-supply-chain-business-perspectives/",
-    "https://www.iab.com/events/digital-essentials-san-francisco-2019-11-13/",
-    "https://www.iab.com/events/info-session-digital-media-sales-certification-11515/",
-    "https://www.iab.com/events/practical-guidance-for-european-privacy-laws-gdpr-eprivacy-and-beyond-05-01-2024/",
-    "https://www.iab.com/events/privacy-law-essentials-for-digital-advertising-professionals-3-2-22/"
+    "https://www.iab.com/events/2024-video-leadership-summit/",
+    "https://www.iab.com/events/cannabis-category-growth-and-the-untapped-opportunity-for-advertisers/",
+    "https://www.iab.com/events/data-transparency-standards-workshop-qa/",
+    "https://www.iab.com/events/digital-fundamentals-nyc-8212019/",
+    "https://www.iab.com/events/iab-q4-research-council-meeting-2019-12-16/",
+    "https://www.iab.com/events/study-session-digital-media-sales-certification-2916/"
    ],
    "regression_neg": [
     "https://www.iab.com/events/",
     "https://www.iab.com/blog/advertisers-of-new-york-noah-porter-360i/",
-    "https://www.iab.com/video/retail-media-2023-outlook-how-cyber-5-performance-can-provide-insights-into-next-year/",
-    "https://www.iab.com/news/internet-advertising-bureau-iab-names-robin-webster-first-ceo/",
-    "https://www.iab.com/news/insight-inspiration-transformation/"
+    "https://www.iab.com/video/retail-media-online-to-in-store-attribution/",
+    "https://www.iab.com/news/internet-advertising-bureau-iab-offer-two-privacy-education-seminars-membership-industry-large/",
+    "https://www.iab.com/news/intel-receives-1998-marketer-year-award-internet-advertising-bureau-iab/"
    ]
   },
   {
@@ -2532,129 +2460,6 @@
     "https://www.thinkbox.tv/case-studies/ebay-created-bangers-mad-for-cars",
     "https://www.thinkbox.tv/case-studies/macmillan-cancer-support-whatever-it-takes",
     "https://www.thinkbox.tv/how-to-use-tv/spots"
-   ]
-  },
-  {
-   "id": "R3-S1-R105-E1-F1",
-   "entry_ids": [
-    "S1-R105-E1"
-   ],
-   "target": "https://nrf.com/membership 入口前缀 /membership/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://nrf\\.com/membership/[a-z-]+/?$",
-   "variables": {
-    "seg0": "[a-z-]+"
-   },
-   "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
-   "holdout_source": "sitemap",
-   "inference": [
-    "https://nrf.com/membership/nrf-industry-partner-membership",
-    "https://nrf.com/membership/nrf-retailer-membership",
-    "https://nrf.com/membership/nrf-university-membership"
-   ],
-   "holdout_pos": [
-    "https://nrf.com/membership/nrf-membership"
-   ],
-   "holdout_neg": [
-    "https://nrf.com/podcast/ai-skills-first-hiring-and-the-next-era-of-retail-jobs",
-    "https://nrf.com/blog/4-principles-retails-use-of-ai",
-    "https://nrf.com/blog/cargo-theft-trends-and-lessons-learned",
-    "https://nrf.com/blog/retailers-call-on-congress-to-expand-good-samaritan-protection-to-reduce-opioid-overdoses"
-   ],
-   "inference_redirected_away": [],
-   "template": [
-    [
-     "var",
-     "[a-z-]+"
-    ]
-   ],
-   "version": 2,
-   "history": [
-    {
-     "version": 1,
-     "pattern": "^https://nrf\\.com/membership/[a-z-]+$",
-     "holdout_fn": [
-      "https://nrf.com/membership/committees-and-councils/",
-      "https://nrf.com/membership/fira-membership/"
-     ],
-     "listing_missed": [],
-     "sitemap_missed": 2
-    }
-   ],
-   "regression_pos": [
-    "https://nrf.com/membership/committees-and-councils/",
-    "https://nrf.com/membership/current-university-members",
-    "https://nrf.com/membership/fira-membership/"
-   ],
-   "regression_neg": [
-    "https://nrf.com/membership",
-    "https://nrf.com/blog/retail-ceos-share-tariff-impacts-ahead-of-holiday-shopping",
-    "https://nrf.com/resources/nrf-center-retail-sustainability/",
-    "https://nrf.com/research/monthly-economic-review-september-2024",
-    "https://nrf.com/research/customer-returns-retail-industry-2021"
-   ]
-  },
-  {
-   "id": "R3-S1-R105-E2-F1",
-   "entry_ids": [
-    "S1-R105-E2"
-   ],
-   "target": "https://nrf.com/about-us 入口前缀 /about-us/ 下签名 [1, False, (), ''] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://nrf\\.com/about\\-us/[a-z0-9-]+/?$",
-   "variables": {
-    "seg0": "[a-z0-9-]+"
-   },
-   "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
-   "holdout_source": "sitemap",
-   "inference": [
-    "https://nrf.com/about-us/2025",
-    "https://nrf.com/about-us/board-directors",
-    "https://nrf.com/about-us/careers-nrf",
-    "https://nrf.com/about-us/nrf-staff"
-   ],
-   "holdout_pos": [],
-   "holdout_neg": [
-    "https://nrf.com/blog/4-ways-vote-retail-november",
-    "https://nrf.com/blog/where-shoppers-are-finding-inspiration-for-the-2026-back-to-school-season",
-    "https://nrf.com/blog/how-ulta-beauty-leverages-digital-innovation-customer-connection-and-personalization",
-    "https://nrf.com/research/retail-trade-issues-may-2025"
-   ],
-   "inference_redirected_away": [],
-   "template": [
-    [
-     "var",
-     "[a-z0-9-]+"
-    ]
-   ],
-   "version": 2,
-   "history": [
-    {
-     "version": 1,
-     "pattern": "^https://nrf\\.com/about\\-us/[a-z0-9-]+$",
-     "holdout_fn": [],
-     "listing_missed": [],
-     "sitemap_missed": 1
-    }
-   ],
-   "regression_pos": [
-    "https://nrf.com/about-us/2024",
-    "https://nrf.com/about-us/contact-us",
-    "https://nrf.com/about-us/privacy-policy",
-    "https://nrf.com/about-us/privacy-policy-eu-residents",
-    "https://nrf.com/about-us/terms-and-conditions"
-   ],
-   "regression_neg": [
-    "https://nrf.com/about-us",
-    "https://nrf.com/blog/life-out-here-continues-to-look-good-for-tractor-supply-company",
-    "https://nrf.com/blog/laying-foundation-modern-resale-thredup",
-    "https://nrf.com/podcast/why-retail-remains-stronger-than-headlines-suggest",
-    "https://nrf.com/blog/consumers-dont-want-pay-price-swipe-fees",
-    "https://nrf.com/about-us/nrf-staff/nrf-management-team"
    ]
   },
   {
@@ -3249,79 +3054,6 @@
     "https://www.braze.com/resources/webinars-and-events/global-customer-engagement-review-2025",
     "https://www.braze.com/resources/videos/establishing-human-communication-with-your-customers",
     "https://www.braze.com/resources/reports-and-guides/the-loyalty-habit"
-   ]
-  },
-  {
-   "id": "R3-S1-R120-E1-F1",
-   "entry_ids": [
-    "S1-R120-E1"
-   ],
-   "target": "https://buffer.com/resources/ 入口前缀 /resources/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://buffer\\.com/resources/[a-z0-9-]+/?$",
-   "variables": {
-    "seg0": "[a-z0-9-]+"
-   },
-   "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
-   "holdout_source": "sitemap",
-   "inference": [
-    "https://buffer.com/resources/how-buffer-helped-me-triple-my-linkedin-impressions-and-grow-my-newsletter/",
-    "https://buffer.com/resources/influencer-marketing-platforms/",
-    "https://buffer.com/resources/linkedin-collab-posts/",
-    "https://buffer.com/resources/social-media-calendar-template/",
-    "https://buffer.com/resources/youtube-shorts-ideas/"
-   ],
-   "holdout_pos": [
-    "https://buffer.com/resources/5-simple-seo-tactics/",
-    "https://buffer.com/resources/career-in-marketing/",
-    "https://buffer.com/resources/instagram-editing-apps/",
-    "https://buffer.com/resources/januel-johnson-case-study/",
-    "https://buffer.com/resources/social-media-break/",
-    "https://buffer.com/resources/why-personalization-is-the-next-big-opportunity-in-social-media-marketing/"
-   ],
-   "holdout_neg": [
-    "https://buffer.com/social-media-terms/jpeg",
-    "https://buffer.com/pt/facebook",
-    "https://buffer.com/es/start-page",
-    "https://buffer.com/social-media-terms/impressions",
-    "https://buffer.com/resources/author/hailley/",
-    "https://buffer.com/resources/author/mike-e/"
-   ],
-   "inference_redirected_away": [],
-   "template": [
-    [
-     "var",
-     "[a-z0-9-]+"
-    ]
-   ],
-   "version": 2,
-   "history": [
-    {
-     "version": 1,
-     "pattern": "^https://buffer\\.com/resources/[a-z0-9-]+/$",
-     "holdout_fn": [],
-     "listing_missed": [],
-     "sitemap_missed": 2
-    }
-   ],
-   "regression_pos": [
-    "https://buffer.com/resources/how-to-add-captions-on-tiktok/",
-    "https://buffer.com/resources/pr-agency/",
-    "https://buffer.com/resources/side-hustle-to-business/",
-    "https://buffer.com/resources/snowmelt-meetings/",
-    "https://buffer.com/resources/survive-thrive/",
-    "https://buffer.com/resources/youtube-shorts-scheduling/"
-   ],
-   "regression_neg": [
-    "https://buffer.com/resources/",
-    "https://buffer.com/fr/press",
-    "https://buffer.com/nl/publish",
-    "https://buffer.com/de/pricing",
-    "https://buffer.com/es/developer-api",
-    "https://buffer.com/resources/author/ariel-taranski/",
-    "https://buffer.com/resources/author/carlos/"
    ]
   },
   {
@@ -4030,74 +3762,6 @@
    ]
   },
   {
-   "id": "R3-S1-R126-E1-F1",
-   "entry_ids": [
-    "S1-R126-E1"
-   ],
-   "target": "https://landor.com/en/our-work/ 入口前缀 /en/our-work/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/?$",
-   "variables": {
-    "seg0": "[a-z0-9-]+"
-   },
-   "literals": {},
-   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出（无新样本：扩展前留出一半漏配样本）",
-   "slash_mode": "optional",
-   "holdout_source": "listing_split",
-   "inference": [
-    "https://landor.com/en/our-work/ao/",
-    "https://landor.com/en/our-work/iz/",
-    "https://landor.com/en/our-work/misura/",
-    "https://landor.com/en/our-work/qt/"
-   ],
-   "holdout_pos": [
-    "https://landor.com/en/our-work/access-ories",
-    "https://landor.com/en/our-work/ao",
-    "https://landor.com/en/our-work/iucnsos",
-    "https://landor.com/en/our-work/milan-symphony-orchestra",
-    "https://landor.com/en/our-work/misura",
-    "https://landor.com/en/our-work/renault"
-   ],
-   "holdout_neg": [
-    "https://landor.com/de/our-work/elica",
-    "https://landor.com/de/our-work/bp",
-    "https://landor.com/de/our-work/syensqo",
-    "https://landor.com/de/our-work/saudia-airlines"
-   ],
-   "inference_redirected_away": [],
-   "template": [
-    [
-     "var",
-     "[a-z0-9-]+"
-    ]
-   ],
-   "version": 2,
-   "history": [
-    {
-     "version": 1,
-     "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/$",
-     "holdout_fn": [],
-     "listing_missed": [],
-     "sitemap_missed": 38
-    }
-   ],
-   "regression_pos": [
-    "https://landor.com/en/our-work/bancomat/",
-    "https://landor.com/en/our-work/iucnsos/",
-    "https://landor.com/en/our-work/leshuttle/",
-    "https://landor.com/en/our-work/reykjavik-global-forum/",
-    "https://landor.com/en/our-work/saudia-airlines/",
-    "https://landor.com/en/our-work/saudia/"
-   ],
-   "regression_neg": [
-    "https://landor.com/en/our-work/",
-    "https://landor.com/de/our-work/west-loop",
-    "https://landor.com/de/our-work/ao-shearman",
-    "https://landor.com/de/our-work/kelloggs",
-    "https://landor.com/de/our-work/imperia"
-   ]
-  },
-  {
    "id": "R3-S1-R127-E1-F1",
    "entry_ids": [
     "S1-R127-E1"
@@ -4673,13 +4337,13 @@
    ],
    "target": "https://www.sistrix.com/blog/ 入口前缀 /blog/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
    "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.sistrix\\.com/blog/[a-z0-9%_-]+/?$",
+   "pattern": "^https://www\\.sistrix\\.com/blog/[a-z0-9%_-]+/$",
    "variables": {
     "seg0": "[a-z0-9%_-]+"
    },
    "literals": {},
    "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
-   "slash_mode": "optional",
+   "slash_mode": "slash",
    "holdout_source": "sitemap",
    "inference": [
     "https://www.sistrix.com/blog/core-web-vitals-wix-vs-wordpress-shopify-vs-shopware-whats-fastest/",
@@ -4690,8 +4354,8 @@
    ],
    "holdout_pos": [
     "https://www.sistrix.com/blog/ancillary-copyright-law-how-much-journalistic-content-is-found-in-google-search/",
-    "https://www.sistrix.com/blog/google-click-to-call/",
-    "https://www.sistrix.com/blog/links-and-the-medic-update/",
+    "https://www.sistrix.com/blog/google-chrome-the-end-of-third-party-cookies/",
+    "https://www.sistrix.com/blog/link-building-2019/",
     "https://www.sistrix.com/blog/people-also-search-for-the-short-click-box-in-googles-search-results/",
     "https://www.sistrix.com/blog/quality-rater-guidelines-updated-july-2022/",
     "https://www.sistrix.com/blog/the-spread-of-structured-data-on-the-web/"
@@ -4718,12 +4382,12 @@
      "pattern": "^https://www\\.sistrix\\.com/blog/[a-z0-9-]+/$",
      "holdout_fn": [],
      "listing_missed": [],
-     "sitemap_missed": 6
+     "sitemap_missed": 2
     }
    ],
    "regression_pos": [
-    "https://www.sistrix.com/blog/chatgpt-using-web-searches-less-frequently/",
-    "https://www.sistrix.com/blog/feb-2026-serps-movements-are-significant-discover-update-rolling/",
+    "https://www.sistrix.com/blog/christmas-at-sistrix-2025-you-click-we-donate/",
+    "https://www.sistrix.com/blog/march-2026-spam-update-visibility-data-analysis-and-background-updating/",
     "https://www.sistrix.com/blog/pagerank-update-112008/",
     "https://www.sistrix.com/blog/seo-2022-three-predictions-and-some-opinions/",
     "https://www.sistrix.com/blog/who-wrote-that-content-google-recommends-declaring-authors-in-markup/",

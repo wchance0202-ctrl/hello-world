@@ -58,7 +58,8 @@ def host_job(host, out, max_files, max_urls, keep=None):
             continue
         seen.add(sm)
         st, txt = get(s, sm)
-        locs = LOC.findall(txt or "") if st == 200 else []
+        # <loc> text is XML: "&amp;" in a child sitemap URL must be unescaped before requesting it
+        locs = [l.replace("&amp;", "&") for l in LOC.findall(txt or "")] if st == 200 else []
         is_index = bool(re.search(r"<sitemapindex", txt or "", re.I))
         log["files"].append({"url": sm, "status": st, "index": is_index, "locs": len(locs)})
         if is_index:
