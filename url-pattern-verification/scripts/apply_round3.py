@@ -42,6 +42,12 @@ DISCOVERY_OVERRIDES = {
     "S1-R45-E2": ("完整", "Load more 点到按钮消失时页面有 2,660 条；页面在接口还有 57 条时隐藏了按钮。"
                           "用页面自身的只读接口取 offset=2660、2695 补到 57 条（全部落地 200），合计 2,717 = 接口 hits"),
 }
+# Scope decisions made by the user: listing links that land outside the family are accepted
+# for these rules (2026-10-27). Other admission checks still apply.
+USER_ACCEPTED_REDIRECTS = {
+    "R3-S1-R121-E1-F1", "R3-S1-R114-E1-F1", "R3-S1-R117-E1-F1", "R3-S1-R123-E4-F1", "R3-S1-R19-E4-F1",
+}
+USER_DECISION_NOTE = "用户 2026-10-27 确认：接受部分列表链接跳到家族外页面"
 # links confirmed outside the listing UI (entry -> jsonl of landing checks)
 EXTRA_RETAINED = {"S1-R45-E1": "yougov/tail-landing.jsonl", "S1-R45-E2": "yougov/tail-landing.jsonl"}
 
@@ -101,12 +107,20 @@ def main(out):
         # a redirect that lands on another member of the same family (renamed slug) is an alias,
         # not a miss; only landings outside the rule count
         away = [(u, fin) for u, fin in fr["inference_redirected_away"] if not rx.fullmatch(fin or "")]
+        decisions = []
         if away:
-            reasons.append(f"归纳样本跳到家族外页面 {len(away)}：" + "；".join(f"{u} → {fin}" for u, fin in away[:3]))
+            msg = f"归纳样本跳到家族外页面 {len(away)}：" + "；".join(f"{u} → {fin}" for u, fin in away[:3])
+            if rid in USER_ACCEPTED_REDIRECTS:
+                decisions.append(f"{msg}（{USER_DECISION_NOTE}）")
+            else:
+                reasons.append(msg)
         if cv["matched_outside_structure"]:
             reasons.append(f"匹配到家族结构外的 sitemap URL {len(cv['matched_outside_structure'])}")
         if rid in RULE_OVERRIDES:
-            reasons.append(RULE_OVERRIDES[rid])
+            if rid in USER_ACCEPTED_REDIRECTS:
+                decisions.append(f"{RULE_OVERRIDES[rid]}（{USER_DECISION_NOTE}）")
+            else:
+                reasons.append(RULE_OVERRIDES[rid])
         h = nr["metrics"]["holdout"]
         rec = {"id": rid, "entry_ids": fr["entry_ids"], "target": fr["target"], "family": fr["family"],
                "pattern": fr["pattern"], "variables": fr["variables"], "literals": fr["literals"],
@@ -115,7 +129,8 @@ def main(out):
                "coverage": {k: (v if not isinstance(v, list) else v[:20]) for k, v in cv.items()},
                "samples": {"inference": fr["inference"], "holdout_pos": fr["holdout_pos"], "holdout_neg": fr["holdout_neg"],
                            "regression_pos": fr.get("regression_pos", []), "regression_neg": fr.get("regression_neg", [])},
-               "version": fr.get("version", 1), "history": fr.get("history", [])}
+               "version": fr.get("version", 1), "history": fr.get("history", []),
+               "user_decisions": decisions}
         fam_members = next(len(f["members"]) for f in fams[fr["entry_ids"][0]]["families"] if f["id"] == rid)
         if not reasons:
             rec["status"] = "已验证"

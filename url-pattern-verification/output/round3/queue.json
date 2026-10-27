@@ -48,7 +48,7 @@
   "queue_id": "S1-R19-E4-R3-rule-F1",
   "entry_id": "S1-R19-E4",
   "url": "https://www.wipo.int/en/web/patentscope/",
-  "action": "R3-S1-R19-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）；归纳样本跳到家族外页面 1：https://www.wipo.int/en/web/patentscope/webinar → https://www.wipo.int/en/web/patentscope/webinar/index",
+  "action": "R3-S1-R19-E4-F1：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）",
   "reason": "规则未达正式准入",
   "cursor": null,
   "status": "pending"
@@ -482,69 +482,6 @@
   "url": "https://www.adjust.com/blog/",
   "action": "站点拦截或无响应：需要授权的访问方式、白名单或人工浏览器核验；不绕过",
   "reason": "访问受限",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R114-E1-R3-gap-F1",
-  "entry_id": "S1-R114-E1",
-  "url": "https://amplitude.com/resources",
-  "action": "R3-S1-R114-E1-F1：sitemap 有 152 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R114-E1-R3-rule-F1",
-  "entry_id": "S1-R114-E1",
-  "url": "https://amplitude.com/resources",
-  "action": "R3-S1-R114-E1-F1：归纳样本跳到家族外页面 1：https://amplitude.com/resources/forrester-wave-report → https://amplitude.com/blog/roi-of-amplitude",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R117-E1-R3-gap-F1",
-  "entry_id": "S1-R117-E1",
-  "url": "https://www.branch.io/resources/",
-  "action": "R3-S1-R117-E1-F1：sitemap 有 1321 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R117-E1-R3-rule-F1",
-  "entry_id": "S1-R117-E1",
-  "url": "https://www.branch.io/resources/",
-  "action": "R3-S1-R117-E1-F1：归纳样本跳到家族外页面 1：https://www.branch.io/resources/news/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop/ → https://www.prnewswire.com/news-releases/branch-expands-ai-measurement-with-chatgpt-ads-attribution-across-app-web-and-desktop-302888520.html",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R121-E1-R3-gap-F1",
-  "entry_id": "S1-R121-E1",
-  "url": "https://contentsquare.com/blog/",
-  "action": "R3-S1-R121-E1-F1：sitemap 有 9 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",
-  "reason": "范围对账缺口",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R121-E1-R3-rule-F1",
-  "entry_id": "S1-R121-E1",
-  "url": "https://contentsquare.com/blog/",
-  "action": "R3-S1-R121-E1-F1：第 2 轮已知 3 个列表链接被匹配但跳到非文章页（/blog/、/guides/ux-design/），是否接受由用户决定",
-  "reason": "规则未达正式准入",
-  "cursor": null,
-  "status": "pending"
- },
- {
-  "queue_id": "S1-R123-E4-R3-rule-F1",
-  "entry_id": "S1-R123-E4",
-  "url": "https://blog.hubspot.com/website",
-  "action": "R3-S1-R123-E4-F1：归纳样本跳到家族外页面 2：https://blog.hubspot.com/website/html-elements → https://blog.hubspot.com/website；https://blog.hubspot.com/website/html-span → https://blog.hubspot.com/website",
-  "reason": "规则未达正式准入",
   "cursor": null,
   "status": "pending"
  },
