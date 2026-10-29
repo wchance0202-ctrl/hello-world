@@ -1,0 +1,74 @@
+{
+ "url": "https://survey.jd.com/page/ecological",
+ "observed_at": "2026-10-29T08:51:41.251Z",
+ "method": "playwright-chromium",
+ "final_url": "https://survey.jd.com/page/ecological",
+ "status": 200,
+ "error": null,
+ "title": "京洞察-京东官方市场调研与新品孵化平台",
+ "h1": "生态合作",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 6,
+   "new_in_prefix": 6,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 6,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://sso.jd.com/sso/rac?t=1793263908372&r=PeCD0JVCBG&s=20261029085151448%3Be5b5pyp5bmjiyyy3%3B73806%3Btk06wf602cea641lfUL6h4nAfZ-6pj7fyGUNCCVQJWoPyqUeJWYSrrbrKRz11lFOGeVO3aGY_eIV5XGS7TYf5fIf5PYS%3B0ff633f18a0a21f9cb3109c7fd04c052c3f9b7866f750276846f74401fc2056b%3B5.3%3B1793263908448%3Bof7ruCLj4HUNyGFR_iVe7GkP2jVeGipjxjpPFipjLDrg3foezrYd4TIf4H4e6rJdJbEjLrJp-jZaqWXb_CVQmiGWJrJdJbYf2iFjLrJp-bojxjJ"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/request_algo"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/behavior_report"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/behavior_report"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://survey.jd.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://survey.jd.com/contact.htm#key=concat",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://answer.jd.com/answer/ankJEnfawAZ/1773626.htm",
+   "text": "问题反馈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jdcs.jd.com/chat/index.action?venderId=agile_182635987494&entry=jdc_chat",
+   "text": "在线客服",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://survey.jd.com/help.htm",
+   "text": "帮助中心",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jd.com/",
+   "text": "京东商城",
+   "region": "FOOTER"
+  }
+ ]
+}

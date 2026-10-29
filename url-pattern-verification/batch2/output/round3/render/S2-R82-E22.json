@@ -1,0 +1,1257 @@
+{
+ "url": "https://www.jiemian.com/lists/841.html",
+ "observed_at": "2026-10-29T08:59:20.989Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/841.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/841.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "物流_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 246,
+   "new_in_prefix": 246,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 246,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/440.html",
+   "text": "物流清单",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "AI货品成空运“新贵”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "高端制造将成为空运“新支柱”角色。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "咨询客服就算投诉快递员？圆通、韵达、中通等回应",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "圆通速递和韵达快递客服人员对界面新闻均否认了“咨询即投诉”的说法。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "净零框架难产，航运脱碳摇摆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "减排方向已定，但监管框架迟迟未落地，让押注绿色燃料的企业进退失据。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "AI货品成空运“新贵”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "高端制造将成为空运“新支柱”角色。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "咨询客服就算投诉快递员？圆通、韵达、中通等回应",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "圆通速递和韵达快递客服人员对界面新闻均否认了“咨询即投诉”的说法。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "净零框架难产，航运脱碳摇摆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "减排方向已定，但监管框架迟迟未落地，让押注绿色燃料的企业进退失据。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "AI货品成空运“新贵”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15246035.html",
+   "text": "高端制造将成为空运“新支柱”角色。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "咨询客服就算投诉快递员？圆通、韵达、中通等回应",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229890.html",
+   "text": "圆通速递和韵达快递客服人员对界面新闻均否认了“咨询即投诉”的说法。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "净零框架难产，航运脱碳摇摆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15224892.html",
+   "text": "减排方向已定，但监管框架迟迟未落地，让押注绿色燃料的企业进退失据。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15209035.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15209035.html",
+   "text": "受连年亏损拖累，快狗打车1元出售内地业务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15209035.html",
+   "text": "退出内地快狗打车品牌运营，业务重心转向香港及海外 GOGOX 业务，公司同时提议更改中文名称为 GOGO 科技。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15127091.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15127091.html",
+   "text": "深入千亿铝产业带：加工费之外，如何算好“物流账”？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15127091.html",
+   "text": "随着大宗制造产业数字化转型加速，一个个垂直产业带的物流服务实践，正在为平台打开广阔的成长空间。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15007047.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15007047.html",
+   "text": "顺丰回应“变相降薪”：属薪资优化，整体支出将略有增加",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15007047.html",
+   "text": "此次调整仅针对总部职能，不涉及一、二线员工。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14964891.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14964891.html",
+   "text": "日均包裹量首破亿件，全球狂奔的极兔找到盈利舒适点了吗？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14964891.html",
+   "text": "极兔的全球化打法效果已显现。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=113008744",
+   "text": "白帆BF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14953113.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14953113.html",
+   "text": "净利增三成、指引两连降，中通快递的进与退",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14953113.html",
+   "text": "加盟制快递一哥的盈利拐点，在反内卷的第二年如约而至。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=113008744",
+   "text": "白帆BF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14899737.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14899737.html",
+   "text": "被立案调查一个多月后，极兔速递因全网安全管控缺位被罚7万元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14899737.html",
+   "text": "6月11日，国家邮政局对外公示，因极兔品牌总部存在明显的安全生产管理缺位问题，启动立案核查程序。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14815608.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14815608.html",
+   "text": "中企出海大潮能撑起马士基的供应链“超级赌局”吗？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14815608.html",
+   "text": "全球供应链的建设浪潮，刚刚拉开竞争的序章。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=113008744",
+   "text": "白帆BF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14680452.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14680452.html",
+   "text": "一款穿戴式AI硬件，如何填补物流行业数字化管理缺口",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14680452.html",
+   "text": "原本“脱管”的车下场景，迎来物流AI的智能化改造。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14679794.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14679794.html",
+   "text": "中国空调在欧洲卖爆，京东物流、菜鸟也闷声赚大发了",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14679794.html",
+   "text": "京东Joybuy空调产品销售环比六月第一周激增近40倍；菜鸟海外仓移动空调出库单量同比增长近18倍。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14560863.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14560863.html",
+   "text": "丰巢取件先得看广告，公司回应：暂无法关闭",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14560863.html",
+   "text": "丰巢并非唯一试水强制广告的快递柜品牌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14507172.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14507172.html",
+   "text": "嘉兴机场国际货运首航，长三角航空货运的总盘子要变大了",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14507172.html",
+   "text": "浦东机场侧重国际航空枢纽和洲际货运，嘉兴机场则聚焦成本效率更高的跨境货物集拼。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14475068.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14475068.html",
+   "text": "菜鸟用Zeebot竞逐物流科技，真正实现“黑灯仓库”还有多远？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14475068.html",
+   "text": "“大家都以为实现全流程物流机器人操作很简单，实际并非如此。”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14437876.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14437876.html",
+   "text": "无人城配浪潮将至，新石器抢先布局物流新赛道",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14437876.html",
+   "text": "无人货运的上半场是造车竞赛，下半场是运力服务生态的对决。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=113008744",
+   "text": "白帆BF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14376084.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14376084.html",
+   "text": "圆通“重仓”中亚：航线恢复率超600%、跨境物流持续升温",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14376084.html",
+   "text": "圆通乌鲁木齐新疆总部基地已经启用，还在阿拉木图推进“天地港”枢纽建设，目标辐射中亚、通往欧洲。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14313611.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14313611.html",
+   "text": "【出海头条】菜鸟试水德国电池仓，一家主打“电商包裹”的中企如何闯荡欧洲高端物流生意",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14313611.html",
+   "text": "特殊品类业务被本地物流巨头割据，菜鸟“摸索着前进”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227773.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227773.html",
+   "text": "中通快递正式入局航空货运，开通首条中欧航线",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227773.html",
+   "text": "中通快递旗下中通航空首架A330全货机启航。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14117604.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14117604.html",
+   "text": "安能物流发声明否认被中通快运并购，退市后聚焦核心业务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14117604.html",
+   "text": "安能物流称，相关内容失实，纯属恶意捏造，已对公司商誉造成不良影响。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14092679.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14092679.html",
+   "text": "四大远洋航线运价走高，中东战事下船司“进退两难”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14092679.html",
+   "text": "盈利前景仍未明朗，但成本与风险双双上升，已成为船公司的确定性压力。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14076008.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14076008.html",
+   "text": "霍尔木兹海峡困局致全球海运“大混乱”：停止订舱、提前卸货、港口拥堵、船舶滞留、运费剧增",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14076008.html",
+   "text": "除海运外，跨境快递行业也大面积暂停运营。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=113008744",
+   "text": "白帆BF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14018405.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14018405.html",
+   "text": "京东航空的第一架空客A330，飞出了什么新信号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14018405.html",
+   "text": "京东航空可以将电商平台供应链与航空网络逐绑定，形成闭环式的跨境物流体系。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14001621.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14001621.html",
+   "text": "海运板块亏损显著，马士基在运价寒潮下加速布局“双子星网络”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14001621.html",
+   "text": "马士基预计双子星联盟每年将带来8.2亿至11亿美元的协同收益。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120933214",
+   "text": "陈怡轩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

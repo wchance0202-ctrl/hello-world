@@ -1,0 +1,32 @@
+{
+ "url": "https://www.sensorsdata.cn/target_disassembly.html",
+ "observed_at": "2026-10-29T08:54:09.459Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.sensorsdata.cn/target_disassembly.html",
+ "status": 200,
+ "error": null,
+ "title": "指标拆解工具｜数据指标体系查询平台-神策数据",
+ "h1": "指标拆解工具",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 1,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 1,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.sensorsdata.cn/compliance/privacy.html",
+   "text": "《隐私政策》",
+   "region": "BODY"
+  }
+ ]
+}

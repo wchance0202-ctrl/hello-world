@@ -1,0 +1,812 @@
+{
+ "target_engine": "re2",
+ "engine": "re2",
+ "engine_module": "re2",
+ "rules": [
+  {
+   "id": "R3H-S2-R56-E1-F1",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/news/[0-9]+$"
+  },
+  {
+   "id": "R3H-S2-R56-E2-F1",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/report/[0-9]+$"
+  },
+  {
+   "id": "R3H-S2-R56-E3-F1",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/cases/[0-9]+/1$"
+  },
+  {
+   "id": "R3H-S2-R58-E1-F1",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-case/article\\-detail\\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$"
+  },
+  {
+   "id": "R3H-S2-R58-E2-F1",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-wiki/article\\-detail\\?id=[a-z0-9]+&pkey=insight&skey=ai$"
+  },
+  {
+   "id": "R3H-S2-R58-E3-F1",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-wiki/article\\-detail\\?id=[a-z0-9]+&pkey=wiki&skey=popularization$"
+  },
+  {
+   "id": "R3H-S2-R138-E1-F1",
+   "pattern": "^https://learn\\.incopat\\.com/\\#/pages/course/detail\\?id=[0-9]+$"
+  }
+ ],
+ "tests": [
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2156",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2156",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2158",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2158",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2161",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2161",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2164",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2164",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2165",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2165",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2154",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2154",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2155",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2155",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2556",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2556",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2621",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2621",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2623",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2623",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2625",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2625",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2627",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2627",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2628",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/report/2628",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2624",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/report/2624",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report/2626",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/report/2626",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/report",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/report"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1858/1",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1858/1",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2154",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2154"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2155",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2155"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2156",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2156"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2157",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2157"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2158",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2158"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2161",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/news/2161"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b63146ec9d2165f843cf&pkey=example&skey=appliance",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b63146ec9d2165f843cf&pkey=example&skey=appliance",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b73aea0f3c12e22dca46&pkey=example&skey=beauty",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b73aea0f3c12e22dca46&pkey=example&skey=beauty",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b802ad2d0c19bdc1cab2&pkey=example&skey=other",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b802ad2d0c19bdc1cab2&pkey=example&skey=other",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b930fd3ecc132feea676&pkey=example&skey=other",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b930fd3ecc132feea676&pkey=example&skey=other",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fde039aa151c6ba62123&pkey=example&skey=appliance",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fde039aa151c6ba62123&pkey=example&skey=appliance",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fead02c84d1c728c8c1b&pkey=example&skey=appliance",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fead02c84d1c728c8c1b&pkey=example&skey=appliance",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ad3750b3ae5721c04411eb3&pkey=example&skey=appliance",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ad3750b3ae5721c04411eb3&pkey=example&skey=appliance",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2ff7174a6b21c0f478858&pkey=example&skey=clothes",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2ff7174a6b21c0f478858&pkey=example&skey=clothes",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-case/index",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-case/index"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-insight/index"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E2-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f1662a0b51c2a44c54c&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f1662a0b51c2a44c54c&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f3676b59e1cc049c73c&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f3676b59e1cc049c73c&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f8564084717bf2e26e1&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f8564084717bf2e26e1&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fab491ce919e9d219f8&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fab491ce919e9d219f8&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fd4fe31a91c0d687eef&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fd4fe31a91c0d687eef&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f642ccac71c16b4e4b8&pkey=wiki&skey=popularization",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f642ccac71c16b4e4b8&pkey=wiki&skey=popularization",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/index",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/index"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  },
+  {
+   "rule_id": "R3H-S2-R58-E3-F1",
+   "url": "https://www.alimama.com/index.htm#!/marketing-wiki/index?skeys=answer",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://www.alimama.com/index.htm#!/marketing-wiki/index?skeys=answer"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=419",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=419",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=420",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=420",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=421",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=421",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=422",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=422",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=423",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=423",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=425",
+   "expected": true,
+   "split": "inference",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=425",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=418",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=418",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/pages/course/detail?id=424",
+   "expected": true,
+   "split": "holdout",
+   "source_id": "https://learn.incopat.com/#/pages/course/detail?id=424",
+   "identity": "normal"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://learn.incopat.com/#/",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://learn.incopat.com/#/"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1853/1"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1854/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1854/1"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1855/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1855/1"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1"
+  },
+  {
+   "rule_id": "R3H-S2-R138-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1857/1",
+   "expected": false,
+   "split": "holdout",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1857/1"
+  }
+ ],
+ "excluded_records": [
+  {
+   "rule_id": "R3H-S2-R56-E1-F1",
+   "url": "https://e.kuaishou.com/#/e/news/2157",
+   "expected": null,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/news/2157",
+   "note": "直接打开未找到卡片标题，不作为正例"
+  },
+  {
+   "rule_id": "R3H-S2-R56-E3-F1",
+   "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "expected": null,
+   "split": "inference",
+   "source_id": "https://e.kuaishou.com/#/e/cases/1856/1",
+   "note": "直接打开未找到卡片标题，不作为正例"
+  }
+ ]
+}

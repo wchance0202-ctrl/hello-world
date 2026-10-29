@@ -1,0 +1,531 @@
+{
+ "url": "https://a.newrank.cn/trade/news/",
+ "observed_at": "2026-10-29T08:55:54.516Z",
+ "method": "playwright-chromium",
+ "final_url": "https://a.newrank.cn/trade/news/",
+ "status": 200,
+ "error": null,
+ "title": "新榜有赚_以数据驱动新媒体营销_私域营销获客",
+ "h1": "新榜有赚",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 99,
+   "new_in_prefix": 99,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 99,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://gw.newrank.cn/api/internalUser/nr/user/info/getLoginUser?nonce=6b4270c38&xyz=c65da4dea16f45cf5227c015a3591a24"
+  },
+  {
+   "method": "GET",
+   "url": "https://a.newrank.cn/xdnphb/ade/v1/api/market/getEducationalInfo?nonce=c26ab7d08&xyz=1ea379082361fa5c4dff00ae1b54ac49"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://a.newrank.cn/trade/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/",
+   "text": "首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/",
+   "text": "营销服务",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/",
+   "text": "流量赚钱",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/",
+   "text": "服务案例",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/",
+   "text": "行业洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/contact",
+   "text": "关于我们",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/app",
+   "text": "APP新媒体推广",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/travel",
+   "text": "文旅新媒体推广",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/amateurPeoplePush",
+   "text": "小红书素人推广",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/aiSearch",
+   "text": "AI搜索营销",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/officialAccount",
+   "text": "投公众号",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/officialAccount",
+   "text": "自媒宝",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/officialAccount",
+   "text": "互选宝",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/amateurPeoplePush",
+   "text": "小红书素人推广",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "达人推广",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "小红书",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "抖音",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "B站",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/video_project",
+   "text": "视频号",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "快手",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "微博",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/n/feeds",
+   "text": "小红书聚光投放",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/marketplace/market/recommend",
+   "text": "爆文灵感库",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/media?from=121",
+   "text": "公众号接单",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://edit.newrank.cn//detail.html?uuid=69D2EE4CE2228ECE84CBB33FFAF0C1A6&source=10000&l=yz_xmtqy-main_yz_dptjd",
+   "text": "多平台接单",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/internet",
+   "text": "互联网科技",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/study",
+   "text": "教育",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/clothing",
+   "text": "美妆服饰",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/commerce",
+   "text": "直播电商",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/health",
+   "text": "健康养生",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/case/food",
+   "text": "美食",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/view",
+   "text": "深度观察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/put",
+   "text": "推广投放",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/get",
+   "text": "接单变现",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/media",
+   "text": "新媒体运营",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/operation",
+   "text": "运营动态",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/report?url=http://s.sqllb.com/HbUtT",
+   "text": "2023在线职业教育社媒私域营销报告",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/report?url=http://s.sqllb.com/Bt7xwj",
+   "text": "2022家居家装行业直播营销报告",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/report?url=http://s.sqllb.com/CfU07T",
+   "text": "2022抖音美食探店生态报告",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/report?url=http://s.sqllb.com/0sa9x",
+   "text": "2021外卖红包深度研究报告",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.newrank.cn/?source=9507&keyword=yzdb",
+   "text": "新榜官网",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/view",
+   "text": "深度观察",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/put",
+   "text": "推广投放",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/get",
+   "text": "接单变现",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/media",
+   "text": "新媒体运营",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/operation",
+   "text": "运营动态",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/view",
+   "text": "有赚资讯",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/1213",
+   "text": "素人种草",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4429",
+   "text": "GEO优化",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4428",
+   "text": "geo",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/1214",
+   "text": "素人推广",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2501",
+   "text": "媒介投放",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18236",
+   "text": "GEO优化服务商",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/10044",
+   "text": "GEO营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2500",
+   "text": "小红书种草",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/119",
+   "text": "内容营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18234",
+   "text": "GEO优化系统",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/13503",
+   "text": "GEO服务商",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18225",
+   "text": "GEO营销服务商",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2220",
+   "text": "品牌合作",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2938",
+   "text": "小红书种草推广",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/12528",
+   "text": "GEO优化公司",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/25",
+   "text": "达人探店",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18300",
+   "text": "GEO服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/1215",
+   "text": "品牌营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4430",
+   "text": "ai搜索优化",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18218",
+   "text": "GEO管理系统",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4431",
+   "text": "AI营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2502",
+   "text": "品牌方",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2550",
+   "text": "素人推服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2506",
+   "text": "达人商务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2513",
+   "text": "种草",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2504",
+   "text": "品牌方合作",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2505",
+   "text": "品牌方pr",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2519",
+   "text": "新榜素人推",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18221",
+   "text": "GEO营销推广",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2503",
+   "text": "品牌公关",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4433",
+   "text": "豆包",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2507",
+   "text": "蹲蹲品牌方",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/639",
+   "text": "deepseek",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4434",
+   "text": "AI排名",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4427",
+   "text": "AISEO",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/4432",
+   "text": "数字营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18219",
+   "text": "GEO营销系统",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2549",
+   "text": "KOL营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/2548",
+   "text": "KOL",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/news/search/18235",
+   "text": "GEO优化工具",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/cpc_project/project_list",
+   "text": "公众号投放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/video_project",
+   "text": "视频号投放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/new_task_manager",
+   "text": "达人推广",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/user/cpc_action/wx_aticle?from=123",
+   "text": "公众号接单",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/user/videotreasure_action",
+   "text": "视频号接单",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/user/task_rwb",
+   "text": "任务接单",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.newrank.cn/help_list.html?page=1&menu=71",
+   "text": "常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.newrank.cn/help_detail.html?uuid=62C5BEB3468AC10FD5F65D8BE47E88FC",
+   "text": "投放指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.newrank.cn/help_detail.html?uuid=A03A4ACC89036066AE26177DDEC17AD5",
+   "text": "接单发布",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.newrank.cn/public/about/about.html",
+   "text": "公司简介",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.newrank.cn/?source=9507&keyword=yzdb",
+   "text": "新榜官网",
+   "region": "BODY"
+  }
+ ]
+}

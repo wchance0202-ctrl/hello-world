@@ -1,0 +1,3164 @@
+{
+ "url": "https://www.cbndata.com/report",
+ "observed_at": "2026-10-29T08:50:31.966Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.cbndata.com/report?page=21",
+ "status": 200,
+ "error": null,
+ "title": "研究报告-数据报告-消费行业研究报告 | CBNData",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 50,
+   "new_in_prefix": 50,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 78,
+   "new_in_prefix": 19,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 106,
+   "new_in_prefix": 18,
+   "clicked": null
+  },
+  {
+   "round": 3,
+   "anchors": 131,
+   "new_in_prefix": 16,
+   "clicked": null
+  },
+  {
+   "round": 4,
+   "anchors": 157,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 5,
+   "anchors": 185,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 6,
+   "anchors": 215,
+   "new_in_prefix": 18,
+   "clicked": null
+  },
+  {
+   "round": 7,
+   "anchors": 240,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 8,
+   "anchors": 269,
+   "new_in_prefix": 19,
+   "clicked": null
+  },
+  {
+   "round": 9,
+   "anchors": 294,
+   "new_in_prefix": 15,
+   "clicked": null
+  },
+  {
+   "round": 10,
+   "anchors": 321,
+   "new_in_prefix": 18,
+   "clicked": null
+  },
+  {
+   "round": 11,
+   "anchors": 348,
+   "new_in_prefix": 15,
+   "clicked": null
+  },
+  {
+   "round": 12,
+   "anchors": 373,
+   "new_in_prefix": 17,
+   "clicked": null
+  },
+  {
+   "round": 13,
+   "anchors": 398,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 14,
+   "anchors": 427,
+   "new_in_prefix": 16,
+   "clicked": null
+  },
+  {
+   "round": 15,
+   "anchors": 455,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 16,
+   "anchors": 480,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 17,
+   "anchors": 507,
+   "new_in_prefix": 14,
+   "clicked": null
+  },
+  {
+   "round": 18,
+   "anchors": 533,
+   "new_in_prefix": 13,
+   "clicked": null
+  },
+  {
+   "round": 19,
+   "anchors": 557,
+   "new_in_prefix": 13,
+   "clicked": null
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://api-next.cbndata.com/consumerstation/web/home/v1/tags?locationType=report"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-DP6Y92MRRW&gtm=45je6ar1v882898291za20oxf1&_p=1793263836028&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&cid=645514316.1793263837&frm=0&ir=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938466"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=2&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=3&per=12"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-DP6Y92MRRW&gtm=45je6ar1v882898291za20gxf1&_p=1793263836028&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EEAIAGQ&ae=a&cid=645514316.1793263837&frm=0&ir=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=115938466~1"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=4&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=5&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=6&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=7&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=8&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=9&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=10&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=11&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=12&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=13&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=14&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=15&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=16&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=17&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=18&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=19&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=20&per=12"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.cbndata.com/api/v2/report_products?tags[]=all&page=21&per=12"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.cbndata.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/home",
+   "text": "首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/report",
+   "text": "报告",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/information",
+   "text": "看点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/ranklist",
+   "text": "榜单\nNEW",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/activity",
+   "text": "活动",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/cbndatabox-new",
+   "text": "CBNDataBOX",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3366/detail",
+   "text": "1.\n2026淘宝天猫婴童卫浴趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3368/detail",
+   "text": "2.\n家的友好高度：2026天猫居家适老化趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3369/detail",
+   "text": "3.\n2026中国成人护理与家庭照护趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3370/detail",
+   "text": "4.\n了不起的小花园：全龄女性私处护理指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://kiwoo.work/?utm_source=cbndata&utm_content=report_sidebar",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://kiwoo.work/?utm_source=cbndata&utm_content=report_sidebar",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3370/detail",
+   "text": "了不起的小花园：全龄女性私处护理指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B4%97%E6%8A%A4%E6%B8%85%E6%B4%81",
+   "text": "洗护清洁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3369/detail",
+   "text": "2026中国成人护理与家庭照护趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%B6%E5%BA%AD%E4%BF%9D%E5%81%A5",
+   "text": "家庭保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3368/detail",
+   "text": "家的友好高度：2026天猫居家适老化趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BD%8F%E5%AE%85%E5%AE%B6%E5%85%B7",
+   "text": "住宅家具",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%93%B6%E5%8F%91%E6%97%8F",
+   "text": "银发族",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3366/detail",
+   "text": "2026淘宝天猫婴童卫浴趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A9%B4%E7%AB%A5%E7%94%A8%E5%93%81",
+   "text": "婴童用品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A9%B4%E5%B9%BC%E5%84%BF",
+   "text": "婴幼儿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%AF%8D%E5%A9%B4",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3365/detail",
+   "text": "AI搜索时代：2026品牌营销策略洞察——智能硬件篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9AI%E8%A7%82%E5%AF%9F",
+   "text": "消费AI观察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3364/detail",
+   "text": "2026打工人夏日崩溃瞬间报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3363/detail",
+   "text": "全民升舱白皮书VI",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3362/detail",
+   "text": "中国时尚消费品牌出海趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%97%B6%E5%B0%9A%E7%BB%8F%E6%B5%8E",
+   "text": "时尚经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%87%BA%E6%B5%B7",
+   "text": "出海",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3361/detail",
+   "text": "Fit Life 自在健康 · 2026健康生活消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3360/detail",
+   "text": "2026年B站年轻人AI智能硬件消费洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9AI%E8%A7%82%E5%AF%9F",
+   "text": "消费AI观察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3359/detail",
+   "text": "上海环球美食发展及趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3358/detail",
+   "text": "螺蛳粉行业品质标准白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3356/detail",
+   "text": "橱窗里的美好商业：2026体验经济趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3355/detail",
+   "text": "关节健康，吸收有道——氨糖消费进阶与选购新主张",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3354/detail",
+   "text": "美妆品牌的“中国首站”与消费新图景",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3353/detail",
+   "text": "体感科学：舒适感知的底层机制与评价体系",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3352/detail",
+   "text": "我们的合声-2026女性品质生活洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A5%B3%E6%80%A7",
+   "text": "女性",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3350/detail",
+   "text": "2025年织物与家居清洁市场趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8",
+   "text": "居家日用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3349/detail",
+   "text": "2026脊椎健康与睡眠白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3347/detail",
+   "text": "药食同源市场趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3346/detail",
+   "text": "2025年消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3345/detail",
+   "text": "开物 · 2025中国消费品牌智能创新白皮书（电子简版）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3341/preview",
+   "text": "【6.3折】2025中国消费品牌智能创新白皮书+2024中国消费品牌增长力白皮书+2023营销报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3342/preview",
+   "text": "【5.7折】2025白皮书+2024增长力白皮书+2023增长力白皮书+2023营销报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3338/preview",
+   "text": "【6.2折】双年套餐：2025中国消费品牌智能创新白皮书+2024中国消费品牌增长力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3341/preview",
+   "text": "【6.3折】2025中国消费品牌智能创新白皮书+2024中国消费品牌增长力白皮书+2023营销报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3337/preview",
+   "text": "【现货】2025中国消费品牌智能创新白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3342/preview",
+   "text": "【5.7折】2025白皮书+2024增长力白皮书+2023增长力白皮书+2023营销报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3339/preview",
+   "text": "【7折】三年套餐：2025中国消费品牌智能创新白皮书+2024增长力白皮书+2023增长力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3340/preview",
+   "text": "【6折】2025中国消费品牌智能创新白皮书+2023消费品牌流量营销进阶趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2025%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2025中国消费品牌智能创新大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3335/detail",
+   "text": "2025年AI玩具市场机会洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+   "text": "人工智能",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87",
+   "text": "智能设备",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3334/detail",
+   "text": "2025户外生活方式白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%94%9F%E6%B4%BB%E6%9C%8D%E5%8A%A1",
+   "text": "生活服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%88%B7%E5%A4%96",
+   "text": "户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3331/detail",
+   "text": "天猫服饰12月刊：趋势解码·上新日历",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3333/detail",
+   "text": "2025商业风口及未来商机洞察：线上家电市场概览",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B0%8F%E5%AE%B6%E7%94%B5",
+   "text": "小家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%AE%B6%E7%94%B5",
+   "text": "大家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3330/detail",
+   "text": "2025即时零售场景消费新图鉴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E9%9B%B6%E5%94%AE",
+   "text": "新零售",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E5%94%AE%E4%B8%9A",
+   "text": "零售业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3329/detail",
+   "text": "天猫服饰11月刊：趋势解码·上新日历",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3328/detail",
+   "text": "【魔镜洞察】2025年中国洗衣液香氛趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B4%97%E6%8A%A4%E6%B8%85%E6%B4%81",
+   "text": "洗护清洁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3327/detail",
+   "text": "“脆皮”潮下的健康突围ACE止脆方案",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3325/detail",
+   "text": "2025肛周微生态健康管理白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3324/detail",
+   "text": "天猫服饰10月刊：趋势解码·上新日历",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3323/detail",
+   "text": "2025抖音电商时尚红人之书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3321/detail",
+   "text": "从「所有女生的OFFER」看中国消费市场五年之变",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7",
+   "text": "直播带货",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3320/detail",
+   "text": "【魔镜洞察】四大人群健康与保健食品洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BF%9D%E5%81%A5%E5%93%81",
+   "text": "保健品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3318/detail",
+   "text": "2025大码贴身衣物趋势洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%86%85%E8%A1%A3",
+   "text": "内衣",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3317/detail",
+   "text": "让氛围持续心动：2025氛围感就餐趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3316/detail",
+   "text": "《2025高科技鹅绒行业标准白皮书》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3315/detail",
+   "text": "2025半年度消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3314/detail",
+   "text": "2025海参滋补趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3313/detail",
+   "text": "2025米粉行业发展报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3312/detail",
+   "text": "云贵菜发展报告2025",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3311/detail",
+   "text": "天猫服饰潮流速报（8月刊）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3310/detail",
+   "text": "2025年中国眼健康全行业全品类洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3309/detail",
+   "text": "2025开放式耳机品类趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%95%B0%E7%A0%813C",
+   "text": "数码3C",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3308/detail",
+   "text": "2025天猫皮肤科学美容趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3307/detail",
+   "text": "天猫服饰潮流速报（7月刊)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3305/detail",
+   "text": "育无定式，爱有共识 | 2025巨量引擎母婴行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%AF%8D%E5%A9%B4",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3302/detail",
+   "text": "请回答·2025新健康消费生活趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3304/detail",
+   "text": "2025抖音电商护肤趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3303/detail",
+   "text": "2025运动户外圈层人群洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3301/detail",
+   "text": "让情绪有着落——2025情绪营销8大趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3300/detail",
+   "text": "天猫服饰潮流速报（6月刊）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3299/detail",
+   "text": "2025科技内衣趋势洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%86%85%E8%A1%A3",
+   "text": "内衣",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%A7%91%E6%8A%80",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3298/detail",
+   "text": "2025衣物清洁多元化发展趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B4%97%E6%8A%A4%E6%B8%85%E6%B4%81",
+   "text": "洗护清洁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3297/detail",
+   "text": "天猫服饰潮流速报（5月B刊）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3294/detail",
+   "text": "CBNData X 博世 2025中国消费者健康家洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B0%8F%E5%AE%B6%E7%94%B5",
+   "text": "小家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%AE%B6%E7%94%B5",
+   "text": "大家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3296/detail",
+   "text": "2024-2025健康营养行业品牌渠道发展洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3295/detail",
+   "text": "解码发酵蛋白：消费者洞察与沟通优化指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3293/detail",
+   "text": "阿里妈妈618经营蓝宝书：行业人群投资指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%8A%82%E7%82%B9",
+   "text": "营销节点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3292/detail",
+   "text": "天猫服饰潮流速报（5月A刊）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3291/detail",
+   "text": "天猫服饰潮流速报（4月B刊）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3290/detail",
+   "text": "2025抖音电商品牌服饰秋冬趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3289/detail",
+   "text": "2025隐形眼镜行业报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8C%BB%E7%96%97%E4%BF%9D%E5%81%A5",
+   "text": "医疗保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3288/detail",
+   "text": "天猫服饰潮流速报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%BD%AE%E6%B5%81",
+   "text": "潮流",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3284/detail",
+   "text": "2025年上海咖啡消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%92%96%E5%95%A1",
+   "text": "咖啡",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3287/detail",
+   "text": "2025年辣味休闲食品行业报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E9%A3%9F%E5%9D%9A%E6%9E%9C",
+   "text": "零食坚果",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3286/detail",
+   "text": "2025宠物电商行业报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9%E9%A3%9F%E5%93%81%E5%8F%8A%E7%94%A8%E5%93%81",
+   "text": "宠物食品及用品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3285/detail",
+   "text": "2025保健食品行业报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BF%9D%E5%81%A5%E5%93%81",
+   "text": "保健品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3283/detail",
+   "text": "我们的叙事 | 2025女性品质生活消费报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A5%B3%E6%80%A7",
+   "text": "女性",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3282/detail",
+   "text": "健康无需“负重前行”：当代都市“碌”人的轻健康觉醒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3281/detail",
+   "text": "2025春夏时尚防晒服饰趋势指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%97%B6%E5%B0%9A%E7%BB%8F%E6%B5%8E",
+   "text": "时尚经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3279/detail",
+   "text": "2025人体工学座椅消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF",
+   "text": "消费趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3278/detail",
+   "text": "天猫服饰2025春夏趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3277/detail",
+   "text": "2024中国消费品牌增长力白皮书（电子简版）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3271/preview",
+   "text": "2024中国消费品牌增长力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3276/detail",
+   "text": "阿里妈妈节促趋势发现——二月刊（春上新&38）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%8A%82%E7%82%B9",
+   "text": "营销节点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3270/detail",
+   "text": "2024抖音护肤行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3273/preview",
+   "text": "【6.3折】2024中国消费品牌增长力白皮书+2023中国消费品牌增长力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3269/detail",
+   "text": "天猫服饰月度趋势洞察1月刊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3272/preview",
+   "text": "【6折】2024中国消费品牌增长力白皮书+2023消费品牌流量营销进阶趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3268/detail",
+   "text": "新时代的消费力蓝海：活力银发人群消费需求趋势研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8E%BF%E5%9F%9F%E7%BB%8F%E6%B5%8E",
+   "text": "县域经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA",
+   "text": "下沉市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3274/preview",
+   "text": "【5.5折】2024中国消费品牌增长力白皮书+2023增长力白皮书+2023流量营销报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3275/preview",
+   "text": "【4.5折】2024中国消费品牌增长力白皮书+2023全套报告+2022全套报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2024%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2024中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3265/detail",
+   "text": "阿里妈妈热点指南Vol.25：崭新的年味 2025年货节白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3264/detail",
+   "text": "天猫服饰月度趋势洞察12月刊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3262/detail",
+   "text": "2024数字零售增长白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E9%9B%B6%E5%94%AE",
+   "text": "新零售",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3260/detail",
+   "text": "天猫服饰月度趋势洞察11月刊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3259/detail",
+   "text": "2024抖音电商双11大促复盘报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%94%B5%E5%95%86",
+   "text": "电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3257/detail",
+   "text": "2024新健康消费生活趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3256/detail",
+   "text": "2024口腔护理创新趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B4%97%E6%8A%A4%E6%B8%85%E6%B4%81",
+   "text": "洗护清洁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3255/detail",
+   "text": "2024茶文化消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%8C%B6",
+   "text": "茶",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3254/detail",
+   "text": "大健康 | 益生菌跑出新赛道",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3253/detail",
+   "text": "2024中国鲨鱼裤行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3252/detail",
+   "text": "国人毛孔粗大表征研究及护理指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%AE%B9%E6%8A%A4%E8%82%A4",
+   "text": "美容护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3250/detail",
+   "text": "2024白领外卖餐食健康洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3251/detail",
+   "text": "2024年社媒电商大健康行业趋势洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%94%B5%E5%95%86",
+   "text": "电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3249/detail",
+   "text": "中国光腿袜行业标准白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A5%B3%E6%80%A7",
+   "text": "女性",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3247/detail",
+   "text": "2024可持续消费——食品饮料行业洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3246/detail",
+   "text": "中国女性肌肤衰老趋势变化报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%AE%B9%E6%8A%A4%E8%82%A4",
+   "text": "美容护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3245/detail",
+   "text": "新形势下中国品牌全球化营销白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%87%BA%E6%B5%B7",
+   "text": "出海",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3244/detail",
+   "text": "2024腰部达人成长研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BD%91%E7%BA%A2%E8%BE%BE%E4%BA%BA",
+   "text": "网红达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3242/detail",
+   "text": "2024年Q1美妆护肤白皮书-护肤篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3240/detail",
+   "text": "2024水产预制菜产业发展白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A2%84%E5%88%B6%E8%8F%9C",
+   "text": "预制菜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3239/detail",
+   "text": "下沉消费市场研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA",
+   "text": "下沉市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3206/detail",
+   "text": "奢华户外服饰流行趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3205/detail",
+   "text": "2024抖音电商品牌服饰秋冬趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3204/detail",
+   "text": "2024年Q1消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3201/detail",
+   "text": "2024年中国青年咖啡消费洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%92%96%E5%95%A1",
+   "text": "咖啡",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3203/detail",
+   "text": "小红书2024中国美妆行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3202/detail",
+   "text": "小红书2024宠物行业洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9",
+   "text": "宠物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3200/detail",
+   "text": "2024中国消费者展望",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3199/detail",
+   "text": "运动风起——2024抖音体育运动潮流趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3198/detail",
+   "text": "2024中国品质生活用纸消费趋势洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8",
+   "text": "居家日用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3197/detail",
+   "text": "我们的主张 | 2024年女性品质生活消费报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3196/detail",
+   "text": "2023-2024 心理健康及行业人群洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3195/detail",
+   "text": "2024年抖音电商营销趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%85%B4%E8%B6%A3%E7%94%B5%E5%95%86",
+   "text": "兴趣电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%8A%96%E9%9F%B3",
+   "text": "抖音",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3194/detail",
+   "text": "潮流新生——2024抖音服饰行业趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3193/detail",
+   "text": "2024年全球食品原料趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3192/detail",
+   "text": "中国微短剧市场发展研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%9F%AD%E8%A7%86%E9%A2%91",
+   "text": "短视频",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3191/detail",
+   "text": "酒店客房易耗品可持续转型研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%85%92%E5%BA%97%E6%B0%91%E5%AE%BF",
+   "text": "酒店民宿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3189/detail",
+   "text": "2023-2024年中国企业出海发展研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B5%B7%E5%A4%96%E5%B8%82%E5%9C%BA",
+   "text": "海外市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3188/detail",
+   "text": "情人节经营指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%83%85%E4%BA%BA%E8%8A%82",
+   "text": "情人节",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3187/detail",
+   "text": "2023年度消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%94%B5%E5%95%86",
+   "text": "电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3186/detail",
+   "text": "2024家庭教育需求趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%95%99%E8%82%B2",
+   "text": "教育",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3185/detail",
+   "text": "2024新年送礼趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3184/detail",
+   "text": "2023年DTC独立站品牌报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86",
+   "text": "跨境电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=DTC",
+   "text": "DTC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3180/detail",
+   "text": "2024蓝帽子国内保健品消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3179/detail",
+   "text": "2023品牌社交营销系列研究——滋养保健篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3178/detail",
+   "text": "2023年中国新蛋白产品市场格局分析报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3177/detail",
+   "text": "2023骨关节健康趋势洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3174/detail",
+   "text": "2023小城住宿行业趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%85%92%E5%BA%97%E6%B0%91%E5%AE%BF",
+   "text": "酒店民宿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3171/detail",
+   "text": "2023中国健康生活趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "text": "大健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3173/detail",
+   "text": "2023年双11大促报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%AF%8D%E5%A9%B4",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3172/detail",
+   "text": "2023双11购物节消费观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3170/detail",
+   "text": "2023东方美谷蓝皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3182/detail",
+   "text": "2023Q3数字零售指数解读",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E5%94%AE%E4%B8%9A",
+   "text": "零售业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3167/detail",
+   "text": "品牌社交营销系列研究——户外篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3165/detail",
+   "text": "2023中国宠物经济消费洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9",
+   "text": "宠物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3164/detail",
+   "text": "2022中国消费企业社会价值研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3163/detail",
+   "text": "2023米诺地尔国民生发白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3161/detail",
+   "text": "2023年品牌社交营销系列研究——数码3C篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%95%B0%E7%A0%813C",
+   "text": "数码3C",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3160/detail",
+   "text": "2023体育消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BD%93%E8%82%B2%E8%BF%90%E5%8A%A8",
+   "text": "体育运动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%B8%B8%E6%88%8F%E7%94%B5%E7%AB%9E",
+   "text": "游戏电竞",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3159/detail",
+   "text": "2023年品牌社交营销系列研究——家居家装篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E6%96%B9%E5%BC%8F",
+   "text": "营销方式",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%B6%E8%A3%85",
+   "text": "家装",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3157/detail",
+   "text": "2023品牌社交营销系列研究——护肤品篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3155/detail",
+   "text": "23AW运动户外行业趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3154/detail",
+   "text": "品牌社交营销系列研究——本地生活篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3153/detail",
+   "text": "中国消费二十年洞察系列报告-人群篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2023%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2023中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3152/preview",
+   "text": "【8折】2023中国消费品牌增长力白皮书+2022中国新消费品牌增长力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2023%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2023中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3149/detail",
+   "text": "2023中国消费品牌增长力白皮书（电子简版）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2023%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2023中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3148/detail",
+   "text": "2023国民头皮健康白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3146/detail",
+   "text": "2023H1消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3145/preview",
+   "text": "2023中国消费品牌增长力大调查（纸质报告+视频）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=2023%E4%B8%AD%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%93%81%E7%89%8C%E5%A2%9E%E9%95%BF%E5%8A%9B%E5%A4%A7%E8%B0%83%E6%9F%A5",
+   "text": "2023中国消费品牌增长力大调查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3144/detail",
+   "text": "2023年精简护肤市场洞察​​",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3143/detail",
+   "text": "2023社媒平台精准护肤人群洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%AE%B9%E6%8A%A4%E8%82%A4",
+   "text": "美容护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3183/detail",
+   "text": "数字零售增长白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E5%94%AE%E4%B8%9A",
+   "text": "零售业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3181/detail",
+   "text": "2023Q2数字零售指数解读",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E5%94%AE%E4%B8%9A",
+   "text": "零售业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3138/detail",
+   "text": "抖音618好物节电商报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=618",
+   "text": "618",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%8A%96%E9%9F%B3",
+   "text": "抖音",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3137/detail",
+   "text": "2023可持续消费白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%8E%AF%E4%BF%9D",
+   "text": "环保",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3135/detail",
+   "text": "2023中国烤鱼行业洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3134/detail",
+   "text": "2023湿厕纸行业趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8",
+   "text": "居家日用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3133/detail",
+   "text": "2023新世代青年主粮消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%B2%AE%E6%B2%B9%E8%B0%83%E5%91%B3",
+   "text": "粮油调味",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3132/detail",
+   "text": "2023中国城市咖啡发展报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%92%96%E5%95%A1",
+   "text": "咖啡",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3131/detail",
+   "text": "中国新消费品牌3月观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3130/detail",
+   "text": "2023口腔护理消费者洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%B6%E5%BA%AD%E4%BF%9D%E5%81%A5",
+   "text": "家庭保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3128/detail",
+   "text": "2023中国女性品质睡眠白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%9D%A1%E7%9C%A0%E7%BB%8F%E6%B5%8E",
+   "text": "睡眠经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A5%B3%E6%80%A7",
+   "text": "女性",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3126/detail",
+   "text": "2023香水香氛消费者洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A6%99%E6%B0%B4",
+   "text": "香水",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3125/detail",
+   "text": "眼部抗衰洞察白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3124/detail",
+   "text": "2023科学化肠道养护指南",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8C%BB%E7%96%97%E4%BF%9D%E5%81%A5",
+   "text": "医疗保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3123/detail",
+   "text": "2023年防晒市场社媒营销趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%AE%B9%E6%8A%A4%E8%82%A4",
+   "text": "美容护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3122/detail",
+   "text": "2023克劳锐中国内容机构行业发展研究白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=MCN",
+   "text": "MCN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%8A%96%E9%9F%B3",
+   "text": "抖音",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3121/detail",
+   "text": "2022年抖音站内达人生态洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BD%91%E7%BA%A2%E8%BE%BE%E4%BA%BA",
+   "text": "网红达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%8A%96%E9%9F%B3",
+   "text": "抖音",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3120/detail",
+   "text": "中国新消费品牌1-2月观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3119/detail",
+   "text": "2023户外功能性童装机会点研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%9C%8D%E9%A5%B0%E9%9E%8B%E5%8C%85",
+   "text": "服饰鞋包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%84%BF%E7%AB%A5",
+   "text": "儿童",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3118/detail",
+   "text": "2023中国户外电源白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%88%B7%E5%A4%96",
+   "text": "户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3117/detail",
+   "text": "2023潮流运动消费趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%BD%AE%E6%B5%81",
+   "text": "潮流",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3115/detail",
+   "text": "2023中国无糖茶饮行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3109/detail",
+   "text": "2023女性品质生活消费趋势报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A5%B3%E6%80%A7",
+   "text": "女性",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3112/detail",
+   "text": "创新面膜在社交平台的市场剖析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3108/detail",
+   "text": "中国下沉市场系列报告-零售篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA",
+   "text": "下沉市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3107/detail",
+   "text": "2023油类精华消费趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3104/detail",
+   "text": "2022年美妆短视频及直播电商报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%9F%AD%E8%A7%86%E9%A2%91",
+   "text": "短视频",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3103/detail",
+   "text": "2023抖音家居生态报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%8A%96%E9%9F%B3",
+   "text": "抖音",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%B6%E8%A3%85",
+   "text": "家装",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3102/detail",
+   "text": "2022中国移动互联网年度大报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%92%E8%81%94%E7%BD%91",
+   "text": "互联网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3101/detail",
+   "text": "2023旅游消费内容研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E6%96%B9%E5%BC%8F",
+   "text": "营销方式",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%97%85%E6%B8%B8",
+   "text": "旅游",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3100/detail",
+   "text": "2023消费品牌流量营销进阶趋势报告（简版）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3099/detail",
+   "text": "2023年节日营销洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%83%85%E4%BA%BA%E8%8A%82",
+   "text": "情人节",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3096/preview",
+   "text": "2023消费品牌流量营销进阶趋势报告（纸质材料+视频课+认知图谱）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3097/detail",
+   "text": "2023春节市场洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%98%A5%E8%8A%82",
+   "text": "春节",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3095/detail",
+   "text": "中国新消费品牌12月观察报告（附春节消费观察）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3094/detail",
+   "text": "2022抖音母婴行业年度盘点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%AF%8D%E5%A9%B4",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3093/detail",
+   "text": "2022消费行业可持续转型路径及创新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3092/detail",
+   "text": "2022中国移动互联网“黑马”盘点报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%92%E8%81%94%E7%BD%91",
+   "text": "互联网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3091/detail",
+   "text": "2022年营销热点事件盘点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3090/detail",
+   "text": "2022巨量算数年度观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3089/detail",
+   "text": "2023年饮食趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3088/detail",
+   "text": "2022年KOL发展报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BD%91%E7%BA%A2%E8%BE%BE%E4%BA%BA",
+   "text": "网红达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3087/detail",
+   "text": "2022新能源汽车趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6",
+   "text": "新能源汽车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3086/detail",
+   "text": "中国新消费品牌11月观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3085/preview",
+   "text": "2022 GEN-Z年度喜爱产品榜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3084/detail",
+   "text": "2022火锅品类发展报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%81%AB%E9%94%85",
+   "text": "火锅",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A4%90%E9%A5%AE",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3083/detail",
+   "text": "2022中国年度最佳雇主评选报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3082/detail",
+   "text": "2022年中国敏感肌专业护理洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3081/detail",
+   "text": "2023美妆个护新增量赛道报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3080/detail",
+   "text": "2022宠物健康喂养报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9%E9%A3%9F%E5%93%81%E5%8F%8A%E7%94%A8%E5%93%81",
+   "text": "宠物食品及用品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9",
+   "text": "宠物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3077/detail",
+   "text": "2022中国移动互联网发展年鉴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%92%E8%81%94%E7%BD%91",
+   "text": "互联网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3076/detail",
+   "text": "2022年中国电商平台市场洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%94%B5%E5%95%86",
+   "text": "电商",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3075/detail",
+   "text": "2022-2023中国美颜消费趋势白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3073/detail",
+   "text": "2022年国货美妆个护新消费融资报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3071/detail",
+   "text": "​2022年世界杯营销洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3175/detail",
+   "text": "仙乐报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3069/detail",
+   "text": "2022巨量引擎趋势赛道洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80%E8%B6%8B%E5%8A%BF",
+   "text": "营销趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A5%AE%E6%96%99",
+   "text": "饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3070/detail",
+   "text": "中国新消费品牌10月观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3068/detail",
+   "text": "个护家清线上内容营销研究报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B1%85%E5%AE%B6%E6%97%A5%E7%94%A8",
+   "text": "居家日用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3066/detail",
+   "text": "2022抖音下沉市场数据洞察分析报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA",
+   "text": "下沉市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3065/detail",
+   "text": "2022“夜经济”洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%9C%E7%BB%8F%E6%B5%8E",
+   "text": "夜经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3064/detail",
+   "text": "智能清洁家电市场分析及品牌营销洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B0%8F%E5%AE%B6%E7%94%B5",
+   "text": "小家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3063/detail",
+   "text": "2022年双11洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3060/detail",
+   "text": "2022双11直播电商行业观察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7",
+   "text": "直播带货",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3054/detail",
+   "text": "2022优酷智酷人群营销洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%BA%E7%BE%A4%E7%A0%94%E7%A9%B6",
+   "text": "人群研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3059/detail",
+   "text": "2022双11购物节品牌营销洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%8F%8C11",
+   "text": "双11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3058/detail",
+   "text": "2022闲置经济洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%8C%E6%89%8B%E7%BB%8F%E6%B5%8E",
+   "text": "二手经济",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3057/detail",
+   "text": "2022东方美谷蓝皮书（化妆品行业）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3056/detail",
+   "text": "2022母婴行业白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%AF%8D%E5%A9%B4",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3055/detail",
+   "text": "2022全家营养第四餐消费趋势洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3053/detail",
+   "text": "2022新能源汽车品牌KOL口碑报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6",
+   "text": "新能源汽车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3052/detail",
+   "text": "2022年线上休闲零食白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%9B%B6%E9%A3%9F%E5%9D%9A%E6%9E%9C",
+   "text": "零食坚果",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3051/detail",
+   "text": "2022中国移动互联网秋季报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E4%BA%92%E8%81%94%E7%BD%91",
+   "text": "互联网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3050/detail",
+   "text": "2022新青年消费图鉴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3048/detail",
+   "text": "2022科学生发白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3047/detail",
+   "text": "中国新消费品牌8-9月观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3046/detail",
+   "text": "2022健康家电白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%AE%B6%E7%94%B5",
+   "text": "大家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B0%8F%E5%AE%B6%E7%94%B5",
+   "text": "小家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3044/detail",
+   "text": "中国气血健康白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%B6%E5%BA%AD%E4%BF%9D%E5%81%A5",
+   "text": "家庭保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3045/detail",
+   "text": "2022Q3消费新潜力白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E6%B6%88%E8%B4%B9",
+   "text": "新消费",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3042/detail",
+   "text": "2022美妆行业市场及营销观察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3041/detail",
+   "text": "2022儿童口腔护理市场观察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%84%BF%E7%AB%A5",
+   "text": "儿童",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3040/detail",
+   "text": "2022户外运动营销价值报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%BF%90%E5%8A%A8%E6%88%B7%E5%A4%96",
+   "text": "运动户外",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3039/detail",
+   "text": "预制菜市场发展及品牌营销洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%A2%84%E5%88%B6%E8%8F%9C",
+   "text": "预制菜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3038/detail",
+   "text": "2022银发经济洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E9%93%B6%E5%8F%91%E6%97%8F",
+   "text": "银发族",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3037/detail",
+   "text": "后疫情时代面部底妆趋势洞察报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3035/detail",
+   "text": "2022巨量引擎美妆白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E7%BE%8E%E5%A6%86%E4%B8%AA%E6%8A%A4",
+   "text": "美妆个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3034/detail",
+   "text": "2022年3C家电行业营销洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%95%B0%E7%A0%813C",
+   "text": "数码3C",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%A4%A7%E5%AE%B6%E7%94%B5",
+   "text": "大家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%B0%8F%E5%AE%B6%E7%94%B5",
+   "text": "小家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3033/detail",
+   "text": "2022新能源汽车营销观察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6",
+   "text": "新能源汽车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E8%90%A5%E9%94%80",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/report/3032/detail",
+   "text": "年轻人生活消费观察-萌宠依赖篇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=Z%E4%B8%96%E4%BB%A3",
+   "text": "Z世代",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/search?query=%E5%AE%A0%E7%89%A9",
+   "text": "宠物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.cbndata.com/commonproblem",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

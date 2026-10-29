@@ -1,0 +1,74 @@
+{
+ "url": "https://survey.jd.com/page/edition",
+ "observed_at": "2026-10-29T08:51:56.936Z",
+ "method": "playwright-chromium",
+ "final_url": "https://survey.jd.com/page/edition",
+ "status": 200,
+ "error": null,
+ "title": "京洞察-京东官方市场调研与新品孵化平台",
+ "h1": "版本与定价",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 6,
+   "new_in_prefix": 6,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 6,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://sso.jd.com/sso/rac?t=1793263921836&r=i9ZAhqi94V&s=20261029085204975%3Bipiiizpzjavejzz3%3B73806%3Btk06wbcf3001441lf0L5NojAf5-4pj7fxCERGSUTBCkPxGVRCqURrrbrKRz1AI4U5SoR72lWzfod4TFS7HIf2H4THaIf%3Bdea97607e8331800f5bbf79d640da51f638e83f2994a921d721d7e959b30586d%3B5.3%3B1793263921975%3Bof7ruCLj4DENBWFOKCFN7CURCGlPCipjxjpPFipjLDrg5XYd6jYd4TIf4H4e6rJdJbEjLrJp-jZaqWXb_CVQmiGWJrJdJbYf2iFjLrJp-bojxjJ"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/request_algo"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/behavior_report"
+  },
+  {
+   "method": "POST",
+   "url": "https://cactus.jd.com/behavior_report"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://survey.jd.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://survey.jd.com/contact.htm#key=concat",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://answer.jd.com/answer/ankJEnfawAZ/1773626.htm",
+   "text": "问题反馈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://jdcs.jd.com/chat/index.action?venderId=agile_182635987494&entry=jdc_chat",
+   "text": "在线客服",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://survey.jd.com/help.htm",
+   "text": "帮助中心",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jd.com/",
+   "text": "京东商城",
+   "region": "FOOTER"
+  }
+ ]
+}

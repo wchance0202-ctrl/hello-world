@@ -1,0 +1,1710 @@
+﻿原表行,指定pattern,Pattern 正则,保留链接,匹配样例,结果类型,规则验证,来源映射,发现覆盖,备注与风险
+2,/,,,,,,,,
+3,/,,,,,,,,
+4,/,,,,,,,,
+5,/,,,,,,,,
+6,/,,,,,,,,
+7,/,,,,,,,,
+8,/,,,,,,,,
+9,/,,,,,,,,
+10,/,,,,,,,,
+11,/,,,,,,,,
+12,/,,,,,,,,
+13,/,,,,,,,,
+14,/,,,,,,,,
+15,"www.ctrchina.cn/product/MI
+https://www.ctrchina.cn/report
+https://www.ctrchina.cn/product/WP",^https://www\.ctrchina\.cn/product/WP/[a-z]+$,"S2-R15-E1: www.ctrchina.cn/product/MI
+  其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R15-E1.txt
+S2-R15-E2: https://www.ctrchina.cn/report
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R15-E2.txt
+S2-R15-E3: https://www.ctrchina.cn/product/WP
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R15-E3.txt",S2-R15-E3 R3-S2-R15-E3-F1: https://www.ctrchina.cn/product/WP/djyh；https://www.ctrchina.cn/product/WP/ksxfppyz（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 链接保留；E3 正则+链接保留,"S2-R15-E1 规则：R3-S2-R15-E1-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；链接 可打开（200，标题「研究部门」）
+S2-R15-E2 规则：无规则；链接 可打开（200，标题「洞察报告」）
+S2-R15-E3 R3-S2-R15-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN4；覆盖检查：列表 13 个、sitemap 同结构 0 个全部匹配
+S2-R15-E3 规则：R3-S2-R15-E3-F1 已验证；链接 可打开（200，标题「研究部门」）","S2-R15-E1 = S1!指定pattern 第15行 第1个入口: www.ctrchina.cn/product/MI
+S2-R15-E2 = S1!指定pattern 第15行 第2个入口: https://www.ctrchina.cn/report
+S2-R15-E3 = S1!指定pattern 第15行 第3个入口: https://www.ctrchina.cn/product/WP","S2-R15-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /product/MI/ 下家族 1 个、成员 7；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R15-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R15-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /product/WP/ 下家族 1 个、成员 13；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R15-E1 原值缺协议，原样保留；实测请求 https://www.ctrchina.cn/product/MI → https://www.ctrchina.cn/product/MI（状态 200）"
+16,"https://www.cbndata.com/report
+https://www.cbndata.com/information","^https://www\.cbndata\.com/report/[0-9]+/[a-z]+$
+^https://www\.cbndata\.com/information/[0-9]+$","S2-R16-E1: https://www.cbndata.com/report
+  其余 83 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R16-E1.txt
+S2-R16-E2: https://www.cbndata.com/information
+  其余 11 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R16-E2.txt","S2-R16-E1 R3-S2-R16-E1-F1: https://www.cbndata.com/report/3052/detail；https://www.cbndata.com/report/3047/detail（已落地核验 200，公开访问，2026-10-26）
+S2-R16-E2 R3-S2-R16-E2-F1: https://www.cbndata.com/information/228218；https://www.cbndata.com/information/295415（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R16-E1 R3-S2-R16-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN4；覆盖检查：列表 250 个、sitemap 同结构 0 个全部匹配
+S2-R16-E1 规则：R3-S2-R16-E1-F1 已验证；链接 可打开（200，标题「研究报告-数据报告-消费行业研究报告 | CBNData」）
+S2-R16-E2 R3-S2-R16-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R16-E2 规则：R3-S2-R16-E2-F1 已验证；链接 可打开（200，标题「今日新鲜事-热点新闻-消费行业资讯 | CBNData」）","S2-R16-E1 = S1!指定pattern 第16行 第1个入口: https://www.cbndata.com/report
+S2-R16-E2 = S1!指定pattern 第16行 第2个入口: https://www.cbndata.com/information","S2-R16-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 1 个、成员 250；前缀外同站链接 83、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R16-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /information/ 下家族 1 个、成员 4；前缀外同站链接 11、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+17,/,,,,,,,,
+18,https://www.newrank.cn/report,^https://www\.newrank\.cn/report/detail/[0-9]+$,"S2-R18-E1: https://www.newrank.cn/report
+  其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R18-E1.txt",S2-R18-E1 R3-S2-R18-E1-F1: https://www.newrank.cn/report/detail/429；https://www.newrank.cn/report/detail/430（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R18-E1 R3-S2-R18-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN6；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R18-E1 规则：R3-S2-R18-E1-F1 已验证；链接 可打开（200，标题「报告分析-新榜」）",S2-R18-E1 = S1!指定pattern 第18行 第1个入口: https://www.newrank.cn/report,S2-R18-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 1 个、成员 8；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+19,/,,,,,,,,
+20,"https://www.feigua.cn/StudyReport
+https://dy.feigua.cn/Article2/
+https://ks.feigua.cn/news/
+https://bz.feigua.cn/Information/List","^https://www\.feigua\.cn/StudyReport/Detail\?id=[0-9]*$
+^https://ks\.feigua\.cn/news/1/[0-9]+\.html$
+^https://bz\.feigua\.cn/Information/List/[0-9]+/[0-9]+$","S2-R20-E1: https://www.feigua.cn/StudyReport
+  其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R20-E1.txt
+S2-R20-E2: https://dy.feigua.cn/Article2/
+  其余 94 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R20-E2.txt
+S2-R20-E3: https://ks.feigua.cn/news/
+  其余 24 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R20-E3.txt
+S2-R20-E4: https://bz.feigua.cn/Information/List
+  其余 40 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R20-E4.txt","S2-R20-E1 R3-S2-R20-E1-F1: https://www.feigua.cn/StudyReport/Detail?id=171；https://www.feigua.cn/StudyReport/Detail?id=178（已落地核验 200，公开访问，2026-10-26）
+S2-R20-E3 R3-S2-R20-E3-F1: https://ks.feigua.cn/news/1/320.html；https://ks.feigua.cn/news/1/828.html（已落地核验 200，公开访问，2026-10-26）
+S2-R20-E4 R3-S2-R20-E4-F1: https://bz.feigua.cn/Information/List/3/1；https://bz.feigua.cn/Information/List/3/4（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留；E4 正则+链接保留,"S2-R20-E1 R3-S2-R20-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN4；覆盖检查：列表 24 个、sitemap 同结构 0 个全部匹配
+S2-R20-E1 规则：R3-S2-R20-E1-F1 已验证；链接 可打开（200，标题「飞瓜数据」）
+S2-R20-E2 规则：R3-S2-R20-E2-F1 部分验证（候选）（机械门未通过：样本重复）；链接 可打开（200，标题「飞瓜抖音-行业资讯」）
+S2-R20-E3 R3-S2-R20-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 10 个、sitemap 同结构 61 个全部匹配
+S2-R20-E3 规则：R3-S2-R20-E3-F1 已验证；R3-S2-R20-E3-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；R3-S2-R20-E3-F3 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）；链接 可打开（200，标题「快手热点资讯-飞瓜数据快手版」）
+S2-R20-E4 R3-S2-R20-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R20-E4 规则：R3-S2-R20-E4-F1 已验证；链接 可打开（200，标题「行业洞察-飞瓜数据B站版-B站数据分析平台-bz.feigua.cn」）","S2-R20-E1 = S1!指定pattern 第20行 第1个入口: https://www.feigua.cn/StudyReport
+S2-R20-E2 = S1!指定pattern 第20行 第2个入口: https://dy.feigua.cn/Article2/
+S2-R20-E3 = S1!指定pattern 第20行 第3个入口: https://ks.feigua.cn/news/
+S2-R20-E4 = S1!指定pattern 第20行 第4个入口: https://bz.feigua.cn/Information/List","S2-R20-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /StudyReport/ 下家族 1 个、成员 24；前缀外同站链接 7、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R20-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /Article2/ 下家族 1 个、成员 82；前缀外同站链接 12、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R20-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 3 个、成员 20；前缀外同站链接 14、文件 0；sitemap 中同结构但不在列表的 URL：F1=61、F2=2、F3=14；续跑见 output/round3/queue.json
+S2-R20-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /Information/List/ 下家族 1 个、成员 8；前缀外同站链接 40、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+21,https://www.guoji.pro/Report?category=6&sort=0&pageindex=1&entry=-1&keyword=,^https://www\.guoji\.pro/Report/ReportDetail\?marketingId=[0-9]*$,"S2-R21-E1: https://www.guoji.pro/Report?category=6&sort=0&pageindex=1&entry=-1&keyword=
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R21-E1.txt",S2-R21-E1 R3-S2-R21-E1-F1: https://www.guoji.pro/Report/ReportDetail?marketingId=179；https://www.guoji.pro/Report/ReportDetail?marketingId=180（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R21-E1 R3-S2-R21-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
+S2-R21-E1 规则：R3-S2-R21-E1-F1 已验证；链接 可打开（200，标题「果集超级腕 - 营销策略 - 果集」）",S2-R21-E1 = S1!指定pattern 第21行 第1个入口: https://www.guoji.pro/Report?category=6&sort=0&pageindex=1&entry=-1&keyword=,S2-R21-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /Report/ 下家族 1 个、成员 12；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+22,https://www.enlightent.cn/reports.html,,"S2-R22-E1: https://www.enlightent.cn/reports.html
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R22-E1.txt",,E1 链接保留,S2-R22-E1 规则：R3-S2-R22-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：留出反例 1<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.enlightent.cn/reports.html）；链接 可打开（200，标题「è¡ä¸æ¥å | äºåæ°æ®」）,S2-R22-E1 = S1!指定pattern 第22行 第1个入口: https://www.enlightent.cn/reports.html,S2-R22-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 4；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json,"行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R22-E1 入口为站点首页，自动归纳范围为全站"
+23,https://www.gz-data.com/html/new.html,,"S2-R23-E1: https://www.gz-data.com/html/new.html
+  其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R23-E1.txt",,E1 链接保留,S2-R23-E1 规则：R3-S2-R23-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：留出反例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.gz-data.com/html/new.html）；链接 可打开（200，标题「èµè®¯ä¸æ´å¯」）,S2-R23-E1 = S1!指定pattern 第23行 第1个入口: https://www.gz-data.com/html/new.html,S2-R23-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /html/ 下家族 1 个、成员 7；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+24,https://www.csm.com.cn/yjdc/Index.html,,"S2-R24-E1: https://www.csm.com.cn/yjdc/Index.html
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R24-E1.txt",,E1 链接保留,"S2-R24-E1 规则：无规则；链接 待核验（无站点状态码：ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection r）",S2-R24-E1 = S1!指定pattern 第24行 第1个入口: https://www.csm.com.cn/yjdc/Index.html,"S2-R24-E1: 未验证：入口待核验（无站点状态码：ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection r）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+25,"https://www.analysys.cn/trends
+https://www.analysys.cn/article/analysis/
+https://www.analysys.cn/article/detail/20021542",,"S2-R25-E1: https://www.analysys.cn/trends
+  其余 577 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R25-E1.txt
+S2-R25-E2: https://www.analysys.cn/article/analysis/
+  其余 3979 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R25-E2.txt
+S2-R25-E3: https://www.analysys.cn/article/detail/20021542
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R25-E3.txt",,E1 链接保留；E2 链接保留；E3 链接保留,"S2-R25-E1 规则：无规则；链接 可打开（200，标题「易观动态-易观分析」）
+S2-R25-E2 规则：无规则；链接 可打开（200，标题「分析报告-易观分析」）
+S2-R25-E3 规则：无规则；链接 可打开（200，标题「中国移动端第三方输入法市场年度研究2026-易观分析」）","S2-R25-E1 = S1!指定pattern 第25行 第1个入口: https://www.analysys.cn/trends
+S2-R25-E2 = S1!指定pattern 第25行 第2个入口: https://www.analysys.cn/article/analysis/
+S2-R25-E3 = S1!指定pattern 第25行 第3个入口: https://www.analysys.cn/article/detail/20021542","S2-R25-E1: 完整（枚举结束，无独立全集对账）：静态请求 54 页（入口+分页），未完成分页 0；前缀 /trends/ 下家族 0 个、成员 0；前缀外同站链接 577、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R25-E2: 完整（枚举结束，无独立全集对账）：静态请求 399 页（入口+分页），未完成分页 0；前缀 /article/analysis/ 下家族 0 个、成员 0；前缀外同站链接 3979、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R25-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /article/detail/20021542/ 下家族 0 个、成员 0；前缀外同站链接 5、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+26,"https://www.leadleo.com/wiki/topicList
+https://www.leadleo.com/report/search
+https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue
+https://www.leadleo.com/video/allType
+https://www.leadleo.com/article/search",,"S2-R26-E1: https://www.leadleo.com/wiki/topicList
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R26-E1.txt
+S2-R26-E2: https://www.leadleo.com/report/search
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R26-E2.txt
+S2-R26-E3: https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R26-E3.txt
+S2-R26-E4: https://www.leadleo.com/video/allType
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R26-E4.txt
+S2-R26-E5: https://www.leadleo.com/article/search
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R26-E5.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S2-R26-E1 规则：无规则；链接 可打开（200，标题「」）
+S2-R26-E2 规则：无规则；链接 可打开（200，标题「行业报告_市场报告_投资报告」）
+S2-R26-E3 规则：无规则；链接 可打开（200，标题「」）
+S2-R26-E4 规则：无规则；链接 可打开（200，标题「」）
+S2-R26-E5 规则：无规则；链接 可打开（200，标题「」）","S2-R26-E1 = S1!指定pattern 第26行 第1个入口: https://www.leadleo.com/wiki/topicList
+S2-R26-E2 = S1!指定pattern 第26行 第2个入口: https://www.leadleo.com/report/search
+S2-R26-E3 = S1!指定pattern 第26行 第3个入口: https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue
+S2-R26-E4 = S1!指定pattern 第26行 第4个入口: https://www.leadleo.com/video/allType
+S2-R26-E5 = S1!指定pattern 第26行 第5个入口: https://www.leadleo.com/article/search","S2-R26-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /wiki/topicList/ 下家族 0 个、成员 0；前缀外同站链接 5、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R26-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/search/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R26-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /wiki/getLeadleoIndustryCatelogue/ 下家族 0 个、成员 0；前缀外同站链接 1、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R26-E4: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /video/allType/ 下家族 0 个、成员 0；前缀外同站链接 5、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R26-E5: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /article/search/ 下家族 0 个、成员 0；前缀外同站链接 5、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+27,"https://x.qianzhan.com/
+https://bg.qianzhan.com/report/",^https://bg\.qianzhan\.com/report/[a-z]+$,"S2-R27-E2: https://bg.qianzhan.com/report/
+  其余 242 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R27-E2.txt",S2-R27-E2 R3-S2-R27-E2-F3: https://bg.qianzhan.com/report/free；https://bg.qianzhan.com/report/csqj（已落地核验 200，公开访问，2026-10-26）,E2 正则+链接保留；E1 host免提,"S2-R27-E2 R3-S2-R27-E2-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN6；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R27-E2 规则：R3-S2-R27-E2-F1 部分验证（候选）（机械门未通过：有正例未完成落地身份核验）；R3-S2-R27-E2-F2 部分验证（候选）（机械门未通过：留出反例 2<3、留出与归纳/回归重叠）；R3-S2-R27-E2-F3 已验证；链接 可打开（200，标题「行业研究报告_行业市场分析报告_产业发展趋势报告_前瞻产业研究院」）",S2-R27-E2 = S1!指定pattern 第27行 第2个入口: https://bg.qianzhan.com/report/,S2-R27-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 3 个、成员 194；前缀外同站链接 56、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0、F3=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+28,"https://www.moonfox.cn/insight/report
+https://www.moonfox.cn/insight/investment
+https://www.moonfox.cn/insight/trending
+https://www.moonfox.cn/insight/news","^https://www\.moonfox\.cn/insight/report/[0-9]+$
+^https://www\.moonfox\.cn/insight/investment/[0-9]+$
+^https://www\.moonfox\.cn/insight/trending/[0-9]+$
+^https://www\.moonfox\.cn/insight/news/[0-9]+$","S2-R28-E1: https://www.moonfox.cn/insight/report
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R28-E1.txt
+S2-R28-E2: https://www.moonfox.cn/insight/investment
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R28-E2.txt
+S2-R28-E3: https://www.moonfox.cn/insight/trending
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R28-E3.txt
+S2-R28-E4: https://www.moonfox.cn/insight/news
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R28-E4.txt","S2-R28-E1 R3-S2-R28-E1-F1: https://www.moonfox.cn/insight/report/1168；https://www.moonfox.cn/insight/report/1993（已落地核验 200，公开访问，2026-10-26）
+S2-R28-E2 R3-S2-R28-E2-F1: https://www.moonfox.cn/insight/investment/1874；https://www.moonfox.cn/insight/investment/1878（已落地核验 200，公开访问，2026-10-26）
+S2-R28-E3 R3-S2-R28-E3-F1: https://www.moonfox.cn/insight/trending/1171；https://www.moonfox.cn/insight/trending/2125（已落地核验 200，公开访问，2026-10-26）
+S2-R28-E4 R3-S2-R28-E4-F1: https://www.moonfox.cn/insight/news/1522；https://www.moonfox.cn/insight/news/2058（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留,"S2-R28-E1 R3-S2-R28-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 294 个全部匹配
+S2-R28-E1 规则：R3-S2-R28-E1-F1 已验证；链接 可打开（200，标题「行业报告-行业白皮书-行业洞察-月狐数据」）
+S2-R28-E2 R3-S2-R28-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 0 个全部匹配
+S2-R28-E2 规则：R3-S2-R28-E2-F1 已验证；链接 可打开（200，标题「行业报告-行业白皮书-行业洞察-月狐数据」）
+S2-R28-E3 R3-S2-R28-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 213 个全部匹配
+S2-R28-E3 规则：R3-S2-R28-E3-F1 已验证；链接 可打开（200，标题「行业报告-行业白皮书-行业洞察-月狐数据」）
+S2-R28-E4 R3-S2-R28-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 15 个、sitemap 同结构 108 个全部匹配
+S2-R28-E4 规则：R3-S2-R28-E4-F1 已验证；链接 可打开（200，标题「行业报告-行业白皮书-行业洞察-月狐数据」）","S2-R28-E1 = S1!指定pattern 第28行 第1个入口: https://www.moonfox.cn/insight/report
+S2-R28-E2 = S1!指定pattern 第28行 第2个入口: https://www.moonfox.cn/insight/investment
+S2-R28-E3 = S1!指定pattern 第28行 第3个入口: https://www.moonfox.cn/insight/trending
+S2-R28-E4 = S1!指定pattern 第28行 第4个入口: https://www.moonfox.cn/insight/news","S2-R28-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insight/report/ 下家族 1 个、成员 15；前缀外同站链接 36、文件 0；sitemap 中同结构但不在列表的 URL：F1=279；续跑见 output/round3/queue.json
+S2-R28-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insight/investment/ 下家族 1 个、成员 15；前缀外同站链接 36、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R28-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insight/trending/ 下家族 1 个、成员 15；前缀外同站链接 36、文件 0；sitemap 中同结构但不在列表的 URL：F1=198；续跑见 output/round3/queue.json
+S2-R28-E4: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insight/news/ 下家族 1 个、成员 15；前缀外同站链接 36、文件 0；sitemap 中同结构但不在列表的 URL：F1=93；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+29,"https://www.datastory.com.cn/analyst
+https://www.datastory.com.cn/case
+https://www.datastory.com.cn/analyst/report.html
+https://www.datastory.com.cn/analyst/hotspot.html",,"S2-R29-E1: https://www.datastory.com.cn/analyst
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R29-E1.txt
+S2-R29-E2: https://www.datastory.com.cn/case
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R29-E2.txt
+S2-R29-E3: https://www.datastory.com.cn/analyst/report.html
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R29-E3.txt
+S2-R29-E4: https://www.datastory.com.cn/analyst/hotspot.html
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R29-E4.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留,"S2-R29-E1 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R29-E2 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R29-E3 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R29-E4 规则：无规则；链接 待核验（无站点状态码：未请求）","S2-R29-E1 = S1!指定pattern 第29行 第1个入口: https://www.datastory.com.cn/analyst
+S2-R29-E2 = S1!指定pattern 第29行 第2个入口: https://www.datastory.com.cn/case
+S2-R29-E3 = S1!指定pattern 第29行 第3个入口: https://www.datastory.com.cn/analyst/report.html
+S2-R29-E4 = S1!指定pattern 第29行 第4个入口: https://www.datastory.com.cn/analyst/hotspot.html","S2-R29-E1: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R29-E2: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R29-E3: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R29-E4: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+30,/,,,,,,,,
+31,/,,,,,,,,
+32,https://www.jiguang.cn/case/,^https://www\.jiguang\.cn/case/[0-9]+$,"S2-R32-E1: https://www.jiguang.cn/case/
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R32-E1.txt",S2-R32-E1 R3-S2-R32-E1-F1: https://www.jiguang.cn/case/140；https://www.jiguang.cn/case/165（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R32-E1 R3-S2-R32-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN4；覆盖检查：列表 9 个、sitemap 同结构 41 个全部匹配
+S2-R32-E1 规则：R3-S2-R32-E1-F1 已验证；链接 可打开（200，标题「案例-极光Aurora Mobile」）",S2-R32-E1 = S1!指定pattern 第32行 第1个入口: https://www.jiguang.cn/case/,S2-R32-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case/ 下家族 1 个、成员 9；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=32；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+33,/,,,,,,,,
+34,/,,,,,,,,
+35,/,,,,,,,,
+36,/,,,,,,,,
+37,/,,,,,,,,
+38,/,,,,,,,,
+39,"https://www.yanbaoke.com/openclaw
+https://www.yanbaoke.com/ai-searches",,"S2-R39-E1: https://www.yanbaoke.com/openclaw
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R39-E1.txt
+S2-R39-E2: https://www.yanbaoke.com/ai-searches
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R39-E2.txt",,E1 链接保留；E2 链接保留,"S2-R39-E1 规则：无规则；链接 可打开（200，标题「研报客skills × 龙虾 OpenClaw × WorkBuddy」）
+S2-R39-E2 规则：无规则；链接 可打开（200，标题「研报客 - 全球行业研究报告|券商报告|免费报告下载平台」）","S2-R39-E1 = S1!指定pattern 第39行 第1个入口: https://www.yanbaoke.com/openclaw
+S2-R39-E2 = S1!指定pattern 第39行 第2个入口: https://www.yanbaoke.com/ai-searches","S2-R39-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /openclaw/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R39-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /ai-searches/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+40,/,,,,,,,,
+41,"https://www.hibor.com.cn/registerm.html
+https://www.hibor.com.cn/favorites.html
+https://www.hibor.com.cn/docupload.html
+https://www.hibor.com.cn/docupload_mag.html
+https://www.hibor.com.cn/wnote.html",,"S2-R41-E1: https://www.hibor.com.cn/registerm.html
+  其余 38 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R41-E1.txt
+S2-R41-E2: https://www.hibor.com.cn/favorites.html
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R41-E2.txt
+S2-R41-E3: https://www.hibor.com.cn/docupload.html
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R41-E3.txt
+S2-R41-E4: https://www.hibor.com.cn/docupload_mag.html
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R41-E4.txt
+S2-R41-E5: https://www.hibor.com.cn/wnote.html
+  其余 33 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R41-E5.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留,"S2-R41-E1 规则：R3-S2-R41-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.hibor.com.cn/registerm.html）；链接 可打开（200，标题「ÓÃ»§×¢²á_»Û²©Í¶ÑÐ×ÊÑ¶_»Û²©×ÊÑ¶_Âõ²©»ã½ð」）
+S2-R41-E2 规则：R3-S2-R41-E2-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.hibor.com.cn/favorites.html）；链接 可打开（200，标题「我的收藏-慧博投研资讯」）
+S2-R41-E3 规则：R3-S2-R41-E3-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.hibor.com.cn/docupload.html）；链接 可打开（200，标题「我的云文档_云文档上传、管理-慧博投研资讯」）
+S2-R41-E4 规则：R3-S2-R41-E4-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.hibor.com.cn/docupload_mag.html）；链接 可打开（200，标题「我的云文档_云文档上传、管理-慧博投研资讯」）
+S2-R41-E5 规则：R3-S2-R41-E5-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.hibor.com.cn/wnote.html）；链接 可打开（200，标题「ÎÒµÄÔÆ±Ê¼Ç_»Û²©×ÊÑ¶_»Û²©Í¶ÑÐ×ÊÑ¶」）","S2-R41-E1 = S1!指定pattern 第41行 第1个入口: https://www.hibor.com.cn/registerm.html
+S2-R41-E2 = S1!指定pattern 第41行 第2个入口: https://www.hibor.com.cn/favorites.html
+S2-R41-E3 = S1!指定pattern 第41行 第3个入口: https://www.hibor.com.cn/docupload.html
+S2-R41-E4 = S1!指定pattern 第41行 第4个入口: https://www.hibor.com.cn/docupload_mag.html
+S2-R41-E5 = S1!指定pattern 第41行 第5个入口: https://www.hibor.com.cn/wnote.html","S2-R41-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 33；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R41-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 32；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R41-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 32；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R41-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 32；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R41-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 28；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R41-E1 入口为站点首页，自动归纳范围为全站
+S2-R41-E2 入口为站点首页，自动归纳范围为全站
+S2-R41-E3 入口为站点首页，自动归纳范围为全站
+S2-R41-E4 入口为站点首页，自动归纳范围为全站
+S2-R41-E5 入口为站点首页，自动归纳范围为全站"
+42,https://guba.eastmoney.com/,,,,host免提,,,,
+43,http://syntun.com.cn/datanews/hotspot.html,,"S2-R43-E1: http://syntun.com.cn/datanews/hotspot.html
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R43-E1.txt",,E1 链接保留,S2-R43-E1 规则：无规则；链接 访问受限（站点 403：403 Forbidden）,S2-R43-E1 = S1!指定pattern 第43行 第1个入口: http://syntun.com.cn/datanews/hotspot.html,S2-R43-E1: 未验证：入口访问受限（站点 403：403 Forbidden）；未使用任何绕过手段；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+44,"https://www.frostchina.com/content/insight
+https://www.frostchina.com/content/whitepaper-store?page=1",^https://www\.frostchina\.com/content/insight/detail/[a-z0-9]+$,"S2-R44-E1: https://www.frostchina.com/content/insight
+  其余 339 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R44-E1.txt
+S2-R44-E2: https://www.frostchina.com/content/whitepaper-store?page=1
+  其余 56 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R44-E2.txt",S2-R44-E1 R3-S2-R44-E1-F1: https://www.frostchina.com/content/insight/detail/62f1ccfa3a1cb46c9a9fd18b；https://www.frostchina.com/content/insight/detail/6ad5f4e1e26d40e942f89dee（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留,"S2-R44-E1 R3-S2-R44-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 1652 个、sitemap 同结构 0 个全部匹配
+S2-R44-E1 规则：R3-S2-R44-E1-F1 已验证；链接 可打开（200，标题「沙利文中国官网| 投资与企业增长咨询专业服务机构」）
+S2-R44-E2 规则：无规则；链接 可打开（200，标题「沙利文中国官网| 投资与企业增长咨询专业服务机构」）","S2-R44-E1 = S1!指定pattern 第44行 第1个入口: https://www.frostchina.com/content/insight
+S2-R44-E2 = S1!指定pattern 第44行 第2个入口: https://www.frostchina.com/content/whitepaper-store?page=1","S2-R44-E1: 完整（枚举结束，无独立全集对账）：静态请求 241 页（入口+分页），未完成分页 0；前缀 /content/insight/ 下家族 1 个、成员 1652；前缀外同站链接 339、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R44-E2: 部分：静态请求 38 页（入口+分页），未完成分页 16；前缀 /content/whitepaper-store/ 下家族 0 个、成员 0；前缀外同站链接 56、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+45,"https://www.cninsights.com/report
+https://www.cninsights.com/case-cn","^https://www\.cninsights\.com/report/[0-9]+$
+^https://www\.cninsights\.com/case\-cn/[0-9]+$","S2-R45-E1: https://www.cninsights.com/report
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R45-E1.txt
+S2-R45-E2: https://www.cninsights.com/case-cn
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R45-E2.txt","S2-R45-E1 R3-S2-R45-E1-F1: https://www.cninsights.com/report/12；https://www.cninsights.com/report/154（已落地核验 200，公开访问，2026-10-26）
+S2-R45-E2 R3-S2-R45-E2-F1: https://www.cninsights.com/case-cn/196；https://www.cninsights.com/case-cn/107（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R45-E1 R3-S2-R45-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 173 个、sitemap 同结构 0 个全部匹配
+S2-R45-E1 规则：R3-S2-R45-E1-F1 已验证；链接 可打开（200，标题「报告洞察_蓝皮书_白皮书-CIC灼识」）
+S2-R45-E2 R3-S2-R45-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 455 个、sitemap 同结构 0 个全部匹配
+S2-R45-E2 规则：R3-S2-R45-E2-F1 已验证；链接 可打开（200，标题「客户案例-CIC灼识」）","S2-R45-E1 = S1!指定pattern 第45行 第1个入口: https://www.cninsights.com/report
+S2-R45-E2 = S1!指定pattern 第45行 第2个入口: https://www.cninsights.com/case-cn","S2-R45-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 1 个、成员 173；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R45-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case-cn/ 下家族 1 个、成员 455；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+46,https://www.iyiou.com/svip,,"S2-R46-E1: https://www.iyiou.com/svip
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R46-E1.txt",,E1 链接保留,S2-R46-E1 规则：无规则；链接 待核验（无站点状态码：未请求）,S2-R46-E1 = S1!指定pattern 第46行 第1个入口: https://www.iyiou.com/svip,S2-R46-E1: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+47,"https://www.jazzyear.com/study_list.html
+https://www.jazzyear.com/member_benefits.html
+https://www.jazzyear.com/article_list.html?type=1
+https://www.jazzyear.com/article_list.html?type=2
+https://www.jazzyear.com/article_list.html?type=3
+https://www.jazzyear.com/article_list.html?type=4
+https://www.jazzyear.com/article_list.html?type=6","^https://www\.jazzyear\.com/study_info\.html\?id=[0-9]*$
+^https://www\.jazzyear\.com/article_info\.html\?id=[0-9]*$
+^https://www\.jazzyear\.com/[a-z_]+\.html$","S2-R47-E1: https://www.jazzyear.com/study_list.html
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E1.txt
+S2-R47-E2: https://www.jazzyear.com/member_benefits.html
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E2.txt
+S2-R47-E3: https://www.jazzyear.com/article_list.html?type=1
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E3.txt
+S2-R47-E4: https://www.jazzyear.com/article_list.html?type=2
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E4.txt
+S2-R47-E5: https://www.jazzyear.com/article_list.html?type=3
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E5.txt
+S2-R47-E6: https://www.jazzyear.com/article_list.html?type=4
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E6.txt
+S2-R47-E7: https://www.jazzyear.com/article_list.html?type=6
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R47-E7.txt","S2-R47-E1 R3-S2-R47-E1-F1: https://www.jazzyear.com/study_info.html?id=180；https://www.jazzyear.com/study_info.html?id=176（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E3 R3-S2-R47-E3-F1: https://www.jazzyear.com/article_info.html?id=1845；https://www.jazzyear.com/article_info.html?id=1483（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E3 R3-S2-R47-E3-F2: https://www.jazzyear.com/aboutus.html；https://www.jazzyear.com/agreement_privacy.html（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E4 R3-S2-R47-E4-F1: https://www.jazzyear.com/article_info.html?id=1496；https://www.jazzyear.com/article_info.html?id=1845（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E4 R3-S2-R47-E4-F2: https://www.jazzyear.com/aboutus.html；https://www.jazzyear.com/agreement_privacy.html（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E5 R3-S2-R47-E5-F1: https://www.jazzyear.com/article_info.html?id=1499；https://www.jazzyear.com/article_info.html?id=1871（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E5 R3-S2-R47-E5-F2: https://www.jazzyear.com/aboutus.html；https://www.jazzyear.com/agreement_privacy.html（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E6 R3-S2-R47-E6-F1: https://www.jazzyear.com/article_info.html?id=1484；https://www.jazzyear.com/article_info.html?id=1865（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E6 R3-S2-R47-E6-F2: https://www.jazzyear.com/aboutus.html；https://www.jazzyear.com/agreement_privacy.html（已落地核验 200，公开访问，2026-10-26）
+S2-R47-E7 R3-S2-R47-E7-F1: https://www.jazzyear.com/aboutus.html；https://www.jazzyear.com/agreement_privacy.html（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留；E4 正则+链接保留；E5 正则+链接保留；E6 正则+链接保留；E7 正则+链接保留,"S2-R47-E1 R3-S2-R47-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN3；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
+S2-R47-E1 规则：R3-S2-R47-E1-F1 已验证；R3-S2-R47-E1-F2 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jazzyear.com/study_list.html）；链接 可打开（200，标题「甲子光年|中国科技产业智库」）
+S2-R47-E2 规则：R3-S2-R47-E2-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：留出反例 1<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jazzyear.com/member_benefits.html）；链接 可打开（200，标题「会员权益|甲子光年」）
+S2-R47-E3 R3-S2-R47-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
+S2-R47-E3 R3-S2-R47-E3-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R47-E3 规则：R3-S2-R47-E3-F1 已验证；R3-S2-R47-E3-F2 已验证；链接 可打开（200，标题「甲子光年|中国科技产业智库」）
+S2-R47-E4 R3-S2-R47-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
+S2-R47-E4 R3-S2-R47-E4-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R47-E4 规则：R3-S2-R47-E4-F1 已验证；R3-S2-R47-E4-F2 已验证；链接 可打开（200，标题「甲子光年|中国科技产业智库」）
+S2-R47-E5 R3-S2-R47-E5-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
+S2-R47-E5 R3-S2-R47-E5-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R47-E5 规则：R3-S2-R47-E5-F1 已验证；R3-S2-R47-E5-F2 已验证；链接 可打开（200，标题「甲子光年|中国科技产业智库」）
+S2-R47-E6 R3-S2-R47-E6-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
+S2-R47-E6 R3-S2-R47-E6-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R47-E6 规则：R3-S2-R47-E6-F1 已验证；R3-S2-R47-E6-F2 已验证；链接 可打开（200，标题「甲子光年|中国科技产业智库」）
+S2-R47-E7 R3-S2-R47-E7-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R47-E7 规则：R3-S2-R47-E7-F1 已验证；链接 可打开（200，标题「甲子光年|中国科技产业智库」）","S2-R47-E1 = S1!指定pattern 第47行 第1个入口: https://www.jazzyear.com/study_list.html
+S2-R47-E2 = S1!指定pattern 第47行 第2个入口: https://www.jazzyear.com/member_benefits.html
+S2-R47-E3 = S1!指定pattern 第47行 第3个入口: https://www.jazzyear.com/article_list.html?type=1
+S2-R47-E4 = S1!指定pattern 第47行 第4个入口: https://www.jazzyear.com/article_list.html?type=2
+S2-R47-E5 = S1!指定pattern 第47行 第5个入口: https://www.jazzyear.com/article_list.html?type=3
+S2-R47-E6 = S1!指定pattern 第47行 第6个入口: https://www.jazzyear.com/article_list.html?type=4
+S2-R47-E7 = S1!指定pattern 第47行 第7个入口: https://www.jazzyear.com/article_list.html?type=6","S2-R47-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 16；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R47-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 4；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R47-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 13；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R47-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 13；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R47-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 13；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R47-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 13；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R47-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 4；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R47-E1 入口为站点首页，自动归纳范围为全站
+S2-R47-E2 入口为站点首页，自动归纳范围为全站
+S2-R47-E3 入口为站点首页，自动归纳范围为全站
+S2-R47-E4 入口为站点首页，自动归纳范围为全站
+S2-R47-E5 入口为站点首页，自动归纳范围为全站
+S2-R47-E6 入口为站点首页，自动归纳范围为全站
+S2-R47-E7 入口为站点首页，自动归纳范围为全站"
+48,/,,,,,,,,
+49,/,,,,,,,,
+50,https://www.vzkoo.com/question,,"S2-R50-E1: https://www.vzkoo.com/question
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R50-E1.txt",,E1 链接保留,S2-R50-E1 规则：无规则；链接 访问受限（站点 403：）,S2-R50-E1 = S1!指定pattern 第50行 第1个入口: https://www.vzkoo.com/question,S2-R50-E1: 未验证：入口访问受限（站点 403：）；未使用任何绕过手段；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+51,/,,,,,,,,
+52,/,,,,,,,,
+53,/,,,,,,,,
+54,/,,,,,,,,
+55,/,,,,,,,,
+56,"https://e.kuaishou.com/#/e/news
+https://e.kuaishou.com/#/e/report
+https://e.kuaishou.com/#/e/cases
+https://knowledge.e.kuaishou.com/","^https://e\.kuaishou\.com/\#/e/news/[0-9]+$
+^https://e\.kuaishou\.com/\#/e/report/[0-9]+$
+^https://e\.kuaishou\.com/\#/e/cases/[0-9]+/1$","S2-R56-E1: https://e.kuaishou.com/#/e/news
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R56-E1.txt
+S2-R56-E2: https://e.kuaishou.com/#/e/report
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R56-E2.txt
+S2-R56-E3: https://e.kuaishou.com/#/e/cases
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R56-E3.txt","S2-R56-E1 R3H-S2-R56-E1-F1: https://e.kuaishou.com/#/e/news/2154；https://e.kuaishou.com/#/e/news/2156（已落地核验 200，公开访问，2026-10-26）
+S2-R56-E2 R3H-S2-R56-E2-F1: https://e.kuaishou.com/#/e/report/2624；https://e.kuaishou.com/#/e/report/2556（已落地核验 200，公开访问，2026-10-26）
+S2-R56-E3 R3H-S2-R56-E3-F1: https://e.kuaishou.com/#/e/cases/1854/1；https://e.kuaishou.com/#/e/cases/1853/1（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 host免提,"S2-R56-E1 R3H-S2-R56-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP2/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R56-E1 规则：R3H-S2-R56-E1-F1 已验证；链接 可打开（200，标题「ç£åå¼æ|å¿«æå¹¿åææ¾|å¿«æè¥éæå¡」）
+S2-R56-E2 R3H-S2-R56-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP2/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R56-E2 规则：R3H-S2-R56-E2-F1 已验证；链接 可打开（200，标题「ç£åå¼æ|å¿«æå¹¿åææ¾|å¿«æè¥éæå¡」）
+S2-R56-E3 R3H-S2-R56-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP1/FP0/FN0/TN8；覆盖检查：列表 6 个、sitemap 同结构 0 个全部匹配
+S2-R56-E3 规则：R3H-S2-R56-E3-F1 已验证；链接 可打开（200，标题「ç£åå¼æ|å¿«æå¹¿åææ¾|å¿«æè¥éæå¡」）","S2-R56-E1 = S1!指定pattern 第56行 第1个入口: https://e.kuaishou.com/#/e/news
+S2-R56-E2 = S1!指定pattern 第56行 第2个入口: https://e.kuaishou.com/#/e/report
+S2-R56-E3 = S1!指定pattern 第56行 第3个入口: https://e.kuaishou.com/#/e/cases","S2-R56-E1: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 8 个同家族落地地址（另 0 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R56-E2: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 8 个同家族落地地址（另 0 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R56-E3: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 6 个同家族落地地址（另 1 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R56-E1 入口为站点首页，自动归纳范围为全站
+S2-R56-E2 入口为站点首页，自动归纳范围为全站
+S2-R56-E3 入口为站点首页，自动归纳范围为全站"
+57,"https://e.xiaohongshu.com/case
+https://e.xiaohongshu.com/numerous",,"S2-R57-E1: https://e.xiaohongshu.com/case
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R57-E1.txt
+S2-R57-E2: https://e.xiaohongshu.com/numerous
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R57-E2.txt",,E1 链接保留；E2 链接保留,"S2-R57-E1 规则：R3-S2-R57-E1-F1 部分验证（候选）（机械门未通过：留出反例 1<3）；链接 可打开（200，标题「种草就来小红书」）
+S2-R57-E2 规则：无规则；链接 可打开（200，标题「种草就来小红书」）","S2-R57-E1 = S1!指定pattern 第57行 第1个入口: https://e.xiaohongshu.com/case
+S2-R57-E2 = S1!指定pattern 第57行 第2个入口: https://e.xiaohongshu.com/numerous","S2-R57-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case/ 下家族 1 个、成员 9；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R57-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /numerous/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+58,"https://www.alimama.com/index.htm#!/marketing-case/index
+https://www.alimama.com/index.htm#!/marketing-insight/index
+https://www.alimama.com/index.htm#!/marketing-wiki/index","^https://www\.alimama\.com/index\.htm\#!/marketing\-case/article\-detail\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$
+^https://www\.alimama\.com/index\.htm\#!/marketing\-wiki/article\-detail\?id=[a-z0-9]+&pkey=insight&skey=ai$","S2-R58-E1: https://www.alimama.com/index.htm#!/marketing-case/index
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R58-E1.txt
+S2-R58-E2: https://www.alimama.com/index.htm#!/marketing-insight/index
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R58-E2.txt
+S2-R58-E3: https://www.alimama.com/index.htm#!/marketing-wiki/index
+  其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R58-E3.txt","S2-R58-E1 R3H-S2-R58-E1-F1: https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ad3750b3ae5721c04411eb3&pkey=example&skey=appliance；https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b63146ec9d2165f843cf&pkey=example&skey=appliance（已落地核验 200，公开访问，2026-10-26）
+S2-R58-E2 R3H-S2-R58-E2-F1: https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai；https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 链接保留,"S2-R58-E1 R3H-S2-R58-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP2/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R58-E1 规则：R3H-S2-R58-E1-F1 已验证；链接 可打开（200，标题「阿里妈妈数智经营」）
+S2-R58-E2 R3H-S2-R58-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP2/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R58-E2 规则：R3H-S2-R58-E2-F1 已验证；链接 可打开（200，标题「阿里妈妈数智经营」）
+S2-R58-E3 规则：R3H-S2-R58-E3-F1 部分验证（候选）（skey 只观察到 popularization 一个取值，而页面上还有其他子分类（已观察到 skeys=answer），很可能漏配其他子分类）；链接 可打开（200，标题「阿里妈妈数智经营」）","S2-R58-E1 = S1!指定pattern 第58行 第1个入口: https://www.alimama.com/index.htm#!/marketing-case/index
+S2-R58-E2 = S1!指定pattern 第58行 第2个入口: https://www.alimama.com/index.htm#!/marketing-insight/index
+S2-R58-E3 = S1!指定pattern 第58行 第3个入口: https://www.alimama.com/index.htm#!/marketing-wiki/index","S2-R58-E1: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 8 个同家族落地地址（另 0 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R58-E2: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 8 个同家族落地地址（另 0 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R58-E3: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 6 个同家族落地地址（另 1 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R58-E1 R3H-S2-R58-E1-F1 风险：skey 取值来自首屏 8 个案例（clothes、appliances、other、beauty 等）
+S2-R58-E1 入口为站点首页，自动归纳范围为全站
+S2-R58-E2 R3H-S2-R58-E2-F1 风险：skey 只观察到 ai 一个取值；如有其他子分类，需扩展后重验
+S2-R58-E2 入口为站点首页，自动归纳范围为全站
+S2-R58-E3 入口为站点首页，自动归纳范围为全站"
+59,/,,,,,,,,
+60,"https://jzt.jd.com/school/index
+https://survey.jd.com/
+https://jzt.jd.com/gw/information",^https://jzt\.jd\.com/gw/information/detail\?channelId=2356&contentId=[0-9]*$,"S2-R60-E1: https://jzt.jd.com/school/index
+  其余 117 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R60-E1.txt
+S2-R60-E3: https://jzt.jd.com/gw/information
+  其余 31 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R60-E3.txt",S2-R60-E3 R3-S2-R60-E3-F1: https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12047；https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12049（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E3 正则+链接保留；E2 host免提,"S2-R60-E1 规则：无规则；链接 可打开（200，标题「京点书院_京准通官网-京东」）
+S2-R60-E3 R3-S2-R60-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN4；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R60-E3 规则：R3-S2-R60-E3-F1 已验证；链接 可打开（200，标题「京东热点资讯_热点资讯推广-京准通官网」）","S2-R60-E1 = S1!指定pattern 第60行 第1个入口: https://jzt.jd.com/school/index
+S2-R60-E3 = S1!指定pattern 第60行 第3个入口: https://jzt.jd.com/gw/information","S2-R60-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /school/index/ 下家族 0 个、成员 0；前缀外同站链接 117、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R60-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /gw/information/ 下家族 1 个、成员 8；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+61,"https://e.bilibili.com/main/observe
+https://e.bilibili.com/case/",,"S2-R61-E1: https://e.bilibili.com/main/observe
+  其余 24 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R61-E1.txt
+S2-R61-E2: https://e.bilibili.com/case/
+  其余 33 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R61-E2.txt",,E1 链接保留；E2 链接保留,"S2-R61-E1 规则：无规则；链接 可打开（200，标题「B站营销官网」）
+S2-R61-E2 规则：无规则；链接 可打开（200，标题「æåæ¡ä¾ | Bç«è¥éå®ç½」）","S2-R61-E1 = S1!指定pattern 第61行 第1个入口: https://e.bilibili.com/main/observe
+S2-R61-E2 = S1!指定pattern 第61行 第2个入口: https://e.bilibili.com/case/","S2-R61-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /main/observe/ 下家族 0 个、成员 0；前缀外同站链接 22、文件 2；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R61-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case/ 下家族 0 个、成员 0；前缀外同站链接 31、文件 2；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+62,/,,,,,,,,
+63,"https://qn.taobao.com/headline/news
+https://qn.taobao.com/headline/course",,"S2-R63-E1: https://qn.taobao.com/headline/news
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R63-E1.txt
+S2-R63-E2: https://qn.taobao.com/headline/course
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R63-E2.txt",,E1 链接保留；E2 链接保留,"S2-R63-E1 规则：无规则；链接 可打开（200，标题「千牛工作台 - 商家一站式经营阵地」）
+S2-R63-E2 规则：无规则；链接 可打开（200，标题「千牛工作台 - 商家一站式经营阵地」）","S2-R63-E1 = S1!指定pattern 第63行 第1个入口: https://qn.taobao.com/headline/news
+S2-R63-E2 = S1!指定pattern 第63行 第2个入口: https://qn.taobao.com/headline/course","S2-R63-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 2、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R63-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 2、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R63-E1 入口为站点首页，自动归纳范围为全站
+S2-R63-E2 入口为站点首页，自动归纳范围为全站"
+64,/,,,,,,,,
+65,"https://creator.douyin.com/creator-micro/creator-count/arithmetic-index
+https://creator.douyin.com/creator-micro/creator-count/vertical-analysis
+https://creator.douyin.com/creator-micro/creator-count/arithmetic-report",,"S2-R65-E1: https://creator.douyin.com/creator-micro/creator-count/arithmetic-index
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R65-E1.txt
+S2-R65-E2: https://creator.douyin.com/creator-micro/creator-count/vertical-analysis
+  其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R65-E2.txt
+S2-R65-E3: https://creator.douyin.com/creator-micro/creator-count/arithmetic-report
+  其余 7 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R65-E3.txt",,E1 链接保留；E2 链接保留；E3 链接保留,"S2-R65-E1 规则：无规则；链接 可打开（200，标题「抖音创作者中心」）
+S2-R65-E2 规则：无规则；链接 可打开（200，标题「抖音创作者中心」）
+S2-R65-E3 规则：无规则；链接 可打开（200，标题「抖音创作者中心」）","S2-R65-E1 = S1!指定pattern 第65行 第1个入口: https://creator.douyin.com/creator-micro/creator-count/arithmetic-index
+S2-R65-E2 = S1!指定pattern 第65行 第2个入口: https://creator.douyin.com/creator-micro/creator-count/vertical-analysis
+S2-R65-E3 = S1!指定pattern 第65行 第3个入口: https://creator.douyin.com/creator-micro/creator-count/arithmetic-report","S2-R65-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /creator-micro/creator-count/arithmetic-index/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R65-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /creator-micro/creator-count/vertical-analysis/ 下家族 0 个、成员 0；前缀外同站链接 7、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R65-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /creator-micro/creator-count/arithmetic-report/ 下家族 0 个、成员 0；前缀外同站链接 7、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+66,"https://survey.jd.com/page/ecological
+https://survey.jd.com/page/edition",,"S2-R66-E1: https://survey.jd.com/page/ecological
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R66-E1.txt
+S2-R66-E2: https://survey.jd.com/page/edition
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R66-E2.txt",,E1 链接保留；E2 链接保留,"S2-R66-E1 规则：无规则；链接 可打开（200，标题「京洞察-京东官方市场调研与新品孵化平台」）
+S2-R66-E2 规则：无规则；链接 可打开（200，标题「京洞察-京东官方市场调研与新品孵化平台」）","S2-R66-E1 = S1!指定pattern 第66行 第1个入口: https://survey.jd.com/page/ecological
+S2-R66-E2 = S1!指定pattern 第66行 第2个入口: https://survey.jd.com/page/edition","S2-R66-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /page/ecological/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R66-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /page/edition/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+67,/,,,,,,,,
+68,/,,,,,,,,
+69,/,,,,,,,,
+70,/,,,,,,,,
+71,https://www.digitaling.com/moments,,"S2-R71-E1: https://www.digitaling.com/moments
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R71-E1.txt",,E1 链接保留,S2-R71-E1 规则：无规则；链接 访问受限（站点 403：403 Forbidden）,S2-R71-E1 = S1!指定pattern 第71行 第1个入口: https://www.digitaling.com/moments,S2-R71-E1: 未验证：入口访问受限（站点 403：403 Forbidden）；未使用任何绕过手段；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+72,"https://www.meihua.info/article
+https://www.meihua.info/topics","^https://www\.meihua\.info/article/[0-9]+$
+^https://www\.meihua\.info/topics/[0-9]+$","S2-R72-E1: https://www.meihua.info/article
+  其余 25 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R72-E1.txt
+S2-R72-E2: https://www.meihua.info/topics
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R72-E2.txt","S2-R72-E1 R3-S2-R72-E1-F1: https://www.meihua.info/article/5426285256770560；https://www.meihua.info/article/7045392407528448（已落地核验 200，公开访问，2026-10-26）
+S2-R72-E2 R3-S2-R72-E2-F1: https://www.meihua.info/topics/3360907810950144；https://www.meihua.info/topics/3331186900208640（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R72-E1 R3-S2-R72-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN5；覆盖检查：列表 36 个、sitemap 同结构 0 个全部匹配
+S2-R72-E1 规则：R3-S2-R72-E1-F1 已验证；链接 可打开（200，标题「文章 - 梅花网 - 营销作品宝库」）
+S2-R72-E2 R3-S2-R72-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP5/FP0/FN0/TN4；覆盖检查：列表 20 个、sitemap 同结构 0 个全部匹配
+S2-R72-E2 规则：R3-S2-R72-E2-F1 已验证；链接 可打开（200，标题「营销案例作品专题 - 营销作品宝库 - 梅花网」）","S2-R72-E1 = S1!指定pattern 第72行 第1个入口: https://www.meihua.info/article
+S2-R72-E2 = S1!指定pattern 第72行 第2个入口: https://www.meihua.info/topics","S2-R72-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /article/ 下家族 1 个、成员 36；前缀外同站链接 25、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R72-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /topics/ 下家族 1 个、成员 20；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+73,https://www.adquan.com/case_library/index,,"S2-R73-E1: https://www.adquan.com/case_library/index
+  其余 97 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R73-E1.txt",,E1 链接保留,S2-R73-E1 规则：无规则；链接 可打开（200，标题「广告门案例库 - 广告营销行业案例库」）,S2-R73-E1 = S1!指定pattern 第73行 第1个入口: https://www.adquan.com/case_library/index,S2-R73-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /case_library/index/ 下家族 0 个、成员 0；前缀外同站链接 97、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+74,"https://www.growthhk.cn/cgo
+https://www.growthhk.cn/quan","^https://www\.growthhk\.cn/cgo/[a-z]+/[0-9]+\.html$
+^https://www\.growthhk\.cn/cgo/[0-9]+\.html$
+^https://www\.growthhk\.cn/cgo/page/[0-9]+$
+^https://www\.growthhk\.cn/quan/[0-9]+\.html$
+^https://www\.growthhk\.cn/quan/page/[0-9]+$","S2-R74-E1: https://www.growthhk.cn/cgo
+  其余 180 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R74-E1.txt
+S2-R74-E2: https://www.growthhk.cn/quan
+  其余 945 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R74-E2.txt","S2-R74-E1 R3-S2-R74-E1-F1: https://www.growthhk.cn/cgo/market/51906.html；https://www.growthhk.cn/cgo/market/110507.html（已落地核验 200，公开访问，2026-10-26）
+S2-R74-E1 R3-S2-R74-E1-F2: https://www.growthhk.cn/cgo/10579.html；https://www.growthhk.cn/cgo/106479.html（已落地核验 200，公开访问，2026-10-26）
+S2-R74-E1 R3-S2-R74-E1-F3: https://www.growthhk.cn/cgo/page/925；https://www.growthhk.cn/cgo/page/928（已落地核验 200，公开访问，2026-10-26）
+S2-R74-E2 R3-S2-R74-E2-F1: https://www.growthhk.cn/quan/17188.html；https://www.growthhk.cn/quan/102444.html（已落地核验 200，公开访问，2026-10-26）
+S2-R74-E2 R3-S2-R74-E2-F2: https://www.growthhk.cn/quan/page/298；https://www.growthhk.cn/quan/page/301（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R74-E1 R3-S2-R74-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 8142 个、sitemap 同结构 12347 个全部匹配
+S2-R74-E1 R3-S2-R74-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 1075 个、sitemap 同结构 1751 个全部匹配
+S2-R74-E1 R3-S2-R74-E1-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN7；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
+S2-R74-E1 规则：R3-S2-R74-E1-F1 已验证；R3-S2-R74-E1-F2 已验证；R3-S2-R74-E1-F3 已验证；链接 可打开（200，标题「首席增长官(CGO)学习社区 - 增长黑客」）
+S2-R74-E2 R3-S2-R74-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 2123 个、sitemap 同结构 7611 个全部匹配
+S2-R74-E2 R3-S2-R74-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN7；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
+S2-R74-E2 规则：R3-S2-R74-E2-F1 已验证；R3-S2-R74-E2-F2 已验证；链接 可打开（200，标题「财经洞察 - 增长黑客」）","S2-R74-E1 = S1!指定pattern 第74行 第1个入口: https://www.growthhk.cn/cgo
+S2-R74-E2 = S1!指定pattern 第74行 第2个入口: https://www.growthhk.cn/quan","S2-R74-E1: 部分：静态请求 929 页（入口+分页），未完成分页 1；前缀 /cgo/ 下家族 3 个、成员 9220；前缀外同站链接 180、文件 0；sitemap 中同结构但不在列表的 URL：F1=4205、F2=676、F3=0；续跑见 output/round3/queue.json
+S2-R74-E2: 部分：静态请求 300 页（入口+分页），未完成分页 3；前缀 /quan/ 下家族 2 个、成员 2126；前缀外同站链接 945、文件 0；sitemap 中同结构但不在列表的 URL：F1=5488、F2=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+75,/,,,,,,,,
+76,/,,,,,,,,
+77,/,,,,,,,,
+78,/,,,,,,,,
+79,"https://www.morketing.com/newscenter
+https://www.morketing.com/newsflash
+https://www.morketing.com/columns
+https://www.morketing.com/ecosystem","^https://www\.morketing\.com/newsflash/[0-9]+$
+^https://www\.morketing\.com/columns/[0-9]+$","S2-R79-E1: https://www.morketing.com/newscenter
+  其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R79-E1.txt
+S2-R79-E2: https://www.morketing.com/newsflash
+  其余 10 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R79-E2.txt
+S2-R79-E3: https://www.morketing.com/columns
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R79-E3.txt
+S2-R79-E4: https://www.morketing.com/ecosystem
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R79-E4.txt","S2-R79-E2 R3-S2-R79-E2-F1: https://www.morketing.com/newsflash/28814；https://www.morketing.com/newsflash/28821（已落地核验 200，公开访问，2026-10-26）
+S2-R79-E3 R3-S2-R79-E3-F1: https://www.morketing.com/columns/32；https://www.morketing.com/columns/11（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留,"S2-R79-E1 规则：无规则；链接 可打开（200，标题「内容中心|Morketing_全球营销商业媒体平台」）
+S2-R79-E2 R3-S2-R79-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 0 个全部匹配
+S2-R79-E2 规则：R3-S2-R79-E2-F1 已验证；链接 可打开（200，标题「快讯|Morketing_全球营销商业媒体平台」）
+S2-R79-E3 R3-S2-R79-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN4；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
+S2-R79-E3 规则：R3-S2-R79-E3-F1 已验证；链接 可打开（200，标题「专栏|Morketing_全球营销商业媒体平台」）
+S2-R79-E4 规则：无规则；链接 可打开（200，标题「Morketing_全球营销商业媒体平台」）","S2-R79-E1 = S1!指定pattern 第79行 第1个入口: https://www.morketing.com/newscenter
+S2-R79-E2 = S1!指定pattern 第79行 第2个入口: https://www.morketing.com/newsflash
+S2-R79-E3 = S1!指定pattern 第79行 第3个入口: https://www.morketing.com/columns
+S2-R79-E4 = S1!指定pattern 第79行 第4个入口: https://www.morketing.com/ecosystem","S2-R79-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /newscenter/ 下家族 0 个、成员 0；前缀外同站链接 21、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R79-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /newsflash/ 下家族 1 个、成员 10；前缀外同站链接 10、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R79-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /columns/ 下家族 1 个、成员 12；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R79-E4: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /ecosystem/ 下家族 0 个、成员 0；前缀外同站链接 4、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+80,/,,,,,,,,
+81,/,,,,,,,,
+82,"https://www.jiemian.com/lists/2.html
+https://www.jiemian.com/lists/800.html
+https://www.jiemian.com/lists/49.html
+https://www.jiemian.com/lists/31.html
+https://www.jiemian.com/lists/858.html
+https://www.jiemian.com/lists/956.html
+https://www.jiemian.com/lists/65.html
+https://www.jiemian.com/lists/9.html
+https://www.jiemian.com/lists/112.html
+https://www.jiemian.com/lists/62.html
+https://www.jiemian.com/lists/51.html
+https://www.jiemian.com/lists/28.html
+https://www.jiemian.com/lists/30.html
+https://www.jiemian.com/lists/851.html
+https://www.jiemian.com/lists/856.html
+https://www.jiemian.com/lists/256.html
+https://www.jiemian.com/lists/845.html
+https://www.jiemian.com/lists/857.html
+https://www.jiemian.com/lists/850.html
+https://www.jiemian.com/lists/854.html
+https://www.jiemian.com/lists/676.html
+https://www.jiemian.com/lists/841.html
+https://www.jiemian.com/lists/847.html
+https://www.jiemian.com/lists/838.html
+https://www.jiemian.com/lists/694.html
+https://www.jiemian.com/lists/848.html
+https://www.jiemian.com/lists/846.html
+https://www.jiemian.com/lists/852.html
+https://www.jiemian.com/lists/839.html
+https://www.jiemian.com/lists/840.html
+https://www.jiemian.com/lists/883.html
+https://www.jiemian.com/lists/605.html
+https://www.jiemian.com/lists/154.html
+https://www.jiemian.com/lists/712.html
+https://www.jiemian.com/lists/877.html
+https://www.jiemian.com/lists/699.html
+https://www.jiemian.com/lists/174.html",,"S2-R82-E1: https://www.jiemian.com/lists/2.html
+  其余 77 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E1.txt
+S2-R82-E2: https://www.jiemian.com/lists/800.html
+  其余 55 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E2.txt
+S2-R82-E3: https://www.jiemian.com/lists/49.html
+  其余 31 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E3.txt
+S2-R82-E4: https://www.jiemian.com/lists/31.html
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E4.txt
+S2-R82-E5: https://www.jiemian.com/lists/858.html
+  其余 103 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E5.txt
+S2-R82-E6: https://www.jiemian.com/lists/956.html
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E6.txt
+S2-R82-E7: https://www.jiemian.com/lists/65.html
+  其余 50 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E7.txt
+S2-R82-E8: https://www.jiemian.com/lists/9.html
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E8.txt
+S2-R82-E9: https://www.jiemian.com/lists/112.html
+  其余 43 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E9.txt
+S2-R82-E10: https://www.jiemian.com/lists/62.html
+  其余 52 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E10.txt
+S2-R82-E11: https://www.jiemian.com/lists/51.html
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E11.txt
+S2-R82-E12: https://www.jiemian.com/lists/28.html
+  其余 52 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E12.txt
+S2-R82-E13: https://www.jiemian.com/lists/30.html
+  其余 34 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E13.txt
+S2-R82-E14: https://www.jiemian.com/lists/851.html
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E14.txt
+S2-R82-E15: https://www.jiemian.com/lists/856.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E15.txt
+S2-R82-E16: https://www.jiemian.com/lists/256.html
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E16.txt
+S2-R82-E17: https://www.jiemian.com/lists/845.html
+  其余 106 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E17.txt
+S2-R82-E18: https://www.jiemian.com/lists/857.html
+  其余 37 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E18.txt
+S2-R82-E19: https://www.jiemian.com/lists/850.html
+  其余 106 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E19.txt
+S2-R82-E20: https://www.jiemian.com/lists/854.html
+  其余 30 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E20.txt
+S2-R82-E21: https://www.jiemian.com/lists/676.html
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E21.txt
+S2-R82-E22: https://www.jiemian.com/lists/841.html
+  其余 102 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E22.txt
+S2-R82-E23: https://www.jiemian.com/lists/847.html
+  其余 103 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E23.txt
+S2-R82-E24: https://www.jiemian.com/lists/838.html
+  其余 100 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E24.txt
+S2-R82-E25: https://www.jiemian.com/lists/694.html
+  其余 27 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E25.txt
+S2-R82-E26: https://www.jiemian.com/lists/848.html
+  其余 104 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E26.txt
+S2-R82-E27: https://www.jiemian.com/lists/846.html
+  其余 105 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E27.txt
+S2-R82-E28: https://www.jiemian.com/lists/852.html
+  其余 31 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E28.txt
+S2-R82-E29: https://www.jiemian.com/lists/839.html
+  其余 99 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E29.txt
+S2-R82-E30: https://www.jiemian.com/lists/840.html
+  其余 31 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E30.txt
+S2-R82-E31: https://www.jiemian.com/lists/883.html
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E31.txt
+S2-R82-E32: https://www.jiemian.com/lists/605.html
+  其余 39 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E32.txt
+S2-R82-E33: https://www.jiemian.com/lists/154.html
+  其余 98 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E33.txt
+S2-R82-E34: https://www.jiemian.com/lists/712.html
+  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E34.txt
+S2-R82-E35: https://www.jiemian.com/lists/877.html
+  其余 38 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E35.txt
+S2-R82-E36: https://www.jiemian.com/lists/699.html
+  其余 30 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E36.txt
+S2-R82-E37: https://www.jiemian.com/lists/174.html
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R82-E37.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留；E12 链接保留；E13 链接保留；E14 链接保留；E15 链接保留；E16 链接保留；E17 链接保留；E18 链接保留；E19 链接保留；E20 链接保留；E21 链接保留；E22 链接保留；E23 链接保留；E24 链接保留；E25 链接保留；E26 链接保留；E27 链接保留；E28 链接保留；E29 链接保留；E30 链接保留；E31 链接保留；E32 链接保留；E33 链接保留；E34 链接保留；E35 链接保留；E36 链接保留；E37 链接保留,"S2-R82-E1 规则：R3-S2-R82-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/2.html）；链接 可打开（200，标题「商业_界面新闻」）
+S2-R82-E2 规则：R3-S2-R82-E2-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%）；链接 可打开（200，标题「财经_界面新闻」）
+S2-R82-E3 规则：无规则；链接 可打开（200，标题「营销_界面新闻」）
+S2-R82-E4 规则：R3-S2-R82-E4-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/31.html）；链接 可打开（200，标题「消费_界面新闻」）
+S2-R82-E5 规则：R3-S2-R82-E5-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/858.html）；链接 可打开（200，标题「创投_界面新闻」）
+S2-R82-E6 规则：无规则；链接 可打开（200，标题「出海_界面新闻」）
+S2-R82-E7 规则：R3-S2-R82-E7-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/65.html）；链接 可打开（200，标题「科技_界面新闻」）
+S2-R82-E8 规则：R3-S2-R82-E8-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/9.html）；链接 可打开（200，标题「金融_界面新闻」）
+S2-R82-E9 规则：R3-S2-R82-E9-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/112.html）；链接 可打开（200，标题「证券_界面新闻」）
+S2-R82-E10 规则：R3-S2-R82-E10-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/62.html）；链接 可打开（200，标题「地产_界面新闻」）
+S2-R82-E11 规则：R3-S2-R82-E11-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%）；链接 可打开（200，标题「汽车_界面新闻」）
+S2-R82-E12 规则：R3-S2-R82-E12-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/28.html）；链接 可打开（200，标题「工业_界面新闻」）
+S2-R82-E13 规则：R3-S2-R82-E13-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%）；链接 可打开（200，标题「交通_界面新闻」）
+S2-R82-E14 规则：R3-S2-R82-E14-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/851.html）；链接 可打开（200，标题「互联网_界面新闻」）
+S2-R82-E15 规则：R3-S2-R82-E15-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/856.html）；链接 可打开（200，标题「能源_界面新闻」）
+S2-R82-E16 规则：R3-S2-R82-E16-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/256.html）；链接 可打开（200，标题「界面教育_界面新闻」）
+S2-R82-E17 规则：R3-S2-R82-E17-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/845.html）；链接 可打开（200，标题「食品_界面新闻」）
+S2-R82-E18 规则：R3-S2-R82-E18-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/857.html）；链接 可打开（200，标题「新能源_界面新闻」）
+S2-R82-E19 规则：R3-S2-R82-E19-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/850.html）；链接 可打开（200，标题「家电_界面新闻」）
+S2-R82-E20 规则：无规则；链接 可打开（200，标题「健康_界面新闻」）
+S2-R82-E21 规则：R3-S2-R82-E21-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/676.html）；链接 可打开（200，标题「酒业_界面新闻」）
+S2-R82-E22 规则：R3-S2-R82-E22-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/841.html）；链接 可打开（200，标题「物流_界面新闻」）
+S2-R82-E23 规则：R3-S2-R82-E23-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/847.html）；链接 可打开（200，标题「零售_界面新闻」）
+S2-R82-E24 规则：R3-S2-R82-E24-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/838.html）；链接 可打开（200，标题「美妆_界面新闻」）
+S2-R82-E25 规则：R3-S2-R82-E25-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/694.html）；链接 可打开（200，标题「家居_界面新闻」）
+S2-R82-E26 规则：R3-S2-R82-E26-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/848.html）；链接 可打开（200，标题「餐饮_界面新闻」）
+S2-R82-E27 规则：R3-S2-R82-E27-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/846.html）；链接 可打开（200，标题「日用_界面新闻」）
+S2-R82-E28 规则：无规则；链接 可打开（200，标题「企服_界面新闻」）
+S2-R82-E29 规则：R3-S2-R82-E29-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/839.html）；链接 可打开（200，标题「珠宝_界面新闻」）
+S2-R82-E30 规则：无规则；链接 可打开（200，标题「腕表_界面新闻」）
+S2-R82-E31 规则：R3-S2-R82-E31-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/883.html）；链接 可打开（200，标题「农业_界面新闻」）
+S2-R82-E32 规则：R3-S2-R82-E32-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/605.html）；链接 可打开（200，标题「智库_界面新闻」）
+S2-R82-E33 规则：R3-S2-R82-E33-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/154.html）；链接 可打开（200，标题「数据_界面新闻」）
+S2-R82-E34 规则：R3-S2-R82-E34-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/712.html）；链接 可打开（200，标题「ESG_界面新闻」）
+S2-R82-E35 规则：R3-S2-R82-E35-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/877.html）；链接 可打开（200，标题「双碳_界面新闻」）
+S2-R82-E36 规则：无规则；链接 可打开（200，标题「IPO_界面新闻」）
+S2-R82-E37 规则：R3-S2-R82-E37-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.jiemian.com/lists/174.html）；链接 可打开（200，标题「宏观_界面新闻」）","S2-R82-E1 = S1!指定pattern 第82行 第1个入口: https://www.jiemian.com/lists/2.html
+S2-R82-E2 = S1!指定pattern 第82行 第2个入口: https://www.jiemian.com/lists/800.html
+S2-R82-E3 = S1!指定pattern 第82行 第3个入口: https://www.jiemian.com/lists/49.html
+S2-R82-E4 = S1!指定pattern 第82行 第4个入口: https://www.jiemian.com/lists/31.html
+S2-R82-E5 = S1!指定pattern 第82行 第5个入口: https://www.jiemian.com/lists/858.html
+S2-R82-E6 = S1!指定pattern 第82行 第6个入口: https://www.jiemian.com/lists/956.html
+S2-R82-E7 = S1!指定pattern 第82行 第7个入口: https://www.jiemian.com/lists/65.html
+S2-R82-E8 = S1!指定pattern 第82行 第8个入口: https://www.jiemian.com/lists/9.html
+S2-R82-E9 = S1!指定pattern 第82行 第9个入口: https://www.jiemian.com/lists/112.html
+S2-R82-E10 = S1!指定pattern 第82行 第10个入口: https://www.jiemian.com/lists/62.html
+S2-R82-E11 = S1!指定pattern 第82行 第11个入口: https://www.jiemian.com/lists/51.html
+S2-R82-E12 = S1!指定pattern 第82行 第12个入口: https://www.jiemian.com/lists/28.html
+S2-R82-E13 = S1!指定pattern 第82行 第13个入口: https://www.jiemian.com/lists/30.html
+S2-R82-E14 = S1!指定pattern 第82行 第14个入口: https://www.jiemian.com/lists/851.html
+S2-R82-E15 = S1!指定pattern 第82行 第15个入口: https://www.jiemian.com/lists/856.html
+S2-R82-E16 = S1!指定pattern 第82行 第16个入口: https://www.jiemian.com/lists/256.html
+S2-R82-E17 = S1!指定pattern 第82行 第17个入口: https://www.jiemian.com/lists/845.html
+S2-R82-E18 = S1!指定pattern 第82行 第18个入口: https://www.jiemian.com/lists/857.html
+S2-R82-E19 = S1!指定pattern 第82行 第19个入口: https://www.jiemian.com/lists/850.html
+S2-R82-E20 = S1!指定pattern 第82行 第20个入口: https://www.jiemian.com/lists/854.html
+S2-R82-E21 = S1!指定pattern 第82行 第21个入口: https://www.jiemian.com/lists/676.html
+S2-R82-E22 = S1!指定pattern 第82行 第22个入口: https://www.jiemian.com/lists/841.html
+S2-R82-E23 = S1!指定pattern 第82行 第23个入口: https://www.jiemian.com/lists/847.html
+S2-R82-E24 = S1!指定pattern 第82行 第24个入口: https://www.jiemian.com/lists/838.html
+S2-R82-E25 = S1!指定pattern 第82行 第25个入口: https://www.jiemian.com/lists/694.html
+S2-R82-E26 = S1!指定pattern 第82行 第26个入口: https://www.jiemian.com/lists/848.html
+S2-R82-E27 = S1!指定pattern 第82行 第27个入口: https://www.jiemian.com/lists/846.html
+S2-R82-E28 = S1!指定pattern 第82行 第28个入口: https://www.jiemian.com/lists/852.html
+S2-R82-E29 = S1!指定pattern 第82行 第29个入口: https://www.jiemian.com/lists/839.html
+S2-R82-E30 = S1!指定pattern 第82行 第30个入口: https://www.jiemian.com/lists/840.html
+S2-R82-E31 = S1!指定pattern 第82行 第31个入口: https://www.jiemian.com/lists/883.html
+S2-R82-E32 = S1!指定pattern 第82行 第32个入口: https://www.jiemian.com/lists/605.html
+S2-R82-E33 = S1!指定pattern 第82行 第33个入口: https://www.jiemian.com/lists/154.html
+S2-R82-E34 = S1!指定pattern 第82行 第34个入口: https://www.jiemian.com/lists/712.html
+S2-R82-E35 = S1!指定pattern 第82行 第35个入口: https://www.jiemian.com/lists/877.html
+S2-R82-E36 = S1!指定pattern 第82行 第36个入口: https://www.jiemian.com/lists/699.html
+S2-R82-E37 = S1!指定pattern 第82行 第37个入口: https://www.jiemian.com/lists/174.html","S2-R82-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 14；前缀外同站链接 63、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 7；前缀外同站链接 48、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 32、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 8；前缀外同站链接 42、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 40、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E10: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 46、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 7；前缀外同站链接 35、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E12: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 48、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E13: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 29、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E14: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 32、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E15: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 35、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E16: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E17: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E18: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E19: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E20: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 28、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E21: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 39、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E22: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E23: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E24: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 28、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E25: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 24、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E26: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 71；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E27: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E28: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E29: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 27、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E30: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E31: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E32: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E33: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 26、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R82-E34: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E35: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R82-E36: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 28、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R82-E37: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+83,/,,,,,,,,
+84,"https://www.foodaily.com/articles
+https://www.foodaily.com/newsflashes
+https://www.foodaily.com/columns
+https://www.foodaily.com/topics
+https://www.foodaily.com/dailies","^https://www\.foodaily\.com/articles/[0-9]+$
+^https://www\.foodaily\.com/newsflashes/[0-9]+$
+^https://www\.foodaily\.com/columns/[0-9]+$
+^https://www\.foodaily\.com/topics/[0-9]+$
+^https://www\.foodaily\.com/dailies/[0-9]+$","S2-R84-E1: https://www.foodaily.com/articles
+  其余 69 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R84-E1.txt
+S2-R84-E2: https://www.foodaily.com/newsflashes
+  其余 40 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R84-E2.txt
+S2-R84-E3: https://www.foodaily.com/columns
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R84-E3.txt
+S2-R84-E4: https://www.foodaily.com/topics
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R84-E4.txt
+S2-R84-E5: https://www.foodaily.com/dailies
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R84-E5.txt","S2-R84-E1 R3-S2-R84-E1-F1: https://www.foodaily.com/articles/1080；https://www.foodaily.com/articles/42484（已落地核验 200，公开访问，2026-10-26）
+S2-R84-E2 R3-S2-R84-E2-F1: https://www.foodaily.com/newsflashes/1415；https://www.foodaily.com/newsflashes/22345（已落地核验 200，公开访问，2026-10-26）
+S2-R84-E3 R3-S2-R84-E3-F1: https://www.foodaily.com/columns/1；https://www.foodaily.com/columns/16（已落地核验 200，公开访问，2026-10-26）
+S2-R84-E4 R3-S2-R84-E4-F1: https://www.foodaily.com/topics/6；https://www.foodaily.com/topics/10（已落地核验 200，公开访问，2026-10-26）
+S2-R84-E5 R3-S2-R84-E5-F1: https://www.foodaily.com/dailies/343；https://www.foodaily.com/dailies/1181（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留；E5 正则+链接保留,"S2-R84-E1 R3-S2-R84-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN5；覆盖检查：列表 4479 个、sitemap 同结构 0 个全部匹配
+S2-R84-E1 规则：R3-S2-R84-E1-F1 已验证；链接 可打开（200，标题「Foodaily每日食品网_食品资讯_食品报道_食品新闻_食品报告 | Foodaily每日食品」）
+S2-R84-E2 R3-S2-R84-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN5；覆盖检查：列表 2987 个、sitemap 同结构 0 个全部匹配
+S2-R84-E2 规则：R3-S2-R84-E2-F1 已验证；链接 可打开（200，标题「Foodaily每日食品网_食品行业资讯_最新食品报道_食品新闻快讯 | Foodaily每日食品」）
+S2-R84-E3 R3-S2-R84-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 17 个、sitemap 同结构 0 个全部匹配
+S2-R84-E3 规则：R3-S2-R84-E3-F1 已验证；链接 可打开（200，标题「Foodaily每日食品网_食品专栏_食品资讯_食品报道_食品新闻 | Foodaily每日食品」）
+S2-R84-E4 R3-S2-R84-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 11 个、sitemap 同结构 0 个全部匹配
+S2-R84-E4 规则：R3-S2-R84-E4-F1 已验证；链接 可打开（200，标题「Foodaily每日食品网_食品专题_食品资讯_食品报道_食品新闻 | Foodaily每日食品」）
+S2-R84-E5 R3-S2-R84-E5-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(later_pagination_pages) TP6/FP0/FN0/TN5；覆盖检查：列表 1184 个、sitemap 同结构 0 个全部匹配
+S2-R84-E5 规则：R3-S2-R84-E5-F1 已验证；链接 可打开（200，标题「Foodaily每日食品网_每日早报_资讯早餐_食品资讯 | Foodaily每日食品」）","S2-R84-E1 = S1!指定pattern 第84行 第1个入口: https://www.foodaily.com/articles
+S2-R84-E2 = S1!指定pattern 第84行 第2个入口: https://www.foodaily.com/newsflashes
+S2-R84-E3 = S1!指定pattern 第84行 第3个入口: https://www.foodaily.com/columns
+S2-R84-E4 = S1!指定pattern 第84行 第4个入口: https://www.foodaily.com/topics
+S2-R84-E5 = S1!指定pattern 第84行 第5个入口: https://www.foodaily.com/dailies","S2-R84-E1: 部分：静态请求 300 页（入口+分页），未完成分页 2；前缀 /articles/ 下家族 1 个、成员 4479；前缀外同站链接 69、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R84-E2: 部分：静态请求 300 页（入口+分页），未完成分页 2；前缀 /newsflashes/ 下家族 1 个、成员 2987；前缀外同站链接 19、文件 21；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R84-E3: 完整（枚举结束，无独立全集对账）：静态请求 4 页（入口+分页），未完成分页 0；前缀 /columns/ 下家族 1 个、成员 17；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R84-E4: 完整（枚举结束，无独立全集对账）：静态请求 3 页（入口+分页），未完成分页 0；前缀 /topics/ 下家族 1 个、成员 11；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R84-E5: 完整（枚举结束，无独立全集对账）：静态请求 120 页（入口+分页），未完成分页 0；前缀 /dailies/ 下家族 1 个、成员 1184；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+85,/,,,,,,,,
+86,"http://www.linkshop.com/news/
+http://www.linkshop.com/data/cb/
+http://www.linkshop.com/column/
+http://www.linkshop.com/interview/rw/
+http://www.linkshop.com/data/hy/
+http://www.linkshop.com/data/sl/
+http://www.linkshop.com/interview/xd/
+http://www.linkshop.com/interview/mq/
+http://www.linkshop.com/case/
+http://www.linkshop.com/pdl/",,"S2-R86-E1: http://www.linkshop.com/news/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E1.txt
+S2-R86-E2: http://www.linkshop.com/data/cb/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E2.txt
+S2-R86-E3: http://www.linkshop.com/column/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E3.txt
+S2-R86-E4: http://www.linkshop.com/interview/rw/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E4.txt
+S2-R86-E5: http://www.linkshop.com/data/hy/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E5.txt
+S2-R86-E6: http://www.linkshop.com/data/sl/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E6.txt
+S2-R86-E7: http://www.linkshop.com/interview/xd/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E7.txt
+S2-R86-E8: http://www.linkshop.com/interview/mq/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E8.txt
+S2-R86-E9: http://www.linkshop.com/case/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E9.txt
+S2-R86-E10: http://www.linkshop.com/pdl/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R86-E10.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留,"S2-R86-E1 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E2 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E3 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E4 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E5 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E6 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E7 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E8 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E9 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R86-E10 规则：无规则；链接 待核验（无站点状态码：未请求）","S2-R86-E1 = S1!指定pattern 第86行 第1个入口: http://www.linkshop.com/news/
+S2-R86-E2 = S1!指定pattern 第86行 第2个入口: http://www.linkshop.com/data/cb/
+S2-R86-E3 = S1!指定pattern 第86行 第3个入口: http://www.linkshop.com/column/
+S2-R86-E4 = S1!指定pattern 第86行 第4个入口: http://www.linkshop.com/interview/rw/
+S2-R86-E5 = S1!指定pattern 第86行 第5个入口: http://www.linkshop.com/data/hy/
+S2-R86-E6 = S1!指定pattern 第86行 第6个入口: http://www.linkshop.com/data/sl/
+S2-R86-E7 = S1!指定pattern 第86行 第7个入口: http://www.linkshop.com/interview/xd/
+S2-R86-E8 = S1!指定pattern 第86行 第8个入口: http://www.linkshop.com/interview/mq/
+S2-R86-E9 = S1!指定pattern 第86行 第9个入口: http://www.linkshop.com/case/
+S2-R86-E10 = S1!指定pattern 第86行 第10个入口: http://www.linkshop.com/pdl/","S2-R86-E1: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E2: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E3: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E4: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E5: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E6: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E7: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E8: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E9: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R86-E10: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+87,"https://www.woshipm.com/harmony
+https://www.woshipm.com/fish/
+https://www.woshipm.com/category/harmony
+https://www.woshipm.com/harmony-activities
+https://www.woshipm.com/policy
+https://www.woshipm.com/users",^https://www\.woshipm\.com/fish/[a-z]+/[0-9]+$,"S2-R87-E1: https://www.woshipm.com/harmony
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E1.txt
+S2-R87-E2: https://www.woshipm.com/fish/
+  其余 215 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E2.txt
+S2-R87-E3: https://www.woshipm.com/category/harmony
+  其余 989 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E3.txt
+S2-R87-E4: https://www.woshipm.com/harmony-activities
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E4.txt
+S2-R87-E5: https://www.woshipm.com/policy
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E5.txt
+S2-R87-E6: https://www.woshipm.com/users
+  其余 32 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R87-E6.txt",S2-R87-E2 R3-S2-R87-E2-F1: https://www.woshipm.com/fish/tag/1；https://www.woshipm.com/fish/tag/5（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留,"S2-R87-E1 规则：无规则；链接 可打开（200，标题「HarmonyOS开发者社区 | 人人都是产品经理」）
+S2-R87-E2 R3-S2-R87-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 7 个、sitemap 同结构 0 个全部匹配
+S2-R87-E2 规则：R3-S2-R87-E2-F1 已验证；链接 可打开（200，标题「摸鱼 - 一个互联网人的娱乐圈」）
+S2-R87-E3 规则：无规则；链接 可打开（200，标题「鸿蒙 | 人人都是产品经理」）
+S2-R87-E4 规则：无规则；链接 可打开（200，标题「鸿蒙活动专区 | 人人都是产品经理」）
+S2-R87-E5 规则：无规则；链接 可打开（200，标题「隐私政策 | 人人都是产品经理」）
+S2-R87-E6 规则：无规则；链接 可打开（200，标题「推荐作家 | 人人都是产品经理」）","S2-R87-E1 = S1!指定pattern 第87行 第1个入口: https://www.woshipm.com/harmony
+S2-R87-E2 = S1!指定pattern 第87行 第2个入口: https://www.woshipm.com/fish/
+S2-R87-E3 = S1!指定pattern 第87行 第3个入口: https://www.woshipm.com/category/harmony
+S2-R87-E4 = S1!指定pattern 第87行 第4个入口: https://www.woshipm.com/harmony-activities
+S2-R87-E5 = S1!指定pattern 第87行 第5个入口: https://www.woshipm.com/policy
+S2-R87-E6 = S1!指定pattern 第87行 第6个入口: https://www.woshipm.com/users","S2-R87-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /harmony/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R87-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /fish/ 下家族 1 个、成员 7；前缀外同站链接 215、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R87-E3: 完整（枚举结束，无独立全集对账）：静态请求 37 页（入口+分页），未完成分页 0；前缀 /category/harmony/ 下家族 0 个、成员 0；前缀外同站链接 988、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R87-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /harmony-activities/ 下家族 0 个、成员 0；前缀外同站链接 2、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R87-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /policy/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R87-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /users/ 下家族 0 个、成员 0；前缀外同站链接 32、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+88,"https://www.linkflowtech.com/blogs
+https://www.linkflowtech.com/courses
+https://www.linkflowtech.com/datas
+https://www.linkflowtech.com/customer-cases/
+https://www.linkflowtech.com/customer-cases-all-cosmetic
+https://www.linkflowtech.com/customer-cases-all-food
+https://www.linkflowtech.com/customer-cases-all-catering
+https://www.linkflowtech.com/customer-cases-all-retail
+https://www.linkflowtech.com/customer-cases-all-clothing
+https://www.linkflowtech.com/customer-cases-all-health
+https://www.linkflowtech.com/customer-cases-all-electric","^https://www\.linkflowtech\.com/blogs/[a-zA-Z0-9-]+$
+^https://www\.linkflowtech\.com/datas/[a-z0-9-]+$
+^https://www\.linkflowtech\.com/customer\-cases/[a-zA-Z-]+$","S2-R88-E1: https://www.linkflowtech.com/blogs
+  其余 68 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E1.txt
+S2-R88-E2: https://www.linkflowtech.com/courses
+  其余 102 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E2.txt
+S2-R88-E3: https://www.linkflowtech.com/datas
+  其余 61 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E3.txt
+S2-R88-E4: https://www.linkflowtech.com/customer-cases/
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E4.txt
+S2-R88-E5: https://www.linkflowtech.com/customer-cases-all-cosmetic
+  其余 48 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E5.txt
+S2-R88-E6: https://www.linkflowtech.com/customer-cases-all-food
+  其余 47 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E6.txt
+S2-R88-E7: https://www.linkflowtech.com/customer-cases-all-catering
+  其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E7.txt
+S2-R88-E8: https://www.linkflowtech.com/customer-cases-all-retail
+  其余 48 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E8.txt
+S2-R88-E9: https://www.linkflowtech.com/customer-cases-all-clothing
+  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E9.txt
+S2-R88-E10: https://www.linkflowtech.com/customer-cases-all-health
+  其余 47 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E10.txt
+S2-R88-E11: https://www.linkflowtech.com/customer-cases-all-electric
+  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R88-E11.txt","S2-R88-E1 R3-S2-R88-E1-F1: https://www.linkflowtech.com/blogs/WenbiaoZhou-Full-domain-Marketing；https://www.linkflowtech.com/blogs/case-breakdown-winning-beauty-retail-how-sephora-opened-new-ecology-private-domain（已落地核验 200，公开访问，2026-10-26）
+S2-R88-E3 R3-S2-R88-E3-F1: https://www.linkflowtech.com/datas/4-steps-to-enhance-private-domain-customer-conversion；https://www.linkflowtech.com/datas/2018-community-operation-summit-essential-mind-map（已落地核验 200，公开访问，2026-10-26）
+S2-R88-E4 R3-S2-R88-E4-F1: https://www.linkflowtech.com/customer-cases/consumer-electronics-flexible-use-massive-consumer-data-achieve-omnichannel-effect-tracking；https://www.linkflowtech.com/customer-cases/Beauty-company-taps-into-high-value-customers（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留；E3 正则+链接保留；E4 正则+链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留,"S2-R88-E1 R3-S2-R88-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 68 个、sitemap 同结构 0 个全部匹配
+S2-R88-E1 规则：R3-S2-R88-E1-F1 已验证；链接 可打开（200，标题「LinkFlow营销研习社—在这里您学习关于CDP、数字营销的一切。」）
+S2-R88-E2 规则：无规则；链接 可打开（200，标题「LinkFlow微课堂_最新最全的全域营销与CDP技能学习平台 - Linkflow CDP」）
+S2-R88-E3 R3-S2-R88-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP5/FP0/FN0/TN5；覆盖检查：列表 23 个、sitemap 同结构 0 个全部匹配
+S2-R88-E3 规则：R3-S2-R88-E3-F1 已验证；链接 可打开（200，标题「LinkFlow干货_最新最全全域营销资讯干货和CDP科普知识 - Linkflow CDP」）
+S2-R88-E4 R3-S2-R88-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 0 个全部匹配
+S2-R88-E4 规则：R3-S2-R88-E4-F1 已验证；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E5 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E6 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E7 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E8 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E9 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E10 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）
+S2-R88-E11 规则：无规则；链接 可打开（200，标题「LinkFlow 精选客户案例集」）","S2-R88-E1 = S1!指定pattern 第88行 第1个入口: https://www.linkflowtech.com/blogs
+S2-R88-E2 = S1!指定pattern 第88行 第2个入口: https://www.linkflowtech.com/courses
+S2-R88-E3 = S1!指定pattern 第88行 第3个入口: https://www.linkflowtech.com/datas
+S2-R88-E4 = S1!指定pattern 第88行 第4个入口: https://www.linkflowtech.com/customer-cases/
+S2-R88-E5 = S1!指定pattern 第88行 第5个入口: https://www.linkflowtech.com/customer-cases-all-cosmetic
+S2-R88-E6 = S1!指定pattern 第88行 第6个入口: https://www.linkflowtech.com/customer-cases-all-food
+S2-R88-E7 = S1!指定pattern 第88行 第7个入口: https://www.linkflowtech.com/customer-cases-all-catering
+S2-R88-E8 = S1!指定pattern 第88行 第8个入口: https://www.linkflowtech.com/customer-cases-all-retail
+S2-R88-E9 = S1!指定pattern 第88行 第9个入口: https://www.linkflowtech.com/customer-cases-all-clothing
+S2-R88-E10 = S1!指定pattern 第88行 第10个入口: https://www.linkflowtech.com/customer-cases-all-health
+S2-R88-E11 = S1!指定pattern 第88行 第11个入口: https://www.linkflowtech.com/customer-cases-all-electric","S2-R88-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blogs/ 下家族 1 个、成员 68；前缀外同站链接 68、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R88-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /courses/ 下家族 1 个、成员 20；前缀外同站链接 82、文件 0；续跑见 output/round3/queue.json
+S2-R88-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /datas/ 下家族 1 个、成员 23；前缀外同站链接 61、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R88-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases/ 下家族 1 个、成员 12；前缀外同站链接 42、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R88-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-cosmetic/ 下家族 0 个、成员 0；前缀外同站链接 48、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-food/ 下家族 0 个、成员 0；前缀外同站链接 47、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-catering/ 下家族 0 个、成员 0；前缀外同站链接 45、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-retail/ 下家族 0 个、成员 0；前缀外同站链接 48、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-clothing/ 下家族 0 个、成员 0；前缀外同站链接 46、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E10: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-health/ 下家族 0 个、成员 0；前缀外同站链接 47、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R88-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /customer-cases-all-electric/ 下家族 0 个、成员 0；前缀外同站链接 46、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R88-E2 R3-S2-R88-E2-F1 未成规则：归纳样本落地不足 3 个正常页面"
+89,https://www.niaogebiji.com/cooplist,^https://www\.niaogebiji\.com/cooplist/[0-9]+$,"S2-R89-E1: https://www.niaogebiji.com/cooplist
+  其余 63 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R89-E1.txt",S2-R89-E1 R3-S2-R89-E1-F1: https://www.niaogebiji.com/cooplist/1；https://www.niaogebiji.com/cooplist/11（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R89-E1 R3-S2-R89-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP4/FP0/FN0/TN5；覆盖检查：列表 19 个、sitemap 同结构 0 个全部匹配
+S2-R89-E1 规则：R3-S2-R89-E1-F1 已验证；链接 可打开（200，标题「找合作-全部合作信息-合作信息发布资源对接 | 鸟哥笔记」）",S2-R89-E1 = S1!指定pattern 第89行 第1个入口: https://www.niaogebiji.com/cooplist,S2-R89-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /cooplist/ 下家族 1 个、成员 19；前缀外同站链接 63、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+90,/,,,,,,,,
+91,"https://socialbeta.com/job
+https://socialbeta.com/tag/%E6%8B%9B%E8%81%98",,"S2-R91-E1: https://socialbeta.com/job
+  其余 1926 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R91-E1.txt
+S2-R91-E2: https://socialbeta.com/tag/%E6%8B%9B%E8%81%98
+  其余 44 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R91-E2.txt",,E1 链接保留；E2 链接保留,"S2-R91-E1 规则：无规则；链接 可打开（200，标题「职位机会｜SocialBeta」）
+S2-R91-E2 规则：无规则；链接 可打开（200，标题「招聘｜标签｜SocialBeta」）","S2-R91-E1 = S1!指定pattern 第91行 第1个入口: https://socialbeta.com/job
+S2-R91-E2 = S1!指定pattern 第91行 第2个入口: https://socialbeta.com/tag/%E6%8B%9B%E8%81%98","S2-R91-E1: 完整（枚举结束，无独立全集对账）：静态请求 148 页（入口+分页），未完成分页 0；前缀 /job/ 下家族 0 个、成员 0；前缀外同站链接 1926、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R91-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /tag/%E6%8B%9B%E8%81%98/ 下家族 1 个、成员 3；前缀外同站链接 41、文件 0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R91-E2 R3-S2-R91-E2-F1 未成规则：归纳样本落地不足 3 个正常页面"
+92,"https://www.topys.cn/minds
+https://www.topys.cn/branding","^https://www\.topys\.cn/minds/video/[0-9]+$
+^https://www\.topys\.cn/minds/[a-z0-9_]+$","S2-R92-E1: https://www.topys.cn/minds
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R92-E1.txt
+S2-R92-E2: https://www.topys.cn/branding
+  其余 19 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R92-E2.txt","S2-R92-E1 R3-S2-R92-E1-F1: https://www.topys.cn/minds/video/92；https://www.topys.cn/minds/video/94（已落地核验 200，公开访问，2026-10-26）
+S2-R92-E1 R3-S2-R92-E1-F2: https://www.topys.cn/minds/28；https://www.topys.cn/minds/26（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 链接保留,"S2-R92-E1 R3-S2-R92-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 6 个、sitemap 同结构 0 个全部匹配
+S2-R92-E1 R3-S2-R92-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 0 个全部匹配
+S2-R92-E1 规则：R3-S2-R92-E1-F1 已验证；R3-S2-R92-E1-F2 已验证；链接 可打开（200，标题「Minds创意课堂 - 全面提升你的创意力」）
+S2-R92-E2 规则：无规则；链接 可打开（200，标题「品牌兔子洞 | TOPYS创意内容平台」）","S2-R92-E1 = S1!指定pattern 第92行 第1个入口: https://www.topys.cn/minds
+S2-R92-E2 = S1!指定pattern 第92行 第2个入口: https://www.topys.cn/branding","S2-R92-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /minds/ 下家族 2 个、成员 11；前缀外同站链接 4、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R92-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /branding/ 下家族 0 个、成员 0；前缀外同站链接 19、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+93,"https://www.chinaventure.com.cn/report/list.html
+https://www.chinaventure.com.cn/index.html
+https://www.chinaventure.com.cn/subject/list.html
+https://www.chinaventure.com.cn/news/78.html
+https://www.chinaventure.com.cn/news/80.html
+https://www.chinaventure.com.cn/news/83.html
+https://www.chinaventure.com.cn/news/111.html
+https://www.chinaventure.com.cn/news/110.html
+https://www.chinaventure.com.cn/news/112.html
+https://www.chinaventure.com.cn/news/113.html
+https://www.chinaventure.com.cn/news/114.html
+https://www.chinaventure.com.cn/news/116.html","^https://www\.chinaventure\.com\.cn/[a-z]+/[a-z0-9_-]+\.html$
+^https://www\.chinaventure\.com\.cn/subject/[0-9]+\.html$","S2-R93-E1: https://www.chinaventure.com.cn/report/list.html
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E1.txt
+S2-R93-E2: https://www.chinaventure.com.cn/index.html
+  其余 4 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E2.txt
+S2-R93-E3: https://www.chinaventure.com.cn/subject/list.html
+  其余 3 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E3.txt
+S2-R93-E4: https://www.chinaventure.com.cn/news/78.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E4.txt
+S2-R93-E5: https://www.chinaventure.com.cn/news/80.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E5.txt
+S2-R93-E6: https://www.chinaventure.com.cn/news/83.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E6.txt
+S2-R93-E7: https://www.chinaventure.com.cn/news/111.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E7.txt
+S2-R93-E8: https://www.chinaventure.com.cn/news/110.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E8.txt
+S2-R93-E9: https://www.chinaventure.com.cn/news/112.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E9.txt
+S2-R93-E10: https://www.chinaventure.com.cn/news/113.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E10.txt
+S2-R93-E11: https://www.chinaventure.com.cn/news/114.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E11.txt
+S2-R93-E12: https://www.chinaventure.com.cn/news/116.html
+  其余 26 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R93-E12.txt","S2-R93-E2 R3-S2-R93-E2-F1: https://www.chinaventure.com.cn/news/108-20241230-384546.html；https://www.chinaventure.com.cn/news/111-20261028-393799.html（已落地核验 200，公开访问，2026-10-26）
+S2-R93-E3 R3-S2-R93-E3-F1: https://www.chinaventure.com.cn/subject/106.html；https://www.chinaventure.com.cn/subject/102.html（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留；E12 链接保留,"S2-R93-E1 规则：无规则；链接 可打开（200，标题「æä¸­ç ç©¶é¢ | æä¸­ç½」）
+S2-R93-E2 R3-S2-R93-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN3；覆盖检查：列表 28 个、sitemap 同结构 0 个全部匹配
+S2-R93-E2 规则：R3-S2-R93-E2-F1 已验证；链接 可打开（200，标题「æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´è§åæªæ」）
+S2-R93-E3 R3-S2-R93-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN4；覆盖检查：列表 10 个、sitemap 同结构 0 个全部匹配
+S2-R93-E3 规则：R3-S2-R93-E3-F1 已验证；链接 可打开（200，标题「ä¸é¢ | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´è§」）
+S2-R93-E4 规则：R3-S2-R93-E4-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/78.html）；链接 可打开（200，标题「åä¸æ·±åº¦Â |Â æä¸­ç½Â |Â åæ°ç»æµçæºè」）
+S2-R93-E5 规则：R3-S2-R93-E5-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/80.html）；链接 可打开（200，标题「èµæ¬å¸åº | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+S2-R93-E6 规则：R3-S2-R93-E6-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/83.html）；链接 可打开（200，标题「å¤©åºèå | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+S2-R93-E7 规则：R3-S2-R93-E7-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/111.html）；链接 可打开（200，标题「çç©å»è¯ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+S2-R93-E8 规则：R3-S2-R93-E8-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/110.html）；链接 可打开（200，标题「æ±½è½¦åºè¡ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+S2-R93-E9 规则：R3-S2-R93-E9-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/112.html）；链接 可打开（200，标题「æ°è½æº | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）
+S2-R93-E10 规则：R3-S2-R93-E10-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/113.html）；链接 可打开（200，标题「ä¼ä¸æå¡ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+S2-R93-E11 规则：R3-S2-R93-E11-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/114.html）；链接 可打开（200，标题「ç¡¬ç§æ | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）
+S2-R93-E12 规则：R3-S2-R93-E12-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.chinaventure.com.cn/news/116.html）；链接 可打开（200，标题「æ°æ¶è´¹ | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）","S2-R93-E1 = S1!指定pattern 第93行 第1个入口: https://www.chinaventure.com.cn/report/list.html
+S2-R93-E2 = S1!指定pattern 第93行 第2个入口: https://www.chinaventure.com.cn/index.html
+S2-R93-E3 = S1!指定pattern 第93行 第3个入口: https://www.chinaventure.com.cn/subject/list.html
+S2-R93-E4 = S1!指定pattern 第93行 第4个入口: https://www.chinaventure.com.cn/news/78.html
+S2-R93-E5 = S1!指定pattern 第93行 第5个入口: https://www.chinaventure.com.cn/news/80.html
+S2-R93-E6 = S1!指定pattern 第93行 第6个入口: https://www.chinaventure.com.cn/news/83.html
+S2-R93-E7 = S1!指定pattern 第93行 第7个入口: https://www.chinaventure.com.cn/news/111.html
+S2-R93-E8 = S1!指定pattern 第93行 第8个入口: https://www.chinaventure.com.cn/news/110.html
+S2-R93-E9 = S1!指定pattern 第93行 第9个入口: https://www.chinaventure.com.cn/news/112.html
+S2-R93-E10 = S1!指定pattern 第93行 第10个入口: https://www.chinaventure.com.cn/news/113.html
+S2-R93-E11 = S1!指定pattern 第93行 第11个入口: https://www.chinaventure.com.cn/news/114.html
+S2-R93-E12 = S1!指定pattern 第93行 第12个入口: https://www.chinaventure.com.cn/news/116.html","S2-R93-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 0 个、成员 0；前缀外同站链接 4、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R93-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 28；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /subject/ 下家族 1 个、成员 10；前缀外同站链接 3、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E10: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R93-E12: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 21；前缀外同站链接 5、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R93-E2 入口为站点首页，自动归纳范围为全站"
+94,/,,,,,,,,
+95,/,,,,,,,,
+96,/,,,,,,,,
+97,/,,,,,,,,
+98,/,,,,,,,,
+99,/,,,,,,,,
+100,"https://www.isc.org.cn/article/10360020493839808.html
+https://www.isc.org.cn//category/7424.html",,"S2-R100-E1: https://www.isc.org.cn/article/10360020493839808.html
+  其余 36 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R100-E1.txt
+S2-R100-E2: https://www.isc.org.cn//category/7424.html
+  其余 43 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R100-E2.txt",,E1 链接保留；E2 链接保留,"S2-R100-E1 规则：R3-S2-R100-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.isc.org.cn/article/10360020493839808.html）；链接 可打开（200，标题「联系我们_联系我们_中国互联网协会」）
+S2-R100-E2 规则：R3-S2-R100-E2-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.isc.org.cn//category/7424.html）；链接 可打开（200，标题「中国互联网协会」）","S2-R100-E1 = S1!指定pattern 第100行 第1个入口: https://www.isc.org.cn/article/10360020493839808.html
+S2-R100-E2 = S1!指定pattern 第100行 第2个入口: https://www.isc.org.cn//category/7424.html","S2-R100-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /article/ 下家族 1 个、成员 17；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R100-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 //category/ 下家族 1 个、成员 12；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+101,http://www.caam.org.cn/djzl,,"S2-R101-E1: http://www.caam.org.cn/djzl
+  其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R101-E1.txt",,E1 链接保留,S2-R101-E1 规则：无规则；链接 可打开（200，标题「党建专栏」）,S2-R101-E1 = S1!指定pattern 第101行 第1个入口: http://www.caam.org.cn/djzl,S2-R101-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /djzl/ 下家族 0 个、成员 0；前缀外同站链接 45、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+102,/,,,,,,,,
+103,/,,,,,,,,
+104,/,,,,,,,,
+105,https://www.chinapv.org.cn/StaticPage/Building/list50_1.html,,"S2-R105-E1: https://www.chinapv.org.cn/StaticPage/Building/list50_1.html
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R105-E1.txt",,E1 链接保留,"S2-R105-E1 规则：无规则；链接 待核验（无站点状态码：SSLError: HTTPSConnectionPool(host='www.chinapv.org.cn', port=443): Max retries ）",S2-R105-E1 = S1!指定pattern 第105行 第1个入口: https://www.chinapv.org.cn/StaticPage/Building/list50_1.html,"S2-R105-E1: 未验证：入口待核验（无站点状态码：SSLError: HTTPSConnectionPool(host='www.chinapv.org.cn', port=443): Max retries ）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+106,/,,,,,,,,
+107,https://www.cntac.org.cn/zixun/,^https://www\.cntac\.org\.cn/zixun/[a-z]+/[0-9]+/[a-z0-9_]+\.html$,"S2-R107-E1: https://www.cntac.org.cn/zixun/
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R107-E1.txt",S2-R107-E1 R3-S2-R107-E1-F1: https://www.cntac.org.cn/zixun/guoji/202608/t20260821_4419493.html；https://www.cntac.org.cn/zixun/guoji/202607/t20260706_4417156.html（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R107-E1 R3-S2-R107-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN6；覆盖检查：列表 48 个、sitemap 同结构 0 个全部匹配
+S2-R107-E1 规则：R3-S2-R107-E1-F1 已验证；R3-S2-R107-E1-F2 部分验证（候选）（机械门未通过：样本重复）；链接 可打开（200，标题「中国纺织工业联合会」）",S2-R107-E1 = S1!指定pattern 第107行 第1个入口: https://www.cntac.org.cn/zixun/,S2-R107-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /zixun/ 下家族 2 个、成员 54；前缀外同站链接 36、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+108,"https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/13.html
+https://www.cheaa.org/channels/14.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/9.html
+https://www.cheaa.org/channels/419.html
+https://www.cheaa.org/channels/420.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html",,"S2-R108-E1: https://www.cheaa.org/channels/116.html
+  其余 43 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E1.txt
+S2-R108-E2: https://www.cheaa.org/channels/13.html
+  其余 22 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E2.txt
+S2-R108-E3: https://www.cheaa.org/channels/14.html
+  其余 29 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E3.txt
+S2-R108-E4: https://www.cheaa.org/channels/16.html
+  其余 46 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E4.txt
+S2-R108-E5: https://www.cheaa.org/channels/23.html
+  其余 38 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E5.txt
+S2-R108-E6: https://www.cheaa.org/channels/25.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E6.txt
+S2-R108-E7: https://www.cheaa.org/channels/117.html
+  其余 44 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E7.txt
+S2-R108-E8: https://www.cheaa.org/channels/9.html
+  其余 44 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E8.txt
+S2-R108-E9: https://www.cheaa.org/channels/419.html
+  其余 51 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E9.txt
+S2-R108-E10: https://www.cheaa.org/channels/420.html
+  其余 32 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E10.txt
+S2-R108-E11: https://www.cheaa.org/channels/26.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E11.txt
+S2-R108-E12: https://www.cheaa.org/channels/27.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E12.txt
+S2-R108-E13: https://www.cheaa.org/channels/28.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E13.txt
+S2-R108-E14: https://www.cheaa.org/channels/30.html
+  其余 44 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E14.txt
+S2-R108-E15: https://www.cheaa.org/channels/32.html
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E15.txt
+S2-R108-E16: https://www.cheaa.org/channels/33.html
+  其余 40 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E16.txt
+S2-R108-E17: https://www.cheaa.org/channels/378.html
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E17.txt
+S2-R108-E18: https://www.cheaa.org/channels/443.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E18.txt
+S2-R108-E19: https://www.cheaa.org/channels/492.html
+  其余 38 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E19.txt
+S2-R108-E20: https://www.cheaa.org/channels/521.html
+  其余 41 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E20.txt
+S2-R108-E21: https://www.cheaa.org/channels/600.html
+  其余 34 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E21.txt
+S2-R108-E22: https://www.cheaa.org/channels/635.html
+  其余 35 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R108-E22.txt",,E1 链接保留；E2 链接保留；E3 链接保留；E4 链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留；E12 链接保留；E13 链接保留；E14 链接保留；E15 链接保留；E16 链接保留；E17 链接保留；E18 链接保留；E19 链接保留；E20 链接保留；E21 链接保留；E22 链接保留,"S2-R108-E1 规则：R3-S2-R108-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/116.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E2 规则：R3-S2-R108-E2-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN4/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E3 规则：R3-S2-R108-E3-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E4 规则：R3-S2-R108-E4-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/16.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E5 规则：R3-S2-R108-E5-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/23.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E6 规则：R3-S2-R108-E6-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/25.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E7 规则：R3-S2-R108-E7-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/117.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E8 规则：R3-S2-R108-E8-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/9.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E9 规则：R3-S2-R108-E9-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/419.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E10 规则：R3-S2-R108-E10-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+S2-R108-E11 规则：R3-S2-R108-E11-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/26.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E12 规则：R3-S2-R108-E12-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/27.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E13 规则：R3-S2-R108-E13-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/28.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E14 规则：R3-S2-R108-E14-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/30.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E15 规则：R3-S2-R108-E15-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/32.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E16 规则：R3-S2-R108-E16-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN4/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E17 规则：R3-S2-R108-E17-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/378.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E18 规则：R3-S2-R108-E18-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/443.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E19 规则：R3-S2-R108-E19-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E20 规则：R3-S2-R108-E20-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.cheaa.org/channels/521.html）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E21 规则：R3-S2-R108-E21-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+S2-R108-E22 规则：R3-S2-R108-E22-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%）；链接 可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）","S2-R108-E1 = S1!指定pattern 第108行 第1个入口: https://www.cheaa.org/channels/116.html
+S2-R108-E2 = S1!指定pattern 第108行 第2个入口: https://www.cheaa.org/channels/13.html
+S2-R108-E3 = S1!指定pattern 第108行 第3个入口: https://www.cheaa.org/channels/14.html
+S2-R108-E4 = S1!指定pattern 第108行 第4个入口: https://www.cheaa.org/channels/16.html
+S2-R108-E5 = S1!指定pattern 第108行 第5个入口: https://www.cheaa.org/channels/23.html
+S2-R108-E6 = S1!指定pattern 第108行 第6个入口: https://www.cheaa.org/channels/25.html
+S2-R108-E7 = S1!指定pattern 第108行 第7个入口: https://www.cheaa.org/channels/117.html
+S2-R108-E8 = S1!指定pattern 第108行 第8个入口: https://www.cheaa.org/channels/9.html
+S2-R108-E9 = S1!指定pattern 第108行 第9个入口: https://www.cheaa.org/channels/419.html
+S2-R108-E10 = S1!指定pattern 第108行 第10个入口: https://www.cheaa.org/channels/420.html
+S2-R108-E11 = S1!指定pattern 第108行 第11个入口: https://www.cheaa.org/channels/26.html
+S2-R108-E12 = S1!指定pattern 第108行 第12个入口: https://www.cheaa.org/channels/27.html
+S2-R108-E13 = S1!指定pattern 第108行 第13个入口: https://www.cheaa.org/channels/28.html
+S2-R108-E14 = S1!指定pattern 第108行 第14个入口: https://www.cheaa.org/channels/30.html
+S2-R108-E15 = S1!指定pattern 第108行 第15个入口: https://www.cheaa.org/channels/32.html
+S2-R108-E16 = S1!指定pattern 第108行 第16个入口: https://www.cheaa.org/channels/33.html
+S2-R108-E17 = S1!指定pattern 第108行 第17个入口: https://www.cheaa.org/channels/378.html
+S2-R108-E18 = S1!指定pattern 第108行 第18个入口: https://www.cheaa.org/channels/443.html
+S2-R108-E19 = S1!指定pattern 第108行 第19个入口: https://www.cheaa.org/channels/492.html
+S2-R108-E20 = S1!指定pattern 第108行 第20个入口: https://www.cheaa.org/channels/521.html
+S2-R108-E21 = S1!指定pattern 第108行 第21个入口: https://www.cheaa.org/channels/600.html
+S2-R108-E22 = S1!指定pattern 第108行 第22个入口: https://www.cheaa.org/channels/635.html","S2-R108-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 21；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 12；前缀外同站链接 10、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 12；前缀外同站链接 17、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 16；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 29；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E10: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 18；前缀外同站链接 14、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E12: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E13: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E14: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 20、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E15: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E16: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E17: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E18: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E19: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E20: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E21: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 12、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R108-E22: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 13、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+109,"https://www.coalchina.org.cn/list-10-1.html
+https://www.coalchina.org.cn/list-16-1.html
+https://www.coalchina.org.cn/list-12-1.html
+https://www.coalchina.org.cn/list-20-1.html
+https://www.coalchina.org.cn/list-25-1.html
+https://www.coalchina.org.cn/list-67-1.html
+https://www.coalchina.org.cn/list-39-1.html
+https://www.coalchina.org.cn/list-407-1.html
+https://www.coalchina.org.cn/list-44-1.html
+https://www.coalchina.org.cn/list-41-1.html
+https://www.coalchina.org.cn/list-45-1.html
+http://www.coalchina.org.cn/list-43-1.html
+http://www.coalchina.org.cn/list-42-1.html
+https://www.coalchina.org.cn/list-40-1.html
+https://www.coalchina.org.cn/list-72-1.html
+https://www.coalchina.org.cn/list-82-1.html","^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$
+^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$","S2-R109-E1: https://www.coalchina.org.cn/list-10-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E1.txt
+S2-R109-E2: https://www.coalchina.org.cn/list-16-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E2.txt
+S2-R109-E3: https://www.coalchina.org.cn/list-12-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E3.txt
+S2-R109-E4: https://www.coalchina.org.cn/list-20-1.html
+  其余 47 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E4.txt
+S2-R109-E5: https://www.coalchina.org.cn/list-25-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E5.txt
+S2-R109-E6: https://www.coalchina.org.cn/list-67-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E6.txt
+S2-R109-E7: https://www.coalchina.org.cn/list-39-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E7.txt
+S2-R109-E8: https://www.coalchina.org.cn/list-407-1.html
+  其余 23 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E8.txt
+S2-R109-E9: https://www.coalchina.org.cn/list-44-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E9.txt
+S2-R109-E10: https://www.coalchina.org.cn/list-41-1.html
+  其余 47 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E10.txt
+S2-R109-E11: https://www.coalchina.org.cn/list-45-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E11.txt
+S2-R109-E12: http://www.coalchina.org.cn/list-43-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E12.txt
+S2-R109-E13: http://www.coalchina.org.cn/list-42-1.html
+  其余 47 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E13.txt
+S2-R109-E14: https://www.coalchina.org.cn/list-40-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E14.txt
+S2-R109-E15: https://www.coalchina.org.cn/list-72-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E15.txt
+S2-R109-E16: https://www.coalchina.org.cn/list-82-1.html
+  其余 15 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R109-E16.txt","S2-R109-E1 R3-S2-R109-E1-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=16；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E1 R3-S2-R109-E1-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163183；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=163041（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E2 R3-S2-R109-E2-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E2 R3-S2-R109-E2-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=22&id=162541；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163152（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E3 R3-S2-R109-E3-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=20；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E3 R3-S2-R109-E3-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=163241；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=15&id=163250（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E4 R3-S2-R109-E4-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E5 R3-S2-R109-E5-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=16；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E5 R3-S2-R109-E5-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=163217；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E6 R3-S2-R109-E6-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=16；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E6 R3-S2-R109-E6-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=163240；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E7 R3-S2-R109-E7-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E7 R3-S2-R109-E7-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=162593；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E8 R3-S2-R109-E8-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=164；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=288（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E9 R3-S2-R109-E9-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=16；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E9 R3-S2-R109-E9-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163224；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E10 R3-S2-R109-E10-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=288；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E11 R3-S2-R109-E11-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=16；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E11 R3-S2-R109-E11-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=162992；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E12 R3-S2-R109-E12-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=20；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E12 R3-S2-R109-E12-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=10&id=163013；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=43&id=161755（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E13 R3-S2-R109-E13-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E14 R3-S2-R109-E14-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=20；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E14 R3-S2-R109-E14-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=39&id=163175；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E15 R3-S2-R109-E15-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=288；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E15 R3-S2-R109-E15-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=22&id=162541；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E16 R3-S2-R109-E16-F1: https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=10；https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12（已落地核验 200，公开访问，2026-10-26）
+S2-R109-E16 R3-S2-R109-E16-F2: https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163129；https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=38708（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 正则+链接保留；E5 正则+链接保留；E6 正则+链接保留；E7 正则+链接保留；E8 正则+链接保留；E9 正则+链接保留；E10 正则+链接保留；E11 正则+链接保留；E12 正则+链接保留；E13 正则+链接保留；E14 正则+链接保留；E15 正则+链接保留；E16 正则+链接保留,"S2-R109-E1 R3-S2-R109-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E1 R3-S2-R109-E1-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E1 规则：R3-S2-R109-E1-F1 已验证；R3-S2-R109-E1-F2 已验证；链接 可打开（200，标题「头版新闻 - 中国煤炭工业协会」）
+S2-R109-E2 R3-S2-R109-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E2 R3-S2-R109-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E2 规则：R3-S2-R109-E2-F1 已验证；R3-S2-R109-E2-F2 已验证；链接 可打开（200，标题「企业动态 - 中国煤炭工业协会」）
+S2-R109-E3 R3-S2-R109-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 41 个、sitemap 同结构 0 个全部匹配
+S2-R109-E3 R3-S2-R109-E3-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E3 规则：R3-S2-R109-E3-F1 已验证；R3-S2-R109-E3-F2 已验证；链接 可打开（200，标题「行业新闻 - 中国煤炭工业协会」）
+S2-R109-E4 R3-S2-R109-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP4/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E4 规则：R3-S2-R109-E4-F1 已验证；R3-S2-R109-E4-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「经济运行 - 中国煤炭工业协会」）
+S2-R109-E5 R3-S2-R109-E5-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E5 R3-S2-R109-E5-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E5 规则：R3-S2-R109-E5-F1 已验证；R3-S2-R109-E5-F2 已验证；链接 可打开（200，标题「价格指数 - 中国煤炭工业协会」）
+S2-R109-E6 R3-S2-R109-E6-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E6 R3-S2-R109-E6-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E6 规则：R3-S2-R109-E6-F1 已验证；R3-S2-R109-E6-F2 已验证；链接 可打开（200，标题「统计数据 - 中国煤炭工业协会」）
+S2-R109-E7 R3-S2-R109-E7-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E7 R3-S2-R109-E7-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E7 规则：R3-S2-R109-E7-F1 已验证；R3-S2-R109-E7-F2 已验证；链接 可打开（200，标题「政策法规 - 中国煤炭工业协会」）
+S2-R109-E8 R3-S2-R109-E8-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R109-E8 规则：R3-S2-R109-E8-F2 已验证；链接 可打开（200，标题「中国煤炭信息化网」）
+S2-R109-E9 R3-S2-R109-E9-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E9 R3-S2-R109-E9-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E9 规则：R3-S2-R109-E9-F1 已验证；R3-S2-R109-E9-F2 已验证；链接 可打开（200，标题「国际合作 - 中国煤炭工业协会」）
+S2-R109-E10 R3-S2-R109-E10-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E10 规则：R3-S2-R109-E10-F1 已验证；R3-S2-R109-E10-F2 部分验证（候选）（机械门未通过：样本重复）；链接 可打开（200，标题「科技进步 - 中国煤炭工业协会」）
+S2-R109-E11 R3-S2-R109-E11-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E11 R3-S2-R109-E11-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E11 规则：R3-S2-R109-E11-F1 已验证；R3-S2-R109-E11-F2 已验证；链接 可打开（200，标题「煤机装备 - 中国煤炭工业协会」）
+S2-R109-E12 R3-S2-R109-E12-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E12 R3-S2-R109-E12-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E12 规则：R3-S2-R109-E12-F1 已验证；R3-S2-R109-E12-F2 已验证；链接 可打开（200，标题「加工利用 - 中国煤炭工业协会」）
+S2-R109-E13 R3-S2-R109-E13-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E13 规则：R3-S2-R109-E13-F1 已验证；R3-S2-R109-E13-F2 部分验证（候选）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「项目建设 - 中国煤炭工业协会」）
+S2-R109-E14 R3-S2-R109-E14-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E14 R3-S2-R109-E14-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP2/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E14 规则：R3-S2-R109-E14-F1 已验证；R3-S2-R109-E14-F2 已验证；链接 可打开（200，标题「安全生产 - 中国煤炭工业协会」）
+S2-R109-E15 R3-S2-R109-E15-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP6/FP0/FN0/TN4；覆盖检查：列表 43 个、sitemap 同结构 0 个全部匹配
+S2-R109-E15 R3-S2-R109-E15-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP3/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E15 规则：R3-S2-R109-E15-F1 已验证；R3-S2-R109-E15-F2 已验证；链接 可打开（200，标题「研究报告 - 中国煤炭工业协会」）
+S2-R109-E16 R3-S2-R109-E16-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP5/FP0/FN0/TN4；覆盖检查：列表 42 个、sitemap 同结构 0 个全部匹配
+S2-R109-E16 R3-S2-R109-E16-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN4；覆盖检查：列表 32 个、sitemap 同结构 0 个全部匹配
+S2-R109-E16 规则：R3-S2-R109-E16-F1 已验证；R3-S2-R109-E16-F2 已验证；链接 可打开（200，标题「媒体关注 - 中国煤炭工业协会」）","S2-R109-E1 = S1!指定pattern 第109行 第1个入口: https://www.coalchina.org.cn/list-10-1.html
+S2-R109-E2 = S1!指定pattern 第109行 第2个入口: https://www.coalchina.org.cn/list-16-1.html
+S2-R109-E3 = S1!指定pattern 第109行 第3个入口: https://www.coalchina.org.cn/list-12-1.html
+S2-R109-E4 = S1!指定pattern 第109行 第4个入口: https://www.coalchina.org.cn/list-20-1.html
+S2-R109-E5 = S1!指定pattern 第109行 第5个入口: https://www.coalchina.org.cn/list-25-1.html
+S2-R109-E6 = S1!指定pattern 第109行 第6个入口: https://www.coalchina.org.cn/list-67-1.html
+S2-R109-E7 = S1!指定pattern 第109行 第7个入口: https://www.coalchina.org.cn/list-39-1.html
+S2-R109-E8 = S1!指定pattern 第109行 第8个入口: https://www.coalchina.org.cn/list-407-1.html
+S2-R109-E9 = S1!指定pattern 第109行 第9个入口: https://www.coalchina.org.cn/list-44-1.html
+S2-R109-E10 = S1!指定pattern 第109行 第10个入口: https://www.coalchina.org.cn/list-41-1.html
+S2-R109-E11 = S1!指定pattern 第109行 第11个入口: https://www.coalchina.org.cn/list-45-1.html
+S2-R109-E12 = S1!指定pattern 第109行 第12个入口: http://www.coalchina.org.cn/list-43-1.html
+S2-R109-E13 = S1!指定pattern 第109行 第13个入口: http://www.coalchina.org.cn/list-42-1.html
+S2-R109-E14 = S1!指定pattern 第109行 第14个入口: https://www.coalchina.org.cn/list-40-1.html
+S2-R109-E15 = S1!指定pattern 第109行 第15个入口: https://www.coalchina.org.cn/list-72-1.html
+S2-R109-E16 = S1!指定pattern 第109行 第16个入口: https://www.coalchina.org.cn/list-82-1.html","S2-R109-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E3: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 83；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 2 个、成员 27；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F2=0；续跑见 output/round3/queue.json
+S2-R109-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E10: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E12: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E13: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E14: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E15: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 85；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json
+S2-R109-E16: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 3 个、成员 84；前缀外同站链接 2、文件 1；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R109-E1 R3-S2-R109-E1-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E1 入口为站点首页，自动归纳范围为全站
+S2-R109-E2 R3-S2-R109-E2-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E2 入口为站点首页，自动归纳范围为全站
+S2-R109-E3 R3-S2-R109-E3-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E3 入口为站点首页，自动归纳范围为全站
+S2-R109-E4 R3-S2-R109-E4-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E4 入口为站点首页，自动归纳范围为全站
+S2-R109-E5 R3-S2-R109-E5-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E5 入口为站点首页，自动归纳范围为全站
+S2-R109-E6 R3-S2-R109-E6-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E6 入口为站点首页，自动归纳范围为全站
+S2-R109-E7 R3-S2-R109-E7-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E7 入口为站点首页，自动归纳范围为全站
+S2-R109-E8 R3-S2-R109-E8-F1 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E8 入口为站点首页，自动归纳范围为全站
+S2-R109-E9 R3-S2-R109-E9-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E9 入口为站点首页，自动归纳范围为全站
+S2-R109-E10 R3-S2-R109-E10-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E10 入口为站点首页，自动归纳范围为全站
+S2-R109-E11 R3-S2-R109-E11-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E11 入口为站点首页，自动归纳范围为全站
+S2-R109-E12 R3-S2-R109-E12-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E12 入口为站点首页，自动归纳范围为全站
+S2-R109-E13 R3-S2-R109-E13-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E13 入口为站点首页，自动归纳范围为全站
+S2-R109-E14 R3-S2-R109-E14-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E14 入口为站点首页，自动归纳范围为全站
+S2-R109-E15 R3-S2-R109-E15-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E15 入口为站点首页，自动归纳范围为全站
+S2-R109-E16 R3-S2-R109-E16-F3 未成规则：归纳样本落地不足 3 个正常页面
+S2-R109-E16 入口为站点首页，自动归纳范围为全站"
+110,/,,,,,,,,
+111,/,,,,,,,,
+112,https://www.iresearch.com.cn/Research.shtml,^https://www\.iresearch\.com\.cn/Research/[a-zA-Z]+\.shtml$,"S2-R112-E1: https://www.iresearch.com.cn/Research.shtml
+  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R112-E1.txt",S2-R112-E1 R3-S2-R112-E1-F1: https://www.iresearch.com.cn/Research/Brand.shtml；https://www.iresearch.com.cn/Research/Marketing.shtml（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R112-E1 R3-S2-R112-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 6 个、sitemap 同结构 0 个全部匹配
+S2-R112-E1 规则：R3-S2-R112-E1-F1 已验证；链接 可打开（200，标题「è¾çå¨è¯¢」）",S2-R112-E1 = S1!指定pattern 第112行 第1个入口: https://www.iresearch.com.cn/Research.shtml,S2-R112-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /Research/ 下家族 1 个、成员 6；前缀外同站链接 12、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+113,"https://www.chanmama.com/douyin/
+https://cy.chanmama.com/insights
+https://www.chanmama.com/yunyingquan/","^https://www\.chanmama\.com/yunyingquan/[a-z]+/[0-9]+\.html$
+^https://www\.chanmama\.com/yunyingquan/questions/[a-z]+/[a-zA-Z]+/$","S2-R113-E1: https://www.chanmama.com/douyin/
+  其余 60 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R113-E1.txt
+S2-R113-E2: https://cy.chanmama.com/insights
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R113-E2.txt
+S2-R113-E3: https://www.chanmama.com/yunyingquan/
+  其余 12 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R113-E3.txt","S2-R113-E3 R3-S2-R113-E3-F1: https://www.chanmama.com/yunyingquan/article/1516.html；https://www.chanmama.com/yunyingquan/question/4869.html（已落地核验 200，公开访问，2026-10-26）
+S2-R113-E3 R3-S2-R113-E3-F2: https://www.chanmama.com/yunyingquan/questions/all/latest/；https://www.chanmama.com/yunyingquan/questions/daihuo/latest/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 链接保留；E3 正则+链接保留,"S2-R113-E1 规则：无规则；链接 可打开（200，标题「æé³æ°æ®åæå¹³å°_æé³ç´æ­|ç­è§é¢|ç」）
+S2-R113-E2 规则：无规则；链接 可打开（200，标题「蝉妈妈·创意 - 千川投放素材_短视频素材创意服务平台」）
+S2-R113-E3 R3-S2-R113-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 64 个、sitemap 同结构 5853 个全部匹配
+S2-R113-E3 R3-S2-R113-E3-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP4/FP0/FN0/TN6；覆盖检查：列表 17 个、sitemap 同结构 15 个全部匹配
+S2-R113-E3 规则：R3-S2-R113-E3-F1 已验证；R3-S2-R113-E3-F2 已验证；链接 可打开（200，标题「蝉妈妈运营圈问答合集_抖音运营干货_直播带货技巧」）","S2-R113-E1 = S1!指定pattern 第113行 第1个入口: https://www.chanmama.com/douyin/
+S2-R113-E2 = S1!指定pattern 第113行 第2个入口: https://cy.chanmama.com/insights
+S2-R113-E3 = S1!指定pattern 第113行 第3个入口: https://www.chanmama.com/yunyingquan/","S2-R113-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /douyin/ 下家族 0 个、成员 0；前缀外同站链接 60、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R113-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /insights/ 下家族 0 个、成员 0；前缀外同站链接 2、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R113-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /yunyingquan/ 下家族 2 个、成员 81；前缀外同站链接 9、文件 0；sitemap 中同结构但不在列表的 URL：F1=5833、F2=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+114,"https://www.weiboyi.com/report
+https://www.weiboyi.com/meeting",,"S2-R114-E1: https://www.weiboyi.com/report
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R114-E1.txt
+S2-R114-E2: https://www.weiboyi.com/meeting
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R114-E2.txt",,E1 链接保留；E2 链接保留,"S2-R114-E1 规则：无规则；链接 待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）
+S2-R114-E2 规则：无规则；链接 待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）","S2-R114-E1 = S1!指定pattern 第114行 第1个入口: https://www.weiboyi.com/report
+S2-R114-E2 = S1!指定pattern 第114行 第2个入口: https://www.weiboyi.com/meeting","S2-R114-E1: 未验证：入口待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R114-E2: 未验证：入口待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+115,"https://www.getui.com/reports
+https://www.getui.com/college","^https://www\.getui\.com/reports/[0-9]+$
+^https://www\.getui\.com/college/search\?tagId=[0-9]*$
+^https://www\.getui\.com/college/[a-z0-9]+$
+^https://www\.getui\.com/college/video/[a-zA-Z0-9]+$","S2-R115-E1: https://www.getui.com/reports
+  其余 29 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R115-E1.txt
+S2-R115-E2: https://www.getui.com/college
+  其余 30 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R115-E2.txt","S2-R115-E1 R3-S2-R115-E1-F1: https://www.getui.com/reports/2018011272；https://www.getui.com/reports/2023072681（已落地核验 200，公开访问，2026-10-26）
+S2-R115-E2 R3-S2-R115-E2-F1: https://www.getui.com/college/search?tagId=10；https://www.getui.com/college/search?tagId=12（已落地核验 200，公开访问，2026-10-26）
+S2-R115-E2 R3-S2-R115-E2-F2: https://www.getui.com/college/2014060440；https://www.getui.com/college/2022060137（已落地核验 200，公开访问，2026-10-26）
+S2-R115-E2 R3-S2-R115-E2-F3: https://www.getui.com/college/video/2020102883；https://www.getui.com/college/video/2022093019（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R115-E1 R3-S2-R115-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 16 个、sitemap 同结构 159 个全部匹配
+S2-R115-E1 规则：R3-S2-R115-E1-F1 已验证；链接 可打开（200，标题「个推行业报告—挖掘数据价值，关注行业发展，分析热点话题」）
+S2-R115-E2 R3-S2-R115-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN7；覆盖检查：列表 27 个、sitemap 同结构 0 个全部匹配
+S2-R115-E2 R3-S2-R115-E2-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN7；覆盖检查：列表 14 个、sitemap 同结构 509 个全部匹配
+S2-R115-E2 R3-S2-R115-E2-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 118 个全部匹配
+S2-R115-E2 规则：R3-S2-R115-E2-F1 已验证；R3-S2-R115-E2-F2 已验证；R3-S2-R115-E2-F3 已验证；链接 可打开（200，标题「个推学堂—产品、运营、技术干货，行业数据报告，个推学堂伴您成长」）","S2-R115-E1 = S1!指定pattern 第115行 第1个入口: https://www.getui.com/reports
+S2-R115-E2 = S1!指定pattern 第115行 第2个入口: https://www.getui.com/college","S2-R115-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /reports/ 下家族 1 个、成员 16；前缀外同站链接 29、文件 0；sitemap 中同结构但不在列表的 URL：F1=143；续跑见 output/round3/queue.json
+S2-R115-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /college/ 下家族 3 个、成员 44；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=495、F3=115；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+116,"https://www.growingio.com/ebook
+https://www.growingio.com/news
+https://www.growingio.com/video","^https://www\.growingio\.com/ebook/[0-9]+$
+^https://www\.growingio\.com/news/[a-z0-9]+$
+^https://www\.growingio\.com/video/[0-9]+$","S2-R116-E1: https://www.growingio.com/ebook
+  其余 22 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R116-E1.txt
+S2-R116-E2: https://www.growingio.com/news
+  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R116-E2.txt
+S2-R116-E3: https://www.growingio.com/video
+  其余 25 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R116-E3.txt","S2-R116-E1 R3-S2-R116-E1-F1: https://www.growingio.com/ebook/12；https://www.growingio.com/ebook/41（已落地核验 200，公开访问，2026-10-26）
+S2-R116-E2 R3-S2-R116-E2-F1: https://www.growingio.com/news/006；https://www.growingio.com/news/0om5xbevjutacnxikbui83（已落地核验 200，公开访问，2026-10-26）
+S2-R116-E3 R3-S2-R116-E3-F1: https://www.growingio.com/video/13；https://www.growingio.com/video/50（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留,"S2-R116-E1 R3-S2-R116-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 50 个全部匹配
+S2-R116-E1 规则：R3-S2-R116-E1-F1 已验证；链接 可打开（200，标题「GrowingIO 增长干货」）
+S2-R116-E2 R3-S2-R116-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 133 个全部匹配
+S2-R116-E2 规则：R3-S2-R116-E2-F1 已验证；链接 可打开（200，标题「GrowingIO 增长博客」）
+S2-R116-E3 R3-S2-R116-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 61 个全部匹配
+S2-R116-E3 规则：R3-S2-R116-E3-F1 已验证；链接 可打开（200，标题「GrowingIO 增长公开课」）","S2-R116-E1 = S1!指定pattern 第116行 第1个入口: https://www.growingio.com/ebook
+S2-R116-E2 = S1!指定pattern 第116行 第2个入口: https://www.growingio.com/news
+S2-R116-E3 = S1!指定pattern 第116行 第3个入口: https://www.growingio.com/video","S2-R116-E1: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /ebook/ 下家族 1 个、成员 12；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=38；续跑见 output/round3/queue.json
+S2-R116-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 12；前缀外同站链接 14、文件 0；sitemap 中同结构但不在列表的 URL：F1=121；续跑见 output/round3/queue.json
+S2-R116-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /video/ 下家族 1 个、成员 12；前缀外同站链接 25、文件 0；sitemap 中同结构但不在列表的 URL：F1=49；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+117,"https://mi.talkingdata.com/reports.html
+https://www.talkingdata.com/insights.jsp?languagetype=zh_cn#industry-news",,"S2-R117-E1: https://mi.talkingdata.com/reports.html
+  其余 498 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R117-E1.txt
+S2-R117-E2: https://www.talkingdata.com/insights.jsp?languagetype=zh_cn#industry-news
+  其余 117 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R117-E2.txt",,E1 链接保留；E2 链接保留,"S2-R117-E1 规则：无规则；链接 可打开（200，标题「数据报告-移动观象台-TalkingData」）
+S2-R117-E2 规则：R3-S2-R117-E2-F1 部分验证（候选）（机械门未通过：留出反例 2<3）；链接 可打开（200，标题「TalkingData-AI.数据.价值」）","S2-R117-E1 = S1!指定pattern 第117行 第1个入口: https://mi.talkingdata.com/reports.html
+S2-R117-E2 = S1!指定pattern 第117行 第2个入口: https://www.talkingdata.com/insights.jsp?languagetype=zh_cn#industry-news","S2-R117-E1: 完整（枚举结束，无独立全集对账）：静态请求 48 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 498、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R117-E2: 完整（枚举结束，无独立全集对账）：静态请求 14 页（入口+分页），未完成分页 0；前缀 / 下家族 1 个、成员 117；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R117-E1 入口为站点首页，自动归纳范围为全站
+S2-R117-E2 入口为站点首页，自动归纳范围为全站"
+118,"https://www.miaozhen.com/articles
+https://www.miaozhen.com/paper",^https://www\.miaozhen\.com/articles/[0-9]+$,"S2-R118-E1: https://www.miaozhen.com/articles
+  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R118-E1.txt
+S2-R118-E2: https://www.miaozhen.com/paper
+  其余 18 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R118-E2.txt",S2-R118-E1 R3-S2-R118-E1-F1: https://www.miaozhen.com/articles/10；https://www.miaozhen.com/articles/4（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留；E2 链接保留,"S2-R118-E1 R3-S2-R118-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 9 个、sitemap 同结构 0 个全部匹配
+S2-R118-E1 规则：R3-S2-R118-E1-F1 已验证；链接 可打开（200，标题「干货文章-秒针系统-营销实效管理专家」）
+S2-R118-E2 规则：无规则；链接 可打开（200，标题「白皮书-秒针系统-营销实效管理专家」）","S2-R118-E1 = S1!指定pattern 第118行 第1个入口: https://www.miaozhen.com/articles
+S2-R118-E2 = S1!指定pattern 第118行 第2个入口: https://www.miaozhen.com/paper","S2-R118-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /articles/ 下家族 1 个、成员 9；前缀外同站链接 13、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json
+S2-R118-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /paper/ 下家族 0 个、成员 0；前缀外同站链接 18、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+119,"https://www.focusmedia.cn/classic
+https://www.focusmedia.cn/entrepreneurship
+https://www.focusmedia.cn/industry
+https://www.focusmedia.cn/news/
+https://www.focusmedia.cn/whitepaper
+https://www.focusmedia.cn/companyreport
+https://www.focusmedia.cn/business/#jump
+https://www.focusmedia.cn/elevator/#jump
+https://www.focusmedia.cn/screen/#jump
+https://www.focusmedia.cn/publication#jump
+https://www.focusmedia.cn/aiad/#jump",^https://www\.focusmedia\.cn/news/13/[0-9]+$,"S2-R119-E1: https://www.focusmedia.cn/classic
+  其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E1.txt
+S2-R119-E2: https://www.focusmedia.cn/entrepreneurship
+  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E2.txt
+S2-R119-E3: https://www.focusmedia.cn/industry
+  其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E3.txt
+S2-R119-E4: https://www.focusmedia.cn/news/
+  其余 16 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E4.txt
+S2-R119-E5: https://www.focusmedia.cn/whitepaper
+  其余 5 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E5.txt
+S2-R119-E6: https://www.focusmedia.cn/companyreport
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E6.txt
+S2-R119-E7: https://www.focusmedia.cn/business/#jump
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E7.txt
+S2-R119-E8: https://www.focusmedia.cn/elevator/#jump
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E8.txt
+S2-R119-E9: https://www.focusmedia.cn/screen/#jump
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E9.txt
+S2-R119-E10: https://www.focusmedia.cn/publication#jump
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E10.txt
+S2-R119-E11: https://www.focusmedia.cn/aiad/#jump
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R119-E11.txt",S2-R119-E4 R3-S2-R119-E4-F1: https://www.focusmedia.cn/news/13/3；https://www.focusmedia.cn/news/13/2（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 链接保留；E3 链接保留；E4 正则+链接保留；E5 链接保留；E6 链接保留；E7 链接保留；E8 链接保留；E9 链接保留；E10 链接保留；E11 链接保留,"S2-R119-E1 规则：无规则；链接 可打开（200，标题「经典案例库」）
+S2-R119-E2 规则：无规则；链接 可打开（200，标题「创业案例库」）
+S2-R119-E3 规则：无规则；链接 可打开（200，标题「行业案例库」）
+S2-R119-E4 R3-S2-R119-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
+S2-R119-E4 规则：R3-S2-R119-E4-F1 已验证；链接 可打开（200，标题「新闻中心」）
+S2-R119-E5 规则：无规则；链接 可打开（200，标题「白皮书」）
+S2-R119-E6 规则：无规则；链接 可打开（200，标题「公司研究报告」）
+S2-R119-E7 规则：无规则；链接 可打开（200，标题「电梯电视」）
+S2-R119-E8 规则：无规则；链接 可打开（200，标题「电梯海报」）
+S2-R119-E9 规则：无规则；链接 可打开（200，标题「晶视电影传媒」）
+S2-R119-E10 规则：无规则；链接 可打开（200，标题「分众产品刊例价」）
+S2-R119-E11 规则：无规则；链接 可打开（200，标题「分众智投」）","S2-R119-E1 = S1!指定pattern 第119行 第1个入口: https://www.focusmedia.cn/classic
+S2-R119-E2 = S1!指定pattern 第119行 第2个入口: https://www.focusmedia.cn/entrepreneurship
+S2-R119-E3 = S1!指定pattern 第119行 第3个入口: https://www.focusmedia.cn/industry
+S2-R119-E4 = S1!指定pattern 第119行 第4个入口: https://www.focusmedia.cn/news/
+S2-R119-E5 = S1!指定pattern 第119行 第5个入口: https://www.focusmedia.cn/whitepaper
+S2-R119-E6 = S1!指定pattern 第119行 第6个入口: https://www.focusmedia.cn/companyreport
+S2-R119-E7 = S1!指定pattern 第119行 第7个入口: https://www.focusmedia.cn/business/#jump
+S2-R119-E8 = S1!指定pattern 第119行 第8个入口: https://www.focusmedia.cn/elevator/#jump
+S2-R119-E9 = S1!指定pattern 第119行 第9个入口: https://www.focusmedia.cn/screen/#jump
+S2-R119-E10 = S1!指定pattern 第119行 第10个入口: https://www.focusmedia.cn/publication#jump
+S2-R119-E11 = S1!指定pattern 第119行 第11个入口: https://www.focusmedia.cn/aiad/#jump","S2-R119-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /classic/ 下家族 0 个、成员 0；前缀外同站链接 15、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /entrepreneurship/ 下家族 0 个、成员 0；前缀外同站链接 14、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industry/ 下家族 0 个、成员 0；前缀外同站链接 15、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 1 个、成员 4；前缀外同站链接 16、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R119-E5: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /whitepaper/ 下家族 0 个、成员 0；前缀外同站链接 5、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E6: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /companyreport/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E7: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /business/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E8: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /elevator/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E9: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /screen/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R119-E10: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /publication/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R119-E11: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /aiad/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+120,/,,,,,,,,
+121,/,,,,,,,,
+122,/,,,,,,,,
+123,https://www.jingdigital.com/resource/,,"S2-R123-E1: https://www.jingdigital.com/resource/
+  其余 9 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R123-E1.txt",,E1 链接保留,S2-R123-E1 规则：无规则；链接 可打开（200，标题「资源中心径硕科技」）,S2-R123-E1 = S1!指定pattern 第123行 第1个入口: https://www.jingdigital.com/resource/,S2-R123-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /resource/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+124,"https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061
+https://www.huiju.cool/industryinsights/
+https://www.huiju.cool/industryinsight/
+https://www.huiju.cool/blogs/","^https://www\.huiju\.cool/industryinsights/[0-9]+/$
+^https://www\.huiju\.cool/blogs/[0-9]+/$","S2-R124-E1: https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R124-E1.txt
+S2-R124-E2: https://www.huiju.cool/industryinsights/
+  其余 13 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R124-E2.txt
+S2-R124-E3: https://www.huiju.cool/industryinsight/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R124-E3.txt
+S2-R124-E4: https://www.huiju.cool/blogs/
+  其余 8 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R124-E4.txt","S2-R124-E2 R3-S2-R124-E2-F1: https://www.huiju.cool/industryinsights/18/；https://www.huiju.cool/industryinsights/12/（已落地核验 200，公开访问，2026-10-26）
+S2-R124-E4 R3-S2-R124-E4-F1: https://www.huiju.cool/blogs/2/；https://www.huiju.cool/blogs/3/（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 链接保留；E4 正则+链接保留,"S2-R124-E1 规则：无规则；链接 可打开（200，标题「B2B数字营销培训系列课」）
+S2-R124-E2 R3-S2-R124-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN5；覆盖检查：列表 50 个、sitemap 同结构 50 个全部匹配
+S2-R124-E2 规则：R3-S2-R124-E2-F1 已验证；链接 可打开（200，标题「b2bè¥é_tobè¥é_b2bè¥éå·¥å·_b2bè¥éäº§å」）
+S2-R124-E3 规则：无规则；链接 访问受限（站点 403：403 Forbidden）
+S2-R124-E4 R3-S2-R124-E4-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 4 个、sitemap 同结构 4 个全部匹配
+S2-R124-E4 规则：R3-S2-R124-E4-F1 已验证；链接 可打开（200，标题「å·¥ä¸åè¥é-é«ç§æè¡ä¸/åå®¹è¥é-ä¼ä¸」）","S2-R124-E1 = S1!指定pattern 第124行 第1个入口: https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061
+S2-R124-E2 = S1!指定pattern 第124行 第2个入口: https://www.huiju.cool/industryinsights/
+S2-R124-E3 = S1!指定pattern 第124行 第3个入口: https://www.huiju.cool/industryinsight/
+S2-R124-E4 = S1!指定pattern 第124行 第4个入口: https://www.huiju.cool/blogs/","S2-R124-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061/ 下家族 0 个、成员 0；前缀外同站链接 1、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R124-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /industryinsights/ 下家族 1 个、成员 50；前缀外同站链接 13、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R124-E3: 未验证：入口访问受限（站点 403：403 Forbidden）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R124-E4: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blogs/ 下家族 1 个、成员 4；前缀外同站链接 8、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+125,"https://appgrowing.net/blog/
+https://docs.appgrowing.net/zh/#reports",,"S2-R125-E1: https://appgrowing.net/blog/
+  其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R125-E1.txt
+S2-R125-E2: https://docs.appgrowing.net/zh/#reports
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R125-E2.txt",,E1 链接保留；E2 链接保留,"S2-R125-E1 规则：无规则；链接 可打开（200，标题「AppGrowing Global - Global Mobile Ad Strategy Anal」）
+S2-R125-E2 规则：无规则；链接 可打开（200，标题「AppGrowing 营销策略中心」）","S2-R125-E1 = S1!指定pattern 第125行 第1个入口: https://appgrowing.net/blog/
+S2-R125-E2 = S1!指定pattern 第125行 第2个入口: https://docs.appgrowing.net/zh/#reports","S2-R125-E1: 完整：静态请求 6 页（入口+分页），未完成分页 0；前缀 /blog/en/ 下家族 3 个、成员 45；前缀外同站链接 0、文件 0；续跑见 output/round3/queue.json
+S2-R125-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /zh/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R125-E1 R3-S2-R125-E1-F1 未成规则：归纳样本落地不足 3 个正常页面
+S2-R125-E1 R3-S2-R125-E1-F2 未成规则：归纳样本落地不足 3 个正常页面
+S2-R125-E1 R3-S2-R125-E1-F3 未成规则：归纳样本落地不足 3 个正常页面"
+126,"https://www.sensorsdata.cn/target_disassembly.html
+https://www.sensorsdata.cn/school/library
+https://www.sensorsdata.cn/blog
+https://www.sensorsdata.cn/researchInstitute.html
+https://www.sensorsdata.cn/researchInstitute/report","^https://www\.sensorsdata\.cn/school/library/[a-z0-9-]+$
+^https://www\.sensorsdata\.cn/blog/tag/[a-z-]+/?$
+^https://www\.sensorsdata\.cn/blog/tag/[a-z-]+$
+^https://www\.sensorsdata\.cn/researchInstitute/report/[a-z0-9-]+$","S2-R126-E1: https://www.sensorsdata.cn/target_disassembly.html
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R126-E1.txt
+S2-R126-E2: https://www.sensorsdata.cn/school/library
+  其余 50 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R126-E2.txt
+S2-R126-E3: https://www.sensorsdata.cn/blog
+  其余 60 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R126-E3.txt
+S2-R126-E4: https://www.sensorsdata.cn/researchInstitute.html
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R126-E4.txt
+S2-R126-E5: https://www.sensorsdata.cn/researchInstitute/report
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R126-E5.txt","S2-R126-E2 R3-S2-R126-E2-F1: https://www.sensorsdata.cn/school/library/12fbdeb8128aa28ebc3f4c18a97ac9fb；https://www.sensorsdata.cn/school/library/0653d006-0bd0-4f4a-aad5-272a2528e957（已落地核验 200，公开访问，2026-10-26）
+S2-R126-E3 R3-S2-R126-E3-F1: https://www.sensorsdata.cn/blog/tag/courses；https://www.sensorsdata.cn/blog/tag/datadriven/（已落地核验 200，公开访问，2026-10-26）
+S2-R126-E3 R3-S2-R126-E3-F3: https://www.sensorsdata.cn/blog/tag/courses；https://www.sensorsdata.cn/blog/tag/ke-hu-lu-cheng（已落地核验 200，公开访问，2026-10-26）
+S2-R126-E5 R3-S2-R126-E5-F1: https://www.sensorsdata.cn/researchInstitute/report/c4b5577559e8f5feac0ea5350619a7cc；https://www.sensorsdata.cn/researchInstitute/report/0653d006-0bd0-4f4a-aad5-272a2528e957（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 链接保留；E5 正则+链接保留,"S2-R126-E1 规则：无规则；链接 可打开（200，标题「ææ æè§£å·¥å·ï½æ°æ®ææ ä½ç³»æ¥è¯¢å¹³å」）
+S2-R126-E2 R3-S2-R126-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 39 个全部匹配
+S2-R126-E2 规则：R3-S2-R126-E2-F1 已验证；链接 可打开（200，标题「神策数据 | 资源图书馆-数字化报告/行业分析报告下载」）
+S2-R126-E3 R3-S2-R126-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN7；覆盖检查：列表 10 个、sitemap 同结构 13 个全部匹配
+S2-R126-E3 R3-S2-R126-E3-F3 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN7；覆盖检查：列表 3 个、sitemap 同结构 13 个全部匹配
+S2-R126-E3 规则：R3-S2-R126-E3-F1 已验证；R3-S2-R126-E3-F2 部分验证（候选）（机械门未通过：留出与归纳/回归重叠）；R3-S2-R126-E3-F3 已验证；链接 可打开（200，标题「神策数据技术博客」）
+S2-R126-E4 规则：无规则；链接 可打开（200，标题「ç¥ç­ç ç©¶é¢-ä¼ä¸æ°å­åç»è¥å®è·µ/è¡ä¸」）
+S2-R126-E5 R3-S2-R126-E5-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 0 个全部匹配
+S2-R126-E5 规则：R3-S2-R126-E5-F1 已验证；链接 可打开（200，标题「神策研究院 | 深度洞察报告-行业研究报告下载」）","S2-R126-E1 = S1!指定pattern 第126行 第1个入口: https://www.sensorsdata.cn/target_disassembly.html
+S2-R126-E2 = S1!指定pattern 第126行 第2个入口: https://www.sensorsdata.cn/school/library
+S2-R126-E3 = S1!指定pattern 第126行 第3个入口: https://www.sensorsdata.cn/blog
+S2-R126-E4 = S1!指定pattern 第126行 第4个入口: https://www.sensorsdata.cn/researchInstitute.html
+S2-R126-E5 = S1!指定pattern 第126行 第5个入口: https://www.sensorsdata.cn/researchInstitute/report","S2-R126-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R126-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /school/library/ 下家族 1 个、成员 10；前缀外同站链接 49、文件 1；sitemap 中同结构但不在列表的 URL：F1=39；续跑见 output/round3/queue.json
+S2-R126-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 3 个、成员 23；前缀外同站链接 48、文件 1；sitemap 中同结构但不在列表的 URL：F1=13、F2=10、F3=10；续跑见 output/round3/queue.json
+S2-R126-E4: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R126-E5: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /researchInstitute/report/ 下家族 1 个、成员 10；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R126-E1 入口为站点首页，自动归纳范围为全站
+S2-R126-E4 入口为站点首页，自动归纳范围为全站"
+127,/,,,,,,,,
+128,/,,,,,,,,
+129,/,,,,,,,,
+130,/,,,,,,,,
+131,/,,,,,,,,
+132,/,,,,,,,,
+133,/,,,,,,,,
+134,"https://www.qixin.com/pay/vip
+https://www.qixin.com/app-center/",,"S2-R134-E1: https://www.qixin.com/pay/vip
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R134-E1.txt
+S2-R134-E2: https://www.qixin.com/app-center/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R134-E2.txt",,E1 链接保留；E2 链接保留,"S2-R134-E1 规则：无规则；链接 待核验（无站点状态码：未请求）
+S2-R134-E2 规则：无规则；链接 待核验（无站点状态码：未请求）","S2-R134-E1 = S1!指定pattern 第134行 第1个入口: https://www.qixin.com/pay/vip
+S2-R134-E2 = S1!指定pattern 第134行 第2个入口: https://www.qixin.com/app-center/","S2-R134-E1: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json
+S2-R134-E2: 未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+135,/,,,,,,,,
+136,/,,,,,,,,
+137,/,,,,,,,,
+138,https://learn.incopat.com/#/,^https://learn\.incopat\.com/\#/pages/course/detail\?id=[0-9]+$,"S2-R138-E1: https://learn.incopat.com/#/
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R138-E1.txt",S2-R138-E1 R3H-S2-R138-E1-F1: https://learn.incopat.com/#/pages/course/detail?id=418；https://learn.incopat.com/#/pages/course/detail?id=419（已落地核验 200，公开访问，2026-10-26）,E1 正则+链接保留,"S2-R138-E1 R3H-S2-R138-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split（浏览器点击取样）) TP2/FP0/FN0/TN7；覆盖检查：列表 8 个、sitemap 同结构 0 个全部匹配
+S2-R138-E1 规则：R3H-S2-R138-E1-F1 已验证；链接 可打开（200，标题「xuexizhongxin-pc」）",S2-R138-E1 = S1!指定pattern 第138行 第1个入口: https://learn.incopat.com/#/,"S2-R138-E1: 部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 8 个同家族落地地址（另 0 个落到家族外），列表的翻页/加载更多未枚举
+  部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 / 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json","行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+S2-R138-E1 入口为站点首页，自动归纳范围为全站"
+139,/,,,,,,,,
+140,"https://www.mob.com/mobdata/report
+https://www.mob.com/mobSmart/citymap
+https://www.mob.com/about/news",^https://www\.mob\.com/about/news/[0-9]+$,"S2-R140-E1: https://www.mob.com/mobdata/report
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R140-E1.txt
+S2-R140-E2: https://www.mob.com/mobSmart/citymap
+  其余 2 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R140-E2.txt
+S2-R140-E3: https://www.mob.com/about/news
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R140-E3.txt",S2-R140-E3 R3-S2-R140-E3-F1: https://www.mob.com/about/news/875；https://www.mob.com/about/news/1110（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 链接保留；E3 正则+链接保留,"S2-R140-E1 规则：无规则；链接 可打开（200，标题「MobTech研究院_行业洞察报告,专业数据报告-MobTech」）
+S2-R140-E2 规则：无规则；链接 可打开（200，标题「解决方案-面向地产开发及运营商的大数据解决方案-MobTech」）
+S2-R140-E3 R3-S2-R140-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 10 个全部匹配
+S2-R140-E3 规则：R3-S2-R140-E3-F1 已验证；链接 可打开（200，标题「官方资讯中心-MobTech」）","S2-R140-E1 = S1!指定pattern 第140行 第1个入口: https://www.mob.com/mobdata/report
+S2-R140-E2 = S1!指定pattern 第140行 第2个入口: https://www.mob.com/mobSmart/citymap
+S2-R140-E3 = S1!指定pattern 第140行 第3个入口: https://www.mob.com/about/news","S2-R140-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /mobdata/report/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R140-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /mobSmart/citymap/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 2；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R140-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /about/news/ 下家族 1 个、成员 3；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=10；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+141,"https://www.qdtech.ai/zh/insights/
+https://www.qdtech.ai/zh/cases/
+https://www.qdtech.ai/zh/solutions/","^https://www\.qdtech\.ai/zh/insights/[a-z0-9-]+/$
+^https://www\.qdtech\.ai/zh/cases/[a-z-]+/$
+^https://www\.qdtech\.ai/zh/solutions/[a-z-]+/$","S2-R141-E1: https://www.qdtech.ai/zh/insights/
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R141-E1.txt
+S2-R141-E2: https://www.qdtech.ai/zh/cases/
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R141-E2.txt
+S2-R141-E3: https://www.qdtech.ai/zh/solutions/
+  其余 1 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R141-E3.txt","S2-R141-E1 R3-S2-R141-E1-F1: https://www.qdtech.ai/zh/insights/pet-owners-part1/；https://www.qdtech.ai/zh/insights/commuting-economy/（已落地核验 200，公开访问，2026-10-26）
+S2-R141-E2 R3-S2-R141-E2-F1: https://www.qdtech.ai/zh/cases/ac-ecommerce-simulation/；https://www.qdtech.ai/zh/cases/appliance-frontline-launch/（已落地核验 200，公开访问，2026-10-26）
+S2-R141-E3 R3-S2-R141-E3-F1: https://www.qdtech.ai/zh/solutions/ezprice-test/；https://www.qdtech.ai/zh/solutions/douyin-insight/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留；E3 正则+链接保留,"S2-R141-E1 R3-S2-R141-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP2/FP0/FN0/TN5；覆盖检查：列表 10 个、sitemap 同结构 10 个全部匹配
+S2-R141-E1 规则：R3-S2-R141-E1-F1 已验证；链接 可打开（200，标题「消费者洞察报告与调研文章 — 快决测 QD 自有研究」）
+S2-R141-E2 R3-S2-R141-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 12 个全部匹配
+S2-R141-E2 规则：R3-S2-R141-E2-F1 已验证；链接 可打开（200，标题「客户案例 — 快决测 QD | 可复算的洞察过程」）
+S2-R141-E3 R3-S2-R141-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 12 个、sitemap 同结构 12 个全部匹配
+S2-R141-E3 规则：R3-S2-R141-E3-F1 已验证；链接 可打开（200，标题「市场调研解决方案 — 新品 · 内容营销 · 定价包装 · 组织 | 快决测 QD」）","S2-R141-E1 = S1!指定pattern 第141行 第1个入口: https://www.qdtech.ai/zh/insights/
+S2-R141-E2 = S1!指定pattern 第141行 第2个入口: https://www.qdtech.ai/zh/cases/
+S2-R141-E3 = S1!指定pattern 第141行 第3个入口: https://www.qdtech.ai/zh/solutions/","S2-R141-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /zh/insights/ 下家族 1 个、成员 10；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R141-E2: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /zh/cases/ 下家族 1 个、成员 12；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R141-E3: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /zh/solutions/ 下家族 1 个、成员 12；前缀外同站链接 1、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+142,"https://www.wenjuan.com/brand/custom-case/
+https://www.wenjuan.com/brand/using-guide/","^https://www\.wenjuan\.com/brand/custom\-case/[a-z-]+/$
+^https://www\.wenjuan\.com/brand/using\-guide/[a-z0-9-]+/$","S2-R142-E1: https://www.wenjuan.com/brand/custom-case/
+  其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R142-E1.txt
+S2-R142-E2: https://www.wenjuan.com/brand/using-guide/
+  其余 45 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R142-E2.txt","S2-R142-E1 R3-S2-R142-E1-F1: https://www.wenjuan.com/brand/custom-case/binglun/；https://www.wenjuan.com/brand/custom-case/cssc/（已落地核验 200，公开访问，2026-10-26）
+S2-R142-E2 R3-S2-R142-E2-F1: https://www.wenjuan.com/brand/using-guide/360-degree-assessment/；https://www.wenjuan.com/brand/using-guide/customer-satisfaction-feedback-loop/（已落地核验 200，公开访问，2026-10-26）",E1 正则+链接保留；E2 正则+链接保留,"S2-R142-E1 R3-S2-R142-E1-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP3/FP0/FN0/TN5；覆盖检查：列表 13 个、sitemap 同结构 9 个全部匹配
+S2-R142-E1 规则：R3-S2-R142-E1-F1 已验证；链接 可打开（200，标题「客户案例 - 问卷网」）
+S2-R142-E2 R3-S2-R142-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 20 个、sitemap 同结构 186 个全部匹配
+S2-R142-E2 规则：R3-S2-R142-E2-F1 已验证；链接 可打开（200，标题「使用攻略 - 问卷制作与调研技巧 | 问卷网」）","S2-R142-E1 = S1!指定pattern 第142行 第1个入口: https://www.wenjuan.com/brand/custom-case/
+S2-R142-E2 = S1!指定pattern 第142行 第2个入口: https://www.wenjuan.com/brand/using-guide/","S2-R142-E1: 完整：静态请求 1 页（入口+分页），未完成分页 0；前缀 /brand/custom-case/ 下家族 1 个、成员 13；前缀外同站链接 45、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R142-E2: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /brand/using-guide/ 下家族 1 个、成员 20；前缀外同站链接 45、文件 0；sitemap 中同结构但不在列表的 URL：F1=186；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+143,/,,,,,,,,
+144,"https://e.newrank.cn/marketing/IndustryInformation
+https://geo.newrank.cn/news
+https://a.newrank.cn/trade/news/","^https://a\.newrank\.cn/trade/news/search/[0-9]+$
+^https://a\.newrank\.cn/trade/news/[a-z]+$","S2-R144-E1: https://e.newrank.cn/marketing/IndustryInformation
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R144-E1.txt
+S2-R144-E2: https://geo.newrank.cn/news
+  其余 0 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R144-E2.txt
+S2-R144-E3: https://a.newrank.cn/trade/news/
+  其余 6 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R144-E3.txt","S2-R144-E3 R3-S2-R144-E3-F1: https://a.newrank.cn/trade/news/search/18218；https://a.newrank.cn/trade/news/search/1214（已落地核验 200，公开访问，2026-10-26）
+S2-R144-E3 R3-S2-R144-E3-F2: https://a.newrank.cn/trade/news/operation；https://a.newrank.cn/trade/news/get（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 链接保留；E3 正则+链接保留,"S2-R144-E1 规则：无规则；链接 可打开（200，标题「新榜海汇——跨媒体投放资产管理中心」）
+S2-R144-E2 规则：无规则；链接 可打开（200，标题「行业资讯 - 新榜智汇」）
+S2-R144-E3 R3-S2-R144-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP6/FP0/FN0/TN6；覆盖检查：列表 40 个、sitemap 同结构 0 个全部匹配
+S2-R144-E3 R3-S2-R144-E3-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN6；覆盖检查：列表 5 个、sitemap 同结构 0 个全部匹配
+S2-R144-E3 规则：R3-S2-R144-E3-F1 已验证；R3-S2-R144-E3-F2 已验证；链接 可打开（200，标题「新榜有赚_以数据驱动新媒体营销_私域营销获客」）","S2-R144-E1 = S1!指定pattern 第144行 第1个入口: https://e.newrank.cn/marketing/IndustryInformation
+S2-R144-E2 = S1!指定pattern 第144行 第2个入口: https://geo.newrank.cn/news
+S2-R144-E3 = S1!指定pattern 第144行 第3个入口: https://a.newrank.cn/trade/news/","S2-R144-E1: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /marketing/IndustryInformation/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R144-E2: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 0 个、成员 0；前缀外同站链接 0、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染；续跑见 output/round3/queue.json
+S2-R144-E3: 部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /trade/news/ 下家族 2 个、成员 45；前缀外同站链接 6、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+145,https://www.kolkoc.com/news/,,"S2-R145-E1: https://www.kolkoc.com/news/
+  其余 352 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R145-E1.txt",,E1 链接保留,S2-R145-E1 规则：R3-S2-R145-E1-F1 部分验证（候选）（机械门未通过：样本重复）；R3-S2-R145-E1-F2 部分验证（候选）（机械门未通过：样本重复）；链接 可打开（200，标题「达播学习圈 - 达人营销实战攻略与行业资讯平台」）,S2-R145-E1 = S1!指定pattern 第145行 第1个入口: https://www.kolkoc.com/news/,S2-R145-E1: 完整（枚举结束，无独立全集对账）：静态请求 34 页（入口+分页），未完成分页 0；前缀 /news/ 下家族 2 个、成员 352；前缀外同站链接 0、文件 0；sitemap 中同结构但不在列表的 URL：F1=0、F2=0；续跑见 output/round3/queue.json,行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+146,"https://www.guandata.com/Case/
+https://www.guandata.com/blog
+https://www.guandata.com/downloadCenter
+https://xue.guandata.com/","^https://www\.guandata\.com/blog/[a-z]+$
+^https://www\.guandata\.com/downloadCenter/[a-z0-9-]+$","S2-R146-E1: https://www.guandata.com/Case/
+  其余 141 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R146-E1.txt
+S2-R146-E2: https://www.guandata.com/blog
+  其余 119 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R146-E2.txt
+S2-R146-E3: https://www.guandata.com/downloadCenter
+  其余 42 个未被正式规则覆盖的已知目标见 output/round3/retained/S2-R146-E3.txt","S2-R146-E2 R3-S2-R146-E2-F1: https://www.guandata.com/blog/trend；https://www.guandata.com/blog/customer（已落地核验 200，公开访问，2026-10-26）
+S2-R146-E3 R3-S2-R146-E3-F1: https://www.guandata.com/downloadCenter/bps-2022mobilebi；https://www.guandata.com/downloadCenter/bps-bijs（已落地核验 200，公开访问，2026-10-26）",E1 链接保留；E2 正则+链接保留；E3 正则+链接保留；E4 host免提,"S2-R146-E1 规则：无规则；链接 可打开（200，标题「观远BI行业案例-观远数据BI方案」）
+S2-R146-E2 R3-S2-R146-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN5；覆盖检查：列表 5 个、sitemap 同结构 0 个全部匹配
+S2-R146-E2 规则：R3-S2-R146-E2-F1 已验证；链接 可打开（200，标题「BI系统最新资讯_品牌BI选型资讯_BI厂商资讯-观远数据」）
+S2-R146-E3 R3-S2-R146-E3-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP6/FP0/FN0/TN5；覆盖检查：列表 8 个、sitemap 同结构 96 个全部匹配
+S2-R146-E3 规则：R3-S2-R146-E3-F1 已验证；链接 可打开（200，标题「BI行业报告白皮书_BI行业大咖分析干货-观远BI资源中心」）","S2-R146-E1 = S1!指定pattern 第146行 第1个入口: https://www.guandata.com/Case/
+S2-R146-E2 = S1!指定pattern 第146行 第2个入口: https://www.guandata.com/blog
+S2-R146-E3 = S1!指定pattern 第146行 第3个入口: https://www.guandata.com/downloadCenter","S2-R146-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /Case/ 下家族 0 个、成员 0；前缀外同站链接 141、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）；续跑见 output/round3/queue.json
+S2-R146-E2: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /blog/ 下家族 1 个、成员 5；前缀外同站链接 119、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；续跑见 output/round3/queue.json
+S2-R146-E3: 完整（列表+sitemap 合并枚举）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /downloadCenter/ 下家族 1 个、成员 8；前缀外同站链接 42、文件 0；sitemap 中同结构但不在列表的 URL：F1=88；续跑见 output/round3/queue.json",行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 148 行（71 个 URL 单元格+77 个“/”行），待与原始文件核对
+147,/,,,,,,,,
+148,/,,,,,,,,
+149,/,,,,,,,,

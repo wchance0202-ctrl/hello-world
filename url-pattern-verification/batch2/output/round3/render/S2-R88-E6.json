@@ -1,0 +1,624 @@
+{
+ "url": "https://www.linkflowtech.com/customer-cases-all-food",
+ "observed_at": "2026-10-29T08:54:13.968Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.linkflowtech.com/customer-cases-all-food",
+ "status": 200,
+ "error": null,
+ "title": "LinkFlow 精选客户案例集",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 116,
+   "new_in_prefix": 116,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 116,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://cdp.linkflowtech.com/api/sdk/v2/batch_messages?clientId=52b05a24-8ec5-44c1-b6fd-867adb27d73e&token=OS1kMmNkZmZhZS1iMTdkLTRjOGItYTY3Ny1mZWJhZGFmZGUzM2E%3D"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-P4DYLWRQNZ&gtm=45je6ar1v9203530120za20ozb9202295381zd9202295381xf1&_p=1793264057612&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1024754118&_eu=AAAAAGA&cid=1596509953.1793264063&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&u"
+  },
+  {
+   "method": "POST",
+   "url": "https://fclog.baidu.com/log/ocpcagl?type=behavior&emd=euc"
+  },
+  {
+   "method": "POST",
+   "url": "https://fclog.baidu.com/log/ocpcagl?type=behavior&emd=euc"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.linkflowtech.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/connect",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/insight",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/personalization",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/acquisition",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/activation",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/conversion",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/retention",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/cosmetic",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/clothing",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/food",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/household",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/luxuries",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/electric",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/catering",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/b2b",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/health",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/automobile",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/financial",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/retail",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/maternal",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/pets",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-cosmetic",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-food",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-catering",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-retail",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-clothing",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-health",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-electric",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/events",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/courses",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/datas",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/how-did-sephora-open-up-new-ecosystem-private-domain",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/how-did-sephora-open-up-new-ecosystem-private-domain",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/how-did-sephora-open-up-new-ecosystem-private-domain",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/what-new-opportunities-private-domain-operations-when-taobao-wechat-shakeyin-interoperate",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/what-new-opportunities-private-domain-operations-when-taobao-wechat-shakeyin-interoperate",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs/what-new-opportunities-private-domain-operations-when-taobao-wechat-shakeyin-interoperate",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.yoyi.com.cn/?from=Linkflow",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/partners",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/about-us",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/privacy-policy",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/form-trial",
+   "text": "免费试用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-food",
+   "text": "全部",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/",
+   "text": "全部",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-cosmetic",
+   "text": "美妆护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-food",
+   "text": "食品饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-catering",
+   "text": "餐饮连锁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-retail",
+   "text": "商超百货",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-clothing",
+   "text": "鞋服箱包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-health",
+   "text": "医药保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-electric",
+   "text": "3C家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-others",
+   "text": "其他",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/new-tea-drink-brand-digital-transformation",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/new-tea-drink-brand-digital-transformation",
+   "text": "在服务数家头部现制茶饮品牌后，LinkFlow总结行业专属数字化加盟解决方案，助力品牌实现加盟门店量质双收，提高整体周转率，在激烈的市场角逐中抢占高位。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/new-tea-drink-brand-digital-transformation",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/one-person-wine-brand-strategy-rio-hit-zgroup-demand",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/one-person-wine-brand-strategy-rio-hit-zgroup-demand",
+   "text": "揭秘RIO鸡尾酒如何通过客户数据管理系统俘获年轻消费者",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/one-person-wine-brand-strategy-rio-hit-zgroup-demand",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/food-brands-multi-channel-user-contact-connection-building-private-consumer-operation",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/food-brands-multi-channel-user-contact-connection-building-private-consumer-operation",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/food-brands-multi-channel-user-contact-connection-building-private-consumer-operation",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "javasciprt:;",
+   "text": "暂无更多内容",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/demo-trial",
+   "text": "预约1v1深度咨询",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/connect",
+   "text": "连接",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/insight",
+   "text": "洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/products/personalization",
+   "text": "个性化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/acquisition",
+   "text": "拉新",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/activation",
+   "text": "促活",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/conversion",
+   "text": "转化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/scene/retention",
+   "text": "留存",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/cosmetic",
+   "text": "美妆护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/clothing",
+   "text": "鞋服箱包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/food",
+   "text": "食品饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/household",
+   "text": "日化个护",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/luxuries",
+   "text": "珠宝奢品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/electric",
+   "text": "3C家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/catering",
+   "text": "餐饮连锁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/b2b",
+   "text": "B2B/企业服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/health",
+   "text": "医疗保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/automobile",
+   "text": "汽车、智能、后市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/financial",
+   "text": "金融保险",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/retail",
+   "text": "商超百货",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/maternal",
+   "text": "母婴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/solutions/pets",
+   "text": "宠物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-cosmetic",
+   "text": "美妆护肤",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-food",
+   "text": "食品饮料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-catering",
+   "text": "餐饮连锁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-retail",
+   "text": "商超百货",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-clothing",
+   "text": "鞋服箱包",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-health",
+   "text": "医疗保健",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases-all-electric",
+   "text": "3C家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/customer-cases/",
+   "text": "更多案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/blogs",
+   "text": "博客",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/events",
+   "text": "活动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/courses",
+   "text": "微课堂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/datas",
+   "text": "干货资料",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/news",
+   "text": "资讯中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.yoyi.com.cn/?from=Linkflow",
+   "text": "悠易科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/partners",
+   "text": "生态伙伴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/about-us",
+   "text": "公司介绍",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/privacy-policy",
+   "text": "隐私条款",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:4008889970",
+   "text": "电话：18321139015",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:marketing@linkflowtech.com",
+   "text": "邮箱：hans.lu@linkflowtech.com",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:4008889970",
+   "text": "电话：18321139015",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:marketing@linkflowtech.com",
+   "text": "邮箱：hans.lu@linkflowtech.com",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.dolsports.com/",
+   "text": "多乐运动商城",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "沪ICP备17014327号-1",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.linkflowtech.com/form-trial",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://p.qiao.baidu.com/cps/chat?siteId=12633710&userId=26497157&siteToken=909fb34cb4c66f12c2f6f237d4840f49&cp=&cr=https%3A%2F%2Fwww.linkflowtech.com%2F&cw=%E5%AE%98%E7%BD%91PC%E5%8F%B3%E4%BE%A7%E6%82%AC%E6%B5%AE",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:4008889970",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

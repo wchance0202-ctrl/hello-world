@@ -1,0 +1,274 @@
+{
+ "url": "https://e.bilibili.com/case/",
+ "observed_at": "2026-10-29T08:51:28.541Z",
+ "method": "playwright-chromium",
+ "final_url": "https://e.bilibili.com/case/",
+ "status": 200,
+ "error": null,
+ "title": "成功案例 | B站营销官网",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 46,
+   "new_in_prefix": 46,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 46,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cm.bilibili.com/meet/api/open_api/v1/marketing/get/token"
+  },
+  {
+   "method": "GET",
+   "url": "https://cm.bilibili.com/ad_account/api/general/common/navigation?"
+  },
+  {
+   "method": "GET",
+   "url": "https://cm.bilibili.com/ad_account/api/web_api/v1/bid_acc/info"
+  },
+  {
+   "method": "GET",
+   "url": "https://cm.bilibili.com/ad_account/api/web_api/v1/bid_acc/info"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.bilibili.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.bilibili.com/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ad.bilibili.com/#/home?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://huahuo.bilibili.com/#/home/index?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://cc.bilibili.com/#/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://cm.bilibili.com/new-art/bricks/#/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://cm.bilibili.com/skydmp/#/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://trends.bilibili.com/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://b.bilibili.com/#/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://cm.bilibili.com/agent/#/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://page.ma.scrmtech.com/cyy-form/index?pf_uid=33382_2203&id=16936&main_id=33382&wx_id=2203&lang=zh-CN?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://bdata.bilibili.com/?biz_sys_from=-1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/aboutUs.html",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/contact.html",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/protocal/licence.html",
+   "text": "用户协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/join.html",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/privacy-pc.html",
+   "text": "隐私政策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://account.bilibili.com/account/official/home",
+   "text": "bilibili认证",
+   "region": "BODY"
+  },
+  {
+   "href": "http://ir.bilibili.com/",
+   "text": "Investor Relations",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/topic/activity-cn8bxPLzz.html",
+   "text": "协议汇总",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/activity-list.html",
+   "text": "活动中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/topic_list.html",
+   "text": "活动专题页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/v/copyright/intro/",
+   "text": "侵权申诉",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/help.html",
+   "text": "帮助中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/activity-5zJxM3spoS.html",
+   "text": "社区中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://space.bilibili.com/6823116#/album",
+   "text": "壁纸站",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.bilibili.com/",
+   "text": "广告合作",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/blackboard/activity-S1jfy69Jz.html",
+   "text": "名人堂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mcn.bilibili.com/studio/mcn/entry",
+   "text": "MCN管理中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.bilibili.com/video/BV1Xx411c7cH/",
+   "text": "高级弹幕",
+   "region": "BODY"
+  },
+  {
+   "href": "https://b.bilibili.com/",
+   "text": "品牌号官网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://app.bilibili.com/",
+   "text": "下载APP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://love.bilibili.com/",
+   "text": "公益",
+   "region": "BODY"
+  },
+  {
+   "href": "https://weibo.com/bilibiliweb",
+   "text": "新浪微博",
+   "region": "BODY"
+  },
+  {
+   "href": "https://i0.hdslb.com/bfs/activity-plat/static/20240516/9ccf041718e5d6d6dfaebc91b85c791c/gd85E6tDco.jpg",
+   "text": "营业执照",
+   "region": "BODY"
+  },
+  {
+   "href": "https://i0.hdslb.com/bfs/activity-plat/static/20260209/3b3c5705bda98d50983f6f47df360fef/K4t52YryBV.jpeg",
+   "text": "网络文化经营许可证 沪网文【2025】0258-085号",
+   "region": "BODY"
+  },
+  {
+   "href": "http://beian.miit.gov.cn/",
+   "text": "沪ICP备13002172号-3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://i0.hdslb.com/bfs/activity-plat/static/20240516/9ccf041718e5d6d6dfaebc91b85c791c/4ainzbFKao.jpg",
+   "text": "出版物经营许可证 沪批字第U6699 号",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.shjbzx.cn/",
+   "text": "上海互联网举报中心",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.sh12345.gov.cn/",
+   "text": "12345政务服务便民热线",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002002436",
+   "text": "沪公网安备31011002002436号",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:userreport@bilibili.com",
+   "text": "儿童色情信息举报专区",
+   "region": "BODY"
+  },
+  {
+   "href": "https://bzpt.shdf.gov.cn/www/shouye/gzfw/wsjb/index.shtml",
+   "text": "扫黄打非举报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_699bbd78-36f4-459c-aeb0-bf98a2a562d8_6185ea2c-c84c-404a-9280-c5465af05948.pdf",
+   "text": "网信算备310110764385705230011号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_699bbd78-36f4-459c-aeb0-bf98a2a562d8_e03e6855-76a6-43fb-b799-d090e7fce25d.pdf",
+   "text": "网信算备310110764385702230013号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.12377.cn/",
+   "text": "中国互联网违法和不良信息举报中心",
+   "region": "BODY"
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "url": "https://cy.chanmama.com/insights",
+ "observed_at": "2026-10-29T08:53:30.105Z",
+ "method": "playwright-chromium",
+ "final_url": "https://cy.chanmama.com/insights",
+ "status": 200,
+ "error": null,
+ "title": "蝉妈妈·创意 - 千川投放素材_短视频素材创意服务平台",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 21,
+   "new_in_prefix": 21,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 21,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://sucai-api.chanmama.com/v1/public/config"
+  },
+  {
+   "method": "POST",
+   "url": "https://sucai-api.chanmama.com/v1/content/center/banner/list"
+  },
+  {
+   "method": "POST",
+   "url": "https://sucai-api.chanmama.com/v1/content/center/column/list"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/config/ad?timeStamp=1793264017"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://cy.chanmama.com/_nuxt/cmm_safe_bg.HDg3OhEb.wasm"
+  },
+  {
+   "method": "GET",
+   "url": "https://cy.chanmama.com/_nuxt/cmm_safe_bg.HDg3OhEb.wasm"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://cy.chanmama.com/_nuxt/cmm_safe_bg.HDg3OhEb.wasm"
+  },
+  {
+   "method": "GET",
+   "url": "https://cy.chanmama.com/_nuxt/builds/meta/84b7afb9-48e6-4913-b4cf-1a2566f1754e.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://cy.chanmama.com/_nuxt/cmm_safe_bg.HDg3OhEb.wasm"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  },
+  {
+   "method": "POST",
+   "url": "https://sucai-api.chanmama.com/v1/content/center/industry/tag/list"
+  },
+  {
+   "method": "POST",
+   "url": "https://sucai-api.chanmama.com/v1/content/center/blog/list"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  },
+  {
+   "method": "POST",
+   "url": "https://bz09vzpyt1-default-cn.rum.aliyuncs.com/"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://cy.chanmama.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://cy.chanmama.com/inspiration-center",
+   "text": "灵感中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cy.chanmama.com/strategy-center",
+   "text": "策略中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cy.chanmama.com/master",
+   "text": "创意大师",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cy.chanmama.com/management-center",
+   "text": "内容管理中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cy.chanmama.com/insights",
+   "text": "行业报告",
+   "region": "NAV"
+  },
+  {
+   "href": "https://cy.chanmama.com/contentCenter/63.html",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://cy.chanmama.com/contentCenter/62.html",
+   "text": "",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.chanmama.com/douyin/",
+   "text": "蝉妈妈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://cy.chanmama.com/",
+   "text": "蝉妈妈·创意",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanjing.cc/",
+   "text": "蝉镜AI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.kolkoc.com/",
+   "text": "蝉圈圈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanxuan.com/",
+   "text": "蝉选",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://ai.kolkoc.com/#/login?channel_code=r0X5RL",
+   "text": "AI商务",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/other/about.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://store.chandashi.com/",
+   "text": "蝉百货",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://gy.chanmama.com/",
+   "text": "蝉公益",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://hr.chandashi.com/",
+   "text": "加入我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302034425",
+   "text": "闽公网安备 35020302034425号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "闽ICP备2025083594号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/",
+   "text": "蝉妈妈",
+   "region": "FOOTER"
+  }
+ ]
+}

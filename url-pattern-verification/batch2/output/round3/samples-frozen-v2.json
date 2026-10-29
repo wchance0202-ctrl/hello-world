@@ -1,0 +1,409 @@
+{
+ "frozen_at": "2026-10-29T09:38:23+00:00",
+ "seed": 20261028,
+ "sha256": "3893b9d5d42015c3139168f364da3e9f304d7d59572015429ac0c26993032e14",
+ "rules": [
+  {
+   "id": "R3-S2-R20-E3-F2",
+   "entry_ids": [
+    "S2-R20-E3"
+   ],
+   "target": "https://ks.feigua.cn/news/ 入口前缀 /news/ 下签名 [1, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://ks\\.feigua\\.cn/news/[a-z0-9]+\\.html$",
+   "variables": {
+    "seg0": "[a-z0-9]+ + .html"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://ks.feigua.cn/news/1.html",
+    "https://ks.feigua.cn/news/2.html",
+    "https://ks.feigua.cn/news/3.html",
+    "https://ks.feigua.cn/news/4.html",
+    "https://ks.feigua.cn/news/5.html"
+   ],
+   "holdout_pos": [],
+   "holdout_neg": [
+    "https://ks.feigua.cn/About/Join",
+    "https://ks.feigua.cn/login/Purchase",
+    "https://ks.feigua.cn/?chl=feigua2",
+    "https://ks.feigua.cn/?chl=dygw",
+    "https://ks.feigua.cn/news/1/834.html",
+    "https://ks.feigua.cn/news/1/843.html"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "varext",
+     "[0-9]+",
+     "html"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://ks\\.feigua\\.cn/news/[0-9]+\\.html$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://ks.feigua.cn/news/0.html"
+   ],
+   "regression_neg": [
+    "https://ks.feigua.cn/news/",
+    "https://ks.feigua.cn/appfile/UserAgreement",
+    "https://ks.feigua.cn/About/Contact",
+    "https://ks.feigua.cn/About/Agreement",
+    "https://ks.feigua.cn/appfile/PrivacyAgreement",
+    "https://ks.feigua.cn/news/1/842.html",
+    "https://ks.feigua.cn/news/tag/1/快手运营技巧.html"
+   ]
+  },
+  {
+   "id": "R3-S2-R20-E3-F3",
+   "entry_ids": [
+    "S2-R20-E3"
+   ],
+   "target": "https://ks.feigua.cn/news/ 入口前缀 /news/ 下签名 [3, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://ks\\.feigua\\.cn/news/tag/1/[A-Z0-9%例功商巧带快成手技播案电直短营视货运频]+\\.html$",
+   "variables": {
+    "seg2": "[A-Z0-9%例功商巧带快成手技播案电直短营视货运频]+ + .html"
+   },
+   "literals": {
+    "seg0": "tag",
+    "seg1": "1"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出（无新样本：扩展前留出一半漏配样本）",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://ks.feigua.cn/news/tag/1/快手成功案例.html",
+    "https://ks.feigua.cn/news/tag/1/快手直播带货.html",
+    "https://ks.feigua.cn/news/tag/1/快手直播电商.html",
+    "https://ks.feigua.cn/news/tag/1/快手短视频.html",
+    "https://ks.feigua.cn/news/tag/1/快手运营技巧.html"
+   ],
+   "holdout_pos": [
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E5%95%86%E5%93%81%E6%8E%92%E8%A1%8C%E6%A6%9C.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E7%95%85%E9%94%80%E5%95%86%E5%93%81%E6%A6%9C.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E7%9B%B4%E6%92%AD%E6%95%B0%E6%8D%AE.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E7%9B%B4%E6%92%AD%E8%BE%BE%E4%BA%BA%E6%A6%9C.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C%E5%8D%95.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C.html"
+   ],
+   "holdout_neg": [
+    "https://ks.feigua.cn/",
+    "https://ks.feigua.cn/?chl=guojigw",
+    "https://ks.feigua.cn/login/Purchase",
+    "https://ks.feigua.cn/appfile/PrivacyAgreement",
+    "https://ks.feigua.cn/news/1/827.html",
+    "https://ks.feigua.cn/news/2.html"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "tag"
+    ],
+    [
+     "lit",
+     "1"
+    ],
+    [
+     "varext",
+     "[例功商巧带快成手技播案电直短营视货运频]+",
+     "html"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://ks\\.feigua\\.cn/news/tag/1/[例功商巧带快成手技播案电直短营视货运频]+\\.html$",
+     "holdout_fn": [
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E5%95%86%E5%93%81%E6%A6%9C%20.html",
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E6%A6%9C%E5%8D%95%E6%95%B0%E6%8D%AE.html",
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E7%95%85%E9%94%80%E5%95%86%E5%93%81.html",
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%A1%8C%E4%B8%9A%E6%8E%92%E8%A1%8C%E6%A6%9C.html",
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C%20.html",
+      "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C.html"
+     ],
+     "listing_missed": [],
+     "sitemap_missed": 14
+    }
+   ],
+   "regression_pos": [
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E5%95%86%E5%93%81%E6%A6%9C%20.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E6%A6%9C%E5%8D%95%E6%95%B0%E6%8D%AE.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E7%95%85%E9%94%80%E5%95%86%E5%93%81.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%A1%8C%E4%B8%9A%E6%8E%92%E8%A1%8C%E6%A6%9C.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C%20.html",
+    "https://ks.feigua.cn/news/tag/1/%E5%BF%AB%E6%89%8B%E8%BE%BE%E4%BA%BA%E6%A6%9C.html"
+   ],
+   "regression_neg": [
+    "https://ks.feigua.cn/news/",
+    "https://ks.feigua.cn/?chl=dygw",
+    "https://ks.feigua.cn/?chl=feigua2",
+    "https://ks.feigua.cn/?chl=bzgw",
+    "https://ks.feigua.cn/news/1/831.html",
+    "https://ks.feigua.cn/news/1.html"
+   ]
+  },
+  {
+   "id": "R3-S2-R27-E2-F2",
+   "entry_ids": [
+    "S2-R27-E2"
+   ],
+   "target": "https://bg.qianzhan.com/report/ 入口前缀 /report/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://bg\\.qianzhan\\.com/report/[a-z0-9]+/$",
+   "variables": {
+    "seg0": "[a-z0-9]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "slash",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://bg.qianzhan.com/report/chanyelianjuece/",
+    "https://bg.qianzhan.com/report/chuhai/",
+    "https://bg.qianzhan.com/report/combo/",
+    "https://bg.qianzhan.com/report/free/"
+   ],
+   "holdout_pos": [
+    "https://bg.qianzhan.com/report/chanyelianjuece/",
+    "https://bg.qianzhan.com/report/free/",
+    "https://bg.qianzhan.com/report/lianglian/"
+   ],
+   "holdout_neg": [
+    "https://bg.qianzhan.com/report/guide/copyright.html",
+    "https://bg.qianzhan.com/report/guide/deliver.html"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://bg\\.qianzhan\\.com/report/[a-z]+/$",
+     "holdout_fn": [
+      "https://bg.qianzhan.com/report/quanjing100/"
+     ],
+     "listing_missed": [
+      "https://bg.qianzhan.com/report/quanjing100/"
+     ],
+     "sitemap_missed": 0
+    }
+   ],
+   "regression_pos": [
+    "https://bg.qianzhan.com/report/quanjing100/",
+    "https://bg.qianzhan.com/report/qushi/",
+    "https://bg.qianzhan.com/report/qyppcs/"
+   ],
+   "regression_neg": [
+    "https://bg.qianzhan.com/report/",
+    "https://bg.qianzhan.com/about/feedback/",
+    "https://bg.qianzhan.com/user/shopCart",
+    "https://bg.qianzhan.com/",
+    "https://bg.qianzhan.com/report/detail/1a7749934fb64c7d.html",
+    "https://bg.qianzhan.com/report/detail/2012091518475765.html"
+   ]
+  },
+  {
+   "id": "R3-S2-R115-E2-F3",
+   "entry_ids": [
+    "S2-R115-E2"
+   ],
+   "target": "https://www.getui.com/college 入口前缀 /college/ 下签名 [2, False, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.getui\\.com/college/video/[a-zA-Z0-9]+$",
+   "variables": {
+    "seg1": "[a-zA-Z0-9]+"
+   },
+   "literals": {
+    "seg0": "video"
+   },
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（列表全部页面，留出取自 sitemap）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出",
+   "slash_mode": "none",
+   "holdout_source": "sitemap",
+   "inference": [
+    "https://www.getui.com/college/video/2022093019",
+    "https://www.getui.com/college/video/2023062765",
+    "https://www.getui.com/college/video/2024012652"
+   ],
+   "holdout_pos": [
+    "https://www.getui.com/college/video/2020102883",
+    "https://www.getui.com/college/video/2020102888",
+    "https://www.getui.com/college/video/2021062361",
+    "https://www.getui.com/college/video/2021123135",
+    "https://www.getui.com/college/video/2022062368",
+    "https://www.getui.com/college/video/2024051334"
+   ],
+   "holdout_neg": [
+    "https://www.getui.com/news/2014082722",
+    "https://www.getui.com/reports/2020072081",
+    "https://www.getui.com/news/2025112408",
+    "https://www.getui.com/aibi/config",
+    "https://www.getui.com/college/search?tagId=27",
+    "https://www.getui.com/college/2026102094"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "lit",
+     "video"
+    ],
+    [
+     "var",
+     "[0-9]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.getui\\.com/college/video/[0-9]+$",
+     "holdout_fn": [],
+     "listing_missed": [],
+     "sitemap_missed": 2
+    }
+   ],
+   "regression_pos": [
+    "https://www.getui.com/college/video/2020102917",
+    "https://www.getui.com/college/video/2020102979",
+    "https://www.getui.com/college/video/2020102988",
+    "https://www.getui.com/college/video/2022011838",
+    "https://www.getui.com/college/video/2022122632",
+    "https://www.getui.com/college/video/2024070298"
+   ],
+   "regression_neg": [
+    "https://www.getui.com/college",
+    "https://www.getui.com/event/2021-data-intelligence/data",
+    "https://www.getui.com/news/2025101097",
+    "https://www.getui.com/news/2021101228",
+    "https://www.getui.com/college/search?tagId=19",
+    "https://www.getui.com/college/search?tagId=15"
+   ]
+  },
+  {
+   "id": "R3-S2-R126-E3-F2",
+   "entry_ids": [
+    "S2-R126-E3"
+   ],
+   "target": "https://www.sensorsdata.cn/blog 入口前缀 /blog/ 下签名 [1, True, (), ''] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.sensorsdata\\.cn/blog/[a-z0-9_-]+/?$",
+   "variables": {
+    "seg0": "[a-z0-9_-]+"
+   },
+   "literals": {},
+   "assumptions": "完整 URL、区分大小写；变量字符集只取自归纳集合（入口首页，留出取自后续分页）；尾斜杠按归纳样本实测；v2：变量字符集按 v1 漏配样本扩展，v1 留出转回归，重新抽取留出（无新样本：扩展前留出一半漏配样本）",
+   "slash_mode": "optional",
+   "holdout_source": "listing_split",
+   "inference": [
+    "https://www.sensorsdata.cn/blog/20180515/",
+    "https://www.sensorsdata.cn/blog/jie-xi-chang-jian-de-shu-ju-fen-xi-mo-xing-liu-cun-fen-xi/",
+    "https://www.sensorsdata.cn/blog/shu-ju-jie-ru-yu-mai-dian/"
+   ],
+   "holdout_pos": [
+    "https://www.sensorsdata.cn/blog/technical_implementation_of_sensors_analytics"
+   ],
+   "holdout_neg": [
+    "https://www.sensorsdata.cn/engines/CJA.html",
+    "https://www.sensorsdata.cn/features/multidimensional.html",
+    "https://www.sensorsdata.cn/form/parade.html?formpage_source2=%E5%88%86%E6%9E%90%E4%BA%91%E9%A2%84%E7%BA%A6%E6%BC%94%E7%A4%BA",
+    "https://www.sensorsdata.cn/solutions/retailCater.html",
+    "https://www.sensorsdata.cn/blog/tag/hua-xiang-biao-qian/",
+    "https://www.sensorsdata.cn/blog/tag/datadriven/"
+   ],
+   "inference_redirected_away": [],
+   "template": [
+    [
+     "var",
+     "[a-z0-9-]+"
+    ]
+   ],
+   "version": 2,
+   "history": [
+    {
+     "version": 1,
+     "pattern": "^https://www\\.sensorsdata\\.cn/blog/[a-z0-9-]+/?$",
+     "holdout_fn": [
+      "https://www.sensorsdata.cn/blog/technical_implementation_of_sensors_analytics/"
+     ],
+     "listing_missed": [
+      "https://www.sensorsdata.cn/blog/technical_implementation_of_sensors_analytics/"
+     ],
+     "sitemap_missed": 1
+    }
+   ],
+   "regression_pos": [
+    "https://www.sensorsdata.cn/blog/20230316/",
+    "https://www.sensorsdata.cn/blog/technical_implementation_of_sensors_analytics/"
+   ],
+   "regression_neg": [
+    "https://www.sensorsdata.cn/blog",
+    "https://www.sensorsdata.cn/solutions/customerjourney.html",
+    "https://www.sensorsdata.cn/market/playback-detail.html?id=3094",
+    "https://www.sensorsdata.cn/solutions/overseasBusiness.html",
+    "https://www.sensorsdata.cn/market/playback-detail.html?id=4142",
+    "https://www.sensorsdata.cn/blog/tag/jing-xi-hua-yun-ying/",
+    "https://www.sensorsdata.cn/blog/tag/ke-hu-lu-cheng"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "id": "R3-S2-R82-E2-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R82-E11-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R82-E13-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E2-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E3-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E10-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E16-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E19-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E21-F1",
+   "why": "存在误配，不放宽"
+  },
+  {
+   "id": "R3-S2-R108-E22-F1",
+   "why": "存在误配，不放宽"
+  }
+ ]
+}

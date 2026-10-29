@@ -1,0 +1,1257 @@
+{
+ "url": "https://www.jiemian.com/lists/848.html",
+ "observed_at": "2026-10-29T09:02:35.766Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/848.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/848.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "餐饮_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 246,
+   "new_in_prefix": 246,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 246,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮热新闻",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "从懂茶到喝茶，中国茶怎么走近更多人？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "中国茶正从传统冲泡方式走向更便捷、多元的消费场景。过去，喝茶需要专门准备茶具和技巧，而如今，茶已融入通勤、办公和社交等日常场景。奶茶店和便利店的无糖茶饮让消费者更易接触茶，但传统原叶茶仍面临选择门槛高、冲泡复杂等问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "双汇发展三季报：营收428亿，净利36亿，新渠道成为重要增量",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "营收净利双双承压的三季报里，新渠道跑出了更快的速度。10月27日，双汇发展披露三季报：前三季度营收428.1亿元、归母净利36.42亿元，肉类总外销量273.10万吨、同比增长9.74%。价格跌、量在涨，新渠道成为重要增量。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "老干妈用AI就裁员的传闻，戳中餐饮业真实焦虑",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "AI或许能节省下来时间服务顾客，提升服务的效率与质量，但科技的本意应是解放生产力后的普惠造福。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "从懂茶到喝茶，中国茶怎么走近更多人？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "中国茶正从传统冲泡方式走向更便捷、多元的消费场景。过去，喝茶需要专门准备茶具和技巧，而如今，茶已融入通勤、办公和社交等日常场景。奶茶店和便利店的无糖茶饮让消费者更易接触茶，但传统原叶茶仍面临选择门槛高、冲泡复杂等问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "双汇发展三季报：营收428亿，净利36亿，新渠道成为重要增量",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "营收净利双双承压的三季报里，新渠道跑出了更快的速度。10月27日，双汇发展披露三季报：前三季度营收428.1亿元、归母净利36.42亿元，肉类总外销量273.10万吨、同比增长9.74%。价格跌、量在涨，新渠道成为重要增量。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "老干妈用AI就裁员的传闻，戳中餐饮业真实焦虑",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "AI或许能节省下来时间服务顾客，提升服务的效率与质量，但科技的本意应是解放生产力后的普惠造福。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "从懂茶到喝茶，中国茶怎么走近更多人？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "中国茶正从传统冲泡方式走向更便捷、多元的消费场景。过去，喝茶需要专门准备茶具和技巧，而如今，茶已融入通勤、办公和社交等日常场景。奶茶店和便利店的无糖茶饮让消费者更易接触茶，但传统原叶茶仍面临选择门槛高、冲泡复杂等问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "双汇发展三季报：营收428亿，净利36亿，新渠道成为重要增量",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "营收净利双双承压的三季报里，新渠道跑出了更快的速度。10月27日，双汇发展披露三季报：前三季度营收428.1亿元、归母净利36.42亿元，肉类总外销量273.10万吨、同比增长9.74%。价格跌、量在涨，新渠道成为重要增量。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "老干妈用AI就裁员的传闻，戳中餐饮业真实焦虑",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "AI或许能节省下来时间服务顾客，提升服务的效率与质量，但科技的本意应是解放生产力后的普惠造福。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "从懂茶到喝茶，中国茶怎么走近更多人？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15263263.html",
+   "text": "中国茶正从传统冲泡方式走向更便捷、多元的消费场景。过去，喝茶需要专门准备茶具和技巧，而如今，茶已融入通勤、办公和社交等日常场景。奶茶店和便利店的无糖茶饮让消费者更易接触茶，但传统原叶茶仍面临选择门槛高、冲泡复杂等问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "双汇发展三季报：营收428亿，净利36亿，新渠道成为重要增量",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257524.html",
+   "text": "营收净利双双承压的三季报里，新渠道跑出了更快的速度。10月27日，双汇发展披露三季报：前三季度营收428.1亿元、归母净利36.42亿元，肉类总外销量273.10万吨、同比增长9.74%。价格跌、量在涨，新渠道成为重要增量。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "老干妈用AI就裁员的传闻，戳中餐饮业真实焦虑",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256976.html",
+   "text": "AI或许能节省下来时间服务顾客，提升服务的效率与质量，但科技的本意应是解放生产力后的普惠造福。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15251339.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15251339.html",
+   "text": "创十年来历史同期新低！“鸭脖一哥”绝味食品三季度净利降近七成",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15251339.html",
+   "text": "主要系公司受行业市场环境的影响，导致主要产品销量下降。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15249905.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15249905.html",
+   "text": "餐厅的“差评”“避雷贴”是如何被恶意利用的？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15249905.html",
+   "text": "从冒名探店到收费删评，越来越依赖线上口碑的餐饮企业，也在为真假难辨的投诉付出成本。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103817700",
+   "text": "卢奕贝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247169.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247169.html",
+   "text": "胖哥俩肉蟹煲匿名差评者为肯德基员工？涉事门店回应",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247169.html",
+   "text": "此前有网友称给胖哥俩差评后，手机号和用餐照等遭到商家曝光。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103188823",
+   "text": "侯瑞宁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15231309.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15231309.html",
+   "text": "麻六记流量拐点，藏在阿宽财报里",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15231309.html",
+   "text": "当消费者不再频繁通过张兰、汪小菲的直播间接触产品，麻六记能否凭借产品本身和品牌认知维持持续购买？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000766",
+   "text": "赵晓娟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15232168.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15232168.html",
+   "text": "星巴克都变了，天好咖啡呢？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15232168.html",
+   "text": "一位直接负责亚太业务的管理者进入董事会，令未来的天好咖啡在继续本土创新的同时，也可能更充分地利用其全球产品体系中已经积累的经验来强化新品吸引力。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15230664.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15230664.html",
+   "text": "星巴克开始认真管座位后，消费者怎么说？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15230664.html",
+   "text": "8000多家门店面对不同客群，消费入座还要解决执行尺度的问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103817700",
+   "text": "卢奕贝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15193625.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15193625.html",
+   "text": "山姆开到全国第70家店，会员给到夯的可不只是商品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15193625.html",
+   "text": "商品吸引人，服务留住人。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15221225.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15221225.html",
+   "text": "天边砂锅焖面经营遇挫，贾国龙旗下公司退出持股",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15221225.html",
+   "text": "天边品牌管理（北京）有限公司退出股东行列，退出前持股比例为60%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103188823",
+   "text": "侯瑞宁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15217346.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15217346.html",
+   "text": "别盯着消费入座了，星巴克加码“第三空间”的战略意图是这些",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15217346.html",
+   "text": "星巴克中国宣布未来三年将新增超过3亿元门店营运投入，以强化“第三空间”体验并推进“千店千面”战略。近期，星巴克在上海豫园开设了以灯彩为主题的特色门店，并在北京、新疆等地推出创新门店，展现了差异化门店设计的具体实践。星巴克中国计划通过增加服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15219610.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15219610.html",
+   "text": "绣球披萨能否成为塔斯汀的新故事？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15219610.html",
+   "text": "如果绣球披萨能试点成功，将能与塔斯汀主品牌有所差异，补足兼顾性价比与环境体验的拼图。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15206666.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15206666.html",
+   "text": "足力健有机食品陷闭店欠薪风波，线上小程序仅剩一款商品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15206666.html",
+   "text": "足力健鞋和有机食品独立运营。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15198319.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15198319.html",
+   "text": "肯德基中国区客服：仍在用百事",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15198319.html",
+   "text": "中国区门店目前没有接到更换可乐品牌的通知。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103188823",
+   "text": "侯瑞宁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15189740.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15189740.html",
+   "text": "上市两年，茶百道的麻烦越发缠身",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15189740.html",
+   "text": "无论是过去还是现在，茶百道都需要向市场证明，它未来的增长能来自何处。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15187096.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15187096.html",
+   "text": "“百果园2年亏掉了7个亿”冲上热搜，门店关闭超1600家",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15187096.html",
+   "text": "百果园自营门店仅剩8家。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116236814",
+   "text": "江怡曼JYM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15185470.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15185470.html",
+   "text": "茶百道IPO疑遭操纵被停牌，可能面临什么后果？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15185470.html",
+   "text": "茶百道上市时，到底有多少投资者真想买它的股票？香港证监会正在调查这个问题。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103817700",
+   "text": "卢奕贝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=114153817",
+   "text": "牙韩翔",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15182098.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15182098.html",
+   "text": "品牌请客，加盟商买单？霸王茶姬回应：不属实",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15182098.html",
+   "text": "霸王茶姬将发放1350万元奖励员工。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15180490.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15180490.html",
+   "text": "卖咖啡和卖奶茶的在互相抢地盘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15180490.html",
+   "text": "当咖啡与奶茶品牌开始不断尝试新品类，随之而来的变化是它们的边界正在变得模糊，并走进同一场混战。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000766",
+   "text": "赵晓娟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15173507.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15173507.html",
+   "text": "“银鳕鱼”命名争议持续多年为何仍未被规范？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15173507.html",
+   "text": "消费者在购买时看到同一个“鳕鱼”名称，实际买到的可能是不同种类的鱼，而这才是认知误区长期存在的原因之一。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

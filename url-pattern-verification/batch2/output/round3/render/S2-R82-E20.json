@@ -1,0 +1,1247 @@
+{
+ "url": "https://www.jiemian.com/lists/854.html",
+ "observed_at": "2026-10-29T08:58:16.223Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/854.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/854.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "健康_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 244,
+   "new_in_prefix": 244,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 244,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/441.html",
+   "text": "健康面",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/816.html",
+   "text": "防疫站",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "全球首个慢性乙肝功能性治愈药在美国获批上市",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "在国内，贝普若韦生目前正处于上市审评阶段。根据此前协议，正大天晴将负责贝普若韦生在中国内地的进口、分销、医院准入及推广等工作。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "这款知名化疗药在涨价后又有新变化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "广东省第二人民医院药学部官微发文介绍称，鉴于目前注射剂型环磷酰胺供应紧张，环磷酰胺口服片剂可短暂替代注射液剂型。但实际互换须医生依据疾病类型、病情急缓及患者耐受性，实行个体化决策。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄出现鼠疫病例，相关个股引关注",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄罗斯鼠疫研究机构员工病亡引发关注，A股抗疫概念股集体涨停。但我国鼠疫管理成熟，疾病可防可控可治，公众不必恐慌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "全球首个慢性乙肝功能性治愈药在美国获批上市",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "在国内，贝普若韦生目前正处于上市审评阶段。根据此前协议，正大天晴将负责贝普若韦生在中国内地的进口、分销、医院准入及推广等工作。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "这款知名化疗药在涨价后又有新变化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "广东省第二人民医院药学部官微发文介绍称，鉴于目前注射剂型环磷酰胺供应紧张，环磷酰胺口服片剂可短暂替代注射液剂型。但实际互换须医生依据疾病类型、病情急缓及患者耐受性，实行个体化决策。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄出现鼠疫病例，相关个股引关注",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄罗斯鼠疫研究机构员工病亡引发关注，A股抗疫概念股集体涨停。但我国鼠疫管理成熟，疾病可防可控可治，公众不必恐慌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "全球首个慢性乙肝功能性治愈药在美国获批上市",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "在国内，贝普若韦生目前正处于上市审评阶段。根据此前协议，正大天晴将负责贝普若韦生在中国内地的进口、分销、医院准入及推广等工作。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "这款知名化疗药在涨价后又有新变化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "广东省第二人民医院药学部官微发文介绍称，鉴于目前注射剂型环磷酰胺供应紧张，环磷酰胺口服片剂可短暂替代注射液剂型。但实际互换须医生依据疾病类型、病情急缓及患者耐受性，实行个体化决策。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄出现鼠疫病例，相关个股引关注",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄罗斯鼠疫研究机构员工病亡引发关注，A股抗疫概念股集体涨停。但我国鼠疫管理成熟，疾病可防可控可治，公众不必恐慌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256888.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256888.html",
+   "text": "非洲埃博拉疫情累计确诊病例突破万例，国内防输入怎么防",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15256888.html",
+   "text": "针对埃博拉疫情输入风险，我国已于今年5月启动相关防控措施，但目前没有针对埃博拉疫情相关地区入境人员的强制隔离要求。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120257572",
+   "text": "李科文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257592.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257592.html",
+   "text": "联影医疗前三季度营收同比增长19.43% 市场份额逆势提升2.2个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257592.html",
+   "text": "10月28日晚，联影医疗（688271.SH）披露2026年第三季度报告。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257231.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257231.html",
+   "text": "界面时评｜患者不信任AI开药，医院该补的是透明这一课",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15257231.html",
+   "text": "患者不知道AI给了什么答案、医生是不是专业、有没有核实。信息不对称被技术放大了，而不是缩小了。这不是AI的错，是使用方式没有跟上技术渗透的速度。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100136256",
+   "text": "许悦",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15248470.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15248470.html",
+   "text": "透视鱼跃医疗三季报：业绩重回增长，三大战略蓄积长期发展动能",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15248470.html",
+   "text": "第三季度公司国内线上业务延续增长趋势，线下业务调整已近尾声，各产品线新品迭代落地；外销营收占公司总营收比例逐季提升，属地化战略有序推进。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247896.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247896.html",
+   "text": "中国体检机构首台！爱康启用AI移动磁共振体检车，助力职场健康“零距离”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15247896.html",
+   "text": "10月27日，中国体检机构首台AI移动磁共振体检车在重庆启动，标志着职场心脑血管疾病早筛进入新阶段。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15240783.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15240783.html",
+   "text": "上海医保个账新政首月：带疱、九价HPV疫苗接种量暴涨两三倍",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15240783.html",
+   "text": "从数据上看，医保个账支付非免疫规划疫苗费用，对于高价疫苗销量带动明显。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119783076",
+   "text": "陈杨CY",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15222250.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15222250.html",
+   "text": "踏寻长征红色热土 深耕青少年国防教育 —— 尚赫公益在黑水开展科教助学",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15222250.html",
+   "text": "不同于单次热点式公益活动，本次落地黑水的助学育人行动，是尚赫三十余年坚守公益初心、深耕乡村教育领域、推动公益模式迭代升级的生动缩影。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "全球首个慢性乙肝功能性治愈药在美国获批上市",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15218064.html",
+   "text": "在国内，贝普若韦生目前正处于上市审评阶段。根据此前协议，正大天晴将负责贝普若韦生在中国内地的进口、分销、医院准入及推广等工作。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120257572",
+   "text": "李科文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "这款知名化疗药在涨价后又有新变化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15183792.html",
+   "text": "广东省第二人民医院药学部官微发文介绍称，鉴于目前注射剂型环磷酰胺供应紧张，环磷酰胺口服片剂可短暂替代注射液剂型。但实际互换须医生依据疾病类型、病情急缓及患者耐受性，实行个体化决策。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119783076",
+   "text": "陈杨CY",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄出现鼠疫病例，相关个股引关注",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15169100.html",
+   "text": "俄罗斯鼠疫研究机构员工病亡引发关注，A股抗疫概念股集体涨停。但我国鼠疫管理成熟，疾病可防可控可治，公众不必恐慌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120105797",
+   "text": "黄华HH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=121057896",
+   "text": "李青亲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15152391.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15152391.html",
+   "text": "嫣然天使儿童医院门口换牌引停业猜测，工作人员回应：正常营业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15152391.html",
+   "text": "今年1月，李亚鹏旗下北京嫣然天使儿童医院陷入拖欠租金风波，引发关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116236814",
+   "text": "江怡曼JYM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15134479.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15134479.html",
+   "text": "口腔修复工艺教练组组长周曼莉：让假牙以假乱真的人｜新技能，新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15134479.html",
+   "text": "口腔修复技师多身处幕后。他们不像前牙一样被人一眼看到，但如后牙承担着咀嚼功能一样，同样不可或缺。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119783076",
+   "text": "陈杨CY",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15136885.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15136885.html",
+   "text": "界面快评｜预防艾滋先要终结隐瞒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15136885.html",
+   "text": "让该知道的人知道，让该负责的人负责。这不是对感染者的苛责，而是对每一个可能被感染的人最基本的公平。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100136256",
+   "text": "许悦",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15118729.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15118729.html",
+   "text": "“陪诊师”走进千万家医院｜新技傍身",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15118729.html",
+   "text": "世赛赛场上，选手们正比拼着社会照护的技能。但这医院大厅里，陪诊这个新兴工种正在一单一单中被衍化成职业。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120105797",
+   "text": "黄华HH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15117911.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15117911.html",
+   "text": "老龄化之下专业社会照护用工需求正在暴增丨新技能，新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15117911.html",
+   "text": "随着居家社会照护服务行业逐渐引入科技工具、康复辅具等方式提升服务效率，从业人员也需要具备学习和使用新工具的能力。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120257572",
+   "text": "李科文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15085900.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15085900.html",
+   "text": "界面快评｜明确生物医学新技术叫停标准，并非是给创新“踩刹车”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15085900.html",
+   "text": "海南博鳌明确提出，在临床应用过程中发生与生物医学新技术相关的死亡等情况时，乐城国际医疗旅游先行区内批准生物医学新技术临床转化项目均可被叫停或强制退出。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118108393",
+   "text": "谢欣Rabbit",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15075458.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15075458.html",
+   "text": "上海推生育新政，产检与生育保险兜底成重点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15075458.html",
+   "text": "上海生育新规显示，4500元产检补贴将从“生完领”变“孕期用”，政策内产检和分娩由生育险兜到个人无自付。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120105797",
+   "text": "黄华HH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14988149.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14988149.html",
+   "text": "兽用处方药\"失守\"，人在担风险",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14988149.html",
+   "text": "兽用处方药乱象背后，是抗生素残留上餐桌、麻醉药被制成“毒烟”的风险。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120105797",
+   "text": "黄华HH",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15045844.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15045844.html",
+   "text": "衰老干预领域的困局：在重大机遇面前，最强的药企都无力解决",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15045844.html",
+   "text": "衰老干预生物医药领域，需要一次全面的“解放”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15018993.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15018993.html",
+   "text": "衰老干预技术的高价困局，瑞拓龄能否打破成本壁垒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15018993.html",
+   "text": "在衰老干预领域的现状下，这一高研发投入、长回报周期的“重资产”模式仍是前沿技术商业化为数不多的可行路径之一，也为整个领域设立了关键的参照坐标。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14986725.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14986725.html",
+   "text": "慢性乙肝迈入功能性治愈时代",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14986725.html",
+   "text": "Bepirovirsen是全球首个实现慢性乙肝功能性治愈的药物，其国内上市申请仍在审批审评中。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120257572",
+   "text": "李科文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

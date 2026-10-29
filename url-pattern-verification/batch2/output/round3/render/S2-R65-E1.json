@@ -1,0 +1,83 @@
+{
+ "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+ "observed_at": "2026-10-29T08:51:18.864Z",
+ "method": "playwright-chromium",
+ "final_url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+ "status": 200,
+ "error": null,
+ "title": "抖音创作者中心",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 0,
+   "new_in_prefix": 0,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 0,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=douyin_creator&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mssdk.bytedance.com/web/r/token?ms_appid=2906"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/creator/pc/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/creator/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/web/api/media/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/web/api/v2/creator/xigua/user/info"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/web/oversea/judgment/"
+  },
+  {
+   "method": "HEAD",
+   "url": "https://creator.douyin.com/web/api/media/anchor/search"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mssdk.bytedance.com/web/common?ms_appid=2906&msToken=xXG9trsPmfz8RzbmWxWmkBIGUlzj48L-FoVgE1TLWoVcnw_AYIuRSgAvVxuPYAxkVnIL3nkTDDfIV10k9KrkGCBzo9yBRE0WPYk5QmJgxd-vIXvK2vjjZehHfvZkSSPcZf5SdtuWuDbNIeTUvk0J2I4FFvBialZtJvQ%3D"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/user_info/get_sec_ts/?aid=2906&is_from_ttaccountsdk=1&a_bogus=m64RheUEdoWfCp%2Fb8KJSyjxUS2DANsSjClidb9tnCNqcy1MGBZeaTrobGxuzsFRw-Rp5h9IHQnKnbDxcpsdrk%2FnkLmpDuLkStROC9hXLZqNVazvsEHDNChsFowBGM5sLl5d-i9fRUsMy6D5l9NoPAx-aH5zJmORpSHeVdouyHjW0308zE3Bftr62GH-zBaO6FSl7Sj%3D%3D"
+  }
+ ],
+ "api": [],
+ "anchors": []
+}

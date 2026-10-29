@@ -1,0 +1,1312 @@
+{
+ "url": "https://www.jiemian.com/lists/49.html",
+ "observed_at": "2026-10-29T08:52:46.785Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/49.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/49.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "营销_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 257,
+   "new_in_prefix": 257,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 257,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "天下",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "中国",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "地方",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "评论",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "职场",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "国是",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "文娱",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "影像",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "大湾区",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "ESG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "双碳",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "长三角",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "中西部",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/443.html",
+   "text": "奇特的脑洞",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/507.html",
+   "text": "营销大事件",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "界面快评｜换丝袜卖豆浆，品牌和平台都该担责",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "“擦边营销”不断出现，背后是品牌授权管理失控、短视频流量竞争和平台推荐机制共同推动的结果。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "AI加速重塑广告业：英国广告巨头WPP再裁1000人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "此次裁员主要集中在可被AI工具替代的标准化执行类岗位。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "马年除了找马伊琍，还有什么广告新创意？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "从快消品到奢侈品，不同品牌都在寻找更能够让人记住的春节营销方式。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "界面快评｜换丝袜卖豆浆，品牌和平台都该担责",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "“擦边营销”不断出现，背后是品牌授权管理失控、短视频流量竞争和平台推荐机制共同推动的结果。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "AI加速重塑广告业：英国广告巨头WPP再裁1000人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "此次裁员主要集中在可被AI工具替代的标准化执行类岗位。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "马年除了找马伊琍，还有什么广告新创意？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "从快消品到奢侈品，不同品牌都在寻找更能够让人记住的春节营销方式。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "界面快评｜换丝袜卖豆浆，品牌和平台都该担责",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15113407.html",
+   "text": "“擦边营销”不断出现，背后是品牌授权管理失控、短视频流量竞争和平台推荐机制共同推动的结果。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "AI加速重塑广告业：英国广告巨头WPP再裁1000人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039508.html",
+   "text": "此次裁员主要集中在可被AI工具替代的标准化执行类岗位。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "马年除了找马伊琍，还有什么广告新创意？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13921857.html",
+   "text": "从快消品到奢侈品，不同品牌都在寻找更能够让人记住的春节营销方式。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15033953.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15033953.html",
+   "text": "“一杯咖啡的温暖”再次启航，沪上千余家咖啡店传递公益温度",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15033953.html",
+   "text": "依托遍布街区、社区和乡村的咖啡馆，公益也可以拥有更多触达普通人的入口。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14905163.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14905163.html",
+   "text": "AI正改变信息传播逻辑，品牌该如何管理声誉？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14905163.html",
+   "text": "针对传统舆情监测、SEO效果评估等工具难以衡量这一问题，复旦大学研究团队此次提出AI品牌健康度指数（AI-BHI）。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13689714.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13689714.html",
+   "text": "贾国龙为什么维护“流泪劝谏”的华与华？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13689714.html",
+   "text": "华与华抓住的则是过去十几年中国连锁品牌大爆发和本土消费品牌崛起的红利。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13816450.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13816450.html",
+   "text": "2025年，广告行业的八位大咖被这些作品打动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13816450.html",
+   "text": "今年AI应用蓬勃发展，很多人会问，创意还有用吗，传统广告还有效吗？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13624416.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13624416.html",
+   "text": "亨氏借势全运会的广告出圈，不光是因为创意好",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13624416.html",
+   "text": "这次亨氏番茄酱广告的出圈，不在于创意多有非常规的“颠覆性”或者话题度，而在于大众对于“返璞归真”广告创意的渴望得到了共鸣。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12977861.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12977861.html",
+   "text": "同样是巨物广告，脉动为何没得好评？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12977861.html",
+   "text": "现代广告早已与城市空间融为一体，户外立体广告的铺设也越发考验与城市景观及设施功能的融合程度。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12620805.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12620805.html",
+   "text": "“传媒思享会”首秀来袭",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12620805.html",
+   "text": "由上海报业集团指导、界面新闻主办的“传媒思享会”第一期即将于4月18日星期五在上海报业集团43楼融媒体中心落地。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12483417.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12483417.html",
+   "text": "第一届B2B公关与传播论坛即将开幕",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12483417.html",
+   "text": "活动详情第一届B2B公关与传播论坛由专注B2B营销服务的传声集团与国内企业舆情和公关传播监测的领军者慧科讯业联合主办，由GITA平台提供活动支持，邀约了多位公关与传播领域的资深专家，带来包含危机公关管",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12381850.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12381850.html",
+   "text": "麦当劳造出“CFC”和肯德基贴脸开大",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12381850.html",
+   "text": "“CFC”与“KFC”的对决吸引人们造梗与传播，而朴实无华的商战背后，是市场竞争更加激烈了。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12185993.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12185993.html",
+   "text": "【2024年度突破营销】十位广告大咖心中的年度最佳案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12185993.html",
+   "text": "预算高与低，不会限制有话题的好创意的诞生。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12167520.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12167520.html",
+   "text": "【2024年度突破营销】今年广告拉满情绪价值",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12167520.html",
+   "text": "在大环境变化之中，一只玩偶或者一则无脑短剧，还是能够给人们带来短暂的欢愉。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12117637.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12117637.html",
+   "text": "【特写】博物馆冰箱贴如何跻身文创“顶流”？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12117637.html",
+   "text": "一个明显的现象是，很多博物馆刚起步做文创业务时，会把冰箱贴作为眼下吸引市场的一个抓手。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12106208.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12106208.html",
+   "text": "破万亿美元！全球广告业今年大爆发",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12106208.html",
+   "text": "中国广告市场也保持了一定增长，但在各家报告中增速各有不同。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12100745.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12100745.html",
+   "text": "全球广告行业的新老大来了",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12100745.html",
+   "text": "如果此次合并顺利完成，合并后的新宏盟集团将超过WPP、阳狮等广告巨头，成为全球广告行业的新老大。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12095767.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12095767.html",
+   "text": "“中国乐高”布鲁可冲向港交所",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12095767.html",
+   "text": "但这种主要依赖于外部授权的商业模式，也给这些公司带来隐忧。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12008202.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12008202.html",
+   "text": "奥特曼面具后的IP公司在中国闷声大赚",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12008202.html",
+   "text": "2024年截至目前，“奥特曼”IP让圆谷在以中国为主的海外市场，卖了近2.4亿人民币。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11993645.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11993645.html",
+   "text": "霸王茶姬拍了一部“穿越微短剧”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11993645.html",
+   "text": "从营销层面来说，推出短剧的意义不仅在于获得品牌曝光，更为关键的则是，与传统文旅主题结合能在品牌扩张期进一步强化品牌叙事与定位。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11927642.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11927642.html",
+   "text": "Blueglass因“男友力”擦边广告被罚40万元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11927642.html",
+   "text": "在涉及食品饮料的擦边广告中，更容易让人引发食品安全风险的联想，甚至感到被冒犯。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+   "text": "马越",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11888117.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11888117.html",
+   "text": "为什么今天那么多人拿着锅铲冲向麦当劳？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11888117.html",
+   "text": "人们或许需要的不是一个免费板烧鸡腿堡，他们更在意的是玩梗互动的过程。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11837743.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11837743.html",
+   "text": "LINE FRIENDS拉上权志龙等“爱豆”再扩市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11837743.html",
+   "text": "偶像经济的受众与IP周边消费者的高重合度，也让来自粉丝的目光为新品吸引来更多关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+   "text": "李烨LY1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11810724.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11810724.html",
+   "text": "第一批结婚的00后，以奶茶代酒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11810724.html",
+   "text": "在婚礼奶茶热背后，是年轻人标榜个性、追求情绪价值的消费需求正不断释放。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=103817700",
+   "text": "卢奕贝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

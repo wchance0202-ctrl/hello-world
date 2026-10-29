@@ -1,0 +1,55 @@
+{
+ "url": "https://geo.newrank.cn/news",
+ "observed_at": "2026-10-29T08:55:50.569Z",
+ "method": "playwright-chromium",
+ "final_url": "https://geo.newrank.cn/news",
+ "status": 200,
+ "error": null,
+ "title": "行业资讯 - 新榜智汇",
+ "h1": "行业资讯",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 3,
+   "new_in_prefix": 3,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 3,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://gw.newrank.cn/api/zhihui/ad/nr/trade/zhihui/user/getUserInfo?nonce=5fa9bd326&xyz=ee9dbd242ce1694c9793c44224e2b43b"
+  },
+  {
+   "method": "POST",
+   "url": "https://cloudauth-device-dualstack.cn-shanghai.aliyuncs.com/"
+  },
+  {
+   "method": "POST",
+   "url": "https://cloudauth-device-dualstack.cn-shanghai.aliyuncs.com/"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://geo.newrank.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.newrank.cn/",
+   "text": "新榜",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://geo.newrank.cn/intro",
+   "text": "了解智汇",
+   "region": "FOOTER"
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "url": "https://www.morketing.com/newsflash",
+ "observed_at": "2026-10-29T08:52:33.135Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.morketing.com/newsflash",
+ "status": 200,
+ "error": null,
+ "title": "快讯|Morketing_全球营销商业媒体平台",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 35,
+   "new_in_prefix": 35,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 35,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/webConfig"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/user/mobilePrefixList"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/media"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.morketing.com/api/morketing/newsflash?id=0&page=1&page_size=10"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/getFineArticle"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "全部快讯",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "大公司",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "海外",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "营销",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "品牌",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "电商",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "游戏",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "文娱",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "其他",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28912",
+   "text": "Rokid发布全彩智能眼镜，售价4999元起\n\n10月27日，Rokid正式发布Rokid Glasses 2，搭载第一代骁龙AR1+平台。全彩智能眼镜Rokid Color也在发布会上正式亮相，其搭载第一代骁龙AR1+平台，采用定制的0.",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28902",
+   "text": "果子熟了熟奶茶系列上新，推出抹茶牛乳、桂花乌龙牛乳两款新品\n\n近日，果子熟了推出抹茶牛乳、金桂乌龙牛乳两款熟奶茶系列新品，每瓶规格400ml，零售价6元/瓶，覆盖全渠道销售，进一步丰富品牌即饮奶茶品类的布局。该新品以“真茶真牛乳，丝滑双重奏",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28896",
+   "text": "爷爷不泡茶八周年官宣李昀锐为品牌代言人\n\n10月22日消息，爷爷不泡茶在八周年之际，正式官宣‌李昀锐升级为品牌代言人‌，此前他自2025年起担任「空山栀子系列」代言人。‌‌此次升级为全品牌代言人，是双方合作一年多的延续。2025年合作期间，",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28889",
+   "text": "百度搭子与联想开天推出首款全栈国产通用智能体AI工作站\n\n10月21日消息，在百度搭子产品发布会上，百度搭子宣布全面适配国产信创，正式上架联想开天天禧商店、麒麟软件商店、统信软件应用商店，并携手联想开天推出首款全栈国产通用智能体AI工作站。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28888",
+   "text": "康迪科技亮相第140届广交会，欧洲专业客户显著增长\n\n10月15日至19日，康迪科技携纯电动高尔夫球车、UTV、沙滩车等电动非公路车产品亮相第140届广交会C馆核心展区，吸引来自全球多个国家和地区的专业采购商到访交流，整体客流较春季广交会进",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28873",
+   "text": "乐奇Rokid全球首家AI眼镜无人自助体验店登陆香港海港城\n\n10月15日消息，全球领先的AI+AR智能眼镜品牌乐奇Rokid宣布，全球首家AI眼镜无人自助体验店于香港尖沙咀海港城正式开幕。这不仅是乐奇Rokid首间海外旗舰店，更是AI眼镜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28833",
+   "text": "康迪科技再获宁德时代重卡换电站批量订单\n\n9月28日，全球领先的智能装备创新与价值平台公司康迪科技集团（以下简称“公司”或“康迪科技”）(NASDAQ GS: KNDI）今日宣布，其全资子公司中换电（浙江）科技有限公司（以下简称“中换电”）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28831",
+   "text": "启元机器人全球首店正式开业，打造个人机器人消费新场景\n\n9月28日，启元机器人全球首店正式开业，门店落地于上海淮海中路龙凤PRSCO，面积355m²，集产品展示、销售、体验互动和社群连接于一体。这意味着，随着启元Q1、启元T1在发布会现场正",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28821",
+   "text": "Taboola 推出 Realize ID，帮助效果营销人员更好的完成用户识别工作\n\n9月23日消息，全球效果广告领先者 Taboola 今日宣布推出 Realize ID，这是一套先进的统一身份映射解决方案，旨在帮助效果营销人员在开放网络",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/newsflash/28814",
+   "text": "继人形出货量第一后，智元四足机器人业务2026H1出货量登顶行业应用领域第一\n\n据Countpoint Research，2026年上半年全球四足机器人出货3.5万台，行业场景占四成，撑起长期增长空间。其中，增长最快的智元酷拓四足机器人以1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23238",
+   "text": "一颗“软糖”获千万融资，这个赛道估值6000亿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23236",
+   "text": "2\n\n品牌广告如何做到好玩，还有效？丨「品牌广告最前线」02期\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23241",
+   "text": "3\n\n微博V引擎——品效营销推广引擎上线，创造品效双向奔赴新机遇\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/3624",
+   "text": "4\n\n上北广深的一线Battle背后，网生一代正流向新一线城市\n\n2023-12-01",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23239",
+   "text": "5\n\nAdTiming采用Oracle云技术助力出海开发者把握流量变现新机遇\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://weibo.com/morketing?topnav=1&wvr=6&topsug=1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "Morketing介绍",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhipin.com/gongsir/11b661a07edfa5511X182dq4.html?ka=company-jobs",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketinglearn.com/",
+   "text": "课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://awards.morketing.com/",
+   "text": "Morketing Awards灵眸奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://morketingsummit.com/",
+   "text": "Morketing Summit系列",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502044644",
+   "text": "京公网安备 11010502044644号 经营许可证编号：京B2-20212287",
+   "region": "BODY"
+  }
+ ]
+}

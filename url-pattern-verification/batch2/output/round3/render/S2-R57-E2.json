@@ -1,0 +1,181 @@
+{
+ "url": "https://e.xiaohongshu.com/numerous",
+ "observed_at": "2026-10-29T08:51:36.923Z",
+ "method": "playwright-chromium",
+ "final_url": "https://e.xiaohongshu.com/numerous",
+ "status": 200,
+ "error": null,
+ "title": "种草有数 | 小红书商业化官网",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 9,
+   "new_in_prefix": 9,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 9,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/sbtsource"
+  },
+  {
+   "method": "POST",
+   "url": "https://edith.xiaohongshu.com/api/redcaptcha/v2/getconfig"
+  },
+  {
+   "method": "GET",
+   "url": "https://pages.xiaohongshu.com/data/sem_sdk"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.xiaohongshu.com/api/store/abtest/v3"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.xiaohongshu.com/api/mkt/config/get_report"
+  },
+  {
+   "method": "POST",
+   "url": "https://e.xiaohongshu.com/api/mkt/article/get_content_article_list"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.xiaohongshu.com/api/mkt/clue/v2/get_industry_list"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/scripting"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://e.xiaohongshu.com/api/mkt/article/get_content_article_list"
+  },
+  {
+   "method": "POST",
+   "url": "https://fe.xiaohongshu.com/faas/proto/json-to-proto-json-to-proto/proxy"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/shield/webprofile"
+  },
+  {
+   "method": "POST",
+   "url": "https://fe.xiaohongshu.com/faas/proto/json-to-proto-json-to-proto/proxy"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://e.xiaohongshu.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/",
+   "text": "首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case",
+   "text": "成功案例",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/numerous",
+   "text": "种草有数",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://seedawards.xiaohongshu.com/",
+   "text": "参赛入口",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://jury-seedawards.xiaohongshu.com/cn/login",
+   "text": "评审入口",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://ad.xiaohongshu.com/help/home?from=%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83",
+   "text": "审核规范",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://partner.xiaohongshu.com/partner-search",
+   "text": "小红书商业化渠道合作伙伴查询",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.xiaohongshu.com/",
+   "text": "小红书官网",
+   "region": "FOOTER"
+  }
+ ]
+}

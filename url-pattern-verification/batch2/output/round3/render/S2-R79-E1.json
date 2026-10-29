@@ -1,0 +1,272 @@
+{
+ "url": "https://www.morketing.com/newscenter",
+ "observed_at": "2026-10-29T08:52:11.197Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.morketing.com/newscenter",
+ "status": 200,
+ "error": null,
+ "title": "内容中心|Morketing_全球营销商业媒体平台",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 44,
+   "new_in_prefix": 44,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 44,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/webConfig"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/user/mobilePrefixList"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/media"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/getFineArticle"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "最新",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "热点",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "行业",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "案例",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "专访",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "活动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28919",
+   "text": "行业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28919",
+   "text": "又一个“Labubu”？名创优品YOYO卖出10亿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28917",
+   "text": "专访",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28917",
+   "text": "浴见李励：“好好洗个澡”这件小事，为什么值得一个品牌做11年？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28916",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28916",
+   "text": "Morketing·每日监测10.29：泡泡玛特回应业绩大跌；字节辟谣“群演数据喂大模型”；宇树科技前三季度净利增逾270%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28915",
+   "text": "热点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28915",
+   "text": "两次刹车：追觅的400亿与“故事机器”的熄火",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28914",
+   "text": "热点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28914",
+   "text": "海外短剧：免费破亿，巨头抱团",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28921",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28921",
+   "text": "Taboola 携手摩托罗拉，将生成式 AI 问答引擎 DeeperDive 引入智能手机",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28909",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28909",
+   "text": "Morketing·每日监测10.28：多品牌终止与姆巴佩合作；微软向6万名员工提供自愿离职方案；抖音否认中国互联网进入“字节时间”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28908",
+   "text": "案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28908",
+   "text": "把牙线当“美妆”来做，三年营收暴涨183%，COCOLAB凭什么？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28907",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28907",
+   "text": "Morketing·每日监测10.27：字节旗下即梦AI短剧工作室上线；东鹏饮料终止与姆巴佩全部合作；奥迪四环标与字母标正式分家",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28913",
+   "text": "资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/28913",
+   "text": "智能眼镜迎来“iPhone时刻”，乐奇Rokid发布全彩AI眼镜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23238",
+   "text": "一颗“软糖”获千万融资，这个赛道估值6000亿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23236",
+   "text": "2\n\n品牌广告如何做到好玩，还有效？丨「品牌广告最前线」02期\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23241",
+   "text": "3\n\n微博V引擎——品效营销推广引擎上线，创造品效双向奔赴新机遇\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/3624",
+   "text": "4\n\n上北广深的一线Battle背后，网生一代正流向新一线城市\n\n2023-12-01",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/detail/23239",
+   "text": "5\n\nAdTiming采用Oracle云技术助力出海开发者把握流量变现新机遇\n\n2022-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://weibo.com/morketing?topnav=1&wvr=6&topsug=1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "Morketing介绍",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhipin.com/gongsir/11b661a07edfa5511X182dq4.html?ka=company-jobs",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketinglearn.com/",
+   "text": "课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://awards.morketing.com/",
+   "text": "Morketing Awards灵眸奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://morketingsummit.com/",
+   "text": "Morketing Summit系列",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502044644",
+   "text": "京公网安备 11010502044644号 经营许可证编号：京B2-20212287",
+   "region": "BODY"
+  }
+ ]
+}

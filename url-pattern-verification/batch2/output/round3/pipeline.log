@@ -1,0 +1,21 @@
+{"entries": 267, "families": 217, "identity_A": 1044}
+{"requested": 880, "skipped_done": 0}
+{"rules": 196, "dropped": 21, "identity_B": 997, "holdout_sources": {"listing_split": 52, "other_entries_pages": 112, "sitemap": 23, "later_pagination_pages": 9}}
+{"targets": 4}
+{"rules": 196, "dropped": 21, "identity_B": 1007, "holdout_sources": {"listing_split": 52, "other_entries_pages": 112, "sitemap": 23, "later_pagination_pages": 9}}
+{"requested": 741, "skipped_done": 0}
+{"rules": 196, "with_known_misses": 5}
+{"revised": 5, "skipped_fp": 10, "identity_C": 16, "no_new_holdout": 1}
+{"requested": 16, "skipped_done": 0}
+{"rules": 196, "with_known_misses": 0}
+Traceback (most recent call last):
+  File "/home/user/hello-world/url-pattern-verification/scripts/apply_round3.py", line 484, in <module>
+    main(Path(sys.argv[1]))
+    ~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/user/hello-world/url-pattern-verification/scripts/apply_round3.py", line 344, in main
+    queue += queue_for(e, rs, cov, summ.get(eid, {}), blocked, r2)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/hello-world/url-pattern-verification/scripts/apply_round3.py", line 426, in queue_for
+    c = cov[r["id"]]
+        ~~~^^^^^^^^^
+KeyError: 'R3H-S2-R56-E1-F1'

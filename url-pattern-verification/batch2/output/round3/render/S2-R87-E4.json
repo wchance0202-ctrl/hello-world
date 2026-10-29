@@ -1,0 +1,764 @@
+{
+ "url": "https://www.woshipm.com/harmony-activities",
+ "observed_at": "2026-10-29T08:57:54.975Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.woshipm.com/harmony-activities",
+ "status": 200,
+ "error": null,
+ "title": "鸿蒙活动专区 | 人人都是产品经理",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 144,
+   "new_in_prefix": 144,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 144,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/result?position_ids=25"
+  },
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/feed?user_id=0&position_ids=31"
+  },
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/feed?position_ids=26"
+  },
+  {
+   "method": "GET",
+   "url": "https://dts.woshipm.com/dtsReport/pm_pc.json?t=1746940198814"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/harmony",
+   "text": "文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/questionTopic/detail/8cs.html",
+   "text": "问答",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony-activities",
+   "text": "鸿蒙活动",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/dev-cert-detail/101684223987951077?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "培训认证",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/design?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "设计指南",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/market?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "生态市场",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/communityHome?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "官方社区",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "HarmonyOS专区",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://ai.woshipm.com/harmonyos/1024/",
+   "text": "1024 程序员节・鸿蒙开发者全攻略\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0201227790749018112?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "华为审核专家 1v1 深度交流（10月28-29日场）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204226061749105391?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "华为审核专家 1v1 深度交流（10月14-15日场）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/121786615185570132?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "答题有礼—社区互助问答活动第四期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204222445044509709?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "鸿蒙生态赋能资源丰富度建设活动\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204223054164783916?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "互动有礼，轻触即传、精准就位\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0208224777908429103?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "华为审核专家 1v1 深度交流（9月23日-24日场）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0201223569512182819?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "华为审核专家 1v1 深度交流（9月9-10日场）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/801783650583380504?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "HDD·HarmonyOS创新论坛(HarmonyOS 7专场)\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C101784885999076007?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "HarmonyOS Tech Talk —— ArkTS模块化import性能优化\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C201784623786393705?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "HarmonyOS生态学堂——揭秘JSLeakWatcher-精准发现ArkTS内存泄漏\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C301783664865179515?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "HarmonyOS生态学堂——ArkTS内存泄漏故障模式介绍\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C401783675588319066?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "HarmonyOS Tech Talk —— ArkTS并行化能力分享\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C301774835003198622?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk 第93期：音频播放系列开发实践\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/digixActivity/digixcmsdetail/101773710117484023?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "2026 HarmonyOS创新赛·极客赛道\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C401773135275718593?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk 第91期：多设备窗口沉浸式开发\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/131773131035774954",
+   "text": "HarmonyOS 创新论坛 全场景互联专场\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C201772613135812467?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk第90期：办公编辑全场景协同\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/701772243817126015?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk 第89期：电脑应用适配开发\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/901769153966521953?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "“码”上创新之春节特别活动\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201770358881323724?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk 第88期：视频编解码\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/701769735932582845?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk 第87期：CodeGenie自定义Agent实战\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/701769072088482497?ha_source=RRDSCPJL&ha_sourceId=70000054",
+   "text": "HarmonyOS Tech Talk第86期：股票多窗协同与悬浮盯盘\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/video/C201768460719885112",
+   "text": "开发者会客厅第11期 HarmonyOS开启健康管理新体验\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201768543645826006",
+   "text": "1月HDD·HarmonyOS赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C101768471409521115",
+   "text": "鸿蒙生态学堂 线上培训 第三十七期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/901768526068458441",
+   "text": "HarmonyOS Tech Talk：Web跨域与折叠屏开发实战\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/901767601340166028",
+   "text": "HarmonyOS Tech Talk：地址越界检测与定位方法\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C301767585691013067",
+   "text": "鸿蒙生态学堂第36期 行业模板：办公行业解决方案及案例讲解\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/video/C201767691865614088",
+   "text": "女性健康管理的HarmonyOS创新实践\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201766539650458149",
+   "text": "HarmonyOS Tech Talk：游戏性能调优工具介绍\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/601761811452967403",
+   "text": "HarmonyOS组件开发征集活动\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/video/C201765333819235002",
+   "text": "HarmonyOS助力，习惯养成更智能\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/programs/harmonyosgeek/",
+   "text": "首批鸿蒙极客公布！\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/121764723306336284",
+   "text": "HDD·鸿蒙赋能交流会（12月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/121764655450208281",
+   "text": "生态学堂·线上培训 第35期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vip.qidianla.com/course/detail/k56pj.html",
+   "text": "鸿蒙-活动 鸿蒙有约·从0到1落地原生鸿蒙：叫叫实战派分享：团队组建+周期管控+痛点破局全攻略\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vip.qidianla.com/course/detail/71tsd.html",
+   "text": "鸿蒙有约·悦跑圈鸿蒙版产品设计探索与实践\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/121764224046870274",
+   "text": "生态学堂·线上培训 第34期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C501763713576214002",
+   "text": "HDD·鸿蒙赋能交流会-实操工坊12月\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/701762482663581334",
+   "text": "鸿蒙生态创新行业解决方案沙龙\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101762742376641549",
+   "text": "AGC能力体验和研讨会（开发及测试方向）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/601762740548139869",
+   "text": "AGC能力体验和研讨会（测试专场）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/601762758566211128",
+   "text": "鸿蒙赋能交流会（11月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/701762324760651562",
+   "text": "生态学堂·线上培训 第32期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C101760410617268003",
+   "text": "鸿蒙生态学堂 线上培训 第31期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/901760423040828743",
+   "text": "HDD·鸿蒙赋能交流会1024，诚邀您共赴鸿蒙开发者之约！\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C101758714097633008",
+   "text": "实操工坊线上直播课-ArkWeb 在新闻阅读领域的应用\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/801759029296976002",
+   "text": "生态学堂·线上培训 第30期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/share/6275516.html",
+   "text": "鸿蒙领航者招募\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/video/C401758695453714260",
+   "text": "【最佳球会】解锁体育竞技HarmonyOS新体验\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301757474300821213",
+   "text": "HarmonyOS官方模板集成创新活动\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/401758001880673836",
+   "text": "生态学堂 线上培训 第29期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0201192125991407216",
+   "text": "技术高光时刻案例征集！\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204192127559853135",
+   "text": "邀请你成为HarmonyOS官方模板产品经理\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301757058434007389",
+   "text": "鸿蒙赋能交流会（9月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101756782448183420",
+   "text": "AGC能力体验和研讨会·北京站\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204192190811605165",
+   "text": "HarmonyOS官方模板优秀案例\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0201192126224104217",
+   "text": "技术人的“避坑指南”，分享你踩过的“开发雷区”！\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101756782867286426",
+   "text": "生态学堂 线上培训 第27期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301755584965390833",
+   "text": "行业模板：智能家居行业案例讲解\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/401754291133183478",
+   "text": "鸿蒙赋能交流会（8月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0201189439419277084",
+   "text": "社区开发者体验升级第二弹\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0207189440023827145",
+   "text": "推荐优质社区内容，聊聊你的感悟与收获！\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vip.qidianla.com/course/detail/ksapj.html",
+   "text": "精彩回放 | 宝宝巴士用鸿蒙定义儿童启蒙新体验\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vip.qidianla.com/course/detail/0ddce.html",
+   "text": "精彩回放 | 宝宝巴士鸿蒙应用开发实践与思考\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101747031198241690",
+   "text": "HarmonyOS组件/模板集成创新活动\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201753069365265301",
+   "text": "生态学堂·线上培训 第24期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://vip.qidianla.com/course/detail/7aksd.html",
+   "text": "从技术到产品：鸿蒙SDK如何提升三端开发效率\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201752738709909785",
+   "text": "HDD·鸿蒙赋能交流会（7月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0202187873213952269",
+   "text": "大咖课后问答《性能专项测试：DevEco Testing工具详解》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301751004476273044",
+   "text": "HDD · AGC能力体验和研讨会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://996.pm/Yympx",
+   "text": "HarmonyOS创新赛\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0203185811146802008",
+   "text": "大咖课后问答《行业案例：近场能力精准智联，场景服务高效触达》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/501749536684955362",
+   "text": "6月HDD•鸿蒙赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201750057071292500",
+   "text": "生态学堂·线上培训 第21期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0202184600951906206?fid=0109140870620153026%3Fha_source%3Drrdscpjl",
+   "text": "大咖课后问答《最佳实践：如何在IDE中高效使用组件》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101748930950126559",
+   "text": "生态学堂·线上培训 第20期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/live/C401747997193234002",
+   "text": "开发者会客厅第七期《从定位到交互，探索“片场”的体验进化之路》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0203183028167915111",
+   "text": "大咖课后问答《深入切面编程：从原理到应用实战剖析》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201747269740843151",
+   "text": "生态学堂·线上培训 第19期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0202182447082911611",
+   "text": "如何利用AI技术高效开发鸿蒙应用\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204182448981375474?fid=0104164651529951067%3Fha_source%3Drrdscpjl",
+   "text": "放“码”来战，端云一体化挑战赛\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201746520343790610",
+   "text": "HDD·鸿蒙赋能交流会（5月）\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301746755033328688",
+   "text": "HDD · 鸿蒙生态能力体验和研讨会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://996.pm/zrkVq",
+   "text": "开发者会客厅第六期《探秘开心消消乐，如何让“消除”更丝滑》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301745371887230038",
+   "text": "生态学堂·线上培训 第18期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/study-path/101741601017103139",
+   "text": "鸿蒙游戏开发者服务公开课\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101744615994017919",
+   "text": "鸿蒙生态学堂·线上培训 第十七期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101743670222557596",
+   "text": "4月HDD鸿蒙赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204179071468562414",
+   "text": "大咖课后问答《行业案例：精准日程管理，后台智能提醒》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201743583581427337",
+   "text": "生态学堂·线上培训 第16期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201743228638281993",
+   "text": "HDD·鸿蒙生态能力体验和研讨会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/introduction/C101741857820381811",
+   "text": "HarmonyOS开发者会客厅第5期《解码轻木鱼：一键获取HarmonyOS特性密钥》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0207177932716370176",
+   "text": "HarmonyOS大咖课后问答《AI意图框架：读懂用户心思的智能升级》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201742464277723912",
+   "text": "鸿蒙生态学堂·线上培训 第15期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101741596225399104",
+   "text": "3月HDD鸿蒙赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204176638570771007",
+   "text": "大咖问答《体验打磨：应用横竖屏无缝切换》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101741139486242969",
+   "text": "生态学堂·线上培训 第14期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/course/live/C101739927167490620",
+   "text": "HarmonyOS开发者会客厅 第4期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0204175423576030239",
+   "text": "HarmonyOS大咖课后问答《典型场景：深色模式开发及适配详解》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301739929836241176",
+   "text": "生态学堂·线上培训 第13期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/201739437490080855",
+   "text": "2月HDD鸿蒙赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/topic/0202172401957983144",
+   "text": "HarmonyOS大咖问答《应用安全与隐私优化常见实践案例》\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/301736735731210329",
+   "text": "生态学堂·线上培训 第12期\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/activity/101735787709399249",
+   "text": "1月HDD·鸿蒙赋能交流会\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.qidianla.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://36kr.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.geetest.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.zhisheji.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.polyv.net/?-cpjl",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.woshipm.com/policy",
+   "text": "隐私政策",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/it/1010671.html",
+   "text": "投稿须知",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/question/detail/omkf.html",
+   "text": "意见反馈",
+   "region": "NAV"
+  },
+  {
+   "href": "https://doc.weixin.qq.com/doc/w3_ALsAdwZgAO8uhueZ8ahRse75jgAJm?scode=AGsAywdaAA0wPabVgMAYgAZgbwAOM",
+   "text": "帮助中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://pm265.com/",
+   "text": "PM265",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pmbaobao.com/",
+   "text": "产品经理导航",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.zbj.com/",
+   "text": "猪八戒网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.huoban.com/",
+   "text": "伙伴云表格",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dun.163.com/",
+   "text": "网易易盾",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.getui.com/cn/",
+   "text": "个推",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.umeng.com/",
+   "text": "友盟+",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.cyzone.cn/?woshipm",
+   "text": "创业邦",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.aixq.cc/",
+   "text": "AI学习社区",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.imooc.com/",
+   "text": "慕课网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.yunyingpai.com/",
+   "text": "运营派",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.liangcang.cc/",
+   "text": "粮仓企微管家",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "粤ICP备14037330号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001309",
+   "text": "粤公网安备 44030502001309号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://static.qidianla.com/Audio-TVLicense.jpg",
+   "text": "广播电视节目制作经营许可证（粤）字第03109号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dxzhgl.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%E6%B7%B1%E5%9C%B3%E8%81%9A%E5%8A%9B%E5%88%9B%E6%83%B3%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&type=xuke",
+   "text": "增值电信业务经营许可证粤B2-20190788",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://tongji.baidu.com/hm-web/welcome/ico?s=b85cbcc76e92e3fd79be8f2fed0f504f",
+   "text": "网站统计",
+   "region": "BODY"
+  }
+ ]
+}

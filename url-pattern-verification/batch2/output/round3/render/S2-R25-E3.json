@@ -1,0 +1,271 @@
+{
+ "url": "https://www.analysys.cn/article/detail/20021542",
+ "observed_at": "2026-10-29T08:51:16.197Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.analysys.cn/article/detail/20021542",
+ "status": 200,
+ "error": null,
+ "title": "中国移动端第三方输入法市场年度研究2026-易观分析",
+ "h1": "中国移动端第三方输入法市场年度研究2026",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 47,
+   "new_in_prefix": 47,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 47,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://uat.analysys.cn:4089/configure?appkey=fabe794a74554435&lib=Js&url=https%3A%2F%2Fwww.analysys.cn%2Farticle%2Fdetail%2F20021542"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.analysys.cn/api/user/getUserInfo"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "网站首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:;",
+   "text": "登录",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:;",
+   "text": "立即注册",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/trends",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/analysis",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/activity",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/media",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#honor",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#course",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#teams",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#contactus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#culture",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/es/search",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载分析报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://boyue.analysys.cn/sail/view/portal/index.html#/list?classify=%E6%95%B0%E5%AD%97%E5%8C%96%E5%88%86%E6%9E%90",
+   "text": "数字化分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021502",
+   "text": "2026年中国营销智能体生态与厂商能力全景报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021505",
+   "text": "中国低空经济应用场景报告2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021501",
+   "text": "分析师评论：从AI硬件到Token工厂——算力价值链重心迁移",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021507",
+   "text": "存量时代下家居家装消费的价值重构——中国家居家装行业白皮书2026",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhihu.com/org/yi-guan-fen-xi",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qianfan.tech/",
+   "text": "易观千帆",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://boyue.analysys.cn/",
+   "text": "易观博阅",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "ygfx@analysys.com.cn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qianfan.tech/",
+   "text": "易观千帆",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.cda.cn/",
+   "text": "分析师",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.sunrate.com/?channelCode=analysys",
+   "text": "寻汇",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.bdwork.com/",
+   "text": "BD",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.analysysdata.com/",
+   "text": "易观数科",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.infoq.cn/",
+   "text": "infoQ",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502031510",
+   "text": "|\n京公网安备11010502031510号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "ygfx@analysys.com.cn",
+   "region": "FOOTER"
+  }
+ ]
+}

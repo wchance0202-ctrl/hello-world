@@ -1,0 +1,120 @@
+{
+ "url": "https://www.morketing.com/ecosystem",
+ "observed_at": "2026-10-29T08:53:12.782Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.morketing.com/ecosystem",
+ "status": 200,
+ "error": null,
+ "title": "Morketing_全球营销商业媒体平台",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 12,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 12,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/v4/dictionary"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.morketing.com/api/v4/ecology"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/webConfig"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/user/mobilePrefixList"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/hotSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/morketing/media"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.morketing.com/api/v4/corporateList"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/ecosystem/search",
+   "text": "查看更多",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.morketing.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://weibo.com/morketing?topnav=1&wvr=6&topsug=1",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketing.com/about",
+   "text": "Morketing介绍",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhipin.com/gongsir/11b661a07edfa5511X182dq4.html?ka=company-jobs",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.morketinglearn.com/",
+   "text": "课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://awards.morketing.com/",
+   "text": "Morketing Awards灵眸奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://morketingsummit.com/",
+   "text": "Morketing Summit系列",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502044644",
+   "text": "京公网安备 11010502044644号 经营许可证编号：京B2-20212287",
+   "region": "BODY"
+  }
+ ]
+}

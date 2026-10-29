@@ -1,0 +1,1307 @@
+{
+ "url": "https://www.jiemian.com/lists/850.html",
+ "observed_at": "2026-10-29T08:57:11.129Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/850.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/850.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "家电_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 256,
+   "new_in_prefix": 256,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 256,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/811.html",
+   "text": "家电圈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "家电国补即将停止？多地回应：额度充足",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "多为经销商催单话术。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "格力技校首届新生开课！董明珠：禁止谈恋爱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "她勉励学生在校期间三年潜心学习，保持自信、勤奋，秉持自信、诚信、包容的品格。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116236814",
+   "text": "江怡曼JYM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "【独家专访】离开小米一年之后，王腾迎来创业第一场大考",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "王腾曾经熟悉的那套爆款逻辑，是驾驭在一套现成的硬件体系上解决问题，但这一次他需要自己把AI、硬件与健康科学的体系本身先打造出来。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116115463",
+   "text": "伍洋宇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "家电国补即将停止？多地回应：额度充足",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "多为经销商催单话术。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "格力技校首届新生开课！董明珠：禁止谈恋爱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "她勉励学生在校期间三年潜心学习，保持自信、勤奋，秉持自信、诚信、包容的品格。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116236814",
+   "text": "江怡曼JYM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "【独家专访】离开小米一年之后，王腾迎来创业第一场大考",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "王腾曾经熟悉的那套爆款逻辑，是驾驭在一套现成的硬件体系上解决问题，但这一次他需要自己把AI、硬件与健康科学的体系本身先打造出来。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116115463",
+   "text": "伍洋宇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "家电国补即将停止？多地回应：额度充足",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15229057.html",
+   "text": "多为经销商催单话术。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119199844",
+   "text": "陈小同",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "格力技校首届新生开课！董明珠：禁止谈恋爱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15210437.html",
+   "text": "她勉励学生在校期间三年潜心学习，保持自信、勤奋，秉持自信、诚信、包容的品格。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116236814",
+   "text": "江怡曼JYM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "【独家专访】离开小米一年之后，王腾迎来创业第一场大考",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15181605.html",
+   "text": "王腾曾经熟悉的那套爆款逻辑，是驾驭在一套现成的硬件体系上解决问题，但这一次他需要自己把AI、硬件与健康科学的体系本身先打造出来。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116115463",
+   "text": "伍洋宇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12358017.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12358017.html",
+   "text": "多地格力电器店变“董明珠健康家”，专卖店回应",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12358017.html",
+   "text": "这并不是第一次董明珠将个人IP与格力业务产品绑定。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12325829.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12325829.html",
+   "text": "松下重组家电业务提速：若无法盈利就必须剥离",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12325829.html",
+   "text": "“别了，松下电器？”还为时尚早。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12315623.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12315623.html",
+   "text": "松下电器连发两声明，否认解散“松下集团”及决定出售电视业务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12315623.html",
+   "text": "松下电器的电视业务面临盈利困境，属于需要进行业务梳理和调整的范畴。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12312317.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12312317.html",
+   "text": "松下宣布改革：拟出售电视业务，解散“松下电器公司”并拆分为独立子公司",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12312317.html",
+   "text": "出售电视业务相关事项尚未确定，松下正考虑各种选择。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12311092.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12311092.html",
+   "text": "美的方洪波：2024年美的营收突破4000亿元，机器人与自动化板块业务营收已突破300亿元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12311092.html",
+   "text": "广东首条“机器人生产机器人”全自动生产线均由美的机器人组成，可全天24小时不间断工作，平均30分钟就能下线一台机器人。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12284132.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12284132.html",
+   "text": "美的方洪波最新内部发文：禁止下班后开会，杜绝表演式工作",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12284132.html",
+   "text": "“任何不以用户为中心、不以业务为中心、不以一线为中心，不产生价值，不增加收入的工作都属于表演式工作。”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12272192.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12272192.html",
+   "text": "受益于以旧换新，苏宁易购将实现4年来首次全年盈利",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12272192.html",
+   "text": "2024年，苏宁易购预计实现归属于上市公司股东的净利润5亿元至7亿元，较2023年实现扭亏为盈。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12262625.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12262625.html",
+   "text": "三星将与OpenAI合作开发“AI电视”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12262625.html",
+   "text": "三星在2024年CES展会上就公布了全新战略“AI for All”，并展示了其AI技术最新成果。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12253780.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12253780.html",
+   "text": "2025年以旧换新政策来了！手机、平板首次纳入国补，家电扩展至12类",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12253780.html",
+   "text": "2025年补贴品类大幅扩展至12类。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12252660.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12252660.html",
+   "text": "董明珠：以旧换新应成常态，格力累计处理废旧产品6800万台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12252660.html",
+   "text": "谈及“以旧换新”如何长久持续，董明珠认为不能单纯依靠政府补贴，企业也需在产品研发上不断创新。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12235041.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12235041.html",
+   "text": "CES上的中国AI硬件：有人奋勇向前，但更多人想要赚钱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12235041.html",
+   "text": "在AI硬件的浪潮下，中国公司们已经成为不可忽视的力量。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000170",
+   "text": "林腾",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12232048.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12232048.html",
+   "text": "透视CES 2025：中国家电企业正面“对狙”日韩，AI仍是焦点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12232048.html",
+   "text": "今年日企的重点不在家电，更多舞台留给中企和韩企，更多品类的中国家电品牌走向舞台中央。AI不再只是营销风口，有了更为务实的落地路径。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12221652.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12221652.html",
+   "text": "在北美崛起的TCL电视：大尺寸屏幕策略初见奇效",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12221652.html",
+   "text": "中国电视之王TCL已经逐步在北美站稳脚跟。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000170",
+   "text": "林腾",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12143745.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12143745.html",
+   "text": "云鲸智能又融了一笔钱，要为出海做高端囤“子弹”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12143745.html",
+   "text": "“未来扫地机的产品形态会从地面清洁走向空间清洁，发展出空间清洁、空间收纳的新功能，升级成类似家庭保姆的角色。”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118661365",
+   "text": "陆柯言",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12127051.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12127051.html",
+   "text": "格力与小米再掀专利侵权“口水战”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12127051.html",
+   "text": "今年以来，小米在大家电业务上持续发力，特别是空调业务表现亮眼，其与格力之间的“口水战”也变得更为频发。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12096381.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12096381.html",
+   "text": "海信回应裁员风波：均为不实猜测，属正常的组织调整",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12096381.html",
+   "text": "有海信集团内部人士表示，这次调整是集团在年末年初正常进行的末位淘汰，像30%这么高的整体裁员比例是不太可能的。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12057975.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12057975.html",
+   "text": "LGD广州工厂员工赔偿方案惹争议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12057975.html",
+   "text": "对于广州与烟台工厂离职补偿金为何出现大幅差异情况，截至发稿，LGD方面未就此事回应界面新闻记者。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12024283.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12024283.html",
+   "text": "海信家电迎来“80后”女掌门人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12024283.html",
+   "text": "接替代慧忠的海信家电新掌门人是高玉玲，时年42岁，有着丰富的资本市场经验。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11985607.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11985607.html",
+   "text": "家电双11冰火两重天：电商平台销量暴增，经销商却倍感寒意",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11985607.html",
+   "text": "与往年相比，今年的双11除了持续时间更长，更重要的变量在于以旧换新国补政策贯穿了整个促销期。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120729953",
+   "text": "方诗琪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11947026.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11947026.html",
+   "text": "销售额预期大增382%，松下在华新业务业绩目标再提升｜进博新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11947026.html",
+   "text": "“我们非常重视中国市场，希望通过持续投资来加大我们事业的发展。”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120422564",
+   "text": "李如嘉",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11935116.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11935116.html",
+   "text": "曾在追觅科技“三级跳”的中国区执行总裁郭人杰被爆离职",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/11935116.html",
+   "text": "郭人杰此前是追觅品牌对外的重要发言人，也是内部擢升最为迅速的年轻高管之一。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116115463",
+   "text": "伍洋宇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

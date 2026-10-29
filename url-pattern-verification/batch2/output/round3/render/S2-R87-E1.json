@@ -1,0 +1,217 @@
+{
+ "url": "https://www.woshipm.com/harmony",
+ "observed_at": "2026-10-29T08:52:22.950Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.woshipm.com/harmony",
+ "status": 200,
+ "error": null,
+ "title": "HarmonyOS开发者社区 | 人人都是产品经理",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 38,
+   "new_in_prefix": 38,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 38,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/harmony",
+   "text": "文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/questionTopic/detail/8cs.html",
+   "text": "问答",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony-activities",
+   "text": "鸿蒙活动",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/training/dev-cert-detail/101684223987951077?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "培训认证",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/design?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "设计指南",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/market?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "生态市场",
+   "region": "NAV"
+  },
+  {
+   "href": "https://developer.huawei.com/consumer/cn/forum/communityHome?ha_source=rrdscpjl&ha_sourceId=89000499",
+   "text": "官方社区",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "HarmonyOS专区",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.qidianla.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://36kr.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.geetest.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.zhisheji.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.polyv.net/?-cpjl",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.woshipm.com/policy",
+   "text": "隐私政策",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/it/1010671.html",
+   "text": "投稿须知",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/question/detail/omkf.html",
+   "text": "意见反馈",
+   "region": "NAV"
+  },
+  {
+   "href": "https://doc.weixin.qq.com/doc/w3_ALsAdwZgAO8uhueZ8ahRse75jgAJm?scode=AGsAywdaAA0wPabVgMAYgAZgbwAOM",
+   "text": "帮助中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://pm265.com/",
+   "text": "PM265",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pmbaobao.com/",
+   "text": "产品经理导航",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.zbj.com/",
+   "text": "猪八戒网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.huoban.com/",
+   "text": "伙伴云表格",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dun.163.com/",
+   "text": "网易易盾",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.getui.com/cn/",
+   "text": "个推",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.umeng.com/",
+   "text": "友盟+",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.cyzone.cn/?woshipm",
+   "text": "创业邦",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.aixq.cc/",
+   "text": "AI学习社区",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.imooc.com/",
+   "text": "慕课网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.yunyingpai.com/",
+   "text": "运营派",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.liangcang.cc/",
+   "text": "粮仓企微管家",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "粤ICP备14037330号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001309",
+   "text": "粤公网安备 44030502001309号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://static.qidianla.com/Audio-TVLicense.jpg",
+   "text": "广播电视节目制作经营许可证（粤）字第03109号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dxzhgl.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%E6%B7%B1%E5%9C%B3%E8%81%9A%E5%8A%9B%E5%88%9B%E6%83%B3%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&type=xuke",
+   "text": "增值电信业务经营许可证粤B2-20190788",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://tongji.baidu.com/hm-web/welcome/ico?s=b85cbcc76e92e3fd79be8f2fed0f504f",
+   "text": "网站统计",
+   "region": "BODY"
+  }
+ ]
+}

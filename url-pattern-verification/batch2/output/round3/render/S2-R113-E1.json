@@ -1,0 +1,736 @@
+{
+ "url": "https://www.chanmama.com/douyin/",
+ "observed_at": "2026-10-29T08:53:14.741Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.chanmama.com/douyin/",
+ "status": 200,
+ "error": null,
+ "title": "抖音数据分析平台_抖音直播|短视频|电商数据查询 - 蝉妈妈数据",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 110,
+   "new_in_prefix": 110,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 110,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 110,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 3,
+   "anchors": 110,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 4,
+   "anchors": 110,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 5,
+   "anchors": 110,
+   "new_in_prefix": 1,
+   "clicked": null
+  },
+  {
+   "round": 6,
+   "anchors": 110,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cdn-static.chanmama.com/sub-module/web/c1a5fc1f75a1976e.wasm"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/user/info?timeStamp=1793263997"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/user/extraInfo?timeStamp=1793263997"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/config/ad?timeStamp=1793263997"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/common/area"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://analysis.chanmama.com/v1/report"
+  },
+  {
+   "method": "POST",
+   "url": "https://api-service.chanmama.com/v1/attention/sample/list"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/chat/bi/entry/aiQuestionRecommendation/webNavigation"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/vip/presented/hasGiveVip?timeStamp=1793264003&query_condition=fb53f0ae_1793264003191"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/activity/float/dialog/config"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/activity/float/dialog/config"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/home/workbench/announcement"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/content/academy/courseList?page=1&size=6"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/chat/bi/entry/aiQuestionRecommendation/webNavigation"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/entry/hotSpotTracking/marketingCalendar?start_time=2026-10-29&end_time=2027-10-29"
+  },
+  {
+   "method": "POST",
+   "url": "https://api-service.chanmama.com/v1/entry/hotSpotTracking/realTime/list"
+  },
+  {
+   "method": "POST",
+   "url": "https://api-service.chanmama.com/v1/entry/hotSpotTracking/realTime/list"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/home/search/top5"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/home/rank/top/new/aweme?day=1&order_by=digg_count"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/home/rank/top/yesterdaySaleRank"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/content/operationList?page=1&size=3&show_type=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/content/shopHotList?page=1&size=3"
+  },
+  {
+   "method": "GET",
+   "url": "https://api-service.chanmama.com/v1/content/actList?page=1&size=3"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://u.clarity.ms/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.chanmama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/",
+   "text": "助理",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/chat?isFocus=true&entrySource=BI-AI%E5%AF%BC%E8%88%AA&recommendation_config_id=10&question=%E6%88%91%E6%83%B3%E5%81%9A%E4%B8%80%E4%B8%AA%E8%B5%9B%E9%81%93%E6%96%B9%E5%90%91%E8%B4%A6%E5%8F%B7%EF%BC%8C%E5%B8%AE%E6%88%91%E6%89%BE%E5%88%B0%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%A4%B4%E9%83%A8%2F%E8%85%B0%E9%83%A8%E5%AF%B9%E6%A0%87%E8%B4%A6%E5%8F%B7%EF%BC%8C%E6%8B%86%E8%A7%A3%E5%AE%9A%E4%BD%8D%E3%80%81%E7%88%86%E6%AC%BE%E9%80%89%E9%A2%98%E3%80%81%E5%86%85%E5%AE%B9%E7%BB%93%E6%9E%84%E3%80%81%E5%B8%A6%E8%B4%A7%E7%AD%96%E7%95%A5%E3%80%81%E6%B5%81%E9%87%8F%E6%9D%A5%E6%BA%90%E5%92%8C%E5%8F%AF%E5%A4%8D%E5%88%BB%E5%8A%A8%E4%BD%9C%E3%80%82",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/schedule",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/pictureDesign",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/filmDesign",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/skills",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ai.chanmama.com/chat?openIM=1&trackFrom=BI-AI%E5%AF%BC%E8%88%AA",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/douyin/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/dashboard/",
+   "text": "工作台",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/douyin/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/",
+   "text": "达人",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/",
+   "text": "商品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/",
+   "text": "直播",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/awemeRank/",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/tikShopRank/",
+   "text": "小店",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/brandRank/",
+   "text": "品牌",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/aiTools/",
+   "text": "工具",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.chanmama.com/vip/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/open-platform/",
+   "text": "开放平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/brandRank/0761908601292.html",
+   "text": "蝉妈妈品牌全面升级，分析维度更全面！立即前往>>",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/",
+   "text": "找达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/bloggerRise/",
+   "text": "找涨粉最快的达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/liveBlogger/",
+   "text": "找带货最多的达人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/dashboard/boardDetail/45",
+   "text": "智能找对标",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/",
+   "text": "找爆品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/tikGoodsSale/",
+   "text": "找销量最高的商品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/SPUrank/",
+   "text": "SPU同品聚合分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/industryTrends/productConsumptionTrend",
+   "text": "美妆属性分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/",
+   "text": "找直播间",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/todaySales/",
+   "text": "找头部&新星直播间",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/actualUser/",
+   "text": "找最热门的在播直播间",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/strategyAnalysis/liveHighlightSegments/",
+   "text": "直播高光话术",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/awemeRank/",
+   "text": "找素材",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/awemeRank/promotionAweme/",
+   "text": "找带货销量最高的视频",
+   "region": "BODY"
+  },
+  {
+   "href": "https://chuangyi.chanmama.com/case/liveDrainageSearch/?channelFrom=cmm&from=chanmama",
+   "text": "千川投放素材",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/strategyAnalysis/goldDialogueRank/",
+   "text": "黄金3秒台词",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/brandRank/",
+   "text": "找品牌/小店",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/brandRank/promotionBrand/",
+   "text": "找品类标杆品牌",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/tikShopRank/tikShop/",
+   "text": "找销售额最高的抖音小店",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/calendar",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/calendar?day=1793376000",
+   "text": "万圣节\n（1天后）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/calendar?day=1793980800",
+   "text": "立冬\n（8天后）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/calendar?day=1794326400",
+   "text": "双11\n（12天后）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/realTime",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/realTime?hotTitle=%E7%A7%8B%E6%97%A5%E5%B1%B1%E9%87%8E%E6%BC%AB%E6%B8%B8&hotIndex=0&hotType=2&hotInnerType=1",
+   "text": "秋日山野漫游",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/realTime?hotTitle=%E7%8B%AC%E5%AE%B6%E6%8F%AD%E7%A7%98%E7%99%BD%E9%B9%A4%E6%BB%A9%E6%B0%B4%E7%94%B5%E7%AB%99&hotIndex=0&hotType=2&hotInnerType=1",
+   "text": "独家揭秘白鹤滩水电站",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/creationInsights/realTime?hotTitle=%E5%86%9C%E4%BA%A7%E5%93%81%E5%85%A8%E9%9D%A2%E6%8F%90%E8%B4%A8%E8%B7%AF%E7%BA%BF%E5%9B%BE%E7%A1%AE%E5%AE%9A&hotIndex=-1&hotType=2&hotInnerType=1",
+   "text": "农产品全面提质路线图确定",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/NnqM6MAn0StW_iWSe-otIeTQsQadv__N.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/NnqM6MAn0StW_iWSe-otIeTQsQadv__N.html",
+   "text": "双十一 买包包找叮当，一折购！！",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/ZdTb0p9Naio_rbVn-mt_w3utv943Mw_r.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/ZdTb0p9Naio_rbVn-mt_w3utv943Mw_r.html",
+   "text": "珀莱雅限时补贴大场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/6myNyFeKMnDfAiKxB6z-lT_wY4CQ5JLs.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/6myNyFeKMnDfAiKxB6z-lT_wY4CQ5JLs.html",
+   "text": "2026行稳致远",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/p6JEVh0dBg_IeprHueE3cEl8wpcBHuB3.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/p6JEVh0dBg_IeprHueE3cEl8wpcBHuB3.html",
+   "text": "云上双11现货划算不用等",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/KkBIeOFfyKJOFN2IAcpbddUwa8-fQRlJ.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/liveRank/KkBIeOFfyKJOFN2IAcpbddUwa8-fQRlJ.html",
+   "text": "锁定今晚19点iQOO Neo12新品发布，敬请期待！",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/TkU3HKej5C3GyMtSLW9Q3g.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/TkU3HKej5C3GyMtSLW9Q3g.html",
+   "text": "贾乃亮10.30早9点可复美年度折扣大场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/Oz5HW1KuXDJr5Ixkn0WcvdC0ziHSvLlE.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/Oz5HW1KuXDJr5Ixkn0WcvdC0ziHSvLlE.html",
+   "text": "茶百道官方宠粉号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/ww3bfh_HREChNGrNFsrd1g.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/ww3bfh_HREChNGrNFsrd1g.html",
+   "text": "小帅短剧传媒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/GPq-J1LvTl0hUEjW7kM58w.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/GPq-J1LvTl0hUEjW7kM58w.html",
+   "text": "土豆.XU",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/WTkxROEiUQcnY1QWSmIqXQ.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/bloggerRank/WTkxROEiUQcnY1QWSmIqXQ.html",
+   "text": "陈伯(全能王)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/zwkF3UN1AwCI9tCOIrSvrBIGfm3fD2xD.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/zwkF3UN1AwCI9tCOIrSvrBIGfm3fD2xD.html",
+   "text": "柴烟瓦舍贵州正宗鲜猪肉前腿肉柴火烟熏腊肠纯手工麻辣香肠双十一",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/uB2tV5yInSi3UurT9l-CvabG9jOUht00.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/uB2tV5yInSi3UurT9l-CvabG9jOUht00.html",
+   "text": "【F001-F950】合集 韩国专卖～秋冬新款“한국 여성 패션”气质显瘦女装上衣",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/O-L7IpEgR0JrpVs6S7NFe35EnW097eag.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/O-L7IpEgR0JrpVs6S7NFe35EnW097eag.html",
+   "text": "【南山婆】贵州酸汤/果蔬酸汤底料240g(内含58g*4+2g*4)",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/wW-sbySt7fZ2TfNDuxdGXulbyKC-YmHo.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/wW-sbySt7fZ2TfNDuxdGXulbyKC-YmHo.html",
+   "text": "(千千）【一号链接】J320-J420韩国专卖“분위기 좋은 장소”高级气质外套",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/-8QSCLZ6N8-iRH2_JZLN4o4LyGBhb0lz.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/promotionRank/-8QSCLZ6N8-iRH2_JZLN4o4LyGBhb0lz.html",
+   "text": "Sinhosoo仙花秀金钻黑松露香水沐浴露留香嫩肤香体润肤细腻丝滑",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/",
+   "text": "更多电商知识",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/featured/",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/featured/344.html",
+   "text": "2026抖音商城双11作战一页通\n10/27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/featured/343.html",
+   "text": "蝉妈妈·创意《10月内容爆量洞察》新版月刊更新！\n10/15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/featured/342.html",
+   "text": "蝉妈妈·创意《9月内容爆量洞察》新版月刊更新！\n09/10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/businessNews/",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/UEs1DVHMPzO3bW5rCOpqdg",
+   "text": "1条视频500w播放，中秋流量还能这么搞？\n09/21",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/caCruIfwbdeQs-o31WRPhQ",
+   "text": "播放破亿，“大妈抢东西”还是太权威了！\n09/21",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/S3jBDKr6RQ4uvdC3O7DrKw",
+   "text": "2000万播放邪修：口播跑不动？那就用“唱的”！\n09/21",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/school/hotActive/",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hdxu.cn/GHvpd",
+   "text": "郑州站·内容电商爆量大会\n09/22",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hdxu.cn/UWeM8",
+   "text": "【杭州站】蝉圈圈达人内容工程实战大课\n09/03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hdxu.cn/RjnH5",
+   "text": "【郑州站】蝉圈圈达人内容工程实战大课\n08/19",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.chanmama.com/douyin/",
+   "text": "蝉妈妈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/open-platform/",
+   "text": "开放平台",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://cy.chanmama.com/",
+   "text": "蝉妈妈·创意",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanjing.cc/",
+   "text": "蝉镜AI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.kolkoc.com/",
+   "text": "蝉圈圈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanxuan.com/",
+   "text": "蝉选",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://ai.kolkoc.com/#/login?channel_code=r0X5RL",
+   "text": "AI商务",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/school/guide/",
+   "text": "帮助中心",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/other/about.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://store.chandashi.com/",
+   "text": "蝉百货",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://gy.chanmama.com/",
+   "text": "蝉公益",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/other/complain.html",
+   "text": "投诉建议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/other/exemptionAgreement.html",
+   "text": "免责声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://hr.chandashi.com/",
+   "text": "加入我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/open",
+   "text": "分类目录",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302034425",
+   "text": "闽公网安备 35020302034425号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "闽ICP备2025083594号-2",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.chanmama.com/",
+   "text": "蝉妈妈",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

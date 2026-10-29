@@ -1,0 +1,1262 @@
+{
+ "url": "https://www.jiemian.com/lists/839.html",
+ "observed_at": "2026-10-29T09:05:50.323Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/839.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/839.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "珠宝_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 247,
+   "new_in_prefix": 247,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 247,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/805.html",
+   "text": "珠宝商业说",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "从职校开始“升级打怪”：珠宝匠人的手艺是怎么练出来的？｜新技能，新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "在赛场之外，很多年轻人将技校或职校作为进入珠宝首饰行业的第一站，逐步成长为一名能嵌入产业运作的成熟人才。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "连锁金店千叶珠宝被爆“跑路”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "界面新闻多次拨打千叶珠宝公司电话均无人接听，财报上的电子邮箱显示“邮件地址不存在”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华将退市，旗下金店何去何从？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华的黄金珠宝业务以加盟商占据大头，共有455家门店，其中442家都是加盟店，超七成加盟店都分布在东北和华北地区。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "从职校开始“升级打怪”：珠宝匠人的手艺是怎么练出来的？｜新技能，新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "在赛场之外，很多年轻人将技校或职校作为进入珠宝首饰行业的第一站，逐步成长为一名能嵌入产业运作的成熟人才。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "连锁金店千叶珠宝被爆“跑路”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "界面新闻多次拨打千叶珠宝公司电话均无人接听，财报上的电子邮箱显示“邮件地址不存在”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华将退市，旗下金店何去何从？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华的黄金珠宝业务以加盟商占据大头，共有455家门店，其中442家都是加盟店，超七成加盟店都分布在东北和华北地区。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "从职校开始“升级打怪”：珠宝匠人的手艺是怎么练出来的？｜新技能，新机遇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15123695.html",
+   "text": "在赛场之外，很多年轻人将技校或职校作为进入珠宝首饰行业的第一站，逐步成长为一名能嵌入产业运作的成熟人才。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "连锁金店千叶珠宝被爆“跑路”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15080162.html",
+   "text": "界面新闻多次拨打千叶珠宝公司电话均无人接听，财报上的电子邮箱显示“邮件地址不存在”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华将退市，旗下金店何去何从？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15064613.html",
+   "text": "*ST萃华的黄金珠宝业务以加盟商占据大头，共有455家门店，其中442家都是加盟店，超七成加盟店都分布在东北和华北地区。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15227084.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15227084.html",
+   "text": "戴比尔斯举办VIBRATIONS高珠展，Delvaux焕新上海恒隆广场精品店｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15227084.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15157048.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15157048.html",
+   "text": "周大福呈现“窗若生花”珠宝艺术展，Wilson青邸城市概念店在沪启幕｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15157048.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15133257.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15133257.html",
+   "text": "无印良品上架秋冬新品，爱马仕高级珠宝“骏景流光”｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15133257.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15109246.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15109246.html",
+   "text": "梵克雅宝呈现Treasure Island主题高级珠宝，宝格丽“KALEIDOS万花绮镜”特展来沪｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15109246.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "LVMH股价跌回5年前",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "对于LVMH而言，真正需要等待的不是旧周期重新回来，而是旗下品牌如何能再次找到自己在新周期里的位置。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15029634.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15029634.html",
+   "text": "优衣库“LifeWear服适人生灵感周”，江南布衣“布尽其用”项目展览｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15029634.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039464.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039464.html",
+   "text": "加盟商加速逃离传统金店",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15039464.html",
+   "text": "加盟商不是不需要品牌了，而是在重新计算如何以更合算的方式开店。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14975387.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14975387.html",
+   "text": "森马首家城市旗舰店，思加图VERA WANG联名｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14975387.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14928778.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14928778.html",
+   "text": "HUNTER与Beibei Cat发布联名潮玩，珑骧新系列诠释法式日常优雅｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14928778.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14919366.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14919366.html",
+   "text": "天然钻石价格腰斩！DIAMINDX指数8月创历史新低",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14919366.html",
+   "text": "过去四年间，全球天然钻石年产量从1.2亿克拉缩减至9800万克拉，减产幅度约20%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14884034.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14884034.html",
+   "text": "L’ÉCOLE展出黄金项圈复刻研究，杜嘉班纳2026秋冬系列回到黑色与精裁语言｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14884034.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14827839.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14827839.html",
+   "text": "巴黎世家发布七夕限定系列，爱马仕闻香珍藏系列上新“摇曳人参”｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14827839.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14786288.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14786288.html",
+   "text": "多宝阁金铺在上海IFC开设新店，Berluti以“花园”为题展示新季作品｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14786288.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14747379.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14747379.html",
+   "text": "鬼塚虎上海新天地旗舰店开业，思加图打造艺术家联名快闪｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14747379.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14698208.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14698208.html",
+   "text": "Carven用秩序和私密感重塑早秋衣橱，MUSINSA将GOODBAI快闪带到首尔｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14698208.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14561491.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14561491.html",
+   "text": "老铺黄金股价一年内腰斩",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14561491.html",
+   "text": "老铺黄金的股价不完全由其业绩决定，背后也有多重因素在起作用。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "朗格呈献两款腕表新作，Forever 21 与玛丽莲·梦露IP联名｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14374041.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14374041.html",
+   "text": "香奈儿上海限时精品店启幕，周大福珠宝打造餐具系列｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14374041.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14241718.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14241718.html",
+   "text": "“围攻”老铺黄金",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14241718.html",
+   "text": "新品牌百花齐放不只是让市场竞争更激烈，还可能影响头部品牌冲击自身目标的进程。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14185449.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14185449.html",
+   "text": "收入大涨的潮宏基却犯愁现金流",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14185449.html",
+   "text": "潮宏基流动性危机的缓解，很大程度上取决于其能否在2026年继续扩张加盟网络。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14155869.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14155869.html",
+   "text": "老铺黄金该担心激增的库存吗？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14155869.html",
+   "text": "有风险的原本也不是高涨的库存本身，而是这背后的库存周转模式。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

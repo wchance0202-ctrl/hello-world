@@ -1,0 +1,273 @@
+{
+ "url": "https://jzt.jd.com/gw/information",
+ "observed_at": "2026-10-29T08:52:29.480Z",
+ "method": "playwright-chromium",
+ "final_url": "https://jzt.jd.com/gw/information",
+ "status": 200,
+ "error": null,
+ "title": "京东热点资讯_热点资讯推广-京准通官网",
+ "h1": "",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 45,
+   "new_in_prefix": 45,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 45,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=15&contentType=word&sort=date&pageIndex=1&pageSize=12&channelIds=2356&recommend=false&live=false&pin=&previous=false&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=15&contentType=word&sort=date&pageIndex=1&pageSize=3&channelIds=2355&recommend=false&live=false&pin=&previous=false&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=15&contentType=word&sort=date&pageIndex=1&pageSize=3&channelIds=2356&recommend=false&live=false&pin=&previous=false&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=15&contentType=word&sort=date&pageIndex=1&pageSize=3&channelIds=2357&recommend=false&live=false&pin=&previous=false&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/common/getpin"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://jzt.jd.com/gw/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://reg.jd.com/e/common/regPage?source=advertising&ReturnUrl=http%3A%2F%2Fjzt.jd.com%2F",
+   "text": "入驻",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12820",
+   "text": "京东发布「任意门计划」全域营销解决方案 高效提升全域营销价值",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12770",
+   "text": "2023京东营销策略洞察报告正式发布 助力商家实现全域长效经营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12074",
+   "text": "聚焦数智营销新赛道，京准通荣获13项IAI传鉴国际广告奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12770",
+   "text": "2023京东营销策略洞察报告正式发布 助力商家实现全域长效经营发布日期：2023.10.08阅读量：771",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12074",
+   "text": "聚焦数智营销新赛道，京准通荣获13项IAI传鉴国际广告奖发布日期：2023.06.27阅读量：113",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12048",
+   "text": "一张图看懂2023京准通与“实”俱进全新升级！\n\n发布日期：2023.06.21阅读量：360",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12047",
+   "text": "京准通数智营销能力再出圈，摘得虎啸奖15项大奖\n\n发布日期：2023.06.21阅读量：88",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12049",
+   "text": "京准通X群邑中国联合发布《京准通营销科学白皮书》\n\n发布日期：2023.06.21阅读量：266",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=11982",
+   "text": "京准通2023全新升级 推618期间最大力度升级举措\n\n发布日期：2023.06.21阅读量：41",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/information/detail?channelId=2356&contentId=12050",
+   "text": "一图看懂京准通营销科学白皮书全文\n\n发布日期：2023.06.21阅读量：44",
+   "region": "BODY"
+  },
+  {
+   "href": "https://answer.jd.com/answer/kmhVaYrnAVmW/2001152.htm",
+   "text": "填问卷得京豆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/swa/",
+   "text": "全站营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jdkchome/",
+   "text": "快车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jbm.jd.com/gw/index",
+   "text": "B端营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/nrgg/",
+   "text": "达人营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/hyzw/",
+   "text": "品牌合约",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jdzt/",
+   "text": "站外广告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jtkhome/",
+   "text": "京东联盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/yxhd/",
+   "text": "营销活动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/dmp/",
+   "text": "DMP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/chuangyi/index",
+   "text": "创意中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/optimization/",
+   "text": "优化建议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/ad-helper/",
+   "text": "分组管理",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/datacenter/",
+   "text": "数据中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/api/index",
+   "text": "营销API",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/lead/#/overview",
+   "text": "线索通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/mobile",
+   "text": "京准通APP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jmcloud.jdx.com/home",
+   "text": "营销云",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/strategy/#/home",
+   "text": "营销方略",
+   "region": "BODY"
+  },
+  {
+   "href": "https://survey.jd.com/",
+   "text": "京洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index",
+   "text": "京点书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://agency.jd.com/gw/index",
+   "text": "京营合作伙伴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/agreement",
+   "text": "隐私协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/safe/center",
+   "text": "广告内容安全中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ppzh.jd.com/brand/optLogin/login.html",
+   "text": "商智",
+   "region": "BODY"
+  },
+  {
+   "href": "https://4a.jd.com/datamill/common/goal.html",
+   "text": "数坊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jdsq.jd.com/sqweb/views/indexPage.html",
+   "text": "商麒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.jd.com/?entrance=jzt",
+   "text": "京东小程序开放平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jhd.jd.com/contract/#/index",
+   "text": "京汇达",
+   "region": "BODY"
+  },
+  {
+   "href": "https://fw.jd.com/market/new/index?utm_source=jzt&utm_medium=referral&utm_campaign=footer_link_exchange&utm_content=friendlink",
+   "text": "京麦服务市场",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:4001652618",
+   "text": "官方客服电话: 4001652618",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:ad@jd.com",
+   "text": "官方咨询邮箱: ad@jd.com",
+   "region": "BODY"
+  }
+ ]
+}

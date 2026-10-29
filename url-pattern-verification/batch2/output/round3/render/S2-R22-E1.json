@@ -1,0 +1,162 @@
+{
+ "url": "https://www.enlightent.cn/reports.html",
+ "observed_at": "2026-10-29T08:50:49.128Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.enlightent.cn/reports.html",
+ "status": 200,
+ "error": null,
+ "title": "行业报告 | 云合数据",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 26,
+   "new_in_prefix": 26,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 26,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.enlightent.cn/sxapi/public/report/getReports?type=0&cost=-1&pageNum=0&name=&reqPage=1"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.enlightent.cn/index.html",
+   "text": "首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.enlightent.cn/eva.html",
+   "text": "EVA",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.enlightent.cn/sixiang.html",
+   "text": "EPS",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.enlightent.cn/program.html",
+   "text": "云合工具箱",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.enlightent.cn/reports.html",
+   "text": "报告洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "下载报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "下载报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "下载报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "下载报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "下载报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "查看报告",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "上一页",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "1",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "2",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "3",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "4",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "5",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "6",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "7",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下一页",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "尾页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/Sg80JygUIZ_7QqJ0ULIVwg",
+   "text": "联合“中国电影家协会网络电影工作委员会”发布《中国网络电影行业年度报告》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/R0KAd7p9bSQwTirldkrpEw",
+   "text": "联合抖音发布《2022抖音剧集年度报告》、《抖音剧集暑期报告》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.weixin.qq.com/s/Iwc4adM5RDq3vD_bhFPM0Q",
+   "text": "联合“首都广播电视节目制作业协会”、《综艺报》发布《分账剧发展与市场分析报告》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "京ICP备19017469号",
+   "region": "FOOTER"
+  }
+ ]
+}

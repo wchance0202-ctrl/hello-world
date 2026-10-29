@@ -62,6 +62,59 @@ DISCOVERY_OVERRIDES_EXTRA = {
 EXTRA_RETAINED = {"S1-R45-E1": "yougov/tail-landing.jsonl", "S1-R45-E2": "yougov/tail-landing.jsonl"}
 
 
+# Hash-route rules (hash_routes.py) that the automatic checks cannot judge alone
+HASH_RULE_OVERRIDES = {
+    "R3H-S2-R58-E3-F1": "skey 只观察到 popularization 一个取值，而页面上还有其他子分类（已观察到 skeys=answer），很可能漏配其他子分类",
+}
+HASH_RULE_RISKS = {
+    "R3H-S2-R58-E2-F1": "skey 只观察到 ai 一个取值；如有其他子分类，需扩展后重验",
+    "R3H-S2-R58-E1-F1": "skey 取值来自首屏 8 个案例（clothes、appliances、other、beauty 等）",
+}
+
+
+def hash_rules(r3, eng):
+    """Rules for hash-route entries, from hash-frozen.json and their own RE2 runs."""
+    fz, nd, py = r3 / "hash-frozen.json", r3 / "hash.node-re2.json", r3 / "hash.google-re2.json"
+    if not (fz.exists() and nd.exists() and py.exists()):
+        return [], {}
+    frozen = json.loads(fz.read_text(encoding="utf-8"))
+    node = {r["id"]: r for r in json.loads(nd.read_text(encoding="utf-8"))["rules"]}
+    pyres = {(t["rule_id"], t["url"], t["split"]): t["actual"]
+             for t in json.loads(py.read_text(encoding="utf-8"))["results"]}
+    ntests = json.loads(nd.read_text(encoding="utf-8"))["tests"]
+    out, info = [], {}
+    for fr in frozen["rules"]:
+        eid = fr["entry_id"]
+        info[eid] = fr
+        if fr["status"] != "frozen":
+            continue
+        nr = node[fr["id"]]
+        agree = all(pyres.get((t["rule_id"], t["url"], t["split"])) == t["actual"] for t in ntests if t["rule_id"] == fr["id"])
+        reasons = [] if nr["mechanical_gate"] == "passed" else ["机械门未通过：" + "、".join(gate_failures(nr))]
+        if not agree:
+            reasons.append("两套引擎结果不一致")
+        if fr["id"] in HASH_RULE_OVERRIDES:
+            reasons.append(HASH_RULE_OVERRIDES[fr["id"]])
+        members = fr["inference"] + fr["holdout_pos"]
+        rec = {"id": fr["id"], "entry_ids": [eid], "target": fr["target"], "family": fr["family"],
+               "pattern": fr["pattern"], "variables": {}, "literals": {}, "slash_mode": "none",
+               "holdout_source": "listing_split（浏览器点击取样）", "metrics": nr["metrics"], "checks": nr["checks"],
+               "engines": eng, "engines_agree": agree,
+               "coverage": {"listing_members": len(members), "listing_missed": [], "sitemap_same_structure": 0,
+                            "sitemap_missed": [], "sitemap_missed_count": 0, "matched_outside_structure": [],
+                            "sitemap_not_in_listing": 0},
+               "samples": {"inference": fr["inference"], "holdout_pos": fr["holdout_pos"], "holdout_neg": fr["holdout_neg"],
+                           "regression_pos": [], "regression_neg": []},
+               "version": 1, "history": [], "user_decisions": [],
+               "identity_method": "浏览器直接打开 Hash 地址，正文出现所点卡片标题（hash_verify.js）",
+               "risks": [HASH_RULE_RISKS[fr["id"]]] if fr["id"] in HASH_RULE_RISKS else []}
+        rec["status"] = "已验证" if not reasons else "部分验证（候选）"
+        if reasons:
+            rec["why"] = reasons
+        out.append(rec)
+    return out, info
+
+
 def jl(p):
     p = Path(p)
     return [json.loads(l) for l in p.read_text(encoding="utf-8").split("\n") if l.strip()] if p.exists() else []
@@ -89,6 +142,16 @@ def main(out):
 
     agree = {}
     pyres = {(r["rule_id"], r["url"], r["split"]): r for r in py["results"]}
+    hold_fp, hold_fn = defaultdict(set), defaultdict(set)
+    for r in py["results"]:
+        if r["split"] == "holdout" and r["expected"] is False and r["actual"] is True:
+            hold_fp[r["rule_id"]].add(r["url"])
+        if r["split"] == "holdout" and r["expected"] is True and r["actual"] is False:
+            hold_fn[r["rule_id"]].add(r["url"])
+    entry_pages = defaultdict(set)  # the entry page itself, as requested and as finally served
+    for v in visits:
+        if v["relation"] == "entry":
+            entry_pages[v["entry_id"]] |= {v["request_url"].rstrip("/"), (v.get("final_url") or "").rstrip("/")}
     for t in node["tests"]:
         p = pyres.get((t["rule_id"], t["url"], t["split"]))
         agree.setdefault(t["rule_id"], True)
@@ -157,6 +220,13 @@ def main(out):
             rec["status"] = "链接保留（仅 3 个同结构目标，按技能不强凑正则）"
             rec["why"] = reasons
             rules_kept.append(rec)
+        elif (hold_fp[rid] and not hold_fn[rid]
+              and {u.rstrip("/") for u in hold_fp[rid]} <= entry_pages[fr["entry_ids"][0]]):
+            # the only false match is the entry page itself: the "family" is the entry's sibling
+            # pages (e.g. other channels' list pages next to /lists/2.html), not its children
+            rec["status"] = "链接保留（同级栏目页：与入口页本身同结构，不是入口下级）"
+            rec["why"] = reasons + [f"留出反例中唯一的误配是入口页本身：{sorted(hold_fp[rid])[0]}"]
+            rules_kept.append(rec)
         elif nr["mechanical_gate"] != "passed" and (h["FN"] or h["FP"]):
             rec["status"] = "验证不通过"
             rec["why"] = reasons
@@ -166,6 +236,11 @@ def main(out):
             rec["why"] = reasons
             rules_cand.append(rec)
         by_entry_rules[fr["entry_ids"][0]].append(rec)
+
+    hrules, hinfo = hash_rules(r3, eng)
+    for rec in hrules:
+        (rules_formal if rec["status"] == "已验证" else rules_cand).append(rec)
+        by_entry_rules[rec["entry_ids"][0]].append(rec)
 
     dropped = defaultdict(list)
     for d in frozen.get("dropped", []):
@@ -187,7 +262,11 @@ def main(out):
         rs = by_entry_rules.get(eid, [])
         formal_ids = [r["id"] for r in rs if r["status"] in ("已验证", ADOPTED_STATUS)]
         r2 = r2e.get(eid, {}).get("round2") or {}
-        notes = list(r2.get("notes", []))
+        notes = list(r2.get("notes", [])) + [f"{r['id']} 风险：{x}" for r in rs for x in r.get("risks", [])]
+        if e.get("request_url"):  # raw value had no scheme: say which scheme was actually verified
+            fin = (v0 or {}).get("final_url")
+            notes.append(f"原值缺协议，原样保留；实测请求 {e['request_url']}"
+                         + (f" → {fin}（状态 {status}）" if fin else "（无响应）"))
         if blocked:
             if status in (403, 429, 400):
                 link = f"访问受限（站点 {status}{'，挑战页' if ident.get('challenge_hint') else ''}：{(ident.get('title') or '')[:40]}）"
@@ -241,6 +320,12 @@ def main(out):
                 disc_text += "；页面上没有可枚举的标准链接（a[href]），内容可能由脚本组件渲染"
             if r2.get("discovery_text"):
                 disc_text += f"\n  第 2 轮人工复核：{r2['discovery_text']}"
+            if eid in hinfo:
+                h = hinfo[eid]
+                n = len(h.get("inference", [])) + len(h.get("holdout_pos", [])) if h["status"] == "frozen" else len(h.get("members", []))
+                disc = "部分"
+                disc_text = (f"部分：Hash 路由入口，HTTP 只能取到同一外壳；浏览器点击首屏卡片取得 {n} 个同家族落地地址"
+                             f"（另 {len(h.get('outside_family', []))} 个落到家族外），列表的翻页/加载更多未枚举\n  " + disc_text)
             if eid in DISCOVERY_OVERRIDES_EXTRA:
                 disc, why = DISCOVERY_OVERRIDES_EXTRA[eid]
                 disc_text = f"{disc}：{why}\n  " + disc_text
@@ -256,6 +341,10 @@ def main(out):
         known += [(u, "under_prefix_other") for u in fr.get("under_prefix_singletons", [])]
         known += [(u, "outside_prefix_same_site") for u in fr.get("outside_prefix", [])]
         known += [(u, "file") for u in fr.get("files", [])]
+        if eid in hinfo:
+            h = hinfo[eid]
+            known += [(u, "hash_route_member") for u in h.get("inference", []) + h.get("holdout_pos", []) + h.get("members", [])]
+            known += [(c["landed"], "hash_click_outside_family") for c in h.get("outside_family", [])]
         if eid in EXTRA_RETAINED:
             known += [(x["url"], "api_tail_not_shown_by_listing_ui") for x in jl(r3 / EXTRA_RETAINED[eid])
                       if x["entry_id"] == eid and x.get("status") == 200]
@@ -355,7 +444,7 @@ def queue_for(e, rs, cov, s, blocked, r2):
         add("paginate", f"继续分页 {len(s['pagination_pending'])} 个待访问页", "单入口 300 页上限",
             cursor=s["pagination_pending"][:5])
     for r in rs:
-        c = cov[r["id"]]
+        c = cov.get(r["id"], r["coverage"])  # hash-route rules carry their own coverage record
         if c["sitemap_not_in_listing"] and e["discovery_status"] == "部分":
             add(f"gap-{r['id'].rsplit('-', 1)[-1]}",
                 f"{r['id']}：sitemap 有 {c['sitemap_not_in_listing']} 个同结构 URL 不在列表中，确认是否为本栏目成员/列表未展示",

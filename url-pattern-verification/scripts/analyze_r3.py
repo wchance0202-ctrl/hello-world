@@ -61,6 +61,15 @@ def read_text(p):
     return None
 
 
+def parsable(u):
+    """False for hrefs urllib cannot parse (e.g. "http://[..."); such links are never used."""
+    try:
+        urlsplit(u)
+        return True
+    except ValueError:
+        return False
+
+
 def jl(p):
     txt = read_text(p)
     if txt is None:
@@ -256,21 +265,22 @@ def families(entries_path, r3):
                 if ed["region"] in SKIP_REGIONS:
                     if ed["region"] != "footer":
                         u = ed["resolved_url"].split("#")[0]
-                        if u.startswith(("http://", "https://")):
+                        if u.startswith(("http://", "https://")) and parsable(u):
                             nav_links.append((u, rank, "nav"))
                     continue
                 u = ed["resolved_url"].split("#")[0]
-                if not u.startswith(("http://", "https://")):
+                if not u.startswith(("http://", "https://")) or not parsable(u):
                     continue
                 all_links.append((u, rank, ed["relation_hint"]))
         if eid in render:  # rendered DOM after load-more: counts as the entry page itself
             for a in render[eid]["anchors"]:
                 if a["region"].lower() in SKIP_REGIONS:
-                    if a["region"].lower() != "footer" and a["href"].startswith(("http://", "https://")):
+                    if a["region"].lower() != "footer" and a["href"].startswith(("http://", "https://")) \
+                            and parsable(a["href"]):
                         nav_links.append((a["href"].split("#")[0], 0, "nav"))
                     continue
                 u = a["href"].split("#")[0]
-                if u.startswith(("http://", "https://")):
+                if u.startswith(("http://", "https://")) and parsable(u):
                     all_links.append((u, 0, "rendered"))
         def under(links, pfx):
             return [x for x in links if urlsplit(x[0]).netloc == sp.netloc and urlsplit(x[0]).path.startswith(pfx)
@@ -364,7 +374,7 @@ def sitemap_urls(r3, host_cache, scheme_host):
             l = l.strip()
             if "#" in l and not re.search(r"#[!/]", l):
                 l = l.split("#", 1)[0]  # an ordinary anchor is not a separate page
-            if l:
+            if l and parsable(l):
                 urls.append(l)
         host_cache[host] = list(dict.fromkeys(urls))
     return host_cache[host]
@@ -380,7 +390,7 @@ def freeze(r3):
     elsewhere = defaultdict(set)
     for ed in jl(r3 / "probe/edges.jsonl") + jl(r3 / "detail-links.jsonl"):
         u = ed["resolved_url"].split("#")[0]
-        if u.startswith(("http://", "https://")):
+        if u.startswith(("http://", "https://")) and parsable(u):
             elsewhere[urlsplit(u).netloc].add((u, ed["entry_id"]))
     for rec in fams:
         if rec.get("status") != "ok":
@@ -539,7 +549,7 @@ def revise(r3, results_path):
     elsewhere = defaultdict(set)
     for ed in jl(r3 / "probe/edges.jsonl") + jl(r3 / "detail-links.jsonl"):
         u = ed["resolved_url"].split("#")[0]
-        if u.startswith(("http://", "https://")):
+        if u.startswith(("http://", "https://")) and parsable(u):
             elsewhere[urlsplit(u).netloc].add((u, ed["entry_id"]))
     for rid, r in v1.items():
         c = cov[rid]

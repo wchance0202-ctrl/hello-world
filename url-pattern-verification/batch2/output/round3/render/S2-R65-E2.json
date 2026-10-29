@@ -1,0 +1,609 @@
+{
+ "url": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
+ "observed_at": "2026-10-29T08:51:33.494Z",
+ "method": "playwright-chromium",
+ "final_url": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://creator.douyin.com/creator-micro/creator-count/vertical-analysis\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "抖音创作者中心",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 13,
+   "new_in_prefix": 13,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 13,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=douyin_creator&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://mcs.snssdk.com/webid"
+  },
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=uc_secure_sdk&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://mssdk.bytedance.com/web/r/token?ms_appid=2906"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/creator/pc/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/creator/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/web/api/media/user/info/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/web/api/v2/creator/xigua/user/info"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/aweme/v1/web/oversea/judgment/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "HEAD",
+   "url": "https://creator.douyin.com/web/api/media/anchor/search?msToken=dYQgRuKbIU_27tZ_0YZ7KEB4N1mHnZmo1oi2Wz9nTy6GNSzG6saXfGyNe4ZU8QOGYQzOyzjnr_H3WAa9KoRJ8A5Y9raWOXE-Yd12g6YZqHGMOhmWDaWG2bYyILKJl5YrEnweCoP4xn4nLOtbaBXVba-3HZqL5OtdYEA%3D&a_bogus=OvUnD76EDx5VcpMbmcGbyyAl1KgArTSjbFiKWOinyOq4L1tTRrH1sPccGxuS4Mbwl8p5he1HBnFAbDncq4kzp%2F9pumpfSuGSGmxC90so0qqdaMvsDHDMC8mFKwBYlc4Ll%2Fdei9XRUsML6xOlIqKpAPlaS5ziRO"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf3-config.bytetcc.com/obj/tcc-config-web/tcc-v2-data-ucenter.fe.ztsdk-default"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/ticket_guard/get_client_cert/?aid=2906&is_from_ttaccountsdk=1&msToken=dYQgRuKbIU_27tZ_0YZ7KEB4N1mHnZmo1oi2Wz9nTy6GNSzG6saXfGyNe4ZU8QOGYQzOyzjnr_H3WAa9KoRJ8A5Y9raWOXE-Yd12g6YZqHGMOhmWDaWG2bYyILKJl5YrEnweCoP4xn4nLOtbaBXVba-3HZqL5OtdYEA%3D&a_bogus=Y6snDtyLOxmca3FtYCGjyy3UxSEArTWjGPTQWrEjyONMLHFYSpH-sG1ccOKuszYweWp5hH1HmnFTYEnPp0Q5kMnpLmkkuNXfG8OC9gso%2FqqdaFvsgHDBC"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/user_info/get_sec_ts/?aid=2906&is_from_ttaccountsdk=1&msToken=dYQgRuKbIU_27tZ_0YZ7KEB4N1mHnZmo1oi2Wz9nTy6GNSzG6saXfGyNe4ZU8QOGYQzOyzjnr_H3WAa9KoRJ8A5Y9raWOXE-Yd12g6YZqHGMOhmWDaWG2bYyILKJl5YrEnweCoP4xn4nLOtbaBXVba-3HZqL5OtdYEA%3D&a_bogus=x6UfDwXjxp5jFpKb8OGbytKlPKd%2FrsWjUaidWcij7OilL1lYaHelsaqbcxut4MYwaWBVh9V7pnunbxxcq4Q-kZHkwmpkupsSUWxC90fLMqipPFJsEHmqC88FowBbl"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/goofy/douyin_creator_pc/mono/creator_count/"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/goofy/douyin_creator_pc/creator_pc_vmok_common/vmok-manifest.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/ttwid/check/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/web/api/creator/center/fans/index/config?aid=1128&msToken=dYQgRuKbIU_27tZ_0YZ7KEB4N1mHnZmo1oi2Wz9nTy6GNSzG6saXfGyNe4ZU8QOGYQzOyzjnr_H3WAa9KoRJ8A5Y9raWOXE-Yd12g6YZqHGMOhmWDaWG2bYyILKJl5YrEnweCoP4xn4nLOtbaBXVba-3HZqL5OtdYEA%3D&a_bogus=YvUfDqSjdoRbapKSYKGRyyolWCgArT8jPaixbzmn7PoQy7UYl3H1sxecrxKuszYwlWBche1HQnzlbdncNUszp%2FHpFmkDSuXbtmOA908L%2FqwVaMJsgNmMC8mzzwBbMbsLaAQeiCf5"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=uc_secure_sdk"
+  },
+  {
+   "method": "POST",
+   "url": "https://mssdk.bytedance.com/web/common?ms_appid=2906&msToken=dYQgRuKbIU_27tZ_0YZ7KEB4N1mHnZmo1oi2Wz9nTy6GNSzG6saXfGyNe4ZU8QOGYQzOyzjnr_H3WAa9KoRJ8A5Y9raWOXE-Yd12g6YZqHGMOhmWDaWG2bYyILKJl5YrEnweCoP4xn4nLOtbaBXVba-3HZqL5OtdYEA%3D"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-react.e5915e07.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-polyfill.f17d3d6e.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-lodash.4f6e40b7.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-axios.61be7c58.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-semi.f2c8395f.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/lib-router.32f0ab2d.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/9914.564061cd.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/js/main.2c8d5f76.js"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/css/lib-semi.64ccb8ab.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/css/9914.72ccf272.css"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/creator/fe/count-fe/static/css/main.636c1cf3.css"
+  },
+  {
+   "method": "POST",
+   "url": "https://ttwid.bytedance.com/ttwid/union/register/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=uc_secure_sdk"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=uc_secure_sdk"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-fe-creator.douyinstatic.com/obj/douyn-creator-scm-cdn/douyin-creator-master-new/static/wasm/2d82ab0411ef9e13.module.wasm"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/user_info/get_sec_ts/?aid=2906&is_from_ttaccountsdk=1&msToken=dwoNTmhgAui3Tf8el2G0enzSAXHbETmO8-a-c2ih8WR3CbqgtMzi-QsIIaaaEgdH7uK4XUUcEMRdpvPJc1HMjm8s0LT1TxYvvoVKdO8hHtuZbhqjfPUDnfGusZswf4qIfzcgXyqDbyHfdNUgQF4M7qA-iMfXV91WaVExlF-pZ6O0lUJqXt-kArGG8Hw%3D&a_bogus=YvUfgtULmx%2Fjap%2FG8CJWyCnULCL%2FNTWj%2FeixRzsjyxERL7MTI1e-sOecjxKtsFmwa8pchC37Dnz%2FbxdcpUk0p29pKmpfu"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=uc_secure_sdk"
+  },
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=douyin_login_new&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mcs.snssdk.com/list"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-ucenter-web.yhgfb-cn-static.com/obj/passport-fe/scan-code-guide-side.json?msToken=dwoNTmhgAui3Tf8el2G0enzSAXHbETmO8-a-c2ih8WR3CbqgtMzi-QsIIaaaEgdH7uK4XUUcEMRdpvPJc1HMjm8s0LT1TxYvvoVKdO8hHtuZbhqjfPUDnfGusZswf4qIfzcgXyqDbyHfdNUgQF4M7qA-iMfXV91WaVExlF-pZ6O0lUJqXt-kArGG8Hw%3D&a_bogus=D6URk7tLmpmncpKSmOGfybKlu8gMNBWjdMTKbiJjePLSy7lTFqersxCbrxKusFbwlWp5hC17mnzAbEdcp4skp2nkKmpDudkWGWxc9gmohqwp"
+  },
+  {
+   "method": "GET",
+   "url": "https://lf-ucenter-web.yhgfb-cn-static.com/obj/passport-fe/loading.json?msToken=dwoNTmhgAui3Tf8el2G0enzSAXHbETmO8-a-c2ih8WR3CbqgtMzi-QsIIaaaEgdH7uK4XUUcEMRdpvPJc1HMjm8s0LT1TxYvvoVKdO8hHtuZbhqjfPUDnfGusZswf4qIfzcgXyqDbyHfdNUgQF4M7qA-iMfXV91WaVExlF-pZ6O0lUJqXt-kArGG8Hw%3D&a_bogus=OJURge7EQoAcOpFGucGjyJKUR%2FgMNTSjoliQbEJnSPouyXMTPqHasOecbxKSszRw-8BchH1HDnz%2FYDxcpsk0pMnpwmkvSMJStRxI9gmLgqqdP0isDNmpC"
+  },
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=verify_center_cn&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://vcs.zijieapi.com/vc/setting?repoId=579047&aid=2906&iid=0&did=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_login_new"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&account_sdk_source=web&account_sdk_source_info=7e276d64776172647760466a6b66707777606b667c273f31292772606761776c736077273f717770602927666d776a68606"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/ttwid/check/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/passport/web/get_qrcode/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&next=https%3A%2F%2Fcreator.douyin.com%2F&need_short_url=true&need_logo=false&is_new_login=1&is_from_iesaccountsaas=1&p_ui=2.4.18&account_sdk_source=web&account_sdk_source_info=7e276d64776172647760466a6b6670"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://security.zijieapi.com/api/metrics/emit"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/ttwid/register/?msToken=dwoNTmhgAui3Tf8el2G0enzSAXHbETmO8-a-c2ih8WR3CbqgtMzi-QsIIaaaEgdH7uK4XUUcEMRdpvPJc1HMjm8s0LT1TxYvvoVKdO8hHtuZbhqjfPUDnfGusZswf4qIfzcgXyqDbyHfdNUgQF4M7qA-iMfXV91WaVExlF-pZ6O0lUJqXt-kArGG8Hw%3D&a_bogus=m7s5gtXwQd8bFpFGmCGbynVUdU2ArTWjolTobTJn9PouL7lTDZee0zQbbOOu4zRwaWpch9VHmnF2YdjOpUB7D2HkzmkDuPtW4ROn90sLgqwpPMvsDHDMC0mzowBbMR4LeAdHiC651s076dQl9NopAP"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/ttwid/check/"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&account_sdk_source=web&account_sdk_source_info=7e276d64776172647760466a6b66707777606b667c273f31292772606761776c736077273f717770602927666d776a686061776c736077273"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "GET",
+   "url": "https://creator.douyin.com/passport/token/beat/web/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&scene=boot&account_sdk_source=web&account_sdk_source_info=7e276d64776172647760466a6b66707777606b667c273f31292772606761776c736077273f717770602927666d776a686061776c736077273f63646976602927766d60696961776c736077273f71777060"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/ttwid/register/?msToken=dwoNTmhgAui3Tf8el2G0enzSAXHbETmO8-a-c2ih8WR3CbqgtMzi-QsIIaaaEgdH7uK4XUUcEMRdpvPJc1HMjm8s0LT1TxYvvoVKdO8hHtuZbhqjfPUDnfGusZswf4qIfzcgXyqDbyHfdNUgQF4M7qA-iMfXV91WaVExlF-pZ6O0lUJqXt-kArGG8Hw%3D&a_bogus=Yf45DttiQ28ba3KSYCGWyaalklflrBuj2BTQbi7nHPoSyHMTdHH10SQccOYu40YwlRp9h93HDnF2bDfOq0pJDMHpzmpDSTUbUWOA90so2qw3a0isgqDNC8mFFwBGlc4LlAdliHvR6sM7gdclVroZAN"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sd"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=uc_secure_sdk"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "GET",
+   "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=verifycenter_nocaptcha&store=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=verifycenter_nocaptcha"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=douyin_creator"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/challenge/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&request_host=https%253A%252F%252Fcreator.douyin.com&skip_c=1&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAw"
+  },
+  {
+   "method": "POST",
+   "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=web_bdms_cn"
+  },
+  {
+   "method": "POST",
+   "url": "https://creator.douyin.com/passport/web/check_qrconnect/?passport_jssdk_version=3.4.16&passport_jssdk_type=normal&is_from_ttaccountsdk=1&aid=2906&language=zh&account_app_language=en-US&ts=1793275200&is_from_iesaccountsaas=1&p_ui=2.4.18&p_ca=4.0.26&p_ca_real=1.0.0.992&fp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&verifyFp=verify_mvtb1dk4_cJbKAvJr_kcVW_4V8a_8aCD_9ImNkiTAwZ3Z&account_sdk_so"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.douyin.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/agreements/?id=6773906068725565448",
+   "text": "用户协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/agreements/?id=6773901168964798477",
+   "text": "隐私政策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_creator/40db1b96-0eb0-4754-a052-16e8325af350.html",
+   "text": "抖音社区自律公约",
+   "region": "BODY"
+  },
+  {
+   "href": "https://lf3-beecdn.bytetos.com/obj/ies-fe-bee/bee_prod/biz_181/bee_prod_181_bee_publish_1095.html",
+   "text": "账号授权协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/agreement/",
+   "text": "用户服务协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/privacy/",
+   "text": "隐私政策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/recovery_account/",
+   "text": "账号找回",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.douyin.com/aboutus/",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "京ICP备16016397号-3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=91110101MA0045N17U-SAIC_SHOW_10000091110101MA0045N17U1786086015946&signData=MEUCIQD5AvYF3cvxO42RKIk3Eq/fFIMoU/dSAamzDFnDVYkILwIgP3VOH9pKepaJyyY9WXFL2wjDsa2v7MgMwb/dS2t15s8=",
+   "text": "北京抖音科技有限公司",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.12377.cn/",
+   "text": "中国互联网举报中心",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002046",
+   "text": "京公网安备11000002002046号",
+   "region": "BODY"
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 https://www.census.gov/programs-surveys/e-stats.html",^https://www\.census\.gov/programs\-surveys/e\-stats/[a-z-]+/[a-z-]+\.html$,"S1-R2-E1: https://www.census.gov/retail/
   其余 21 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E1.txt
 S1-R2-E2: https://www.census.gov/programs-surveys/e-stats.html
-  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E2.txt",S1-R2-E2 R3-S1-R2-E2-F1: https://www.census.gov/programs-surveys/e-stats/technical-documentation/questionnaires.html；https://www.census.gov/programs-surveys/e-stats/data/tables.html（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R2-E1 规则：R3-S1-R2-E1-F1 验证不通过（机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%）；链接 可打开（200，标题「Monthly Retail Trade - Main Page」）
+  其余 14 个未被正式规则覆盖的已知目标见 output/round3/retained/S1-R2-E2.txt",S1-R2-E2 R3-S1-R2-E2-F1: https://www.census.gov/programs-surveys/e-stats/technical-documentation/questionnaires.html；https://www.census.gov/programs-surveys/e-stats/data/tables.html（已落地核验 200，公开访问，2026-10-26）,E1 链接保留；E2 正则+链接保留,"S1-R2-E1 规则：R3-S1-R2-E1-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.census.gov/retail/index.html）；链接 可打开（200，标题「Monthly Retail Trade - Main Page」）
 S1-R2-E2 R3-S1-R2-E2-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(sitemap) TP1/FP0/FN0/TN5；覆盖检查：列表 3 个、sitemap 同结构 12 个全部匹配
 S1-R2-E2 规则：R3-S1-R2-E2-F1 已验证；R3-S1-R2-E2-F2 链接保留（仅 3 个同结构目标，按技能不强凑正则）（机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本））；链接 可打开（200，标题「E-Commerce Statistics (E-STATS)」）","S1-R2-E1 = S1!指定pattern 第2行 第1个入口: https://www.census.gov/retail/
 S1-R2-E2 = S1!指定pattern 第2行 第2个入口: https://www.census.gov/programs-surveys/e-stats.html","S1-R2-E1: 完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /retail/ 下家族 1 个、成员 11；前缀外同站链接 9、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
@@ -179,7 +179,7 @@ S1-R18-E5 规则：R3-S1-R18-E5-F2 已验证；R3-S1-R18-E5-F4 已验证；链�
 S1-R18-E6 R3-S1-R18-E6-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP4/FP0/FN0/TN6；覆盖检查：列表 25 个、sitemap 同结构 0 个全部匹配
 S1-R18-E6 R3-S1-R18-E6-F2 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(other_entries_pages) TP1/FP0/FN0/TN6；覆盖检查：列表 3 个、sitemap 同结构 0 个全部匹配
 S1-R18-E6 规则：R3-S1-R18-E6-F1 已验证；R3-S1-R18-E6-F2 已验证；链接 可打开（200，标题「ITU Telecommunication Standardization Sector」）
-S1-R18-E7 规则：R3-S1-R18-E7-F1 验证不通过（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%）；链接 可打开（200，标题「ITU Telecommunication Development Sector」）
+S1-R18-E7 规则：R3-S1-R18-E7-F1 链接保留（同级栏目页：与入口页本身同结构，不是入口下级）（机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%；留出反例中唯一的误配是入口页本身：https://www.itu.int/en/ITU-D/Pages/default.aspx）；链接 可打开（200，标题「ITU Telecommunication Development Sector」）
 S1-R18-E8 R3-S1-R18-E8-F1 已验证：node-re2 1.24.1 + google-re2 1.1.20251105 逐对一致；留出(listing_split) TP1/FP0/FN0/TN4；覆盖检查：列表 4 个、sitemap 同结构 0 个全部匹配
 S1-R18-E8 规则：R3-S1-R18-E8-F1 已验证；链接 可打开（200，标题「ITU News: Latest from the UN agency for digital te」）
 S1-R18-E9 规则：无规则；链接 可打开（200，标题「Catalogue of Publications」）","S1-R18-E1 = S1!指定pattern 第18行 第1个入口: https://www.itu.int/hub/pubs/

@@ -1,0 +1,881 @@
+{
+ "url": "https://www.jingdigital.com/resource/",
+ "observed_at": "2026-10-29T08:53:44.485Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jingdigital.com/resource/",
+ "status": 200,
+ "error": null,
+ "title": "资源中心径硕科技",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 165,
+   "new_in_prefix": 165,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 165,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://cgi.jingsocial.com/contact/jingtrack/track/init/4f9b463f36a7412eaed5528903dec711"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=705247706&t=pageview&_s=1&dl=https%3A%2F%2Fwww.jingdigital.com%2Fresource%2F&ul=en-us&dt=%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83%E5%BE%84%E7%A1%95%E7%A7%91%E6%8A%80&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=1368202487&gjid=412104956&cid=1033676768.1793264029&tid=UA-91865416-1&_gid=1427896662.1793264029&_r=1&_slc=1&z=1956890040"
+  },
+  {
+   "method": "POST",
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-W4Z8T8G2JM&gtm=45je6ar1h1v9135739359za20gxf1&_p=1793264029558&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=ABAIACAC&cid=1033676768.1793264029&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=11"
+  },
+  {
+   "method": "GET",
+   "url": "https://agent.jingsocial.com/api/sdr-agent/public/chat-widgets/d2bbd0d3-b2eb-45bd-a291-1262c2b7cbcb"
+  },
+  {
+   "method": "POST",
+   "url": "https://fclog.baidu.com/log/ocpcagl?type=behavior&emd=euc"
+  },
+  {
+   "method": "GET",
+   "url": "https://agent.jingsocial.com/api/sdr-agent/public/conversations/active?widgetId=d2bbd0d3-b2eb-45bd-a291-1262c2b7cbcb&tenantId=4a543a3e-9d93-4146-b6c5-918e238afdb6&visitorId=d0b2254d-46e9-4d62-8259-92bbad076716"
+  },
+  {
+   "method": "POST",
+   "url": "https://cgi.jingsocial.com/contact/jingtrack/track/report"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "http://jingdigital.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jingdigital.com/products",
+   "text": "产品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/cdp",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#GEO",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Content",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#SDR",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Email",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Sales",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Service",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool01",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool02",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool03",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool04",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool05",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool06",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool07",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool08",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu01",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu02",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu03",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu04",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu05",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu06",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu07",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers01",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers02",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers03",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers04",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers05",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers06",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/b2b/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/solution",
+   "text": "解决方案",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/cma",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/overseas",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/digital",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/private",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/marketing",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/lead",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/sales",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/dealer",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/resource/",
+   "text": "资源中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/live",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/websiteEditorLandingPage/page/4c110aebfb1d4cf4a3b57498b3a4305f?pushId=jkBbLgCvxmZHhXdZTJoQMZ1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://b2b.jingdigital.com/mF/websiteEditorLandingPage/page/6525b376766b44a19323da55970b583b?pushId=JXZbJSrUtPrbaovzkvpTLC1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/202503/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/websiteEditorLandingPage/page/e7657e1ccc314bb795f985b448a01a58?pushId=ybD74kaaFkT47FGbDfpdq1",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/websiteEditorLandingPage/page/bc487f7c81054a0e9ab6ccc3d9028ec1?pushId=qLCTiNBiGgiTczJ5JcJefK",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/202212/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/2022/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/0702/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/white",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tips",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts",
+   "text": "关于我们",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/products",
+   "text": "产品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#GEO",
+   "text": "GEO Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Content",
+   "text": "Content Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#SDR",
+   "text": "SDR Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Email",
+   "text": "Email Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Sales",
+   "text": "Sales Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Service",
+   "text": "Service Agent",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/cdp",
+   "text": "Agentic CDP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool01",
+   "text": "定制二维码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool02",
+   "text": "微信公众号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool03",
+   "text": "行业展会",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool04",
+   "text": "线下会议",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool05",
+   "text": "线上直播",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool06",
+   "text": "官网/SEM",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool07",
+   "text": "微站/微页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool08",
+   "text": "社交裂变",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu01",
+   "text": "私域搭建",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu02",
+   "text": "内容营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu03",
+   "text": "邮件营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu04",
+   "text": "标签体系",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu05",
+   "text": "潜客积分",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu06",
+   "text": "互动旅程",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu07",
+   "text": "用户画像",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers01",
+   "text": "企业微信工具",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers02",
+   "text": "销售素材库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers03",
+   "text": "电子名片",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers04",
+   "text": "潜客分配",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers05",
+   "text": "潜客回收",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers06",
+   "text": "离职继承",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/b2b/",
+   "text": "出海营销工具",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/solution",
+   "text": "解决方案",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/cma",
+   "text": "客户营销资产管理",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/overseas",
+   "text": "出海营销解决方案",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/digital",
+   "text": "数智化营销转型",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/private",
+   "text": "搭建私域流量",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/marketing",
+   "text": "内容营销和唤醒",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/lead",
+   "text": "潜客孵化和培育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/sales",
+   "text": "市场和销售协同",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/dealer",
+   "text": "经销商赋能",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/resource/",
+   "text": "资源中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/live",
+   "text": "线上直播",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event",
+   "text": "线下活动",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/",
+   "text": "营销峰会",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/ems/none/cpG3AoL9ho2mzbRZRMhEBf/7q6QqtGCmdAS9AsMHNpuEC1",
+   "text": "2026・看见Agent・看见增长!",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/202503/",
+   "text": "2025・B2B 出海营销峰会",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/websiteEditorLandingPage/page/e7657e1ccc314bb795f985b448a01a58?pushId=ybD74kaaFkT47FGbDfpdq1",
+   "text": "2024・融合 AI・驱动 AI",
+   "region": "NAV"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/websiteEditorLandingPage/page/bc487f7c81054a0e9ab6ccc3d9028ec1?pushId=qLCTiNBiGgiTczJ5JcJefK",
+   "text": "2023・预见 AI・营销未来",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/202212/",
+   "text": "2022・穿越低谷・增长",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/2022/",
+   "text": "2022・万数有灵",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event-retrospect/0702/",
+   "text": "2021・纵横生长",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/white",
+   "text": "白皮书",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/tips",
+   "text": "营销干货",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts",
+   "text": "关于我们",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/privacy-2",
+   "text": "隐私政策",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jingdigital.com/event/",
+   "text": "查看更多 >",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/ems/none/cpG3AoL9ho2mzbRZRMhEBf/7q6QqtGCmdAS9AsMHNpuEC1",
+   "text": "回放中\n看见Agent · 看见增长！\n2026-07-02 09:00-17:00",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://app.jingsocial.com/mF/ems/none/cpG3AoL9ho2mzbRZRMhEBf/7q6QqtGCmdAS9AsMHNpuEC1",
+   "text": "回放中\n看见Agent · 看见增长！ 2026 B2B企业AI商业化落地实战峰会\n2026-07-02 09:00 ~ 17:00",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/white/",
+   "text": "查看更多>",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/19167/",
+   "text": "白皮书发布｜2025 B2B企业生成式引擎优化（GEO） • 实战指南\n\n什么是GEO生成式引擎优化？和传统SEO搜索引擎优化有什么区别？这里不止包含GEO最新营销洞察和实践 …\n\n阅读时长:1分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/18943/",
+   "text": "白皮书发布｜2025 B2B企业生成式引擎优化（GEO） • 实战指南\n\n什么是GEO生成式引擎优化？和传统SEO搜索引擎优化有什么区别？这里不止包含GEO最新营销洞察和实践 …\n\n阅读时长:1分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/18857/",
+   "text": "2023｜数字营销趋势信息图及资料包\n\n融入营销新潮的\n\n阅读时长:1分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/tips/",
+   "text": "查看更多>",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/21997/",
+   "text": "适合B2B企业的GEO服务商有哪些？从服务模式、行业能力和监测能力看\n\n随着 DeepSeek、豆包、文心一言、通义千问等 AI 平台逐渐成为企业客户…\n\n阅读时长:19分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/21340/",
+   "text": "（B2B/工业/医疗行业）GEO优化（生成式引擎优化）服务商有哪些？哪家好？供应商推荐\n\n一、引言：为什么B2B/工业/医疗行业要…\n\n阅读时长:16分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/articles/21323/",
+   "text": "Martech工具有哪些？实用的MarTech营销工具推荐\n\n一、引言：为什么B2B企业离不开MarT…\n\n阅读时长:12分钟",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/resource/",
+   "text": "Martech工具有哪些？实用的MarTech营销工具推荐",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/resource/",
+   "text": "Martech工具有哪些？实用的MarTech营销工具推荐",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/resource/",
+   "text": "Martech工具有哪些？实用的MarTech营销工具推荐",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.jingdigital.com/cdp",
+   "text": "Agentic CDP",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool01",
+   "text": "定制二维码",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu01",
+   "text": "私域搭建",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers01",
+   "text": "企业微信工具",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#GEO",
+   "text": "GEO Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool02",
+   "text": "微信公众号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu02",
+   "text": "内容营销",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers02",
+   "text": "销售素材库",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Content",
+   "text": "Content Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool03",
+   "text": "行业展会",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu03",
+   "text": "邮件营销",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers03",
+   "text": "电子名片",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#SDR",
+   "text": "SDR Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool04",
+   "text": "线下会议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu03",
+   "text": "标签体系",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers04",
+   "text": "潜客分配",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Email",
+   "text": "Email Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool05",
+   "text": "线上直播",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu04",
+   "text": "潜客积分",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers05",
+   "text": "潜客回收",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Sales",
+   "text": "Sales Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool06",
+   "text": "官网 / SEM",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu05",
+   "text": "互动旅程",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/salers#salers06",
+   "text": "离职继承",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/agent#Service",
+   "text": "Service Agent",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool07",
+   "text": "微站 / 微页",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/incu#incu06",
+   "text": "用户画像",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tools#tool08",
+   "text": "社交裂变",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/lives/",
+   "text": "线上直播",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/event/",
+   "text": "线下活动",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/white/",
+   "text": "营销峰会",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/white/",
+   "text": "白皮书下载",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/tips/",
+   "text": "营销干货",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts/",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts/#about-careers",
+   "text": "客户与伙伴",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts/#about-team",
+   "text": "创始团队",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/abouts/#about-offices",
+   "text": "公司动态",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jingdigital.com/privacy-2/",
+   "text": "隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:info@jingdigital.com",
+   "text": "info@jingdigital.com",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:+864001040808",
+   "text": "+86 400-104-0808",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "沪ICP备18018383号-1",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.beian.gov.cn/",
+   "text": "沪公网安备31010602009398号",
+   "region": "FOOTER"
+  }
+ ]
+}

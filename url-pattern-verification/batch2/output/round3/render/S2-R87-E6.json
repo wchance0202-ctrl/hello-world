@@ -1,0 +1,633 @@
+{
+ "url": "https://www.woshipm.com/users",
+ "observed_at": "2026-10-29T08:58:30.314Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.woshipm.com/users",
+ "status": 200,
+ "error": null,
+ "title": "推荐作家 | 人人都是产品经理",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 117,
+   "new_in_prefix": 117,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 117,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/result?position_ids=25"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.woshipm.com/api2/recommendation/authors/with-article-info?PN=1&PS=20"
+  },
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/feed?user_id=0&position_ids=31"
+  },
+  {
+   "method": "GET",
+   "url": "https://server.woshipm.com/api/v1/advert/feed?position_ids=26"
+  },
+  {
+   "method": "GET",
+   "url": "https://dts.woshipm.com/dtsReport/pm_pc.json?t=1746940198814"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.woshipm.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.woshipm.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:;",
+   "text": "培训课程",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "名师辅导课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ke.qidianla.com/courses/aipmtc",
+   "text": "AI产品经理转岗特训营",
+   "region": "NAV"
+  },
+  {
+   "href": "https://vip.qidianla.com/studyClass.html",
+   "text": "BAT大厂产品运营体系课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ke.qidianla.com/courses/bcpm",
+   "text": "B端C端全栈产品经理私教课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "查看更多",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "个人自学课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ke.qidianla.com/courses/iom",
+   "text": "互联网运营能力进阶",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ke.qidianla.com/courses/bupm",
+   "text": "业务产品经理能力进阶",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ke.qidianla.com/courses/ecpm1",
+   "text": "电商产品经理从入门到进阶",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "查看更多",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "企业内训课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "数字化产品经理课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "商业化产品实战课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "数字化营销体系课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "B端运营实战课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "私域流量实战课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "数据分析体系课",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "查看更多",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:;",
+   "text": "分类浏览",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/it",
+   "text": "业界动态 31363篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/pd",
+   "text": "产品设计 19563篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/operate",
+   "text": "产品运营 15357篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/pmd",
+   "text": "产品经理 9602篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/zhichang",
+   "text": "职场攻略 5451篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/marketing",
+   "text": "营销推广 4968篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/ucd",
+   "text": "交互体验 3956篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/evaluating",
+   "text": "分析评测 3664篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/chuangye",
+   "text": "创业学院 2355篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/user-research",
+   "text": "用户研究 1919篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/data-analysis",
+   "text": "数据分析 1812篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/rp",
+   "text": "原型设计 1436篇文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/category/active",
+   "text": "活动讲座",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/",
+   "text": "问答",
+   "region": "NAV"
+  },
+  {
+   "href": "https://daxue.qidianla.com/",
+   "text": "企业培训",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.aixq.cc/",
+   "text": "AI社区",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/fish",
+   "text": "摸鱼",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/harmony",
+   "text": "HarmonyOS",
+   "region": "NAV"
+  },
+  {
+   "href": "https://api.woshipm.com/search/list.html",
+   "text": "搜索",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://vip.qidianla.com/member.html",
+   "text": "开通会员",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.woshipm.com/u/205402",
+   "text": "墨饕\n\n89 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/666192",
+   "text": "又见同学\n\n31 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1321092",
+   "text": "刘与白\n\n38 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1355017",
+   "text": "啵啵开小灶\n\n55 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/883385",
+   "text": "马曦文\n\n16 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/818930",
+   "text": "腾讯ISUX\n\n295 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/633232",
+   "text": "梁山伯伯\n\n29 篇文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1521537",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1521537",
+   "text": "窄播",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/201510",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/201510",
+   "text": "江鸟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1605791",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1605791",
+   "text": "叶小钗",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/715867",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/715867",
+   "text": "Olivia",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/694037",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/694037",
+   "text": "Zoe",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1323457",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1323457",
+   "text": "产品海豚湾",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/871592",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/871592",
+   "text": "柠檬饼干净又卫生",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/215971",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/215971",
+   "text": "骆齐",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/55415",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/55415",
+   "text": "戏说猫狗",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1301359",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1301359",
+   "text": "都市摆渡人",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/678638",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/678638",
+   "text": "koi",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/834996",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/834996",
+   "text": "产品小球",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1482620",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1482620",
+   "text": "MsQ星球",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1119458",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1119458",
+   "text": "林影落",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1678969",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1678969",
+   "text": "万象AI实验室",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1061118",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1061118",
+   "text": "忻芸",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/162227",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/162227",
+   "text": "薛延松",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1535316",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1535316",
+   "text": "小普",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1373503",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/1373503",
+   "text": "风鸣",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/750716",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.woshipm.com/u/750716",
+   "text": "通信产品的那些事",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.qidianla.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://36kr.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.geetest.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.zhisheji.com/?woshipm",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.polyv.net/?-cpjl",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.woshipm.com/policy",
+   "text": "隐私政策",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.woshipm.com/it/1010671.html",
+   "text": "投稿须知",
+   "region": "NAV"
+  },
+  {
+   "href": "https://wen.woshipm.com/question/detail/omkf.html",
+   "text": "意见反馈",
+   "region": "NAV"
+  },
+  {
+   "href": "https://doc.weixin.qq.com/doc/w3_ALsAdwZgAO8uhueZ8ahRse75jgAJm?scode=AGsAywdaAA0wPabVgMAYgAZgbwAOM",
+   "text": "帮助中心",
+   "region": "NAV"
+  },
+  {
+   "href": "https://pm265.com/",
+   "text": "PM265",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.pmbaobao.com/",
+   "text": "产品经理导航",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.zbj.com/",
+   "text": "猪八戒网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.huoban.com/",
+   "text": "伙伴云表格",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dun.163.com/",
+   "text": "网易易盾",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.getui.com/cn/",
+   "text": "个推",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.umeng.com/",
+   "text": "友盟+",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.cyzone.cn/?woshipm",
+   "text": "创业邦",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.aixq.cc/",
+   "text": "AI学习社区",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.imooc.com/",
+   "text": "慕课网",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qidianla.com/",
+   "text": "起点课堂",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.yunyingpai.com/",
+   "text": "运营派",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.liangcang.cc/",
+   "text": "粮仓企微管家",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "粤ICP备14037330号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502001309",
+   "text": "粤公网安备 44030502001309号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://static.qidianla.com/Audio-TVLicense.jpg",
+   "text": "广播电视节目制作经营许可证（粤）字第03109号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://dxzhgl.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%E6%B7%B1%E5%9C%B3%E8%81%9A%E5%8A%9B%E5%88%9B%E6%83%B3%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&type=xuke",
+   "text": "增值电信业务经营许可证粤B2-20190788",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://tongji.baidu.com/hm-web/welcome/ico?s=b85cbcc76e92e3fd79be8f2fed0f504f",
+   "text": "网站统计",
+   "region": "BODY"
+  }
+ ]
+}

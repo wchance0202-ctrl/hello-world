@@ -1,0 +1,348 @@
+{
+ "url": "https://www.leadleo.com/video/allType",
+ "observed_at": "2026-10-29T08:51:18.691Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.leadleo.com/video/allType",
+ "status": 200,
+ "error": null,
+ "title": "解说-头豹科创网",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 36,
+   "new_in_prefix": 36,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 36,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/core/index/caseData"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/core/link-exchange/getLinkExchange"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/inner-apis/ossImage?filePaths=%2F2022%2F06%2F09%2FmP4rsP2UoCgRL2odMrZiVu.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2024%2F05%2F07%2FtFENuuDiQj1qp4WmajFo58.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2Freport_img%2F5ba44f2745884f0598996bec%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2024%2F03%2F25%2FdJLmpdsCbYEf5TKxMF1MfY.jpg%3Fx-oss-process%3Dimage%2F"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/report/details/6639d6c45e81457a76bb8cf3?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/report/details/5ba066ca956c9a627258f374?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/report/details/6600dec25e81457a76b731b2?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/inner-apis/ossImage?filePaths=%2F2022%2F06%2F09%2FmP4rsP2UoCgRL2odMrZiVu.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2024%2F05%2F07%2FtFENuuDiQj1qp4WmajFo58.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2Freport_img%2F5ba44f2745884f0598996bec%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2024%2F03%2F25%2FdJLmpdsCbYEf5TKxMF1MfY.jpg%3Fx-oss-process%3Dimage%2F"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/core/video/search?pageNo=1&pageSize=5&query=%7B%7D"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/core/sys-hot-word/getSysHotWords?type=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/report/details/5e8d75583b33f4285f6f0c9a?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/wiki?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/data-reference?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/education?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/about-us?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/inner-apis/ossImage?filePaths=%2F2026%2F03%2F19%2Fgf3iUT9Se2SMuC7R6Np7Q5.png%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2026%2F03%2F19%2F8v5KxcX6Uiu2eg4Pk1ozAq.png%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2026%2F03%2F19%2FmnkmkZX7iSy7ama5mLiXjb.png%3Fx-oss-process%3Dimage%2Fresize%2Cw_400%23%23%2F2026%2F03%2F19%2Fjwuz2Thp112VsmTQF9Mtqx.png%3Fx-oss-process%3Dim"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/video/details/69bb7059a789b885025f511d?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/video/details/69bb7032a789b876b45f5105?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/video/details/69bb6d6fa789b839b05f4f65?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/video/details/69bb6e1fa789b81de75f4fd4?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/video/details/69bb6e48a789b8dc885f4fed?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/customized-report?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/research?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/due-diligence?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/investment?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/market-size?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/api?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/article/search?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/media-center/list?tabKey=event-information&_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/media-center/list?tabKey=company-news&_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/media-center/list?tabKey=media-coverage&_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/friendship-links?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/app-download?_rsc=17wqi"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.leadleo.com/static/cooperation?_rsc=17wqi"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.leadleo.com/",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.leadleo.com/video/details/69bb7059a789b885025f511d",
+   "text": "11:11\n技术降维打击！智能打印耗材如何颠覆传统模式？\n头豹研究院\n2026-03-19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.leadleo.com/video/details/69bb7032a789b876b45f5105",
+   "text": "10:36\n从\"崇洋\"到\"自信\"：中国葡萄酒的文化逆袭与商业机遇\n头豹研究院\n2026-03-19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.leadleo.com/video/details/69bb6d6fa789b839b05f4f65",
+   "text": "10:02\n大模型C端市场大爆发，大厂们到底在争什么？\n头豹研究院\n2026-03-19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.leadleo.com/video/details/69bb6e1fa789b81de75f4fd4",
+   "text": "9:57\n决战智能驾驶“心脏”，中国芯的未来已来\n头豹研究院\n2026-03-19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.leadleo.com/video/details/69bb6e48a789b8dc885f4fed",
+   "text": "10:55\n海南封关红利全景透视：企业与个人的终极布局指南\n头豹研究院\n2026-03-19",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+   "text": "独占\n2022年园区系列报告： 中国产业园区研究之运营篇（独占版）\n6676",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.leadleo.com/report/details/6639d6c45e81457a76bb8cf3",
+   "text": "独占\n2024年中国半导体设备行业总览：前道设备国产替代正当时（独占版）\n5752",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.leadleo.com/report/details/5ba066ca956c9a627258f374",
+   "text": "中国轻食餐饮行业概览\n5187",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.leadleo.com/report/details/6600dec25e81457a76b731b2",
+   "text": "深度\n2024年中国大模型能力评测 AI变革行业创新发展\n4769",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.leadleo.com/report/details/5e8d75583b33f4285f6f0c9a",
+   "text": "中国线上心理咨询行业概览\n3812",
+   "region": "ASIDE"
+  },
+  {
+   "href": "https://www.leadleo.com/static/wiki",
+   "text": "词条报告",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/customized-report",
+   "text": "定制报告、白皮书",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/research",
+   "text": "市场地位研究",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/due-diligence",
+   "text": "商业尽调",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/investment",
+   "text": "募投",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/data-reference",
+   "text": "资本市场引用",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/market-size",
+   "text": "市场规模",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/api",
+   "text": "API 数据服务",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/video/allType",
+   "text": "解读视频",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/article/search",
+   "text": "解读文章",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/education",
+   "text": "教育介绍",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/media-center/list?tabKey=event-information",
+   "text": "活动资讯",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/about-us",
+   "text": "公司介绍",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/media-center/list?tabKey=company-news",
+   "text": "公司动态",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/media-center/list?tabKey=media-coverage",
+   "text": "媒体报道",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/friendship-links",
+   "text": "友情链接",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/app-download",
+   "text": "下载中心",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/cooperation",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.frostchina.com/",
+   "text": "弗若斯特沙利文",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.tradegomart.com/home/",
+   "text": "捷利交易宝",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.granking.com/",
+   "text": "Granking",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/privacy-policy",
+   "text": "隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/service-policy",
+   "text": "用户协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.leadleo.com/static/intellectual-property",
+   "text": "知识产权",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "苏ICP备19021850号",
+   "region": "FOOTER"
+  }
+ ]
+}

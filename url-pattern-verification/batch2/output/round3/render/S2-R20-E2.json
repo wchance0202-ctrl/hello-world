@@ -1,0 +1,1123 @@
+{
+ "url": "https://dy.feigua.cn/Article2/",
+ "observed_at": "2026-10-29T08:50:32.263Z",
+ "method": "playwright-chromium",
+ "final_url": "https://dy.feigua.cn/Article2/",
+ "status": 200,
+ "error": null,
+ "title": "飞瓜抖音-行业资讯",
+ "h1": "",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 129,
+   "new_in_prefix": 129,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 141,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 153,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 3,
+   "anchors": 165,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 4,
+   "anchors": 177,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 5,
+   "anchors": 189,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 6,
+   "anchors": 199,
+   "new_in_prefix": 10,
+   "clicked": null
+  },
+  {
+   "round": 7,
+   "anchors": 199,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://cloudauth-device-dualstack.cn-shanghai.aliyuncs.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://qklogin.guoji.pro/api/open/GetLoginState?appId=feiguady"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/GetTagsByMenu?menu=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://qiyukf.com/webapi/sdk/setting/data?appKey=8019276aa4a5bb3d4f1f8a50f5b11001&hidden=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://cloudauth-device-dualstack.cn-shanghai.aliyuncs.com/"
+  },
+  {
+   "method": "GET",
+   "url": "https://qiyukf.com/webapi/user/getUnread.action?appKey=8019276aa4a5bb3d4f1f8a50f5b11001&foreignId=&deviceId=xshs9uc0zfkqomul14ak&bid=&ts=1793263839965"
+  },
+  {
+   "method": "POST",
+   "url": "https://qiyukf.com/webapi/user/remoteStorage.action?appKey=8019276aa4a5bb3d4f1f8a50f5b11001&timestamp=1793263840174&token=vzytd2nmgcs1lnmps5wm&local=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://qiyukf.com/webapi/user/remoteStorage.action?appKey=8019276aa4a5bb3d4f1f8a50f5b11001&timestamp=1793263841742&token=vzytd2nmgcs1lnmps5wm&local=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=3"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=4"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=5"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=6"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=7"
+  },
+  {
+   "method": "GET",
+   "url": "https://dy.feigua.cn/Article2/getList?keyword=&menu=0&tagStr=0&sort=0&page=8"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://dy.feigua.cn/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/",
+   "text": "行业资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/helperv2/",
+   "text": "帮助中心",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "飞瓜产品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://pc.feigua.cn/?chl=dygw",
+   "text": "飞瓜品策\n                            抖音品牌营销策略分析平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zhitou.feigua.cn/?chl=dygw",
+   "text": "飞瓜智投\n                            抖音直播电商精细化运营系统",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ks.feigua.cn/?chl=dygw",
+   "text": "飞瓜快手\n                            快手短视频与直播电商分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://bz.feigua.cn/?chl=dygw",
+   "text": "飞瓜B站\n                            B站大数据分析平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zhixing.feigua.cn/?chl=dygw",
+   "text": "飞瓜智星\n                            达人分销智能管理系统",
+   "region": "BODY"
+  },
+  {
+   "href": "https://yt.feigua.cn/?chl=dygw",
+   "text": "飞瓜易投\n                            抖音广告分析平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/#",
+   "text": "更多服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/mixuan",
+   "text": "抖音KOC营销",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "注册 / 登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "搜索",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2",
+   "text": "行业资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=89",
+   "text": "2026年09月飞瓜抖音电商营销月报\n行业分析\n2026-10-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=88",
+   "text": "8月抖音月报 | 从礼品、童装到文教，深度拆解节点营销\n营销技巧\n行业分析\n直播带货\n个护家清\n数码家电\n2026-09-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=87",
+   "text": "2026年7月飞瓜抖音电商营销月报\n行业分析\n2026-08-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=85",
+   "text": "家长抢教辅，年轻人爱“慢充”，暑期抖音消费洞察\n营销技巧\n夏日营销\n酒旅\n暑期营销\n2026-07-22",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=86",
+   "text": "90天仅投430+条广告，销量却稳居TOP3，枕头品牌如何掘金千亿睡眠经济？\n营销技巧\n行业分析\n家居用品\n广告投放\n2026-07-22",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=81",
+   "text": "2026年飞瓜抖音厨房电器品类线上消费洞察\n营销技巧\n行业分析\n直播带货\n数码家电\n2026-07-15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=83",
+   "text": "90天曝光超10亿，8成流量来自KOC，健康烘焙品牌如何低成本抢占代餐市场？\n营销技巧\n食品饮料\n广告投放\n2026-07-15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=84",
+   "text": "搜索热度同比攀升54.43%！“凉感美护”赛道暗藏哪些爆款经营逻辑？\n营销技巧\n行业分析\n美妆\n夏日营销\n2026-07-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=80",
+   "text": "2026年06月飞瓜抖音电商营销月报\n行业分析\n2026-07-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=79",
+   "text": "2026年抖音生鲜线上消费市场洞察\n行业分析\n生鲜\n2026-06-24",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=78",
+   "text": "GMV靠宠物凉席暴涨17.27w%！「阿柴与猫」如何在白牌红海中逆势突围？\n营销技巧\n行业分析\n直播带货\n宠物\n2026-06-18",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=82",
+   "text": "半年8.5亿曝光，品牌内核大焕新！「脉动」 在下一盘怎样的棋？\n营销技巧\n食品饮料\n2026-06-18",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=77",
+   "text": "曝光超4800万，销售暴涨21倍，「BoserMcarK」如何突围冲饮赛道？\n营销技巧\n食品饮料\n广告投放\n2026-06-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=76",
+   "text": "2026年05月飞瓜抖音电商营销月报\n行业分析\n2026-06-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=75",
+   "text": "个护报告 | 2026年飞瓜抖音个护家清品类线上消费洞察\n营销技巧\n行业分析\n直播带货\n个护家清\n2026-05-20",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=74",
+   "text": "2026年4月飞瓜抖音电商营销月报\n行业分析\n2026-05-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=73",
+   "text": "2026年Q1抖音乳制品线上消费市场洞察\n行业分析\n食品饮料\n2026-04-29",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=71",
+   "text": "6亿次播放！这个地球日，抖音上掀起了一股“绿色风暴”\n营销技巧\n行业分析\n美妆\n个护家清\n运动户外\n2026-04-22",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=72",
+   "text": "单月销售额破亿，同比暴涨1.8倍！「Inne」如何卡位全民补钙赛道？\n营销技巧\n滋补保健\n广告投放\n2026-04-15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=70",
+   "text": "2026年3月飞瓜抖音电商营销月报\n行业分析\n2026-04-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=69",
+   "text": "美妆报告 | 2026年飞瓜抖音美妆品类市场线上消费市场洞察\n营销技巧\n行业分析\n直播带货\n美妆\n广告投放\n2026-03-18",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=66",
+   "text": "2026年2月飞瓜抖音电商营销月报\n行业分析\n2026-03-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=67",
+   "text": "200亿曝光，5亿互动，机器人走进千家万户，还需要跨过几道门槛？\n行业分析\n3C数码\n2026-02-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=68",
+   "text": "销售额破25亿！这两个“懒人经济”赛道在年关再爆发？\n营销技巧\n行业分析\n食品饮料\n数码家电\n春节营销\n2026-02-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=61",
+   "text": "2026年1月飞瓜抖音电商营销月报\n营销技巧\n行业分析\n食品饮料\n珠宝文玩\n生鲜\n女装\n2026-02-04",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=65",
+   "text": "抢占马年春节流量C位！曝光超482亿，哪些品牌广告“赢麻了”？\n行业分析\n美妆\n食品饮料\n春节营销\n广告投放\n2026-01-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=62",
+   "text": "香薰市场销售增长40%+！这波增长窗口期如何把握？\n营销技巧\n行业分析\n家居用品\n2026-01-15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=60",
+   "text": "2025年12月飞瓜抖音电商营销月报\n营销技巧\n行业分析\n直播带货\n食品饮料\n数码家电\n鞋靴箱包\n礼品文创\n2026-01-07",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=64",
+   "text": "年度爆品总结【下篇】：这些“精准破圈”的玩法太会了！\n营销技巧\n行业分析\n母婴\n食品饮料\n运动户外\n2025-12-24",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=63",
+   "text": "年度爆品总结【上篇】：今年卖爆的，除了iPhone17还有它？\n行业分析\n直播带货\n美妆\n3C数码\n服饰内衣\n热点风向\n2025-12-17",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=58",
+   "text": "7天卖爆500w+，品牌如何吃透「圣诞流量」实现高效增长？\n营销技巧\n热点风向\n广告投放\n2025-12-16",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=57",
+   "text": "从“捧在手心”到“健康无负担”，「优乐美」如何续写品牌营销新篇？\n营销技巧\n食品饮料\n2025-12-11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=56",
+   "text": "2025年11月飞瓜抖音电商营销月报\n行业分析\n美妆\n食品饮料\n家居用品\n2025-12-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=59",
+   "text": "2025年飞瓜抖音电子教育品类线上消费市场洞察\n营销技巧\n行业分析\n直播带货\n3C数码\n广告投放\n2025-11-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=55",
+   "text": "“不卷价格卷价值”，手机配件剑指百亿！\n营销技巧\n行业分析\n3C数码\n2025-11-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=54",
+   "text": "2025年10月飞瓜抖音电商营销月报\n行业分析\n个护家清\n服饰内衣\n食品饮料\n家居用品\n2025-11-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=53",
+   "text": "2025年调味品品类线上消费市场洞察\n行业分析\n食品饮料\n广告投放\n2025-10-30",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=52",
+   "text": "2025年9月飞瓜抖音月报：开学季、中秋长假激发多品类爆发！\n营销技巧\n行业分析\n滋补保健\n食品饮料\n数码家电\n酒类\n2025-10-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=51",
+   "text": "2025年飞瓜抖音冲锋衣品类线上消费市场洞察\n营销技巧\n行业分析\n直播带货\n运动户外\n2025-09-24",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=49",
+   "text": "补铁软糖狂卖1亿+！「FIBOO / 她练」靠什么在女性营养赛道站稳脚跟？\n营销技巧\n滋补保健\n2025-09-11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=50",
+   "text": "90天广告投放激增252%，拿下冷泡茶半壁曝光！「乐品乐茶」是怎么做到的？\n食品饮料\n广告投放\n2025-09-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=47",
+   "text": "2025年8月飞瓜抖音电商营销月报\n行业分析\n直播带货\n2025-09-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=48",
+   "text": "2025年飞瓜抖音银发市场线上消费与广告投放报告\n行业分析\n直播带货\n服饰内衣\n滋补保健\n生鲜\n广告投放\n2025-08-27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=46",
+   "text": "2025年7月飞瓜抖音电商营销月报\n行业分析\n个护家清\n3C数码\n宠物\n服饰内衣\n滋补保健\n食品饮料\n2025-08-06",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=45",
+   "text": "2025上半年飞瓜抖音电商与广告投放报告\n行业分析\n广告投放\n2025-07-30",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=44",
+   "text": "2025年休闲零食线上消费市场洞察\n营销技巧\n行业分析\n直播带货\n食品饮料\n2025-07-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=42",
+   "text": "2025年6月飞瓜抖音电商营销月报\n营销技巧\n行业分析\n直播带货\n美妆\n个护家清\n母婴\n2025-07-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=43",
+   "text": "618单日投放超7.3w，品牌如何靠“精投放”在大促流量战突出重围？\n营销技巧\n美妆\n大促营销\n小家电\n大家电\n2025-06-19",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=40",
+   "text": "史上最长“618”，哪些消费趋势值得关注？\n营销技巧\n服饰内衣\n大促营销\n运动户外\n2025-06-19",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=38",
+   "text": "2025年抖音婴童用品线上消费市场洞察\n行业分析\n母婴\n2025-06-11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=36",
+   "text": "2025年5月飞瓜抖音电商营销月报\n营销技巧\n行业分析\n个护家清\n家居用品\n大促营销\n生鲜\n2025-06-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=35",
+   "text": "足浴包淡季不淡？「今日之星」如何靠“花椒”打破季节消费天花板！\n营销技巧\n个护家清\n2025-05-14",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=34",
+   "text": "2025年4月飞瓜抖音电商营销月报\n行业分析\n美妆\n个护家清\n食品饮料\n家居用品\n2025-05-07",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=25",
+   "text": "2025年3月飞瓜抖音电商营销月报\n行业分析\n美妆\n服饰内衣\n运动户外\n大家电\n2025-04-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=27",
+   "text": "同比增长225%！宠物保健品正以黑马姿态突围\n营销技巧\n行业分析\n宠物\n2025-03-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=37",
+   "text": "流量变\"留量\"！2.6w达人如何撬动35亿+广告曝光？\n营销技巧\n美妆\n2025-03-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=26",
+   "text": "2025年抖音防晒衣品类线上消费与行业洞察\n营销技巧\n行业分析\n服饰内衣\n运动户外\n2025-03-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=28",
+   "text": "曝光超10亿+！品牌如何搭上抖音\"时尚飓风\"?\n营销技巧\n美妆\n她经济\n热点风向\n2025-03-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=24",
+   "text": "2025年2月抖音直播电商营销月报\n行业分析\n直播带货\n2025-03-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=29",
+   "text": "抽象疯感VS原生美感：抖音近期如何拿捏精神状态AB面\n营销技巧\n美妆\n2025-02-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=31",
+   "text": "从情人节“狂飙”到妇女节：解码礼赠经济的爆单公式\n行业分析\n直播带货\n美妆\n2025-02-19",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=23",
+   "text": "2025年1月抖音短视频及直播电商月报\n行业分析\n直播带货\n美妆\n个护家清\n食品饮料\n家居用品\n珠宝文玩\n春节营销\n2025-02-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=22",
+   "text": "2024年12月抖音短视频及直播电商月报\n直播带货\n美妆\n个护家清\n母婴\n食品饮料\n2025-01-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=32",
+   "text": "周GMV直冲5000w，岁末年初这些商品“越冷越热卖”！\n营销技巧\n行业分析\n服饰内衣\n食品饮料\n春节营销\n2024-12-25",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=21",
+   "text": "2024年11月抖音短视频及直播电商月报\n行业分析\n美妆\n个护家清\n服饰内衣\n家居用品\n2024-12-04",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=11",
+   "text": "3w+品牌销售翻倍！史上最长双11，品牌在抖音都做对了什么？\n营销技巧\n直播带货\n2024-11-13",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=8",
+   "text": "2024年10月抖音短视频及直播电商月报\n营销技巧\n服饰内衣\n家居用品\n2024-11-06",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=7",
+   "text": "2024年抖音滋补保健品类线上消费与行业洞察\n行业分析\n滋补保健\n2024-10-30",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=6",
+   "text": "2024年9月抖音短视频及直播电商月报\n营销技巧\n滋补保健\n食品饮料\n2024-10-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=9",
+   "text": "2024年抖音大家电品类线上消费与行业洞察\n行业分析\n数码家电\n2024-09-25",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=10",
+   "text": "【附下载】抖音电商全新经营方法论，揭秘生意增长关键！\n营销技巧\n2024-09-20",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=33",
+   "text": "抽象带货涨粉800w，捡只小狗获爆赞...这些热点硬控抖音流量\n营销技巧\n热点风向\n2024-09-11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=5",
+   "text": "2024年8月短视频及直播电商营销月报\n行业分析\n2024-09-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=12",
+   "text": "2024年咖啡品类线上消费与行业洞察\n行业分析\n食品饮料\n2024-08-29",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=13",
+   "text": "2024年7月短视频及直播电商营销月报\n行业分析\n直播带货\n2024-08-07",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=14",
+   "text": "2024上半年抖音内容与电商数据报告\n行业分析\n2024-07-31",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=15",
+   "text": "2024年冰淇淋品类线上消费与行业洞察\n行业分析\n食品饮料\n2024-07-17",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=16",
+   "text": "2024年6月短视频及直播电商营销月报\n行业分析\n2024-07-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=17",
+   "text": "2024年Q1酒类线上消费趋势洞察\n行业分析\n酒类\n2024-06-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=19",
+   "text": "2024年5月短视频及直播电商营销月报\n行业分析\n2024-06-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=18",
+   "text": "2024年美白市场线上消费与行业洞察\n行业分析\n美妆\n2024-05-29",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/Detail?id=30",
+   "text": "2024年4月短视频及直播电商营销月报\n行业分析\n个护家清\n食品饮料\n家居用品\n2024-05-16",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/#top",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "扫码登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.xiguaji.com/about/agreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "扫码登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "忘记密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "登 录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "立即绑定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "1\n                    验证微信",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "确 定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "重新登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "1\n                    验证微信",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "确 定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "重新登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "确 定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/UserAgreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/PrivacyAgreement",
+   "text": "《个人信息保护政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:ClickForgetPwd();",
+   "text": "忘记密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "阿里云滑块验证按钮",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确 定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:ShowBindPhone();",
+   "text": "立即绑定",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/UserAgreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/PrivacyAgreement",
+   "text": "《个人信息保护政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "阿里云滑块验证按钮",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "登录 / 注册",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/UserAgreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/PrivacyAgreement",
+   "text": "《个人信息保护政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "手机登录",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "一键登录",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/UserAgreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/PrivacyAgreement",
+   "text": "《个人信息保护政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确认",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "返回",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "确定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:closeQrCode();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:$('#fb_login_agree').hide();",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/UserAgreement",
+   "text": "《用户协议》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/PrivacyAgreement",
+   "text": "《个人信息保护政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:$('#fb_login_agree').hide();",
+   "text": "我再想想",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "同意并登陆",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "我知道了",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:",
+   "text": "验证码验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "1\n                    验证微信",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "验证码验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "1\n                    验证信息",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "获取验证码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下一步",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "验证码验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "1\n                    验证信息",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确定",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "微信验证",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "验证码验证",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/#",
+   "text": "1\n                    验证信息",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/#",
+   "text": "2\n                    设置新密码",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/Article2/#",
+   "text": "3\n                    完成更改",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "确定",
+   "region": "BODY"
+  }
+ ]
+}

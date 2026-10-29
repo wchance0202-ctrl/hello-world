@@ -1,0 +1,76 @@
+{
+ "url": "https://e.newrank.cn/marketing/IndustryInformation",
+ "observed_at": "2026-10-29T08:55:32.486Z",
+ "method": "playwright-chromium",
+ "final_url": "https://e.newrank.cn/marketing/IndustryInformation",
+ "status": 200,
+ "error": null,
+ "title": "新榜海汇——跨媒体投放资产管理中心",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 8,
+   "new_in_prefix": 8,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 8,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://gw.newrank.cn/api/hmkt/haihui/mix/message/notice/sys/page"
+  },
+  {
+   "method": "GET",
+   "url": "https://gw.newrank.cn/api/hmkt/haihui/mix/user/info"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://a.newrank.cn/n/amateurPeoplePush",
+   "text": "素人种草/探店",
+   "region": "NAV"
+  },
+  {
+   "href": "http://a.newrank.cn/n/officialAccount",
+   "text": "公众号投放",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/kol",
+   "text": "KOL投放",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/center/#/adv/association_projects",
+   "text": "微信群营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/n/feeds",
+   "text": "小红书聚光投放",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.newrank.cn/trade/media",
+   "text": "公众号接单",
+   "region": "NAV"
+  },
+  {
+   "href": "https://d.newrank.cn/?xdy_source=803&keyword=yzaccount&from=yzaccount",
+   "text": "任务接单",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.newrank.cn/?source=9507&keyword=haihui",
+   "text": "新榜官网",
+   "region": "NAV"
+  }
+ ]
+}

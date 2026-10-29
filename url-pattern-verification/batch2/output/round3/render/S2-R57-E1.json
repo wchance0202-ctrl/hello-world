@@ -1,0 +1,214 @@
+{
+ "url": "https://e.xiaohongshu.com/case",
+ "observed_at": "2026-10-29T08:51:22.051Z",
+ "method": "playwright-chromium",
+ "final_url": "https://e.xiaohongshu.com/case",
+ "status": 200,
+ "error": null,
+ "title": "成功案例 | 小红书商业化官网",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 18,
+   "new_in_prefix": 18,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 18,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/sbtsource"
+  },
+  {
+   "method": "POST",
+   "url": "https://edith.xiaohongshu.com/api/redcaptcha/v2/getconfig"
+  },
+  {
+   "method": "GET",
+   "url": "https://pages.xiaohongshu.com/data/sem_sdk"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.xiaohongshu.com/api/store/abtest/v3"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.xiaohongshu.com/api/mkt/article/get_list?pageSize=9&pageIndex=1&type=2&publishSystem=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.xiaohongshu.com/api/mkt/config/get_homepage"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.xiaohongshu.com/api/mkt/clue/v2/get_industry_list"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://spider-tracker.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://t2.xiaohongshu.com/api/v2/collect"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/scripting"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://fe.xiaohongshu.com/faas/proto/json-to-proto-json-to-proto/proxy"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.xiaohongshu.com/api/sec/v1/shield/webprofile"
+  },
+  {
+   "method": "POST",
+   "url": "https://fe.xiaohongshu.com/faas/proto/json-to-proto-json-to-proto/proxy"
+  },
+  {
+   "method": "POST",
+   "url": "https://apm-fe.xiaohongshu.com/api/data"
+  },
+  {
+   "method": "POST",
+   "url": "https://t2.xiaohongshu.com/api/v2/collect"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://e.xiaohongshu.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/",
+   "text": "首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case",
+   "text": "成功案例",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/numerous",
+   "text": "种草有数",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://seedawards.xiaohongshu.com/",
+   "text": "参赛入口",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://jury-seedawards.xiaohongshu.com/cn/login",
+   "text": "评审入口",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://ad.xiaohongshu.com/help/home?from=%E5%B8%AE%E5%8A%A9%E4%B8%AD%E5%BF%83",
+   "text": "审核规范",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://partner.xiaohongshu.com/partner-search",
+   "text": "小红书商业化渠道合作伙伴查询",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2519?fromType=list",
+   "text": "OPPO：好看又好用的时尚百搭小折叠\nOPPO Find N2 Flip携手小红书进行新品共创，从产品研发到种草，打造折叠屏时尚大单品。\nNEW\n6亿+\n活动总曝光\n1.7亿\n活动话题浏览\n5万+\n用户笔记投稿",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2516?fromType=list",
+   "text": "英特尔：用「游牧式办公」圈粉打工人\n英特尔携手小红书聚焦当代打工人痛点，打造「工作不一定上班」IP，用年轻化表达助力新品出圈。\n4.5亿+\n活动总曝光\n2900万+\nIP话题总浏览量\n+2135%\n产品新增搜索指数",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2517?fromType=list",
+   "text": "童装童鞋优秀品牌齐聚首，释放行业「潮能力」\n小红书握手天猫童装童鞋行业，与安踏儿童等十大品牌，打造「潮童趋势大赏」，为品牌种草到拔草注入新活力。\n1.1亿+\n活动总曝光\n1532万+\n话题页总浏览\n193万+\n活动总互动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2518?fromType=list",
+   "text": "娇韵诗：公益点亮商业，解锁夏日防晒种草新范式\n娇韵诗携手小红书打造公益项目「城市守护者联盟」，让商业理想与公益梦想共启程，实现品牌社会认可度跃升。\n1.2亿+\n活动总曝光\n106%\n品牌搜索环比增长\n2万份\n派样拉新",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2515?fromType=list",
+   "text": "植物乐园：以品带牌，从内容种草开始\n新锐美妆护肤品牌植物乐园，借助小红书内容种草策略，打造优质内容，助力产品出圈，高效提升品牌认知度。\n446%\n品牌搜索同比增长\n898万+\n笔记曝光量\n20+篇\n爆文笔记",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2488?fromType=list",
+   "text": "TOPIX：当达人直播遇上内容种草，带货力MAX\nTOPIX携手小红书探索从种草到直播的新交点，借助多元产品助力品牌高效转化，突破销量新增长。\n新用户购买\n80%+\n商品浏览量\n5600+",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2487?fromType=list",
+   "text": "白岚：新锐珠宝品牌，打响开年第一战\n饰品类品牌如何以小博大？白岚借势小红书热门IP，打造珠光宝气过大年活动，探索品效销三合一新模式。\n节日大促\n52.3%\n品牌搜索提升\n1万+\n专业号涨粉\n15%\n加购成本降低",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2486?fromType=list",
+   "text": "a2：在一根吸管中，守护兔唇宝宝的笑容\n母婴品牌a2在小红书开展微笑行动，通过一根吸管让用户体验唇腭裂宝宝的困难，用公益行动为兔唇宝宝发声。\n38亿+\n活动总曝光\n+206%\n微笑行动搜索环比\n+16%\n唇腭裂搜索环比",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.xiaohongshu.com/case/2483?fromType=list",
+   "text": "BR光电保养：科学保养，成为你的生活方式\n医美品牌通过多元化内容种草抢占光电保养赛道，打造新生活方式医美品牌形象，以心智种草带动客资转化。\n1160万+\n笔记总曝光\nTOP1\n光电保养内容渗透\n150+\n合作博主笔记",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.xiaohongshu.com/",
+   "text": "小红书官网",
+   "region": "FOOTER"
+  }
+ ]
+}

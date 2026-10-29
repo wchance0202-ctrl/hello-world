@@ -1,0 +1,872 @@
+{
+ "url": "https://jzt.jd.com/school/index",
+ "observed_at": "2026-10-29T08:51:52.631Z",
+ "method": "playwright-chromium",
+ "final_url": "https://jzt.jd.com/school/index",
+ "status": 200,
+ "error": null,
+ "title": "京点书院_京准通官网-京东",
+ "h1": "",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 160,
+   "new_in_prefix": 160,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 160,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/cms/account/info/get"
+  },
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/cms/interest/check"
+  },
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/cms/interest/get"
+  },
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=7&contentType=live&sort=&pageIndex=1&pageSize=14&channelIds=1749,1749&recommend=false&live=true&pin=&previous=false&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/cms/account/info/get"
+  },
+  {
+   "method": "POST",
+   "url": "https://jzt-api.jd.com/common/getpin"
+  },
+  {
+   "method": "GET",
+   "url": "https://jzt-api.jd.com/cms/contentList?siteId=7&contentType=live&sort=date&pageIndex=1&pageSize=14&channelIds=1749,1749&recommend=false&live=false&pin=&previous=true&contentId=&levelSort=false&fill=false"
+  },
+  {
+   "method": "GET",
+   "url": "https://stream-outside.jd.com/checkWhiteList?code=JA2022_1134156"
+  },
+  {
+   "method": "POST",
+   "url": "https://sgm-m.jd.com/h5/init"
+  },
+  {
+   "method": "POST",
+   "url": "https://sgm-w.jd.com/h5"
+  },
+  {
+   "method": "POST",
+   "url": "https://sgm-w.jd.com/h5"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://jzt.jd.com/home/#/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/monthly?channelIds=473,471",
+   "text": "京准通月刊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/monthly?channelIds=474,471&sort=date",
+   "text": "活动专题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/example",
+   "text": "京选案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/small/list",
+   "text": "班级课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/stores",
+   "text": "收藏的课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/views",
+   "text": "浏览历史",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/exam",
+   "text": "我的考试",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/interest",
+   "text": "兴趣设置",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/rank",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://reg.jd.com/e/common/regPage?source=advertising&ReturnUrl=http%3A%2F%2Fjzt.jd.com%2F",
+   "text": "入驻",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E6%8E%A8%E8%8D%90%E8%AF%BE%E7%A8%8B",
+   "text": "推荐课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E7%9B%B4%E6%92%AD%E8%AF%BE%E5%A0%82",
+   "text": "直播课堂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E7%B3%BB%E5%88%97%E8%AF%BE%E7%A8%8B",
+   "text": "系列课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E8%A7%86%E9%A2%91%E8%AF%BE%E7%A8%8B",
+   "text": "视频课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E4%BA%AC%E9%80%89%E6%A1%88%E4%BE%8B",
+   "text": "京选案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98",
+   "text": "常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1952,1951,1749",
+   "text": "通知公告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1953,1951,1749",
+   "text": "规则中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1954,1951,1749",
+   "text": "创意审核指导",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1768,1754,1749",
+   "text": "走进京准通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1769,1754,1749",
+   "text": "政策专区",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1771,1754,1749",
+   "text": "财务与账户",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1869,1753,1749",
+   "text": "本地生活",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1773,1753,1749",
+   "text": "家电家居",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=2378,1753,1749",
+   "text": "时尚生态",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=2869,2868,1749",
+   "text": "星耀计划",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=2870,2868,1749",
+   "text": "京点课堂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=2871,2868,1749",
+   "text": "品牌研习社",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1763,1752,1749",
+   "text": "新客运营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1764,1752,1749",
+   "text": "新品上市",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1765,1752,1749",
+   "text": "爆品打造",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=18937&channelIds=1749",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/marketing/20261111",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/static/lh/20261111",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19458&channelIds=1760",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19239&channelIds=1749",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19394&channelIds=1767",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=18937&channelIds=1749",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/marketing/20261111",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/static/lh/20261111",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19458&channelIds=1760",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19239&channelIds=1749",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19394&channelIds=1767",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1951,1749",
+   "text": "广告审核",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1754,1749",
+   "text": "平台通用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1753,1749",
+   "text": "行业玩法",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=2868,1749",
+   "text": "营销课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1752,1749",
+   "text": "营销场景",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=18395&channelIds=1823",
+   "text": "直播推广 | 新商一键上手指南\n直播新手商家进行直播投广的快捷上手文档\n学习 5,133",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17004&channelIds=2546",
+   "text": "快车 | 商品-人群定向白皮书（B2C商家适用）\n通过目标人群投放，实现精准触达，有效实现拉新种草及转化，助力商家生意增长。\n学习 18,149",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17681&channelIds=2525",
+   "text": "全站营销｜中小新商首投权益保障\n中小新商专属保障：流量 + 成本双重安心\n学习 67,284",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17021&channelIds=2542",
+   "text": "快车白皮书（B2C商家适用）\n京准通快车从商家的经营目标出价，覆盖多种营销目标和营销场景，全方面助力商家经营提效，高效获取京东站内外广告全域流量\n学习 78,184",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/mob/live",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19484&liveId=48523593",
+   "text": "【星耀计划二期】美妆11.11广告实战：内容种草与会员复购的双轮驱动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19628&liveId=48953542",
+   "text": "【星耀计划】开门红进阶商家广告诊断不停歇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19483&liveId=48523512",
+   "text": "【星耀计划二期】服饰11.11广告实战：新品测款与内容种草的组合打法",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19483&liveId=48523512",
+   "text": "观看回放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19643&liveId=49121876",
+   "text": "【星耀计划×大商超区采】今年11.11大促，官方给区采重点商家送福利了！",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19643&liveId=49121876",
+   "text": "观看回放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19482&liveId=48523451",
+   "text": "【星耀计划二期】3C家电11.11广告实战：高客单长链路如何蓄水与爆发",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19482&liveId=48523451",
+   "text": "观看回放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19537&liveId=48715880",
+   "text": "【官方】11.11大促短信广告审核白皮书",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19537&liveId=48715880",
+   "text": "观看回放",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/live?contentId=19635&liveId=49045949",
+   "text": "【京点课堂】人群投放诊断及调优策略",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=18395&channelIds=1823",
+   "text": "直播推广 | 新商一键上手指南 直播新手商家进行直播投广的快捷上手文档学习 5,133",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17004&channelIds=2546",
+   "text": "快车 | 商品-人群定向白皮书（B2C商家适用） 通过目标人群投放，实现精准触达，有效实现拉新种草及转化，助力商家生意增长。学习 18,149",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17681&channelIds=2525",
+   "text": "全站营销｜中小新商首投权益保障 中小新商专属保障：流量 + 成本双重安心学习 67,284",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17021&channelIds=2542",
+   "text": "快车白皮书（B2C商家适用） 京准通快车从商家的经营目标出价，覆盖多种营销目标和营销场景，全方面助力商家经营提效，高效获取京东站内外广告全域流量学习 78,184",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/list",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/list",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2657",
+   "text": "资深产品指导|核心策略输出|官方权威解惑\n\n共21节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2855",
+   "text": "不懂投流？怕亏钱？新商三部曲-冷启期、成长期和进阶期助你从小白变身投放高手!\n\n共9节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2842",
+   "text": "专为成熟商家定制，帮你科学梳理人群、货品与场景的广告逻辑，告别粗放投流，掌握科学增长实战法则！\n\n共12节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2657",
+   "text": "资深产品指导|核心策略输出|官方权威解惑共21节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2855",
+   "text": "不懂投流？怕亏钱？新商三部曲-冷启期、成长期和进阶期助你从小白变身投放高手!共9节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2842",
+   "text": "专为成熟商家定制，帮你科学梳理人群、货品与场景的广告逻辑，告别粗放投流，掌握科学增长实战法则！共12节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/series/detail?channelIdData=2632",
+   "text": "特邀广告优秀代理及生态合作伙伴进行京准通分类目、场景等的打法、策略，实实在在为您带来增长！共56节课程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?contentType=video&sort=date",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?contentType=video&sort=date",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=1789&contentId=18499",
+   "text": "1分钟带你读懂【稳赚计划】，好货打爆进行中！\n1分钟带你读懂【稳赚计划】，好货打爆进行中！\n\n100%保收益+专属流量加码+智能补贴券，助力好货打爆！\n\n2026-03-25\n3188\n2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2792&contentId=18477",
+   "text": "【官方】快车-品牌追击（竞品词）投放指南\n【官方】快车-品牌追击（竞品词）投放指南\n\n系统讲解品牌追击投放策略，实战落地方法，实现精准获客与长效增长。\n\n2026-03-20\n4211\n3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2808&contentId=18299",
+   "text": "京准通智投增效，助力商家轻松推广\n京准通智投增效，助力商家轻松推广\n\n一键采纳智慧投广，让广告投放更高效，更精准，更省心！\n\n2026-01-29\n36397\n831",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=1789&contentId=18499",
+   "text": "1分钟带你读懂【稳赚计划】，好货打爆进行中！1分钟带你读懂【稳赚计划】，好货打爆进行中！100%保收益+专属流量加码+智能补贴券，助力好货打爆！2026-03-2531882",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2792&contentId=18477",
+   "text": "【官方】快车-品牌追击（竞品词）投放指南【官方】快车-品牌追击（竞品词）投放指南系统讲解品牌追击投放策略，实战落地方法，实现精准获客与长效增长。2026-03-2042113",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2808&contentId=18299",
+   "text": "京准通智投增效，助力商家轻松推广京准通智投增效，助力商家轻松推广一键采纳智慧投广，让广告投放更高效，更精准，更省心！2026-01-2936397831",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=1789&contentId=17279",
+   "text": "京准通广告学习和成长资源介绍京准通广告学习和成长资源介绍京准通广告学习和成长资源指南，助力商家快速掌握平台动态与投放技巧，加速成长。2025-07-15782302297",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/example",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/example",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2781&contentId=19116",
+   "text": "熬夜看球 双倍提神——小咖咖啡×京东世界杯整合营销\n\n2026-07-20\n\n+151%\n首页曝光环比\n+49.5%\nGMV环比\n+33%\n下单用户环比",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2779&contentId=19115",
+   "text": "开局开麦开桶面——康师傅×京东电竞整合营销\n\n2026-07-20\n\n5亿+\n累计全网曝光\n+102%\n成交单量同比\n+48%\n电竞用户规模同比",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2778&contentId=19114",
+   "text": "安踏“蓄势初春·动能延续”\n\n2026-07-20\n\n3XXX万+\n累计销售\n7XXX万+\n全网曝光\nx万\n品牌获得新客",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2781&contentId=19116",
+   "text": "熬夜看球 双倍提神——小咖咖啡×京东世界杯整合营销2026-07-20+151%首页曝光环比+49.5%GMV环比+33%下单用户环比",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2779&contentId=19115",
+   "text": "开局开麦开桶面——康师傅×京东电竞整合营销2026-07-205亿+累计全网曝光+102%成交单量同比+48%电竞用户规模同比",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?channelId=2778&contentId=19114",
+   "text": "安踏“蓄势初春·动能延续”2026-07-203XXX万+累计销售7XXX万+全网曝光x万品牌获得新客",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=3402",
+   "text": "京准通名词解释",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=3401",
+   "text": "如何入驻京准通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12694",
+   "text": "数据报表问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12326",
+   "text": "投放优化问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12452",
+   "text": "京选店铺常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12327",
+   "text": "关键词类型",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=3398",
+   "text": "账户充值问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=3399",
+   "text": "财务发票问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=3400",
+   "text": "跟单设置问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12686",
+   "text": "DMP常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12690",
+   "text": "数据中心-实时大屏常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12688",
+   "text": "数据中心-行业分析常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/problem?contentId=12689",
+   "text": "数据中心-榜单洞察常见问题",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1749&contentType=word&sort=date&beginDate",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19640",
+   "text": "配件11.11广告领航政策额外加磅\n为激励配件事业部商家冲刺11.11，配件商家广告投放达到目标要求，最高可获得17%的广告红包，本次活动权益高，玩法简单，广告投入越高激励越多！\n发表于2026-10-27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19639",
+   "text": "26年10-12月京喜食品个人/个体店广告消返政策（老商）\n针对京喜食品相关类目个人/个体店老商家，重磅推出广告激励政策！\n发表于2026-10-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19637",
+   "text": "26年10-12月京喜影音影像个人/个体店广告消返政策（新商）\n针对京喜影音影像品类的个人/个体店商家，重磅推出广告激励政策！\n发表于2026-10-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19630",
+   "text": "【健康行业】新品前排计划案例\n面向健康商家POP/自营商家，通过优质品牌厂告+效果广告联动投放，锁定词下Top2O坑位优质搜索曝光，快速积累类目新客，抢占优质流量，实现新品高效打爆\n发表于2026-10-23",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19627",
+   "text": "2026年Q4两季电器组冬季取暖站外广告激励政策\n面向生活电器商家，按新老客及投放增长档位提供差异化红包激励，单个商家ID×三级类目最高可获30万元奖励，助力商家拓展站外流量、引流促销售。\n发表于2026-10-23",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1749&contentType=word&sort=views&beginDate",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=16829",
+   "text": "1外卖广告 | 门店推广操作指南\n5,321,084人阅读过",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=13459",
+   "text": "2全站营销产品介绍\n815,124人阅读过",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=3163",
+   "text": "3京准通账户白皮书\n491,806人阅读过",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=17226",
+   "text": "4秒送非外卖广告 | 门店推广操作指南\n314,489人阅读过",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=3057",
+   "text": "5DMP效果数据复算&去重说明\n256,823人阅读过",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/list?channelIds=1749&contentType=word&beginDate&sort=date",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19640",
+   "text": "配件11.11广告领航政策额外加磅 发表于2026-10-27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19639",
+   "text": "26年10-12月京喜食品个人/个体店广告消返政策（老商） 发表于2026-10-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19637",
+   "text": "26年10-12月京喜影音影像个人/个体店广告消返政策（新商） 发表于2026-10-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19630",
+   "text": "【健康行业】新品前排计划案例 发表于2026-10-23",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/course/detail?contentId=19627",
+   "text": "2026年Q4两季电器组冬季取暖站外广告激励政策 发表于2026-10-23",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/teacher/list",
+   "text": "查看更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/teacher/list",
+   "text": "更多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/swa/",
+   "text": "全站营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jdkchome/",
+   "text": "快车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jbm.jd.com/gw/index",
+   "text": "B端营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/nrgg/",
+   "text": "内容广告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/hyzw/",
+   "text": "品牌合约",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jdzt/",
+   "text": "站外广告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/jtkhome/",
+   "text": "京东联盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/yxhd/",
+   "text": "营销活动",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/dmp/",
+   "text": "DMP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/chuangyi/index",
+   "text": "创意中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/optimization/",
+   "text": "优化建议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/ad-helper/",
+   "text": "分组管理",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/datacenter/",
+   "text": "数据中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/api/index",
+   "text": "营销API",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/lead/#/overview",
+   "text": "线索通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/mobile",
+   "text": "京准通APP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jmcloud.jdx.com/home",
+   "text": "营销云",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/strategy/#/home",
+   "text": "营销方略",
+   "region": "BODY"
+  },
+  {
+   "href": "https://survey.jd.com/",
+   "text": "京洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/index",
+   "text": "京点书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://agency.jd.com/gw/index",
+   "text": "京营合作伙伴",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/gw/agreement",
+   "text": "隐私协议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jzt.jd.com/school/safe/center",
+   "text": "广告内容安全中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ppzh.jd.com/brand/optLogin/login.html",
+   "text": "商智",
+   "region": "BODY"
+  },
+  {
+   "href": "https://4a.jd.com/datamill/common/goal.html",
+   "text": "数坊",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jdsq.jd.com/sqweb/views/indexPage.html",
+   "text": "商麒",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mp.jd.com/?entrance=jzt",
+   "text": "京东小程序开放平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jhd.jd.com/contract/#/index",
+   "text": "京汇达",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:4001652618",
+   "text": "官方客服电话: 4001652618",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:ad@jd.com",
+   "text": "官方咨询邮箱: ad@jd.com",
+   "region": "BODY"
+  }
+ ]
+}

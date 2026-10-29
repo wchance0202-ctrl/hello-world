@@ -1,0 +1,37 @@
+{
+ "url": "https://www.sensorsdata.cn/researchInstitute.html",
+ "observed_at": "2026-10-29T08:55:11.828Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.sensorsdata.cn/researchInstitute.html",
+ "status": 200,
+ "error": null,
+ "title": "神策研究院-企业数字化经营实践/行业洞察",
+ "h1": "神策研究院",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 2,
+   "new_in_prefix": 2,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 2,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.sensorsdata.cn/researchInstitute/report",
+   "text": "查看全部 >",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/compliance/privacy.html",
+   "text": "《隐私政策》",
+   "region": "BODY"
+  }
+ ]
+}

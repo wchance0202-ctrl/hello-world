@@ -1,0 +1,165 @@
+{
+ "url": "https://www.ctrchina.cn/report",
+ "observed_at": "2026-10-29T08:51:04.009Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.ctrchina.cn/report",
+ "status": 200,
+ "error": null,
+ "title": "洞察报告",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 21,
+   "new_in_prefix": 21,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 21,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://sitemetric.ictr.com.cn/g/w"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.ctrchina.cn/api/contentApi/searchOnOrOff"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.ctrchina.cn/api/MemberApi/getInfo"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.ctrchina.cn/api/reportApi/labelSearh"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.ctrchina.cn/api/reportApi/reportSearch"
+  },
+  {
+   "method": "POST",
+   "url": "https://622eb443db4f2091685b3647.smc.ctrmi.com/w/a?type=v&rid=8a542aa0-1c3e-4ab1-b66c-2adfdb57f6a8&fid=aea932dc282df6be71fc49553f7d4b5e&sid=542aa01c-3efa-41f6-ac2a-dfdb57f6a8a4&ver=2.0.0&r=&u=https%3A%2F%2Fwww.ctrchina.cn%2Freport&t=%E6%B4%9E%E5%AF%9F%E6%8A%A5%E5%91%8A&lf=true&ts=1793263869283&k=622eb443db4f2091685b3647&v=&sign=109AB585409FD5264935D0DB91C4B9D0DFDC9EF0"
+  },
+  {
+   "method": "POST",
+   "url": "https://622eb443db4f2091685b3647.smc.ctrmi.com/w/a?type=h&at=3584&ts=1793263872284&k=622eb443db4f2091685b3647&v=6ae308ffbf0e6854f0f2d8a8&sign=BE4CA803A1F64C526380D5490D89205095777693"
+  },
+  {
+   "method": "POST",
+   "url": "https://622eb443db4f2091685b3647.smc.ctrmi.com/w/a?type=h&at=6584&ts=1793263875284&k=622eb443db4f2091685b3647&v=6ae308ffbf0e6854f0f2d8a8&sign=7A443D722248088918B05DDCACB2CF869F39E010"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.ctrchina.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ctrchina.cn/research",
+   "text": "研究领域",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ctrchina.cn/product",
+   "text": "研究产品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ctrchina.cn/report",
+   "text": "洞察报告",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ctrchina.cn/about",
+   "text": "关于我们",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ctrchina.cn/report?lang=zh-CN",
+   "text": "中文",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/report?lang=en-US",
+   "text": "EN",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/895",
+   "text": "2026-10-26\nCTR动态\nAI背景下，主流媒体营销创新呈现哪些趋势与特点？| 2026广告节·CTR最新洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/894",
+   "text": "2026-10-23\nCTR动态\nCTR携最新成果亮相2026广告节：详解“AI时代品牌新叙事”，入选《中国GEO品牌生态图谱》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/893",
+   "text": "2026-10-21\n消费者研究\n前三季度快消大盘微涨0.1%，消费者钱袋子重新分配",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/891",
+   "text": "2026-10-19\n品牌营销传播\n“手搓”热，为“人的痕迹”定价",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/892",
+   "text": "2026-10-19\n消费者研究\n自嗨锅“终局”启示：什么样的痛点，才足以撑起一个快消品牌？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/report/890",
+   "text": "2026-10-16\n消费者研究\n喜讯 | 纽锐拓消费者指数（在中国隶属于CTR）再获全球职场文化权威机构「卓越职场」认证！",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:+8610 59089098",
+   "text": "+8610 59089098",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:sc@ctrchina.cn",
+   "text": "sc@ctrchina.cn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://mail.ctrchina.cn/",
+   "text": "邮件管理",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/clause",
+   "text": "法律条款",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.ctrchina.cn/rich/protect",
+   "text": "个人信息保护政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "京ICP备05036647号-1",
+   "region": "FOOTER"
+  }
+ ]
+}

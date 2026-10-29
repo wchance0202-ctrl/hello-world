@@ -1,0 +1,963 @@
+{
+ "url": "https://www.miaozhen.com/paper",
+ "observed_at": "2026-10-29T08:55:34.875Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.miaozhen.com/paper",
+ "status": 200,
+ "error": null,
+ "title": "白皮书-秒针系统-营销实效管理专家",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 179,
+   "new_in_prefix": 179,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 179,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  },
+  {
+   "method": "POST",
+   "url": "https://www.miaozhen.com/wp-admin/admin-ajax.php"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.miaozhen.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/genaimkt",
+   "text": "洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper",
+   "text": "报告/白皮书",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/genaimkt",
+   "text": "生成式营销",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/articles",
+   "text": "干货文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "产品",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitor",
+   "text": "Admonitor数字广告测量及验证",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorooh",
+   "text": "Admonitor OOH户外广告监播&测量",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorlivetv",
+   "text": "Admonitor LiveTV直播电视广告监播",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/miaozhenfenxi",
+   "text": "秒针分析私域用户行为监测",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mediainsight",
+   "text": "MediaInsight媒介趋势与效率洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mixreach",
+   "text": "MixReach线上+线下广告投资优化",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planexecution",
+   "text": "PlanExecution最优排期生成及管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/pindong",
+   "text": "品牌动向竞品媒介策略与内容价值分析",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mrdmp",
+   "text": "明日DMP三方广告标签系统",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mofangpro",
+   "text": "魔方Pro一站式社媒营销监测与洞察平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/socialgrow",
+   "text": "Social Grow一站式社媒营销投资优化管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/sei",
+   "text": "SEI剧综品牌赞助评估",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/cdp",
+   "text": "客户数据管理平台以消费者服务体验为核心的企业用户数据管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/brand-marketing-efficiency-desk",
+   "text": "全域实效分析平台汇总全渠道投放数据，全盘掌握品牌效果转化",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://adeff.com/",
+   "text": "AdEffAI驱动的广告前测平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aitou",
+   "text": "爱投一站式广告投放解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper#",
+   "text": "解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "服务对象",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/branding-services",
+   "text": "品牌广告主",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/agency-services",
+   "text": "渠道代理",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/institute-collaboration",
+   "text": "研究机构及高校",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "服务范围",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/measurement-analytics",
+   "text": "全域营销测量",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planning",
+   "text": "跨域媒介计划",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/competition-analysis",
+   "text": "品牌竞争动向",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/targeting",
+   "text": "精准投放服务",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/advertising-attribution",
+   "text": "广告投资归因",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/social-media-evaluation",
+   "text": "社媒营销效果评估与市场洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/kol",
+   "text": "达人与内容营销增长",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/user-growth",
+   "text": "数据管理与自动化营销",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://allservices/",
+   "text": "通用解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mkt-effectiveness",
+   "text": "全域全链路营销效果评估",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/quanceng",
+   "text": "圈层细分-选择-定位-触达解决方案(STP)",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/efficacy",
+   "text": "品效营销解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/consumer-insights",
+   "text": "消费者与品牌洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/msc",
+   "text": "营销科学大会",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/meijielixue",
+   "text": "媒介力学论坛",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/events",
+   "text": "直播/线下活动",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aboutus",
+   "text": "公司简介",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/team",
+   "text": "管理团队",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/news",
+   "text": "新闻动态",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/contact",
+   "text": "联系我们",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://mininglamp.zhiye.com/",
+   "text": "加入我们",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/login",
+   "text": "客户登录",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/en",
+   "text": "EN",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/genaimkt",
+   "text": "洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper",
+   "text": "报告/白皮书",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/genaimkt",
+   "text": "生成式营销",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/articles",
+   "text": "干货文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "产品",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitor",
+   "text": "Admonitor数字广告测量及验证",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorooh",
+   "text": "Admonitor OOH户外广告监播&测量",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorlivetv",
+   "text": "Admonitor LiveTV直播电视广告监播",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/miaozhenfenxi",
+   "text": "秒针分析私域用户行为监测",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mediainsight",
+   "text": "MediaInsight媒介趋势与效率洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mixreach",
+   "text": "MixReach线上+线下广告投资优化",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planexecution",
+   "text": "PlanExecution最优排期生成及管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/pindong",
+   "text": "品牌动向竞品媒介策略与内容价值分析",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mrdmp",
+   "text": "明日DMP三方广告标签系统",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mofangpro",
+   "text": "魔方Pro一站式社媒营销监测与洞察平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/socialgrow",
+   "text": "Social Grow一站式社媒营销投资优化管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/sei",
+   "text": "SEI剧综品牌赞助评估",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/cdp",
+   "text": "客户数据管理平台以消费者服务体验为核心的企业用户数据管理平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/brand-marketing-efficiency-desk",
+   "text": "全域实效分析平台汇总全渠道投放数据，全盘掌握品牌效果转化",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://adeff.com/",
+   "text": "AdEffAI驱动的广告前测平台",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aitou",
+   "text": "爱投一站式广告投放解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper#",
+   "text": "解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "服务对象",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/branding-services",
+   "text": "品牌广告主",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/agency-services",
+   "text": "渠道代理",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/institute-collaboration",
+   "text": "研究机构及高校",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "服务范围",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/measurement-analytics",
+   "text": "全域营销测量",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planning",
+   "text": "跨域媒介计划",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/competition-analysis",
+   "text": "品牌竞争动向",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/targeting",
+   "text": "精准投放服务",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/advertising-attribution",
+   "text": "广告投资归因",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/social-media-evaluation",
+   "text": "社媒营销效果评估与市场洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/kol",
+   "text": "达人与内容营销增长",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/user-growth",
+   "text": "数据管理与自动化营销",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/allservices",
+   "text": "解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://allservices/",
+   "text": "通用解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mkt-effectiveness",
+   "text": "全域全链路营销效果评估",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/quanceng",
+   "text": "圈层细分-选择-定位-触达解决方案(STP)",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/efficacy",
+   "text": "品效营销解决方案",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/consumer-insights",
+   "text": "消费者与品牌洞察",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/msc",
+   "text": "营销科学大会",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/meijielixue",
+   "text": "媒介力学论坛",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/events",
+   "text": "直播/线下活动",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aboutus",
+   "text": "公司简介",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/team",
+   "text": "管理团队",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/news",
+   "text": "新闻动态",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/contact",
+   "text": "联系我们",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://mininglamp.zhiye.com/",
+   "text": "加入我们",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/socialmediamarketing/14014.html",
+   "text": "查看全文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13740.html",
+   "text": "查看全文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13796.html",
+   "text": "查看全文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/socialmediamarketing/14014.html",
+   "text": "查看全文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13740.html",
+   "text": "查看全文",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/14768.html",
+   "text": "智育新生，松弛相伴｜秒针×亲宝宝联合发布《2026母婴行业趋势与平台营销价值白皮书》\n秒针×亲宝宝联合发布《2026母婴行业趋势与平台营销价值白皮书》\n明略科技\n母婴行业\n秒针系统\n行业洞察\n2026年10月20日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/marticles/14615.html",
+   "text": "AI时代，靠真实与共鸣打动消费者，才能赢下成交前最后一公里\n《微博x秒针系统AI时代的新热点效能与生意价值归因白皮书》正式发布！\n明略科技\n秒针系统\n行业洞察\n2026年9月21日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/ott/14370.html",
+   "text": "品质大屏，价值新篇：流量见顶时代的营销破局之道\n秒针系统\n行业洞察\n2026年7月15日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/mwatch/14342.html",
+   "text": "王老吉《哈兰德之歌》疯狂玩梗，新鲜零食抢量贩生意，打工人吃上”人粮”，六月食饮热点速览\n秒针系统\n2026年7月10日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/ott/14337.html",
+   "text": "营销的下一站在哪里？《高品质电视媒体营销价值研究报告》蓄势待发！\n秒针系统\n2026年7月9日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/14314.html",
+   "text": "7亿用户之后，微短剧走向何方？《2026微短剧受众洞察报告》 解锁七大趋势信号\n秒针系统\n行业洞察\n2026年7月9日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/mwatch/14101.html",
+   "text": "「偷吃大赛」唤醒全民记忆，一封潮汕情书撬动10亿票房，食饮品牌如何接住这波流量？\n社媒洞察\n秒针系统\n2026年6月10日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/socialmediamarketing/14014.html",
+   "text": "正式发布！《2026中国社交媒体营销趋势报告》：生态分化时代，品牌如何协同破局？\n明略科技正式发布《2026中国社交媒体营销趋势报告》，从市场趋势、策略指南、营销实践三个维度，为品牌提供系统性的策略框架与行动指南。2026年的核心命题已经清",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/mwatch/13974.html",
+   "text": "莫氏鸡煲公开配方、东鹏10分钟拍板、瑞幸“椰椰椰”洗脑……三月食饮圈的反套路玩家都赢麻了？\n社媒洞察\n秒针系统\n2026年5月7日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13960.html",
+   "text": "跨山越海，连接价值——明略科技《2026户外出行广告价值洞察（下）城际跨越》发布\n明略科技发布《2026户外出行广告价值洞察（下）城际跨越》。我们将视角从城市内部延伸至城市之间，深度解析火车/高铁、飞机、客车/大巴、自驾等城际出行场景中的用",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13928.html",
+   "text": "美力觉醒，价值重构｜《2026快手美妆行业营销报告》正式发布\n秒针系统\n营销智能\n行业洞察\n2026年4月27日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13888.html",
+   "text": "《2025中国综艺赞助市场SEI盘点报告》发布：轻松解压内容领跑，品牌赞助进入精细化运营\n社媒洞察\n秒针系统\n营销智能\n行业洞察\n2026年4月22日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13796.html",
+   "text": "捕捉都市脉搏——明略科技《穿梭与跨越：2026户外出行广告价值洞察（上）城市穿梭》发布\n明略科技推出《2026户外广告营销价值研究系列报告》，首篇报告聚焦\"城市出行\"，深度解析地铁、公交、户外街道等主流出行媒体用户行为特征、媒介价值和营销策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/mwatch/13777.html",
+   "text": "F1狂飙上海、丑萌牛马面包引发全网抢购、菜夹馍“攻占”音乐厅…三月食饮圈都发生了什么？\n秒针系统\n行业洞察\n2026年4月10日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13740.html",
+   "text": "正式发布！《中国消费者吃喝玩乐观察报告》：10大场景复盘，读懂“情绪进阶”下的生意逻辑\n从寻觅一口应季的风味，到在数字与现实间寻找平衡，2025-2026年的中国消费者，正在完成一场从情绪消费到意义创造的进阶。明略科技（2718.HK）旗下",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/news/13727.html",
+   "text": "《中国消费者吃喝玩乐观察报告》即将发布，三大消费者图鉴抢先看！\n报告发布\n明略科技\n秒针系统\n行业洞察\n2026年2月26日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/13712.html",
+   "text": "明略科技携手卓正医疗，以 RaaS 模式驱动医疗营销数智化、确定性增长\n明略科技\n秒针系统\n营销智能\n2026年2月12日",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/all-reports/industryinsight/13656.html",
+   "text": "Now Is Yours：当华为站在此时此刻\n在2025年第四季度，华为开展了全球品牌活动“Now Is Yours”以及旗舰产品Mate 80系列的发布，华为联手奥美发布了全球品牌大片，将镜头对准全球青年真实的“微光时刻”，提出了“Go ",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "1",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "2",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "3",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "4",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "5",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper",
+   "text": "报告/白皮书",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/genaimkt",
+   "text": "生成式营销",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/articles",
+   "text": "干货文章",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitor",
+   "text": "Admonitor",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorooh",
+   "text": "Admonitor OOH",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/admonitorlivetv",
+   "text": "Admonitor LiveTV",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/miaozhenfenxi",
+   "text": "秒针分析",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mediainsight",
+   "text": "MediaInsight",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mixreach",
+   "text": "MixReach",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planexecution",
+   "text": "PlanExecution",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/pindong",
+   "text": "品牌动向",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/mofangpro",
+   "text": "魔方Pro",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/socialgrow",
+   "text": "Social Grow",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/sei",
+   "text": "SEI",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/cdp",
+   "text": "客户数据管理平台",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/ma",
+   "text": "自动化营销",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aitou",
+   "text": "爱投",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/measurement-analytics",
+   "text": "全域营销测量",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/planning",
+   "text": "跨域媒介计划",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/competition-analysis",
+   "text": "品牌竞争动向",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/targeting",
+   "text": "精准投放服务",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/advertising-attribution",
+   "text": "广告投资归因",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/social-media-evaluation",
+   "text": "社媒营销效果评估与市场洞察",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/kol",
+   "text": "达人与内容营销增长",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/user-growth",
+   "text": "数据管理与自动化营销",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/msc",
+   "text": "营销科学大会",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/meijielixue",
+   "text": "媒介力学论坛",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/events",
+   "text": "直播/线下活动",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aboutus/",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/aboutus",
+   "text": "公司简介",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/team",
+   "text": "管理团队",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/contact",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/news",
+   "text": "新闻动态",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://mininglamp.zhiye.com/",
+   "text": "加入我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://beian.miit.gov.cn/",
+   "text": "京ICP备09014037号-3",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/",
+   "text": "京公网安备11010502012922号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/cn/privacy",
+   "text": "隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/marticles/4177.html",
+   "text": "SDK隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/marticles/4169.html",
+   "text": "SDK安全合规使用指南",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://services.miaozhen.com/opt-out/",
+   "text": "设备opt-out",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper",
+   "text": "北京明略昭辉科技有限公司",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://beian.miit.gov.cn/",
+   "text": "京ICP备09014037号-3",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/",
+   "text": "京公网安备11010502012922号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/cn/privacy",
+   "text": "隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/marticles/4177.html",
+   "text": "SDK隐私政策",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/marticles/4169.html",
+   "text": "SDK安全合规使用指南",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://services.miaozhen.com/opt-out/",
+   "text": "设备opt-out",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.miaozhen.com/paper",
+   "text": "北京明略昭辉科技有限公司",
+   "region": "FOOTER"
+  }
+ ]
+}

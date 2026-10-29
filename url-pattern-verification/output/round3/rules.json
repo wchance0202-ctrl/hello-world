@@ -18893,7 +18893,8 @@
    "round": 2
   }
  ],
- "failed": [
+ "failed": [],
+ "kept_as_links": [
   {
    "id": "R3-S1-R2-E1-F1",
    "entry_ids": [
@@ -18994,9 +18995,117 @@
    "version": 1,
    "history": [],
    "user_decisions": [],
-   "status": "验证不通过",
+   "status": "链接保留（同级栏目页：与入口页本身同结构，不是入口下级）",
    "why": [
-    "机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%"
+    "机械门未通过：归纳正例 2<3、标注测试有失败（留出 FN0/FP1）、留出指标 <95%",
+    "留出反例中唯一的误配是入口页本身：https://www.census.gov/retail/index.html"
+   ]
+  },
+  {
+   "id": "R3-S1-R2-E2-F2",
+   "entry_ids": [
+    "S1-R2-E2"
+   ],
+   "target": "https://www.census.gov/programs-surveys/e-stats.html 入口前缀 /programs-surveys/e-stats/ 下签名 [3, False, (), 'html'] 的页面家族（自动归纳）",
+   "family": "栏目前缀内路径（自动归纳）",
+   "pattern": "^https://www\\.census\\.gov/programs\\-surveys/e\\-stats/news\\-updates/updates/[a-z0-9-]+\\.html$",
+   "variables": {
+    "seg2": "[a-z0-9-]+ + .html"
+   },
+   "literals": {
+    "seg0": "news-updates",
+    "seg1": "updates"
+   },
+   "slash_mode": "none",
+   "holdout_source": "other_entries_pages",
+   "metrics": {
+    "inference": {
+     "TP": 3,
+     "FP": 0,
+     "FN": 0,
+     "TN": 0,
+     "excluded": 0,
+     "accuracy": 1,
+     "precision": 1,
+     "recall": 1
+    },
+    "holdout": {
+     "TP": 0,
+     "FP": 0,
+     "FN": 0,
+     "TN": 7,
+     "excluded": 0,
+     "accuracy": 1,
+     "precision": null,
+     "recall": null
+    },
+    "regression": {
+     "TP": 0,
+     "FP": 0,
+     "FN": 0,
+     "TN": 0,
+     "excluded": 0,
+     "accuracy": null,
+     "precision": null,
+     "recall": null
+    }
+   },
+   "checks": {
+    "anchored": true,
+    "target_engine_executed": true,
+    "inference_positives": 3,
+    "holdout_positives": 0,
+    "holdout_negatives": 7,
+    "duplicate_samples": false,
+    "observed_split_overlap": false,
+    "positives_have_identity": true,
+    "all_labeled_tests_pass": true
+   },
+   "engines": [
+    {
+     "name": "node-re2",
+     "version": "1.24.1"
+    },
+    {
+     "name": "google-re2",
+     "version": "1.1.20251105"
+    }
+   ],
+   "engines_agree": true,
+   "coverage": {
+    "listing_members": 3,
+    "listing_missed": [],
+    "sitemap_same_structure": 3,
+    "sitemap_missed": [],
+    "sitemap_missed_count": 0,
+    "matched_outside_structure": [],
+    "sitemap_not_in_listing": 0
+   },
+   "samples": {
+    "inference": [
+     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/past-updates.html",
+     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html",
+     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html"
+    ],
+    "holdout_pos": [],
+    "holdout_neg": [
+     "https://www.census.gov/programs-surveys/e-stats.html",
+     "https://www.census.gov/geographies/reference-maps/2006/geo/cbsa.html",
+     "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-30.html",
+     "https://www.census.gov/library/working-papers/2021/adrm/CES-WP-21-19.html",
+     "https://www.census.gov/library/publications/1913/dec/vol-3-population.html",
+     "https://www.census.gov/programs-surveys/e-stats/about.html",
+     "https://www.census.gov/programs-surveys/e-stats/data/tables.html"
+    ],
+    "regression_pos": [],
+    "regression_neg": []
+   },
+   "version": 1,
+   "history": [],
+   "user_decisions": [],
+   "status": "链接保留（仅 3 个同结构目标，按技能不强凑正则）",
+   "why": [
+    "机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）"
    ]
   },
   {
@@ -19106,118 +19215,10 @@
    "version": 1,
    "history": [],
    "user_decisions": [],
-   "status": "验证不通过",
+   "status": "链接保留（同级栏目页：与入口页本身同结构，不是入口下级）",
    "why": [
-    "机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%"
-   ]
-  }
- ],
- "kept_as_links": [
-  {
-   "id": "R3-S1-R2-E2-F2",
-   "entry_ids": [
-    "S1-R2-E2"
-   ],
-   "target": "https://www.census.gov/programs-surveys/e-stats.html 入口前缀 /programs-surveys/e-stats/ 下签名 [3, False, (), 'html'] 的页面家族（自动归纳）",
-   "family": "栏目前缀内路径（自动归纳）",
-   "pattern": "^https://www\\.census\\.gov/programs\\-surveys/e\\-stats/news\\-updates/updates/[a-z0-9-]+\\.html$",
-   "variables": {
-    "seg2": "[a-z0-9-]+ + .html"
-   },
-   "literals": {
-    "seg0": "news-updates",
-    "seg1": "updates"
-   },
-   "slash_mode": "none",
-   "holdout_source": "other_entries_pages",
-   "metrics": {
-    "inference": {
-     "TP": 3,
-     "FP": 0,
-     "FN": 0,
-     "TN": 0,
-     "excluded": 0,
-     "accuracy": 1,
-     "precision": 1,
-     "recall": 1
-    },
-    "holdout": {
-     "TP": 0,
-     "FP": 0,
-     "FN": 0,
-     "TN": 7,
-     "excluded": 0,
-     "accuracy": 1,
-     "precision": null,
-     "recall": null
-    },
-    "regression": {
-     "TP": 0,
-     "FP": 0,
-     "FN": 0,
-     "TN": 0,
-     "excluded": 0,
-     "accuracy": null,
-     "precision": null,
-     "recall": null
-    }
-   },
-   "checks": {
-    "anchored": true,
-    "target_engine_executed": true,
-    "inference_positives": 3,
-    "holdout_positives": 0,
-    "holdout_negatives": 7,
-    "duplicate_samples": false,
-    "observed_split_overlap": false,
-    "positives_have_identity": true,
-    "all_labeled_tests_pass": true
-   },
-   "engines": [
-    {
-     "name": "node-re2",
-     "version": "1.24.1"
-    },
-    {
-     "name": "google-re2",
-     "version": "1.1.20251105"
-    }
-   ],
-   "engines_agree": true,
-   "coverage": {
-    "listing_members": 3,
-    "listing_missed": [],
-    "sitemap_same_structure": 3,
-    "sitemap_missed": [],
-    "sitemap_missed_count": 0,
-    "matched_outside_structure": [],
-    "sitemap_not_in_listing": 0
-   },
-   "samples": {
-    "inference": [
-     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/past-updates.html",
-     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html",
-     "https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html"
-    ],
-    "holdout_pos": [],
-    "holdout_neg": [
-     "https://www.census.gov/programs-surveys/e-stats.html",
-     "https://www.census.gov/geographies/reference-maps/2006/geo/cbsa.html",
-     "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-30.html",
-     "https://www.census.gov/library/working-papers/2021/adrm/CES-WP-21-19.html",
-     "https://www.census.gov/library/publications/1913/dec/vol-3-population.html",
-     "https://www.census.gov/programs-surveys/e-stats/about.html",
-     "https://www.census.gov/programs-surveys/e-stats/data/tables.html"
-    ],
-    "regression_pos": [],
-    "regression_neg": []
-   },
-   "version": 1,
-   "history": [],
-   "user_decisions": [],
-   "status": "链接保留（仅 3 个同结构目标，按技能不强凑正则）",
-   "why": [
-    "机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）"
+    "机械门未通过：标注测试有失败（留出 FN0/FP1）、留出指标 <95%",
+    "留出反例中唯一的误配是入口页本身：https://www.itu.int/en/ITU-D/Pages/default.aspx"
    ]
   },
   {

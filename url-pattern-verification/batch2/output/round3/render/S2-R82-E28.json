@@ -1,0 +1,1317 @@
+{
+ "url": "https://www.jiemian.com/lists/852.html",
+ "observed_at": "2026-10-29T09:04:45.381Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/852.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/852.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "企服_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 258,
+   "new_in_prefix": 258,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 258,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/812.html",
+   "text": "企业服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/43.html",
+   "text": "创投班",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "群核科技上市三个月股价跌回发行价，资本市场为何不买账？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "市场争议的焦点在于群核科技到底是SaaS公司还是空间智能公司？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "阿里公测千问办公，企业级办公成为大厂AI竞争的新战场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "距离陈宇森出任钉钉和悟空事业部CEO才不到两个月的时间，阿里就推出了千问办公。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "7月美股集体豪赌AI，科技巨头全年计划投入近8000亿美元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "全行业千亿级资本开支持续落地，将带动服务器、存储、先进芯片产业链景气度上行。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "群核科技上市三个月股价跌回发行价，资本市场为何不买账？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "市场争议的焦点在于群核科技到底是SaaS公司还是空间智能公司？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "阿里公测千问办公，企业级办公成为大厂AI竞争的新战场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "距离陈宇森出任钉钉和悟空事业部CEO才不到两个月的时间，阿里就推出了千问办公。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "7月美股集体豪赌AI，科技巨头全年计划投入近8000亿美元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "全行业千亿级资本开支持续落地，将带动服务器、存储、先进芯片产业链景气度上行。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "群核科技上市三个月股价跌回发行价，资本市场为何不买账？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "市场争议的焦点在于群核科技到底是SaaS公司还是空间智能公司？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "阿里公测千问办公，企业级办公成为大厂AI竞争的新战场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "距离陈宇森出任钉钉和悟空事业部CEO才不到两个月的时间，阿里就推出了千问办公。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "7月美股集体豪赌AI，科技巨头全年计划投入近8000亿美元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "全行业千亿级资本开支持续落地，将带动服务器、存储、先进芯片产业链景气度上行。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "群核科技上市三个月股价跌回发行价，资本市场为何不买账？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14887283.html",
+   "text": "市场争议的焦点在于群核科技到底是SaaS公司还是空间智能公司？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "阿里公测千问办公，企业级办公成为大厂AI竞争的新战场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14868541.html",
+   "text": "距离陈宇森出任钉钉和悟空事业部CEO才不到两个月的时间，阿里就推出了千问办公。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "7月美股集体豪赌AI，科技巨头全年计划投入近8000亿美元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14855160.html",
+   "text": "全行业千亿级资本开支持续落地，将带动服务器、存储、先进芯片产业链景气度上行。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14737328.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14737328.html",
+   "text": "工业富联半年净利预计首破200亿，股价不涨反跌",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14737328.html",
+   "text": "AI相关产品成为公司主营业务的核心增长引擎。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14645055.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14645055.html",
+   "text": "月之暗面黄震昕：Kimi的目标是和海外三家模型掰手腕",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14645055.html",
+   "text": "企业级AI难点并不在模型厂商这一侧，在于如何去切入和推进企业完成AI转型。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120154545",
+   "text": "程璐CL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14503819.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14503819.html",
+   "text": "AI红利持续释放，联想股价一度暴涨近30%再创新高",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14503819.html",
+   "text": "自5月22日发布超预期财报以来，联想股价连续多个交易日创下新高。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14465806.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14465806.html",
+   "text": "联想交出史上最好财报，未来两年目标跃升千亿美元规模企业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14465806.html",
+   "text": "AI成为贯穿该公司全年与单季的增长主线。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14384810.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14384810.html",
+   "text": "李嘉诚抛售英国电讯资产，套现约455亿港元",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14384810.html",
+   "text": "消息落地当日，长和逆市收涨4.13%，市值升至2604亿港元。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14316111.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14316111.html",
+   "text": "黑湖科技完成近10亿元融资，从“上海硅巷”走向全球工厂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14316111.html",
+   "text": "周宇翔强调，公司从成立之初就不想做“中国版某某工业软件”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118943033",
+   "text": "佘晓晨",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14253913.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14253913.html",
+   "text": "为耐心资本巩固制度基础，上海如何“松绑”国资基金？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14253913.html",
+   "text": "尤其是在投资机构关切的评估、考核、退出等问题上，《指导意见》均给出了最新细则。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118943033",
+   "text": "佘晓晨",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227687.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227687.html",
+   "text": "阿里百度腾讯集体加入AI算力涨价潮，云计算终结20年降价史",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14227687.html",
+   "text": "AI时代，算力将从普惠资源转为稀缺性“战略物资”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14126437.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14126437.html",
+   "text": "对话钉钉CTO朱鸿：市面上的“龙虾”Agent，还有两个根本问题没解决",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14126437.html",
+   "text": "企业AI市场已经成为科技公司新的竞争焦点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120154545",
+   "text": "程璐CL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14077379.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14077379.html",
+   "text": "谷歌“割肉”改革：开放第三方支付，Google Play抽成比例下调至20%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14077379.html",
+   "text": "谷歌全面开放第三方支付系统和第三方应用商店。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+   "text": "李科峰",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13951389.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13951389.html",
+   "text": "AI办公竞争白热化，厂商争夺上海硬科技企业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13951389.html",
+   "text": "上海正在成为AI办公争夺最激烈的前沿战场。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120154545",
+   "text": "程璐CL",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13923710.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13923710.html",
+   "text": "对话腾讯云副总裁：卖Token是不可持续的生意，接下来要拼场景",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13923710.html",
+   "text": "过去的焦虑是怎么生存，现在的焦虑是怎么抓住新的机会。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118661365",
+   "text": "陆柯言",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13839125.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13839125.html",
+   "text": "黄仁勋对话杨元庆：未来两年内双方合作规模或再扩大五倍",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13839125.html",
+   "text": "双方一致认为，未来人工智能发展的核心机遇在于“混合式人工智能”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100000115",
+   "text": "宋佳楠",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13820715.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13820715.html",
+   "text": "83岁IBM前CEO郭士纳逝世，曾带领“蓝色巨人”绝境重生",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13820715.html",
+   "text": "郭士纳后将这段改革历程撰写成《谁说大象不能跳舞》，该书至今仍是企业管理领域的经典必读教材。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=109761718",
+   "text": "沈霄戈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13782246.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13782246.html",
+   "text": "阿里字节争夺AI云市场，火山引擎想要继续做大蛋糕",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13782246.html",
+   "text": "火山引擎总裁谭待表示，竞争不是关键，因为当下的市场不是存量竞争，也不是零和博弈，而是大家一起把这个市场做大，让各个行业的AI落地能更快。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13714150.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13714150.html",
+   "text": "发布多款大模型，亚马逊云科技要在AI云市场保持竞争力",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13714150.html",
+   "text": "面对竞争对手在模型能力上的攻势，亚马逊云科技选择在模型的丰富性上构建竞争力。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13692469.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13692469.html",
+   "text": "专访Fusion Fund张璐：硅谷AI军备赛，从大厂到创业公司都拼了",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13692469.html",
+   "text": "大公司卷起来了，小的初创企业只能更加卷。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=116115463",
+   "text": "伍洋宇",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13685250.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13685250.html",
+   "text": "阿里云收入增速创新高，大模型在产业端加速落地",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13685250.html",
+   "text": "技术能力的快速提升以及调用成本的大幅下滑，是大模型商业化提速的关键因素。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118416791",
+   "text": "肖芳XF",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

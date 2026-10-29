@@ -1,0 +1,74 @@
+{
+ "url": "https://qn.taobao.com/headline/course",
+ "observed_at": "2026-10-29T08:52:04.258Z",
+ "method": "playwright-chromium",
+ "final_url": "https://loginmyseller.taobao.com/?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fqn.taobao.com%2Fheadline%2Fcourse",
+ "status": 200,
+ "error": null,
+ "title": "千牛工作台 - 商家一站式经营阵地",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 2,
+   "new_in_prefix": 2,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 2,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/plugin/aplus_ws.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427"
+  },
+  {
+   "method": "GET",
+   "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/plugin/aplus_ws.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427"
+  },
+  {
+   "method": "POST",
+   "url": "https://umdcv4.taobao.com/repTw.json?e=2075&sv=247&pv=234&pn=havanalogin.taobao.com&biz=0"
+  },
+  {
+   "method": "GET",
+   "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/plugin/aplus_ws.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427"
+  },
+  {
+   "method": "POST",
+   "url": "https://ynuf.aliapp.org/service/um.json"
+  },
+  {
+   "method": "POST",
+   "url": "https://umdcv4.tmall.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=main.m.tmall.com&biz=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://umdcv4.taobao.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=havanalogin.taobao.com&biz=0"
+  },
+  {
+   "method": "POST",
+   "url": "https://umdcv4.taobao.com/repWd.json?e=2072&sv=247&pv=234&pn=havanalogin.taobao.com&biz=0&bx-umidtoken=T2gAAtvgZHFpfr8sNZMGACliIrtVHvrasjcj7HCkF7xR6sxpy3igkl4v4_7Luyp9oGU=&tid=aqTa_5T5WfFsKXtWQUUPUZeOXVgd5js_1PqJZ4UrYxY=&eeid=OphRVWIXhTtYQpaD!DDPlEzPEiqwLg5VA8MQXSA==&x-pipu2=%7Bnb%7B%60kxpflkffqw%606s2%2Cl4bzcm%7Fr)%2F%2C%2Fm.fj%3Dgo%7Bo%7Befc%7D~go%7Bo%7Befc%7D~&bx-ua=234!5o6eKj3feeP4MAMbiwr2XB2I"
+  },
+  {
+   "method": "POST",
+   "url": "https://umdcv4.taobao.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=loginmyseller.taobao.com&biz=0"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://work.taobao.com/download.html?spm=a21dvs.24173238.0.0.26381544TE71hH",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://work.taobao.com/",
+   "text": "关于千牛",
+   "region": "BODY"
+  }
+ ]
+}

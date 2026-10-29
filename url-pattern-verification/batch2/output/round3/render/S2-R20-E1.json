@@ -1,0 +1,326 @@
+{
+ "url": "https://www.feigua.cn/StudyReport",
+ "observed_at": "2026-10-29T08:50:32.338Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.feigua.cn/StudyReport",
+ "status": 200,
+ "error": null,
+ "title": "飞瓜数据",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 44,
+   "new_in_prefix": 44,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 56,
+   "new_in_prefix": 12,
+   "clicked": null
+  },
+  {
+   "round": 2,
+   "anchors": 56,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://www.feigua.cn/StudyReport/getList?keyword=&platform=0&tagStr=0&sort=0&page=1"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.feigua.cn/StudyReport/getList?keyword=&platform=0&tagStr=0&sort=0&page=2"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.feigua.cn/StudyReport/getList?keyword=&platform=0&tagStr=0&sort=0&page=3"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://dy.feigua.cn/?chl=feigua2",
+   "text": "飞瓜",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://dy.feigua.cn/?chl=feigua2",
+   "text": "飞瓜抖音",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ks.feigua.cn/?chl=feigua2",
+   "text": "飞瓜快手",
+   "region": "NAV"
+  },
+  {
+   "href": "https://bz.feigua.cn/?chl=feigua2",
+   "text": "飞瓜B站",
+   "region": "NAV"
+  },
+  {
+   "href": "https://pc.feigua.cn/?chl=feigua2",
+   "text": "飞瓜品策",
+   "region": "NAV"
+  },
+  {
+   "href": "https://zhitou.feigua.cn/?source=MTg2ZGM=",
+   "text": "飞瓜智投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://zhixing.feigua.cn/?chl=feigua2",
+   "text": "飞瓜智星",
+   "region": "NAV"
+  },
+  {
+   "href": "https://yt.feigua.cn/?chl=feigua2",
+   "text": "飞瓜易投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport",
+   "text": "飞瓜研报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.feigua.cn/pricing",
+   "text": "组合套餐",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport#",
+   "text": "果集产品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.xiguaji.com/?chl=feigua",
+   "text": "西瓜数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.qian-gua.com/?chl=feigua",
+   "text": "千瓜数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.youwant.cn/?chl=feigua",
+   "text": "友望数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.ji-gua.com/?chl=feigua",
+   "text": "集瓜数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.yunluepro.com/?chl=feigua",
+   "text": "云略数据",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:;",
+   "text": "搜索",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport",
+   "text": "飞瓜研报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=194",
+   "text": "2026年飞瓜抖音家居家装品类线上消费市场洞察\n行业洞察\n2026-10-28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=192",
+   "text": "2026年09月飞瓜抖音电商营销月报\n月度报告\n2026-10-10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=196",
+   "text": "2026年飞瓜抖音专业运动鞋品类线上消费市场洞察\n行业洞察\n2026-09-16",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=193",
+   "text": "2026年08月飞瓜抖音电商营销月报\n月度报告\n2026-09-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=195",
+   "text": "2026上半年抖音电商与营销投放报告\n行业洞察\n年度报告\n2026-08-26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=189",
+   "text": "2026年飞瓜抖音宠物生活品类线上消费市场洞察\n母婴宠物\n2026-08-12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=187",
+   "text": "2026年7月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-08-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=188",
+   "text": "2026年7月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-08-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=190",
+   "text": "2026年飞瓜抖音厨房电器品类线上消费市场洞察\n3C数码家电\n2026-07-15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=185",
+   "text": "2026年6月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-07-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=186",
+   "text": "2026年6月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-07-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=183",
+   "text": "2026年抖音生鲜线上消费市场洞察\n行业洞察\n2026-06-24",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=181",
+   "text": "2026年05月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-06-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=182",
+   "text": "2026年5月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-06-03",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=184",
+   "text": "2026年抖音个护家清品类线上消费洞察\n行业洞察\n美妆个护\n2026-05-27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=179",
+   "text": "2026年4月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-05-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=180",
+   "text": "2026年4月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-05-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=178",
+   "text": "2026年Q1抖音乳制品线上消费市场洞察\n行业洞察\n食品饮料\n2026-04-29",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=176",
+   "text": "2026年3月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-04-09",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=175",
+   "text": "2026年3月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-04-08",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=177",
+   "text": "2026年飞瓜抖音美妆品类线上消费市场洞察\n行业洞察\n美妆个护\n2026-03-18",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=173",
+   "text": "2026年2月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-03-04",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=171",
+   "text": "2026年1月飞瓜快手直播电商月报\n行业洞察\n月度报告\n2026-02-05",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/StudyReport/Detail?id=172",
+   "text": "2026年1月飞瓜抖音电商营销月报\n行业洞察\n月度报告\n2026-02-04",
+   "region": "BODY"
+  },
+  {
+   "href": "https://data.xiguaji.com/?chl=feigua",
+   "text": "西瓜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.yiguaerp.com/?chl=feigua",
+   "text": "易瓜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.qian-gua.com/?chl=feigua",
+   "text": "千瓜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youwant.cn/?chl=feigua",
+   "text": "友望",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.ji-gua.com/?chl=feigua",
+   "text": "集瓜",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/home/about",
+   "text": "公司介绍",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/Contact",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dy.feigua.cn/About/Disclaimer",
+   "text": "免责申明",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/article/cate_2/1.html",
+   "text": "行业资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.feigua.cn/article/cate_1/1.html",
+   "text": "数据报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/#/Integrated/index",
+   "text": "闽ICP备19018186号-6",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010402351290",
+   "text": "闽公网安备 35010402351290号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhihu.com/org/xi-gua-jun-64-60",
+   "text": "",
+   "region": "BODY"
+  }
+ ]
+}

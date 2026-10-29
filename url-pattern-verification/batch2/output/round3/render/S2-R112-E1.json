@@ -1,0 +1,484 @@
+{
+ "url": "https://www.iresearch.com.cn/Research.shtml",
+ "observed_at": "2026-10-29T08:53:19.383Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.iresearch.com.cn/Research.shtml",
+ "status": 200,
+ "error": null,
+ "title": "艾瑞研究咨询服务-艾瑞咨询",
+ "h1": "艾瑞咨询",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 88,
+   "new_in_prefix": 88,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 88,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://scrm-wx.weiling.cn/marketing_track/track?corp_id=wpW2WmDAAAJgs-pbR06yyf7bWQAyndWQ&ttype=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://scrm-wx.weiling.cn/marketing_track/track?corp_id=wpW2WmDAAAJgs-pbR06yyf7bWQAyndWQ&ttype=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://scrm-wx.weiling.cn/marketing_track/track?corp_id=wpW2WmDAAAJgs-pbR06yyf7bWQAyndWQ&ttype=1"
+  },
+  {
+   "method": "POST",
+   "url": "https://scrm-wx.weiling.cn/marketing_track/track?corp_id=wpW2WmDAAAJgs-pbR06yyf7bWQAyndWQ&ttype=1"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.iresearch.com.cn/",
+   "text": "艾瑞咨询",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.cn/",
+   "text": "艾瑞网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/",
+   "text": "艾瑞咨询",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/report.shtml",
+   "text": "研究报告",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:;",
+   "text": "研究咨询",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions.shtml",
+   "text": "行业方案",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research.shtml",
+   "text": "研究服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Consultant.shtml",
+   "text": "咨询服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Consulting.shtml",
+   "text": "投研服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Internet.shtml",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Films.shtml",
+   "text": "影视",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/AdCompany.shtml",
+   "text": "广告公司",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Fmsg.shtml",
+   "text": "快消",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Finance.shtml",
+   "text": "金融",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Investor.shtml",
+   "text": "投资机构",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Tour.shtml",
+   "text": "旅游",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Car.shtml",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Telecom.shtml",
+   "text": "电信",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Land.shtml",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions/Govt.shtml",
+   "text": "政府",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Brand.shtml",
+   "text": "品牌研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml",
+   "text": "营销／广告研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml",
+   "text": "运营精细化研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Product.shtml",
+   "text": "产品创新策略研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml",
+   "text": "汽车研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Retail.shtml",
+   "text": "新零售及电子商务研究",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/industry-digital",
+   "text": "数字化战略咨询",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Consultant.shtml",
+   "text": "管理咨询服务",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:;",
+   "text": "产品服务",
+   "region": "NAV"
+  },
+  {
+   "href": "https://index.iresearch.com.cn/",
+   "text": "艾瑞指数",
+   "region": "NAV"
+  },
+  {
+   "href": "https://data.iresearch.com.cn/iRView.shtml",
+   "text": "数据产品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://irc.iresearch.com.cn/",
+   "text": "艾瑞智慧",
+   "region": "NAV"
+  },
+  {
+   "href": "https://index.iresearch.com.cn/app",
+   "text": "移动APP指数\nMobile App Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://index.iresearch.com.cn/ad",
+   "text": "网络广告指数\nOnline Advertising Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://index.iresearch.com.cn/device",
+   "text": "移动设备指数\nMobile Device Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://index.iresearch.com.cn/new/#/video/",
+   "text": "视频媒体内容指数\nMedia Video Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://ircloud.iresearchdata.cn/ai-index/",
+   "text": "AI应用指数\nAI APP Index",
+   "region": "NAV"
+  },
+  {
+   "href": "https://irv.iresearch.com.cn/iResearchDataWeb/?m=index&a=xut",
+   "text": "UserTracker第三方网民网络行为监测",
+   "region": "NAV"
+  },
+  {
+   "href": "https://irv.iresearch.com.cn/iResearchDataWeb/?m=index&a=xvt",
+   "text": "VideoTracker第三方视频内容监测",
+   "region": "NAV"
+  },
+  {
+   "href": "https://irv.iresearch.com.cn/iResearchDataWeb/?m=index&a=ad",
+   "text": "AdTracker第三方竞品广告投放监测",
+   "region": "NAV"
+  },
+  {
+   "href": "https://irv.iresearch.com.cn/jump/mt2",
+   "text": "MiniTracker第三方小程序行为监测",
+   "region": "NAV"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "搜索",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/help?ids=7",
+   "text": "《用户服务协议》和《隐私政策》",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Brand.shtml#dw",
+   "text": "品牌定位研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Brand.shtml#zc",
+   "text": "品牌资产研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Brand.shtml#zz",
+   "text": "品牌追踪研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Brand.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml#1",
+   "text": "整合数字化营销监测与洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml#2",
+   "text": "品牌赞助和广告效果研究与优化",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml#3",
+   "text": "媒体价值和营销定位",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml#4",
+   "text": "社会化营销研究和监测",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml#5",
+   "text": "目标用户定位",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Marketing.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml#1",
+   "text": "互联网行业竞争洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml#2",
+   "text": "移动端站内用户行为",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml#3",
+   "text": "游戏用户研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml#4",
+   "text": "用户体验研究（NPS）",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Operation.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Product.shtml#1",
+   "text": "产品概念测试",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Product.shtml#2",
+   "text": "产品定价研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Product.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml#1",
+   "text": "产品开发研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml#2",
+   "text": "上市营销研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml#3",
+   "text": "市场追踪研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml#4",
+   "text": "服务体验研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Automobile.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Retail.shtml#1",
+   "text": "电商营销监测",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Retail.shtml#2",
+   "text": "付费流量ROI研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Retail.shtml#3",
+   "text": "电商用户研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research/Retail.shtml",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Solutions.shtml",
+   "text": "行业方案",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/report.shtml",
+   "text": "产业研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Datas.shtml",
+   "text": "数据服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Research.shtml",
+   "text": "研究服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/Consulting.shtml",
+   "text": "投资研究",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/company.shtml",
+   "text": "公司简介",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/team.shtml",
+   "text": "管理团队",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/newslist.shtml",
+   "text": "公司新闻",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/contact.shtml",
+   "text": "联系我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.iresearch.com.cn/about/job.shtml",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "http://weibo.com/iresearch",
+   "text": "新浪微博",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000584",
+   "text": "沪公网安备 31010402000584号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "沪ICP备15021772号-8",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "咨询·反馈",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "返回顶部",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000584",
+   "text": "沪公网安备 31010402000584号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "沪ICP备15021772号-8",
+   "region": "BODY"
+  }
+ ]
+}

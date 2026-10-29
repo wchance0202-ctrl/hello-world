@@ -1,0 +1,614 @@
+{
+ "url": "https://www.sensorsdata.cn/blog",
+ "observed_at": "2026-10-29T08:54:44.395Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.sensorsdata.cn/blog",
+ "status": 200,
+ "error": null,
+ "title": "神策数据技术博客",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 114,
+   "new_in_prefix": 114,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 114,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://www.sensorsdata.cn/api/passport/whoami"
+  },
+  {
+   "method": "POST",
+   "url": "https://org-257.app.sensorswave.cn/in/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://org-257.app.sensorswave.cn/in/track"
+  },
+  {
+   "method": "POST",
+   "url": "https://org-257.app.sensorswave.cn/in/track"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.sensorsdata.cn/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/maturity.html",
+   "text": "数据成熟度测评",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/engines/CDP.html",
+   "text": "客户数据引擎 CDP",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/engines/CJA.html",
+   "text": "客户旅程分析引擎",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/engines/JOE.html",
+   "text": "客户旅程优化引擎",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/product/analysis.html",
+   "text": "神策分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/product/userTag.html",
+   "text": "神策用户画像",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/product/focus.html",
+   "text": "神策智能运营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/product/ad.html",
+   "text": "神策广告分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/features/ABTesting.html",
+   "text": "神策 A/B 测试",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/product/cdp.html",
+   "text": "神策数界平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/features/overview.html",
+   "text": "查看所有产品",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/analysis.html",
+   "text": "用户与经营分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/customerjourney.html",
+   "text": "个性化用户旅程",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/adtrack.html",
+   "text": "广告全链路分析",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/overseasBusiness.html",
+   "text": "出海解决方案",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/wxEcology.html",
+   "text": "微信生态数字化运营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/allFamily.html",
+   "text": "通用数字化运营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/retail.html",
+   "text": "品牌零售",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/ecommerce.html",
+   "text": "电子商务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/tool.html",
+   "text": "互联网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/entertainment.html",
+   "text": "社交文娱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/education.html",
+   "text": "教育行业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/game.html",
+   "text": "游戏",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/SaaS.html",
+   "text": "企业服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/automotive.html",
+   "text": "汽车",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/healthCare.html",
+   "text": "医疗服务",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/iptv.html",
+   "text": "融合媒体",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/security.html",
+   "text": "证券",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/bank.html",
+   "text": "银行",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/insurance.html",
+   "text": "保险",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/finance.html",
+   "text": "互联网金融",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/overview.html",
+   "text": "查看所有解决方案",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/school/library",
+   "text": "资源图书馆",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/",
+   "text": "博客文章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/researchInstitute.html",
+   "text": "神策研究院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/target_disassembly.html",
+   "text": "指标拆解工具",
+   "region": "BODY"
+  },
+  {
+   "href": "https://manual.sensorsdata.cn/",
+   "text": "帮助与支持",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/about/aboutus.html",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://school.sensorsdata.cn/home",
+   "text": "神策学堂",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/api/com?p=/en",
+   "text": "EN",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/demo/demo.html",
+   "text": "体验 Demo",
+   "region": "BODY"
+  },
+  {
+   "href": "tel:400-650-9827",
+   "text": "400-650-9827",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog",
+   "text": "博客文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog",
+   "text": "全部文章",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/demo/demo.html",
+   "text": "体验 Demo",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/ke-hu-lu-cheng",
+   "text": "客户旅程",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/lv-cheng-bian-pai-yin-qing",
+   "text": "旅程编排引擎",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/yong-hu-ti-yan",
+   "text": "用户体验",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/ying-xiao-zi-dong-hua/",
+   "text": "营销自动化",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/useroperate/",
+   "text": "用户运营",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/jing-xi-hua-yun-ying/",
+   "text": "精细化运营",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/cdp/",
+   "text": "CDP",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/dataacquisition/",
+   "text": "数据采集",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/datadriven/",
+   "text": "数据驱动",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/hua-xiang-biao-qian/",
+   "text": "画像标签",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/shu-ju-fen-xi/",
+   "text": "数据分析",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/shu-zi-hua-zhuan-xing/",
+   "text": "数字化转型",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/tag/shu-ju-mai-dian/",
+   "text": "数据埋点",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20230316/",
+   "text": "神策数据知识科普丨关于数据分析模型的十问十答\n\n2023年03月26日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20230202/",
+   "text": "深入解读神策分析云两大闭环，助力企业全面数字化转型应用\n\n2023年02月02日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20230105/",
+   "text": "神策营销云平台化应用实践\n\n2023年01月05日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/jie-xi-chang-jian-de-shu-ju-fen-xi-mo-xing-liu-cun-fen-xi/",
+   "text": "解析常见的数据分析模型——留存分析\n\n2017年06月16日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20180526/",
+   "text": "揭秘：数据采集不准确的原因\n\n2023年03月26日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/technical_implementation_of_sensors_analytics/",
+   "text": "神策分析的技术选型与架构实现\n\n2016年09月20日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20180515/",
+   "text": "用户分析模型——属性分析的使用方法\n\n2018年05月15日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20180714/",
+   "text": "什么是用户画像？如何构建与应用用户画像？\n\n2018年07月17日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/20180717/",
+   "text": "什么是个性化推荐？如何构建个性化推荐体系？\n\n2023年03月26日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/blog/shu-ju-jie-ru-yu-mai-dian/",
+   "text": "数据采集与埋点\n\n2016年01月26日",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/features/overview.html",
+   "text": "产品",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/terms/lifecycle.html",
+   "text": "产品生命周期管理",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/target_disassembly.html",
+   "text": "指标拆解工具",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/service/saceSearch.html",
+   "text": "SA 认证查询",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/overview.html",
+   "text": "解决方案",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/school/library",
+   "text": "资源中心",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/terms/partners.html",
+   "text": "伙伴生态",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://school.sensorsdata.cn/home",
+   "text": "神策学堂",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/service/support.html",
+   "text": "服务体系",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/trust/center.html",
+   "text": "信任中心",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/compliance/law.html",
+   "text": "法律声明",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/compliance/infringement.html",
+   "text": "反侵权公告",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/about/aboutus.html",
+   "text": "公司介绍",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://sensorsdata.zhiye.com/",
+   "text": "加入我们",
+   "region": "MAIN"
+  },
+  {
+   "href": "tel:400-650-9827",
+   "text": "Tel: 400-650-9827",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:contact@sensorsdata.com",
+   "text": "E-mail: contact@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:mkt@sensorsdata.com",
+   "text": "合作联系: mkt@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:hr@sensorsdata.com",
+   "text": "简历投递: hr@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:jubao@sensorsdata.com",
+   "text": "举报投诉: jubao@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "京ICP备15055677号",
+   "region": "MAIN"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/recordQuery?token=eb719653-c4af-4774-88e3-2229635ebc23",
+   "text": "京公网安备 11010802027887号",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://sensorsdata.cn/assets/figure/pdf/2026/%E7%A5%9E%E7%AD%96%E6%95%B0%E6%8D%AE%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E8%8A%82%E7%9B%AE%E5%88%B6%E4%BD%9C%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF%E8%AF%8120260105.pdf",
+   "text": "广播电视节目制作经营许可证（京）字第22320号",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/features/overview.html",
+   "text": "产品",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/terms/lifecycle.html",
+   "text": "产品生命周期管理",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/target_disassembly.html",
+   "text": "指标拆解工具",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/service/saceSearch.html",
+   "text": "SA 认证查询",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/solutions/overview.html",
+   "text": "解决方案",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/school/library",
+   "text": "资源中心",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/terms/partners.html",
+   "text": "伙伴生态",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://school.sensorsdata.cn/home",
+   "text": "神策学堂",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/service/support.html",
+   "text": "服务体系",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/trust/center.html",
+   "text": "信任中心",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/compliance/law.html",
+   "text": "法律声明",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/compliance/infringement.html",
+   "text": "反侵权公告",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/about/aboutus.html",
+   "text": "公司介绍",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://sensorsdata.zhiye.com/",
+   "text": "加入我们",
+   "region": "MAIN"
+  },
+  {
+   "href": "tel:400-650-9827",
+   "text": "Tel: 400-650-9827",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:contact@sensorsdata.com",
+   "text": "E-mail: contact@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:mkt@sensorsdata.com",
+   "text": "合作联系: mkt@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:hr@sensorsdata.com",
+   "text": "简历投递: hr@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "mailto:jubao@sensorsdata.com",
+   "text": "举报投诉: jubao@sensorsdata.com",
+   "region": "MAIN"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "京ICP备15055677号",
+   "region": "MAIN"
+  },
+  {
+   "href": "tel:400-650-9827",
+   "text": "400-650-9827",
+   "region": "BODY"
+  },
+  {
+   "href": "mailto:contact@sensorsdata.com",
+   "text": "contact@sensorsdata.com",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.sensorsdata.cn/target_disassembly.html",
+   "text": "指标拆解工具",
+   "region": "BODY"
+  }
+ ]
+}

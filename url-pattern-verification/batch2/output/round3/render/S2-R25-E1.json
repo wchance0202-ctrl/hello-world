@@ -1,0 +1,701 @@
+{
+ "url": "https://www.analysys.cn/trends",
+ "observed_at": "2026-10-29T08:50:32.278Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.analysys.cn/trends",
+ "status": 200,
+ "error": null,
+ "title": "易观动态-易观分析",
+ "h1": "易观动态",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 133,
+   "new_in_prefix": 133,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 133,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://uat.analysys.cn:4089/configure?appkey=fabe794a74554435&lib=Js&url=https%3A%2F%2Fwww.analysys.cn%2Ftrends"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.analysys.cn/api/user/getUserInfo"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "网站首页",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:;",
+   "text": "登录",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:;",
+   "text": "立即注册",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/trends",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/analysis",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/activity",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/article/media",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#honor",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#course",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#teams",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#contactus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/about/#culture",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/joinus",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/es/search",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.analysys.cn/trends",
+   "text": "易观动态",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.analysys.cn/article/analysis/",
+   "text": "热门分析",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.analysys.cn/article/activity/",
+   "text": "易观活动",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.analysys.cn/article/media/",
+   "text": "合作媒体",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021467",
+   "text": "2026 中国企业全球影响力 TOP10 出炉！谁...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021467",
+   "text": "2026 中国企业全球影响力 TOP10 出炉！谁是出海浪潮中的真正 \"压舱石\"？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021465",
+   "text": "2026中国企业全球影响力百强出炉！前十名...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021465",
+   "text": "2026中国企业全球影响力百强出炉！前十名单速看",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021452",
+   "text": "易观参与新华GEO智能体平台规范治理生态矩...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021452",
+   "text": "易观参与新华GEO智能体平台规范治理生态矩阵",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021450",
+   "text": "易观分析参加《商贸流通业生成式引擎优化...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021450",
+   "text": "易观分析参加《商贸流通业生成式引擎优化（GEO）智能营销技术服务规范》团体标准起草会议",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021425",
+   "text": "重磅发布：2025中国手机银行年度报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021425",
+   "text": "重磅发布：2025中国手机银行年度报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021424",
+   "text": "易观千帆|2025手机银行数字化综合服务能...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021424",
+   "text": "易观千帆|2025手机银行数字化综合服务能力TOP50：头部银行月活逼近2亿，“五化”服务成为未来升级大方向",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021396",
+   "text": "2025“易观之星”年度奖项揭晓：锚定AI与...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021396",
+   "text": "2025“易观之星”年度奖项揭晓：锚定AI与体验双引擎，智创产业新篇章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021375",
+   "text": "2025易观之星申报开启！聚焦AI深度融合与极致用户体验",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021276",
+   "text": "易观千帆重磅发布“三度用户体验管理标准...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021276",
+   "text": "易观千帆重磅发布“三度用户体验管理标准”，聚焦金融用户体验提升",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021266",
+   "text": "易观AI战力飙升营，助你突破重围，毕业即...",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021266",
+   "text": "易观AI战力飙升营，助你突破重围，毕业即就业 ！",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=1",
+   "text": "1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=2",
+   "text": "2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=3",
+   "text": "3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=4",
+   "text": "4",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=5",
+   "text": "5",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=6",
+   "text": "6",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=7",
+   "text": "7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=8",
+   "text": "8",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=9",
+   "text": "9",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=10",
+   "text": "10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=1",
+   "text": "1",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=2",
+   "text": "2",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=3",
+   "text": "3",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=4",
+   "text": "4",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=5",
+   "text": "5",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=6",
+   "text": "6",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=7",
+   "text": "7",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=8",
+   "text": "8",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=9",
+   "text": "9",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=10",
+   "text": "10",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=11",
+   "text": "11",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=12",
+   "text": "12",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=13",
+   "text": "13",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=14",
+   "text": "14",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=15",
+   "text": "15",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=16",
+   "text": "16",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=17",
+   "text": "17",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=18",
+   "text": "18",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=19",
+   "text": "19",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=20",
+   "text": "20",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=21",
+   "text": "21",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=22",
+   "text": "22",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=23",
+   "text": "23",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=24",
+   "text": "24",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=25",
+   "text": "25",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=26",
+   "text": "26",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=27",
+   "text": "27",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=28",
+   "text": "28",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=29",
+   "text": "29",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=30",
+   "text": "30",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=31",
+   "text": "31",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=32",
+   "text": "32",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=33",
+   "text": "33",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=34",
+   "text": "34",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=35",
+   "text": "35",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=36",
+   "text": "36",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=37",
+   "text": "37",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=38",
+   "text": "38",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=39",
+   "text": "39",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=40",
+   "text": "40",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=41",
+   "text": "41",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=42",
+   "text": "42",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=43",
+   "text": "43",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=44",
+   "text": "44",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=45",
+   "text": "45",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=46",
+   "text": "46",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=47",
+   "text": "47",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=48",
+   "text": "48",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=49",
+   "text": "49",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=50",
+   "text": "50",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=51",
+   "text": "51",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=52",
+   "text": "52",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=53",
+   "text": "53",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/trends?p=2",
+   "text": "下一页",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "确定",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021425",
+   "text": "重磅发布：2025中国手机银行年度报告",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021396",
+   "text": "2025“易观之星”年度奖项揭晓：锚定AI与体验双引擎，智创产业新篇章",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021375",
+   "text": "2025易观之星申报开启！聚焦AI深度融合与极致用户体验",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.analysys.cn/article/detail/20021424",
+   "text": "易观千帆|2025手机银行数字化综合服务能力TOP50：头部银行月活逼近2亿，“五化”服务成为未来升级大方向",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.zhihu.com/org/yi-guan-fen-xi",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qianfan.tech/",
+   "text": "易观千帆",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://boyue.analysys.cn/",
+   "text": "易观博阅",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "ygfx@analysys.com.cn",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.qianfan.tech/",
+   "text": "易观千帆",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.cda.cn/",
+   "text": "分析师",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.sunrate.com/?channelCode=analysys",
+   "text": "寻汇",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.bdwork.com/",
+   "text": "BD",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.analysysdata.com/",
+   "text": "易观数科",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.infoq.cn/",
+   "text": "infoQ",
+   "region": "FOOTER"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502031510",
+   "text": "|\n京公网安备11010502031510号",
+   "region": "FOOTER"
+  },
+  {
+   "href": "tel:4006-010-231",
+   "text": "4006-010-231",
+   "region": "FOOTER"
+  },
+  {
+   "href": "mailto:ygfx@analysys.com.cn",
+   "text": "ygfx@analysys.com.cn",
+   "region": "FOOTER"
+  }
+ ]
+}

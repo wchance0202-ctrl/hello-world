@@ -1,0 +1,1302 @@
+{
+ "url": "https://www.jiemian.com/lists/154.html",
+ "observed_at": "2026-10-29T09:23:51.156Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/154.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/154.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "数据_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 255,
+   "new_in_prefix": 255,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 255,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "天下",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "中国",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "地方",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "评论",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "数据",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "职场",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "国是",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "文娱",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "影像",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "营销",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "大湾区",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "ESG",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "双碳",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "长三角",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "中西部",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "评论",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "国是",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "数据",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/499.html",
+   "text": "数据线",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "小数据 | 卷出新高度！4地文旅8天发布超200条视频，最多涨粉超150万",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "山西、河北、四川、河南4地文旅部门8天发布超200条视频。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "基本面 | 全年全国城镇调查失业率同比下降，12月环比增长0.1个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "2023年全国城镇调查失业率平均值为5.2%，比上年下降0.4个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "基本面 | 2023年人均可支配收入增速升至6.1%，消费支出增速9%由负转正",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "2023年全国居民人均可支配收入39218元，扣除价格因素实际增长6.1%，增速提升3.2个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "小数据 | 卷出新高度！4地文旅8天发布超200条视频，最多涨粉超150万",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "山西、河北、四川、河南4地文旅部门8天发布超200条视频。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "基本面 | 全年全国城镇调查失业率同比下降，12月环比增长0.1个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "2023年全国城镇调查失业率平均值为5.2%，比上年下降0.4个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "基本面 | 2023年人均可支配收入增速升至6.1%，消费支出增速9%由负转正",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "2023年全国居民人均可支配收入39218元，扣除价格因素实际增长6.1%，增速提升3.2个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "小数据 | 卷出新高度！4地文旅8天发布超200条视频，最多涨粉超150万",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10688934.html",
+   "text": "山西、河北、四川、河南4地文旅部门8天发布超200条视频。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "基本面 | 全年全国城镇调查失业率同比下降，12月环比增长0.1个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686512.html",
+   "text": "2023年全国城镇调查失业率平均值为5.2%，比上年下降0.4个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "基本面 | 2023年人均可支配收入增速升至6.1%，消费支出增速9%由负转正",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686827.html",
+   "text": "2023年全国居民人均可支配收入39218元，扣除价格因素实际增长6.1%，增速提升3.2个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686653.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686653.html",
+   "text": "基本面 | 2023年服务零售额同比增长20%，增速连续三月回升",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686653.html",
+   "text": "2023年全年服务零售额同比增长20.0%，较1—11月上涨0.5个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686481.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686481.html",
+   "text": "基本面 | 2023年社会消费品零售总额增长7.2%由负转正，较上年提升7.4个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686481.html",
+   "text": "2023年商品零售比上年增长5.8%，增速提升5.3个百分点；餐饮收入增长20.4%，增速提升26.7个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120534408",
+   "text": "李泽坤LZK",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686276.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686276.html",
+   "text": "基本面 | 2023年全国房地产开发投资同比下降9.6%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686276.html",
+   "text": "2023年，全国房地产开发投资同比下降9.6%，其中住宅投资同比下降9.3%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686435.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686435.html",
+   "text": "基本面 | 连续创新高！12月全国企业就业人员每周平均工作49小时",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686435.html",
+   "text": "2023年12月全国企业就业人员周平均工作时间为49.0小时，较上月增加0.1小时，较上年同期增加1.1小时。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686244.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686244.html",
+   "text": "基本面 | 2023年中国GDP增长5.2%",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686244.html",
+   "text": "据国家统计局初步核算，全年国内生产总值1260582亿元，按不变价格计算，比上年增长5.2%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686188.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686188.html",
+   "text": "基本面 | 12月70城二手房价环比全部下降",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10686188.html",
+   "text": "2023年12月，70个大中城市新建商品住宅销售价格环比下降城市达62个，较上月增加3个。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10674907.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10674907.html",
+   "text": "基本面 | 央行连续14月超额续作MLF，利率不变",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10674907.html",
+   "text": "1月15日，央行开展9950亿元1年期MLF操作，中标利率为2.5%，与此前持平。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10673094.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10673094.html",
+   "text": "数据 | 我国汽车出口及国内销量创新高，12月份乘用车零售量连续五月增长",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10673094.html",
+   "text": "据中汽协数据，2023年我国汽车产销量首次均突破3000万辆，创历史新高；此外据乘联会数据，2023年我国汽车出口量和金额均为世界第一。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670514.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670514.html",
+   "text": "基本面 | 全年社融增量累计35.59万亿元，12月份连续五月高于去年同期水平",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670514.html",
+   "text": "初步统计，2023年全年社会融资规模增量累计为35.59万亿元，比上年多3.41万亿元。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670451.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670451.html",
+   "text": "基本面 | 2023年末人民币贷款余额同比增长10.6%，增速连续三年下降",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670451.html",
+   "text": "2023年末人民币贷款余额237.59万亿元，同比增长10.6%，较上年同期低0.5个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120534408",
+   "text": "李泽坤LZK",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670343.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670343.html",
+   "text": "基本面 | 12月M2同比增长9.7%，增速降至21个月新低",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10670343.html",
+   "text": "12月末，广义货币（M2）余额292.27万亿元，同比增长9.7%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667955.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667955.html",
+   "text": "数据 | 2023年约1000个商业银行网点消失，这个地区退出数量最多",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667955.html",
+   "text": "2023年全国累计超2700个商业网点退出运营，新增网点近1700个，商业网点数量净减少约1000个",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120534408",
+   "text": "李泽坤LZK",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667490.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667490.html",
+   "text": "基本面 | 2023年中国进出口总值同比增长0.2%，12月增速创8个月新高",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10667490.html",
+   "text": "2023年，我国货物贸易进出口总值41.76万亿元，同比增长0.2%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666959.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666959.html",
+   "text": "基本面 | 全年PPI同比下降3%，12月跌幅收窄0.3个百分点",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666959.html",
+   "text": "2023年12月份，全国工业生产者出厂价格同比下降2.7%，较上月跌幅收窄0.3个百分点。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120534408",
+   "text": "李泽坤LZK",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666606.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666606.html",
+   "text": "基本面 | 全年CPI同比上涨0.2%，12月同比连续3个月负增长",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10666606.html",
+   "text": "2023年12月，全国居民消费价格同比下降0.3%，环比上涨0.1%；全年CPI比上年上涨0.2%。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120504522",
+   "text": "王涓婷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10663736.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10663736.html",
+   "text": "小数据 | 谁在打卡爆火的哈尔滨？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10663736.html",
+   "text": "近一个月前往哈尔滨的游客中，“90后”占比最高，女性游客更多。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=112204278",
+   "text": "孟令稀",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10647412.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10647412.html",
+   "text": "参变量 | 始祖鸟近一半营收来自中国，国内门店比北美更赚钱",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10647412.html",
+   "text": "2023年前三季度，亚玛芬体育营收同比增长29.9%，但仍在亏损。分地区看，中国市场营收增长最快。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119767705",
+   "text": "李童LT",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10642493.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10642493.html",
+   "text": "基本面 | 央行黄金储备“14连增”，全年增持量创八年新高",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/10642493.html",
+   "text": "2023年12月末，央行黄金储备为7187万盎司，较上月末增加29万盎司，单月增持量连续四月减少。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120534408",
+   "text": "李泽坤LZK",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=117144041",
+   "text": "何苗HM",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}

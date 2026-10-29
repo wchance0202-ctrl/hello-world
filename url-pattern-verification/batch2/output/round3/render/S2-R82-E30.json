@@ -1,0 +1,1297 @@
+{
+ "url": "https://www.jiemian.com/lists/840.html",
+ "observed_at": "2026-10-29T09:06:55.018Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.jiemian.com/lists/840.html",
+ "status": null,
+ "error": "TimeoutError: page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.jiemian.com/lists/840.html\", waiting until \"networkidle\"\u001b[22m\n",
+ "title": "腕表_界面新闻",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 254,
+   "new_in_prefix": 254,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 254,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "首页",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/923.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/2.html",
+   "text": "商业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/65.html",
+   "text": "科技",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/62.html",
+   "text": "地产",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/51.html",
+   "text": "汽车",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/31.html",
+   "text": "消费",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/28.html",
+   "text": "工业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/68.html",
+   "text": "时尚",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/30.html",
+   "text": "交通",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/472.html",
+   "text": "医药",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/851.html",
+   "text": "互联网",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/858.html",
+   "text": "创投",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/856.html",
+   "text": "能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/853.html",
+   "text": "数码",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/256.html",
+   "text": "教育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/845.html",
+   "text": "食品",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/857.html",
+   "text": "新能源",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/850.html",
+   "text": "家电",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/854.html",
+   "text": "健康",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/676.html",
+   "text": "酒业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/841.html",
+   "text": "物流",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/847.html",
+   "text": "零售",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/838.html",
+   "text": "美妆",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/82.html",
+   "text": "体育",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/181.html",
+   "text": "楼市",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/694.html",
+   "text": "家居",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/848.html",
+   "text": "餐饮",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/846.html",
+   "text": "日用",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/852.html",
+   "text": "企服",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/839.html",
+   "text": "珠宝",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/605.html",
+   "text": "智库",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/872.html",
+   "text": "电厂",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/883.html",
+   "text": "农业",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/956.html",
+   "text": "出海",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/800.html",
+   "text": "财经",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/9.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/86.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/112.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/699.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/174.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/418.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/410.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/889.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/801.html",
+   "text": "新闻",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/32.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/71.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/city/main/277.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/8.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/154.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/50.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/422.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/63.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/225.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/49.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/680.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/712.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/877.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/917.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/927.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "文化生活",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/130.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/105.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/135.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/865.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/643.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/118.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/53.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/main.html",
+   "text": "VIP",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/12.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/20.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/21.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/13.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/15.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/16.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/17.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/pro/lists/18.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/4.html",
+   "text": "快报",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1324kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1322kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1327kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1330kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1326kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/1325kb.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "界面号",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/2.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/account/main/3.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/index_1.html",
+   "text": "视频",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/258_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/videoLive/lists_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/195_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/226_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/567_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/882_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/video/lists/914_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "专题",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/news_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://www.jiemian.com/special/lists/huodong_1.html",
+   "text": "",
+   "region": "NAV"
+  },
+  {
+   "href": "https://en.jiemian.com/",
+   "text": "Global",
+   "region": "NAV"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center",
+   "text": "",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=message&a=index",
+   "text": "消息",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=jifen",
+   "text": "我的面点",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=subscribe&a=news",
+   "text": "我的关注",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=article",
+   "text": "我的文章",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=writer&a=submission",
+   "text": "投稿",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=broke&a=index",
+   "text": "报料",
+   "region": "HEADER"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=personalInfoSetting",
+   "text": "账号设置",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0)",
+   "text": "退出账号",
+   "region": "HEADER"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "专题",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:void(0);",
+   "text": "科技",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/840.html",
+   "text": "腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/708.html",
+   "text": "腕表商业说",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/lists/806.html",
+   "text": "当代腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "上市一年，“金表第一股”西普尼股价较高位跌去近八成",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "西普尼上市后交出的财报并不疲弱，但增长故事能否跑通还有待观察。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "LVMH股价跌回5年前",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "对于LVMH而言，真正需要等待的不是旧周期重新回来，而是旗下品牌如何能再次找到自己在新周期里的位置。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士被指为百年大展55元雇群演：客不好请，表不易卖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士也需要从“躺赢”，变为爬起来“主动出击”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100045340",
+   "text": "楼婍沁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "上市一年，“金表第一股”西普尼股价较高位跌去近八成",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "西普尼上市后交出的财报并不疲弱，但增长故事能否跑通还有待观察。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "LVMH股价跌回5年前",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "对于LVMH而言，真正需要等待的不是旧周期重新回来，而是旗下品牌如何能再次找到自己在新周期里的位置。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士被指为百年大展55元雇群演：客不好请，表不易卖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士也需要从“躺赢”，变为爬起来“主动出击”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100045340",
+   "text": "楼婍沁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "上市一年，“金表第一股”西普尼股价较高位跌去近八成",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15199498.html",
+   "text": "西普尼上市后交出的财报并不疲弱，但增长故事能否跑通还有待观察。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "LVMH股价跌回5年前",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15055419.html",
+   "text": "对于LVMH而言，真正需要等待的不是旧周期重新回来，而是旗下品牌如何能再次找到自己在新周期里的位置。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士被指为百年大展55元雇群演：客不好请，表不易卖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14602226.html",
+   "text": "劳力士也需要从“躺赢”，变为爬起来“主动出击”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=100045340",
+   "text": "楼婍沁",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15262617.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15262617.html",
+   "text": "RICHARD MILLE女性腕表的多重维度",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15262617.html",
+   "text": "一家瑞士顶级制表商是如何构建女性腕表矩阵的？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15044323.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15044323.html",
+   "text": "PIAGET伯爵Polo系列三问腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/15044323.html",
+   "text": "PIAGET伯爵独家臻献Polo系列三问腕表，以半镂空表盘巧妙展现1290P机芯的精妙构造，将源自仙子坡（La Côte-aux-Fées）制表工坊世代沉淀的精工巧艺，尽数凝于腕间方寸。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14663226.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14663226.html",
+   "text": "从“机芯”到“镶嵌”：理查米尔如何讲述制表业原创故事",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14663226.html",
+   "text": "理查米尔2026年推出全新RM HJ-02高级珠宝女士腕表，开启高级珠宝腕表发展的全新篇章。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14581841.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14581841.html",
+   "text": "Miu Miu第三届“故事与叙事者”来到上海，迪奥二零二六冬季系列预览｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14581841.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=119737989",
+   "text": "周芳颖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "朗格呈献两款腕表新作，Forever 21 与玛丽莲·梦露IP联名｜是日美好事物",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/14502714.html",
+   "text": "每周数件美好事物。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13918857.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13918857.html",
+   "text": "斯沃琪联手古根海姆开启艺术新程，IWC万国表新展致敬永恒｜当周腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13918857.html",
+   "text": "近期有这些新表和新展值得关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13855748.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13855748.html",
+   "text": "劳力士中国门店策略大转向",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13855748.html",
+   "text": "劳力士正在大中华区逐步增设二手店，并精简授权经销商网络。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13835247.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13835247.html",
+   "text": "伯爵连续三年推陈出新，正在构筑一个“优雅亦不羁”的社会图景",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13835247.html",
+   "text": "PIAGET伯爵正在上海张园开设高级珠宝限时体验展和限时精品店。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13701072.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13701072.html",
+   "text": "欧米茄带橙色海洋宇宙新表去“山城”",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13701072.html",
+   "text": "欧米茄持续投资重庆、成都并非短期营销试水，而是应对中国市场挑战的战略锚点：以文旅流量激活品牌年轻化表达，平衡高端调性与市场渗透。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13695277.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13695277.html",
+   "text": "百年灵全新璞雅女表彰显个性，斯沃琪全球首发马年生肖表｜当月腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13695277.html",
+   "text": "这些新表和表品牌动态值得关注",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13500972.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13500972.html",
+   "text": "芝柏表纪念桂冠系列50周年，罗杰杜彼方寸表盘间缔造“梅林传说”｜当周腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13500972.html",
+   "text": "每周数款值得关注的腕表。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13425563.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13425563.html",
+   "text": "“金表大王”西普尼的股价凭什么疯涨两倍？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13425563.html",
+   "text": "尽管“黄金+腕表”容易让人联想到奢侈品消费，但西普尼实际上是面向二、三线城市中等收入人群的大众消费品牌。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=120503571",
+   "text": "朱咏玲",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13419682.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13419682.html",
+   "text": "腕间共谱月圆曲｜当月腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13419682.html",
+   "text": "是日美好事物之中秋特辑。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13380645.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13380645.html",
+   "text": "腕表零售市场的独特力量",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13380645.html",
+   "text": "与NBA篮球巨星勒布朗·詹姆斯联手的瑞士豪华制表品牌理查米尔。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13366223.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13366223.html",
+   "text": "积家上海新展览讲述女性与时间的故事",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13366223.html",
+   "text": "一部镌刻在机芯齿轮间的品牌变迁史。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13347997.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13347997.html",
+   "text": "理查朗格白金款跳秒腕表精准优雅，gérald genta限量三问腕表独具创意｜当月腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13347997.html",
+   "text": "是日美好事物之近期这些新表和新展值得关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13333291.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13333291.html",
+   "text": "国产海鸥表发力出海",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13333291.html",
+   "text": "要从“产能输出”变为“品牌输出”。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13247435.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13247435.html",
+   "text": "帝舵表碧湾45型闪耀蔚蓝大海，罗杰杜比双逆跳腕表致敬1995｜当月腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13247435.html",
+   "text": "是日美好事物之近期这些新表和新展值得关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13152941.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13152941.html",
+   "text": "智能表佳明盯上欧米茄的地盘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/13152941.html",
+   "text": "收购荷兰赛事计时供应商MyLaps、赞助国内马拉松赛事，佳能正在加强赛事计时和运动表现管理。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12971276.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12971276.html",
+   "text": "浪琴表庆祝祖鲁时间腕表问世100周年，宇舶表Big Bang系列走过20个年头｜当月腕表",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12971276.html",
+   "text": "是日美好事物之近期这些新表和新展值得关注。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+   "text": "黄姗Shan",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12891301.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12891301.html",
+   "text": "西普尼能靠卖金表撑起港股上市梦吗？",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/article/12891301.html",
+   "text": "且先不论黄金手表本身是否契合当下风潮，光是黄金价格变动就足以让西普尼业绩受到影响。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://a.jiemian.com/index.php?m=user&a=center&id=118330500",
+   "text": "陈奇锐",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.jiemian.com/",
+   "text": "",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/index.html",
+   "text": "关于我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/contact.html",
+   "text": "联系我们",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/adcooperate.html",
+   "text": "广告合作",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/clause.html",
+   "text": "注册协议",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copywriter.html",
+   "text": "投稿须知",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/copyright.html",
+   "text": "版权声明",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://www.jiemian.com/about/jubao.html",
+   "text": "举报及处置",
+   "region": "FOOTER"
+  },
+  {
+   "href": "https://weibo.com/wowjiemian",
+   "text": "微博",
+   "region": "BODY"
+  }
+ ]
+}
