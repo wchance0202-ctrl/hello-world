@@ -110,7 +110,12 @@ def links(base, soup, entry):
             rel = "non_http_action"
             resolved = raw
         else:
-            resolved = urljoin(base, raw)
+            try:
+                resolved = urljoin(base, raw)
+            except ValueError:  # malformed href (e.g. "http://[..."): recorded as-is, never requested
+                out.append({"raw_target": raw, "resolved_url": raw, "relation_hint": "invalid_href",
+                            "region": region_of(a), "position": pos, "text": a.get_text(" ", strip=True)[:160]})
+                continue
             sp = urlsplit(resolved)
             if resolved.split("#", 1)[0] == page_url_nofrag and sp.fragment and not sp.fragment.startswith("!"):
                 rel = "same_page_anchor"  # never counted as a content page
@@ -141,7 +146,8 @@ def probe_host(host, ents, out, args, done, pending):
     s.headers.update({"User-Agent": UA, "Accept-Language": "en"})
     summary = []
     for e in ents:
-        queue = [(e["raw"], None, "entry")] + [tuple(q) for q in pending.get(e["entry_id"], [])]
+        start = e.get("request_url") or e["raw"]  # entries without a scheme carry a request_url
+        queue = [(start, None, "entry")] + [tuple(q) for q in pending.get(e["entry_id"], [])]
         seen_sets, n = {}, 0
         while queue and n < args.max_pages:
             url, parent, rel = queue.pop(0)
@@ -163,7 +169,7 @@ def probe_host(host, ents, out, args, done, pending):
             if soup is None:
                 time.sleep(args.delay)
                 continue
-            es = links(rec["final_url"], soup, e["raw"])
+            es = links(rec["final_url"], soup, start)
             for x in es:
                 append(out / "edges.jsonl", {"entry_id": e["entry_id"], "parent_url": rec["final_url"],
                                              "method": "static_html", "observed_at": rec["observed_at"],
@@ -178,7 +184,7 @@ def probe_host(host, ents, out, args, done, pending):
                 # same main-link set as an earlier page: page parameter likely ignored or cached
                 time.sleep(args.delay)
                 continue
-            ep = urlsplit(e["raw"])
+            ep = urlsplit(start)
             ebase = ep.path if ep.path.endswith("/") else ep.path.rsplit(".", 1)[0]
             for x in es:
                 # follow pagination only inside the entry's own path (not other locales/sections)

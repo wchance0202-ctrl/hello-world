@@ -1,0 +1,5 @@
+# Raw crawl data of batch 2 is still being written by background runs (probe, sitemaps,
+# rendering); it is committed compressed once those runs finish.
+output/round3/probe/
+output/round3/sitemaps/
+output/round3/render/

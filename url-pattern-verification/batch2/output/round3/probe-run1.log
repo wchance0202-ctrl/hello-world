@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/home/user/hello-world/url-pattern-verification/scripts/probe_round1.py", line 230, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/hello-world/url-pattern-verification/scripts/probe_round1.py", line 219, in main
+    summary = [s for f in futs for s in f.result()]
+                                        ~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 402, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/hello-world/url-pattern-verification/scripts/probe_round1.py", line 167, in probe_host
+    es = links(rec["final_url"], soup, start)
+  File "/home/user/hello-world/url-pattern-verification/scripts/probe_round1.py", line 113, in links
+    resolved = urljoin(base, raw)
+  File "/usr/lib/python3.13/urllib/parse.py", line 573, in urljoin
+    urlparse(url, bscheme, allow_fragments)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/parse.py", line 397, in urlparse
+    splitresult = urlsplit(url, scheme, allow_fragments)
+  File "/usr/lib/python3.13/urllib/parse.py", line 516, in urlsplit
+    raise ValueError("Invalid IPv6 URL")
+ValueError: Invalid IPv6 URL

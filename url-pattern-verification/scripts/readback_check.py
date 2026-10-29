@@ -19,8 +19,9 @@ def main(inp, out):
     if hdr != ["指定pattern"] + FIELDS:
         errs.append(f"header {hdr}")
     rows = list(ws.iter_rows(min_row=2, values_only=True))
-    if len(rows) != 152:
-        errs.append(f"rows {len(rows)}")
+    expected_rows = len({e["row"] for e in ents})
+    if len(rows) != expected_rows:
+        errs.append(f"rows {len(rows)} != {expected_rows}")
     # concatenating the cells in order must reproduce the input lines exactly
     joined = [l for r in rows for l in (r[0] or "").split("\n")]
     if joined != body:
@@ -44,7 +45,7 @@ def main(inp, out):
                     if f"{e['entry_id']}" not in (vals[f] or "") or (f != "发现覆盖" and e["raw"] not in vals[f]):
                         errs.append(f"{e['entry_id']} missing in {f}")
         if vals["Pattern 正则"]:
-            formal = {x["pattern"] for x in rules["formal"]}
+            formal = {x["pattern"] for x in rules["formal"]}  # verified + user-adopted rules
             if any(p not in formal for p in vals["Pattern 正则"].split("\n")):
                 errs.append(f"R{i} pattern not in formal rules")
     print(json.dumps({"rows": len(rows), "max_cell_chars": maxlen, "excel_cell_limit": 32767,

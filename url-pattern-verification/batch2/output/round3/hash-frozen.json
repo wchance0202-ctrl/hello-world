@@ -1,0 +1,322 @@
+{
+ "frozen_at": "2026-10-29T08:40:08+00:00",
+ "seed": 20261029,
+ "sha256": "8b559ec37a74eba15f4022df1a51ec0ff56e61c80c53886d5a5ac4ce040bf08f",
+ "rules": [
+  {
+   "id": "R3H-S2-R56-E1-F1",
+   "entry_id": "S2-R56-E1",
+   "entry_ids": [
+    "S2-R56-E1"
+   ],
+   "status": "frozen",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/news/[0-9]+$",
+   "inference": [
+    "https://e.kuaishou.com/#/e/news/2156",
+    "https://e.kuaishou.com/#/e/news/2157",
+    "https://e.kuaishou.com/#/e/news/2158",
+    "https://e.kuaishou.com/#/e/news/2161",
+    "https://e.kuaishou.com/#/e/news/2164",
+    "https://e.kuaishou.com/#/e/news/2165"
+   ],
+   "holdout_pos": [
+    "https://e.kuaishou.com/#/e/news/2154",
+    "https://e.kuaishou.com/#/e/news/2155"
+   ],
+   "holdout_neg": [
+    "https://e.kuaishou.com/#/e/news",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1"
+   ],
+   "outside_family": [],
+   "card_texts": {
+    "https://e.kuaishou.com/#/e/news/2165": "快手成为2024巴黎奥运会持权转播商！ 上快手，追奥运！ 了解更多",
+    "https://e.kuaishou.com/#/e/news/2164": "2024快手白酒行业营销解决方案发布 让酒香走出深巷子 了解更多",
+    "https://e.kuaishou.com/#/e/news/2161": "快手Q1经调整净利润43.9亿元！盈利创单季新高 盈利能力创单季新高 了解更多",
+    "https://e.kuaishou.com/#/e/news/2158": "快手磁力引擎促进通信行业拥抱智能经营 数据赋能AI提效运营加码 了解更多",
+    "https://e.kuaishou.com/#/e/news/2157": "中国品牌日：快手磁力引擎挺国货扩声量“霸屏”九城商圈 讲好国货故事，让更多国货品牌被看见。 了解更多",
+    "https://e.kuaishou.com/#/e/news/2156": "VMA | 2024艾菲视频营销奖理事会成功举办！ 艾菲视频营销奖理事会于5月8日在北京快手总部成功举办 了解更多",
+    "https://e.kuaishou.com/#/e/news/2155": "一图看懂2024快手汽车峰会 精彩内容，尽在长图 了解更多",
+    "https://e.kuaishou.com/#/e/news/2154": "快手升级汽车智能营销3.0 聚焦“品运效”破题“新时代·新汽车” 了解更多"
+   },
+   "target": "https://e.kuaishou.com/#/e/news 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R56-E2-F1",
+   "entry_id": "S2-R56-E2",
+   "entry_ids": [
+    "S2-R56-E2"
+   ],
+   "status": "frozen",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/report/[0-9]+$",
+   "inference": [
+    "https://e.kuaishou.com/#/e/report/2556",
+    "https://e.kuaishou.com/#/e/report/2621",
+    "https://e.kuaishou.com/#/e/report/2623",
+    "https://e.kuaishou.com/#/e/report/2625",
+    "https://e.kuaishou.com/#/e/report/2627",
+    "https://e.kuaishou.com/#/e/report/2628"
+   ],
+   "holdout_pos": [
+    "https://e.kuaishou.com/#/e/report/2624",
+    "https://e.kuaishou.com/#/e/report/2626"
+   ],
+   "holdout_neg": [
+    "https://e.kuaishou.com/#/e/report",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1"
+   ],
+   "outside_family": [],
+   "card_texts": {
+    "https://e.kuaishou.com/#/e/report/2628": "快手CNY用户数据报告 CNY周期内活跃用户同比小幅增长，除夕当日达到峰值 了解更多",
+    "https://e.kuaishou.com/#/e/report/2627": "2025快手大健康行业数据报告 月均四亿用户在快手浏览大健康相关内容，视频规模持续扩张 了解更多",
+    "https://e.kuaishou.com/#/e/report/2626": "2025快手新银发人群洞察报告 新银发力量：活力、悦己、得劲 了解更多",
+    "https://e.kuaishou.com/#/e/report/2625": "快手内容价值营销指南 内容社交平台规模及粘性突出，是用户内容消费重要承载场域 了解更多",
+    "https://e.kuaishou.com/#/e/report/2624": "2025年快手汽车行业报告 坐拥新线市场与亿级汽车强兴趣用户，快手成车企营销增量场 了解更多",
+    "https://e.kuaishou.com/#/e/report/2623": "2025年快手内容消费行业数据报告 游戏、短剧成为用户除萌宠、音乐外的重要观看内容类型 了解更多",
+    "https://e.kuaishou.com/#/e/report/2621": "快手泛高校人群营销指南 1亿+月活泛高校人群行为数据，让校园群体成为品牌传播共创者 了解更多",
+    "https://e.kuaishou.com/#/e/report/2556": "快手大服饰行业数据洞察 该报告深入探讨了快手作为内容电商能够带给服饰品牌的增长助力 了解更多"
+   },
+   "target": "https://e.kuaishou.com/#/e/report 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R56-E3-F1",
+   "entry_id": "S2-R56-E3",
+   "entry_ids": [
+    "S2-R56-E3"
+   ],
+   "status": "frozen",
+   "pattern": "^https://e\\.kuaishou\\.com/\\#/e/cases/[0-9]+/1$",
+   "inference": [
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1",
+    "https://e.kuaishou.com/#/e/cases/1858/1"
+   ],
+   "holdout_pos": [
+    "https://e.kuaishou.com/#/e/cases/1854/1"
+   ],
+   "holdout_neg": [
+    "https://e.kuaishou.com/#/e/cases",
+    "https://e.kuaishou.com/#/e/news/2154",
+    "https://e.kuaishou.com/#/e/news/2155",
+    "https://e.kuaishou.com/#/e/news/2156",
+    "https://e.kuaishou.com/#/e/news/2157",
+    "https://e.kuaishou.com/#/e/news/2158",
+    "https://e.kuaishou.com/#/e/news/2161",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case"
+   ],
+   "outside_family": [
+    {
+     "index": 6,
+     "text": "查看更多案例",
+     "title": "KuaiShouAD-品牌广告在线刊例",
+     "tag": "DIV",
+     "before": "https://e.kuaishou.com/#/e/cases",
+     "landed": "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+     "via": "new-tab"
+    }
+   ],
+   "card_texts": {
+    "https://e.kuaishou.com/#/e/cases/1858/1": "德佑X快手｜定制活动凸显品牌魅力 品效产品保驾护航 平台全域流量助力品牌资产沉淀 了解更多",
+    "https://e.kuaishou.com/#/e/cases/1857/1": "回力X快手｜大促GMV爆发增长 结合快手品牌产品主打双十一种收闭环不断上探人群与GMV天花板 了解更多",
+    "https://e.kuaishou.com/#/e/cases/1856/1": "818上新季 纯甄｜打造品牌专属高光 818上新季 平台级营销IP赋能；专属定制活动凸显品牌魅力 了解更多",
+    "https://e.kuaishou.com/#/e/cases/1855/1": "吴召国周年庆大场：中秋“登月”实现GMV再冲顶 高效投放策略配合多触点拦截；品效组合成功冲刺亿级成交 了解更多",
+    "https://e.kuaishou.com/#/e/cases/1854/1": "五粮液X快手酒水节｜打造节点营销新阵地 品效资源扶持+运营优化，“直播”生意助力店铺roi每日超预期 了解更多",
+    "https://e.kuaishou.com/#/e/cases/1853/1": "iQOOX快手｜旗舰新品首发 深度合作平台活动，精准投放、创新玩法，精准转化 了解更多"
+   },
+   "target": "https://e.kuaishou.com/#/e/cases 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R58-E1-F1",
+   "entry_id": "S2-R58-E1",
+   "entry_ids": [
+    "S2-R58-E1"
+   ],
+   "status": "frozen",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-case/article\\-detail\\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$",
+   "inference": [
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b63146ec9d2165f843cf&pkey=example&skey=appliance",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b73aea0f3c12e22dca46&pkey=example&skey=beauty",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b802ad2d0c19bdc1cab2&pkey=example&skey=other",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b930fd3ecc132feea676&pkey=example&skey=other",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fde039aa151c6ba62123&pkey=example&skey=appliance",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fead02c84d1c728c8c1b&pkey=example&skey=appliance"
+   ],
+   "holdout_pos": [
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ad3750b3ae5721c04411eb3&pkey=example&skey=appliance",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2ff7174a6b21c0f478858&pkey=example&skey=clothes"
+   ],
+   "holdout_neg": [
+    "https://www.alimama.com/index.htm#!/marketing-case/index",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1"
+   ],
+   "outside_family": [],
+   "card_texts": {
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2ff7174a6b21c0f478858&pkey=example&skey=clothes": " 预览 男装裤卖给白领女性？面霜卖给不爱护肤的人？万相点睛助力协协乐与两个博士后拿到切实增量！ 2026-10-29 万相点睛助力协协乐与两个博士后跨人群触达，从短视频信号里挖掘 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fead02c84d1c728c8c1b&pkey=example&skey=appliance": " 预览 品类词之外还有增量？达云家居、优卓和小米借万相点睛接住跨品类的增量新客！ 2026-10-29 万相点睛帮助多行业品牌在「关键词推广」场景找到了那些原本用标 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2fde039aa151c6ba62123&pkey=example&skey=appliance": " 预览 不看电视的年轻人抱走大屏、不做饭的人买走厨具？TCL、双立人等五大品牌被「万相点睛」推荐的人群惊喜到了 2026-10-29 双11蓄水期，五大品牌携手「万相点睛」，在「超级直播」场景下 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ad3750b3ae5721c04411eb3&pkey=example&skey=appliance": " 预览 阿里妈妈《双11增量新期待》正式发布 2026-10-17 双11说唱MV上线，群像集结唱出增量新期待 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b930fd3ecc132feea676&pkey=example&skey=other": " 预览 布艺床卖给电竞青年？床头柜卖给失眠党？林氏家居被「AI点睛」推荐的人群惊到了 2026-08-21 林氏家居携手「AI点睛」，为成熟单品找到跨界新客 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b802ad2d0c19bdc1cab2&pkey=example&skey=other": " 预览 跳出工位！「万相点睛」把艺颂的人体工学椅卖给了美妆女孩 2026-08-21 艺颂借「万相点睛」跳出工位场景，从梳妆场景里发现高营销价值新 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b73aea0f3c12e22dca46&pkey=example&skey=beauty": " 预览 经典品爆新量！品牌新力「AI Targeting」助力赫莲娜找到宝藏新人群 2026-08-21 品牌新力「AI Targeting」助赫莲娜找到热爱高山大海 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b63146ec9d2165f843cf&pkey=example&skey=appliance": " 预览 闪魔的平板膜，居然被痛桌党和租房青年买火了 2026-08-21 闪魔借超级短视频「万相点睛」破圈，新客成交占比高达98%。 查看详情"
+   },
+   "target": "https://www.alimama.com/index.htm#!/marketing-case/index 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R58-E2-F1",
+   "entry_id": "S2-R58-E2",
+   "entry_ids": [
+    "S2-R58-E2"
+   ],
+   "status": "frozen",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-wiki/article\\-detail\\?id=[a-z0-9]+&pkey=insight&skey=ai$",
+   "inference": [
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai"
+   ],
+   "holdout_pos": [
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai"
+   ],
+   "holdout_neg": [
+    "https://www.alimama.com/index.htm#!/marketing-insight/index",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1"
+   ],
+   "outside_family": [],
+   "card_texts": {
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai": "阿里妈妈《经营蓝宝书》和品牌见证新精彩 58条新趋势赛道，132个高潜类目，阿里妈妈经营蓝宝书和品牌一起见证双11新精彩 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai": "《AI的第366个答案》，献礼2026双11 未来，问题依旧存在，也许还会面对迷茫。但阿里妈妈始终相信，答案永远比问题多一点。 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai": "《经营蓝宝书10月刊》 《经营蓝宝书》10月刊：AI领航丨双11阿里妈妈经营全攻略发布，提效大促多波段增长 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai": "《双11运动户外行业经营攻略》 行业100策丨阿里妈妈运动户外行业双11增量攻略：拆解人货场AI新逻辑，捕捉大促确定性增长 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai": "《双11母婴亲子行业经营攻略》 行业100策丨阿里妈妈母婴亲子双11经营指南：以精细化赛道运营，解锁亲子行业增长确定性 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai": "《双11 3C数码行业经营攻略》 行业100策丨抓住AI新品红利！阿里妈妈3C数码双11经营全攻略 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai": "《双11家享生活行业经营攻略》 行业100策丨阿里妈妈家享生活双11护航计划：抓住新趋势，实现人货一体化长效经营 下载 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai": "《双11美护清行业经营攻略》 行业100策丨阿里妈妈2026双11美护清行业AI经营攻略，锁定确定性增长 下载 查看详情"
+   },
+   "target": "https://www.alimama.com/index.htm#!/marketing-insight/index 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R58-E3-F1",
+   "entry_id": "S2-R58-E3",
+   "entry_ids": [
+    "S2-R58-E3"
+   ],
+   "status": "frozen",
+   "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-wiki/article\\-detail\\?id=[a-z0-9]+&pkey=wiki&skey=popularization$",
+   "inference": [
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f1662a0b51c2a44c54c&pkey=wiki&skey=popularization",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f3676b59e1cc049c73c&pkey=wiki&skey=popularization",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f8564084717bf2e26e1&pkey=wiki&skey=popularization",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fab491ce919e9d219f8&pkey=wiki&skey=popularization",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fd4fe31a91c0d687eef&pkey=wiki&skey=popularization"
+   ],
+   "holdout_pos": [
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f642ccac71c16b4e4b8&pkey=wiki&skey=popularization"
+   ],
+   "holdout_neg": [
+    "https://www.alimama.com/index.htm#!/marketing-wiki/index",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/index?skeys=answer"
+   ],
+   "outside_family": [
+    {
+     "index": 1,
+     "text": "产品答疑专区",
+     "title": "阿里妈妈数智经营",
+     "tag": "DIV",
+     "before": "https://www.alimama.com/index.htm#!/marketing-wiki/index",
+     "landed": "https://www.alimama.com/index.htm#!/marketing-wiki/index?skeys=answer",
+     "via": "same-tab"
+    }
+   ],
+   "card_texts": {
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fd4fe31a91c0d687eef&pkey=wiki&skey=popularization": "产品百科・双11特辑丨AIGC创意全线升级，叠加四大高阶定制权益，驱动双11创意提效与成交增量 AIGC创意全线升级，个性化生成、全周期经营与四大高阶定制权益协同发力，助商家强势锁定双11创意提效与成交增量。 卡片 万相台AI无界 AIGC",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4fab491ce919e9d219f8&pkey=wiki&skey=popularization": "产品百科・双11特辑丨超级短视频全面升级，从前置蓄水到狂欢爆发，激活双11内容场增量 超级短视频大促全面焕新，完整投放节奏搭配权益，激活双11内容场增量。 卡片 万相台AI无界 万相点睛 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f8564084717bf2e26e1&pkey=wiki&skey=popularization": "产品百科・双11特辑丨超级直播从直播开播到全域推广，全链路智能提效，解锁双11内容新增量 双11直播增量怎么拿？一张卡片读懂超级直播的能力升级与投放激励。 卡片 万相台AI无界 万相点睛 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f642ccac71c16b4e4b8&pkey=wiki&skey=popularization": "产品百科・双11特辑丨线索推广全新上线两大深度优化目标，锁定高意向人群，挖掘双11成交新增量 双11如何挖掘线索增量？一张卡片读懂线索推广最新升级与投放方式。 卡片 万相台AI无界 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f3676b59e1cc049c73c&pkey=wiki&skey=popularization": "产品百科・双11特辑丨趋势热点全新升级，全网热点即时追投，快人一步锁定双11趋势增量 阿里妈妈「趋势热点」全新升级，助力商家挖掘双11趋势增量。 卡片 万相台AI无界 万相点睛 查看详情",
+    "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4f1662a0b51c2a44c54c&pkey=wiki&skey=popularization": "产品百科・双11特辑丨关键词推广全面焕新，AI驱动搜索流量，撬动双11成交增量 一张卡片看懂关键词推广双11核心升级，AI助力搜索拿量更高效。 卡片 万相台AI无界 万相点睛 查看详情"
+   },
+   "target": "https://www.alimama.com/index.htm#!/marketing-wiki/index 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  },
+  {
+   "id": "R3H-S2-R138-E1-F1",
+   "entry_id": "S2-R138-E1",
+   "entry_ids": [
+    "S2-R138-E1"
+   ],
+   "status": "frozen",
+   "pattern": "^https://learn\\.incopat\\.com/\\#/pages/course/detail\\?id=[0-9]+$",
+   "inference": [
+    "https://learn.incopat.com/#/pages/course/detail?id=419",
+    "https://learn.incopat.com/#/pages/course/detail?id=420",
+    "https://learn.incopat.com/#/pages/course/detail?id=421",
+    "https://learn.incopat.com/#/pages/course/detail?id=422",
+    "https://learn.incopat.com/#/pages/course/detail?id=423",
+    "https://learn.incopat.com/#/pages/course/detail?id=425"
+   ],
+   "holdout_pos": [
+    "https://learn.incopat.com/#/pages/course/detail?id=418",
+    "https://learn.incopat.com/#/pages/course/detail?id=424"
+   ],
+   "holdout_neg": [
+    "https://learn.incopat.com/#/",
+    "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+    "https://e.kuaishou.com/#/e/cases/1853/1",
+    "https://e.kuaishou.com/#/e/cases/1854/1",
+    "https://e.kuaishou.com/#/e/cases/1855/1",
+    "https://e.kuaishou.com/#/e/cases/1856/1",
+    "https://e.kuaishou.com/#/e/cases/1857/1"
+   ],
+   "outside_family": [],
+   "card_texts": {
+    "https://learn.incopat.com/#/pages/course/detail?id=425": "日本知产诉讼——实体篇 课程讲师： 孙建 侵权诉讼专利无效专利策略专利制度      26",
+    "https://learn.incopat.com/#/pages/course/detail?id=424": "恶意知识产权诉讼的应对之道 课程讲师： 张聪聪 侵权诉讼IP保护专利无效      16",
+    "https://learn.incopat.com/#/pages/course/detail?id=423": "专利导航项目过程中的专利数据检索 课程讲师： 林超 专利分析专利检索专利运营      30",
+    "https://learn.incopat.com/#/pages/course/detail?id=422": "专利无效中优先权问题要点梳理 课程讲师： 刘健 专利分析侵权诉讼专利无效      8",
+    "https://learn.incopat.com/#/pages/course/detail?id=421": "如何同步开展中美欧专利FTO项目 课程讲师： 郑聪 专利检索专利分析侵权诉讼IP保护      18",
+    "https://learn.incopat.com/#/pages/course/detail?id=420": "日本知产诉讼——制度篇 课程讲师： 孙建 专利知识专利检索专利分析      0",
+    "https://learn.incopat.com/#/pages/course/detail?id=419": "专利挖掘方法与技巧分享——头脑风暴+TRIZ+AI辅助 课程讲师： 宋彬 专利分析专利检索专利挖掘布局专利运营      32",
+    "https://learn.incopat.com/#/pages/course/detail?id=418": "专利交易合同“隐形风险”探讨：易忽视事项及应对策略 课程讲师： 王莉 IP保护企业专利分析专利运营      8"
+   },
+   "target": "https://learn.incopat.com/#/ 的 Hash 路由详情（点击卡片落地）",
+   "family": "Hash 路由（浏览器点击取样）"
+  }
+ ]
+}

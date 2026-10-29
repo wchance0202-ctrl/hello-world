@@ -1,0 +1,532 @@
+{
+ "url": "https://www.alimama.com/index.htm#!/marketing-case/index",
+ "observed_at": "2026-10-29T08:09:58.468Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.alimama.com/index.htm#!/marketing-case/index",
+ "status": 200,
+ "error": null,
+ "title": "阿里妈妈数智经营",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 96,
+   "new_in_prefix": 96,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 96,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/member/ajax_login.htm?forward=https%3A%2F%2Fwww.alimama.com%2Findex.htm%23!%2Fmarketing-case%2Findex&callback=jQuery3210705733987186138_1793261402133&_=1793261402134"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/getLogInfo.htm?callback=jQuery3210705733987186138_1793261402133&_=1793261402137"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/getLogInfo.htm?callback=jQuery3210705733987186138_1793261402133&_=1793261402138"
+  },
+  {
+   "method": "GET",
+   "url": "https://1111.alimama.com/footer.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://fether.m.taobao.com/yacms/articleList?r=mx_51&params=%7B%22pkeys%22%3A%22example%2Cpromotion%22%2C%22skeys%22%3A%22%22%2C%22siteName%22%3A%22mscms%22%2C%22preview%22%3A0%2C%22maxLength%22%3A0%7D"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.taobao.com/",
+   "text": "立即查看",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/home/index",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/index.html?#!/main/index?bizCode=onebpLive&strategyPoints=taolive_wxt_pc_shouye_cjzb%7Ccgcross%7C0%7C0%7C",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ppxk.tmall.com/new/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase?saleProductLine[]=3&saleProductLine[]=4",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase?saleProductLine[]=2",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://plan.tmall.com/bmCommon/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://plan.tmall.com/v3/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://unidesk.taobao.com/login.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html?mxredirectUrl=https%3A%2F%2Fud.alimama.com%2Fredirect.action%3FredirectURL%3Dhttps%253A%252F%252Fud.alimama.com%252Findex.html%253Fspm%253Da2e117.13868764.cfa93e800.dd623979e.38f93aad5gQ0sU#!/login/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://tanx.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ad.alimama.com/index.htm",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://pub.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://fuwu.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://adstar.alimama.com/index.htm",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dmp.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://chuangyi.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://shuyuan.taobao.com/#!/?&platform=mama",
+   "text": "万堂书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-case/index",
+   "text": "成功案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/202610/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=awards#!/mAwards",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/202610/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=awards#!/common?event=c2023",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mamabusiness.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/products/product-carousel?key=app",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/products/no-product?key=club",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://amp.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://rule.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://reg.taobao.com/member/reg/fill_mobile.htm?spm=a2e117.13868764.c6f1c2c36.d1ea4e12a.6f373aadH6Br8U",
+   "text": "立即注册>",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/",
+   "text": "万相台无界版",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "阿里妈妈百灵",
+   "region": "BODY"
+  },
+  {
+   "href": "https://aff.alimama.com/",
+   "text": "淘宝联盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dmp.taobao.com/?spm=a2320.7388781.ca214tr8.d9bda87b9.6f372030VYSweJ%EF%BC%89",
+   "text": "达摩盘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://chuangyi.taobao.com/",
+   "text": "创意中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/index_plus.action#!/login/index",
+   "text": "品牌专区",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hudongcheng.taobao.com/",
+   "text": "超级互动城",
+   "region": "BODY"
+  },
+  {
+   "href": "https://shuyuan.taobao.com/",
+   "text": "万堂书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+   "text": "前沿洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/2025/index",
+   "text": "未来商业奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "m峰会",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mamabusiness.taobao.com/#/login",
+   "text": "客户工作台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?spm=a2e117.46021143.cfa93e800.dd623979e.705d2030YEI7yw#!/products/no-product?key=club",
+   "text": "妈妈CLUB",
+   "region": "BODY"
+  },
+  {
+   "href": "https://amp.taobao.com/",
+   "text": "营销拍档",
+   "region": "BODY"
+  },
+  {
+   "href": "https://rule.alimama.com/?spm=a2320.9441632.ca214tr8.d9bda87bf.50f02030d1dZFS",
+   "text": "规则中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.alimama.com/?spm=a2320.7388781.ca214tr8.d9bda87be.19c42030swC4n4",
+   "text": "客服中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mo.m.taobao.com/mbrand/index",
+   "text": "品牌形象站",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/",
+   "text": "关于阿里妈妈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/home/about-1.htm",
+   "text": "联系客服",
+   "region": "BODY"
+  },
+  {
+   "href": "https://open.taobao.com/",
+   "text": "开放平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://taotian.jubao.alibaba.com/?site=8_JTYWGW_XS_MUOWSZOB",
+   "text": "廉正举报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/home/about-4.htm",
+   "text": "意见反馈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mos.m.taobao.com/rulecenter/jubao",
+   "text": "举报中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_ali_mama_division/suit_bu1_ali_mama_division202107201832_24375.html",
+   "text": "法律声明及隐私权政策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alibabagroup.com/cn/global/home",
+   "text": "阿里巴巴集团",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.taobao.com/",
+   "text": "淘宝网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.tmall.com/",
+   "text": "天猫",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ju.taobao.com/",
+   "text": "聚划算",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.aliexpress.com/",
+   "text": "全球速卖通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alibaba.com/",
+   "text": "阿里巴巴国际交易市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.1688.com/",
+   "text": "1688",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm",
+   "text": "阿里妈妈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.fliggy.com/",
+   "text": "飞猪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.aliyun.com/",
+   "text": "阿里云计算",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.etao.com/",
+   "text": "一淘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wanwang.aliyun.com/",
+   "text": "万网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mobile.amap.com/",
+   "text": "高德",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.uc.cn/",
+   "text": "UC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.umeng.com/",
+   "text": "友盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.damai.cn/",
+   "text": "大麦",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.dingtalk.com/",
+   "text": "钉钉",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alipay.com/",
+   "text": "支付宝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youku.com/",
+   "text": "优酷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://s.alibaba.com/",
+   "text": "阿里安全",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.alibabapictures.com/simp/0-home.html",
+   "text": "阿里影业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alisports.com/",
+   "text": "阿里体育",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mybank.cn/",
+   "text": "网商银行",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=913301106623179715-SAIC_SHOW_1000009133011066231797151706595155252&signData=MEUCIFcuXRSEv9pd/q8M0tHaJJsCqjnnMdmYS3D0CipMw7P3AiEA2QqVrCPy6je2DRnzbu78q9JKi0AL3gKZj0/gzHyRsYI=",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000075",
+   "text": "浙公网安备 33010002000075号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "增值电信业务经营许可证：浙B2-20070195",
+   "region": "BODY"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 """Build the entry ledger, result table, resume queue and host allowlist.
 
 Offline step: no network. Reads the inline column text (one item per line,
-header first) plus the skill classifier output, reconstructs the 152 table
+header first) plus the skill classifier output, reconstructs the table
 rows, and writes every deliverable that does not depend on site access.
 
 Usage:
@@ -14,7 +14,9 @@ import sys
 from collections import OrderedDict
 from pathlib import Path
 
-SHEET = "S1"
+import os
+
+SHEET = os.environ.get("LEDGER_SHEET", "S1")  # sheet id prefix of every entry_id (S1, S2, ...)
 COLUMN = "指定pattern"
 RUN_DATE = "2026-10-26"
 NET_BLOCK = ("本轮(2026-10-26)未访问：会话网络策略对目标站 CONNECT 返回 403"
@@ -22,7 +24,14 @@ NET_BLOCK = ("本轮(2026-10-26)未访问：会话网络策略对目标站 CONNE
 RESULT_FIELDS = ["Pattern 正则", "保留链接", "匹配样例", "结果类型", "规则验证",
                  "来源映射", "发现覆盖", "备注与风险"]
 ROW_NOTE = ("行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 152 行"
-            "（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对")
+            "（107 个 URL 单元格+45 个“/”行），与前轮检查点计数一致，待与原始文件核对")  # sheet S1
+
+
+def row_note(n_rows, n_cells, n_skip):
+    if SHEET == "S1":
+        return ROW_NOTE
+    return (f"行边界为重建：内联粘贴丢失引号，按连续同注册域分组得 {n_rows} 行"
+            f"（{n_cells} 个 URL 单元格+{n_skip} 个“/”行），待与原始文件核对")
 
 # Previous-round facts the user reported (2026-10-23 checkpoint). The evidence
 # ZIP was not supplied, so these are carried as history, never as verified.
@@ -138,13 +147,18 @@ def build(input_path, classified_path, out):
         for e_no, i in enumerate(idxs, 1):
             it = items[i]
             eid = f"{SHEET}-R{row_no}-E{e_no}"
-            kind = {"entry": "path_entry", "host": "host_exempt", "skip": "placeholder"}[it["kind"]]
+            kind = {"entry": "path_entry", "missing_scheme": "path_entry", "host": "host_exempt",
+                    "skip": "placeholder"}[it["kind"]]
             rec = {
                 "entry_id": eid, "sheet": SHEET, "row": row_no, "entry_index": e_no,
                 "line_index": i + 2, "raw": it["raw"], "kind": kind,
                 "host": it.get("host"), "path": it.get("path"), "query": it.get("query"),
                 "fragment": it.get("fragment"),
                 "row_boundary": "reconstructed",
+                # a path without scheme keeps its raw value; it is requested as https:// first and the
+                # scheme that actually worked is recorded by the probe
+                **({"request_url": "https://" + it["raw"], "scheme_assumed": "https（待实测）"}
+                   if it["kind"] == "missing_scheme" else {}),
             }
             if kind == "path_entry":
                 rec.update({
@@ -184,7 +198,8 @@ def build(input_path, classified_path, out):
             fields["发现覆盖"] = "\n".join(
                 f"{e['entry_id']}: 未验证（本轮0请求）；{e['previous_checkpoint']}；续跑见 queue.json"
                 for e in path_entries)
-            risks = [ROW_NOTE]
+            risks = [row_note(len(rows), sum(1 for r in rows if items[r[0]]["kind"] != "skip"),
+                              sum(1 for r in rows if items[r[0]]["kind"] == "skip"))]
             for e in path_entries:
                 for k in e["known_issues"]:
                     risks.append(f"{e['entry_id']} [{k['id']}] {k['text']}")

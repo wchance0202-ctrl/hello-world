@@ -4,7 +4,9 @@
 #   SKILL_DIR:       extract-url-patterns skill folder (for validate_patterns.mjs)
 # Identity checks and detail-link fetches are resumable: URLs already recorded are not requested again.
 set -euo pipefail
-R3=output/round3
+OUT="${OUT:-output}"            # batch output folder (output, batch2/output, ...)
+INPUT="${INPUT:-input/原始输入_内联粘贴.txt}"
+R3="$OUT/round3"
 : "${RE2_NODE_MODULE:?set RE2_NODE_MODULE}"
 : "${SKILL_DIR:?set SKILL_DIR}"
 mkdir -p "$R3/tests"
@@ -23,7 +25,7 @@ PY
   python3 -I scripts/run_re2_py.py "$R3/tests/r3-tests.json" > "$R3/tests/r3$1.google-re2.json"
 }
 
-python3 -I scripts/analyze_r3.py families output/entries.json "$R3"
+python3 -I scripts/analyze_r3.py families "$OUT/entries.json" "$R3"
 python3 -I scripts/redirect_check.py "$R3/identity-A-targets.json" "$R3/identity-A.jsonl" --delay 1 --workers 16
 python3 -I scripts/analyze_r3.py freeze "$R3"
 # families still without a holdout source: links on two of their own detail pages, then re-freeze
@@ -49,5 +51,5 @@ python3 -I scripts/redirect_check.py "$R3/identity-C-targets.json" "$R3/identity
 # final: v1 + v2 overlay
 run_tests ""
 python3 -I scripts/analyze_r3.py coverage "$R3" "$R3/tests/r3.google-re2.json"
-python3 -I scripts/apply_round3.py output
-python3 -I scripts/readback_check.py input/原始输入_内联粘贴.txt "$R3"
+python3 -I scripts/apply_round3.py "$OUT"
+python3 -I scripts/readback_check.py "$INPUT" "$R3"

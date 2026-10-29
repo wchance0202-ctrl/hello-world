@@ -22,9 +22,11 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build_ledger import COLUMN, RESULT_FIELDS, ROW_NOTE, write_table  # noqa: E402
+from build_ledger import COLUMN, RESULT_FIELDS, write_table  # noqa: E402
+import build_ledger  # noqa: E402
 
 RUN = "2026-10-26（第 3 轮：全量）"
+ROW_NOTE_CURRENT = ""
 EV = "output/round3/"
 
 
@@ -292,6 +294,10 @@ def main(out):
     rows = defaultdict(list)
     for e in entries:
         rows[e["row"]].append(e)
+    global ROW_NOTE_CURRENT
+    build_ledger.SHEET = entries[0]["sheet"]
+    ROW_NOTE_CURRENT = build_ledger.row_note(len(rows), sum(1 for r in rows.values() if r[0]["kind"] != "placeholder"),
+                                             sum(1 for r in rows.values() if r[0]["kind"] == "placeholder"))
     formal = {r["id"]: r for r in rules_formal}
     table = [row_fields(r, sorted(rows[r], key=lambda x: x["entry_index"]), formal) for r in sorted(rows)]
     dump(r3 / "entries.json", entries)
@@ -370,7 +376,7 @@ def row_fields(row, es, formal):
         if he:
             fields["结果类型"] = "host免提"
         return {**cell, **fields}
-    pats, ret, samp, types, rv, src, cov, risk = [], [], [], [], [], [], [], [ROW_NOTE]
+    pats, ret, samp, types, rv, src, cov, risk = [], [], [], [], [], [], [], [ROW_NOTE_CURRENT]
     for e in pe:
         x, eid = e["round3"], e["entry_id"]
         for rid in x["formal"]:

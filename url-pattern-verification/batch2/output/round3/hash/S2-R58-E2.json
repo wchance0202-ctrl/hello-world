@@ -1,0 +1,2982 @@
+{
+ "url": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+ "observed_at": "2026-10-29T08:10:32.437Z",
+ "method": "playwright-chromium",
+ "final_url": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+ "status": 200,
+ "error": null,
+ "title": "阿里妈妈数智经营",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 586,
+   "new_in_prefix": 586,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 586,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://g.alicdn.com/alilog/??s/8.15.25/plugin/aplus_client.js,aplus_cplugin/0.7.12/toolkit.js,aplus_cplugin/0.7.12/monitor.js,s/8.15.25/aplus_std.js,s/8.15.25/plugin/aplus_spmact.js?v=20260728193427"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/member/ajax_login.htm?forward=https%3A%2F%2Fwww.alimama.com%2Findex.htm%23!%2Fmarketing-insight%2Findex&callback=jQuery321044548537586128223_1793261434582&_=1793261434583"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/getLogInfo.htm?callback=jQuery321044548537586128223_1793261434582&_=1793261434586"
+  },
+  {
+   "method": "GET",
+   "url": "https://www.alimama.com/getLogInfo.htm?callback=jQuery321044548537586128223_1793261434582&_=1793261434587"
+  },
+  {
+   "method": "GET",
+   "url": "https://1111.alimama.com/footer.json"
+  },
+  {
+   "method": "GET",
+   "url": "https://fether.m.taobao.com/yacms/articleList?r=mx_49&params=%7B%22pkeys%22%3A%22insight%22%2C%22skeys%22%3A%22ai%22%2C%22siteName%22%3A%22mscms%22%2C%22preview%22%3A0%2C%22maxLength%22%3A0%7D"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://www.taobao.com/",
+   "text": "立即查看",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/home/index",
+   "text": "首页",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/index.html?#!/main/index?bizCode=onebpLive&strategyPoints=taolive_wxt_pc_shouye_cjzb%7Ccgcross%7C0%7C0%7C",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ppxk.tmall.com/new/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase?saleProductLine[]=3&saleProductLine[]=4",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/#!/showcase?saleProductLine[]=2",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://plan.tmall.com/bmCommon/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://plan.tmall.com/v3/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://unidesk.taobao.com/login.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html?mxredirectUrl=https%3A%2F%2Fud.alimama.com%2Fredirect.action%3FredirectURL%3Dhttps%253A%252F%252Fud.alimama.com%252Findex.html%253Fspm%253Da2e117.13868764.cfa93e800.dd623979e.38f93aad5gQ0sU#!/login/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ud.alimama.com/index.html",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://tanx.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ad.alimama.com/index.htm",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://pub.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://fuwu.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://adstar.alimama.com/index.htm",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dmp.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://chuangyi.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://shuyuan.taobao.com/#!/?&platform=mama",
+   "text": "万堂书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-case/index",
+   "text": "成功案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/202610/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=awards#!/mAwards",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/202610/index",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=awards#!/common?event=c2023",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mamabusiness.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/products/product-carousel?key=app",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/products/no-product?key=club",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://amp.taobao.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://rule.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.alimama.com/",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "text": "阿里妈妈《经营蓝宝书》和品牌见证新精彩\n58条新趋势赛道，132个高潜类目，阿里妈妈经营蓝宝书和品牌一起见证双11新精彩\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6ae0760874a3ea1c53ff12e6&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "text": "《AI的第366个答案》，献礼2026双11\n未来，问题依旧存在，也许还会面对迷茫。但阿里妈妈始终相信，答案永远比问题多一点。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6ae0757086bd95134beef943&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书10月刊》\n《经营蓝宝书》10月刊：AI领航丨双11阿里妈妈经营全攻略发布，提效大促多波段增长\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6ade086cfa0ed21c436fa6a8&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "text": "《双11运动户外行业经营攻略》\n行业100策丨阿里妈妈运动户外行业双11增量攻略：拆解人货场AI新逻辑，捕捉大促确定性增长\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4bed4860331933d253bf&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "text": "《双11母婴亲子行业经营攻略》\n行业100策丨阿里妈妈母婴亲子双11经营指南：以精细化赛道运营，解锁亲子行业增长确定性\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4bcb2ad7771be204568c&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "text": "《双11 3C数码行业经营攻略》\n行业100策丨抓住AI新品红利！阿里妈妈3C数码双11经营全攻略\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4b95e36a731c6a4def4e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "text": "《双11家享生活行业经营攻略》\n行业100策丨阿里妈妈家享生活双11护航计划：抓住新趋势，实现人货一体化长效经营\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4b6ce4ca021bff3c61fe&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "text": "《双11美护清行业经营攻略》\n行业100策丨阿里妈妈2026双11美护清行业AI经营攻略，锁定确定性增长\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4b2dfe31a91c0d687eed&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4afa7a238c1bbf6da02e&pkey=insight&skey=ai",
+   "text": "《双11健康行业经营攻略》\n行业100策丨最高50%流量反哺！阿里妈妈健康行业AI领航计划，解锁双11增量新机会\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6aca4afa7a238c1bbf6da02e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6aca4afa7a238c1bbf6da02e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6aca4afa7a238c1bbf6da02e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ac75a160f50081c2663f73c&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书9月刊》\n经营蓝宝书9月刊：有AI新增长丨阿里妈妈发布双11十大投资趋势，预见全域经营新增量\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6ac75a160f50081c2663f73c&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6ac75a160f50081c2663f73c&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6ac75a160f50081c2663f73c&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a7ee14d27f03e212bcd297e&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书8月刊》\nAI新惊喜丨“货”力全开，万相点睛掘金日销增量新通路\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a7ee14d27f03e212bcd297e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a7ee14d27f03e212bcd297e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a7ee14d27f03e212bcd297e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a6846d1ea0f3c12e22dc88f&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书7月刊》\n经营蓝宝书7月刊：AI点睛洞察四大消费趋势，解锁夏日经营「新人类」\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a6846d1ea0f3c12e22dc88f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a6846d1ea0f3c12e22dc88f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a6846d1ea0f3c12e22dc88f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a2a4cf1d406731063b35bb0&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书6月刊》\n经营蓝宝书6月刊：当618冲刺遇上体育热，五大投资点引爆夏日消费新活力\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a2a4cf1d406731063b35bb0&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a2a4cf1d406731063b35bb0&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a2a4cf1d406731063b35bb0&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ccfc812d1f184605b7b1&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书5月刊》\n经营蓝宝书5月刊丨好想和你谈谈“AI”，另类浪漫激发经营破圈增长\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27ccfc812d1f184605b7b1&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ccfc812d1f184605b7b1&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27ccfc812d1f184605b7b1&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ccc2bb3746192eae761f&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书4月刊》\n经营蓝宝书618特辑丨因AI更懂你！阿里妈妈AI万相点趋成金，激活生意新蓝海\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27ccc2bb3746192eae761f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ccc2bb3746192eae761f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27ccc2bb3746192eae761f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27cc792065461d78bdb17d&pkey=insight&skey=ai",
+   "text": "《经营蓝宝书38&春上新特辑》\n经营蓝宝书38&春上新特辑｜春上新迈入新阶段！十大趋势赛道机会涌现，激活春日增长新势\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27cc792065461d78bdb17d&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27cc792065461d78bdb17d&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27cc792065461d78bdb17d&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ca394be9c31dde504c52&pkey=insight&skey=ai",
+   "text": "行业100策丨AI万相智启美妆新局，六大趋势赛道解锁618增长确定性\n阿里妈妈聚焦美妆消费新趋势，以AI万相体系与全域策略，助力商家智赢618确定性增长\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27ca394be9c31dde504c52&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27ca394be9c31dde504c52&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27ca394be9c31dde504c52&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c9de83e00119b755b4a8&pkey=insight&skey=ai",
+   "text": "行业100策丨618家享生活数智升级，AI万相精耕人货场\n阿里妈妈以AI万相精耕家享存量市场，全域提效人货场，以精细化运营撬动生意新增量\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27c9de83e00119b755b4a8&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c9de83e00119b755b4a8&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27c9de83e00119b755b4a8&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c94efe6022173959ae82&pkey=insight&skey=ai",
+   "text": "行业100策丨AI万相助力健康行业商家智赢618\nAI领航，解码健康商家618全域增长路径\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27c94efe6022173959ae82&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c94efe6022173959ae82&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27c94efe6022173959ae82&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c58b76c22a2760672ec7&pkey=insight&skey=ai",
+   "text": "行业100策丨AI挖掘潜力人群驱动圈层精细化，618运动户外营销进入多元竞胜时代\n运动户外人群、节奏、场域全面升级，叠加AI能力与圈层策略，阿里妈妈助力品牌高效转化。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6a27c58b76c22a2760672ec7&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6a27c58b76c22a2760672ec7&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6a27c58b76c22a2760672ec7&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6826de51a0273e17fecb03ab&pkey=insight&skey=ai",
+   "text": "阿里妈妈《618经营蓝宝书：行业人群投资指南》\n阿里妈妈助力全行业商家以AI驱动人群拉新转化提效，质赢生意增长！AI圈人、AI全域拉新、AI序列化追投流转等AI人群能力，紧抓淘系高营销价值人群，全周期抢增量！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6826de51a0273e17fecb03ab&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6826de51a0273e17fecb03ab&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6826de51a0273e17fecb03ab&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67db9d2a7a611f11c3dd0d9f&pkey=insight&skey=ai",
+   "text": "《阿里妈妈未来商业奖案例大赏》\n《阿里妈妈未来商业奖案例大赏》希望解码AI驱动下的品牌增长密码，提炼未来商业的先锋实践，为全球品牌与生态伙伴提供可复制的科学经营路径与品牌建设启示。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=67db9d2a7a611f11c3dd0d9f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67db9d2a7a611f11c3dd0d9f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=67db9d2a7a611f11c3dd0d9f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67ceb39566a68e13e1138ec2&pkey=insight&skey=ai",
+   "text": "《2025阿里妈妈向新·趋势白皮书》\n《2025阿里妈妈向新·趋势白皮书》\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=67ceb39566a68e13e1138ec2&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67ceb39566a68e13e1138ec2&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=67ceb39566a68e13e1138ec2&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67b54ccdb7fabe12a5e5fc27&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.27\n阿里妈妈洞察开年新趋势，引领消费潮流！去家务化收纳正逐渐简化人们的生活，让家务变得更加轻松高效。开学季到来，正是校园装备升级时，商家应把握市场，满足学生们在不同学段的学习与生活需求。春日轻养生理念兴起",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=67b54ccdb7fabe12a5e5fc27&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67b54ccdb7fabe12a5e5fc27&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=67b54ccdb7fabe12a5e5fc27&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=678e12a84f8f9a12036d2b39&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.26\n春日将至，时尚潮流正悄然酝酿，阿里妈妈为你解读！植物系元素风靡，天然材质搭配植物图案，清新自然，商家应加大营销，满足田园向往。运动感服饰备受青睐，凭借舒适特质与明快设计，契合大众需求，活力时尚受喜爱。",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=678e12a84f8f9a12036d2b39&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=678e12a84f8f9a12036d2b39&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=678e12a84f8f9a12036d2b39&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6772adc3b523ba120d12329f&pkey=insight&skey=ai",
+   "text": "专题趋势｜阿里妈妈热点指南VOL.25\n阿里妈妈联合第一财经商业数据中心（CBNData）、天猫美食美酒共同发布《阿里妈妈热点指南Vol.25：崭新的年味 新消费理念升级CNY营销》，解读今年年货节的消费趋势，提前为商家带来年货节的热点趋势",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6772adc3b523ba120d12329f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6772adc3b523ba120d12329f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6772adc3b523ba120d12329f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=676e172ba36ff512eb3da319&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.24\n圣诞欢乐氛围渐浓，蛇年祥瑞气息将至。圣诞节特色服饰与饰品点亮节日，蛇年元素在服装、珠宝、家居中大放异彩。从圣诞红与雪花图案，到蛇纹与蛇形设计，都在为岁末增添亮色。阿里妈妈精准洞察，为您解析这两大热门趋",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=676e172ba36ff512eb3da319&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=676e172ba36ff512eb3da319&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=676e172ba36ff512eb3da319&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=674582e5133da91f3ccf2d65&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.23\n复古风潮再起，非遗传承新生，阿里妈妈为你解析当下最火趋势！冬季时尚热力高涨，巴恩穿搭完美融合经典与现代，松绒系列为冬日注入温暖与时尚气息，非遗文创更是走进千家万户，焕发新鲜生机与活力。从复古穿搭与松软",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=674582e5133da91f3ccf2d65&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=674582e5133da91f3ccf2d65&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=674582e5133da91f3ccf2d65&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6732c9bb883c271ac575605c&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.22\n冬季运动和护发热潮来袭，阿里妈妈带你把握市场新动向！从助力竞速的专业马拉松装备，到展现个性的多彩雪季行头，再到打造健康秀发的护肤式护发好物……紧跟运动与时尚趋势，满足消费者多元化需求，为其提供专业、时",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6732c9bb883c271ac575605c&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6732c9bb883c271ac575605c&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6732c9bb883c271ac575605c&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67248171beaefa1dce9be75e&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈热点指南VOL.21\n阿里妈妈热点营销X天猫珠宝饰品X淘宝珠宝饰品X智篆GI共同发布《阿里妈妈热点指南Vol.21》暨《2024淘系珠宝饰品行业趋势白皮书》\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=67248171beaefa1dce9be75e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67248171beaefa1dce9be75e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=67248171beaefa1dce9be75e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67209194ccf54811f67570cd&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.20\n气温骤降，寒意来袭，阿里妈妈带你探索降温新趋势！从温阳养肾的黑色食材到轻暖感的降温穿搭，再到学生族的安全实用保暖搭子……紧跟季节趋势，揭秘市场需求，为消费者提供温暖、舒适且时尚的冬季产品，阿里妈妈助力",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=67209194ccf54811f67570cd&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=67209194ccf54811f67570cd&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=67209194ccf54811f67570cd&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=671b70e0601ae31d05724191&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈热点指南VOL.19\n阿里妈妈热点营销×天猫新品创新中心×天猫家享生活×拾方咨询×鹿家良品照明共同发布《阿里妈妈热点指南Vol.19》暨《2024年天猫居家美学白皮书》\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=671b70e0601ae31d05724191&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=671b70e0601ae31d05724191&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=671b70e0601ae31d05724191&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=670e217fa73cae1f6e028468&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.18\n秋冬换季，市场趋势速览！阿里妈妈带你领略胶囊衣橱的简约时尚，温润护肤的天然滋润，以及万圣节的新颖庆祝方式。紧跟这些热门趋势，为商家提供精准的市场洞察！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=670e217fa73cae1f6e028468&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=670e217fa73cae1f6e028468&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=670e217fa73cae1f6e028468&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66f627cd2966781ba0c4570c&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈热点指南VOL.17\n阿里妈妈热点营销×淘宝天猫宠物共同发布《阿里妈妈热点指南Vol.17》暨《2024淘宝天猫宠物清洁用品趋势报告》\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66f627cd2966781ba0c4570c&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66f627cd2966781ba0c4570c&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66f627cd2966781ba0c4570c&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66f28c986d42d611a37ad93e&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.16\n金秋时节新趋势涌现，阿里妈妈精准洞察！雅丹风穿搭掀动秋冬自然潮流，年轻人购金热引领黄金消费变革，宠物出行潮拉动宠物装备需求增长。阿里妈妈深度剖析，导航金秋消费热点，与商家共同探索金秋市场潜能！\n下载\n",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66f28c986d42d611a37ad93e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66f28c986d42d611a37ad93e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66f28c986d42d611a37ad93e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66e3fc62a82a621ee21184ad&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈热点指南VOL.15\n跟随FW24男装趋势，洞察当下目标人群变化，针对秋冬换季节点，迅速推出“秋冬型男人群”等系列热点营销产品，帮助商家解锁上新密码，把握热点机会实现生意爆发。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66e3fc62a82a621ee21184ad&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66e3fc62a82a621ee21184ad&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66e3fc62a82a621ee21184ad&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66e138d05eb01c11fad5a24f&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.14\n秋季“浓”度正在飙升，黄金九月迎来返潮复古风，户外运动装备更新更要撒野，秋季新契机，阿里妈妈热点指南为商家领跑秋季新市场！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66e138d05eb01c11fad5a24f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66e138d05eb01c11fad5a24f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66e138d05eb01c11fad5a24f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66cbf79a74d40e115b680caf&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈热点指南VOL.13\n秋季新趋势来袭，阿里妈妈带你揭秘！东方三缘色引领国风穿搭新潮，轻养生理念带动润肺食材与便携养生产品热销，国风健康礼盒让中秋礼赠更添情意。从服装配饰到食品饮料、商家把握时令节日热点方能领跑秋季消费市场！",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66cbf79a74d40e115b680caf&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66cbf79a74d40e115b680caf&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66cbf79a74d40e115b680caf&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66c55a6069e2fe134e5c91d7&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈经营指南VOL.12\n往年夏季玩水吃冰的年轻人，今年却排着队在晒背、走进药房配酸梅汤、摄入补品…… 在艳阳高照的晌午时分走进公园草坪，你可能会遇到拥抱神秘自然力量、吸收天地精华的一群人，正面防晒反面狂晒，年轻人找到了属于自",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66c55a6069e2fe134e5c91d7&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66c55a6069e2fe134e5c91d7&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66c55a6069e2fe134e5c91d7&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66b18ff2a772ce116160faa2&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈经营指南VOL.11\n夏日尾声，依然有商机在不断升温。今年三伏天让“热养生”在年轻人中流行开来，“养生”组合强势入局；临近七夕，限定降温妆容与植物系穿搭形成独特约会潮流；巴黎奥运赛场外，“法式尤莱特”与“SportyChi",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66b18ff2a772ce116160faa2&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66b18ff2a772ce116160faa2&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66b18ff2a772ce116160faa2&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=668b4ca188db3e1fd97ba94b&pkey=insight&skey=ai",
+   "text": "消费热点｜阿里妈妈经营指南VOL.10\n这个夏天，人们正在追求一种简约而轻松的生活方式，达成身体“轻盈”且心灵“轻松”的良好状态，一 股“夏日轻感生活”浪潮正在悄然兴起。阿里妈妈抓住“轻感生活”消费趋势，以热点洞察激发生意新增长!\n下载\n查",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=668b4ca188db3e1fd97ba94b&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=668b4ca188db3e1fd97ba94b&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=668b4ca188db3e1fd97ba94b&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=664c39ae9a6f91130bb73eb2&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南-618特辑\n立足当“夏”，精准捕捉行业「6月消费热点」风口，跟《阿里妈妈经营指南》一起，这个618让热点变成热销，实现生意疯涨！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=664c39ae9a6f91130bb73eb2&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=664c39ae9a6f91130bb73eb2&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=664c39ae9a6f91130bb73eb2&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=664b42b09842520deb4fe7de&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南-618特辑：BEST方法论\n围绕关键词推广场景，阿里妈妈推出【BEST方法论】，以成体系的方法论重新定义搜索新场域，守住核心用户，抢占需求摇摆用户，一站式帮助商家解决搜索投放效能不高问题，拿到搜索市场红利，实现生",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=664b42b09842520deb4fe7de&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=664b42b09842520deb4fe7de&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=664b42b09842520deb4fe7de&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=663e0dbaab3a970fc980eab2&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南-618特辑\n聚焦6大核心行业，洞察细分行业TA人群破圈、新质好货打爆策略，帮助对应商家找到运营层面的路径，在618找到生意确定增长。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=663e0dbaab3a970fc980eab2&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=663e0dbaab3a970fc980eab2&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=663e0dbaab3a970fc980eab2&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=662f4fc13e499e101bd05549&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈经营指南VOL.09\n当家成为情绪治愈所，谁能抓住这一波智能家居的爆发机会，关键在于找对人，用对方法。 六类局改换新人群及新装人群特征深入分析，带来全新“智”愈力新机会。和阿里妈妈经营指南日销洞察一起，抓住智能化大潮下的生",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=662f4fc13e499e101bd05549&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=662f4fc13e499e101bd05549&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=662f4fc13e499e101bd05549&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66166351a78a5b0fd5bb48c9&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.08\n春暖花开，4月“户外+出游”的需求攀升！ 和阿里妈妈日销洞察一起抓住“升温经济新增量！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=66166351a78a5b0fd5bb48c9&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=66166351a78a5b0fd5bb48c9&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=66166351a78a5b0fd5bb48c9&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65f2aa6179a2f90f5e35730b&pkey=insight&skey=ai",
+   "text": "行业趋势｜阿里妈妈经营指南VOL.07\n3月21日世界睡眠日，阿里妈妈携手淘宝天猫家享生活共同发布《阿里妈妈经营指南》第七期，围绕大众睡眠话题分析预测睡眠赛道的最新动态和趋势：传统睡眠场景被颠覆，新兴睡眠场景频频涌现。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65f2aa6179a2f90f5e35730b&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65f2aa6179a2f90f5e35730b&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65f2aa6179a2f90f5e35730b&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65e596a7b1582c0fb925a635&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.06\n三月春风拂面，妆点笑颜如花。 春季焕新消费趋势有哪些？商家可以利用哪些春日热度趋势词借势结合？ 和阿里妈妈日销洞察一起“把握上新热点趋势，一起焕新赴春约”！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65e596a7b1582c0fb925a635&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65e596a7b1582c0fb925a635&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65e596a7b1582c0fb925a635&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65dffbc02e842b101da57d03&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.05\n一年之计在于春，春天是万物复苏，焕发新机的时节。 春季焕新核心场景有哪些？品牌商家如何做好开年第一战？ 和阿里妈妈日销洞察一起“聚焦四大新场景，爆发春季上新增量”！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65dffbc02e842b101da57d03&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65dffbc02e842b101da57d03&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65dffbc02e842b101da57d03&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65b329079de7a7103c2120d8&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.04\n又是一年情人节，今年情人节恰逢正月初五财神节，春节的喜庆氛围、消费者的求财心愿、情人节的浪漫气息叠加，让这个节日显得更加与众不同。消费者过节需求的变化，为商家带来了新的机遇。商家们要想俘获情人们的芳心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65b329079de7a7103c2120d8&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65b329079de7a7103c2120d8&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65b329079de7a7103c2120d8&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65aa0fb3058bcb0fc6297f10&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.03\n俗话说，过了腊八就是年。采办年货清单和过年出行计划都已经安排起来了。 龙年新装年轻人爱怎么穿？新年祈福年轻一代有什么新玩法？品牌商家如何做年轻人的春节营销？ 和阿里妈妈日销洞察一起“用五大趋势主题，共",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65aa0fb3058bcb0fc6297f10&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65aa0fb3058bcb0fc6297f10&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65aa0fb3058bcb0fc6297f10&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=659a6f327131a70fb06a7053&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.02\n双旦刚过，农历新年钟声越来越近。随着年轻人开始接棒年货采办权，年货被赋予了更多样化的内涵，今年的年味浓郁中带点儿新～ 年货节年轻人的好物什么火？年轻人的话题什么热？和阿里妈妈日销洞察一起“用四大新年营",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=659a6f327131a70fb06a7053&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=659a6f327131a70fb06a7053&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=659a6f327131a70fb06a7053&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65798c6c92c1dd100b864f6d&pkey=insight&skey=ai",
+   "text": "节点趋势｜阿里妈妈经营指南VOL.01\n又到一年期待感拉满的节日礼遇季，品牌们的倒计时玩法创意度爆表，礼物表达的不仅是心意，更有巧思。 如何切入到用户的心智，成为best gift？ 和阿里妈妈日销洞察一起“找对人，踩对时，说对话”！\n下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=65798c6c92c1dd100b864f6d&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=65798c6c92c1dd100b864f6d&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=65798c6c92c1dd100b864f6d&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=64259ac429677c0bd66ab412&pkey=insight&skey=ai",
+   "text": "重磅发布｜《阿里妈妈经营科学2023经营力趋势指南｜一站式科学经营 全周期递进增长》\n2023年经营回暖、消费复苏，整体消费与出行意愿大幅提升，将会是“经营时代”的回归。面对全新的经营环境及持续扩张的消费力，如何抓住趋势机遇获得确定增长是众",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=64259ac429677c0bd66ab412&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=64259ac429677c0bd66ab412&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=64259ac429677c0bd66ab412&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6331bf795751d90a06ff6e13&pkey=insight&skey=ai",
+   "text": "重磅发布 | 阿里妈妈经营科学-行业白皮书，以经营科学助力商家新增长\n快消、食品、消费电子、服饰四大垂直行业经营科学解决方案\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6331bf795751d90a06ff6e13&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6331bf795751d90a06ff6e13&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6331bf795751d90a06ff6e13&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=62d947bcfe1d250aa3391e91&pkey=insight&skey=ai",
+   "text": "蓄峰季趋势洞察 | 挖掘后疫情时代的六大消费新趋势，激活经营新增量\n阿里妈妈发布年中生意增长三大机会点 助力品牌平蓄促收\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=62d947bcfe1d250aa3391e91&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=62d947bcfe1d250aa3391e91&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=62d947bcfe1d250aa3391e91&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=625cda1476a95d09709d7810&pkey=insight&skey=ai",
+   "text": "阿里妈妈2022经营力：平蓄促收 确定增长\n阿里妈妈发布2022经营增长新攻略！\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=625cda1476a95d09709d7810&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=625cda1476a95d09709d7810&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=625cda1476a95d09709d7810&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=620b3fb81d69330a368b0392&pkey=insight&skey=ai",
+   "text": "开年重磅洞察｜经营新增长第1课\n2022年必读！阿里妈妈X浙大为你揭秘：电商下半场，生意增长两大机会>>>\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=620b3fb81d69330a368b0392&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=620b3fb81d69330a368b0392&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=620b3fb81d69330a368b0392&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=617bc1679e89df110e3fd470&pkey=insight&skey=ai",
+   "text": "宠物行业线上消费趋势洞察\n近几年来，宠物行业保持稳步增长。同时，在疫情的背景下，人宠相处时间增多，健康意识的提升 也延续到对宠物卫生、居家清洁的进一步关注。在当下多变的环境中，宠物行业各细分市场发展情 况如何?有哪些新的趋势需要关注?在营销",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=617bc1679e89df110e3fd470&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=617bc1679e89df110e3fd470&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=617bc1679e89df110e3fd470&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=617bbe4641562c9e3cb0f46d&pkey=insight&skey=ai",
+   "text": "两次爆发背后的双11消费行为变迁\n两次爆发对消费者决策影响\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=617bbe4641562c9e3cb0f46d&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=617bbe4641562c9e3cb0f46d&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=617bbe4641562c9e3cb0f46d&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=611e4873b6811b6f628afdc0&pkey=insight&skey=ai",
+   "text": "服饰轻运动趋势崛起\n《服饰轻运动趋势崛起》精准洞察“两亿消费者撑起服饰轻运动赛道”。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=611e4873b6811b6f628afdc0&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=611e4873b6811b6f628afdc0&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=611e4873b6811b6f628afdc0&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b908168189420f6684408&pkey=insight&skey=ai",
+   "text": "618 投资情报-全景洞察与全局策略\n掌握618消费决策周期，抓住年中双峰\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609b908168189420f6684408&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b908168189420f6684408&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609b908168189420f6684408&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b894fa3fbdb1b19fd5048&pkey=insight&skey=ai",
+   "text": "618 投资情报-顶级流量增长赛道\n全民大促狂欢，618高价值消费者聚集中心，超级互动城领航互动营销。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609b894fa3fbdb1b19fd5048&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b894fa3fbdb1b19fd5048&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609b894fa3fbdb1b19fd5048&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b83d0850c232178ae70fe&pkey=insight&skey=ai",
+   "text": "618 投资情报-人群增长赛道\n品牌联合增长计划，人群、场景、机制、产品全名精细化升级\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609b83d0850c232178ae70fe&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b83d0850c232178ae70fe&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609b83d0850c232178ae70fe&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b7f8b3f76711756a3c10a&pkey=insight&skey=ai",
+   "text": "618 投资情报-新品好货增长赛道\n大促日益成为新品营销主战场，新品已成为品牌生意增量的主引擎。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609b7f8b3f76711756a3c10a&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b7f8b3f76711756a3c10a&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609b7f8b3f76711756a3c10a&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b7c3a4f20c11750e40358&pkey=insight&skey=ai",
+   "text": "618 投资情报-内容爆发增长赛道\n现象级内容畅想体验，品牌专属内容植入，满足不同营销需求\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609b7c3a4f20c11750e40358&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609b7c3a4f20c11750e40358&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609b7c3a4f20c11750e40358&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609a7d8f8b24c06813860d4b&pkey=insight&skey=ai",
+   "text": "美妆行业新机遇：下沉市场趋势与机会洞察\n下沉市场是美妆行业的增量市场，近5亿下沉人群渗透空间巨大。阿里妈妈联合CBE中国美容博览会发布，洞察美妆护肤的下沉市场机会与策略。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=609a7d8f8b24c06813860d4b&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=609a7d8f8b24c06813860d4b&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=609a7d8f8b24c06813860d4b&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=608bae0ea5021baa2a985b07&pkey=insight&skey=ai",
+   "text": "品牌何如找到“超级消费者”\n天猫淘宝平台横跨六个行业以上，同时具有高消费力并追求高品牌调性的消费者约6000万，被称为超级消费人群\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=608bae0ea5021baa2a985b07&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=608bae0ea5021baa2a985b07&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=608bae0ea5021baa2a985b07&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=607564fc7792da0e27b3cfc6&pkey=insight&skey=ai",
+   "text": "成熟行业如何寻找市场机会与品类突围\n面对美妆市场步入成熟阶段，以及个护家清不断更替流动的高潜力品类，如何找到蓝海趋势与机会赛道突围？\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=607564fc7792da0e27b3cfc6&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=607564fc7792da0e27b3cfc6&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=607564fc7792da0e27b3cfc6&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=605845b262a6aedc98a04523&pkey=insight&skey=ai",
+   "text": "了不起的新世代：服饰风尚短视频内容策略洞察\n2020年服饰行业在淘宝短视频场域拓展迅猛，服饰品牌运营消费者思路升级，纷纷抢滩短视频。阿里妈妈联合淘宝短视频和天猫服饰风尚发布报告。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=605845b262a6aedc98a04523&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=605845b262a6aedc98a04523&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=605845b262a6aedc98a04523&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6056f1eef04d480d858b9faa&pkey=insight&skey=ai",
+   "text": "了不起的新世代：服饰风尚直播内容策略洞察\n联合淘宝直播和天猫服饰风尚发布，提出超级直播力模型，帮助服饰商家提升直播内容策略和运营效率。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6056f1eef04d480d858b9faa&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6056f1eef04d480d858b9faa&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6056f1eef04d480d858b9faa&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6055ef6ffbbfee0d001e3080&pkey=insight&skey=ai",
+   "text": "了不起的新世代：2021春夏新风尚报告\n阿里妈妈携手天猫服饰、哔哩哔哩联合发布。洞察Z世代时尚消费趋势，指引时尚新物种、新品牌开启增量时代。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=6055ef6ffbbfee0d001e3080&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=6055ef6ffbbfee0d001e3080&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=6055ef6ffbbfee0d001e3080&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=603ef798ac5315dc976ad464&pkey=insight&skey=ai",
+   "text": "了不起的女子力：美妆消费蓝海与趋势赛道\n2020 美妆行业新赛道成交额同比增速是美妆行业整体的四倍，涌现的美妆蓝海趋势背后，新品牌正在入局。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=603ef798ac5315dc976ad464&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=603ef798ac5315dc976ad464&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=603ef798ac5315dc976ad464&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=602209b3fbbfee0d001df720&pkey=insight&skey=ai",
+   "text": "奢侈品线上消费圈层洞察\n为奢侈品牌提供数字化运营线上奢品消费人群的新思路。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=602209b3fbbfee0d001df720&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=602209b3fbbfee0d001df720&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=602209b3fbbfee0d001df720&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5ff3e7adda1efca9a0789d5a&pkey=insight&skey=ai",
+   "text": "短视频营销攻略：短视频内容策略下的5i沟通法则\n建立淘宝短视频营销效果评估体系，并以美妆行业为初探，进一步提升短视频价值，沉淀短视频营销沟通法则，指引短视频内容创作。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5ff3e7adda1efca9a0789d5a&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5ff3e7adda1efca9a0789d5a&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5ff3e7adda1efca9a0789d5a&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5feaaf34118ec90d4d684ef5&pkey=insight&skey=ai",
+   "text": "春节场景营销洞察\n春节周期拉长，提前一个月拉开迎新序幕。指引品牌和商家备战春节营销\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5feaaf34118ec90d4d684ef5&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5feaaf34118ec90d4d684ef5&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5feaaf34118ec90d4d684ef5&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5fe14ee2d2939b0cbb0cd1e3&pkey=insight&skey=ai",
+   "text": "双11营销启示录：美妆洗护特色人群报告\n2020年,随着消费者的需求在不断细化,在八大策略人群基础上，品牌需要进一步细化了解消费者偏好需求｡ 阿里妈妈通过消费者偏好挖掘和分析，归纳出美妆洗护行业特色人群，并在双11营销实战中进行有效验证。\n",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5fe14ee2d2939b0cbb0cd1e3&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5fe14ee2d2939b0cbb0cd1e3&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5fe14ee2d2939b0cbb0cd1e3&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5fdc4eb088f4310cdf5ff37b&pkey=insight&skey=ai",
+   "text": "双11营销启示录：食品行业品类趋势赛道\n阿里妈妈联合天猫超级新秀，发布m insight《双11营销启示录：食品行业品类趋势赛道》，基于阿里巴巴数据技术洞察消费者需求和市场供给情况，挖掘市场空白和蓝海机会，引领食品行业品类发展趋势。M in",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5fdc4eb088f4310cdf5ff37b&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5fdc4eb088f4310cdf5ff37b&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5fdc4eb088f4310cdf5ff37b&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7088df44fac20d08ff002a&pkey=insight&skey=ai",
+   "text": "双11投资指南-品牌消费者投资策略洞察\n双峰长周期下的人群蓄水与种草策略\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f7088df44fac20d08ff002a&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7088df44fac20d08ff002a&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f7088df44fac20d08ff002a&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70889040084c0ccd6093f1&pkey=insight&skey=ai",
+   "text": "双11投资指南-内容营销洞察\n内容驱动的增长引擎\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f70889040084c0ccd6093f1&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70889040084c0ccd6093f1&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f70889040084c0ccd6093f1&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70884e353faf0c6a2a4bfe&pkey=insight&skey=ai",
+   "text": "双11投资指南-互动营销洞察\n互动高价值人群与手淘互动流量高地\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f70884e353faf0c6a2a4bfe&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70884e353faf0c6a2a4bfe&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f70884e353faf0c6a2a4bfe&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f708808bdd83e0c707d5538&pkey=insight&skey=ai",
+   "text": "双11投资指南-新客拉新机会洞察\nJCGP下的场景拉新、心智拉新、特色赛道拉新\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f708808bdd83e0c707d5538&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f708808bdd83e0c707d5538&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f708808bdd83e0c707d5538&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7087a99878220cb3e7447e&pkey=insight&skey=ai",
+   "text": "双11投资指南-年轻族群消费真相与击穿策略洞察\n年轻族群的五大消费真相与种草媒介策略\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f7087a99878220cb3e7447e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7087a99878220cb3e7447e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f7087a99878220cb3e7447e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70874b04b1980cd687079f&pkey=insight&skey=ai",
+   "text": "双11投资指南-新品牌营销洞察\n新品易感人群沟通策略\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f70874b04b1980cd687079f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f70874b04b1980cd687079f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f70874b04b1980cd687079f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7086f2530fa30cc241658e&pkey=insight&skey=ai",
+   "text": "双11投资指南-新品策略洞察\n如何运用趋势易感人群锁定市场蓝海\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f7086f2530fa30cc241658e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7086f2530fa30cc241658e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f7086f2530fa30cc241658e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7082d51834b50cd51b7189&pkey=insight&skey=ai",
+   "text": "双11投资指南-超级单品人群策略洞察\n新品从冷启动到如何培育超级单品，打造行业爆品？\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f7082d51834b50cd51b7189&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f7082d51834b50cd51b7189&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f7082d51834b50cd51b7189&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f3cce921f50ff0d1a9f5d52&pkey=insight&skey=ai",
+   "text": "萌宠“富”养下的情感消费新声\n天猫平台宠物品牌數量同比增速超过60%，更多宠物行业新品牌涌现。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f3cce921f50ff0d1a9f5d52&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f3cce921f50ff0d1a9f5d52&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f3cce921f50ff0d1a9f5d52&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f23bcef82ecd60ce2f885da&pkey=insight&skey=ai",
+   "text": "阿里妈妈发布最新潮流圈层洞察报告，潮流人群规模增长超千万\n在潮流市场巨大增长潜力背后，谁在追潮，是在看潮？洞悉争流中的潮流圈层，把握市场脉搏。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f23bcef82ecd60ce2f885da&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f23bcef82ecd60ce2f885da&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f23bcef82ecd60ce2f885da&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f04240aa33f650c80982cd1&pkey=insight&skey=ai",
+   "text": "阿里妈妈联合中国美容博览会发布最新美妆消费者心智报告\n2020年下半年进入疫情后风险时代，美妆行业在连续3年的高速增长背后，面临着高度碎片化和不确定性的营销困境。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5f04240aa33f650c80982cd1&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5f04240aa33f650c80982cd1&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5f04240aa33f650c80982cd1&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5efd844442b1ba0cdc741b0e&pkey=insight&skey=ai",
+   "text": "当代年轻人熬夜行为大赏\n“每天全国有近2亿消费者在晚8点到凌晨6点活跃，11点过后仍有1亿人在深夜剁手，夜经济潜力巨大”。越夜越消费成为新趋势。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5efd844442b1ba0cdc741b0e&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5efd844442b1ba0cdc741b0e&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5efd844442b1ba0cdc741b0e&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5ee8660831a1e30c701cb208&pkey=insight&skey=ai",
+   "text": "阿里妈妈联合淘宝直播发布最新直播营销报告\n淘宝直播正在成为商业标配，这已经毋庸置疑。但品牌商家们都能成功转型为淘宝“主播”，在直播间风生水起吗？\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5ee8660831a1e30c701cb208&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5ee8660831a1e30c701cb208&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5ee8660831a1e30c701cb208&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e9023508a25c50cbe5e8f89&pkey=insight&skey=ai",
+   "text": "美妆行业新人群、新趋势、新场景机会\n消费市场的需求也在不断变换，我们看到Z世代崛起逐渐成为消费主力，直播成为当下最大的营销风口……\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e9023508a25c50cbe5e8f89&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e9023508a25c50cbe5e8f89&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e9023508a25c50cbe5e8f89&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e6b5590eafdb80ceb48de6f&pkey=insight&skey=ai",
+   "text": "Tipping Occasions 02\n男送女、女送男之间，爱的表达又有哪些有趣的差异？\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e6b5590eafdb80ceb48de6f&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e6b5590eafdb80ceb48de6f&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e6b5590eafdb80ceb48de6f&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435cb5f8769d0c96527af7&pkey=insight&skey=ai",
+   "text": "Tipping Occasions 01\n熬夜人群都有哪些消费神逻辑，揭示深埋在数据背后的的熬夜真相，助力品牌商家掘金熬夜场景。“0点经济”也实至名归。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e435cb5f8769d0c96527af7&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435cb5f8769d0c96527af7&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e435cb5f8769d0c96527af7&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435c7e2db8640ca330c3c3&pkey=insight&skey=ai",
+   "text": "四大行业消费趋势\n阿里妈妈发现消费者决策链路是蜿蜒曲折的，新的营销触点随时可能发生，影响决策行为。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e435c7e2db8640ca330c3c3&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435c7e2db8640ca330c3c3&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e435c7e2db8640ca330c3c3&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435c3a2db8640ca330c3c2&pkey=insight&skey=ai",
+   "text": "下沉市场洞察报告—时空脱域中的小镇青年\n增长一直是品牌关心的议题。但当获客成本高企、营销竞争激烈，增长的潜力市场在哪里？“下沉”或是出路之一。\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e435c3a2db8640ca330c3c2&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435c3a2db8640ca330c3c2&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e435c3a2db8640ca330c3c2&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435b80819bcd0c9d835669&pkey=insight&skey=ai",
+   "text": "美容护肤与个体护理行业消费信号与营销趋势报告\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e435b80819bcd0c9d835669&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435b80819bcd0c9d835669&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e435b80819bcd0c9d835669&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435a1c819bcd0c9d835667&pkey=insight&skey=ai",
+   "text": "新周期下消费电子趋势洞察与商业增长\n在增长趋于平稳、品牌趋于成熟的行业新周期下，将如何迎来突破式增长？\n下载\n查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/pdf-preview?id=5e435a1c819bcd0c9d835667&pkey=insight&skey=ai",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/article-detail?id=5e435a1c819bcd0c9d835667&pkey=insight&skey=ai",
+   "text": "查看详情",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-wiki/pdf-preview?id=5e435a1c819bcd0c9d835667&pkey=insight&skey=ai",
+   "text": "预览",
+   "region": "BODY"
+  },
+  {
+   "href": "javascript:;",
+   "text": "下载",
+   "region": "BODY"
+  },
+  {
+   "href": "https://reg.taobao.com/member/reg/fill_mobile.htm?spm=a2e117.13868764.c6f1c2c36.d1ea4e12a.6f373aadH6Br8U",
+   "text": "立即注册>",
+   "region": "BODY"
+  },
+  {
+   "href": "https://one.alimama.com/",
+   "text": "万相台无界版",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.alimama.com/",
+   "text": "阿里妈妈百灵",
+   "region": "BODY"
+  },
+  {
+   "href": "https://aff.alimama.com/",
+   "text": "淘宝联盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://dmp.taobao.com/?spm=a2320.7388781.ca214tr8.d9bda87b9.6f372030VYSweJ%EF%BC%89",
+   "text": "达摩盘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://chuangyi.taobao.com/",
+   "text": "创意中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://branding.taobao.com/index_plus.action#!/login/index",
+   "text": "品牌专区",
+   "region": "BODY"
+  },
+  {
+   "href": "https://hudongcheng.taobao.com/",
+   "text": "超级互动城",
+   "region": "BODY"
+  },
+  {
+   "href": "https://shuyuan.taobao.com/",
+   "text": "万堂书院",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm#!/marketing-insight/index",
+   "text": "前沿洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?name=grand-prix#!/grand-prix/2025/index",
+   "text": "未来商业奖",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/page.htm?name=event#!/mConference",
+   "text": "m峰会",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mamabusiness.taobao.com/#/login",
+   "text": "客户工作台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm?spm=a2e117.46021143.cfa93e800.dd623979e.705d2030YEI7yw#!/products/no-product?key=club",
+   "text": "妈妈CLUB",
+   "region": "BODY"
+  },
+  {
+   "href": "https://amp.taobao.com/",
+   "text": "营销拍档",
+   "region": "BODY"
+  },
+  {
+   "href": "https://rule.alimama.com/?spm=a2320.9441632.ca214tr8.d9bda87bf.50f02030d1dZFS",
+   "text": "规则中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://help.alimama.com/?spm=a2320.7388781.ca214tr8.d9bda87be.19c42030swC4n4",
+   "text": "客服中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mo.m.taobao.com/mbrand/index",
+   "text": "品牌形象站",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/",
+   "text": "关于阿里妈妈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/home/about-1.htm",
+   "text": "联系客服",
+   "region": "BODY"
+  },
+  {
+   "href": "https://open.taobao.com/",
+   "text": "开放平台",
+   "region": "BODY"
+  },
+  {
+   "href": "https://taotian.jubao.alibaba.com/?site=8_JTYWGW_XS_MUOWSZOB",
+   "text": "廉正举报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/home/about-4.htm",
+   "text": "意见反馈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mos.m.taobao.com/rulecenter/jubao",
+   "text": "举报中心",
+   "region": "BODY"
+  },
+  {
+   "href": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_ali_mama_division/suit_bu1_ali_mama_division202107201832_24375.html",
+   "text": "法律声明及隐私权政策",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alibabagroup.com/cn/global/home",
+   "text": "阿里巴巴集团",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.taobao.com/",
+   "text": "淘宝网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.tmall.com/",
+   "text": "天猫",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ju.taobao.com/",
+   "text": "聚划算",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.aliexpress.com/",
+   "text": "全球速卖通",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alibaba.com/",
+   "text": "阿里巴巴国际交易市场",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.1688.com/",
+   "text": "1688",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alimama.com/index.htm",
+   "text": "阿里妈妈",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.fliggy.com/",
+   "text": "飞猪",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.aliyun.com/",
+   "text": "阿里云计算",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.etao.com/",
+   "text": "一淘",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wanwang.aliyun.com/",
+   "text": "万网",
+   "region": "BODY"
+  },
+  {
+   "href": "https://mobile.amap.com/",
+   "text": "高德",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.uc.cn/",
+   "text": "UC",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.umeng.com/",
+   "text": "友盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.damai.cn/",
+   "text": "大麦",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.dingtalk.com/",
+   "text": "钉钉",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alipay.com/",
+   "text": "支付宝",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.youku.com/",
+   "text": "优酷",
+   "region": "BODY"
+  },
+  {
+   "href": "https://s.alibaba.com/",
+   "text": "阿里安全",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.alibabapictures.com/simp/0-home.html",
+   "text": "阿里影业",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.alisports.com/",
+   "text": "阿里体育",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.mybank.cn/",
+   "text": "网商银行",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=913301106623179715-SAIC_SHOW_1000009133011066231797151706595155252&signData=MEUCIFcuXRSEv9pd/q8M0tHaJJsCqjnnMdmYS3D0CipMw7P3AiEA2QqVrCPy6je2DRnzbu78q9JKi0AL3gKZj0/gzHyRsYI=",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000075",
+   "text": "浙公网安备 33010002000075号",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/",
+   "text": "增值电信业务经营许可证：浙B2-20070195",
+   "region": "BODY"
+  }
+ ]
+}

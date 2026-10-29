@@ -1,0 +1,212 @@
+{
+ "url": "https://e.kuaishou.com/#/e/report",
+ "observed_at": "2026-10-29T08:10:22.356Z",
+ "method": "playwright-chromium",
+ "final_url": "https://e.kuaishou.com/#/e/report",
+ "status": 200,
+ "error": null,
+ "title": "磁力引擎|快手广告投放|快手营销服务平台|快手新市井商业",
+ "h1": "快手商业洞察",
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 24,
+   "new_in_prefix": 24,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 24,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "GET",
+   "url": "https://p1-ad.adkwai.com/kos/nlav11175/magnet_service_matrix/product_list.json?uniq=179326142"
+  },
+  {
+   "method": "GET",
+   "url": "https://p1-ad.adkwai.com/kos/nlav11175/magnet_service_matrix/magnetic_engine_office.json?uniq=179326142"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/misc2?v=3.10.45&kpn=kcfe-service-matrix"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/misc2?v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.kuaishou.com/rest/crm/no/permission/getCityList"
+  },
+  {
+   "method": "GET",
+   "url": "https://e.kuaishou.com/rest/crm/no/permission/getIndustriesV3"
+  },
+  {
+   "method": "POST",
+   "url": "https://e.kuaishou.com/rest/bp/materialConfig/insight"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://frontend-perf-service.e.kuaishou.com/rest/perf"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://frontend-perf-service.e.kuaishou.com/rest/perf"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  },
+  {
+   "method": "POST",
+   "url": "https://log-sdk.ksapisrv.com/rest/wd/common/log/collect/radar?encoding=gzip&v=3.10.45&kpn=e_kuaishou"
+  }
+ ],
+ "api": [],
+ "anchors": [
+  {
+   "href": "https://ad.e.kuaishou.com/welcome",
+   "text": "磁力智投",
+   "region": "BODY"
+  },
+  {
+   "href": "https://niu.e.kuaishou.com/",
+   "text": "磁力金牛",
+   "region": "BODY"
+  },
+  {
+   "href": "https://k.kuaishou.com/official.html#/",
+   "text": "磁力聚星",
+   "region": "BODY"
+  },
+  {
+   "href": "https://cc.e.kuaishou.com/",
+   "text": "磁力开创",
+   "region": "BODY"
+  },
+  {
+   "href": "https://suzao.e.kuaishou.com/#/welcome",
+   "text": "磁力素造",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/fanstoPage",
+   "text": "快手粉条",
+   "region": "BODY"
+  },
+  {
+   "href": "https://wanxiang.e.kuaishou.com/",
+   "text": "磁力万象",
+   "region": "BODY"
+  },
+  {
+   "href": "https://ssp.e.kuaishou.com/#/home",
+   "text": "快手联盟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://fangzhou.e.kuaishou.com/",
+   "text": "磁力方舟",
+   "region": "BODY"
+  },
+  {
+   "href": "https://brand.e.kuaishou.com/",
+   "text": "品牌合约",
+   "region": "BODY"
+  },
+  {
+   "href": "https://tianyan.e.kuaishou.com/",
+   "text": "磁力天演",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/news",
+   "text": "新闻资讯",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/cases",
+   "text": "明星案例",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/report",
+   "text": "商业洞察",
+   "region": "BODY"
+  },
+  {
+   "href": "https://knowledge.e.kuaishou.com/",
+   "text": "磁力学",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/made",
+   "text": "磁力制造",
+   "region": "BODY"
+  },
+  {
+   "href": "https://e.kuaishou.com/#/e/about",
+   "text": "关于我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zhaopin.kuaishou.cn/recruit/e/#/official/index/",
+   "text": "加入我们",
+   "region": "BODY"
+  },
+  {
+   "href": "https://www.kwaixiaodian.com/?source=ciliyinqing",
+   "text": "电商入驻",
+   "region": "BODY"
+  },
+  {
+   "href": "https://jubao.kuaishou.com/#/?channel=CLYQ",
+   "text": "廉正举报",
+   "region": "BODY"
+  },
+  {
+   "href": "https://docs.qingque.cn/d/home/eZQAAC_jBidvK-DkYRElgRgSx?identityId=1hnhOWsv1N6",
+   "text": "广告审核标准公示",
+   "region": "BODY"
+  },
+  {
+   "href": "https://beian.miit.gov.cn/#/Integrated/index",
+   "text": "京ICP备15023266号-136",
+   "region": "BODY"
+  },
+  {
+   "href": "https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&serial=11000020190617100242000003563691-SAIC_SHOW_10002020190621144025721&signData=MEQCIP0/+UH+ntaa/CsUaIa29DiFE/5haWZtEr21SBp7ZH3FAiAaZbzsn7SkDMMICyfCAsZly9BxiPl94sRConkJ4tEgzw==",
+   "text": "",
+   "region": "BODY"
+  },
+  {
+   "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802038443",
+   "text": "京公网安备 11010802038443号",
+   "region": "BODY"
+  }
+ ]
+}

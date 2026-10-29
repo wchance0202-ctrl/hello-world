@@ -1,0 +1,35 @@
+{
+ "url": "https://learn.incopat.com/#/",
+ "observed_at": "2026-10-29T08:09:58.471Z",
+ "method": "playwright-chromium",
+ "final_url": "https://learn.incopat.com/#/",
+ "status": 200,
+ "error": null,
+ "title": "首页",
+ "h1": null,
+ "rounds": [
+  {
+   "round": 0,
+   "anchors": 0,
+   "new_in_prefix": 0,
+   "clicked": null
+  },
+  {
+   "round": 1,
+   "anchors": 0,
+   "new_in_prefix": 0
+  }
+ ],
+ "requests": [
+  {
+   "method": "POST",
+   "url": "https://learn.incopat.com/pcapi/v1/setting"
+  },
+  {
+   "method": "POST",
+   "url": "https://learn.incopat.com/pcapi/v1/home"
+  }
+ ],
+ "api": [],
+ "anchors": []
+}

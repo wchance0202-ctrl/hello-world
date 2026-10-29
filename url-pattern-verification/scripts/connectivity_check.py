@@ -74,7 +74,7 @@ def main():
     first = {}
     for e in ents:
         if e["kind"] == "path_entry":
-            first.setdefault(e["host"], (e["entry_id"], e["raw"]))
+            first.setdefault(e["host"], (e["entry_id"], e.get("request_url") or e["raw"]))
     jobs = list(first.values()) + [("dependency", u) for u in a.extra]
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
         recs = list(ex.map(lambda j: probe(*j), jobs))
