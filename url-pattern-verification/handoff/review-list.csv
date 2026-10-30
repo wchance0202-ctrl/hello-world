@@ -1,0 +1,74 @@
+﻿pattern链接,entry_id,原表行,表中可能已有的正则,问题,怎么改
+https://www.itu.int/en/action/Pages/default.aspx,S1-R18-E4,第一批 18,^https://www\.itu\.int/en/action/[a-z-]+/Pages/default\.aspx$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://www.wipo.int/en/web/patentscope/,S1-R19-E4,第一批 19,^https://www\.wipo\.int/en/web/patentscope/[a-z_]+$,候选，未达准入：机械门未通过：归纳正例 2<3,补齐所缺证据后保留，或修正
+https://www.wipo.int/en/web/business,S1-R19-E12,第一批 19,^https://www\.wipo\.int/en/web/business/[a-z-]+$,候选，未达准入：机械门未通过：留出与归纳/回归重叠；列表成员漏配 1,补齐所缺证据后保留，或修正
+https://www.euromonitor.com/articles,S1-R27-E1,第一批 27,^https://www\.euromonitor\.com/insights/insight\-search\-result\-page\-tags\?tag=[a-zA-Z_-]*&returnUrl=[a-zA-Z0-9%\.]*$,候选，未达准入：机械门未通过：留出与归纳/回归重叠,补齐所缺证据后保留，或修正
+https://www.comscore.com/Insights/Blog,S1-R35-E1,第一批 35,^https://www\.comscore\.com/Insights/Blog/[a-zA-Z0-9-]+$,候选，未达准入：机械门未通过：留出与归纳/回归重叠,补齐所缺证据后保留，或修正
+https://www.dandad.org/work/annual-2026/,S1-R86-E1,第一批 86,^https://www\.dandad\.org/work/annual\-2026/[a-z0-9-]+$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://growthhackers.com/growth-studies/,S1-R91-E1,第一批 91,^https://growthhackers\.com/growth\-studies/[a-z-]+/$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://www.siegelgale.com/ideas/,S1-R133-E1,第一批 133,^https://www\.siegelgale\.com/ideas/[a-z-]+/$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://www.jazzyear.com/study_list.html,S2-R47-E1,第二批 47,^https://www\.jazzyear\.com/study_info\.html\?id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=1,S2-R47-E3,第二批 47,^https://www\.jazzyear\.com/article_info\.html\?id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=1,S2-R47-E3,第二批 47,^https://www\.jazzyear\.com/[a-z_]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=2,S2-R47-E4,第二批 47,^https://www\.jazzyear\.com/article_info\.html\?id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=2,S2-R47-E4,第二批 47,^https://www\.jazzyear\.com/[a-z_]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=3,S2-R47-E5,第二批 47,^https://www\.jazzyear\.com/article_info\.html\?id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=3,S2-R47-E5,第二批 47,^https://www\.jazzyear\.com/[a-z_]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=4,S2-R47-E6,第二批 47,^https://www\.jazzyear\.com/article_info\.html\?id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=4,S2-R47-E6,第二批 47,^https://www\.jazzyear\.com/[a-z_]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jazzyear.com/article_list.html?type=6,S2-R47-E7,第二批 47,^https://www\.jazzyear\.com/[a-z_]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.chinaventure.com.cn/index.html,S2-R93-E2,第二批 93,^https://www\.chinaventure\.com\.cn/[a-z]+/[a-z0-9_-]+\.html$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-10-1.html,S2-R109-E1,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-10-1.html,S2-R109-E1,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-16-1.html,S2-R109-E2,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-16-1.html,S2-R109-E2,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-12-1.html,S2-R109-E3,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-12-1.html,S2-R109-E3,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-20-1.html,S2-R109-E4,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-25-1.html,S2-R109-E5,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-25-1.html,S2-R109-E5,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-67-1.html,S2-R109-E6,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-67-1.html,S2-R109-E6,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-39-1.html,S2-R109-E7,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-39-1.html,S2-R109-E7,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-407-1.html,S2-R109-E8,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-44-1.html,S2-R109-E9,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-44-1.html,S2-R109-E9,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-41-1.html,S2-R109-E10,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-45-1.html,S2-R109-E11,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-45-1.html,S2-R109-E11,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+http://www.coalchina.org.cn/list-43-1.html,S2-R109-E12,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+http://www.coalchina.org.cn/list-43-1.html,S2-R109-E12,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+http://www.coalchina.org.cn/list-42-1.html,S2-R109-E13,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-40-1.html,S2-R109-E14,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-40-1.html,S2-R109-E14,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-72-1.html,S2-R109-E15,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-72-1.html,S2-R109-E15,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-82-1.html,S2-R109-E16,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.coalchina.org.cn/list-82-1.html,S2-R109-E16,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,范围超界：入口在站点根目录，正则按整个站点泛化，会匹配其他栏目的页面,找出栏目标识（如 catid=20、type=1）并写成字面量；条目地址不带标识时改为精确清单
+https://www.jiemian.com/lists/800.html,S2-R82-E2,第二批 82,^https://www\.jiemian\.com/lists/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.jiemian.com/lists/51.html,S2-R82-E11,第二批 82,^https://www\.jiemian\.com/lists/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.jiemian.com/lists/30.html,S2-R82-E13,第二批 82,^https://www\.jiemian\.com/lists/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/13.html,S2-R108-E2,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN4/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/14.html,S2-R108-E3,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/420.html,S2-R108-E10,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/33.html,S2-R108-E16,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN4/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/492.html,S2-R108-E19,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/600.html,S2-R108-E21,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+https://www.cheaa.org/channels/635.html,S2-R108-E22,第二批 108,^https://www\.cheaa\.org/channels/[0-9]+\.html$,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）,删掉这条，按待补正则的流程重做
+www.ctrchina.cn/product/MI,S2-R15-E1,第二批 15,^https://www\.ctrchina\.cn/product/MI/[a-z]+$,候选，未达准入：机械门未通过：有正例未完成落地身份核验,补齐所缺证据后保留，或修正
+https://dy.feigua.cn/Article2/,S2-R20-E2,第二批 20,^https://dy\.feigua\.cn/Article2/Detail\?id=[0-9]*$,候选，未达准入：机械门未通过：样本重复,补齐所缺证据后保留，或修正
+https://ks.feigua.cn/news/,S2-R20-E3,第二批 20,^https://ks\.feigua\.cn/news/[a-z0-9]+\.html$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://ks.feigua.cn/news/,S2-R20-E3,第二批 20,^https://ks\.feigua\.cn/news/tag/1/[A-Z0-9%例功商巧带快成手技播案电直短营视货运频]+\.html$,候选，未达准入：机械门未通过：留出与归纳/回归重叠,补齐所缺证据后保留，或修正
+https://bg.qianzhan.com/report/,S2-R27-E2,第二批 27,^https://bg\.qianzhan\.com/report/[a-z0-9]+/[a-z0-9_]+\.html$,候选，未达准入：机械门未通过：有正例未完成落地身份核验,补齐所缺证据后保留，或修正
+https://bg.qianzhan.com/report/,S2-R27-E2,第二批 27,^https://bg\.qianzhan\.com/report/[a-z0-9]+/$,候选，未达准入：机械门未通过：留出反例 2<3、留出与归纳/回归重叠,补齐所缺证据后保留，或修正
+https://e.xiaohongshu.com/case,S2-R57-E1,第二批 57,^https://e\.xiaohongshu\.com/case/[0-9]+\?fromType=list$,候选，未达准入：机械门未通过：留出反例 1<3,补齐所缺证据后保留，或修正
+https://www.cntac.org.cn/zixun/,S2-R107-E1,第二批 107,^https://www\.cntac\.org\.cn/zixun/[a-z]+/$,候选，未达准入：机械门未通过：样本重复,补齐所缺证据后保留，或修正
+https://www.coalchina.org.cn/list-20-1.html,S2-R109-E4,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://www.coalchina.org.cn/list-41-1.html,S2-R109-E10,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,候选，未达准入：机械门未通过：样本重复,补齐所缺证据后保留，或修正
+http://www.coalchina.org.cn/list-42-1.html,S2-R109-E13,第二批 109,^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$,候选，未达准入：机械门未通过：无独立留出正例（sitemap、后续分页、其他页面、详情页链接均无同结构样本）,补齐所缺证据后保留，或修正
+https://www.talkingdata.com/insights.jsp?languagetype=zh_cn#industry-news,S2-R117-E2,第二批 117,^https://www\.talkingdata\.com/insights\-article\.jsp\?languagetype=zh_cn&id=[0-9]*$,候选，未达准入：机械门未通过：留出反例 2<3,补齐所缺证据后保留，或修正
+https://www.sensorsdata.cn/blog,S2-R126-E3,第二批 126,^https://www\.sensorsdata\.cn/blog/[a-z0-9_-]+/?$,候选，未达准入：机械门未通过：留出与归纳/回归重叠,补齐所缺证据后保留，或修正
+https://www.kolkoc.com/news/,S2-R145-E1,第二批 145,^https://www\.kolkoc\.com/news/[0-9]+\.html$,候选，未达准入：机械门未通过：样本重复,补齐所缺证据后保留，或修正
+https://www.kolkoc.com/news/,S2-R145-E1,第二批 145,^https://www\.kolkoc\.com/news/[a-z]+/[a-z0-9-]+$,候选，未达准入：机械门未通过：样本重复,补齐所缺证据后保留，或修正
+https://www.alimama.com/index.htm#!/marketing-wiki/index,S2-R58-E3,第二批 58,^https://www\.alimama\.com/index\.htm\#!/marketing\-wiki/article\-detail\?id=[a-z0-9]+&pkey=wiki&skey=popularization$,候选，未达准入：skey 只观察到 popularization 一个取值，而页面上还有其他子分类（已观察到 skeys=answer），很可能漏配其他子分类,补齐所缺证据后保留，或修正

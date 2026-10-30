@@ -1,5 +1,14 @@
 # 指定pattern 列：URL 正则提取与覆盖核验
 
+## 交接：补齐「正则表达式」列（2026-10-30，替代上一版交接）
+
+用户已把结果汇总成 4 列表（站点名称｜pattern链接｜黑白名单属性｜正则表达式），空白行由其他 AI 补齐。
+`handoff/prompt-fill-regex.md` 是新的 prompt，第 1 节定义匹配对象。核心是条目不在入口路径下时，必须先做“专属性证明”。
+配套 `handoff/fill-list.xlsx|csv`（由 `scripts/build_fill_list.py handoff` 生成）：
+「待补正则」301 行，附空白原因和线索，线索是上一轮在入口页上看到的前缀外同站链接结构；
+「已填需复核」73 条，其中范围超界 39 条、验证不通过 10 条、候选 24 条。
+上一版 `prompt-remaining.md` 保留作参考。
+
 ## 交接：剩余任务（2026-10-30）
 
 `handoff/prompt-remaining.md` 是交给其他 AI 的完整 prompt（正文 `prompt-body.md` + 自动生成的附录 `appendix.md`），

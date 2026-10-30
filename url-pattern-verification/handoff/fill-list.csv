@@ -1,0 +1,771 @@
+﻿pattern链接,entry_id,原表行,空白原因,建议做法,上一轮线索：入口页上前缀外同站链接的主要结构（数量｜样例）,当前发现覆盖,当前链接状态
+https://www.census.gov/retail/,S1-R2-E1,第一批 2,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.census.gov/{x} ×4｜https://www.census.gov/；https://www.census.gov/programs-surveys.html
+www.census.gov/retail/mrts/{x} ×1｜http://www.census.gov/retail/mrts/historic_releases.html
+www.census.gov/data/developers/data-sets/{x} ×1｜https://www.census.gov/data/developers/data-sets/economic-indicators.html
+www.census.gov/econ/{x}/?programCode={…} ×1｜https://www.census.gov/econ/currentdata/?programCode=MARTS",完整（枚举结束，无独立全集对账）,可打开（200，标题「Monthly Retail Trade - Main Page」）
+https://www.bls.gov/cex/,S1-R3-E1,第一批 3,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.bls.gov/news.release/cesan.htm,S1-R3-E2,第一批 3,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.worldbank.org/ext/en/development-topics,S1-R6-E1,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.worldbank.org/ext/en/topic/{x} ×24｜https://www.worldbank.org/ext/en/topic/climate-change；https://www.worldbank.org/ext/en/topic/water
+www.worldbank.org/ext/en/topic/social-development/{x} ×8｜https://www.worldbank.org/ext/en/topic/social-development/citizen-engagement；https://www.worldbank.org/ext/en/topic/social-development/social-inclusion
+www.worldbank.org/ext/en/topic/education/{x} ×6｜https://www.worldbank.org/ext/en/topic/education/digital-technologies-in-education；https://www.worldbank.org/ext/en/topic/education/tertiary-education
+www.worldbank.org/ext/en/topic/financial-sector/{x} ×6｜https://www.worldbank.org/ext/en/topic/financial-sector/capital-markets；https://www.worldbank.org/ext/en/topic/financial-sector/long-term-finance",完整（枚举结束，无独立全集对账）,可打开（200，标题「Development Topics | World Bank Group」）
+https://www.worldbank.org/ext/en/where-we-work,S1-R6-E2,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.worldbank.org/ext/en/country/{x} ×152｜https://www.worldbank.org/ext/en/country/afghanistan；https://www.worldbank.org/ext/en/country/zimbabwe
+www.worldbank.org/ext/en/region/{x} ×8｜https://www.worldbank.org/ext/en/region/afr；https://www.worldbank.org/ext/en/region/smallstates
+www.worldbank.org/ext/pt/country/{x} ×6｜https://www.worldbank.org/ext/pt/country/angola；https://www.worldbank.org/ext/pt/country/saotome
+www.worldbank.org/en/country/{x} ×4｜https://www.worldbank.org/en/country/caribbean；https://www.worldbank.org/en/country/pacificislands",完整（枚举结束，无独立全集对账）,可打开（200，标题「Where We Work | World Bank Group」）
+https://www.worldbank.org/ext/en/research-publications,S1-R6-E3,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"openknowledge.worldbank.org/handle/10986/{x} ×20｜https://openknowledge.worldbank.org/handle/10986/43758；https://openknowledge.worldbank.org/handle/10986/45624
+www.worldbank.org/en/publication/{x} ×3｜https://www.worldbank.org/en/publication/global-economic-prospects；https://www.worldbank.org/en/publication/wdr2026
+wwwstg.worldbank.org/ext/en/{x} ×3｜https://wwwstg.worldbank.org/ext/en/home；https://wwwstg.worldbank.org/ext/en/research-publications-order
+openknowledge.worldbank.org/entities/publication/{x} ×2｜https://openknowledge.worldbank.org/entities/publication/3ede6f8c-ba03-4176-867c-40e604698570；https://openknowledge.worldbank.org/entities/publication/4ffe1731-0a7d-4aca-9212-35fe5b952002",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Publications & Research: Reports, Data, and More |」）"
+https://www.worldbank.org/ext/en/what-we-do,S1-R6-E4,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"projects.worldbank.org/{x}?lang={…}&page={…} ×2｜https://projects.worldbank.org/sector?lang=en&page=；https://projects.worldbank.org/theme?lang=en&page=
+www.worldbank.org/ext/en/{x} ×2｜https://www.worldbank.org/ext/en/home；https://www.worldbank.org/ext/en/what-we-do
+academy.worldbank.org/en/{x} ×1｜https://academy.worldbank.org/en/home
+data.worldbank.org/{x} ×1｜https://data.worldbank.org/",完整（枚举结束，无独立全集对账）,"可打开（200，标题「What We Do | World Bank Group: Global Development,」）"
+https://www.worldbank.org/ext/en/news,S1-R6-E5,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.worldbank.org/en/news/{x} ×4｜https://www.worldbank.org/en/news/contacts；https://www.worldbank.org/en/news/video
+www.worldbank.org/en/news/{x}?lang_exact={…}&displayconttype_exact={…} ×3｜https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Press%20Release；https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Statement
+www.worldbank.org/en/news/{x}?lang_exact={…}&displayconttype_exact={…}&={…} ×3｜https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Press%20Release&；https://www.worldbank.org/en/news/all?lang_exact=English&displayconttype_exact=Statement&
+blogs.worldbank.org/en/{x} ×2｜https://blogs.worldbank.org/en/search；https://blogs.worldbank.org/en/search?",完整（枚举结束，无独立全集对账）,可打开（200，标题「News | World Bank Group」）
+https://blogs.worldbank.org/en/home,S1-R6-E14,第一批 6,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"blogs.worldbank.org/en/opendata/{x} ×8｜https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig；https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025
+blogs.worldbank.org/en/{x} ×6｜https://blogs.worldbank.org/en/arabvoices；https://blogs.worldbank.org/en/voices
+blogs.worldbank.org/en/voices/{x} ×5｜https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor；https://blogs.worldbank.org/en/voices/what-thailand-s-maya-bay-teaches-us-about-the-missing-link-in-bl
+blogs.worldbank.org/en/team/m/{x} ×4｜https://blogs.worldbank.org/en/team/m/mahmoud-elsaman；https://blogs.worldbank.org/en/team/m/mohammad-amin",完整（枚举结束，无独立全集对账）,可打开（200，标题「Unlock Development Insights with World Bank Blogs」）
+https://www.bis.org/statistics,S1-R16-E2,第一批 16,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"data.bis.org/topics/{x} ×20｜https://data.bis.org/topics/CBPOL；https://data.bis.org/topics/XTD_DER
+www.bis.org/{x}?series%5B0%5D={…} ×5｜https://www.bis.org/publications?series%5B0%5D=IBS/GLI；https://www.bis.org/publications?series%5B0%5D=Triennial%20survey
+www.bis.org/publications/{x} ×3｜https://www.bis.org/publications/202605-commentary-residential-property-prices；https://www.bis.org/publications/202608-commentary-residential-property-prices
+data.bis.org/{x} ×2｜https://data.bis.org/；https://data.bis.org/release-calendar",完整（枚举结束，无独立全集对账）,可打开（200，标题「Statistics | Bank for International Settlements」）
+https://www.bis.org/committees/overview,S1-R16-E5,第一批 16,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bis.org/committees/bcbs/{x} ×2｜https://www.bis.org/committees/bcbs/basel-framework；https://www.bis.org/committees/bcbs/overview
+www.bis.org/committees/cbgg/{x} ×1｜https://www.bis.org/committees/cbgg/overview
+www.bis.org/committees/cgfs/{x} ×1｜https://www.bis.org/committees/cgfs/overview
+www.bis.org/committees/cpmi/{x} ×1｜https://www.bis.org/committees/cpmi/overview",完整（枚举结束，无独立全集对账）,可打开（200，标题「Committees | Bank for International Settlements」）
+https://www.bis.org/about/fsi/overview,S1-R16-E6,第一批 16,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bis.org/author/{x} ×7｜https://www.bis.org/author/adrien-currat；https://www.bis.org/author/renzo-corrias
+www.bis.org/about/fsi/{x} ×6｜https://www.bis.org/about/fsi/capacity-development；https://www.bis.org/about/fsi/publications
+www.bis.org/publications/{x} ×4｜https://www.bis.org/publications/core-principles-effective-deposit-insurance-systems-executive-summary；https://www.bis.org/publications/fsi-paper-29-leverage-ratio-and-output-floor-complementarities-and-overlaps
+www.bis.org/about/fsi/{x}?series%5B0%5D={…} ×1｜https://www.bis.org/about/fsi/publications?series%5B0%5D=FSI%20Executive%20Summaries",完整（枚举结束，无独立全集对账）,可打开（200，标题「Financial Stability Institute | Bank for Internati」）
+https://www.bis.org/about/innovation-hub/overview,S1-R16-E7,第一批 16,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bis.org/author/{x} ×7｜https://www.bis.org/author/andras-valko；https://www.bis.org/author/tommaso-mancini-griffoli
+www.bis.org/about/innovation-hub/{x} ×3｜https://www.bis.org/about/innovation-hub/overview；https://www.bis.org/about/innovation-hub/publications
+www.bis.org/{x} ×1｜https://www.bis.org/about",完整（枚举结束，无独立全集对账）,可打开（200，标题「BIS Innovation Hub | Bank for International Settle」）
+https://www.bis.org/media/news,S1-R16-E8,第一批 16,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bis.org/media-releases/{x} ×1443｜https://www.bis.org/media-releases/19750212-cb-governors-group-ten-countries-and-switzerland-have-established-standing-committee-experts；https://www.bis.org/media-releases/20261016-basel-committee-finalises-measures-address-window-dressing-g-sib-framework-and-consults-g-sib
+www.bis.org/media/{x}?page={…} ×145｜https://www.bis.org/media/news?page=0；https://www.bis.org/media/news?page=99
+www.bis.org/media-releases/{x}?language={…} ×10｜https://www.bis.org/media-releases/20010108-bis-announces-withdrawal-all-shares-held-its-private-shareholders-against-payment-chf-16-000?language=de；https://www.bis.org/media-releases/20241115-master-plan-amendment-bis-campus-open-public-review?language=de
+www.bis.org/media/{x} ×2｜https://www.bis.org/media/news；https://www.bis.org/media/videos",完整（枚举结束，无独立全集对账）,可打开（200，标题「Media releases | Bank for International Settlement」）
+https://www.itu.int/hub/pubs/,S1-R18-E1,第一批 18,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.itu.int/hub/publication/{x}/ ×13｜https://www.itu.int/hub/publication/d-ind-global-01-2022/；https://www.itu.int/hub/publication/t-tut-smartcity-2019-2/
+www.itu.int/en/ITU-T/publications/Pages/{x} ×2｜https://www.itu.int/en/ITU-T/publications/Pages/default.aspx；https://www.itu.int/en/ITU-T/publications/Pages/recs.aspx
+www.itu.int/en/ITU-D/Pages/{x} ×1｜https://www.itu.int/en/ITU-D/Pages/itu-d-publications.aspx
+www.itu.int/en/publications/ITU-R/Pages/{x} ×1｜https://www.itu.int/en/publications/ITU-R/Pages/default.aspx",完整（枚举结束，无独立全集对账）,可打开（200，标题「ITU Publications / UN agency for digital technolog」）
+https://www.itu.int/en/ITU-D/Pages/default.aspx,S1-R18-E7,第一批 18,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.itu.int/{x} ×12｜https://www.itu.int/applepodcasts；https://www.itu.int/youtube
+www.itu.int/itu-d/sites/{x}/ ×6｜https://www.itu.int/itu-d/sites/africa/；https://www.itu.int/itu-d/sites/studygroups/
+www.itu.int/itu-d/sites/priorities/{x} ×5｜https://www.itu.int/itu-d/sites/priorities/affordable-connectivity；https://www.itu.int/itu-d/sites/priorities/resource-mobilization-and-international-cooperation
+www.itu.int/itu-d/sites/{x} ×4｜https://www.itu.int/itu-d/sites/bdt-highlights；https://www.itu.int/itu-d/sites/membership",完整（枚举结束，无独立全集对账）,可打开（200，标题「ITU Telecommunication Development Sector」）
+https://www.itu.int/en/publications/Pages/media.aspx,S1-R18-E9,第一批 18,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.itu.int/{x} ×12｜https://www.itu.int/applepodcasts；https://www.itu.int/youtube
+www.itu.int/en/{x} ×6｜https://www.itu.int/en/ITU-D；https://www.itu.int/en/events
+www.itu.int/en/Pages/{x} ×3｜https://www.itu.int/en/Pages/accessibility.aspx；https://www.itu.int/en/Pages/social-media.aspx
+www.itu.int/hub/{x}/ ×3｜https://www.itu.int/hub/membership/；https://www.itu.int/hub/pubs/",完整,可打开（200，标题「Catalogue of Publications」）
+https://www.wipo.int/en/web/ip-resources,S1-R19-E1,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/web/{x} ×4｜https://www.wipo.int/web/patent-analytics；https://www.wipo.int/web/world-ip-report",完整（枚举结束，无独立全集对账）,可打开（200，标题「IP Resources」）
+https://www.wipo.int/publications/en/,S1-R19-E2,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×6｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「WIPO Publications」）
+https://www.wipo.int/en/web/ip-statistics,S1-R19-E3,第一批 19,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/publications/en/series/{x}?id={…} ×5｜https://www.wipo.int/publications/en/series/index.jsp?id=33；https://www.wipo.int/publications/en/series/index.jsp?id=37
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives",完整（枚举结束，无独立全集对账）,可打开（200，标题「Intellectual Property Statistics」）
+https://www.wipo.int/en/web/global-design-database,S1-R19-E8,第一批 19,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/web/global-design-database/{x} ×3｜https://www.wipo.int/web/global-design-database/faqs_designdb；https://www.wipo.int/web/global-design-database/webinars",完整（枚举结束，无独立全集对账）,可打开（200，标题「Global Design Database」）
+https://www.wipo.int/en/web/wipolex,S1-R19-E11,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/web/wipolex/info/{x} ×3｜https://www.wipo.int/web/wipolex/info/glossary；https://www.wipo.int/web/wipolex/info/wipo-wto_common_portal",完整（枚举结束，无独立全集对账）,可打开（200，标题「WIPO Lex – A Global IP Law Database」）
+https://www.wipo.int/en/web/ip-commercialization,S1-R19-E15,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「IP Commercialization: Taking Research from Lab to 」）
+https://www.wipo.int/en/web/ip-financing,S1-R19-E16,第一批 19,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/publications/en/{x}?id={…} ×9｜https://www.wipo.int/publications/en/details.jsp?id=4700；https://www.wipo.int/publications/en/details.jsp?id=4812
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives",完整（枚举结束，无独立全集对账）,可打开（200，标题「Intellectual Property Finance」）
+https://www.wipo.int/en/web/intangible-assets,S1-R19-E17,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「Intangible Assets and IP」）
+https://www.wipo.int/en/web/innovation-ecosystems,S1-R19-E18,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×93｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/economics/{x} ×2｜https://www.wipo.int/en/web/economics/creative-industries-insights；https://www.wipo.int/en/web/economics/innovation-capabilities",完整（枚举结束，无独立全集对账）,可打开（200，标题「IP in the Innovation Ecosystem」）
+https://www.wipo.int/en/web/competition-policy,S1-R19-E19,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「Intellectual Property and Competition Policy」）
+https://www.wipo.int/en/web/frontier-technologies,S1-R19-E20,第一批 19,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"www.wipo.int/en/web/{x} ×92｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「IP and Frontier Technologies」）
+https://www.wipo.int/en/web/technology-trends,S1-R19-E23,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整,可打开（200，标题「Technology Trends」）
+https://www.wipo.int/en/web/country-profiles,S1-R19-E26,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×6｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patents/{x} ×2｜https://www.wipo.int/en/web/patents/patent-information；https://www.wipo.int/en/web/patents/protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「Country IP Profiles」）
+https://www3.wipo.int/madrid/monitor/en/,S1-R19-E27,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/madrid/en/news/2016/{x} ×2｜http://www.wipo.int/madrid/en/news/2016/news_0011.html target='_blank'；http://www.wipo.int/madrid/en/news/2016/news_0011.html%20target='_blank'
+www.wipo.int/madrid/en/members/{x} ×2｜https://www.wipo.int/madrid/en/members/declarations.html；https://www.wipo.int/madrid/en/members/ipoffices_info.html
+www.wipo.int/madrid/en/monitor/{x} ×2｜https://www.wipo.int/madrid/en/monitor/download.html；https://www.wipo.int/madrid/en/monitor/tutorials.html
+ipportal.wipo.int/{x} ×1｜https://ipportal.wipo.int/home",完整（枚举结束，无独立全集对账）,可打开（200，标题「WIPO Madrid Monitor」）
+https://www.wipo.int/en/web/patentscope/data/index,S1-R19-E29,第一批 19,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.wipo.int/en/web/{x} ×91｜https://www.wipo.int/en/web/about-ip；https://www.wipo.int/en/web/youth-engagement
+www.wipo.int/en/web/about-wipo/{x} ×5｜https://www.wipo.int/en/web/about-wipo/activities-by-unit；https://www.wipo.int/en/web/about-wipo/oversight
+www.wipo.int/en/web/cooperation/{x} ×4｜https://www.wipo.int/en/web/cooperation/collaborative-forums；https://www.wipo.int/en/web/cooperation/tailored-initiatives
+www.wipo.int/en/web/patentscope/data/{x} ×4｜https://www.wipo.int/en/web/patentscope/data/index；https://www.wipo.int/en/web/patentscope/data/terms",完整（枚举结束，无独立全集对账）,可打开（200，标题「PCT Data Products and Services」）
+https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results,S1-R20-E3,第一批 20,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"link.epo.org/web/{x} ×1｜https://link.epo.org/web/boa_search_manual
+www.epo.org/en/{x}?filters={…}&sortField={…}&sortDirection={…}&tab={…} ×1｜https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",完整（枚举结束，无独立全集对账）,可打开（200，标题「| epo.org」）
+https://www.euromonitor.com/webinar,S1-R27-E2,第一批 27,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.euromonitor.com/insights/{x}?tag={…}&returnUrl={…} ×43｜https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=Apparel-and-Footwear&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fwebinar；https://www.euromonitor.com/insights/insight-search-result-page-tags?tag=webinar&returnUrl=https%3A%2F%2Fwww.euromonitor.com%2Fabstractinsightslandingpage%2Floadmorecards%3FpageId%3D103546%26contentType%3DWebinars%26take%3D3%26skip%3D45
+go.euromonitor.com/{x} ×28｜https://go.euromonitor.com/webinar-2025-consumer-trends-and-industry-insights.html；https://go.euromonitor.com/webinar-whats-in-the-basket.html
+www.euromonitor.com/insights/{x} ×21｜https://www.euromonitor.com/insights/appliances-and-electronics；https://www.euromonitor.com/insights/wellness
+go.euromonitor.com/{x}?utm_source={…}&utm_medium={…}&utm_campaign={…} ×19｜https://go.euromonitor.com/event-SAN-consumerfoodservice-220929-food_on-demand_in_LATAM.html?utm_source=webinar_page&utm_medium=webiste&utm_campaign=EV_22_09_29_FDB_SAN_DIG_Jeto_Food_on-demand_in_Latam；https://go.euromonitor.com/webinar-travel-top-100-city-destinations-210311.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_11_REC_Top_100_Cities",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Market Research, Data Analysis and Business Intell」）"
+https://www.accenture.com/en/insights-index,S1-R29-E1,第一批 29,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.accenture.com/en/insights/strategy/{x} ×43｜https://www.accenture.com/en/insights/strategy/activist-investor；https://www.accenture.com/en/insights/strategy/zero-based-transformation-big-reset
+www.accenture.com/en/insights/consulting/{x} ×39｜https://www.accenture.com/en/insights/consulting/bigvalueinbigapple；https://www.accenture.com/en/insights/consulting/winning-unconventional-growth-race
+www.accenture.com/en/case-studies/technology/{x} ×26｜https://www.accenture.com/en/case-studies/technology/a-dream-come-true-for-make-a-wish；https://www.accenture.com/en/case-studies/technology/workday-empowers-cisco-people-communities
+www.accenture.com/en/case-studies/song/{x} ×21｜https://www.accenture.com/en/case-studies/song/gen-ai-gamification-give-classical-music-reboot；https://www.accenture.com/en/case-studies/song/wwf-germany-hunts-ghost-nets-using-ai",完整（枚举结束，无独立全集对账）,可打开（200，标题「What We Think | Business & Technology Insights | A」）
+https://msi.org/library/,S1-R31-E1,第一批 31,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"msi.org/research-recap/{x}/ ×5｜https://msi.org/research-recap/augmented-reality-augments-sales-how-to-measure-and-manage/；https://msi.org/research-recap/the-key-to-brand-growth-in-mind-in-stock-and-in-genai-responses/
+msi.org/working-paper/{x}/ ×5｜https://msi.org/working-paper/competitive-dynamics-of-ranking-manipulations-on-large-language-model-based-search-engines/；https://msi.org/working-paper/tri-system-brand-growth-the-ai-mediation-layer/
+msi.org/{x}/ ×1｜https://msi.org/privacy-policy/
+msi.org/research-recap/{x} ×1｜https://msi.org/research-recap/customer-engagement-in-social-media-platforms-findings-from-a-longitudinal-field-experiment",完整（枚举结束，无独立全集对账）,可打开（200，标题「Library - MSI」）
+https://brandfinance.com/about,S1-R33-E1,第一批 33,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"brandfinance.com/{x} ×4｜https://brandfinance.com/data；https://brandfinance.com/training
+vi360.com/{x} ×2｜https://vi360.com；https://vi360.com/
+brandfinance.com/insights/{x}/ ×1｜https://brandfinance.com/insights/rigour-and-structure-in-brand-evaluation-best-practice-and-iso-20671/",完整（枚举结束，无独立全集对账）,可打开（200，标题「About | Brand Finance」）
+https://www.circana.com/insights,S1-R34-E1,第一批 34,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「Home | Insights」）
+https://www.circana.com/news,S1-R34-E3,第一批 34,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.circana.com/post/{x} ×15｜https://www.circana.com/post/ai-measured-the-math-of-ai-winning-as-a-brand-webinar；https://www.circana.com/post/top-10-video-games
+www.circana.com/{x} ×7｜https://www.circana.com；https://www.circana.com/the-circana-group-global-privacy-policy-and-notice
+www.circana.com/{x}?industry={…} ×5｜https://www.circana.com/news?industry=CPG；https://www.circana.com/news?industry=Retail
+www.circana.com/series/{x} ×2｜https://www.circana.com/series/the-2025-trends-redefining-the-industry；https://www.circana.com/series/unpredictable-shoppers-predictable-success",完整,"可打开（200，标题「Circana Insights - get the latest news, insights, 」）"
+https://marketingscience.info/open-access-knowledge,S1-R36-E1,第一批 36,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"marketingscience.info/learn-with-us/{x} ×2｜https://marketingscience.info/learn-with-us/books；https://marketingscience.info/learn-with-us/podcasts
+marketingscience.info/{x} ×1｜https://marketingscience.info/open-access-knowledge",完整（枚举结束，无独立全集对账）,可打开（200，标题「Open-access Knowledge |」）
+https://www.futurebrand.com/contact-us,S1-R38-E1,第一批 38,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.futurebrand.com/{x} ×1｜https://www.futurebrand.com/,完整（枚举结束，无独立全集对账）,可打开（200，标题「FutureBrand | Contact Us」）
+https://tolunacorporate.com/insights-and-news/,S1-R44-E1,第一批 44,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"tolunacorporate.com/{x}/ ×252｜https://tolunacorporate.com/10-years-of-elevating-city-branding-with-brand-fame-with-rotterdam-make-it-happen/；https://tolunacorporate.com/your-new-go-to-solution-for-measuring-the-impact-of-advertising-and-brand-communications/
+tolunacorporate.com/{x}?page_id={…} ×1｜https://tolunacorporate.com/?page_id=3178
+tolunacorporate.com/legal/{x}/ ×1｜https://tolunacorporate.com/legal/cookies/
+www.onetrust.com/solutions/{x}/?utm_source={…}&utm_medium={…} ×1｜https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",完整（枚举结束，无独立全集对账）,可打开（200，标题「Insights & News - Toluna」）
+https://yougov.com/content/economy,S1-R45-E1,第一批 45,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"yougov.com/articles/{x} ×22｜https://yougov.com/articles/53981-canada-advertisers-of-the-month；https://yougov.com/articles/55767-take-off-turbulence-cruise-a-year-inside-riyadh-airs-brand-health
+yougov.com/reports/{x} ×10｜https://yougov.com/reports/54551-au-debt-savings-investment-report-2026；https://yougov.com/reports/55704-uae-mega-sales-report-dsf
+yougov.com/events/{x} ×3｜https://yougov.com/events/55208-fresh-insights-for-your-year-end-rally-yougov-shopper-hungary；https://yougov.com/events/55551-gain-fresh-insights-into-hungarian-shoppers-categories-and-retail-dynamics-yougov-shoppers
+yougov.com/{x}?marketo={…} ×1｜https://yougov.com/?marketo=contact",完整,"可打开（200，标题「Economy & Finance Articles, Trends, Survey Data & 」）"
+https://yougov.com/content/consumer,S1-R45-E2,第一批 45,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"yougov.com/articles/{x} ×2330｜https://yougov.com/articles/12382-infographic-impact-csr-uae-residents；https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026
+yougov.com/reports/{x} ×278｜https://yougov.com/reports/19017-mer-var-fjarde-har-bojkottat-ett-varumarke；https://yougov.com/reports/55727-au-mega-sales-report-2026
+yougov.com/case-studies/{x} ×32｜https://yougov.com/case-studies/46266-21st-century-sanitation-coalition-survey-data-elevate-thought-leadership；https://yougov.com/case-studies/55623-yougov-shopper-how-frieslandcampina-increased-campinas-buyer-base-by-144
+yougov.com/guides/{x} ×12｜https://yougov.com/guides/53529-research-improve-marketing-mix-modeling；https://yougov.com/guides/55680-how-to-activate-high-value-audiences-during-the-peak-holiday-season-2026",完整,"可打开（200，标题「Retail & Consumer Articles, Trends, Survey Data & 」）"
+https://yougov.com/business/sectors/consumer,S1-R45-E4,第一批 45,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"yougov.com/articles/{x} ×8｜https://yougov.com/articles/54681-norway-biggest-brand-movers-2026；https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026
+yougov.com/business/{x} ×5｜https://yougov.com/business/ai-innovation；https://yougov.com/business/solutions
+business.yougov.com/content/{x} ×4｜https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns；https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study
+yougov.com/business/solutions/{x} ×4｜https://yougov.com/business/solutions/audience-intelligence；https://yougov.com/business/solutions/shopper-intelligence",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Retail & FMCG Surveys, Market Research & Brand Tra」）"
+https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights,S1-R46-E1,第一批 46,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed ）"
+https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights,S1-R46-E2,第一批 46,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed ）"
+https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations,S1-R46-E3,第一批 46,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed ）"
+https://www.bcg.com/capabilities/marketing-sales/insights,S1-R47-E1,第一批 47,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.bcg.com/capabilities/customer-insights/insights,S1-R47-E2,第一批 47,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.bcg.com/industries/retail/insights,S1-R47-E3,第一批 47,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.bcg.com/industries/consumer-products-industry/insights,S1-R47-E4,第一批 47,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Access Denied）
+https://www.forrester.com/b2b-marketing/,S1-R50-E1,第一批 50,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.forrester.com/blogs/author/{x}/ ×8｜https://www.forrester.com/blogs/author/amy_bills/；https://www.forrester.com/blogs/author/vicki_brown/
+www.forrester.com/{x}/ ×5｜https://www.forrester.com/b2c-marketing/；https://www.forrester.com/revenue/
+www.forrester.com/blogs/{x}/ ×4｜https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/；https://www.forrester.com/blogs/when-case-studies-are-too-much-of-a-good-thing/
+www.forrester.com/client-stories/{x}/ ×4｜https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/；https://www.forrester.com/client-stories/wolters-kluwer-healthcare-marketing/",完整（枚举结束，无独立全集对账）,可打开（200，标题「B2B Marketing Impact And Strategic Value」）
+https://www.forrester.com/b2c-marketing/,S1-R50-E2,第一批 50,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.forrester.com/blogs/author/{x}/ ×7｜https://www.forrester.com/blogs/author/dipanjan_chatterjee/；https://www.forrester.com/blogs/author/sharyn_leaver/
+www.forrester.com/research/{x}/ ×5｜https://www.forrester.com/research/forecasts/；https://www.forrester.com/research/wave/
+www.forrester.com/blogs/{x}/ ×4｜https://www.forrester.com/blogs/everything-is-a-marketing-operating-system/；https://www.forrester.com/blogs/the-more-advertising-automates-the-more-creative-matters/
+www.forrester.com/event/{x}/ ×4｜https://www.forrester.com/event/cx-east/；https://www.forrester.com/event/sydney-forum/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Jumpstart Your B2C Marketing Organization With Sol」）
+https://www.forrester.com/blogs/category/b2b-research/,S1-R50-E3,第一批 50,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.forrester.com/blogs/{x}/ ×1221｜https://www.forrester.com/blogs/10-weeks-with-siriusdecisions-an-interns-reflections/；https://www.forrester.com/blogs/zero-in-2024-aims-to-elevate-customer-success/
+www.forrester.com/blogs/author/{x}/ ×81｜https://www.forrester.com/blogs/author/abhijit_sunil/；https://www.forrester.com/blogs/author/vicki_brown/
+www.forrester.com/what-it-means/{x}/ ×7｜https://www.forrester.com/what-it-means/ep272-b2b-customer-obsession/；https://www.forrester.com/what-it-means/ep428-ai-buying-healthcare-jobs/
+www.forrester.com/webinars/{x}/ ×5｜https://www.forrester.com/webinars/2027-b2b-leaders-predictions/；https://www.forrester.com/webinars/rethinking-b2b-marketing-contribution-in-the-ai-era/",完整,可打开（200，标题「B2B Research - Forrester」）
+https://www.forrester.com/blogs/category/b2b-research/page/2/,S1-R50-E4,第一批 50,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.forrester.com/blogs/{x}/ ×408｜https://www.forrester.com/blogs/2020-b2b-marketing-practices-that-you-should-keep-or-adopt-in-2021/；https://www.forrester.com/blogs/zero-in-2024-aims-to-elevate-customer-success/
+www.forrester.com/blogs/author/{x}/ ×69｜https://www.forrester.com/blogs/author/abhijit_sunil/；https://www.forrester.com/blogs/author/vicki_brown/
+www.forrester.com/what-it-means/{x}/ ×7｜https://www.forrester.com/what-it-means/ep272-b2b-customer-obsession/；https://www.forrester.com/what-it-means/ep428-ai-buying-healthcare-jobs/
+www.forrester.com/webinars/{x}/ ×5｜https://www.forrester.com/webinars/2027-b2b-leaders-predictions/；https://www.forrester.com/webinars/rethinking-b2b-marketing-contribution-in-the-ai-era/",完整,可打开（200，标题「B2B Research - Forrester」）
+https://www.gartner.com/en/marketing/insights,S1-R51-E1,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.gartner.com/en/sales/insights,S1-R51-E2,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.gartner.com/en/customer-service-support/insights,S1-R51-E3,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.gartner.com/en/finance/insights,S1-R51-E4,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.gartner.com/en/supply-chain,S1-R51-E5,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.gartner.com/en/insights/finance,S1-R51-E6,第一批 51,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment... | Gartner）
+https://www.pewresearch.org/topic/economy-work/business-workplace/,S1-R52-E4,第一批 52,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.pewresearch.org/race-and-ethnicity/2008/01/23/{x}/ ×3｜https://www.pewresearch.org/race-and-ethnicity/2008/01/23/2006-statistical-information-on-hispanics-in-united-states/；https://www.pewresearch.org/race-and-ethnicity/2008/01/23/arizona-population-and-labor-force-characteristics-2000-2006/
+www.pewresearch.org/internet/2006/09/28/{x}/ ×2｜https://www.pewresearch.org/internet/2006/09/28/new-workers-new-workplaces-digital-natives-invade-the-workplace/；https://www.pewresearch.org/internet/2006/09/28/new-workers-new-workplaces/
+www.pewresearch.org/politics/2006/03/28/{x}/ ×2｜https://www.pewresearch.org/politics/2006/03/28/pinched-pocketbooks-2/；https://www.pewresearch.org/politics/2006/03/28/pinched-pocketbooks/
+www.pewresearch.org/politics/2007/06/20/{x}/ ×2｜https://www.pewresearch.org/politics/2007/06/20/are-americans-out-of-sync-with-economic-reality-2/；https://www.pewresearch.org/politics/2007/06/20/are-americans-out-of-sync-with-economic-reality/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Business & Workplace - Research and data from Pew 」）
+https://ads.tiktok.com/creative/creativeCenter,S1-R62-E1,第一批 62,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"ads.tiktok.com/business/creativecenter/tools/{x} ×3｜https://ads.tiktok.com/business/creativecenter/tools/api；https://ads.tiktok.com/business/creativecenter/tools/creativeTools
+ads.tiktok.com/business/creativecenter/inspiration/{x}/ ×1｜https://ads.tiktok.com/business/creativecenter/inspiration/topads/
+ads.tiktok.com/creative/{x} ×1｜https://ads.tiktok.com/creative/creativeCenter
+ads.tiktok.com/{x}?aioChannel={…}&aioScene={…}&aioCode={…} ×1｜https://ads.tiktok.com/creative?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015",完整（枚举结束，无独立全集对账）,可打开（200，标题「TikTok One Creative Suite」）
+https://transparency.meta.com/policies/,S1-R63-E1,第一批 63,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 400：Error）
+https://advertising.amazon.com/resources/library,S1-R64-E1,第一批 64,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"advertising.amazon.com/en-us/library/case-studies/{x}/?ref_={…} ×4｜https://advertising.amazon.com/en-us/library/case-studies/boost-oxygen/?ref_=a20m_us_libr；https://advertising.amazon.com/en-us/library/case-studies/revlon-rec-display-ads/?ref_=a20m_us_libr
+advertising.amazon.com/en-us/library/expert-advice/{x}/?ref_={…} ×3｜https://advertising.amazon.com/en-us/library/expert-advice/2026-partner-award-winners/?ref_=a20m_us_libr；https://advertising.amazon.com/en-us/library/expert-advice/streaming-simplicity-stv-research-2026/?ref_=a20m_us_libr
+advertising.amazon.com/en-us/library/news/{x}/?ref_={…} ×3｜https://advertising.amazon.com/en-us/library/news/amazon-ads-agent/?ref_=a20m_us_libr；https://advertising.amazon.com/en-us/library/news/prime-video-emmy-awards/?ref_=a20m_us_libr
+advertising.amazon.com/library/news/{x}?ref_={…} ×3｜https://advertising.amazon.com/library/news/cannes-lions-2026-news-advertising?ref_=a20m_us_lbr_df_z2_nws_cnns26；https://advertising.amazon.com/library/news/linkedin-ctv-ads-amazon-dsp?ref_=a20m_us_lbr_df_z2_nws_lnctvdsp",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Advertising strategy guides, case studies, news, a」）"
+https://www.lovethework.com/en/talks,S1-R67-E1,第一批 67,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.lovethework.com/{x} ×7｜https://www.lovethework.com/awards；https://www.lovethework.com/the-work-ai
+www.lovethework.com/ai/{x} ×1｜https://www.lovethework.com/ai/terms-of-use
+www.lovethework.com/en/{x} ×1｜https://www.lovethework.com/en/talks",完整（枚举结束，无独立全集对账）,可打开（200，标题「Talks」）
+https://www.lovethework.com/en/reports,S1-R67-E2,第一批 67,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.lovethework.com/{x} ×8｜https://www.lovethework.com/awards；https://www.lovethework.com/the-work-ai
+www.lovethework.com/reports/{x} ×5｜https://www.lovethework.com/reports/apple-the-creative-debrief-2；https://www.lovethework.com/reports/spikes-asia-creativity-report-2026
+www.lovethework.com/en/{x} ×2｜https://www.lovethework.com/en/cannes-lions-wrap-up-report-2026；https://www.lovethework.com/en/reports
+www.lovethework.com/ai/{x} ×1｜https://www.lovethework.com/ai/terms-of-use",完整（枚举结束，无独立全集对账）,可打开（200，标题「Reports」）
+https://www.iab.com/get-involved/,S1-R68-E2,第一批 68,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.iab.com/organizations/{x}/ ×6｜https://www.iab.com/organizations/commerce-center/；https://www.iab.com/organizations/tech-lab/
+www.iab.com/{x} ×2｜https://www.iab.com/global；https://www.iab.com/subscribe
+www.iab.com/cdn-cgi/l/{x} ×1｜https://www.iab.com/cdn-cgi/l/email-protection
+www.iab.com/{x}/ ×1｜https://www.iab.com/groups/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Interactive Advertising Bureau | Become A Member」）
+https://esomar.org/resources/glossary,S1-R69-E3,第一批 69,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"esomar.org/{x} ×1｜https://esomar.org/cookies-policy
+esomar.org/resources/{x} ×1｜https://esomar.org/resources/glossary",完整（枚举结束，无独立全集对账）,可打开（200，标题「Glossary | Esomar」）
+https://thearf.org/research/,S1-R70-E1,第一批 70,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"thearf.org/category/tag/{x} ×12｜https://thearf.org/category/tag/ad-creative；https://thearf.org/category/tag/tv
+thearf.org/category/ua_resource/{x}/ ×9｜https://thearf.org/category/ua_resource/attention-in-context-what-real-campaigns-reveal-about-media-performance/；https://thearf.org/category/ua_resource/what-marketers-need-to-know-about-retail-media-measurement/
+thearf.org/category/category/{x}/ ×6｜https://thearf.org/category/category/advertising-creative/；https://thearf.org/category/category/teams-and-talent/
+thearf.org/{x}/ ×3｜https://thearf.org/access-knowledge-2/；https://thearf.org/dash/",完整（枚举结束，无独立全集对账）,可打开（200，标题「RESEARCH - The ARF」）
+https://thearf.org/access-knowledge-2/,S1-R70-E2,第一批 70,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"thearf.org/category/topics/{x} ×8｜https://thearf.org/category/topics/ad-effectiveness-roi；https://thearf.org/category/topics/targets-segments
+www.msi.org/community/{x}/ ×1｜http://www.msi.org/community/expert-directory/
+www.thearf.org/{x}/ ×1｜http://www.thearf.org/submit/
+powersearch.thearf.org/{x} ×1｜https://powersearch.thearf.org/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Access Knowledge - The ARF」）
+https://www.ana.net/schoolofmarketing,S1-R71-E1,第一批 71,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.ana.net/content/show/id/{x} ×5｜https://www.ana.net/content/show/id/ana-individualtraining-intro；https://www.ana.net/content/show/id/member-training-benefit
+www.ana.net/{x} ×3｜https://www.ana.net/；https://www.ana.net/schoolofmarketing
+www.ana.net/calendar/index/calendar_filter/{x} ×1｜http://www.ana.net/calendar/index/calendar_filter/training
+www.ana.net/account/{x} ×1｜https://www.ana.net/account/request",完整（枚举结束，无独立全集对账）,可打开（200，标题「Marketing Training and Professional Development | 」）
+https://www.ana.net/advocacy,S1-R71-E2,第一批 71,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.ana.net/content/show/id/{x} ×7｜https://www.ana.net/content/show/id/92077；https://www.ana.net/content/show/id/state-privacy-legislation
+www.ana.net/conference/show/id/{x} ×4｜https://www.ana.net/conference/show/id/BAALAW-NOV24；https://www.ana.net/conference/show/id/baalaw-nov25
+www.ana.net/magazines/show/id/{x} ×4｜https://www.ana.net/magazines/show/id/ana-2026-10-beer-market-stirs；https://www.ana.net/magazines/show/id/news-2026-10-09-policy-brief
+www.ana.net/miccategory/index/id/{x} ×4｜https://www.ana.net/miccategory/index/id/ana-mag；https://www.ana.net/miccategory/index/id/webinars",完整（枚举结束，无独立全集对账）,可打开（200，标题「ANA Government Relations | ANA」）
+https://www.ana.net/membership,S1-R71-E3,第一批 71,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.ana.net/{x} ×2｜https://www.ana.net/；https://www.ana.net/membership
+www.ana.net/members/{x} ×2｜https://www.ana.net/members/contact；https://www.ana.net/members/list
+www.ana.net/account/{x} ×1｜https://www.ana.net/account/request
+www.ana.net/cdn-cgi/l/{x} ×1｜https://www.ana.net/cdn-cgi/l/email-protection",完整（枚举结束，无独立全集对账）,可打开（200，标题「ANA Membership | ANA」）
+https://www.ama.org/job-boards-join-our-team/,S1-R72-E1,第一批 72,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"academicplacement.ama.org/{x} ×1｜https://academicplacement.ama.org/
+jobs.ama.org/{x} ×1｜https://jobs.ama.org/",完整（枚举结束，无独立全集对账）,可打开（200，标题「American Marketing Association | Job Boards - Join」）
+https://www.cim.co.uk/learn-develop/training-development/training-courses/,S1-R73-E2,第一批 73,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.cim.co.uk/{x}/ ×13｜https://www.cim.co.uk/about/；https://www.cim.co.uk/terms-and-conditions/
+www.cim.co.uk/learn-develop/training-development/{x} ×12｜https://www.cim.co.uk/learn-develop/training-development/brand-and-product；https://www.cim.co.uk/learn-develop/training-development/view-all-courses
+www.cim.co.uk/learn-develop/training-development/view-all-courses/{x}/ ×11｜https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-agents-and-automation/；https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-social-media-programme/
+www.cim.co.uk/learn-develop/training-development/{x}/ ×7｜https://www.cim.co.uk/learn-develop/training-development/ai-marketing-training-courses/；https://www.cim.co.uk/learn-develop/training-development/virtual-courses/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Training courses | CIM」）
+https://wfanet.org/news/,S1-R76-E1,第一批 76,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"wfanet.org/{x} ×4｜https://wfanet.org/forum-connect；https://wfanet.org/privacy-policy
+wfanet.org/{x}?weblog-page={…} ×4｜https://wfanet.org/news?weblog-page=105；https://wfanet.org/news?weblog-page=4
+wfanet.org/knowledge/item/2026/09/29/{x}?originNode={…} ×2｜https://wfanet.org/knowledge/item/2026/09/29/canadian-advertisers-present-their-top-industry-honour-for-2026?originNode=3905；https://wfanet.org/knowledge/item/2026/09/29/global-brands-are-shifting-to-paying-for-outputs-not-time-wfa-research?originNode=3905
+gmoty.wfanet.org/{x} ×1｜https://gmoty.wfanet.org/jury",完整（枚举结束，无独立全集对账）,可打开（200，标题「News - World Federation of Advertisers」）
+https://www.campaignlive.com/news,S1-R81-E1,第一批 81,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.campaignlive.com/in-depth,S1-R81-E2,第一批 81,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.contagious.com/news-and-views,S1-R83-E1,第一批 83,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.contagious.com/{x} ×7｜https://www.contagious.com/about-us；https://www.contagious.com/terms-of-use-contagious-ai
+www.contagious.com/article/news-and-views/{x} ×7｜https://www.contagious.com/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125；https://www.contagious.com/article/news-and-views/wheels-4-wheels-ae62e4ac769e4a43b5888d2d922cbc15
+www.contagious.com/article/{x} ×1｜https://www.contagious.com/article/the-chaos-advantage-a413f67270b44021a9477a9166633e59
+www.contagious.com/en/{x} ×1｜https://www.contagious.com/en/news-and-views",完整（枚举结束，无独立全集对账）,可打开（200，标题「News & views」）
+https://www.contagious.com/reports,S1-R83-E2,第一批 83,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.contagious.com/{x} ×14｜https://www.contagious.com/about-us；https://www.contagious.com/the-contagious-radar-report-2024
+www.contagious.com/en/{x} ×2｜https://www.contagious.com/en/reports；https://www.contagious.com/en/the-contagious-radar-2026
+www.contagious.com/article/{x} ×1｜https://www.contagious.com/article/the-chaos-advantage
+www.contagious.com/en/article/{x} ×1｜https://www.contagious.com/en/article/contagious-brands-report-2026-e9e673f22b0d4facbc2954f43dd393c9",完整（枚举结束，无独立全集对账）,可打开（200，标题「Free to access reports」）
+https://contentmarketinginstitute.com/latest-news,S1-R84-E2,第一批 84,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"contentmarketinginstitute.com/author/{x} ×496｜https://contentmarketinginstitute.com/author/a-lee-judge；https://contentmarketinginstitute.com/author/zontee-hou
+contentmarketinginstitute.com/content-marketing-strategy/{x} ×406｜https://contentmarketinginstitute.com/content-marketing-strategy/10-content-marketing-articles-readers-like-you-loved-this-year；https://contentmarketinginstitute.com/content-marketing-strategy/your-how-to-plan-for-12-months-of-customer-focused-blogging
+contentmarketinginstitute.com/content-distribution-promotion/{x} ×312｜https://contentmarketinginstitute.com/content-distribution-promotion/-delete-this-email-why-mobile-email-matters-to-your-business；https://contentmarketinginstitute.com/content-distribution-promotion/your-must-have-checklist-for-successful-blog-promotion-infographic
+contentmarketinginstitute.com/content-creation-distribution/{x} ×200｜https://contentmarketinginstitute.com/content-creation-distribution/10-commandments-to-create-compelling-content；https://contentmarketinginstitute.com/content-creation-distribution/your-white-paper-tanked-3-common-mistakes-to-avoid",完整（枚举结束，无独立全集对账）,可打开（200，标题「news」）
+https://contentmarketinginstitute.com/keyword/e-books-and-templates,S1-R84-E3,第一批 84,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"contentmarketinginstitute.com/strategy-planning/{x} ×8｜https://contentmarketinginstitute.com/strategy-planning/ai-content-authority；https://contentmarketinginstitute.com/strategy-planning/insights-driven-marketing-ebook
+contentmarketinginstitute.com/{x} ×5｜https://contentmarketinginstitute.com/；https://contentmarketinginstitute.com/strategy-planning
+contentmarketinginstitute.com/content-creation-distribution/{x} ×4｜https://contentmarketinginstitute.com/content-creation-distribution/20-examples-of-brands-leading-through-content；https://contentmarketinginstitute.com/content-creation-distribution/content-marketing-writing-secrets-better-stronger-faster
+contentmarketinginstitute.com/content-distribution-promotion/{x} ×2｜https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign；https://contentmarketinginstitute.com/content-distribution-promotion/finding-your-audience-when-old-channels-stop-working",完整（枚举结束，无独立全集对账）,可打开（200，标题「E-Books and Templates」）
+https://cxl.com/blog-archive/,S1-R85-E1,第一批 85,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"cxl.com/blog/{x}/ ×1125｜https://cxl.com/blog/10-best-practices-for-better-b2b-website-experience/；https://cxl.com/blog/youtube-strategy/
+cxl.com/institute/online-course/{x}/ ×73｜https://cxl.com/institute/online-course/a-b-testing-foundations/；https://cxl.com/institute/online-course/youtube-ads/
+cxl.com/{x}/ ×20｜https://cxl.com/10-useful-findings-about-how-people-view-websites/；https://cxl.com/website-reviews/
+cxl.com/blog/category/{x}/ ×17｜https://cxl.com/blog/category/acquisition/；https://cxl.com/blog/category/ux-and-design/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Conversion Optimization & Marketing Blog | CXL」）
+https://www.dandad.org/subjects/case-study,S1-R86-E5,第一批 86,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.dandad.org/insights/awards/{x} ×19｜https://www.dandad.org/insights/awards/amex-small-business-saturday-case-study-insights；https://www.dandad.org/insights/awards/trash-isles-case-study-insights
+www.dandad.org/{x}?term={…} ×5｜https://www.dandad.org/search?term=animation；https://www.dandad.org/search?term=sound-design-use-of-music
+www.dandad.org/{x} ×3｜https://www.dandad.org/；https://www.dandad.org/basket
+www.dandad.org/en/{x}/ ×1｜https://www.dandad.org/en/d-ad-privacy-statement/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Case Study」）
+https://gp.demandcurve.com/resources,S1-R87-E2,第一批 87,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"gp.demandcurve.com/{x} ×13｜https://gp.demandcurve.com/；https://gp.demandcurve.com/teardowns
+gp.demandcurve.com/playbooks/{x} ×3｜https://gp.demandcurve.com/playbooks/above-the-fold；https://gp.demandcurve.com/playbooks/tiktok-ads-guide
+gp.demandcurve.com/legal/{x} ×2｜https://gp.demandcurve.com/legal/privacy；https://gp.demandcurve.com/legal/terms
+gp.demandcurve.com/blog/{x} ×1｜https://gp.demandcurve.com/blog/how-to-grow-your-email-list",完整（枚举结束，无独立全集对账）,可打开（200，标题「Demand Curve Resources」）
+https://dpaaglobal.com/omnichannel-study/,S1-R88-E1,第一批 88,上一轮有家族但没有形成规则,按全流程重做，注意尾斜杠、共享路径和页面隐藏的条目,,完整,可打开（200，标题「Omnichannel Study | DPAA | Global Digital Out-of-H」）
+https://www.greenbook.org/directory,S1-R89-E1,第一批 89,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.greenbook.org/market-research-firms/{x} ×12｜https://www.greenbook.org/market-research-firms/advertising-research；https://www.greenbook.org/market-research-firms/political-polls
+www.greenbook.org/{x} ×4｜https://www.greenbook.org/buyers-guide；https://www.greenbook.org/find-market-research",完整（枚举结束，无独立全集对账）,可打开（200，标题「Greenbook: Find Market Research Companies and Focu」）
+https://growthhackers.com/opinions/,S1-R91-E2,第一批 91,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"growthhackers.com/{x}/ ×12｜https://growthhackers.com/community/；https://growthhackers.com/university/
+growthhackers.com/growth-hacking/{x}/ ×4｜https://growthhackers.com/growth-hacking/branded-vs-non-branded-keywords/；https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/
+growthhackers.com/{x} ×3｜https://growthhackers.com/；https://growthhackers.com/news
+growthhackers.com/tag/{x}/ ×3｜https://growthhackers.com/tag/ai-effect/；https://growthhackers.com/tag/content-marketing/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Opinions - GrowthHackers.com」）
+https://iabeurope.eu/knowledge-hub-categories/research-and-insights/,S1-R92-E1,第一批 92,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"iabeurope.eu/knowledge_hub/{x}/ ×94｜https://iabeurope.eu/knowledge_hub/5-insights-from-memo%c2%b2-for-effective-digital-retail-media-advertising/；https://iabeurope.eu/knowledge_hub/xaxis-and-iab-europe-programmatic-audio-advertising-report/
+iabeurope.eu/knowledge-hub-categories/{x}/ ×69｜https://iabeurope.eu/knowledge-hub-categories/ad-formats/；https://iabeurope.eu/knowledge-hub-categories/watch-on-demand/
+iabeurope.eu/{x}/ ×2｜https://iabeurope.eu/contact-us/；https://iabeurope.eu/cookie-policy/
+iabeurope.eu/{x} ×1｜https://iabeurope.eu/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Research and insights  - IAB Europe」）
+https://lbbonline.com/work,S1-R93-E1,第一批 93,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://lbbonline.com/news,S1-R93-E2,第一批 93,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://lbbonline.com/reels,S1-R93-E3,第一批 93,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://marketingexamples.com/inspiration,S1-R95-E2,第一批 95,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"marketingexamples.com/{x} ×2｜https://marketingexamples.com/；https://marketingexamples.com/inspiration
+mightyapp.com/{x} ×1｜http://mightyapp.com/
+ahrefs.com/blog/{x}/ ×1｜https://ahrefs.com/blog/best-marketing-newsletters/
+brave.com/{x} ×1｜https://brave.com/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Copywriting Examples - The world's best copy. In o」）
+https://www.radiocentre.org/research/,S1-R98-E1,第一批 98,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.radiocentre.org/{x}/ ×20｜https://www.radiocentre.org/about/；https://www.radiocentre.org/whats-new/
+www.radiocentre.org/research-categories/{x}/ ×4｜https://www.radiocentre.org/research-categories/creative-insight/；https://www.radiocentre.org/research-categories/policy-research/
+www.radiocentre.org/our-research/{x}/ ×3｜https://www.radiocentre.org/our-research/listen-up/；https://www.radiocentre.org/our-research/speed-of-sound/
+www.radiocentre.org/policy/{x}/ ×3｜https://www.radiocentre.org/policy/action-stations/；https://www.radiocentre.org/policy/valuing-radio-2/",完整,可打开（200，标题「Research Archive - Radiocentre」）
+https://searchengineland.com/library/guide,S1-R101-E1,第一批 101,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://searchengineland.com/guide,S1-R101-E2,第一批 101,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://searchengineland.com/library/guide/content-marketing-guide,S1-R101-E3,第一批 101,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://searchengineland.com/library/guide/ppc-guide,S1-R101-E4,第一批 101,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://searchengineland.com/library/guide/seo-guide,S1-R101-E5,第一批 101,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.thinkbox.tv/case-studies,S1-R104-E2,第一批 104,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.thinkbox.tv/{x} ×1｜https://www.thinkbox.tv/case-studies,完整（枚举结束，无独立全集对账）,可打开（200，标题「Advertising case studies」）
+https://www.vml.com/expertise/intelligence,S1-R110-E1,第一批 110,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.vml.com/insights,S1-R110-E2,第一批 110,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.adjust.com/resources/,S1-R112-E1,第一批 112,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 429：Vercel Security Checkpoint）
+https://www.adjust.com/blog/,S1-R112-E2,第一批 112,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 429：Vercel Security Checkpoint）
+https://www.branch.io/use-cases/,S1-R117-E2,第一批 117,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.branch.io/{x}/ ×10｜https://www.branch.io/advanced-compliance/；https://www.branch.io/universal-email/
+www.branch.io/resources/case-study/{x}/ ×9｜https://www.branch.io/resources/case-study/6thstreet-drives-60-higher-app-installs-and-13-roas-growth-with-branch/；https://www.branch.io/resources/case-study/rtlzwei-breaks-channel-barriers-to-grow-app-installs-by-20-percent/
+www.branch.io/guides/{x}/ ×6｜https://www.branch.io/guides/finance-industry-hub/；https://www.branch.io/guides/travel-industry-hub/
+www.branch.io/products/{x}/ ×2｜https://www.branch.io/products/banners/；https://www.branch.io/products/performance/",完整（枚举结束，无独立全集对账）,可打开（200，标题「How Branch Helps Drive Mobile Growth - Use Cases |」）
+https://www.brandwatch.com/reports/,S1-R118-E1,第一批 118,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.brandwatch.com/{x}/ ×3｜https://www.brandwatch.com/brandwatch-academy/；https://www.brandwatch.com/customer-support/
+www.brandwatch.com/{x} ×1｜https://www.brandwatch.com/
+www.brandwatch.com/company/{x}/ ×1｜https://www.brandwatch.com/company/careers/
+www.brandwatch.com/p/{x}/ ×1｜https://www.brandwatch.com/p/forrester-wave-social-suites/",完整,可打开（200，标题「Expert Consumer Research & Social Media Reports | 」）
+https://www.brandwatch.com/guides/,S1-R118-E3,第一批 118,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.brandwatch.com/{x}/ ×3｜https://www.brandwatch.com/brandwatch-academy/；https://www.brandwatch.com/customer-support/
+www.brandwatch.com/{x} ×1｜https://www.brandwatch.com/
+www.brandwatch.com/company/{x}/ ×1｜https://www.brandwatch.com/company/careers/
+www.brandwatch.com/p/{x}/ ×1｜https://www.brandwatch.com/p/forrester-wave-social-suites/",完整,可打开（200，标题「Consumer and Social Media Marketing Guides | Brand」）
+https://buffer.com/library/,S1-R120-E2,第一批 120,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"buffer.com/resources/{x}/ ×25｜https://buffer.com/resources/ai-image-generator/；https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/
+buffer.com/resources/author/{x}/ ×6｜https://buffer.com/resources/author/kirsti/；https://buffer.com/resources/author/tamilore/
+login.buffer.com/{x}?product={…}&plan={…}&cycle={…}&cta={…} ×1｜https://login.buffer.com/signup?product=buffer&plan=free&cycle=year&cta=bufferSite-library-ctaBanner-signup-1
+www.cookieyes.com/product/{x}/?ref={…}&utm_source={…}&utm_medium={…} ×1｜https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=powered-by-cookieyes",完整（枚举结束，无独立全集对账）,可打开（200，标题「Buffer’s Social Media and Marketing Library」）
+https://blog.hootsuite.com/resources/,S1-R122-E3,第一批 122,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"blog.hootsuite.com/{x}/ ×681｜https://blog.hootsuite.com/10-reasons-celebrities-are-better-at-instagram-than-brands/；https://blog.hootsuite.com/zero-click-content/
+blog.hootsuite.com/resource/{x}/ ×120｜https://blog.hootsuite.com/resource/10-free-instagram-presets/；https://blog.hootsuite.com/resource/youtube-growth-checklist/
+blog.hootsuite.com/page/{x}/ ×57｜https://blog.hootsuite.com/page/10/；https://blog.hootsuite.com/page/9/
+blog.hootsuite.com/tag/{x}/ ×8｜https://blog.hootsuite.com/tag/ai/；https://blog.hootsuite.com/tag/template/",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Free Social Media Resources, Tools and Templates |」）"
+https://www.hubspot.com/resources,S1-R123-E5,第一批 123,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"offers.hubspot.com/{x}?hubs_signup-url={…}&hubs_signup-cta={…} ×23｜https://offers.hubspot.com/5-ai-tools-to-make-your-first-million?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta；https://offers.hubspot.com/workplace-communicator-database?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link
+offers.hubspot.com/{x} ×22｜https://offers.hubspot.com/5-ai-tools-to-make-your-first-million；https://offers.hubspot.com/workplace-communicator-database
+www.hubspot.com/{x} ×3｜https://www.hubspot.com/aeo-grader；https://www.hubspot.com/state-of-marketing
+legal.hubspot.com/{x}?_ga={…} ×1｜https://legal.hubspot.com/cookie-policy?_ga=2.50914222.648097249.1661181827-2085802971.1659562077",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Free Resources from HubSpot | Templates, Ebooks, &」）"
+https://www.qualtrics.com/resources/,S1-R130-E3,第一批 130,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.qualtrics.com/ebooks-guides/{x}/ ×92｜https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/；https://www.qualtrics.com/ebooks-guides/worksheet-translating-verbatims-into-action/
+www.qualtrics.com/events/{x}/ ×69｜https://www.qualtrics.com/events/ai-demo-series/；https://www.qualtrics.com/events/winning-with-the-cfo/
+www.qualtrics.com/watch-demo/customer-experience/{x}/ ×13｜https://www.qualtrics.com/watch-demo/customer-experience/care/；https://www.qualtrics.com/watch-demo/customer-experience/website-feedback-dxa/
+www.qualtrics.com/product-tour/customer-experience/{x}/ ×12｜https://www.qualtrics.com/product-tour/customer-experience/agent-coaching/；https://www.qualtrics.com/product-tour/customer-experience/website-app-feedback/",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Experience Management Studies, Guides, Webinars & 」）"
+https://www.talkwalker.com/resources?category=Reports,S1-R137-E2,第一批 137,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.talkwalker.com/resource/reports/{x} ×12｜https://www.talkwalker.com/resource/reports/shape-tomorrow-mea；https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence
+www.talkwalker.com/en-us/{x}?page={…} ×9｜https://www.talkwalker.com/en-us/resources?page=1；https://www.talkwalker.com/en-us/resources?page=9
+www.talkwalker.com/{x}?page={…} ×9｜https://www.talkwalker.com/resources?page=1；https://www.talkwalker.com/resources?page=9
+www.talkwalker.com/resource/marketing-essentials/{x} ×1｜https://www.talkwalker.com/resource/marketing-essentials/social-media-report-examples",完整（枚举结束，无独立全集对账）,可打开（200，标题「Talkwalker Resources: Social Listening Case Studie」）
+https://www.talkwalker.com/resources,S1-R137-E3,第一批 137,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.talkwalker.com/resource/reports/{x} ×11｜https://www.talkwalker.com/resource/reports/shape-tomorrow-mea；https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence
+www.talkwalker.com/en-us/{x}?page={…} ×9｜https://www.talkwalker.com/en-us/resources?page=1；https://www.talkwalker.com/en-us/resources?page=9
+www.talkwalker.com/{x} ×2｜https://www.talkwalker.com/resources；https://www.talkwalker.com/resources?
+www.talkwalker.com/resource/marketing-essentials/{x} ×1｜https://www.talkwalker.com/resource/marketing-essentials/social-media-report-examples",完整（枚举结束，无独立全集对账）,可打开（200，标题「Talkwalker Resources: Social Listening Case Studie」）
+https://unbounce.com/landing-page-optimization/,S1-R138-E1,第一批 138,同结构的条目只有 1–3 个，不够归纳,核对是否真的只有这几个；是的话写精确清单正则（快照）,"unbounce.com/landing-pages/{x}/ ×205｜https://unbounce.com/landing-pages/10-essential-conversion-articles-the-best-of-the-unbounce-blog/；https://unbounce.com/landing-pages/zola-case-study-targeted-marketing/
+unbounce.com/{x}/ ×16｜https://unbounce.com/101-landing-page-optimization-tips/；https://unbounce.com/saas-optimization-guide/
+unbounce.com/campaign-strategy/{x}/ ×3｜https://unbounce.com/campaign-strategy/how-fiverr-conquered-conversion/；https://unbounce.com/campaign-strategy/thinkific-using-landing-pages-double-saas-growth/
+unbounce.com/landing-page-examples/{x}/ ×3｜https://unbounce.com/landing-page-examples/10-landing-page-mistakes-youll-never-make-again/；https://unbounce.com/landing-page-examples/product-landing-pages/",完整,可打开（200，标题「Landing page optimization resources | Unbounce blo」）
+https://wearesocial.com/uk/reports/,S1-R139-E2,第一批 139,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"wearesocial.com/uk/{x}?report-type={…} ×3｜https://wearesocial.com/uk/reports?report-type=digital-report；https://wearesocial.com/uk/reports?report-type=think-forward
+wearesocial.com/uk/blog/2025/10/{x}/ ×2｜https://wearesocial.com/uk/blog/2025/10/digital-2026-global-overview-report/；https://wearesocial.com/uk/blog/2025/10/digital-2026/
+wearesocial.com/uk/blog/2026/10/{x}/ ×2｜https://wearesocial.com/uk/blog/2026/10/digital-2027-your-guide-to-the-evolving-digital-world/；https://wearesocial.com/uk/blog/2026/10/digital-2027/
+wearesocial.com/uk/blog/2025/11/{x}/ ×1｜https://wearesocial.com/uk/blog/2025/11/new-report-the-latest-digital-and-social-data-from-the-uk/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Our Reports - We Are Social UK」）
+https://wingify.com/resources/,S1-R140-E4,第一批 140,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"wingify.com/{x}/ ×13｜https://wingify.com/demo/；https://wingify.com/webinars/
+wingify.com/success-stories/{x}/ ×4｜https://wingify.com/success-stories/defacto/；https://wingify.com/success-stories/ubisoft-ab-testing-lead-generation/
+wingify.com/blog/{x}/ ×3｜https://wingify.com/blog/how-to-go-from-zero-to-one-in-your-server-side-experimentation-journey/；https://wingify.com/blog/what-do-you-get-with-wingify-free-trial/
+wingify.com/{x} ×2｜https://wingify.com；https://wingify.com/",完整（枚举结束，无独立全集对账）,"可打开（200，标题「Resources On Testing, Personalization, Customer Ex」）"
+https://www.zenithmedia.com/global-intelligence/thought-leadership/,S1-R141-E1,第一批 141,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.zenithmedia.com/insights/{x}/ ×182｜https://www.zenithmedia.com/insights/2015-emerging-top-ten-trends/；https://www.zenithmedia.com/insights/zeniths-new-report-coming-ad-markets/
+www.zenithmedia.com/{x}/ ×2｜https://www.zenithmedia.com/our-people/；https://www.zenithmedia.com/our-work/
+www.zenithmedia.com/contact/{x}/ ×1｜https://www.zenithmedia.com/contact/enquiries/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Thought Leadership – Zenith」）
+https://www.zenithmedia.com/news/,S1-R141-E2,第一批 141,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.zenithmedia.com/{x}/ ×2161｜https://www.zenithmedia.com/%ef%bb%bf%ef%bb%bf%ef%bb%bfprogrammatic-ads-grow-31-2017-ahead-channels/；https://www.zenithmedia.com/zyngas-earnings-social-gaming-revenue-by-the-numbers-mashable/
+www.zenithmedia.com/contact/{x}/ ×1｜https://www.zenithmedia.com/contact/enquiries/",完整（枚举结束，无独立全集对账）,可打开（200，标题「News – Zenith」）
+https://www.salesforce.com/blog/,S1-R142-E1,第一批 142,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.salesforce.com/company/{x}/ ×5｜https://www.salesforce.com/company/about-us/；https://www.salesforce.com/company/sustainability/
+www.salesforce.com/{x}/ ×4｜https://www.salesforce.com/customer-stories/；https://www.salesforce.com/video/
+appexchange.salesforce.com/{x} ×1｜https://appexchange.salesforce.com/
+investor.salesforce.com/overview/{x} ×1｜https://investor.salesforce.com/overview/default.aspx",完整,"可打开（200，标题「Salesforce Blog — News and Tips About Agentic AI, 」）"
+https://www.salesforce.com/company/analyst-reports/,S1-R142-E2,第一批 142,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.salesforce.com/crm/resources/{x}/?d={…}&pr={…} ×8｜https://www.salesforce.com/crm/resources/isg-crm-buyers-guide-2026/?d=pb&pr=；https://www.salesforce.com/crm/resources/isg-sales-engagement-buyers-guide-2026/?d=pb&pr=
+www.salesforce.com/commerce/resources/{x}/?d={…}&pr={…} ×5｜https://www.salesforce.com/commerce/resources/forrester-tei-b2c-commerce-oms/?d=pb&pr=；https://www.salesforce.com/commerce/resources/idc-marketscape-point-of-sale/?d=pb&pr=
+www.salesforce.com/service/resources/{x}/?d={…}&pr={…} ×4｜https://www.salesforce.com/service/resources/2025-gartner-mq-cec/?d=pb&pr=；https://www.salesforce.com/service/resources/idc-agentic-contact-center/?d=pb&pr=
+www.salesforce.com/marketing/resources/{x}/?d={…} ×3｜https://www.salesforce.com/marketing/resources/gartner-b2b-map-2025/?d=pb；https://www.salesforce.com/marketing/resources/revenue-marketing-platforms-for-b2b-2026/?d=pb",完整（枚举结束，无独立全集对账）,可打开（200，标题「Analyst Reports | Salesforce」）
+https://www.salesforce.com/news/,S1-R142-E3,第一批 142,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.salesforce.com/{x}/ ×21｜https://www.salesforce.com/ap/；https://www.salesforce.com/uk/
+www.salesforce.com/{x} ×2｜https://www.salesforce.com/；https://www.salesforce.com/es
+investor.salesforce.com/overview/{x} ×1｜https://investor.salesforce.com/overview/default.aspx
+www.salesforce.com/company/{x}/ ×1｜https://www.salesforce.com/company/leadership/",完整,可打开（200，标题「Salesforce Newsroom - Salesforce」）
+https://business.adobe.com/resources/reports.html,S1-R143-E1,第一批 143,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='business.adobe.com', port=443): Read time）"
+https://business.adobe.com/resources/digital-trends-research-center.html,S1-R143-E2,第一批 143,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='business.adobe.com', port=443): Read time）"
+https://business.adobe.com/resources/adobe-digital-insights.html,S1-R143-E3,第一批 143,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ReadTimeout: HTTPSConnectionPool(host='business.adobe.com', port=443): Read time）"
+https://www.crunchbase.com/discover/organization.companies,S1-R144-E1,第一批 144,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://pitchbook.com/news,S1-R145-E1,第一批 145,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Just a moment...）
+https://www.cbinsights.com/strategy-terminal/,S1-R151-E3,第一批 151,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.cbinsights.com/{x}/ ×21｜https://www.cbinsights.com/about/；https://www.cbinsights.com/watchlists-alerts/
+www.cbinsights.com/who-we-serve/function/{x}/ ×7｜https://www.cbinsights.com/who-we-serve/function/corporate-strategy/；https://www.cbinsights.com/who-we-serve/function/venture-capital/
+www.cbinsights.com/learn/{x}?industry={…} ×5｜https://www.cbinsights.com/learn/state-of-tracker?industry=ai；https://www.cbinsights.com/learn/state-of-tracker?industry=venture
+www.cbinsights.com/what-we-offer/{x}/ ×4｜https://www.cbinsights.com/what-we-offer/api/；https://www.cbinsights.com/what-we-offer/technology-vendors/",完整（枚举结束，无独立全集对账）,可打开（200，标题「Strategy Terminal<!-- --> - CB Insights」）
+https://dealroom.co/reports,S1-R152-E2,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/resources,S1-R152-E3,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/news/,S1-R152-E4,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/companies/,S1-R152-E5,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/investors/,S1-R152-E6,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/market-maps/,S1-R152-E7,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/power-law-outcomes/,S1-R152-E8,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/talent/founder-mafias/,S1-R152-E9,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/tech-macro-economics/,S1-R152-E10,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://dealroom.co/vc-investment-dashboard/,S1-R152-E11,第一批 152,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403，挑战页：Attention Required! | Cloudflare）
+https://www.ctrchina.cn/report,S2-R15-E2,第二批 15,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.ctrchina.cn/rich/report/{x} ×6｜https://www.ctrchina.cn/rich/report/890；https://www.ctrchina.cn/rich/report/895,部分,可打开（200，标题「洞察报告」）
+https://www.enlightent.cn/reports.html,S2-R22-E1,第二批 22,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「è¡ä¸æ¥å | äºåæ°æ®」）
+https://www.gz-data.com/html/new.html,S2-R23-E1,第二批 23,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,www.gz-data.com/{x} ×1｜https://www.gz-data.com/newindex.html,完整（枚举结束，无独立全集对账）,可打开（200，标题「èµè®¯ä¸æ´å¯」）
+https://www.csm.com.cn/yjdc/Index.html,S2-R24-E1,第二批 24,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection r）"
+https://www.analysys.cn/trends,S2-R25-E1,第二批 25,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.analysys.cn/article/detail/{x} ×524｜https://www.analysys.cn/article/detail/20001314；https://www.analysys.cn/article/detail/20021467
+www.analysys.cn/{x}?p={…} ×53｜https://www.analysys.cn/trends?p=1；https://www.analysys.cn/trends?p=9",完整（枚举结束，无独立全集对账）,可打开（200，标题「易观动态-易观分析」）
+https://www.analysys.cn/article/analysis/,S2-R25-E2,第二批 25,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.analysys.cn/article/detail/{x} ×3978｜https://www.analysys.cn/article/detail/100；https://www.analysys.cn/article/detail/9999
+boyue.analysys.cn/sail/view/portal/{x} ×1｜https://boyue.analysys.cn/sail/view/portal/index.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「分析报告-易观分析」）
+https://www.analysys.cn/article/detail/20021542,S2-R25-E3,第二批 25,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.analysys.cn/article/detail/{x} ×4｜https://www.analysys.cn/article/detail/20021501；https://www.analysys.cn/article/detail/20021507
+boyue.analysys.cn/sail/view/portal/{x} ×1｜https://boyue.analysys.cn/sail/view/portal/index.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「中国移动端第三方输入法市场年度研究2026-易观分析」）
+https://www.leadleo.com/wiki/topicList,S2-R26-E1,第二批 26,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.leadleo.com/wiki/topic/{x} ×5｜https://www.leadleo.com/wiki/topic/64c78482380ac8e6ec0cd99e；https://www.leadleo.com/wiki/topic/65619ad6df3ad28258f670da,部分,可打开（200，标题「」）
+https://www.leadleo.com/report/search,S2-R26-E2,第二批 26,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「行业报告_市场报告_投资报告」）
+https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue,S2-R26-E3,第二批 26,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.leadleo.com/{x} ×1｜https://www.leadleo.com/,部分,可打开（200，标题「」）
+https://www.leadleo.com/video/allType,S2-R26-E4,第二批 26,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.leadleo.com/video/details/{x} ×5｜https://www.leadleo.com/video/details/69bb6d6fa789b839b05f4f65；https://www.leadleo.com/video/details/69bb7059a789b885025f511d,部分,可打开（200，标题「」）
+https://www.leadleo.com/article/search,S2-R26-E5,第二批 26,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.leadleo.com/article/details/{x} ×5｜https://www.leadleo.com/article/details/6736b6ccf2504c01a450b004；https://www.leadleo.com/article/details/673ff000f2504c01a450d563,部分,可打开（200，标题「」）
+https://www.datastory.com.cn/analyst,S2-R29-E1,第二批 29,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.datastory.com.cn/case,S2-R29-E2,第二批 29,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.datastory.com.cn/analyst/report.html,S2-R29-E3,第二批 29,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.datastory.com.cn/analyst/hotspot.html,S2-R29-E4,第二批 29,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.yanbaoke.com/openclaw,S2-R39-E1,第二批 39,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「研报客skills × 龙虾 OpenClaw × WorkBuddy」）
+https://www.yanbaoke.com/ai-searches,S2-R39-E2,第二批 39,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「研报客 - 全球行业研究报告|券商报告|免费报告下载平台」）
+https://www.hibor.com.cn/registerm.html,S2-R41-E1,第二批 41,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「ÓÃ»§×¢²á_»Û²©Í¶ÑÐ×ÊÑ¶_»Û²©×ÊÑ¶_Âõ²©»ã½ð」）
+https://www.hibor.com.cn/favorites.html,S2-R41-E2,第二批 41,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「我的收藏-慧博投研资讯」）
+https://www.hibor.com.cn/docupload.html,S2-R41-E3,第二批 41,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「我的云文档_云文档上传、管理-慧博投研资讯」）
+https://www.hibor.com.cn/docupload_mag.html,S2-R41-E4,第二批 41,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「我的云文档_云文档上传、管理-慧博投研资讯」）
+https://www.hibor.com.cn/wnote.html,S2-R41-E5,第二批 41,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「ÎÒµÄÔÆ±Ê¼Ç_»Û²©×ÊÑ¶_»Û²©Í¶ÑÐ×ÊÑ¶」）
+http://syntun.com.cn/datanews/hotspot.html,S2-R43-E1,第二批 43,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403：403 Forbidden）
+https://www.frostchina.com/content/whitepaper-store?page=1,S2-R44-E2,第二批 44,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.frostchina.com/content/{x}?industryMajor={…}&page={…} ×38｜https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%85%B6%E4%BB%96&page=1；https://www.frostchina.com/content/whitepaper-store?industryMajor=%E9%87%91%E8%9E%8D%E4%B8%8E%E5%95%86%E4%B8%9A%E6%9C%8D%E5%8A%A1&page=1
+www.frostchina.com/content/{x}?page={…} ×16｜https://www.frostchina.com/content/whitepaper-store?page=1；https://www.frostchina.com/content/whitepaper-store?page=9
+www.frostchina.com/{x} ×2｜https://www.frostchina.com/intellectual-property；https://www.frostchina.com/privacy",部分,可打开（200，标题「沙利文中国官网| 投资与企业增长咨询专业服务机构」）
+https://www.iyiou.com/svip,S2-R46-E1,第二批 46,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.jazzyear.com/member_benefits.html,S2-R47-E2,第二批 47,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,,完整（枚举结束，无独立全集对账）,可打开（200，标题「会员权益|甲子光年」）
+https://www.vzkoo.com/question,S2-R50-E1,第二批 50,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403：）
+https://e.xiaohongshu.com/numerous,S2-R57-E2,第二批 57,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「种草就来小红书」）
+https://jzt.jd.com/school/index,S2-R60-E1,第二批 60,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"jzt.jd.com/school/course/{x}?channelIds={…} ×20｜https://jzt.jd.com/school/course/list?channelIds=1752,1749；https://jzt.jd.com/school/course/list?channelIds=2871,2868,1749
+jzt.jd.com/school/{x}?contentId={…} ×13｜https://jzt.jd.com/school/problem?contentId=12326；https://jzt.jd.com/school/problem?contentId=3402
+jzt.jd.com/school/course/{x}?contentId={…} ×10｜https://jzt.jd.com/school/course/detail?contentId=13459；https://jzt.jd.com/school/course/detail?contentId=3163
+jzt.jd.com/gw/{x}/ ×9｜https://jzt.jd.com/gw/datacenter/；https://jzt.jd.com/gw/yxhd/",部分,可打开（200，标题「京点书院_京准通官网-京东」）
+https://e.bilibili.com/main/observe,S2-R61-E1,第二批 61,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bilibili.com/blackboard/{x} ×9｜https://www.bilibili.com/blackboard/aboutUs.html；https://www.bilibili.com/blackboard/topic_list.html
+account.bilibili.com/account/official/{x} ×1｜https://account.bilibili.com/account/official/home
+app.bilibili.com/{x} ×1｜https://app.bilibili.com/
+b.bilibili.com/{x} ×1｜https://b.bilibili.com/",完整（枚举结束，无独立全集对账）,可打开（200，标题「B站营销官网」）
+https://e.bilibili.com/case/,S2-R61-E2,第二批 61,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.bilibili.com/blackboard/{x} ×9｜https://www.bilibili.com/blackboard/aboutUs.html；https://www.bilibili.com/blackboard/topic_list.html
+cm.bilibili.com/{x}/ ×2｜https://cm.bilibili.com/agent/；https://cm.bilibili.com/skydmp/
+ir.bilibili.com/{x} ×1｜http://ir.bilibili.com/
+account.bilibili.com/account/official/{x} ×1｜https://account.bilibili.com/account/official/home",完整（枚举结束，无独立全集对账）,可打开（200，标题「æåæ¡ä¾ | Bç«è¥éå®ç½」）
+https://qn.taobao.com/headline/news,S2-R63-E1,第二批 63,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"work.taobao.com/{x} ×1｜https://work.taobao.com/
+work.taobao.com/{x}?spm={…} ×1｜https://work.taobao.com/download.html?spm=a21dvs.24173238.0.0.26381544TE71hH",部分,可打开（200，标题「千牛工作台 - 商家一站式经营阵地」）
+https://qn.taobao.com/headline/course,S2-R63-E2,第二批 63,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"work.taobao.com/{x} ×1｜https://work.taobao.com/
+work.taobao.com/{x}?spm={…} ×1｜https://work.taobao.com/download.html?spm=a21dvs.24173238.0.0.26381544TE71hH",部分,可打开（200，标题「千牛工作台 - 商家一站式经营阵地」）
+https://creator.douyin.com/creator-micro/creator-count/arithmetic-index,S2-R65-E1,第二批 65,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「抖音创作者中心」）
+https://creator.douyin.com/creator-micro/creator-count/vertical-analysis,S2-R65-E2,第二批 65,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.douyin.com/{x}/ ×4｜https://www.douyin.com/aboutus/；https://www.douyin.com/recovery_account/
+www.douyin.com/{x}/?id={…} ×2｜https://www.douyin.com/agreements/?id=6773901168964798477；https://www.douyin.com/agreements/?id=6773906068725565448
+www.douyin.com/{x} ×1｜https://www.douyin.com/",部分,可打开（200，标题「抖音创作者中心」）
+https://creator.douyin.com/creator-micro/creator-count/arithmetic-report,S2-R65-E3,第二批 65,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.douyin.com/{x}/ ×4｜https://www.douyin.com/aboutus/；https://www.douyin.com/recovery_account/
+www.douyin.com/{x}/?id={…} ×2｜https://www.douyin.com/agreements/?id=6773901168964798477；https://www.douyin.com/agreements/?id=6773906068725565448
+www.douyin.com/{x} ×1｜https://www.douyin.com/",部分,可打开（200，标题「抖音创作者中心」）
+https://survey.jd.com/page/ecological,S2-R66-E1,第二批 66,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「京洞察-京东官方市场调研与新品孵化平台」）
+https://survey.jd.com/page/edition,S2-R66-E2,第二批 66,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「京洞察-京东官方市场调研与新品孵化平台」）
+https://www.digitaling.com/moments,S2-R71-E1,第二批 71,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403：403 Forbidden）
+https://www.adquan.com/case_library/index,S2-R73-E1,第二批 73,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.adquan.com/article/{x} ×44｜https://www.adquan.com/article/293810；https://www.adquan.com/article/365087
+www.adquan.com/company/{x} ×33｜https://www.adquan.com/company/11211；https://www.adquan.com/company/9139
+www.adquan.com/{x} ×9｜https://www.adquan.com；https://www.adquan.com/sproduct
+www.adquan.com/oauth/{x} ×3｜https://www.adquan.com/oauth/qq；https://www.adquan.com/oauth/weixinweb",完整（枚举结束，无独立全集对账）,可打开（200，标题「广告门案例库 - 广告营销行业案例库」）
+https://www.morketing.com/newscenter,S2-R79-E1,第二批 79,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.morketing.com/detail/{x} ×17｜https://www.morketing.com/detail/23236；https://www.morketing.com/detail/undefined
+awards.morketing.com/{x} ×2｜https://awards.morketing.com；https://awards.morketing.com/
+www.morketing.com/{x} ×2｜https://www.morketing.com/；https://www.morketing.com/about",完整（枚举结束，无独立全集对账）,可打开（200，标题「内容中心|Morketing_全球营销商业媒体平台」）
+https://www.morketing.com/ecosystem,S2-R79-E4,第二批 79,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"awards.morketing.com/{x} ×2｜https://awards.morketing.com；https://awards.morketing.com/
+www.morketing.com/{x} ×2｜https://www.morketing.com/；https://www.morketing.com/about",部分,可打开（200，标题「Morketing_全球营销商业媒体平台」）
+https://www.jiemian.com/lists/2.html,S2-R82-E1,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×42｜https://www.jiemian.com/article/15241720.html；https://www.jiemian.com/article/15264081.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×20｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=121045316
+www.jiemian.com/city/main/{x} ×1｜https://www.jiemian.com/city/main/181.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「商业_界面新闻」）
+https://www.jiemian.com/lists/49.html,S2-R82-E3,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/11810724.html；https://www.jiemian.com/article/15113407.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×5｜https://a.jiemian.com/index.php?m=user&a=center&id=100743852；https://a.jiemian.com/index.php?m=user&a=center&id=120487578",完整（枚举结束，无独立全集对账）,可打开（200，标题「营销_界面新闻」）
+https://www.jiemian.com/lists/31.html,S2-R82-E4,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×21｜https://www.jiemian.com/article/15239555.html；https://www.jiemian.com/article/15263263.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×11｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120503571",完整（枚举结束，无独立全集对账）,可打开（200，标题「消费_界面新闻」）
+https://www.jiemian.com/lists/858.html,S2-R82-E5,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×22｜https://www.jiemian.com/article/11615116.html；https://www.jiemian.com/article/14488037.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×9｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120915844",完整（枚举结束，无独立全集对账）,可打开（200，标题「创投_界面新闻」）
+https://www.jiemian.com/lists/956.html,S2-R82-E6,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/15166959.html；https://www.jiemian.com/article/15259458.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×10｜https://a.jiemian.com/index.php?m=user&a=center&id=104158855；https://a.jiemian.com/index.php?m=user&a=center&id=120895859",完整（枚举结束，无独立全集对账）,可打开（200，标题「出海_界面新闻」）
+https://www.jiemian.com/lists/65.html,S2-R82-E7,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×29｜https://www.jiemian.com/article/11031808.html；https://www.jiemian.com/article/15264018.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×13｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120915844",完整（枚举结束，无独立全集对账）,可打开（200，标题「科技_界面新闻」）
+https://www.jiemian.com/lists/9.html,S2-R82-E8,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×25｜https://www.jiemian.com/article/15139657.html；https://www.jiemian.com/article/15263719.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×7｜https://a.jiemian.com/index.php?m=user&a=center&id=118348920；https://a.jiemian.com/index.php?m=user&a=center&id=120918297
+www.jiemian.com/special/{x} ×1｜https://www.jiemian.com/special/3347.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「金融_界面新闻」）
+https://www.jiemian.com/lists/112.html,S2-R82-E9,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×28｜https://www.jiemian.com/article/15167153.html；https://www.jiemian.com/article/15264089.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×12｜https://a.jiemian.com/index.php?m=user&a=center&id=100000302；https://a.jiemian.com/index.php?m=user&a=center&id=120486096",完整（枚举结束，无独立全集对账）,可打开（200，标题「证券_界面新闻」）
+https://www.jiemian.com/lists/62.html,S2-R82-E10,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×28｜https://www.jiemian.com/article/14999248.html；https://www.jiemian.com/article/15262369.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×17｜https://a.jiemian.com/index.php?m=user&a=center&id=100001557；https://a.jiemian.com/index.php?m=user&a=center&id=120550259
+www.jiemian.com/special/{x} ×1｜https://www.jiemian.com/special/3099.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「地产_界面新闻」）
+https://www.jiemian.com/lists/28.html,S2-R82-E12,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×41｜https://www.jiemian.com/article/15184839.html；https://www.jiemian.com/article/15262899.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=121072671
+www.jiemian.com/video/lists/{x} ×1｜https://www.jiemian.com/video/lists/924_1.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「工业_界面新闻」）
+https://www.jiemian.com/lists/851.html,S2-R82-E14,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/15208146.html；https://www.jiemian.com/article/15256307.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×8｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120915844",完整（枚举结束，无独立全集对账）,可打开（200，标题「互联网_界面新闻」）
+https://www.jiemian.com/lists/856.html,S2-R82-E15,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×15｜https://www.jiemian.com/article/15208639.html；https://www.jiemian.com/article/15260420.html
+www.jiemian.com/video/{x} ×15｜https://www.jiemian.com/video/AGUCMQhvB2ABOVVj.html；https://www.jiemian.com/video/AGUCMQhvB2MBPlVm.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×5｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120916281",完整（枚举结束，无独立全集对账）,可打开（200，标题「能源_界面新闻」）
+https://www.jiemian.com/lists/256.html,S2-R82-E16,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/14734430.html；https://www.jiemian.com/article/15217412.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120486096",完整（枚举结束，无独立全集对账）,可打开（200，标题「界面教育_界面新闻」）
+https://www.jiemian.com/lists/845.html,S2-R82-E17,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/15186133.html；https://www.jiemian.com/article/15263263.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×10｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120487578",完整（枚举结束，无独立全集对账）,可打开（200，标题「食品_界面新闻」）
+https://www.jiemian.com/lists/857.html,S2-R82-E18,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/video/{x} ×15｜https://www.jiemian.com/video/AGUCMQhvB2ABOVVj.html；https://www.jiemian.com/video/AGUCMQhvB2MBPlVm.html
+www.jiemian.com/article/{x} ×12｜https://www.jiemian.com/article/15219193.html；https://www.jiemian.com/article/15257612.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×4｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120916281",完整（枚举结束，无独立全集对账）,可打开（200，标题「新能源_界面新闻」）
+https://www.jiemian.com/lists/850.html,S2-R82-E19,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/11935116.html；https://www.jiemian.com/article/15229057.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×10｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120729953",完整（枚举结束，无独立全集对账）,可打开（200，标题「家电_界面新闻」）
+https://www.jiemian.com/lists/854.html,S2-R82-E20,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×21｜https://www.jiemian.com/article/14986725.html；https://www.jiemian.com/article/15257592.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×7｜https://a.jiemian.com/index.php?m=user&a=center&id=100136256；https://a.jiemian.com/index.php?m=user&a=center&id=121057896",完整（枚举结束，无独立全集对账）,可打开（200，标题「健康_界面新闻」）
+https://www.jiemian.com/lists/676.html,S2-R82-E21,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×33｜https://www.jiemian.com/article/10554957.html；https://www.jiemian.com/article/9828794.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120926738",完整（枚举结束，无独立全集对账）,可打开（200，标题「酒业_界面新闻」）
+https://www.jiemian.com/lists/841.html,S2-R82-E22,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/14001621.html；https://www.jiemian.com/article/15246035.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120933214",完整（枚举结束，无独立全集对账）,可打开（200，标题「物流_界面新闻」）
+https://www.jiemian.com/lists/847.html,S2-R82-E23,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/15152253.html；https://www.jiemian.com/article/15263263.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×7｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=119199844",完整（枚举结束，无独立全集对账）,可打开（200，标题「零售_界面新闻」）
+https://www.jiemian.com/lists/838.html,S2-R82-E24,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/14884034.html；https://www.jiemian.com/article/15227084.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×4｜https://a.jiemian.com/index.php?m=user&a=center&id=100045340；https://a.jiemian.com/index.php?m=user&a=center&id=120503571",完整（枚举结束，无独立全集对账）,可打开（200，标题「美妆_界面新闻」）
+https://www.jiemian.com/lists/694.html,S2-R82-E25,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×18｜https://www.jiemian.com/article/10014697.html；https://www.jiemian.com/article/9041215.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120550259",完整（枚举结束，无独立全集对账）,可打开（200，标题「家居_界面新闻」）
+https://www.jiemian.com/lists/848.html,S2-R82-E26,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/15155766.html；https://www.jiemian.com/article/15263263.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×9｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120487578",完整（枚举结束，无独立全集对账）,可打开（200，标题「餐饮_界面新闻」）
+https://www.jiemian.com/lists/846.html,S2-R82-E27,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×23｜https://www.jiemian.com/article/15139444.html；https://www.jiemian.com/article/15264132.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×10｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120503571",完整（枚举结束，无独立全集对账）,可打开（200，标题「日用_界面新闻」）
+https://www.jiemian.com/lists/852.html,S2-R82-E28,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×21｜https://www.jiemian.com/article/13685250.html；https://www.jiemian.com/article/14887283.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×8｜https://a.jiemian.com/index.php?m=user&a=center&id=100000115；https://a.jiemian.com/index.php?m=user&a=center&id=120486096",完整（枚举结束，无独立全集对账）,可打开（200，标题「企服_界面新闻」）
+https://www.jiemian.com/lists/839.html,S2-R82-E29,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/14155869.html；https://www.jiemian.com/article/15227084.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×3｜https://a.jiemian.com/index.php?m=user&a=center&id=119737989；https://a.jiemian.com/index.php?m=user&a=center&id=120503571",完整（枚举结束，无独立全集对账）,可打开（200，标题「珠宝_界面新闻」）
+https://www.jiemian.com/lists/840.html,S2-R82-E30,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/12891301.html；https://www.jiemian.com/article/15262617.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×5｜https://a.jiemian.com/index.php?m=user&a=center&id=100045340；https://a.jiemian.com/index.php?m=user&a=center&id=120503571",完整（枚举结束，无独立全集对账）,可打开（200，标题「腕表_界面新闻」）
+https://www.jiemian.com/lists/883.html,S2-R82-E31,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×24｜https://www.jiemian.com/article/10149253.html；https://www.jiemian.com/article/15200738.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=109761718；https://a.jiemian.com/index.php?m=user&a=center&id=120926738
+www.jiemian.com/special/{x} ×1｜https://www.jiemian.com/special/2851.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「农业_界面新闻」）
+https://www.jiemian.com/lists/605.html,S2-R82-E32,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×25｜https://www.jiemian.com/article/11431594.html；https://www.jiemian.com/article/7715753.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×9｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120486096",完整（枚举结束，无独立全集对账）,可打开（200，标题「智库_界面新闻」）
+https://www.jiemian.com/lists/154.html,S2-R82-E33,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×21｜https://www.jiemian.com/article/10642493.html；https://www.jiemian.com/article/10688934.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×5｜https://a.jiemian.com/index.php?m=user&a=center&id=112204278；https://a.jiemian.com/index.php?m=user&a=center&id=120534408",完整（枚举结束，无独立全集对账）,可打开（200，标题「数据_界面新闻」）
+https://www.jiemian.com/lists/712.html,S2-R82-E34,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×27｜https://www.jiemian.com/article/10555156.html；https://www.jiemian.com/article/6628012.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×12｜https://a.jiemian.com/index.php?m=user&a=center&id=100000444；https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+www.jiemian.com/special/ESGconnecting/{x} ×1｜https://www.jiemian.com/special/ESGconnecting/index.html
+www.jiemian.com/special/starsoflowcarbonindu/{x} ×1｜https://www.jiemian.com/special/starsoflowcarbonindu/index.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ESG_界面新闻」）
+https://www.jiemian.com/lists/877.html,S2-R82-E35,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×15｜https://www.jiemian.com/article/12896669.html；https://www.jiemian.com/article/15219193.html
+www.jiemian.com/video/{x} ×15｜https://www.jiemian.com/video/AGUCMQhvB2ABOVVj.html；https://www.jiemian.com/video/AGUCMQhvB2MBPlVm.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×4｜https://a.jiemian.com/index.php?m=user&a=center&id=118978305；https://a.jiemian.com/index.php?m=user&a=center&id=120916281",完整（枚举结束，无独立全集对账）,可打开（200，标题「双碳_界面新闻」）
+https://www.jiemian.com/lists/699.html,S2-R82-E36,第二批 82,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jiemian.com/article/{x} ×21｜https://www.jiemian.com/article/14582045.html；https://www.jiemian.com/article/15242711.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×7｜https://a.jiemian.com/index.php?m=user&a=center&id=103188823；https://a.jiemian.com/index.php?m=user&a=center&id=120257572",完整（枚举结束，无独立全集对账）,可打开（200，标题「IPO_界面新闻」）
+https://www.jiemian.com/lists/174.html,S2-R82-E37,第二批 82,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.jiemian.com/article/{x} ×25｜https://www.jiemian.com/article/15194913.html；https://www.jiemian.com/article/15263895.html
+a.jiemian.com/{x}?m={…}&a={…}&id={…} ×6｜https://a.jiemian.com/index.php?m=user&a=center&id=100033448；https://a.jiemian.com/index.php?m=user&a=center&id=120553280",完整（枚举结束，无独立全集对账）,可打开（200，标题「宏观_界面新闻」）
+http://www.linkshop.com/news/,S2-R86-E1,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/data/cb/,S2-R86-E2,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/column/,S2-R86-E3,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/interview/rw/,S2-R86-E4,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/data/hy/,S2-R86-E5,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/data/sl/,S2-R86-E6,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/interview/xd/,S2-R86-E7,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/interview/mq/,S2-R86-E8,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/case/,S2-R86-E9,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+http://www.linkshop.com/pdl/,S2-R86-E10,第二批 86,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.woshipm.com/harmony,S2-R87-E1,第二批 87,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「HarmonyOS开发者社区 | 人人都是产品经理」）
+https://www.woshipm.com/category/harmony,S2-R87-E3,第二批 87,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.woshipm.com/share/{x} ×510｜https://www.woshipm.com/share/6319550.html；https://www.woshipm.com/share/6486018.html
+www.woshipm.com/tag/{x} ×292｜https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8；https://www.woshipm.com/tag/wps
+www.woshipm.com/ai/{x} ×116｜https://www.woshipm.com/ai/6321354.html；https://www.woshipm.com/ai/6485620.html
+www.woshipm.com/u/{x} ×32｜https://www.woshipm.com/u/111460；https://www.woshipm.com/u/95179",完整（枚举结束，无独立全集对账）,可打开（200，标题「鸿蒙 | 人人都是产品经理」）
+https://www.woshipm.com/harmony-activities,S2-R87-E4,第二批 87,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"ai.woshipm.com/harmonyos/{x}/ ×1｜https://ai.woshipm.com/harmonyos/1024/
+www.woshipm.com/share/{x} ×1｜https://www.woshipm.com/share/6275516.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「鸿蒙活动专区 | 人人都是产品经理」）
+https://www.woshipm.com/policy,S2-R87-E5,第二批 87,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.woshipm.com/{x} ×5｜https://www.woshipm.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6；https://www.woshipm.com/violationclaim
+www.woshipm.com/it/1010671.html/{x} ×1｜https://www.woshipm.com/it/1010671.html/comment-page-1",完整（枚举结束，无独立全集对账）,可打开（200，标题「隐私政策 | 人人都是产品经理」）
+https://www.woshipm.com/users,S2-R87-E6,第二批 87,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,www.woshipm.com/u/{x} ×32｜https://www.woshipm.com/u/1061118；https://www.woshipm.com/u/883385,完整（枚举结束，无独立全集对账）,可打开（200，标题「推荐作家 | 人人都是产品经理」）
+https://www.linkflowtech.com/courses,S2-R88-E2,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×58｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/products/{x} ×3｜https://www.linkflowtech.com/products/connect；https://www.linkflowtech.com/products/personalization",完整,可打开（200，标题「LinkFlow微课堂_最新最全的全域营销与CDP技能学习平台 - Linkflow CDP」）
+https://www.linkflowtech.com/customer-cases-all-cosmetic,S2-R88-E5,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/customer-cases/{x} ×4｜https://www.linkflowtech.com/customer-cases/Beauty-company-taps-into-high-value-customers；https://www.linkflowtech.com/customer-cases/fewer-coding-work-more-data-better-driven-marketing
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-food,S2-R88-E6,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/customer-cases/{x} ×3｜https://www.linkflowtech.com/customer-cases/food-brands-multi-channel-user-contact-connection-building-private-consumer-operation；https://www.linkflowtech.com/customer-cases/one-person-wine-brand-strategy-rio-hit-zgroup-demand",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-catering,S2-R88-E7,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/products/{x} ×3｜https://www.linkflowtech.com/products/connect；https://www.linkflowtech.com/products/personalization",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-retail,S2-R88-E8,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/customer-cases/{x} ×4｜https://www.linkflowtech.com/customer-cases/branded-retail-industry-building-full-consumer-data-pool-improve-repurchase-rate；https://www.linkflowtech.com/customer-cases/self-run-e-commerce-platform-reduce-customer-churn-rate
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-clothing,S2-R88-E9,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/products/{x} ×3｜https://www.linkflowtech.com/products/connect；https://www.linkflowtech.com/products/personalization",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-health,S2-R88-E10,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/customer-cases/{x} ×3｜https://www.linkflowtech.com/customer-cases/epidemic-how-tensil-pharmaceuticals-found-second-growth-curve；https://www.linkflowtech.com/customer-cases/ophthalmology-medical-build-omni-domain-traffic-improve-customer-acquisition-efficiency",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://www.linkflowtech.com/customer-cases-all-electric,S2-R88-E11,第二批 88,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.linkflowtech.com/{x} ×20｜https://www.linkflowtech.com；https://www.linkflowtech.com/privacy-policy
+www.linkflowtech.com/solutions/{x} ×14｜https://www.linkflowtech.com/solutions/automobile；https://www.linkflowtech.com/solutions/retail
+www.linkflowtech.com/scene/{x} ×4｜https://www.linkflowtech.com/scene/acquisition；https://www.linkflowtech.com/scene/retention
+www.linkflowtech.com/products/{x} ×3｜https://www.linkflowtech.com/products/connect；https://www.linkflowtech.com/products/personalization",完整（枚举结束，无独立全集对账）,可打开（200，标题「LinkFlow 精选客户案例集」）
+https://socialbeta.com/job,S2-R91-E1,第二批 91,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"socialbeta.com/article/{x} ×1754｜https://socialbeta.com/article/100000；https://socialbeta.com/article/99994
+socialbeta.com/{x}?page={…} ×147｜https://socialbeta.com/job?page=1；https://socialbeta.com/job?page=99
+socialbeta.com/user/{x} ×17｜https://socialbeta.com/user/10007；https://socialbeta.com/user/854
+socialbeta.com/{x} ×6｜https://socialbeta.com；https://socialbeta.com/job",完整（枚举结束，无独立全集对账）,可打开（200，标题「职位机会｜SocialBeta」）
+https://socialbeta.com/tag/%E6%8B%9B%E8%81%98,S2-R91-E2,第二批 91,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"socialbeta.com/article/{x} ×20｜https://socialbeta.com/article/111403；https://socialbeta.com/article/111460
+socialbeta.com/tag/{x} ×12｜https://socialbeta.com/tag/%E6%8B%9B%E8%81%98；https://socialbeta.com/tag/行业趋势
+socialbeta.com/{x} ×5｜https://socialbeta.com；https://socialbeta.com/job
+socialbeta.com/about/{x} ×2｜https://socialbeta.com/about/privacy；https://socialbeta.com/about/user",完整,可打开（200，标题「招聘｜标签｜SocialBeta」）
+https://www.topys.cn/branding,S2-R92-E2,第二批 92,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.topys.cn/{x} ×8｜https://www.topys.cn/；https://www.topys.cn/video
+www.topys.cn/search/{x} ×6｜https://www.topys.cn/search/%E5%88%9B%E6%84%8F；https://www.topys.cn/search/%E8%AE%BE%E8%AE%A1
+www.topys.cn/about/{x} ×3｜https://www.topys.cn/about/contents；https://www.topys.cn/about/new_index
+www.topys.cn/drlist/{x} ×2｜https://www.topys.cn/drlist/29；https://www.topys.cn/drlist/66",部分,可打开（200，标题「品牌兔子洞 | TOPYS创意内容平台」）
+https://www.chinaventure.com.cn/report/list.html,S2-R93-E1,第二批 93,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「æä¸­ç ç©¶é¢ | æä¸­ç½」）
+https://www.chinaventure.com.cn/news/78.html,S2-R93-E4,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「åä¸æ·±åº¦Â |Â æä¸­ç½Â |Â åæ°ç»æµçæºè」）
+https://www.chinaventure.com.cn/news/80.html,S2-R93-E5,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「èµæ¬å¸åº | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+https://www.chinaventure.com.cn/news/83.html,S2-R93-E6,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「å¤©åºèå | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+https://www.chinaventure.com.cn/news/111.html,S2-R93-E7,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「çç©å»è¯ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+https://www.chinaventure.com.cn/news/110.html,S2-R93-E8,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「æ±½è½¦åºè¡ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+https://www.chinaventure.com.cn/news/112.html,S2-R93-E9,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「æ°è½æº | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）
+https://www.chinaventure.com.cn/news/113.html,S2-R93-E10,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¼ä¸æå¡ | æä¸­ç½ | åæ°ç»æµçæºè¯ã」）
+https://www.chinaventure.com.cn/news/114.html,S2-R93-E11,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ç¡¬ç§æ | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）
+https://www.chinaventure.com.cn/news/116.html,S2-R93-E12,第二批 93,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.chinaventure.com.cn/usercenter/{x} ×2｜https://www.chinaventure.com.cn/usercenter/private_policy.html；https://www.chinaventure.com.cn/usercenter/user_agreement.html
+www.chinaventure.com.cn/{x} ×1｜https://www.chinaventure.com.cn/contribute.html
+www.chinaventure.com.cn/meeting/special/202609/{x} ×1｜https://www.chinaventure.com.cn/meeting/special/202609/index.html
+www.chinaventure.com.cn/signup/{x} ×1｜https://www.chinaventure.com.cn/signup/guestinfo_collection.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「æ°æ¶è´¹ | æä¸­ç½ | åæ°ç»æµçæºè¯ãæ´」）
+https://www.isc.org.cn/article/10360020493839808.html,S2-R100-E1,第二批 100,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.isc.org.cn/category/{x} ×14｜https://www.isc.org.cn//category/7328.html；https://www.isc.org.cn/category/7479.html
+www.isc.org.cn/{x} ×2｜https://www.isc.org.cn/；https://www.isc.org.cn/en
+home.isc.org.cn/{x} ×1｜https://home.isc.org.cn/
+home.isc.org.cn/exhibition/mien/{x}?type={…} ×1｜https://home.isc.org.cn/exhibition/mien/index?type=2",完整（枚举结束，无独立全集对账）,可打开（200，标题「联系我们_联系我们_中国互联网协会」）
+https://www.isc.org.cn//category/7424.html,S2-R100-E2,第二批 100,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.isc.org.cn/article/{x} ×16｜https://www.isc.org.cn/article/10360020493839808.html；https://www.isc.org.cn/article/9661162544820224.html
+www.isc.org.cn/category/{x} ×11｜https://www.isc.org.cn/category/7424.html；https://www.isc.org.cn/category/民政部
+www.isc.org.cn/{x} ×2｜https://www.isc.org.cn/；https://www.isc.org.cn/en
+home.isc.org.cn/{x} ×1｜https://home.isc.org.cn/",完整（枚举结束，无独立全集对账）,可打开（200，标题「中国互联网协会」）
+http://www.caam.org.cn/djzl,S2-R101-E1,第二批 101,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.caam.org.cn/{x} ×13｜http://www.caam.org.cn/；http://www.caam.org.cn/xhgk
+www.caam.org.cn/chn/60/cate_534/{x} ×9｜http://www.caam.org.cn/chn/60/cate_534/con_5235922.html；http://www.caam.org.cn/chn/60/cate_534/list_1.html
+www.caam.org.cn/chn/60/cate_535/{x} ×9｜http://www.caam.org.cn/chn/60/cate_535/con_5235885.html；http://www.caam.org.cn/chn/60/cate_535/list_1.html
+www.caam.org.cn/chn/60/cate_537/{x} ×9｜http://www.caam.org.cn/chn/60/cate_537/con_5237172.html；http://www.caam.org.cn/chn/60/cate_537/list_1.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「党建专栏」）
+https://www.chinapv.org.cn/StaticPage/Building/list50_1.html,S2-R105-E1,第二批 105,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：SSLError: HTTPSConnectionPool(host='www.chinapv.org.cn', port=443): Max retries ）"
+https://www.cheaa.org/channels/116.html,S2-R108-E1,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/116/{x} ×15｜https://www.cheaa.org/contents/116/10867.html；https://www.cheaa.org/contents/116/13555.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/16.html,S2-R108-E4,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/16/{x} ×15｜https://www.cheaa.org/contents/16/11237.html；https://www.cheaa.org/contents/16/13559.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/23.html,S2-R108-E5,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/23/{x} ×10｜https://www.cheaa.org/contents/23/7044.html；https://www.cheaa.org/contents/23/8675.html
+www.cheaa.org/contents/335/{x} ×2｜https://www.cheaa.org/contents/335/8799.html；https://www.cheaa.org/contents/335/9241.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/25.html,S2-R108-E6,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/326/{x} ×10｜https://www.cheaa.org/contents/326/10126.html；https://www.cheaa.org/contents/326/9737.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/117.html,S2-R108-E7,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/117/{x} ×15｜https://www.cheaa.org/contents/117/13422.html；https://www.cheaa.org/contents/117/13567.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/9.html,S2-R108-E8,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/9/{x} ×15｜https://www.cheaa.org/contents/9/13234.html；https://www.cheaa.org/contents/9/13548.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/419.html,S2-R108-E9,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/419/{x} ×15｜https://www.cheaa.org/contents/419/13252.html；https://www.cheaa.org/contents/419/13579.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼ - Cheaa」）
+https://www.cheaa.org/channels/26.html,S2-R108-E11,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/332/{x} ×10｜https://www.cheaa.org/contents/332/11487.html；https://www.cheaa.org/contents/332/9948.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/27.html,S2-R108-E12,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/329/{x} ×10｜https://www.cheaa.org/contents/329/10109.html；https://www.cheaa.org/contents/329/9945.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/28.html,S2-R108-E13,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/335/{x} ×10｜https://www.cheaa.org/contents/335/10261.html；https://www.cheaa.org/contents/335/9950.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/30.html,S2-R108-E14,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/341/{x} ×10｜https://www.cheaa.org/contents/341/10114.html；https://www.cheaa.org/contents/341/9947.html
+www.cheaa.org/contents/340/{x} ×3｜https://www.cheaa.org/contents/340/6713.html；https://www.cheaa.org/contents/340/7194.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/32.html,S2-R108-E15,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/347/{x} ×10｜https://www.cheaa.org/contents/347/10008.html；https://www.cheaa.org/contents/347/9730.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/378.html,S2-R108-E17,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/381/{x} ×10｜https://www.cheaa.org/contents/381/10116.html；https://www.cheaa.org/contents/381/9953.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/443.html,S2-R108-E18,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/446/{x} ×10｜https://www.cheaa.org/contents/446/10975.html；https://www.cheaa.org/contents/446/9700.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.cheaa.org/channels/521.html,S2-R108-E20,第二批 108,同结构的链接是同级栏目页，不是本栏目的条目,排除同级栏目页，找本栏目真正的条目地址（常在前缀外），再做专属性证明,"www.cheaa.org/contents/524/{x} ×10｜https://www.cheaa.org/contents/524/10570.html；https://www.cheaa.org/contents/524/13317.html
+en.cheaa.org/{x} ×1｜https://en.cheaa.org
+www.cheaa.org/{x} ×1｜https://www.cheaa.org/
+www.cheaa.org/contents/119/{x} ×1｜https://www.cheaa.org/contents/119/1352.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「ä¸­å½å®¶ç¨çµå¨åä¼」）
+https://www.chanmama.com/douyin/,S2-R113-E1,第二批 113,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.chanmama.com/{x}/ ×9｜https://www.chanmama.com/SPUrank/；https://www.chanmama.com/vip/
+ai.chanmama.com/{x} ×5｜https://ai.chanmama.com/；https://ai.chanmama.com/skills
+www.chanmama.com/bloggerRank/{x} ×5｜https://www.chanmama.com/bloggerRank/GPq-J1LvTl0hUEjW7kM58w.html；https://www.chanmama.com/bloggerRank/ww3bfh_HREChNGrNFsrd1g.html
+www.chanmama.com/liveRank/{x} ×5｜https://www.chanmama.com/liveRank/6myNyFeKMnDfAiKxB6z-lT_wY4CQ5JLs.html；https://www.chanmama.com/liveRank/p6JEVh0dBg_IeprHueE3cEl8wpcBHuB3.html",部分,可打开（200，标题「æé³æ°æ®åæå¹³å°_æé³ç´æ­|ç­è§é¢|ç」）
+https://cy.chanmama.com/insights,S2-R113-E2,第二批 113,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,cy.chanmama.com/contentCenter/{x} ×2｜https://cy.chanmama.com/contentCenter/62.html；https://cy.chanmama.com/contentCenter/63.html,部分,可打开（200，标题「蝉妈妈·创意 - 千川投放素材_短视频素材创意服务平台」）
+https://www.weiboyi.com/report,S2-R114-E1,第二批 114,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）"
+https://www.weiboyi.com/meeting,S2-R114-E2,第二批 114,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,"待核验（无站点状态码：ProxyError: HTTPSConnectionPool(host='www.weiboyi.com', port=443): Max retries e）"
+https://mi.talkingdata.com/reports.html,S2-R117-E1,第二批 117,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"mi.talkingdata.com/{x}?id={…} ×420｜http://mi.talkingdata.com/report-detail.html?id=1006；http://mi.talkingdata.com/report-detail.html?id=998
+mi.talkingdata.com/{x}?category={…}&tag={…}&page={…} ×47｜http://mi.talkingdata.com/reports.html?category=all&tag=all&page=1；http://mi.talkingdata.com/reports.html?category=all&tag=all&page=9
+mi.talkingdata.com/{x} ×11｜http://mi.talkingdata.com/；http://mi.talkingdata.com/wx-rank.html
+mi.talkingdata.com/{x}?tag={…} ×7｜http://mi.talkingdata.com/reports.html?tag=AFBkf2ysQEFQNrHvldy；http://mi.talkingdata.com/reports.html?tag=rdkf3ViieocvvERLBqf",完整（枚举结束，无独立全集对账）,可打开（200，标题「数据报告-移动观象台-TalkingData」）
+https://www.miaozhen.com/paper,S2-R118-E2,第二批 118,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.miaozhen.com/all-reports/industryinsight/{x} ×8｜https://www.miaozhen.com/all-reports/industryinsight/13656.html；https://www.miaozhen.com/all-reports/industryinsight/14768.html
+www.miaozhen.com/all-reports/mwatch/{x} ×4｜https://www.miaozhen.com/all-reports/mwatch/13777.html；https://www.miaozhen.com/all-reports/mwatch/14342.html
+www.miaozhen.com/all-reports/ott/{x} ×2｜https://www.miaozhen.com/all-reports/ott/14337.html；https://www.miaozhen.com/all-reports/ott/14370.html
+www.miaozhen.com/all-reports/{x} ×1｜https://www.miaozhen.com/all-reports/13712.html",完整（枚举结束，无独立全集对账）,可打开（200，标题「白皮书-秒针系统-营销实效管理专家」）
+https://www.focusmedia.cn/classic,S2-R119-E1,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/casedetail/{x} ×12｜https://www.focusmedia.cn/casedetail/241；https://www.focusmedia.cn/casedetail/286
+www.focusmedia.cn/{x} ×3｜https://www.focusmedia.cn/classic；https://www.focusmedia.cn/industry",部分,可打开（200，标题「经典案例库」）
+https://www.focusmedia.cn/entrepreneurship,S2-R119-E2,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/casedetail/{x} ×11｜https://www.focusmedia.cn/casedetail/242；https://www.focusmedia.cn/casedetail/285
+www.focusmedia.cn/{x} ×3｜https://www.focusmedia.cn/classic；https://www.focusmedia.cn/industry",部分,可打开（200，标题「创业案例库」）
+https://www.focusmedia.cn/industry,S2-R119-E3,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/casedetail/{x} ×12｜https://www.focusmedia.cn/casedetail/249；https://www.focusmedia.cn/casedetail/280
+www.focusmedia.cn/{x} ×3｜https://www.focusmedia.cn/classic；https://www.focusmedia.cn/industry",部分,可打开（200，标题「行业案例库」）
+https://www.focusmedia.cn/whitepaper,S2-R119-E5,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/{x} ×2｜https://www.focusmedia.cn/companyreport；https://www.focusmedia.cn/whitepaper
+www.focusmedia.cn/detail/{x}/ ×2｜https://www.focusmedia.cn/detail/1567/；https://www.focusmedia.cn/detail/1568/
+www.focusmedia.cn/{x}/ ×1｜https://www.focusmedia.cn/news/",部分,可打开（200，标题「白皮书」）
+https://www.focusmedia.cn/companyreport,S2-R119-E6,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/detail/{x}/ ×3｜https://www.focusmedia.cn/detail/1569/；https://www.focusmedia.cn/detail/1571/
+www.focusmedia.cn/{x} ×2｜https://www.focusmedia.cn/companyreport；https://www.focusmedia.cn/whitepaper
+www.focusmedia.cn/{x}/ ×1｜https://www.focusmedia.cn/news/",完整（枚举结束，无独立全集对账）,可打开（200，标题「公司研究报告」）
+https://www.focusmedia.cn/business/#jump,S2-R119-E7,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/{x} ×5｜https://www.focusmedia.cn/aiad；https://www.focusmedia.cn/screen
+www.focusmedia.cn/{x}/ ×4｜https://www.focusmedia.cn/aiad/；https://www.focusmedia.cn/screen/",完整（枚举结束，无独立全集对账）,可打开（200，标题「电梯电视」）
+https://www.focusmedia.cn/elevator/#jump,S2-R119-E8,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/{x} ×5｜https://www.focusmedia.cn/aiad；https://www.focusmedia.cn/screen
+www.focusmedia.cn/{x}/ ×4｜https://www.focusmedia.cn/aiad/；https://www.focusmedia.cn/screen/",完整（枚举结束，无独立全集对账）,可打开（200，标题「电梯海报」）
+https://www.focusmedia.cn/screen/#jump,S2-R119-E9,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/{x} ×5｜https://www.focusmedia.cn/aiad；https://www.focusmedia.cn/screen
+www.focusmedia.cn/{x}/ ×4｜https://www.focusmedia.cn/aiad/；https://www.focusmedia.cn/elevator/",完整（枚举结束，无独立全集对账）,可打开（200，标题「晶视电影传媒」）
+https://www.focusmedia.cn/publication#jump,S2-R119-E10,第二批 119,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「分众产品刊例价」）
+https://www.focusmedia.cn/aiad/#jump,S2-R119-E11,第二批 119,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.focusmedia.cn/{x} ×5｜https://www.focusmedia.cn/aiad；https://www.focusmedia.cn/screen
+www.focusmedia.cn/{x}/ ×4｜https://www.focusmedia.cn/business/；https://www.focusmedia.cn/screen/",完整（枚举结束，无独立全集对账）,可打开（200，标题「分众智投」）
+https://www.jingdigital.com/resource/,S2-R123-E1,第二批 123,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.jingdigital.com/articles/{x}/ ×6｜https://www.jingdigital.com/articles/18857/；https://www.jingdigital.com/articles/21997/
+www.jingdigital.com/{x}/ ×3｜https://www.jingdigital.com/event/；https://www.jingdigital.com/white/",完整（枚举结束，无独立全集对账）,可打开（200，标题「资源中心径硕科技」）
+https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061,S2-R124-E1,第二批 124,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,host.huiju.cool/p/{x}?cl_sr={…}&cl_ctnm={…} ×1｜https://host.huiju.cool/p/446f9?cl_sr=%E4%BA%A7%E5%93%81%E5%BA%95%E9%83%A8banner&cl_ctnm=%E5%86%85%E5%AE%B9%E9%9B%86%E5%90%88%E9%A1%B5-B2B%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80%E5%9F%B9%E8%AE%AD%E7%B3%BB%E5%88%97%E8%AF%BE,部分,可打开（200，标题「B2B数字营销培训系列课」）
+https://www.huiju.cool/industryinsight/,S2-R124-E3,第二批 124,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,访问受限（站点 403：403 Forbidden）
+https://appgrowing.net/blog/,S2-R125-E1,第二批 125,上一轮有家族但没有形成规则,按全流程重做，注意尾斜杠、共享路径和页面隐藏的条目,,完整,可打开（200，标题「AppGrowing Global - Global Mobile Ad Strategy Anal」）
+https://docs.appgrowing.net/zh/#reports,S2-R125-E2,第二批 125,入口页上没有任何本栏目条目链接,确认是否是单页、活动页或下载页；是的话按第 5 节留空或写精确清单,,完整（枚举结束，无独立全集对账）,可打开（200，标题「AppGrowing 营销策略中心」）
+https://www.sensorsdata.cn/target_disassembly.html,S2-R126-E1,第二批 126,入口页上没有任何本栏目条目链接,确认是否是单页、活动页或下载页；是的话按第 5 节留空或写精确清单,,部分,可打开（200，标题「ææ æè§£å·¥å·ï½æ°æ®ææ ä½ç³»æ¥è¯¢å¹³å」）
+https://www.sensorsdata.cn/researchInstitute.html,S2-R126-E4,第二批 126,入口页上没有任何本栏目条目链接,确认是否是单页、活动页或下载页；是的话按第 5 节留空或写精确清单,,完整（枚举结束，无独立全集对账）,可打开（200，标题「ç¥ç­ç ç©¶é¢-ä¼ä¸æ°å­åç»è¥å®è·µ/è¡ä¸」）
+https://www.qixin.com/pay/vip,S2-R134-E1,第二批 134,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.qixin.com/app-center/,S2-R134-E2,第二批 134,入口打不开（拦截 / 超时 / 证书 / 代理 / 挑战页）,以正常身份打开后按全流程处理；仍打不开就留空并写访问受限,,未验证,待核验（无站点状态码：未请求）
+https://www.mob.com/mobdata/report,S2-R140-E1,第二批 140,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,"可打开（200，标题「MobTech研究院_行业洞察报告,专业数据报告-MobTech」）"
+https://www.mob.com/mobSmart/citymap,S2-R140-E2,第二批 140,入口页上没有任何本栏目条目链接,确认是否是单页、活动页或下载页；是的话按第 5 节留空或写精确清单,,完整（枚举结束，无独立全集对账）,可打开（200，标题「解决方案-面向地产开发及运营商的大数据解决方案-MobTech」）
+https://e.newrank.cn/marketing/IndustryInformation,S2-R144-E1,第二批 144,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「新榜海汇——跨媒体投放资产管理中心」）
+https://geo.newrank.cn/news,S2-R144-E2,第二批 144,页面没有标准链接，内容由脚本渲染,浏览器点击卡片或看页面自己的只读数据请求，取得条目地址后再归纳,,部分,可打开（200，标题「行业资讯 - 新榜智汇」）
+https://www.guandata.com/Case/,S2-R146-E1,第二批 146,条目不在入口路径下（链接指向同站其他路径）,看线索列里的结构，按第 2 节做“专属性证明”；能证明就写正则，不能就写精确清单或留空,"www.guandata.com/Casedetail/{x} ×99｜https://www.guandata.com/Casedetail/abinbev；https://www.guandata.com/Casedetail/zyconsumerfinance
+www.guandata.com/{x} ×23｜https://www.guandata.com/；https://www.guandata.com/partner
+www.guandata.com/blogdetail/{x} ×12｜https://www.guandata.com/blogdetail/ai-cloud-100-china-2026；https://www.guandata.com/blogdetail/zhang-xiao-quan-ai-bi-zhi-zao-jue-ce
+www.guandata.com/blog/{x} ×4｜https://www.guandata.com/blog/customer；https://www.guandata.com/blog/viewpoint",完整（枚举结束，无独立全集对账）,可打开（200，标题「观远BI行业案例-观远数据BI方案」）
