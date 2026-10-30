@@ -1,5 +1,13 @@
 # 指定pattern 列：URL 正则提取与覆盖核验
 
+## 交接：剩余任务（2026-10-30）
+
+`handoff/prompt-remaining.md` 是交给其他 AI 的完整 prompt（正文 `prompt-body.md` + 自动生成的附录 `appendix.md`），
+随附 `handoff/remaining-tasks.xlsx|csv|json`（由 `scripts/build_handoff.py handoff` 生成）。
+两批剩余 175 个入口、208 条任务，分 T1–T10 十类。第 1 节严格定义了正则的匹配对象（A 正则对象 / B 保留链接 / C 不收录）。
+按这个定义复查后发现，第二批有 39 条已交付规则的范围超界：入口边界退化为站点根 `/`，或用变量覆盖了栏目标识
+（jazzyear、chinaventure、coalchina）。这些规则已列为 T10 任务，需要重做。
+
 ## 第 3 轮（2026-10-26）：全部 268 个入口全量处理 — 最终结果
 
 **最终交付在 `output/round3/`**：结果表 `result-table.xlsx|csv`（152 行原值 + 8 个结果字段，回读检查通过），
