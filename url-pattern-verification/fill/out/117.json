@@ -1,0 +1,60 @@
+{
+ "seq": 117,
+ "entry_id": "S2-R146-E1",
+ "url": "https://www.guandata.com/Case/",
+ "mode": "regex",
+ "basis": "情况 B：客户案例详情 /Casedetail/{slug}",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "案例详情 /Casedetail/{slug}（情况 B）：案例列表 99 个，sitemap 中该结构共 99 个，与列表一致；博客等其他内容用 /blogdetail/"
+ },
+ "observed_at": "2026-11-03T09:17:31+00:00",
+ "frozen_sha256": "b0d629c8bb507f2c9233f7c2466f9bb39be60b1decf46f8ba0a385a98696e5e7",
+ "pattern": "^https://www\\.guandata\\.com/Casedetail/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 99
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.guandata.com/Casedetail/douman",
+   "https://www.guandata.com/Casedetail/elizabeth-arden",
+   "https://www.guandata.com/Casedetail/fangcloud",
+   "https://www.guandata.com/Casedetail/fook",
+   "https://www.guandata.com/Casedetail/fxxx",
+   "https://www.guandata.com/Casedetail/lyfen",
+   "https://www.guandata.com/Casedetail/newlink",
+   "https://www.guandata.com/Casedetail/nwy",
+   "https://www.guandata.com/Casedetail/shuhegroup",
+   "https://www.guandata.com/Casedetail/today",
+   "https://www.guandata.com/Casedetail/xueqiu",
+   "https://www.guandata.com/Casedetail/zxjt"
+  ],
+  "holdout_pos": [
+   "https://www.guandata.com/Casedetail/abinbev",
+   "https://www.guandata.com/Casedetail/chinauff",
+   "https://www.guandata.com/Casedetail/ifs",
+   "https://www.guandata.com/Casedetail/lxj",
+   "https://www.guandata.com/Casedetail/neiwai",
+   "https://www.guandata.com/Casedetail/xinfushe"
+  ],
+  "holdout_neg": [
+   "https://www.guandata.com/Case/",
+   "https://www.guandata.com/Case",
+   "https://www.guandata.com/blogdetail/ai-cloud-100-china-2026",
+   "https://www.guandata.com/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

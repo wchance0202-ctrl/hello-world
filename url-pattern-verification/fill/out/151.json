@@ -1,0 +1,127 @@
+{
+ "seq": 151,
+ "entry_id": "S1-R20-E2",
+ "url": "https://www.epo.org/en/news-events",
+ "mode": "regex",
+ "basis": "情况 A：新闻详情与活动详情",
+ "note": "/en/news-events/{子栏目} 的说明页未纳入",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻 /en/news-events/news/{slug} 与活动 /en/news-events/events/{slug} 都在入口路径下（情况 A）；样本取自新闻列表页和活动列表页"
+ },
+ "observed_at": "2026-11-03T09:26:44+00:00",
+ "pattern": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "71d0620f7264b3d487d2449b5802333fc8ea022d1d0274e1df85d6432aa4f560",
+   "pattern": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 8,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.epo.org/en/news-events/news/ai-powered-solution-more-accessible-legal-information-across-europe",
+     "https://www.epo.org/en/news-events/news/disruption-due-earthquake-panama",
+     "https://www.epo.org/en/news-events/news/epo-and-us-patent-profession-discuss-quality-ai-and-future-patent-practice",
+     "https://www.epo.org/en/news-events/news/epo-signs-letter-intent-cnrs-innovation-and-max-planck-innovation",
+     "https://www.epo.org/en/news-events/news/fully-digital-patent-granting-process-further-implementing-measures-safeguard",
+     "https://www.epo.org/en/news-events/news/sacepo-working-party-rules-turns-digital-filing-procedural-changes-and-decision-g",
+     "https://www.epo.org/en/news-events/news/shaping-guidelines-2027-together",
+     "https://www.epo.org/en/news-events/news/solidarity-spain-after-high-speed-trains-collide"
+    ],
+    "holdout_pos": [
+     "https://www.epo.org/en/news-events/news/european-judges-forum-2026",
+     "https://www.epo.org/en/news-events/news/trilateral-offices-meet-vienna-advance-global-assignment-and-co-operation-ai"
+    ],
+    "holdout_neg": [
+     "https://www.epo.org/en/news-events",
+     "https://www.epo.org/en/news-events/news",
+     "https://www.epo.org/en/news-events/events",
+     "https://www.epo.org/en/email-alert-service",
+     "https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026",
+     "https://www.epo.org/en/news-events/events/epo-long-night-munich-museums-2026",
+     "https://www.epo.org/en/news-events/events/epo-user-day-2026",
+     "https://www.epo.org/en/news-events/events/european-inventor-award-2026",
+     "https://www.epo.org/en/news-events/events/europes-competitiveness-emerging-technologies-what-role-standards-markets-and",
+     "https://www.epo.org/en/news-events/events/europes-technology-transfer-challenge-turning-research-market-success"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻 /en/news-events/news/{slug} 与活动 /en/news-events/events/{slug} 都在入口路径下（情况 A）；样本取自新闻列表页和活动列表页"
+   }
+  },
+  {
+   "frozen_sha256": "7818a5e107c24b915a5114a01d4fa44904b48c7d90bc601bb8092166e6c1d223",
+   "pattern": "^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 11,
+    "holdout_pos": 3,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 14
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.epo.org/en/news-events/events/boards-appeal-case-law-conference-2026",
+     "https://www.epo.org/en/news-events/events/european-inventor-award-2026",
+     "https://www.epo.org/en/news-events/events/europes-competitiveness-emerging-technologies-what-role-standards-markets-and",
+     "https://www.epo.org/en/news-events/events/europes-technology-transfer-challenge-turning-research-market-success",
+     "https://www.epo.org/en/news-events/events/experience-epos-culture-space",
+     "https://www.epo.org/en/news-events/events/innovation-and-intellectual-property-sustainable-growth-latin-america-and",
+     "https://www.epo.org/en/news-events/events/inspiring-inventors-joachim-fiedlers-magnetic-fasteners",
+     "https://www.epo.org/en/news-events/events/opposition-matters-2026",
+     "https://www.epo.org/en/news-events/events/patlib-conference-2026",
+     "https://www.epo.org/en/news-events/events/pmac-arbitration-day",
+     "https://www.epo.org/en/news-events/events/standards-patents-and-competitiveness-forum"
+    ],
+    "holdout_pos": [
+     "https://www.epo.org/en/news-events/events/epo-long-night-munich-museums-2026",
+     "https://www.epo.org/en/news-events/events/epo-user-day-2026",
+     "https://www.epo.org/en/news-events/events/litigation-matters-2026"
+    ],
+    "holdout_neg": [
+     "https://www.epo.org/en/news-events",
+     "https://www.epo.org/en/news-events/news",
+     "https://www.epo.org/en/news-events/events",
+     "https://www.epo.org/en/email-alert-service",
+     "https://www.epo.org/en/news-events/news/ai-powered-solution-more-accessible-legal-information-across-europe",
+     "https://www.epo.org/en/news-events/news/disruption-due-earthquake-panama",
+     "https://www.epo.org/en/news-events/news/epo-and-us-patent-profession-discuss-quality-ai-and-future-patent-practice",
+     "https://www.epo.org/en/news-events/news/epo-signs-letter-intent-cnrs-innovation-and-max-planck-innovation",
+     "https://www.epo.org/en/news-events/news/european-judges-forum-2026",
+     "https://www.epo.org/en/news-events/news/fully-digital-patent-granting-process-further-implementing-measures-safeguard"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻 /en/news-events/news/{slug} 与活动 /en/news-events/events/{slug} 都在入口路径下（情况 A）；样本取自新闻列表页和活动列表页"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null
+}

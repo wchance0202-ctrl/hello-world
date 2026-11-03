@@ -1,0 +1,22 @@
+{
+ "seq": 212,
+ "entry_id": "S1-R89-E2",
+ "url": "https://www.greenbook.org/insights",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——洞察文章 /insights/{主题}/{slug} 与主题页 /insights/{slug}",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:25:59+00:00",
+ "pattern": "^https://www\\.greenbook\\.org/insights/[a-z0-9-]+/[a-z0-9-]+$\n^https://www\\.greenbook\\.org/insights/[a-z0-9_-]+$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R89-E2-F1",
+  "R3-S1-R89-E2-F2"
+ ],
+ "checks": {
+  "members": 0,
+  "pos_fail": [],
+  "neg": 0,
+  "neg_fail": []
+ }
+}

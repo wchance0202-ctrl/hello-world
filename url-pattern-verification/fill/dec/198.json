@@ -1,0 +1,28 @@
+{
+ "seq": 198,
+ "entry_id": "S1-R70-E2",
+ "url": "https://thearf.org/access-knowledge-2/",
+ "mode": "regex",
+ "members": [
+  "https://thearf.org/category/topics/ad-effectiveness-roi",
+  "https://thearf.org/category/topics/analytics-data-science",
+  "https://thearf.org/category/topics/audience-media-measurement",
+  "https://thearf.org/category/topics/creative-branded-content",
+  "https://thearf.org/category/topics/future-states-ai",
+  "https://thearf.org/category/topics/past-event-summaries",
+  "https://thearf.org/category/topics/research-data-quality",
+  "https://thearf.org/category/topics/targets-segments"
+ ],
+ "negatives": [
+  "https://thearf.org/access-knowledge-2/",
+  "https://thearf.org/research/",
+  "https://thearf.org/category/tag/ad-creative"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "知识中心页列出各主题页 /category/topics/{slug}（主题分类专用路径）",
+  "why_not": ""
+ },
+ "basis": "情况 B：知识主题页 /category/topics/{slug}",
+ "note": "条目本身在各主题页内"
+}

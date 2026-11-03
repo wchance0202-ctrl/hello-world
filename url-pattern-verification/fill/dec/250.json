@@ -1,0 +1,50 @@
+{
+ "seq": 250,
+ "entry_id": "S1-R142-E2",
+ "url": "https://www.salesforce.com/company/analyst-reports/",
+ "mode": "snapshot",
+ "members": [
+  "https://www.salesforce.com/agentforce/resources/gartner-conversational-ai-platform-magic-quadrant/?d=pb&pr=",
+  "https://www.salesforce.com/commerce/resources/forrester-tei-b2c-commerce-oms/?d=pb&pr=",
+  "https://www.salesforce.com/commerce/resources/forrester-total-economic-impact-b2b-commerce/?d=pb&pr=",
+  "https://www.salesforce.com/commerce/resources/gartner-digital-commerce-mq/?d=pb",
+  "https://www.salesforce.com/commerce/resources/gartner-digital-commerce-mq/?d=pb&pr=",
+  "https://www.salesforce.com/commerce/resources/idc-marketscape-enterprise-b2c-commerce/?d=pb&pr=",
+  "https://www.salesforce.com/commerce/resources/idc-marketscape-point-of-sale/?d=pb&pr=",
+  "https://www.salesforce.com/communications/resources/comms-cloud-idc-cpq/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-crm-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-crm-marketing-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-crm-platforms-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-crm-sales-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-crm-service-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-digital-commerce-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-prm-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/crm/resources/isg-sales-engagement-buyers-guide-2026/?d=pb&pr=",
+  "https://www.salesforce.com/data/resources/forrester-cdp-2026/?d=pb",
+  "https://www.salesforce.com/data/resources/gartner-magic-quadrant-cdp-2026/?d=pb&pr=",
+  "https://www.salesforce.com/financial-services/resources/forrester-wave-2025/?d=pb&pr=",
+  "https://www.salesforce.com/financial-services/resources/idc-marketscape-intelligent-underwriting-workbench-applications/?d=pb&pr=",
+  "https://www.salesforce.com/healthcare/resources/gartner-magic-quadrant-provider-industry-cloud-platforms-2026/?d=pb&pr=",
+  "https://www.salesforce.com/marketing/resources/gartner-b2b-map-2025/?d=pb",
+  "https://www.salesforce.com/marketing/resources/gartner-mmh-2025/?d=pb",
+  "https://www.salesforce.com/marketing/resources/revenue-marketing-platforms-for-b2b-2026/?d=pb",
+  "https://www.salesforce.com/partners/resources/idc-marketscape-for-platform-marketplaces/?d=pb&pr=",
+  "https://www.salesforce.com/platform/resources/gartner-lcap/?d=pb&pr=",
+  "https://www.salesforce.com/platform/resources/idc-marketscape-low-code-and-no-code/?d=pb&pr=",
+  "https://www.salesforce.com/sales/resources/g2-crm-leader-grid-report/?d=pb&pr=",
+  "https://www.salesforce.com/sales/resources/gartner-mq-crm-sales-platforms-2026/?d=pb&pr=",
+  "https://www.salesforce.com/service/resources/2025-gartner-mq-cec/?d=pb&pr=",
+  "https://www.salesforce.com/service/resources/gartner-mq-cskmc/?d=pb&pr=",
+  "https://www.salesforce.com/service/resources/gartner-mq-it-service/?d=pb&pr=",
+  "https://www.salesforce.com/service/resources/idc-agentic-contact-center/?d=pb&pr="
+ ],
+ "negatives": [
+  "https://www.salesforce.com/company/analyst-reports/"
+ ],
+ "basis": "分析师报告页的条目链接到各产品线资源页 /{产品}/resources/{slug}/?d=…（全站资源共用路径）和站外合作方页面，逐条列出站内 33 个",
+ "note": "快照 2026-11-03；打开时站点会 302 到同一地址加 &bc=OTH 跟踪参数，视为同一页面，快照保留列表中的原始写法",
+ "same_page_suffix": [
+  "&bc=OTH",
+  "?bc=OTH"
+ ]
+}

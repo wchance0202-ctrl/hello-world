@@ -1,0 +1,61 @@
+{
+ "seq": 244,
+ "entry_id": "S1-R138-E1",
+ "url": "https://unbounce.com/landing-page-optimization/",
+ "mode": "regex",
+ "basis": "情况 B：文章 /landing-pages/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "本栏目翻完 23 页共 205 篇，都在 /landing-pages/{slug}/ 下；sitemap 中该结构共 212 篇，与列表基本一致，未见其他栏目使用",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:36:54+00:00",
+ "frozen_sha256": "046e5cc9cac0c13d8bdbe28013ae2f4570398e0083741dde763c631b45e03202",
+ "pattern": "^https://unbounce\\.com/landing\\-pages/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 205
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://unbounce.com/landing-pages/10-stops-on-the-conversion-highway-infographic/",
+   "https://unbounce.com/landing-pages/2019-is-the-year-of-page-speed/",
+   "https://unbounce.com/landing-pages/5-landing-page-headline-formulas-tested/",
+   "https://unbounce.com/landing-pages/7-easy-exercises-to-boost-your-landing-page-health/",
+   "https://unbounce.com/landing-pages/do-you-believe-in-conversion-magic/",
+   "https://unbounce.com/landing-pages/how-to-create-a-landing-page-design-concept-in-10-minutes/",
+   "https://unbounce.com/landing-pages/landing-page-broken-promises/",
+   "https://unbounce.com/landing-pages/landing-page-sends-creator-to-cta-conf/",
+   "https://unbounce.com/landing-pages/landing-page-sessions-episode-4/",
+   "https://unbounce.com/landing-pages/perfect-landing-page-recipe/",
+   "https://unbounce.com/landing-pages/smarter-landing-page-builder/",
+   "https://unbounce.com/landing-pages/the-psychology-of-landing-page-videos-5-video-optimization-tips/"
+  ],
+  "holdout_pos": [
+   "https://unbounce.com/landing-pages/blog-landing-page-optimization-opt-in-pages/",
+   "https://unbounce.com/landing-pages/create-landing-page-without-website/",
+   "https://unbounce.com/landing-pages/marketing-agencies-landing-pages/",
+   "https://unbounce.com/landing-pages/saas-demo-landing-page-best-practices/",
+   "https://unbounce.com/landing-pages/statistical-significance/",
+   "https://unbounce.com/landing-pages/white-paper-landing-page/"
+  ],
+  "holdout_neg": [
+   "https://unbounce.com/landing-page-optimization/",
+   "https://unbounce.com/landing-page-optimization/page/2/",
+   "https://unbounce.com/101-landing-page-optimization-tips/",
+   "https://unbounce.com/campaign-strategy/how-fiverr-conquered-conversion/"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

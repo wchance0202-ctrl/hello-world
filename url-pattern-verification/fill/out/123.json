@@ -1,0 +1,60 @@
+{
+ "seq": 123,
+ "entry_id": "S1-R6-E14",
+ "url": "https://blogs.worldbank.org/en/home",
+ "mode": "regex",
+ "basis": "情况 B：博客文章 /en/{博客名}/{slug}",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "blogs.worldbank.org 整个子域就是博客；文章为 /en/{博客名}/{slug}，博客频道页 /en/{博客名} 少一级，作为反例；sitemap 中同结构 25486 篇"
+ },
+ "observed_at": "2026-11-03T09:20:31+00:00",
+ "frozen_sha256": "9dc60d7094454acc2aa52b1b46423721776f194325edac9e81285d4f3f559085",
+ "pattern": "^https://blogs\\.worldbank\\.org/en/[a-z]+/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 21
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://blogs.worldbank.org/en/arabvoices/agriconnect-and-djibouti--creating-jobs-and-boosting-food-securi",
+   "https://blogs.worldbank.org/en/developmenttalk/does-private-lending-in-emerging-markets-deliver-competitive-ret",
+   "https://blogs.worldbank.org/en/developmenttalk/efforts-toward-closing-the-gender-gap--lessons-from-two-decades-",
+   "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+   "https://blogs.worldbank.org/en/impactevaluations/weekly-links-october-23--macro-impacts-of-migration-on-poverty--",
+   "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+   "https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig",
+   "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+   "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+   "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+   "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+   "https://blogs.worldbank.org/en/voices/getting-the-foundations-right--how-south-asia-can-make-ai-work-f"
+  ],
+  "holdout_pos": [
+   "https://blogs.worldbank.org/en/developmenttalk/low-female-participation-in-the-workforce-solving-the-turkish-dilemma",
+   "https://blogs.worldbank.org/en/endpovertyinsouthasia/aiming-high-pakistan-s-way-forward",
+   "https://blogs.worldbank.org/en/impactevaluations/pitch-perfect-update-sme-ideas-competition",
+   "https://blogs.worldbank.org/en/ppps/what-do-private-companies-look-performance-based-non-revenue-water-project",
+   "https://blogs.worldbank.org/en/psd/imf-approves-debt-relief-for-poorest-countries",
+   "https://blogs.worldbank.org/en/psd/microfinance-buy-it-on-ebay"
+  ],
+  "holdout_neg": [
+   "https://blogs.worldbank.org/en/home",
+   "https://blogs.worldbank.org/en/arabvoices",
+   "https://blogs.worldbank.org/en/opendata",
+   "https://www.worldbank.org/ext/en/news"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

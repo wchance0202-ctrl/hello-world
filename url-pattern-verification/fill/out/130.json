@@ -1,0 +1,19 @@
+{
+ "seq": 130,
+ "entry_id": "S1-R18-E2",
+ "url": "https://www.itu.int/itu-d/sites/statistics/",
+ "mode": "snapshot",
+ "basis": "统计门户页的条目分散在多个路径（/en/ITU-D/Statistics/Pages/…、/itu-d/reports/statistics/…），每种只有 1–2 个，按快照列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:23:14+00:00",
+ "pattern": "^(?:https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/ICTprices/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/StatisticsUpdate/October2026\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/about\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/capacitydev/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/definitions/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/events/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/expertgroups\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/facts/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/intlcoop/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/publications/default\\.aspx|https://www\\.itu\\.int/itu\\-d/reports/statistics/idi2026/)$",
+ "status": "快照",
+ "members": 11,
+ "kept": 11,
+ "dropped": [],
+ "negatives": [
+  "https://www.itu.int/itu-d/sites/statistics/"
+ ],
+ "negatives_matched": []
+}

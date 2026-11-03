@@ -1,0 +1,70 @@
+{
+ "seq": 139,
+ "entry_id": "S1-R19-E11",
+ "url": "https://www.wipo.int/en/web/wipolex",
+ "mode": "regex",
+ "basis": "情况 A：主题新闻 /en/web/wipolex/w/news/{年}/{slug}",
+ "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "主题新闻在入口路径 /en/web/wipolex/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/wipolex/news（12 条）"
+ },
+ "observed_at": "2026-11-03T09:25:21+00:00",
+ "frozen_sha256": "20e65f31d69fda79d800d7a933eedcbeb4ff40810c155460746c2c828671b2aa",
+ "pattern": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_]+$",
+ "status": "候选",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 3,
+  "holdout_neg": 6,
+  "all_pass": false,
+  "coverage_missed": [
+   "https://www.wipo.int/en/web/wipolex/w/news/2026/new-wipo-lex-collection-brings-trade-secrets-case-law-into-focus",
+   "https://www.wipo.int/en/web/wipolex/w/news/2026/new-wipo-lex-collection-brings-trade-secrets-case-law-into-focus"
+  ],
+  "coverage_members": 12
+ },
+ "failures": [
+  {
+   "url": "https://www.wipo.int/en/web/wipolex/w/news/2026/new-wipo-lex-collection-brings-trade-secrets-case-law-into-focus",
+   "expected": true,
+   "actual": false,
+   "split": "holdout"
+  }
+ ],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.wipo.int/en/web/wipolex/w/news/2020/article_0022",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0001",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0002",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0003",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0004",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0005",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0006",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0008",
+   "https://www.wipo.int/en/web/wipolex/w/news/2023/news_0001"
+  ],
+  "holdout_pos": [
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0007",
+   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0009",
+   "https://www.wipo.int/en/web/wipolex/w/news/2026/new-wipo-lex-collection-brings-trade-secrets-case-law-into-focus"
+  ],
+  "holdout_neg": [
+   "https://www.wipo.int/en/web/wipolex",
+   "https://www.wipo.int/en/web/wipolex/news",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0002",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0004",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+   "https://www.wipo.int/en/web/about-ip"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "why_not_verified": [
+  "测试失败 1 对",
+  "覆盖漏配 2"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "seq": 191,
+ "entry_id": "S1-R53-E3",
+ "url": "https://www.idc.com/quanta/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.idc\\.com/quanta/[a-z-]+/$",
+ "carried_from": [
+  "R3-S1-R53-E3-F1"
+ ],
+ "members": [
+  "https://www.idc.com/quanta/tech-leader/",
+  "https://www.idc.com/quanta/tech-supplier/",
+  "https://www.idc.com/quanta/use-cases/",
+  "https://www.idc.com/quanta/book-a-demo/",
+  "https://www.idc.com/quanta/tech-leaders-book-a-demo/"
+ ],
+ "negatives": [
+  "https://www.idc.com/quanta/",
+  "https://www.idc.com/resource-topic/gpu/",
+  "https://www.idc.com/resource-topic/sovereign-ai-strategy/",
+  "https://www.idc.com/resource-topic/analyst-led-research/",
+  "https://www.idc.com/custom-solutions/sales-enablement/"
+ ],
+ "basis": "情况 A：第 3 轮已验证——Quanta 产品子页面 /quanta/{slug}/",
+ "note": ""
+}

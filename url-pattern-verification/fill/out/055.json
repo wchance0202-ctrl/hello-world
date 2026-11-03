@@ -1,0 +1,60 @@
+{
+ "seq": 55,
+ "entry_id": "S2-R87-E6",
+ "url": "https://www.woshipm.com/users",
+ "mode": "regex",
+ "basis": "情况 B：用户主页 /u/{数字}，入口是用户列表",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "入口是用户列表，条目是用户主页 /u/{数字}；全站 /u/{数字} 都是用户主页（sitemap 中 13,242 条均为此结构），不承载其他栏目内容；留出样本取自 sitemap"
+ },
+ "observed_at": "2026-11-03T09:01:15+00:00",
+ "frozen_sha256": "155a5f3e2fc38fc39a822b5a85c5bf0bbc328ff3aa9e9cdf98bd59f588f77016",
+ "pattern": "^https://www\\.woshipm\\.com/u/[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 32
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.woshipm.com/u/1061118",
+   "https://www.woshipm.com/u/1355017",
+   "https://www.woshipm.com/u/1482620",
+   "https://www.woshipm.com/u/1605791",
+   "https://www.woshipm.com/u/162227",
+   "https://www.woshipm.com/u/1678969",
+   "https://www.woshipm.com/u/205402",
+   "https://www.woshipm.com/u/215971",
+   "https://www.woshipm.com/u/745714",
+   "https://www.woshipm.com/u/818930",
+   "https://www.woshipm.com/u/826811",
+   "https://www.woshipm.com/u/834996"
+  ],
+  "holdout_pos": [
+   "https://www.woshipm.com/u/1087746",
+   "https://www.woshipm.com/u/112309",
+   "https://www.woshipm.com/u/1313200",
+   "https://www.woshipm.com/u/182342",
+   "https://www.woshipm.com/u/267057",
+   "https://www.woshipm.com/u/771170"
+  ],
+  "holdout_neg": [
+   "https://www.woshipm.com/users",
+   "https://www.woshipm.com/policy",
+   "https://www.woshipm.com/share/6319550.html",
+   "https://www.woshipm.com/ai/6321354.html"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

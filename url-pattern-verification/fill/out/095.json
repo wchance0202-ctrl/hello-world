@@ -1,0 +1,19 @@
+{
+ "seq": 95,
+ "entry_id": "S2-R119-E5",
+ "url": "https://www.focusmedia.cn/whitepaper",
+ "mode": "snapshot",
+ "basis": "「白皮书」条目在共用路径 /detail/{数字}/ 下（白皮书与公司研究报告共用），页面共 2 个（链接带页内锚点 #jump，已去掉），逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:42:00+00:00",
+ "pattern": "^(?:https://www\\.focusmedia\\.cn/detail/1567/|https://www\\.focusmedia\\.cn/detail/1568/)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
+  "https://www.focusmedia.cn/whitepaper"
+ ],
+ "negatives_matched": []
+}

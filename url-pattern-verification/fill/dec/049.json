@@ -1,0 +1,45 @@
+{
+ "seq": 49,
+ "entry_id": "S2-R79-E1",
+ "url": "https://www.morketing.com/newscenter",
+ "mode": "regex",
+ "members": [
+  "https://www.morketing.com/detail/23236",
+  "https://www.morketing.com/detail/23238",
+  "https://www.morketing.com/detail/23239",
+  "https://www.morketing.com/detail/23241",
+  "https://www.morketing.com/detail/28904",
+  "https://www.morketing.com/detail/28907",
+  "https://www.morketing.com/detail/28908",
+  "https://www.morketing.com/detail/28909",
+  "https://www.morketing.com/detail/28913",
+  "https://www.morketing.com/detail/28914",
+  "https://www.morketing.com/detail/28915",
+  "https://www.morketing.com/detail/28916",
+  "https://www.morketing.com/detail/28917",
+  "https://www.morketing.com/detail/28919",
+  "https://www.morketing.com/detail/28921",
+  "https://www.morketing.com/detail/28923",
+  "https://www.morketing.com/detail/28924",
+  "https://www.morketing.com/detail/28925",
+  "https://www.morketing.com/detail/28926",
+  "https://www.morketing.com/detail/28927",
+  "https://www.morketing.com/detail/28930",
+  "https://www.morketing.com/detail/28931",
+  "https://www.morketing.com/detail/3624"
+ ],
+ "holdout": [],
+ "negatives": [
+  "https://www.morketing.com/newscenter",
+  "https://www.morketing.com/newsflash",
+  "https://www.morketing.com/columns",
+  "https://www.morketing.com/ecosystem"
+ ],
+ "exclusivity": {
+  "proved": false,
+  "why_not": "内容中心是全站内容总列表，但只能取到首屏条目（“查看更多”点击无效），无法枚举全集核对",
+  "evidence": "同站「快讯」页面的 5 条 /detail/ 文章全部出现在内容中心；专栏、生态页面不使用 /detail/"
+ },
+ "basis": "情况 B：文章详情是 /detail/{数字}，入口是「内容中心」（全站内容总列表）",
+ "note": "第 50 行的快讯条目也会被这条正则匹配（快讯本身属于内容中心）"
+}

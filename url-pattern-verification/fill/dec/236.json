@@ -1,0 +1,32 @@
+{
+ "seq": 236,
+ "entry_id": "S1-R123-E3",
+ "url": "https://blog.hubspot.com/service",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://blog\\.hubspot\\.com/service/[a-z0-9-]+$",
+ "carried_from": [
+  "R3-S1-R123-E3-F1"
+ ],
+ "members": [
+  "https://blog.hubspot.com/service/customer-success-metrics",
+  "https://blog.hubspot.com/service/customer-support-analytics",
+  "https://blog.hubspot.com/service/customer-winback",
+  "https://blog.hubspot.com/service/feedback-management",
+  "https://blog.hubspot.com/service/thank-you-letter-for-customer-feedback",
+  "https://blog.hubspot.com/service/apology-letter-to-customers",
+  "https://blog.hubspot.com/service/customer-insights-ai",
+  "https://blog.hubspot.com/service/customer-retention-metrics",
+  "https://blog.hubspot.com/service/customer-understanding",
+  "https://blog.hubspot.com/service/survey-demographic-questions",
+  "https://blog.hubspot.com/service/thank-you-letter-customer"
+ ],
+ "negatives": [
+  "https://blog.hubspot.com/website/wordpress-table-plugins",
+  "https://blog.hubspot.com/sales/game-changing-communication-techniques-sales",
+  "https://blog.hubspot.com/website/graceful-degradation",
+  "https://blog.hubspot.com/marketing/create-brand-content-creator"
+ ],
+ "basis": "情况 A：第 3 轮已验证——服务博客文章 /service/{slug}",
+ "note": ""
+}

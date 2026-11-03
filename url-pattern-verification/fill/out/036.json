@@ -1,0 +1,49 @@
+{
+ "seq": 36,
+ "entry_id": "S2-R57-E2",
+ "url": "https://e.xiaohongshu.com/numerous",
+ "mode": "regex",
+ "basis": "情况 A：报告详情 /numerous/detail?id={数字}，浏览器点击首屏卡片取样",
+ "note": "列表第 2 页未取样",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "条目在入口路径 /numerous/ 之下（/numerous/detail?id=N，情况 A），由点击卡片在新标签页打开取得"
+ },
+ "observed_at": "2026-11-03T09:10:20+00:00",
+ "frozen_sha256": "103dfd2dc09ab597c34872acb46ee17f3a04798d9cf6d9cb4c692e73e055165a",
+ "pattern": "^https://e\\.xiaohongshu\\.com/numerous/detail\\?id=[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 6,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 8
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://e.xiaohongshu.com/numerous/detail?id=2526",
+   "https://e.xiaohongshu.com/numerous/detail?id=2529",
+   "https://e.xiaohongshu.com/numerous/detail?id=2530",
+   "https://e.xiaohongshu.com/numerous/detail?id=2532",
+   "https://e.xiaohongshu.com/numerous/detail?id=2533",
+   "https://e.xiaohongshu.com/numerous/detail?id=2535"
+  ],
+  "holdout_pos": [
+   "https://e.xiaohongshu.com/numerous/detail?id=2528",
+   "https://e.xiaohongshu.com/numerous/detail?id=2555"
+  ],
+  "holdout_neg": [
+   "https://e.xiaohongshu.com/numerous",
+   "https://e.xiaohongshu.com/case",
+   "https://e.xiaohongshu.com/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

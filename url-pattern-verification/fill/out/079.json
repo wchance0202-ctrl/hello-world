@@ -1,0 +1,61 @@
+{
+ "seq": 79,
+ "entry_id": "S2-R101-E1",
+ "url": "http://www.caam.org.cn/djzl",
+ "mode": "regex",
+ "basis": "栏目标识：频道 60 + 子分类 534/535/536/537 写成字面量",
+ "note": "cate_536 页面上只出现 1 条",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "党建专栏页面上的条目都在 /chn/60/cate_534~537/ 四个子分类下（页面自身的子栏目），子分类编号写成字面量；同页出现的 /chn/1/cate_538/ 是全站公告，不属于本栏目"
+ },
+ "observed_at": "2026-11-03T09:08:49+00:00",
+ "frozen_sha256": "7159370cdbac73b71992d051715cf546b05fffc49c876a169dfc40685dbe6b56",
+ "pattern": "^http://www\\.caam\\.org\\.cn/chn/60/cate_(?:534|535|536|537)/con_[0-9]+\\.html$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 5,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 24
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "http://www.caam.org.cn/chn/60/cate_534/con_5235923.html",
+   "http://www.caam.org.cn/chn/60/cate_534/con_5236600.html",
+   "http://www.caam.org.cn/chn/60/cate_534/con_5236980.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235885.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235887.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235894.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235895.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235897.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5235925.html",
+   "http://www.caam.org.cn/chn/60/cate_535/con_5236347.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237243.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237353.html"
+  ],
+  "holdout_pos": [
+   "http://www.caam.org.cn/chn/60/cate_534/con_5236136.html",
+   "http://www.caam.org.cn/chn/60/cate_534/con_5236434.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237172.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237186.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237241.html",
+   "http://www.caam.org.cn/chn/60/cate_537/con_5237343.html"
+  ],
+  "holdout_neg": [
+   "http://www.caam.org.cn/djzl",
+   "http://www.caam.org.cn/bzfg",
+   "http://www.caam.org.cn/chn/1/cate_538/con_5237000.html",
+   "http://www.caam.org.cn/chn/1/cate_538/con_5236401.html",
+   "http://www.caam.org.cn/chn/1/cate_538/con_5236433.html"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

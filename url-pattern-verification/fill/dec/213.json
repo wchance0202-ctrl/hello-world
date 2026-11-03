@@ -1,0 +1,24 @@
+{
+ "seq": 213,
+ "entry_id": "S1-R89-E3",
+ "url": "https://www.greenbook.org/grit",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "carried_from": [
+  "R3-S1-R89-E3-F1"
+ ],
+ "members": [
+  "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+  "https://www.greenbook.org/grit/insights-practice-edition",
+  "https://www.greenbook.org/grit/latam"
+ ],
+ "negatives": [
+  "https://www.greenbook.org/insights/the-difference-between-analyzing-text-and-analyzing-language-the-confidence-of-linguistic-analysis",
+  "https://www.greenbook.org/market-research-firms/eastern-europe-russia",
+  "https://www.greenbook.org/company/C-and-C-Market-Research",
+  "https://www.greenbook.org/marketing-research/webinar-recording-7-Key-Insights-to-Help-You-Predict-the-Next-Shift-in-Your-Market"
+ ],
+ "basis": "情况 A：第 3 轮按用户同意采用——GRIT 报告子页 /grit/{slug}",
+ "note": "第 3 轮样本少，经用户同意采用"
+}

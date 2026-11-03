@@ -1,0 +1,46 @@
+{
+ "seq": 194,
+ "entry_id": "S1-R64-E1",
+ "url": "https://advertising.amazon.com/resources/library",
+ "mode": "regex",
+ "families": [
+  {
+   "members": [
+    "https://advertising.amazon.com/en-us/library/case-studies/boost-oxygen/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/case-studies/mam-and-remazing/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/case-studies/party-propz/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/case-studies/revlon-rec-display-ads/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/expert-advice/2026-partner-award-winners/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/expert-advice/ai-measurement-advertising/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/expert-advice/streaming-simplicity-stv-research-2026/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/guides/dva-plus-campaign-creation/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/guides/holiday-advertising-guide/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/news/amazon-ads-agent/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/news/branded-conversations-review-requests/?ref_=a20m_us_libr",
+    "https://advertising.amazon.com/en-us/library/news/prime-video-emmy-awards/?ref_=a20m_us_libr"
+   ]
+  },
+  {
+   "members": [
+    "https://advertising.amazon.com/library/case-studies/acadia-bodi?ref_=a20m_us_lbr_df_z2_cs_bodi",
+    "https://advertising.amazon.com/library/case-studies/clementoni-kiliagon-prime-video-success?ref_=a20m_us_lbr_df_z2_cs_clmtni",
+    "https://advertising.amazon.com/library/expert-advice/streaming-tv-ai-advertising?ref_=a20m_us_lbr_df_z2_exp_stvai",
+    "https://advertising.amazon.com/library/guides/amazon-owned-and-operated-network?ref_=a20m_us_lbr_df_z2_gd_aoon",
+    "https://advertising.amazon.com/library/news/cannes-lions-2026-news-advertising?ref_=a20m_us_lbr_df_z2_nws_cnns26",
+    "https://advertising.amazon.com/library/news/forrester-wave-2026-advertising-report?ref_=a20m_us_lbr_df_z2_nws_fwave",
+    "https://advertising.amazon.com/library/news/linkedin-ctv-ads-amazon-dsp?ref_=a20m_us_lbr_df_z2_nws_lnctvdsp"
+   ]
+  }
+ ],
+ "negatives": [
+  "https://advertising.amazon.com/resources/library",
+  "https://advertising.amazon.com/en-us/library",
+  "https://advertising.amazon.com/en-us/solutions"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源库条目在 /en-us/library/{类型}/{slug}/ 与 /library/{类型}/{slug} 下（入口 /resources/library 即资源库），该路径只承载资源库内容"
+ },
+ "basis": "情况 B：资源库条目（案例、专家建议、新闻、指南），链接带 ref_ 跟踪参数",
+ "note": "ref_ 参数值随位置变化"
+}

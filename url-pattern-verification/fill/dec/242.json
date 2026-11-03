@@ -1,0 +1,32 @@
+{
+ "seq": 242,
+ "entry_id": "S1-R137-E2",
+ "url": "https://www.talkwalker.com/resources?category=Reports",
+ "mode": "regex",
+ "members": [
+  "https://www.talkwalker.com/resource/reports/shape-tomorrow-mea",
+  "https://www.talkwalker.com/resource/reports/smart-social-report",
+  "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+  "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic",
+  "https://www.talkwalker.com/resource/reports/state-of-social-intelligence-report",
+  "https://www.talkwalker.com/resource/reports/towards-a-winning-social-media-strategy-learning-from-10-leading-insurance-brands",
+  "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food",
+  "https://www.talkwalker.com/resource/reports/uniqlo-brand-report",
+  "https://www.talkwalker.com/resource/reports/us-brand-love-2022",
+  "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+  "https://www.talkwalker.com/resource/reports/voc-report",
+  "https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence"
+ ],
+ "negatives": [
+  "https://www.talkwalker.com/resources?category=Reports",
+  "https://www.talkwalker.com/resources",
+  "https://www.talkwalker.com/resource/marketing-essentials/x"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "报告分类的条目在 /resource/reports/{slug} 下，分类名 reports 在路径中（写成字面量）",
+  "why_not": ""
+ },
+ "basis": "栏目标识：/resource/reports/ 写成字面量",
+ "note": "本行（报告分类）是第 243 行（全部资源）的子集，两行正则有包含关系"
+}

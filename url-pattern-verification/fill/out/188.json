@@ -1,0 +1,21 @@
+{
+ "seq": 188,
+ "entry_id": "S1-R52-E2",
+ "url": "https://www.pewresearch.org/topic/internet-technology/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——主题下子主题页 /topic/internet-technology/{子类}/{slug}/",
+ "note": "只覆盖子主题页；文章在全站共用路径（/internet/{日期}/{slug}/ 等），无法用正则区分本主题",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:23:04+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R52-E2-F1"
+ ],
+ "checks": {
+  "members": 10,
+  "pos_fail": [],
+  "neg": 5,
+  "neg_fail": []
+ }
+}

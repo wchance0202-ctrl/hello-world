@@ -1,0 +1,32 @@
+{
+ "seq": 239,
+ "entry_id": "S1-R126-E1",
+ "url": "https://landor.com/en/our-work/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/$",
+ "carried_from": [
+  "R3-S1-R126-E1-F1"
+ ],
+ "members": [
+  "https://landor.com/en/our-work/ao/",
+  "https://landor.com/en/our-work/iz/",
+  "https://landor.com/en/our-work/misura/",
+  "https://landor.com/en/our-work/qt/",
+  "https://landor.com/en/our-work/bancomat/",
+  "https://landor.com/en/our-work/iucnsos/",
+  "https://landor.com/en/our-work/leshuttle/",
+  "https://landor.com/en/our-work/reykjavik-global-forum/",
+  "https://landor.com/en/our-work/saudia-airlines/",
+  "https://landor.com/en/our-work/saudia/"
+ ],
+ "negatives": [
+  "https://landor.com/en/our-work/",
+  "https://landor.com/de/our-work/west-loop",
+  "https://landor.com/de/our-work/ao-shearman",
+  "https://landor.com/de/our-work/kelloggs",
+  "https://landor.com/de/our-work/imperia"
+ ],
+ "basis": "情况 A：第 3 轮已验证——作品详情 /en/our-work/{slug}/",
+ "note": ""
+}

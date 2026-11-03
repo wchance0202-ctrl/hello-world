@@ -1,0 +1,20 @@
+{
+ "seq": 162,
+ "entry_id": "S1-R34-E3",
+ "url": "https://www.circana.com/news",
+ "mode": "snapshot",
+ "basis": "新闻条目是 Wix 博客文章 /post/{slug}，与洞察中心等共用同一路径，URL 不带栏目标识；页面共 15 篇，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:30:36+00:00",
+ "pattern": "^(?:https://www\\.circana\\.com/post/ai\\-measured\\-the\\-math\\-of\\-ai\\-winning\\-as\\-a\\-brand\\-webinar|https://www\\.circana\\.com/post/china\\-consumer\\-sentiment\\-study\\-holidays\\-boost\\-consumption\\-what\\-s\\-the\\-opportunity\\-for\\-foodservice|https://www\\.circana\\.com/post/china\\-consumer\\-sentiment\\-study\\-where\\-is\\-foodservice\\-headed|https://www\\.circana\\.com/post/circana\\-puts\\-third\\-party\\-marketplace\\-sales\\-on\\-the\\-map\\-200\\-billion\\-of\\-previously\\-hidden\\-demand\\-now|https://www\\.circana\\.com/post/co\\-op\\-and\\-circana\\-extend\\-strategic\\-partnership\\-to\\-unlock\\-the\\-next\\-generation\\-of\\-retail\\-growth|https://www\\.circana\\.com/post/consumer\\-wellness\\-trends\\-insights\\-from\\-circana\\-s\\-wellbeing\\-report|https://www\\.circana\\.com/post/cpg\\-demand\\-signals\\-report|https://www\\.circana\\.com/post/emea\\-demand\\-signals\\-report\\-unlock\\-cpg\\-consumer\\-behavior\\-insights|https://www\\.circana\\.com/post/glp\\-1\\-unlocked|https://www\\.circana\\.com/post/holiday\\-2026\\-consumers\\-are\\-planning\\-earlier\\-and\\-spending\\-more\\-intentionally|https://www\\.circana\\.com/post/how\\-one\\-truth\\-set\\-becomes\\-a\\-competitive\\-advantage|https://www\\.circana\\.com/post/insight\\-led\\-selling\\-how\\-ai\\-helps\\-cpg\\-sales\\-reps\\-win\\-retailer\\-meetings|https://www\\.circana\\.com/post/same\\-field\\-different\\-strategies\\-how\\-ai\\-changes\\-the\\-playbook\\-for\\-brands\\-and\\-retailers|https://www\\.circana\\.com/post/top\\-10\\-books|https://www\\.circana\\.com/post/top\\-10\\-video\\-games)$",
+ "status": "快照",
+ "members": 15,
+ "kept": 15,
+ "dropped": [],
+ "negatives": [
+  "https://www.circana.com/news",
+  "https://www.circana.com/insights-hub"
+ ],
+ "negatives_matched": []
+}

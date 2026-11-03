@@ -1,0 +1,34 @@
+{
+ "seq": 189,
+ "entry_id": "S1-R52-E3",
+ "url": "https://www.pewresearch.org/topic/news-habits-media/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
+ "carried_from": [
+  "R3-S1-R52-E3-F1"
+ ],
+ "members": [
+  "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+  "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+  "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+  "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+  "https://www.pewresearch.org/topic/news-habits-media/page/6/",
+  "https://www.pewresearch.org/topic/news-habits-media/media-society/freedom-of-the-press/",
+  "https://www.pewresearch.org/topic/news-habits-media/media-society/media-attitudes/",
+  "https://www.pewresearch.org/topic/news-habits-media/media-society/misinformation/",
+  "https://www.pewresearch.org/topic/news-habits-media/media-society/news-knowledge/",
+  "https://www.pewresearch.org/topic/news-habits-media/media-society/politics-media-1/",
+  "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/media-industry/"
+ ],
+ "negatives": [
+  "https://www.pewresearch.org/topic/news-habits-media/",
+  "https://www.pewresearch.org/topic/internet-technology/lifestyle-relationships-online/social-relations-tech/",
+  "https://www.pewresearch.org/topic/economy-work/income-wealth-poverty/middle-class/",
+  "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/tech-companies-1/",
+  "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+  "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/news-platforms-sources/digital-news-landscape-1/"
+ ],
+ "basis": "情况 A：第 3 轮已验证——主题下子主题页 /topic/news-habits-media/{子类}/{slug}/",
+ "note": "只覆盖子主题页；文章在全站共用路径（/journalism/{日期}/{slug}/ 等），无法用正则区分本主题"
+}

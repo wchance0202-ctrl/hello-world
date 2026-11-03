@@ -1,0 +1,32 @@
+{
+ "seq": 211,
+ "entry_id": "S1-R89-E1",
+ "url": "https://www.greenbook.org/directory",
+ "mode": "regex",
+ "members": [
+  "https://www.greenbook.org/market-research-firms/advertising-research",
+  "https://www.greenbook.org/market-research-firms/artificial-intelligence",
+  "https://www.greenbook.org/market-research-firms/b2b-industry",
+  "https://www.greenbook.org/market-research-firms/consumer-research",
+  "https://www.greenbook.org/market-research-firms/customer-satisfaction",
+  "https://www.greenbook.org/market-research-firms/ethnography",
+  "https://www.greenbook.org/market-research-firms/healthcare",
+  "https://www.greenbook.org/market-research-firms/moderator",
+  "https://www.greenbook.org/market-research-firms/online-communities",
+  "https://www.greenbook.org/market-research-firms/online-focus-groups",
+  "https://www.greenbook.org/market-research-firms/online-panels",
+  "https://www.greenbook.org/market-research-firms/political-polls"
+ ],
+ "negatives": [
+  "https://www.greenbook.org/directory",
+  "https://www.greenbook.org/buyers-guide",
+  "https://www.greenbook.org/insights"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "名录页列出各服务分类 /market-research-firms/{分类}，该路径只承载名录分类",
+  "why_not": ""
+ },
+ "basis": "情况 B：名录分类页 /market-research-firms/{slug}",
+ "note": ""
+}

@@ -1,0 +1,211 @@
+{
+ "seq": 158,
+ "entry_id": "S1-R29-E1",
+ "url": "https://www.accenture.com/en/insights-index",
+ "mode": "regex",
+ "basis": "情况 B：洞察文章、客户案例、博客文章三类",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "洞察索引页是全部洞察内容的总目录（共 852 个链接），条目分属三类：/en/insights/{领域}/{slug}、/en/case-studies/{领域}/{slug}、/en/blogs/{博客}/{slug}；这三个路径只承载洞察内容"
+ },
+ "observed_at": "2026-11-03T09:28:24+00:00",
+ "pattern": "^https://www\\.accenture\\.com/en/insights/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/case\\-studies/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/blogs/[a-z-]+/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "268b2b7c3b37eabe24bc1d440bdc7e9ffe105ce994f2c15b825797f764e2e072",
+   "pattern": "^https://www\\.accenture\\.com/en/insights/[a-z-]+/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 11,
+    "holdout_pos": 5,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 327
+   },
+   "failures": [],
+   "identity_excluded": [
+    {
+     "url": "https://www.accenture.com/en/insights/consulting/chinese-consumer-insights-gen-z",
+     "status": 200,
+     "final": "https://www.accenture.com/en-cn/insights/consulting/chinese-consumer-insights-gen-z?country=US",
+     "split": "inference"
+    },
+    {
+     "url": "https://www.accenture.com/en/insights/retail/reimagine-retail-workforce",
+     "status": 200,
+     "final": "https://www.accenture.com/en/industries/retail?country=US",
+     "split": "holdout"
+    }
+   ],
+   "frozen": {
+    "inference": [
+     "https://www.accenture.com/en/insights/ai-data/data-concert-modern-data-platform",
+     "https://www.accenture.com/en/insights/ai-data/europes-ai-reckoning",
+     "https://www.accenture.com/en/insights/consulting/chinese-consumer-insights-gen-z",
+     "https://www.accenture.com/en/insights/consulting/green-by-default",
+     "https://www.accenture.com/en/insights/consulting/maximizing-cloud",
+     "https://www.accenture.com/en/insights/consulting/scope-3-emissions-visibility-hightech",
+     "https://www.accenture.com/en/insights/strategy/activist-investor",
+     "https://www.accenture.com/en/insights/strategy/brand-purpose",
+     "https://www.accenture.com/en/insights/strategy/operational-value-creation",
+     "https://www.accenture.com/en/insights/supply-chain-operations/digital-future-supply-chain-workforce",
+     "https://www.accenture.com/en/insights/supply-chain/making-self-funding-supply-chains-real",
+     "https://www.accenture.com/en/insights/sustainability/powering-sustainable-ai"
+    ],
+    "holdout_pos": [
+     "https://www.accenture.com/en/insights/capital-markets/future-asset-management",
+     "https://www.accenture.com/en/insights/consulting/scope-3-emissions-visibility",
+     "https://www.accenture.com/en/insights/retail/reimagine-retail-workforce",
+     "https://www.accenture.com/en/insights/strategy/reinventing-m-and-a-with-generative-ai",
+     "https://www.accenture.com/en/insights/strategy/strategy-pace-technology",
+     "https://www.accenture.com/en/insights/utilities/emobility-accelerated"
+    ],
+    "holdout_neg": [
+     "https://www.accenture.com/en/insights-index",
+     "https://www.accenture.com/en/insights",
+     "https://www.accenture.com/en/about/company-index",
+     "https://www.accenture.com/en/services/strategy-index",
+     "https://www.accenture.com/en/case-studies/about/accenture-acquisitions",
+     "https://www.accenture.com/en/case-studies/about/blockchain-contracts-harnessing-new-technology",
+     "https://www.accenture.com/en/case-studies/about/cloud-security",
+     "https://www.accenture.com/en/case-studies/about/journey-sap-s4hana",
+     "https://www.accenture.com/en/case-studies/about/living-cloud",
+     "https://www.accenture.com/en/case-studies/about/new-era-welcome-refugee-resettlement"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "洞察索引页是全部洞察内容的总目录（共 852 个链接），条目分属三类：/en/insights/{领域}/{slug}、/en/case-studies/{领域}/{slug}、/en/blogs/{博客}/{slug}；这三个路径只承载洞察内容"
+   }
+  },
+  {
+   "frozen_sha256": "9f27d69ab60290da64337f5548d9cd62c1b878fba229766cc991e7e9fad3ba4d",
+   "pattern": "^https://www\\.accenture\\.com/en/case\\-studies/[a-z-]+/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 229
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.accenture.com/en/case-studies/about/passwordless-journey",
+     "https://www.accenture.com/en/case-studies/ai-data/ccs-turning-wealth-information-action-for-patients",
+     "https://www.accenture.com/en/case-studies/ai-data/espn-scores-with-generative-ai",
+     "https://www.accenture.com/en/case-studies/banking/banco-sabadell-galatea-digital-design",
+     "https://www.accenture.com/en/case-studies/capital-markets/wealth-management-blackrock-digital-transformation",
+     "https://www.accenture.com/en/case-studies/cloud/bank-of-england-delivers-next-generation-payment-service",
+     "https://www.accenture.com/en/case-studies/cybersecurity/mitsubishi-motors-cyber-shift-safer-smarter-mobility",
+     "https://www.accenture.com/en/case-studies/learning/hp-inc-global-sales-university",
+     "https://www.accenture.com/en/case-studies/public-service/unicef-revamps-fundraising-future",
+     "https://www.accenture.com/en/case-studies/song/levis",
+     "https://www.accenture.com/en/case-studies/strategy/delivering-winning-company-culture",
+     "https://www.accenture.com/en/case-studies/talent-organization/accenture-redesigns-leadership-practices-age-ai"
+    ],
+    "holdout_pos": [
+     "https://www.accenture.com/en/case-studies/about/sales-transformation",
+     "https://www.accenture.com/en/case-studies/capital-markets/securities-firm-digitizes-advisory-business",
+     "https://www.accenture.com/en/case-studies/capital-markets/wealth-management-banking-platform-integration",
+     "https://www.accenture.com/en/case-studies/health/pruitthealth-grows-access-post-acute-care-seniors",
+     "https://www.accenture.com/en/case-studies/technology/ai-refinery-smarter-faster-marketing",
+     "https://www.accenture.com/en/case-studies/technology/workday-empowers-cisco-people-communities"
+    ],
+    "holdout_neg": [
+     "https://www.accenture.com/en/insights-index",
+     "https://www.accenture.com/en/insights",
+     "https://www.accenture.com/en/about/company-index",
+     "https://www.accenture.com/en/services/strategy-index",
+     "https://www.accenture.com/en/insights/aerospace-defense/aia-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/cloud-continuum",
+     "https://www.accenture.com/en/insights/aerospace-defense/commercial-aerospace-insight-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/defense-insight-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/digital-narrative-aerospace-defense",
+     "https://www.accenture.com/en/insights/aerospace-defense/new-sky-economy"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "洞察索引页是全部洞察内容的总目录（共 852 个链接），条目分属三类：/en/insights/{领域}/{slug}、/en/case-studies/{领域}/{slug}、/en/blogs/{博客}/{slug}；这三个路径只承载洞察内容"
+   }
+  },
+  {
+   "frozen_sha256": "7777045e745aaa40d57ce16dacab5d2c7057aa72c2dfe90603565b04abd0d706",
+   "pattern": "^https://www\\.accenture\\.com/en/blogs/[a-z-]+/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 160
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.accenture.com/en/blogs/chemicals/agrochemicals-reshape-crop-protection-biologicals",
+     "https://www.accenture.com/en/blogs/chemicals/reinventing-innovation-chemical-research-development",
+     "https://www.accenture.com/en/blogs/cloud/why-global-leaders-think-generative-ai-game-changer",
+     "https://www.accenture.com/en/blogs/communications-media/unlocking-power-data",
+     "https://www.accenture.com/en/blogs/energy/human-design",
+     "https://www.accenture.com/en/blogs/health/accenture-technology-trends-2025-healthcare",
+     "https://www.accenture.com/en/blogs/life-sciences/lundbeck-ai-headache-drug-targets",
+     "https://www.accenture.com/en/blogs/natural-resources/ai-and-innovation-are-transforming-the-mining-industry",
+     "https://www.accenture.com/en/blogs/strategy/ai-redefining-private-equity",
+     "https://www.accenture.com/en/blogs/technology/leaderships-role-oracle-transformations",
+     "https://www.accenture.com/en/blogs/travel/transformative-power-generative-ai-travel",
+     "https://www.accenture.com/en/blogs/utilities/how-utilities-accelerate-energy-transition"
+    ],
+    "holdout_pos": [
+     "https://www.accenture.com/en/blogs/accenture-energy/key-insights-accelerating-energy-transition",
+     "https://www.accenture.com/en/blogs/consumer-goods-services/rebalancing-consumer-relationships-trust-technology",
+     "https://www.accenture.com/en/blogs/energy/fleet-decarbonization-ready-make-corporate-priority",
+     "https://www.accenture.com/en/blogs/high-tech/reinventing-high-tech-digital-core",
+     "https://www.accenture.com/en/blogs/security/beyond-illusion-unmasking-real-threats-deepfakes",
+     "https://www.accenture.com/en/blogs/travel/foundation-new-reality-travel"
+    ],
+    "holdout_neg": [
+     "https://www.accenture.com/en/insights-index",
+     "https://www.accenture.com/en/insights",
+     "https://www.accenture.com/en/about/company-index",
+     "https://www.accenture.com/en/services/strategy-index",
+     "https://www.accenture.com/en/insights/aerospace-defense/aia-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/cloud-continuum",
+     "https://www.accenture.com/en/insights/aerospace-defense/commercial-aerospace-insight-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/defense-insight-report",
+     "https://www.accenture.com/en/insights/aerospace-defense/digital-narrative-aerospace-defense",
+     "https://www.accenture.com/en/insights/aerospace-defense/new-sky-economy"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "洞察索引页是全部洞察内容的总目录（共 852 个链接），条目分属三类：/en/insights/{领域}/{slug}、/en/case-studies/{领域}/{slug}、/en/blogs/{博客}/{slug}；这三个路径只承载洞察内容"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 3
+ },
+ "why_not_verified": null
+}

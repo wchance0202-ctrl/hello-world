@@ -1,0 +1,50 @@
+{
+ "seq": 39,
+ "entry_id": "S2-R61-E1",
+ "url": "https://e.bilibili.com/main/observe",
+ "mode": "regex",
+ "basis": "情况 A：营销观察文章 /main/observe/{拼音slug}，浏览器点击首屏卡片取样",
+ "note": "列表后续内容未取样",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "条目在入口路径 /main/observe/ 之下（情况 A），由点击卡片取得"
+ },
+ "observed_at": "2026-11-03T09:11:13+00:00",
+ "frozen_sha256": "b11e07b95afb0179f78e381af5b2550ae9395079a977240d126c87e5be73f60a",
+ "pattern": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 7,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 9
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://e.bilibili.com/main/observe/2022shang-ban-nian-che-quan-zai-bzhan-juan-qi-lai-liao",
+   "https://e.bilibili.com/main/observe/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian",
+   "https://e.bilibili.com/main/observe/kai-nian-shua-ping-de-mai-dang-lao-xin-dan-shi-zen-yang-zai-bzhan-da-bao-de",
+   "https://e.bilibili.com/main/observe/ken-de-ji-zai-bzhan-zan-liao-ge-ju-zhi-pian-ren-lao-gong-lao-po-he-ni-yi-qi-yun-beng-di",
+   "https://e.bilibili.com/main/observe/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo",
+   "https://e.bilibili.com/main/observe/zai-bzhan-wan-mo-ren-zhong-ce-sisleyru-he-yong-chan-pin-da-dong-nian-qing-ren",
+   "https://e.bilibili.com/main/observe/zen-yang-zai-she-qu-zao-feng-bzhan-zhao-ji-ling-sheng-ji-liao"
+  ],
+  "holdout_pos": [
+   "https://e.bilibili.com/main/observe/he-2-2yi-nian-qing-ren-yi-qi-shou-hu-jie-fang-xi-wo-er-wo-zen-yang-jue-jin-bzhan-bao-cang-ip",
+   "https://e.bilibili.com/main/observe/hua-huo-sheng-ji-6da-ping-tai-neng-li-rang-nei-rong-he-zuo-geng-gao-xiao"
+  ],
+  "holdout_neg": [
+   "https://e.bilibili.com/main/observe",
+   "https://e.bilibili.com/partner",
+   "https://e.bilibili.com/case/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

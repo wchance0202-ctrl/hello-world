@@ -1,0 +1,30 @@
+{
+ "seq": 237,
+ "entry_id": "S1-R123-E4",
+ "url": "https://blog.hubspot.com/website",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://blog\\.hubspot\\.com/website/[a-z0-9_-]+$",
+ "carried_from": [
+  "R3-S1-R123-E4-F1"
+ ],
+ "members": [
+  "https://blog.hubspot.com/website/avoid-ai-credit-overages",
+  "https://blog.hubspot.com/website/become-a-ux-designer",
+  "https://blog.hubspot.com/website/ecommerce-website-testing",
+  "https://blog.hubspot.com/website/best-woocommerce-product-slider-plugins",
+  "https://blog.hubspot.com/website/css-tutorial",
+  "https://blog.hubspot.com/website/html-sitemap-xml-sitemap",
+  "https://blog.hubspot.com/website/website-research-tools",
+  "https://blog.hubspot.com/website/wordpress-alternatives",
+  "https://blog.hubspot.com/website/wordpress-plugin-to-block-countries"
+ ],
+ "negatives": [
+  "https://blog.hubspot.com/sales/reasons-awkward-silences-powerful-sales-tactics",
+  "https://blog.hubspot.com/marketing/linkedin-live-audio-events",
+  "https://blog.hubspot.com/sales/account-management-vs-sales",
+  "https://blog.hubspot.com/customers/how-to-use-ads-sequences-for-journey-based-advertising"
+ ],
+ "basis": "情况 A：第 3 轮已验证——网站博客文章 /website/{slug}",
+ "note": ""
+}

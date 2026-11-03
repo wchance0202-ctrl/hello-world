@@ -1,0 +1,36 @@
+{
+ "seq": 249,
+ "entry_id": "S1-R142-E1",
+ "url": "https://www.salesforce.com/blog/",
+ "mode": "regex",
+ "members": [
+  "https://www.salesforce.com/blog/agentic-ai-roi-report/",
+  "https://www.salesforce.com/blog/announcing-the-2027-salesforce-partner-of-the-year-award-winners/",
+  "https://www.salesforce.com/blog/are-we-funding-marketing-that-works/",
+  "https://www.salesforce.com/blog/best-voice-ai-design/",
+  "https://www.salesforce.com/blog/builder-central-ai-development/",
+  "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+  "https://www.salesforce.com/blog/introducing-the-campaign-agent-that-turns-goals-into-growth/",
+  "https://www.salesforce.com/blog/long-horizon-agents/",
+  "https://www.salesforce.com/blog/openai-agentforce/",
+  "https://www.salesforce.com/blog/recent-stories/",
+  "https://www.salesforce.com/blog/what-does-salesforce-do/"
+ ],
+ "negatives": [
+  "https://www.salesforce.com/blog/",
+  "https://www.salesforce.com/blog/author/allison-williams/",
+  "https://www.salesforce.com/blog/category/b2b-marketing-automation/",
+  "https://www.salesforce.com/company/about-us/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "博客文章在入口路径 /blog/{slug}/ 下（情况 A）；作者页、分类页多一级，作为反例",
+  "why_not": ""
+ },
+ "basis": "情况 A：博客文章 /blog/{slug}/",
+ "note": "分类下的文章（/blog/{分类}/{slug}/）未单独纳入；打开文章时站点会 302 到同一地址加 ?bc=OTH 跟踪参数，两种写法是同一页面（有跳转为证），正则末尾允许该参数",
+ "same_page_suffix": [
+  "?bc=OTH"
+ ],
+ "pattern": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$"
+}

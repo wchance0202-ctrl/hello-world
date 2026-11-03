@@ -1,0 +1,54 @@
+{
+ "seq": 242,
+ "entry_id": "S1-R137-E2",
+ "url": "https://www.talkwalker.com/resources?category=Reports",
+ "mode": "regex",
+ "basis": "栏目标识：/resource/reports/ 写成字面量",
+ "note": "本行（报告分类）是第 243 行（全部资源）的子集，两行正则有包含关系",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "报告分类的条目在 /resource/reports/{slug} 下，分类名 reports 在路径中（写成字面量）",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:36:38+00:00",
+ "frozen_sha256": "396a18ee2fa166ec082e47f23b9e77424ce62a39067abc69e7d6bb095260fa85",
+ "pattern": "^https://www\\.talkwalker\\.com/resource/reports/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 3,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 12
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.talkwalker.com/resource/reports/shape-tomorrow-mea",
+   "https://www.talkwalker.com/resource/reports/smart-social-report",
+   "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+   "https://www.talkwalker.com/resource/reports/state-of-social-intelligence-report",
+   "https://www.talkwalker.com/resource/reports/uniqlo-brand-report",
+   "https://www.talkwalker.com/resource/reports/us-brand-love-2022",
+   "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+   "https://www.talkwalker.com/resource/reports/voc-report",
+   "https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence"
+  ],
+  "holdout_pos": [
+   "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic",
+   "https://www.talkwalker.com/resource/reports/towards-a-winning-social-media-strategy-learning-from-10-leading-insurance-brands",
+   "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food"
+  ],
+  "holdout_neg": [
+   "https://www.talkwalker.com/resources?category=Reports",
+   "https://www.talkwalker.com/resources",
+   "https://www.talkwalker.com/resource/marketing-essentials/x"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

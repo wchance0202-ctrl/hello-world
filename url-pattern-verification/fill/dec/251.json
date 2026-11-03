@@ -1,0 +1,63 @@
+{
+ "seq": 251,
+ "entry_id": "S1-R142-E3",
+ "url": "https://www.salesforce.com/news/",
+ "mode": "regex",
+ "families": [
+  {
+   "members": [
+    "https://www.salesforce.com/news/stories/agentic-enterprise-index-insights-2026/",
+    "https://www.salesforce.com/news/stories/ai-model-choice/",
+    "https://www.salesforce.com/news/stories/aiforce-announcement/",
+    "https://www.salesforce.com/news/stories/asymbl-engine-slackbot-use-cases/",
+    "https://www.salesforce.com/news/stories/cfos-ai-agents-to-tame-revenue-complexity/",
+    "https://www.salesforce.com/news/stories/consumer-goods-report-announcement-2025/",
+    "https://www.salesforce.com/news/stories/five-dreamforce-2026-takeaways/",
+    "https://www.salesforce.com/news/stories/gartner-magic-quadrant-digital-commerce-2026/",
+    "https://www.salesforce.com/news/stories/gen-z-automotive-industry-stats-2025/",
+    "https://www.salesforce.com/news/stories/getting-to-roi-with-ai/",
+    "https://www.salesforce.com/news/stories/giving-ai-autonomy-without-running-wild/",
+    "https://www.salesforce.com/news/stories/inside-agentic-ai-arms-race/",
+    "https://www.salesforce.com/news/stories/multiplayer-ai/",
+    "https://www.salesforce.com/news/stories/operational-intelligence-ai-radar/",
+    "https://www.salesforce.com/news/stories/personal-agents-to-drive-more-contact-center-traffic/",
+    "https://www.salesforce.com/news/stories/personal-ai-agents-evolution/",
+    "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
+    "https://www.salesforce.com/news/stories/the-history-of-salesforce/",
+    "https://www.salesforce.com/news/stories/trust-in-multi-agent-future/",
+    "https://www.salesforce.com/news/stories/why-we-post-trained-our-own-reasoning-model/"
+   ],
+   "pattern": "^https://www\\.salesforce\\.com/news/stories/[a-z0-9-]+/(?:\\?bc=OTH)?$"
+  },
+  {
+   "members": [
+    "https://www.salesforce.com/news/press-releases/2026/07/08/us-air-force-missionforce-modernize-sustainment-operations/",
+    "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+    "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+    "https://www.salesforce.com/news/press-releases/2026/09/10/agentforce-360-powers-future-of-chess-with-fide/",
+    "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+    "https://www.salesforce.com/news/press-releases/2026/09/15/siemens-agentforce-redefine-industrial-sales-service/",
+    "https://www.salesforce.com/news/press-releases/2026/09/16/live-nation-agentforce-expansion/",
+    "https://www.salesforce.com/news/press-releases/2026/10/15/tottenham-hotspur-becomes-agentic-enterprise-with-agentforce/",
+    "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",
+    "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+   ],
+   "pattern": "^https://www\\.salesforce\\.com/news/press\\-releases/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/(?:\\?bc=OTH)?$"
+  }
+ ],
+ "negatives": [
+  "https://www.salesforce.com/news/",
+  "https://www.salesforce.com/news/media-library/",
+  "https://www.salesforce.com/blog/",
+  "https://www.salesforce.com/ap/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻条目都在入口路径 /news/ 下（情况 A）：报道 /news/stories/{slug}/、新闻稿 /news/press-releases/{年}/{月}/{日}/{slug}/、关联内容 /news/linked-content/{slug}/"
+ },
+ "basis": "情况 A：新闻报道 /news/stories/{slug}/ 与新闻稿 /news/press-releases/{年}/{月}/{日}/{slug}/",
+ "note": "部分页面打开时 302 到同一地址加 ?bc=OTH 跟踪参数，视为同一页面；/news/linked-content/{slug}/ 打开后跳到其他文章（转载链接），不纳入",
+ "same_page_suffix": [
+  "?bc=OTH"
+ ]
+}

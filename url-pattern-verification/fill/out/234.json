@@ -1,0 +1,21 @@
+{
+ "seq": 234,
+ "entry_id": "S1-R123-E1",
+ "url": "https://blog.hubspot.com/marketing",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——营销博客文章 /marketing/{slug}",
+ "note": "旧版 /blog/tabid/… 链接为少量遗留地址，保留为链接",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:35:43+00:00",
+ "pattern": "^https://blog\\.hubspot\\.com/marketing/[a-z0-9_-]+$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R123-E1-F1"
+ ],
+ "checks": {
+  "members": 11,
+  "pos_fail": [],
+  "neg": 6,
+  "neg_fail": []
+ }
+}

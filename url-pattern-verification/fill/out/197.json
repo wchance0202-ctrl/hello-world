@@ -1,0 +1,51 @@
+{
+ "seq": 197,
+ "entry_id": "S1-R70-E1",
+ "url": "https://thearf.org/research/",
+ "mode": "regex",
+ "basis": "情况 B：研究资源 /category/ua_resource/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "研究页列出的研究资源都在 /category/ua_resource/{slug}/ 下（该站资源条目的专用路径）",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:23:49+00:00",
+ "frozen_sha256": "2e7e212b3d11fb6c82a1bf2db210a543048537e698a1be2486b074a55410518b",
+ "pattern": "^https://thearf\\.org/category/ua_resource/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 7,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 9
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://thearf.org/category/ua_resource/attention-in-context-what-real-campaigns-reveal-about-media-performance/",
+   "https://thearf.org/category/ua_resource/mapping-the-future-how-analytics-and-insights-are-evolving/",
+   "https://thearf.org/category/ua_resource/privacy-trust-ai-how-u-s-consumers-are-rewriting-the-rules-of-advertising/",
+   "https://thearf.org/category/ua_resource/the-2025-guide-on-using-ai-for-advertising-research/",
+   "https://thearf.org/category/ua_resource/the-arf-metrics-survey-insights-into-advertising-strategies/",
+   "https://thearf.org/category/ua_resource/unpacking-ad-effectiveness-the-roles-of-media-creativity-branding-targeting-and-premium-vs-ugc-content-2/",
+   "https://thearf.org/category/ua_resource/what-marketers-need-to-know-about-retail-media-measurement/"
+  ],
+  "holdout_pos": [
+   "https://thearf.org/category/ua_resource/how-ai-and-privacy-regulations-are-changing-media-planning-practices/",
+   "https://thearf.org/category/ua_resource/the-arf-2025-research-intelligence-hub-key-insights-for-advertising-effectiveness/"
+  ],
+  "holdout_neg": [
+   "https://thearf.org/research/",
+   "https://thearf.org/category/tag/ad-creative",
+   "https://thearf.org/access-knowledge-2/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

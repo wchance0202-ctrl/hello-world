@@ -1,0 +1,19 @@
+{
+ "seq": 143,
+ "entry_id": "S1-R19-E18",
+ "url": "https://www.wipo.int/en/web/innovation-ecosystems",
+ "mode": "snapshot",
+ "basis": "该主题新闻列表只有 3 条（/en/web/innovation-ecosystems/w/news/…），少于 4 条，逐条列出",
+ "note": "快照 2026-11-03；条目增多后可改为 ^https://www\\.wipo\\.int/en/web/innovation-ecosystems/w/news/[0-9]+/[a-z0-9_-]+$",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:26:04+00:00",
+ "pattern": "^(?:https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2025/wipo\\-announces\\-partnership\\-with\\-harvard\\-growth\\-lab\\-at\\-assemblies\\-2025\\-side\\-event|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/innovation\\-in\\-action\\-wipo\\-hosts\\-high\\-level\\-event\\-and\\-launches\\-new\\-navigator\\-tool\\-at\\-assemblies|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/wipo\\-luiss\\-3rd\\-global\\-intan\\-invest\\-conference\\-better\\-data\\-for\\-better\\-policy\\-1)$",
+ "status": "快照",
+ "members": 3,
+ "kept": 3,
+ "dropped": [],
+ "negatives": [
+  "https://www.wipo.int/en/web/innovation-ecosystems"
+ ],
+ "negatives_matched": []
+}

@@ -1,0 +1,21 @@
+{
+ "seq": 176,
+ "entry_id": "S1-R48-E1",
+ "url": "https://www.bain.com/insights/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——洞察文章 /insights/{slug}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:23:01+00:00",
+ "pattern": "^https://www\\.bain\\.com/insights/[a-zA-Z0-9_-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R48-E1-F1"
+ ],
+ "checks": {
+  "members": 11,
+  "pos_fail": [],
+  "neg": 5,
+  "neg_fail": []
+ }
+}

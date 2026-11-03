@@ -1,0 +1,121 @@
+{
+ "seq": 230,
+ "entry_id": "S1-R118-E1",
+ "url": "https://www.brandwatch.com/reports/",
+ "mode": "regex",
+ "basis": "情况 A：报告详情 /reports/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "报告在入口路径 /reports/{slug}/ 下（情况 A），分页 /reports/page/N/ 作为反例",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:33:03+00:00",
+ "frozen_sha256": "3c7f114acb46e6d69e04849ec748887822277d73a90a241b519d67af9d76fc49",
+ "pattern": "^https://www\\.brandwatch\\.com/reports/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 6,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 75
+ },
+ "failures": [],
+ "identity_excluded": [
+  {
+   "url": "https://www.brandwatch.com/reports/2020-uk-financial-services/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/finance-trends/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/brand-comparison-nike-vs-reebok/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/fashion-industry-trends/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/customer-experience-australia/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/customer-experience/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/emotions/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/the-most-popular-emojis/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/financial-services-australia-2020/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/finance-trends/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/financial-services-singapore/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/finance-trends/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/2020-brand-purpose/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/marketing-brand-sustainability-effectively/",
+   "split": "holdout"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/food-trends-report/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/food-and-beverage-industry-trends/",
+   "split": "holdout"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/forrester-customer-insights/",
+   "status": 302,
+   "final": "https://www.brandwatch.com/reports/forrester-customer-insights/",
+   "split": "holdout"
+  },
+  {
+   "url": "https://www.brandwatch.com/reports/media-and-entertainment-trends/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/consumer-trends-media-entertainment/",
+   "split": "holdout"
+  }
+ ],
+ "frozen": {
+  "inference": [
+   "https://www.brandwatch.com/reports/2020-uk-financial-services/",
+   "https://www.brandwatch.com/reports/brand-comparison-nike-vs-reebok/",
+   "https://www.brandwatch.com/reports/consumer-trends-retail/",
+   "https://www.brandwatch.com/reports/covid-19-changed-consumer-behavior-longterm/",
+   "https://www.brandwatch.com/reports/covid-19-six-months-data/",
+   "https://www.brandwatch.com/reports/customer-experience-australia/",
+   "https://www.brandwatch.com/reports/customer-loyalty-2021/",
+   "https://www.brandwatch.com/reports/emotions/",
+   "https://www.brandwatch.com/reports/financial-services-australia-2020/",
+   "https://www.brandwatch.com/reports/financial-services-singapore/",
+   "https://www.brandwatch.com/reports/social-sport-report-2021/",
+   "https://www.brandwatch.com/reports/state-of-social-2023/"
+  ],
+  "holdout_pos": [
+   "https://www.brandwatch.com/reports/2020-brand-purpose/",
+   "https://www.brandwatch.com/reports/cost-of-living-and-changing-consumer-behavior/",
+   "https://www.brandwatch.com/reports/covid-19-media-entertainment/",
+   "https://www.brandwatch.com/reports/food-trends-report/",
+   "https://www.brandwatch.com/reports/forrester-customer-insights/",
+   "https://www.brandwatch.com/reports/media-and-entertainment-trends/"
+  ],
+  "holdout_neg": [
+   "https://www.brandwatch.com/reports/",
+   "https://www.brandwatch.com/reports/page/2/",
+   "https://www.brandwatch.com/brandwatch-academy/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

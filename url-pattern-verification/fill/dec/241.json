@@ -1,0 +1,16 @@
+{
+ "seq": 241,
+ "entry_id": "S1-R132-E1",
+ "url": "https://www.shopify.com/blog/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.shopify\\.com/blog/[a-z0-9-]+$\n^https://www\\.shopify\\.com/blog/[a-z]+/[a-zA-Z0-9%-]+$",
+ "carried_from": [
+  "R3-S1-R132-E1-F1",
+  "R3-S1-R132-E1-F2"
+ ],
+ "members": [],
+ "negatives": [],
+ "basis": "情况 A：第 3 轮已验证——博客文章 /blog/{slug} 与分类/主题文章 /blog/{类}/{slug}",
+ "note": ""
+}

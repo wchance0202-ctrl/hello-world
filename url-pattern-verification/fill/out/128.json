@@ -1,0 +1,60 @@
+{
+ "seq": 128,
+ "entry_id": "S1-R16-E8",
+ "url": "https://www.bis.org/media/news",
+ "mode": "regex",
+ "basis": "情况 B：媒体新闻 /media-releases/{日期-slug}",
+ "note": "多语言版本（?language=…）不在正则内",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "媒体新闻列表翻完 146 页共 1443 条，全部为 /media-releases/{日期-slug}；sitemap 中该结构同为 1,443 条，与列表一致"
+ },
+ "observed_at": "2026-11-03T09:22:31+00:00",
+ "frozen_sha256": "2df9e4aa22c30b677410f5a4eb4ab22db08cc04b8edcec88087f7822e82d4739",
+ "pattern": "^https://www\\.bis\\.org/media\\-releases/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 1443
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.bis.org/media-releases/19980312-bis-institute-financial-stability",
+   "https://www.bis.org/media-releases/19990331-year-2000-readiness-banks-and-bank-supervisors",
+   "https://www.bis.org/media-releases/20011107-joint-forum-releases-cross-sectoral-reports",
+   "https://www.bis.org/media-releases/20030717-basel-committee-welcomes-revised-fatf-recommendations",
+   "https://www.bis.org/media-releases/20040330-financial-stability-forum-holds-its-eleventh-meeting",
+   "https://www.bis.org/media-releases/20100614-latest-bis-quarterly-review-discusses-financial-turbulence",
+   "https://www.bis.org/media-releases/20100629-mark-carney-appointed-chairman-committee-global-financial-system",
+   "https://www.bis.org/media-releases/20150702-report-impact-and-accountability-banking-supervision-issued-basel-committee",
+   "https://www.bis.org/media-releases/20160526-first-phase-global-code-conduct-currency-markets-published",
+   "https://www.bis.org/media-releases/20211116-basel-committee-consults-principles-effective-management-and-supervision-climate-related",
+   "https://www.bis.org/media-releases/20230412-basel-committee-finds-south-africa-largely-compliant-its-net-stable-funding-ratio-standard-and",
+   "https://www.bis.org/media-releases/20240514-bis-central-banks-and-iif-invite-private-financial-institutions-join-project-agora"
+  ],
+  "holdout_pos": [
+   "https://www.bis.org/media-releases/19991111-cgfs-issues-recommendations-design-liquid-markets",
+   "https://www.bis.org/media-releases/20011112-central-banks-and-securities-regulators-release-recommendations-securities-settlement-systems",
+   "https://www.bis.org/media-releases/20080630-bis-general-manager-be-leave-1-july-2008",
+   "https://www.bis.org/media-releases/20211208-bis-bank-france-and-swiss-national-bank-conclude-successful-cross-border-wholesale-cbdc",
+   "https://www.bis.org/media-releases/20220228-bis-quarterly-review-analyses-lending-patterns-long-term-growth-prospects",
+   "https://www.bis.org/media-releases/20240306-basel-iii-capital-ratios-largest-global-banks-were-largely-stable-and-above-pre-pandemic-levels"
+  ],
+  "holdout_neg": [
+   "https://www.bis.org/media/news",
+   "https://www.bis.org/media/news?page=2",
+   "https://www.bis.org/speeches",
+   "https://www.bis.org/press-releases/20171115-biss-financial-stability-institute-advisory-board"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

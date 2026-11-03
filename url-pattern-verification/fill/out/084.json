@@ -1,0 +1,62 @@
+{
+ "seq": 84,
+ "entry_id": "S2-R109-E4",
+ "url": "https://www.coalchina.org.cn/list-20-1.html",
+ "mode": "regex",
+ "basis": "栏目标识：catid=21/22/23/24 写成字面量（替换上一轮 catid=[0-9]* 的超界正则）",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "why_not": "",
+  "evidence": "详情 index.php?m=content&c=index&a=show&catid={栏目}&id={数字}，catid 就是栏目标识，写成字面量（上级栏目写其子栏目编号：21/22/23/24，取自该栏目列表页和子栏目链接）；各列表页右侧都有 catid=55/56/57/59/61/415 的推荐条目，不属于本栏目，已排除"
+ },
+ "observed_at": "2026-11-03T09:39:06+00:00",
+ "frozen_sha256": "7944f2f3b5dbae9e7c35969c3587c6f9ee47391788de690b31da78bc05acb7fc",
+ "pattern": "^https://www\\.coalchina\\.org\\.cn/index\\.php\\?m=content&c=index&a=show&catid=(?:21|22|23|24)&id=[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 5,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 25
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=162768",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=162798",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=163106",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=163174",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=163182",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=163257",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=162435",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=162448",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=162838",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163130",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163132",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163224"
+  ],
+  "holdout_pos": [
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=162385",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=162534",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=23&id=163206",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=162593",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163099",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163262"
+  ],
+  "holdout_neg": [
+   "https://www.coalchina.org.cn/list-20-1.html",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=21",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=55&id=162000",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=61&id=158000",
+   "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=160000"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

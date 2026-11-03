@@ -1,0 +1,45 @@
+{
+ "seq": 232,
+ "entry_id": "S1-R120-E2",
+ "url": "https://buffer.com/library/",
+ "mode": "regex",
+ "members": [
+  "https://buffer.com/resources/ai-image-generator/",
+  "https://buffer.com/resources/ai-social-media-content-creation/",
+  "https://buffer.com/resources/ai-writing-tools/",
+  "https://buffer.com/resources/ai/",
+  "https://buffer.com/resources/alternatives-to-hootsuite-free-how-buffer-and-hootsuite-compare/",
+  "https://buffer.com/resources/best-social-media-analytics-tools/",
+  "https://buffer.com/resources/best-social-media-management-tools/",
+  "https://buffer.com/resources/best-time-to-post-on-linkedin/",
+  "https://buffer.com/resources/best-time-to-post-on-tiktok/",
+  "https://buffer.com/resources/facebook/",
+  "https://buffer.com/resources/grow-on-instagram/",
+  "https://buffer.com/resources/how-to-get-followers-on-tiktok/",
+  "https://buffer.com/resources/how-to-get-more-followers-on-facebook/",
+  "https://buffer.com/resources/instagram-algorithms/",
+  "https://buffer.com/resources/instagram-image-size/",
+  "https://buffer.com/resources/instagram/",
+  "https://buffer.com/resources/linkedin/",
+  "https://buffer.com/resources/social-media-calendar-template/",
+  "https://buffer.com/resources/social-media-image-sizes/",
+  "https://buffer.com/resources/social-media-marketing/",
+  "https://buffer.com/resources/social-media-platforms/",
+  "https://buffer.com/resources/tiktok-algorithm/",
+  "https://buffer.com/resources/tiktok/",
+  "https://buffer.com/resources/tools/",
+  "https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/"
+ ],
+ "negatives": [
+  "https://buffer.com/library/",
+  "https://buffer.com/resources/author/kirsti/",
+  "https://buffer.com/pricing"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源库入口 /library/ 的文章都在 /resources/{slug}/ 下（该路径只承载资源库文章）；作者页多一级，作为反例",
+  "why_not": ""
+ },
+ "basis": "情况 B：资源库文章 /resources/{slug}/",
+ "note": ""
+}

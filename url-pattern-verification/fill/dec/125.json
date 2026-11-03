@@ -1,0 +1,20 @@
+{
+ "seq": 125,
+ "entry_id": "S1-R16-E5",
+ "url": "https://www.bis.org/committees/overview",
+ "mode": "snapshot",
+ "members": [
+  "https://www.bis.org/committees/bcbs/basel-framework",
+  "https://www.bis.org/committees/bcbs/overview",
+  "https://www.bis.org/committees/cbgg/overview",
+  "https://www.bis.org/committees/cgfs/overview",
+  "https://www.bis.org/committees/cpmi/overview",
+  "https://www.bis.org/committees/ifc/overview",
+  "https://www.bis.org/committees/mc/overview"
+ ],
+ "negatives": [
+  "https://www.bis.org/committees/overview"
+ ],
+ "basis": "委员会总览页列出各委员会入口 /committees/{委员会}/overview 等 7 个；各委员会下属页面结构各异，按快照列出",
+ "note": "快照 2026-11-03"
+}

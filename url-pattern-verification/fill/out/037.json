@@ -1,0 +1,19 @@
+{
+ "seq": 37,
+ "entry_id": "S2-R58-E1",
+ "url": "https://www.alimama.com/index.htm#!/marketing-case/index",
+ "mode": "carry",
+ "basis": "情况 A（Hash 路由）：案例详情 #!/marketing-case/article-detail?id=…&pkey=example&skey=…，pkey=example 是本栏目标识（写成字面量），skey 是行业子分类（样本中有多个取值）；第 3 轮浏览器点击取样并逐个单独打开核验，两套 RE2 引擎一致",
+ "note": "样本只来自首屏卡片，后续页未枚举",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T08:50:01+00:00",
+ "pattern": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-case/article\\-detail\\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$",
+ "status": "已验证",
+ "carried_from": "R3H-S2-R58-E1-F1",
+ "checks": {
+  "members": 8,
+  "pos_fail": [],
+  "neg": 7,
+  "neg_fail": []
+ }
+}

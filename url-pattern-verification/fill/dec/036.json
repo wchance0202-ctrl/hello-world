@@ -1,0 +1,28 @@
+{
+ "seq": 36,
+ "entry_id": "S2-R57-E2",
+ "url": "https://e.xiaohongshu.com/numerous",
+ "mode": "regex",
+ "members": [
+  "https://e.xiaohongshu.com/numerous/detail?id=2526",
+  "https://e.xiaohongshu.com/numerous/detail?id=2528",
+  "https://e.xiaohongshu.com/numerous/detail?id=2529",
+  "https://e.xiaohongshu.com/numerous/detail?id=2530",
+  "https://e.xiaohongshu.com/numerous/detail?id=2532",
+  "https://e.xiaohongshu.com/numerous/detail?id=2533",
+  "https://e.xiaohongshu.com/numerous/detail?id=2535",
+  "https://e.xiaohongshu.com/numerous/detail?id=2555"
+ ],
+ "browser": true,
+ "negatives": [
+  "https://e.xiaohongshu.com/numerous",
+  "https://e.xiaohongshu.com/case",
+  "https://e.xiaohongshu.com/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "条目在入口路径 /numerous/ 之下（/numerous/detail?id=N，情况 A），由点击卡片在新标签页打开取得"
+ },
+ "basis": "情况 A：报告详情 /numerous/detail?id={数字}，浏览器点击首屏卡片取样",
+ "note": "列表第 2 页未取样"
+}

@@ -1,0 +1,137 @@
+{
+ "seq": 240,
+ "entry_id": "S1-R130-E3",
+ "url": "https://www.qualtrics.com/resources/",
+ "mode": "regex",
+ "basis": "情况 B：电子书/指南与活动",
+ "note": "演示视频（/watch-demo/…）、产品导览未纳入",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+ },
+ "observed_at": "2026-11-03T09:35:45+00:00",
+ "pattern": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "9d16ddc8b4609be8c693ee01f9916eb65cd49119b093b9bf2ed74f3305814f06",
+   "pattern": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 92
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.qualtrics.com/ebooks-guides/2025-government-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/ai-enabled-cx/",
+     "https://www.qualtrics.com/ebooks-guides/ebook-humanizing-cx/",
+     "https://www.qualtrics.com/ebooks-guides/ex-hp-benchmark-2026/",
+     "https://www.qualtrics.com/ebooks-guides/ex-hp-benchmark/",
+     "https://www.qualtrics.com/ebooks-guides/experience-future-of-business/",
+     "https://www.qualtrics.com/ebooks-guides/experience-research-wave-report/",
+     "https://www.qualtrics.com/ebooks-guides/gartner-voice-of-customer/",
+     "https://www.qualtrics.com/ebooks-guides/moving-cx-metrics-forward/",
+     "https://www.qualtrics.com/ebooks-guides/worksheet-leading-xm-change/",
+     "https://www.qualtrics.com/ebooks-guides/worksheet-purposeful-leadership-evaluation/",
+     "https://www.qualtrics.com/ebooks-guides/worksheet-responsibilities-ex-core-team/"
+    ],
+    "holdout_pos": [
+     "https://www.qualtrics.com/ebooks-guides/basic-guide-to-panel-design/",
+     "https://www.qualtrics.com/ebooks-guides/employee-lifecycle-feedback/",
+     "https://www.qualtrics.com/ebooks-guides/healthcare-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/pc-insurance-cx/",
+     "https://www.qualtrics.com/ebooks-guides/template-closed-loop-workflow-map/",
+     "https://www.qualtrics.com/ebooks-guides/transform-cx-advanced-analytics/"
+    ],
+    "holdout_neg": [
+     "https://www.qualtrics.com/resources/",
+     "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/customer-experience/care/",
+     "https://www.qualtrics.com/events/ai-demo-series/",
+     "https://www.qualtrics.com/events/ai-enabled-voc/",
+     "https://www.qualtrics.com/events/ai-for-patient-experience/",
+     "https://www.qualtrics.com/events/ai-future-of-omnichannel-cx/",
+     "https://www.qualtrics.com/events/ai-in-action/",
+     "https://www.qualtrics.com/events/aligning-around-purpose/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+   }
+  },
+  {
+   "frozen_sha256": "0e158f45f13db28cbc76a561d3ad7dda72958f6bd153f7fe42bfff912b3b321d",
+   "pattern": "^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 69
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.qualtrics.com/events/ai-future-of-omnichannel-cx/",
+     "https://www.qualtrics.com/events/booking-customer-story/",
+     "https://www.qualtrics.com/events/cx-demo-series/",
+     "https://www.qualtrics.com/events/cx-super-session/",
+     "https://www.qualtrics.com/events/digital-listening-scalable-success/",
+     "https://www.qualtrics.com/events/experience-imperative-cnbc/",
+     "https://www.qualtrics.com/events/experience-led-strategy/",
+     "https://www.qualtrics.com/events/ins-and-outs-ai-powered-tools/",
+     "https://www.qualtrics.com/events/mr-synthetic-demo-series/",
+     "https://www.qualtrics.com/events/unleashing-ai-potential/",
+     "https://www.qualtrics.com/events/value-omnichannel-experience/",
+     "https://www.qualtrics.com/events/winning-with-the-cfo/"
+    ],
+    "holdout_pos": [
+     "https://www.qualtrics.com/events/ai-for-patient-experience/",
+     "https://www.qualtrics.com/events/ai-in-action/",
+     "https://www.qualtrics.com/events/effective-listening-practices/",
+     "https://www.qualtrics.com/events/gov-trends-webinar/",
+     "https://www.qualtrics.com/events/nextgen-cx-practice-lab/",
+     "https://www.qualtrics.com/events/research-how-to-webinar-4/"
+    ],
+    "holdout_neg": [
+     "https://www.qualtrics.com/resources/",
+     "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/customer-experience/care/",
+     "https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-ex-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-student-experience-trends/",
+     "https://www.qualtrics.com/ebooks-guides/2024-consumer-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-employee-experience-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-ex-trends-report/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null
+}

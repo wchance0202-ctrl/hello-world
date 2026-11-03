@@ -1,0 +1,20 @@
+{
+ "seq": 67,
+ "entry_id": "S2-R93-E1",
+ "url": "https://www.chinaventure.com.cn/report/list.html",
+ "mode": "snapshot",
+ "basis": "报告列表的 20 个条目链接到站外 cvsource.com.cn（投中数据），站内报告页只有 2 个（/report/{编号}.html），少于 4 个，逐条列出",
+ "note": "快照 2026-11-03；站外的 cvsource 报告不在范围内",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:04:30+00:00",
+ "pattern": "^(?:https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231205\\-1747\\.html|https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231206\\-1748\\.html)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
+  "https://www.chinaventure.com.cn/report/list.html",
+  "https://www.chinaventure.com.cn/news/78.html"
+ ],
+ "negatives_matched": []
+}

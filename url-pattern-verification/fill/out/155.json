@@ -1,0 +1,60 @@
+{
+ "seq": 155,
+ "entry_id": "S1-R27-E1",
+ "url": "https://www.euromonitor.com/articles",
+ "mode": "regex",
+ "basis": "情况 B：文章详情 /article/{slug}",
+ "note": "替换第 3 轮只覆盖 /insights/{地区} 导航页的规则",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "文章列表页列出全站文章，详情为 /article/{slug}（情况 B，类型族：/article/ 只承载文章）；sitemap 中同结构 2122 条作留出来源"
+ },
+ "observed_at": "2026-11-03T09:27:22+00:00",
+ "frozen_sha256": "2298f8ff743433427a62232d1166d935092225da0ae6aebebaf216db89012383",
+ "pattern": "^https://www\\.euromonitor\\.com/article/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 21
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.euromonitor.com/article/asias-gen-alpha-will-define-the-future-of-consumption",
+   "https://www.euromonitor.com/article/bank-loyalty-is-shifting-from-rewards-to-relationships",
+   "https://www.euromonitor.com/article/beyond-the-roll-latin-americas-tissue-reset",
+   "https://www.euromonitor.com/article/diapers-periods-and-dignity-latin-americas-hygiene-shift",
+   "https://www.euromonitor.com/article/euromonitor-international-launches-its-first-innovation-awards-to-recognise-the-fmcg-signals-shaping-whats-next",
+   "https://www.euromonitor.com/article/growth-opportunities-in-the-transformed-womens-sportswear-segment",
+   "https://www.euromonitor.com/article/how-businesses-can-thrive-by-creating-sustainable-value",
+   "https://www.euromonitor.com/article/inside-the-ai-recommendation-shelf-how-brands-get-discovered",
+   "https://www.euromonitor.com/article/megatrends-quantifying-personalisation",
+   "https://www.euromonitor.com/article/the-trillion-litre-channel-why-small-grocers-hold-the-key",
+   "https://www.euromonitor.com/article/what-ai-powered-discovery-means-for-travel-loyalty-programmes",
+   "https://www.euromonitor.com/article/what-your-category-data-isnt-telling-you"
+  ],
+  "holdout_pos": [
+   "https://www.euromonitor.com/article/5-common-mistakes-when-researching-consumers",
+   "https://www.euromonitor.com/article/exploring-us-snacking-trends-monitoring-inflation-and-promotional-impact",
+   "https://www.euromonitor.com/article/global-food-demand-the-sources-of-future-growth",
+   "https://www.euromonitor.com/article/luxury-goods-industry-overview",
+   "https://www.euromonitor.com/article/the-ethical-australian-consumer",
+   "https://www.euromonitor.com/article/understanding-crosscountry-loyalty-dynamics-in-the-airline-industry"
+  ],
+  "holdout_neg": [
+   "https://www.euromonitor.com/articles",
+   "https://www.euromonitor.com/article",
+   "https://www.euromonitor.com/insights/asia-pacific",
+   "https://www.euromonitor.com/webinar"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

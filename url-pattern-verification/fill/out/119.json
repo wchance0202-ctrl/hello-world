@@ -1,0 +1,129 @@
+{
+ "seq": 119,
+ "entry_id": "S1-R6-E2",
+ "url": "https://www.worldbank.org/ext/en/where-we-work",
+ "mode": "regex",
+ "basis": "情况 B：国家页 /ext/en/country/{slug}、地区页 /ext/en/region/{code}",
+ "note": "其他语言版本（/ext/pt/country/…）不在正则内",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "“我们的工作地区”列出国家页 /ext/en/country/{slug}（152 个）和地区页 /ext/en/region/{code}（8 个）；这两个路径只承载国家/地区页；sitemap 同结构 URL 作留出"
+ },
+ "observed_at": "2026-11-03T09:18:48+00:00",
+ "pattern": "^https://www\\.worldbank\\.org/ext/en/country/[a-z-]+$\n^https://www\\.worldbank\\.org/ext/en/region/[a-z]+$",
+ "families": [
+  {
+   "frozen_sha256": "696387423b17a05ebce52cb4a19b3d4cf34b4dcad65faa2871679a3bf4ff4ecd",
+   "pattern": "^https://www\\.worldbank\\.org/ext/en/country/[a-z-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 152
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/ext/en/country/afghanistan",
+     "https://www.worldbank.org/ext/en/country/bolivia",
+     "https://www.worldbank.org/ext/en/country/bosniaandherzegovina",
+     "https://www.worldbank.org/ext/en/country/botswana",
+     "https://www.worldbank.org/ext/en/country/guatemala",
+     "https://www.worldbank.org/ext/en/country/madagascar",
+     "https://www.worldbank.org/ext/en/country/mauritius",
+     "https://www.worldbank.org/ext/en/country/montenegro",
+     "https://www.worldbank.org/ext/en/country/niger",
+     "https://www.worldbank.org/ext/en/country/sierraleone",
+     "https://www.worldbank.org/ext/en/country/uzbekistan",
+     "https://www.worldbank.org/ext/en/country/zambia"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/ext/en/country/belize",
+     "https://www.worldbank.org/ext/en/country/dominica",
+     "https://www.worldbank.org/ext/en/country/grenada",
+     "https://www.worldbank.org/ext/en/country/saint-vincent-and-the-grenadines",
+     "https://www.worldbank.org/ext/en/country/sintmaarten",
+     "https://www.worldbank.org/ext/en/country/suriname"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/development-topics",
+     "https://www.worldbank.org/ext/en/where-we-work",
+     "https://www.worldbank.org/ext/en/home",
+     "https://www.worldbank.org/ext/en/topic/climate-change",
+     "https://www.worldbank.org/ext/en/region/afr",
+     "https://www.worldbank.org/ext/en/region/eap",
+     "https://www.worldbank.org/ext/en/region/eca",
+     "https://www.worldbank.org/ext/en/region/lac",
+     "https://www.worldbank.org/ext/en/region/mena",
+     "https://www.worldbank.org/ext/en/region/mic"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "“我们的工作地区”列出国家页 /ext/en/country/{slug}（152 个）和地区页 /ext/en/region/{code}（8 个）；这两个路径只承载国家/地区页；sitemap 同结构 URL 作留出"
+   }
+  },
+  {
+   "frozen_sha256": "c3bb51008fba144d950cdc340ac450d7749d430c2e3ebe5c15cc5c9b63421540",
+   "pattern": "^https://www\\.worldbank\\.org/ext/en/region/[a-z]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 6,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 8
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/ext/en/region/eap",
+     "https://www.worldbank.org/ext/en/region/eca",
+     "https://www.worldbank.org/ext/en/region/mena",
+     "https://www.worldbank.org/ext/en/region/mic",
+     "https://www.worldbank.org/ext/en/region/sar",
+     "https://www.worldbank.org/ext/en/region/smallstates"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/ext/en/region/afr",
+     "https://www.worldbank.org/ext/en/region/lac"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/development-topics",
+     "https://www.worldbank.org/ext/en/where-we-work",
+     "https://www.worldbank.org/ext/en/home",
+     "https://www.worldbank.org/ext/en/topic/climate-change",
+     "https://www.worldbank.org/ext/en/country/afghanistan",
+     "https://www.worldbank.org/ext/en/country/albania",
+     "https://www.worldbank.org/ext/en/country/algeria",
+     "https://www.worldbank.org/ext/en/country/angola",
+     "https://www.worldbank.org/ext/en/country/argentina",
+     "https://www.worldbank.org/ext/en/country/armenia"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "“我们的工作地区”列出国家页 /ext/en/country/{slug}（152 个）和地区页 /ext/en/region/{code}（8 个）；这两个路径只承载国家/地区页；sitemap 同结构 URL 作留出"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null
+}

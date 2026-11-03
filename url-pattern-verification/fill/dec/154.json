@@ -1,0 +1,30 @@
+{
+ "seq": 154,
+ "entry_id": "S1-R26-E2",
+ "url": "https://www.mintel.com/press-centre/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.mintel\\.com/press\\-centre/[a-z0-9_-]+/$",
+ "carried_from": "R3-S1-R26-E2-F1",
+ "members": [
+  "https://www.mintel.com/press-centre/2027-household-predictions/",
+  "https://www.mintel.com/press-centre/mintel-and-dragonfly-ai-partner-to-help-brands-move-from-product-insight-to-packaging-that-wins/",
+  "https://www.mintel.com/press-centre/mintel-in-the-media-september/",
+  "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+  "https://www.mintel.com/press-centre/rest-reconnection-travel-and-thoughtful-gifting-to-drive-2026-chinese-new-year-trends/",
+  "https://www.mintel.com/press-centre/canadas-seniors-contribute-to-declining-beer-consumption/",
+  "https://www.mintel.com/press-centre/indian-consumers-look-to-brands-for-transparency-as-the-cost-of-living-soars/",
+  "https://www.mintel.com/press-centre/nuts-seeds-and-dried-fruit-crack-britains-snack-market/",
+  "https://www.mintel.com/press-centre/over-a-third-of-all-anti-pollution-beauty-products-were-launched-in-asia-pacific-in-2016-mintel-reports/",
+  "https://www.mintel.com/press-centre/rebuilding-trust-and-engaging-millennials-key-for-the-future-of-investment-services/",
+  "https://www.mintel.com/press-centre/uk-coffee-shop-sales-enjoy-a-growth-high/"
+ ],
+ "negatives": [
+  "https://www.mintel.com/products/field-services/",
+  "https://www.mintel.com/case-studies/general-mills/",
+  "https://www.mintel.com/insights/insurance/",
+  "https://www.mintel.com/fr/notre-culture/"
+ ],
+ "basis": "情况 A：第 3 轮已验证——新闻稿 /press-centre/{slug}/",
+ "note": ""
+}

@@ -1,0 +1,16 @@
+{
+ "seq": 131,
+ "entry_id": "S1-R18-E5",
+ "url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.itu\\.int/en/ITU\\-R/[a-z-]+/[a-zA-Z0-9-]+/Pages/[a-zA-Z0-9-]+\\.aspx$\n^https://www\\.itu\\.int/en/ITU\\-R/seminars/rrs/[a-zA-Z0-9%-]+/Pages/default\\.aspx$",
+ "carried_from": [
+  "R3-S1-R18-E5-F4",
+  "R3-S1-R18-E5-F2"
+ ],
+ "members": [],
+ "negatives": [],
+ "basis": "情况 A（SharePoint 边界 /en/ITU-R/）：第 3 轮已验证的两条规则——ITU-R 各业务子栏目页面 /en/ITU-R/{领域}/{子栏目}/Pages/{页}.aspx 与区域无线电研讨会页面；归纳/留出/反例与落地核验见第 3 轮记录",
+ "note": ""
+}

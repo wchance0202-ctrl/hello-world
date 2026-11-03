@@ -1,0 +1,56 @@
+{
+ "seq": 138,
+ "entry_id": "S1-R19-E8",
+ "url": "https://www.wipo.int/en/web/global-design-database",
+ "mode": "regex",
+ "basis": "情况 A：主题新闻 /en/web/global-design-database/w/news/{年}/{slug}",
+ "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "主题新闻在入口路径 /en/web/global-design-database/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/global-design-database/news（12 条）"
+ },
+ "observed_at": "2026-11-03T09:25:04+00:00",
+ "frozen_sha256": "d3922922a4c5ed6253758a7f0f84340a246babc6a0241419cb1af141d42585b1",
+ "pattern": "^https://www\\.wipo\\.int/en/web/global\\-design\\-database/w/news/[0-9]+/[a-z0-9_-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 3,
+  "holdout_neg": 6,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 12
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.wipo.int/en/web/global-design-database/w/news/2021/news_0003",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2021/news_0004",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2021/news_0005",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2021/news_0007",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2022/news_0003",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2022/news_0004",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2023/news_0001",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2026/designs-of-norway-added-to-the-global-design-database",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2026/designs-of-sri-lanka-added-to-the-global-design-database"
+  ],
+  "holdout_pos": [
+   "https://www.wipo.int/en/web/global-design-database/w/news/2021/news_0006",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2022/news_0001",
+   "https://www.wipo.int/en/web/global-design-database/w/news/2025/designs-of-croatia-added-to-the-global-design-database"
+  ],
+  "holdout_neg": [
+   "https://www.wipo.int/en/web/global-design-database",
+   "https://www.wipo.int/en/web/global-design-database/news",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0002",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0004",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+   "https://www.wipo.int/en/web/about-ip"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

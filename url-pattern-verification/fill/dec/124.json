@@ -1,0 +1,67 @@
+{
+ "seq": 124,
+ "entry_id": "S1-R16-E2",
+ "url": "https://www.bis.org/statistics",
+ "mode": "regex",
+ "families": [
+  {
+   "members": [
+    "https://www.bis.org/pages/statistics/cbpol-doc.pdf",
+    "https://www.bis.org/pages/statistics/cbs-data-structure-definition.pdf",
+    "https://www.bis.org/pages/statistics/cbta-documentation.pdf",
+    "https://www.bis.org/pages/statistics/coverage-c4.pdf",
+    "https://www.bis.org/pages/statistics/coveragec1-c5-c6-c7.pdf",
+    "https://www.bis.org/pages/statistics/cp-long-series-documentation.pdf",
+    "https://www.bis.org/pages/statistics/cpp-inventory.pdf",
+    "https://www.bis.org/pages/statistics/credit-government-documentation.pdf",
+    "https://www.bis.org/pages/statistics/credit-private-documentation.pdf",
+    "https://www.bis.org/pages/statistics/debt-securities-overview.pdf",
+    "https://www.bis.org/pages/statistics/dsr-documentation.pdf",
+    "https://www.bis.org/pages/statistics/gli-methodology.pdf",
+    "https://www.bis.org/pages/statistics/ibs-reporting-country.pdf",
+    "https://www.bis.org/pages/statistics/ibs-revisions-breaks.pdf",
+    "https://www.bis.org/pages/statistics/lbs-data-structure-definition.pdf",
+    "https://www.bis.org/pages/statistics/lbs-global-coverage.pdf",
+    "https://www.bis.org/pages/statistics/pp-changes.pdf",
+    "https://www.bis.org/pages/statistics/pp-documentation.pdf",
+    "https://www.bis.org/pages/statistics/pp-long-documentation.pdf",
+    "https://www.bis.org/pages/statistics/pp-sources.pdf",
+    "https://www.bis.org/pages/statistics/previous-ibs-guidelines.pdf",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-ccp1.pdf",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-cs.pdf",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-csd1.pdf",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-ps1.pdf",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-tr.pdf",
+    "https://www.bis.org/pages/statistics/totcredit-changes.pdf",
+    "https://www.bis.org/pages/statistics/xrusd-documentation.pdf"
+   ]
+  },
+  {
+   "members": [
+    "https://www.bis.org/pages/statistics/ibsrepprac.xlsx",
+    "https://www.bis.org/pages/statistics/locstatsrepinst.xlsx",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-ccp1.xlsx",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-cs.xlsx",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-csd1.xlsx",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-ps1.xlsx",
+    "https://www.bis.org/pages/statistics/rb-qual-inf-table-tr.xlsx",
+    "https://www.bis.org/pages/statistics/template-cbs.xlsx",
+    "https://www.bis.org/pages/statistics/template-lbsn.xlsx",
+    "https://www.bis.org/pages/statistics/template-lbsr.xlsx",
+    "https://www.bis.org/pages/statistics/weightsb.xlsx",
+    "https://www.bis.org/pages/statistics/weightsn.xlsx"
+   ]
+  }
+ ],
+ "negatives": [
+  "https://www.bis.org/statistics",
+  "https://www.bis.org/publications/202605-commentary-residential-property-prices",
+  "https://data.bis.org/topics/CBPOL"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "统计栏目的文档在 /pages/statistics/ 下（PDF 28 个、XLSX 12 个），该目录只存放统计文档；统计数据本身在另一子域 data.bis.org，不在范围内"
+ },
+ "basis": "统计说明文档 /pages/statistics/*.pdf 与数据表 *.xlsx（逐个打开核验）",
+ "note": "统计数据门户 data.bis.org/topics/… 是另一子域，未纳入"
+}

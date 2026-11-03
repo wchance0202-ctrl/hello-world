@@ -1,0 +1,21 @@
+{
+ "seq": 189,
+ "entry_id": "S1-R52-E3",
+ "url": "https://www.pewresearch.org/topic/news-habits-media/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——主题下子主题页 /topic/news-habits-media/{子类}/{slug}/",
+ "note": "只覆盖子主题页；文章在全站共用路径（/journalism/{日期}/{slug}/ 等），无法用正则区分本主题",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:23:05+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R52-E3-F1"
+ ],
+ "checks": {
+  "members": 11,
+  "pos_fail": [],
+  "neg": 6,
+  "neg_fail": []
+ }
+}

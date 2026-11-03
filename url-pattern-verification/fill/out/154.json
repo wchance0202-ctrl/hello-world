@@ -1,0 +1,19 @@
+{
+ "seq": 154,
+ "entry_id": "S1-R26-E2",
+ "url": "https://www.mintel.com/press-centre/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——新闻稿 /press-centre/{slug}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:27:22+00:00",
+ "pattern": "^https://www\\.mintel\\.com/press\\-centre/[a-z0-9_-]+/$",
+ "status": "已验证",
+ "carried_from": "R3-S1-R26-E2-F1",
+ "checks": {
+  "members": 11,
+  "pos_fail": [],
+  "neg": 4,
+  "neg_fail": []
+ }
+}

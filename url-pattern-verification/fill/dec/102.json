@@ -1,0 +1,27 @@
+{
+ "seq": 102,
+ "entry_id": "S2-R123-E1",
+ "url": "https://www.jingdigital.com/resource/",
+ "mode": "regex",
+ "members": [
+  "https://www.jingdigital.com/articles/18857/",
+  "https://www.jingdigital.com/articles/18943/",
+  "https://www.jingdigital.com/articles/19167/",
+  "https://www.jingdigital.com/articles/21323/",
+  "https://www.jingdigital.com/articles/21340/",
+  "https://www.jingdigital.com/articles/21997/"
+ ],
+ "negatives": [
+  "https://www.jingdigital.com/resource/",
+  "https://www.jingdigital.com/articles/",
+  "https://www.jingdigital.com/event/",
+  "https://www.jingdigital.com/white/"
+ ],
+ "exclusivity": {
+  "proved": false,
+  "why_not": "资源中心首页只展示 6 篇文章，文章列表页 /articles/ 由脚本渲染，静态取不到条目，无法核对 /articles/{数字}/ 的全集",
+  "evidence": "资源中心是文章、活动、白皮书、技巧的总入口，文章详情统一为 /articles/{数字}/"
+ },
+ "basis": "情况 B：资源中心的文章 /articles/{数字}/",
+ "note": "活动 /event/、白皮书 /white/ 等分栏页未取到条目"
+}

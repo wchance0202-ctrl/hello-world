@@ -1,0 +1,54 @@
+{
+ "seq": 243,
+ "entry_id": "S1-R137-E3",
+ "url": "https://www.talkwalker.com/resources",
+ "mode": "regex",
+ "basis": "情况 B：资源详情 /resource/{分类}/{slug}",
+ "note": "分类段按样本中出现的两个分类（reports、marketing-essentials）放宽为字母与连字符；包含第 242 行（报告分类）的条目：报告分类是资源中心的子分类",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源中心（全部分类）的条目在 /resource/{分类}/{slug} 下，该路径只承载资源",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:41:10+00:00",
+ "frozen_sha256": "0194bc6de17a9a6fecb38b1d55ff618a27823da7dc20e56931483b6b9a82c7f0",
+ "pattern": "^https://www\\.talkwalker\\.com/resource/[a-z-]+/[a-z0-9-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 3,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 12
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+   "https://www.talkwalker.com/resource/reports/state-of-social-intelligence-report",
+   "https://www.talkwalker.com/resource/reports/towards-a-winning-social-media-strategy-learning-from-10-leading-insurance-brands",
+   "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food",
+   "https://www.talkwalker.com/resource/reports/uniqlo-brand-report",
+   "https://www.talkwalker.com/resource/reports/us-brand-love-2022",
+   "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+   "https://www.talkwalker.com/resource/reports/voc-report",
+   "https://www.talkwalker.com/resource/reports/white-paper-blue-silk-gpt-consumer-intelligence"
+  ],
+  "holdout_pos": [
+   "https://www.talkwalker.com/resource/marketing-essentials/social-media-report-examples",
+   "https://www.talkwalker.com/resource/reports/shape-tomorrow-mea",
+   "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic"
+  ],
+  "holdout_neg": [
+   "https://www.talkwalker.com/resources",
+   "https://www.talkwalker.com/resources?page=2",
+   "https://www.talkwalker.com/en-us/resources?page=1"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

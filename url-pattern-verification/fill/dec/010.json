@@ -1,0 +1,28 @@
+{
+ "seq": 10,
+ "entry_id": "S2-R26-E4",
+ "url": "https://www.leadleo.com/video/allType",
+ "mode": "regex",
+ "browser": true,
+ "members": [
+  "https://www.leadleo.com/video/details/69bb6d6fa789b839b05f4f65",
+  "https://www.leadleo.com/video/details/69bb6e1fa789b81de75f4fd4",
+  "https://www.leadleo.com/video/details/69bb6e48a789b8dc885f4fed",
+  "https://www.leadleo.com/video/details/69bb7032a789b876b45f5105",
+  "https://www.leadleo.com/video/details/69bb7059a789b885025f511d"
+ ],
+ "negatives": [
+  "https://www.leadleo.com/",
+  "https://www.leadleo.com/wiki/topicList",
+  "https://www.leadleo.com/article/search",
+  "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+  "https://www.leadleo.com/video/allType"
+ ],
+ "exclusivity": {
+  "proved": false,
+  "why_not": "未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目",
+  "evidence": "入口是全部视频列表，条目详情是 /video/details/{24 位十六进制 ID}；同站其他栏目（报告 /report/details/、视频、文章、专题）各用各自的路径"
+ },
+ "basis": "情况 B：视频详情是 /video/details/{24 位十六进制}，入口是该类内容的总列表",
+ "note": "样本只有未登录可见的 5 条"
+}

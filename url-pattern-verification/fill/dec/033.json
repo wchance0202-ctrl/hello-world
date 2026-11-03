@@ -1,0 +1,30 @@
+{
+ "seq": 33,
+ "entry_id": "S2-R56-E1",
+ "url": "https://e.kuaishou.com/#/e/news",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://e\\.kuaishou\\.com/\\#/e/news/[0-9]+$",
+ "carried_from": "R3H-S2-R56-E1-F1",
+ "members": [
+  "https://e.kuaishou.com/#/e/news/2156",
+  "https://e.kuaishou.com/#/e/news/2157",
+  "https://e.kuaishou.com/#/e/news/2158",
+  "https://e.kuaishou.com/#/e/news/2161",
+  "https://e.kuaishou.com/#/e/news/2164",
+  "https://e.kuaishou.com/#/e/news/2165",
+  "https://e.kuaishou.com/#/e/news/2154",
+  "https://e.kuaishou.com/#/e/news/2155"
+ ],
+ "negatives": [
+  "https://e.kuaishou.com/#/e/news",
+  "https://ad-brand-preview.e.kuaishou.com/#/ad/case",
+  "https://e.kuaishou.com/#/e/cases/1853/1",
+  "https://e.kuaishou.com/#/e/cases/1854/1",
+  "https://e.kuaishou.com/#/e/cases/1855/1",
+  "https://e.kuaishou.com/#/e/cases/1856/1",
+  "https://e.kuaishou.com/#/e/cases/1857/1"
+ ],
+ "basis": "情况 A（Hash 路由）：资讯详情在入口路由 /e/news/ 之下；第 3 轮浏览器点击首屏卡片取样（归纳 6、留出 2），每个地址单独在浏览器打开核验，node-re2 与 google-re2 两套引擎逐对一致",
+ "note": "样本只来自首屏卡片，列表后续页未枚举；路由前缀本身就是栏目边界"
+}

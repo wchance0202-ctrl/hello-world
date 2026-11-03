@@ -1,0 +1,44 @@
+{
+ "seq": 69,
+ "entry_id": "S2-R93-E5",
+ "url": "https://www.chinaventure.com.cn/news/80.html",
+ "mode": "regex",
+ "members": [
+  "https://www.chinaventure.com.cn/news/80-20260705-392154.html",
+  "https://www.chinaventure.com.cn/news/80-20261021-393709.html",
+  "https://www.chinaventure.com.cn/news/80-20261021-393710.html",
+  "https://www.chinaventure.com.cn/news/80-20261023-393739.html",
+  "https://www.chinaventure.com.cn/news/80-20261023-393740.html",
+  "https://www.chinaventure.com.cn/news/80-20261023-393745.html",
+  "https://www.chinaventure.com.cn/news/80-20261024-393746.html",
+  "https://www.chinaventure.com.cn/news/80-20261024-393748.html",
+  "https://www.chinaventure.com.cn/news/80-20261026-393757.html",
+  "https://www.chinaventure.com.cn/news/80-20261026-393758.html",
+  "https://www.chinaventure.com.cn/news/80-20261026-393773.html",
+  "https://www.chinaventure.com.cn/news/80-20261026-393774.html",
+  "https://www.chinaventure.com.cn/news/80-20261027-393782.html",
+  "https://www.chinaventure.com.cn/news/80-20261027-393784.html",
+  "https://www.chinaventure.com.cn/news/80-20261027-393788.html",
+  "https://www.chinaventure.com.cn/news/80-20261028-393795.html",
+  "https://www.chinaventure.com.cn/news/80-20261028-393801.html",
+  "https://www.chinaventure.com.cn/news/80-20261029-393808.html",
+  "https://www.chinaventure.com.cn/news/80-20261029-393809.html",
+  "https://www.chinaventure.com.cn/news/80-20261029-393813.html",
+  "https://www.chinaventure.com.cn/news/80-20261029-393817.html"
+ ],
+ "pattern": "^https://www\\.chinaventure\\.com\\.cn/news/80\\-[0-9]{8}\\-[0-9]+\\.html$",
+ "negatives": [
+  "https://www.chinaventure.com.cn/news/80.html",
+  "https://www.chinaventure.com.cn/news/78.html",
+  "https://www.chinaventure.com.cn/news/108-20261026-393766.html",
+  "https://www.chinaventure.com.cn/news/110-20260615-391848.html",
+  "https://www.chinaventure.com.cn/news/110-20260920-393350.html",
+  "https://www.chinaventure.com.cn/news/110-20260921-393380.html"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻详情 /news/{频道号}-{日期}-{ID}.html 的第一段就是频道号；本频道列表 21 条中 21 条以 80- 开头（其余 0 条是其他频道的置顶/推荐，不属于本频道）；频道号写成字面量后不匹配其他频道"
+ },
+ "basis": "栏目标识：频道号 80 写成字面量；日期 8 位、文章 ID 为数字",
+ "note": ""
+}

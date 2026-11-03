@@ -1,0 +1,51 @@
+{
+ "seq": 214,
+ "entry_id": "S1-R91-E1",
+ "url": "https://growthhackers.com/growth-studies/",
+ "mode": "regex",
+ "basis": "情况 A：增长案例 /growth-studies/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "增长案例在入口路径 /growth-studies/{slug}/ 下（情况 A）",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:25:59+00:00",
+ "frozen_sha256": "dbf20f9d0127effafb63bb04c99d30f99b3f6c9d84157b55b3c3a6b1b431b4c5",
+ "pattern": "^https://growthhackers\\.com/growth\\-studies/[a-z-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 7,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 9
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://growthhackers.com/growth-studies/airbnb/",
+   "https://growthhackers.com/growth-studies/how-amazon-built-its-growth-ecosystem/",
+   "https://growthhackers.com/growth-studies/hubspot/",
+   "https://growthhackers.com/growth-studies/ibm/",
+   "https://growthhackers.com/growth-studies/slack/",
+   "https://growthhackers.com/growth-studies/spotify/",
+   "https://growthhackers.com/growth-studies/whatsapp/"
+  ],
+  "holdout_pos": [
+   "https://growthhackers.com/growth-studies/coca-cola/",
+   "https://growthhackers.com/growth-studies/uber/"
+  ],
+  "holdout_neg": [
+   "https://growthhackers.com/growth-studies/",
+   "https://growthhackers.com/opinions/",
+   "https://growthhackers.com/tag/acquisition/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

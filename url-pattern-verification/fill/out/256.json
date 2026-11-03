@@ -1,0 +1,22 @@
+{
+ "seq": 256,
+ "entry_id": "S1-R151-E2",
+ "url": "https://www.cbinsights.com/research/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——研究文章 /research/{slug}/ 与分类文章 /research/{类}/{slug}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:40:32+00:00",
+ "pattern": "^https://www\\.cbinsights\\.com/research/[a-z-]+/[a-z0-9-]+/$\n^https://www\\.cbinsights\\.com/research/[a-z0-9%_-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R151-E2-F1",
+  "R3-S1-R151-E2-F2"
+ ],
+ "checks": {
+  "members": 0,
+  "pos_fail": [],
+  "neg": 0,
+  "neg_fail": []
+ }
+}

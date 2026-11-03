@@ -1,0 +1,20 @@
+{
+ "seq": 133,
+ "entry_id": "S1-R18-E9",
+ "url": "https://www.itu.int/en/publications/Pages/media.aspx",
+ "mode": "snapshot",
+ "members": [
+  "https://www.itu.int/en/publications/Pages/Req-cat.aspx",
+  "https://www.itu.int/en/publications/Pages/cdrom.aspx",
+  "https://www.itu.int/en/publications/Pages/default.aspx",
+  "https://www.itu.int/en/publications/Pages/eb.aspx",
+  "https://www.itu.int/en/publications/Pages/online.aspx",
+  "https://www.itu.int/en/publications/Pages/paper.aspx",
+  "https://www.itu.int/en/publications/Pages/pubnoticelist.aspx"
+ ],
+ "negatives": [
+  "https://www.itu.int/en/publications/Pages/media.aspx"
+ ],
+ "basis": "出版物门户的子页面与入口页同为 /en/publications/Pages/{页}.aspx，写成正则必然匹配入口页本身，按快照列出 7 个",
+ "note": "快照 2026-11-03"
+}

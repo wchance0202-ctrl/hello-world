@@ -1,0 +1,109 @@
+{
+ "seq": 159,
+ "entry_id": "S1-R31-E1",
+ "url": "https://msi.org/library/",
+ "mode": "regex",
+ "basis": "情况 B：研究回顾与工作论文",
+ "note": "研究库其余类型（文章、报告）入口页未出现足够样本",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "研究库列出研究回顾 /research-recap/{slug}/ 与工作论文 /working-paper/{slug}/，这两个路径只承载研究库内容"
+ },
+ "observed_at": "2026-11-03T09:30:22+00:00",
+ "pattern": "^https://msi\\.org/research\\-recap/[a-z-]+/$\n^https://msi\\.org/working\\-paper/[a-z-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "a08c2f0855b102ec8def3a4445fb9c8195b9c4e9194429cdbd1ca090b08d134a",
+   "pattern": "^https://msi\\.org/research\\-recap/[a-z-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 4,
+    "holdout_pos": 1,
+    "holdout_neg": 8,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 5
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://msi.org/research-recap/augmented-reality-augments-sales-how-to-measure-and-manage/",
+     "https://msi.org/research-recap/generative-ai-for-content-targeting-at-scale/",
+     "https://msi.org/research-recap/how-ai-will-replace-some-but-augment-other-marketing-jobs/",
+     "https://msi.org/research-recap/how-genai-can-distort-search-results-and-how-to-stop-it/"
+    ],
+    "holdout_pos": [
+     "https://msi.org/research-recap/the-key-to-brand-growth-in-mind-in-stock-and-in-genai-responses/"
+    ],
+    "holdout_neg": [
+     "https://msi.org/library/",
+     "https://msi.org/",
+     "https://msi.org/library/1",
+     "https://msi.org/working-paper/competitive-dynamics-of-ranking-manipulations-on-large-language-model-based-search-engines/",
+     "https://msi.org/working-paper/generative-personalization-with-textual-and-non-textual-data/",
+     "https://msi.org/working-paper/marketing-ai-exposure-applicability-breadth-substitution-depth-and-job-outcomes/",
+     "https://msi.org/working-paper/measuring-what-matters-in-ar-marketing-with-the-augmented-reality-experience-scale-ares/",
+     "https://msi.org/working-paper/tri-system-brand-growth-the-ai-mediation-layer/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "研究库列出研究回顾 /research-recap/{slug}/ 与工作论文 /working-paper/{slug}/，这两个路径只承载研究库内容"
+   }
+  },
+  {
+   "frozen_sha256": "602ee01953df2890939666f203046c646fcd3db2e9b0fc6c1a1f483aac652a18",
+   "pattern": "^https://msi\\.org/working\\-paper/[a-z-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 4,
+    "holdout_pos": 1,
+    "holdout_neg": 8,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 5
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://msi.org/working-paper/competitive-dynamics-of-ranking-manipulations-on-large-language-model-based-search-engines/",
+     "https://msi.org/working-paper/marketing-ai-exposure-applicability-breadth-substitution-depth-and-job-outcomes/",
+     "https://msi.org/working-paper/measuring-what-matters-in-ar-marketing-with-the-augmented-reality-experience-scale-ares/",
+     "https://msi.org/working-paper/tri-system-brand-growth-the-ai-mediation-layer/"
+    ],
+    "holdout_pos": [
+     "https://msi.org/working-paper/generative-personalization-with-textual-and-non-textual-data/"
+    ],
+    "holdout_neg": [
+     "https://msi.org/library/",
+     "https://msi.org/",
+     "https://msi.org/library/1",
+     "https://msi.org/research-recap/augmented-reality-augments-sales-how-to-measure-and-manage/",
+     "https://msi.org/research-recap/generative-ai-for-content-targeting-at-scale/",
+     "https://msi.org/research-recap/how-ai-will-replace-some-but-augment-other-marketing-jobs/",
+     "https://msi.org/research-recap/how-genai-can-distort-search-results-and-how-to-stop-it/",
+     "https://msi.org/research-recap/the-key-to-brand-growth-in-mind-in-stock-and-in-genai-responses/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "研究库列出研究回顾 /research-recap/{slug}/ 与工作论文 /working-paper/{slug}/，这两个路径只承载研究库内容"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null
+}

@@ -1,0 +1,18 @@
+{
+ "seq": 81,
+ "entry_id": "S2-R108-E2",
+ "url": "https://www.cheaa.org/channels/13.html",
+ "mode": "snapshot",
+ "members": [
+  "https://www.cheaa.org/contents/13/12994.html",
+  "https://www.cheaa.org/contents/13/2418.html",
+  "https://www.cheaa.org/contents/13/596.html"
+ ],
+ "negatives": [
+  "https://www.cheaa.org/channels/13.html",
+  "https://www.cheaa.org/channels/116.html",
+  "https://www.cheaa.org/contents/5/564.html"
+ ],
+ "basis": "「年度报告」(频道 13) 只有 3 篇，详情为 /contents/13/{数字}.html，频道号 13 在 URL 中；少于 4 篇，按规则逐条列出",
+ "note": "快照 2026-11-03；频道号是栏目标识，条目增多后可改为 ^https://www\\.cheaa\\.org/contents/13/[0-9]+\\.html$。替换上一轮匹配同级频道的错误正则"
+}

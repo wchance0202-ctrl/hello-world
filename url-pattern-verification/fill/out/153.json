@@ -1,0 +1,22 @@
+{
+ "seq": 153,
+ "entry_id": "S1-R26-E1",
+ "url": "https://www.mintel.com/insights/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——洞察文章 /insights/{行业}/{slug}/ 与行业洞察首页 /insights/{行业}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:27:21+00:00",
+ "pattern": "^https://www\\.mintel\\.com/insights/[a-z0-9-]+/[a-z0-9%_-]+/$\n^https://www\\.mintel\\.com/insights/[a-z-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R26-E1-F2",
+  "R3-S1-R26-E1-F1"
+ ],
+ "checks": {
+  "members": 0,
+  "pos_fail": [],
+  "neg": 0,
+  "neg_fail": []
+ }
+}

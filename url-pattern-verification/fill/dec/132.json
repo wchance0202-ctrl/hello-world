@@ -1,0 +1,22 @@
+{
+ "seq": 132,
+ "entry_id": "S1-R18-E7",
+ "url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+ "mode": "snapshot",
+ "members": [
+  "https://www.itu.int/en/ITU-D/Pages/About.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/Circulars.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/Resolutions.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/Videos.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/itu-d-news.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/itu-d-publications.aspx",
+  "https://www.itu.int/en/ITU-D/Pages/regional-initiatives-2026-2029.aspx"
+ ],
+ "negatives": [
+  "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+  "https://www.itu.int/en/ITU-R/Pages/default.aspx"
+ ],
+ "basis": "ITU-D 门户的子页面与入口页同为 /en/ITU-D/Pages/{页}.aspx，写成正则必然匹配入口页本身（RE2 不支持排除单个页名），按快照列出 8 个",
+ "note": "快照 2026-11-03"
+}

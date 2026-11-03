@@ -1,0 +1,21 @@
+{
+ "seq": 191,
+ "entry_id": "S1-R53-E3",
+ "url": "https://www.idc.com/quanta/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——Quanta 产品子页面 /quanta/{slug}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:23:05+00:00",
+ "pattern": "^https://www\\.idc\\.com/quanta/[a-z-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R53-E3-F1"
+ ],
+ "checks": {
+  "members": 5,
+  "pos_fail": [],
+  "neg": 5,
+  "neg_fail": []
+ }
+}

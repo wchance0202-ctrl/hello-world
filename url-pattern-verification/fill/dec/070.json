@@ -1,0 +1,42 @@
+{
+ "seq": 70,
+ "entry_id": "S2-R93-E6",
+ "url": "https://www.chinaventure.com.cn/news/83.html",
+ "mode": "regex",
+ "members": [
+  "https://www.chinaventure.com.cn/news/83-20260410-390885.html",
+  "https://www.chinaventure.com.cn/news/83-20260424-391095.html",
+  "https://www.chinaventure.com.cn/news/83-20260521-391475.html",
+  "https://www.chinaventure.com.cn/news/83-20260707-392177.html",
+  "https://www.chinaventure.com.cn/news/83-20260724-392445.html",
+  "https://www.chinaventure.com.cn/news/83-20260730-392530.html",
+  "https://www.chinaventure.com.cn/news/83-20260917-393321.html",
+  "https://www.chinaventure.com.cn/news/83-20260918-393322.html",
+  "https://www.chinaventure.com.cn/news/83-20261015-393619.html",
+  "https://www.chinaventure.com.cn/news/83-20261020-393694.html",
+  "https://www.chinaventure.com.cn/news/83-20261022-393723.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393767.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393768.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393769.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393770.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393771.html",
+  "https://www.chinaventure.com.cn/news/83-20261026-393772.html",
+  "https://www.chinaventure.com.cn/news/83-20261028-393806.html",
+  "https://www.chinaventure.com.cn/news/83-20261029-393823.html"
+ ],
+ "pattern": "^https://www\\.chinaventure\\.com\\.cn/news/83\\-[0-9]{8}\\-[0-9]+\\.html$",
+ "negatives": [
+  "https://www.chinaventure.com.cn/news/83.html",
+  "https://www.chinaventure.com.cn/news/80.html",
+  "https://www.chinaventure.com.cn/news/110-20260615-391848.html",
+  "https://www.chinaventure.com.cn/news/110-20260920-393350.html",
+  "https://www.chinaventure.com.cn/news/110-20260921-393380.html",
+  "https://www.chinaventure.com.cn/news/110-20260922-393394.html"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻详情 /news/{频道号}-{日期}-{ID}.html 的第一段就是频道号；本频道列表 21 条中 19 条以 83- 开头（其余 2 条是其他频道的置顶/推荐，不属于本频道）；频道号写成字面量后不匹配其他频道"
+ },
+ "basis": "栏目标识：频道号 83 写成字面量；日期 8 位、文章 ID 为数字",
+ "note": "本频道列表中另有其他频道的推荐文章：https://www.chinaventure.com.cn/news/108-20261026-393766.html、https://www.chinaventure.com.cn/news/80-20260210-390126.html"
+}

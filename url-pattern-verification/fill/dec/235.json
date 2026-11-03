@@ -1,0 +1,32 @@
+{
+ "seq": 235,
+ "entry_id": "S1-R123-E2",
+ "url": "https://blog.hubspot.com/sales",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://blog\\.hubspot\\.com/sales/[a-zA-Z0-9%ü-]+$",
+ "carried_from": [
+  "R3-S1-R123-E2-F1"
+ ],
+ "members": [
+  "https://blog.hubspot.com/sales/avoid-burnout-q4",
+  "https://blog.hubspot.com/sales/creative-ai-uses",
+  "https://blog.hubspot.com/sales/partner-ecosystems",
+  "https://blog.hubspot.com/sales/places-to-research-a-prospect-before-sales-call",
+  "https://blog.hubspot.com/sales/sales-execution",
+  "https://blog.hubspot.com/sales/ai-franchise",
+  "https://blog.hubspot.com/sales/anchoring-negotiation",
+  "https://blog.hubspot.com/sales/best-scheduling-app",
+  "https://blog.hubspot.com/sales/sales-dashboard",
+  "https://blog.hubspot.com/sales/sales-management",
+  "https://blog.hubspot.com/sales/warm-calling-tips"
+ ],
+ "negatives": [
+  "https://blog.hubspot.com/marketing/rfp-grant",
+  "https://blog.hubspot.com/website/are-web-developers-using-ai",
+  "https://blog.hubspot.com/marketing/new-linkedin-features",
+  "https://blog.hubspot.com/marketing/feedback-loop"
+ ],
+ "basis": "情况 A：第 3 轮已验证——销售博客文章 /sales/{slug}",
+ "note": ""
+}

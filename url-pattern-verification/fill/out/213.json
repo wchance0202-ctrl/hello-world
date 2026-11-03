@@ -1,0 +1,21 @@
+{
+ "seq": 213,
+ "entry_id": "S1-R89-E3",
+ "url": "https://www.greenbook.org/grit",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮按用户同意采用——GRIT 报告子页 /grit/{slug}",
+ "note": "第 3 轮样本少，经用户同意采用",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:25:59+00:00",
+ "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R89-E3-F1"
+ ],
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 4,
+  "neg_fail": []
+ }
+}

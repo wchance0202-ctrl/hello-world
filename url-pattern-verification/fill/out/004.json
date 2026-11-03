@@ -1,0 +1,12 @@
+{
+ "seq": 4,
+ "entry_id": "S2-R25-E1",
+ "url": "https://www.analysys.cn/trends",
+ "mode": "empty",
+ "basis": "翻完 54 页，取得 524 篇文章；易观「趋势」(/trends，524 篇) 与「分析」(/article/analysis/，3,978 篇) 的文章都在同一结构 /article/detail/{数字} 下，两组互不相交，ID 区间交错，URL 中没有栏目标识，无法用正则区分；条目数超过 100，不做快照",
+ "note": "栏目自身列表分页可写 ^https://www\\.analysys\\.cn/trends\\?p=[0-9]+$，但它不覆盖文章；第 6 行的正则已覆盖全部文章详情页",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T08:33:41+00:00",
+ "pattern": "",
+ "status": "留空"
+}

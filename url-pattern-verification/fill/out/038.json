@@ -1,0 +1,184 @@
+{
+ "seq": 38,
+ "entry_id": "S2-R60-E1",
+ "url": "https://jzt.jd.com/school/index",
+ "mode": "regex",
+ "basis": "情况 A（页名退到上级 /school/）：课程详情 /school/course/detail?contentId=N、问题详情 /school/problem?contentId=N、课程分类列表 /school/course/list?channelIds=…",
+ "note": "/school/exam（我的考试）等个人功能页不在正则内",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "入口末段 index 是页名，条目都在 /school/ 下（课程详情、问题详情、课程列表）。/school/ 是京准通学堂整个栏目，同站另一入口 /gw/information 的资讯在 /gw/information/detail 下，不使用 /school/"
+ },
+ "observed_at": "2026-11-03T08:50:01+00:00",
+ "pattern": "^https://jzt\\.jd\\.com/school/course/detail\\?contentId=[0-9]+$\n^https://jzt\\.jd\\.com/school/problem\\?contentId=[0-9]+$\n^https://jzt\\.jd\\.com/school/course/list\\?channelIds=[0-9,]+$",
+ "families": [
+  {
+   "frozen_sha256": "cbfc349a6a6543c0207ade1d8710d3836566930e47a3e1fa5dfda525c8a57787",
+   "pattern": "^https://jzt\\.jd\\.com/school/course/detail\\?contentId=[0-9]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 8,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://jzt.jd.com/school/course/detail?contentId=13459",
+     "https://jzt.jd.com/school/course/detail?contentId=16829",
+     "https://jzt.jd.com/school/course/detail?contentId=17226",
+     "https://jzt.jd.com/school/course/detail?contentId=19627",
+     "https://jzt.jd.com/school/course/detail?contentId=19630",
+     "https://jzt.jd.com/school/course/detail?contentId=19637",
+     "https://jzt.jd.com/school/course/detail?contentId=3057",
+     "https://jzt.jd.com/school/course/detail?contentId=3163"
+    ],
+    "holdout_pos": [
+     "https://jzt.jd.com/school/course/detail?contentId=19639",
+     "https://jzt.jd.com/school/course/detail?contentId=19640"
+    ],
+    "holdout_neg": [
+     "https://jzt.jd.com/school/index",
+     "https://jzt.jd.com/school/exam",
+     "https://jzt.jd.com/gw/information",
+     "https://jzt.jd.com/gw/datacenter/",
+     "https://jzt.jd.com/school/problem?contentId=12326",
+     "https://jzt.jd.com/school/problem?contentId=12327",
+     "https://jzt.jd.com/school/problem?contentId=12452",
+     "https://jzt.jd.com/school/problem?contentId=12686",
+     "https://jzt.jd.com/school/problem?contentId=12688",
+     "https://jzt.jd.com/school/problem?contentId=12689"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "入口末段 index 是页名，条目都在 /school/ 下（课程详情、问题详情、课程列表）。/school/ 是京准通学堂整个栏目，同站另一入口 /gw/information 的资讯在 /gw/information/detail 下，不使用 /school/"
+   }
+  },
+  {
+   "frozen_sha256": "70a202a46a71fb2c5fe54bbcef19689e5c0b5660272c9d23c90665151f670250",
+   "pattern": "^https://jzt\\.jd\\.com/school/problem\\?contentId=[0-9]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 3,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 13
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://jzt.jd.com/school/problem?contentId=12327",
+     "https://jzt.jd.com/school/problem?contentId=12686",
+     "https://jzt.jd.com/school/problem?contentId=12688",
+     "https://jzt.jd.com/school/problem?contentId=12689",
+     "https://jzt.jd.com/school/problem?contentId=12690",
+     "https://jzt.jd.com/school/problem?contentId=12694",
+     "https://jzt.jd.com/school/problem?contentId=3398",
+     "https://jzt.jd.com/school/problem?contentId=3399",
+     "https://jzt.jd.com/school/problem?contentId=3400",
+     "https://jzt.jd.com/school/problem?contentId=3402"
+    ],
+    "holdout_pos": [
+     "https://jzt.jd.com/school/problem?contentId=12326",
+     "https://jzt.jd.com/school/problem?contentId=12452",
+     "https://jzt.jd.com/school/problem?contentId=3401"
+    ],
+    "holdout_neg": [
+     "https://jzt.jd.com/school/index",
+     "https://jzt.jd.com/school/exam",
+     "https://jzt.jd.com/gw/information",
+     "https://jzt.jd.com/gw/datacenter/",
+     "https://jzt.jd.com/school/course/detail?contentId=13459",
+     "https://jzt.jd.com/school/course/detail?contentId=16829",
+     "https://jzt.jd.com/school/course/detail?contentId=17226",
+     "https://jzt.jd.com/school/course/detail?contentId=19627",
+     "https://jzt.jd.com/school/course/detail?contentId=19630",
+     "https://jzt.jd.com/school/course/detail?contentId=19637"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "入口末段 index 是页名，条目都在 /school/ 下（课程详情、问题详情、课程列表）。/school/ 是京准通学堂整个栏目，同站另一入口 /gw/information 的资讯在 /gw/information/detail 下，不使用 /school/"
+   }
+  },
+  {
+   "frozen_sha256": "46ee362e8a852227d0311218ac6567c3846f057c5c053fb802a3aac683adf755",
+   "pattern": "^https://jzt\\.jd\\.com/school/course/list\\?channelIds=[0-9,]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 5,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 20
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://jzt.jd.com/school/course/list?channelIds=1752,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1753,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1763,1752,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1764,1752,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1768,1754,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1771,1754,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1773,1753,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1869,1753,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1952,1951,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1953,1951,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1954,1951,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=2378,1753,1749"
+    ],
+    "holdout_pos": [
+     "https://jzt.jd.com/school/course/list?channelIds=1754,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1765,1752,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=1951,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=2868,1749",
+     "https://jzt.jd.com/school/course/list?channelIds=2871,2868,1749"
+    ],
+    "holdout_neg": [
+     "https://jzt.jd.com/school/index",
+     "https://jzt.jd.com/school/exam",
+     "https://jzt.jd.com/gw/information",
+     "https://jzt.jd.com/gw/datacenter/",
+     "https://jzt.jd.com/school/course/detail?contentId=13459",
+     "https://jzt.jd.com/school/course/detail?contentId=16829",
+     "https://jzt.jd.com/school/course/detail?contentId=17226",
+     "https://jzt.jd.com/school/course/detail?contentId=19627",
+     "https://jzt.jd.com/school/course/detail?contentId=19630",
+     "https://jzt.jd.com/school/course/detail?contentId=19637"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "入口末段 index 是页名，条目都在 /school/ 下（课程详情、问题详情、课程列表）。/school/ 是京准通学堂整个栏目，同站另一入口 /gw/information 的资讯在 /gw/information/detail 下，不使用 /school/"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 3
+ },
+ "why_not_verified": null
+}

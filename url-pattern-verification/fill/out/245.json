@@ -1,0 +1,19 @@
+{
+ "seq": 245,
+ "entry_id": "S1-R139-E2",
+ "url": "https://wearesocial.com/uk/reports/",
+ "mode": "snapshot",
+ "basis": "报告页列出的报告是博客文章 /uk/blog/{年}/{月}/{slug}/（与博客共用），逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:37:18+00:00",
+ "pattern": "^(?:https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026\\-global\\-overview\\-report/|https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026/|https://wearesocial\\.com/uk/blog/2025/11/new\\-report\\-the\\-latest\\-digital\\-and\\-social\\-data\\-from\\-the\\-uk/|https://wearesocial\\.com/uk/blog/2026/01/think\\-forward\\-2026/|https://wearesocial\\.com/uk/blog/2026/05/report\\-social\\-feature\\-superpowers\\-and\\-how\\-brands\\-can\\-use\\-them/|https://wearesocial\\.com/uk/blog/2026/09/decodes\\-creator\\-marketing\\-model/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027\\-your\\-guide\\-to\\-the\\-evolving\\-digital\\-world/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027/)$",
+ "status": "快照",
+ "members": 8,
+ "kept": 8,
+ "dropped": [],
+ "negatives": [
+  "https://wearesocial.com/uk/reports/"
+ ],
+ "negatives_matched": []
+}

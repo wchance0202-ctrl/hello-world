@@ -1,0 +1,60 @@
+{
+ "seq": 2,
+ "entry_id": "S2-R23-E1",
+ "url": "https://www.gz-data.com/html/new.html",
+ "mode": "regex",
+ "basis": "情况 B：条目是 /html/info.html?id={数字}，用页面自身只读接口枚举全部 117 条（含行业报告、月度报告、新闻各标签）",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "条目在入口路径外（/html/info.html?id=N）。全站只有「资讯与洞察」一个内容栏目使用 info.html：首页和导航只链接静态页面，另一个内容接口 /api/report 返回 0 条；该栏目自身接口 /api/information 列出 117 条，全部为 info.html?id=N"
+ },
+ "observed_at": "2026-11-03T08:41:44+00:00",
+ "frozen_sha256": "e9c0884effb828eb140bb12993ca91812f5ce425140fe1b23d0a47ae902ce162",
+ "pattern": "^https://www\\.gz\\-data\\.com/html/info\\.html\\?id=[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 117
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.gz-data.com/html/info.html?id=10",
+   "https://www.gz-data.com/html/info.html?id=14",
+   "https://www.gz-data.com/html/info.html?id=240",
+   "https://www.gz-data.com/html/info.html?id=247",
+   "https://www.gz-data.com/html/info.html?id=252",
+   "https://www.gz-data.com/html/info.html?id=256",
+   "https://www.gz-data.com/html/info.html?id=258",
+   "https://www.gz-data.com/html/info.html?id=31",
+   "https://www.gz-data.com/html/info.html?id=41",
+   "https://www.gz-data.com/html/info.html?id=50",
+   "https://www.gz-data.com/html/info.html?id=52",
+   "https://www.gz-data.com/html/info.html?id=65"
+  ],
+  "holdout_pos": [
+   "https://www.gz-data.com/html/info.html?id=12",
+   "https://www.gz-data.com/html/info.html?id=250",
+   "https://www.gz-data.com/html/info.html?id=45",
+   "https://www.gz-data.com/html/info.html?id=57",
+   "https://www.gz-data.com/html/info.html?id=66",
+   "https://www.gz-data.com/html/info.html?id=9"
+  ],
+  "holdout_neg": [
+   "https://www.gz-data.com/html/new.html",
+   "https://www.gz-data.com/html/product.html",
+   "https://www.gz-data.com/html/about.html",
+   "https://www.gz-data.com/newindex.html"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

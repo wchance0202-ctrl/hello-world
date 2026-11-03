@@ -1,0 +1,16 @@
+{
+ "seq": 207,
+ "entry_id": "S1-R86-E2",
+ "url": "https://www.dandad.org/insights",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$\n^https://www\\.dandad\\.org/insights/[a-z-]+$",
+ "carried_from": [
+  "R3-S1-R86-E2-F1",
+  "R3-S1-R86-E2-F2"
+ ],
+ "members": [],
+ "negatives": [],
+ "basis": "情况 A：第 3 轮已验证——洞察文章 /insights/{类}/{slug} 与洞察分类页 /insights/{类}",
+ "note": ""
+}

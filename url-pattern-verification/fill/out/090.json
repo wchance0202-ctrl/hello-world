@@ -1,0 +1,60 @@
+{
+ "seq": 90,
+ "entry_id": "S2-R117-E1",
+ "url": "https://mi.talkingdata.com/reports.html",
+ "mode": "regex",
+ "basis": "情况 B（入口是根目录文件）：报告详情 /report-detail.html?id={数字}，列表翻完 48 页",
+ "note": "列表中的链接是 http 写法",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "mi.talkingdata.com（移动观象台）上报告详情只有 report-detail.html?id=N 这一种；报告列表翻完 48 页共 420 篇，全部是此结构"
+ },
+ "observed_at": "2026-11-03T09:12:25+00:00",
+ "frozen_sha256": "6057c97fa95ea5458743ac1938bed5d8fe14344137acb0a702f12111f9770d34",
+ "pattern": "^http://mi\\.talkingdata\\.com/report\\-detail\\.html\\?id=[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 420
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "http://mi.talkingdata.com/report-detail.html?id=1104",
+   "http://mi.talkingdata.com/report-detail.html?id=328",
+   "http://mi.talkingdata.com/report-detail.html?id=329",
+   "http://mi.talkingdata.com/report-detail.html?id=355",
+   "http://mi.talkingdata.com/report-detail.html?id=396",
+   "http://mi.talkingdata.com/report-detail.html?id=435",
+   "http://mi.talkingdata.com/report-detail.html?id=445",
+   "http://mi.talkingdata.com/report-detail.html?id=448",
+   "http://mi.talkingdata.com/report-detail.html?id=477",
+   "http://mi.talkingdata.com/report-detail.html?id=497",
+   "http://mi.talkingdata.com/report-detail.html?id=640",
+   "http://mi.talkingdata.com/report-detail.html?id=962"
+  ],
+  "holdout_pos": [
+   "http://mi.talkingdata.com/report-detail.html?id=1077",
+   "http://mi.talkingdata.com/report-detail.html?id=321",
+   "http://mi.talkingdata.com/report-detail.html?id=361",
+   "http://mi.talkingdata.com/report-detail.html?id=417",
+   "http://mi.talkingdata.com/report-detail.html?id=479",
+   "http://mi.talkingdata.com/report-detail.html?id=887"
+  ],
+  "holdout_neg": [
+   "https://mi.talkingdata.com/reports.html",
+   "http://mi.talkingdata.com/allReports.html",
+   "http://mi.talkingdata.com/reports.html?category=all&tag=all&page=2",
+   "https://mi.talkingdata.com/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

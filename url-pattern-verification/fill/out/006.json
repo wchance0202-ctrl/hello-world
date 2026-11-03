@@ -1,0 +1,60 @@
+{
+ "seq": 6,
+ "entry_id": "S2-R25-E3",
+ "url": "https://www.analysys.cn/article/detail/20021542",
+ "mode": "regex",
+ "basis": "本行是单篇文章详情页，对象取为易观全站文章详情页 /article/detail/{数字}",
+ "note": "会同时匹配第 4、5 行两个栏目的文章（两栏目无法分开）",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "本行链接本身是一篇文章详情页，按“与它同类的页面”理解，对象就是全站文章详情页这一家族 /article/detail/{数字}；样本取自「趋势」和「分析」两个栏目的全部列表（4,502 篇）"
+ },
+ "observed_at": "2026-11-03T08:33:42+00:00",
+ "frozen_sha256": "3595e9442f7ae3a280d8a2d57c70836302335ff95e3294ab220788154a32295b",
+ "pattern": "^https://www\\.analysys\\.cn/article/detail/[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 4502
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.analysys.cn/article/detail/1000216",
+   "https://www.analysys.cn/article/detail/10011",
+   "https://www.analysys.cn/article/detail/10564",
+   "https://www.analysys.cn/article/detail/16675",
+   "https://www.analysys.cn/article/detail/20019301",
+   "https://www.analysys.cn/article/detail/20020740",
+   "https://www.analysys.cn/article/detail/20020781",
+   "https://www.analysys.cn/article/detail/20020885",
+   "https://www.analysys.cn/article/detail/20020911",
+   "https://www.analysys.cn/article/detail/20021289",
+   "https://www.analysys.cn/article/detail/83",
+   "https://www.analysys.cn/article/detail/9918"
+  ],
+  "holdout_pos": [
+   "https://www.analysys.cn/article/detail/1001178",
+   "https://www.analysys.cn/article/detail/10189",
+   "https://www.analysys.cn/article/detail/10261",
+   "https://www.analysys.cn/article/detail/20002149",
+   "https://www.analysys.cn/article/detail/20020795",
+   "https://www.analysys.cn/article/detail/20021500"
+  ],
+  "holdout_neg": [
+   "https://www.analysys.cn/trends",
+   "https://www.analysys.cn/article/analysis/",
+   "https://www.analysys.cn/article/analysis/?p=2",
+   "https://www.analysys.cn/trends?p=2"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

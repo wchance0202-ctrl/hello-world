@@ -1,0 +1,49 @@
+{
+ "seq": 123,
+ "entry_id": "S1-R6-E14",
+ "url": "https://blogs.worldbank.org/en/home",
+ "mode": "regex",
+ "members": [
+  "https://blogs.worldbank.org/en/arabvoices/agriconnect-and-djibouti--creating-jobs-and-boosting-food-securi",
+  "https://blogs.worldbank.org/en/developmenttalk/does-private-lending-in-emerging-markets-deliver-competitive-ret",
+  "https://blogs.worldbank.org/en/developmenttalk/efforts-toward-closing-the-gender-gap--lessons-from-two-decades-",
+  "https://blogs.worldbank.org/en/energy/energy-security--the-foundation-of-job-creation",
+  "https://blogs.worldbank.org/en/impactevaluations/self-reports--scenarios--and-games--lessons-from-measuring-socio",
+  "https://blogs.worldbank.org/en/impactevaluations/weekly-links-october-23--macro-impacts-of-migration-on-poverty--",
+  "https://blogs.worldbank.org/en/latinamerica/data-as-a-commodity--the-new-geography-of-the-cloud-economy",
+  "https://blogs.worldbank.org/en/opendata/celebrating-20-years-of-the-world-bank-enterprise-surveys--insig",
+  "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+  "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+  "https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica",
+  "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--july-2026-update",
+  "https://blogs.worldbank.org/en/opendata/what-s-new-in-the-world-development-indicators--october-2026--po",
+  "https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-",
+  "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025",
+  "https://blogs.worldbank.org/en/psd/how-fast-payment-systems-drive-economic-growth-and-financial-inc",
+  "https://blogs.worldbank.org/en/voices/feeding-the-next-generation--why-east-asia-s-agricultural-suppor",
+  "https://blogs.worldbank.org/en/voices/getting-the-foundations-right--how-south-asia-can-make-ai-work-f",
+  "https://blogs.worldbank.org/en/voices/jobs-are-the-test-of-change-",
+  "https://blogs.worldbank.org/en/voices/small-ai--big-bets--how-the-world-s-most-impactful-ai-startups-w",
+  "https://blogs.worldbank.org/en/voices/what-thailand-s-maya-bay-teaches-us-about-the-missing-link-in-bl"
+ ],
+ "holdout": [
+  "https://blogs.worldbank.org/en/developmenttalk/low-female-participation-in-the-workforce-solving-the-turkish-dilemma",
+  "https://blogs.worldbank.org/en/endpovertyinsouthasia/aiming-high-pakistan-s-way-forward",
+  "https://blogs.worldbank.org/en/impactevaluations/pitch-perfect-update-sme-ideas-competition",
+  "https://blogs.worldbank.org/en/ppps/what-do-private-companies-look-performance-based-non-revenue-water-project",
+  "https://blogs.worldbank.org/en/psd/imf-approves-debt-relief-for-poorest-countries",
+  "https://blogs.worldbank.org/en/psd/microfinance-buy-it-on-ebay"
+ ],
+ "negatives": [
+  "https://blogs.worldbank.org/en/home",
+  "https://blogs.worldbank.org/en/arabvoices",
+  "https://blogs.worldbank.org/en/opendata",
+  "https://www.worldbank.org/ext/en/news"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "blogs.worldbank.org 整个子域就是博客；文章为 /en/{博客名}/{slug}，博客频道页 /en/{博客名} 少一级，作为反例；sitemap 中同结构 25486 篇"
+ },
+ "basis": "情况 B：博客文章 /en/{博客名}/{slug}",
+ "note": ""
+}

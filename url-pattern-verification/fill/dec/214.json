@@ -1,0 +1,29 @@
+{
+ "seq": 214,
+ "entry_id": "S1-R91-E1",
+ "url": "https://growthhackers.com/growth-studies/",
+ "mode": "regex",
+ "members": [
+  "https://growthhackers.com/growth-studies/airbnb/",
+  "https://growthhackers.com/growth-studies/coca-cola/",
+  "https://growthhackers.com/growth-studies/how-amazon-built-its-growth-ecosystem/",
+  "https://growthhackers.com/growth-studies/hubspot/",
+  "https://growthhackers.com/growth-studies/ibm/",
+  "https://growthhackers.com/growth-studies/slack/",
+  "https://growthhackers.com/growth-studies/spotify/",
+  "https://growthhackers.com/growth-studies/uber/",
+  "https://growthhackers.com/growth-studies/whatsapp/"
+ ],
+ "negatives": [
+  "https://growthhackers.com/growth-studies/",
+  "https://growthhackers.com/opinions/",
+  "https://growthhackers.com/tag/acquisition/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "增长案例在入口路径 /growth-studies/{slug}/ 下（情况 A）",
+  "why_not": ""
+ },
+ "basis": "情况 A：增长案例 /growth-studies/{slug}/",
+ "note": ""
+}

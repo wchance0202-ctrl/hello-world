@@ -1,0 +1,19 @@
+{
+ "seq": 246,
+ "entry_id": "S1-R140-E4",
+ "url": "https://wingify.com/resources/",
+ "mode": "snapshot",
+ "basis": "资源页的条目分属成功案例与博客（共用路径），逐条列出 7 个",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:37:44+00:00",
+ "pattern": "^(?:https://wingify\\.com/blog/how\\-to\\-go\\-from\\-zero\\-to\\-one\\-in\\-your\\-server\\-side\\-experimentation\\-journey/|https://wingify\\.com/blog/mobile\\-app\\-funnel\\-analysis/|https://wingify\\.com/blog/what\\-do\\-you\\-get\\-with\\-wingify\\-free\\-trial/|https://wingify\\.com/success\\-stories/defacto/|https://wingify\\.com/success\\-stories/garanti\\-bbva/|https://wingify\\.com/success\\-stories/performics\\-hdfc\\-ergo/|https://wingify\\.com/success\\-stories/ubisoft\\-ab\\-testing\\-lead\\-generation/)$",
+ "status": "快照",
+ "members": 7,
+ "kept": 7,
+ "dropped": [],
+ "negatives": [
+  "https://wingify.com/resources/"
+ ],
+ "negatives_matched": []
+}

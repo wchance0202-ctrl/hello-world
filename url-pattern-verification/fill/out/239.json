@@ -1,0 +1,21 @@
+{
+ "seq": 239,
+ "entry_id": "S1-R126-E1",
+ "url": "https://landor.com/en/our-work/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——作品详情 /en/our-work/{slug}/",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:35:45+00:00",
+ "pattern": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R126-E1-F1"
+ ],
+ "checks": {
+  "members": 10,
+  "pos_fail": [],
+  "neg": 5,
+  "neg_fail": []
+ }
+}

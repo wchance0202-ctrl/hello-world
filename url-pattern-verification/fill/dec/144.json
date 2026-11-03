@@ -1,0 +1,14 @@
+{
+ "seq": 144,
+ "entry_id": "S1-R19-E19",
+ "url": "https://www.wipo.int/en/web/competition-policy",
+ "mode": "snapshot",
+ "members": [
+  "https://www.wipo.int/en/web/competition-policy/w/news/2011/news_0001-1"
+ ],
+ "negatives": [
+  "https://www.wipo.int/en/web/competition-policy"
+ ],
+ "basis": "该主题新闻列表只有 1 条（/en/web/competition-policy/w/news/…），少于 4 条，逐条列出",
+ "note": "快照 2026-11-03；条目增多后可改为 ^https://www\\.wipo\\.int/en/web/competition-policy/w/news/[0-9]+/[a-z0-9_-]+$"
+}

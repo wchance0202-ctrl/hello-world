@@ -1,0 +1,56 @@
+{
+ "seq": 136,
+ "entry_id": "S1-R19-E3",
+ "url": "https://www.wipo.int/en/web/ip-statistics",
+ "mode": "regex",
+ "basis": "情况 A：主题新闻 /en/web/ip-statistics/w/news/{年}/{slug}",
+ "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "主题新闻在入口路径 /en/web/ip-statistics/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-statistics/news（12 条）"
+ },
+ "observed_at": "2026-11-03T09:24:31+00:00",
+ "frozen_sha256": "55be9b0927b60d51e7f284431ff948ab56cd6673ff596b3c06605bd2365f2b68",
+ "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-statistics/w/news/[0-9]+/[a-z0-9_-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 3,
+  "holdout_neg": 6,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 12
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0003",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0004",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2024/news_0001",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2024/world-intellectual-property-indicators-report-global-patent-filings-reach-record-high-in-2023",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2025/use-of-wipo-s-global-ip-registries-for-patents-trademarks-and-designs-grew-in-2024",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2025/world-intellectual-property-indicators-global-patent-and-design-filings-reach-new-records-in-2024-trademarks-flat",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2026/international-patent-applications-rose-in-2025-with-digital-communication-and-semiconductor-technologies-showing-strong-growth",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2026/new-wipo-report-reveals-rapid-growth-in-global-green-technology-innovation"
+  ],
+  "holdout_pos": [
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0002",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0004",
+   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0002"
+  ],
+  "holdout_neg": [
+   "https://www.wipo.int/en/web/ip-statistics",
+   "https://www.wipo.int/en/web/ip-statistics/news",
+   "https://www.wipo.int/en/web/global-brand-database/w/news/2023/news_0002",
+   "https://www.wipo.int/en/web/global-brand-database/w/news/2024/new-tooltips-added-to-the-global-brand-database",
+   "https://www.wipo.int/en/web/global-brand-database/w/news/2024/news_0001",
+   "https://www.wipo.int/en/web/about-ip"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

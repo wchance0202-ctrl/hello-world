@@ -1,0 +1,17 @@
+{
+ "seq": 115,
+ "entry_id": "S2-R144-E1",
+ "url": "https://e.newrank.cn/marketing/IndustryInformation",
+ "mode": "snapshot",
+ "browser": true,
+ "members": [
+  "https://e.newrank.cn/marketing/IndustryInformation/13",
+  "https://e.newrank.cn/marketing/IndustryInformation/14",
+  "https://e.newrank.cn/marketing/IndustryInformation/15"
+ ],
+ "negatives": [
+  "https://e.newrank.cn/marketing/IndustryInformation"
+ ],
+ "basis": "行业资讯页只有 3 张卡片，点击后落到入口路径下 /marketing/IndustryInformation/{数字}；少于 4 个，逐条列出",
+ "note": "快照 2026-11-03；详情在入口路径下，条目增多后可改为 ^https://e\\.newrank\\.cn/marketing/IndustryInformation/[0-9]+$"
+}

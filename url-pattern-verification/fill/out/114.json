@@ -1,0 +1,54 @@
+{
+ "seq": 114,
+ "entry_id": "S2-R140-E3",
+ "url": "https://www.mob.com/about/news",
+ "mode": "regex",
+ "basis": "情况 A：新闻详情 /about/news/{数字}",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻在入口路径 /about/news/ 下（情况 A）；列表 3 条 + sitemap 同结构 10 条"
+ },
+ "observed_at": "2026-11-03T09:17:06+00:00",
+ "frozen_sha256": "3e3e99191ef2561899e4c57813ce02c98b0523cfa64ca863a728c2cfba53ce34",
+ "pattern": "^https://www\\.mob\\.com/about/news/[0-9]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 10,
+  "holdout_pos": 3,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 13
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.mob.com/about/news/1110",
+   "https://www.mob.com/about/news/1112",
+   "https://www.mob.com/about/news/1127",
+   "https://www.mob.com/about/news/864",
+   "https://www.mob.com/about/news/874",
+   "https://www.mob.com/about/news/875",
+   "https://www.mob.com/about/news/876",
+   "https://www.mob.com/about/news/879",
+   "https://www.mob.com/about/news/880",
+   "https://www.mob.com/about/news/881"
+  ],
+  "holdout_pos": [
+   "https://www.mob.com/about/news/877",
+   "https://www.mob.com/about/news/878",
+   "https://www.mob.com/about/news/883"
+  ],
+  "holdout_neg": [
+   "https://www.mob.com/about/news",
+   "https://www.mob.com/mobdata/report",
+   "https://www.mob.com/about"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

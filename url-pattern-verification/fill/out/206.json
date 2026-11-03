@@ -1,0 +1,80 @@
+{
+ "seq": 206,
+ "entry_id": "S1-R85-E1",
+ "url": "https://cxl.com/blog-archive/",
+ "mode": "regex",
+ "basis": "情况 B：博客文章 /blog/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "博客归档列出全部博客文章（翻完 76 页共 1121 篇），都在 /blog/{slug}/ 下；/blog/category/… 多一级，作为反例",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:25:16+00:00",
+ "frozen_sha256": "a960deb38a36154dc251b8044be7abe175f5f974bb51aa809746e86520f9fa9b",
+ "pattern": "^https://cxl\\.com/blog/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 9,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 1121
+ },
+ "failures": [],
+ "identity_excluded": [
+  {
+   "url": "https://cxl.com/blog/email-campaign-management/",
+   "status": 200,
+   "final": "https://cxl.com/blog/ecommerce-email-marketing/",
+   "split": "inference"
+  },
+  {
+   "url": "https://cxl.com/blog/how-to-increase-sales-online-the-checklist/",
+   "status": 200,
+   "final": "https://cxl.com/blog/3-ways-to-increase-online-sales/",
+   "split": "inference"
+  },
+  {
+   "url": "https://cxl.com/blog/kaggle/",
+   "status": 200,
+   "final": "https://cxl.com/blog/",
+   "split": "inference"
+  }
+ ],
+ "frozen": {
+  "inference": [
+   "https://cxl.com/blog/abm-personalization/",
+   "https://cxl.com/blog/b2b-content-marketing-strategies/",
+   "https://cxl.com/blog/confidence-intervals/",
+   "https://cxl.com/blog/email-campaign-management/",
+   "https://cxl.com/blog/how-to-increase-sales-online-the-checklist/",
+   "https://cxl.com/blog/increasing-black-friday-sales-with-early-bird-list/",
+   "https://cxl.com/blog/increasing-conversions-with-emotional-storytelling/",
+   "https://cxl.com/blog/kaggle/",
+   "https://cxl.com/blog/lies-your-designer-told-you-or-data-vs-design/",
+   "https://cxl.com/blog/million-dollar-marketing-engine/",
+   "https://cxl.com/blog/reactivate-email-list/",
+   "https://cxl.com/blog/the-intersection-of-seo-and-cro-and-how-to-maximize-long-term-growth/"
+  ],
+  "holdout_pos": [
+   "https://cxl.com/blog/halo-effect/",
+   "https://cxl.com/blog/hold-out-groups/",
+   "https://cxl.com/blog/how-people-view-search-results/",
+   "https://cxl.com/blog/how-to-identify-your-online-target-audience/",
+   "https://cxl.com/blog/messaging-strategy/",
+   "https://cxl.com/blog/using-negative-keywords/"
+  ],
+  "holdout_neg": [
+   "https://cxl.com/blog-archive/",
+   "https://cxl.com/blog-archive/page/2/",
+   "https://cxl.com/blog/category/acquisition/",
+   "https://cxl.com/institute/online-course/a-b-testing-foundations/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

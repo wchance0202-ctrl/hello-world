@@ -1,0 +1,50 @@
+{
+ "seq": 198,
+ "entry_id": "S1-R70-E2",
+ "url": "https://thearf.org/access-knowledge-2/",
+ "mode": "regex",
+ "basis": "情况 B：知识主题页 /category/topics/{slug}",
+ "note": "条目本身在各主题页内",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "知识中心页列出各主题页 /category/topics/{slug}（主题分类专用路径）",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:24:05+00:00",
+ "frozen_sha256": "2702ca4242c59fc55fe6a3ebcd5f0740754d4619be411458dea4ce0316cd9b47",
+ "pattern": "^https://thearf\\.org/category/topics/[a-z-]+$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 6,
+  "holdout_pos": 2,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 8
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://thearf.org/category/topics/ad-effectiveness-roi",
+   "https://thearf.org/category/topics/analytics-data-science",
+   "https://thearf.org/category/topics/creative-branded-content",
+   "https://thearf.org/category/topics/future-states-ai",
+   "https://thearf.org/category/topics/past-event-summaries",
+   "https://thearf.org/category/topics/research-data-quality"
+  ],
+  "holdout_pos": [
+   "https://thearf.org/category/topics/audience-media-measurement",
+   "https://thearf.org/category/topics/targets-segments"
+  ],
+  "holdout_neg": [
+   "https://thearf.org/access-knowledge-2/",
+   "https://thearf.org/research/",
+   "https://thearf.org/category/tag/ad-creative"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

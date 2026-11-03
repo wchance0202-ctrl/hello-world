@@ -1,0 +1,51 @@
+{
+ "seq": 105,
+ "entry_id": "S2-R125-E1",
+ "url": "https://appgrowing.net/blog/",
+ "mode": "regex",
+ "members": [
+  "https://appgrowing.net/blog/%e7%bd%91%e7%ba%a2%e8%90%a5%e9%94%80%e6%8a%95%e6%94%be%e5%a2%9e%e9%95%bf/",
+  "https://appgrowing.net/blog/0827review/",
+  "https://appgrowing.net/blog/2026q1_ai/",
+  "https://appgrowing.net/blog/2502_app/",
+  "https://appgrowing.net/blog/3%e6%9c%88%e6%89%8b%e6%b8%b8%e6%9c%88%e6%8a%a5-%e9%87%91%e7%8c%b4%e7%88%b7/",
+  "https://appgrowing.net/blog/aggmcp/",
+  "https://appgrowing.net/blog/aug_app-2/",
+  "https://appgrowing.net/blog/aug_game-2/",
+  "https://appgrowing.net/blog/august-2026-gaming-advertising-review/",
+  "https://appgrowing.net/blog/deliberate-fail-openers-in-casual-game-ads-where-the-hook-crosses-the-promise-line/",
+  "https://appgrowing.net/blog/epic-plane-evolution/",
+  "https://appgrowing.net/blog/half-the-lookup-list-is-not-an-app-what-those-keywords-actually-are/",
+  "https://appgrowing.net/blog/hitapps-games-new-release-ranked-top-2-on-the-us-ios-free-chart-within-two-weeks-of-launch/",
+  "https://appgrowing.net/blog/how-creator-style-ugc-hooks-are-reshaping-mobile-game-ads/",
+  "https://appgrowing.net/blog/how-fantasy-mmorpg-launch-ads-use-bundle-reveals-and-founder-packs/",
+  "https://appgrowing.net/blog/how-last-war-uses-proxy-minigames-to-package-strategy-gameplay/",
+  "https://appgrowing.net/blog/how-to-review-health-and-medical-app-ad-claims-before-launch/",
+  "https://appgrowing.net/blog/july_app-2/",
+  "https://appgrowing.net/blog/merge-lookups-halved-while-hollywood-merge-and-gossip-harbor-kept-buying/",
+  "https://appgrowing.net/blog/october-2025-mobile-game-advertising-review/",
+  "https://appgrowing.net/blog/one-organizing-game-took-93-of-the-ad-volume-in-a-crowded-genre/",
+  "https://appgrowing.net/blog/playableads/",
+  "https://appgrowing.net/blog/report2026ai/",
+  "https://appgrowing.net/blog/rotate-rings-topped-the-lookup-list-the-same-week-it-cut-79-of-its-ads/",
+  "https://appgrowing.net/blog/sept_game-3/",
+  "https://appgrowing.net/blog/the-last-week-of-october-in-game-lookups-two-clusters-up-four-down/",
+  "https://appgrowing.net/blog/tiktokminigames/",
+  "https://appgrowing.net/blog/top-lords-entered-the-lookup-list-with-1625-ads-a-day/",
+  "https://appgrowing.net/blog/when-download-rankings-and-ad-rankings-diverge-what-to-check-first/",
+  "https://appgrowing.net/blog/why-creative-is-the-new-targeting-code-in-2026/",
+  "https://appgrowing.net/blog/why-interrogative-choice-openers-scale-in-puzzle-and-deduction-game-ads/"
+ ],
+ "negatives": [
+  "https://appgrowing.net/blog/",
+  "https://appgrowing.net/blog/category/mobile-app-analysis_cn/",
+  "https://appgrowing.net/blog/page/2/",
+  "https://appgrowing.net/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "博客文章在入口路径 /blog/{slug}/ 下（情况 A）；分类页 /blog/category/{x}/ 与分页 /blog/page/N/ 多一级，作为反例。2026-11-03 复查：旧地址 /blog/en/{slug}/ 已 301 到 /blog/{slug}/"
+ },
+ "basis": "情况 A：博客文章 /blog/{slug}/（2026-11-03 浏览器取样首页 31 篇）",
+ "note": "旧地址 /blog/en/{slug}/ 现已 301 跳转到新地址"
+}

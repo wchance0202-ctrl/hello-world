@@ -1,0 +1,25 @@
+{
+ "seq": 108,
+ "entry_id": "S2-R126-E4",
+ "url": "https://www.sensorsdata.cn/researchInstitute.html",
+ "mode": "regex",
+ "browser": true,
+ "members": [
+  "https://www.sensorsdata.cn/researchInstitute/report/0653d006-0bd0-4f4a-aad5-272a2528e957",
+  "https://www.sensorsdata.cn/researchInstitute/report/67f1b6de04c617ae5e7e18b840e60bfa",
+  "https://www.sensorsdata.cn/researchInstitute/report/a8eec8633a998bcc6299da06a60aa391",
+  "https://www.sensorsdata.cn/researchInstitute/report/ebe9ffd5-c587-4dec-8733-fb425c72b574",
+  "https://www.sensorsdata.cn/researchInstitute/report/edb0977d72a68ad5fbdb54e971f5ed60"
+ ],
+ "negatives": [
+  "https://www.sensorsdata.cn/researchInstitute.html",
+  "https://www.sensorsdata.cn/school/library/6b7e4f36-2cf6-4e20-b28c-0628ac1dd1c6",
+  "https://www.sensorsdata.cn/target_disassembly.html"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "入口 researchInstitute.html 是文件形式，报告落在同名目录 /researchInstitute/report/{ID} 下（情况 A，取同名目录为边界）；同页另有 1 条链接到 /school/library/（学院资料库，不属于本栏目）"
+ },
+ "basis": "情况 A：研究院报告 /researchInstitute/report/{32 位十六进制或 UUID}，浏览器点击卡片取样",
+ "note": "样本只来自首屏卡片"
+}

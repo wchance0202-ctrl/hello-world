@@ -1,0 +1,20 @@
+{
+ "seq": 126,
+ "entry_id": "S1-R16-E6",
+ "url": "https://www.bis.org/about/fsi/overview",
+ "mode": "snapshot",
+ "members": [
+  "https://www.bis.org/about/fsi/capacity-development",
+  "https://www.bis.org/about/fsi/events",
+  "https://www.bis.org/about/fsi/outreach",
+  "https://www.bis.org/about/fsi/policy-implementation",
+  "https://www.bis.org/about/fsi/publications",
+  "https://www.bis.org/about/fsi/speeches"
+ ],
+ "negatives": [
+  "https://www.bis.org/about/fsi/overview",
+  "https://www.bis.org/committees/overview"
+ ],
+ "basis": "FSI栏目页面都在 /about/fsi/ 下，但入口页 /about/fsi/overview 与子页面同一结构，写成正则必然匹配入口页本身（RE2 无法排除单个页名），按快照逐条列出 6 个（含 sitemap 中该目录的页面）",
+ "note": "快照 2026-11-03"
+}

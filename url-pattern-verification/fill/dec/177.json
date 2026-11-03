@@ -1,0 +1,16 @@
+{
+ "seq": 177,
+ "entry_id": "S1-R49-E1",
+ "url": "https://www.deloitte.com/global/en/insights.html",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z0-9-]+\\.html$",
+ "carried_from": [
+  "R3-S1-R49-E1-F1",
+  "R3-S1-R49-E1-F2"
+ ],
+ "members": [],
+ "negatives": [],
+ "basis": "情况 A（文件形式入口退到 /global/en/insights/）：第 3 轮已验证——洞察文章 /insights/{类}/{主题}/{slug}.html 与年度系列 /insights/{类}/{主题}/{系列}/2026/{slug}.html",
+ "note": "第二条规则中的年份 2026 为样本字面量，新年份需扩展"
+}

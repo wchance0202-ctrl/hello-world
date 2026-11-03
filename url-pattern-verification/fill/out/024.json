@@ -1,0 +1,137 @@
+{
+ "seq": 24,
+ "entry_id": "S2-R44-E2",
+ "url": "https://www.frostchina.com/content/whitepaper-store?page=1",
+ "mode": "regex",
+ "basis": "情况 A：白皮书没有详情页 URL，本栏目的页面就是列表分页和行业筛选分页",
+ "note": "条目本身没有 URL（按钮），正则只覆盖列表页",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "白皮书条目在页面上是 href=\"#\" 的按钮（点击由脚本打开留资/下载），没有独立 URL；本栏目自己的页面只有列表分页 ?page=N 和行业筛选 ?industryMajor=…&page=N，都在入口路径 /content/whitepaper-store 下"
+ },
+ "observed_at": "2026-11-03T08:42:03+00:00",
+ "pattern": "^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?page=[0-9]+$\n^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?industryMajor=[A-Z0-9%\\(\\)\\+]+&page=[0-9]+$",
+ "families": [
+  {
+   "frozen_sha256": "e4cc9fc398057111fc5f69381ed23b8fb5f3a6c57ef802d1b5f6a3acf73507f3",
+   "pattern": "^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?page=[0-9]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 4,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 16
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.frostchina.com/content/whitepaper-store?page=1",
+     "https://www.frostchina.com/content/whitepaper-store?page=2",
+     "https://www.frostchina.com/content/whitepaper-store?page=3",
+     "https://www.frostchina.com/content/whitepaper-store?page=33",
+     "https://www.frostchina.com/content/whitepaper-store?page=35",
+     "https://www.frostchina.com/content/whitepaper-store?page=36",
+     "https://www.frostchina.com/content/whitepaper-store?page=37",
+     "https://www.frostchina.com/content/whitepaper-store?page=39",
+     "https://www.frostchina.com/content/whitepaper-store?page=4",
+     "https://www.frostchina.com/content/whitepaper-store?page=6",
+     "https://www.frostchina.com/content/whitepaper-store?page=7",
+     "https://www.frostchina.com/content/whitepaper-store?page=8"
+    ],
+    "holdout_pos": [
+     "https://www.frostchina.com/content/whitepaper-store?page=34",
+     "https://www.frostchina.com/content/whitepaper-store?page=38",
+     "https://www.frostchina.com/content/whitepaper-store?page=5",
+     "https://www.frostchina.com/content/whitepaper-store?page=9"
+    ],
+    "holdout_neg": [
+     "https://www.frostchina.com/content/whitepaper-store",
+     "https://www.frostchina.com/intellectual-property",
+     "https://www.frostchina.com/",
+     "https://www.frostchina.com/content/insight?page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%85%B6%E4%BB%96&page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=10",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=11",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=12",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=2"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "白皮书条目在页面上是 href=\"#\" 的按钮（点击由脚本打开留资/下载），没有独立 URL；本栏目自己的页面只有列表分页 ?page=N 和行业筛选 ?industryMajor=…&page=N，都在入口路径 /content/whitepaper-store 下"
+   }
+  },
+  {
+   "frozen_sha256": "3f61baf343d59760af0c7ab2155c44fb3c4f2ad95d6804d5e0b8b0194b5f19d8",
+   "pattern": "^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?industryMajor=[A-Z0-9%\\(\\)\\+]+&page=[0-9]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 38
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%85%B6%E4%BB%96&page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=11",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=12",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=8",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=9",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%B7%A5%E4%B8%9A%E3%80%81%E5%88%B6%E9%80%A0%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E6%9D%90%E6%96%99%E4%B8%8E%E5%8C%96%E5%B7%A5&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E6%B6%88%E8%B4%B9%E4%B8%8E%E9%9B%B6%E5%94%AE&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=4",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1+%28TMT%29&page=1"
+    ],
+    "holdout_pos": [
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E5%8C%BB%E7%96%97%E4%B8%8E%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6&page=4",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E6%B6%88%E8%B4%B9%E4%B8%8E%E9%9B%B6%E5%94%AE&page=1",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=14",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E8%83%BD%E6%BA%90%E3%80%81%E8%B5%84%E6%BA%90%E4%B8%8E%E5%85%AC%E7%94%A8%E4%BA%8B%E4%B8%9A&page=2",
+     "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E9%87%91%E8%9E%8D%E4%B8%8E%E5%95%86%E4%B8%9A%E6%9C%8D%E5%8A%A1&page=1"
+    ],
+    "holdout_neg": [
+     "https://www.frostchina.com/content/whitepaper-store",
+     "https://www.frostchina.com/intellectual-property",
+     "https://www.frostchina.com/",
+     "https://www.frostchina.com/content/insight?page=1",
+     "https://www.frostchina.com/content/whitepaper-store?page=1",
+     "https://www.frostchina.com/content/whitepaper-store?page=2",
+     "https://www.frostchina.com/content/whitepaper-store?page=3",
+     "https://www.frostchina.com/content/whitepaper-store?page=33",
+     "https://www.frostchina.com/content/whitepaper-store?page=34",
+     "https://www.frostchina.com/content/whitepaper-store?page=35"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "白皮书条目在页面上是 href=\"#\" 的按钮（点击由脚本打开留资/下载），没有独立 URL；本栏目自己的页面只有列表分页 ?page=N 和行业筛选 ?industryMajor=…&page=N，都在入口路径 /content/whitepaper-store 下"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null
+}

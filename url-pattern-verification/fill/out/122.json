@@ -1,0 +1,251 @@
+{
+ "seq": 122,
+ "entry_id": "S1-R6-E5",
+ "url": "https://www.worldbank.org/ext/en/news",
+ "mode": "regex",
+ "basis": "情况 B：新闻条目 /en/news/{类型}/{年}/{月}/{日}/{slug}，类型写成字面量：press-release、speech、statement、feature",
+ "note": "v2：第一版把年份写成了样本中唯一的 2026，sitemap 留出样本含其他年份而漏配；按漏配样本把年月日放宽为数字，旧留出转为已见样本，重新抽取新的 sitemap 留出",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻条目在 /en/news/{类型}/{年}/{月}/{日}/{slug} 下，类型（新闻稿、讲话）写成字面量；/en/news/ 只承载新闻；sitemap 同结构 URL 作留出"
+ },
+ "observed_at": "2026-11-03T09:33:33+00:00",
+ "pattern": "^https://www\\.worldbank\\.org/en/news/press\\-release/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$\n^https://www\\.worldbank\\.org/en/news/speech/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$\n^https://www\\.worldbank\\.org/en/news/statement/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$\n^https://www\\.worldbank\\.org/en/news/feature/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "85ab54692cb9775077d122be6ac809bc678cbdaef3908ef2ba5e33761b88b309",
+   "pattern": "^https://www\\.worldbank\\.org/en/news/press\\-release/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 15
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/en/news/press-release/2020/08/11/the-united-nations-road-safety-fund-and-the-global-road-safety-facility-announce-partnership-to-improve-road-safety-delivery-in-world-bank-funded-projects-in-tanzania",
+     "https://www.worldbank.org/en/news/press-release/2021/05/18/el-banco-mundial-otorga-prestamo-por-us-750-millones-a-colombia-para-garantizar-el-acceso-a-infraestructura-basica",
+     "https://www.worldbank.org/en/news/press-release/2022/06/22/new-project-supports-campaign-against-malnutrition-in-ph",
+     "https://www.worldbank.org/en/news/press-release/2023/12/14/thai-economy-to-recover-in-2024-driven-by-tourism-exports-recovery",
+     "https://www.worldbank.org/en/news/press-release/2026/04/17/mdb-heads-deepen-collaboration-to-support-countries-through-heightened-global-uncertainty",
+     "https://www.worldbank.org/en/news/press-release/2026/09/10/world-bank-group-launches-initiative-to-help-local-financial-institutions-expand-d",
+     "https://www.worldbank.org/en/news/press-release/2026/09/17/world-bank-group-mobilizes-record-private-capital-for-developing-countries-driving",
+     "https://www.worldbank.org/en/news/press-release/2026/10/18/uae-signs-agreement-to-host-2029-world-bank-group-annual-meetings",
+     "https://www.worldbank.org/en/news/press-release/2026/10/20/world-bank-group-launches-first-digital-strategy-to-expand-access-and-create-jobs",
+     "https://www.worldbank.org/en/news/press-release/2026/10/21/world-bank-group-debars-idmon-engineering-and-construction-company-limited",
+     "https://www.worldbank.org/en/news/press-release/2026/10/22/pakistan-faster-implementation-of-structural-reforms-could-see-incomes-triple-by-2",
+     "https://www.worldbank.org/en/news/press-release/2026/10/26/stronger-domestic-revenues-key-to-growth-jobs-and-better-services-in-somalia"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/en/news/press-release/2021/03/19/sint-maarten-trust-fund-approves-12-million-for-a-digital-government-transformation-project",
+     "https://www.worldbank.org/en/news/press-release/2022/01/14/competition-to-find-solutions-to-reduce-overfishing-in-coastal-fisheries",
+     "https://www.worldbank.org/en/news/press-release/2022/02/15/greater-transparency-on-hidden-and-distressed-debt-can-reduce-global-financial-risks-and-support-recovery",
+     "https://www.worldbank.org/en/news/press-release/2022/06/28/new-economic-analysis-calls-for-bold-reforms-for-malawi-s-macroeconomic-stability-and-service-delivery-ambitions",
+     "https://www.worldbank.org/en/news/press-release/2022/09/07/world-bank-group-delivers-record-31-7-billion-in-climate-finance-in-fiscal-year-2022",
+     "https://www.worldbank.org/en/news/press-release/2023/06/14/adventure-and-cultural-tourism-will-deliver-bigger-returns-for-the-pacific"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/news",
+     "https://www.worldbank.org/en/news/contacts",
+     "https://www.worldbank.org/en/news/all",
+     "https://www.worldbank.org/en/results/2025/05/12/accelerating-digital-transformation-in-france",
+     "https://www.worldbank.org/en/news/speech/2020/12/14/confronting-the-economic-and-financial-challenges-of-covid-19-a-conversation-with-world-bank-group-president-david-malpass",
+     "https://www.worldbank.org/en/news/speech/2021/09/03/remarks-by-axel-van-trotsenburg-managing-director-of-operations-for-the-taiyuan-energy-low-carbon-development-forum",
+     "https://www.worldbank.org/en/news/speech/2022/04/19/remarks-by-world-bank-group-president-david-malpass-to-the-u-s-treasury-s-event-on-tackling-food-insecurity-the-challeng",
+     "https://www.worldbank.org/en/news/speech/2023/04/10/spring-meetings-2023-media-call-opening-remarks-by-world-bank-group-president-david-malpass",
+     "https://www.worldbank.org/en/news/speech/2023/11/02/remarks-by-anna-bjerde-nepal",
+     "https://www.worldbank.org/en/news/speech/2023/12/06/ajay-banga-remarks-international-development-association-ida-midterm-review"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻条目在 /en/news/{类型}/{年}/{月}/{日}/{slug} 下，类型（新闻稿、讲话）写成字面量；/en/news/ 只承载新闻；sitemap 同结构 URL 作留出"
+   }
+  },
+  {
+   "frozen_sha256": "40898cecb0c976eef92690242984eca9c089f5e8d02cebe3f8ac1a7f3d7a73a3",
+   "pattern": "^https://www\\.worldbank\\.org/en/news/speech/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/en/news/speech/2020/12/14/confronting-the-economic-and-financial-challenges-of-covid-19-a-conversation-with-world-bank-group-president-david-malpass",
+     "https://www.worldbank.org/en/news/speech/2021/09/03/remarks-by-axel-van-trotsenburg-managing-director-of-operations-for-the-taiyuan-energy-low-carbon-development-forum",
+     "https://www.worldbank.org/en/news/speech/2022/04/19/remarks-by-world-bank-group-president-david-malpass-to-the-u-s-treasury-s-event-on-tackling-food-insecurity-the-challeng",
+     "https://www.worldbank.org/en/news/speech/2023/04/10/spring-meetings-2023-media-call-opening-remarks-by-world-bank-group-president-david-malpass",
+     "https://www.worldbank.org/en/news/speech/2023/11/02/remarks-by-anna-bjerde-nepal",
+     "https://www.worldbank.org/en/news/speech/2023/12/06/ajay-banga-remarks-international-development-association-ida-midterm-review",
+     "https://www.worldbank.org/en/news/speech/2026/10/13/remarks-by-wbg-president-ajay-banga-at-msmes-leveraging-data-for-jobs",
+     "https://www.worldbank.org/en/news/speech/2026/10/16/remarks-by-world-bank-group-president-ajay-banga-at-the-2026-annual-meetings-plena",
+     "https://www.worldbank.org/en/news/speech/2026/10/20/anna-bjerde-remarks-global-ai-digital-summit",
+     "https://www.worldbank.org/en/news/speech/2026/10/20/global-ai-digital-summit-opening-remarks-sangbu-kim"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/en/news/speech/2020/11/13/remarks-by-world-bank-group-chief-economist-carmen-reinhart-at-the-g20-finance-ministers-and-central-bank-governors-extraordinary-meeting",
+     "https://www.worldbank.org/en/news/speech/2021/06/01/remarks-by-world-bank-group-president-malpass-at-the-world-health-organization-media-briefing-on-covid-19",
+     "https://www.worldbank.org/en/news/speech/2021/06/03/remarks-by-world-bank-group-president-david-malpass-at-the-opening-session-of-the-2021-st-petersburg-economic-forum",
+     "https://www.worldbank.org/en/news/speech/2021/09/09/role-of-forests-in-resilient-pandemic-recovery-srilanka",
+     "https://www.worldbank.org/en/news/speech/2021/09/24/remarks-by-world-bank-group-president-david-malpass-at-high-level-dialogue-on-energy",
+     "https://www.worldbank.org/en/news/speech/2021/12/15/remarks-by-wbg-president-david-malpass-at-ida20-replenishment-meeting"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/news",
+     "https://www.worldbank.org/en/news/contacts",
+     "https://www.worldbank.org/en/news/all",
+     "https://www.worldbank.org/en/results/2025/05/12/accelerating-digital-transformation-in-france",
+     "https://www.worldbank.org/en/news/press-release/2020/08/11/the-united-nations-road-safety-fund-and-the-global-road-safety-facility-announce-partnership-to-improve-road-safety-delivery-in-world-bank-funded-projects-in-tanzania",
+     "https://www.worldbank.org/en/news/press-release/2021/05/18/el-banco-mundial-otorga-prestamo-por-us-750-millones-a-colombia-para-garantizar-el-acceso-a-infraestructura-basica",
+     "https://www.worldbank.org/en/news/press-release/2022/06/22/new-project-supports-campaign-against-malnutrition-in-ph",
+     "https://www.worldbank.org/en/news/press-release/2023/12/14/thai-economy-to-recover-in-2024-driven-by-tourism-exports-recovery",
+     "https://www.worldbank.org/en/news/press-release/2025/04/23/south-asia-s-growth-prospects-dimming-amid-global-uncertainty-increasing-domestic-revenues-key-to-stronger-fiscal-buffer",
+     "https://www.worldbank.org/en/news/press-release/2026/04/17/mdb-heads-deepen-collaboration-to-support-countries-through-heightened-global-uncertainty"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻条目在 /en/news/{类型}/{年}/{月}/{日}/{slug} 下，类型（新闻稿、讲话）写成字面量；/en/news/ 只承载新闻；sitemap 同结构 URL 作留出"
+   }
+  },
+  {
+   "frozen_sha256": "a6bf1353b58d5ffe3498f8d3cc46b3c92abbc06cefe1b94009975fe00bb380e9",
+   "pattern": "^https://www\\.worldbank\\.org/en/news/statement/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/en/news/statement/2021/03/21/statement-on-international-day-for-the-elimination-of-racial-discrimination",
+     "https://www.worldbank.org/en/news/statement/2021/09/16/international-organizations-manufacturers-agree-to-intensify-cooperation-to-deliver-covid-19-vaccines",
+     "https://www.worldbank.org/en/news/statement/2022/03/08/statement-on-international-womens-day",
+     "https://www.worldbank.org/en/news/statement/2022/10/15/readout-from-world-bank-group-president-david-malpass-s-meeting-with-patrick-achi-prime-minister-of-the-republic-of-c-te",
+     "https://www.worldbank.org/en/news/statement/2022/12/16/readout-from-world-bank-group-president-david-malpass-s-meeting-with-president-nana-akufo-addo-of-ghana",
+     "https://www.worldbank.org/en/news/statement/2023/02/22/readout-from-world-bank-group-president-david-malpass-s-meeting-with-nirmala-sitharaman-minister-of-finance-and-corporat",
+     "https://www.worldbank.org/en/news/statement/2026/10/14/global-sovereign-debt-roundtable-7th-co-chairs-progress-report",
+     "https://www.worldbank.org/en/news/statement/2026/10/15/nepal-and-the-world-bank-group-announce-partnership-to-explore-catastrophe-bond-fo",
+     "https://www.worldbank.org/en/news/statement/2026/10/16/health-works-vaccines-to-budgets-wbg-backs-proven-solutions-asean",
+     "https://www.worldbank.org/en/news/statement/2026/10/17/joint-statement-by-mdb-heads-advancing-joint-action-amid-global-uncertainty"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/en/news/statement/2021/06/11/world-bank-group-president-david-malpass-statement-on-covid-19-response-and-vaccinations-for-developing-countries",
+     "https://www.worldbank.org/en/news/statement/2021/06/16/world-bank-welcomes-common-framework-statement-by-chad-s-creditors",
+     "https://www.worldbank.org/en/news/statement/2021/09/21/readout-from-world-bank-group-president-david-malpass-s-meeting-with-president-faustin-archange-touad-ra-of-the-central",
+     "https://www.worldbank.org/en/news/statement/2021/09/22/readout-from-world-bank-group-president-david-malpass-s-meeting-with-president-laurentino-cortizo-cohen-of-panama",
+     "https://www.worldbank.org/en/news/statement/2021/11/09/international-organizations-vaccine-manufacturers-take-stock-of-covid-19-vaccine-rollout-share-views-for-2022",
+     "https://www.worldbank.org/en/news/statement/2026/04/08/joint-statement-by-the-heads-of-the-international-monetary-fund-the-world-bank-group-and-the-world-food-programme"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/news",
+     "https://www.worldbank.org/en/news/contacts",
+     "https://www.worldbank.org/en/news/all",
+     "https://www.worldbank.org/en/results/2025/05/12/accelerating-digital-transformation-in-france",
+     "https://www.worldbank.org/en/news/press-release/2020/08/11/the-united-nations-road-safety-fund-and-the-global-road-safety-facility-announce-partnership-to-improve-road-safety-delivery-in-world-bank-funded-projects-in-tanzania",
+     "https://www.worldbank.org/en/news/press-release/2021/05/18/el-banco-mundial-otorga-prestamo-por-us-750-millones-a-colombia-para-garantizar-el-acceso-a-infraestructura-basica",
+     "https://www.worldbank.org/en/news/press-release/2022/06/22/new-project-supports-campaign-against-malnutrition-in-ph",
+     "https://www.worldbank.org/en/news/press-release/2023/12/14/thai-economy-to-recover-in-2024-driven-by-tourism-exports-recovery",
+     "https://www.worldbank.org/en/news/press-release/2025/04/23/south-asia-s-growth-prospects-dimming-amid-global-uncertainty-increasing-domestic-revenues-key-to-stronger-fiscal-buffer",
+     "https://www.worldbank.org/en/news/press-release/2026/04/17/mdb-heads-deepen-collaboration-to-support-countries-through-heightened-global-uncertainty"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻条目在 /en/news/{类型}/{年}/{月}/{日}/{slug} 下，类型（新闻稿、讲话）写成字面量；/en/news/ 只承载新闻；sitemap 同结构 URL 作留出"
+   }
+  },
+  {
+   "frozen_sha256": "14887dc1bc1e22ae1cb3cd6150c1009be0a23f6f1f41d1b07b810b8e17164c61",
+   "pattern": "^https://www\\.worldbank\\.org/en/news/feature/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.worldbank.org/en/news/feature/2020/10/21/morocco-decentralizing-and-modernizing-urban-management",
+     "https://www.worldbank.org/en/news/feature/2021/06/07/el-mercurio-dorado-que-amenaza-a-la-amazonia",
+     "https://www.worldbank.org/en/news/feature/2022/03/24/protecting-north-macedonia-s-poorest-from-covid-s-economic-impacts",
+     "https://www.worldbank.org/en/news/feature/2023/08/09/emergency-cash-assistance-improves-the-livelihoods-of-desert-locust-affected-communities-in-afe-south-sudan",
+     "https://www.worldbank.org/en/news/feature/2023/11/30/entender-el-porqu-de-los-16-d-as-de-activismo-contra-la-violencia-de-g-nero",
+     "https://www.worldbank.org/en/news/feature/2026/03/19/electricity-s-impact-in-benin-transforming-lives-pole-by-pole",
+     "https://www.worldbank.org/en/news/feature/2026/10/02/small-ai-big-learning-possibilities",
+     "https://www.worldbank.org/en/news/feature/2026/10/20/turning-research-into-jobs-and-opportunity-across-africa",
+     "https://www.worldbank.org/en/news/feature/2026/10/21/powering-jobs-how-electricity-access-is-transforming-livelihoods-in-niger",
+     "https://www.worldbank.org/en/news/feature/2026/10/22/how-rwandas-solar-revolution-is-powering-jobs-and-transforming-lives-for-women"
+    ],
+    "holdout_pos": [
+     "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+     "https://www.worldbank.org/en/news/feature/2021/03/17/leading-by-example",
+     "https://www.worldbank.org/en/news/feature/2021/06/10/urban-institutional-reforms-transform-service-delivery-to-kenyans-in-municipalities",
+     "https://www.worldbank.org/en/news/feature/2021/07/06/covid-19-in-ghana-raising-awareness-promoting-safety-and-protecting-essential-services",
+     "https://www.worldbank.org/en/news/feature/2021/12/06/climate-change-governance",
+     "https://www.worldbank.org/en/news/feature/2025/05/27/improving-healthcare-access-through-renewable-energy"
+    ],
+    "holdout_neg": [
+     "https://www.worldbank.org/ext/en/news",
+     "https://www.worldbank.org/en/news/contacts",
+     "https://www.worldbank.org/en/news/all",
+     "https://www.worldbank.org/en/results/2025/05/12/accelerating-digital-transformation-in-france",
+     "https://www.worldbank.org/en/news/press-release/2020/08/11/the-united-nations-road-safety-fund-and-the-global-road-safety-facility-announce-partnership-to-improve-road-safety-delivery-in-world-bank-funded-projects-in-tanzania",
+     "https://www.worldbank.org/en/news/press-release/2021/05/18/el-banco-mundial-otorga-prestamo-por-us-750-millones-a-colombia-para-garantizar-el-acceso-a-infraestructura-basica",
+     "https://www.worldbank.org/en/news/press-release/2022/06/22/new-project-supports-campaign-against-malnutrition-in-ph",
+     "https://www.worldbank.org/en/news/press-release/2023/12/14/thai-economy-to-recover-in-2024-driven-by-tourism-exports-recovery",
+     "https://www.worldbank.org/en/news/press-release/2025/04/23/south-asia-s-growth-prospects-dimming-amid-global-uncertainty-increasing-domestic-revenues-key-to-stronger-fiscal-buffer",
+     "https://www.worldbank.org/en/news/press-release/2026/04/17/mdb-heads-deepen-collaboration-to-support-countries-through-heightened-global-uncertainty"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "新闻条目在 /en/news/{类型}/{年}/{月}/{日}/{slug} 下，类型（新闻稿、讲话）写成字面量；/en/news/ 只承载新闻；sitemap 同结构 URL 作留出"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 4
+ },
+ "why_not_verified": null
+}

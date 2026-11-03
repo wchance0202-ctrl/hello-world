@@ -1,0 +1,21 @@
+{
+ "seq": 237,
+ "entry_id": "S1-R123-E4",
+ "url": "https://blog.hubspot.com/website",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——网站博客文章 /website/{slug}",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:35:44+00:00",
+ "pattern": "^https://blog\\.hubspot\\.com/website/[a-z0-9_-]+$",
+ "status": "已验证",
+ "carried_from": [
+  "R3-S1-R123-E4-F1"
+ ],
+ "checks": {
+  "members": 9,
+  "pos_fail": [],
+  "neg": 4,
+  "neg_fail": []
+ }
+}

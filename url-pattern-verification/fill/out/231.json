@@ -1,0 +1,97 @@
+{
+ "seq": 231,
+ "entry_id": "S1-R118-E3",
+ "url": "https://www.brandwatch.com/guides/",
+ "mode": "regex",
+ "basis": "情况 A：指南详情 /guides/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "指南在入口路径 /guides/{slug}/ 下（情况 A），分页 /guides/page/N/ 作为反例",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:33:59+00:00",
+ "frozen_sha256": "d95c6fce82ce11b4d0a60976acb84b168a4c51eb1ac60ad1c653a6c025b15bdc",
+ "pattern": "^https://www\\.brandwatch\\.com/guides/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 7,
+  "holdout_pos": 5,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 97
+ },
+ "failures": [],
+ "identity_excluded": [
+  {
+   "url": "https://www.brandwatch.com/guides/forrester-cmi-qa/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/consumer-insights/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/guides/innovative-marketing/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/consumer-insights/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/guides/instagram-data-guide/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/blog/instagram-marketing/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/guides/maturing-social-listening-digital-consumer-intelligence/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/guides/maturity-model-consumer-intelligence/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/guides/voice-of-the-customer-strategy/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/guides/maturity-model-consumer-intelligence/",
+   "split": "inference"
+  },
+  {
+   "url": "https://www.brandwatch.com/guides/speed-to-insight/",
+   "status": 200,
+   "final": "https://www.brandwatch.com/guides/maturity-model-consumer-intelligence/",
+   "split": "holdout"
+  }
+ ],
+ "frozen": {
+  "inference": [
+   "https://www.brandwatch.com/guides/agency-roi/",
+   "https://www.brandwatch.com/guides/align-goals-to-business-objectives/",
+   "https://www.brandwatch.com/guides/competitive-intelligence-culture/",
+   "https://www.brandwatch.com/guides/forrester-cmi-qa/",
+   "https://www.brandwatch.com/guides/innovative-marketing/",
+   "https://www.brandwatch.com/guides/instagram-data-guide/",
+   "https://www.brandwatch.com/guides/logo-recognition/",
+   "https://www.brandwatch.com/guides/maturing-social-listening-digital-consumer-intelligence/",
+   "https://www.brandwatch.com/guides/pharma/",
+   "https://www.brandwatch.com/guides/tiktok-marketing/",
+   "https://www.brandwatch.com/guides/vizia-agility-collaboration-focus/",
+   "https://www.brandwatch.com/guides/voice-of-the-customer-strategy/"
+  ],
+  "holdout_pos": [
+   "https://www.brandwatch.com/guides/content-strategy/",
+   "https://www.brandwatch.com/guides/dci-product-development/",
+   "https://www.brandwatch.com/guides/discover-hidden-insights-first-party-data/",
+   "https://www.brandwatch.com/guides/forums-the-secret-online-intelligence-gold-mine/",
+   "https://www.brandwatch.com/guides/real-time-marketing/",
+   "https://www.brandwatch.com/guides/speed-to-insight/"
+  ],
+  "holdout_neg": [
+   "https://www.brandwatch.com/guides/",
+   "https://www.brandwatch.com/guides/page/2/",
+   "https://www.brandwatch.com/brandwatch-academy/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

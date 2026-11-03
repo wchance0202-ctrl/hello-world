@@ -1,0 +1,8 @@
+{
+ "seq": 56,
+ "entry_id": "S2-R88-E2",
+ "url": "https://www.linkflowtech.com/courses",
+ "mode": "empty",
+ "basis": "课程在入口路径下：/courses/{数字}（14 个）和 /courses/{slug}（6 个），但 2026-11-03 逐个打开（HTTP 与浏览器都试过），除 1 个外全部返回 500 Error，无法作为正例核验",
+ "note": "条目页当前打不开；站点恢复后可按 ^https://www\\.linkflowtech\\.com/courses/[0-9]+$ 重新验证"
+}

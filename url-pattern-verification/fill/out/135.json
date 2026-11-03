@@ -1,0 +1,25 @@
+{
+ "seq": 135,
+ "entry_id": "S1-R19-E2",
+ "url": "https://www.wipo.int/publications/en/",
+ "mode": "snapshot",
+ "basis": "出版物首页只链接 3 个出版物详情（/publications/en/details.jsp?id={数字}），少于 4 个，逐条列出；sitemap 中没有该结构",
+ "note": "快照 2026-11-03；出版物详情在入口路径下，条目增多后可改为 ^https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=[0-9]+$",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "出版物详情 /publications/en/details.jsp?id={数字} 在入口路径 /publications/en/ 下（情况 A）；sitemap 同结构 0 条作留出来源"
+ },
+ "observed_at": "2026-11-03T09:24:26+00:00",
+ "pattern": "^(?:https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4774|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4822|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4833)$",
+ "status": "快照",
+ "members": 3,
+ "kept": 3,
+ "dropped": [],
+ "negatives": [
+  "https://www.wipo.int/publications/en/",
+  "https://www.wipo.int/publications/en/series/index.jsp?id=33",
+  "https://www.wipo.int/en/web/ip-statistics",
+  "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1097-en-world-intangible-investment-highlights.pdf"
+ ],
+ "negatives_matched": []
+}

@@ -1,0 +1,61 @@
+{
+ "seq": 76,
+ "entry_id": "S2-R93-E12",
+ "url": "https://www.chinaventure.com.cn/news/116.html",
+ "mode": "regex",
+ "basis": "栏目标识：频道号 116 写成字面量；日期 8 位、文章 ID 为数字",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻详情 /news/{频道号}-{日期}-{ID}.html 的第一段就是频道号；本频道列表 21 条中 21 条以 116- 开头（其余 0 条是其他频道的置顶/推荐，不属于本频道）；频道号写成字面量后不匹配其他频道"
+ },
+ "observed_at": "2026-11-03T09:08:29+00:00",
+ "frozen_sha256": "80b4eda52c1f58e86066b6ad7a31f03269c5e5924ab17a5b83ce96c09e5c73fa",
+ "pattern": "^https://www\\.chinaventure\\.com\\.cn/news/116\\-[0-9]{8}\\-[0-9]+\\.html$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 5,
+  "holdout_neg": 6,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 21
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.chinaventure.com.cn/news/116-20260602-391676.html",
+   "https://www.chinaventure.com.cn/news/116-20260920-393358.html",
+   "https://www.chinaventure.com.cn/news/116-20260922-393404.html",
+   "https://www.chinaventure.com.cn/news/116-20260923-393421.html",
+   "https://www.chinaventure.com.cn/news/116-20260924-393438.html",
+   "https://www.chinaventure.com.cn/news/116-20260924-393442.html",
+   "https://www.chinaventure.com.cn/news/116-20260928-393456.html",
+   "https://www.chinaventure.com.cn/news/116-20261008-393513.html",
+   "https://www.chinaventure.com.cn/news/116-20261021-393707.html",
+   "https://www.chinaventure.com.cn/news/116-20261022-393718.html",
+   "https://www.chinaventure.com.cn/news/116-20261027-393781.html",
+   "https://www.chinaventure.com.cn/news/116-20261027-393789.html"
+  ],
+  "holdout_pos": [
+   "https://www.chinaventure.com.cn/news/116-20260923-393417.html",
+   "https://www.chinaventure.com.cn/news/116-20260923-393424.html",
+   "https://www.chinaventure.com.cn/news/116-20261016-393646.html",
+   "https://www.chinaventure.com.cn/news/116-20261020-393684.html",
+   "https://www.chinaventure.com.cn/news/116-20261026-393749.html"
+  ],
+  "holdout_neg": [
+   "https://www.chinaventure.com.cn/news/116.html",
+   "https://www.chinaventure.com.cn/news/80.html",
+   "https://www.chinaventure.com.cn/news/108-20261026-393766.html",
+   "https://www.chinaventure.com.cn/news/110-20260615-391848.html",
+   "https://www.chinaventure.com.cn/news/110-20260920-393350.html",
+   "https://www.chinaventure.com.cn/news/110-20260921-393380.html"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

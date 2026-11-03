@@ -1,0 +1,60 @@
+{
+ "seq": 232,
+ "entry_id": "S1-R120-E2",
+ "url": "https://buffer.com/library/",
+ "mode": "regex",
+ "basis": "情况 B：资源库文章 /resources/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源库入口 /library/ 的文章都在 /resources/{slug}/ 下（该路径只承载资源库文章）；作者页多一级，作为反例",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:34:54+00:00",
+ "frozen_sha256": "821a71df9c9c8c2144448e44add317b5d6cd3d558b72fba9ba990c01cfaae123",
+ "pattern": "^https://buffer\\.com/resources/[a-z-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 25
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://buffer.com/resources/ai-image-generator/",
+   "https://buffer.com/resources/ai-social-media-content-creation/",
+   "https://buffer.com/resources/ai-writing-tools/",
+   "https://buffer.com/resources/best-social-media-analytics-tools/",
+   "https://buffer.com/resources/best-time-to-post-on-tiktok/",
+   "https://buffer.com/resources/how-to-get-followers-on-tiktok/",
+   "https://buffer.com/resources/how-to-get-more-followers-on-facebook/",
+   "https://buffer.com/resources/instagram-image-size/",
+   "https://buffer.com/resources/linkedin/",
+   "https://buffer.com/resources/social-media-image-sizes/",
+   "https://buffer.com/resources/social-media-platforms/",
+   "https://buffer.com/resources/when-is-the-best-time-to-post-on-instagram/"
+  ],
+  "holdout_pos": [
+   "https://buffer.com/resources/best-time-to-post-on-linkedin/",
+   "https://buffer.com/resources/grow-on-instagram/",
+   "https://buffer.com/resources/instagram/",
+   "https://buffer.com/resources/social-media-calendar-template/",
+   "https://buffer.com/resources/social-media-marketing/",
+   "https://buffer.com/resources/tools/"
+  ],
+  "holdout_neg": [
+   "https://buffer.com/library/",
+   "https://buffer.com/resources/author/kirsti/",
+   "https://buffer.com/pricing"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

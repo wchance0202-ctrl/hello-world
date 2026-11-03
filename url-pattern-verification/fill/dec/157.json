@@ -1,0 +1,35 @@
+{
+ "seq": 157,
+ "entry_id": "S1-R27-E3",
+ "url": "https://www.euromonitor.com/store/explore-reports",
+ "mode": "regex",
+ "members": [
+  "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+  "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
+  "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
+  "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
+  "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
+  "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
+  "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+  "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
+  "https://www.euromonitor.com/store/explore-reports/western-europe/belgium",
+  "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+  "https://www.euromonitor.com/store/explore-reports/western-europe/france"
+ ],
+ "negatives": [
+  "https://www.euromonitor.com/store/explore-reports",
+  "https://www.euromonitor.com/store",
+  "https://www.euromonitor.com/dietary-supplements-in-kazakhstan/report"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "报告浏览页的分类页都在入口路径 /store/explore-reports/{行业或地区}/{子类} 下（情况 A）"
+ },
+ "basis": "情况 A：报告分类浏览页 /store/explore-reports/{行业或地区}/{子类}",
+ "note": "单篇报告页 /{slug}/report 在站点根路径下，入口页只出现 1 个，未纳入"
+}

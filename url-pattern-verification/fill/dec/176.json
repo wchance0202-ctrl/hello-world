@@ -1,0 +1,33 @@
+{
+ "seq": 176,
+ "entry_id": "S1-R48-E1",
+ "url": "https://www.bain.com/insights/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www\\.bain\\.com/insights/[a-zA-Z0-9_-]+/$",
+ "carried_from": [
+  "R3-S1-R48-E1-F1"
+ ],
+ "members": [
+  "https://www.bain.com/insights/black-friday-2026-sales-forecast-infographic/",
+  "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+  "https://www.bain.com/insights/inside-bains-2026-technology-report-webinar/",
+  "https://www.bain.com/insights/the-ai-opportunity-in-boring-businesses-with-brookfields-anuj-ranjan-podcast/",
+  "https://www.bain.com/insights/winning-with-ai-podcast-carsten-rasch-egeriis/",
+  "https://www.bain.com/insights/2020-year-in-review-the-surprising-resilience-m-and-a-report-2021/",
+  "https://www.bain.com/insights/banks-should-scrap-pilot-programs-and-do-this-instead-american-banker/",
+  "https://www.bain.com/insights/btb-emerging-technologies/",
+  "https://www.bain.com/insights/john-senior-reinvigorating-cross-selling-video/",
+  "https://www.bain.com/insights/passing-on-the-culture-of-business-building-fm-blog/",
+  "https://www.bain.com/insights/trade-spending-investment-or-expense/"
+ ],
+ "negatives": [
+  "https://www.bain.com/our-team/careers-nehir-mentes/",
+  "https://www.bain.com/our-team/jonathan-mccrostie/",
+  "https://www.bain.com/our-team/simon-breysse/",
+  "https://www.bain.com/our-team/roberta-berlinghieri-alumni/",
+  "https://www.bain.com/insights/topics/technology-report/"
+ ],
+ "basis": "情况 A：第 3 轮已验证——洞察文章 /insights/{slug}/",
+ "note": ""
+}

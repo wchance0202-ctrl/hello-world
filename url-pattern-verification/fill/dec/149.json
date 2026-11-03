@@ -1,0 +1,25 @@
+{
+ "seq": 149,
+ "entry_id": "S1-R19-E28",
+ "url": "https://www3.wipo.int/ipstats/",
+ "mode": "carry",
+ "status": "已验证",
+ "pattern": "^https://www3\\.wipo\\.int/ipstats/key\\-search/search\\-result\\?type=KEY&key=[0-9]*$",
+ "carried_from": "R3-S1-R19-E28-F1",
+ "members": [
+  "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=222",
+  "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
+  "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=252",
+  "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=201",
+  "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241"
+ ],
+ "negatives": [
+  "https://www3.wipo.int/ipstats/",
+  "https://www3.wipo.int/designdb/en/",
+  "https://www3.wipo.int/contact/en/hague/designs-in-action.html",
+  "https://www3.wipo.int/contact/en/madrid/",
+  "https://www3.wipo.int/ipstats/key-search/indicator"
+ ],
+ "basis": "情况 A：第 3 轮已验证——IP 统计关键指标检索结果页 /ipstats/key-search/search-result?type=KEY&key={数字}",
+ "note": ""
+}

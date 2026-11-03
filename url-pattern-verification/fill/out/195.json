@@ -1,0 +1,48 @@
+{
+ "seq": 195,
+ "entry_id": "S1-R68-E2",
+ "url": "https://www.iab.com/get-involved/",
+ "mode": "regex",
+ "basis": "情况 B：组织/中心页 /organizations/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "参与方式页列出 IAB 各组织/中心 /organizations/{slug}/，该路径只承载组织页",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:23:33+00:00",
+ "frozen_sha256": "8c6d7b32c9136bcfc937eed3b8426092ba3c5debf1d04278ef820c6bce4d552d",
+ "pattern": "^https://www\\.iab\\.com/organizations/[a-z-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 5,
+  "holdout_pos": 1,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 6
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.iab.com/organizations/experience-center/",
+   "https://www.iab.com/organizations/iab-membership-rates/",
+   "https://www.iab.com/organizations/measurement-center/",
+   "https://www.iab.com/organizations/media-center/",
+   "https://www.iab.com/organizations/tech-lab/"
+  ],
+  "holdout_pos": [
+   "https://www.iab.com/organizations/commerce-center/"
+  ],
+  "holdout_neg": [
+   "https://www.iab.com/get-involved/",
+   "https://www.iab.com/global",
+   "https://www.iab.com/insights/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

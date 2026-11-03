@@ -1,0 +1,19 @@
+{
+ "seq": 33,
+ "entry_id": "S2-R56-E1",
+ "url": "https://e.kuaishou.com/#/e/news",
+ "mode": "carry",
+ "basis": "情况 A（Hash 路由）：资讯详情在入口路由 /e/news/ 之下；第 3 轮浏览器点击首屏卡片取样（归纳 6、留出 2），每个地址单独在浏览器打开核验，node-re2 与 google-re2 两套引擎逐对一致",
+ "note": "样本只来自首屏卡片，列表后续页未枚举；路由前缀本身就是栏目边界",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T08:47:08+00:00",
+ "pattern": "^https://e\\.kuaishou\\.com/\\#/e/news/[0-9]+$",
+ "status": "已验证",
+ "carried_from": "R3H-S2-R56-E1-F1",
+ "checks": {
+  "members": 8,
+  "pos_fail": [],
+  "neg": 7,
+  "neg_fail": []
+ }
+}

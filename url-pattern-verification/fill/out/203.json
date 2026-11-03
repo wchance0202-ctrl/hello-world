@@ -1,0 +1,53 @@
+{
+ "seq": 203,
+ "entry_id": "S1-R76-E1",
+ "url": "https://wfanet.org/news/",
+ "mode": "regex",
+ "basis": "栏目标识：originNode=3905 写成字面量",
+ "note": "只取到第 1 页的 10 条",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "新闻列表的条目是 /knowledge/item/{年}/{月}/{日}/{slug}?originNode=3905，originNode=3905 是新闻栏目标识（10 条全部相同），写成字面量；不带该参数的知识条目不匹配",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:24:53+00:00",
+ "frozen_sha256": "ec25ed7bf8ea5eb1255dc258b2907fe535c47dd02ee8f3b9475361dfb1320cb2",
+ "pattern": "^https://wfanet\\.org/knowledge/item/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+\\?originNode=3905$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 8,
+  "holdout_pos": 2,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 10
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://wfanet.org/knowledge/item/2026/09/14/global-marketer-week-2027-dates-confirmed-for-london?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/16/cross-media-measurement-advances-in-belgium-and-india?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/29/canadian-advertisers-present-their-top-industry-honour-for-2026?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/29/global-brands-are-shifting-to-paying-for-outputs-not-time-wfa-research?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/30/96-of-major-brands-now-use-ai-in-marketing-wfa-research-finds?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/10/07/national-associations-to-meet-in-warsaw?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/10/19/wfa-reveals-first-speakers-and-agenda-for-global-marketer-week-in-london?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/10/26/wfa-names-expert-jury-for-2026-global-marketer-of-the-year?originNode=3905"
+  ],
+  "holdout_pos": [
+   "https://wfanet.org/knowledge/item/2026/09/22/strategic-thinking-is-the-biggest-skills-gap-for-marketing-wfa-research?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/10/05/latam-regional-meeting-comes-to-central-america-for-the-first-time?originNode=3905"
+  ],
+  "holdout_neg": [
+   "https://wfanet.org/news",
+   "https://wfanet.org/news?weblog-page=2",
+   "https://wfanet.org/knowledge/item/2026/09/14/global-marketer-week-2027-dates-confirmed-for-london",
+   "https://wfanet.org/forum-connect"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}

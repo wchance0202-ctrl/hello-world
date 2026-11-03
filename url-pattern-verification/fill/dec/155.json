@@ -1,0 +1,49 @@
+{
+ "seq": 155,
+ "entry_id": "S1-R27-E1",
+ "url": "https://www.euromonitor.com/articles",
+ "mode": "regex",
+ "members": [
+  "https://www.euromonitor.com/article/asias-gen-alpha-will-define-the-future-of-consumption",
+  "https://www.euromonitor.com/article/bank-loyalty-is-shifting-from-rewards-to-relationships",
+  "https://www.euromonitor.com/article/beyond-the-roll-latin-americas-tissue-reset",
+  "https://www.euromonitor.com/article/diapers-periods-and-dignity-latin-americas-hygiene-shift",
+  "https://www.euromonitor.com/article/euromonitor-international-launches-its-first-innovation-awards-to-recognise-the-fmcg-signals-shaping-whats-next",
+  "https://www.euromonitor.com/article/future-of-consumption-a-strategic-roadmap",
+  "https://www.euromonitor.com/article/growth-opportunities-in-the-transformed-womens-sportswear-segment",
+  "https://www.euromonitor.com/article/how-businesses-can-thrive-by-creating-sustainable-value",
+  "https://www.euromonitor.com/article/ifa-2026-ai-robotics-and-blurring-product-lines",
+  "https://www.euromonitor.com/article/inside-the-ai-recommendation-shelf-how-brands-get-discovered",
+  "https://www.euromonitor.com/article/k-beauty-tech-sees-challenges-adapting-to-us-consumption",
+  "https://www.euromonitor.com/article/key-regulatory-dynamics-shaping-nicotine-and-cannabis",
+  "https://www.euromonitor.com/article/megatrends-quantifying-personalisation",
+  "https://www.euromonitor.com/article/the-fibre-opportunity-what-we-can-learn-from-protein",
+  "https://www.euromonitor.com/article/the-rise-of-arabian-fragrances-from-regional-tradition-to-global-opportunity",
+  "https://www.euromonitor.com/article/the-trillion-litre-channel-why-small-grocers-hold-the-key",
+  "https://www.euromonitor.com/article/trends-redefining-the-future-of-car-rental",
+  "https://www.euromonitor.com/article/what-ai-powered-discovery-means-for-travel-loyalty-programmes",
+  "https://www.euromonitor.com/article/what-latin-americas-home-care-market-demands",
+  "https://www.euromonitor.com/article/what-your-category-data-isnt-telling-you",
+  "https://www.euromonitor.com/article/world-cup-lessons-for-us-travel-and-mega-events"
+ ],
+ "holdout": [
+  "https://www.euromonitor.com/article/5-common-mistakes-when-researching-consumers",
+  "https://www.euromonitor.com/article/exploring-us-snacking-trends-monitoring-inflation-and-promotional-impact",
+  "https://www.euromonitor.com/article/global-food-demand-the-sources-of-future-growth",
+  "https://www.euromonitor.com/article/luxury-goods-industry-overview",
+  "https://www.euromonitor.com/article/the-ethical-australian-consumer",
+  "https://www.euromonitor.com/article/understanding-crosscountry-loyalty-dynamics-in-the-airline-industry"
+ ],
+ "negatives": [
+  "https://www.euromonitor.com/articles",
+  "https://www.euromonitor.com/article",
+  "https://www.euromonitor.com/insights/asia-pacific",
+  "https://www.euromonitor.com/webinar"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "文章列表页列出全站文章，详情为 /article/{slug}（情况 B，类型族：/article/ 只承载文章）；sitemap 中同结构 2122 条作留出来源"
+ },
+ "basis": "情况 B：文章详情 /article/{slug}",
+ "note": "替换第 3 轮只覆盖 /insights/{地区} 导航页的规则"
+}

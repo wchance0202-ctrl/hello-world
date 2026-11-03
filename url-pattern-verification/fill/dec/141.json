@@ -1,0 +1,35 @@
+{
+ "seq": 141,
+ "entry_id": "S1-R19-E16",
+ "url": "https://www.wipo.int/en/web/ip-financing",
+ "mode": "regex",
+ "members": [
+  "https://www.wipo.int/en/web/ip-financing/w/news/2025/strengthening-ip-valuation-practices-in-hungary",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/bridging-the-funding-gap-5-investor-tips-for-women-entrepreneurs-and-inventors",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/from-ideas-to-assets-unlocking-viet-nam-s-innovation-economy",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/from-pilot-to-practice-lessons-from-wipo-s-first-ip-finance-pilot",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/launch-of-the-intangible-asset-valuation-network-iavn",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/malaysia-approves-first-loan-under-wipo-midf-ip-finance-pilot",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/new-wipo-reports-put-music-royalty-investment-and-ip-finance-in-focus",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/turning-ip-value-into-finance-southeast-asia-builds-regional-momentum",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-convenes-asean-investors-to-advance-ip-in-investment-decisions",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-report-launch-highlights-mexico-s-ip-financing-potential",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-signs-memorandum-of-understanding-to-launch-ip-finance-pilot-project-in-colombia",
+  "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-supports-aligning-valuation-standards-with-the-modern-economy"
+ ],
+ "holdout": [],
+ "negatives": [
+  "https://www.wipo.int/en/web/ip-financing",
+  "https://www.wipo.int/en/web/ip-financing/news",
+  "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0002",
+  "https://www.wipo.int/en/web/ip-statistics/w/news/2022/news_0004",
+  "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+  "https://www.wipo.int/en/web/about-ip"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "主题新闻在入口路径 /en/web/ip-financing/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-financing/news（12 条）"
+ },
+ "basis": "情况 A：主题新闻 /en/web/ip-financing/w/news/{年}/{slug}",
+ "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入"
+}

@@ -1,0 +1,19 @@
+{
+ "seq": 149,
+ "entry_id": "S1-R19-E28",
+ "url": "https://www3.wipo.int/ipstats/",
+ "mode": "carry",
+ "basis": "情况 A：第 3 轮已验证——IP 统计关键指标检索结果页 /ipstats/key-search/search-result?type=KEY&key={数字}",
+ "note": "",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:26:35+00:00",
+ "pattern": "^https://www3\\.wipo\\.int/ipstats/key\\-search/search\\-result\\?type=KEY&key=[0-9]*$",
+ "status": "已验证",
+ "carried_from": "R3-S1-R19-E28-F1",
+ "checks": {
+  "members": 5,
+  "pos_fail": [],
+  "neg": 5,
+  "neg_fail": []
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "seq": 209,
+ "entry_id": "S1-R87-E2",
+ "url": "https://gp.demandcurve.com/resources",
+ "mode": "snapshot",
+ "members": [
+  "https://gp.demandcurve.com/playbooks/above-the-fold",
+  "https://gp.demandcurve.com/playbooks/personalization-tactics",
+  "https://gp.demandcurve.com/playbooks/tiktok-ads-guide"
+ ],
+ "negatives": [
+  "https://gp.demandcurve.com/resources"
+ ],
+ "basis": "资源页列出 3 个 playbook（/playbooks/{slug}），少于 4 个，逐条列出",
+ "note": "快照 2026-11-03"
+}

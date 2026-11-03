@@ -1,0 +1,67 @@
+{
+ "seq": 247,
+ "entry_id": "S1-R141-E1",
+ "url": "https://www.zenithmedia.com/global-intelligence/thought-leadership/",
+ "mode": "regex",
+ "basis": "情况 B：洞察文章 /insights/{slug}/",
+ "note": "",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "思想领导力栏目翻完 31 页共 182 篇，都在 /insights/{slug}/ 下；sitemap 中该结构 173 篇，均在列表中",
+  "why_not": ""
+ },
+ "observed_at": "2026-11-03T09:37:53+00:00",
+ "frozen_sha256": "4df61c2bcb96efa41293f08c9cd155f27b33e9c97076788754f212b168406193",
+ "pattern": "^https://www\\.zenithmedia\\.com/insights/[a-z0-9-]+/$",
+ "status": "已验证",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 5,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 182
+ },
+ "failures": [],
+ "identity_excluded": [
+  {
+   "url": "https://www.zenithmedia.com/insights/magazines/",
+   "status": 200,
+   "final": "https://www.zenithmedia.com/magazines/",
+   "split": "holdout"
+  }
+ ],
+ "frozen": {
+  "inference": [
+   "https://www.zenithmedia.com/insights/30-rising-media-markets-new-report/",
+   "https://www.zenithmedia.com/insights/a-collective-voice-is-power/",
+   "https://www.zenithmedia.com/insights/advertising-media-uganda/",
+   "https://www.zenithmedia.com/insights/artificial-intelligence-enhances-role-search/",
+   "https://www.zenithmedia.com/insights/artificial-intelligence-rise-chatbot/",
+   "https://www.zenithmedia.com/insights/creativity-accelerates-brand-growth-day-3/",
+   "https://www.zenithmedia.com/insights/five-reasons-why-always-on-is-good-for-marketers-stefan-bardega-chief-digital-officer/",
+   "https://www.zenithmedia.com/insights/innovative-digital-formats-drive-global-ad-growth-2020/",
+   "https://www.zenithmedia.com/insights/new-consumer-pro-activity/",
+   "https://www.zenithmedia.com/insights/new-perspectives-five-takeaways-davos-2018/",
+   "https://www.zenithmedia.com/insights/tis-the-season-search-ai-readiness-for-the-holidays/",
+   "https://www.zenithmedia.com/insights/zenith-mena-x-tik-tok-maximizing-the-power-of-an-exceptional-partnership/"
+  ],
+  "holdout_pos": [
+   "https://www.zenithmedia.com/insights/data-driven-creativity-insights-from-the-festival-of-media-global-awards/",
+   "https://www.zenithmedia.com/insights/internet-advertising-driving-growth/",
+   "https://www.zenithmedia.com/insights/machines-get-creative/",
+   "https://www.zenithmedia.com/insights/magazines/",
+   "https://www.zenithmedia.com/insights/scott-galloway-entertaining-inspiring-prophet-doom/",
+   "https://www.zenithmedia.com/insights/tech-trends-2017/"
+  ],
+  "holdout_neg": [
+   "https://www.zenithmedia.com/global-intelligence/thought-leadership/",
+   "https://www.zenithmedia.com/global-intelligence/thought-leadership/page/2/",
+   "https://www.zenithmedia.com/news/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ }
+}
