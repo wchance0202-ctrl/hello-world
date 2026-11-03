@@ -17,5 +17,8 @@
   "pos_fail": [],
   "neg": 6,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

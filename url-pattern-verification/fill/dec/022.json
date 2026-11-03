@@ -2,7 +2,20 @@
  "seq": 22,
  "entry_id": "S2-R41-E5",
  "url": "https://www.hibor.com.cn/wnote.html",
- "mode": "empty",
- "basis": "我的云笔记：个人中心或功能页，内容需登录；页面主体只有全站研报分类菜单（/microns_13.html 等，每个页面都一样），没有本栏目条目",
- "note": "需登录，无可收录条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.hibor.com.cn/wnote.html"
+ ],
+ "label": "仅入口页（需登录）",
+ "no_fetch": false,
+ "basis": "我的云笔记：个人中心或功能页，内容需登录；页面主体只有全站研报分类菜单（/microns_13.html 等，每个页面都一样），没有本栏目条目；下级内容需登录，正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 22,
+  "entry_id": "S2-R41-E5",
+  "url": "https://www.hibor.com.cn/wnote.html",
+  "mode": "empty",
+  "basis": "我的云笔记：个人中心或功能页，内容需登录；页面主体只有全站研报分类菜单（/microns_13.html 等，每个页面都一样），没有本栏目条目",
+  "note": "需登录，无可收录条目"
+ }
 }

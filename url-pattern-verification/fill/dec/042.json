@@ -2,7 +2,20 @@
  "seq": 42,
  "entry_id": "S2-R63-E2",
  "url": "https://qn.taobao.com/headline/course",
- "mode": "empty",
- "basis": "浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com",
- "note": "需登录，未验证"
+ "mode": "selfpage",
+ "pages": [
+  "https://qn.taobao.com/headline/course"
+ ],
+ "label": "仅入口页（需登录）",
+ "no_fetch": true,
+ "basis": "浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com；打开即跳转到千牛登录页（登录页不属于本栏目），正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 42,
+  "entry_id": "S2-R63-E2",
+  "url": "https://qn.taobao.com/headline/course",
+  "mode": "empty",
+  "basis": "浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com",
+  "note": "需登录，未验证"
+ }
 }

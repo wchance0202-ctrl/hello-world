@@ -21,5 +21,8 @@
  "negatives": [
   "https://www.wipo.int/en/web/patentscope/data/index"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_isaproduct\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_jan2014\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-pct\\-fate\\-content\\-structure\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-wipo\\-coppa\\-technicaldocumentation\\.pdf)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

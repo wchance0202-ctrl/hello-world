@@ -15,5 +15,8 @@
  "negatives": [
   "https://e.newrank.cn/marketing/IndustryInformation"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://e\\.newrank\\.cn/marketing/IndustryInformation/13|https://e\\.newrank\\.cn/marketing/IndustryInformation/14|https://e\\.newrank\\.cn/marketing/IndustryInformation/15)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

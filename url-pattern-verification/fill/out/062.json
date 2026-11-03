@@ -17,5 +17,8 @@
   "https://www.linkflowtech.com/about-us",
   "https://www.linkflowtech.com/customer-cases/"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/epidemic\\-how\\-tensil\\-pharmaceuticals\\-found\\-second\\-growth\\-curve|https://www\\.linkflowtech\\.com/customer\\-cases/medical\\-device\\-companies\\-automate\\-customer\\-cultivation\\-process|https://www\\.linkflowtech\\.com/customer\\-cases/ophthalmology\\-medical\\-build\\-omni\\-domain\\-traffic\\-improve\\-customer\\-acquisition\\-efficiency)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -133,5 +133,8 @@
  "checks": {
   "families": 2
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

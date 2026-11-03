@@ -57,5 +57,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.chinaventure\\.com\\.cn/news/112\\-[0-9]{8}\\-[0-9]+\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

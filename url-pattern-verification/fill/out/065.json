@@ -2,11 +2,61 @@
  "seq": 65,
  "entry_id": "S2-R91-E2",
  "url": "https://socialbeta.com/tag/%E6%8B%9B%E8%81%98",
- "mode": "empty",
- "basis": "“招聘”标签页的条目同样是全站通用的 /article/{数字}，URL 不带标签标识；该标签条目与招聘栏目同量级（上千条），不做快照",
- "note": "条目地址全站共用",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:04:11+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "SocialBeta 文章通用结构 /article/{数字}；“招聘”标签页静态只有首页 20 条（?page= 被服务器忽略），清单另附",
+ "note": "超范围：同时匹配其他栏目的文章；标签条目与第 64 行招聘栏目基本相同，完整清单可参考第 64 行",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附"
+ },
+ "observed_at": "2026-11-03T10:14:20+00:00",
+ "frozen_sha256": "ba83d2640e5d0459b4b12fb44cdd32a79909b06c431dbe7182343a803248372b",
+ "pattern": "^https://socialbeta\\.com/article/[0-9]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 5,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 20
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://socialbeta.com/article/111411",
+   "https://socialbeta.com/article/111420",
+   "https://socialbeta.com/article/111421",
+   "https://socialbeta.com/article/111425",
+   "https://socialbeta.com/article/111427",
+   "https://socialbeta.com/article/111437",
+   "https://socialbeta.com/article/111443",
+   "https://socialbeta.com/article/111445",
+   "https://socialbeta.com/article/111453",
+   "https://socialbeta.com/article/111456",
+   "https://socialbeta.com/article/111463",
+   "https://socialbeta.com/article/111472"
+  ],
+  "holdout_pos": [
+   "https://socialbeta.com/article/111413",
+   "https://socialbeta.com/article/111440",
+   "https://socialbeta.com/article/111444",
+   "https://socialbeta.com/article/111457",
+   "https://socialbeta.com/article/111460"
+  ],
+  "holdout_neg": [
+   "https://socialbeta.com/tag/%E6%8B%9B%E8%81%98",
+   "https://socialbeta.com/job",
+   "https://socialbeta.com/campaign"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 20,
+ "pattern_base": "^https://socialbeta\\.com/article/[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

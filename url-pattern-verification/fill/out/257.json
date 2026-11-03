@@ -2,11 +2,25 @@
  "seq": 257,
  "entry_id": "S1-R151-E3",
  "url": "https://www.cbinsights.com/strategy-terminal/",
- "mode": "empty",
- "basis": "Strategy Terminal 产品介绍页：链接到产品、方案、关于等页面，没有内容条目",
- "note": "产品介绍页",
+ "mode": "selfpage",
+ "basis": "Strategy Terminal 产品介绍页：链接到产品、方案、关于等页面，没有内容条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:40:33+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:53+00:00",
+ "pattern": "^https://www\\.cbinsights\\.com/strategy\\-terminal/$",
+ "status": "单页",
+ "pages": [
+  "https://www.cbinsights.com/strategy-terminal/"
+ ],
+ "landing": [
+  {
+   "url": "https://www.cbinsights.com/strategy-terminal/",
+   "status": 200,
+   "final": "https://www.cbinsights.com/strategy-terminal/",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.cbinsights\\.com/strategy\\-terminal/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

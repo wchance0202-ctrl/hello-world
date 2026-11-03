@@ -15,5 +15,8 @@
  "negatives": [
   "https://gp.demandcurve.com/resources"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://gp\\.demandcurve\\.com/playbooks/above\\-the\\-fold|https://gp\\.demandcurve\\.com/playbooks/personalization\\-tactics|https://gp\\.demandcurve\\.com/playbooks/tiktok\\-ads\\-guide)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

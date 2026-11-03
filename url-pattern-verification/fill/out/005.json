@@ -2,11 +2,62 @@
  "seq": 5,
  "entry_id": "S2-R25-E2",
  "url": "https://www.analysys.cn/article/analysis/",
- "mode": "empty",
- "basis": "翻完 399 页，取得 3,978 篇文章；易观「趋势」(/trends，524 篇) 与「分析」(/article/analysis/，3,978 篇) 的文章都在同一结构 /article/detail/{数字} 下，两组互不相交，ID 区间交错，URL 中没有栏目标识，无法用正则区分；条目数超过 100，不做快照",
- "note": "同上；第 6 行的正则已覆盖全部文章详情页",
- "exclusivity": null,
- "observed_at": "2026-11-03T08:33:42+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "易观文章通用结构 /article/detail/{数字}；本栏目翻完 399 页共 3,978 篇（清单另附）",
+ "note": "超范围：同时匹配「趋势」栏目的文章",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:04:15+00:00",
+ "frozen_sha256": "752672fbc6f4f17edce41a257d5ed66c465dd6a6f230305233b41080bd913e37",
+ "pattern": "^https://www\\.analysys\\.cn/article/detail/[0-9]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 3978
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.analysys.cn/article/detail/1000292",
+   "https://www.analysys.cn/article/detail/1000669",
+   "https://www.analysys.cn/article/detail/10114",
+   "https://www.analysys.cn/article/detail/10195",
+   "https://www.analysys.cn/article/detail/10231",
+   "https://www.analysys.cn/article/detail/10788",
+   "https://www.analysys.cn/article/detail/16908",
+   "https://www.analysys.cn/article/detail/20019971",
+   "https://www.analysys.cn/article/detail/20020380",
+   "https://www.analysys.cn/article/detail/20021052",
+   "https://www.analysys.cn/article/detail/68",
+   "https://www.analysys.cn/article/detail/75"
+  ],
+  "holdout_pos": [
+   "https://www.analysys.cn/article/detail/10237",
+   "https://www.analysys.cn/article/detail/10333",
+   "https://www.analysys.cn/article/detail/20020814",
+   "https://www.analysys.cn/article/detail/20021221",
+   "https://www.analysys.cn/article/detail/9885",
+   "https://www.analysys.cn/article/detail/9948"
+  ],
+  "holdout_neg": [
+   "https://www.analysys.cn/article/analysis/",
+   "https://www.analysys.cn/article/analysis/?p=2",
+   "https://www.analysys.cn/trends"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 3978,
+ "pattern_base": "^https://www\\.analysys\\.cn/article/detail/[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

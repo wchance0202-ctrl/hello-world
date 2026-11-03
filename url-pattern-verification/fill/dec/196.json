@@ -2,7 +2,20 @@
  "seq": 196,
  "entry_id": "S1-R69-E3",
  "url": "https://esomar.org/resources/glossary",
- "mode": "empty",
- "basis": "术语表是单页，139 个链接都是本页内的锚点（#术语），没有下级页面",
- "note": "单页（页内锚点）"
+ "mode": "selfpage",
+ "pages": [
+  "https://esomar.org/resources/glossary"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "术语表是单页，139 个链接都是本页内的锚点（#术语），没有下级页面；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 196,
+  "entry_id": "S1-R69-E3",
+  "url": "https://esomar.org/resources/glossary",
+  "mode": "empty",
+  "basis": "术语表是单页，139 个链接都是本页内的锚点（#术语），没有下级页面",
+  "note": "单页（页内锚点）"
+ }
 }

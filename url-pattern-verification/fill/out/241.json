@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.shopify\\.com/blog/[a-z0-9-]+$\n^https://www\\.shopify\\.com/blog/[a-z]+/[a-zA-Z0-9%-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

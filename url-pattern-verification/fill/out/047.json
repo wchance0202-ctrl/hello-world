@@ -2,11 +2,25 @@
  "seq": 47,
  "entry_id": "S2-R66-E2",
  "url": "https://survey.jd.com/page/edition",
- "mode": "empty",
- "basis": "京洞察「版本与定价」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "京洞察「版本与定价」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:37:03+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:24+00:00",
+ "pattern": "^https://survey\\.jd\\.com/page/edition$",
+ "status": "单页",
+ "pages": [
+  "https://survey.jd.com/page/edition"
+ ],
+ "landing": [
+  {
+   "url": "https://survey.jd.com/page/edition",
+   "status": 200,
+   "final": "https://survey.jd.com/page/edition",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://survey\\.jd\\.com/page/edition$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

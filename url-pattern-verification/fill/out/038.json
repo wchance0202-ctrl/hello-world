@@ -180,5 +180,8 @@
  "checks": {
   "families": 3
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://jzt\\.jd\\.com/school/course/detail\\?contentId=[0-9]+$\n^https://jzt\\.jd\\.com/school/problem\\?contentId=[0-9]+$\n^https://jzt\\.jd\\.com/school/course/list\\?channelIds=[0-9,]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.greenbook\\.org/insights/[a-z0-9-]+/[a-z0-9-]+$\n^https://www\\.greenbook\\.org/insights/[a-z0-9_-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

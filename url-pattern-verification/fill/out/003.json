@@ -2,11 +2,18 @@
  "seq": 3,
  "entry_id": "S2-R24-E1",
  "url": "https://www.csm.com.cn/yjdc/Index.html",
- "mode": "empty",
- "basis": "2026-11-03 复查：连接被对端重置（ConnectionResetError），无 HTTP 响应",
- "note": "访问受限：无法打开",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：连接被对端重置（ConnectionResetError），无 HTTP 响应；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T08:33:41+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:44+00:00",
+ "pattern": "^https://www\\.csm\\.com\\.cn/yjdc/Index\\.html$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.csm.com.cn/yjdc/Index.html"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.csm\\.com\\.cn/yjdc/Index\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,7 +2,12 @@
  "seq": 147,
  "entry_id": "S1-R19-E26",
  "url": "https://www.wipo.int/en/web/country-profiles",
- "mode": "empty",
- "basis": "国家概况入口页主体只有 1 个子页面（IP 局名录）和全站链接；国家概况本身由脚本按选择加载，没有 /news 列表（404）",
- "note": "无可枚举条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.wipo.int/en/web/country-profiles"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "国家概况入口页主体只有 1 个子页面（IP 局名录）和全站链接；国家概况本身由脚本按选择加载，没有 /news 列表（404）；正则写本页精确地址",
+ "note": ""
 }

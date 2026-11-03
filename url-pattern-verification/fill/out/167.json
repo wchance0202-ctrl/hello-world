@@ -2,11 +2,298 @@
  "seq": 167,
  "entry_id": "S1-R45-E2",
  "url": "https://yougov.com/content/consumer",
- "mode": "empty",
- "basis": "消费者内容页的条目分布在全站通用路径 /articles/{编号-slug}（2,314）、/reports/…（252）、/case-studies/… 等下，各主题共用，URL 不带主题标识；条目数千，不做快照",
- "note": "条目地址全站共用",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:22:59+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "YouGov 内容通用结构；消费者主题共 2629 条（清单另附）",
+ "note": "超范围：同时匹配其他主题的内容",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:10:11+00:00",
+ "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$\n^https://yougov\\.com/events/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "913aa9a7b98580a740a4184612b8d9159bdaeb51592b5322941fee20ca4491c6",
+   "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 2301
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/articles/15178-netflix-haler-ind-pa-tv2-og-dr",
+     "https://yougov.com/articles/19348-de-ungas-topp-10-nar-det-galler-varumarken",
+     "https://yougov.com/articles/34956-yougov-dining-qsr-rankings-2021-malaysia",
+     "https://yougov.com/articles/37925-thailand-consumers-behaviour-after-covid",
+     "https://yougov.com/articles/40893-yougov-best-buzz-rankings-2021-philippines",
+     "https://yougov.com/articles/41901-march-ksa-advertiser-month-vimto",
+     "https://yougov.com/articles/42546-ksa-biggest-brand-movers",
+     "https://yougov.com/articles/51345-uae-biggest-brand-movers-december-2024",
+     "https://yougov.com/articles/51992-apac-biggest-brand-movers-march-2025",
+     "https://yougov.com/articles/52384-brand-trust-falls-after-food-recalls-with-1-in-6-reporting-strong-impact",
+     "https://yougov.com/articles/52941-canadian-advertisers-of-the-month-for-august-2025-american-eagle-ikea-and-old-spice",
+     "https://yougov.com/articles/53463-weight-and-see-belgian-shoppers-shortcut-to-health"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/articles/19685-sveriges-mest-rekommenderade-varumarken-2017",
+     "https://yougov.com/articles/46148-whats-stopping-americans-from-using-subscription-boxes-and-whats-getting-them-interested",
+     "https://yougov.com/articles/47981-airline-loyalty-programs-what-perks-most-attract-singaporeans-do-they-influence-flight-bookings-2023",
+     "https://yougov.com/articles/52640-uae-biggest-brand-movers-june-2025",
+     "https://yougov.com/articles/53459-exploring-uae-consumers-shift-toward-sustainability",
+     "https://yougov.com/articles/54260-apac-biggest-brand-movers-feb-2026"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/content/economy",
+     "https://yougov.com/business/sectors/consumer",
+     "https://yougov.com/reports/19017-mer-var-fjarde-har-bojkottat-ett-varumarke",
+     "https://yougov.com/reports/19019-hver-fjerde-forbruger-har-boykottet-et-varemaerke",
+     "https://yougov.com/reports/20580-1-ud-af-5-oplever-stress-hver-eneste-dag",
+     "https://yougov.com/reports/20584-1-av-3-opplever-stress-daglig",
+     "https://yougov.com/reports/20585-kaksi-viidesta-kokee-stressia-paivittain",
+     "https://yougov.com/reports/23105-klimatdebatten-har-paverkat-svenskarnas-matvanor"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "67737e137c7394b3b59c600e673f115cc66856ea49879609ee03b59bb4628b23",
+   "pattern": "^https://yougov\\.com/reports/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 276
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/reports/23118-klimadebatten-har-sat-aftryk-pa-danskernes-madvane",
+     "https://yougov.com/reports/31964-yougov-europeiske-forbrukeres-interesse-elbiler-ho",
+     "https://yougov.com/reports/32970-suomen-10-suosituinta-tuotemerkkia",
+     "https://yougov.com/reports/44458-mexicans-interest-electric-vehicles",
+     "https://yougov.com/reports/46760-global-fmcg-whitepaper-2023",
+     "https://yougov.com/reports/48605-apac-biggest-brand-movers-january-2024",
+     "https://yougov.com/reports/48817-swedens-strongest-brands-in-2023",
+     "https://yougov.com/reports/51444-yougov-best-global-brands-2025",
+     "https://yougov.com/reports/51520-apac-spotlight-pr-calendar-2025-jan-to-jul",
+     "https://yougov.com/reports/52451-brand-footprint-what-are-the-most-chosen-fmcg-brands-in-the-netherlands-and-belgium",
+     "https://yougov.com/reports/53576-cocoa-crisis-how-inflation-and-consumer-resilience-are-redefining-the-chocolate-economy",
+     "https://yougov.com/reports/55519-denmarks-most-recommended-brands-2026"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/reports/19019-hver-fjerde-forbruger-har-boykottet-et-varemaerke",
+     "https://yougov.com/reports/48516-thailand-packaged-food-brand-equity-rankings-2023",
+     "https://yougov.com/reports/48710-denmarks-strongest-brands-in-2023",
+     "https://yougov.com/reports/50318-apac-biggest-brand-movers-july",
+     "https://yougov.com/reports/50792-data-driven-pathways-to-sustainable-consumer-behavior",
+     "https://yougov.com/reports/51469-face-value-unmasking-australian-skincare-shoppers-in-2025"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/content/economy",
+     "https://yougov.com/business/sectors/consumer",
+     "https://yougov.com/articles/10354-top-10-best-practice-tips-how-conduct-market-resea",
+     "https://yougov.com/articles/10408-love-lawn-fabric",
+     "https://yougov.com/articles/10508-dubais-prospective-property-buyers-reveal-positive",
+     "https://yougov.com/articles/10545-new-survey-shows-jobs-are-plentiful-uae",
+     "https://yougov.com/articles/10590-yougov-grows-management-team-mena",
+     "https://yougov.com/articles/10798-which-mall-dubai-provides-best-shopper-experience"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "b19f17d6ebb5df27612abba87b623eb46d9d6776b80a020d56e8f6505ad49aec",
+   "pattern": "^https://yougov\\.com/case\\-studies/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 32
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/case-studies/46827-platanomelon-yougov-profiles-achieve-exponential-growth",
+     "https://yougov.com/case-studies/49979-cheerz-case-study",
+     "https://yougov.com/case-studies/50400-health-retailer-brand-tracking-case-study",
+     "https://yougov.com/case-studies/50421-cpg-brand-tracking-case-study",
+     "https://yougov.com/case-studies/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study",
+     "https://yougov.com/case-studies/53502-vauxhall-direct-case-study",
+     "https://yougov.com/case-studies/53514-windflower-florist-realtime-case-study",
+     "https://yougov.com/case-studies/53734-how-fairtrade-quantifies-label-value-with-yougovs-shopper-intelligence",
+     "https://yougov.com/case-studies/53869-how-estrella-maintains-category-leadership-with-shopper-behavioral-data",
+     "https://yougov.com/case-studies/54143-how-johnnys-bbq-buddies-tripled-its-buyer-base-with-yougov-shopper-segmentation",
+     "https://yougov.com/case-studies/55313-mapping-channel-relevance-how-ehi-built-a-data-driven-framework-for-retail-communication-planning-yougov-shopper",
+     "https://yougov.com/case-studies/55565-anthropic-market-research-case-study"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/case-studies/50038-loacker-custom-tracker-case-study",
+     "https://yougov.com/case-studies/52581-how-vion-reversed-stagnant-category-growth",
+     "https://yougov.com/case-studies/53512-deutsche-telekom-brandindex-case-study",
+     "https://yougov.com/case-studies/53649-how-desperados-drives-premium-growth-in-a-declining-market-with-yougov-shopper-intelligence",
+     "https://yougov.com/case-studies/54496-how-dr-oetker-drove-52-million-in-sales-with-a-new-product-launch-using-yougov-shopper-intelligence",
+     "https://yougov.com/case-studies/55201-how-frosta-identified-shopper-driven-category-opportunities-with-yougov-shopper"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/content/economy",
+     "https://yougov.com/business/sectors/consumer",
+     "https://yougov.com/articles/10354-top-10-best-practice-tips-how-conduct-market-resea",
+     "https://yougov.com/articles/10408-love-lawn-fabric",
+     "https://yougov.com/articles/10508-dubais-prospective-property-buyers-reveal-positive",
+     "https://yougov.com/articles/10545-new-survey-shows-jobs-are-plentiful-uae",
+     "https://yougov.com/articles/10590-yougov-grows-management-team-mena",
+     "https://yougov.com/articles/10798-which-mall-dubai-provides-best-shopper-experience"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "651de6907f5dda50aa30602d6c6e8045bfb5bc6f064785a7589e5be55862a1e7",
+   "pattern": "^https://yougov\\.com/guides/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 9,
+    "holdout_pos": 3,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/guides/53529-research-improve-marketing-mix-modeling",
+     "https://yougov.com/guides/53548-cost-effective-marketing-insights-leveraging-yougovs-survey-platform",
+     "https://yougov.com/guides/53549-how-to-measure-brand-awareness",
+     "https://yougov.com/guides/53558-how-to-elevate-category-management-for-success-with-shopper-insights",
+     "https://yougov.com/guides/53814-data-quality-checklist",
+     "https://yougov.com/guides/54443-how-to-measure-customer-satisfaction-with-market-research",
+     "https://yougov.com/guides/55419-what-model-context-protocol-means-for-market-research",
+     "https://yougov.com/guides/55461-how-to-use-mcp-for-market-research",
+     "https://yougov.com/guides/55680-how-to-activate-high-value-audiences-during-the-peak-holiday-season-2026"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/guides/53537-customer-persona",
+     "https://yougov.com/guides/53546-data-inform-marketing-campaign",
+     "https://yougov.com/guides/53677-how-to-connect-research-data-with-ai-driven-audience-activation"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/content/economy",
+     "https://yougov.com/business/sectors/consumer",
+     "https://yougov.com/articles/10354-top-10-best-practice-tips-how-conduct-market-resea",
+     "https://yougov.com/articles/10408-love-lawn-fabric",
+     "https://yougov.com/articles/10508-dubais-prospective-property-buyers-reveal-positive",
+     "https://yougov.com/articles/10545-new-survey-shows-jobs-are-plentiful-uae",
+     "https://yougov.com/articles/10590-yougov-grows-management-team-mena",
+     "https://yougov.com/articles/10798-which-mall-dubai-provides-best-shopper-experience"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "086da435cb2e03c2e08cdc09af45104d0d5477234ffb9a73f561e795ea9d47e9",
+   "pattern": "^https://yougov\\.com/events/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 6,
+    "holdout_pos": 2,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 8
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/events/55208-fresh-insights-for-your-year-end-rally-yougov-shopper-hungary",
+     "https://yougov.com/events/55260-webinar-2026-in-fmcg--time-for-check-in-after-h1-shopper-retail-trends-yougov-shopper",
+     "https://yougov.com/events/55281-webinar-ondemand-seasoned-shoppers-smarter-choices-a-nordic-perspective-yougov-shopper",
+     "https://yougov.com/events/55282-seasoned-shoppers-smarter-choices-a-nordic-perspective-recording-yougov-shopper",
+     "https://yougov.com/events/55620-webinar-the-danish-shopper-is-changing-are-retailers-keeping-up-yougov-shopper",
+     "https://yougov.com/events/55621-webinar-the-swedish-shopper-is-changing-are-retailers-keeping-up-yougov-shopper"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/events/55271-webinar-seasoned-shoppers-smarter-choices-a-nordic-perspective-yougov-shopper",
+     "https://yougov.com/events/55490-webinar-sustainability-the-heat-is-on-yougov-shopper"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/content/economy",
+     "https://yougov.com/business/sectors/consumer",
+     "https://yougov.com/articles/10354-top-10-best-practice-tips-how-conduct-market-resea",
+     "https://yougov.com/articles/10408-love-lawn-fabric",
+     "https://yougov.com/articles/10508-dubais-prospective-property-buyers-reveal-positive",
+     "https://yougov.com/articles/10545-new-survey-shows-jobs-are-plentiful-uae",
+     "https://yougov.com/articles/10590-yougov-grows-management-team-mena",
+     "https://yougov.com/articles/10798-which-mall-dubai-provides-best-shopper-experience"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 5
+ },
+ "why_not_verified": null,
+ "full_list_count": 2629,
+ "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$\n^https://yougov\\.com/events/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

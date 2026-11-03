@@ -2,7 +2,28 @@
  "seq": 168,
  "entry_id": "S1-R45-E4",
  "url": "https://yougov.com/business/sectors/consumer",
- "mode": "empty",
- "basis": "行业（消费品）营销介绍页：链接到解决方案页、少量文章与案例（均为全站共用路径），没有本栏目专属条目",
- "note": "营销介绍页"
+ "mode": "snapshot",
+ "members": [
+  "https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+  "https://business.yougov.com/content/50038-loacker-custom-tracker-case-study",
+  "https://business.yougov.com/content/50355-fmcg-audience-insights-case-study",
+  "https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study",
+  "https://yougov.com/articles/54681-norway-biggest-brand-movers-2026",
+  "https://yougov.com/articles/54682-finland-biggest-brand-movers-2026",
+  "https://yougov.com/articles/54683-sweden-biggest-brand-movers-2026",
+  "https://yougov.com/articles/55745-everyday-habits-australias-most-considered-personal-care-brands-2026",
+  "https://yougov.com/articles/55746-everyday-habits-indonesias-most-considered-personal-care-brands-2026",
+  "https://yougov.com/articles/55747-everyday-habits-hongkongs-most-considered-personal-care-brands-2026",
+  "https://yougov.com/articles/55748-everyday-habits-singapores-most-considered-beauty-personal-care-brands-2026",
+  "https://yougov.com/articles/55749-everyday-habits-thailands-most-considered-personal-care-brands-2026",
+  "https://yougov.com/case-studies/35211-sarsons-direct-case-study",
+  "https://yougov.com/case-studies/46827-platanomelon-yougov-profiles-achieve-exponential-growth",
+  "https://yougov.com/case-studies/49977-cps-gfk-harvest-house-case-study",
+  "https://yougov.com/case-studies/51464-unilever-innovation-centric-insights-case-study"
+ ],
+ "negatives": [
+  "https://yougov.com/business/sectors/consumer"
+ ],
+ "basis": "消费品行业营销页列出的文章、案例（全站共用路径），逐条列出",
+ "note": "快照 2026-11-03"
 }

@@ -15,5 +15,8 @@
   "pos_fail": [],
   "neg": 7,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.alimama\\.com/index\\.htm\\#!/marketing\\-case/article\\-detail\\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

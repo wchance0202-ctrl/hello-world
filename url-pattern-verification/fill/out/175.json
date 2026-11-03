@@ -2,11 +2,18 @@
  "seq": 175,
  "entry_id": "S1-R47-E4",
  "url": "https://www.bcg.com/industries/consumer-products-industry/insights",
- "mode": "empty",
- "basis": "2026-11-03 复查：Akamai 拒绝访问（403 Access Denied）",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：Akamai 拒绝访问（403 Access Denied）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:23:01+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:49+00:00",
+ "pattern": "^https://www\\.bcg\\.com/industries/consumer\\-products\\-industry/insights$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.bcg.com/industries/consumer-products-industry/insights"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.bcg\\.com/industries/consumer\\-products\\-industry/insights$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

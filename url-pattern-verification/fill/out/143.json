@@ -15,5 +15,8 @@
  "negatives": [
   "https://www.wipo.int/en/web/innovation-ecosystems"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2025/wipo\\-announces\\-partnership\\-with\\-harvard\\-growth\\-lab\\-at\\-assemblies\\-2025\\-side\\-event|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/innovation\\-in\\-action\\-wipo\\-hosts\\-high\\-level\\-event\\-and\\-launches\\-new\\-navigator\\-tool\\-at\\-assemblies|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/wipo\\-luiss\\-3rd\\-global\\-intan\\-invest\\-conference\\-better\\-data\\-for\\-better\\-policy\\-1)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

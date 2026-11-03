@@ -38,5 +38,8 @@
   "https://www.topys.cn/album",
   "https://www.topys.cn/drlist/29"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.topys\\.cn/article/34223|https://www\\.topys\\.cn/article/34252|https://www\\.topys\\.cn/article/34260|https://www\\.topys\\.cn/article/34277|https://www\\.topys\\.cn/article/34364|https://www\\.topys\\.cn/article/34385|https://www\\.topys\\.cn/article/34413|https://www\\.topys\\.cn/article/34549)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

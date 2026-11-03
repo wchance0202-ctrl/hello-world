@@ -17,5 +17,8 @@
   "https://www.cheaa.org/channels/116.html",
   "https://www.cheaa.org/contents/5/564.html"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.cheaa\\.org/contents/13/12994\\.html|https://www\\.cheaa\\.org/contents/13/2418\\.html|https://www\\.cheaa\\.org/contents/13/596\\.html)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

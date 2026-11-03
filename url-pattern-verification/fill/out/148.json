@@ -2,11 +2,25 @@
  "seq": 148,
  "entry_id": "S1-R19-E27",
  "url": "https://www3.wipo.int/madrid/monitor/en/",
- "mode": "empty",
- "basis": "Madrid Monitor 是商标检索应用：页面链接是帮助文档（/madrid/monitor/en/{帮助页}.html，带页内锚点）和语言版本，没有内容条目；检索结果需交互查询",
- "note": "检索应用，不写正则",
+ "mode": "selfpage",
+ "basis": "Madrid Monitor 是商标检索应用：页面链接是帮助文档（/madrid/monitor/en/{帮助页}.html，带页内锚点）和语言版本，没有内容条目；检索结果需交互查询；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:26:35+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:45+00:00",
+ "pattern": "^https://www3\\.wipo\\.int/madrid/monitor/en/$",
+ "status": "单页",
+ "pages": [
+  "https://www3.wipo.int/madrid/monitor/en/"
+ ],
+ "landing": [
+  {
+   "url": "https://www3.wipo.int/madrid/monitor/en/",
+   "status": 200,
+   "final": "https://www3.wipo.int/madrid/monitor/en/",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www3\\.wipo\\.int/madrid/monitor/en/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

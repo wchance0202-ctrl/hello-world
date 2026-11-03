@@ -2,11 +2,25 @@
  "seq": 97,
  "entry_id": "S2-R119-E7",
  "url": "https://www.focusmedia.cn/business/#jump",
- "mode": "empty",
- "basis": "产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:15:10+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:32+00:00",
+ "pattern": "^https://www\\.focusmedia\\.cn/business/$",
+ "status": "单页",
+ "pages": [
+  "https://www.focusmedia.cn/business/"
+ ],
+ "landing": [
+  {
+   "url": "https://www.focusmedia.cn/business/#jump",
+   "status": 200,
+   "final": "https://www.focusmedia.cn/business/#jump",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.focusmedia\\.cn/business/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

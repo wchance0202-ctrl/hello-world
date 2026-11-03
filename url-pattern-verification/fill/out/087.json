@@ -15,5 +15,8 @@
  "negatives": [
   "https://cy.chanmama.com/insights"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://cy\\.chanmama\\.com/contentCenter/62\\.html|https://cy\\.chanmama\\.com/contentCenter/63\\.html)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

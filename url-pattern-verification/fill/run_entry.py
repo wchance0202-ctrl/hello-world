@@ -221,21 +221,41 @@ def main(dec_path):
     members = sorted(set(d.get("members", [])))
     if d["mode"] == "empty":
         rec.update(pattern="", status="留空")
+    elif d["mode"] == "selfpage":
+        # the column is the page itself: exact entry URL plus the URL it actually lands on
+        pages = list(d["pages"])
+        seen = []
+        if not d.get("no_fetch"):
+            for u in list(pages):
+                ir = fetch(sess, u)
+                seen.append({"url": u, "status": ir.get("status"), "final": ir.get("final_url"), "hops": ir.get("hops")})
+                if ir.get("status") == 200 and ir.get("final_url") and ir["final_url"] not in pages:
+                    pages.append(ir["final_url"])
+        pages = sorted({u.split("#", 1)[0] if not re.search(r"#!?/", u) else u for u in pages})
+        pat = "^(?:" + "|".join(re.escape(u) for u in pages) + ")$" if len(pages) > 1 else "^" + re.escape(pages[0]) + "$"
+        re2.compile(pat)
+        rec.update(pattern=pat, status=d.get("label", "单页"), pages=pages, landing=seen)
     elif d["mode"] == "carry":
         # rule verified in an earlier round; evidence referenced, not re-run here
-        rx = re2.compile(d["pattern"])
-        negfail = [u for u in d.get("negatives", []) if rx.fullmatch(u)]
-        posfail = [u for u in d.get("members", []) if not rx.fullmatch(u)]
+        rxs = [re2.compile(x) for x in d["pattern"].split("\n")]
+        hit = lambda u: any(r.fullmatch(u) for r in rxs)  # noqa: E731
+        negfail = [u for u in d.get("negatives", []) if hit(u)]
+        posfail = [u for u in d.get("members", []) if not hit(u)]
         rec.update(pattern=d["pattern"], status=d["status"] if not (negfail or posfail) else "候选",
                    carried_from=d.get("carried_from"), checks={"members": len(d.get("members", [])), "pos_fail": posfail,
                                                                "neg": len(d.get("negatives", [])), "neg_fail": negfail})
+        if d.get("full_list"):
+            pass
     elif d["mode"] == "snapshot":
         pat = "^(?:" + "|".join(re.escape(u) for u in members) + ")$"
         if d.get("browser"):
             browser_identity(members)
-        ids = [fetch(sess, u) for u in members]
-        bad = [i for i in ids if not identity_ok(i)]
-        keep = [u for u, i in zip(members, ids) if identity_ok(i)]
+        skip = tuple(d.get("unverifiable_hosts", []))
+        ids = [{"url": u, "status": "skipped"} if urlsplit(u).netloc in skip else fetch(sess, u) for u in members]
+        okf = lambda i: i.get("status") == "skipped" or identity_ok(i)  # noqa: E731
+        bad = [i for i in ids if not okf(i)]
+        keep = [u for u, i in zip(members, ids) if okf(i)]
+        rec["unverified_kept"] = sum(1 for i in ids if i.get("status") == "skipped")
         pat = "^(?:" + "|".join(re.escape(u) for u in keep) + ")$" if keep else ""
         rx = re2.compile(pat) if pat else None
         negfail = [u for u in d.get("negatives", []) if rx and rx.fullmatch(u)]
@@ -258,6 +278,13 @@ def main(dec_path):
                    checks={"families": len(subs)}, why_not_verified=[w for x in subs for w in x.get("why_not_verified", [])] or None)
     else:
         run_regex(d, sess, members, rec)
+    if d.get("overscope") and rec.get("status") == "已验证":
+        rec["status"] = "超范围"
+    if d.get("full_list"):
+        lst = OUT.parent / "lists"
+        lst.mkdir(exist_ok=True)
+        (lst / f"{d['seq']:03d}.txt").write_text("\n".join(sorted(set(d["full_list"]))) + "\n", encoding="utf-8")
+        rec["full_list_count"] = len(set(d["full_list"]))
     OUT.mkdir(exist_ok=True)
     (OUT / f"{d['seq']:03d}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps({"seq": d["seq"], "status": rec["status"], "pattern": rec.get("pattern", "")[:140],

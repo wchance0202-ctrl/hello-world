@@ -2,11 +2,18 @@
  "seq": 32,
  "entry_id": "S2-R50-E1",
  "url": "https://www.vzkoo.com/question",
- "mode": "empty",
- "basis": "2026-11-03 复查：站点返回 403",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：站点返回 403；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T08:47:08+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:46+00:00",
+ "pattern": "^https://www\\.vzkoo\\.com/question$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.vzkoo.com/question"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.vzkoo\\.com/question$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

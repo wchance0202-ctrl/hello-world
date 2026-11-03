@@ -42,5 +42,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.sensorsdata\\.cn/researchInstitute/report/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,11 +2,25 @@
  "seq": 101,
  "entry_id": "S2-R119-E11",
  "url": "https://www.focusmedia.cn/aiad/#jump",
- "mode": "empty",
- "basis": "分众智投产品介绍单页（#jump 为页内锚点），主体只有到其他产品页的导航，没有下级条目",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "分众智投产品介绍单页（#jump 为页内锚点），主体只有到其他产品页的导航，没有下级条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:16:40+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:39+00:00",
+ "pattern": "^https://www\\.focusmedia\\.cn/aiad/$",
+ "status": "单页",
+ "pages": [
+  "https://www.focusmedia.cn/aiad/"
+ ],
+ "landing": [
+  {
+   "url": "https://www.focusmedia.cn/aiad/#jump",
+   "status": 200,
+   "final": "https://www.focusmedia.cn/aiad/#jump",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.focusmedia\\.cn/aiad/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

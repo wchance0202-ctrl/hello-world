@@ -2,11 +2,25 @@
  "seq": 147,
  "entry_id": "S1-R19-E26",
  "url": "https://www.wipo.int/en/web/country-profiles",
- "mode": "empty",
- "basis": "国家概况入口页主体只有 1 个子页面（IP 局名录）和全站链接；国家概况本身由脚本按选择加载，没有 /news 列表（404）",
- "note": "无可枚举条目",
+ "mode": "selfpage",
+ "basis": "国家概况入口页主体只有 1 个子页面（IP 局名录）和全站链接；国家概况本身由脚本按选择加载，没有 /news 列表（404）；正则写本页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:26:34+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:32:33+00:00",
+ "pattern": "^https://www\\.wipo\\.int/en/web/country\\-profiles$",
+ "status": "单页",
+ "pages": [
+  "https://www.wipo.int/en/web/country-profiles"
+ ],
+ "landing": [
+  {
+   "url": "https://www.wipo.int/en/web/country-profiles",
+   "status": 200,
+   "final": "https://www.wipo.int/en/web/country-profiles",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/country\\-profiles$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

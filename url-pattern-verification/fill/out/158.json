@@ -10,7 +10,7 @@
   "evidence": "洞察索引页是全部洞察内容的总目录（共 852 个链接），条目分属三类：/en/insights/{领域}/{slug}、/en/case-studies/{领域}/{slug}、/en/blogs/{博客}/{slug}；这三个路径只承载洞察内容"
  },
  "observed_at": "2026-11-03T09:28:24+00:00",
- "pattern": "^https://www\\.accenture\\.com/en/insights/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/case\\-studies/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/blogs/[a-z-]+/[a-z0-9-]+$",
+ "pattern": "^https://www\\.accenture\\.com/en/insights/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/case\\-studies/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/blogs/[a-z-]+/[a-z0-9-]+$\n^(?:https://www\\.accenture\\.com/en\\-cn/insights/consulting/chinese\\-consumer\\-insights\\-gen\\-z\\?country=US|https://www\\.accenture\\.com/en/industries/retail\\?country=US)$",
  "families": [
   {
    "frozen_sha256": "268b2b7c3b37eabe24bc1d440bdc7e9ffe105ce994f2c15b825797f764e2e072",
@@ -207,5 +207,11 @@
  "checks": {
   "families": 3
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.accenture\\.com/en/insights/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/case\\-studies/[a-z-]+/[a-z0-9-]+$\n^https://www\\.accenture\\.com/en/blogs/[a-z-]+/[a-z0-9-]+$",
+ "redirect_extra": [
+  "https://www.accenture.com/en-cn/insights/consulting/chinese-consumer-insights-gen-z?country=US",
+  "https://www.accenture.com/en/industries/retail?country=US"
+ ],
+ "redirect_skipped": []
 }

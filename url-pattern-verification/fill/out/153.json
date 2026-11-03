@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.mintel\\.com/insights/[a-z0-9-]+/[a-z0-9%_-]+/$\n^https://www\\.mintel\\.com/insights/[a-z-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -53,5 +53,8 @@
  },
  "why_not_verified": [
   "专属性未证明：研究出版物页的主要条目在 openknowledge.worldbank.org（另一子域）；站内旗舰出版物 /en/publication/{slug} 页面上只有 3 个，样本主要取自 sitemap，未能证明 /en/publication/ 全部属于本栏目"
- ]
+ ],
+ "pattern_base": "^https://www\\.worldbank\\.org/en/publication/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

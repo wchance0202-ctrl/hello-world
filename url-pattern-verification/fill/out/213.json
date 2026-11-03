@@ -17,5 +17,8 @@
   "pos_fail": [],
   "neg": 4,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

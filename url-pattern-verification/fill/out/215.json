@@ -6,35 +6,18 @@
  "basis": "观点页的条目在 /growth-hacking/{slug}/ 下（与其他栏目共用），逐条列出",
  "note": "快照 2026-11-03",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:26:13+00:00",
- "pattern": "",
- "status": "留空",
+ "observed_at": "2026-11-03T10:32:35+00:00",
+ "unverified_kept": 0,
+ "pattern": "^(?:https://growthhackers\\.com/growth\\-hacking/branded\\-vs\\-non\\-branded\\-keywords/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-all\\-you\\-need\\-to\\-know/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-the\\-new\\-battleground/|https://growthhackers\\.com/growth\\-hacking/the\\-growth\\-problems\\-youre\\-tired\\-of\\-and\\-the\\-system\\-we\\-built\\-to\\-end\\-them/)$",
+ "status": "快照",
  "members": 4,
- "kept": 0,
- "dropped": [
-  {
-   "url": "https://growthhackers.com/growth-hacking/branded-vs-non-branded-keywords/",
-   "status": 520,
-   "final": "https://growthhackers.com/growth-hacking/branded-vs-non-branded-keywords/"
-  },
-  {
-   "url": "https://growthhackers.com/growth-hacking/llm-rankings-all-you-need-to-know/",
-   "status": 520,
-   "final": "https://growthhackers.com/growth-hacking/llm-rankings-all-you-need-to-know/"
-  },
-  {
-   "url": "https://growthhackers.com/growth-hacking/llm-rankings-the-new-battleground/",
-   "status": 520,
-   "final": "https://growthhackers.com/growth-hacking/llm-rankings-the-new-battleground/"
-  },
-  {
-   "url": "https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/",
-   "status": 520,
-   "final": "https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/"
-  }
- ],
+ "kept": 4,
+ "dropped": [],
  "negatives": [
   "https://growthhackers.com/opinions/"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://growthhackers\\.com/growth\\-hacking/branded\\-vs\\-non\\-branded\\-keywords/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-all\\-you\\-need\\-to\\-know/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-the\\-new\\-battleground/|https://growthhackers\\.com/growth\\-hacking/the\\-growth\\-problems\\-youre\\-tired\\-of\\-and\\-the\\-system\\-we\\-built\\-to\\-end\\-them/)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

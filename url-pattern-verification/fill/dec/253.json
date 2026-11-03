@@ -2,7 +2,20 @@
  "seq": 253,
  "entry_id": "S1-R143-E2",
  "url": "https://business.adobe.com/resources/digital-trends-research-center.html",
- "mode": "empty",
- "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
- "note": "访问受限"
+ "mode": "selfpage",
+ "pages": [
+  "https://business.adobe.com/resources/digital-trends-research-center.html"
+ ],
+ "label": "仅入口页（访问受限）",
+ "no_fetch": true,
+ "basis": "2026-11-03 复查：连接超时（ReadTimeout）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 253,
+  "entry_id": "S1-R143-E2",
+  "url": "https://business.adobe.com/resources/digital-trends-research-center.html",
+  "mode": "empty",
+  "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
+  "note": "访问受限"
+ }
 }

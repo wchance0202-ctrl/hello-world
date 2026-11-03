@@ -2,11 +2,25 @@
  "seq": 50,
  "entry_id": "S2-R79-E4",
  "url": "https://www.morketing.com/ecosystem",
- "mode": "empty",
- "basis": "生态合作介绍页，页面主体没有条目链接（只有灵眸奖站点等少量外链）",
- "note": "无下级条目",
+ "mode": "selfpage",
+ "basis": "生态合作介绍页，页面主体没有条目链接（只有灵眸奖站点等少量外链）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T08:54:33+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:26+00:00",
+ "pattern": "^https://www\\.morketing\\.com/ecosystem$",
+ "status": "单页",
+ "pages": [
+  "https://www.morketing.com/ecosystem"
+ ],
+ "landing": [
+  {
+   "url": "https://www.morketing.com/ecosystem",
+   "status": 200,
+   "final": "https://www.morketing.com/ecosystem",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.morketing\\.com/ecosystem$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

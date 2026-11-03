@@ -16,5 +16,8 @@
   "https://www.bis.org/about/fsi/overview",
   "https://www.bis.org/committees/overview"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.bis\\.org/about/fsi/capacity\\-development|https://www\\.bis\\.org/about/fsi/events|https://www\\.bis\\.org/about/fsi/outreach|https://www\\.bis\\.org/about/fsi/policy\\-implementation|https://www\\.bis\\.org/about/fsi/publications|https://www\\.bis\\.org/about/fsi/speeches)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

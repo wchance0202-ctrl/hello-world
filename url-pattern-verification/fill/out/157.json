@@ -53,5 +53,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

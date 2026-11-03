@@ -50,5 +50,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

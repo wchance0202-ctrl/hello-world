@@ -2,11 +2,25 @@
  "seq": 17,
  "entry_id": "S2-R39-E2",
  "url": "https://www.yanbaoke.com/ai-searches",
- "mode": "empty",
- "basis": "AI 助手功能页，页面上没有任何条目链接",
- "note": "无下级条目",
+ "mode": "selfpage",
+ "basis": "AI 助手功能页，页面上没有任何条目链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:16:46+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:18+00:00",
+ "pattern": "^https://www\\.yanbaoke\\.com/ai\\-searches$",
+ "status": "单页",
+ "pages": [
+  "https://www.yanbaoke.com/ai-searches"
+ ],
+ "landing": [
+  {
+   "url": "https://www.yanbaoke.com/ai-searches",
+   "status": 200,
+   "final": "https://www.yanbaoke.com/ai-searches",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.yanbaoke\\.com/ai\\-searches$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

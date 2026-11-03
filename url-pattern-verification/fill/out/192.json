@@ -2,11 +2,25 @@
  "seq": 192,
  "entry_id": "S1-R62-E1",
  "url": "https://ads.tiktok.com/creative/creativeCenter",
- "mode": "empty",
- "basis": "TikTok 创意中心是工具应用：页面链接到工具与灵感模块入口，没有内容条目；数据需交互查询",
- "note": "工具应用",
+ "mode": "selfpage",
+ "basis": "TikTok 创意中心是工具应用：页面链接到工具与灵感模块入口，没有内容条目；数据需交互查询；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:23:05+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:49+00:00",
+ "pattern": "^https://ads\\.tiktok\\.com/creative/creativeCenter$",
+ "status": "单页",
+ "pages": [
+  "https://ads.tiktok.com/creative/creativeCenter"
+ ],
+ "landing": [
+  {
+   "url": "https://ads.tiktok.com/creative/creativeCenter",
+   "status": 200,
+   "final": "https://ads.tiktok.com/creative/creativeCenter",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://ads\\.tiktok\\.com/creative/creativeCenter$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,11 +2,18 @@
  "seq": 104,
  "entry_id": "S2-R124-E3",
  "url": "https://www.huiju.cool/industryinsight/",
- "mode": "empty",
- "basis": "2026-11-03 复查：站点返回 403 Forbidden",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：站点返回 403；下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:16:40+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:32:31+00:00",
+ "pattern": "^https://www\\.huiju\\.cool/industryinsight/$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.huiju.cool/industryinsight/"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.huiju\\.cool/industryinsight/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

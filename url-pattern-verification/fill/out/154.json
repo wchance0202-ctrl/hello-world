@@ -15,5 +15,8 @@
   "pos_fail": [],
   "neg": 4,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.mintel\\.com/press\\-centre/[a-z0-9_-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

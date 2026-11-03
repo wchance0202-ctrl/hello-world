@@ -2,11 +2,61 @@
  "seq": 208,
  "entry_id": "S1-R86-E5",
  "url": "https://www.dandad.org/subjects/case-study",
- "mode": "empty",
- "basis": "案例主题页的条目分散在全站多个路径（/insights/awards/{slug} 等，与洞察栏目共用），URL 不带主题标识；列表多页，不做快照",
- "note": "条目地址全站共用",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:25:39+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "案例主题的条目在洞察通用结构 /insights/{类}/{slug} 下（与第 207 行同一规则）",
+ "note": "超范围：同时匹配洞察栏目的其他文章；清单只含首页可见条目",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:14:17+00:00",
+ "frozen_sha256": "4873566a53a5dfd81c7cf38662cdb433bf3717f3d6ec6115723d95a0a5c575a4",
+ "pattern": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 5,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 21
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.dandad.org/insights/awards/ba-magic-of-flying-case-study-insights",
+   "https://www.dandad.org/insights/awards/cadbury-gorilla-case-study-insights",
+   "https://www.dandad.org/insights/awards/coca-cola-case-study-insights",
+   "https://www.dandad.org/insights/awards/dove-evolution-case-study-insights",
+   "https://www.dandad.org/insights/awards/gatorade-replay-case-study-insights",
+   "https://www.dandad.org/insights/awards/guardian-redesign-case-study-insights",
+   "https://www.dandad.org/insights/awards/meet-the-superhumans-case-study-insights",
+   "https://www.dandad.org/insights/awards/palau-pledge-case-study-insights",
+   "https://www.dandad.org/insights/awards/sony-balls-case-study-insights",
+   "https://www.dandad.org/insights/awards/tide-ad-campaign-case-study-insights",
+   "https://www.dandad.org/insights/features/pencil-for-a-tree-the-other-dada-social-good",
+   "https://www.dandad.org/insights/learning/how-we-won-brand-design-brief-new-blood-advice"
+  ],
+  "holdout_pos": [
+   "https://www.dandad.org/insights/awards/bear-case-study-insights",
+   "https://www.dandad.org/insights/awards/hbo-voyeur-case-study-insights",
+   "https://www.dandad.org/insights/awards/lynx-pulse-case-study-insights",
+   "https://www.dandad.org/insights/awards/old-spice-case-study-insights",
+   "https://www.dandad.org/insights/awards/trash-isles-case-study-insights"
+  ],
+  "holdout_neg": [
+   "https://www.dandad.org/subjects/case-study",
+   "https://www.dandad.org/subjects/case-study?page=2",
+   "https://www.dandad.org/insights/awards"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 21,
+ "pattern_base": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

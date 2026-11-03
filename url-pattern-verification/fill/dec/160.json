@@ -2,7 +2,20 @@
  "seq": 160,
  "entry_id": "S1-R33-E1",
  "url": "https://brandfinance.com/about",
- "mode": "empty",
- "basis": "关于我们单页，主体只有 4 个站内导航链接",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://brandfinance.com/about"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "关于我们单页，主体只有 4 个站内导航链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 160,
+  "entry_id": "S1-R33-E1",
+  "url": "https://brandfinance.com/about",
+  "mode": "empty",
+  "basis": "关于我们单页，主体只有 4 个站内导航链接",
+  "note": "单页，无下级条目"
+ }
 }

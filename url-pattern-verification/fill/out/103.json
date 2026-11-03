@@ -15,5 +15,8 @@
  "negatives": [
   "https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://a\\.huiju\\.cool/service/extfile/page/00a78b97d47f49a1bd0fde098a7a191b\\#/file|https://a\\.huiju\\.cool/service/extfile/page/230ed4f9c41d41939475795918a116c4\\#/file|https://a\\.huiju\\.cool/service/extfile/page/264481d0b46b45faa3e262bb7a384d33\\#/file|https://a\\.huiju\\.cool/service/extfile/page/2bb3c89f5a644d44af09e33874c0719a\\#/file|https://a\\.huiju\\.cool/service/extfile/page/4dba890735ee4a3e90101bf60a72e150\\#/file|https://a\\.huiju\\.cool/service/extfile/page/7a22bf514f0242e38dd20a69163cd378\\#/file|https://a\\.huiju\\.cool/service/extfile/page/8874d0623ec24f2d8c1782c2e7e83fbe\\#/file|https://a\\.huiju\\.cool/service/extfile/page/a761a609d3b442c191b99342541e8eea\\#/file)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -15,5 +15,8 @@
  "negatives": [
   "https://www.focusmedia.cn/whitepaper"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.focusmedia\\.cn/detail/1567/|https://www\\.focusmedia\\.cn/detail/1568/)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

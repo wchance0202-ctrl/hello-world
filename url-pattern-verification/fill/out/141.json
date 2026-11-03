@@ -52,5 +52,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-financing/w/news/[0-9]+/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -46,5 +46,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://thearf\\.org/category/topics/[a-z-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

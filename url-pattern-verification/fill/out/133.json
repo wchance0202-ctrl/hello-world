@@ -26,5 +26,13 @@
  "negatives": [
   "https://www.itu.int/en/publications/Pages/media.aspx"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.itu\\.int/en/publications/Pages/cdrom\\.aspx|https://www\\.itu\\.int/en/publications/Pages/eb\\.aspx|https://www\\.itu\\.int/en/publications/Pages/online\\.aspx|https://www\\.itu\\.int/en/publications/Pages/paper\\.aspx|https://www\\.itu\\.int/en/publications/Pages/pubnoticelist\\.aspx)$",
+ "redirect_extra": [],
+ "redirect_skipped": [
+  [
+   "https://www.itu.int/en/publications/Pages/default.aspx",
+   "https://www.itu.int/hub/"
+  ]
+ ]
 }

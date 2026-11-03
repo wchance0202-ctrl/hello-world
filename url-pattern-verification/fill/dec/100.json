@@ -2,7 +2,20 @@
  "seq": 100,
  "entry_id": "S2-R119-E10",
  "url": "https://www.focusmedia.cn/publication#jump",
- "mode": "empty",
- "basis": "「分众产品刊例价」单页，页面没有任何条目链接",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.focusmedia.cn/publication#jump"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "「分众产品刊例价」单页，页面没有任何条目链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 100,
+  "entry_id": "S2-R119-E10",
+  "url": "https://www.focusmedia.cn/publication#jump",
+  "mode": "empty",
+  "basis": "「分众产品刊例价」单页，页面没有任何条目链接",
+  "note": "单页，无下级条目"
+ }
 }

@@ -2,7 +2,9 @@
  "seq": 139,
  "entry_id": "S1-R19-E11",
  "url": "https://www.wipo.int/en/web/wipolex",
- "mode": "regex",
+ "mode": "carry",
+ "status": "候选",
+ "pattern": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_-]+$",
  "members": [
   "https://www.wipo.int/en/web/wipolex/w/news/2020/article_0022",
   "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0001",
@@ -17,7 +19,6 @@
   "https://www.wipo.int/en/web/wipolex/w/news/2023/news_0001",
   "https://www.wipo.int/en/web/wipolex/w/news/2026/new-wipo-lex-collection-brings-trade-secrets-case-law-into-focus"
  ],
- "holdout": [],
  "negatives": [
   "https://www.wipo.int/en/web/wipolex",
   "https://www.wipo.int/en/web/wipolex/news",
@@ -26,10 +27,6 @@
   "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
   "https://www.wipo.int/en/web/about-ip"
  ],
- "exclusivity": {
-  "proved": true,
-  "evidence": "主题新闻在入口路径 /en/web/wipolex/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/wipolex/news（12 条）"
- },
  "basis": "情况 A：主题新闻 /en/web/wipolex/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入"
+ "note": "v2：v1 归纳样本只有 news_00xx 形式，留出样本中出现带连字符的 slug 而漏配；按漏配样本加入连字符。新闻列表只有 12 条，没有新的留出样本可做第二轮验证，因此为候选"
 }

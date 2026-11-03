@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z0-9-]+\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,7 +2,20 @@
  "seq": 152,
  "entry_id": "S1-R20-E3",
  "url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
- "mode": "empty",
- "basis": "站内搜索结果页（results?filters=…&tab=all_results），结果随检索变化，不是固定栏目",
- "note": "搜索页，不写正则"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "站内搜索结果页（results?filters=…&tab=all_results），结果随检索变化，不是固定栏目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 152,
+  "entry_id": "S1-R20-E3",
+  "url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+  "mode": "empty",
+  "basis": "站内搜索结果页（results?filters=…&tab=all_results），结果随检索变化，不是固定栏目",
+  "note": "搜索页，不写正则"
+ }
 }

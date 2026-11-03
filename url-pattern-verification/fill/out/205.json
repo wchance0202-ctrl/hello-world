@@ -2,11 +2,18 @@
  "seq": 205,
  "entry_id": "S1-R81-E2",
  "url": "https://www.campaignlive.com/in-depth",
- "mode": "empty",
- "basis": "2026-11-03 复查：Cloudflare 验证页",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:25:15+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:51+00:00",
+ "pattern": "^https://www\\.campaignlive\\.com/in\\-depth$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.campaignlive.com/in-depth"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.campaignlive\\.com/in\\-depth$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

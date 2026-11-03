@@ -2,11 +2,70 @@
  "seq": 64,
  "entry_id": "S2-R91-E1",
  "url": "https://socialbeta.com/job",
- "mode": "empty",
- "basis": "招聘栏目翻完 148 页共 1,754 条，条目都是全站文章通用路径 /article/{数字}（快讯、文章等栏目同样使用），URL 不带招聘标识；超过 100 条，不做快照",
- "note": "条目地址全站共用；栏目分页 ^https://socialbeta\\.com/job\\?page=[0-9]+$ 只覆盖列表页",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:04:11+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "SocialBeta 文章通用结构 /article/{数字}；招聘栏目翻完 148 页共 1,754 篇（清单另附）",
+ "note": "超范围：同时匹配快讯等其他栏目的文章",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:07:28+00:00",
+ "frozen_sha256": "183d6d55fa194a274094169fded01c1dda16a9d035ceca151e8f1221692d7e83",
+ "pattern": "^https://socialbeta\\.com/article/[0-9]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 11,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 1754
+ },
+ "failures": [],
+ "identity_excluded": [
+  {
+   "url": "https://socialbeta.com/article/98923",
+   "status": 404,
+   "final": "https://socialbeta.com/article/98923",
+   "split": "inference"
+  }
+ ],
+ "frozen": {
+  "inference": [
+   "https://socialbeta.com/article/104045",
+   "https://socialbeta.com/article/106135",
+   "https://socialbeta.com/article/107630",
+   "https://socialbeta.com/article/107694",
+   "https://socialbeta.com/article/108872",
+   "https://socialbeta.com/article/109778",
+   "https://socialbeta.com/article/110344",
+   "https://socialbeta.com/article/110430",
+   "https://socialbeta.com/article/111272",
+   "https://socialbeta.com/article/97684",
+   "https://socialbeta.com/article/98882",
+   "https://socialbeta.com/article/98923"
+  ],
+  "holdout_pos": [
+   "https://socialbeta.com/article/103986",
+   "https://socialbeta.com/article/107123",
+   "https://socialbeta.com/article/109400",
+   "https://socialbeta.com/article/109415",
+   "https://socialbeta.com/article/109421",
+   "https://socialbeta.com/article/111310"
+  ],
+  "holdout_neg": [
+   "https://socialbeta.com/job",
+   "https://socialbeta.com/job?page=2",
+   "https://socialbeta.com/campaign",
+   "https://socialbeta.com/user/10007"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 1754,
+ "pattern_base": "^https://socialbeta\\.com/article/[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

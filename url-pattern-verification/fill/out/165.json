@@ -2,11 +2,62 @@
  "seq": 165,
  "entry_id": "S1-R44-E1",
  "url": "https://tolunacorporate.com/insights-and-news/",
- "mode": "empty",
- "basis": "条目是站点根目录下的 WordPress 文章 /{slug}/（入口页 252 条），与站内普通页面同一结构，无法用正则区分；超过 100 条，不做快照",
- "note": "条目地址无栏目标识",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:31:04+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "Toluna 文章在站点根目录 /{slug}/（清单 251 篇另附）",
+ "note": "超范围：根目录 /{slug}/ 也包括站内普通页面（关于、产品等）；根目录结构同样匹配入口页 /insights-and-news/ 本身",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:15:08+00:00",
+ "frozen_sha256": "20e66298c476b4eee5742cc3e0f079812b6214e46478688fab2a881db57239c9",
+ "pattern": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 251
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://tolunacorporate.com/always-a-step-ahead-interview-with-claudia-gelbe/",
+   "https://tolunacorporate.com/facebook-leverages-creative-testing-to-drive-best-practice-guidelines-with-in-market-results/",
+   "https://tolunacorporate.com/high-volume-physician-genai-confidence-and-caution/",
+   "https://tolunacorporate.com/how-beam-suntory-used-a-quant-qual-combination-to-take-concepts-to-in-market-testing-in-two-weeks/",
+   "https://tolunacorporate.com/how-kraft-heinz-rapidly-validated-campaign-positioning-with-toluna-start/",
+   "https://tolunacorporate.com/how-toluna-start-enabled-a-leading-pharmacy-to-monitor-brand-performance-and-boost-revenue-across-9000-stores/",
+   "https://tolunacorporate.com/inspiring-marketing-excellence-insights-from-mmas-smarties-x-global-awards/",
+   "https://tolunacorporate.com/mental-availability-brand-growth-framework/",
+   "https://tolunacorporate.com/pricing-out-of-stocks-staying-on-top-of-changing-consumer-behaviour/",
+   "https://tolunacorporate.com/psychology-in-market-research/",
+   "https://tolunacorporate.com/purpose-in-action-germany-screen2save-campaign/",
+   "https://tolunacorporate.com/toluna-reports-another-consecutive-year-of-organic-growth-enterprise-business-increases-18-in-2021/"
+  ],
+  "holdout_pos": [
+   "https://tolunacorporate.com/ai-validation-human-touch-reliable-ai/",
+   "https://tolunacorporate.com/evolving-perceptions-of-the-metaverse-in-the-us/",
+   "https://tolunacorporate.com/how-ai-and-predictive-insights-may-provide-a-window-into-the-future/",
+   "https://tolunacorporate.com/how-nestle-purina-leveraged-agile-insights-to-assess-demand-and-accelerate-product-development/",
+   "https://tolunacorporate.com/market-analytics-vs-market-research-whats-the-difference/",
+   "https://tolunacorporate.com/smarter-survey-design-prevent-fraud/"
+  ],
+  "holdout_neg": [
+   "https://tolunacorporate.com/legal/cookies/",
+   "https://tolunacorporate.com/?page_id=3178",
+   "https://tolunacorporate.com/legal/privacy-policy/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 251,
+ "pattern_base": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

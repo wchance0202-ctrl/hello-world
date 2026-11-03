@@ -2,7 +2,20 @@
  "seq": 164,
  "entry_id": "S1-R38-E1",
  "url": "https://www.futurebrand.com/contact-us",
- "mode": "empty",
- "basis": "联系我们单页，只有首页和社交媒体链接",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.futurebrand.com/contact-us"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "联系我们单页，只有首页和社交媒体链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 164,
+  "entry_id": "S1-R38-E1",
+  "url": "https://www.futurebrand.com/contact-us",
+  "mode": "empty",
+  "basis": "联系我们单页，只有首页和社交媒体链接",
+  "note": "单页，无下级条目"
+ }
 }

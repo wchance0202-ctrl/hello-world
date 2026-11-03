@@ -15,5 +15,8 @@
  "negatives": [
   "https://www.wipo.int/en/web/competition-policy"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/competition\\-policy/w/news/2011/news_0001\\-1)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

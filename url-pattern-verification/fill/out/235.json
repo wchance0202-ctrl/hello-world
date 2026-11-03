@@ -17,5 +17,8 @@
   "pos_fail": [],
   "neg": 4,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://blog\\.hubspot\\.com/sales/[a-zA-Z0-9%ü-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

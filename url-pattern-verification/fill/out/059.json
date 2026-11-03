@@ -17,5 +17,8 @@
   "https://www.linkflowtech.com/about-us",
   "https://www.linkflowtech.com/customer-cases/"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/annual\\-revenue\\-over\\-6\\-billion\\-secret\\-hot\\-pot\\-restaurant\\-operation)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

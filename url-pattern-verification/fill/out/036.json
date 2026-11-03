@@ -45,5 +45,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://e\\.xiaohongshu\\.com/numerous/detail\\?id=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -12,7 +12,7 @@
  },
  "observed_at": "2026-11-03T09:33:59+00:00",
  "frozen_sha256": "d95c6fce82ce11b4d0a60976acb84b168a4c51eb1ac60ad1c653a6c025b15bdc",
- "pattern": "^https://www\\.brandwatch\\.com/guides/[a-z0-9-]+/$",
+ "pattern": "^https://www\\.brandwatch\\.com/guides/[a-z0-9-]+/$\n^(?:https://www\\.brandwatch\\.com/blog/consumer\\-insights/|https://www\\.brandwatch\\.com/blog/instagram\\-marketing/)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 7,
@@ -93,5 +93,11 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.brandwatch\\.com/guides/[a-z0-9-]+/$",
+ "redirect_extra": [
+  "https://www.brandwatch.com/blog/consumer-insights/",
+  "https://www.brandwatch.com/blog/instagram-marketing/"
+ ],
+ "redirect_skipped": []
 }

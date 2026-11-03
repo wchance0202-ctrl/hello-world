@@ -2,11 +2,25 @@
  "seq": 107,
  "entry_id": "S2-R126-E1",
  "url": "https://www.sensorsdata.cn/target_disassembly.html",
- "mode": "empty",
- "basis": "指标拆解工具页：页面是交互工具，只有隐私政策链接，没有条目",
- "note": "工具页，无下级条目",
+ "mode": "selfpage",
+ "basis": "指标拆解工具页：页面是交互工具，只有隐私政策链接，没有条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:33:01+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:41+00:00",
+ "pattern": "^https://www\\.sensorsdata\\.cn/target_disassembly\\.html$",
+ "status": "单页",
+ "pages": [
+  "https://www.sensorsdata.cn/target_disassembly.html"
+ ],
+ "landing": [
+  {
+   "url": "https://www.sensorsdata.cn/target_disassembly.html",
+   "status": 200,
+   "final": "https://www.sensorsdata.cn/target_disassembly.html",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.sensorsdata\\.cn/target_disassembly\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

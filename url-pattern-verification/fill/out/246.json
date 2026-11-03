@@ -15,5 +15,8 @@
  "negatives": [
   "https://wingify.com/resources/"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://wingify\\.com/blog/how\\-to\\-go\\-from\\-zero\\-to\\-one\\-in\\-your\\-server\\-side\\-experimentation\\-journey/|https://wingify\\.com/blog/mobile\\-app\\-funnel\\-analysis/|https://wingify\\.com/blog/what\\-do\\-you\\-get\\-with\\-wingify\\-free\\-trial/|https://wingify\\.com/success\\-stories/defacto/|https://wingify\\.com/success\\-stories/garanti\\-bbva/|https://wingify\\.com/success\\-stories/performics\\-hdfc\\-ergo/|https://wingify\\.com/success\\-stories/ubisoft\\-ab\\-testing\\-lead\\-generation/)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

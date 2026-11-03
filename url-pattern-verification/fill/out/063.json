@@ -17,5 +17,8 @@
   "https://www.linkflowtech.com/about-us",
   "https://www.linkflowtech.com/customer-cases/"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/Consumer\\-Electronics\\-Brand\\-Store\\-Integration\\-Experience|https://www\\.linkflowtech\\.com/customer\\-cases/consumer\\-electronics\\-flexible\\-use\\-massive\\-consumer\\-data\\-achieve\\-omnichannel\\-effect\\-tracking)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

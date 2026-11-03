@@ -164,5 +164,8 @@
  "why_not_verified": [
   "归纳正例 0<3",
   "无留出正例"
- ]
+ ],
+ "pattern_base": "^https://www\\.coalchina\\.org\\.cn/index\\.php\\?m=content&c=index&a=show&catid=(?:288|289|290|292)&id=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

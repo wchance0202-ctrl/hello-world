@@ -2,7 +2,20 @@
  "seq": 201,
  "entry_id": "S1-R71-E3",
  "url": "https://www.ana.net/membership",
- "mode": "empty",
- "basis": "会员介绍页，主体只有少量站内导航链接",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.ana.net/membership"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "会员介绍页，主体只有少量站内导航链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 201,
+  "entry_id": "S1-R71-E3",
+  "url": "https://www.ana.net/membership",
+  "mode": "empty",
+  "basis": "会员介绍页，主体只有少量站内导航链接",
+  "note": "单页，无下级条目"
+ }
 }

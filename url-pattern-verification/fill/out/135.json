@@ -21,5 +21,8 @@
   "https://www.wipo.int/en/web/ip-statistics",
   "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1097-en-world-intangible-investment-highlights.pdf"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4774|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4822|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4833)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

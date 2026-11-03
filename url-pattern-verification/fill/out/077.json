@@ -2,11 +2,25 @@
  "seq": 77,
  "entry_id": "S2-R100-E1",
  "url": "https://www.isc.org.cn/article/10360020493839808.html",
- "mode": "empty",
- "basis": "该链接是协会网站的“联系我们”单页（/article/{数字}.html，与全站文章同一结构），不是栏目入口，没有下级条目",
- "note": "单页；如需收录本页本身，可写精确地址",
+ "mode": "selfpage",
+ "basis": "该链接是协会网站的“联系我们”单页（/article/{数字}.html，与全站文章同一结构），不是栏目入口，没有下级条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:07:34+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:29+00:00",
+ "pattern": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$",
+ "status": "单页",
+ "pages": [
+  "https://www.isc.org.cn/article/10360020493839808.html"
+ ],
+ "landing": [
+  {
+   "url": "https://www.isc.org.cn/article/10360020493839808.html",
+   "status": 200,
+   "final": "https://www.isc.org.cn/article/10360020493839808.html",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

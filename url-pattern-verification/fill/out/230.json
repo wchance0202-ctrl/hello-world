@@ -12,7 +12,7 @@
  },
  "observed_at": "2026-11-03T09:33:03+00:00",
  "frozen_sha256": "3c7f114acb46e6d69e04849ec748887822277d73a90a241b519d67af9d76fc49",
- "pattern": "^https://www\\.brandwatch\\.com/reports/[a-z0-9-]+/$",
+ "pattern": "^https://www\\.brandwatch\\.com/reports/[a-z0-9-]+/$\n^(?:https://www\\.brandwatch\\.com/blog/consumer\\-trends\\-media\\-entertainment/|https://www\\.brandwatch\\.com/blog/customer\\-experience/|https://www\\.brandwatch\\.com/blog/fashion\\-industry\\-trends/|https://www\\.brandwatch\\.com/blog/finance\\-trends/|https://www\\.brandwatch\\.com/blog/food\\-and\\-beverage\\-industry\\-trends/|https://www\\.brandwatch\\.com/blog/marketing\\-brand\\-sustainability\\-effectively/|https://www\\.brandwatch\\.com/blog/the\\-most\\-popular\\-emojis/)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 6,
@@ -117,5 +117,16 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.brandwatch\\.com/reports/[a-z0-9-]+/$",
+ "redirect_extra": [
+  "https://www.brandwatch.com/blog/consumer-trends-media-entertainment/",
+  "https://www.brandwatch.com/blog/customer-experience/",
+  "https://www.brandwatch.com/blog/fashion-industry-trends/",
+  "https://www.brandwatch.com/blog/finance-trends/",
+  "https://www.brandwatch.com/blog/food-and-beverage-industry-trends/",
+  "https://www.brandwatch.com/blog/marketing-brand-sustainability-effectively/",
+  "https://www.brandwatch.com/blog/the-most-popular-emojis/"
+ ],
+ "redirect_skipped": []
 }

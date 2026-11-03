@@ -2,7 +2,93 @@
  "seq": 224,
  "entry_id": "S1-R104-E2",
  "url": "https://www.thinkbox.tv/case-studies",
- "mode": "empty",
- "basis": "案例页静态请求和渲染都只取到 1 个案例链接，其余为脚本卡片，未取到 URL",
- "note": "无可枚举条目"
+ "mode": "regex",
+ "negatives": [
+  "https://www.thinkbox.tv/case-studies",
+  "https://www.thinkbox.tv/why-tv",
+  "https://www.thinkbox.tv/getting-on-tv",
+  "https://www.thinkbox.tv/"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "案例在入口路径 /case-studies/{slug} 下（情况 A）；页面列表由站内搜索脚本加载，样本取自站点 sitemap 中该目录的 192 个地址"
+ },
+ "basis": "情况 A：案例详情 /case-studies/{slug} 与品牌片 /case-studies/brand-films/{slug}（sitemap 中共 216 个）",
+ "note": "v2：v1 字符集只有字母和连字符，sitemap 覆盖检查发现含数字的 slug 和 /case-studies/brand-films/{slug} 子页漏配；按漏配样本加入数字、增加品牌片子页一条；漏配样本一半在扩展前留出用于验证，v1 留出转为已见样本",
+ "families": [
+  {
+   "members": [
+    "https://www.thinkbox.tv/case-studies/alibaba-com-used-tv-to-get-close-to-businesses",
+    "https://www.thinkbox.tv/case-studies/an-absolutely-paramount-tv-execution-for-transformers-4",
+    "https://www.thinkbox.tv/case-studies/ben-and-jerrys-show-the-proof-of-tvs-effectiveness-is-in-the-pudding",
+    "https://www.thinkbox.tv/case-studies/boots-delivers-more-than-just-invitations-to-feel-good",
+    "https://www.thinkbox.tv/case-studies/bosch",
+    "https://www.thinkbox.tv/case-studies/brand-films",
+    "https://www.thinkbox.tv/case-studies/compare-the-market-twins-with-corrie-to-generate-more-brand-love",
+    "https://www.thinkbox.tv/case-studies/flora-and-curl-tv-for-the-first-time-with-channel-4-and-lloyds-black-in",
+    "https://www.thinkbox.tv/case-studies/from-stormy-seas-to-plain-sailing",
+    "https://www.thinkbox.tv/case-studies/hotels-com-skippable-advert-on-all4",
+    "https://www.thinkbox.tv/case-studies/hotwire-com-hotting-up-response-through-tv",
+    "https://www.thinkbox.tv/case-studies/jd-williams-made-for-midlife",
+    "https://www.thinkbox.tv/case-studies/jet2holidays-welcome-aboard-sponsorship-airways",
+    "https://www.thinkbox.tv/case-studies/leaseplangos-launch-into-the-b2c-market",
+    "https://www.thinkbox.tv/case-studies/mini-babybel",
+    "https://www.thinkbox.tv/case-studies/nailing-diy-with-wickes",
+    "https://www.thinkbox.tv/case-studies/national-trust-for-scotland",
+    "https://www.thinkbox.tv/case-studies/nationwide-and-channel-4-together-against-hate",
+    "https://www.thinkbox.tv/case-studies/nylah-tv-for-the-first-time-with-channel-4",
+    "https://www.thinkbox.tv/case-studies/pinterest-pinned-their-hopes-on-tv",
+    "https://www.thinkbox.tv/case-studies/rspca-promotes-respect-and-kindness-for-every-kind-of-animal",
+    "https://www.thinkbox.tv/case-studies/scottish-widows-targeting-the-right-audience-with-tv",
+    "https://www.thinkbox.tv/case-studies/the-royal-british-legion",
+    "https://www.thinkbox.tv/case-studies/true-potential-realised-the-potential-of-tv-to-drive-awareness",
+    "https://www.thinkbox.tv/case-studies/vinted",
+    "https://www.thinkbox.tv/case-studies/xero-accounting-for-people-first-rather-than-business-first"
+   ],
+   "holdout": [
+    "https://www.thinkbox.tv/case-studies/activision-blizzards-media-takeover-launch-for-black-ops-6",
+    "https://www.thinkbox.tv/case-studies/alonuko-tv-for-the-first-time-with-channel-4-and-lloyds-black-in-business-initiative",
+    "https://www.thinkbox.tv/case-studies/arriva-trains",
+    "https://www.thinkbox.tv/case-studies/flake-bake-first-time-tv-with-channel-4-and-lloyds-black-in-business-initiative",
+    "https://www.thinkbox.tv/case-studies/o2-talked-to-teens-via-hollyoaks",
+    "https://www.thinkbox.tv/case-studies/peugeot-308-how-to-make-consideration-alluring",
+    "https://www.thinkbox.tv/case-studies/readly-leverages-tv-to-reach-digital-magazine-subscribers",
+    "https://www.thinkbox.tv/case-studies/severn-trent",
+    "https://www.thinkbox.tv/case-studies/taylors-of-harrogate-since-1886",
+    "https://www.thinkbox.tv/case-studies/tourism-australia-and-emirates-airline-co-fund-cookery-travel-series"
+   ],
+   "pattern": "^https://www\\.thinkbox\\.tv/case\\-studies/[a-z0-9-]+$"
+  },
+  {
+   "members": [
+    "https://www.thinkbox.tv/case-studies/brand-films/age-uk",
+    "https://www.thinkbox.tv/case-studies/brand-films/age-uk-old-peoples-home-for-four-year-olds-at-christmas",
+    "https://www.thinkbox.tv/case-studies/brand-films/cadburys",
+    "https://www.thinkbox.tv/case-studies/brand-films/dfs",
+    "https://www.thinkbox.tv/case-studies/brand-films/hovis",
+    "https://www.thinkbox.tv/case-studies/brand-films/how-nationwide-found-its-voice",
+    "https://www.thinkbox.tv/case-studies/brand-films/how-theres-a-glass-and-a-half-in-everyone-turned-round-cadburys-fortunes",
+    "https://www.thinkbox.tv/case-studies/brand-films/mccafe-moments",
+    "https://www.thinkbox.tv/case-studies/brand-films/specsavers",
+    "https://www.thinkbox.tv/case-studies/brand-films/tesco-a-true-tv-love-story",
+    "https://www.thinkbox.tv/case-studies/brand-films/yorkshire-tea",
+    "https://www.thinkbox.tv/case-studies/brand-films/yorkshire-tea-long-term-brand-building-done-proper"
+   ],
+   "holdout": [
+    "https://www.thinkbox.tv/case-studies/brand-films/10-lessons-for-marketers-from-john-lewis-ongoing-success",
+    "https://www.thinkbox.tv/case-studies/brand-films/aldi",
+    "https://www.thinkbox.tv/case-studies/brand-films/beauty-and-brains",
+    "https://www.thinkbox.tv/case-studies/brand-films/direct-line",
+    "https://www.thinkbox.tv/case-studies/brand-films/fosters",
+    "https://www.thinkbox.tv/case-studies/brand-films/guinness",
+    "https://www.thinkbox.tv/case-studies/brand-films/john-lewis",
+    "https://www.thinkbox.tv/case-studies/brand-films/mccain-when-the-chips-are-down-margins-matter",
+    "https://www.thinkbox.tv/case-studies/brand-films/mcdonalds-keeping-customers-lovin-it-for-15-years",
+    "https://www.thinkbox.tv/case-studies/brand-films/suzuki",
+    "https://www.thinkbox.tv/case-studies/brand-films/volkswagen-t-roc",
+    "https://www.thinkbox.tv/case-studies/brand-films/xero-how-accounting-for-trust-connected-with-small-businesses"
+   ],
+   "pattern": "^https://www\\.thinkbox\\.tv/case\\-studies/brand\\-films/[a-z0-9-]+$"
+  }
+ ]
 }

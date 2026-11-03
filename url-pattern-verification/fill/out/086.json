@@ -2,11 +2,25 @@
  "seq": 86,
  "entry_id": "S2-R113-E1",
  "url": "https://www.chanmama.com/douyin/",
- "mode": "empty",
- "basis": "蝉妈妈抖音版产品介绍页：主体链接是各类榜单和工具入口（直播榜、达人榜、商品榜等，每类 5 个示例），不是内容栏目条目；数据详情需登录",
- "note": "产品介绍页，无栏目条目",
+ "mode": "selfpage",
+ "basis": "蝉妈妈抖音版产品介绍页：主体链接是各类榜单和工具入口（直播榜、达人榜、商品榜等，每类 5 个示例），不是内容栏目条目；数据详情需登录；下级内容需登录，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:12:22+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:36+00:00",
+ "pattern": "^https://www\\.chanmama\\.com/douyin/$",
+ "status": "仅入口页（需登录）",
+ "pages": [
+  "https://www.chanmama.com/douyin/"
+ ],
+ "landing": [
+  {
+   "url": "https://www.chanmama.com/douyin/",
+   "status": 200,
+   "final": "https://www.chanmama.com/douyin/",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.chanmama\\.com/douyin/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -18,5 +18,8 @@
   "https://www.jazzyear.com/article_list.html?type=1",
   "https://www.jazzyear.com/study_info.html?id=1"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.jazzyear\\.com/article_info\\.html\\?id=1876|https://www\\.jazzyear\\.com/article_info\\.html\\?id=1877)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

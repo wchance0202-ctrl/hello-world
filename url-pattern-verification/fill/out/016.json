@@ -2,11 +2,25 @@
  "seq": 16,
  "entry_id": "S2-R39-E1",
  "url": "https://www.yanbaoke.com/openclaw",
- "mode": "empty",
- "basis": "单页产品介绍页（研报客 skills × OpenClaw），页面上没有本栏目条目链接，只有一个站外链接",
- "note": "无下级条目",
+ "mode": "selfpage",
+ "basis": "单页产品介绍页（研报客 skills × OpenClaw），页面上没有本栏目条目链接，只有一个站外链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:16:46+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:54+00:00",
+ "pattern": "^https://www\\.yanbaoke\\.com/openclaw$",
+ "status": "单页",
+ "pages": [
+  "https://www.yanbaoke.com/openclaw"
+ ],
+ "landing": [
+  {
+   "url": "https://www.yanbaoke.com/openclaw",
+   "status": 200,
+   "final": "https://www.yanbaoke.com/openclaw",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.yanbaoke\\.com/openclaw$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

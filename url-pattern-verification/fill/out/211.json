@@ -50,5 +50,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.greenbook\\.org/market\\-research\\-firms/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -15,5 +15,8 @@
  "negatives": [
   "https://www.focusmedia.cn/companyreport"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.focusmedia\\.cn/detail/1569/|https://www\\.focusmedia\\.cn/detail/1570/|https://www\\.focusmedia\\.cn/detail/1571/)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

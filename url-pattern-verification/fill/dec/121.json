@@ -2,7 +2,20 @@
  "seq": 121,
  "entry_id": "S1-R6-E4",
  "url": "https://www.worldbank.org/ext/en/what-we-do",
- "mode": "empty",
- "basis": "“我们做什么”是导航型概览页：链接到成果故事 /en/results/{年}/{月}/{日}/{slug}（只 3 个，该结构是「成果」栏目，sitemap 中 487 个）、项目库（projects.worldbank.org）等，没有专属本页的条目",
- "note": "概览页，无专属条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.worldbank.org/ext/en/what-we-do"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "“我们做什么”是导航型概览页：链接到成果故事 /en/results/{年}/{月}/{日}/{slug}（只 3 个，该结构是「成果」栏目，sitemap 中 487 个）、项目库（projects.worldbank.org）等，没有专属本页的条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 121,
+  "entry_id": "S1-R6-E4",
+  "url": "https://www.worldbank.org/ext/en/what-we-do",
+  "mode": "empty",
+  "basis": "“我们做什么”是导航型概览页：链接到成果故事 /en/results/{年}/{月}/{日}/{slug}（只 3 个，该结构是「成果」栏目，sitemap 中 487 个）、项目库（projects.worldbank.org）等，没有专属本页的条目",
+  "note": "概览页，无专属条目"
+ }
 }

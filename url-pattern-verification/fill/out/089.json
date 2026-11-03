@@ -2,11 +2,18 @@
  "seq": 89,
  "entry_id": "S2-R114-E2",
  "url": "https://www.weiboyi.com/meeting",
- "mode": "empty",
- "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点",
- "note": "访问受限（网络层）",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:16:40+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:47+00:00",
+ "pattern": "^https://www\\.weiboyi\\.com/meeting$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.weiboyi.com/meeting"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.weiboyi\\.com/meeting$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

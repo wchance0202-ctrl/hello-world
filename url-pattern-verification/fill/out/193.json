@@ -2,11 +2,18 @@
  "seq": 193,
  "entry_id": "S1-R63-E1",
  "url": "https://transparency.meta.com/policies/",
- "mode": "empty",
- "basis": "2026-11-03 复查：站点返回 400",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：站点返回 400；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:23:06+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:50+00:00",
+ "pattern": "^https://transparency\\.meta\\.com/policies/$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://transparency.meta.com/policies/"
+ ],
+ "landing": [],
+ "pattern_base": "^https://transparency\\.meta\\.com/policies/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

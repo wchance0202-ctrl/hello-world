@@ -2,11 +2,25 @@
  "seq": 9,
  "entry_id": "S2-R26-E3",
  "url": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
- "mode": "empty",
- "basis": "页面只显示行业分类和数量，没有条目链接（分类点击后的内容未登录不可见）",
- "note": "页面无可枚举的条目链接",
+ "mode": "selfpage",
+ "basis": "页面只显示行业分类和数量，没有条目链接（分类点击后的内容未登录不可见）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T08:38:16+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:16+00:00",
+ "pattern": "^https://www\\.leadleo\\.com/wiki/getLeadleoIndustryCatelogue$",
+ "status": "单页",
+ "pages": [
+  "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue"
+ ],
+ "landing": [
+  {
+   "url": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
+   "status": 200,
+   "final": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.leadleo\\.com/wiki/getLeadleoIndustryCatelogue$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

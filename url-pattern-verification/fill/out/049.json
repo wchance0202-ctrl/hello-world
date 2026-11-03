@@ -66,5 +66,8 @@
  },
  "why_not_verified": [
   "专属性未证明：内容中心是全站内容总列表，但只能取到首屏条目（“查看更多”点击无效），无法枚举全集核对"
- ]
+ ],
+ "pattern_base": "^https://www\\.morketing\\.com/detail/[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,7 +2,20 @@
  "seq": 15,
  "entry_id": "S2-R29-E4",
  "url": "https://www.datastory.com.cn/analyst/hotspot.html",
- "mode": "empty",
- "basis": "2026-11-03 复查：站点返回 468（防护拦截），页面无内容",
- "note": "访问受限"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.datastory.com.cn/analyst/hotspot.html"
+ ],
+ "label": "仅入口页（访问受限）",
+ "no_fetch": true,
+ "basis": "2026-11-03 复查：站点返回 468（防护拦截），页面无内容；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 15,
+  "entry_id": "S2-R29-E4",
+  "url": "https://www.datastory.com.cn/analyst/hotspot.html",
+  "mode": "empty",
+  "basis": "2026-11-03 复查：站点返回 468（防护拦截），页面无内容",
+  "note": "访问受限"
+ }
 }

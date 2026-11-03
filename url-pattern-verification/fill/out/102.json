@@ -48,5 +48,8 @@
  },
  "why_not_verified": [
   "专属性未证明：资源中心首页只展示 6 篇文章，文章列表页 /articles/ 由脚本渲染，静态取不到条目，无法核对 /articles/{数字}/ 的全集"
- ]
+ ],
+ "pattern_base": "^https://www\\.jingdigital\\.com/articles/[0-9]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

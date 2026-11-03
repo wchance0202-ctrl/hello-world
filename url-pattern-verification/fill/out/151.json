@@ -123,5 +123,8 @@
  "checks": {
   "families": 2
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

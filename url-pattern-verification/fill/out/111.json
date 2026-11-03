@@ -15,5 +15,8 @@
   "pos_fail": [],
   "neg": 7,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://learn\\.incopat\\.com/\\#/pages/course/detail\\?id=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

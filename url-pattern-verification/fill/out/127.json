@@ -16,5 +16,8 @@
   "https://www.bis.org/about/innovation-hub/overview",
   "https://www.bis.org/committees/overview"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.bis\\.org/about/innovation\\-hub/collaboration|https://www\\.bis\\.org/about/innovation\\-hub/events|https://www\\.bis\\.org/about/innovation\\-hub/network|https://www\\.bis\\.org/about/innovation\\-hub/news|https://www\\.bis\\.org/about/innovation\\-hub/podcasts|https://www\\.bis\\.org/about/innovation\\-hub/projects|https://www\\.bis\\.org/about/innovation\\-hub/publications|https://www\\.bis\\.org/about/innovation\\-hub/speeches|https://www\\.bis\\.org/about/innovation\\-hub/videos)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

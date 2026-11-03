@@ -16,5 +16,8 @@
   "https://www.chinaventure.com.cn/report/list.html",
   "https://www.chinaventure.com.cn/news/78.html"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231205\\-1747\\.html|https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231206\\-1748\\.html)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

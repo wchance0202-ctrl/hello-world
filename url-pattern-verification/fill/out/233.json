@@ -2,11 +2,94 @@
  "seq": 233,
  "entry_id": "S1-R122-E3",
  "url": "https://blog.hootsuite.com/resources/",
- "mode": "empty",
- "basis": "第 3 轮资源列表中的资源详情 /resource/{slug}/，2026-11-03 逐个打开全部 301 跳回资源列表 /resources/，详情页已失效；资源列表现在的卡片未取到新的详情 URL",
- "note": "原条目已失效",
+ "mode": "carry",
+ "basis": "资源列表的链接是 /resource/{slug}/（列表 10 页共 120 个，结构专属资源）；但 2026-11-03 逐个打开都 301 跳回 /resources/（资源改为表单领取），跳转目标就是入口页本身",
+ "note": "正则覆盖列表中的资源链接；落地都是入口页，没有独立的资源详情页可核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:41:10+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:12:55+00:00",
+ "pattern": "^https://blog\\.hootsuite\\.com/resource/[a-z0-9-]+/$",
+ "status": "候选",
+ "carried_from": null,
+ "checks": {
+  "members": 120,
+  "pos_fail": [],
+  "neg": 3,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://blog\\.hootsuite\\.com/resource/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": [
+  [
+   "https://blog.hootsuite.com/resource/instagram-dm-templates/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/facebook-ads-budget-calculator/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/instagram-reels-templates/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/youtube-growth-checklist/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-media-content-calendar-template/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-selling-guide/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/healthcare-social-media-policy-template/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/instagram-bio-examples/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/government-template-bundle/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/how-to-measure-the-roi-of-your-social-media/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/healthcare-template-bundle/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/instagram-reel-cover-templates/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-listening-guide/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-media-audit-template/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/time-saving-instagram-hacks/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-advertising-guide/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-seo-checklist/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-video-secrets/",
+   "https://blog.hootsuite.com/resources/"
+  ]
+ ]
 }

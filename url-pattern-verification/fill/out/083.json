@@ -160,5 +160,8 @@
   "归纳正例 2<3",
   "无留出正例",
   "专属性未证明：「行业资讯」(catid=12) 是上级栏目，页面混排子栏目条目；只在第 1 页看到子栏目 15、16、18，其他子栏目编号未能确认"
- ]
+ ],
+ "pattern_base": "^https://www\\.coalchina\\.org\\.cn/index\\.php\\?m=content&c=index&a=show&catid=(?:15|16|18)&id=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

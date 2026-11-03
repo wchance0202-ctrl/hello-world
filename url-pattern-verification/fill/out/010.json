@@ -48,5 +48,8 @@
  },
  "why_not_verified": [
   "专属性未证明：未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目"
- ]
+ ],
+ "pattern_base": "^https://www\\.leadleo\\.com/video/details/[a-z0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,11 +2,151 @@
  "seq": 224,
  "entry_id": "S1-R104-E2",
  "url": "https://www.thinkbox.tv/case-studies",
- "mode": "empty",
- "basis": "案例页静态请求和渲染都只取到 1 个案例链接，其余为脚本卡片，未取到 URL",
- "note": "无可枚举条目",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:32:40+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "情况 A：案例详情 /case-studies/{slug} 与品牌片 /case-studies/brand-films/{slug}（sitemap 中共 216 个）",
+ "note": "v2：v1 字符集只有字母和连字符，sitemap 覆盖检查发现含数字的 slug 和 /case-studies/brand-films/{slug} 子页漏配；按漏配样本加入数字、增加品牌片子页一条；漏配样本一半在扩展前留出用于验证，v1 留出转为已见样本",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "案例在入口路径 /case-studies/{slug} 下（情况 A）；页面列表由站内搜索脚本加载，样本取自站点 sitemap 中该目录的 192 个地址"
+ },
+ "observed_at": "2026-11-03T10:34:39+00:00",
+ "pattern": "^https://www\\.thinkbox\\.tv/case\\-studies/[a-z0-9-]+$\n^https://www\\.thinkbox\\.tv/case\\-studies/brand\\-films/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "493528aa70331ec3821dc8bf09c3dcf5bd74fc2f767f0d12f7b0b940ddd4cb6b",
+   "pattern": "^https://www\\.thinkbox\\.tv/case\\-studies/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 10,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 26
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.thinkbox.tv/case-studies/alibaba-com-used-tv-to-get-close-to-businesses",
+     "https://www.thinkbox.tv/case-studies/an-absolutely-paramount-tv-execution-for-transformers-4",
+     "https://www.thinkbox.tv/case-studies/compare-the-market-twins-with-corrie-to-generate-more-brand-love",
+     "https://www.thinkbox.tv/case-studies/jd-williams-made-for-midlife",
+     "https://www.thinkbox.tv/case-studies/jet2holidays-welcome-aboard-sponsorship-airways",
+     "https://www.thinkbox.tv/case-studies/leaseplangos-launch-into-the-b2c-market",
+     "https://www.thinkbox.tv/case-studies/nailing-diy-with-wickes",
+     "https://www.thinkbox.tv/case-studies/nationwide-and-channel-4-together-against-hate",
+     "https://www.thinkbox.tv/case-studies/nylah-tv-for-the-first-time-with-channel-4",
+     "https://www.thinkbox.tv/case-studies/pinterest-pinned-their-hopes-on-tv",
+     "https://www.thinkbox.tv/case-studies/rspca-promotes-respect-and-kindness-for-every-kind-of-animal",
+     "https://www.thinkbox.tv/case-studies/true-potential-realised-the-potential-of-tv-to-drive-awareness"
+    ],
+    "holdout_pos": [
+     "https://www.thinkbox.tv/case-studies/activision-blizzards-media-takeover-launch-for-black-ops-6",
+     "https://www.thinkbox.tv/case-studies/alonuko-tv-for-the-first-time-with-channel-4-and-lloyds-black-in-business-initiative",
+     "https://www.thinkbox.tv/case-studies/arriva-trains",
+     "https://www.thinkbox.tv/case-studies/flake-bake-first-time-tv-with-channel-4-and-lloyds-black-in-business-initiative",
+     "https://www.thinkbox.tv/case-studies/o2-talked-to-teens-via-hollyoaks",
+     "https://www.thinkbox.tv/case-studies/peugeot-308-how-to-make-consideration-alluring",
+     "https://www.thinkbox.tv/case-studies/readly-leverages-tv-to-reach-digital-magazine-subscribers",
+     "https://www.thinkbox.tv/case-studies/severn-trent",
+     "https://www.thinkbox.tv/case-studies/taylors-of-harrogate-since-1886",
+     "https://www.thinkbox.tv/case-studies/tourism-australia-and-emirates-airline-co-fund-cookery-travel-series"
+    ],
+    "holdout_neg": [
+     "https://www.thinkbox.tv/case-studies",
+     "https://www.thinkbox.tv/why-tv",
+     "https://www.thinkbox.tv/getting-on-tv",
+     "https://www.thinkbox.tv/",
+     "https://www.thinkbox.tv/case-studies/brand-films/age-uk",
+     "https://www.thinkbox.tv/case-studies/brand-films/age-uk-old-peoples-home-for-four-year-olds-at-christmas",
+     "https://www.thinkbox.tv/case-studies/brand-films/cadburys",
+     "https://www.thinkbox.tv/case-studies/brand-films/dfs",
+     "https://www.thinkbox.tv/case-studies/brand-films/hovis",
+     "https://www.thinkbox.tv/case-studies/brand-films/how-nationwide-found-its-voice"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "案例在入口路径 /case-studies/{slug} 下（情况 A）；页面列表由站内搜索脚本加载，样本取自站点 sitemap 中该目录的 192 个地址"
+   }
+  },
+  {
+   "frozen_sha256": "8b3eb1b01294197f88e815604a8d8377eb5bb39feb0df416afd8fe424a812d62",
+   "pattern": "^https://www\\.thinkbox\\.tv/case\\-studies/brand\\-films/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 12,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.thinkbox.tv/case-studies/brand-films/age-uk",
+     "https://www.thinkbox.tv/case-studies/brand-films/age-uk-old-peoples-home-for-four-year-olds-at-christmas",
+     "https://www.thinkbox.tv/case-studies/brand-films/cadburys",
+     "https://www.thinkbox.tv/case-studies/brand-films/dfs",
+     "https://www.thinkbox.tv/case-studies/brand-films/hovis",
+     "https://www.thinkbox.tv/case-studies/brand-films/how-nationwide-found-its-voice",
+     "https://www.thinkbox.tv/case-studies/brand-films/how-theres-a-glass-and-a-half-in-everyone-turned-round-cadburys-fortunes",
+     "https://www.thinkbox.tv/case-studies/brand-films/mccafe-moments",
+     "https://www.thinkbox.tv/case-studies/brand-films/specsavers",
+     "https://www.thinkbox.tv/case-studies/brand-films/tesco-a-true-tv-love-story",
+     "https://www.thinkbox.tv/case-studies/brand-films/yorkshire-tea",
+     "https://www.thinkbox.tv/case-studies/brand-films/yorkshire-tea-long-term-brand-building-done-proper"
+    ],
+    "holdout_pos": [
+     "https://www.thinkbox.tv/case-studies/brand-films/10-lessons-for-marketers-from-john-lewis-ongoing-success",
+     "https://www.thinkbox.tv/case-studies/brand-films/aldi",
+     "https://www.thinkbox.tv/case-studies/brand-films/beauty-and-brains",
+     "https://www.thinkbox.tv/case-studies/brand-films/direct-line",
+     "https://www.thinkbox.tv/case-studies/brand-films/fosters",
+     "https://www.thinkbox.tv/case-studies/brand-films/guinness",
+     "https://www.thinkbox.tv/case-studies/brand-films/john-lewis",
+     "https://www.thinkbox.tv/case-studies/brand-films/mccain-when-the-chips-are-down-margins-matter",
+     "https://www.thinkbox.tv/case-studies/brand-films/mcdonalds-keeping-customers-lovin-it-for-15-years",
+     "https://www.thinkbox.tv/case-studies/brand-films/suzuki",
+     "https://www.thinkbox.tv/case-studies/brand-films/volkswagen-t-roc",
+     "https://www.thinkbox.tv/case-studies/brand-films/xero-how-accounting-for-trust-connected-with-small-businesses"
+    ],
+    "holdout_neg": [
+     "https://www.thinkbox.tv/case-studies",
+     "https://www.thinkbox.tv/why-tv",
+     "https://www.thinkbox.tv/getting-on-tv",
+     "https://www.thinkbox.tv/",
+     "https://www.thinkbox.tv/case-studies/alibaba-com-used-tv-to-get-close-to-businesses",
+     "https://www.thinkbox.tv/case-studies/an-absolutely-paramount-tv-execution-for-transformers-4",
+     "https://www.thinkbox.tv/case-studies/ben-and-jerrys-show-the-proof-of-tvs-effectiveness-is-in-the-pudding",
+     "https://www.thinkbox.tv/case-studies/boots-delivers-more-than-just-invitations-to-feel-good",
+     "https://www.thinkbox.tv/case-studies/bosch",
+     "https://www.thinkbox.tv/case-studies/brand-films"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "案例在入口路径 /case-studies/{slug} 下（情况 A）；页面列表由站内搜索脚本加载，样本取自站点 sitemap 中该目录的 192 个地址"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.thinkbox\\.tv/case\\-studies/[a-z0-9-]+$\n^https://www\\.thinkbox\\.tv/case\\-studies/brand\\-films/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

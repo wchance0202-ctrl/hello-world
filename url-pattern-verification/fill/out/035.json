@@ -15,5 +15,8 @@
   "pos_fail": [],
   "neg": 8,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://e\\.kuaishou\\.com/\\#/e/cases/[0-9]+/1$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

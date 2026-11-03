@@ -2,7 +2,20 @@
  "seq": 99,
  "entry_id": "S2-R119-E9",
  "url": "https://www.focusmedia.cn/screen/#jump",
- "mode": "empty",
- "basis": "产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.focusmedia.cn/screen/#jump"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 99,
+  "entry_id": "S2-R119-E9",
+  "url": "https://www.focusmedia.cn/screen/#jump",
+  "mode": "empty",
+  "basis": "产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目",
+  "note": "单页，无下级条目"
+ }
 }

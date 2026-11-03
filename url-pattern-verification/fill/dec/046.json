@@ -2,7 +2,20 @@
  "seq": 46,
  "entry_id": "S2-R66-E1",
  "url": "https://survey.jd.com/page/ecological",
- "mode": "empty",
- "basis": "京洞察「生态合作」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）",
- "note": "单页，无下级条目"
+ "mode": "selfpage",
+ "pages": [
+  "https://survey.jd.com/page/ecological"
+ ],
+ "label": "单页",
+ "no_fetch": false,
+ "basis": "京洞察「生态合作」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
+ "prev": {
+  "seq": 46,
+  "entry_id": "S2-R66-E1",
+  "url": "https://survey.jd.com/page/ecological",
+  "mode": "empty",
+  "basis": "京洞察「生态合作」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）",
+  "note": "单页，无下级条目"
+ }
 }

@@ -2,11 +2,21 @@
  "seq": 178,
  "entry_id": "S1-R50-E2",
  "url": "https://www.forrester.com/b2c-marketing/",
- "mode": "empty",
- "basis": "B2C 营销角色页：条目是全站共用的博客 /blogs/{slug}/、活动、网络研讨会等，URL 不带角色标识",
- "note": "条目地址全站共用",
+ "mode": "snapshot",
+ "basis": "B2C 营销角色页列出的博客、活动、网络研讨会、客户故事（全站共用路径），逐条列出",
+ "note": "快照 2026-11-03",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:23:02+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:12:37+00:00",
+ "pattern": "^(?:https://www\\.forrester\\.com/blogs/everything\\-is\\-a\\-marketing\\-operating\\-system/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-cmos\\-reckon\\-with\\-an\\-ai\\-reality\\-check/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-the\\-pursuit\\-and\\-peril\\-of\\-control/|https://www\\.forrester\\.com/blogs/the\\-more\\-advertising\\-automates\\-the\\-more\\-creative\\-matters/|https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/|https://www\\.forrester\\.com/event/cx\\-east/|https://www\\.forrester\\.com/event/cx\\-emea/|https://www\\.forrester\\.com/event/cx\\-west/|https://www\\.forrester\\.com/event/sydney\\-forum/|https://www\\.forrester\\.com/webinars/beyond\\-journey\\-mapping\\-put\\-customer\\-insight\\-into\\-action|https://www\\.forrester\\.com/webinars/from\\-experience\\-scores\\-to\\-revenue\\-impact\\-a\\-total\\-experience\\-playbook\\-for\\-growth\\-webinar)$",
+ "status": "快照",
+ "members": 11,
+ "kept": 11,
+ "dropped": [],
+ "negatives": [
+  "https://www.forrester.com/b2c-marketing/"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.forrester\\.com/blogs/everything\\-is\\-a\\-marketing\\-operating\\-system/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-cmos\\-reckon\\-with\\-an\\-ai\\-reality\\-check/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-the\\-pursuit\\-and\\-peril\\-of\\-control/|https://www\\.forrester\\.com/blogs/the\\-more\\-advertising\\-automates\\-the\\-more\\-creative\\-matters/|https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/|https://www\\.forrester\\.com/event/cx\\-east/|https://www\\.forrester\\.com/event/cx\\-emea/|https://www\\.forrester\\.com/event/cx\\-west/|https://www\\.forrester\\.com/event/sydney\\-forum/|https://www\\.forrester\\.com/webinars/beyond\\-journey\\-mapping\\-put\\-customer\\-insight\\-into\\-action|https://www\\.forrester\\.com/webinars/from\\-experience\\-scores\\-to\\-revenue\\-impact\\-a\\-total\\-experience\\-playbook\\-for\\-growth\\-webinar)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

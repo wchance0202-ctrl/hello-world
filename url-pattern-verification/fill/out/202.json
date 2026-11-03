@@ -2,11 +2,25 @@
  "seq": 202,
  "entry_id": "S1-R72-E1",
  "url": "https://www.ama.org/job-boards-join-our-team/",
- "mode": "empty",
- "basis": "招聘介绍页，主体只有少量链接（外部招聘平台）",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "招聘介绍页，主体只有少量链接（外部招聘平台）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:24:53+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:53+00:00",
+ "pattern": "^https://www\\.ama\\.org/job\\-boards\\-join\\-our\\-team/$",
+ "status": "单页",
+ "pages": [
+  "https://www.ama.org/job-boards-join-our-team/"
+ ],
+ "landing": [
+  {
+   "url": "https://www.ama.org/job-boards-join-our-team/",
+   "status": 200,
+   "final": "https://www.ama.org/job-boards-join-our-team/",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.ama\\.org/job\\-boards\\-join\\-our\\-team/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

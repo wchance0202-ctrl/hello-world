@@ -2,11 +2,137 @@
  "seq": 238,
  "entry_id": "S1-R123-E5",
  "url": "https://www.hubspot.com/resources",
- "mode": "empty",
- "basis": "资源页的条目全部链接到营销子域 offers.hubspot.com 的下载落地页（多数带注册参数），不在 www.hubspot.com 站内",
- "note": "条目在其他子域",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:35:44+00:00",
- "pattern": "",
- "status": "留空"
+ "mode": "regex",
+ "basis": "情况 B（其他子域）：资源下载页 offers.hubspot.com/{slug} 及其带 hubs_signup 参数的链接写法",
+ "note": "条目在 offers 子域",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "资源页的条目都在下载子域 offers.hubspot.com/{slug}（该子域专门承载资源下载页）；带注册参数的写法单独一条"
+ },
+ "observed_at": "2026-11-03T10:12:05+00:00",
+ "pattern": "^https://offers\\.hubspot\\.com/[a-z0-9-]+$\n^https://offers\\.hubspot\\.com/[a-z0-9-]+\\?hubs_signup\\-url=www\\.hubspot\\.com/resources&hubs_signup\\-cta=[a-z-]+$",
+ "families": [
+  {
+   "frozen_sha256": "a388555d95aedb50079fbf607d7da882d56bb97d70a68ab4361fe797bd99b490",
+   "pattern": "^https://offers\\.hubspot\\.com/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 5,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 22
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://offers.hubspot.com/5-ai-tools-to-make-your-first-million",
+     "https://offers.hubspot.com/ai-ad-workflows",
+     "https://offers.hubspot.com/ai-agents-playbook",
+     "https://offers.hubspot.com/chatgpt-sales-email-system",
+     "https://offers.hubspot.com/customer-service-training-manual-template",
+     "https://offers.hubspot.com/how-to-motivate-and-manage-millennials",
+     "https://offers.hubspot.com/next-super-material",
+     "https://offers.hubspot.com/partnership-that-built-doola",
+     "https://offers.hubspot.com/science-of-scaling-cold-calls",
+     "https://offers.hubspot.com/smart-prompt-workflow-system",
+     "https://offers.hubspot.com/top-chatgpt-marketing-stack",
+     "https://offers.hubspot.com/workplace-communicator-database"
+    ],
+    "holdout_pos": [
+     "https://offers.hubspot.com/ai-customer-review-analysis",
+     "https://offers.hubspot.com/ai-marketing",
+     "https://offers.hubspot.com/marketing-space-makers",
+     "https://offers.hubspot.com/mfm-chatgpt-executive-coach",
+     "https://offers.hubspot.com/net-promoter-score-kit"
+    ],
+    "holdout_neg": [
+     "https://www.hubspot.com/resources",
+     "https://offers.hubspot.com/",
+     "https://www.hubspot.com/aeo-grader",
+     "https://offers.hubspot.com/5-ai-tools-to-make-your-first-million?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/ai-ad-workflows?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/ai-agents-playbook?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/ai-content-marketers-jasper?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/ai-customer-review-analysis?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/ai-marketing?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=our-latest-report"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源页的条目都在下载子域 offers.hubspot.com/{slug}（该子域专门承载资源下载页）；带注册参数的写法单独一条"
+   }
+  },
+  {
+   "frozen_sha256": "441dbede9a69e3decb427b36c3ecd79229a87fe9070ee2d1810925283e675828",
+   "pattern": "^https://offers\\.hubspot\\.com/[a-z0-9-]+\\?hubs_signup\\-url=www\\.hubspot\\.com/resources&hubs_signup\\-cta=[a-z-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 5,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 23
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://offers.hubspot.com/ai-agents-playbook?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/ai-content-marketers-jasper?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/ai-customer-review-analysis?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/ai-marketing?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=our-latest-report",
+     "https://offers.hubspot.com/chatgpt-sales-email-system?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/eric-ryan-product-ideas?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/loop-marketing-research?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/mfm-chatgpt-executive-coach?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/net-promoter-score-kit?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/next-super-material?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/science-of-scaling-cold-calls?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/smart-prompt-workflow-system?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta"
+    ],
+    "holdout_pos": [
+     "https://offers.hubspot.com/customer-service-training-manual-template?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=resource-library-featured-resources-card-link",
+     "https://offers.hubspot.com/mfm-ai-business-playbook?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/partnership-that-built-doola?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/science-of-scaling-five-sales-pivots?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+     "https://offers.hubspot.com/top-chatgpt-marketing-stack?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta"
+    ],
+    "holdout_neg": [
+     "https://www.hubspot.com/resources",
+     "https://offers.hubspot.com/",
+     "https://www.hubspot.com/aeo-grader",
+     "https://offers.hubspot.com/5-ai-tools-to-make-your-first-million",
+     "https://offers.hubspot.com/ai-ad-workflows",
+     "https://offers.hubspot.com/ai-agents-playbook",
+     "https://offers.hubspot.com/ai-content-marketers-jasper",
+     "https://offers.hubspot.com/ai-customer-review-analysis",
+     "https://offers.hubspot.com/ai-marketing"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源页的条目都在下载子域 offers.hubspot.com/{slug}（该子域专门承载资源下载页）；带注册参数的写法单独一条"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null,
+ "pattern_base": "^https://offers\\.hubspot\\.com/[a-z0-9-]+$\n^https://offers\\.hubspot\\.com/[a-z0-9-]+\\?hubs_signup\\-url=www\\.hubspot\\.com/resources&hubs_signup\\-cta=[a-z-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,11 +2,18 @@
  "seq": 225,
  "entry_id": "S1-R110-E1",
  "url": "https://www.vml.com/expertise/intelligence",
- "mode": "empty",
- "basis": "2026-11-03 复查：Cloudflare 验证页",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:32:40+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:52+00:00",
+ "pattern": "^https://www\\.vml\\.com/expertise/intelligence$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.vml.com/expertise/intelligence"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.vml\\.com/expertise/intelligence$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

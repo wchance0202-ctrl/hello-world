@@ -50,5 +50,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.talkwalker\\.com/resource/[a-z-]+/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

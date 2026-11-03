@@ -2,11 +2,25 @@
  "seq": 100,
  "entry_id": "S2-R119-E10",
  "url": "https://www.focusmedia.cn/publication#jump",
- "mode": "empty",
- "basis": "「分众产品刊例价」单页，页面没有任何条目链接",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "「分众产品刊例价」单页，页面没有任何条目链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:15:11+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:38+00:00",
+ "pattern": "^https://www\\.focusmedia\\.cn/publication$",
+ "status": "单页",
+ "pages": [
+  "https://www.focusmedia.cn/publication"
+ ],
+ "landing": [
+  {
+   "url": "https://www.focusmedia.cn/publication#jump",
+   "status": 200,
+   "final": "https://www.focusmedia.cn/publication#jump",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://www\\.focusmedia\\.cn/publication$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

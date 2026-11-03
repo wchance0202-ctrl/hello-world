@@ -2,11 +2,25 @@
  "seq": 43,
  "entry_id": "S2-R65-E1",
  "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
- "mode": "empty",
- "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目",
- "note": "需登录，未验证",
+ "mode": "selfpage",
+ "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目；下级内容需登录，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:12:14+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:26+00:00",
+ "pattern": "^https://creator\\.douyin\\.com/creator\\-micro/creator\\-count/arithmetic\\-index$",
+ "status": "仅入口页（需登录）",
+ "pages": [
+  "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index"
+ ],
+ "landing": [
+  {
+   "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+   "status": 200,
+   "final": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://creator\\.douyin\\.com/creator\\-micro/creator\\-count/arithmetic\\-index$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

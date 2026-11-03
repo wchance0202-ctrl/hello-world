@@ -2,11 +2,25 @@
  "seq": 160,
  "entry_id": "S1-R33-E1",
  "url": "https://brandfinance.com/about",
- "mode": "empty",
- "basis": "关于我们单页，主体只有 4 个站内导航链接",
- "note": "单页，无下级条目",
+ "mode": "selfpage",
+ "basis": "关于我们单页，主体只有 4 个站内导航链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:30:36+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T09:59:47+00:00",
+ "pattern": "^https://brandfinance\\.com/about$",
+ "status": "单页",
+ "pages": [
+  "https://brandfinance.com/about"
+ ],
+ "landing": [
+  {
+   "url": "https://brandfinance.com/about",
+   "status": 200,
+   "final": "https://brandfinance.com/about",
+   "hops": []
+  }
+ ],
+ "pattern_base": "^https://brandfinance\\.com/about$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -2,7 +2,36 @@
  "seq": 56,
  "entry_id": "S2-R88-E2",
  "url": "https://www.linkflowtech.com/courses",
- "mode": "empty",
- "basis": "课程在入口路径下：/courses/{数字}（14 个）和 /courses/{slug}（6 个），但 2026-11-03 逐个打开（HTTP 与浏览器都试过），除 1 个外全部返回 500 Error，无法作为正例核验",
- "note": "条目页当前打不开；站点恢复后可按 ^https://www\\.linkflowtech\\.com/courses/[0-9]+$ 重新验证"
+ "mode": "carry",
+ "status": "候选",
+ "pattern": "^https://www\\.linkflowtech\\.com/courses/[0-9]+$\n^https://www\\.linkflowtech\\.com/courses/[a-z0-9-]+$",
+ "members": [
+  "https://www.linkflowtech.com/courses/20211036",
+  "https://www.linkflowtech.com/courses/20211037",
+  "https://www.linkflowtech.com/courses/20211038",
+  "https://www.linkflowtech.com/courses/20211039",
+  "https://www.linkflowtech.com/courses/20211040",
+  "https://www.linkflowtech.com/courses/20211041",
+  "https://www.linkflowtech.com/courses/20211042",
+  "https://www.linkflowtech.com/courses/20211043",
+  "https://www.linkflowtech.com/courses/20211044",
+  "https://www.linkflowtech.com/courses/20211055",
+  "https://www.linkflowtech.com/courses/20211056",
+  "https://www.linkflowtech.com/courses/20211057",
+  "https://www.linkflowtech.com/courses/20211058",
+  "https://www.linkflowtech.com/courses/20211059",
+  "https://www.linkflowtech.com/courses/five-days-global-operations-fifth-day",
+  "https://www.linkflowtech.com/courses/five-days-global-operations-first-day",
+  "https://www.linkflowtech.com/courses/five-days-global-operations-forth-day",
+  "https://www.linkflowtech.com/courses/five-days-global-operations-second-day",
+  "https://www.linkflowtech.com/courses/five-days-global-operations-third-day",
+  "https://www.linkflowtech.com/courses/marketers-have-know-knowledge-buried-points"
+ ],
+ "negatives": [
+  "https://www.linkflowtech.com/courses",
+  "https://www.linkflowtech.com/about-us",
+  "https://www.linkflowtech.com/customer-cases/FMGG-daily-chemical-brands"
+ ],
+ "basis": "情况 A：课程 /courses/{数字}（14 个）与专题课程 /courses/{slug}（6 个），按列表链接写正则",
+ "note": "课程详情页 2026-11-03 多次打开均返回 500（站点故障），无法落地核验"
 }

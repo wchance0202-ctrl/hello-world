@@ -2,7 +2,20 @@
  "seq": 223,
  "entry_id": "S1-R101-E5",
  "url": "https://searchengineland.com/library/guide/seo-guide",
- "mode": "empty",
- "basis": "2026-11-03 复查：Cloudflare 验证页",
- "note": "访问受限"
+ "mode": "selfpage",
+ "pages": [
+  "https://searchengineland.com/library/guide/seo-guide"
+ ],
+ "label": "仅入口页（访问受限）",
+ "no_fetch": true,
+ "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 223,
+  "entry_id": "S1-R101-E5",
+  "url": "https://searchengineland.com/library/guide/seo-guide",
+  "mode": "empty",
+  "basis": "2026-11-03 复查：Cloudflare 验证页",
+  "note": "访问受限"
+ }
 }

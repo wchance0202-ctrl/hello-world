@@ -15,5 +15,8 @@
  "negatives": [
   "https://marketingscience.info/open-access-knowledge"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://marketingscience\\.info/open\\-access\\-knowledge/open\\-access\\-reports|https://marketingscience\\.info/open\\-access\\-knowledge/wine\\-marketing\\-knowledge)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

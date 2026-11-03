@@ -133,5 +133,8 @@
  "checks": {
   "families": 2
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?page=[0-9]+$\n^https://www\\.frostchina\\.com/content/whitepaper\\-store\\?industryMajor=[A-Z0-9%\\(\\)\\+]+&page=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

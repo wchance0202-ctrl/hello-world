@@ -51,5 +51,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/frontier\\-technologies/w/news/[0-9]+/[a-z0-9_-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

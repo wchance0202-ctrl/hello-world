@@ -76,5 +76,13 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://cxl\\.com/blog/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": [
+  [
+   "https://cxl.com/blog/kaggle/",
+   "https://cxl.com/blog/"
+  ]
+ ]
 }

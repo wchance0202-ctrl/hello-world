@@ -17,5 +17,8 @@
   "pos_fail": [],
   "neg": 5,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://landor\\.com/en/our\\-work/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

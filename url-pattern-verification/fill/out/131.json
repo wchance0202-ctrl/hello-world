@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.itu\\.int/en/ITU\\-R/[a-z-]+/[a-zA-Z0-9-]+/Pages/[a-zA-Z0-9-]+\\.aspx$\n^https://www\\.itu\\.int/en/ITU\\-R/seminars/rrs/[a-zA-Z0-9%-]+/Pages/default\\.aspx$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

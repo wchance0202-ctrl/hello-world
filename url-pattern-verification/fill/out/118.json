@@ -136,5 +136,8 @@
  "checks": {
   "families": 2
  },
- "why_not_verified": null
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.worldbank\\.org/ext/en/topic/[a-z-]+$\n^https://www\\.worldbank\\.org/ext/en/topic/[a-z-]+/[a-z-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

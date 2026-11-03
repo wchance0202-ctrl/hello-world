@@ -2,11 +2,18 @@
  "seq": 170,
  "entry_id": "S1-R46-E2",
  "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
- "mode": "empty",
- "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
- "note": "访问受限",
+ "mode": "selfpage",
+ "basis": "2026-11-03 复查：连接超时（ReadTimeout）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:23:00+00:00",
- "pattern": "",
- "status": "留空"
+ "observed_at": "2026-11-03T10:00:47+00:00",
+ "pattern": "^https://www\\.mckinsey\\.com/capabilities/strategy\\-and\\-corporate\\-finance/our\\-insights$",
+ "status": "仅入口页（访问受限）",
+ "pages": [
+  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights"
+ ],
+ "landing": [],
+ "pattern_base": "^https://www\\.mckinsey\\.com/capabilities/strategy\\-and\\-corporate\\-finance/our\\-insights$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

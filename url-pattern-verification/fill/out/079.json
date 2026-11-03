@@ -57,5 +57,8 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^http://www\\.caam\\.org\\.cn/chn/60/cate_(?:534|535|536|537)/con_[0-9]+\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -15,7 +15,8 @@ from openpyxl.styles import Alignment, Font, PatternFill
 
 HERE = Path(__file__).resolve().parent
 COLS = ["站点名称", "pattern链接", "黑白名单属性", "正则表达式", "状态", "依据", "备注"]
-FILL = {"已验证": "E2F0D9", "候选": "FFF2CC", "快照": "DDEBF7", "留空": "F2F2F2"}
+FILL = {"已验证": "E2F0D9", "候选": "FFF2CC", "快照": "DDEBF7", "留空": "F2F2F2", "超范围": "FCE4D6",
+        "单页": "EDEDED", "仅入口页（需登录）": "F2F2F2", "仅入口页（访问受限）": "F2F2F2", "仅入口页（条目不可枚举）": "F2F2F2"}
 
 
 def evidence(r):
@@ -34,7 +35,8 @@ def evidence(r):
         parts.append(f"逐条打开核验 {r.get('members')} 个，保留 {r.get('kept')} 个" + (f"，剔除 {len(r['dropped'])} 个（打不开或跳转）" if r.get("dropped") else ""))
     if r.get("mode") == "carry":
         cf = r.get("carried_from")
-        parts.append("沿用第 3 轮已验证规则 " + ("、".join(cf) if isinstance(cf, list) else str(cf)) + "（样本、落地核验、两套 RE2 记录见 output/round3）")
+        if cf:
+            parts.append("沿用第 3 轮已验证规则 " + ("、".join(cf) if isinstance(cf, list) else str(cf)) + "（样本、落地核验、两套 RE2 记录见 output/round3）")
     ex = (r.get("exclusivity") or {}).get("evidence")
     if ex and r.get("mode") in ("regex",):
         parts.append("专属性：" + ex)
@@ -53,6 +55,14 @@ def remarks(r):
         ex = [x for f in r["families"] for x in f.get("identity_excluded", [])]
     if ex:
         out.append(f"{len(ex)} 个样本落地异常，未作正例")
+    if r.get("redirect_extra"):
+        out.append(f"最后一行正则是 {len(r['redirect_extra'])} 个跳转目标（列表链接打开后实际落地的地址）")
+    if r.get("redirect_skipped"):
+        out.append(f"{len(r['redirect_skipped'])} 个链接跳到验证页、入口页或站点首页/一级列表页，未计入")
+    if r.get("full_list_count"):
+        out.append(f"本栏目完整清单 {r['full_list_count']} 条见附表「栏目完整清单」")
+    if r.get("unverified_kept"):
+        out.append(f"{r['unverified_kept']} 个公众号文章无法自动落地核验，按列表保留")
     return "；".join(out)
 
 
@@ -89,6 +99,17 @@ def main():
         if color:
             rr[4].fill = PatternFill("solid", fgColor=color)
     ws.freeze_panes = "C2"
+    ws2 = wb.create_sheet("栏目完整清单")
+    ws2.append(["序号", "站点名称", "pattern链接", "条目URL"])
+    for row in rows:
+        lp = HERE / "lists" / f"{row['seq']:03d}.txt"
+        if lp.exists():
+            for u in lp.read_text(encoding="utf-8").split("\n"):
+                if u.strip():
+                    ws2.append([row["seq"], row["site"], row["url"], u.strip()])
+    for col, wd in zip("ABCD", (6, 22, 55, 100)):
+        ws2.column_dimensions[col].width = wd
+    ws2.freeze_panes = "A2"
     wb.save(HERE / "result-fill.xlsx")
     print(json.dumps(Counter(t["状态"] for t in table), ensure_ascii=False))
 

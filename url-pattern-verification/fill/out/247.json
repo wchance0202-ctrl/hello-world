@@ -63,5 +63,13 @@
  },
  "engine": {
   "name": "google-re2"
- }
+ },
+ "pattern_base": "^https://www\\.zenithmedia\\.com/insights/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": [
+  [
+   "https://www.zenithmedia.com/insights/magazines/",
+   "https://www.zenithmedia.com/magazines/"
+  ]
+ ]
 }

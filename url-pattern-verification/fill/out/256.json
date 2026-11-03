@@ -18,5 +18,8 @@
   "pos_fail": [],
   "neg": 0,
   "neg_fail": []
- }
+ },
+ "pattern_base": "^https://www\\.cbinsights\\.com/research/[a-z-]+/[a-z0-9-]+/$\n^https://www\\.cbinsights\\.com/research/[a-z0-9%_-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

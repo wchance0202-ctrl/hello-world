@@ -2,7 +2,20 @@
  "seq": 88,
  "entry_id": "S2-R114-E1",
  "url": "https://www.weiboyi.com/report",
- "mode": "empty",
- "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点",
- "note": "访问受限（网络层）"
+ "mode": "selfpage",
+ "pages": [
+  "https://www.weiboyi.com/report"
+ ],
+ "label": "仅入口页（访问受限）",
+ "no_fetch": true,
+ "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "note": "",
+ "prev": {
+  "seq": 88,
+  "entry_id": "S2-R114-E1",
+  "url": "https://www.weiboyi.com/report",
+  "mode": "empty",
+  "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点",
+  "note": "访问受限（网络层）"
+ }
 }
