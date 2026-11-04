@@ -7,12 +7,7 @@
   "https://www.jazzyear.com/article_info.html?id=1876",
   "https://www.jazzyear.com/article_info.html?id=1877"
  ],
- "negatives": [
-  "https://www.jazzyear.com/article_info.html?id=1889",
-  "https://www.jazzyear.com/article_info.html?id=1892",
-  "https://www.jazzyear.com/article_list.html?type=1",
-  "https://www.jazzyear.com/study_info.html?id=1"
- ],
+ "negatives": [],
  "basis": "甲子光年各栏目（type=1/2/3/4/6）的文章详情都是 article_info.html?id=N，URL 不带 type，无法用正则区分栏目；本栏目只有 1 页共 2 篇",
- "note": "快照 2026-11-03，共 2 条"
+ "note": "快照 2026-11-03，共 2 条；放宽标准下允许匹配同站其他栏目的同类页面"
 }

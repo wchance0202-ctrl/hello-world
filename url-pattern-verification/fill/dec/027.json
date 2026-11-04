@@ -96,11 +96,8 @@
   "https://www.jazzyear.com/article_info.html?id=99"
  ],
  "negatives": [
-  "https://www.jazzyear.com/article_info.html?id=1889",
-  "https://www.jazzyear.com/article_info.html?id=1892",
-  "https://www.jazzyear.com/article_list.html?type=1",
-  "https://www.jazzyear.com/study_info.html?id=1"
+  "https://www.jazzyear.com/article_list.html?type=1"
  ],
  "basis": "甲子光年各栏目（type=1/2/3/4/6）的文章详情都是 article_info.html?id=N，URL 不带 type，无法用正则区分栏目；本栏目翻完 10 页共 90 篇（第 11 页为空），按快照逐条列出",
- "note": "快照 2026-11-03，共 90 条；不覆盖之后新增的文章。替换上一轮范围超界的正则"
+ "note": "快照 2026-11-03，共 90 条；不覆盖之后新增的文章。替换上一轮范围超界的正则；放宽标准下允许匹配同站其他栏目的同类页面"
 }

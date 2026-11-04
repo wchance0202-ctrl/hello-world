@@ -126,6 +126,29 @@ def main():
     ws0.column_dimensions["C"].width = 110
     for rr in ws0.iter_rows(min_row=2):
         rr[2].alignment = Alignment(wrap_text=True, vertical="top")
+    vp = HERE / "verify-report.json"
+    if vp.exists():
+        V = {r["seq"]: r for r in json.loads(vp.read_text(encoding="utf-8"))}
+        ws3 = wb.create_sheet("核验", 2)
+        ws3.append(["序号", "站点名称", "pattern链接", "状态", "语法", "正例（真实链接）通过", "反例不匹配", "今日抽查打开", "结论"])
+        for i, t in enumerate(table, 1):
+            v = V.get(i, {})
+            if v.get("result") == "无正则":
+                ws3.append([i, t["站点名称"], t["pattern链接"], t["状态"], "—", "—", "—", "—", "无正则（栏目已不存在）"])
+                continue
+            lv = "；".join(x["result"] for x in v.get("live", [])) or "—"
+            pos = f"{v.get('pos_total', 0) - v.get('pos_fail_n', 0)}/{v.get('pos_total', 0)}"
+            if v.get("dead_links"):
+                pos += f"（另有 {v['dead_links']} 个已失效链接未计入）"
+            neg = "通过" if not v.get("neg_fail") else "未通过"
+            ws3.append([i, t["站点名称"], t["pattern链接"], t["状态"], v.get("syntax", ""), pos, neg, lv,
+                        "正确且能用" if v.get("result") == "通过" else "有问题"])
+        for c in ws3[1]:
+            c.font = Font(bold=True)
+            c.fill = PatternFill("solid", fgColor="FFF2CC")
+        for col, wd in zip("ABCDEFGHI", (6, 20, 50, 16, 8, 26, 10, 60, 12)):
+            ws3.column_dimensions[col].width = wd
+        ws3.freeze_panes = "C2"
     ws2 = wb.create_sheet("栏目完整清单")
     ws2.append(["序号", "站点名称", "pattern链接", "条目URL"])
     for row in rows:

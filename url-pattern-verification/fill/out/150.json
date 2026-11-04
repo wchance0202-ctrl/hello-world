@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:26:35+00:00",
- "pattern": "^https://www\\.wipo\\.int/documents/d/patentscope/[a-z0-9_-]+\\.pdf$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip)$",
+ "pattern": "^https://www\\.wipo\\.int/documents/d/patentscope/[a-z0-9_-]+\\.pdf$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip)$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-wo\\-ocr\\-published\\-application\\.dtd)$",
  "status": "已放宽",
  "members": 6,
  "kept": 5,
@@ -27,5 +27,9 @@
  "full_list_count": 5,
  "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://www\\.wipo\\.int/documents/d/patentscope/[a-z0-9_-]+\\.pdf$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip)$"
+ "pattern_base": "^https://www\\.wipo\\.int/documents/d/patentscope/[a-z0-9_-]+\\.pdf$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip)$\n^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-wo\\-ocr\\-published\\-application\\.dtd)$",
+ "fix_added": [
+  "https://www.wipo.int/documents/d/patentscope/docs-en-data-documents-wo-ocr-published-application.dtd"
+ ],
+ "dead_links": []
 }

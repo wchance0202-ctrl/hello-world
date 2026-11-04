@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T10:12:11+00:00",
- "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^(?:https://yougov\\.com/en\\-gb/case\\-studies/46983\\-hamptons\\-tracked\\-brand\\-awareness\\-increase\\-rebrand\\-campaigns)$",
+ "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^(?:https://yougov\\.com/en\\-gb/case\\-studies/46983\\-hamptons\\-tracked\\-brand\\-awareness\\-increase\\-rebrand\\-campaigns)$\n^(?:https://business\\.yougov\\.com/content/46983\\-hamptons\\-tracked\\-brand\\-awareness\\-increase\\-rebrand\\-campaigns|https://business\\.yougov\\.com/content/50038\\-loacker\\-custom\\-tracker\\-case\\-study|https://business\\.yougov\\.com/content/50355\\-fmcg\\-audience\\-insights\\-case\\-study|https://business\\.yougov\\.com/content/52293\\-how\\-coca\\-cola\\-europacific\\-partners\\-grows\\-its\\-shopper\\-base\\-case\\-study)$",
  "status": "已放宽",
  "members": 16,
  "kept": 10,
@@ -47,12 +47,17 @@
   "https://yougov.com/business/sectors/consumer"
  ],
  "negatives_matched": [],
- "redirect_extra": [
-  "https://yougov.com/en-gb/case-studies/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns"
- ],
+ "redirect_extra": [],
  "redirect_skipped": [],
  "full_list_count": 10,
  "relax_note": "由逐条清单改为通用规则（2 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$"
+ "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^(?:https://yougov\\.com/en\\-gb/case\\-studies/46983\\-hamptons\\-tracked\\-brand\\-awareness\\-increase\\-rebrand\\-campaigns)$\n^(?:https://business\\.yougov\\.com/content/46983\\-hamptons\\-tracked\\-brand\\-awareness\\-increase\\-rebrand\\-campaigns|https://business\\.yougov\\.com/content/50038\\-loacker\\-custom\\-tracker\\-case\\-study|https://business\\.yougov\\.com/content/50355\\-fmcg\\-audience\\-insights\\-case\\-study|https://business\\.yougov\\.com/content/52293\\-how\\-coca\\-cola\\-europacific\\-partners\\-grows\\-its\\-shopper\\-base\\-case\\-study)$",
+ "fix_added": [
+  "https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+  "https://business.yougov.com/content/50038-loacker-custom-tracker-case-study",
+  "https://business.yougov.com/content/50355-fmcg-audience-insights-case-study",
+  "https://business.yougov.com/content/52293-how-coca-cola-europacific-partners-grows-its-shopper-base-case-study"
+ ],
+ "dead_links": []
 }

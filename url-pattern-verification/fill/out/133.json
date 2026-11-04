@@ -37,5 +37,12 @@
  "full_list_count": 5,
  "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面，也匹配入口页本身",
  "status_strict": "快照",
- "pattern_base": "^https://www\\.itu\\.int/en/publications/Pages/[a-z]+\\.aspx$"
+ "pattern_base": "^https://www\\.itu\\.int/en/publications/Pages/[a-z]+\\.aspx$",
+ "fix_added": [],
+ "dead_links": [
+  {
+   "url": "https://www.itu.int/en/publications/Pages/Req-cat.aspx",
+   "status": 500
+  }
+ ]
 }

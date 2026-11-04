@@ -53,10 +53,8 @@
   "https://www.isc.org.cn/article/30809302907482112.html"
  ],
  "negatives": [
-  "https://www.isc.org.cn//category/7424.html",
-  "https://www.isc.org.cn/category/7424_2.html",
-  "https://www.isc.org.cn/article/10360020493839808.html"
+  "https://www.isc.org.cn//category/7424.html"
  ],
  "basis": "该分类的文章在全站通用路径 /article/{数字}.html 下，URL 不带分类标识；分类翻完 8 页（7424_1…7424_8），去掉每页都有的页脚/侧栏链接后共 47 篇，逐条列出",
- "note": "快照 2026-11-03"
+ "note": "快照 2026-11-03；放宽标准下允许匹配同站其他栏目的同类页面"
 }

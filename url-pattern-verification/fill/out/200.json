@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:24:26+00:00",
- "pattern": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$\n^(?:https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov24|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov25|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov26|https://www\\.ana\\.net/content/show/id/ms\\-mcc\\-nov26)$",
+ "pattern": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$\n^(?:https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov24|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov25|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov26|https://www\\.ana\\.net/content/show/id/ms\\-mcc\\-nov26)$\n^(?:https://www\\.ana\\.net/conference/show/id/BAALAW\\-NOV24|https://www\\.ana\\.net/conference/show/id/BAALAW\\-NOV26|https://www\\.ana\\.net/conference/show/id/MCC\\-NOV26|https://www\\.ana\\.net/conference/show/id/baalaw\\-nov25)$",
  "status": "已放宽",
  "members": 18,
  "kept": 14,
@@ -37,15 +37,17 @@
   "https://www.ana.net/advocacy"
  ],
  "negatives_matched": [],
- "redirect_extra": [
-  "https://www.ana.net/content/show/id/ms-baalaw-nov24",
-  "https://www.ana.net/content/show/id/ms-baalaw-nov25",
-  "https://www.ana.net/content/show/id/ms-baalaw-nov26",
-  "https://www.ana.net/content/show/id/ms-mcc-nov26"
- ],
+ "redirect_extra": [],
  "redirect_skipped": [],
  "full_list_count": 14,
  "relax_note": "由逐条清单改为通用规则（4 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$"
+ "pattern_base": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$\n^(?:https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov24|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov25|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov26|https://www\\.ana\\.net/content/show/id/ms\\-mcc\\-nov26)$\n^(?:https://www\\.ana\\.net/conference/show/id/BAALAW\\-NOV24|https://www\\.ana\\.net/conference/show/id/BAALAW\\-NOV26|https://www\\.ana\\.net/conference/show/id/MCC\\-NOV26|https://www\\.ana\\.net/conference/show/id/baalaw\\-nov25)$",
+ "fix_added": [
+  "https://www.ana.net/conference/show/id/BAALAW-NOV24",
+  "https://www.ana.net/conference/show/id/BAALAW-NOV26",
+  "https://www.ana.net/conference/show/id/MCC-NOV26",
+  "https://www.ana.net/conference/show/id/baalaw-nov25"
+ ],
+ "dead_links": []
 }

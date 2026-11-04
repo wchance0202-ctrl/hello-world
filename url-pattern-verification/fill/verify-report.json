@@ -1,0 +1,7111 @@
+[
+ {
+  "seq": 1,
+  "site": "云合数据",
+  "url": "https://www.enlightent.cn/reports.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 1,
+  "syntax": "通过",
+  "pos_total": 82,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://mp.weixin.qq.com/s/YF6ym3Lk5tH8uHwHnxku4w",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "http://file.enlightent.com/20200528/4e3eb718e5ff9182302e4897792775dd.pdf",
+    "status": 200,
+    "final": "http://file.enlightent.com/20200528/4e3eb718e5ff9182302e4897792775dd.pdf",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 2,
+  "site": "勾正科技（勾正数据）",
+  "url": "https://www.gz-data.com/html/new.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 117,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gz-data.com/html/info.html?id=25",
+    "status": 200,
+    "final": "https://www.gz-data.com/html/info.html?id=25",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.gz-data.com/html/info.html?id=12",
+    "status": 200,
+    "final": "https://www.gz-data.com/html/info.html?id=12",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 3,
+  "site": "CSM 媒介研究",
+  "url": "https://www.csm.com.cn/yjdc/Index.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.csm.com.cn/Content/2024/09-29/1223024254.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.csm.com.cn/Content/2025/11-19/20251119-01.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 4,
+  "site": "易观分析",
+  "url": "https://www.analysys.cn/trends",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 524,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.analysys.cn/article/detail/20020064",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/20020064",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.analysys.cn/article/detail/20012863",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/20012863",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 5,
+  "site": "易观分析",
+  "url": "https://www.analysys.cn/article/analysis/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3978,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.analysys.cn/article/detail/20018870",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/20018870",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.analysys.cn/article/detail/17307",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/17307",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 6,
+  "site": "易观分析",
+  "url": "https://www.analysys.cn/article/detail/20021542",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4502,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.analysys.cn/article/detail/18666",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/18666",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.analysys.cn/article/detail/10641",
+    "status": 200,
+    "final": "https://www.analysys.cn/article/detail/10641",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 7,
+  "site": "头豹研究院",
+  "url": "https://www.leadleo.com/wiki/topicList",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.leadleo.com/wiki/topic/65619ad6df3ad28258f670da",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://www.leadleo.com/wiki/topic/64c78482380ac8e6ec0cd99e",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 8,
+  "site": "头豹研究院",
+  "url": "https://www.leadleo.com/report/search",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.leadleo.com/report/details/6639d6c45e81457a76bb8cf3",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 9,
+  "site": "头豹研究院",
+  "url": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.leadleo.com/wiki/brief?id=6433e035a82657538ba631ac",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://www.leadleo.com/wiki/brief?id=67122076f2335bff26fe1926",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 10,
+  "site": "头豹研究院",
+  "url": "https://www.leadleo.com/video/allType",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.leadleo.com/video/details/69bb7032a789b876b45f5105",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://www.leadleo.com/video/details/69bb6e48a789b8dc885f4fed",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 11,
+  "site": "头豹研究院",
+  "url": "https://www.leadleo.com/article/search",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.leadleo.com/article/details/673fee40f2504c01a450d4b5",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://www.leadleo.com/article/details/6736b6ccf2504c01a450b004",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 12,
+  "site": "数说故事",
+  "url": "https://www.datastory.com.cn/analyst",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.datastory.com.cn/analyst/details/356",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.datastory.com.cn/analyst/details/557",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 13,
+  "site": "数说故事",
+  "url": "https://www.datastory.com.cn/case",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.datastory.com.cn/details/1055",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.datastory.com.cn/details/827.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 14,
+  "site": "数说故事",
+  "url": "https://www.datastory.com.cn/analyst/report.html",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.datastory.com.cn/details/1055",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.datastory.com.cn/details/827.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 15,
+  "site": "数说故事",
+  "url": "https://www.datastory.com.cn/analyst/hotspot.html",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.datastory.com.cn/details/759",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.datastory.com.cn/details/827.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 16,
+  "site": "研报客",
+  "url": "https://www.yanbaoke.com/openclaw",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.yanbaoke.com/openclaw",
+    "status": 200,
+    "final": "https://www.yanbaoke.com/openclaw",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 17,
+  "site": "研报客",
+  "url": "https://www.yanbaoke.com/ai-searches",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.yanbaoke.com/ai-searches",
+    "status": 200,
+    "final": "https://www.yanbaoke.com/ai-searches",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 18,
+  "site": "慧博投研资讯",
+  "url": "https://www.hibor.com.cn/registerm.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.hibor.com.cn/registerm.html",
+    "status": 200,
+    "final": "https://www.hibor.com.cn/registerm.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 19,
+  "site": "慧博投研资讯",
+  "url": "https://www.hibor.com.cn/favorites.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.hibor.com.cn/favorites.html",
+    "status": 200,
+    "final": "https://www.hibor.com.cn/favorites.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 20,
+  "site": "慧博投研资讯",
+  "url": "https://www.hibor.com.cn/docupload.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.hibor.com.cn/docupload.html",
+    "status": 200,
+    "final": "https://www.hibor.com.cn/docupload.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 21,
+  "site": "慧博投研资讯",
+  "url": "https://www.hibor.com.cn/docupload_mag.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.hibor.com.cn/docupload_mag.html",
+    "status": 200,
+    "final": "https://www.hibor.com.cn/docupload_mag.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 22,
+  "site": "慧博投研资讯",
+  "url": "https://www.hibor.com.cn/wnote.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.hibor.com.cn/wnote.html",
+    "status": 200,
+    "final": "https://www.hibor.com.cn/wnote.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 23,
+  "site": "星图数据（Syntun）",
+  "url": "http://syntun.com.cn/datanews/hotspot.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "http://syntun.com.cn/xing-tu-shu-ju-gun-gong-neng-yin-liao-xian-shang-shi-chang-fen-xi-bao-gao.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 24,
+  "site": "沙利文中国（Frost & Sullivan）",
+  "url": "https://www.frostchina.com/content/whitepaper-store?page=1",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 54,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=4",
+    "status": 200,
+    "final": "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=4",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=13",
+    "status": 200,
+    "final": "https://www.frostchina.com/content/whitepaper-store?industryMajor=%E7%A7%91%E6%8A%80%E3%80%81%E5%AA%92%E4%BD%93%E4%B8%8E%E9%80%9A%E4%BF%A1%20(TMT)&page=13",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 25,
+  "site": "亿欧",
+  "url": "https://www.iyiou.com/svip",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.iyiou.com/analysis/202012101012230",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.iyiou.com/analysis/202110111023031",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 26,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/member_benefits.html",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/member_benefits.html",
+    "status": 200,
+    "final": "https://www.jazzyear.com/member_benefits.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 27,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/article_list.html?type=1",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 90,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=276",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=276",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=923",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=923",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 28,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/article_list.html?type=2",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 682,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=899",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=899",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=1146",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=1146",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 29,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/article_list.html?type=3",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 772,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=185",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=185",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=828",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=828",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 30,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/article_list.html?type=4",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 207,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=1515",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=1515",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=1386",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=1386",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 31,
+  "site": "甲子光年",
+  "url": "https://www.jazzyear.com/article_list.html?type=6",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=1877",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=1877",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jazzyear.com/article_info.html?id=1876",
+    "status": 200,
+    "final": "https://www.jazzyear.com/article_info.html?id=1876",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 32,
+  "site": "未来智库（vzkoo）",
+  "url": "https://www.vzkoo.com/question",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.vzkoo.com/question/1668952753",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.vzkoo.com/question/1700111166338094",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 33,
+  "site": "磁力引擎",
+  "url": "https://e.kuaishou.com/#/e/news",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 8,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.kuaishou.com/#/e/news/2164",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://e.kuaishou.com/#/e/news/2154",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 34,
+  "site": "磁力引擎",
+  "url": "https://e.kuaishou.com/#/e/report",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 8,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.kuaishou.com/#/e/report/2624",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://e.kuaishou.com/#/e/report/2623",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 35,
+  "site": "磁力引擎",
+  "url": "https://e.kuaishou.com/#/e/cases",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 9,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.kuaishou.com/#/e/cases/1853/1",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://e.kuaishou.com/#/e/cases/1856/1",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 36,
+  "site": "小红书商业",
+  "url": "https://e.xiaohongshu.com/numerous",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.xiaohongshu.com/numerous/detail?id=2525",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://e.xiaohongshu.com/numerous/detail?id=2526",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 37,
+  "site": "阿里妈妈",
+  "url": "https://www.alimama.com/index.htm#!/marketing-case/index",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 8,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6a87b930fd3ecc132feea676&pkey=example&skey=other",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://www.alimama.com/index.htm#!/marketing-case/article-detail?id=6ae2ff7174a6b21c0f478858&pkey=example&skey=clothes",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 38,
+  "site": "京准通",
+  "url": "https://jzt.jd.com/school/index",
+  "status": "已验证",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 43,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://jzt.jd.com/school/course/list?channelIds=1753,1749",
+    "status": 200,
+    "final": "https://jzt.jd.com/school/course/list?channelIds=1753,1749",
+    "result": "可打开"
+   },
+   {
+    "url": "https://jzt.jd.com/school/course/list?channelIds=2870,2868,1749",
+    "status": 200,
+    "final": "https://jzt.jd.com/school/course/list?channelIds=2870,2868,1749",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 39,
+  "site": "哔哩哔哩营销",
+  "url": "https://e.bilibili.com/main/observe",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.bilibili.com/main/observe/he-2-2yi-nian-qing-ren-yi-qi-shou-hu-jie-fang-xi-wo-er-wo-zen-yang-jue-jin-bzhan-bao-cang-ip",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://e.bilibili.com/main/observe/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 40,
+  "site": "哔哩哔哩营销",
+  "url": "https://e.bilibili.com/case/",
+  "status": "留空",
+  "lines": 0,
+  "result": "无正则"
+ },
+ {
+  "seq": 41,
+  "site": "千牛头条",
+  "url": "https://qn.taobao.com/headline/news",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://qn.taobao.com/headline/news/10730432",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://qn.taobao.com/headline/video/10729659",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 42,
+  "site": "千牛头条",
+  "url": "https://qn.taobao.com/headline/course",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://qn.taobao.com/headline/course/113998030?classId=100007046&chapterId=113998030&chapterType=RECORDED_BROADCAST",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://qn.taobao.com/headline/course/10674275",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 43,
+  "site": "抖音指数（原巨量算数）",
+  "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+    "status": 200,
+    "final": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 44,
+  "site": "抖音指数（原巨量算数）",
+  "url": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
+    "status": 200,
+    "final": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 45,
+  "site": "抖音指数（原巨量算数）",
+  "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-report",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://trendinsight.oceanengine.com/arithmetic-report/detail/582",
+    "status": 200,
+    "final": "https://trendinsight.oceanengine.com/arithmetic-report/detail/582",
+    "result": "可打开"
+   },
+   {
+    "url": "https://trendinsight.oceanengine.com/arithmetic-report/detail/992",
+    "status": 200,
+    "final": "https://trendinsight.oceanengine.com/arithmetic-report/detail/992",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 46,
+  "site": "京洞察（京东）",
+  "url": "https://survey.jd.com/page/ecological",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://survey.jd.com/page/ecological",
+    "status": 200,
+    "final": "https://survey.jd.com/page/ecological",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 47,
+  "site": "京洞察（京东）",
+  "url": "https://survey.jd.com/page/edition",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://survey.jd.com/page/edition",
+    "status": 200,
+    "final": "https://survey.jd.com/page/edition",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 48,
+  "site": "广告门",
+  "url": "https://www.adquan.com/case_library/index",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 7727,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.adquan.com/article/317272",
+    "status": 200,
+    "final": "https://www.adquan.com/article/317272",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.adquan.com/article/337735",
+    "status": 200,
+    "final": "https://www.adquan.com/article/337735",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 49,
+  "site": "Morketing",
+  "url": "https://www.morketing.com/newscenter",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 23,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.morketing.com/detail/28913",
+    "status": 200,
+    "final": "https://www.morketing.com/detail/28913",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.morketing.com/detail/28927",
+    "status": 200,
+    "final": "https://www.morketing.com/detail/28927",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 50,
+  "site": "Morketing",
+  "url": "https://www.morketing.com/ecosystem",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.morketing.com/ecosystem",
+    "status": 200,
+    "final": "https://www.morketing.com/ecosystem",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 51,
+  "site": "人人都是产品经理",
+  "url": "https://www.woshipm.com/harmony",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 1,
+  "syntax": "通过",
+  "pos_total": 29,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.woshipm.com/share/6486352.html",
+    "status": 200,
+    "final": "https://www.woshipm.com/share/6486352.html",
+    "result": "可打开"
+   },
+   {
+    "url": "http://woshipm.com/?p=6452526",
+    "status": 200,
+    "final": "https://www.woshipm.com/share/6452526.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 52,
+  "site": "人人都是产品经理",
+  "url": "https://www.woshipm.com/category/harmony",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 667,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.woshipm.com/ai/6332104.html",
+    "status": 200,
+    "final": "https://www.woshipm.com/ai/6332104.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.woshipm.com/ai/6485620.html",
+    "status": 200,
+    "final": "https://www.woshipm.com/ai/6485620.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 53,
+  "site": "人人都是产品经理",
+  "url": "https://www.woshipm.com/harmony-activities",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 60,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://developer.huawei.com/consumer/cn/activity/201747269740843151",
+    "status": 200,
+    "final": "https://developer.huawei.com/consumer/cn/activity/201747269740843151",
+    "result": "可打开"
+   },
+   {
+    "url": "https://developer.huawei.com/consumer/cn/activity/101748930950126559",
+    "status": 200,
+    "final": "https://developer.huawei.com/consumer/cn/activity/101748930950126559",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 54,
+  "site": "人人都是产品经理",
+  "url": "https://www.woshipm.com/policy",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.woshipm.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6",
+    "status": 200,
+    "final": "https://www.woshipm.com/%E8%B7%9F%E5%B8%96%E8%AF%84%E8%AE%BA%E8%87%AA%E5%BE%8B%E7%AE%A1%E7%90%86%E6%89%BF%E8%AF%BA%E4%B9%A6",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.woshipm.com/useragreement",
+    "status": 200,
+    "final": "https://www.woshipm.com/useragreement",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 55,
+  "site": "人人都是产品经理",
+  "url": "https://www.woshipm.com/users",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 38,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.woshipm.com/u/834996",
+    "status": 200,
+    "final": "https://www.woshipm.com/u/834996",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.woshipm.com/u/1301359",
+    "status": 200,
+    "final": "https://www.woshipm.com/u/1301359",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 56,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/courses",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 20,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/courses/20211056",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/courses/20211040",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 57,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-cosmetic",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/double-elevens-flagship-store-millions-gmv-makes-new-skincare-brand-uniskin",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/fewer-coding-work-more-data-better-driven-marketing",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 58,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-food",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/new-tea-drink-brand-digital-transformation",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/food-brands-multi-channel-user-contact-connection-building-private-consumer-operation",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 59,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-catering",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/annual-revenue-over-6-billion-secret-hot-pot-restaurant-operation",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 60,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-retail",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/self-run-e-commerce-platform-reduce-customer-churn-rate",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/branded-retail-industry-building-full-consumer-data-pool-improve-repurchase-rate",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 61,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-clothing",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/apparel-chain-brands-omni-domain-customer-data-operation-reverse-negative-epidemic-growth",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/how-can-apparel-brands-become-number-one-player-digitalization-case-not-be-missed",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 62,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-health",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/medical-device-companies-automate-customer-cultivation-process",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/epidemic-how-tensil-pharmaceuticals-found-second-growth-curve",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 63,
+  "site": "LinkFlow",
+  "url": "https://www.linkflowtech.com/customer-cases-all-electric",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/Consumer-Electronics-Brand-Store-Integration-Experience",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.linkflowtech.com/customer-cases/consumer-electronics-flexible-use-massive-consumer-data-achieve-omnichannel-effect-tracking",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 64,
+  "site": "SocialBeta",
+  "url": "https://socialbeta.com/job",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1754,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://socialbeta.com/article/106871",
+    "status": 200,
+    "final": "https://socialbeta.com/article/106871",
+    "result": "可打开"
+   },
+   {
+    "url": "https://socialbeta.com/article/102106",
+    "status": 200,
+    "final": "https://socialbeta.com/article/102106",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 65,
+  "site": "SocialBeta",
+  "url": "https://socialbeta.com/tag/%E6%8B%9B%E8%81%98",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 20,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://socialbeta.com/article/111463",
+    "status": 200,
+    "final": "https://socialbeta.com/article/111463",
+    "result": "可打开"
+   },
+   {
+    "url": "https://socialbeta.com/article/111413",
+    "status": 200,
+    "final": "https://socialbeta.com/article/111413",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 66,
+  "site": "TOPYS",
+  "url": "https://www.topys.cn/branding",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.topys.cn/article/34385",
+    "status": 200,
+    "final": "https://www.topys.cn/article/34385",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.topys.cn/article/34572",
+    "status": 500,
+    "final": "https://www.topys.cn/article/34572",
+    "result": "返回 500"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 67,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/report/list.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/report/1005-20231206-1748.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/report/1005-20231206-1748.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/report/1005-20231205-1747.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/report/1005-20231205-1747.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 68,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/78.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 20,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/78-20261028-393798.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/78-20261028-393798.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/78-20261021-393706.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/78-20261021-393706.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 69,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/80.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/80-20261029-393809.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/80-20261029-393809.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/80-20261029-393817.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/80-20261029-393817.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 70,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/83.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 19,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/83-20260724-392445.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/83-20260724-392445.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/83-20260410-390885.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/83-20260410-390885.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 71,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/111.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 20,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/111-20261021-393699.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/111-20261021-393699.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/111-20261013-393591.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/111-20261013-393591.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 72,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/110.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/110-20261012-393572.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/110-20261012-393572.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/110-20260922-393399.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/110-20260922-393399.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 73,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/112.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/112-20260918-393330.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/112-20260918-393330.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/112-20261013-393598.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/112-20261013-393598.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 74,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/113.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/113-20261019-393675.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/113-20261019-393675.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/113-20260703-392136.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/113-20260703-392136.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 75,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/114.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/114-20260709-392222.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/114-20260709-392222.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/114-20261026-393750.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/114-20261026-393750.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 76,
+  "site": "投中网",
+  "url": "https://www.chinaventure.com.cn/news/116.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinaventure.com.cn/news/116-20261008-393513.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/116-20261008-393513.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chinaventure.com.cn/news/116-20261027-393781.html",
+    "status": 200,
+    "final": "https://www.chinaventure.com.cn/news/116-20261027-393781.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 77,
+  "site": "中国互联网协会（ISC）",
+  "url": "https://www.isc.org.cn/article/10360020493839808.html",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 34,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.isc.org.cn/article/10379996726816768.html",
+    "status": 200,
+    "final": "https://www.isc.org.cn/article/10379996726816768.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.isc.org.cn//category/7328.html",
+    "result": "打开失败 ReadTimeout"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 78,
+  "site": "中国互联网协会（ISC）",
+  "url": "https://www.isc.org.cn//category/7424.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 47,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.isc.org.cn/article/28411356764434432.html",
+    "result": "打开失败 ConnectionError"
+   },
+   {
+    "url": "https://www.isc.org.cn/article/30336016048582656.html",
+    "status": 200,
+    "final": "https://www.isc.org.cn/article/30336016048582656.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 79,
+  "site": "中国汽车工业协会（CAAM）",
+  "url": "http://www.caam.org.cn/djzl",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 24,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "http://www.caam.org.cn/chn/60/cate_535/con_5235885.html",
+    "status": 200,
+    "final": "http://www.caam.org.cn/chn/60/cate_535/con_5235885.html",
+    "result": "可打开"
+   },
+   {
+    "url": "http://www.caam.org.cn/chn/60/cate_535/con_5235924.html",
+    "status": 200,
+    "final": "http://www.caam.org.cn/chn/60/cate_535/con_5235924.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 80,
+  "site": "中国光伏行业协会（CPIA）",
+  "url": "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chinapv.org.cn/StaticPage/Building/content_1845.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.chinapv.org.cn/StaticPage/Building/content_1857.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 81,
+  "site": "中国家用电器协会（CHEAA）",
+  "url": "https://www.cheaa.org/channels/13.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.cheaa.org/contents/13/12994.html",
+    "status": 200,
+    "final": "https://www.cheaa.org/contents/13/12994.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.cheaa.org/contents/13/2418.html",
+    "status": 200,
+    "final": "https://www.cheaa.org/contents/13/2418.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 82,
+  "site": "中国煤炭工业协会",
+  "url": "https://www.coalchina.org.cn/list-16-1.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 25,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163140",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163223",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 83,
+  "site": "中国煤炭工业协会",
+  "url": "https://www.coalchina.org.cn/list-12-1.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 25,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163163",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=16&id=163183",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 84,
+  "site": "中国煤炭工业协会",
+  "url": "https://www.coalchina.org.cn/list-20-1.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 25,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163224",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=24&id=163130",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 85,
+  "site": "中国煤炭工业协会",
+  "url": "https://www.coalchina.org.cn/list-407-1.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 23,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=288&id=154499",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.coalchina.org.cn/index.php?m=content&c=index&a=show&catid=288&id=161629",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 86,
+  "site": "蝉妈妈",
+  "url": "https://www.chanmama.com/douyin/",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 60,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.chanmama.com/bloggerRank/liveBlogger/",
+    "status": 200,
+    "final": "https://www.chanmama.com/bloggerRank/liveBlogger/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.chanmama.com/bloggerRank/TkU3HKej5C3GyMtSLW9Q3g.html",
+    "status": 200,
+    "final": "https://www.chanmama.com/bloggerRank/TkU3HKej5C3GyMtSLW9Q3g.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 87,
+  "site": "蝉妈妈",
+  "url": "https://cy.chanmama.com/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://cy.chanmama.com/contentCenter/63.html",
+    "status": 200,
+    "final": "https://cy.chanmama.com/contentCenter/63.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://cy.chanmama.com/contentCenter/62.html",
+    "status": 200,
+    "final": "https://cy.chanmama.com/contentCenter/62.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 88,
+  "site": "微播易",
+  "url": "https://www.weiboyi.com/report",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://mp.weixin.qq.com/s/vgziC6EIefWwZsHgD2T7CA",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://mp.weixin.qq.com/s/lAlILWGQn9oKhlXH7Ua5Aw",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 89,
+  "site": "微播易",
+  "url": "https://www.weiboyi.com/meeting",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.weiboyi.com/meeting",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://mp.weixin.qq.com/s/lAlILWGQn9oKhlXH7Ua5Aw",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 90,
+  "site": "TalkingData",
+  "url": "https://mi.talkingdata.com/reports.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 420,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "http://mi.talkingdata.com/report-detail.html?id=415",
+    "status": 200,
+    "final": "http://mi.talkingdata.com/report-detail.html?id=415",
+    "result": "可打开"
+   },
+   {
+    "url": "http://mi.talkingdata.com/report-detail.html?id=375",
+    "status": 200,
+    "final": "http://mi.talkingdata.com/report-detail.html?id=375",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 91,
+  "site": "秒针系统",
+  "url": "https://www.miaozhen.com/paper",
+  "status": "已放宽",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 15,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.miaozhen.com/all-reports/industryinsight/13656.html",
+    "result": "打开失败 ConnectionError"
+   },
+   {
+    "url": "https://www.miaozhen.com/all-reports/ott/14370.html",
+    "status": 200,
+    "final": "https://www.miaozhen.com/all-reports/ott/14370.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 92,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/classic",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/casedetail/243",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/243",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.focusmedia.cn/casedetail/248",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/248",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 93,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/entrepreneurship",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/casedetail/268",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/268",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.focusmedia.cn/casedetail/260",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/260",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 94,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/industry",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/casedetail/262",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/262",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.focusmedia.cn/casedetail/264",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/casedetail/264",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 95,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/whitepaper",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/detail/1568/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/detail/1568/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.focusmedia.cn/detail/1567/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/detail/1567/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 96,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/companyreport",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/detail/1569/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/detail/1569/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.focusmedia.cn/detail/1571/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/detail/1571/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 97,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/business/#jump",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/business/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/business/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 98,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/elevator/#jump",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/elevator/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/elevator/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 99,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/screen/#jump",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/screen/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/screen/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 100,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/publication#jump",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/publication",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/publication",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 101,
+  "site": "分众传媒",
+  "url": "https://www.focusmedia.cn/aiad/#jump",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.focusmedia.cn/aiad/",
+    "status": 200,
+    "final": "https://www.focusmedia.cn/aiad/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 102,
+  "site": "径硕 JINGdigital",
+  "url": "https://www.jingdigital.com/resource/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.jingdigital.com/articles/21997/",
+    "status": 200,
+    "final": "https://www.jingdigital.com/articles/21997/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.jingdigital.com/articles/21323/",
+    "status": 200,
+    "final": "https://www.jingdigital.com/articles/21323/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 103,
+  "site": "荟聚",
+  "url": "https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://a.huiju.cool/service/extfile/page/4dba890735ee4a3e90101bf60a72e150#/file",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://a.huiju.cool/service/extfile/page/2bb3c89f5a644d44af09e33874c0719a#/file",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 104,
+  "site": "荟聚",
+  "url": "https://www.huiju.cool/industryinsight/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.huiju.cool/industryinsight/381/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.huiju.cool/industryinsight/55/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 105,
+  "site": "AppGrowing",
+  "url": "https://appgrowing.net/blog/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 31,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://appgrowing.net/blog/sept_game-3/",
+    "status": 200,
+    "final": "https://appgrowing.net/blog/sept_game-3/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://appgrowing.net/blog/august-2026-gaming-advertising-review/",
+    "status": 200,
+    "final": "https://appgrowing.net/blog/august-2026-gaming-advertising-review/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 106,
+  "site": "AppGrowing",
+  "url": "https://docs.appgrowing.net/zh/#reports",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://docs.appgrowing.net/zh/",
+    "result": "打开失败 ReadTimeout"
+   },
+   {
+    "url": "https://docs.appgrowing.net/zh/faq",
+    "result": "打开失败 ReadTimeout"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 107,
+  "site": "神策数据",
+  "url": "https://www.sensorsdata.cn/target_disassembly.html",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 41,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.sensorsdata.cn/solutions/overseasBusiness.html",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://www.sensorsdata.cn/solutions/security.html",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 108,
+  "site": "神策数据",
+  "url": "https://www.sensorsdata.cn/researchInstitute.html",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.sensorsdata.cn/researchInstitute/report/ebe9ffd5-c587-4dec-8733-fb425c72b574",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://www.sensorsdata.cn/researchInstitute/report/edb0977d72a68ad5fbdb54e971f5ed60",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 109,
+  "site": "启信宝",
+  "url": "https://www.qixin.com/pay/vip",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.qixin.com/pay/vip",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 110,
+  "site": "启信宝",
+  "url": "https://www.qixin.com/app-center/",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.qixin.com/app-center/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 111,
+  "site": "incoPat",
+  "url": "https://learn.incopat.com/#/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 8,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://learn.incopat.com/#/pages/course/detail?id=424",
+    "result": "需浏览器，未抽查"
+   },
+   {
+    "url": "https://learn.incopat.com/#/pages/course/detail?id=418",
+    "result": "需浏览器，未抽查"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 112,
+  "site": "MobTech",
+  "url": "https://www.mob.com/mobdata/report",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mob.com/mobdata/report",
+    "status": 200,
+    "final": "https://www.mob.com/mobdata/report",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 113,
+  "site": "MobTech",
+  "url": "https://www.mob.com/mobSmart/citymap",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 0,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [],
+  "result": "通过"
+ },
+ {
+  "seq": 114,
+  "site": "MobTech",
+  "url": "https://www.mob.com/about/news",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 13,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mob.com/about/news/876",
+    "status": 200,
+    "final": "https://www.mob.com/about/news/876",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.mob.com/about/news/877",
+    "status": 200,
+    "final": "https://www.mob.com/about/news/877",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 115,
+  "site": "新榜海汇",
+  "url": "https://e.newrank.cn/marketing/IndustryInformation",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://e.newrank.cn/marketing/IndustryInformation/15",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://e.newrank.cn/marketing/IndustryInformation/13",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 116,
+  "site": "新榜智汇",
+  "url": "https://geo.newrank.cn/news",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 16,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://geo.newrank.cn/news/11484",
+    "result": "浏览器记录 200"
+   },
+   {
+    "url": "https://geo.newrank.cn/news/9785",
+    "result": "浏览器记录 200"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 117,
+  "site": "观远数据",
+  "url": "https://www.guandata.com/Case/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 99,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.guandata.com/Casedetail/xueqiu",
+    "status": 200,
+    "final": "https://www.guandata.com/Casedetail/xueqiu",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.guandata.com/Casedetail/nbcb",
+    "status": 200,
+    "final": "https://www.guandata.com/Casedetail/nbcb",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 118,
+  "site": "World Bank（世界银行）",
+  "url": "https://www.worldbank.org/ext/en/development-topics",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 88,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.worldbank.org/ext/en/topic/governance/combating-corruption",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/topic/governance/combating-corruption",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.worldbank.org/ext/en/topic/financial-sector/financial-integrity-stability",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/topic/financial-sector/financial-integrity-stability",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 119,
+  "site": "World Bank（世界银行）",
+  "url": "https://www.worldbank.org/ext/en/where-we-work",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 166,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.worldbank.org/ext/en/country/greece",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/country/greece",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.worldbank.org/ext/en/country/france",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/country/france",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 120,
+  "site": "World Bank（世界银行）",
+  "url": "https://www.worldbank.org/ext/en/research-publications",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.worldbank.org/en/publication/macro-poverty-outlook",
+    "status": 200,
+    "final": "https://www.worldbank.org/en/publication/macro-poverty-outlook",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.worldbank.org/en/publication/industrial-policy-for-development",
+    "status": 200,
+    "final": "https://www.worldbank.org/en/publication/industrial-policy-for-development",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 121,
+  "site": "World Bank（世界银行）",
+  "url": "https://www.worldbank.org/ext/en/what-we-do",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.worldbank.org/ext/en/what-we-do/private-sector-investment-lab",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/what-we-do/private-sector-investment-lab",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.worldbank.org/ext/en/what-we-do/crisis-toolkit",
+    "status": 200,
+    "final": "https://www.worldbank.org/ext/en/what-we-do/crisis-toolkit",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 122,
+  "site": "World Bank（世界银行）",
+  "url": "https://www.worldbank.org/ext/en/news",
+  "status": "已验证",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 69,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+    "status": 200,
+    "final": "https://www.worldbank.org/en/news/feature/2021/03/11/learning-from-megadisasters-a-decade-of-lessons-from-the-great-east-japan-earthquake-drmhubtokyo",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.worldbank.org/en/news/statement/2026/10/15/nepal-and-the-world-bank-group-announce-partnership-to-explore-catastrophe-bond-fo",
+    "status": 200,
+    "final": "https://www.worldbank.org/en/news/statement/2026/10/15/nepal-and-the-world-bank-group-announce-partnership-to-explore-catastrophe-bond-fo",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 123,
+  "site": "World Bank（世界银行）",
+  "url": "https://blogs.worldbank.org/en/home",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 27,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blogs.worldbank.org/en/endpovertyinsouthasia/aiming-high-pakistan-s-way-forward",
+    "status": 200,
+    "final": "https://blogs.worldbank.org/en/endpovertyinsouthasia/aiming-high-pakistan-s-way-forward",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blogs.worldbank.org/en/impactevaluations/pitch-perfect-update-sme-ideas-competition",
+    "status": 200,
+    "final": "https://blogs.worldbank.org/en/impactevaluations/pitch-perfect-update-sme-ideas-competition",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 124,
+  "site": "BIS（国际清算银行）",
+  "url": "https://www.bis.org/statistics",
+  "status": "已验证",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 60,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bis.org/pages/statistics/credit-private-documentation.pdf",
+    "status": 200,
+    "final": "https://www.bis.org/pages/statistics/credit-private-documentation.pdf",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bis.org/pages/statistics/weightsn.xlsx",
+    "status": 200,
+    "final": "https://www.bis.org/pages/statistics/weightsn.xlsx",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 125,
+  "site": "BIS（国际清算银行）",
+  "url": "https://www.bis.org/committees/overview",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 7,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bis.org/committees/ifc/overview",
+    "status": 200,
+    "final": "https://www.bis.org/committees/ifc/overview",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bis.org/committees/bcbs/basel-framework",
+    "status": 200,
+    "final": "https://www.bis.org/committees/bcbs/basel-framework",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 126,
+  "site": "BIS（国际清算银行）",
+  "url": "https://www.bis.org/about/fsi/overview",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bis.org/about/fsi/events",
+    "status": 200,
+    "final": "https://www.bis.org/about/fsi/events",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bis.org/about/fsi/outreach",
+    "status": 200,
+    "final": "https://www.bis.org/about/fsi/outreach",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 127,
+  "site": "BIS（国际清算银行）",
+  "url": "https://www.bis.org/about/innovation-hub/overview",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 9,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bis.org/about/innovation-hub/podcasts",
+    "status": 200,
+    "final": "https://www.bis.org/about/innovation-hub/podcasts",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bis.org/about/innovation-hub/projects",
+    "status": 200,
+    "final": "https://www.bis.org/about/innovation-hub/projects",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 128,
+  "site": "BIS（国际清算银行）",
+  "url": "https://www.bis.org/media/news",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1443,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bis.org/media-releases/20160729-fernando-restoy-appointed-chair-financial-stability-institute",
+    "status": 200,
+    "final": "https://www.bis.org/media-releases/20160729-fernando-restoy-appointed-chair-financial-stability-institute",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bis.org/media-releases/20160411-tenth-progress-report-adoption-basel-iii-standards-published-basel-committee",
+    "status": 200,
+    "final": "https://www.bis.org/media-releases/20160411-tenth-progress-report-adoption-basel-iii-standards-published-basel-committee",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 129,
+  "site": "ITU（国际电信联盟）",
+  "url": "https://www.itu.int/hub/pubs/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.itu.int/hub/publication/r-reg-rr-2020/",
+    "status": 200,
+    "final": "https://www.itu.int/hub/publication/r-reg-rr-2020/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.itu.int/hub/publication/t-ai4g-ai4good-2024-4/",
+    "status": 200,
+    "final": "https://www.itu.int/hub/publication/t-ai4g-ai4good-2024-4/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 130,
+  "site": "ITU（国际电信联盟）",
+  "url": "https://www.itu.int/itu-d/sites/statistics/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/default.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/default.aspx",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.itu.int/en/ITU-D/Statistics/Pages/StatisticsUpdate/October2026.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-D/Statistics/Pages/StatisticsUpdate/October2026.aspx",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 131,
+  "site": "ITU（国际电信联盟）",
+  "url": "https://www.itu.int/en/ITU-R/Pages/default.aspx",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 14,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.itu.int/en/ITU-R/study-groups/rcpm/Pages/cpm-23.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-R/study-groups/rcpm/Pages/cpm-23.aspx",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.itu.int/en/ITU-R/study-groups/Radiocommunication-Seminars/Pages/default.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-R/study-groups/Radiocommunication-Seminars/Pages/default.aspx",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 132,
+  "site": "ITU（国际电信联盟）",
+  "url": "https://www.itu.int/en/ITU-D/Pages/default.aspx",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-D/Pages/Regional-Presence.aspx",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.itu.int/en/ITU-D/Pages/itu-d-news.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/ITU-D/Pages/itu-d-news.aspx",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 133,
+  "site": "ITU（国际电信联盟）",
+  "url": "https://www.itu.int/en/publications/Pages/media.aspx",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 1,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.itu.int/en/publications/Pages/cdrom.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/publications/Pages/cdrom.aspx",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.itu.int/en/publications/Pages/paper.aspx",
+    "status": 200,
+    "final": "https://www.itu.int/en/publications/Pages/paper.aspx",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 134,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/ip-resources",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 39,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/haguebulletin/",
+    "status": 200,
+    "final": "https://hague.wipo.int/#/bulletin/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/publications/en/details.jsp?id=4860&plang=EN",
+    "status": 200,
+    "final": "https://www.wipo.int/publications/en/details.jsp?id=4860&plang=EN",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 135,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/publications/en/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/publications/en/details.jsp?id=4774",
+    "status": 200,
+    "final": "https://www.wipo.int/publications/en/details.jsp?id=4774",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/publications/en/details.jsp?id=4822",
+    "status": 200,
+    "final": "https://www.wipo.int/publications/en/details.jsp?id=4822",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 136,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/ip-statistics",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0001",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0003",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-statistics/w/news/2023/news_0003",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 137,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/global-brand-database",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-norway-are-now-available-in-the-global-brand-database",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/global-brand-database/w/news/2025/trademarks-of-norway-are-now-available-in-the-global-brand-database",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-saint-vincent-and-the-grenadines-now-available-in-the-global-brand-database",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/global-brand-database/w/news/2024/trademarks-of-saint-vincent-and-the-grenadines-now-available-in-the-global-brand-database",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 138,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/global-design-database",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/global-design-database/w/news/2022/news_0001",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/global-design-database/w/news/2022/news_0001",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/global-design-database/w/news/2025/designs-of-croatia-added-to-the-global-design-database",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/global-design-database/w/news/2025/designs-of-croatia-added-to-the-global-design-database",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 139,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/wipolex",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0001",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0001",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0007",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/wipolex/w/news/2021/article_0007",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 140,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/ip-commercialization",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/ip-commercialization/w/news/2026/beyond-the-lab-advancing-innovation-through-scale-up-your-ip-in-nigeria",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-commercialization/w/news/2026/beyond-the-lab-advancing-innovation-through-scale-up-your-ip-in-nigeria",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/ip-commercialization/w/news/2025/program-deep-tech-ventures-integrate-ip-market-strategy",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-commercialization/w/news/2025/program-deep-tech-ventures-integrate-ip-market-strategy",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 141,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/ip-financing",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-supports-aligning-valuation-standards-with-the-modern-economy",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-financing/w/news/2026/wipo-supports-aligning-valuation-standards-with-the-modern-economy",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/ip-financing/w/news/2026/new-wipo-reports-put-music-royalty-investment-and-ip-finance-in-focus",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/ip-financing/w/news/2026/new-wipo-reports-put-music-royalty-investment-and-ip-finance-in-focus",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 142,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/intangible-assets",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1097-en-world-intangible-investment-highlights.pdf",
+    "status": 200,
+    "final": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1097-en-world-intangible-investment-highlights.pdf",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/publications/en/details.jsp?id=4860",
+    "status": 200,
+    "final": "https://www.wipo.int/publications/en/details.jsp?id=4860",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 143,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/innovation-ecosystems",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/innovation-ecosystems/w/news/2026/innovation-in-action-wipo-hosts-high-level-event-and-launches-new-navigator-tool-at-assemblies",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/innovation-ecosystems/w/news/2026/innovation-in-action-wipo-hosts-high-level-event-and-launches-new-navigator-tool-at-assemblies",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/innovation-ecosystems/w/news/2026/wipo-luiss-3rd-global-intan-invest-conference-better-data-for-better-policy-1",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/innovation-ecosystems/w/news/2026/wipo-luiss-3rd-global-intan-invest-conference-better-data-for-better-policy-1",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 144,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/competition-policy",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/competition-policy/w/news/2011/news_0001-1",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/competition-policy/w/news/2011/news_0001-1",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 145,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/frontier-technologies",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/frontier-technologies/w/news/2026/wipo-launches-artificial-intelligence-infrastructure-interchange",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/frontier-technologies/w/news/2026/wipo-launches-artificial-intelligence-infrastructure-interchange",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/frontier-technologies/w/news/2022/news_0001",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/frontier-technologies/w/news/2022/news_0001",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 146,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/technology-trends",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/technology-trends/w/news/2021/news_0003",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/technology-trends/w/news/2021/news_0003",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/technology-trends/w/news/2023/news_0001",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/technology-trends/w/news/2023/news_0001",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 147,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/country-profiles",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/country-profiles/directory-ip-offices",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 148,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www3.wipo.int/madrid/monitor/en/",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 10,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/export/sites/www/standards/en/pdf/03-03-01.pdf",
+    "status": 200,
+    "final": "https://www.wipo.int/documents/d/standards/docs-en-03-03-01.pdf",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/en/web/madrid-system/how_to/manage/request-certified-documents",
+    "status": 200,
+    "final": "https://www.wipo.int/en/web/madrid-system/how_to/manage/request-certified-documents",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 149,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www3.wipo.int/ipstats/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
+    "status": 200,
+    "final": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=241",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
+    "status": 200,
+    "final": "https://www3.wipo.int/ipstats/key-search/search-result?type=KEY&key=231",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 150,
+  "site": "WIPO（世界知识产权组织）",
+  "url": "https://www.wipo.int/en/web/patentscope/data/index",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.wipo.int/documents/d/patentscope/docs-en-data-wipo-coppa-technicaldocumentation.pdf",
+    "status": 200,
+    "final": "https://www.wipo.int/documents/d/patentscope/docs-en-data-wipo-coppa-technicaldocumentation.pdf",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.wipo.int/documents/d/patentscope/docs-en-data-documents-wo-ocr-published-application.dtd",
+    "status": 200,
+    "final": "https://www.wipo.int/documents/d/patentscope/docs-en-data-documents-wo-ocr-published-application.dtd",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 151,
+  "site": "EPO（欧洲专利局）",
+  "url": "https://www.epo.org/en/news-events",
+  "status": "已验证",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 24,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.epo.org/en/news-events/events/opposition-matters-2026",
+    "status": 200,
+    "final": "https://www.epo.org/en/news-events/events/opposition-matters-2026",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.epo.org/en/news-events/events/europes-technology-transfer-challenge-turning-research-market-success",
+    "status": 200,
+    "final": "https://www.epo.org/en/news-events/events/europes-technology-transfer-challenge-turning-research-market-success",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 152,
+  "site": "EPO（欧洲专利局）",
+  "url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://link.epo.org/web/boa_search_manual",
+    "status": 200,
+    "final": "https://link.epo.org/web/boa_search_manual",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+    "status": 200,
+    "final": "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 153,
+  "site": "Mintel 英敏特",
+  "url": "https://www.mintel.com/insights/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 19,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-emea/",
+    "status": 200,
+    "final": "https://www.mintel.com/insights/events/2027-global-food-and-drink-predictions-emea/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.mintel.com/insights/beauty-and-personal-care/biohacking-sleep/",
+    "status": 200,
+    "final": "https://www.mintel.com/insights/beauty-and-personal-care/biohacking-sleep/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 154,
+  "site": "Mintel 英敏特",
+  "url": "https://www.mintel.com/press-centre/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+    "status": 200,
+    "final": "https://www.mintel.com/press-centre/mintel-most-innovative-2026-winners-announced/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.mintel.com/press-centre/indian-consumers-look-to-brands-for-transparency-as-the-cost-of-living-soars/",
+    "status": 200,
+    "final": "https://www.mintel.com/press-centre/indian-consumers-look-to-brands-for-transparency-as-the-cost-of-living-soars/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 155,
+  "site": "Euromonitor International",
+  "url": "https://www.euromonitor.com/articles",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 27,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.euromonitor.com/article/future-of-consumption-a-strategic-roadmap",
+    "status": 200,
+    "final": "https://www.euromonitor.com/article/future-of-consumption-a-strategic-roadmap",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.euromonitor.com/article/inside-the-ai-recommendation-shelf-how-brands-get-discovered",
+    "status": 200,
+    "final": "https://www.euromonitor.com/article/inside-the-ai-recommendation-shelf-how-brands-get-discovered",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 156,
+  "site": "Euromonitor International",
+  "url": "https://www.euromonitor.com/webinar",
+  "status": "已放宽",
+  "lines": 5,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 51,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://go.euromonitor.com/webinar-opportunities-in-global-sportswear.html",
+    "status": 200,
+    "final": "https://go.euromonitor.com/webinar-opportunities-in-global-sportswear.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://go.euromonitor.com/webinar-2026-consumer-trends-and-industry-insights.html",
+    "status": 200,
+    "final": "https://go.euromonitor.com/webinar-2026-consumer-trends-and-industry-insights.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 157,
+  "site": "Euromonitor International",
+  "url": "https://www.euromonitor.com/store/explore-reports",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 34,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.euromonitor.com/wholesale-in-canada-isic-51/report",
+    "status": 200,
+    "final": "https://www.euromonitor.com/wholesale-in-canada-isic-51/report",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+    "status": 200,
+    "final": "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 158,
+  "site": "Accenture",
+  "url": "https://www.accenture.com/en/insights-index",
+  "status": "已验证",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 718,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.accenture.com/en/insights/travel/ahla",
+    "status": 200,
+    "final": "https://www.accenture.com/en/insights/travel/ahla",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.accenture.com/en/case-studies/public-service/unicef-revamps-fundraising-future",
+    "status": 200,
+    "final": "https://www.accenture.com/en/case-studies/public-service/unicef-revamps-fundraising-future",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 159,
+  "site": "MSI 营销科学研究所",
+  "url": "https://msi.org/library/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 10,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://msi.org/working-paper/measuring-what-matters-in-ar-marketing-with-the-augmented-reality-experience-scale-ares/",
+    "status": 200,
+    "final": "https://msi.org/working-paper/measuring-what-matters-in-ar-marketing-with-the-augmented-reality-experience-scale-ares/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://msi.org/research-recap/how-genai-can-distort-search-results-and-how-to-stop-it/",
+    "status": 200,
+    "final": "https://msi.org/research-recap/how-genai-can-distort-search-results-and-how-to-stop-it/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 160,
+  "site": "Brand Finance",
+  "url": "https://brandfinance.com/about",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://brandfinance.com/insights/rigour-and-structure-in-brand-evaluation-best-practice-and-iso-20671/",
+    "status": 200,
+    "final": "https://brandfinance.com/insights/measuring-brand-equity",
+    "result": "可打开"
+   },
+   {
+    "url": "https://brandfinance.com/training",
+    "status": 200,
+    "final": "https://brandfinance.com/training",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 161,
+  "site": "Circana",
+  "url": "https://www.circana.com/insights",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.circana.com/post/circana-finds-ease-and-personalization-driving-the-next-wave-of-global-wellness",
+    "status": 200,
+    "final": "https://www.circana.com/post/circana-finds-ease-and-personalization-driving-the-next-wave-of-global-wellness",
+    "result": "可打开"
+   },
+   {
+    "url": "https://circana.com/post/pursuing-untapped-occasion-dollars-how-linking-purchase-and-consumption-data-uncovers-valuable-occas",
+    "status": 200,
+    "final": "https://www.circana.com/post/pursuing-untapped-occasion-dollars-how-linking-purchase-and-consumption-data-uncovers-valuable-occas",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 162,
+  "site": "Circana",
+  "url": "https://www.circana.com/news",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 15,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 3,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+    "status": 200,
+    "final": "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.circana.com/post/top-10-video-games",
+    "status": 200,
+    "final": "https://www.circana.com/post/top-10-video-games",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 163,
+  "site": "Ehrenberg-Bass Institute",
+  "url": "https://marketingscience.info/open-access-knowledge",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://marketingscience.info/open-access-knowledge/open-access-reports",
+    "status": 200,
+    "final": "https://marketingscience.info/open-access-knowledge/open-access-reports",
+    "result": "可打开"
+   },
+   {
+    "url": "https://marketingscience.info/open-access-knowledge/wine-marketing-knowledge",
+    "status": 200,
+    "final": "https://marketingscience.info/open-access-knowledge/wine-marketing-knowledge",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 164,
+  "site": "FutureBrand",
+  "url": "https://www.futurebrand.com/contact-us",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.futurebrand.com/contact-us",
+    "status": 200,
+    "final": "https://www.futurebrand.com/contact-us",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 165,
+  "site": "Toluna",
+  "url": "https://tolunacorporate.com/insights-and-news/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 254,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://tolunacorporate.com/veracity-the-most-important-v-of-big-data/",
+    "status": 200,
+    "final": "https://tolunacorporate.com/veracity-the-most-important-v-of-big-data/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://tolunacorporate.com/mental-availability-framework-approaches/",
+    "status": 200,
+    "final": "https://tolunacorporate.com/mental-availability-framework-approaches/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 166,
+  "site": "YouGov",
+  "url": "https://yougov.com/content/economy",
+  "status": "已放宽",
+  "lines": 5,
+  "dead_links": 1,
+  "syntax": "通过",
+  "pos_total": 984,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://yougov.com/articles/53992-thailand-advertisers-of-the-month",
+    "status": 200,
+    "final": "https://yougov.com/articles/53992-thailand-advertisers-of-the-month",
+    "result": "可打开"
+   },
+   {
+    "url": "https://yougov.com/articles/45593-japanese-brands-dominate-yougovs-auto-rankings-tha",
+    "status": 200,
+    "final": "https://yougov.com/articles/45593-japanese-brands-dominate-yougovs-auto-rankings-tha",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 167,
+  "site": "YouGov",
+  "url": "https://yougov.com/content/consumer",
+  "status": "已放宽",
+  "lines": 5,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2629,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://yougov.com/articles/46075-saudi-arabias-most-talked-about-brands-for-november-2022",
+    "status": 200,
+    "final": "https://yougov.com/articles/46075-saudi-arabias-most-talked-about-brands-for-november-2022",
+    "result": "可打开"
+   },
+   {
+    "url": "https://yougov.com/articles/29108-nain-koronavirusepidemia-vaikuttanut-suomalaisten-",
+    "status": 200,
+    "final": "https://yougov.com/articles/29108-nain-koronavirusepidemia-vaikuttanut-suomalaisten-",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 168,
+  "site": "YouGov",
+  "url": "https://yougov.com/business/sectors/consumer",
+  "status": "已放宽",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 16,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://business.yougov.com/content/50038-loacker-custom-tracker-case-study",
+    "status": 200,
+    "final": "https://yougov.com/case-studies/50038-loacker-custom-tracker-case-study",
+    "result": "可打开"
+   },
+   {
+    "url": "https://business.yougov.com/content/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+    "status": 200,
+    "final": "https://yougov.com/en-gb/case-studies/46983-hamptons-tracked-brand-awareness-increase-rebrand-campaigns",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 169,
+  "site": "McKinsey",
+  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/sales",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/connecting-for-growth-a-makeover-for-your-marketing-operating-model",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 170,
+  "site": "McKinsey",
+  "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/mckinsey-on-finance/mckinsey-on-finance-number-80/fundamentals-of-strategy-and-value-creation",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 171,
+  "site": "McKinsey",
+  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/connecting-for-growth-a-makeover-for-your-marketing-operating-model",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/how-b2b-decision-makers-are-driving-growth",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 172,
+  "site": "BCG",
+  "url": "https://www.bcg.com/capabilities/marketing-sales/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bcg.com/publications/2025/how-retailers-de-risk-2025-holiday-shopping-season",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.bcg.com/publications/2025/uniting-cpg-marketing-and-sales",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 173,
+  "site": "BCG",
+  "url": "https://www.bcg.com/capabilities/customer-insights/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bcg.com/publications/2025/how-ai-agents-will-transform-b2b-sales",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.bcg.com/publications/2025/uniting-cpg-marketing-and-sales",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 174,
+  "site": "BCG",
+  "url": "https://www.bcg.com/industries/retail/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bcg.com/publications/2025/move-beyond-the-linear-funnel",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.bcg.com/publications/2025/uniting-cpg-marketing-and-sales",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 175,
+  "site": "BCG",
+  "url": "https://www.bcg.com/industries/consumer-products-industry/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bcg.com/publications/2025/how-retailers-de-risk-2025-holiday-shopping-season",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.bcg.com/publications/2025/move-beyond-the-linear-funnel",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 176,
+  "site": "Bain & Company",
+  "url": "https://www.bain.com/insights/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.bain.com/insights/passing-on-the-culture-of-business-building-fm-blog/",
+    "status": 200,
+    "final": "https://www.bain.com/insights/passing-on-the-culture-of-business-building-fm-blog/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+    "status": 200,
+    "final": "https://www.bain.com/insights/getting-leadership-transition-right-in-private-equity/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 177,
+  "site": "Deloitte",
+  "url": "https://www.deloitte.com/global/en/insights.html",
+  "status": "已验证",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 35,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html",
+    "status": 200,
+    "final": "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/next-gen-satellite-internet.html",
+    "status": 200,
+    "final": "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/next-gen-satellite-internet.html",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 178,
+  "site": "Forrester",
+  "url": "https://www.forrester.com/b2c-marketing/",
+  "status": "已放宽",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.forrester.com/webinars/from-experience-scores-to-revenue-impact-a-total-experience-playbook-for-growth-webinar",
+    "status": 200,
+    "final": "https://www.forrester.com/webinars/from-experience-scores-to-revenue-impact-a-total-experience-playbook-for-growth-webinar/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.forrester.com/client-stories/sony-america-data-strategy/",
+    "status": 200,
+    "final": "https://www.forrester.com/client-stories/sony-america-data-strategy/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 179,
+  "site": "Forrester",
+  "url": "https://www.forrester.com/blogs/category/b2b-research/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1224,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.forrester.com/blogs/how-to-create-a-sales-plan-while-dodging-the-curveballs-the-world-keeps-throwing/",
+    "status": 200,
+    "final": "https://www.forrester.com/blogs/how-to-create-a-sales-plan-while-dodging-the-curveballs-the-world-keeps-throwing/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.forrester.com/blogs/asummitlikenoothersummit2017anastoundingsuccessbyallmeasures/",
+    "status": 200,
+    "final": "https://www.forrester.com/blogs/asummitlikenoothersummit2017anastoundingsuccessbyallmeasures/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 180,
+  "site": "Forrester",
+  "url": "https://www.forrester.com/blogs/category/b2b-research/page/2/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1221,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.forrester.com/blogs/focusing-demand-teams-on-the-buying-group-experience-is-a-valuable-mind-shift/",
+    "status": 200,
+    "final": "https://www.forrester.com/blogs/focusing-demand-teams-on-the-buying-group-experience-is-a-valuable-mind-shift/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.forrester.com/blogs/thepeoplessharkdaymondjohndeliversaninsightfulclosingkeynoteatsummit2017/",
+    "status": 200,
+    "final": "https://www.forrester.com/blogs/thepeoplessharkdaymondjohndeliversaninsightfulclosingkeynoteatsummit2017/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 181,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/marketing/insights",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/marketing/insights/articles/gartner-keynote-mastering-the-marketers-journey",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/articles/future-of-marketing",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 182,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/sales/insights",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/articles/sales-analytics",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/sales/insights/the-chief-sales-officer/4q21",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 183,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/customer-service-support/insights",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/customer-service-support/insights/service-leaders-priorities",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/customer-service-support/insights/customer-service-experience",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 184,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/finance/insights",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/finance/cfo-report/q1-2025",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/finance/trends/finance-top-priorities-for-cfos",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 185,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/supply-chain",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/articles/highlights-from-gartner-supply-chain-symposium-xpo-2024",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/supply-chain/insights/beyond-supply-chain-blog/the-messy-reality-of-supply-chain-automation",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 186,
+  "site": "Gartner",
+  "url": "https://www.gartner.com/en/insights/finance",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.gartner.com/en/articles/ai-in-finance",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.gartner.com/en/finance/cfo-report/q1-2025",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 187,
+  "site": "Pew Research Center",
+  "url": "https://www.pewresearch.org/topic/economy-work/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1619,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.pewresearch.org/social-trends/2012/08/22/the-lost-decade-of-the-middle-class-2/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/social-trends/2012/08/22/the-lost-decade-of-the-middle-class-2/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.pewresearch.org/short-reads/2025/10/08/in-many-countries-views-of-the-national-economy-are-closely-related-to-partisanship/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/short-reads/2025/10/08/in-many-countries-views-of-the-national-economy-are-closely-related-to-partisanship/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 188,
+  "site": "Pew Research Center",
+  "url": "https://www.pewresearch.org/topic/internet-technology/",
+  "status": "已放宽",
+  "lines": 4,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2390,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.pewresearch.org/internet/2008/07/21/internet-access-among-older-adults/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/internet/2008/07/21/internet-access-among-older-adults/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.pewresearch.org/politics/2018/08/16/as-midterms-near-democrats-are-more-politically-active-than-republicans/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/politics/2018/08/16/as-midterms-near-democrats-are-more-politically-active-than-republicans/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 189,
+  "site": "Pew Research Center",
+  "url": "https://www.pewresearch.org/topic/news-habits-media/",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1600,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.pewresearch.org/politics/2010/02/17/haiti-snowstorms-economy-vie-for-publics-attention/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/politics/2010/02/17/haiti-snowstorms-economy-vie-for-publics-attention/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.pewresearch.org/politics/1993/08/05/jury-still-out-on-clintons-success/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/politics/1993/08/05/jury-still-out-on-clintons-success/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 190,
+  "site": "Pew Research Center",
+  "url": "https://www.pewresearch.org/topic/economy-work/business-workplace/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 561,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.pewresearch.org/politics/2005/06/01/economic-concerns-fueled-by-many-woes/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/politics/2005/06/01/economic-concerns-fueled-by-many-woes/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.pewresearch.org/short-reads/2021/01/25/even-in-industries-where-majorities-can-telework-some-face-challenges-working-from-home-during-pandemic/",
+    "status": 200,
+    "final": "https://www.pewresearch.org/short-reads/2021/01/25/even-in-industries-where-majorities-can-telework-some-face-challenges-working-from-home-during-pandemic/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 191,
+  "site": "IDC",
+  "url": "https://www.idc.com/quanta/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.idc.com/quanta/book-a-demo/",
+    "status": 200,
+    "final": "https://www.idc.com/quanta/book-a-demo/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.idc.com/quanta/tech-leaders-book-a-demo/",
+    "status": 200,
+    "final": "https://www.idc.com/quanta/tech-leaders-book-a-demo/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 192,
+  "site": "TikTok Creative Center",
+  "url": "https://ads.tiktok.com/creative/creativeCenter",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://ads.tiktok.com/creative/creatormarketplace?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015",
+    "status": 200,
+    "final": "https://ads.tiktok.com/creative/creatormarketplace?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015",
+    "result": "可打开"
+   },
+   {
+    "url": "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?rid=i70539qn74h",
+    "status": 200,
+    "final": "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?rid=i70539qn74h",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 193,
+  "site": "Meta 广告政策中心",
+  "url": "https://transparency.meta.com/policies/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://transparency.meta.com/policies/ad-standards/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://transparency.meta.com/policies/community-standards-unified/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 194,
+  "site": "Amazon Ads",
+  "url": "https://advertising.amazon.com/resources/library",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 19,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://advertising.amazon.com/library/case-studies/clementoni-kiliagon-prime-video-success?ref_=a20m_us_lbr_df_z2_cs_clmtni",
+    "status": 200,
+    "final": "https://advertising.amazon.com/library/case-studies/clementoni-kiliagon-prime-video-success?ref_=a20m_us_lbr_df_z2_cs_clmtni",
+    "result": "可打开"
+   },
+   {
+    "url": "https://advertising.amazon.com/en-us/library/case-studies/revlon-rec-display-ads/?ref_=a20m_us_libr",
+    "status": 200,
+    "final": "https://advertising.amazon.com/en-us/library/case-studies/revlon-rec-display-ads/?ref_=a20m_us_libr",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 195,
+  "site": "IAB 美国互动广告局",
+  "url": "https://www.iab.com/get-involved/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 6,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.iab.com/organizations/experience-center/",
+    "status": 200,
+    "final": "https://www.iab.com/organizations/experience-center/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.iab.com/organizations/tech-lab/",
+    "status": 200,
+    "final": "https://www.iab.com/organizations/tech-lab/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 196,
+  "site": "ESOMAR",
+  "url": "https://esomar.org/resources/glossary",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://esomar.org/resources/glossary",
+    "status": 200,
+    "final": "https://esomar.org/resources/glossary",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 197,
+  "site": "ARF 广告研究基金会",
+  "url": "https://thearf.org/research/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 9,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://thearf.org/category/ua_resource/privacy-trust-ai-how-u-s-consumers-are-rewriting-the-rules-of-advertising/",
+    "status": 200,
+    "final": "https://thearf.org/category/ua_resource/privacy-trust-ai-how-u-s-consumers-are-rewriting-the-rules-of-advertising/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://thearf.org/category/ua_resource/the-2025-guide-on-using-ai-for-advertising-research/",
+    "status": 200,
+    "final": "https://thearf.org/category/ua_resource/the-2025-guide-on-using-ai-for-advertising-research/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 198,
+  "site": "ARF 广告研究基金会",
+  "url": "https://thearf.org/access-knowledge-2/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://thearf.org/category/topics/research-data-quality",
+    "status": 200,
+    "final": "https://thearf.org/category/topics/research-data-quality/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://thearf.org/category/topics/analytics-data-science",
+    "status": 200,
+    "final": "https://thearf.org/category/topics/analytics-data-science/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 199,
+  "site": "ANA 美国广告主协会",
+  "url": "https://www.ana.net/schoolofmarketing",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 5,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+    "status": 200,
+    "final": "https://www.ana.net/content/show/id/ana-individualtraining-intro",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.ana.net/content/show/id/member-training-benefit",
+    "status": 200,
+    "final": "https://www.ana.net/content/show/id/member-training-benefit",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 200,
+  "site": "ANA 美国广告主协会",
+  "url": "https://www.ana.net/advocacy",
+  "status": "已放宽",
+  "lines": 6,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 18,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.ana.net/miccontent/showvideo/id/wv-2026-10-lre-261013-angela-matney",
+    "status": 200,
+    "final": "https://www.ana.net/miccontent/showvideo/id/wv-2026-10-lre-261013-angela-matney",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.ana.net/content/show/id/92423",
+    "status": 200,
+    "final": "https://www.ana.net/content/show/id/92423",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 201,
+  "site": "ANA 美国广告主协会",
+  "url": "https://www.ana.net/membership",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.ana.net/membership",
+    "status": 200,
+    "final": "https://www.ana.net/membership",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.ana.net/content/show/id/ana-membership-msp-silver",
+    "status": 200,
+    "final": "https://www.ana.net/content/show/id/ana-membership-msp-silver",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 202,
+  "site": "AMA 美国市场营销协会",
+  "url": "https://www.ama.org/job-boards-join-our-team/",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.ama.org/job-boards-join-our-team/",
+    "status": 200,
+    "final": "https://www.ama.org/job-boards-join-our-team/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 203,
+  "site": "WFA 世界广告主联合会",
+  "url": "https://wfanet.org/news/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 92,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://wfanet.org/knowledge/item/2024/12/11/l-oreal-kraft-heinz-and-mastercard-join-seth-godin-on-the-global-marketer-week-conference-stage?originNode=3905",
+    "status": 200,
+    "final": "https://wfanet.org/knowledge/item/2024/12/11/l-oreal-kraft-heinz-and-mastercard-join-seth-godin-on-the-global-marketer-week-conference-stage?originNode=3905",
+    "result": "可打开"
+   },
+   {
+    "url": "https://wfanet.org/knowledge/item/2026/01/13/wfa-forum-connect-heads-to-mumbai?originNode=3905",
+    "status": 200,
+    "final": "https://wfanet.org/knowledge/item/2026/01/13/wfa-forum-connect-heads-to-mumbai?originNode=3905",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 204,
+  "site": "Campaign",
+  "url": "https://www.campaignlive.com/news",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.campaignlive.com/article/stagwell-launches-global-media-agency-stagwell-media/1971786",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.campaignlive.com/article/droga5-global-ceo-mark-green-dies-53/1973991",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 205,
+  "site": "Campaign",
+  "url": "https://www.campaignlive.com/in-depth",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.campaignlive.com/article/droga5-global-ceo-mark-green-dies-53/1973991",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.campaignlive.com/article/stagwell-launches-global-media-agency-stagwell-media/1971786",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 206,
+  "site": "CXL",
+  "url": "https://cxl.com/blog-archive/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1121,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://cxl.com/blog/million-dollar-marketing-engine/",
+    "status": 200,
+    "final": "https://cxl.com/blog/million-dollar-marketing-engine/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://cxl.com/blog/buyer-modalities-are-totally-meaningless/",
+    "status": 200,
+    "final": "https://cxl.com/blog/buyer-modalities-are-totally-meaningless/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 207,
+  "site": "D&AD",
+  "url": "https://www.dandad.org/insights",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 20,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.dandad.org/insights/awards/how-do-juries-award-ai-work-awards-insights",
+    "status": 200,
+    "final": "https://www.dandad.org/insights/awards/how-do-juries-award-ai-work-awards-insights",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.dandad.org/insights/case-studies-and-partnerships",
+    "status": 200,
+    "final": "https://www.dandad.org/insights/case-studies-and-partnerships",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 208,
+  "site": "D&AD",
+  "url": "https://www.dandad.org/subjects/case-study",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.dandad.org/insights/awards/palau-pledge-case-study-insights",
+    "status": 200,
+    "final": "https://www.dandad.org/insights/awards/palau-pledge-case-study-insights",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.dandad.org/insights/awards/amex-small-business-saturday-case-study-insights",
+    "status": 200,
+    "final": "https://www.dandad.org/insights/awards/amex-small-business-saturday-case-study-insights",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 209,
+  "site": "Demand Curve",
+  "url": "https://gp.demandcurve.com/resources",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://gp.demandcurve.com/playbooks/personalization-tactics",
+    "status": 200,
+    "final": "https://gp.demandcurve.com/playbooks/personalization-tactics",
+    "result": "可打开"
+   },
+   {
+    "url": "https://gp.demandcurve.com/playbooks/above-the-fold",
+    "status": 200,
+    "final": "https://gp.demandcurve.com/playbooks/above-the-fold",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 210,
+  "site": "DPAA",
+  "url": "https://dpaaglobal.com/omnichannel-study/",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dpaaglobal.com/omnichannel-study/",
+    "status": 200,
+    "final": "https://dpaaglobal.com/omnichannel-study/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 211,
+  "site": "Greenbook",
+  "url": "https://www.greenbook.org/directory",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.greenbook.org/market-research-firms/artificial-intelligence",
+    "status": 200,
+    "final": "https://www.greenbook.org/market-research-firms/artificial-intelligence",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.greenbook.org/market-research-firms/online-communities",
+    "status": 200,
+    "final": "https://www.greenbook.org/market-research-firms/online-communities",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 212,
+  "site": "Greenbook",
+  "url": "https://www.greenbook.org/insights",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 22,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.greenbook.org/insights/respondent-experience",
+    "status": 200,
+    "final": "https://www.greenbook.org/insights/respondent-experience",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.greenbook.org/insights/vision-critical-newmr-the-future-of-market-research-an-interview-with-ray-poynter",
+    "status": 200,
+    "final": "https://www.greenbook.org/insights/vision-critical-newmr-the-future-of-market-research-an-interview-with-ray-poynter",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 213,
+  "site": "Greenbook",
+  "url": "https://www.greenbook.org/grit",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.greenbook.org/grit/insights-practice-edition-2025",
+    "status": 200,
+    "final": "https://www.greenbook.org/grit/insights-practice-edition-2025",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+    "status": 200,
+    "final": "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 214,
+  "site": "GrowthHackers",
+  "url": "https://growthhackers.com/growth-studies/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 9,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://growthhackers.com/growth-studies/uber/",
+    "status": 200,
+    "final": "https://growthhackers.com/growth-studies/uber/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://growthhackers.com/growth-studies/coca-cola/",
+    "status": 520,
+    "final": "https://growthhackers.com/growth-studies/coca-cola/",
+    "result": "返回 520"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 215,
+  "site": "GrowthHackers",
+  "url": "https://growthhackers.com/opinions/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 4,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/",
+    "status": 520,
+    "final": "https://growthhackers.com/growth-hacking/the-growth-problems-youre-tired-of-and-the-system-we-built-to-end-them/",
+    "result": "返回 520"
+   },
+   {
+    "url": "https://growthhackers.com/growth-hacking/llm-rankings-all-you-need-to-know/",
+    "status": 520,
+    "final": "https://growthhackers.com/growth-hacking/llm-rankings-all-you-need-to-know/",
+    "result": "返回 520"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 216,
+  "site": "IAB Europe",
+  "url": "https://iabeurope.eu/knowledge-hub-categories/research-and-insights/",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 95,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://iabeurope.eu/knowledge_hub/iab-europes-attitudes-to-digital-advertising-report-2026/",
+    "status": 200,
+    "final": "https://iabeurope.eu/knowledge_hub/iab-europes-attitudes-to-digital-advertising-report-2026/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://iabeurope.eu/knowledge_hub/verve-groups-study-on-contextual-targeting-with-tpa/",
+    "status": 200,
+    "final": "https://iabeurope.eu/knowledge_hub/verve-groups-study-on-contextual-targeting-with-tpa/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 217,
+  "site": "Marketing Examples",
+  "url": "https://marketingexamples.com/inspiration",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 7,
+  "syntax": "通过",
+  "pos_total": 18,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://sexyfoodtherapy.com/",
+    "status": 200,
+    "final": "https://thyroidalchemy.com/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://yumwoof.com/",
+    "status": 200,
+    "final": "https://yumwoof.com/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 218,
+  "site": "Radiocentre",
+  "url": "https://www.radiocentre.org/research/",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 14,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.radiocentre.org/research/sound-profits/",
+    "status": 200,
+    "final": "https://www.radiocentre.org/research/sound-profits/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.radiocentre.org/research/the-secret-to-profit-and-trust-audio-presented-by-mark-ritson/",
+    "status": 200,
+    "final": "https://www.radiocentre.org/research/the-secret-to-profit-and-trust-audio-presented-by-mark-ritson/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 219,
+  "site": "Search Engine Land",
+  "url": "https://searchengineland.com/library/guide",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://searchengineland.com/library/guide/ppc-guide",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 220,
+  "site": "Search Engine Land",
+  "url": "https://searchengineland.com/guide",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 221,
+  "site": "Search Engine Land",
+  "url": "https://searchengineland.com/library/guide/content-marketing-guide",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 222,
+  "site": "Search Engine Land",
+  "url": "https://searchengineland.com/library/guide/ppc-guide",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 223,
+  "site": "Search Engine Land",
+  "url": "https://searchengineland.com/library/guide/seo-guide",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 224,
+  "site": "Thinkbox",
+  "url": "https://www.thinkbox.tv/case-studies",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 60,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.thinkbox.tv/case-studies/an-absolutely-paramount-tv-execution-for-transformers-4",
+    "status": 200,
+    "final": "https://www.thinkbox.tv/case-studies/an-absolutely-paramount-tv-execution-for-transformers-4",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.thinkbox.tv/case-studies/flora-and-curl-tv-for-the-first-time-with-channel-4-and-lloyds-black-in",
+    "status": 200,
+    "final": "https://www.thinkbox.tv/case-studies/flora-and-curl-tv-for-the-first-time-with-channel-4-and-lloyds-black-in",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 225,
+  "site": "VML",
+  "url": "https://www.vml.com/expertise/intelligence",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.vml.com/insight/the-future-100-2026",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.vml.com/insight/generation-z",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 226,
+  "site": "VML",
+  "url": "https://www.vml.com/insights",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.vml.com/insight/the-future-100-2026-experiential-trends",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.vml.com/insight/generation-z",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 227,
+  "site": "Adjust",
+  "url": "https://www.adjust.com/resources/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.adjust.com/resources/ebooks/all/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.adjust.com/resources/ebooks/mobile-app-trends-2026/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 228,
+  "site": "Adjust",
+  "url": "https://www.adjust.com/blog/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.adjust.com/blog/mobile-app-trends-2025/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://www.adjust.com/blog/mobile-app-growth-report-2025/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 229,
+  "site": "Branch",
+  "url": "https://www.branch.io/use-cases/",
+  "status": "已放宽",
+  "lines": 3,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 15,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.branch.io/guides/food-and-beverage-industry-hub/",
+    "status": 200,
+    "final": "https://www.branch.io/solutions/food-and-beverage/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.branch.io/guides/travel-industry-hub/",
+    "status": 200,
+    "final": "https://www.branch.io/solutions/travel/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 230,
+  "site": "Brandwatch",
+  "url": "https://www.brandwatch.com/reports/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 82,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.brandwatch.com/reports/fashion/",
+    "status": 200,
+    "final": "https://www.brandwatch.com/reports/fashion/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.brandwatch.com/reports/financial-services-trends-2022/",
+    "status": 200,
+    "final": "https://www.brandwatch.com/reports/financial-services-trends-2022/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 231,
+  "site": "Brandwatch",
+  "url": "https://www.brandwatch.com/guides/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 99,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.brandwatch.com/guides/speed-to-insight/",
+    "status": 200,
+    "final": "https://www.brandwatch.com/guides/maturity-model-consumer-intelligence/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.brandwatch.com/guides/analyst-of-2019/",
+    "status": 200,
+    "final": "https://www.brandwatch.com/guides/analyst-of-2019/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 232,
+  "site": "Buffer",
+  "url": "https://buffer.com/library/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 25,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://buffer.com/resources/ai-image-generator/",
+    "status": 200,
+    "final": "https://buffer.com/resources/ai-image-generator/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://buffer.com/resources/how-to-get-followers-on-tiktok/",
+    "status": 200,
+    "final": "https://buffer.com/resources/how-to-get-followers-on-tiktok/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 233,
+  "site": "Hootsuite",
+  "url": "https://blog.hootsuite.com/resources/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 120,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blog.hootsuite.com/resource/twitter-quote-card-templates/",
+    "status": 200,
+    "final": "https://blog.hootsuite.com/resources/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blog.hootsuite.com/resource/employee-advocacy-toolkit/",
+    "status": 200,
+    "final": "https://blog.hootsuite.com/resources/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 234,
+  "site": "HubSpot",
+  "url": "https://blog.hubspot.com/marketing",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 7,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blog.hubspot.com/marketing/social-media-calendar-tools",
+    "status": 200,
+    "final": "https://blog.hubspot.com/marketing/social-media-calendar-tools",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blog.hubspot.com/marketing/content-marketing-tips-boring-industries",
+    "status": 200,
+    "final": "https://blog.hubspot.com/marketing/content-marketing-tips-boring-industries",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 235,
+  "site": "HubSpot",
+  "url": "https://blog.hubspot.com/sales",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blog.hubspot.com/sales/anchoring-negotiation",
+    "status": 200,
+    "final": "https://blog.hubspot.com/sales/anchoring-negotiation",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blog.hubspot.com/sales/sales-dashboard",
+    "status": 200,
+    "final": "https://blog.hubspot.com/sales/sales-dashboard",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 236,
+  "site": "HubSpot",
+  "url": "https://blog.hubspot.com/service",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 11,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blog.hubspot.com/service/customer-support-analytics",
+    "status": 200,
+    "final": "https://blog.hubspot.com/service/customer-support-analytics",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blog.hubspot.com/service/customer-winback",
+    "status": 200,
+    "final": "https://blog.hubspot.com/service/customer-winback",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 237,
+  "site": "HubSpot",
+  "url": "https://blog.hubspot.com/website",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 9,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://blog.hubspot.com/website/ecommerce-website-testing",
+    "status": 200,
+    "final": "https://blog.hubspot.com/website/ecommerce-website-testing",
+    "result": "可打开"
+   },
+   {
+    "url": "https://blog.hubspot.com/website/html-sitemap-xml-sitemap",
+    "status": 200,
+    "final": "https://blog.hubspot.com/website/html-sitemap-xml-sitemap",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 238,
+  "site": "HubSpot",
+  "url": "https://www.hubspot.com/resources",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 45,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://offers.hubspot.com/eric-ryan-product-ideas",
+    "status": 200,
+    "final": "https://offers.hubspot.com/eric-ryan-product-ideas",
+    "result": "可打开"
+   },
+   {
+    "url": "https://offers.hubspot.com/marketing-space-makers?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+    "status": 200,
+    "final": "https://offers.hubspot.com/marketing-space-makers?hubs_signup-url=www.hubspot.com/resources&hubs_signup-cta=csol-filterable-content-cta",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 239,
+  "site": "Landor",
+  "url": "https://landor.com/en/our-work/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 10,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 6,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://landor.com/en/our-work/leshuttle/",
+    "status": 200,
+    "final": "https://landor.com",
+    "result": "可打开"
+   },
+   {
+    "url": "https://landor.com/en/our-work/reykjavik-global-forum/",
+    "status": 200,
+    "final": "https://landor.com",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 240,
+  "site": "Qualtrics",
+  "url": "https://www.qualtrics.com/resources/",
+  "status": "已验证",
+  "lines": 5,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 195,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.qualtrics.com/ebooks-guides/assessment-sliceb-experience-review/",
+    "status": 200,
+    "final": "https://www.qualtrics.com/ebooks-guides/assessment-sliceb-experience-review/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.qualtrics.com/ebooks-guides/authoritative-guide-to-voice-of-customer/",
+    "status": 200,
+    "final": "https://www.qualtrics.com/ebooks-guides/authoritative-guide-to-voice-of-customer/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 241,
+  "site": "Shopify",
+  "url": "https://www.shopify.com/blog/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 21,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.shopify.com/blog/best-web-hosting-services",
+    "status": 200,
+    "final": "https://www.shopify.com/blog/best-web-hosting-services",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.shopify.com/blog/what-is-shopify",
+    "status": 200,
+    "final": "https://www.shopify.com/blog/what-is-shopify",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 242,
+  "site": "Talkwalker",
+  "url": "https://www.talkwalker.com/resources?category=Reports",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+    "status": 200,
+    "final": "https://www.talkwalker.com/resource/reports/social-listening-analytics-for-tv-broadcasters",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food",
+    "status": 200,
+    "final": "https://www.talkwalker.com/resource/reports/twitter-birdseye-report-food",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 243,
+  "site": "Talkwalker",
+  "url": "https://www.talkwalker.com/resources",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 12,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+    "status": 200,
+    "final": "https://www.talkwalker.com/resource/reports/utilities-industry-uk",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic",
+    "status": 200,
+    "final": "https://www.talkwalker.com/resource/reports/social-media-audience-trends-during-the-pandemic",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 244,
+  "site": "Unbounce",
+  "url": "https://unbounce.com/landing-page-optimization/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 211,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://unbounce.com/landing-pages/ultimate-lead-capture-landing-page/",
+    "status": 200,
+    "final": "https://unbounce.com/landing-pages/how-to-create-the-ultimate-lead-capture-page/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://unbounce.com/landing-pages/visual-hierarchy/",
+    "status": 200,
+    "final": "https://unbounce.com/landing-pages/visual-hierarchy/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 245,
+  "site": "We Are Social",
+  "url": "https://wearesocial.com/uk/reports/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 8,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://wearesocial.com/uk/blog/2026/05/report-social-feature-superpowers-and-how-brands-can-use-them/",
+    "status": 200,
+    "final": "https://wearesocial.com/uk/blog/2026/05/report-social-feature-superpowers-and-how-brands-can-use-them/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://wearesocial.com/uk/blog/2026/10/digital-2027-your-guide-to-the-evolving-digital-world/",
+    "status": 200,
+    "final": "https://wearesocial.com/uk/blog/2026/10/digital-2027-your-guide-to-the-evolving-digital-world/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 246,
+  "site": "Wingify",
+  "url": "https://wingify.com/resources/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 7,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://wingify.com/success-stories/performics-hdfc-ergo/",
+    "status": 200,
+    "final": "https://wingify.com/success-stories/performics-hdfc-ergo/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://wingify.com/blog/mobile-app-funnel-analysis/",
+    "status": 200,
+    "final": "https://wingify.com/blog/mobile-app-funnel-analysis/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 247,
+  "site": "Zenith",
+  "url": "https://www.zenithmedia.com/global-intelligence/thought-leadership/",
+  "status": "已验证",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 182,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 4,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.zenithmedia.com/insights/is-over-hyping-direct-to-consumer-underplaying-its-value/",
+    "status": 200,
+    "final": "https://www.zenithmedia.com/insights/is-over-hyping-direct-to-consumer-underplaying-its-value/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.zenithmedia.com/insights/new-perspectives-how-brands-can-win-the-world-cup/",
+    "status": 200,
+    "final": "https://www.zenithmedia.com/insights/new-perspectives-how-brands-can-win-the-world-cup/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 248,
+  "site": "Zenith",
+  "url": "https://www.zenithmedia.com/news/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2161,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.zenithmedia.com/find-your-fans-the-cost-of-marketing-on-facebook-column-five-media/",
+    "status": 200,
+    "final": "https://www.zenithmedia.com/find-your-fans-the-cost-of-marketing-on-facebook-column-five-media/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.zenithmedia.com/zenith-wins-swarovskis-global-media-assignment/",
+    "status": 200,
+    "final": "https://www.zenithmedia.com/zenith-wins-swarovskis-global-media-assignment/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 249,
+  "site": "Salesforce",
+  "url": "https://www.salesforce.com/blog/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 29,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.salesforce.com/blog/small-business/digital-labor-for-startups/",
+    "status": 200,
+    "final": "https://www.salesforce.com/blog/small-business/digital-labor-for-startups/?bc=OTH",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.salesforce.com/blog/long-horizon-agents/",
+    "status": 200,
+    "final": "https://www.salesforce.com/blog/long-horizon-agents/?bc=OTH",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 250,
+  "site": "Salesforce",
+  "url": "https://www.salesforce.com/company/analyst-reports/",
+  "status": "已放宽",
+  "lines": 9,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 66,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.salesforce.com/crm/resources/isg-crm-sales-buyers-guide-2026/?d=pb&pr=",
+    "status": 200,
+    "final": "https://www.salesforce.com/crm/resources/isg-crm-sales-buyers-guide-2026/?d=pb&pr=&bc=OTH",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.salesforce.com/agentforce/resources/gartner-conversational-ai-platform-magic-quadrant/?d=pb&pr=",
+    "status": 200,
+    "final": "https://www.salesforce.com/agentforce/resources/gartner-conversational-ai-platform-magic-quadrant/?d=pb&pr=&bc=OTH",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 251,
+  "site": "Salesforce",
+  "url": "https://www.salesforce.com/news/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 30,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 5,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.salesforce.com/news/stories/gartner-magic-quadrant-digital-commerce-2026/",
+    "status": 200,
+    "final": "https://www.salesforce.com/news/stories/gartner-magic-quadrant-digital-commerce-2026/?bc=OTH",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.salesforce.com/news/press-releases/2026/09/15/siemens-agentforce-redefine-industrial-sales-service/",
+    "status": 200,
+    "final": "https://www.salesforce.com/news/press-releases/2026/09/15/siemens-agentforce-redefine-industrial-sales-service/?bc=OTH",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 252,
+  "site": "Adobe",
+  "url": "https://business.adobe.com/resources/reports.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://business.adobe.com/resources/reports/data-and-insights-digital-trends.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://business.adobe.com/resources/reports/b2b-marketing-digital-trends.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 253,
+  "site": "Adobe",
+  "url": "https://business.adobe.com/resources/digital-trends-research-center.html",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://business.adobe.com/resources/digital-trends-consumer-report.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://business.adobe.com/resources/digital-trends-report.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 254,
+  "site": "Adobe",
+  "url": "https://business.adobe.com/resources/adobe-digital-insights.html",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://business.adobe.com/resources/digital-economy-index.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://business.adobe.com/resources/digital-trends-report.html",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 255,
+  "site": "PitchBook",
+  "url": "https://pitchbook.com/news",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://pitchbook.com/news/reports/q3-2026-pitchbook-nvca-venture-monitor",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://pitchbook.com/news/reports/2026-us-venture-capital-outlook",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 256,
+  "site": "CB Insights",
+  "url": "https://www.cbinsights.com/research/",
+  "status": "已验证",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 22,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+    "status": 200,
+    "final": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.cbinsights.com/research/featured-topics/fintech/",
+    "status": 200,
+    "final": "https://www.cbinsights.com/research/featured-topics/fintech/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 257,
+  "site": "CB Insights",
+  "url": "https://www.cbinsights.com/strategy-terminal/",
+  "status": "单页（含跳转页）",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 47,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://www.cbinsights.com/genai-strategy/",
+    "status": 200,
+    "final": "https://www.cbinsights.com/genai-strategy/",
+    "result": "可打开"
+   },
+   {
+    "url": "https://www.cbinsights.com/research/",
+    "status": 200,
+    "final": "https://www.cbinsights.com/research/",
+    "result": "可打开"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 258,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/reports",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 2,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/reports/uzbek-tech-ecosystem-2026",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://dealroom.co/reports/new-zealand-tech-ecosystem-report-2026",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 259,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/resources",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/resources/dealroom-news-explained",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 260,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/news/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/news/169124-revolut-moves-2-000-engineers-onto-self-hosted-ai-cutting-coding-costs-9/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://dealroom.co/news/other-1ogu1el-nvidia-orders-data-centre-clients-to-reduce-china-exposure",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 261,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/companies/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 3,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/companies/pitchbook/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   },
+   {
+    "url": "https://dealroom.co/companies/canva/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 262,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/investors/",
+  "status": "已放宽",
+  "lines": 2,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/investors/sequoia-capital.md",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 263,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/market-maps/",
+  "status": "已放宽",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 2,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/market-maps/market-intelligence-landscape/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 264,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/power-law-outcomes/",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/power-law-outcomes/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ },
+ {
+  "seq": 265,
+  "site": "Dealroom",
+  "url": "https://dealroom.co/tech-macro-economics/",
+  "status": "单页",
+  "lines": 1,
+  "dead_links": 0,
+  "syntax": "通过",
+  "pos_total": 1,
+  "pos_fail": [],
+  "pos_fail_n": 0,
+  "neg_total": 1,
+  "neg_fail": [],
+  "live": [
+   {
+    "url": "https://dealroom.co/tech-macro-economics/",
+    "result": "本环境无法访问（站点拦截/需登录/网络限制）"
+   }
+  ],
+  "result": "通过"
+ }
+]

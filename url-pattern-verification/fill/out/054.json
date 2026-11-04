@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:01:09+00:00",
- "pattern": "^(?:https://www\\.woshipm\\.com/about|https://www\\.woshipm\\.com/useragreement|https://www\\.woshipm\\.com/violationclaim)$",
+ "pattern": "^(?:https://www\\.woshipm\\.com/about|https://www\\.woshipm\\.com/useragreement|https://www\\.woshipm\\.com/violationclaim)$\n^(?:https://www\\.woshipm\\.com/%E8%B7%9F%E5%B8%96%E8%AF%84%E8%AE%BA%E8%87%AA%E5%BE%8B%E7%AE%A1%E7%90%86%E6%89%BF%E8%AF%BA%E4%B9%A6|https://www\\.woshipm\\.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6)$",
  "status": "已放宽",
  "members": 4,
  "kept": 3,
@@ -25,14 +25,14 @@
  ],
  "negatives_matched": [],
  "redirect_extra": [],
- "redirect_skipped": [
-  [
-   "https://www.woshipm.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6",
-   "https://www.woshipm.com/%E8%B7%9F%E5%B8%96%E8%AF%84%E8%AE%BA%E8%87%AA%E5%BE%8B%E7%AE%A1%E7%90%86%E6%89%BF%E8%AF%BA%E4%B9%A6"
-  ]
- ],
+ "redirect_skipped": [],
  "full_list_count": 3,
  "relax_note": "保留逐条清单（站外条目或无法归纳）",
  "status_strict": "快照",
- "pattern_base": "^(?:https://www\\.woshipm\\.com/about|https://www\\.woshipm\\.com/useragreement|https://www\\.woshipm\\.com/violationclaim)$"
+ "pattern_base": "^(?:https://www\\.woshipm\\.com/about|https://www\\.woshipm\\.com/useragreement|https://www\\.woshipm\\.com/violationclaim)$\n^(?:https://www\\.woshipm\\.com/%E8%B7%9F%E5%B8%96%E8%AF%84%E8%AE%BA%E8%87%AA%E5%BE%8B%E7%AE%A1%E7%90%86%E6%89%BF%E8%AF%BA%E4%B9%A6|https://www\\.woshipm\\.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6)$",
+ "fix_added": [
+  "https://www.woshipm.com/%E8%B7%9F%E5%B8%96%E8%AF%84%E8%AE%BA%E8%87%AA%E5%BE%8B%E7%AE%A1%E7%90%86%E6%89%BF%E8%AF%BA%E4%B9%A6",
+  "https://www.woshipm.com/%e8%b7%9f%e5%b8%96%e8%af%84%e8%ae%ba%e8%87%aa%e5%be%8b%e7%ae%a1%e7%90%86%e6%89%bf%e8%af%ba%e4%b9%a6"
+ ],
+ "dead_links": []
 }

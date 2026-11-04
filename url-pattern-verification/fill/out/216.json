@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-04T04:12:57+00:00",
  "unverified_kept": 0,
- "pattern": "^https://iabeurope\\.eu/knowledge_hub/[a-z0-9-]+/$\n^(?:https://iabeurope\\.eu/knowledge_hub/5\\-insights\\-from\\-memo%C2%B2\\-for\\-effective\\-digital\\-retail\\-media\\-advertising/)$",
+ "pattern": "^https://iabeurope\\.eu/knowledge_hub/[a-z0-9-]+/$\n^(?:https://iabeurope\\.eu/knowledge_hub/5\\-insights\\-from\\-memo%C2%B2\\-for\\-effective\\-digital\\-retail\\-media\\-advertising/)$\n^(?:https://iabeurope\\.eu/knowledge_hub/5\\-insights\\-from\\-memo%c2%b2\\-for\\-effective\\-digital\\-retail\\-media\\-advertising/)$",
  "status": "已放宽",
  "members": 95,
  "kept": 94,
@@ -23,12 +23,14 @@
   "https://iabeurope.eu/knowledge-hub-categories/research-and-insights/"
  ],
  "negatives_matched": [],
- "redirect_extra": [
-  "https://iabeurope.eu/knowledge_hub/5-insights-from-memo%C2%B2-for-effective-digital-retail-media-advertising/"
- ],
+ "redirect_extra": [],
  "redirect_skipped": [],
  "full_list_count": 94,
  "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://iabeurope\\.eu/knowledge_hub/[a-z0-9-]+/$"
+ "pattern_base": "^https://iabeurope\\.eu/knowledge_hub/[a-z0-9-]+/$\n^(?:https://iabeurope\\.eu/knowledge_hub/5\\-insights\\-from\\-memo%C2%B2\\-for\\-effective\\-digital\\-retail\\-media\\-advertising/)$\n^(?:https://iabeurope\\.eu/knowledge_hub/5\\-insights\\-from\\-memo%c2%b2\\-for\\-effective\\-digital\\-retail\\-media\\-advertising/)$",
+ "fix_added": [
+  "https://iabeurope.eu/knowledge_hub/5-insights-from-memo%c2%b2-for-effective-digital-retail-media-advertising/"
+ ],
+ "dead_links": []
 }

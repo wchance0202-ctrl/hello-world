@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03；条目在站外",
  "exclusivity": null,
  "observed_at": "2026-11-03T10:11:39+00:00",
- "pattern": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$\n^(?:https://opositiv\\.com/products/flo\\-pms\\-vitamin\\-capsules|https://www\\.instructure\\.com/canvas\\?domain=canvas)$",
+ "pattern": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$\n^(?:https://opositiv\\.com/products/flo\\-pms\\-vitamin\\-capsules|https://www\\.instructure\\.com/canvas\\?domain=canvas)$\n^(?:http://mightyapp\\.com/|https://flovitamins\\.com/|https://huel\\.com/|https://oonagoods\\.com/|https://playgroundai\\.com/|https://rememberedlore\\.com/|https://sexyfoodtherapy\\.com/|https://thyroidalchemy\\.com/|https://twitter\\.com/harrydry|https://uk\\.huel\\.com/|https://www\\.canvas\\.com/|https://www\\.chanel\\.com/gb/|https://www\\.chanel\\.com/gb/mothers\\-day/|https://x\\.com/harrydry)$",
  "status": "已放宽",
  "members": 25,
  "kept": 10,
@@ -92,38 +92,56 @@
   "https://marketingexamples.com/inspiration"
  ],
  "negatives_matched": [],
- "redirect_extra": [
-  "https://opositiv.com/products/flo-pms-vitamin-capsules",
-  "https://www.instructure.com/canvas?domain=canvas"
- ],
- "redirect_skipped": [
-  [
-   "https://uk.huel.com/",
-   "https://huel.com/"
-  ],
-  [
-   "https://oonagoods.com/",
-   "https://rememberedlore.com/"
-  ],
-  [
-   "https://sexyfoodtherapy.com/",
-   "https://thyroidalchemy.com/"
-  ],
-  [
-   "https://twitter.com/harrydry",
-   "https://x.com/harrydry"
-  ],
-  [
-   "http://mightyapp.com/",
-   "https://playgroundai.com/"
-  ],
-  [
-   "https://www.chanel.com/gb/mothers-day/",
-   "https://www.chanel.com/gb/"
-  ]
- ],
+ "redirect_extra": [],
+ "redirect_skipped": [],
  "full_list_count": 10,
  "relax_note": "保留逐条清单（站外条目或无法归纳）",
  "status_strict": "快照",
- "pattern_base": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$"
+ "pattern_base": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$\n^(?:https://opositiv\\.com/products/flo\\-pms\\-vitamin\\-capsules|https://www\\.instructure\\.com/canvas\\?domain=canvas)$\n^(?:http://mightyapp\\.com/|https://flovitamins\\.com/|https://huel\\.com/|https://oonagoods\\.com/|https://playgroundai\\.com/|https://rememberedlore\\.com/|https://sexyfoodtherapy\\.com/|https://thyroidalchemy\\.com/|https://twitter\\.com/harrydry|https://uk\\.huel\\.com/|https://www\\.canvas\\.com/|https://www\\.chanel\\.com/gb/|https://www\\.chanel\\.com/gb/mothers\\-day/|https://x\\.com/harrydry)$",
+ "fix_added": [
+  "http://mightyapp.com/",
+  "https://flovitamins.com/",
+  "https://huel.com/",
+  "https://oonagoods.com/",
+  "https://playgroundai.com/",
+  "https://rememberedlore.com/",
+  "https://sexyfoodtherapy.com/",
+  "https://thyroidalchemy.com/",
+  "https://twitter.com/harrydry",
+  "https://uk.huel.com/",
+  "https://www.canvas.com/",
+  "https://www.chanel.com/gb/",
+  "https://www.chanel.com/gb/mothers-day/",
+  "https://x.com/harrydry"
+ ],
+ "dead_links": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Labour_Isn%27t_Working",
+   "status": 429
+  },
+  {
+   "url": "https://medium.com/about",
+   "status": 403
+  },
+  {
+   "url": "https://www.campaignlive.co.uk/article/replens-md-sex-gets-old-gate/1710114",
+   "status": 403
+  },
+  {
+   "url": "https://www.creativemoment.co/creative-classics-volkswagen-shows-that-legends-are-made-not-born",
+   "status": 404
+  },
+  {
+   "url": "https://www.creativereview.co.uk/liberte-egalite-fraternite/",
+   "status": 403
+  },
+  {
+   "url": "https://www.linkedin.com/in/harrydry/",
+   "status": 999
+  },
+  {
+   "url": "https://www.thatplumber.co.uk/",
+   "status": null
+  }
+ ]
 }

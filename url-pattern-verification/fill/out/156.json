@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03；条目在其他子域",
  "exclusivity": null,
  "observed_at": "2026-11-03T10:10:21+00:00",
- "pattern": "^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html\\?utm_source=[a-z\\+_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z0-9\\+_-]+$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9-]+\\.html\\?utm_source=[a-z_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z_]+&utm_content=[a-zA-Z_]+$\n^(?:https://go\\.euromonitor\\.com/webinar\\-finance\\-220726\\-bnpl\\.html\\?utm_source=insight_page\\&utm_medium=webiste\\&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later\\&utm_term=Buy_Now_Pay_Later\\&utm_content=Buy_Now_Pay_Later_Webinar|https://go\\.euromonitor\\.com/webinar\\-trump\\-policies\\-impact\\-across\\-industries)$",
+ "pattern": "^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html\\?utm_source=[a-z\\+_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z0-9\\+_-]+$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9-]+\\.html\\?utm_source=[a-z_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z_]+&utm_content=[a-zA-Z_]+$\n^(?:https://go\\.euromonitor\\.com/webinar\\-finance\\-220726\\-bnpl\\.html\\?utm_source=insight_page\\&utm_medium=webiste\\&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later\\&utm_term=Buy_Now_Pay_Later\\&utm_content=Buy_Now_Pay_Later_Webinar|https://go\\.euromonitor\\.com/webinar\\-trump\\-policies\\-impact\\-across\\-industries)$\n^(?:https://go\\.euromonitor\\.com/webinar\\-via\\-220531\\-tracking\\-inflation\\.html\\?utm_source=insight_page\\&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends|https://www\\.euromonitor\\.com/insights)$",
  "status": "已放宽",
  "members": 51,
  "kept": 44,
@@ -53,38 +53,14 @@
  ],
  "negatives_matched": [],
  "redirect_extra": [],
- "redirect_skipped": [
-  [
-   "https://go.euromonitor.com/webinar-megatrends-210408-quantifying-megatrends.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_04_08_LIVE_Intro_Megatrends_Index",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-sustainability-21-03-23-sustainability-to-purpose-the-new-way-of-doing-business.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_23_LIVE_Sustainability_to_Purpose",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-economies-consumers-220426-future-of-work-and-education.html",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-consumers-210204-top-digital-consumer-trends-2021.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_02_04_REC_Digital_Consumer_Trends_2021",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-travel-top-100-city-destinations-210311.html?utm_source=blog&utm_medium=blog&utm_campaign=WB_21_03_11_REC_Top_100_Cities",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-consumer-health-220412-self-love-product-claims-in-consumer-health.html",
-   "https://www.euromonitor.com/insights"
-  ],
-  [
-   "https://go.euromonitor.com/webinar-via-220531-tracking-inflation.html?utm_source=insight_page&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends",
-   "https://www.euromonitor.com/insights"
-  ]
- ],
+ "redirect_skipped": [],
  "full_list_count": 44,
  "relax_note": "由逐条清单改为通用规则（3 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html\\?utm_source=[a-z\\+_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z0-9\\+_-]+$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9-]+\\.html\\?utm_source=[a-z_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z_]+&utm_content=[a-zA-Z_]+$\n^(?:https://go\\.euromonitor\\.com/webinar\\-finance\\-220726\\-bnpl\\.html\\?utm_source=insight_page\\&utm_medium=webiste\\&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later\\&utm_term=Buy_Now_Pay_Later\\&utm_content=Buy_Now_Pay_Later_Webinar|https://go\\.euromonitor\\.com/webinar\\-trump\\-policies\\-impact\\-across\\-industries)$"
+ "pattern_base": "^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html\\?utm_source=[a-z\\+_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z0-9\\+_-]+$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9_-]+\\.html$\n^https://go\\.euromonitor\\.com/[a-zA-Z0-9-]+\\.html\\?utm_source=[a-z_]+&utm_medium=[a-z]+&utm_campaign=[a-zA-Z_]+&utm_content=[a-zA-Z_]+$\n^(?:https://go\\.euromonitor\\.com/webinar\\-finance\\-220726\\-bnpl\\.html\\?utm_source=insight_page\\&utm_medium=webiste\\&utm_campaign=WB_22_07_26_REC_Buy_Now_Pay_Later\\&utm_term=Buy_Now_Pay_Later\\&utm_content=Buy_Now_Pay_Later_Webinar|https://go\\.euromonitor\\.com/webinar\\-trump\\-policies\\-impact\\-across\\-industries)$\n^(?:https://go\\.euromonitor\\.com/webinar\\-via\\-220531\\-tracking\\-inflation\\.html\\?utm_source=insight_page\\&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends|https://www\\.euromonitor\\.com/insights)$",
+ "fix_added": [
+  "https://go.euromonitor.com/webinar-via-220531-tracking-inflation.html?utm_source=insight_page&utm_medium=WB_22_05_31_REC_Via_Inflation_Trends",
+  "https://www.euromonitor.com/insights"
+ ],
+ "dead_links": []
 }

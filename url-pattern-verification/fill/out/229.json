@@ -7,7 +7,7 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:32:41+00:00",
- "pattern": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$\n^(?:https://www\\.branch\\.io/resources/guide/finance\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/health\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/travel\\-industry\\-hub/)$",
+ "pattern": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$\n^(?:https://www\\.branch\\.io/resources/guide/finance\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/health\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/travel\\-industry\\-hub/)$\n^(?:https://www\\.branch\\.io/guides/finance\\-industry\\-hub/|https://www\\.branch\\.io/guides/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/guides/health\\-industry\\-hub/|https://www\\.branch\\.io/guides/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/guides/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/guides/travel\\-industry\\-hub/)$",
  "status": "已放宽",
  "members": 15,
  "kept": 9,
@@ -47,17 +47,19 @@
   "https://www.branch.io/use-cases/"
  ],
  "negatives_matched": [],
- "redirect_extra": [
-  "https://www.branch.io/resources/guide/finance-industry-hub/",
-  "https://www.branch.io/resources/guide/food-and-beverage-industry-hub/",
-  "https://www.branch.io/resources/guide/health-industry-hub/",
-  "https://www.branch.io/resources/guide/media-and-entertainment-industry-hub/",
-  "https://www.branch.io/resources/guide/retail-and-e-commerce-industry-hub/",
-  "https://www.branch.io/resources/guide/travel-industry-hub/"
- ],
+ "redirect_extra": [],
  "redirect_skipped": [],
  "full_list_count": 9,
  "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$"
+ "pattern_base": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$\n^(?:https://www\\.branch\\.io/resources/guide/finance\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/health\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/travel\\-industry\\-hub/)$\n^(?:https://www\\.branch\\.io/guides/finance\\-industry\\-hub/|https://www\\.branch\\.io/guides/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/guides/health\\-industry\\-hub/|https://www\\.branch\\.io/guides/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/guides/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/guides/travel\\-industry\\-hub/)$",
+ "fix_added": [
+  "https://www.branch.io/guides/finance-industry-hub/",
+  "https://www.branch.io/guides/food-and-beverage-industry-hub/",
+  "https://www.branch.io/guides/health-industry-hub/",
+  "https://www.branch.io/guides/media-and-entertainment-industry-hub/",
+  "https://www.branch.io/guides/retail-and-e-commerce-industry-hub/",
+  "https://www.branch.io/guides/travel-industry-hub/"
+ ],
+ "dead_links": []
 }

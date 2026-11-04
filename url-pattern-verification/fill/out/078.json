@@ -23,5 +23,7 @@
  "full_list_count": 47,
  "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
  "status_strict": "快照",
- "pattern_base": "^https://www\\.isc\\.org\\.cn/article/[0-9]+\\.html$"
+ "pattern_base": "^https://www\\.isc\\.org\\.cn/article/[0-9]+\\.html$",
+ "fix_added": [],
+ "dead_links": []
 }

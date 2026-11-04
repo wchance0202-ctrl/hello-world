@@ -10,7 +10,7 @@
   "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
  },
  "observed_at": "2026-11-03T10:08:29+00:00",
- "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$",
+ "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$\n^(?:https://yougov\\.com/events/55208\\-fresh\\-insights\\-for\\-your\\-year\\-end\\-rally\\-yougov\\-shopper\\-hungary|https://yougov\\.com/events/55260\\-webinar\\-2026\\-in\\-fmcg\\-\\-time\\-for\\-check\\-in\\-after\\-h1\\-shopper\\-retail\\-trends\\-yougov\\-shopper)$",
  "families": [
   {
    "frozen_sha256": "91e15c6506d201315bcf637e540837db81bca66a85b42591999c04702f8138e7",
@@ -236,9 +236,19 @@
  },
  "why_not_verified": null,
  "full_list_count": 985,
- "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$",
+ "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$\n^(?:https://yougov\\.com/events/55208\\-fresh\\-insights\\-for\\-your\\-year\\-end\\-rally\\-yougov\\-shopper\\-hungary|https://yougov\\.com/events/55260\\-webinar\\-2026\\-in\\-fmcg\\-\\-time\\-for\\-check\\-in\\-after\\-h1\\-shopper\\-retail\\-trends\\-yougov\\-shopper)$",
  "redirect_extra": [],
  "redirect_skipped": [],
  "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
- "status_strict": "超范围"
+ "status_strict": "超范围",
+ "fix_added": [
+  "https://yougov.com/events/55208-fresh-insights-for-your-year-end-rally-yougov-shopper-hungary",
+  "https://yougov.com/events/55260-webinar-2026-in-fmcg--time-for-check-in-after-h1-shopper-retail-trends-yougov-shopper"
+ ],
+ "dead_links": [
+  {
+   "url": "https://yougov.com/events/55551-gain-fresh-insights-into-hungarian-shoppers-categories-and-retail-dynamics-yougov-shoppers",
+   "status": null
+  }
+ ]
 }
