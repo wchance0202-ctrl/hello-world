@@ -4,7 +4,7 @@
  "url": "https://e.bilibili.com/main/observe",
  "mode": "regex",
  "basis": "情况 A：营销观察文章 /main/observe/{拼音slug}，浏览器点击首屏卡片取样",
- "note": "列表后续内容未取样",
+ "note": "样本只来自首屏卡片；2026-11-04 尝试点第 2 页，列表内容未变化（翻页控件对脚本点击无效），未取得新样本",
  "exclusivity": {
   "proved": true,
   "evidence": "条目在入口路径 /main/observe/ 之下（情况 A），由点击卡片取得"

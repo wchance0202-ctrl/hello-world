@@ -24,5 +24,9 @@
   "evidence": "资讯详情在入口路径 /news/{数字} 下（情况 A），浏览器点击首屏卡片在新标签页打开取得"
  },
  "basis": "情况 A：行业资讯详情 /news/{数字}（列表共 99 页，卡片为脚本跳转）",
- "note": "样本只来自首屏卡片"
+ "note": "留出样本取自列表第 2 页（点击卡片落地）",
+ "holdout": [
+  "https://geo.newrank.cn/news/11464",
+  "https://geo.newrank.cn/news/11466"
+ ]
 }

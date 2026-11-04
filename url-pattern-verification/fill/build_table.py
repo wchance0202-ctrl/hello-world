@@ -55,6 +55,8 @@ def remarks(r):
         ex = [x for f in r["families"] for x in f.get("identity_excluded", [])]
     if ex:
         out.append(f"{len(ex)} 个样本落地异常，未作正例")
+    if r.get("extra_exact_kept"):
+        out.append(f"其中一行是 {r["extra_exact_kept"]} 个子页面的精确地址")
     if r.get("redirect_extra"):
         out.append(f"最后一行正则是 {len(r['redirect_extra'])} 个跳转目标（列表链接打开后实际落地的地址）")
     if r.get("redirect_skipped"):

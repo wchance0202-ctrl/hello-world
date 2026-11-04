@@ -7,14 +7,14 @@
  "pattern": "^https://e\\.kuaishou\\.com/\\#/e/news/[0-9]+$",
  "carried_from": "R3H-S2-R56-E1-F1",
  "members": [
+  "https://e.kuaishou.com/#/e/news/2154",
+  "https://e.kuaishou.com/#/e/news/2155",
   "https://e.kuaishou.com/#/e/news/2156",
   "https://e.kuaishou.com/#/e/news/2157",
   "https://e.kuaishou.com/#/e/news/2158",
   "https://e.kuaishou.com/#/e/news/2161",
   "https://e.kuaishou.com/#/e/news/2164",
-  "https://e.kuaishou.com/#/e/news/2165",
-  "https://e.kuaishou.com/#/e/news/2154",
-  "https://e.kuaishou.com/#/e/news/2155"
+  "https://e.kuaishou.com/#/e/news/2165"
  ],
  "negatives": [
   "https://e.kuaishou.com/#/e/news",
@@ -26,5 +26,5 @@
   "https://e.kuaishou.com/#/e/cases/1857/1"
  ],
  "basis": "情况 A（Hash 路由）：资讯详情在入口路由 /e/news/ 之下；第 3 轮浏览器点击首屏卡片取样（归纳 6、留出 2），每个地址单独在浏览器打开核验，node-re2 与 google-re2 两套引擎逐对一致",
- "note": "样本只来自首屏卡片，列表后续页未枚举；路由前缀本身就是栏目边界"
+ "note": "样本只来自首屏卡片；2026-11-04 尝试点第 2 页，列表内容未变化（翻页控件对脚本点击无效），未取得新样本；首屏样本重新单独打开核验仍全部通过"
 }

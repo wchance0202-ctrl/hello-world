@@ -179,5 +179,8 @@
   "families": 3
  },
  "why_not_verified": null,
- "full_list_count": 1589
+ "full_list_count": 1589,
+ "pattern_base": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

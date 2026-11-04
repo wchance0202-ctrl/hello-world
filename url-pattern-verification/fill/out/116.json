@@ -4,17 +4,17 @@
  "url": "https://geo.newrank.cn/news",
  "mode": "regex",
  "basis": "情况 A：行业资讯详情 /news/{数字}（列表共 99 页，卡片为脚本跳转）",
- "note": "样本只来自首屏卡片",
+ "note": "留出样本取自列表第 2 页（点击卡片落地）",
  "exclusivity": {
   "proved": true,
   "evidence": "资讯详情在入口路径 /news/{数字} 下（情况 A），浏览器点击首屏卡片在新标签页打开取得"
  },
- "observed_at": "2026-11-03T09:37:21+00:00",
- "frozen_sha256": "943e142f4697f24b2020149acbc8129318582d9e654fb96fb36cd98fff9ce40f",
+ "observed_at": "2026-11-04T04:21:50+00:00",
+ "frozen_sha256": "3eff2b9d0a7c86fbcb761aabe72ef600915a212960a00aec7527ec244a0ea751",
  "pattern": "^https://geo\\.newrank\\.cn/news/[0-9]+$",
  "status": "已验证",
  "checks": {
-  "inference_pos": 6,
+  "inference_pos": 8,
   "holdout_pos": 2,
   "holdout_neg": 3,
   "all_pass": true,
@@ -29,19 +29,21 @@
    "https://geo.newrank.cn/news/11470",
    "https://geo.newrank.cn/news/11472",
    "https://geo.newrank.cn/news/11473",
+   "https://geo.newrank.cn/news/11475",
+   "https://geo.newrank.cn/news/11478",
    "https://geo.newrank.cn/news/11482",
    "https://geo.newrank.cn/news/11484"
   ],
   "holdout_pos": [
-   "https://geo.newrank.cn/news/11475",
-   "https://geo.newrank.cn/news/11478"
+   "https://geo.newrank.cn/news/11464",
+   "https://geo.newrank.cn/news/11466"
   ],
   "holdout_neg": [
    "https://geo.newrank.cn/news",
    "https://geo.newrank.cn/",
    "https://e.newrank.cn/marketing/IndustryInformation/15"
   ],
-  "holdout_source": "listing_split"
+  "holdout_source": "independent"
  },
  "engine": {
   "name": "google-re2"

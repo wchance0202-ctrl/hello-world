@@ -1,4 +1,4 @@
-## 附录：需要处理的 205 行（按原表顺序）
+## 附录：需要处理的 190 行（按原表顺序）
 
 完整字段（当前正则、不确定在哪里）见随附的 `unfinished.xlsx`。
 
@@ -34,11 +34,10 @@
 | 30 | D 超范围待收窄 | 甲子光年 | https://www.jazzyear.com/article_list.html?type=4 | 超范围 |  |
 | 31 | C 快照待补全 | 甲子光年 | https://www.jazzyear.com/article_list.html?type=6 | 快照 |  |
 | 32 | A 未完成 | 未来智库（vzkoo） | https://www.vzkoo.com/question | 仅入口页（访问受限） |  |
-| 33 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/news | 已验证 | 样本只来自首屏卡片 |
-| 34 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/report | 已验证 | 样本只来自首屏卡片 |
+| 33 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/news | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
+| 34 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/report | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 35 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/cases | 已验证 | 样本只来自首屏卡片，末段 /1 只见过一个取值 |
-| 36 | E 已验证但有保留 | 小红书商业 | https://e.xiaohongshu.com/numerous | 已验证 | 列表第 2 页未取样 |
-| 37 | E 已验证但有保留 | 阿里妈妈 | https://www.alimama.com/index.htm#!/marketing-case/index | 已验证 | 样本只来自首屏卡片 |
+| 37 | E 已验证但有保留 | 阿里妈妈 | https://www.alimama.com/index.htm#!/marketing-case/index | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 39 | E 已验证但有保留 | 哔哩哔哩营销 | https://e.bilibili.com/main/observe | 已验证 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
 | 40 | A 未完成 | 哔哩哔哩营销 | https://e.bilibili.com/case/ | 留空 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
 | 41 | A 未完成 | 千牛头条 | https://qn.taobao.com/headline/news | 仅入口页（需登录） |  |
@@ -94,17 +93,16 @@
 | 104 | A 未完成 | 荟聚 | https://www.huiju.cool/industryinsight/ | 仅入口页（访问受限） |  |
 | 106 | B 单页待复核 | AppGrowing | https://docs.appgrowing.net/zh/#reports | 单页 |  |
 | 107 | B 单页待复核 | 神策数据 | https://www.sensorsdata.cn/target_disassembly.html | 单页 |  |
-| 108 | E 已验证但有保留 | 神策数据 | https://www.sensorsdata.cn/researchInstitute.html | 已验证 | 样本只来自首屏卡片 |
+| 108 | E 已验证但有保留 | 神策数据 | https://www.sensorsdata.cn/researchInstitute.html | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 109 | A 未完成 | 启信宝 | https://www.qixin.com/pay/vip | 仅入口页（访问受限） |  |
 | 110 | A 未完成 | 启信宝 | https://www.qixin.com/app-center/ | 仅入口页（访问受限） |  |
-| 111 | E 已验证但有保留 | incoPat | https://learn.incopat.com/#/ | 已验证 | 样本只来自首屏卡片 |
+| 111 | E 已验证但有保留 | incoPat | https://learn.incopat.com/#/ | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 112 | B 单页待复核 | MobTech | https://www.mob.com/mobdata/report | 单页 | 报告 PDF 在 cdn-static-oss.mob.com，曾返回 404 |
 | 113 | A 未完成 | MobTech | https://www.mob.com/mobSmart/citymap | 候选 | 报告 PDF 在 cdn-static-oss.mob.com，曾返回 404 |
 | 115 | C 快照待补全 | 新榜海汇 | https://e.newrank.cn/marketing/IndustryInformation | 快照 |  |
-| 116 | E 已验证但有保留 | 新榜智汇 | https://geo.newrank.cn/news | 已验证 | 样本只来自首屏卡片（列表共 99 页） |
+| 116 | E 已验证但有保留 | 新榜智汇 | https://geo.newrank.cn/news | 已验证 | 列表共 99 页，样本只来自前两页 |
 | 120 | A 未完成 | World Bank（世界银行） | https://www.worldbank.org/ext/en/research-publications | 候选 |  |
-| 121 | B 单页待复核 | World Bank（世界银行） | https://www.worldbank.org/ext/en/what-we-do | 单页 |  |
-| 124 | E 已验证但有保留 | BIS（国际清算银行） | https://www.bis.org/statistics | 已验证 | 统计数据门户 data.bis.org（另一子域）未纳入 |
+| 121 | C 快照待补全 | World Bank（世界银行） | https://www.worldbank.org/ext/en/what-we-do | 快照 |  |
 | 125 | C 快照待补全 | BIS（国际清算银行） | https://www.bis.org/committees/overview | 快照 |  |
 | 126 | C 快照待补全 | BIS（国际清算银行） | https://www.bis.org/about/fsi/overview | 快照 |  |
 | 127 | C 快照待补全 | BIS（国际清算银行） | https://www.bis.org/about/innovation-hub/overview | 快照 |  |
@@ -113,24 +111,15 @@
 | 133 | C 快照待补全 | ITU（国际电信联盟） | https://www.itu.int/en/publications/Pages/media.aspx | 快照 |  |
 | 134 | B 单页待复核 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-resources | 单页 |  |
 | 135 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/publications/en/ | 快照 |  |
-| 136 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-statistics | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
-| 137 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/global-brand-database | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
-| 138 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/global-design-database | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
 | 139 | A 未完成 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/wipolex | 候选 |  |
-| 140 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-commercialization | 已验证 | 只覆盖主题新闻（列表只有 4 条），主题说明子页未纳入 |
-| 141 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-financing | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
 | 142 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/intangible-assets | 快照 |  |
 | 143 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/innovation-ecosystems | 快照 |  |
 | 144 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/competition-policy | 快照 |  |
-| 145 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/frontier-technologies | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
-| 146 | E 已验证但有保留 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/technology-trends | 已验证 | 只覆盖主题新闻，主题说明子页未纳入 |
-| 147 | B 单页待复核 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/country-profiles | 单页 |  |
+| 147 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/country-profiles | 快照 |  |
 | 148 | B 单页待复核 | WIPO（世界知识产权组织） | https://www3.wipo.int/madrid/monitor/en/ | 单页 |  |
 | 150 | C 快照待补全 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/patentscope/data/index | 快照 |  |
-| 151 | E 已验证但有保留 | EPO（欧洲专利局） | https://www.epo.org/en/news-events | 已验证 | /en/news-events/{子栏目} 说明页未纳入 |
 | 152 | B 单页待复核 | EPO（欧洲专利局） | https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results | 单页 |  |
 | 156 | C 快照待补全 | Euromonitor International | https://www.euromonitor.com/webinar | 快照 |  |
-| 157 | E 已验证但有保留 | Euromonitor International | https://www.euromonitor.com/store/explore-reports | 已验证 | 单篇报告页 /{slug}/report 未纳入 |
 | 160 | B 单页待复核 | Brand Finance | https://brandfinance.com/about | 单页 |  |
 | 161 | A 未完成 | Circana | https://www.circana.com/insights | 仅入口页（条目不可枚举） | Wix 页面，条目不是普通链接，也没有独立 sitemap |
 | 162 | C 快照待补全 | Circana | https://www.circana.com/news | 快照 | Wix 页面，条目不是普通链接，也没有独立 sitemap |
@@ -147,7 +136,6 @@
 | 173 | A 未完成 | BCG | https://www.bcg.com/capabilities/customer-insights/insights | 仅入口页（访问受限） |  |
 | 174 | A 未完成 | BCG | https://www.bcg.com/industries/retail/insights | 仅入口页（访问受限） |  |
 | 175 | A 未完成 | BCG | https://www.bcg.com/industries/consumer-products-industry/insights | 仅入口页（访问受限） |  |
-| 177 | E 已验证但有保留 | Deloitte | https://www.deloitte.com/global/en/insights.html | 已验证 | 第二条规则年份写死为 2026，新年份不匹配 |
 | 178 | C 快照待补全 | Forrester | https://www.forrester.com/b2c-marketing/ | 快照 |  |
 | 179 | D 超范围待收窄 | Forrester | https://www.forrester.com/blogs/category/b2b-research/ | 超范围 |  |
 | 180 | D 超范围待收窄 | Forrester | https://www.forrester.com/blogs/category/b2b-research/page/2/ | 超范围 |  |
@@ -158,8 +146,8 @@
 | 185 | A 未完成 | Gartner | https://www.gartner.com/en/supply-chain | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
 | 186 | A 未完成 | Gartner | https://www.gartner.com/en/insights/finance | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
 | 187 | D 超范围待收窄 | Pew Research Center | https://www.pewresearch.org/topic/economy-work/ | 超范围 |  |
-| 188 | E 已验证但有保留 | Pew Research Center | https://www.pewresearch.org/topic/internet-technology/ | 已验证 | 只覆盖子主题页，主题文章在全站共用路径未覆盖 |
-| 189 | E 已验证但有保留 | Pew Research Center | https://www.pewresearch.org/topic/news-habits-media/ | 已验证 | 只覆盖子主题页，主题文章在全站共用路径未覆盖 |
+| 188 | D 超范围待收窄 | Pew Research Center | https://www.pewresearch.org/topic/internet-technology/ | 超范围 |  |
+| 189 | D 超范围待收窄 | Pew Research Center | https://www.pewresearch.org/topic/news-habits-media/ | 超范围 |  |
 | 190 | D 超范围待收窄 | Pew Research Center | https://www.pewresearch.org/topic/economy-work/business-workplace/ | 超范围 |  |
 | 192 | B 单页待复核 | TikTok Creative Center | https://ads.tiktok.com/creative/creativeCenter | 单页 |  |
 | 193 | A 未完成 | Meta 广告政策中心 | https://transparency.meta.com/policies/ | 仅入口页（访问受限） |  |
@@ -168,13 +156,12 @@
 | 200 | C 快照待补全 | ANA 美国广告主协会 | https://www.ana.net/advocacy | 快照 |  |
 | 201 | B 单页待复核 | ANA 美国广告主协会 | https://www.ana.net/membership | 单页 |  |
 | 202 | B 单页待复核 | AMA 美国市场营销协会 | https://www.ama.org/job-boards-join-our-team/ | 单页 |  |
-| 203 | E 已验证但有保留 | WFA 世界广告主联合会 | https://wfanet.org/news/ | 已验证 | 只取到新闻列表第 1 页的 10 条 |
 | 204 | A 未完成 | Campaign | https://www.campaignlive.com/news | 仅入口页（访问受限） |  |
 | 205 | A 未完成 | Campaign | https://www.campaignlive.com/in-depth | 仅入口页（访问受限） |  |
 | 208 | D 超范围待收窄 | D&AD | https://www.dandad.org/subjects/case-study | 超范围 |  |
 | 209 | C 快照待补全 | Demand Curve | https://gp.demandcurve.com/resources | 快照 |  |
 | 210 | B 单页待复核 | DPAA | https://dpaaglobal.com/omnichannel-study/ | 单页 |  |
-| 213 | E 已验证但有保留 | Greenbook | https://www.greenbook.org/grit | 已验证 | 第 3 轮样本少，经用户同意采用 |
+| 213 | A 未完成 | Greenbook | https://www.greenbook.org/grit | 候选 |  |
 | 215 | C 快照待补全 | GrowthHackers | https://growthhackers.com/opinions/ | 快照 |  |
 | 216 | C 快照待补全 | IAB Europe | https://iabeurope.eu/knowledge-hub-categories/research-and-insights/ | 快照 |  |
 | 217 | C 快照待补全 | Marketing Examples | https://marketingexamples.com/inspiration | 快照 |  |
@@ -190,11 +177,9 @@
 | 228 | A 未完成 | Adjust | https://www.adjust.com/blog/ | 仅入口页（访问受限） |  |
 | 229 | C 快照待补全 | Branch | https://www.branch.io/use-cases/ | 快照 |  |
 | 233 | A 未完成 | Hootsuite | https://blog.hootsuite.com/resources/ | 候选 | 资源链接 /resource/{slug}/ 打开都 301 跳回 /resources/（资源改为表单领取） |
-| 240 | E 已验证但有保留 | Qualtrics | https://www.qualtrics.com/resources/ | 已验证 | 演示视频、产品导览未纳入 |
 | 245 | C 快照待补全 | We Are Social | https://wearesocial.com/uk/reports/ | 快照 |  |
 | 246 | C 快照待补全 | Wingify | https://wingify.com/resources/ | 快照 |  |
 | 248 | D 超范围待收窄 | Zenith | https://www.zenithmedia.com/news/ | 超范围 |  |
-| 249 | E 已验证但有保留 | Salesforce | https://www.salesforce.com/blog/ | 已验证 | 分类下的文章 /blog/{分类}/{slug}/ 未纳入 |
 | 250 | C 快照待补全 | Salesforce | https://www.salesforce.com/company/analyst-reports/ | 快照 |  |
 | 252 | A 未完成 | Adobe | https://business.adobe.com/resources/reports.html | 仅入口页（访问受限） | 此前连接超时，入口是 .html 文件形式，边界取同名目录或上级目录 |
 | 253 | A 未完成 | Adobe | https://business.adobe.com/resources/digital-trends-research-center.html | 仅入口页（访问受限） | 此前连接超时，入口是 .html 文件形式，边界取同名目录或上级目录 |

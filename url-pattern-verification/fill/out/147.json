@@ -16,5 +16,8 @@
  "negatives": [
   "https://www.wipo.int/en/web/country-profiles"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/country\\-profiles/directory\\-ip\\-offices)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

@@ -16,5 +16,8 @@
  "negatives": [
   "https://www.worldbank.org/ext/en/what-we-do"
  ],
- "negatives_matched": []
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/crisis\\-toolkit|https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/private\\-sector\\-investment\\-lab)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
 }

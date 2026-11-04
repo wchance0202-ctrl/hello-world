@@ -10,11 +10,11 @@
   "https://e.kuaishou.com/#/e/report/2556",
   "https://e.kuaishou.com/#/e/report/2621",
   "https://e.kuaishou.com/#/e/report/2623",
-  "https://e.kuaishou.com/#/e/report/2625",
-  "https://e.kuaishou.com/#/e/report/2627",
-  "https://e.kuaishou.com/#/e/report/2628",
   "https://e.kuaishou.com/#/e/report/2624",
-  "https://e.kuaishou.com/#/e/report/2626"
+  "https://e.kuaishou.com/#/e/report/2625",
+  "https://e.kuaishou.com/#/e/report/2626",
+  "https://e.kuaishou.com/#/e/report/2627",
+  "https://e.kuaishou.com/#/e/report/2628"
  ],
  "negatives": [
   "https://e.kuaishou.com/#/e/report",
@@ -26,5 +26,5 @@
   "https://e.kuaishou.com/#/e/cases/1857/1"
  ],
  "basis": "情况 A（Hash 路由）：报告详情在入口路由 /e/report/ 之下；第 3 轮浏览器点击首屏卡片取样（归纳 6、留出 2），每个地址单独在浏览器打开核验，node-re2 与 google-re2 两套引擎逐对一致",
- "note": "样本只来自首屏卡片，列表后续页未枚举；路由前缀本身就是栏目边界"
+ "note": "样本只来自首屏卡片；2026-11-04 尝试点第 2 页，列表内容未变化（翻页控件对脚本点击无效），未取得新样本；首屏样本重新单独打开核验仍全部通过"
 }

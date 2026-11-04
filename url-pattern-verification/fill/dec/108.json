@@ -21,5 +21,5 @@
   "evidence": "入口 researchInstitute.html 是文件形式，报告落在同名目录 /researchInstitute/report/{ID} 下（情况 A，取同名目录为边界）；同页另有 1 条链接到 /school/library/（学院资料库，不属于本栏目）"
  },
  "basis": "情况 A：研究院报告 /researchInstitute/report/{32 位十六进制或 UUID}，浏览器点击卡片取样",
- "note": "样本只来自首屏卡片"
+ "note": "样本只来自首屏卡片；2026-11-04 尝试点第 2 页，列表内容未变化（翻页控件对脚本点击无效），未取得新样本"
 }

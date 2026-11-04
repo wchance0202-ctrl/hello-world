@@ -1,5 +1,21 @@
 # 指定pattern 列：URL 正则提取与覆盖核验
 
+## 补齐第 5 轮：自跑有把握的部分（2026-11-04）
+
+- **临时故障重试**：煤炭协会（整站 502）、LinkFlow（500）、McKinsey/Adobe（超时）、Adjust（429）、CSM、光伏协会，均未恢复。
+- **E 类补全**：
+  - WIPO 主题说明子页、EPO 子栏目、BIS 数据门户、Qualtrics 演示/导览、Salesforce 分类文章、Euromonitor 单篇报告均已补入。
+  - Deloitte 年份放宽，WFA 翻完 92 条。
+  - Pew 两个主题补文章规则与完整清单（标“超范围”）。
+  - GRIT 放宽字符集后没有新样本，标“候选”。
+  - 首屏取样的卡片列表翻到第 2 页：小红书、新榜拿到了新样本；快手、阿里妈妈、B 站、神策、incoPat 翻页控件无效，未取得新样本。
+- **B 类复核**：29 个单页逐个渲染、滚动到底复核，世界银行 what-we-do 与 WIPO country-profiles 有子页面，改为快照。
+- **C/D 类**：
+  - 找到 4 个按栏目区分的 RSS（人人都是产品经理鸿蒙、Toluna、Forrester B2B、IAB Europe）。
+  - Pew 的主题 RSS 实为全站，不可用。
+  - `fill/refresh.py` + `fill/refresh-config.json` 可定期刷新清单。
+- **交接清单**：`handoff/prompt-unfinished.md` 与 `unfinished.xlsx` 已更新为 190 行。
+
 ## 补齐第 4 轮：非“已验证”行继续处理（2026-11-03）
 
 处理规则：
