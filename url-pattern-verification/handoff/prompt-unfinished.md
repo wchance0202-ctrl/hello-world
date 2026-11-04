@@ -1,0 +1,263 @@
+# 任务：为剩余 78 个栏目链接提取 URL 正则
+
+> 使用说明：把这份 prompt 和 `unfinished.xlsx` 一起交给执行任务的 AI。
+>
+> 执行环境要求：
+>
+> - 能**以正常身份打开这些网站**：公司网络里的浏览器、你本人的电脑或手机浏览器，需要登录的站用你**有权使用的账号**登录。
+> - 最好能运行 Python（用于第 5 步的 RE2 测试）。
+
+---
+
+## 0. 背景
+
+我们维护一张表，四列是「站点名称｜pattern链接｜黑白名单属性｜正则表达式」。每一行的「pattern链接」是一个栏目入口，「正则表达式」要写成能匹配这个栏目下页面的规则。
+
+表里大部分行已经完成，剩下 78 行没做完，清单见文末附录和 `unfinished.xlsx`。没做完的原因有以下几类：
+
+| 当前状态 | 行数 | 卡在哪里 |
+|---|---|---|
+| 仅入口页（访问受限） | 51 | 上一个执行环境被网站拦截（Cloudflare 验证页、Akamai 拒绝、超时等），只写了入口页地址 |
+| 仅入口页（需登录） | 12 | 内容要登录才显示，只写了入口页地址 |
+| 候选 | 13 | 正则已写，但证据不全（站点报错、样本太少、无法证明专属性） |
+| 仅入口页（条目不可枚举） | 1 | 页面条目不是普通链接 |
+| 留空 | 1 | 页面 404，栏目可能已搬迁 |
+
+**你的任务**：用你能正常访问的方式，逐行补出正则，并按第 7 节的格式交付。
+
+**最重要的原则**：只交付有证据的结论。打不开的写原因，不猜，不编，也不要把少量样本的结论说成全部。
+
+---
+
+## 1. 访问边界（必须遵守）
+
+- 只做**只读访问**：可以打开页面、翻页、点“加载更多/查看更多”这类展示按钮。不提交表单，不注册，不下载需要留资的内容。
+- **不绕过任何访问限制**：遇到验证码或 “Just a moment…” 验证页，**人工通过**就可以继续；通过不了就记为“访问受限”。不要使用伪装指纹、代理轮换、打码服务、网页存档副本，也不要关闭证书校验。
+- 需要登录的站，只能用**有权使用的账号**。交付物里不得出现 Cookie、Token、账号或密码。
+- 控制速度：同一站点一次只开一个页面，请求之间间隔 1–2 秒。连续出现 429 或 403 时，停止访问该站。
+
+---
+
+## 2. 正则匹配的对象是什么（务必先读懂）
+
+**一句话**：一行的正则，匹配的是“这一行链接所代表的栏目里的页面”的**完整网址**。
+
+- **精确**：匹配到的每个网址都必须属于这个栏目。
+- **全面**：这个栏目现有的和以后新增的内容页都应该能匹配上。
+- 两者冲突时，**精确优先**。
+
+| 网址类型 | 要不要匹配 |
+|---|---|
+| 本栏目的内容详情页（文章、报告、案例等） | **必须匹配** |
+| 本栏目的子栏目页、列表分页页 | 可以匹配，单独写一条正则 |
+| 列表里的链接打开后**跳转**到的地址 | 跳转后仍属于本栏目的，**也要覆盖**（见第 3 节最后一条） |
+| 入口页本身、同级栏目页、别的栏目的内容 | 不能匹配，用作反例 |
+| 页头、导航、页脚、侧栏推荐、站外链接、图片/脚本/接口地址 | 不匹配 |
+
+**条目地址在哪里，决定能写多宽的正则：**
+
+1. **条目在入口路径下**，例如入口 `/insights/`、条目 `/insights/xxx/`：入口路径就是边界，可以直接按结构写。
+   - 入口是文件形式（如 `/resources/reports.html`）时，页面上有 3 个以上 `/resources/reports/…` 下的链接，就用 `/resources/reports/` 作边界；否则用上级目录 `/resources/`。
+2. **条目不在入口路径下**，例如入口 `/report`、条目 `/rich/report/123`：先做**专属性证明**，证明这种地址只属于本栏目。具体做法：
+   - 在本栏目列表里找到至少 4 个这种地址；
+   - 从 sitemap 或站内其他页面找同结构的地址，抽 10 个打开，确认都属于本栏目（看面包屑、栏目标签，或是否出现在本栏目列表里）；
+   - 确认同站其他栏目不用这种结构。
+3. **栏目靠参数或编号区分**，例如 `?type=1`、`catid=20`、`/news/78-…`：这个值必须**写成固定值**。例如写 `catid=20`，不能写 `catid=[0-9]+`。
+4. **专属性证明不了**（全站文章都用同一种地址）：
+   - 条目不超过 100 条：把本栏目的条目逐条列出，状态写“快照”。
+   - 超过 100 条：写全站通用正则，状态写“超范围”，同时交付本栏目的完整清单。
+
+---
+
+## 3. 正则写法
+
+- 以 `^` 开头、以 `$` 结尾，表示必须从网址开头一直匹配到结尾，前后不能多出字符。区分大小写，不改动网址原文。
+- 只用 RE2 支持的语法：不能用前瞻、后顾（`(?=` `(?!` `(?<=` `(?<!`），也不能用反向引用（`\1`）。
+- 特殊字符要转义：`.` 写成 `\.`，`?` 写成 `\?`，`-` 写成 `\-`。
+- **禁止**用 `.*`、`.+` 或不限层级的写法凑覆盖率。每个可变部分的字符范围，只取样本里实际出现过的字符：全是数字用 `[0-9]+`，含小写字母、数字和连字符用 `[a-z0-9-]+`，依此类推。
+- 一个栏目有几种结构时（如详情页和分页页），每条正则单独一行，写在同一个单元格里。
+- **跳转**：把列表里的链接逐个打开，落地地址和原链接不同、但仍是本栏目内容的，要确保也被匹配。结构相同的放宽现有正则（要有跳转为证），结构不同的另加一行。跳到验证页、首页或列表页的不算。
+
+示例：
+
+```
+^https://www\.example\.com/insights/[a-z0-9-]+/$
+^https://www\.example\.cn/index\.php\?m=content&c=index&a=show&catid=20&id=[0-9]+$
+```
+
+---
+
+## 4. 每一行的处理流程
+
+1. **打开入口**，记录跳转、最终地址、状态码、页面标题。打不开就停在这里，写明原因（被拦截、要登录、404 等）和时间。
+2. **找全本栏目条目**：只看页面主体区域。翻页翻到最后一页；“加载更多”点到按钮消失；页面上有总数的，要和实际取得的条数核对。
+   - 页面没有普通链接时：逐个点击卡片，记录落地地址；或者在浏览器开发者工具的“网络”面板里看页面自己发出的数据请求。
+3. **判断条目在哪里**，按第 2 节选择写法；需要时做专属性证明。
+4. **先定样本，再写正则**：
+   - 归纳样本 ≥ 3 个，用来写正则；
+   - 留出正例 ≥ 1 个，不在归纳样本里，优先取自 sitemap 或后续分页；
+   - 反例 ≥ 3 个，必须包含入口页本身和至少 1 个别的栏目的页面。
+   样本定下后，**不能为了通过测试修改样本的期望结果**。
+5. **用 RE2 实际测试**：正例必须全部匹配，反例必须全部不匹配。有 Python 时先运行 `pip install google-re2`，再运行：
+
+   ```python
+   import re2, json, sys
+   spec = json.load(open(sys.argv[1], encoding="utf-8"))   # {"pattern": "...", "pos": [...], "neg": [...]}
+   rx = re2.compile(spec["pattern"])
+   bad = [u for u in spec["pos"] if not rx.fullmatch(u)] + [u for u in spec["neg"] if rx.fullmatch(u)]
+   print(json.dumps({"ok": not bad, "failed": bad}, ensure_ascii=False))
+   ```
+
+   不能运行 RE2 的，状态最多写“候选”。
+6. **落地核验**：每个正例都要实际打开，状态码 200、有标题、最终地址等于原地址（只差尾斜杠的跳转也算）。跳到别处的、404 的，不能当正例。
+7. **覆盖检查**：用正则去匹配本栏目全部条目（以及 sitemap 里同结构的地址）。
+   - 有漏配、但没有误配：只按漏配样本放宽字符范围，再用新的样本重测。
+   - 有误配（匹配到别的栏目）：不能放宽，只能收窄，或改成快照。
+
+---
+
+## 5. 状态怎么写
+
+| 状态 | 条件 |
+|---|---|
+| **已验证** | 第 4 节全部通过：RE2 实测、样本数量达标、正例都打开核验过、覆盖检查无漏配无误配，条目在入口路径外的已完成专属性证明 |
+| **超范围** | 正则是全站通用结构，会匹配其他栏目；必须同时交付本栏目完整清单 |
+| **快照** | 逐条列出的精确地址，写成 `^(?:地址1|地址2|…)$`，注明采集日期（不覆盖以后新增的条目） |
+| **候选** | 正则结构合理，但上面某项没做到；备注写清楚缺什么 |
+| **单页** | 链接本身就是单个页面、没有下级条目，正则写本页的精确地址 |
+| **仅入口页（访问受限/需登录）** | 仍然打不开或没有账号，只写入口页精确地址，备注写原因 |
+| **留空** | 页面已失效且找不到新地址 |
+
+样本很少时（例如只有 1–3 个留出样本），即使全部通过，也只能说明“样本内正确”，不能说总体可靠。
+
+---
+
+## 6. 各站已知线索（需要你复核，不能直接当结论）
+
+- **Gartner**：部分 `/insights/` 列表链接会跳到 `/research/`、`/articles/` 等路径，跳转前后的地址都要覆盖。
+- **Dealroom**：`companies/`、`investors/` 是数据库应用页，需要订阅账号，内容是数据记录。没有账号就保持“仅入口页（需登录）”。
+- **头豹研究院**：详情结构已知，分别是 `/wiki/topic/{24位十六进制}`、`/video/details/{…}`、`/article/details/{…}`、`/report/details/{…}`。未登录只显示 5 条，登录后要翻完列表来证明专属性。
+- **中国煤炭工业协会**：详情地址是 `index.php?m=content&c=index&a=show&catid={栏目}&id={数字}`。catid 必须写成本栏目（上级栏目就写其子栏目）的固定值。站点曾持续返回 502。
+- **LinkFlow 课程**：`/courses/{数字}`、`/courses/{slug}` 曾持续返回 500，恢复后重新核验。
+- **Hootsuite 资源**：`/resource/{slug}/` 打开后都 301 跳回 `/resources/`，要确认是否有新的详情地址。
+- **哔哩哔哩营销**：`/case/` 已 404，需要在 e.bilibili.com 上找案例栏目的新地址。
+- **微播易**：此前是上一个执行环境的网络策略拒绝访问，换个网络应该能正常打开。
+- **同一网站有多行时**（Gartner 6 行、Dealroom 8 行、Search Engine Land 5 行等）：要串行处理，并检查各行的正则不会互相匹配对方的条目；确有包含关系（父栏目与子栏目）的，在备注里写明。
+
+---
+
+## 7. 交付格式
+
+交付一张 xlsx 表，按附录的**序号顺序**排列，列为：
+
+| 序号 | 站点名称 | pattern链接 | 黑白名单属性 | 正则表达式 | 状态 | 依据 | 备注 |
+|---|---|---|---|---|---|---|---|
+
+- **黑白名单属性**一律写“白名单”。
+- **依据**写清楚：条目在入口路径内还是外；专属性或栏目标识的证据；样本数（归纳、留出、反例各几个）；覆盖检查结果；访问方式（公司网络、本人浏览器、哪个授权账号，**只写账号类型，不写账号本身**）。
+- **备注**写：跳转情况、快照采集日期、超范围的影响、未完成的原因。
+- 状态为“超范围”的行，另交一份完整清单，列为“序号｜条目URL”。
+
+另附一个证据压缩包，每个站点一个文件夹，内含：
+
+- 访问记录：时间、地址、状态码、最终地址、标题；
+- 本栏目找到的全部链接；
+- 每条正则的样本和 RE2 测试结果。
+
+---
+
+## 8. 交付前自查
+
+- [ ] 附录里的 78 行都有结论，一个不少。
+- [ ] 每条正则都以 `^` 开头、以 `$` 结尾，RE2 能编译，没有 `.*`、前瞻、后顾或反向引用。
+- [ ] 没有一条正则会匹配入口页本身、同级栏目页或别的栏目的页面，除非状态是“超范围”并已注明。
+- [ ] 栏目标识（catid、type、频道号等）都写成了固定值。
+- [ ] 列表链接的跳转目标已覆盖。
+- [ ] 交付物里没有 Cookie、Token、账号或密码。
+- [ ] 最后用一段话汇报，并**分状态计数**，写明还剩哪些没做成以及原因。
+
+
+## 附录：未完成的 78 行（按原表顺序）
+
+完整字段（当前正则、卡在哪里）见随附的 `unfinished.xlsx`。
+
+| 序号 | 站点名称 | pattern链接 | 当前状态 | 线索 |
+|---|---|---|---|---|
+| 3 | CSM 媒介研究 | https://www.csm.com.cn/yjdc/Index.html | 仅入口页（访问受限） |  |
+| 7 | 头豹研究院 | https://www.leadleo.com/wiki/topicList | 候选 | 详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条 |
+| 8 | 头豹研究院 | https://www.leadleo.com/report/search | 仅入口页（需登录） | 详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条 |
+| 10 | 头豹研究院 | https://www.leadleo.com/video/allType | 候选 | 详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条 |
+| 11 | 头豹研究院 | https://www.leadleo.com/article/search | 候选 | 详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条 |
+| 12 | 数说故事 | https://www.datastory.com.cn/analyst | 仅入口页（访问受限） |  |
+| 13 | 数说故事 | https://www.datastory.com.cn/case | 仅入口页（访问受限） |  |
+| 14 | 数说故事 | https://www.datastory.com.cn/analyst/report.html | 仅入口页（访问受限） |  |
+| 15 | 数说故事 | https://www.datastory.com.cn/analyst/hotspot.html | 仅入口页（访问受限） |  |
+| 18 | 慧博投研资讯 | https://www.hibor.com.cn/registerm.html | 仅入口页（需登录） |  |
+| 19 | 慧博投研资讯 | https://www.hibor.com.cn/favorites.html | 仅入口页（需登录） |  |
+| 20 | 慧博投研资讯 | https://www.hibor.com.cn/docupload.html | 仅入口页（需登录） |  |
+| 21 | 慧博投研资讯 | https://www.hibor.com.cn/docupload_mag.html | 仅入口页（需登录） |  |
+| 22 | 慧博投研资讯 | https://www.hibor.com.cn/wnote.html | 仅入口页（需登录） |  |
+| 23 | 星图数据（Syntun） | http://syntun.com.cn/datanews/hotspot.html | 仅入口页（访问受限） |  |
+| 25 | 亿欧 | https://www.iyiou.com/svip | 仅入口页（访问受限） |  |
+| 32 | 未来智库（vzkoo） | https://www.vzkoo.com/question | 仅入口页（访问受限） |  |
+| 40 | 哔哩哔哩营销 | https://e.bilibili.com/case/ | 留空 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
+| 41 | 千牛头条 | https://qn.taobao.com/headline/news | 仅入口页（需登录） |  |
+| 42 | 千牛头条 | https://qn.taobao.com/headline/course | 仅入口页（需登录） |  |
+| 43 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-index | 仅入口页（需登录） |  |
+| 44 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/vertical-analysis | 仅入口页（需登录） |  |
+| 45 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-report | 仅入口页（需登录） |  |
+| 49 | Morketing | https://www.morketing.com/newscenter | 候选 |  |
+| 56 | LinkFlow | https://www.linkflowtech.com/courses | 候选 | 课程详情 /courses/{数字}、/courses/{slug} 曾持续返回 500 |
+| 80 | 中国光伏行业协会（CPIA） | https://www.chinapv.org.cn/StaticPage/Building/list50_1.html | 仅入口页（访问受限） |  |
+| 82 | 中国煤炭工业协会 | https://www.coalchina.org.cn/list-16-1.html | 候选 | 详情是 index.php?m=content&c=index&a=show&catid={栏目}&id={数字}，catid 必须写成本栏目（及其子栏目）的固定值；站点曾持续返回 502 |
+| 83 | 中国煤炭工业协会 | https://www.coalchina.org.cn/list-12-1.html | 候选 | 详情是 index.php?m=content&c=index&a=show&catid={栏目}&id={数字}，catid 必须写成本栏目（及其子栏目）的固定值；站点曾持续返回 502 |
+| 85 | 中国煤炭工业协会 | https://www.coalchina.org.cn/list-407-1.html | 候选 | 详情是 index.php?m=content&c=index&a=show&catid={栏目}&id={数字}，catid 必须写成本栏目（及其子栏目）的固定值；站点曾持续返回 502 |
+| 86 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 仅入口页（需登录） |  |
+| 88 | 微播易 | https://www.weiboyi.com/report | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
+| 89 | 微播易 | https://www.weiboyi.com/meeting | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
+| 102 | 径硕 JINGdigital | https://www.jingdigital.com/resource/ | 候选 |  |
+| 104 | 荟聚 | https://www.huiju.cool/industryinsight/ | 仅入口页（访问受限） |  |
+| 109 | 启信宝 | https://www.qixin.com/pay/vip | 仅入口页（访问受限） |  |
+| 110 | 启信宝 | https://www.qixin.com/app-center/ | 仅入口页（访问受限） |  |
+| 113 | MobTech | https://www.mob.com/mobSmart/citymap | 候选 | 报告 PDF 在 cdn-static-oss.mob.com，曾返回 404 |
+| 120 | World Bank（世界银行） | https://www.worldbank.org/ext/en/research-publications | 候选 |  |
+| 139 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/wipolex | 候选 |  |
+| 161 | Circana | https://www.circana.com/insights | 仅入口页（条目不可枚举） | Wix 页面，条目不是普通链接，也没有独立 sitemap |
+| 169 | McKinsey | https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights | 仅入口页（访问受限） | 此前连接超时，可能只是本环境网络问题 |
+| 170 | McKinsey | https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights | 仅入口页（访问受限） | 此前连接超时，可能只是本环境网络问题 |
+| 171 | McKinsey | https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations | 仅入口页（访问受限） | 此前连接超时，可能只是本环境网络问题 |
+| 172 | BCG | https://www.bcg.com/capabilities/marketing-sales/insights | 仅入口页（访问受限） |  |
+| 173 | BCG | https://www.bcg.com/capabilities/customer-insights/insights | 仅入口页（访问受限） |  |
+| 174 | BCG | https://www.bcg.com/industries/retail/insights | 仅入口页（访问受限） |  |
+| 175 | BCG | https://www.bcg.com/industries/consumer-products-industry/insights | 仅入口页（访问受限） |  |
+| 181 | Gartner | https://www.gartner.com/en/marketing/insights | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 182 | Gartner | https://www.gartner.com/en/sales/insights | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 183 | Gartner | https://www.gartner.com/en/customer-service-support/insights | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 184 | Gartner | https://www.gartner.com/en/finance/insights | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 185 | Gartner | https://www.gartner.com/en/supply-chain | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 186 | Gartner | https://www.gartner.com/en/insights/finance | 仅入口页（访问受限） | 已知部分 /insights/ 列表链接会跳到 /research/、/articles/ 等路径，跳转前后都要覆盖 |
+| 193 | Meta 广告政策中心 | https://transparency.meta.com/policies/ | 仅入口页（访问受限） |  |
+| 204 | Campaign | https://www.campaignlive.com/news | 仅入口页（访问受限） |  |
+| 205 | Campaign | https://www.campaignlive.com/in-depth | 仅入口页（访问受限） |  |
+| 219 | Search Engine Land | https://searchengineland.com/library/guide | 仅入口页（访问受限） | 5 个入口都在 /library/guide 或 /guide 下，注意入口之间的包含关系 |
+| 220 | Search Engine Land | https://searchengineland.com/guide | 仅入口页（访问受限） | 5 个入口都在 /library/guide 或 /guide 下，注意入口之间的包含关系 |
+| 221 | Search Engine Land | https://searchengineland.com/library/guide/content-marketing-guide | 仅入口页（访问受限） | 5 个入口都在 /library/guide 或 /guide 下，注意入口之间的包含关系 |
+| 222 | Search Engine Land | https://searchengineland.com/library/guide/ppc-guide | 仅入口页（访问受限） | 5 个入口都在 /library/guide 或 /guide 下，注意入口之间的包含关系 |
+| 223 | Search Engine Land | https://searchengineland.com/library/guide/seo-guide | 仅入口页（访问受限） | 5 个入口都在 /library/guide 或 /guide 下，注意入口之间的包含关系 |
+| 225 | VML | https://www.vml.com/expertise/intelligence | 仅入口页（访问受限） |  |
+| 226 | VML | https://www.vml.com/insights | 仅入口页（访问受限） |  |
+| 227 | Adjust | https://www.adjust.com/resources/ | 仅入口页（访问受限） |  |
+| 228 | Adjust | https://www.adjust.com/blog/ | 仅入口页（访问受限） |  |
+| 233 | Hootsuite | https://blog.hootsuite.com/resources/ | 候选 | 资源链接 /resource/{slug}/ 打开都 301 跳回 /resources/（资源改为表单领取） |
+| 252 | Adobe | https://business.adobe.com/resources/reports.html | 仅入口页（访问受限） | 此前连接超时，入口是 .html 文件形式，边界取同名目录或上级目录 |
+| 253 | Adobe | https://business.adobe.com/resources/digital-trends-research-center.html | 仅入口页（访问受限） | 此前连接超时，入口是 .html 文件形式，边界取同名目录或上级目录 |
+| 254 | Adobe | https://business.adobe.com/resources/adobe-digital-insights.html | 仅入口页（访问受限） | 此前连接超时，入口是 .html 文件形式，边界取同名目录或上级目录 |
+| 255 | PitchBook | https://pitchbook.com/news | 仅入口页（访问受限） |  |
+| 258 | Dealroom | https://dealroom.co/reports | 仅入口页（访问受限） |  |
+| 259 | Dealroom | https://dealroom.co/resources | 仅入口页（访问受限） |  |
+| 260 | Dealroom | https://dealroom.co/news/ | 仅入口页（访问受限） |  |
+| 261 | Dealroom | https://dealroom.co/companies/ | 仅入口页（访问受限） | companies/、investors/ 是数据库应用页，需订阅账号，内容是数据记录 |
+| 262 | Dealroom | https://dealroom.co/investors/ | 仅入口页（访问受限） | companies/、investors/ 是数据库应用页，需订阅账号，内容是数据记录 |
+| 263 | Dealroom | https://dealroom.co/market-maps/ | 仅入口页（访问受限） |  |
+| 264 | Dealroom | https://dealroom.co/power-law-outcomes/ | 仅入口页（访问受限） |  |
+| 265 | Dealroom | https://dealroom.co/tech-macro-economics/ | 仅入口页（访问受限） |  |
