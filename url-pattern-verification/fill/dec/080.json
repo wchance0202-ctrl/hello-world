@@ -2,20 +2,16 @@
  "seq": 80,
  "entry_id": "S2-R105-E1",
  "url": "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.chinapv\\.org\\.cn/StaticPage/Building/content_[0-9]+\\.html$",
+ "members": [
+  "https://www.chinapv.org.cn/StaticPage/Building/content_1857.html",
+  "https://www.chinapv.org.cn/StaticPage/Building/content_1845.html"
+ ],
+ "negatives": [
   "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：连接被重置；此前为 TLS 证书链错误，按规则不关闭证书校验；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 80,
-  "entry_id": "S2-R105-E1",
-  "url": "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：连接被重置；此前为 TLS 证书链错误，按规则不关闭证书校验",
-  "note": "访问受限"
- }
+ "basis": "用户在浏览器中打开列表后提供的 2 条内容页，详情在入口同目录 /StaticPage/Building/content_{数字}.html（情况 A），列表页 list50_N.html 不匹配",
+ "note": "网站证书链有问题，本环境不能打开核验"
 }

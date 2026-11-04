@@ -2,20 +2,17 @@
  "seq": 88,
  "entry_id": "S2-R114-E1",
  "url": "https://www.weiboyi.com/report",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^(?:https://mp\\.weixin\\.qq\\.com/s/lAlILWGQn9oKhlXH7Ua5Aw|https://mp\\.weixin\\.qq\\.com/s/7GxLLYt6DMkbjZG3HnJJPA|https://mp\\.weixin\\.qq\\.com/s/vgziC6EIefWwZsHgD2T7CA)$",
+ "members": [
+  "https://mp.weixin.qq.com/s/lAlILWGQn9oKhlXH7Ua5Aw",
+  "https://mp.weixin.qq.com/s/7GxLLYt6DMkbjZG3HnJJPA",
+  "https://mp.weixin.qq.com/s/vgziC6EIefWwZsHgD2T7CA"
+ ],
+ "negatives": [
   "https://www.weiboyi.com/report"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 88,
-  "entry_id": "S2-R114-E1",
-  "url": "https://www.weiboyi.com/report",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点",
-  "note": "访问受限（网络层）"
- }
+ "basis": "用户提供的报告条目是微信公众号文章（mp.weixin.qq.com），公众号网址不带栏目特征，按快照逐条列出",
+ "note": "快照 2026-11-04，共 3 条；公众号文章会进入微信验证页，不能自动核验"
 }

@@ -2,18 +2,21 @@
  "seq": 80,
  "entry_id": "S2-R105-E1",
  "url": "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：连接被重置；此前为 TLS 证书链错误，按规则不关闭证书校验；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "用户在浏览器中打开列表后提供的 2 条内容页，详情在入口同目录 /StaticPage/Building/content_{数字}.html（情况 A），列表页 list50_N.html 不匹配",
+ "note": "网站证书链有问题，本环境不能打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:46+00:00",
- "pattern": "^https://www\\.chinapv\\.org\\.cn/StaticPage/Building/list50_1\\.html$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://www.chinapv.org.cn/StaticPage/Building/list50_1.html"
- ],
- "landing": [],
- "pattern_base": "^https://www\\.chinapv\\.org\\.cn/StaticPage/Building/list50_1\\.html$",
+ "observed_at": "2026-11-04T07:12:48+00:00",
+ "pattern": "^https://www\\.chinapv\\.org\\.cn/StaticPage/Building/content_[0-9]+\\.html$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 2,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.chinapv\\.org\\.cn/StaticPage/Building/content_[0-9]+\\.html$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

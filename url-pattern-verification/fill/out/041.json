@@ -2,18 +2,21 @@
  "seq": 41,
  "entry_id": "S2-R63-E1",
  "url": "https://qn.taobao.com/headline/news",
- "mode": "selfpage",
- "basis": "浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com；打开即跳转到千牛登录页（登录页不属于本栏目），正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "用户登录后提供的资讯条目：文章 /headline/news/{数字}、视频 /headline/video/{数字}（情况 A，在 /headline/ 下）",
+ "note": "需登录，本环境不能打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:37+00:00",
- "pattern": "^https://qn\\.taobao\\.com/headline/news$",
- "status": "仅入口页（需登录）",
- "pages": [
-  "https://qn.taobao.com/headline/news"
- ],
- "landing": [],
- "pattern_base": "^https://qn\\.taobao\\.com/headline/news$",
+ "observed_at": "2026-11-04T07:12:48+00:00",
+ "pattern": "^https://qn\\.taobao\\.com/headline/news/[0-9]+$\n^https://qn\\.taobao\\.com/headline/video/[0-9]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 2,
+  "pos_fail": [],
+  "neg": 2,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://qn\\.taobao\\.com/headline/news/[0-9]+$\n^https://qn\\.taobao\\.com/headline/video/[0-9]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

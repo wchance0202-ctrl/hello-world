@@ -1,4 +1,4 @@
-## 附录：需要处理的 49 行（按原表顺序）
+## 附录：需要处理的 45 行（按原表顺序）
 
 完整字段（当前正则、不确定在哪里）见随附的 `unfinished.xlsx`。
 
@@ -18,17 +18,13 @@
 | 35 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/cases | 已验证 | 样本只来自首屏卡片，末段 /1 只见过一个取值 |
 | 37 | E 已验证但有保留 | 阿里妈妈 | https://www.alimama.com/index.htm#!/marketing-case/index | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 40 | A 未完成 | 哔哩哔哩营销 | https://e.bilibili.com/case/ | 留空 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
-| 41 | A 未完成 | 千牛头条 | https://qn.taobao.com/headline/news | 仅入口页（需登录） |  |
-| 42 | A 未完成 | 千牛头条 | https://qn.taobao.com/headline/course | 仅入口页（需登录） |  |
 | 43 | B 单页待复核 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-index | 单页 |  |
 | 44 | B 单页待复核 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/vertical-analysis | 单页 |  |
 | 46 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/ecological | 单页 |  |
 | 47 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/edition | 单页 |  |
 | 50 | B 单页待复核 | Morketing | https://www.morketing.com/ecosystem | 单页 |  |
 | 77 | B 单页待复核 | 中国互联网协会（ISC） | https://www.isc.org.cn/article/10360020493839808.html | 单页（含跳转页） |  |
-| 80 | A 未完成 | 中国光伏行业协会（CPIA） | https://www.chinapv.org.cn/StaticPage/Building/list50_1.html | 仅入口页（访问受限） |  |
 | 86 | B 单页待复核 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 单页（含跳转页） |  |
-| 88 | A 未完成 | 微播易 | https://www.weiboyi.com/report | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 89 | A 未完成 | 微播易 | https://www.weiboyi.com/meeting | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 97 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/business/#jump | 单页 |  |
 | 98 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/elevator/#jump | 单页 |  |

@@ -2,18 +2,21 @@
  "seq": 42,
  "entry_id": "S2-R63-E2",
  "url": "https://qn.taobao.com/headline/course",
- "mode": "selfpage",
- "basis": "浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com；打开即跳转到千牛登录页（登录页不属于本栏目），正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "用户登录后提供的课程条目：课程 /headline/course/{数字}，课程章节带 classId、chapterId、chapterType 参数（情况 A）",
+ "note": "需登录，本环境不能打开核验；chapterType 样本只有 RECORDED_BROADCAST，放宽为大写字母，以覆盖直播等其他类型",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:37+00:00",
- "pattern": "^https://qn\\.taobao\\.com/headline/course$",
- "status": "仅入口页（需登录）",
- "pages": [
-  "https://qn.taobao.com/headline/course"
- ],
- "landing": [],
- "pattern_base": "^https://qn\\.taobao\\.com/headline/course$",
+ "observed_at": "2026-11-04T07:12:49+00:00",
+ "pattern": "^https://qn\\.taobao\\.com/headline/course/[0-9]+$\n^https://qn\\.taobao\\.com/headline/course/[0-9]+\\?classId=[0-9]+&chapterId=[0-9]+&chapterType=[A-Z_]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 2,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://qn\\.taobao\\.com/headline/course/[0-9]+$\n^https://qn\\.taobao\\.com/headline/course/[0-9]+\\?classId=[0-9]+&chapterId=[0-9]+&chapterType=[A-Z_]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }
