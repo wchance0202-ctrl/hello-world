@@ -3,20 +3,20 @@
  "entry_id": "S2-R114-E1",
  "url": "https://www.weiboyi.com/report",
  "mode": "carry",
- "basis": "用户提供的报告条目是微信公众号文章（mp.weixin.qq.com），公众号网址不带栏目特征，按快照逐条列出",
- "note": "快照 2026-11-04，共 3 条；公众号文章会进入微信验证页，不能自动核验",
+ "basis": "用户确认微播易「报告」栏目的条目全部跳转到微信公众号文章；第一行是栏目页本身，第二行是公众号文章通用结构 mp.weixin.qq.com/s/{文章编号}（用户提供的 3 个样本均匹配）",
+ "note": "第二行会匹配所有公众号文章，不只微播易的；如需精确，可改为逐条列出本栏目的文章链接（已有 3 篇：用户提供）",
  "exclusivity": null,
- "observed_at": "2026-11-04T07:12:49+00:00",
- "pattern": "^(?:https://mp\\.weixin\\.qq\\.com/s/lAlILWGQn9oKhlXH7Ua5Aw|https://mp\\.weixin\\.qq\\.com/s/7GxLLYt6DMkbjZG3HnJJPA|https://mp\\.weixin\\.qq\\.com/s/vgziC6EIefWwZsHgD2T7CA)$",
+ "observed_at": "2026-11-04T07:17:23+00:00",
+ "pattern": "^https://www\\.weiboyi\\.com/report$\n^https://mp\\.weixin\\.qq\\.com/s/[A-Za-z0-9_-]+$",
  "status": "已放宽",
  "carried_from": null,
  "checks": {
-  "members": 3,
+  "members": 4,
   "pos_fail": [],
-  "neg": 1,
+  "neg": 2,
   "neg_fail": []
  },
- "pattern_base": "^(?:https://mp\\.weixin\\.qq\\.com/s/lAlILWGQn9oKhlXH7Ua5Aw|https://mp\\.weixin\\.qq\\.com/s/7GxLLYt6DMkbjZG3HnJJPA|https://mp\\.weixin\\.qq\\.com/s/vgziC6EIefWwZsHgD2T7CA)$",
+ "pattern_base": "^https://www\\.weiboyi\\.com/report$\n^https://mp\\.weixin\\.qq\\.com/s/[A-Za-z0-9_-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

@@ -2,18 +2,21 @@
  "seq": 89,
  "entry_id": "S2-R114-E2",
  "url": "https://www.weiboyi.com/meeting",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "用户确认微播易「大会」栏目的条目全部跳转到微信公众号文章；第一行是栏目页本身，第二行是公众号文章通用结构 mp.weixin.qq.com/s/{文章编号}（用户提供的 3 个样本均匹配）",
+ "note": "第二行会匹配所有公众号文章，不只微播易的；如需精确，可改为逐条列出本栏目的文章链接",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:47+00:00",
- "pattern": "^https://www\\.weiboyi\\.com/meeting$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://www.weiboyi.com/meeting"
- ],
- "landing": [],
- "pattern_base": "^https://www\\.weiboyi\\.com/meeting$",
+ "observed_at": "2026-11-04T07:17:23+00:00",
+ "pattern": "^https://www\\.weiboyi\\.com/meeting$\n^https://mp\\.weixin\\.qq\\.com/s/[A-Za-z0-9_-]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 4,
+  "pos_fail": [],
+  "neg": 2,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.weiboyi\\.com/meeting$\n^https://mp\\.weixin\\.qq\\.com/s/[A-Za-z0-9_-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

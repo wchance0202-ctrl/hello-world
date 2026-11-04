@@ -1,4 +1,4 @@
-## 附录：需要处理的 45 行（按原表顺序）
+## 附录：需要处理的 44 行（按原表顺序）
 
 完整字段（当前正则、不确定在哪里）见随附的 `unfinished.xlsx`。
 
@@ -25,7 +25,6 @@
 | 50 | B 单页待复核 | Morketing | https://www.morketing.com/ecosystem | 单页 |  |
 | 77 | B 单页待复核 | 中国互联网协会（ISC） | https://www.isc.org.cn/article/10360020493839808.html | 单页（含跳转页） |  |
 | 86 | B 单页待复核 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 单页（含跳转页） |  |
-| 89 | A 未完成 | 微播易 | https://www.weiboyi.com/meeting | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 97 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/business/#jump | 单页 |  |
 | 98 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/elevator/#jump | 单页 |  |
 | 99 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/screen/#jump | 单页 |  |
