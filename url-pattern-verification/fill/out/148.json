@@ -7,8 +7,8 @@
  "note": "",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:59:45+00:00",
- "pattern": "^https://www3\\.wipo\\.int/madrid/monitor/en/$",
- "status": "单页",
+ "pattern": "^https://www3\\.wipo\\.int/madrid/monitor/en/$\n^(?:https://www\\.wipo\\.int/documents/d/standards/docs\\-en\\-03\\-03\\-01\\.pdf|https://www\\.wipo\\.int/en/web/madrid\\-system/how_to/manage/request\\-certified\\-documents|https://www\\.wipo\\.int/en/web/madrid\\-system/members/declarations|https://www\\.wipo\\.int/en/web/madrid\\-system/monitor/download|https://www\\.wipo\\.int/export/sites/www/standards/en/pdf/03\\-03\\-01\\.pdf|https://www\\.wipo\\.int/madrid/en/extracts/|https://www\\.wipo\\.int/madrid/en/members/declarations\\.html|https://www\\.wipo\\.int/madrid/en/monitor/download\\.html|https://www\\.wipo\\.int/pressroom/en/articles/2014/article_0007\\.html)$",
+ "status": "单页（含跳转页）",
  "pages": [
   "https://www3.wipo.int/madrid/monitor/en/"
  ],
@@ -20,7 +20,32 @@
    "hops": []
   }
  ],
- "pattern_base": "^https://www3\\.wipo\\.int/madrid/monitor/en/$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "pattern_base": "^https://www3\\.wipo\\.int/madrid/monitor/en/$\n^(?:https://www\\.wipo\\.int/documents/d/standards/docs\\-en\\-03\\-03\\-01\\.pdf|https://www\\.wipo\\.int/en/web/madrid\\-system/how_to/manage/request\\-certified\\-documents|https://www\\.wipo\\.int/en/web/madrid\\-system/members/declarations|https://www\\.wipo\\.int/en/web/madrid\\-system/monitor/download|https://www\\.wipo\\.int/export/sites/www/standards/en/pdf/03\\-03\\-01\\.pdf|https://www\\.wipo\\.int/madrid/en/extracts/|https://www\\.wipo\\.int/madrid/en/members/declarations\\.html|https://www\\.wipo\\.int/madrid/en/monitor/download\\.html|https://www\\.wipo\\.int/pressroom/en/articles/2014/article_0007\\.html)$",
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www3\\.wipo\\.int/madrid/monitor/en/$",
+ "jump_targets": [
+  "https://www.wipo.int/documents/d/standards/docs-en-03-03-01.pdf",
+  "https://www.wipo.int/en/web/madrid-system/how_to/manage/request-certified-documents",
+  "https://www.wipo.int/en/web/madrid-system/members/declarations",
+  "https://www.wipo.int/en/web/madrid-system/monitor/download",
+  "https://www.wipo.int/export/sites/www/standards/en/pdf/03-03-01.pdf",
+  "https://www.wipo.int/madrid/en/extracts/",
+  "https://www.wipo.int/madrid/en/members/declarations.html",
+  "https://www.wipo.int/madrid/en/monitor/download.html",
+  "https://www.wipo.int/pressroom/en/articles/2014/article_0007.html"
+ ],
+ "jump_dropped": [
+  "http://www.wipo.int/madrid/en/news/2016/news_0011.html%20target='_blank'",
+  "https://www.wipo.int/classifications/nivilo/nice/index.htm",
+  "https://www.wipo.int/classifications/nivilo/nice/index.htm?lang=EN",
+  "https://www.wipo.int/classifications/nivilo/vienna/index.htm",
+  "https://www.wipo.int/classifications/nivilo/vienna/index.htm?lang=EN",
+  "https://www.wipo.int/madrid/en/members/ipoffices_info.html",
+  "https://www.wipo.int/madrid/en/monitor/tutorials.html",
+  "https://www.wipo.int/standards/en/pdf/03-60-01.pdf",
+  "https://www3.wipo.int/classifications/nice/en/"
+ ],
+ "jump_external": 1,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

@@ -7,8 +7,8 @@
  "note": "",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:59:49+00:00",
- "pattern": "^https://ads\\.tiktok\\.com/creative/creativeCenter$",
- "status": "单页",
+ "pattern": "^https://ads\\.tiktok\\.com/creative/creativeCenter$\n^(?:https://ads\\.tiktok\\.com/business/creativecenter/inspiration/topads/|https://ads\\.tiktok\\.com/business/creativecenter/inspiration/topads/pc/en\\?rid=i70539qn74h|https://ads\\.tiktok\\.com/creative/creatormarketplace\\?aioChannel=CreativeCenter\\&aioScene=AIOEntrance\\&aioCode=69eedcf2d5860015|https://ads\\.tiktok\\.com/creative\\?aioChannel=CreativeCenter\\&aioScene=AIOEntrance\\&aioCode=69eedcf2d5860015)$",
+ "status": "单页（含跳转页）",
  "pages": [
   "https://ads.tiktok.com/creative/creativeCenter"
  ],
@@ -20,7 +20,21 @@
    "hops": []
   }
  ],
- "pattern_base": "^https://ads\\.tiktok\\.com/creative/creativeCenter$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "pattern_base": "^https://ads\\.tiktok\\.com/creative/creativeCenter$\n^(?:https://ads\\.tiktok\\.com/business/creativecenter/inspiration/topads/|https://ads\\.tiktok\\.com/business/creativecenter/inspiration/topads/pc/en\\?rid=i70539qn74h|https://ads\\.tiktok\\.com/creative/creatormarketplace\\?aioChannel=CreativeCenter\\&aioScene=AIOEntrance\\&aioCode=69eedcf2d5860015|https://ads\\.tiktok\\.com/creative\\?aioChannel=CreativeCenter\\&aioScene=AIOEntrance\\&aioCode=69eedcf2d5860015)$",
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://ads\\.tiktok\\.com/creative/creativeCenter$",
+ "jump_targets": [
+  "https://ads.tiktok.com/business/creativecenter/inspiration/topads/",
+  "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?rid=i70539qn74h",
+  "https://ads.tiktok.com/creative/creatormarketplace?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015",
+  "https://ads.tiktok.com/creative?aioChannel=CreativeCenter&aioScene=AIOEntrance&aioCode=69eedcf2d5860015"
+ ],
+ "jump_dropped": [
+  "https://ads.tiktok.com/business/creativecenter/tools/api",
+  "https://ads.tiktok.com/business/creativecenter/tools/automation",
+  "https://ads.tiktok.com/business/creativecenter/tools/creativeTools"
+ ],
+ "jump_external": 0,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

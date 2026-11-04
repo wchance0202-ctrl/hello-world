@@ -66,10 +66,10 @@ def main():
             hint = ""
         if r["状态"] == "已验证":
             why = CAVEAT[i]
-        cat = CAT.get(r["状态"], "A 未完成")
+        cat = CAT.get("单页" if r["状态"].startswith("单页") else r["状态"], "A 未完成")
         out.append({"序号": i, "类别": cat, "站点名称": r["站点名称"], "pattern链接": r["pattern链接"], "当前状态": r["状态"],
                     "当前正则": r["正则表达式"], "不确定在哪里": why + (f"；线索：{hint}" if hint else ""),
-                    "要做什么": TODO.get(r["状态"], "")})
+                    "要做什么": TODO.get("单页" if r["状态"].startswith("单页") else r["状态"], "")})
     hd = ROOT / "handoff"
     with open(hd / "unfinished.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLS)

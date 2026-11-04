@@ -16,7 +16,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 HERE = Path(__file__).resolve().parent
 COLS = ["站点名称", "pattern链接", "黑白名单属性", "正则表达式", "状态", "依据", "备注"]
 FILL = {"已放宽": "FFF2CC", "已验证": "E2F0D9", "候选": "FFF2CC", "快照": "DDEBF7", "留空": "F2F2F2", "超范围": "FCE4D6",
-        "单页": "EDEDED", "仅入口页（需登录）": "F2F2F2", "仅入口页（访问受限）": "F2F2F2", "仅入口页（条目不可枚举）": "F2F2F2"}
+        "单页": "EDEDED", "单页（含跳转页）": "E7E6F7", "仅入口页（需登录）": "F2F2F2", "仅入口页（访问受限）": "F2F2F2", "仅入口页（条目不可枚举）": "F2F2F2"}
 
 
 def evidence(r):
@@ -103,6 +103,29 @@ def main():
         if color:
             rr[4].fill = PatternFill("solid", fgColor=color)
     ws.freeze_panes = "C2"
+    meaning = {
+        "已验证": "按严格标准验证：真实样本归纳、留出样本检验、反例不匹配、逐个打开确认、覆盖检查通过",
+        "已放宽": "正则正确且能用：RE2 可编译、能匹配见过的真实条目网址、不匹配导航等无关页面；可能同时匹配同站其他栏目的同类页面，部分样本来自搜索引擎",
+        "单页（含跳转页）": "链接本身是单个页面：第一行是本页地址，后面是页面里链到的同站页面（逐个打开确认过）",
+        "单页": "链接本身是单个页面，页面里没有可收录的同站跳转链接，正则就是本页地址",
+        "仅入口页（访问受限）": "网站拦截本环境或网络被拒，只写了入口页地址（待你配合）",
+        "仅入口页（需登录）": "内容需登录，只写了入口页地址（待你配合）",
+        "留空": "栏目已不存在（页面 404）",
+    }
+    cnt = Counter(t["状态"] for t in table)
+    ws0 = wb.create_sheet("汇总", 0)
+    ws0.append(["状态", "行数", "含义"])
+    for k, v in sorted(cnt.items(), key=lambda kv: -kv[1]):
+        ws0.append([k, v, meaning.get(k, "")])
+    ws0.append(["合计", sum(cnt.values()), ""])
+    for c in ws0[1]:
+        c.font = Font(bold=True)
+        c.fill = PatternFill("solid", fgColor="FFF2CC")
+    ws0.column_dimensions["A"].width = 22
+    ws0.column_dimensions["B"].width = 8
+    ws0.column_dimensions["C"].width = 110
+    for rr in ws0.iter_rows(min_row=2):
+        rr[2].alignment = Alignment(wrap_text=True, vertical="top")
     ws2 = wb.create_sheet("栏目完整清单")
     ws2.append(["序号", "站点名称", "pattern链接", "条目URL"])
     for row in rows:

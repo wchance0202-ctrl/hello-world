@@ -7,8 +7,8 @@
  "note": "",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:59:47+00:00",
- "pattern": "^https://brandfinance\\.com/about$",
- "status": "单页",
+ "pattern": "^https://brandfinance\\.com/about$\n^(?:https://brandfinance\\.com/data|https://brandfinance\\.com/insights/measuring\\-brand\\-equity|https://brandfinance\\.com/insights/rigour\\-and\\-structure\\-in\\-brand\\-evaluation\\-best\\-practice\\-and\\-iso\\-20671/|https://brandfinance\\.com/training)$",
+ "status": "单页（含跳转页）",
  "pages": [
   "https://brandfinance.com/about"
  ],
@@ -20,7 +20,17 @@
    "hops": []
   }
  ],
- "pattern_base": "^https://brandfinance\\.com/about$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "pattern_base": "^https://brandfinance\\.com/about$\n^(?:https://brandfinance\\.com/data|https://brandfinance\\.com/insights/measuring\\-brand\\-equity|https://brandfinance\\.com/insights/rigour\\-and\\-structure\\-in\\-brand\\-evaluation\\-best\\-practice\\-and\\-iso\\-20671/|https://brandfinance\\.com/training)$",
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://brandfinance\\.com/about$",
+ "jump_targets": [
+  "https://brandfinance.com/data",
+  "https://brandfinance.com/insights/measuring-brand-equity",
+  "https://brandfinance.com/insights/rigour-and-structure-in-brand-evaluation-best-practice-and-iso-20671/",
+  "https://brandfinance.com/training"
+ ],
+ "jump_dropped": [],
+ "jump_external": 0,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

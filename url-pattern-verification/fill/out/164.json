@@ -21,6 +21,11 @@
   }
  ],
  "pattern_base": "^https://www\\.futurebrand\\.com/contact\\-us$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www\\.futurebrand\\.com/contact\\-us$",
+ "jump_targets": [],
+ "jump_dropped": [],
+ "jump_external": 2,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

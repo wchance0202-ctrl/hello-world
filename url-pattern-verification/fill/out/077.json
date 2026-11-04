@@ -7,8 +7,8 @@
  "note": "",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:59:29+00:00",
- "pattern": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$",
- "status": "单页",
+ "pattern": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$\n^(?:https://home\\.isc\\.org\\.cn/exhibition/mien/index\\?type=2|https://www\\.isc\\.org\\.cn//category/7328\\.html|https://www\\.isc\\.org\\.cn//category/7329\\.html|https://www\\.isc\\.org\\.cn//category/7330\\.html|https://www\\.isc\\.org\\.cn//category/7344\\.html|https://www\\.isc\\.org\\.cn//category/7347\\.html|https://www\\.isc\\.org\\.cn//category/7348\\.html|https://www\\.isc\\.org\\.cn//category/7349\\.html|https://www\\.isc\\.org\\.cn//category/7356\\.html|https://www\\.isc\\.org\\.cn//category/7358\\.html|https://www\\.isc\\.org\\.cn//category/7395\\.html|https://www\\.isc\\.org\\.cn//category/7424\\.html|https://www\\.isc\\.org\\.cn//category/7429\\.html|https://www\\.isc\\.org\\.cn//category/7464\\.html|https://www\\.isc\\.org\\.cn/article/10375283080818688\\.html|https://www\\.isc\\.org\\.cn/article/10375292952375296\\.html|https://www\\.isc\\.org\\.cn/article/10379963626287104\\.html|https://www\\.isc\\.org\\.cn/article/10379967269040128\\.html|https://www\\.isc\\.org\\.cn/article/10379974419935232\\.html|https://www\\.isc\\.org\\.cn/article/10379988005679104\\.html|https://www\\.isc\\.org\\.cn/article/10379990784143360\\.html|https://www\\.isc\\.org\\.cn/article/10379996726816768\\.html|https://www\\.isc\\.org\\.cn/article/19314996191031296\\.html|https://www\\.isc\\.org\\.cn/article/19315005515493376\\.html|https://www\\.isc\\.org\\.cn/article/24161546066456576\\.html|https://www\\.isc\\.org\\.cn/article/24161553782403072\\.html|https://www\\.isc\\.org\\.cn/article/29234794972442624\\.html|https://www\\.isc\\.org\\.cn/article/9661083678273536\\.html|https://www\\.isc\\.org\\.cn/article/9661147578101760\\.html|https://www\\.isc\\.org\\.cn/article/9661153622618112\\.html|https://www\\.isc\\.org\\.cn/article/9661162544820224\\.html|https://www\\.isc\\.org\\.cn/category/7479\\.html|https://www\\.isc\\.org\\.cn/en)$",
+ "status": "单页（含跳转页）",
  "pages": [
   "https://www.isc.org.cn/article/10360020493839808.html"
  ],
@@ -20,7 +20,48 @@
    "hops": []
   }
  ],
- "pattern_base": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "pattern_base": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$\n^(?:https://home\\.isc\\.org\\.cn/exhibition/mien/index\\?type=2|https://www\\.isc\\.org\\.cn//category/7328\\.html|https://www\\.isc\\.org\\.cn//category/7329\\.html|https://www\\.isc\\.org\\.cn//category/7330\\.html|https://www\\.isc\\.org\\.cn//category/7344\\.html|https://www\\.isc\\.org\\.cn//category/7347\\.html|https://www\\.isc\\.org\\.cn//category/7348\\.html|https://www\\.isc\\.org\\.cn//category/7349\\.html|https://www\\.isc\\.org\\.cn//category/7356\\.html|https://www\\.isc\\.org\\.cn//category/7358\\.html|https://www\\.isc\\.org\\.cn//category/7395\\.html|https://www\\.isc\\.org\\.cn//category/7424\\.html|https://www\\.isc\\.org\\.cn//category/7429\\.html|https://www\\.isc\\.org\\.cn//category/7464\\.html|https://www\\.isc\\.org\\.cn/article/10375283080818688\\.html|https://www\\.isc\\.org\\.cn/article/10375292952375296\\.html|https://www\\.isc\\.org\\.cn/article/10379963626287104\\.html|https://www\\.isc\\.org\\.cn/article/10379967269040128\\.html|https://www\\.isc\\.org\\.cn/article/10379974419935232\\.html|https://www\\.isc\\.org\\.cn/article/10379988005679104\\.html|https://www\\.isc\\.org\\.cn/article/10379990784143360\\.html|https://www\\.isc\\.org\\.cn/article/10379996726816768\\.html|https://www\\.isc\\.org\\.cn/article/19314996191031296\\.html|https://www\\.isc\\.org\\.cn/article/19315005515493376\\.html|https://www\\.isc\\.org\\.cn/article/24161546066456576\\.html|https://www\\.isc\\.org\\.cn/article/24161553782403072\\.html|https://www\\.isc\\.org\\.cn/article/29234794972442624\\.html|https://www\\.isc\\.org\\.cn/article/9661083678273536\\.html|https://www\\.isc\\.org\\.cn/article/9661147578101760\\.html|https://www\\.isc\\.org\\.cn/article/9661153622618112\\.html|https://www\\.isc\\.org\\.cn/article/9661162544820224\\.html|https://www\\.isc\\.org\\.cn/category/7479\\.html|https://www\\.isc\\.org\\.cn/en)$",
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www\\.isc\\.org\\.cn/article/10360020493839808\\.html$",
+ "jump_targets": [
+  "https://home.isc.org.cn/exhibition/mien/index?type=2",
+  "https://www.isc.org.cn//category/7328.html",
+  "https://www.isc.org.cn//category/7329.html",
+  "https://www.isc.org.cn//category/7330.html",
+  "https://www.isc.org.cn//category/7344.html",
+  "https://www.isc.org.cn//category/7347.html",
+  "https://www.isc.org.cn//category/7348.html",
+  "https://www.isc.org.cn//category/7349.html",
+  "https://www.isc.org.cn//category/7356.html",
+  "https://www.isc.org.cn//category/7358.html",
+  "https://www.isc.org.cn//category/7395.html",
+  "https://www.isc.org.cn//category/7424.html",
+  "https://www.isc.org.cn//category/7429.html",
+  "https://www.isc.org.cn//category/7464.html",
+  "https://www.isc.org.cn/article/10375283080818688.html",
+  "https://www.isc.org.cn/article/10375292952375296.html",
+  "https://www.isc.org.cn/article/10379963626287104.html",
+  "https://www.isc.org.cn/article/10379967269040128.html",
+  "https://www.isc.org.cn/article/10379974419935232.html",
+  "https://www.isc.org.cn/article/10379988005679104.html",
+  "https://www.isc.org.cn/article/10379990784143360.html",
+  "https://www.isc.org.cn/article/10379996726816768.html",
+  "https://www.isc.org.cn/article/19314996191031296.html",
+  "https://www.isc.org.cn/article/19315005515493376.html",
+  "https://www.isc.org.cn/article/24161546066456576.html",
+  "https://www.isc.org.cn/article/24161553782403072.html",
+  "https://www.isc.org.cn/article/29234794972442624.html",
+  "https://www.isc.org.cn/article/9661083678273536.html",
+  "https://www.isc.org.cn/article/9661147578101760.html",
+  "https://www.isc.org.cn/article/9661153622618112.html",
+  "https://www.isc.org.cn/article/9661162544820224.html",
+  "https://www.isc.org.cn/category/7479.html",
+  "https://www.isc.org.cn/en"
+ ],
+ "jump_dropped": [
+  "https://www.isc.org.cn/article/%E6%B0%91%E6%94%BF%E9%83%A8"
+ ],
+ "jump_external": 5,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

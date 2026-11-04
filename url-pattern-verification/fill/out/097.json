@@ -21,6 +21,11 @@
   }
  ],
  "pattern_base": "^https://www\\.focusmedia\\.cn/business/$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www\\.focusmedia\\.cn/business/$",
+ "jump_targets": [],
+ "jump_dropped": [],
+ "jump_external": 0,
+ "jump_template_excluded": 15,
+ "redirect_extra": []
 }

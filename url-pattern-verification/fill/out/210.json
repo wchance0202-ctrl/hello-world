@@ -21,6 +21,11 @@
   }
  ],
  "pattern_base": "^https://dpaaglobal\\.com/omnichannel\\-study/$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://dpaaglobal\\.com/omnichannel\\-study/$",
+ "jump_targets": [],
+ "jump_dropped": [],
+ "jump_external": 0,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

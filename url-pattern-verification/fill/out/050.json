@@ -21,6 +21,11 @@
   }
  ],
  "pattern_base": "^https://www\\.morketing\\.com/ecosystem$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www\\.morketing\\.com/ecosystem$",
+ "jump_targets": [],
+ "jump_dropped": [],
+ "jump_external": 0,
+ "jump_template_excluded": 8,
+ "redirect_extra": []
 }

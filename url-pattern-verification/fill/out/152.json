@@ -7,8 +7,8 @@
  "note": "",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:59:46+00:00",
- "pattern": "^https://www\\.epo\\.org/en/results\\?filters=%5B%5D\\&sortField=\\&sortDirection=\\&tab=all_results$",
- "status": "单页",
+ "pattern": "^https://www\\.epo\\.org/en/results\\?filters=%5B%5D\\&sortField=\\&sortDirection=\\&tab=all_results$\n^(?:https://link\\.epo\\.org/web/boa_search_manual)$",
+ "status": "单页（含跳转页）",
  "pages": [
   "https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results"
  ],
@@ -20,7 +20,14 @@
    "hops": []
   }
  ],
- "pattern_base": "^https://www\\.epo\\.org/en/results\\?filters=%5B%5D\\&sortField=\\&sortDirection=\\&tab=all_results$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "pattern_base": "^https://www\\.epo\\.org/en/results\\?filters=%5B%5D\\&sortField=\\&sortDirection=\\&tab=all_results$\n^(?:https://link\\.epo\\.org/web/boa_search_manual)$",
+ "redirect_skipped": [],
+ "pattern_jump_base": "^https://www\\.epo\\.org/en/results\\?filters=%5B%5D\\&sortField=\\&sortDirection=\\&tab=all_results$",
+ "jump_targets": [
+  "https://link.epo.org/web/boa_search_manual"
+ ],
+ "jump_dropped": [],
+ "jump_external": 2,
+ "jump_template_excluded": 0,
+ "redirect_extra": []
 }

@@ -205,9 +205,9 @@
 | 46 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/ecological | 单页 |  |
 | 47 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/edition | 单页 |  |
 | 50 | B 单页待复核 | Morketing | https://www.morketing.com/ecosystem | 单页 |  |
-| 77 | B 单页待复核 | 中国互联网协会（ISC） | https://www.isc.org.cn/article/10360020493839808.html | 单页 |  |
+| 77 | B 单页待复核 | 中国互联网协会（ISC） | https://www.isc.org.cn/article/10360020493839808.html | 单页（含跳转页） |  |
 | 80 | A 未完成 | 中国光伏行业协会（CPIA） | https://www.chinapv.org.cn/StaticPage/Building/list50_1.html | 仅入口页（访问受限） |  |
-| 86 | B 单页待复核 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 单页 |  |
+| 86 | B 单页待复核 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 单页（含跳转页） |  |
 | 88 | A 未完成 | 微播易 | https://www.weiboyi.com/report | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 89 | A 未完成 | 微播易 | https://www.weiboyi.com/meeting | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 97 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/business/#jump | 单页 |  |
@@ -215,21 +215,21 @@
 | 99 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/screen/#jump | 单页 |  |
 | 100 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/publication#jump | 单页 |  |
 | 101 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/aiad/#jump | 单页 |  |
-| 107 | B 单页待复核 | 神策数据 | https://www.sensorsdata.cn/target_disassembly.html | 单页 |  |
+| 107 | B 单页待复核 | 神策数据 | https://www.sensorsdata.cn/target_disassembly.html | 单页（含跳转页） |  |
 | 108 | E 已验证但有保留 | 神策数据 | https://www.sensorsdata.cn/researchInstitute.html | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 109 | B 单页待复核 | 启信宝 | https://www.qixin.com/pay/vip | 单页 |  |
 | 110 | B 单页待复核 | 启信宝 | https://www.qixin.com/app-center/ | 单页 |  |
 | 111 | E 已验证但有保留 | incoPat | https://learn.incopat.com/#/ | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 112 | B 单页待复核 | MobTech | https://www.mob.com/mobdata/report | 单页 | 报告 PDF 在 cdn-static-oss.mob.com，曾返回 404 |
-| 134 | B 单页待复核 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-resources | 单页 |  |
-| 148 | B 单页待复核 | WIPO（世界知识产权组织） | https://www3.wipo.int/madrid/monitor/en/ | 单页 |  |
-| 152 | B 单页待复核 | EPO（欧洲专利局） | https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results | 单页 |  |
-| 160 | B 单页待复核 | Brand Finance | https://brandfinance.com/about | 单页 |  |
+| 134 | B 单页待复核 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-resources | 单页（含跳转页） |  |
+| 148 | B 单页待复核 | WIPO（世界知识产权组织） | https://www3.wipo.int/madrid/monitor/en/ | 单页（含跳转页） |  |
+| 152 | B 单页待复核 | EPO（欧洲专利局） | https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results | 单页（含跳转页） |  |
+| 160 | B 单页待复核 | Brand Finance | https://brandfinance.com/about | 单页（含跳转页） |  |
 | 164 | B 单页待复核 | FutureBrand | https://www.futurebrand.com/contact-us | 单页 |  |
-| 192 | B 单页待复核 | TikTok Creative Center | https://ads.tiktok.com/creative/creativeCenter | 单页 |  |
+| 192 | B 单页待复核 | TikTok Creative Center | https://ads.tiktok.com/creative/creativeCenter | 单页（含跳转页） |  |
 | 196 | B 单页待复核 | ESOMAR | https://esomar.org/resources/glossary | 单页 |  |
 | 202 | B 单页待复核 | AMA 美国市场营销协会 | https://www.ama.org/job-boards-join-our-team/ | 单页 |  |
 | 210 | B 单页待复核 | DPAA | https://dpaaglobal.com/omnichannel-study/ | 单页 |  |
-| 257 | B 单页待复核 | CB Insights | https://www.cbinsights.com/strategy-terminal/ | 单页 |  |
+| 257 | B 单页待复核 | CB Insights | https://www.cbinsights.com/strategy-terminal/ | 单页（含跳转页） |  |
 | 264 | B 单页待复核 | Dealroom | https://dealroom.co/power-law-outcomes/ | 单页 |  |
 | 265 | B 单页待复核 | Dealroom | https://dealroom.co/tech-macro-economics/ | 单页 |  |
