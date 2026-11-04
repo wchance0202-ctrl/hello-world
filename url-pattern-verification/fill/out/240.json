@@ -4,16 +4,16 @@
  "url": "https://www.qualtrics.com/resources/",
  "mode": "regex",
  "basis": "情况 B：电子书/指南与活动",
- "note": "演示视频（/watch-demo/…）、产品导览未纳入",
+ "note": "电子书/指南、活动、演示视频（/watch-demo/…）、产品导览（/product-tour/…）各一条",
  "exclusivity": {
   "proved": true,
   "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
  },
- "observed_at": "2026-11-03T09:35:45+00:00",
- "pattern": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
+ "observed_at": "2026-11-04T04:09:32+00:00",
+ "pattern": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/watch\\-demo/customer\\-experience/[a-z-]+/$\n^https://www\\.qualtrics\\.com/product\\-tour/customer\\-experience/[a-z-]+/$\n^https://www\\.qualtrics\\.com/watch\\-demo/[a-z0-9-]+/$",
  "families": [
   {
-   "frozen_sha256": "9d16ddc8b4609be8c693ee01f9916eb65cd49119b093b9bf2ed74f3305814f06",
+   "frozen_sha256": "8fe5a3777b0d0b9cbb981ef87e118d8037fa0ff983efc7d02bcc8e90bd5bd65f",
    "pattern": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$",
    "status": "已验证",
    "checks": {
@@ -52,7 +52,7 @@
     "holdout_neg": [
      "https://www.qualtrics.com/resources/",
      "https://www.qualtrics.com/resources/?page=1",
-     "https://www.qualtrics.com/watch-demo/customer-experience/care/",
+     "https://www.qualtrics.com/watch-demo/",
      "https://www.qualtrics.com/events/ai-demo-series/",
      "https://www.qualtrics.com/events/ai-enabled-voc/",
      "https://www.qualtrics.com/events/ai-for-patient-experience/",
@@ -71,7 +71,7 @@
    }
   },
   {
-   "frozen_sha256": "0e158f45f13db28cbc76a561d3ad7dda72958f6bd153f7fe42bfff912b3b321d",
+   "frozen_sha256": "cf317405a9cfd9b3075bf4e4caa25a30b5e496fbb7980768c0a31d557562a6d4",
    "pattern": "^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
    "status": "已验证",
    "checks": {
@@ -110,7 +110,161 @@
     "holdout_neg": [
      "https://www.qualtrics.com/resources/",
      "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/",
+     "https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-ex-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-student-experience-trends/",
+     "https://www.qualtrics.com/ebooks-guides/2024-consumer-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-employee-experience-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-ex-trends-report/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+   }
+  },
+  {
+   "frozen_sha256": "2aefeb2ca8a49bd8a79edf6fb49c0934c8c12ad1ce070d2be7913a155d7d3e39",
+   "pattern": "^https://www\\.qualtrics\\.com/watch\\-demo/customer\\-experience/[a-z-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 3,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 13
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
      "https://www.qualtrics.com/watch-demo/customer-experience/care/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/customer-care-assist/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/digital/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/frontline-locations-assist/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/healthcare-omnichannel-insights/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/higher-education/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/locations/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/omnichannel-cx/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/overview/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/website-feedback-dxa/"
+    ],
+    "holdout_pos": [
+     "https://www.qualtrics.com/watch-demo/customer-experience/modern-patient-experience/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/state-and-local-government/",
+     "https://www.qualtrics.com/watch-demo/customer-experience/text-analytics-insights-recommendations/"
+    ],
+    "holdout_neg": [
+     "https://www.qualtrics.com/resources/",
+     "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/",
+     "https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-ex-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-student-experience-trends/",
+     "https://www.qualtrics.com/ebooks-guides/2024-consumer-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-employee-experience-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-ex-trends-report/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+   }
+  },
+  {
+   "frozen_sha256": "f863caf0f8f9313b68c7342df95ac394c8c6c4bb896ae337276a90f6ad7d6711",
+   "pattern": "^https://www\\.qualtrics\\.com/product\\-tour/customer\\-experience/[a-z-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 9,
+    "holdout_pos": 3,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.qualtrics.com/product-tour/customer-experience/agent-optimization/",
+     "https://www.qualtrics.com/product-tour/customer-experience/contact-center-analytics/",
+     "https://www.qualtrics.com/product-tour/customer-experience/digital-analytics/",
+     "https://www.qualtrics.com/product-tour/customer-experience/omnichannel/",
+     "https://www.qualtrics.com/product-tour/customer-experience/overview/",
+     "https://www.qualtrics.com/product-tour/customer-experience/quality-management/",
+     "https://www.qualtrics.com/product-tour/customer-experience/surveys/",
+     "https://www.qualtrics.com/product-tour/customer-experience/voice-of-customer/",
+     "https://www.qualtrics.com/product-tour/customer-experience/website-app-feedback/"
+    ],
+    "holdout_pos": [
+     "https://www.qualtrics.com/product-tour/customer-experience/agent-coaching/",
+     "https://www.qualtrics.com/product-tour/customer-experience/locations/",
+     "https://www.qualtrics.com/product-tour/customer-experience/online-reputation-management/"
+    ],
+    "holdout_neg": [
+     "https://www.qualtrics.com/resources/",
+     "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/",
+     "https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-ex-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2023-student-experience-trends/",
+     "https://www.qualtrics.com/ebooks-guides/2024-consumer-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-employee-experience-trends-report/",
+     "https://www.qualtrics.com/ebooks-guides/2024-ex-trends-report/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
+   }
+  },
+  {
+   "frozen_sha256": "20e2bbcd1260cf67c08dc1c0123ec252f27c10421765480a0c07e7d8d4e68155",
+   "pattern": "^https://www\\.qualtrics\\.com/watch\\-demo/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 7,
+    "holdout_pos": 2,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 9
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-daisy-support-program/",
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-magnet-support-patient-nurse-experience/",
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-provider-reviews-ratings/",
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-rounding-solution/",
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-site-care-solution/",
+     "https://www.qualtrics.com/watch-demo/product-tour-k-12-education-solutions-0/",
+     "https://www.qualtrics.com/watch-demo/xmos-2/"
+    ],
+    "holdout_pos": [
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-dxa-healthcare/",
+     "https://www.qualtrics.com/watch-demo/product-tour-hcs-hcahps/"
+    ],
+    "holdout_neg": [
+     "https://www.qualtrics.com/resources/",
+     "https://www.qualtrics.com/resources/?page=1",
+     "https://www.qualtrics.com/watch-demo/",
      "https://www.qualtrics.com/ebooks-guides/2023-cx-trends-report/",
      "https://www.qualtrics.com/ebooks-guides/2023-ex-trends-report/",
      "https://www.qualtrics.com/ebooks-guides/2023-student-experience-trends/",
@@ -131,10 +285,10 @@
  ],
  "status": "已验证",
  "checks": {
-  "families": 2
+  "families": 5
  },
  "why_not_verified": null,
- "pattern_base": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$",
+ "pattern_base": "^https://www\\.qualtrics\\.com/ebooks\\-guides/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/events/[a-z0-9-]+/$\n^https://www\\.qualtrics\\.com/watch\\-demo/customer\\-experience/[a-z-]+/$\n^https://www\\.qualtrics\\.com/product\\-tour/customer\\-experience/[a-z-]+/$\n^https://www\\.qualtrics\\.com/watch\\-demo/[a-z0-9-]+/$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

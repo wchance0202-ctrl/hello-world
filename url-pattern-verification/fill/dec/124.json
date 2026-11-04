@@ -51,17 +51,41 @@
     "https://www.bis.org/pages/statistics/weightsb.xlsx",
     "https://www.bis.org/pages/statistics/weightsn.xlsx"
    ]
+  },
+  {
+   "members": [
+    "https://data.bis.org/topics/CBPOL",
+    "https://data.bis.org/topics/CBS",
+    "https://data.bis.org/topics/CBTA",
+    "https://data.bis.org/topics/CPI",
+    "https://data.bis.org/topics/CPMI_CT",
+    "https://data.bis.org/topics/CPMI_FMI",
+    "https://data.bis.org/topics/CPP",
+    "https://data.bis.org/topics/CREDIT_GAPS",
+    "https://data.bis.org/topics/DER",
+    "https://data.bis.org/topics/DSR",
+    "https://data.bis.org/topics/DSS",
+    "https://data.bis.org/topics/EER",
+    "https://data.bis.org/topics/GLI",
+    "https://data.bis.org/topics/IDS",
+    "https://data.bis.org/topics/LBS",
+    "https://data.bis.org/topics/OTC_DER",
+    "https://data.bis.org/topics/RPP",
+    "https://data.bis.org/topics/TOTAL_CREDIT",
+    "https://data.bis.org/topics/XRU",
+    "https://data.bis.org/topics/XTD_DER"
+   ]
   }
  ],
  "negatives": [
   "https://www.bis.org/statistics",
   "https://www.bis.org/publications/202605-commentary-residential-property-prices",
-  "https://data.bis.org/topics/CBPOL"
+  "https://www.bis.org/statistics"
  ],
  "exclusivity": {
   "proved": true,
   "evidence": "统计栏目的文档在 /pages/statistics/ 下（PDF 28 个、XLSX 12 个），该目录只存放统计文档；统计数据本身在另一子域 data.bis.org，不在范围内"
  },
  "basis": "统计说明文档 /pages/statistics/*.pdf 与数据表 *.xlsx（逐个打开核验）",
- "note": "统计数据门户 data.bis.org/topics/… 是另一子域，未纳入"
+ "note": "统计数据门户 data.bis.org/topics/{主题代码}（BIS 统计专用子域）作为第三条"
 }

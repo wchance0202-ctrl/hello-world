@@ -4,14 +4,14 @@
  "url": "https://www.wipo.int/en/web/ip-commercialization",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/ip-commercialization/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（2 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/ip-commercialization/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-commercialization/news（4 条）"
  },
- "observed_at": "2026-11-03T09:25:38+00:00",
+ "observed_at": "2026-11-04T04:05:46+00:00",
  "frozen_sha256": "a13d7075b10ff8ef29b06be70a483310a784eb5979a45fec09bdd8bb5eeba9ba",
- "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-commercialization/w/news/[0-9]+/[a-z-]+$",
+ "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-commercialization/w/news/[0-9]+/[a-z-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-commercialization/scale\\-up\\-your\\-ip)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 3,
@@ -45,7 +45,11 @@
  "engine": {
   "name": "google-re2"
  },
- "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-commercialization/w/news/[0-9]+/[a-z-]+$",
+ "extra_exact_kept": 1,
+ "extra_exact_dropped": [
+  "https://www.wipo.int/en/web/ip-commercialization/blog"
+ ],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-commercialization/w/news/[0-9]+/[a-z-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-commercialization/scale\\-up\\-your\\-ip)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

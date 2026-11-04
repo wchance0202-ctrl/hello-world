@@ -4,16 +4,16 @@
  "url": "https://www.bis.org/statistics",
  "mode": "regex",
  "basis": "统计说明文档 /pages/statistics/*.pdf 与数据表 *.xlsx（逐个打开核验）",
- "note": "统计数据门户 data.bis.org/topics/… 是另一子域，未纳入",
+ "note": "统计数据门户 data.bis.org/topics/{主题代码}（BIS 统计专用子域）作为第三条",
  "exclusivity": {
   "proved": true,
   "evidence": "统计栏目的文档在 /pages/statistics/ 下（PDF 28 个、XLSX 12 个），该目录只存放统计文档；统计数据本身在另一子域 data.bis.org，不在范围内"
  },
- "observed_at": "2026-11-03T09:38:24+00:00",
- "pattern": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.pdf$\n^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.xlsx$",
+ "observed_at": "2026-11-04T04:09:32+00:00",
+ "pattern": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.pdf$\n^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.xlsx$\n^https://data\\.bis\\.org/topics/[A-Z_]+$",
  "families": [
   {
-   "frozen_sha256": "14168617bbd176a3abcde09d72f5106efeafc2fed6361eeb89d317dde72019ec",
+   "frozen_sha256": "414590927a2b8cbe4a4862aa0afe65c1853ea9c02903d94e731a288159d242d0",
    "pattern": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.pdf$",
    "status": "已验证",
    "checks": {
@@ -52,7 +52,7 @@
     "holdout_neg": [
      "https://www.bis.org/statistics",
      "https://www.bis.org/publications/202605-commentary-residential-property-prices",
-     "https://data.bis.org/topics/CBPOL",
+     "https://www.bis.org/statistics",
      "https://www.bis.org/pages/statistics/ibsrepprac.xlsx",
      "https://www.bis.org/pages/statistics/locstatsrepinst.xlsx",
      "https://www.bis.org/pages/statistics/rb-qual-inf-table-ccp1.xlsx",
@@ -71,7 +71,7 @@
    }
   },
   {
-   "frozen_sha256": "da5e8d53ff0f7474f74652f3287e7e1c309000e034283779473108865af45b35",
+   "frozen_sha256": "68e3d444f2159c5830fbcd478f029f31d7b4a0d89bc32d739856c43dc275f9fc",
    "pattern": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.xlsx$",
    "status": "已验证",
    "checks": {
@@ -104,7 +104,64 @@
     "holdout_neg": [
      "https://www.bis.org/statistics",
      "https://www.bis.org/publications/202605-commentary-residential-property-prices",
+     "https://www.bis.org/statistics",
+     "https://www.bis.org/pages/statistics/cbpol-doc.pdf",
+     "https://www.bis.org/pages/statistics/cbs-data-structure-definition.pdf",
+     "https://www.bis.org/pages/statistics/cbta-documentation.pdf",
+     "https://www.bis.org/pages/statistics/coverage-c4.pdf",
+     "https://www.bis.org/pages/statistics/coveragec1-c5-c6-c7.pdf",
+     "https://www.bis.org/pages/statistics/cp-long-series-documentation.pdf"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "统计栏目的文档在 /pages/statistics/ 下（PDF 28 个、XLSX 12 个），该目录只存放统计文档；统计数据本身在另一子域 data.bis.org，不在范围内"
+   }
+  },
+  {
+   "frozen_sha256": "5a9af4b79307fa57f7ad3edab33b0f091f0e569a5026c1db92830afb926a8dbd",
+   "pattern": "^https://data\\.bis\\.org/topics/[A-Z_]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 5,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 20
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
      "https://data.bis.org/topics/CBPOL",
+     "https://data.bis.org/topics/CBS",
+     "https://data.bis.org/topics/CPP",
+     "https://data.bis.org/topics/CREDIT_GAPS",
+     "https://data.bis.org/topics/DSR",
+     "https://data.bis.org/topics/DSS",
+     "https://data.bis.org/topics/EER",
+     "https://data.bis.org/topics/IDS",
+     "https://data.bis.org/topics/OTC_DER",
+     "https://data.bis.org/topics/RPP",
+     "https://data.bis.org/topics/XRU",
+     "https://data.bis.org/topics/XTD_DER"
+    ],
+    "holdout_pos": [
+     "https://data.bis.org/topics/CPMI_FMI",
+     "https://data.bis.org/topics/DER",
+     "https://data.bis.org/topics/GLI",
+     "https://data.bis.org/topics/LBS",
+     "https://data.bis.org/topics/TOTAL_CREDIT"
+    ],
+    "holdout_neg": [
+     "https://www.bis.org/statistics",
+     "https://www.bis.org/publications/202605-commentary-residential-property-prices",
+     "https://www.bis.org/statistics",
      "https://www.bis.org/pages/statistics/cbpol-doc.pdf",
      "https://www.bis.org/pages/statistics/cbs-data-structure-definition.pdf",
      "https://www.bis.org/pages/statistics/cbta-documentation.pdf",
@@ -125,10 +182,10 @@
  ],
  "status": "已验证",
  "checks": {
-  "families": 2
+  "families": 3
  },
  "why_not_verified": null,
- "pattern_base": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.pdf$\n^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.xlsx$",
+ "pattern_base": "^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.pdf$\n^https://www\\.bis\\.org/pages/statistics/[a-z0-9-]+\\.xlsx$\n^https://data\\.bis\\.org/topics/[A-Z_]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

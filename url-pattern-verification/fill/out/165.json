@@ -9,8 +9,8 @@
   "proved": true,
   "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
  },
- "observed_at": "2026-11-03T10:15:08+00:00",
- "frozen_sha256": "20e66298c476b4eee5742cc3e0f079812b6214e46478688fab2a881db57239c9",
+ "observed_at": "2026-11-04T04:12:00+00:00",
+ "frozen_sha256": "b67524a64c6a0db45ce3a108c83dba4518bd34e45da9f9e233b86491100af581",
  "pattern": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
  "status": "超范围",
  "checks": {
@@ -19,32 +19,32 @@
   "holdout_neg": 3,
   "all_pass": true,
   "coverage_missed": [],
-  "coverage_members": 251
+  "coverage_members": 254
  },
  "failures": [],
  "identity_excluded": [],
  "frozen": {
   "inference": [
    "https://tolunacorporate.com/always-a-step-ahead-interview-with-claudia-gelbe/",
-   "https://tolunacorporate.com/facebook-leverages-creative-testing-to-drive-best-practice-guidelines-with-in-market-results/",
-   "https://tolunacorporate.com/high-volume-physician-genai-confidence-and-caution/",
-   "https://tolunacorporate.com/how-beam-suntory-used-a-quant-qual-combination-to-take-concepts-to-in-market-testing-in-two-weeks/",
-   "https://tolunacorporate.com/how-kraft-heinz-rapidly-validated-campaign-positioning-with-toluna-start/",
-   "https://tolunacorporate.com/how-toluna-start-enabled-a-leading-pharmacy-to-monitor-brand-performance-and-boost-revenue-across-9000-stores/",
-   "https://tolunacorporate.com/inspiring-marketing-excellence-insights-from-mmas-smarties-x-global-awards/",
-   "https://tolunacorporate.com/mental-availability-brand-growth-framework/",
+   "https://tolunacorporate.com/evaluating-the-packaging-design-performances-of-seltzer-brands-using-ai-packaging-testing/",
+   "https://tolunacorporate.com/harris-interactive-and-toluna-recap-a-successful-campaign-for-2022-french-presidential-election/",
+   "https://tolunacorporate.com/how-americans-are-adapting-to-inflation-and-rising-costs/",
+   "https://tolunacorporate.com/how-dentsu-aegis-network-identified-the-most-effective-covid-era-messaging/",
+   "https://tolunacorporate.com/how-to-best-integrate-your-logo-in-your-packaging-design/",
+   "https://tolunacorporate.com/identifying-the-1-christmas-ad-with-toluna-synthetic-personas/",
+   "https://tolunacorporate.com/market-research-in-2023-what-should-we-expect/",
+   "https://tolunacorporate.com/pediatric-physicians-warn-genai-risks/",
+   "https://tolunacorporate.com/predictive-insights-the-ai-powered-crystal-ball-for-business/",
    "https://tolunacorporate.com/pricing-out-of-stocks-staying-on-top-of-changing-consumer-behaviour/",
-   "https://tolunacorporate.com/psychology-in-market-research/",
-   "https://tolunacorporate.com/purpose-in-action-germany-screen2save-campaign/",
-   "https://tolunacorporate.com/toluna-reports-another-consecutive-year-of-organic-growth-enterprise-business-increases-18-in-2021/"
+   "https://tolunacorporate.com/toluna-names-two-key-appointments-to-executive-leadership-team/"
   ],
   "holdout_pos": [
    "https://tolunacorporate.com/ai-validation-human-touch-reliable-ai/",
-   "https://tolunacorporate.com/evolving-perceptions-of-the-metaverse-in-the-us/",
-   "https://tolunacorporate.com/how-ai-and-predictive-insights-may-provide-a-window-into-the-future/",
-   "https://tolunacorporate.com/how-nestle-purina-leveraged-agile-insights-to-assess-demand-and-accelerate-product-development/",
-   "https://tolunacorporate.com/market-analytics-vs-market-research-whats-the-difference/",
-   "https://tolunacorporate.com/smarter-survey-design-prevent-fraud/"
+   "https://tolunacorporate.com/ethnographic-research-vs-market-research/",
+   "https://tolunacorporate.com/hospitals-academic-medicine-leading-genai-revolution/",
+   "https://tolunacorporate.com/how-load-shedding-is-shaping-media-consumption-in-south-africa/",
+   "https://tolunacorporate.com/its-not-easy-being-green-how-brands-can-drive-consumer-engagement/",
+   "https://tolunacorporate.com/shopper-and-retail-tracker-us-wave-1/"
   ],
   "holdout_neg": [
    "https://tolunacorporate.com/legal/cookies/",
@@ -56,7 +56,7 @@
  "engine": {
   "name": "google-re2"
  },
- "full_list_count": 251,
+ "full_list_count": 254,
  "pattern_base": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
  "redirect_extra": [],
  "redirect_skipped": []

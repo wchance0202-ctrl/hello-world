@@ -4,12 +4,13 @@
 // then for each card (fresh page load each time) clicks it once and records where it lands:
 // same-tab navigation, hash-route change, or a new tab. Nothing is typed or submitted.
 //
-// Usage: node click_probe.js <url> <out.json> [--max N] [--wait MS] [--hide CSS]
+// Usage: node click_probe.js <url> <out.json> [--max N] [--wait MS] [--hide CSS] [--page N]
+// --page N first clicks the list's own page-number control N (for lists whose URL does not change).
 const { chromium } = require('playwright');
 const fs = require('fs');
 
 const [url, out, ...rest] = process.argv.slice(2);
-const opt = { max: 12, wait: 4000, hide: null };
+const opt = { max: 12, wait: 4000, hide: null, page: null };
 for (let i = 0; i < rest.length; i += 2) opt[rest[i].replace(/^--/, '')] = rest[i + 1];
 const SKIP = /登录|注册|下载|联系|咨询|提交|购买|立即|申请|试用|预约|sign ?in|log ?in|register|download|contact|submit|buy|subscribe|apply|demo/i;
 
@@ -47,6 +48,8 @@ async function cards(page) {
   const resp = await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 }).catch(e => ({ err: String(e) }));
   if (opt.hide) await page.addStyleTag({ content: `${opt.hide} { display: none !important; }` }).catch(() => {});
   await page.waitForTimeout(Number(opt.wait));
+  const toPage = async pg => { if (opt.page) { await pg.getByText(String(opt.page), { exact: true }).last().click({ timeout: 6000 }).catch(() => {}); await pg.waitForTimeout(3000); } };
+  await toPage(page);
   const found = (await cards(page)).slice(0, Number(opt.max));
   const clicks = [];
   for (const c of found) {
@@ -54,6 +57,7 @@ async function cards(page) {
     await p.goto(url, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
     if (opt.hide) await p.addStyleTag({ content: `${opt.hide} { display: none !important; }` }).catch(() => {});
     await p.waitForTimeout(Number(opt.wait));
+    await toPage(p);
     const again = await cards(p);
     const target = again.find(x => x.text === c.text);
     if (!target) { clicks.push({ ...c, result: 'card-not-found-on-reload' }); await p.close(); continue; }

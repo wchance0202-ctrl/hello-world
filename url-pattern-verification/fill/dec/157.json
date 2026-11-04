@@ -3,33 +3,68 @@
  "entry_id": "S1-R27-E3",
  "url": "https://www.euromonitor.com/store/explore-reports",
  "mode": "regex",
- "members": [
-  "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
-  "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
-  "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
-  "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
-  "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
-  "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
-  "https://www.euromonitor.com/store/explore-reports/north-america/canada",
-  "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
-  "https://www.euromonitor.com/store/explore-reports/western-europe/belgium",
-  "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
-  "https://www.euromonitor.com/store/explore-reports/western-europe/france"
- ],
  "negatives": [
   "https://www.euromonitor.com/store/explore-reports",
   "https://www.euromonitor.com/store",
-  "https://www.euromonitor.com/dietary-supplements-in-kazakhstan/report"
+  "https://www.euromonitor.com/article/asias-gen-alpha-will-define-the-future-of-consumption",
+  "https://www.euromonitor.com/insights/asia-pacific"
+ ],
+ "families": [
+  {
+   "members": [
+    "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+    "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
+    "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
+    "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
+    "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
+    "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
+    "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+    "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
+    "https://www.euromonitor.com/store/explore-reports/western-europe/belgium",
+    "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+    "https://www.euromonitor.com/store/explore-reports/western-europe/france"
+   ],
+   "pattern": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$"
+  },
+  {
+   "members": [
+    "https://www.euromonitor.com/apparel-and-footwear-specialists-in-new-zealand/report",
+    "https://www.euromonitor.com/baby-and-child-specific-products-in-malaysia/report",
+    "https://www.euromonitor.com/chocolate-confectionery-in-iraq/report",
+    "https://www.euromonitor.com/consumer-credit-in-spain/report",
+    "https://www.euromonitor.com/dermatologicals-in-the-czech-republic/report",
+    "https://www.euromonitor.com/nappies-diapers-pants-in-oman/report",
+    "https://www.euromonitor.com/plant-based-dairy-packaging-in-brazil/report",
+    "https://www.euromonitor.com/retail-e-commerce-in-israel/report",
+    "https://www.euromonitor.com/skin-care-in-jordan/report",
+    "https://www.euromonitor.com/small-local-grocers-in-australia/report",
+    "https://www.euromonitor.com/tea-in-india/report",
+    "https://www.euromonitor.com/wholesale-in-canada-isic-51/report"
+   ],
+   "holdout": [
+    "https://www.euromonitor.com/apparel-accessories-in-australia/report",
+    "https://www.euromonitor.com/consumer-lifestyles-in-morocco/report",
+    "https://www.euromonitor.com/digital-shopper-e-commerce-goods-and-services-in-indonesia/report",
+    "https://www.euromonitor.com/other-dairy-in-pakistan/report",
+    "https://www.euromonitor.com/soft-drinks-in-the-united-kingdom/report",
+    "https://www.euromonitor.com/wound-care-in-dominican-republic/report"
+   ],
+   "pattern": "^https://www\\.euromonitor\\.com/[a-z0-9-]+/report$",
+   "exclusivity": {
+    "proved": true,
+    "evidence": "报告商店的单篇报告都是 /{报告slug}/report（sitemap 中 18264 个），只承载报告"
+   }
+  }
  ],
  "exclusivity": {
   "proved": true,
-  "evidence": "报告浏览页的分类页都在入口路径 /store/explore-reports/{行业或地区}/{子类} 下（情况 A）"
+  "evidence": "报告分类浏览页在入口路径下；单篇报告是商店专用结构"
  },
- "basis": "情况 A：报告分类浏览页 /store/explore-reports/{行业或地区}/{子类}",
- "note": "单篇报告页 /{slug}/report 在站点根路径下，入口页只出现 1 个，未纳入"
+ "basis": "情况 A：报告分类浏览页；情况 B：单篇报告页 /{slug}/report",
+ "note": "单篇报告样本取自 sitemap"
 }

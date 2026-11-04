@@ -2,25 +2,19 @@
  "seq": 121,
  "entry_id": "S1-R6-E4",
  "url": "https://www.worldbank.org/ext/en/what-we-do",
- "mode": "selfpage",
- "basis": "“我们做什么”是导航型概览页：链接到成果故事 /en/results/{年}/{月}/{日}/{slug}（只 3 个，该结构是「成果」栏目，sitemap 中 487 个）、项目库（projects.worldbank.org）等，没有专属本页的条目；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
- "note": "",
+ "mode": "snapshot",
+ "basis": "复核：浏览器滚动到底后，“我们做什么”页面在入口路径下有 2 个子页面，逐条列出（此前判为单页）",
+ "note": "快照 2026-11-04",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:59:44+00:00",
- "pattern": "^https://www\\.worldbank\\.org/ext/en/what\\-we\\-do$",
- "status": "单页",
- "pages": [
+ "observed_at": "2026-11-04T04:15:55+00:00",
+ "unverified_kept": 0,
+ "pattern": "^(?:https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/crisis\\-toolkit|https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/private\\-sector\\-investment\\-lab)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
   "https://www.worldbank.org/ext/en/what-we-do"
  ],
- "landing": [
-  {
-   "url": "https://www.worldbank.org/ext/en/what-we-do",
-   "status": 200,
-   "final": "https://www.worldbank.org/ext/en/what-we-do",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://www\\.worldbank\\.org/ext/en/what\\-we\\-do$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "negatives_matched": []
 }

@@ -9,8 +9,8 @@
   "proved": true,
   "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
  },
- "observed_at": "2026-11-03T10:12:54+00:00",
- "frozen_sha256": "68e33654719e677ea4ddc6f6cf15983b9f756872be6209d3ef57e0169aa7f8de",
+ "observed_at": "2026-11-04T04:12:28+00:00",
+ "frozen_sha256": "78b2fc930e4083d7022d83147bb661a4f74fd43ded1841829568d1e8e75e3fc7",
  "pattern": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
  "status": "超范围",
  "checks": {
@@ -19,7 +19,7 @@
   "holdout_neg": 4,
   "all_pass": true,
   "coverage_missed": [],
-  "coverage_members": 1221
+  "coverage_members": 1224
  },
  "failures": [],
  "identity_excluded": [],
@@ -30,21 +30,21 @@
    "https://www.forrester.com/blogs/five-digital-audience-types-that-help-b2b-marketers-deliver-better-experiences/",
    "https://www.forrester.com/blogs/from-trend-to-destination-embracing-lifecycle-revenue-marketing/",
    "https://www.forrester.com/blogs/gdpr-compliance-data-maintenance/",
-   "https://www.forrester.com/blogs/marketingmeasurementwhatsthecmogottodowithit/",
-   "https://www.forrester.com/blogs/on-the-second-day-of-christmas-my-analyst-gave-to-me-solutions-to-the-top-two-account-based-marketing-challenges/",
-   "https://www.forrester.com/blogs/seven-elements-of-a-successful-prm-implementation/",
-   "https://www.forrester.com/blogs/siriusdecisions-top-research-articles-2019/",
-   "https://www.forrester.com/blogs/three-critical-factors-for-designing-a-marketing-operations-function-that-supports-growth/",
-   "https://www.forrester.com/blogs/whats-new-at-siriusdecisions-summit-2018/",
-   "https://www.forrester.com/blogs/who-manages-martech-it-or-marketing/"
+   "https://www.forrester.com/blogs/marketingdashboardsforfinancialservices/",
+   "https://www.forrester.com/blogs/on-the-ninth-day-of-christmas-my-analyst-gave-to-me-handy-tips-to-make-my-demand-management-processs-performance-dance/",
+   "https://www.forrester.com/blogs/seven-areas-for-product-management-to-lead-in-crisis/",
+   "https://www.forrester.com/blogs/siriusdecisions-techx-2017-preview-how-technology-purchases-happen/",
+   "https://www.forrester.com/blogs/three-changing-buyer-expectations-portfolio-marketers/",
+   "https://www.forrester.com/blogs/whatclassicdinersandsalesonboardinghaveincommon/",
+   "https://www.forrester.com/blogs/white-house-press-secretaries-and-brand-building/"
   ],
   "holdout_pos": [
    "https://www.forrester.com/blogs/are-virtual-events-worth-attending/",
-   "https://www.forrester.com/blogs/podcasts-for-sales-learning/",
-   "https://www.forrester.com/blogs/sales-operations-configure-price-quote-applications/",
-   "https://www.forrester.com/blogs/sales-operations-revenue-opportunities/",
-   "https://www.forrester.com/blogs/the-show-must-go-on-for-portfolio-marketers-in-2021/",
-   "https://www.forrester.com/blogs/thepeoplessharkdaymondjohndeliversaninsightfulclosingkeynoteatsummit2017/"
+   "https://www.forrester.com/blogs/planning-season-is-the-time-to-revisit-your-cmo-dashboard/",
+   "https://www.forrester.com/blogs/sales-operations-as-switzerland-how-sales-leaders-can-avoid-the-politics-of-territory-design/",
+   "https://www.forrester.com/blogs/sales-operations-is-a-force-multiplier/",
+   "https://www.forrester.com/blogs/the-sales-engagement-landscape-and-the-case-for-the-single-pane-of-glass/",
+   "https://www.forrester.com/blogs/thebesttweetablemomentsofsiriusdecisionssummit2017dayone/"
   ],
   "holdout_neg": [
    "https://www.forrester.com/blogs/category/b2b-research/",
@@ -57,7 +57,7 @@
  "engine": {
   "name": "google-re2"
  },
- "full_list_count": 1221,
+ "full_list_count": 1224,
  "pattern_base": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
  "redirect_extra": [],
  "redirect_skipped": []

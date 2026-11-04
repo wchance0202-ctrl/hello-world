@@ -24,5 +24,10 @@
   "evidence": "条目在入口路径 /numerous/ 之下（/numerous/detail?id=N，情况 A），由点击卡片在新标签页打开取得"
  },
  "basis": "情况 A：报告详情 /numerous/detail?id={数字}，浏览器点击首屏卡片取样",
- "note": "列表第 2 页未取样"
+ "note": "留出样本取自列表第 2 页（点击卡片落地）",
+ "holdout": [
+  "https://e.xiaohongshu.com/numerous/detail?id=2522",
+  "https://e.xiaohongshu.com/numerous/detail?id=2523",
+  "https://e.xiaohongshu.com/numerous/detail?id=2525"
+ ]
 }

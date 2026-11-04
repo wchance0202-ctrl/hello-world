@@ -2,23 +2,182 @@
  "seq": 189,
  "entry_id": "S1-R52-E3",
  "url": "https://www.pewresearch.org/topic/news-habits-media/",
- "mode": "carry",
- "basis": "情况 A：第 3 轮已验证——主题下子主题页 /topic/news-habits-media/{子类}/{slug}/",
- "note": "只覆盖子主题页；文章在全站共用路径（/journalism/{日期}/{slug}/ 等），无法用正则区分本主题",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:23:05+00:00",
- "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
- "status": "已验证",
- "carried_from": [
-  "R3-S1-R52-E3-F1"
- ],
- "checks": {
-  "members": 11,
-  "pos_fail": [],
-  "neg": 6,
-  "neg_fail": []
+ "mode": "regex",
+ "basis": "「新闻习惯与媒体」主题：子主题页 + 主题文章（翻完列表分页共 1589 篇，清单另附）",
+ "note": "超范围：文章规则同时匹配其他主题的文章；第一条同时匹配本主题的列表分页页（属于本栏目页面）",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
  },
- "pattern_base": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "observed_at": "2026-11-04T04:18:38+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "a661385ffa0f61113a4c76849cdc517675099df5d06e2ab9085d9a7acf1f760e",
+   "pattern": "^https://www\\.pewresearch\\.org/topic/news\\-habits\\-media/[a-z-]+/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 5,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 5
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/6/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/topic/news-habits-media/media-society/freedom-of-the-press/",
+     "https://www.pewresearch.org/topic/news-habits-media/media-society/media-attitudes/",
+     "https://www.pewresearch.org/topic/news-habits-media/media-society/misinformation/",
+     "https://www.pewresearch.org/topic/news-habits-media/media-society/news-knowledge/",
+     "https://www.pewresearch.org/topic/news-habits-media/media-society/politics-media-1/",
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/media-industry/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/data-labs/2017/02/23/partisan-conflict-and-congressional-outreach/",
+     "https://www.pewresearch.org/data-labs/2017/12/18/sharing-the-news-in-a-polarized-congress/",
+     "https://www.pewresearch.org/data-labs/2018/04/09/bots-in-the-twittersphere/",
+     "https://www.pewresearch.org/data-labs/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/",
+     "https://www.pewresearch.org/data-labs/2021/03/05/in-their-own-words-americans-describe-the-struggles-and-silver-linings-of-the-covid-19-pandemic/",
+     "https://www.pewresearch.org/data-labs/2022/10/06/the-role-of-alternative-social-media-in-the-news-and-information-environment/"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  },
+  {
+   "frozen_sha256": "1dff55bdaf1b1b286a9d92027dc1b571aea38e3bc291d39770376d8739bf632f",
+   "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 1580
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/internet/2005/04/15/meetup-says-pony-up/",
+     "https://www.pewresearch.org/internet/2012/04/13/digital-divides-and-bridges-technology-use-among-youth/",
+     "https://www.pewresearch.org/journalism/2003/06/23/jessica-lynch/",
+     "https://www.pewresearch.org/journalism/2007/03/19/state-of-the-news-media-2007-cable-tv/",
+     "https://www.pewresearch.org/journalism/2008/07/10/two-campaign-speeches-one-jfk-moment/",
+     "https://www.pewresearch.org/journalism/2008/08/11/pej-campaign-coverage-index-august-4-10-2008/",
+     "https://www.pewresearch.org/journalism/2009/05/28/swine-flu-coverage-around-the-world/",
+     "https://www.pewresearch.org/journalism/2011/12/14/restaurants-and-local-businesses/",
+     "https://www.pewresearch.org/journalism/2020/05/12/sxsw-2020-online-session-misinformation-and-the-2020-u-s-election/",
+     "https://www.pewresearch.org/politics/2000/07/13/voter-turnout-may-slip-again/",
+     "https://www.pewresearch.org/politics/2008/10/09/many-say-press-has-been-too-tough-on-palin/",
+     "https://www.pewresearch.org/short-reads/2018/06/29/many-tweeted-about-immigration-news-in-trumps-first-month-in-office-but-frequent-users-drove-traffic/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/internet/2005/01/20/trends-2005/",
+     "https://www.pewresearch.org/journalism/2009/02/26/bloggers-grade-obama-revolt-over-facebook/",
+     "https://www.pewresearch.org/journalism/2014/12/04/journalism-partnerships/",
+     "https://www.pewresearch.org/politics/2010/11/18/test-your-news-iq/",
+     "https://www.pewresearch.org/politics/2011/06/14/most-say-political-sex-scandals-due-to-greater-scrutiny-not-lower-morality/",
+     "https://www.pewresearch.org/short-reads/2024/09/26/friends-family-and-neighbors-are-americans-most-common-source-of-local-news/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/6/",
+     "https://www.pewresearch.org/2008/09/15/online-news-should-you-be-reading-this-at-work/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  },
+  {
+   "frozen_sha256": "9ce8d1c0f679f887708e5cb2c0694debb81a2cdac53359ccabfd48844f002e42",
+   "pattern": "^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 7,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 9
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/2009/09/25/where-the-news-comes-from-and-why-it-matters/",
+     "https://www.pewresearch.org/2010/03/22/does-google-affect-the-way-people-get-their-news/",
+     "https://www.pewresearch.org/2010/06/23/is-it-likely-that-readers-will-be-willing-to-pay-for-news-online/",
+     "https://www.pewresearch.org/2012/03/19/state-of-the-news-media-2012/",
+     "https://www.pewresearch.org/2013/10/30/how-media-organizations-are-handling-the-redskins-name/",
+     "https://www.pewresearch.org/2021/01/29/how-america-changed-during-donald-trumps-presidency/",
+     "https://www.pewresearch.org/2024/09/13/how-us-public-opinion-has-changed-in-20-years-of-our-surveys/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/2008/09/15/online-news-should-you-be-reading-this-at-work/",
+     "https://www.pewresearch.org/2010/03/11/millennials-media-and-information/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/topic/news-habits-media/news-media-trends/local-news/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/161/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/3/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/5/",
+     "https://www.pewresearch.org/topic/news-habits-media/page/6/",
+     "https://www.pewresearch.org/data-labs/2017/02/23/partisan-conflict-and-congressional-outreach/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 3
+ },
+ "why_not_verified": null,
+ "full_list_count": 1589
 }

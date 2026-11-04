@@ -4,12 +4,12 @@
  "url": "https://www.wipo.int/en/web/global-design-database",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/global-design-database/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（3 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/global-design-database/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/global-design-database/news（12 条）"
  },
- "observed_at": "2026-11-03T09:25:04+00:00",
+ "observed_at": "2026-11-04T04:05:42+00:00",
  "frozen_sha256": "d3922922a4c5ed6253758a7f0f84340a246babc6a0241419cb1af141d42585b1",
  "pattern": "^https://www\\.wipo\\.int/en/web/global\\-design\\-database/w/news/[0-9]+/[a-z0-9_-]+$",
  "status": "已验证",

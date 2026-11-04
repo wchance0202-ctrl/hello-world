@@ -4,14 +4,14 @@
  "url": "https://www.wipo.int/en/web/technology-trends",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/technology-trends/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（3 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/technology-trends/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/technology-trends/news（8 条）"
  },
- "observed_at": "2026-11-03T09:26:23+00:00",
+ "observed_at": "2026-11-04T04:05:51+00:00",
  "frozen_sha256": "8b1a7f7af0433493cc27685c6bb472129d4df4accb25397cebedad94b2f89791",
- "pattern": "^https://www\\.wipo\\.int/en/web/technology\\-trends/w/news/[0-9]+/[a-z0-9_]+$",
+ "pattern": "^https://www\\.wipo\\.int/en/web/technology\\-trends/w/news/[0-9]+/[a-z0-9_]+$\n^(?:https://www\\.wipo\\.int/en/web/technology\\-trends/future\\-of\\-transportation)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 6,
@@ -49,7 +49,12 @@
  "engine": {
   "name": "google-re2"
  },
- "pattern_base": "^https://www\\.wipo\\.int/en/web/technology\\-trends/w/news/[0-9]+/[a-z0-9_]+$",
+ "extra_exact_kept": 1,
+ "extra_exact_dropped": [
+  "https://www.wipo.int/en/web/technology-trends/artificial_intelligence",
+  "https://www.wipo.int/en/web/technology-trends/assistive_technology"
+ ],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/technology\\-trends/w/news/[0-9]+/[a-z0-9_]+$\n^(?:https://www\\.wipo\\.int/en/web/technology\\-trends/future\\-of\\-transportation)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

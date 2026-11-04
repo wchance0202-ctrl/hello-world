@@ -4,14 +4,14 @@
  "url": "https://www.wipo.int/en/web/ip-statistics",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/ip-statistics/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（5 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/ip-statistics/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-statistics/news（12 条）"
  },
- "observed_at": "2026-11-03T09:24:31+00:00",
+ "observed_at": "2026-11-04T04:05:31+00:00",
  "frozen_sha256": "55be9b0927b60d51e7f284431ff948ab56cd6673ff596b3c06605bd2365f2b68",
- "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-statistics/w/news/[0-9]+/[a-z0-9_-]+$",
+ "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-statistics/w/news/[0-9]+/[a-z0-9_-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-statistics/about)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 9,
@@ -53,7 +53,14 @@
  "engine": {
   "name": "google-re2"
  },
- "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-statistics/w/news/[0-9]+/[a-z0-9_-]+$",
+ "extra_exact_kept": 1,
+ "extra_exact_dropped": [
+  "https://www.wipo.int/web/ip-statistics/country-profiles",
+  "https://www.wipo.int/web/ip-statistics/data-collection",
+  "https://www.wipo.int/web/ip-statistics/industrial-property-glossary",
+  "https://www.wipo.int/web/ip-statistics/statistics/plant-varieties"
+ ],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-statistics/w/news/[0-9]+/[a-z0-9_-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-statistics/about)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

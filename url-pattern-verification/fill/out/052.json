@@ -9,7 +9,7 @@
   "proved": true,
   "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
  },
- "observed_at": "2026-11-03T10:05:52+00:00",
+ "observed_at": "2026-11-04T04:11:59+00:00",
  "pattern": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/it/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
  "families": [
   {
@@ -280,7 +280,7 @@
   "families": 5
  },
  "why_not_verified": null,
- "full_list_count": 660,
+ "full_list_count": 667,
  "pattern_base": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/it/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
  "redirect_extra": [],
  "redirect_skipped": []

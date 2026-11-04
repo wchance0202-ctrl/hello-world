@@ -278,6 +278,15 @@ def main(dec_path):
                    checks={"families": len(subs)}, why_not_verified=[w for x in subs for w in x.get("why_not_verified", [])] or None)
     else:
         run_regex(d, sess, members, rec)
+    if d.get("extra_exact"):
+        # pages of the column that fit no family (sub-pages, few of a kind): exact list, each opened
+        ex = sorted(set(d["extra_exact"]))
+        oks = [u for u in ex if identity_ok(fetch(sess, u))]
+        if oks:
+            line = "^(?:" + "|".join(re.escape(u) for u in oks) + ")$"
+            rec["pattern"] = (rec.get("pattern") + "\n" if rec.get("pattern") else "") + line
+            rec["extra_exact_kept"] = len(oks)
+            rec["extra_exact_dropped"] = [u for u in ex if u not in oks]
     if d.get("overscope") and rec.get("status") == "已验证":
         rec["status"] = "超范围"
     if d.get("full_list"):

@@ -4,14 +4,14 @@
  "url": "https://www.wipo.int/en/web/ip-financing",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/ip-financing/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（2 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/ip-financing/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-financing/news（12 条）"
  },
- "observed_at": "2026-11-03T09:25:43+00:00",
+ "observed_at": "2026-11-04T04:05:49+00:00",
  "frozen_sha256": "ee3f7d7d55b52915a89d1792c42cd528a9cad567cebd387bf0ad8afc1cff1829",
- "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-financing/w/news/[0-9]+/[a-z0-9-]+$",
+ "pattern": "^https://www\\.wipo\\.int/en/web/ip\\-financing/w/news/[0-9]+/[a-z0-9-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-financing/events/expert\\-consultative\\-group\\-on\\-valuation|https://www\\.wipo\\.int/en/web/ip\\-financing/events/high\\-level\\-conversation\\-on\\-unlocking\\-intangible\\-asset\\-finance)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 9,
@@ -53,7 +53,9 @@
  "engine": {
   "name": "google-re2"
  },
- "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-financing/w/news/[0-9]+/[a-z0-9-]+$",
+ "extra_exact_kept": 2,
+ "extra_exact_dropped": [],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/ip\\-financing/w/news/[0-9]+/[a-z0-9-]+$\n^(?:https://www\\.wipo\\.int/en/web/ip\\-financing/events/expert\\-consultative\\-group\\-on\\-valuation|https://www\\.wipo\\.int/en/web/ip\\-financing/events/high\\-level\\-conversation\\-on\\-unlocking\\-intangible\\-asset\\-finance)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

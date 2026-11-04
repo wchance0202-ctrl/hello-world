@@ -2,23 +2,197 @@
  "seq": 188,
  "entry_id": "S1-R52-E2",
  "url": "https://www.pewresearch.org/topic/internet-technology/",
- "mode": "carry",
- "basis": "情况 A：第 3 轮已验证——主题下子主题页 /topic/internet-technology/{子类}/{slug}/",
- "note": "只覆盖子主题页；文章在全站共用路径（/internet/{日期}/{slug}/ 等），无法用正则区分本主题",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:23:04+00:00",
- "pattern": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$",
- "status": "已验证",
- "carried_from": [
-  "R3-S1-R52-E2-F1"
- ],
- "checks": {
-  "members": 10,
-  "pos_fail": [],
-  "neg": 5,
-  "neg_fail": []
+ "mode": "regex",
+ "basis": "「互联网与技术」主题：子主题页 + 主题文章（翻完列表分页共 2379 篇，清单另附）",
+ "note": "超范围：文章规则同时匹配其他主题的文章；第一条同时匹配本主题的列表分页页 /topic/internet-technology/page/{N}/（属于本栏目页面）",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
  },
- "pattern_base": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "observed_at": "2026-11-04T04:17:51+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "6a60da91d1b6c36f2d57472ce56638dcbbfc5812470cb5174a86c11471a1da50",
+   "pattern": "^https://www\\.pewresearch\\.org/topic/internet\\-technology/[a-z-]+/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 4,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 4
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+     "https://www.pewresearch.org/topic/internet-technology/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/page/239/",
+     "https://www.pewresearch.org/topic/internet-technology/page/3/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/bots/",
+     "https://www.pewresearch.org/topic/internet-technology/platforms-services/more-platforms-services/",
+     "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-harassment-bullying/",
+     "https://www.pewresearch.org/topic/internet-technology/technology-policy-issues/online-privacy-security/",
+     "https://www.pewresearch.org/topic/internet-technology/user-demographics/age-generations-tech/",
+     "https://www.pewresearch.org/topic/internet-technology/user-demographics/racial-ethnic-groups-online/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/data-labs/2017/02/23/partisan-conflict-and-congressional-outreach/",
+     "https://www.pewresearch.org/data-labs/2018/04/09/bots-in-the-twittersphere/",
+     "https://www.pewresearch.org/data-labs/2018/04/09/video-how-did-we-identify-twitter-bots/",
+     "https://www.pewresearch.org/data-labs/2018/07/18/taking-sides-on-facebook-how-congressional-outreach-changed-under-president-trump/",
+     "https://www.pewresearch.org/data-labs/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/",
+     "https://www.pewresearch.org/data-labs/2019/04/24/sizing-up-twitter-users/"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  },
+  {
+   "frozen_sha256": "4223a619a77e394c11030b3273a1f2273a86170c66db0f3aba782c8e511d6e26",
+   "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 2353
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/internet/2002/06/27/the-broadband-difference/",
+     "https://www.pewresearch.org/internet/2007/05/22/digital-content-and-users-patterns-and-impacts/",
+     "https://www.pewresearch.org/internet/2011/05/04/what-really-works-in-mobile-health/",
+     "https://www.pewresearch.org/internet/2011/06/09/how-communities-learn/",
+     "https://www.pewresearch.org/internet/2014/06/19/streams-stacks-snacks-socials-signals/",
+     "https://www.pewresearch.org/internet/2014/07/23/13-things-to-know-about-teens-and-technology/",
+     "https://www.pewresearch.org/internet/2025/04/22/teens-social-media-and-mental-health/",
+     "https://www.pewresearch.org/politics/2003/01/05/political-sites-gain-but-major-news-sites-still-dominant/",
+     "https://www.pewresearch.org/short-reads/2015/11/25/device-ownership/",
+     "https://www.pewresearch.org/short-reads/2016/11/18/news-media-interpretation-vs-facts/",
+     "https://www.pewresearch.org/short-reads/2019/05/02/in-some-countries-many-use-the-internet-without-realizing-it/",
+     "https://www.pewresearch.org/short-reads/2020/12/14/key-findings-about-voter-engagement-in-the-2020-election/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/internet/2010/01/06/strategic-learning-for-health-care-in-2010/",
+     "https://www.pewresearch.org/internet/2011/10/27/oregon-broadband-the-power-of-adoption/",
+     "https://www.pewresearch.org/internet/2013/11/12/books-libraries-and-the-changing-digital-landscape/",
+     "https://www.pewresearch.org/internet/2014/08/18/public-library-engagement-in-the-united-states/",
+     "https://www.pewresearch.org/internet/2017/10/10/10-facts-about-jobs-in-the-future/",
+     "https://www.pewresearch.org/short-reads/2024/02/05/by-a-wide-margin-americans-say-football-not-baseball-is-americas-sport/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+     "https://www.pewresearch.org/topic/internet-technology/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/page/239/",
+     "https://www.pewresearch.org/topic/internet-technology/page/3/",
+     "https://www.pewresearch.org/2007/07/24/uploading-democracy-candidates-field-youtube-questions/",
+     "https://www.pewresearch.org/2007/11/29/immigration-takes-center-stage-at-gop-youtube-debate/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  },
+  {
+   "frozen_sha256": "b18fc1d81cec89b5fe167d10550d96b900e2d73b8510eca52e48a60277507a41",
+   "pattern": "^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 11,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 26
+   },
+   "failures": [],
+   "identity_excluded": [
+    {
+     "url": "https://www.pewresearch.org/2013/06/25/library-readers-book-type/",
+     "status": 200,
+     "final": "https://www.pewresearch.org/topic/other-topics/libraries/",
+     "split": "inference"
+    }
+   ],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/2007/11/29/immigration-takes-center-stage-at-gop-youtube-debate/",
+     "https://www.pewresearch.org/2009/05/07/search-swine-flu/",
+     "https://www.pewresearch.org/2010/03/10/why-are-there-fewer-bloggers-these-days/",
+     "https://www.pewresearch.org/2010/03/11/are-adults-with-only-a-cell-phone-represented-in-your-polls/",
+     "https://www.pewresearch.org/2010/04/14/does-anyone-ever-click-on-all-those-online-ads/",
+     "https://www.pewresearch.org/2011/09/22/what-new-uses-of-the-internet-might-emerge-in-the-2012-campaign/",
+     "https://www.pewresearch.org/2012/03/19/state-of-the-news-media-2012/",
+     "https://www.pewresearch.org/2013/02/05/qa-taking-a-break-from-facebook/",
+     "https://www.pewresearch.org/2013/02/13/state-of-the-union-2013-and-twitter/",
+     "https://www.pewresearch.org/2013/06/25/library-readers-book-type/",
+     "https://www.pewresearch.org/2013/10/30/how-media-organizations-are-handling-the-redskins-name/",
+     "https://www.pewresearch.org/2023/11/28/do-you-tip-more-or-less-often-than-the-average-american/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/2009/03/03/new-tricks-for-old-and-new-dogs/",
+     "https://www.pewresearch.org/2010/03/11/millennials-media-and-information/",
+     "https://www.pewresearch.org/2010/12/29/how-accurate-are-online-polls/",
+     "https://www.pewresearch.org/2011/09/22/ask-the-expert-2/",
+     "https://www.pewresearch.org/2011/12/13/how-do-those-who-dont-search-for-health-information-online-differ-from-those-who-do/",
+     "https://www.pewresearch.org/2024/09/13/how-us-public-opinion-has-changed-in-20-years-of-our-surveys/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/news-habits-media/",
+     "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+     "https://www.pewresearch.org/topic/internet-technology/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/page/239/",
+     "https://www.pewresearch.org/topic/internet-technology/page/3/",
+     "https://www.pewresearch.org/data-labs/2017/02/23/partisan-conflict-and-congressional-outreach/",
+     "https://www.pewresearch.org/data-labs/2018/04/09/bots-in-the-twittersphere/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "第一条是主题下的子主题页（入口路径内，第 3 轮已验证）；第二、三条是 Pew 全站文章通用结构，会匹配其他主题的文章（超范围）"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 3
+ },
+ "why_not_verified": null,
+ "full_list_count": 2379
 }

@@ -4,54 +4,135 @@
  "url": "https://www.salesforce.com/blog/",
  "mode": "regex",
  "basis": "情况 A：博客文章 /blog/{slug}/",
- "note": "分类下的文章（/blog/{分类}/{slug}/）未单独纳入；打开文章时站点会 302 到同一地址加 ?bc=OTH 跟踪参数，两种写法是同一页面（有跳转为证），正则末尾允许该参数",
+ "note": "分类下的文章（/blog/{分类}/{slug}/）未单独纳入；打开文章时站点会 302 到同一地址加 ?bc=OTH 跟踪参数，两种写法是同一页面（有跳转为证），正则末尾允许该参数；第二条覆盖分类下的文章 /blog/{small-business|sales}/{slug}/",
  "exclusivity": {
   "proved": true,
   "evidence": "博客文章在入口路径 /blog/{slug}/ 下（情况 A）；作者页、分类页多一级，作为反例",
   "why_not": ""
  },
- "observed_at": "2026-11-03T09:41:11+00:00",
- "frozen_sha256": "53421b8f3f740d8d32111a8e33222ca80b513ab4a23cc7f07a5ed0884ad7639d",
- "pattern": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+ "observed_at": "2026-11-04T04:08:47+00:00",
+ "pattern": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$\n^https://www\\.salesforce\\.com/blog/(?:small\\-business|sales)/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+ "families": [
+  {
+   "frozen_sha256": "b3ac919c546fa457dd93b3e93885a8bc8260f20fc504268cce4f0c44040861b1",
+   "pattern": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 9,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 11
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.salesforce.com/blog/agentic-ai-roi-report/",
+     "https://www.salesforce.com/blog/announcing-the-2027-salesforce-partner-of-the-year-award-winners/",
+     "https://www.salesforce.com/blog/are-we-funding-marketing-that-works/",
+     "https://www.salesforce.com/blog/best-voice-ai-design/",
+     "https://www.salesforce.com/blog/builder-central-ai-development/",
+     "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
+     "https://www.salesforce.com/blog/openai-agentforce/",
+     "https://www.salesforce.com/blog/recent-stories/",
+     "https://www.salesforce.com/blog/what-does-salesforce-do/"
+    ],
+    "holdout_pos": [
+     "https://www.salesforce.com/blog/introducing-the-campaign-agent-that-turns-goals-into-growth/",
+     "https://www.salesforce.com/blog/long-horizon-agents/"
+    ],
+    "holdout_neg": [
+     "https://www.salesforce.com/blog/",
+     "https://www.salesforce.com/blog/author/allison-williams/",
+     "https://www.salesforce.com/blog/category/b2b-marketing-automation/",
+     "https://www.salesforce.com/company/about-us/",
+     "https://www.salesforce.com/blog/sales/return-investment-sales-operations/",
+     "https://www.salesforce.com/blog/sales/sales-leaderboard/",
+     "https://www.salesforce.com/blog/sales/territory-management/",
+     "https://www.salesforce.com/blog/small-business/best-social-media-platforms-to-grow-business/",
+     "https://www.salesforce.com/blog/small-business/digital-labor-for-startups/",
+     "https://www.salesforce.com/blog/small-business/how-to-follow-up-with-a-lead/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "博客文章在入口路径 /blog/{slug}/ 下（情况 A）；作者页、分类页多一级，作为反例",
+    "why_not": ""
+   }
+  },
+  {
+   "frozen_sha256": "f73dbfed4cf334951c68555ff3ffb598b619e283f7010aa113d1d65c0d7691d8",
+   "pattern": "^https://www\\.salesforce\\.com/blog/(?:small\\-business|sales)/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.salesforce.com/blog/sales/return-investment-sales-operations/",
+     "https://www.salesforce.com/blog/sales/sales-leaderboard/",
+     "https://www.salesforce.com/blog/sales/territory-management/",
+     "https://www.salesforce.com/blog/small-business/best-social-media-platforms-to-grow-business/",
+     "https://www.salesforce.com/blog/small-business/digital-labor-for-startups/",
+     "https://www.salesforce.com/blog/small-business/how-to-follow-up-with-a-lead/",
+     "https://www.salesforce.com/blog/small-business/meet-your-digital-teammate-for-sales-agent/",
+     "https://www.salesforce.com/blog/small-business/no-code-ai-tools-for-entrepreneurs/",
+     "https://www.salesforce.com/blog/small-business/selling-with-ai-agents/",
+     "https://www.salesforce.com/blog/small-business/small-business-service-playbook-insights/",
+     "https://www.salesforce.com/blog/small-business/smb-business-success-growth/",
+     "https://www.salesforce.com/blog/small-business/what-is-customer-data-management/"
+    ],
+    "holdout_pos": [
+     "https://www.salesforce.com/blog/sales/sales-certifications/",
+     "https://www.salesforce.com/blog/sales/sales-prospecting-tools/",
+     "https://www.salesforce.com/blog/small-business/digital-marketing-courses-for-startups/",
+     "https://www.salesforce.com/blog/small-business/free-online-courses-for-growing-teams/",
+     "https://www.salesforce.com/blog/small-business/future-small-business/",
+     "https://www.salesforce.com/blog/small-business/help-agent-tips-for-small-service-teams/"
+    ],
+    "holdout_neg": [
+     "https://www.salesforce.com/blog/",
+     "https://www.salesforce.com/blog/author/allison-williams/",
+     "https://www.salesforce.com/blog/category/b2b-marketing-automation/",
+     "https://www.salesforce.com/company/about-us/",
+     "https://www.salesforce.com/blog/agentic-ai-roi-report/",
+     "https://www.salesforce.com/blog/announcing-the-2027-salesforce-partner-of-the-year-award-winners/",
+     "https://www.salesforce.com/blog/are-we-funding-marketing-that-works/",
+     "https://www.salesforce.com/blog/best-voice-ai-design/",
+     "https://www.salesforce.com/blog/builder-central-ai-development/",
+     "https://www.salesforce.com/blog/dreamforce-2026-announcements/"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "分类文章在 /blog/{分类}/{slug}/ 下；sitemap 中文章分类只有 small-business（503）和 sales（329），写成固定值；linked-content（转载跳转）、topic、content-type（分类页）不纳入",
+    "why_not": ""
+   }
+  }
+ ],
  "status": "已验证",
  "checks": {
-  "inference_pos": 9,
-  "holdout_pos": 2,
-  "holdout_neg": 4,
-  "all_pass": true,
-  "coverage_missed": [],
-  "coverage_members": 11
+  "families": 2
  },
- "failures": [],
- "identity_excluded": [],
- "frozen": {
-  "inference": [
-   "https://www.salesforce.com/blog/agentic-ai-roi-report/",
-   "https://www.salesforce.com/blog/announcing-the-2027-salesforce-partner-of-the-year-award-winners/",
-   "https://www.salesforce.com/blog/are-we-funding-marketing-that-works/",
-   "https://www.salesforce.com/blog/best-voice-ai-design/",
-   "https://www.salesforce.com/blog/builder-central-ai-development/",
-   "https://www.salesforce.com/blog/long-horizon-agents/",
-   "https://www.salesforce.com/blog/openai-agentforce/",
-   "https://www.salesforce.com/blog/recent-stories/",
-   "https://www.salesforce.com/blog/what-does-salesforce-do/"
-  ],
-  "holdout_pos": [
-   "https://www.salesforce.com/blog/dreamforce-2026-announcements/",
-   "https://www.salesforce.com/blog/introducing-the-campaign-agent-that-turns-goals-into-growth/"
-  ],
-  "holdout_neg": [
-   "https://www.salesforce.com/blog/",
-   "https://www.salesforce.com/blog/author/allison-williams/",
-   "https://www.salesforce.com/blog/category/b2b-marketing-automation/",
-   "https://www.salesforce.com/company/about-us/"
-  ],
-  "holdout_source": "listing_split"
- },
- "engine": {
-  "name": "google-re2"
- },
- "pattern_base": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$",
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.salesforce\\.com/blog/[a-z0-9-]+/(?:\\?bc=OTH)?$\n^https://www\\.salesforce\\.com/blog/(?:small\\-business|sales)/[a-z0-9-]+/(?:\\?bc=OTH)?$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

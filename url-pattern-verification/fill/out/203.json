@@ -3,41 +3,49 @@
  "entry_id": "S1-R76-E1",
  "url": "https://wfanet.org/news/",
  "mode": "regex",
- "basis": "栏目标识：originNode=3905 写成字面量",
- "note": "只取到第 1 页的 10 条",
+ "basis": "栏目标识：originNode=3905 写成字面量；新闻列表按 ?weblog-page=N 翻完 11 页共 92 条",
+ "note": "",
  "exclusivity": {
   "proved": true,
   "evidence": "新闻列表的条目是 /knowledge/item/{年}/{月}/{日}/{slug}?originNode=3905，originNode=3905 是新闻栏目标识（10 条全部相同），写成字面量；不带该参数的知识条目不匹配",
   "why_not": ""
  },
- "observed_at": "2026-11-03T09:24:53+00:00",
- "frozen_sha256": "ec25ed7bf8ea5eb1255dc258b2907fe535c47dd02ee8f3b9475361dfb1320cb2",
+ "observed_at": "2026-11-04T04:09:44+00:00",
+ "frozen_sha256": "d571dfb8b3020ef231c0c6e88237babdfba245f9f20e90457363ea4a56143117",
  "pattern": "^https://wfanet\\.org/knowledge/item/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+\\?originNode=3905$",
  "status": "已验证",
  "checks": {
-  "inference_pos": 8,
-  "holdout_pos": 2,
+  "inference_pos": 12,
+  "holdout_pos": 6,
   "holdout_neg": 4,
   "all_pass": true,
   "coverage_missed": [],
-  "coverage_members": 10
+  "coverage_members": 92
  },
  "failures": [],
  "identity_excluded": [],
  "frozen": {
   "inference": [
-   "https://wfanet.org/knowledge/item/2026/09/14/global-marketer-week-2027-dates-confirmed-for-london?originNode=3905",
+   "https://wfanet.org/knowledge/item/2024/06/14/setting-targets-on-dei-in-production-can-be-a-challenge-for-half-of-major-multinationals?originNode=3905",
+   "https://wfanet.org/knowledge/item/2024/10/02/wfa-launches-new-call-for-agency-cost-data?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/04/17/what-are-national-associations-doing-on-influencer-marketing?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/06/10/unilever-leader-becomes-co-chair-of-wfa-s-marketing-capability-forum?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/06/12/multinational-marketing-budgets-coming-under-greater-scrutiny?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/08/05/the-in-house-advantage?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/10/02/wfa-holds-latam-regional-meeting-in-montevideo?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/06/15/the-rise-of-principal-media-research-spotlight?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/07/31/merger-and-rebrand-bring-new-names-in-australia-and-sweden?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/08/17/l-oreal-s-bizien-mourgue-to-co-chair-capability-forum?originNode=3905",
    "https://wfanet.org/knowledge/item/2026/09/16/cross-media-measurement-advances-in-belgium-and-india?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/09/29/canadian-advertisers-present-their-top-industry-honour-for-2026?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/09/29/global-brands-are-shifting-to-paying-for-outputs-not-time-wfa-research?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/09/30/96-of-major-brands-now-use-ai-in-marketing-wfa-research-finds?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/10/07/national-associations-to-meet-in-warsaw?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/10/19/wfa-reveals-first-speakers-and-agenda-for-global-marketer-week-in-london?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/10/26/wfa-names-expert-jury-for-2026-global-marketer-of-the-year?originNode=3905"
+   "https://wfanet.org/knowledge/item/2026/10/07/national-associations-to-meet-in-warsaw?originNode=3905"
   ],
   "holdout_pos": [
-   "https://wfanet.org/knowledge/item/2026/09/22/strategic-thinking-is-the-biggest-skills-gap-for-marketing-wfa-research?originNode=3905",
-   "https://wfanet.org/knowledge/item/2026/10/05/latam-regional-meeting-comes-to-central-america-for-the-first-time?originNode=3905"
+   "https://wfanet.org/knowledge/item/2024/04/29/wfa-refreshes-asia-advisory-board?originNode=3905",
+   "https://wfanet.org/knowledge/item/2024/10/03/5-take-aways-from-buenos-aires?originNode=3905",
+   "https://wfanet.org/knowledge/item/2025/10/02/wfa-names-jury-for-2025-global-marketer-of-the-year?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/04/07/three-more-cmos-to-speak-at-wfa-global-marketer-conference-in-stockholm?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/10/nordic-study-finds-ai-boosts-marketing-productivity-but-proving-business-value-remains-a-key-challenge-research-spotlight?originNode=3905",
+   "https://wfanet.org/knowledge/item/2026/09/14/global-marketer-week-2027-dates-confirmed-for-london?originNode=3905"
   ],
   "holdout_neg": [
    "https://wfanet.org/news",

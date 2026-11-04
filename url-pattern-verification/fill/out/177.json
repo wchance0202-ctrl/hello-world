@@ -2,24 +2,140 @@
  "seq": 177,
  "entry_id": "S1-R49-E1",
  "url": "https://www.deloitte.com/global/en/insights.html",
- "mode": "carry",
- "basis": "情况 A（文件形式入口退到 /global/en/insights/）：第 3 轮已验证——洞察文章 /insights/{类}/{主题}/{slug}.html 与年度系列 /insights/{类}/{主题}/{系列}/2026/{slug}.html",
- "note": "第二条规则中的年份 2026 为样本字面量，新年份需扩展",
- "exclusivity": null,
- "observed_at": "2026-11-03T09:23:02+00:00",
- "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z0-9-]+\\.html$",
- "status": "已验证",
- "carried_from": [
-  "R3-S1-R49-E1-F1",
-  "R3-S1-R49-E1-F2"
- ],
- "checks": {
-  "members": 0,
-  "pos_fail": [],
-  "neg": 0,
-  "neg_fail": []
+ "mode": "regex",
+ "basis": "情况 A：洞察文章 /insights/{类}/{主题}/{slug}.html 与年度系列 /insights/{类}/{主题}/{系列}/{年}/{slug}.html",
+ "note": "v2：年份不再写死",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "情况 A（文件形式入口退到 /global/en/insights/）；第二条的年份由样本中唯一的 2026 放宽为 4 位数字，依据是 sitemap 中同结构的往年文章（扩展前留出一半作验证）"
  },
- "pattern_base": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/2026/[a-z0-9-]+\\.html$",
- "redirect_extra": [],
+ "observed_at": "2026-11-04T04:06:33+00:00",
+ "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/[0-9]{4}/[a-z0-9-]+\\.html$\n^(?:https://www\\.deloitte\\.com/global/en/our\\-thinking/insights/industry/technology\\.html)$",
+ "families": [
+  {
+   "frozen_sha256": "fefc1e34984881fdf165ea272bff9bd12f288aacadd1b4a672b4bda95a5169ab",
+   "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 5,
+    "holdout_pos": 5,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 5
+   },
+   "failures": [],
+   "identity_excluded": [
+    {
+     "url": "https://www.deloitte.com/global/en/insights/industry/technology/artificial-intelligence-roi.html",
+     "status": 200,
+     "final": "https://www.deloitte.com/global/en/our-thinking/insights/industry/technology.html",
+     "split": "holdout"
+    }
+   ],
+   "frozen": {
+    "inference": [
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-agents-human-workplace.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-investment-strategy.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/frontier-ai-challenges-enterprise-controls.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends.html"
+    ],
+    "holdout_pos": [
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/critical-need-for-cybersecurity-in-space-systems.html",
+     "https://www.deloitte.com/global/en/insights/industry/manufacturing-industrial-products/global-supply-chain-resilience-amid-disruptions.html",
+     "https://www.deloitte.com/global/en/insights/industry/power-and-utilities/nuclear-energy-powering-data-centers.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/artificial-intelligence-roi.html",
+     "https://www.deloitte.com/global/en/insights/multimedia/podcasts/ai-for-good-summit-review-and-ramifications.html",
+     "https://www.deloitte.com/global/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html"
+    ],
+    "holdout_neg": [
+     "https://www.deloitte.com/global/en/insights.html",
+     "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",
+     "https://www.deloitte.com/global/en/about.html",
+     "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2025/ai-and-bank-software-development.html",
+     "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2026/agentic-ai-wealth-management-productivity.html",
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/cognitive-government-ai-driven-decision-making.html",
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/future-of-regulation.html",
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/modern-operating-model-government-ai-era.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "情况 A（文件形式入口退到 /global/en/insights/）；第二条的年份由样本中唯一的 2026 放宽为 4 位数字，依据是 sitemap 中同结构的往年文章（扩展前留出一半作验证）"
+   }
+  },
+  {
+   "frozen_sha256": "6341f1701b6410e5c2162ebfabb441e4e9cfe8c01868ca40adf2220b52156b82",
+   "pattern": "^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/[0-9]{4}/[a-z0-9-]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 8,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 17
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/cognitive-government-ai-driven-decision-making.html",
+     "https://www.deloitte.com/global/en/insights/industry/government-public-sector-services/government-trends/2026/modern-operating-model-government-ai-era.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/compute-power-ai.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/new-supply-chain-tech.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/next-gen-satellite-internet.html",
+     "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2025/closing-the-experience-gap-through-talent-development.html",
+     "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2025/new-hr-technology-creates-new-tech-value-case.html",
+     "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends/2026/managing-disinformation-at-scale.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2025/databricks-ai-leader-on-building-transformative-gen-ai-applications.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2025/tech-trends-impact-of-future-state-it-core-modernization.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2025/thylander-ai-ready-data-center.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html"
+    ],
+    "holdout_pos": [
+     "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2025/bank-tokenization-global-payments.html",
+     "https://www.deloitte.com/global/en/insights/industry/financial-services/financial-services-industry-predictions/2025/predict-and-prevent-risk-management.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/digital-media-trends-consumption-habits-survey/2025/digital-media-monitor-dashboard.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/past-tmt-predictions-hits-and-misses.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2025/spatial-computing.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends/2025/tech-trends-ai-hardware-and-computation-leading-ai-revolution.html"
+    ],
+    "holdout_neg": [
+     "https://www.deloitte.com/global/en/insights.html",
+     "https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",
+     "https://www.deloitte.com/global/en/about.html",
+     "https://www.deloitte.com/global/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-agents-human-workplace.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/ai-investment-strategy.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/frontier-ai-challenges-enterprise-controls.html",
+     "https://www.deloitte.com/global/en/insights/topics/technology-management/tech-trends.html"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "情况 A（文件形式入口退到 /global/en/insights/）；第二条的年份由样本中唯一的 2026 放宽为 4 位数字，依据是 sitemap 中同结构的往年文章（扩展前留出一半作验证）"
+   }
+  }
+ ],
+ "status": "已验证",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.deloitte\\.com/global/en/insights/[a-z-]+/[a-z0-9-]+/[a-zA-Z0-9_-]+\\.html$\n^https://www\\.deloitte\\.com/global/en/insights/[a-z]+/[a-z-]+/[a-z-]+/[0-9]{4}/[a-z0-9-]+\\.html$",
+ "redirect_extra": [
+  "https://www.deloitte.com/global/en/our-thinking/insights/industry/technology.html"
+ ],
  "redirect_skipped": []
 }

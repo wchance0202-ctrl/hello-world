@@ -31,5 +31,12 @@
   "evidence": "主题新闻在入口路径 /en/web/ip-statistics/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/ip-statistics/news（12 条）"
  },
  "basis": "情况 A：主题新闻 /en/web/ip-statistics/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入"
+ "note": "主题说明子页（5 个）以精确地址另列一行",
+ "extra_exact": [
+  "https://www.wipo.int/en/web/ip-statistics/about",
+  "https://www.wipo.int/web/ip-statistics/country-profiles",
+  "https://www.wipo.int/web/ip-statistics/data-collection",
+  "https://www.wipo.int/web/ip-statistics/industrial-property-glossary",
+  "https://www.wipo.int/web/ip-statistics/statistics/plant-varieties"
+ ]
 }

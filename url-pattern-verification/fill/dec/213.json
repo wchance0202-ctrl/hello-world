@@ -2,23 +2,26 @@
  "seq": 213,
  "entry_id": "S1-R89-E3",
  "url": "https://www.greenbook.org/grit",
- "mode": "carry",
- "status": "已验证",
- "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
- "carried_from": [
-  "R3-S1-R89-E3-F1"
- ],
+ "mode": "regex",
  "members": [
   "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
   "https://www.greenbook.org/grit/insights-practice-edition",
   "https://www.greenbook.org/grit/latam"
  ],
- "negatives": [
-  "https://www.greenbook.org/insights/the-difference-between-analyzing-text-and-analyzing-language-the-confidence-of-linguistic-analysis",
-  "https://www.greenbook.org/market-research-firms/eastern-europe-russia",
-  "https://www.greenbook.org/company/C-and-C-Market-Research",
-  "https://www.greenbook.org/marketing-research/webinar-recording-7-Key-Insights-to-Help-You-Predict-the-Next-Shift-in-Your-Market"
+ "holdout": [
+  "https://www.greenbook.org/grit/insights-practice-edition-2025"
  ],
- "basis": "情况 A：第 3 轮按用户同意采用——GRIT 报告子页 /grit/{slug}",
- "note": "第 3 轮样本少，经用户同意采用"
+ "negatives": [
+  "https://www.greenbook.org/grit",
+  "https://www.greenbook.org/insights",
+  "https://www.greenbook.org/directory"
+ ],
+ "exclusivity": {
+  "proved": true,
+  "evidence": "GRIT 报告子页在入口路径 /grit/{slug} 下（情况 A）"
+ },
+ "basis": "情况 A：GRIT 报告子页 /grit/{slug}（重新取样验证）",
+ "note": "v2：留出样本 slug 含年份数字而漏配，按漏配样本加入数字；GRIT 子页总共只有 4 个，没有新样本做第二轮验证，因此为候选",
+ "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "mode_note": "status forced to 候选: v2 without fresh holdout"
 }

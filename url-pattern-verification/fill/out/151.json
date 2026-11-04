@@ -4,13 +4,13 @@
  "url": "https://www.epo.org/en/news-events",
  "mode": "regex",
  "basis": "情况 A：新闻详情与活动详情",
- "note": "/en/news-events/{子栏目} 的说明页未纳入",
+ "note": "/en/news-events/{子栏目} 说明页（5 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "新闻 /en/news-events/news/{slug} 与活动 /en/news-events/events/{slug} 都在入口路径下（情况 A）；样本取自新闻列表页和活动列表页"
  },
- "observed_at": "2026-11-03T09:26:44+00:00",
- "pattern": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$",
+ "observed_at": "2026-11-04T04:05:56+00:00",
+ "pattern": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$\n^(?:https://www\\.epo\\.org/en/news\\-events/european\\-inventor\\-award|https://www\\.epo\\.org/en/news\\-events/in\\-focus|https://www\\.epo\\.org/en/news\\-events/podcast|https://www\\.epo\\.org/en/news\\-events/press\\-centre|https://www\\.epo\\.org/en/news\\-events/young\\-inventors\\-prize)$",
  "families": [
   {
    "frozen_sha256": "71d0620f7264b3d487d2449b5802333fc8ea022d1d0274e1df85d6432aa4f560",
@@ -124,7 +124,9 @@
   "families": 2
  },
  "why_not_verified": null,
- "pattern_base": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$",
+ "extra_exact_kept": 5,
+ "extra_exact_dropped": [],
+ "pattern_base": "^https://www\\.epo\\.org/en/news\\-events/news/[a-z0-9-]+$\n^https://www\\.epo\\.org/en/news\\-events/events/[a-z0-9-]+$\n^(?:https://www\\.epo\\.org/en/news\\-events/european\\-inventor\\-award|https://www\\.epo\\.org/en/news\\-events/in\\-focus|https://www\\.epo\\.org/en/news\\-events/podcast|https://www\\.epo\\.org/en/news\\-events/press\\-centre|https://www\\.epo\\.org/en/news\\-events/young\\-inventors\\-prize)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

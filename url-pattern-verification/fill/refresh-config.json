@@ -1,0 +1,72 @@
+[
+ {
+  "seq": 4,
+  "type": "pages",
+  "tpl": "https://www.analysys.cn/trends?p={n}",
+  "item": "(?:https://www\\.analysys\\.cn)?/article/detail/\\d+",
+  "base": "https://www.analysys.cn"
+ },
+ {
+  "seq": 5,
+  "type": "pages",
+  "tpl": "https://www.analysys.cn/article/analysis/?p={n}",
+  "item": "(?:https://www\\.analysys\\.cn)?/article/detail/\\d+",
+  "base": "https://www.analysys.cn"
+ },
+ {
+  "seq": 48,
+  "type": "pages",
+  "tpl": "https://www.adquan.com/case_library/index?page={n}",
+  "item": "(?:https://www\\.adquan\\.com)?/article/\\d+",
+  "base": "https://www.adquan.com"
+ },
+ {
+  "seq": 52,
+  "type": "feed",
+  "url": "https://www.woshipm.com/category/harmony/feed/",
+  "item": "https://www\\.woshipm\\.com/[a-z-]+/\\d+\\.html"
+ },
+ {
+  "seq": 64,
+  "type": "pages",
+  "tpl": "https://socialbeta.com/job?page={n}",
+  "item": "(?:https://socialbeta\\.com)?/article/\\d+",
+  "base": "https://socialbeta.com"
+ },
+ {
+  "seq": 165,
+  "type": "feed",
+  "url": "https://tolunacorporate.com/insights-and-news/feed/",
+  "item": "https://tolunacorporate\\.com/[a-z0-9-]+/"
+ },
+ {
+  "seq": 179,
+  "type": "feed",
+  "url": "https://www.forrester.com/blogs/category/b2b-research/feed/",
+  "item": "https://www\\.forrester\\.com/blogs/[a-z0-9-]+/"
+ },
+ {
+  "seq": 216,
+  "type": "feed",
+  "url": "https://iabeurope.eu/knowledge-hub-categories/research-and-insights/feed/",
+  "item": "https://iabeurope\\.eu/knowledge_hub/[^/<\\\"]+/"
+ },
+ {
+  "seq": 218,
+  "type": "feed",
+  "url": "https://www.radiocentre.org/research/feed/",
+  "item": "https://www\\.radiocentre\\.org/(?:research|our-research)/[a-z0-9-]+/"
+ },
+ {
+  "seq": 187,
+  "type": "pages",
+  "tpl": "https://www.pewresearch.org/topic/economy-work/page/{n}/",
+  "item": "https://www\\.pewresearch\\.org/(?:[a-z-]+/)?\\d{4}/\\d{2}/\\d{2}/[a-z0-9-]+/"
+ },
+ {
+  "seq": 190,
+  "type": "pages",
+  "tpl": "https://www.pewresearch.org/topic/economy-work/business-workplace/page/{n}/",
+  "item": "https://www\\.pewresearch\\.org/(?:[a-z-]+/)?\\d{4}/\\d{2}/\\d{2}/[a-z0-9-]+/"
+ }
+]

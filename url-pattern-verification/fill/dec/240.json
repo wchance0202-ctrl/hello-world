@@ -172,17 +172,63 @@
     "https://www.qualtrics.com/events/webinar-us-bank-omnichannel-cx/",
     "https://www.qualtrics.com/events/winning-with-the-cfo/"
    ]
+  },
+  {
+   "members": [
+    "https://www.qualtrics.com/watch-demo/customer-experience/care/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/customer-care-assist/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/digital/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/frontline-locations-assist/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/healthcare-omnichannel-insights/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/higher-education/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/locations/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/modern-patient-experience/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/omnichannel-cx/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/overview/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/state-and-local-government/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/text-analytics-insights-recommendations/",
+    "https://www.qualtrics.com/watch-demo/customer-experience/website-feedback-dxa/"
+   ]
+  },
+  {
+   "members": [
+    "https://www.qualtrics.com/product-tour/customer-experience/agent-coaching/",
+    "https://www.qualtrics.com/product-tour/customer-experience/agent-optimization/",
+    "https://www.qualtrics.com/product-tour/customer-experience/contact-center-analytics/",
+    "https://www.qualtrics.com/product-tour/customer-experience/digital-analytics/",
+    "https://www.qualtrics.com/product-tour/customer-experience/locations/",
+    "https://www.qualtrics.com/product-tour/customer-experience/omnichannel/",
+    "https://www.qualtrics.com/product-tour/customer-experience/online-reputation-management/",
+    "https://www.qualtrics.com/product-tour/customer-experience/overview/",
+    "https://www.qualtrics.com/product-tour/customer-experience/quality-management/",
+    "https://www.qualtrics.com/product-tour/customer-experience/surveys/",
+    "https://www.qualtrics.com/product-tour/customer-experience/voice-of-customer/",
+    "https://www.qualtrics.com/product-tour/customer-experience/website-app-feedback/"
+   ]
+  },
+  {
+   "members": [
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-daisy-support-program/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-dxa-healthcare/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-hcahps/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-magnet-support-patient-nurse-experience/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-provider-reviews-ratings/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-rounding-solution/",
+    "https://www.qualtrics.com/watch-demo/product-tour-hcs-site-care-solution/",
+    "https://www.qualtrics.com/watch-demo/product-tour-k-12-education-solutions-0/",
+    "https://www.qualtrics.com/watch-demo/xmos-2/"
+   ]
   }
  ],
  "negatives": [
   "https://www.qualtrics.com/resources/",
   "https://www.qualtrics.com/resources/?page=1",
-  "https://www.qualtrics.com/watch-demo/customer-experience/care/"
+  "https://www.qualtrics.com/watch-demo/"
  ],
  "exclusivity": {
   "proved": true,
   "evidence": "资源中心列出电子书/指南 /ebooks-guides/{slug}/ 与活动 /events/{slug}/，这两个路径只承载资源中心内容"
  },
  "basis": "情况 B：电子书/指南与活动",
- "note": "演示视频（/watch-demo/…）、产品导览未纳入"
+ "note": "电子书/指南、活动、演示视频（/watch-demo/…）、产品导览（/product-tour/…）各一条"
 }

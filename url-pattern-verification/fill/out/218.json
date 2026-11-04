@@ -6,28 +6,69 @@
  "basis": "研究页条目分布在 /research/{slug}/、/our-research/{slug}/ 和上传的 PDF，结构各异，逐条列出 11 个",
  "note": "快照 2026-11-03",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:32:19+00:00",
- "pattern": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$\n^(?:https://www\\.radiocentre\\.org/our\\-research/building\\-shelf\\-awareness/)$",
+ "observed_at": "2026-11-04T04:10:11+00:00",
+ "unverified_kept": 0,
+ "pattern": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/research/generation\\-audio/|https://www\\.radiocentre\\.org/research/sound\\-profits/|https://www\\.radiocentre\\.org/research/the\\-secret\\-to\\-profit\\-and\\-trust\\-audio\\-presented\\-by\\-mark\\-ritson/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$\n^(?:https://www\\.radiocentre\\.org/our\\-research/building\\-shelf\\-awareness/)$",
  "status": "快照",
- "members": 11,
- "kept": 9,
+ "members": 22,
+ "kept": 12,
  "dropped": [
+  {
+   "url": "https://www.radiocentre.org/research/46168-2/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/forceforgood/"
+  },
   {
    "url": "https://www.radiocentre.org/research/building-shelf-awareness/",
    "status": 200,
    "final": "https://www.radiocentre.org/our-research/building-shelf-awareness/"
   },
   {
+   "url": "https://www.radiocentre.org/research/commercial-radio-stronger-than-ever/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/commercial-radio-stronger-than-ever/"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/feed/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/research/feed/"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/high-gain-audio/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/our-research/high-gain-audio/"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/listen-up/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/our-research/listen-up/"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/radio-an-advertisers-friend-in-a-cost-of-living-crisis/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/wp-content/uploads/2023/02/Radio-An-advertisers-friend-in-a-cost-of-living-crisis-Report.pdf"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/radio-the-performance-multiplier/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/radio-the-performance-multiplier/"
+  },
+  {
    "url": "https://www.radiocentre.org/research/re-evaluating-media-for-recovery/",
    "status": 200,
    "final": "https://www.radiocentre.org/re-evaluating-media-for-recovery/"
+  },
+  {
+   "url": "https://www.radiocentre.org/research/speed-of-sound/",
+   "status": 200,
+   "final": "https://www.radiocentre.org/our-research/speed-of-sound/"
   }
  ],
  "negatives": [
   "https://www.radiocentre.org/research/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$",
+ "pattern_base": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/research/generation\\-audio/|https://www\\.radiocentre\\.org/research/sound\\-profits/|https://www\\.radiocentre\\.org/research/the\\-secret\\-to\\-profit\\-and\\-trust\\-audio\\-presented\\-by\\-mark\\-ritson/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$",
  "redirect_extra": [
   "https://www.radiocentre.org/our-research/building-shelf-awareness/"
  ],

@@ -2,25 +2,19 @@
  "seq": 147,
  "entry_id": "S1-R19-E26",
  "url": "https://www.wipo.int/en/web/country-profiles",
- "mode": "selfpage",
- "basis": "国家概况入口页主体只有 1 个子页面（IP 局名录）和全站链接；国家概况本身由脚本按选择加载，没有 /news 列表（404）；正则写本页精确地址",
- "note": "",
+ "mode": "snapshot",
+ "basis": "复核：浏览器滚动到底后，国家概况页面在入口路径下有 1 个子页面，逐条列出（此前判为单页）",
+ "note": "快照 2026-11-04",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:32:33+00:00",
- "pattern": "^https://www\\.wipo\\.int/en/web/country\\-profiles$",
- "status": "单页",
- "pages": [
+ "observed_at": "2026-11-04T04:15:57+00:00",
+ "unverified_kept": 0,
+ "pattern": "^(?:https://www\\.wipo\\.int/en/web/country\\-profiles/directory\\-ip\\-offices)$",
+ "status": "快照",
+ "members": 1,
+ "kept": 1,
+ "dropped": [],
+ "negatives": [
   "https://www.wipo.int/en/web/country-profiles"
  ],
- "landing": [
-  {
-   "url": "https://www.wipo.int/en/web/country-profiles",
-   "status": 200,
-   "final": "https://www.wipo.int/en/web/country-profiles",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://www\\.wipo\\.int/en/web/country\\-profiles$",
- "redirect_extra": [],
- "redirect_skipped": []
+ "negatives_matched": []
 }

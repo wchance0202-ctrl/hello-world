@@ -48,5 +48,12 @@
   "evidence": "新闻 /en/news-events/news/{slug} 与活动 /en/news-events/events/{slug} 都在入口路径下（情况 A）；样本取自新闻列表页和活动列表页"
  },
  "basis": "情况 A：新闻详情与活动详情",
- "note": "/en/news-events/{子栏目} 的说明页未纳入"
+ "note": "/en/news-events/{子栏目} 说明页（5 个）以精确地址另列一行",
+ "extra_exact": [
+  "https://www.epo.org/en/news-events/european-inventor-award",
+  "https://www.epo.org/en/news-events/in-focus",
+  "https://www.epo.org/en/news-events/podcast",
+  "https://www.epo.org/en/news-events/press-centre",
+  "https://www.epo.org/en/news-events/young-inventors-prize"
+ ]
 }

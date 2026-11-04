@@ -4,14 +4,14 @@
  "url": "https://www.wipo.int/en/web/global-brand-database",
  "mode": "regex",
  "basis": "情况 A：主题新闻 /en/web/global-brand-database/w/news/{年}/{slug}",
- "note": "主题下的说明子页（FAQ、介绍等）数量少、结构不一，未纳入",
+ "note": "主题说明子页（3 个）以精确地址另列一行",
  "exclusivity": {
   "proved": true,
   "evidence": "主题新闻在入口路径 /en/web/global-brand-database/w/news/{年}/{slug} 下（情况 A），主题名就在路径里，其他主题的新闻（/en/web/{其他主题}/w/news/…）不会匹配；样本取自该主题新闻列表 /en/web/global-brand-database/news（12 条）"
  },
- "observed_at": "2026-11-03T09:24:48+00:00",
+ "observed_at": "2026-11-04T04:05:39+00:00",
  "frozen_sha256": "42c86370f555b1ef399d6cda53528faecc0867d5d221a857048c2b58c0259533",
- "pattern": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z0-9_-]+$",
+ "pattern": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z0-9_-]+$\n^(?:https://www\\.wipo\\.int/en/web/global\\-brand\\-database/faqs_branddb|https://www\\.wipo\\.int/en/web/global\\-brand\\-database/terms_and_conditions)$",
  "status": "已验证",
  "checks": {
   "inference_pos": 9,
@@ -53,7 +53,11 @@
  "engine": {
   "name": "google-re2"
  },
- "pattern_base": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z0-9_-]+$",
+ "extra_exact_kept": 2,
+ "extra_exact_dropped": [
+  "https://www.wipo.int/web/global-brand-database/webinars"
+ ],
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/global\\-brand\\-database/w/news/[0-9]+/[a-z0-9_-]+$\n^(?:https://www\\.wipo\\.int/en/web/global\\-brand\\-database/faqs_branddb|https://www\\.wipo\\.int/en/web/global\\-brand\\-database/terms_and_conditions)$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

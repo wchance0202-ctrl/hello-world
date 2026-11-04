@@ -3,58 +3,138 @@
  "entry_id": "S1-R27-E3",
  "url": "https://www.euromonitor.com/store/explore-reports",
  "mode": "regex",
- "basis": "情况 A：报告分类浏览页 /store/explore-reports/{行业或地区}/{子类}",
- "note": "单篇报告页 /{slug}/report 在站点根路径下，入口页只出现 1 个，未纳入",
+ "basis": "情况 A：报告分类浏览页；情况 B：单篇报告页 /{slug}/report",
+ "note": "单篇报告样本取自 sitemap",
  "exclusivity": {
   "proved": true,
-  "evidence": "报告浏览页的分类页都在入口路径 /store/explore-reports/{行业或地区}/{子类} 下（情况 A）"
+  "evidence": "报告分类浏览页在入口路径下；单篇报告是商店专用结构"
  },
- "observed_at": "2026-11-03T09:27:50+00:00",
- "frozen_sha256": "911ed60439661fe760211fa4fde568c19c02af2ce4408e506c522d2585bc6031",
- "pattern": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$",
+ "observed_at": "2026-11-04T04:06:02+00:00",
+ "pattern": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$\n^https://www\\.euromonitor\\.com/[a-z0-9-]+/report$",
+ "families": [
+  {
+   "frozen_sha256": "590712ca3d1a07aed01a101ec9c7de12d7682ae858ba743038ebd57b8e92142f",
+   "pattern": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 4,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 16
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+     "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
+     "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
+     "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
+     "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
+     "https://www.euromonitor.com/store/explore-reports/western-europe/belgium",
+     "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
+     "https://www.euromonitor.com/store/explore-reports/western-europe/france"
+    ],
+    "holdout_pos": [
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
+     "https://www.euromonitor.com/store/explore-reports/north-america/canada",
+     "https://www.euromonitor.com/store/explore-reports/western-europe/austria"
+    ],
+    "holdout_neg": [
+     "https://www.euromonitor.com/store/explore-reports",
+     "https://www.euromonitor.com/store",
+     "https://www.euromonitor.com/article/asias-gen-alpha-will-define-the-future-of-consumption",
+     "https://www.euromonitor.com/insights/asia-pacific",
+     "https://www.euromonitor.com/apparel-and-footwear-specialists-in-new-zealand/report",
+     "https://www.euromonitor.com/baby-and-child-specific-products-in-malaysia/report",
+     "https://www.euromonitor.com/chocolate-confectionery-in-iraq/report",
+     "https://www.euromonitor.com/consumer-credit-in-spain/report",
+     "https://www.euromonitor.com/dermatologicals-in-the-czech-republic/report",
+     "https://www.euromonitor.com/nappies-diapers-pants-in-oman/report"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "报告分类浏览页在入口路径下；单篇报告是商店专用结构"
+   }
+  },
+  {
+   "frozen_sha256": "37c032a53d8f7eb54cbf881c61783245805f0a75c822a628a32058098c2f98d8",
+   "pattern": "^https://www\\.euromonitor\\.com/[a-z0-9-]+/report$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.euromonitor.com/apparel-and-footwear-specialists-in-new-zealand/report",
+     "https://www.euromonitor.com/baby-and-child-specific-products-in-malaysia/report",
+     "https://www.euromonitor.com/chocolate-confectionery-in-iraq/report",
+     "https://www.euromonitor.com/consumer-credit-in-spain/report",
+     "https://www.euromonitor.com/dermatologicals-in-the-czech-republic/report",
+     "https://www.euromonitor.com/nappies-diapers-pants-in-oman/report",
+     "https://www.euromonitor.com/plant-based-dairy-packaging-in-brazil/report",
+     "https://www.euromonitor.com/retail-e-commerce-in-israel/report",
+     "https://www.euromonitor.com/skin-care-in-jordan/report",
+     "https://www.euromonitor.com/small-local-grocers-in-australia/report",
+     "https://www.euromonitor.com/tea-in-india/report",
+     "https://www.euromonitor.com/wholesale-in-canada-isic-51/report"
+    ],
+    "holdout_pos": [
+     "https://www.euromonitor.com/apparel-accessories-in-australia/report",
+     "https://www.euromonitor.com/consumer-lifestyles-in-morocco/report",
+     "https://www.euromonitor.com/digital-shopper-e-commerce-goods-and-services-in-indonesia/report",
+     "https://www.euromonitor.com/other-dairy-in-pakistan/report",
+     "https://www.euromonitor.com/soft-drinks-in-the-united-kingdom/report",
+     "https://www.euromonitor.com/wound-care-in-dominican-republic/report"
+    ],
+    "holdout_neg": [
+     "https://www.euromonitor.com/store/explore-reports",
+     "https://www.euromonitor.com/store",
+     "https://www.euromonitor.com/article/asias-gen-alpha-will-define-the-future-of-consumption",
+     "https://www.euromonitor.com/insights/asia-pacific",
+     "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
+     "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
+     "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins"
+    ],
+    "holdout_source": "independent"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "报告商店的单篇报告都是 /{报告slug}/report（sitemap 中 18264 个），只承载报告"
+   }
+  }
+ ],
  "status": "已验证",
  "checks": {
-  "inference_pos": 12,
-  "holdout_pos": 4,
-  "holdout_neg": 3,
-  "all_pass": true,
-  "coverage_missed": [],
-  "coverage_members": 16
+  "families": 2
  },
- "failures": [],
- "identity_excluded": [],
- "frozen": {
-  "inference": [
-   "https://www.euromonitor.com/store/explore-reports/asia-pacific/kazakhstan",
-   "https://www.euromonitor.com/store/explore-reports/asia-pacific/uzbekistan",
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/dermatologicals",
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/paediatric-consumer-health",
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/vitamins",
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/wound-care",
-   "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/algeria",
-   "https://www.euromonitor.com/store/explore-reports/middle-east-and-africa/kenya",
-   "https://www.euromonitor.com/store/explore-reports/north-america/canada",
-   "https://www.euromonitor.com/store/explore-reports/western-europe/austria",
-   "https://www.euromonitor.com/store/explore-reports/western-europe/finland",
-   "https://www.euromonitor.com/store/explore-reports/western-europe/france"
-  ],
-  "holdout_pos": [
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/digestive-remedies",
-   "https://www.euromonitor.com/store/explore-reports/consumer-health/weight-management-and-wellbeing",
-   "https://www.euromonitor.com/store/explore-reports/eastern-europe/serbia",
-   "https://www.euromonitor.com/store/explore-reports/western-europe/belgium"
-  ],
-  "holdout_neg": [
-   "https://www.euromonitor.com/store/explore-reports",
-   "https://www.euromonitor.com/store",
-   "https://www.euromonitor.com/dietary-supplements-in-kazakhstan/report"
-  ],
-  "holdout_source": "listing_split"
- },
- "engine": {
-  "name": "google-re2"
- },
- "pattern_base": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$",
+ "why_not_verified": null,
+ "pattern_base": "^https://www\\.euromonitor\\.com/store/explore\\-reports/[a-z-]+/[a-z-]+$\n^https://www\\.euromonitor\\.com/[a-z0-9-]+/report$",
  "redirect_extra": [],
  "redirect_skipped": []
 }
