@@ -14,9 +14,26 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 
 ROOT = Path(__file__).resolve().parent.parent
-DONE = {"已验证", "超范围", "快照", "单页"}
-COLS = ["序号", "站点名称", "pattern链接", "当前状态", "当前正则", "卡在哪里", "要做什么"]
+# verified rows that still carry a caveat (sampled first screen only, page types left out, literal year, ...)
+CAVEAT = {24: "条目是按钮没有 URL，正则只覆盖列表页；需确认条目是否真的没有独立地址",
+          33: "样本只来自首屏卡片", 34: "样本只来自首屏卡片", 35: "样本只来自首屏卡片，末段 /1 只见过一个取值",
+          36: "列表第 2 页未取样", 37: "样本只来自首屏卡片", 39: "列表后续内容未取样", 108: "样本只来自首屏卡片",
+          111: "样本只来自首屏卡片", 116: "样本只来自首屏卡片（列表共 99 页）",
+          124: "统计数据门户 data.bis.org（另一子域）未纳入", 136: "只覆盖主题新闻，主题说明子页未纳入",
+          137: "只覆盖主题新闻，主题说明子页未纳入", 138: "只覆盖主题新闻，主题说明子页未纳入",
+          140: "只覆盖主题新闻（列表只有 4 条），主题说明子页未纳入", 141: "只覆盖主题新闻，主题说明子页未纳入",
+          145: "只覆盖主题新闻，主题说明子页未纳入", 146: "只覆盖主题新闻，主题说明子页未纳入",
+          151: "/en/news-events/{子栏目} 说明页未纳入", 157: "单篇报告页 /{slug}/report 未纳入",
+          177: "第二条规则年份写死为 2026，新年份不匹配", 188: "只覆盖子主题页，主题文章在全站共用路径未覆盖",
+          189: "只覆盖子主题页，主题文章在全站共用路径未覆盖", 203: "只取到新闻列表第 1 页的 10 条",
+          213: "第 3 轮样本少，经用户同意采用", 240: "演示视频、产品导览未纳入", 249: "分类下的文章 /blog/{分类}/{slug}/ 未纳入"}
+COLS = ["序号", "类别", "站点名称", "pattern链接", "当前状态", "当前正则", "不确定在哪里", "要做什么"]
+CAT = {"单页": "B 单页待复核", "快照": "C 快照待补全", "超范围": "D 超范围待收窄", "已验证": "E 已验证但有保留"}
 TODO = {
+    "单页": "复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页",
+    "快照": "核对清单是否完整（翻页、加载更多到底，对照 sitemap）；能找到栏目标识或专属路径就改成通用正则，否则更新快照",
+    "超范围": "寻找能区分本栏目的办法（URL 中的栏目标识、专属子路径、栏目自己的 sitemap 等）；找到就改成精确正则，找不到保持超范围并更新完整清单",
+    "已验证": "针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测",
     "仅入口页（访问受限）": "用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因",
     "仅入口页（需登录）": "用有权限的账号登录后按全流程提取；没有账号就保持现状并注明",
     "仅入口页（条目不可枚举）": "浏览器逐个点击卡片或看网络请求，取得条目地址后按全流程提取",
@@ -44,7 +61,7 @@ def main():
     table = list(csv.DictReader(open(ROOT / "fill/result-fill.csv", encoding="utf-8-sig")))
     out = []
     for i, r in enumerate(table, 1):
-        if r["状态"] in DONE:
+        if r["状态"] == "已验证" and i not in CAVEAT:
             continue
         why = r["依据"].split("；")[0][:160]
         if r["备注"]:
@@ -52,8 +69,11 @@ def main():
         hint = HINT.get(r["站点名称"].split("（")[0].split(" ")[0]) or HINT.get(r["站点名称"]) or ""
         if r["站点名称"] == "Dealroom" and not any(k in r["pattern链接"] for k in ("companies", "investors")):
             hint = ""
-        out.append({"序号": i, "站点名称": r["站点名称"], "pattern链接": r["pattern链接"], "当前状态": r["状态"],
-                    "当前正则": r["正则表达式"], "卡在哪里": why + (f"；线索：{hint}" if hint else ""),
+        if r["状态"] == "已验证":
+            why = CAVEAT[i]
+        cat = CAT.get(r["状态"], "A 未完成")
+        out.append({"序号": i, "类别": cat, "站点名称": r["站点名称"], "pattern链接": r["pattern链接"], "当前状态": r["状态"],
+                    "当前正则": r["正则表达式"], "不确定在哪里": why + (f"；线索：{hint}" if hint else ""),
                     "要做什么": TODO.get(r["状态"], "")})
     hd = ROOT / "handoff"
     with open(hd / "unfinished.csv", "w", encoding="utf-8-sig", newline="") as f:
@@ -69,19 +89,20 @@ def main():
     for c in ws[1]:
         c.font = Font(bold=True)
         c.fill = PatternFill("solid", fgColor="FFF2CC")
-    for col, wd in zip("ABCDEFG", (6, 22, 60, 20, 60, 80, 50)):
+    for col, wd in zip("ABCDEFGH", (6, 16, 22, 60, 20, 60, 80, 50)):
         ws.column_dimensions[col].width = wd
     for rr in ws.iter_rows(min_row=2):
         for c in rr:
             c.alignment = Alignment(vertical="top", wrap_text=True)
     ws.freeze_panes = "C2"
     wb.save(hd / "unfinished.xlsx")
-    md = ["## 附录：未完成的 %d 行（按原表顺序）" % len(out), "",
-          "完整字段（当前正则、卡在哪里）见随附的 `unfinished.xlsx`。", "",
-          "| 序号 | 站点名称 | pattern链接 | 当前状态 | 线索 |", "|---|---|---|---|---|"]
+    md = ["## 附录：需要处理的 %d 行（按原表顺序）" % len(out), "",
+          "完整字段（当前正则、不确定在哪里）见随附的 `unfinished.xlsx`。", "",
+          "| 序号 | 类别 | 站点名称 | pattern链接 | 当前状态 | 不确定在哪里 / 线索 |", "|---|---|---|---|---|---|"]
     for r in out:
-        hint = r["卡在哪里"].split("线索：")[1] if "线索：" in r["卡在哪里"] else ""
-        md.append(f"| {r['序号']} | {r['站点名称']} | {r['pattern链接']} | {r['当前状态']} | {hint} |")
+        w = r["不确定在哪里"]
+        note = w.split("线索：")[1] if "线索：" in w else (w if r["类别"].startswith("E") else "")
+        md.append(f"| {r['序号']} | {r['类别']} | {r['站点名称']} | {r['pattern链接']} | {r['当前状态']} | {note.replace('|', '/')[:120]} |")
     (hd / "unfinished-appendix.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     body = (hd / "prompt-unfinished-body.md").read_text(encoding="utf-8")
     (hd / "prompt-unfinished.md").write_text(body + "\n" + "\n".join(md) + "\n", encoding="utf-8")
