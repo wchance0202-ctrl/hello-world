@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>AI 三年大事记</title>
+<style>
+  @font-face { font-family: 'Noto Sans SC'; src: url('assets/NotoSansSC.ttf') format('truetype'); font-weight: 100 900; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+/* =====================================================================
+ * 配置：颜色、缓动、转场时长、事件文字都在这里改
+ * 所有时间点都来自 beats.json（这里只写"第几拍"，或 'drop' / 'final_hit'）
+ * ===================================================================== */
+const CONFIG = {
+  width: 1920, height: 1080, fps: 30,
+  font: '"Noto Sans SC"',
+  colors: {
+    bg: '#07090D', bg2: '#0E121A',
+    primary: '#5B8CFF',     // 主色：冷蓝
+    accent: '#FFB547',      // 强调色：琥珀（只在蓄/爆段逐渐出现）
+    text: '#EEF1F6', textDim: '#8F98A9', axis: '#262D3A', tick: '#3A4354',
+  },
+  // 全片唯一的缓动族：指数曲线，strength 越大越"陡"
+  ease: { strength: 6 },
+  transition: {
+    leadFrames: 5,          // 拍点前 5 帧开始猛加速
+    settleFrames: 4,        // 拍点落定后的缓冲帧数
+    landAt: 0.97,           // 拍点那一帧完成 97%，余下 3% 在缓冲里走完
+    // 每段的转场窗口（秒）和"预备量"（加速前已经走完的比例）
+    window: { '起': 0.9, '承': 0.5, '蓄': 0.3, '爆': 0.3, '尾': 0.9 },
+    antic:  { '起': 0.22, '承': 0.2, '蓄': 0.15, '爆': 0.15, '尾': 0.3 },
+    pushZoom: 9,            // 推进穿过画面时旧画面放大到几倍
+    flashWindow: 0.22,      // 蓄段单词切换的窗口（秒）
+  },
+  camera: { ambientZoom: { '起': 0.05, '承': 0.03, '蓄': 0.06, '爆': 0.03, '尾': 0 } },
+  energy: { '起': [0.10, 0.22], '承': [0.30, 0.55], '蓄': [0.60, 0.90], '爆': [1.0, 1.0], '尾': [0.75, 0.6] },
+  stage: { x: 960, y: 395 },      // 图形中心
+  axis: { y: 690, pxPerMonth: 200, minGap: 600, endMargin: 250 },
+  text: { yearY: 768, nameY: 846, meaningY: 920, flashY: 862 },
+  shots: [
+    { id: 'chatgpt', beat: 0,  date: '2022-11-30', ym: '2022.11', name: 'ChatGPT', meaning: '人人都能和 AI 聊天', motif: 'chat', out: 'morph' },
+    { id: 'gpt4',    beat: 8,  date: '2023-03-14', ym: '2023.03', name: 'GPT-4', meaning: '能看图，律师考试前 10%', motif: 'grid', out: 'morph' },
+    { id: 'sora',    beat: 16, date: '2024-02-15', ym: '2024.02', name: 'Sora', meaning: '一句话，生成一段视频', motif: 'film', out: 'morph' },
+    { id: 'gpt4o',   beat: 20, date: '2024-05-13', ym: '2024.05', name: 'GPT-4o', meaning: '实时听、看、说', motif: 'wave', out: 'morph' },
+    { id: 'o1',      beat: 24, date: '2024-09-12', ym: '2024.09', name: 'o1', meaning: '先思考，再回答', motif: 'tree', out: 'morph' },
+    { id: 'nobel',   beat: 28, date: '2024-10-08', ym: '2024.10', name: '诺贝尔奖', meaning: 'AI 研究同获物理、化学奖', motif: 'ring', out: 'morph' },
+    { id: 'cu',      beat: 32, date: '2024-10-22', ym: '2024.10', name: 'Claude Computer Use', meaning: 'AI 学会操作电脑', motif: 'window', out: 'push' },
+    { id: 'r1',      beat: 36, date: '2025-01-20', flash: ['2025.01', 'DeepSeek-R1', '开源推理'], motif: 'scatter', out: 'wipe' },
+    { id: 'agent',   beat: 40, date: '2025-07-17', flash: ['2025.07', 'ChatGPT agent', '代你办事'], motif: 'network', out: 'push' },
+    { id: 'recap',   beat: 44, date: '2025-10-20', flash: ['会聊天', '会思考', '会动手'], motif: 'stream', out: 'morph', station: false },
+    { id: 'point',   beat: 'drums_stop', date: '2026-01-25', motif: 'point', out: 'burst', station: false, noText: true },
+    { id: 'openclaw', beat: 'drop', date: '2026-01-25', ym: '2026.01', name: 'OpenClaw', meaning: 'AI 真的开始干活了', motif: 'burst', out: 'pullback', centerText: true },
+    { id: 'end',     beat: 'final_hit', motif: 'end', noText: true,
+      line: [['三年多，AI 从', 'text'], ['会聊天', 'primary'], ['走到了', 'text'], ['会干活', 'accent']] },
+  ],
+  fadeOut: 0.8,       // 结尾淡出（秒）
+  debug: /[?&]debug=1/.test(location.search),
+};
+
+/* ===================================================================== */
+const cv = document.getElementById('c');
+const ctx = cv.getContext('2d');
+const W = CONFIG.width, H = CONFIG.height, FPS = CONFIG.fps;
+const C = CONFIG.colors;
+const N = 160;            // 粒子总数（所有图形共用一套粒子，才能互相变形）
+let BEATS = null, SHOTS = null, BEAT = 0.5;
+
+// ---------- 工具 ----------
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const lerp = (a, b, t) => a + (b - a) * t;
+function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function hex2rgb(h) { const n = parseInt(h.slice(1), 16); return [n >> 16 & 255, n >> 8 & 255, n & 255]; }
+const RGB = Object.fromEntries(Object.entries(C).map(([k, v]) => [k, hex2rgb(v)]));
+function mixRGB(a, b, t) { return [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)]; }
+function colOf(c) {         // 0 = 主色，1 = 白，2 = 强调色
+  return c <= 1 ? mixRGB(RGB.primary, RGB.text, clamp(c)) : mixRGB(RGB.text, RGB.accent, clamp(c - 1));
+}
+function rgba(rgb, a) { return `rgba(${rgb[0] | 0},${rgb[1] | 0},${rgb[2] | 0},${clamp(a)})`; }
+
+// ---------- 统一缓动（指数族） ----------
+const EASE = {
+  in(u, s = CONFIG.ease.strength) { u = clamp(u); if (s < 1e-3) return u; return (Math.exp(s * u) - 1) / (Math.exp(s) - 1); },
+  out(u, s = CONFIG.ease.strength) { return 1 - EASE.in(1 - u, s); },
+  inOut(u, s = CONFIG.ease.strength) { u = clamp(u); return u < 0.5 ? EASE.in(2 * u, s) / 2 : 1 - EASE.in(2 - 2 * u, s) / 2; },
+};
+const sCache = new Map();
+function solveS(Wn, L, antic) {     // 求曲线陡度：使得"拍点前 L 秒"时恰好只走完 antic
+  const key = Wn + '|' + L + '|' + antic;
+  if (sCache.has(key)) return sCache.get(key);
+  const u = clamp(1 - L / Wn, 0, 0.999);
+  let lo = 0.01, hi = 80;
+  if (EASE.in(u, lo) <= antic) { sCache.set(key, lo); return lo; }
+  for (let i = 0; i < 60; i++) { const m = (lo + hi) / 2; if (EASE.in(u, m) > antic) lo = m; else hi = m; }
+  sCache.set(key, lo); return lo;
+}
+// 卡拍曲线：tb 为拍点时间。拍点前慢慢预备，最后 leadFrames 帧猛加速，拍点那一帧落定，再缓冲 settleFrames 帧
+function hit(t, tb, Wn = 0.35, antic = 0.15) {
+  const T = CONFIG.transition, L = T.leadFrames / FPS, S = T.settleFrames / FPS;
+  const f = t * FPS, fb = Math.round(tb * FPS);
+  if (f < fb - Wn * FPS - 1e-6) return 0;
+  if (f < fb - 1e-6) return T.landAt * EASE.in((t - (tb - Wn)) / Wn, solveS(Wn, L, antic));
+  if (f < fb + T.settleFrames - 1e-6) return T.landAt + (1 - T.landAt) * EASE.out((t - tb) / S, 4);
+  return 1;
+}
+// 拍上的一次"脉冲"：拍点那一帧最强，之后衰减
+function pulse(t, tb, len = 0.42) { if (t * FPS < Math.round(tb * FPS) - 1e-6) return 0; return 1 - EASE.out((t - tb) / len, 5); }
+
+// ---------- 时间 ----------
+function sectionAt(t) { const s = BEATS.sections.find(s => t >= s.start - 1e-6 && t < s.end - 1e-6); return s ? s.name : BEATS.sections[BEATS.sections.length - 1].name; }
+function energy(t) {
+  const s = BEATS.sections.find(s => t >= s.start - 1e-6 && t < s.end - 1e-6) || BEATS.sections[BEATS.sections.length - 1];
+  const [a, b] = CONFIG.energy[s.name]; return lerp(a, b, clamp((t - s.start) / (s.end - s.start)));
+}
+function monthF(d) { const [y, m, dd] = d.split('-').map(Number); const dim = new Date(y, m, 0).getDate(); return (y - 2022) * 12 + (m - 1) + (dd - 1) / dim; }
+
+function initShots() {
+  BEAT = BEATS.beat_sec;
+  SHOTS = CONFIG.shots.map(s => ({ ...s }));
+  SHOTS.forEach((s, i) => {
+    s.beatIdx = typeof s.beat === 'number' ? s.beat : BEATS[s.beat].beat;
+    s.t0 = BEATS.beats[s.beatIdx];
+    s.sec = sectionAt(s.t0);
+    s.W = CONFIG.transition.window[s.sec];
+    s.antic = CONFIG.transition.antic[s.sec];
+  });
+  SHOTS.forEach((s, i) => { s.next = SHOTS[i + 1] || null; s.prev = SHOTS[i - 1] || null; s.dur = (s.next ? s.next.t0 : BEATS.duration) - s.t0; });
+  // 时间轴：站点按真实日期排，但相邻站点至少隔 minGap 像素（同月两件事也读得清）
+  let x = 0, pm = null; const knots = [];
+  SHOTS.forEach(s => {
+    if (!s.date) { s.x = x; return; }
+    const m = monthF(s.date);
+    if (pm !== null && m > pm) x += Math.max(CONFIG.axis.minGap, (m - pm) * CONFIG.axis.pxPerMonth);
+    s.x = x; s.m = m;
+    if (pm === null || m > pm) knots.push([m, x]);
+    pm = m;
+  });
+  AXIS.knots = knots;
+  const st = SHOTS.filter(s => s.date);
+  AXIS.x0 = st[0].x; AXIS.x1 = st[st.length - 1].x;
+  AXIS.fitZoom = (W - 2 * CONFIG.axis.endMargin) / (AXIS.x1 - AXIS.x0);
+  AXIS.mid = (AXIS.x0 + AXIS.x1) / 2;
+  initStatic();
+}
+const AXIS = {};
+function dateX(m) {
+  const k = AXIS.knots, ppm = CONFIG.axis.pxPerMonth;
+  if (m <= k[0][0]) return k[0][1] + (m - k[0][0]) * ppm;
+  for (let i = 1; i < k.length; i++) if (m <= k[i][0]) return lerp(k[i - 1][1], k[i][1], (m - k[i - 1][0]) / (k[i][0] - k[i - 1][0]));
+  const l = k[k.length - 1]; return l[1] + (m - l[0]) * ppm;
+}
+
+// 当前处于哪个镜头 / 哪次转场
+function stateAt(t) {
+  const f = t * FPS; let i = 0;
+  SHOTS.forEach((s, k) => { if (Math.round(s.t0 * FPS) <= f + 1e-6) i = k; });
+  const s = SHOTS[i];
+  if (i > 0 && f < Math.round(s.t0 * FPS) + CONFIG.transition.settleFrames - 1e-6)
+    return { a: SHOTS[i - 1], b: s, p: hit(t, s.t0, s.W, s.antic) };
+  if (s.next && t >= s.next.t0 - s.next.W) return { a: s, b: s.next, p: hit(t, s.next.t0, s.next.W, s.next.antic) };
+  return { a: s, b: s, p: 0 };
+}
+
+// ---------- 粒子 ----------
+function P(x, y, w, h = w, rad = 1, a = 1, col = 0.6, fill = 1) { return { x, y, w, h, rad, a, col, fill }; }
+function pack(list) { const out = []; for (let i = 0; i < N; i++) { if (i < list.length) out.push(list[i]); else { const q = list[i % list.length]; out.push({ ...q, a: 0 }); } } return out; }
+function hv(t, tb, Wn = 0.35, antic = 0.15) { return hit(t, tb, Wn, antic); }
+
+const STATIC = {};
+function initStatic() {
+  const r = mulberry32(20221130);
+  // 背景尘埃
+  STATIC.dust = Array.from({ length: 320 }, () => ({ x: r() * 2400, y: r() * H, z: 0.15 + r() * 0.6, s: 0.6 + r() * 1.6, k: r() }));
+  // DeepSeek-R1 的散点
+  const pts = []; while (pts.length < 140) { const x = (r() * 2 - 1) * 640, y = (r() * 2 - 1) * 230; if ((x / 640) ** 2 + (y / 230) ** 2 < 1) pts.push({ x, y, r: 2.4 + r() * 3, c: 0.3 + r() * 0.8 }); }
+  pts.sort((a, b) => (a.x * a.x + a.y * a.y) - (b.x * b.x + b.y * b.y));   // 由内向外出现
+  STATIC.scatter = pts;
+  const e = []; for (let i = 0; i < pts.length; i++) { let c = 0; for (let j = i + 1; j < pts.length && c < 2; j++) { if (Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y) < 95) { e.push([i, j]); c++; } } }
+  STATIC.scatterEdges = e;
+  // ChatGPT agent 的网络
+  const nodes = [];
+  for (let c = 0; c < 7; c++) for (let rr = 0; rr < 3; rr++) nodes.push({ x: (c - 3) * 150, y: (rr - 1) * 125 + (c % 2 ? 30 : -10), c, r: rr });
+  const ne = []; nodes.forEach((a, i) => nodes.forEach((b, j) => { if (j > i && Math.abs(a.c - b.c) <= 1 && Math.abs(a.r - b.r) <= 1 && !(a.c === b.c && Math.abs(a.r - b.r) === 0)) ne.push([i, j]); }));
+  STATIC.net = nodes; STATIC.netEdges = ne;
+  const nb = nodes.map((_, i) => ne.filter(e => e[0] === i || e[1] === i).map(e => e[0] === i ? e[1] : e[0]));
+  STATIC.paths = Array.from({ length: 5 }, (_, q) => { let cur = [0, 3, 18, 20, 9][q]; const p = [cur]; for (let k = 0; k < 5; k++) { const opts = nb[cur]; cur = opts[Math.floor(r() * opts.length)]; p.push(cur); } return p; });
+  // 回顾段的流线
+  STATIC.stream = Array.from({ length: N }, (_, i) => ({ lane: i % 7, x: r() * 1600, v: 0.7 + r() * 0.6 }));
+}
+
+// ---------- 各事件的图形（坐标以舞台中心为原点） ----------
+const MOTIFS = {
+  chat(s, tau, t) {
+    const aA = EASE.out(clamp(tau / 0.7)), aB = hv(t, s.t0 + 2 * BEAT, 0.5, 0.2);
+    let pa = 0, pb = 0;
+    for (let j = 0; j < 8; j++) { const p = pulse(t, s.t0 + j * BEAT); if (j % 2 === 0) pa = Math.max(pa, p); else if (j >= 3) pb = Math.max(pb, p); }
+    const A = P(-64, 0, 34 * (1 + 0.28 * pa), undefined, 1, aA * (0.65 + 0.35 * pa), 0.85);
+    const B = P(64, 0, 34 * (1 + 0.28 * pb) * (0.4 + 0.6 * aB), undefined, 1, aB * (0.65 + 0.35 * pb), 0.85);
+    const pts = []; for (let i = 0; i < N; i++) pts.push(i === 0 ? A : i === 1 ? B : { ...(i % 2 ? B : A), a: 0 });
+    return { pts, edges: [[0, 1, 0.28 * aB]] };
+  },
+  grid(s, tau, t) {
+    const mask = [0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1];
+    const list = [];
+    for (let k = 0; k < 16; k++) {
+      const c = k % 4, r = Math.floor(k / 4);
+      const lit = EASE.out(clamp((tau - 0.15 - k * 0.11) / 0.3));
+      list.push(P((c - 1.5) * 62, (r - 1.5) * 62, 46, 46, 0.22, 0.25 + lit * (0.3 + 0.45 * mask[k]), 0.4 + 0.6 * mask[k] * lit));
+    }
+    return { pts: pack(list), edges: [] };
+  },
+  film(s, tau, t) {
+    let steps = 0; for (let j = 1; j <= 3; j++) steps += hv(t, s.t0 + j * BEAT, 0.3, 0.12);
+    const list = [];
+    for (let k = 0; k < 7; k++) {
+      let x = (k - 3) * 176 - 176 * steps; x = ((x + 616) % 1232 + 1232) % 1232 - 616;
+      const a = 1 - EASE.in(clamp((Math.abs(x) - 360) / 250), 3);
+      list.push(P(x, 0, 150, 94, 0.12, a * 0.9, 0.35 + 0.1 * (k % 3), 0.28));
+    }
+    return { pts: pack(list), edges: [] };
+  },
+  wave(s, tau, t) {
+    let amp = 0, steps = 0;
+    for (let j = 0; j < 4; j++) amp = Math.max(amp, pulse(t, s.t0 + j * BEAT, 0.45) * (j % 2 ? 0.6 : 1));
+    for (let j = 1; j <= 3; j++) steps += hv(t, s.t0 + j * BEAT, 0.3, 0.12);
+    const A = 18 + 70 * amp, list = [];
+    for (let k = 0; k < 64; k++) {
+      const x = -440 + k * (880 / 63), win = Math.pow(1 - (x / 440) ** 2, 1.4);
+      list.push(P(x, A * win * Math.sin(x * 0.024 + steps * 1.4), 9, 9, 1, 0.85, 0.55 + 0.3 * win));
+    }
+    return { pts: pack(list), edges: [] };
+  },
+  tree(s, tau, t) {
+    const list = [], edges = [], idx = [], path = [0, 1, 4, 10];
+    let k = 0;
+    for (let L = 0; L < 4; L++) {
+      const g = L === 0 ? 1 : hv(t, s.t0 + L * BEAT, 0.3, 0.12);
+      for (let j = 0; j < (1 << L); j++) {
+        const x = -330 + L * 220, y = (j - ((1 << L) - 1) / 2) * (380 / (1 << L));
+        const par = L ? idx[L - 1][j >> 1] : null;
+        const px = par !== null ? list[par].x : x, py = par !== null ? list[par].y : y;
+        const on = path.includes(k);
+        list.push(P(lerp(px, x, g), lerp(py, y, g), on ? 20 : 14, undefined, 1, (on ? 1 : 0.45) * (L ? g : 1), on ? 1 : 0.15));
+        if (par !== null) edges.push([par, k, (on && path.includes(par) ? 0.75 : 0.25) * g]);
+        (idx[L] = idx[L] || []).push(k); k++;
+      }
+    }
+    return { pts: pack(list), edges };
+  },
+  ring(s, tau, t) {
+    let steps = 0, pl = 0; for (let j = 1; j <= 3; j++) steps += hv(t, s.t0 + j * BEAT, 0.3, 0.12);
+    for (let j = 0; j < 4; j++) pl = Math.max(pl, pulse(t, s.t0 + j * BEAT, 0.4));
+    const list = [], edges = [], R = 165 + 6 * pl;
+    for (let k = 0; k < 24; k++) {
+      const th = k / 24 * Math.PI * 2 + steps * Math.PI / 24;
+      list.push(P(Math.cos(th) * R, Math.sin(th) * R, 12, undefined, 1, 0.9, 0.5 + 0.5 * (k % 3 === 0)));
+      edges.push([k, (k + 1) % 24, 0.45]);
+      if (k % 2 === 0) edges.push([k, (k + 9) % 24, 0.16]);
+    }
+    return { pts: pack(list), edges };
+  },
+  window(s, tau, t) {
+    const hw = 240, hh = 150, list = [];
+    const ringEnd = 3 * Math.PI / 24;
+    for (let k = 0; k < 24; k++) {               // 圆环节点沿射线投到矩形边上
+      const th = k / 24 * Math.PI * 2 + ringEnd, c = Math.cos(th), sn = Math.sin(th);
+      const sc = 1 / Math.max(Math.abs(c) / hw, Math.abs(sn) / hh);
+      list.push({ ...P(c * sc, sn * sc, 4, undefined, 1, 0.0, 0.8), th });
+    }
+    const ca = Math.atan2(hh, hw);
+    [[ca, hw, hh], [Math.PI - ca, -hw, hh], [Math.PI + ca, -hw, -hh], [2 * Math.PI - ca, hw, -hh]].forEach(([th, x, y]) => list.push({ ...P(x, y, 4, undefined, 1, 0, 0.8), th }));
+    // 边框（按角度排序后首尾相连）
+    const order = list.map((p, i) => [((p.th - ringEnd) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI), i]).sort((a, b) => a[0] - b[0]).map(v => v[1]);
+    const edges = order.map((i, k) => [i, order[(k + 1) % order.length], 0.9]);
+    // 标题栏、输入框、两个按钮
+    list.push(P(-hw, -hh + 40, 3, undefined, 1, 0, 0.8), P(hw, -hh + 40, 3, undefined, 1, 0, 0.8));
+    edges.push([28, 29, 0.5]);
+    const clicks = [1, 2, 3].map(j => s.t0 + j * BEAT);
+    const lit = clicks.map(tb => pulse(t, tb, 0.5));
+    const done = clicks.map(tb => hv(t, tb, 0.25, 0.1));
+    list.push(P(-75, 40, 150, 50, 0.25, 0.7 + 0.3 * lit[0], 0.35 + 0.65 * done[0], 0.25 + 0.5 * done[0]));
+    list.push(P(105, 40, 150, 50, 0.25, 0.7 + 0.3 * lit[1], 0.35 + 0.65 * done[1], 0.25 + 0.5 * done[1]));
+    list.push(P(0, -45, 360, 40, 0.3, 0.6 + 0.4 * lit[2], 0.3 + 0.5 * done[2], 0.12 + 0.3 * done[2]));
+    // 光标：每一拍落到一个目标上并点击
+    const way = [[290, 190], [-75, 40], [105, 40], [120, -45]];
+    let cx = way[0][0], cy = way[0][1];
+    for (let j = 0; j < 3; j++) { const q = hv(t, clicks[j], 0.35, 0.15); cx = lerp(cx, way[j + 1][0], q); cy = lerp(cy, way[j + 1][1], q); }
+    const appear = EASE.out(clamp(tau / 0.25));
+    const extra = (g, alpha, xf) => {
+      const X = xf.ox + cx * xf.s, Y = xf.oy + cy * xf.s;
+      clicks.forEach((tb, j) => { const q = t - tb; if (q >= 0 && q < 0.45) { const u = EASE.out(q / 0.45); g.strokeStyle = rgba(RGB.text, alpha * 0.6 * (1 - u)); g.lineWidth = 2; g.beginPath(); g.arc(xf.ox + way[j + 1][0] * xf.s, xf.oy + way[j + 1][1] * xf.s, (10 + 34 * u) * xf.s, 0, 7); g.stroke(); } });
+      g.fillStyle = rgba(RGB.text, alpha * appear);
+      g.beginPath(); const k = 1.15 * xf.s;
+      g.moveTo(X, Y); g.lineTo(X, Y + 30 * k); g.lineTo(X + 8 * k, Y + 23 * k); g.lineTo(X + 14 * k, Y + 35 * k); g.lineTo(X + 19 * k, Y + 33 * k); g.lineTo(X + 13 * k, Y + 21 * k); g.lineTo(X + 23 * k, Y + 21 * k); g.closePath(); g.fill();
+    };
+    return { pts: pack(list), edges, extra };
+  },
+  scatter(s, tau, t) {
+    let steps = 0; for (let j = 1; j <= 3; j++) steps += hv(t, s.t0 + j * BEAT, 0.25, 0.12);
+    const sc = 1 + 0.035 * steps, list = [];
+    STATIC.scatter.forEach((p, i) => {
+      const j = i < 50 ? 0 : Math.ceil((i - 50) / 30);
+      const a = j === 0 ? 1 : hv(t, s.t0 + j * BEAT, 0.25, 0.12);
+      list.push(P(p.x * sc, p.y * sc, p.r * 2 * (0.4 + 0.6 * a), undefined, 1, a * 0.95, p.c));
+    });
+    const edges = STATIC.scatterEdges.map(([i, j]) => [i, j, 0.22 * Math.min(list[i].a, list[j].a)]);
+    return { pts: pack(list), edges };
+  },
+  network(s, tau, t) {
+    const list = STATIC.net.map(n => P(n.x, n.y, 13, undefined, 1, 0.85, 0.45));
+    const edges = STATIC.netEdges.map(([i, j]) => [i, j, 0.22]);
+    const packets = [];
+    for (let j = 0; j < 4; j++) {
+      const t1 = s.t0 + j * BEAT, t2 = t1 + BEAT;
+      if (t < t1 - 0.3) continue;
+      for (let q = 0; q <= Math.min(j + 1, 4); q++) {
+        const path = STATIC.paths[q], a = path[j], b = path[j + 1];
+        if (t < t2 - 0.3) { list[a].col = Math.max(list[a].col, 1.35); list[a].w = list[a].h = 17; }
+        if (t >= t1 && t < t2 + 0.2) {
+          const u = hv(t, t2, 0.4, 0.2);
+          packets.push([lerp(STATIC.net[a].x, STATIC.net[b].x, u), lerp(STATIC.net[a].y, STATIC.net[b].y, u), t < t2 ? 1 : 1 - (t - t2) / 0.2]);
+          edges.push([a, b, 0.75]);
+        }
+      }
+    }
+    const extra = (g, alpha, xf) => { packets.forEach(([x, y, a]) => { g.fillStyle = rgba(RGB.accent, alpha * a); g.beginPath(); g.arc(xf.ox + x * xf.s, xf.oy + y * xf.s, 6 * xf.s, 0, 7); g.fill(); }); };
+    return { pts: pack(list), edges, extra };
+  },
+  stream(s, tau, t) {
+    tau = Math.max(0, tau);
+    const d = 600 * tau + 1100 * tau * tau, v = 600 + 2200 * tau, list = [];
+    STATIC.stream.forEach((p, i) => {
+      let x = ((p.x - d * p.v) % 1600 + 1600) % 1600 - 800;
+      const y = (p.lane - 3) * 56, a = 1 - EASE.in(clamp((Math.abs(x) - 520) / 260), 3);
+      list.push(P(x, y, 10 + 0.05 * v * p.v, 4, 1, a * 0.85, 0.7 + 0.5 * (i % 5 === 0) + 0.25 * clamp(tau / 1.5)));
+    });
+    return { pts: list, edges: [] };
+  },
+  point(s, tau, t) {
+    const g = s.next ? hit(t, s.next.t0, s.next.W, s.next.antic) : 0;
+    const r = 14 + 34 * g;
+    const pts = []; for (let i = 0; i < N; i++) pts.push(P(0, 145, r, r, 1, i === 0 ? 1 : 0, 2));
+    return { pts, edges: [] };
+  },
+  burst(s, tau, t) {
+    tau = Math.max(0, tau);
+    let pl = 0, steps = 0;
+    for (let j = 0; j < 8; j++) pl = Math.max(pl, pulse(t, s.t0 + j * BEAT, 0.35));
+    for (let j = 1; j < 8; j++) steps += hv(t, s.t0 + j * BEAT, 0.25, 0.12);
+    const R = 290 + 70 * (1 - EASE.out(clamp(tau / 0.45))) + 7 * pl, list = [];
+    for (let i = 0; i < N; i++) {
+      const th = i / N * Math.PI * 2 + steps * Math.PI / 80;
+      const rr = R + (i % 4 === 0 ? 10 : 0);
+      list.push(P(Math.cos(th) * rr, 145 + Math.sin(th) * rr, i % 4 === 0 ? 7 : 4.5, undefined, 1, 0.95, 1.75 + 0.25 * (i % 4 === 0)));
+    }
+    const extra = (g, alpha, xf) => {
+      const cx = xf.ox, cy = xf.oy + 145 * xf.s;
+      const grd = g.createRadialGradient(cx, cy, 0, cx, cy, 520 * xf.s);
+      grd.addColorStop(0, rgba(RGB.accent, alpha * (0.10 + 0.03 * pl))); grd.addColorStop(1, rgba(RGB.accent, 0));
+      g.fillStyle = grd; g.fillRect(cx - 600 * xf.s, cy - 600 * xf.s, 1200 * xf.s, 1200 * xf.s);
+      g.strokeStyle = rgba(RGB.accent, alpha * 0.35); g.lineWidth = 2; g.beginPath(); g.arc(cx, cy, R * xf.s, 0, 7); g.stroke();
+      if (tau < 0.9) { const u = EASE.out(tau / 0.9); g.strokeStyle = rgba(RGB.accent, alpha * 0.5 * (1 - u)); g.lineWidth = 3; g.beginPath(); g.arc(cx, cy, (300 + 900 * u) * xf.s, 0, 7); g.stroke(); }
+    };
+    return { pts: list, edges: [], extra };
+  },
+  end() { return { pts: pack([P(0, 0, 0, 0, 1, 0)]), edges: [] }; },
+};
+
+function layoutOf(s, t) { return MOTIFS[s.motif](s, t - s.t0, t); }
+
+// ---------- 绘制 ----------
+function drawPts(pts, alpha, xf) {
+  const br = xf.bright;
+  for (const p of pts) {
+    const a = p.a * alpha; if (a < 0.004 || p.w <= 0) continue;
+    const rgb = colOf(p.col), w = p.w * xf.s, h = p.h * xf.s;
+    const x = xf.ox + p.x * xf.s - w / 2, y = xf.oy + p.y * xf.s - h / 2;
+    const rad = p.rad * Math.min(w, h) / 2;
+    ctx.beginPath(); ctx.roundRect(x, y, w, h, rad);
+    if (p.fill > 0) { ctx.fillStyle = rgba(rgb, a * br * p.fill); ctx.fill(); }
+    if (p.fill < 1) { ctx.strokeStyle = rgba(rgb, a * br * (1 - p.fill * 0.6)); ctx.lineWidth = 2; ctx.stroke(); }
+  }
+}
+function drawEdges(pts, edges, alpha, xf) {
+  ctx.lineWidth = 1.6;
+  for (const [i, j, ea] of edges) {
+    const a = ea * alpha * Math.min(Math.max(pts[i].a, 0.3), Math.max(pts[j].a, 0.3)); if (a < 0.004) continue;
+    ctx.strokeStyle = rgba(mixRGB(colOf(pts[i].col), colOf(pts[j].col), 0.5), a * xf.bright);
+    ctx.beginPath(); ctx.moveTo(xf.ox + pts[i].x * xf.s, xf.oy + pts[i].y * xf.s); ctx.lineTo(xf.ox + pts[j].x * xf.s, xf.oy + pts[j].y * xf.s); ctx.stroke();
+  }
+}
+function drawLayout(L, alpha, xf) { if (alpha <= 0.002) return; drawEdges(L.pts, L.edges, alpha, xf); drawPts(L.pts, alpha, xf); if (L.extra) L.extra(ctx, alpha, xf); }
+function morphLayout(A, B, p) {
+  const pts = A.pts.map((a, i) => { const b = B.pts[i]; return { x: lerp(a.x, b.x, p), y: lerp(a.y, b.y, p), w: lerp(a.w, b.w, p), h: lerp(a.h, b.h, p), rad: lerp(a.rad, b.rad, p), a: lerp(a.a, b.a, p), col: lerp(a.col, b.col, p), fill: lerp(a.fill, b.fill, p) }; });
+  return { pts, edgesA: A.edges, edgesB: B.edges };
+}
+function stageXf(s, t, extraScale = 1) {
+  const amb = CONFIG.camera.ambientZoom[s.sec] || 0;
+  const z = 1 + amb * EASE.inOut(clamp((t - s.t0) / s.dur), 3);
+  return { ox: CONFIG.stage.x, oy: CONFIG.stage.y, s: z * extraScale, bright: 0.7 + 0.3 * energy(t) };
+}
+
+function camera(st, t) {
+  const { a, b, p } = st;
+  if (a.motif === 'end') return { x: AXIS.mid, z: AXIS.fitZoom };
+  if (a.out === 'pullback' && b !== a) return { x: lerp(a.x, AXIS.mid, p), z: Math.exp(lerp(0, Math.log(AXIS.fitZoom), p)) };
+  return { x: lerp(a.x, b.x, p), z: 1 };
+}
+const sx = (wx, cam) => (wx - cam.x) * cam.z + W / 2;
+
+function drawBackground(t, cam) {
+  ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
+  const g = ctx.createRadialGradient(W / 2, H * 0.42, 0, W / 2, H * 0.42, W * 0.65);
+  g.addColorStop(0, C.bg2); g.addColorStop(1, C.bg);
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  const e = energy(t), n = Math.floor(40 + 260 * e);
+  for (let i = 0; i < n; i++) {
+    const d = STATIC.dust[i];
+    const x = (((d.x - cam.x * d.z * 0.5) % 2400) + 2400) % 2400 - 240;
+    ctx.fillStyle = rgba(d.k > 0.85 && e > 0.6 ? RGB.accent : RGB.primary, (0.12 + 0.35 * d.z) * (0.35 + 0.65 * e));
+    ctx.beginPath(); ctx.arc(x, d.y, d.s * (0.7 + 0.5 * e), 0, 7); ctx.fill();
+  }
+}
+
+function drawAxis(t, cam, alpha) {
+  if (alpha <= 0.002) return;
+  const y = CONFIG.axis.y;
+  ctx.save(); ctx.globalAlpha = alpha;
+  ctx.strokeStyle = C.axis; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+  // 走过的路：从起点到镜头位置
+  const x0 = sx(AXIS.x0, cam), xc = Math.min(W, sx(cam.x, cam) + (cam.z < 0.999 ? (AXIS.x1 - cam.x) * cam.z : 0));
+  if (xc > x0) { const g = ctx.createLinearGradient(x0, 0, xc, 0); g.addColorStop(0, rgba(RGB.primary, 0.15)); g.addColorStop(1, rgba(energy(t) > 0.85 ? RGB.accent : RGB.primary, 0.75)); ctx.strokeStyle = g; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.moveTo(Math.max(0, x0), y); ctx.lineTo(xc, y); ctx.stroke(); }
+  // 月刻度 + 年份
+  ctx.font = `400 22px ${CONFIG.font}`; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+  for (let m = 10; m <= 49; m++) {
+    const x = sx(dateX(m), cam); if (x < -60 || x > W + 60) continue;
+    const jan = m % 12 === 0;
+    ctx.strokeStyle = jan ? C.tick : C.axis; ctx.lineWidth = jan ? 2 : 1.5;
+    ctx.beginPath(); ctx.moveTo(x, y - (jan ? 12 : 5)); ctx.lineTo(x, y + (jan ? 12 : 5)); ctx.stroke();
+    if (jan) { ctx.fillStyle = rgba(RGB.textDim, 0.75); ctx.fillText(String(2022 + m / 12), x, y - 24); }
+  }
+  // 站点
+  const stations = SHOTS.filter(s => s.date && s.station !== false);
+  stations.forEach((s, k) => {
+    const x = sx(s.x, cam); if (x < -40 || x > W + 40) return;
+    const visited = t >= s.t0 - 1e-6 || cam.z < 0.999;
+    const last = k === stations.length - 1;
+    const near = clamp(1 - Math.abs(x - W / 2) / 120);
+    ctx.fillStyle = visited ? (last ? C.accent : C.primary) : C.bg;
+    ctx.strokeStyle = visited ? (last ? C.accent : C.primary) : C.tick; ctx.lineWidth = 2;
+    const r = (last && cam.z < 0.999 ? 8 : 5) + 2 * near;
+    ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.stroke();
+    if (near > 0 && cam.z > 0.999) { ctx.strokeStyle = rgba(RGB.primary, 0.45 * near); ctx.beginPath(); ctx.arc(x, y, 15, 0, 7); ctx.stroke(); }
+  });
+  ctx.restore();
+}
+
+function text(str, x, y, size, weight, rgb, alpha, opts = {}) {
+  if (alpha <= 0.003) return 0;
+  ctx.save();
+  ctx.font = `${weight} ${size}px ${CONFIG.font}`; ctx.textAlign = opts.align || 'center'; ctx.textBaseline = 'middle';
+  ctx.letterSpacing = (opts.ls || 0) + 'px';
+  ctx.fillStyle = rgba(rgb, alpha);
+  if (opts.scale && opts.scale !== 1) { ctx.translate(x, y); ctx.scale(opts.scale, opts.scale); ctx.fillText(str, 0, 0); }
+  else ctx.fillText(str, x, y);
+  const w = ctx.measureText(str).width; ctx.restore(); return w;
+}
+
+function drawStationText(s, t, cam, alpha) {
+  if (s.noText || alpha <= 0.003) return;
+  const T = CONFIG.text;
+  if (s.centerText) {          // OpenClaw：放在光环里
+    const tau = Math.max(0, t - s.t0), k = 1 + 0.06 * (1 - EASE.out(clamp(tau / 0.4)));
+    text(s.ym, 960, 462, 40, 500, RGB.accent, alpha, { ls: 6, scale: k });
+    text(s.name, 960, 548, 124, 700, RGB.text, alpha, { scale: k });
+    text(s.meaning, 960, 638, 46, 500, RGB.text, alpha * 0.92, { scale: k });
+    return;
+  }
+  const x = sx(s.x, cam), dist = clamp(1 - EASE.in(clamp(Math.abs(x - W / 2) / 900), 3));
+  const a = alpha * dist;
+  if (s.flash) {               // 蓄段：每拍只放一个词
+    const fw = CONFIG.transition.flashWindow;
+    const q = s.flash.map((_, j) => j === 0 ? 1 : hv(t, s.t0 + j * BEAT, fw, 0.1));
+    s.flash.forEach((w, j) => {
+      const inn = q[j], out = j + 1 < q.length ? q[j + 1] : 0;
+      const al = a * inn * (1 - out); if (al <= 0.003) return;
+      const big = j === s.flash.length - 1;
+      const size = j === 0 && /^\d/.test(w) ? 84 : big ? 124 : 96;
+      const rgb = j === 0 && /^\d/.test(w) ? RGB.primary : (s.id === 'recap' && big) ? RGB.accent : RGB.text;
+      text(w, x, T.flashY, size, j === 0 && /^\d/.test(w) ? 500 : 700, rgb, al, { ls: /^\d/.test(w) ? 6 : 0, scale: (0.94 + 0.06 * inn) * (1 + 0.1 * out) });
+    });
+    return;
+  }
+  let ay = 1, an = 1, am = 1;
+  if (s.id === SHOTS[0].id) { ay = hv(t, s.t0 + 1 * BEAT, 0.45, 0.2); an = hv(t, s.t0 + 2 * BEAT, 0.45, 0.2); am = hv(t, s.t0 + 3 * BEAT, 0.45, 0.2); }
+  text(s.ym, x, T.yearY + 10 * (1 - ay), 36, 500, RGB.primary, a * ay, { ls: 5 });
+  text(s.name, x, T.nameY + 10 * (1 - an), s.name.length > 12 ? 60 : 68, 600, RGB.text, a * an);
+  text(s.meaning, x, T.meaningY + 10 * (1 - am), 42, 400, RGB.textDim, a * am * 1.15);
+}
+
+function drawEnd(s, t, cam, alpha) {
+  const k = 1;
+  ctx.save(); ctx.font = `600 64px ${CONFIG.font}`; ctx.letterSpacing = '2px';
+  const widths = s.line.map(([str]) => ctx.measureText(str).width);
+  const total = widths.reduce((a, b) => a + b, 0);
+  ctx.restore();
+  let x = W / 2 - total / 2;
+  s.line.forEach(([str, c], i) => { text(str, x, 520 + 14 * (1 - k), 64, 600, RGB[c], alpha * k, { align: 'left', ls: 2 }); x += widths[i]; });
+  // 起点、终点标签
+  const st = SHOTS.filter(q => q.date && q.station !== false), f = st[0], l = st[st.length - 1];
+  text(f.ym, sx(f.x, cam), CONFIG.axis.y + 46, 26, 500, RGB.primary, alpha * k, { ls: 3 });
+  text(l.ym, sx(l.x, cam), CONFIG.axis.y + 46, 26, 500, RGB.accent, alpha * k, { ls: 3 });
+}
+
+function draw(t) {
+  if (!SHOTS) return;
+  const st = stateAt(t), { a, b, p } = st, cam = camera(st, t);
+  ctx.save();
+  drawBackground(t, cam);
+  // 时间轴可见度
+  let axisA = 1;
+  if (a.motif === 'point' || a.motif === 'burst') axisA = 0;
+  if (a.out === 'morph' && b.motif === 'point') axisA = 1 - p;
+  if (a.out === 'burst') axisA = 0;
+  if (a.out === 'pullback' && b !== a) axisA = EASE.in(clamp((p - 0.3) / 0.67), 3);
+  if (a.motif === 'end') axisA = 1;
+  drawAxis(t, cam, axisA);
+
+  // ---- 图形 + 转场 ----
+  const LA = layoutOf(a, t);
+  if (a === b || p <= 0) {
+    drawLayout(LA, 1, stageXf(a, t));
+  } else {
+    const LB = layoutOf(b, t);
+    const xa = stageXf(a, t), xb = stageXf(b, t);
+    switch (a.out) {
+      case 'morph': {            // 上一件事的图形变形成下一件事的图形
+        const M = morphLayout(LA, LB, p), xf = { ox: xa.ox, oy: xa.oy, s: lerp(xa.s, xb.s, p), bright: xb.bright };
+        drawEdges(M.pts, M.edgesA, 1 - p, xf); drawEdges(M.pts, M.edgesB, p, xf); drawPts(M.pts, 1, xf);
+        if (LA.extra) LA.extra(ctx, (1 - p) ** 2, xf); if (LB.extra) LB.extra(ctx, p, xf);
+        break;
+      }
+      case 'push': {             // 镜头推进穿过画面
+        const za = Math.exp(Math.log(CONFIG.transition.pushZoom) * p);
+        drawLayout(LA, 1 - EASE.out(clamp((p - 0.15) / 0.6), 3), { ...xa, s: xa.s * za });
+        drawLayout(LB, EASE.out(clamp((p - 0.2) / 0.7), 3), { ...xb, s: xb.s * lerp(0.25, 1, p) });
+        break;
+      }
+      case 'wipe': {             // 遮罩擦除（从右往左，新画面从前进方向进来）
+        const wx = lerp(W + 40, -40, p);
+        ctx.save(); ctx.beginPath(); ctx.rect(0, 0, wx, H); ctx.clip(); drawLayout(LA, 1, xa); ctx.restore();
+        ctx.save(); ctx.beginPath(); ctx.rect(wx, 0, W - wx, H); ctx.clip(); drawLayout(LB, 1, xb); ctx.restore();
+        const ba = clamp((CONFIG.transition.landAt - p) / 0.25); if (ba > 0) { const g = ctx.createLinearGradient(wx, 0, wx + 160, 0); g.addColorStop(0, rgba(RGB.primary, 0.22 * ba)); g.addColorStop(1, rgba(RGB.primary, 0)); ctx.fillStyle = g; ctx.fillRect(wx, 0, 160, H); ctx.fillStyle = rgba(RGB.text, 0.5 * ba); ctx.fillRect(wx - 1, 0, 2, H); }
+        break;
+      }
+      case 'burst': {            // drop：拍点前光点蓄力，拍点那一帧直接切到光环
+        if (t * FPS < Math.round(b.t0 * FPS) - 1e-6) drawLayout(LA, 1, xa); else drawLayout(LB, 1, xb);
+        break;
+      }
+      case 'pullback': {         // 拉远：光环收成时间轴上的最后一站
+        const camE = camera(st, t), last = SHOTS.filter(s => s.date && s.station !== false).slice(-1)[0];
+        const tx = sx(last.x, camE), ty = CONFIG.axis.y;
+        const cx = lerp(CONFIG.stage.x, tx, p), cy = lerp(CONFIG.stage.y + 145, ty, p);
+        const sc = Math.exp(lerp(0, Math.log(8 / 290), p));
+        drawLayout(LA, 1 - EASE.in(clamp((p - 0.55) / 0.42), 3), { ox: cx, oy: cy - 145 * sc, s: sc, bright: 1 });
+        break;
+      }
+    }
+  }
+
+  // ---- 文字 ----
+  if (a.motif === 'end') drawEnd(a, t, cam, 1);
+  else if (a === b || p <= 0) drawStationText(a, t, cam, 1);
+  else {
+    let fa = 1 - EASE.in(clamp(p / 0.85), 3), fb = EASE.out(clamp((p - 0.25) / 0.72), 3);
+    if (a.out === 'burst') { fa = 0; fb = t * FPS >= Math.round(b.t0 * FPS) - 1e-6 ? 1 : 0; }
+    if (a.out === 'pullback') { fa = 1 - EASE.out(clamp(p / 0.5), 3); }
+    drawStationText(a, t, cam, fa);
+    if (b.motif === 'end') drawEnd(b, t, cam, EASE.in(clamp((p - 0.45) / (CONFIG.transition.landAt - 0.45)), 3));
+    else drawStationText(b, t, cam, fb);
+  }
+
+  // drop 那一帧的唯一一次闪白
+  const drop = BEATS.drop.time;
+  if (t * FPS >= Math.round(drop * FPS) - 1e-6 && t < drop + 0.3) { ctx.fillStyle = rgba(mixRGB(RGB.text, RGB.accent, 0.4), 0.14 * (1 - EASE.out((t - drop) / 0.3, 4))); ctx.fillRect(0, 0, W, H); }
+
+  // 暗角
+  const vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.45, W / 2, H / 2, H * 1.05);
+  vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.55)');
+  ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
+  // 结尾淡出
+  const fo = BEATS.duration - CONFIG.fadeOut;
+  if (t > fo) { ctx.fillStyle = `rgba(0,0,0,${EASE.inOut((t - fo) / CONFIG.fadeOut, 3)})`; ctx.fillRect(0, 0, W, H); }
+  ctx.restore();
+  if (CONFIG.debug) drawDebug(t);
+}
+
+// 样片用：右上角拍点闪烁 + 帧号
+function drawDebug(t) {
+  const f = Math.round(t * FPS);
+  const bi = BEATS.beats.findIndex(b => Math.round(b * FPS) === f);
+  const lastBeat = BEATS.beats.reduce((acc, b, i) => (Math.round(b * FPS) <= f ? i : acc), 0);
+  ctx.save();
+  ctx.fillStyle = 'rgba(0,0,0,0.6)'; ctx.fillRect(W - 330, 18, 312, 74);
+  if (bi >= 0) {
+    const down = BEATS.downbeats.includes(bi), isDrop = bi === BEATS.drop.beat;
+    ctx.fillStyle = isDrop ? '#FF3B3B' : down ? C.accent : '#FFFFFF';
+    ctx.fillRect(W - 90, 26, 58, 58);
+  } else { ctx.strokeStyle = '#555'; ctx.lineWidth = 2; ctx.strokeRect(W - 90, 26, 58, 58); }
+  ctx.font = `500 24px ${CONFIG.font}`; ctx.fillStyle = '#fff'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+  ctx.fillText(`F ${String(f).padStart(4, '0')}`, W - 316, 42);
+  ctx.fillText(`拍 ${lastBeat}  ${t.toFixed(3)}s`, W - 316, 72);
+  ctx.restore();
+}
+
+window.draw = draw;
+window.__ready = (async () => {
+  BEATS = await (await fetch('beats.json')).json();
+  initShots();
+  await Promise.all([300, 400, 500, 600, 700].map(w => document.fonts.load(`${w} 64px ${CONFIG.font}`, '人人都能和 AI 聊天 2026 OpenClaw')));
+  await document.fonts.ready;
+  draw(0);
+  return true;
+})();
+</script>
+</body>
+</html>
