@@ -2,20 +2,14 @@
  "seq": 171,
  "entry_id": "S1-R46-E3",
  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",
- "mode": "selfpage",
- "pages": [
-  "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations"
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.mckinsey\\.com/capabilities/growth\\-marketing\\-and\\-sales/our\\-insights/[a-z0-9-]+$",
+ "members": [
+  "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/connecting-for-growth-a-makeover-for-your-marketing-operating-model",
+  "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/how-b2b-decision-makers-are-driving-growth"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：连接超时（ReadTimeout）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 171,
-  "entry_id": "S1-R46-E3",
-  "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/marketing-organization-and-operations",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
-  "note": "访问受限"
- }
+ "negatives": [],
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 2 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验；规则也匹配入口页本身（同一栏目的页面）"
 }

@@ -2,20 +2,16 @@
  "seq": 183,
  "entry_id": "S1-R51-E3",
  "url": "https://www.gartner.com/en/customer-service-support/insights",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.gartner\\.com/en/customer\\-service\\-support/insights/[a-z0-9-]+$\n^https://www\\.gartner\\.com/en/articles/[a-z0-9-]+$",
+ "members": [
+  "https://www.gartner.com/en/customer-service-support/insights/customer-service-experience",
+  "https://www.gartner.com/en/customer-service-support/insights/service-leaders-priorities"
+ ],
+ "negatives": [
   "https://www.gartner.com/en/customer-service-support/insights"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 183,
-  "entry_id": "S1-R51-E3",
-  "url": "https://www.gartner.com/en/customer-service-support/insights",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：Cloudflare 验证页",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 2 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

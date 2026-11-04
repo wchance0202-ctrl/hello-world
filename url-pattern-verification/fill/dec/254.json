@@ -2,20 +2,14 @@
  "seq": 254,
  "entry_id": "S1-R143-E3",
  "url": "https://business.adobe.com/resources/adobe-digital-insights.html",
- "mode": "selfpage",
- "pages": [
-  "https://business.adobe.com/resources/adobe-digital-insights.html"
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://business\\.adobe\\.com/resources/[a-z0-9-]+\\.html$",
+ "members": [
+  "https://business.adobe.com/resources/digital-economy-index.html",
+  "https://business.adobe.com/resources/digital-trends-report.html"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：连接超时（ReadTimeout）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 254,
-  "entry_id": "S1-R143-E3",
-  "url": "https://business.adobe.com/resources/adobe-digital-insights.html",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
-  "note": "访问受限"
- }
+ "negatives": [],
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 2 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验；规则也匹配入口页本身（同一栏目的页面）"
 }

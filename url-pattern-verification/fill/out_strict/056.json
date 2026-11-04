@@ -1,0 +1,22 @@
+{
+ "seq": 56,
+ "entry_id": "S2-R88-E2",
+ "url": "https://www.linkflowtech.com/courses",
+ "mode": "carry",
+ "basis": "情况 A：课程 /courses/{数字}（14 个）与专题课程 /courses/{slug}（6 个），按列表链接写正则",
+ "note": "课程详情页 2026-11-03 多次打开均返回 500（站点故障），无法落地核验",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T10:32:47+00:00",
+ "pattern": "^https://www\\.linkflowtech\\.com/courses/[0-9]+$\n^https://www\\.linkflowtech\\.com/courses/[a-z0-9-]+$",
+ "status": "候选",
+ "carried_from": null,
+ "checks": {
+  "members": 20,
+  "pos_fail": [],
+  "neg": 3,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.linkflowtech\\.com/courses/[0-9]+$\n^https://www\\.linkflowtech\\.com/courses/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

@@ -1,0 +1,126 @@
+{
+ "seq": 217,
+ "entry_id": "S1-R95-E2",
+ "url": "https://marketingexamples.com/inspiration",
+ "mode": "snapshot",
+ "basis": "灵感页的条目都是外部网站（各品牌官网、Medium 等），逐条列出 25 个",
+ "note": "快照 2026-11-03；条目在站外",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T10:11:39+00:00",
+ "pattern": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$\n^(?:https://opositiv\\.com/products/flo\\-pms\\-vitamin\\-capsules|https://www\\.instructure\\.com/canvas\\?domain=canvas)$",
+ "status": "快照",
+ "members": 25,
+ "kept": 10,
+ "dropped": [
+  {
+   "url": "http://mightyapp.com/",
+   "status": 200,
+   "final": "https://playgroundai.com/"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Labour_Isn%27t_Working",
+   "status": 429,
+   "final": "https://en.wikipedia.org/wiki/Labour_Isn%27t_Working"
+  },
+  {
+   "url": "https://flovitamins.com/",
+   "status": 200,
+   "final": "https://opositiv.com/products/flo-pms-vitamin-capsules"
+  },
+  {
+   "url": "https://medium.com/about",
+   "status": 403,
+   "final": "https://medium.com/about"
+  },
+  {
+   "url": "https://oonagoods.com/",
+   "status": 200,
+   "final": "https://rememberedlore.com/"
+  },
+  {
+   "url": "https://sexyfoodtherapy.com/",
+   "status": 200,
+   "final": "https://thyroidalchemy.com/"
+  },
+  {
+   "url": "https://twitter.com/harrydry",
+   "status": 200,
+   "final": "https://x.com/harrydry"
+  },
+  {
+   "url": "https://uk.huel.com/",
+   "status": 200,
+   "final": "https://huel.com/"
+  },
+  {
+   "url": "https://www.campaignlive.co.uk/article/replens-md-sex-gets-old-gate/1710114",
+   "status": 403,
+   "final": "https://www.campaignlive.co.uk/article/replens-md-sex-gets-old-gate/1710114"
+  },
+  {
+   "url": "https://www.canvas.com/",
+   "status": 200,
+   "final": "https://www.instructure.com/canvas?domain=canvas"
+  },
+  {
+   "url": "https://www.chanel.com/gb/mothers-day/",
+   "status": 200,
+   "final": "https://www.chanel.com/gb/"
+  },
+  {
+   "url": "https://www.creativemoment.co/creative-classics-volkswagen-shows-that-legends-are-made-not-born",
+   "status": 404,
+   "final": "https://www.creativemoment.co/creative-classics-volkswagen-shows-that-legends-are-made-not-born"
+  },
+  {
+   "url": "https://www.creativereview.co.uk/liberte-egalite-fraternite/",
+   "status": 403,
+   "final": "https://www.creativereview.co.uk/liberte-egalite-fraternite/"
+  },
+  {
+   "url": "https://www.linkedin.com/in/harrydry/",
+   "status": 999,
+   "final": "https://www.linkedin.com/in/harrydry/"
+  },
+  {
+   "url": "https://www.thatplumber.co.uk/",
+   "status": null,
+   "final": null
+  }
+ ],
+ "negatives": [
+  "https://marketingexamples.com/inspiration"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$",
+ "redirect_extra": [
+  "https://opositiv.com/products/flo-pms-vitamin-capsules",
+  "https://www.instructure.com/canvas?domain=canvas"
+ ],
+ "redirect_skipped": [
+  [
+   "http://mightyapp.com/",
+   "https://playgroundai.com/"
+  ],
+  [
+   "https://twitter.com/harrydry",
+   "https://x.com/harrydry"
+  ],
+  [
+   "https://sexyfoodtherapy.com/",
+   "https://thyroidalchemy.com/"
+  ],
+  [
+   "https://www.chanel.com/gb/mothers-day/",
+   "https://www.chanel.com/gb/"
+  ],
+  [
+   "https://oonagoods.com/",
+   "https://rememberedlore.com/"
+  ],
+  [
+   "https://uk.huel.com/",
+   "https://huel.com/"
+  ]
+ ]
+}

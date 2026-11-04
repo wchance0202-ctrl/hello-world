@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:42:03+00:00",
- "pattern": "^(?:https://www\\.focusmedia\\.cn/detail/1569/|https://www\\.focusmedia\\.cn/detail/1570/|https://www\\.focusmedia\\.cn/detail/1571/)$",
- "status": "快照",
+ "pattern": "^https://www\\.focusmedia\\.cn/detail/[0-9]+/$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.focusmedia.cn/companyreport"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.focusmedia\\.cn/detail/1569/|https://www\\.focusmedia\\.cn/detail/1570/|https://www\\.focusmedia\\.cn/detail/1571/)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.focusmedia\\.cn/detail/[0-9]+/$"
 }

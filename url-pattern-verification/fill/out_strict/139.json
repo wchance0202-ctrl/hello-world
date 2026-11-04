@@ -1,0 +1,22 @@
+{
+ "seq": 139,
+ "entry_id": "S1-R19-E11",
+ "url": "https://www.wipo.int/en/web/wipolex",
+ "mode": "carry",
+ "basis": "情况 A：主题新闻 /en/web/wipolex/w/news/{年}/{slug}",
+ "note": "v2：v1 归纳样本只有 news_00xx 形式，留出样本中出现带连字符的 slug 而漏配；按漏配样本加入连字符。新闻列表只有 12 条，没有新的留出样本可做第二轮验证，因此为候选",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T10:13:33+00:00",
+ "pattern": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_-]+$",
+ "status": "候选",
+ "carried_from": null,
+ "checks": {
+  "members": 12,
+  "pos_fail": [],
+  "neg": 6,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

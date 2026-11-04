@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:14:20+00:00",
  "frozen_sha256": "ba83d2640e5d0459b4b12fb44cdd32a79909b06c431dbe7182343a803248372b",
  "pattern": "^https://socialbeta\\.com/article/[0-9]+$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 5,
@@ -58,5 +58,7 @@
  "full_list_count": 20,
  "pattern_base": "^https://socialbeta\\.com/article/[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

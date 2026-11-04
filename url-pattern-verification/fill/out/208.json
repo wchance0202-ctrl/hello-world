@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:14:17+00:00",
  "frozen_sha256": "4873566a53a5dfd81c7cf38662cdb433bf3717f3d6ec6115723d95a0a5c575a4",
  "pattern": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 5,
@@ -58,5 +58,7 @@
  "full_list_count": 21,
  "pattern_base": "^https://www\\.dandad\\.org/insights/[a-z-]+/[a-zA-Z0-9ü-]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

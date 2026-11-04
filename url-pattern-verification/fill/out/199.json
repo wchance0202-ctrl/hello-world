@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:24:20+00:00",
- "pattern": "^(?:https://www\\.ana\\.net/content/show/id/ana\\-individualtraining\\-intro|https://www\\.ana\\.net/content/show/id/ana\\-teamtraining\\-intro|https://www\\.ana\\.net/content/show/id/camp\\-certification|https://www\\.ana\\.net/content/show/id/enterprise\\-curricula|https://www\\.ana\\.net/content/show/id/member\\-training\\-benefit)$",
- "status": "快照",
+ "pattern": "^https://www\\.ana\\.net/content/show/id/[a-z-]+$",
+ "status": "已放宽",
  "members": 5,
  "kept": 5,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.ana.net/schoolofmarketing"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.ana\\.net/content/show/id/ana\\-individualtraining\\-intro|https://www\\.ana\\.net/content/show/id/ana\\-teamtraining\\-intro|https://www\\.ana\\.net/content/show/id/camp\\-certification|https://www\\.ana\\.net/content/show/id/enterprise\\-curricula|https://www\\.ana\\.net/content/show/id/member\\-training\\-benefit)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 5,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.ana\\.net/content/show/id/[a-z-]+$"
 }

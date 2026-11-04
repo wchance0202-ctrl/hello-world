@@ -2,20 +2,17 @@
  "seq": 255,
  "entry_id": "S1-R145-E1",
  "url": "https://pitchbook.com/news",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://pitchbook\\.com/news/articles/[a-z0-9-]+$\n^https://pitchbook\\.com/news/reports/[a-z0-9-]+$",
+ "members": [
+  "https://pitchbook.com/news/articles/venture-capitals-current-recovery-is-all-irr-no-dpi",
+  "https://pitchbook.com/news/reports/2026-us-venture-capital-outlook",
+  "https://pitchbook.com/news/reports/q3-2026-pitchbook-nvca-venture-monitor"
+ ],
+ "negatives": [
   "https://pitchbook.com/news"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 255,
-  "entry_id": "S1-R145-E1",
-  "url": "https://pitchbook.com/news",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：Cloudflare 验证页",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

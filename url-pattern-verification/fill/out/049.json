@@ -13,7 +13,7 @@
  "observed_at": "2026-11-03T08:54:06+00:00",
  "frozen_sha256": "3211f97b4aab4ea1e05c0fc59ad7e300b099895d0df70e02e26864fb2ab0aacf",
  "pattern": "^https://www\\.morketing\\.com/detail/[0-9]+$",
- "status": "候选",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 11,
   "holdout_pos": 5,
@@ -69,5 +69,7 @@
  ],
  "pattern_base": "^https://www\\.morketing\\.com/detail/[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

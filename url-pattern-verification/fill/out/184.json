@@ -2,18 +2,21 @@
  "seq": 184,
  "entry_id": "S1-R51-E4",
  "url": "https://www.gartner.com/en/finance/insights",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 4 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:50+00:00",
- "pattern": "^https://www\\.gartner\\.com/en/finance/insights$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://www.gartner.com/en/finance/insights"
- ],
- "landing": [],
- "pattern_base": "^https://www\\.gartner\\.com/en/finance/insights$",
+ "observed_at": "2026-11-04T06:14:23+00:00",
+ "pattern": "^https://www\\.gartner\\.com/en/finance/[a-z-]+/[a-z0-9-]+$\n^https://www\\.gartner\\.com/en/articles/[a-z0-9-]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 4,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.gartner\\.com/en/finance/[a-z-]+/[a-z0-9-]+$\n^https://www\\.gartner\\.com/en/articles/[a-z0-9-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

@@ -1,0 +1,55 @@
+{
+ "seq": 11,
+ "entry_id": "S2-R26-E5",
+ "url": "https://www.leadleo.com/article/search",
+ "mode": "regex",
+ "basis": "情况 B：文章详情是 /article/details/{24 位十六进制}，入口是该类内容的总列表",
+ "note": "样本只有未登录可见的 5 条",
+ "exclusivity": {
+  "proved": false,
+  "why_not": "未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目",
+  "evidence": "入口是全部文章列表，条目详情是 /article/details/{24 位十六进制 ID}；同站其他栏目（报告 /report/details/、视频、文章、专题）各用各自的路径"
+ },
+ "observed_at": "2026-11-03T08:38:43+00:00",
+ "frozen_sha256": "3955039ee3a29698216d55ee4634d2d10b2da69738c179373d53af9376caa444",
+ "pattern": "^https://www\\.leadleo\\.com/article/details/[a-z0-9]+$",
+ "status": "候选",
+ "checks": {
+  "inference_pos": 4,
+  "holdout_pos": 1,
+  "holdout_neg": 5,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 5
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.leadleo.com/article/details/6736b6ccf2504c01a450b004",
+   "https://www.leadleo.com/article/details/673feaacf2504c01a450d413",
+   "https://www.leadleo.com/article/details/673fef83f2504c01a450d548",
+   "https://www.leadleo.com/article/details/673ff000f2504c01a450d563"
+  ],
+  "holdout_pos": [
+   "https://www.leadleo.com/article/details/673fee40f2504c01a450d4b5"
+  ],
+  "holdout_neg": [
+   "https://www.leadleo.com/",
+   "https://www.leadleo.com/wiki/topicList",
+   "https://www.leadleo.com/video/allType",
+   "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+   "https://www.leadleo.com/article/search"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "why_not_verified": [
+  "专属性未证明：未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目"
+ ],
+ "pattern_base": "^https://www\\.leadleo\\.com/article/details/[a-z0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

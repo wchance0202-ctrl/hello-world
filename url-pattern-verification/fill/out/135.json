@@ -10,8 +10,8 @@
   "evidence": "出版物详情 /publications/en/details.jsp?id={数字} 在入口路径 /publications/en/ 下（情况 A）；sitemap 同结构 0 条作留出来源"
  },
  "observed_at": "2026-11-03T09:24:26+00:00",
- "pattern": "^(?:https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4774|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4822|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4833)$",
- "status": "快照",
+ "pattern": "^https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=[0-9]+$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -22,7 +22,10 @@
   "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1097-en-world-intangible-investment-highlights.pdf"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4774|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4822|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4833)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=[0-9]+$"
 }

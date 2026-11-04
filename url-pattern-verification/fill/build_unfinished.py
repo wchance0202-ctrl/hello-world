@@ -56,6 +56,8 @@ def main():
     for i, r in enumerate(table, 1):
         if r["状态"] == "已验证" and i not in CAVEAT:
             continue
+        if r["状态"] == "已放宽":
+            continue
         why = r["依据"].split("；")[0][:160]
         if r["备注"]:
             why += "；" + r["备注"][:160]

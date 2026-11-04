@@ -2,20 +2,17 @@
  "seq": 261,
  "entry_id": "S1-R152-E5",
  "url": "https://dealroom.co/companies/",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://dealroom\\.co/companies/[a-z0-9-]+/$",
+ "members": [
+  "https://dealroom.co/companies/canva/",
+  "https://dealroom.co/companies/pitchbook/",
+  "https://dealroom.co/companies/danggeun-market/"
+ ],
+ "negatives": [
   "https://dealroom.co/companies/"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：Cloudflare 验证页；数据库页，需登录；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 261,
-  "entry_id": "S1-R152-E5",
-  "url": "https://dealroom.co/companies/",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：Cloudflare 验证页；数据库页，需登录",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

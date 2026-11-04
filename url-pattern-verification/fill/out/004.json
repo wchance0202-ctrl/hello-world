@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:03:35+00:00",
  "frozen_sha256": "4f6e4046d1cf2f4452a6b664640d2275577d584bd05164292a1eab2cdbd694f6",
  "pattern": "^https://www\\.analysys\\.cn/article/detail/[0-9]+$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 6,
@@ -59,5 +59,7 @@
  "full_list_count": 524,
  "pattern_base": "^https://www\\.analysys\\.cn/article/detail/[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:34:03+00:00",
- "pattern": "^(?:https://www\\.bis\\.org/about/fsi/capacity\\-development|https://www\\.bis\\.org/about/fsi/events|https://www\\.bis\\.org/about/fsi/outreach|https://www\\.bis\\.org/about/fsi/policy\\-implementation|https://www\\.bis\\.org/about/fsi/publications|https://www\\.bis\\.org/about/fsi/speeches)$",
- "status": "快照",
+ "pattern": "^https://www\\.bis\\.org/about/fsi/[a-z-]+$",
+ "status": "已放宽",
  "members": 6,
  "kept": 6,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://www.bis.org/committees/overview"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.bis\\.org/about/fsi/capacity\\-development|https://www\\.bis\\.org/about/fsi/events|https://www\\.bis\\.org/about/fsi/outreach|https://www\\.bis\\.org/about/fsi/policy\\-implementation|https://www\\.bis\\.org/about/fsi/publications|https://www\\.bis\\.org/about/fsi/speeches)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 6,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面，也匹配入口页本身",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.bis\\.org/about/fsi/[a-z-]+$"
 }

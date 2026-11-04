@@ -2,20 +2,17 @@
  "seq": 3,
  "entry_id": "S2-R24-E1",
  "url": "https://www.csm.com.cn/yjdc/Index.html",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.csm\\.com\\.cn/Content/[0-9]{4}/[0-9]{2}\\-[0-9]{2}/[0-9-]+\\.html$",
+ "members": [
+  "https://www.csm.com.cn/Content/2025/11-19/20251119-01.html",
+  "https://www.csm.com.cn/Content/2021/10-15/1053494058.html",
+  "https://www.csm.com.cn/Content/2024/09-29/1223024254.html"
+ ],
+ "negatives": [
   "https://www.csm.com.cn/yjdc/Index.html"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：连接被对端重置（ConnectionResetError），无 HTTP 响应；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 3,
-  "entry_id": "S2-R24-E1",
-  "url": "https://www.csm.com.cn/yjdc/Index.html",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：连接被对端重置（ConnectionResetError），无 HTTP 响应",
-  "note": "访问受限：无法打开"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

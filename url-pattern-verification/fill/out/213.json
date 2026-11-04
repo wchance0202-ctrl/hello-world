@@ -12,7 +12,7 @@
  "observed_at": "2026-11-04T04:09:32+00:00",
  "frozen_sha256": "102b6efd5fb918429c95d082e6de8c5601c8c831f14f590f8c09947088395231",
  "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
- "status": "候选",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 3,
   "holdout_pos": 1,
@@ -47,5 +47,7 @@
  ],
  "pattern_base": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

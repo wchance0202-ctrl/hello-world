@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T09:25:59+00:00",
  "pattern": "^(?:https://www\\.wipo\\.int/edocs/pubdocs/en/wipo\\-pub\\-1097\\-en\\-world\\-intangible\\-investment\\-highlights\\.pdf|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860\\&plang=EN)$",
- "status": "快照",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.wipo.int/en/web/intangible-assets"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.wipo\\.int/edocs/pubdocs/en/wipo\\-pub\\-1097\\-en\\-world\\-intangible\\-investment\\-highlights\\.pdf|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860\\&plang=EN)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "保留逐条清单（站外条目或无法归纳）",
+ "status_strict": "快照",
+ "pattern_base": "^(?:https://www\\.wipo\\.int/edocs/pubdocs/en/wipo\\-pub\\-1097\\-en\\-world\\-intangible\\-investment\\-highlights\\.pdf|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860|https://www\\.wipo\\.int/publications/en/details\\.jsp\\?id=4860\\&plang=EN)$"
 }

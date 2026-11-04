@@ -15,7 +15,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 
 HERE = Path(__file__).resolve().parent
 COLS = ["站点名称", "pattern链接", "黑白名单属性", "正则表达式", "状态", "依据", "备注"]
-FILL = {"已验证": "E2F0D9", "候选": "FFF2CC", "快照": "DDEBF7", "留空": "F2F2F2", "超范围": "FCE4D6",
+FILL = {"已放宽": "FFF2CC", "已验证": "E2F0D9", "候选": "FFF2CC", "快照": "DDEBF7", "留空": "F2F2F2", "超范围": "FCE4D6",
         "单页": "EDEDED", "仅入口页（需登录）": "F2F2F2", "仅入口页（访问受限）": "F2F2F2", "仅入口页（条目不可枚举）": "F2F2F2"}
 
 
@@ -55,6 +55,8 @@ def remarks(r):
         ex = [x for f in r["families"] for x in f.get("identity_excluded", [])]
     if ex:
         out.append(f"{len(ex)} 个样本落地异常，未作正例")
+    if r.get("relax_note"):
+        out.insert(0, "放宽：" + r["relax_note"])
     if r.get("extra_exact_kept"):
         out.append(f"其中一行是 {r["extra_exact_kept"]} 个子页面的精确地址")
     if r.get("redirect_extra"):

@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:24:26+00:00",
- "pattern": "^(?:https://www\\.ana\\.net/content/show/id/92077|https://www\\.ana\\.net/content/show/id/92423|https://www\\.ana\\.net/content/show/id/93182|https://www\\.ana\\.net/content/show/id/adtax|https://www\\.ana\\.net/content/show/id/advocacy\\-issues\\-tracking|https://www\\.ana\\.net/content/show/id/advocacy\\-nonprofit\\-policy|https://www\\.ana\\.net/content/show/id/state\\-privacy\\-legislation|https://www\\.ana\\.net/magazines/show/id/ana\\-2026\\-10\\-beer\\-market\\-stirs|https://www\\.ana\\.net/magazines/show/id/news\\-2026\\-09\\-25\\-policy\\-brief|https://www\\.ana\\.net/magazines/show/id/news\\-2026\\-10\\-09\\-policy\\-brief|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-09\\-eth\\-260924|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-09\\-lre\\-260908|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-10\\-comww\\-261014\\-mark\\-liebert|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-10\\-lre\\-261013\\-angela\\-matney)$\n^(?:https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov24|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov25|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov26|https://www\\.ana\\.net/content/show/id/ms\\-mcc\\-nov26)$",
- "status": "快照",
+ "pattern": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$\n^(?:https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov24|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov25|https://www\\.ana\\.net/content/show/id/ms\\-baalaw\\-nov26|https://www\\.ana\\.net/content/show/id/ms\\-mcc\\-nov26)$",
+ "status": "已放宽",
  "members": 18,
  "kept": 14,
  "dropped": [
@@ -37,12 +37,15 @@
   "https://www.ana.net/advocacy"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.ana\\.net/content/show/id/92077|https://www\\.ana\\.net/content/show/id/92423|https://www\\.ana\\.net/content/show/id/93182|https://www\\.ana\\.net/content/show/id/adtax|https://www\\.ana\\.net/content/show/id/advocacy\\-issues\\-tracking|https://www\\.ana\\.net/content/show/id/advocacy\\-nonprofit\\-policy|https://www\\.ana\\.net/content/show/id/state\\-privacy\\-legislation|https://www\\.ana\\.net/magazines/show/id/ana\\-2026\\-10\\-beer\\-market\\-stirs|https://www\\.ana\\.net/magazines/show/id/news\\-2026\\-09\\-25\\-policy\\-brief|https://www\\.ana\\.net/magazines/show/id/news\\-2026\\-10\\-09\\-policy\\-brief|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-09\\-eth\\-260924|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-09\\-lre\\-260908|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-10\\-comww\\-261014\\-mark\\-liebert|https://www\\.ana\\.net/miccontent/showvideo/id/wv\\-2026\\-10\\-lre\\-261013\\-angela\\-matney)$",
  "redirect_extra": [
   "https://www.ana.net/content/show/id/ms-baalaw-nov24",
   "https://www.ana.net/content/show/id/ms-baalaw-nov25",
   "https://www.ana.net/content/show/id/ms-baalaw-nov26",
   "https://www.ana.net/content/show/id/ms-mcc-nov26"
  ],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 14,
+ "relax_note": "由逐条清单改为通用规则（4 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.ana\\.net/content/show/id/[0-9]+$\n^https://www\\.ana\\.net/content/show/id/[a-z-]+$\n^https://www\\.ana\\.net/magazines/show/id/[a-z0-9-]+$\n^https://www\\.ana\\.net/miccontent/showvideo/id/[a-z0-9-]+$"
 }

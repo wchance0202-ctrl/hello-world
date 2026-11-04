@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:29:32+00:00",
  "frozen_sha256": "87056d8ee2c6b34173183ec544de2653e89f4fb3bd44963bcd1089f8969b6959",
  "pattern": "^https://www\\.jazzyear\\.com/article_info\\.html\\?id=[0-9]+$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 6,
@@ -60,5 +60,7 @@
  "full_list_count": 682,
  "pattern_base": "^https://www\\.jazzyear\\.com/article_info\\.html\\?id=[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

@@ -8,8 +8,8 @@
  "exclusivity": null,
  "observed_at": "2026-11-04T04:10:11+00:00",
  "unverified_kept": 0,
- "pattern": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/research/generation\\-audio/|https://www\\.radiocentre\\.org/research/sound\\-profits/|https://www\\.radiocentre\\.org/research/the\\-secret\\-to\\-profit\\-and\\-trust\\-audio\\-presented\\-by\\-mark\\-ritson/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$\n^(?:https://www\\.radiocentre\\.org/our\\-research/building\\-shelf\\-awareness/)$",
- "status": "快照",
+ "pattern": "^https://www\\.radiocentre\\.org/our\\-research/[a-z-]+/$\n^https://www\\.radiocentre\\.org/research/[a-z-]+/$\n^https://www\\.radiocentre\\.org/wp\\-content/uploads/[0-9]+/[0-9]+/[a-zA-Z0-9_-]+\\.pdf$",
+ "status": "已放宽",
  "members": 22,
  "kept": 12,
  "dropped": [
@@ -68,14 +68,15 @@
   "https://www.radiocentre.org/research/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.radiocentre\\.org/our\\-research/listen\\-up/|https://www\\.radiocentre\\.org/our\\-research/profit\\-driving\\-radio/|https://www\\.radiocentre\\.org/our\\-research/speed\\-of\\-sound/|https://www\\.radiocentre\\.org/research/beyond\\-the\\-bubble/|https://www\\.radiocentre\\.org/research/generation\\-audio/|https://www\\.radiocentre\\.org/research/sound\\-profits/|https://www\\.radiocentre\\.org/research/the\\-secret\\-to\\-profit\\-and\\-trust\\-audio\\-presented\\-by\\-mark\\-ritson/|https://www\\.radiocentre\\.org/wp\\-content/uploads/2019/06/Tuning\\-In\\-to\\-Diversity\\-Online\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/05/OEM_Radiocentre_Infographics_32\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2020/06/COVID\\-Survey_V3\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2021/03/Working\\-Connecting\\-FINAL\\.pdf|https://www\\.radiocentre\\.org/wp\\-content/uploads/2023/02/Radio\\-An\\-advertisers\\-friend\\-in\\-a\\-cost\\-of\\-living\\-crisis\\-Report\\.pdf)$",
- "redirect_extra": [
-  "https://www.radiocentre.org/our-research/building-shelf-awareness/"
- ],
+ "redirect_extra": [],
  "redirect_skipped": [
   [
    "https://www.radiocentre.org/research/re-evaluating-media-for-recovery/",
    "https://www.radiocentre.org/re-evaluating-media-for-recovery/"
   ]
- ]
+ ],
+ "full_list_count": 12,
+ "relax_note": "由逐条清单改为通用规则（3 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.radiocentre\\.org/our\\-research/[a-z-]+/$\n^https://www\\.radiocentre\\.org/research/[a-z-]+/$\n^https://www\\.radiocentre\\.org/wp\\-content/uploads/[0-9]+/[0-9]+/[a-zA-Z0-9_-]+\\.pdf$"
 }

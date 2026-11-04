@@ -1,0 +1,60 @@
+{
+ "seq": 120,
+ "entry_id": "S1-R6-E3",
+ "url": "https://www.worldbank.org/ext/en/research-publications",
+ "mode": "regex",
+ "basis": "情况 B：旗舰出版物 /en/publication/{slug}；openknowledge 子域上的文献不在范围内",
+ "note": "列表的大部分条目在 openknowledge.worldbank.org",
+ "exclusivity": {
+  "proved": false,
+  "why_not": "研究出版物页的主要条目在 openknowledge.worldbank.org（另一子域）；站内旗舰出版物 /en/publication/{slug} 页面上只有 3 个，样本主要取自 sitemap，未能证明 /en/publication/ 全部属于本栏目",
+  "evidence": "sitemap 中 /en/publication/{slug} 共 16 个"
+ },
+ "observed_at": "2026-11-03T09:19:20+00:00",
+ "frozen_sha256": "e8c26cd5900cfd85fff5689cc338f235cc205dbbcabe1272be518d968882434a",
+ "pattern": "^https://www\\.worldbank\\.org/en/publication/[a-z0-9-]+$",
+ "status": "候选",
+ "checks": {
+  "inference_pos": 7,
+  "holdout_pos": 4,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 7
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.worldbank.org/en/publication/east-asia-and-pacific-economic-update",
+   "https://www.worldbank.org/en/publication/east-asia-and-pacific-economic-update-october-2025",
+   "https://www.worldbank.org/en/publication/global-economic-prospects",
+   "https://www.worldbank.org/en/publication/globalfindex",
+   "https://www.worldbank.org/en/publication/human-capital",
+   "https://www.worldbank.org/en/publication/raising-revenue-right",
+   "https://www.worldbank.org/en/publication/wdr2026"
+  ],
+  "holdout_pos": [
+   "https://www.worldbank.org/en/publication/industrial-policy-for-development",
+   "https://www.worldbank.org/en/publication/macro-poverty-outlook",
+   "https://www.worldbank.org/en/publication/nourish-and-flourish-water-solutions-to-feed-10-billion-people-on-a-livable-planet",
+   "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity"
+  ],
+  "holdout_neg": [
+   "https://www.worldbank.org/ext/en/development-topics",
+   "https://www.worldbank.org/ext/en/where-we-work",
+   "https://www.worldbank.org/en/research",
+   "https://www.worldbank.org/en/news/press-release/2026/09/10/world-bank-group-launches-initiative-to-help-countries"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "why_not_verified": [
+  "专属性未证明：研究出版物页的主要条目在 openknowledge.worldbank.org（另一子域）；站内旗舰出版物 /en/publication/{slug} 页面上只有 3 个，样本主要取自 sitemap，未能证明 /en/publication/ 全部属于本栏目"
+ ],
+ "pattern_base": "^https://www\\.worldbank\\.org/en/publication/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

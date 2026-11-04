@@ -1,0 +1,22 @@
+{
+ "seq": 199,
+ "entry_id": "S1-R71-E1",
+ "url": "https://www.ana.net/schoolofmarketing",
+ "mode": "snapshot",
+ "basis": "营销学院页的条目是全站通用内容页 /content/show/id/{id}，URL 不带栏目标识，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:24:20+00:00",
+ "pattern": "^(?:https://www\\.ana\\.net/content/show/id/ana\\-individualtraining\\-intro|https://www\\.ana\\.net/content/show/id/ana\\-teamtraining\\-intro|https://www\\.ana\\.net/content/show/id/camp\\-certification|https://www\\.ana\\.net/content/show/id/enterprise\\-curricula|https://www\\.ana\\.net/content/show/id/member\\-training\\-benefit)$",
+ "status": "快照",
+ "members": 5,
+ "kept": 5,
+ "dropped": [],
+ "negatives": [
+  "https://www.ana.net/schoolofmarketing"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.ana\\.net/content/show/id/ana\\-individualtraining\\-intro|https://www\\.ana\\.net/content/show/id/ana\\-teamtraining\\-intro|https://www\\.ana\\.net/content/show/id/camp\\-certification|https://www\\.ana\\.net/content/show/id/enterprise\\-curricula|https://www\\.ana\\.net/content/show/id/member\\-training\\-benefit)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

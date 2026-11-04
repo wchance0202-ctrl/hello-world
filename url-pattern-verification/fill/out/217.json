@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T10:11:39+00:00",
  "pattern": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$\n^(?:https://opositiv\\.com/products/flo\\-pms\\-vitamin\\-capsules|https://www\\.instructure\\.com/canvas\\?domain=canvas)$",
- "status": "快照",
+ "status": "已放宽",
  "members": 25,
  "kept": 10,
  "dropped": [
@@ -92,20 +92,11 @@
   "https://marketingexamples.com/inspiration"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$",
  "redirect_extra": [
   "https://opositiv.com/products/flo-pms-vitamin-capsules",
   "https://www.instructure.com/canvas?domain=canvas"
  ],
  "redirect_skipped": [
-  [
-   "http://mightyapp.com/",
-   "https://playgroundai.com/"
-  ],
-  [
-   "https://twitter.com/harrydry",
-   "https://x.com/harrydry"
-  ],
   [
    "https://sexyfoodtherapy.com/",
    "https://thyroidalchemy.com/"
@@ -115,12 +106,24 @@
    "https://www.chanel.com/gb/"
   ],
   [
+   "https://twitter.com/harrydry",
+   "https://x.com/harrydry"
+  ],
+  [
    "https://oonagoods.com/",
    "https://rememberedlore.com/"
+  ],
+  [
+   "http://mightyapp.com/",
+   "https://playgroundai.com/"
   ],
   [
    "https://uk.huel.com/",
    "https://huel.com/"
   ]
- ]
+ ],
+ "full_list_count": 10,
+ "relax_note": "保留逐条清单（站外条目或无法归纳）",
+ "status_strict": "快照",
+ "pattern_base": "^(?:https://ahrefs\\.com/blog/best\\-marketing\\-newsletters/|https://brave\\.com/|https://jointoucan\\.com/|https://www\\.amazon\\.co\\.uk/Humans\\-New\\-York\\-Brandon\\-Stanton/dp/1447294254|https://www\\.instagram\\.com/davegerhardtdgmg/|https://www\\.mainstreet\\.com/|https://www\\.smalls\\.com/|https://www\\.youtube\\.com/marketingexamples|https://wynter\\.com/|https://yumwoof\\.com/)$"
 }

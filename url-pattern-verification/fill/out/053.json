@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T10:08:08+00:00",
  "pattern": "^(?:https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201189439419277084|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192125991407216|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192126224104217|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202172401957983144|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202182447082911611|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202187873213952269|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203183028167915111|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203185811146802008|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204175423576030239|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204176638570771007|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204179071468562414|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192127559853135|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192190811605165|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207177932716370176|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207189440023827145)$",
- "status": "快照",
+ "status": "已放宽",
  "members": 60,
  "kept": 15,
  "dropped": [
@@ -242,7 +242,10 @@
   "https://www.woshipm.com/harmony-activities"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201189439419277084|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192125991407216|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192126224104217|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202172401957983144|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202182447082911611|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202187873213952269|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203183028167915111|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203185811146802008|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204175423576030239|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204176638570771007|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204179071468562414|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192127559853135|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192190811605165|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207177932716370176|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207189440023827145)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 15,
+ "relax_note": "保留逐条清单（站外条目或无法归纳）",
+ "status_strict": "快照",
+ "pattern_base": "^(?:https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201189439419277084|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192125991407216|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0201192126224104217|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202172401957983144|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202182447082911611|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0202187873213952269|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203183028167915111|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0203185811146802008|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204175423576030239|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204176638570771007|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204179071468562414|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192127559853135|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0204192190811605165|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207177932716370176|https://developer\\.huawei\\.com/consumer/cn/forum/topic/0207189440023827145)$"
 }

@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T09:26:08+00:00",
  "pattern": "^(?:https://www\\.wipo\\.int/en/web/competition\\-policy/w/news/2011/news_0001\\-1)$",
- "status": "快照",
+ "status": "已放宽",
  "members": 1,
  "kept": 1,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.wipo.int/en/web/competition-policy"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/competition\\-policy/w/news/2011/news_0001\\-1)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 1,
+ "relax_note": "保留逐条清单（站外条目或无法归纳）",
+ "status_strict": "快照",
+ "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/competition\\-policy/w/news/2011/news_0001\\-1)$"
 }

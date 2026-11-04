@@ -13,7 +13,7 @@
  "observed_at": "2026-11-03T09:41:10+00:00",
  "frozen_sha256": "d9f18d442e5c099a0dfaa8c4c309131694a89a65902542ef6615b28099fe4d2d",
  "pattern": "^https://www\\.coalchina\\.org\\.cn/index\\.php\\?m=content&c=index&a=show&catid=(?:15|16|18)&id=[0-9]+$",
- "status": "候选",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 2,
   "holdout_pos": 0,
@@ -163,5 +163,7 @@
  ],
  "pattern_base": "^https://www\\.coalchina\\.org\\.cn/index\\.php\\?m=content&c=index&a=show&catid=(?:15|16|18)&id=[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

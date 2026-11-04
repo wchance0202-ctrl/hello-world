@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:23:52+00:00",
- "pattern": "^(?:https://www\\.itu\\.int/en/publications/Pages/cdrom\\.aspx|https://www\\.itu\\.int/en/publications/Pages/eb\\.aspx|https://www\\.itu\\.int/en/publications/Pages/online\\.aspx|https://www\\.itu\\.int/en/publications/Pages/paper\\.aspx|https://www\\.itu\\.int/en/publications/Pages/pubnoticelist\\.aspx)$",
- "status": "快照",
+ "pattern": "^https://www\\.itu\\.int/en/publications/Pages/[a-z]+\\.aspx$",
+ "status": "已放宽",
  "members": 7,
  "kept": 5,
  "dropped": [
@@ -27,12 +27,15 @@
   "https://www.itu.int/en/publications/Pages/media.aspx"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.itu\\.int/en/publications/Pages/cdrom\\.aspx|https://www\\.itu\\.int/en/publications/Pages/eb\\.aspx|https://www\\.itu\\.int/en/publications/Pages/online\\.aspx|https://www\\.itu\\.int/en/publications/Pages/paper\\.aspx|https://www\\.itu\\.int/en/publications/Pages/pubnoticelist\\.aspx)$",
  "redirect_extra": [],
  "redirect_skipped": [
   [
    "https://www.itu.int/en/publications/Pages/default.aspx",
    "https://www.itu.int/hub/"
   ]
- ]
+ ],
+ "full_list_count": 5,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面，也匹配入口页本身",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.itu\\.int/en/publications/Pages/[a-z]+\\.aspx$"
 }

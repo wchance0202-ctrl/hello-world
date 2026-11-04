@@ -2,25 +2,21 @@
  "seq": 8,
  "entry_id": "S2-R26-E2",
  "url": "https://www.leadleo.com/report/search",
- "mode": "selfpage",
- "basis": "浏览器打开后页面不显示任何报告条目链接（未登录）；全站报告详情是 /report/details/{24 位十六进制}，但无法从本栏目取得样本；下级内容需登录，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "站点需登录，按页面自身请求中出现的报告地址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:13+00:00",
- "pattern": "^https://www\\.leadleo\\.com/report/search$",
- "status": "仅入口页（需登录）",
- "pages": [
-  "https://www.leadleo.com/report/search"
- ],
- "landing": [
-  {
-   "url": "https://www.leadleo.com/report/search",
-   "status": 200,
-   "final": "https://www.leadleo.com/report/search",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://www\\.leadleo\\.com/report/search$",
+ "observed_at": "2026-11-04T06:14:19+00:00",
+ "pattern": "^https://www\\.leadleo\\.com/report/details/[0-9a-f]{24}$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.leadleo\\.com/report/details/[0-9a-f]{24}$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

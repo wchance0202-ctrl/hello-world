@@ -2,20 +2,17 @@
  "seq": 181,
  "entry_id": "S1-R51-E1",
  "url": "https://www.gartner.com/en/marketing/insights",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.gartner\\.com/en/marketing/insights/articles/[a-z0-9-]+$\n^https://www\\.gartner\\.com/en/articles/[a-z0-9-]+$",
+ "members": [
+  "https://www.gartner.com/en/marketing/insights/articles/gartner-keynote-mastering-the-marketers-journey",
+  "https://www.gartner.com/en/marketing/insights/articles/magnify-your-investment-in-marketing-technology",
+  "https://www.gartner.com/en/articles/future-of-marketing"
+ ],
+ "negatives": [
   "https://www.gartner.com/en/marketing/insights"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：Cloudflare 验证页（403 Just a moment...）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 181,
-  "entry_id": "S1-R51-E1",
-  "url": "https://www.gartner.com/en/marketing/insights",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：Cloudflare 验证页（403 Just a moment...）",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

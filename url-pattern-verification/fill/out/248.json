@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:16:06+00:00",
  "frozen_sha256": "4ba9b0a3ce75f79e13a8c0ad991006f90518cfb847c80e00946c30a2205f43b6",
  "pattern": "^https://www\\.zenithmedia\\.com/[a-z0-9%-]+/$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 6,
@@ -60,5 +60,7 @@
  "full_list_count": 2161,
  "pattern_base": "^https://www\\.zenithmedia\\.com/[a-z0-9%-]+/$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

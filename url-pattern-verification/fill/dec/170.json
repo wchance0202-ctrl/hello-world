@@ -2,20 +2,18 @@
  "seq": 170,
  "entry_id": "S1-R46-E2",
  "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.mckinsey\\.com/capabilities/strategy\\-and\\-corporate\\-finance/our\\-insights/[a-z0-9-]+$\n^https://www\\.mckinsey\\.com/capabilities/strategy\\-and\\-corporate\\-finance/our\\-insights/[a-z0-9-]+/[a-z0-9-]+$\n^https://www\\.mckinsey\\.com/capabilities/strategy\\-and\\-corporate\\-finance/our\\-insights/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+$",
+ "members": [
+  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-strategy-champions-win",
+  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategy-and-corporate-finance-special-collections",
+  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/mckinsey-on-finance/mckinsey-on-finance-number-82",
+  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/mckinsey-on-finance/mckinsey-on-finance-number-80/fundamentals-of-strategy-and-value-creation"
+ ],
+ "negatives": [
   "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：连接超时（ReadTimeout）；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 170,
-  "entry_id": "S1-R46-E2",
-  "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：连接超时（ReadTimeout）",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 4 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

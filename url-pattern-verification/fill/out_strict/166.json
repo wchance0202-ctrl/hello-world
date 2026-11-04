@@ -1,0 +1,242 @@
+{
+ "seq": 166,
+ "entry_id": "S1-R45-E1",
+ "url": "https://yougov.com/content/economy",
+ "mode": "regex",
+ "basis": "YouGov 内容通用结构 /{articles|reports|…}/{编号-slug}；经济主题“加载更多”加接口末批共 985 条（清单另附）",
+ "note": "超范围：同时匹配其他主题的内容",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:08:29+00:00",
+ "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$",
+ "families": [
+  {
+   "frozen_sha256": "91e15c6506d201315bcf637e540837db81bca66a85b42591999c04702f8138e7",
+   "pattern": "^https://yougov\\.com/articles/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 869
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/articles/21606-facebook-continues-reign-supreme-among-millennials",
+     "https://yougov.com/articles/22781-icici-bank-and-sbi-life-insurance-ads-manage-break",
+     "https://yougov.com/articles/25529-consumer-confidence-dips-six-year-low-ahead-brexit",
+     "https://yougov.com/articles/25861-half-thais-work-jobs-unrelated-their-degrees",
+     "https://yougov.com/articles/26549-majority-malaysians-do-not-understand-gender-pay-g",
+     "https://yougov.com/articles/41535-does-whisky-industry-need-woo-new-generation-drink",
+     "https://yougov.com/articles/43451-yougovs-diwali-spending-index-shows-highest-ever-s",
+     "https://yougov.com/articles/43693-global-what-consumers-think-about-when-they-think-",
+     "https://yougov.com/articles/46707-uae-ksa-residents-are-likely-to-spend-more-time-in-their-own-country-this-summer-season",
+     "https://yougov.com/articles/51592-tinder-is-the-most-popular-dating-app-across-apac-but-local-apps-have-a-considerable-presence",
+     "https://yougov.com/articles/53095-indonesians-see-politicians-as-most-overpaid-farmers-and-teachers-as-most-undervalued",
+     "https://yougov.com/articles/53963-from-awareness-to-action-how-effectively-do-the-worlds-top-brands-convert"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/articles/25705-new-iphone-11-series-launch-achieves-greatest-upli",
+     "https://yougov.com/articles/38751-commonwealth-bank-racv-racq-raa-rac-ract-paypal-to",
+     "https://yougov.com/articles/40790-profile-peek-vegans-us-and-britain",
+     "https://yougov.com/articles/45398-global-consumers-economic-predictions-2023",
+     "https://yougov.com/articles/48898-tata-tea-tops-yougovs-ad-of-the-month-ranking-in-february",
+     "https://yougov.com/articles/53035-advertisers-of-the-month-in-denmark-power-nybolig-and-nemligcom"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/economy",
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/business/sectors/financial-services",
+     "https://yougov.com/reports/23293-her-er-danskernes-foretrukne-offentlige-organisati",
+     "https://yougov.com/reports/24779-svenskar-skulle-helst-skanka-pengar-till-barncance",
+     "https://yougov.com/reports/30028-vi-vil-helst-donere-penge-til-forskning-i-sygdomme",
+     "https://yougov.com/reports/32968-har-ar-de-hogst-rankade-varumarkena",
+     "https://yougov.com/reports/32970-suomen-10-suosituinta-tuotemerkkia",
+     "https://yougov.com/reports/38522-young-adults-uae-are-more-likely-others-buy-car-on"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "a8594c84f1cd6da958d2b75ae5d7614d9b4fa5e26ebde116c9e4e33bc945a3a5",
+   "pattern": "^https://yougov\\.com/reports/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 92
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/reports/24779-svenskar-skulle-helst-skanka-pengar-till-barncance",
+     "https://yougov.com/reports/44179-eco-investing-nordics",
+     "https://yougov.com/reports/45179-sadan-takler-globale-og-danske-forbrugere-de-stige",
+     "https://yougov.com/reports/48520-hong-kong-virtual-banks-brand-equity-rankings",
+     "https://yougov.com/reports/48899-yougov-apac-best-brand-rankings-2-2024",
+     "https://yougov.com/reports/51001-au-airline-rankings-2024",
+     "https://yougov.com/reports/52243-au-retail-online-delivery-report-2025",
+     "https://yougov.com/reports/53146-apac-advertiser-impact-q3-2025-report",
+     "https://yougov.com/reports/53297-danish-consumer-bank-rankings-2025",
+     "https://yougov.com/reports/53860-dividend-drivers-winning-with-australians-prioritising-investments",
+     "https://yougov.com/reports/54468-iran-conflict-cost-shock",
+     "https://yougov.com/reports/55464-apac-most-recommended-brands-2026"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/reports/32970-suomen-10-suosituinta-tuotemerkkia",
+     "https://yougov.com/reports/42835-changing-financial-landscape-singapore",
+     "https://yougov.com/reports/44178-internationell-undersokning-sa-koper-vi-bil",
+     "https://yougov.com/reports/48697-yougov-apac-best-brand-rankings-2024",
+     "https://yougov.com/reports/51769-how-to-build-a-resilient-brand-in-2025-part-2",
+     "https://yougov.com/reports/55523-finlands-most-recommended-brands-2026"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/economy",
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/business/sectors/financial-services",
+     "https://yougov.com/articles/11767-uae-economy",
+     "https://yougov.com/articles/13355-apac-property-market-overview",
+     "https://yougov.com/articles/14799-intelligent-landbrug-topper-som-global-opportunity",
+     "https://yougov.com/articles/14800-smarta-jordbruk-ar-den-storsta-globala-mojligheten",
+     "https://yougov.com/articles/14801-alymaatalous-merkittavin-maailmanlaajuinen-mahdoll",
+     "https://yougov.com/articles/16353-infographic-2016-real-estate-barometer"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "1d7cae698280c9446bd51c05ac9d91f96f9cc4275dbed20807ece61624f5e9d2",
+   "pattern": "^https://yougov\\.com/case\\-studies/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 10,
+    "holdout_pos": 3,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 13
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/case-studies/49457-cred-custom-case-study",
+     "https://yougov.com/case-studies/50129-bank-jago-audience-insights-case-study",
+     "https://yougov.com/case-studies/50432-visa-financial-services-audience-insights-case-study",
+     "https://yougov.com/case-studies/50492-havas-village-case-study",
+     "https://yougov.com/case-studies/53495-friends-earth-direct-case-study",
+     "https://yougov.com/case-studies/53496-sarsons-direct-case-study",
+     "https://yougov.com/case-studies/53513-continental-ag-brandindex-case-study",
+     "https://yougov.com/case-studies/53524-bar-standards-board-case-study",
+     "https://yougov.com/case-studies/53525-crossmedia-heycar-case-study",
+     "https://yougov.com/case-studies/53564-anonymous-auto-connected-data-case-study"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/case-studies/53509-linear-connected-data-case-study",
+     "https://yougov.com/case-studies/53512-deutsche-telekom-brandindex-case-study",
+     "https://yougov.com/case-studies/53518-direct-legal-general-case-study"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/economy",
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/business/sectors/financial-services",
+     "https://yougov.com/articles/11767-uae-economy",
+     "https://yougov.com/articles/13355-apac-property-market-overview",
+     "https://yougov.com/articles/14799-intelligent-landbrug-topper-som-global-opportunity",
+     "https://yougov.com/articles/14800-smarta-jordbruk-ar-den-storsta-globala-mojligheten",
+     "https://yougov.com/articles/14801-alymaatalous-merkittavin-maailmanlaajuinen-mahdoll",
+     "https://yougov.com/articles/16353-infographic-2016-real-estate-barometer"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "6049b0632a221120170927e40ec79e37b70ba4b25383d2d3768383db9b28da9d",
+   "pattern": "^https://yougov\\.com/guides/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 6,
+    "holdout_pos": 2,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 8
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://yougov.com/guides/53529-research-improve-marketing-mix-modeling",
+     "https://yougov.com/guides/53530-connected-data-better-survey-results",
+     "https://yougov.com/guides/53538-market-research-glossary",
+     "https://yougov.com/guides/53541-ten-tips-survey-children",
+     "https://yougov.com/guides/53548-cost-effective-marketing-insights-leveraging-yougovs-survey-platform",
+     "https://yougov.com/guides/53549-how-to-measure-brand-awareness"
+    ],
+    "holdout_pos": [
+     "https://yougov.com/guides/53539-how-to-create-your-own-research-survey",
+     "https://yougov.com/guides/53554-how-to-build-and-measure-your-brands-success"
+    ],
+    "holdout_neg": [
+     "https://yougov.com/content/economy",
+     "https://yougov.com/content/consumer",
+     "https://yougov.com/business/sectors/financial-services",
+     "https://yougov.com/articles/11767-uae-economy",
+     "https://yougov.com/articles/13355-apac-property-market-overview",
+     "https://yougov.com/articles/14799-intelligent-landbrug-topper-som-global-opportunity",
+     "https://yougov.com/articles/14800-smarta-jordbruk-ar-den-storsta-globala-mojligheten",
+     "https://yougov.com/articles/14801-alymaatalous-merkittavin-maailmanlaajuinen-mahdoll",
+     "https://yougov.com/articles/16353-infographic-2016-real-estate-barometer"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 4
+ },
+ "why_not_verified": null,
+ "full_list_count": 985,
+ "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

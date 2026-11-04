@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03；若专栏有未显示的旧文章，不在快照内",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:04:11+00:00",
- "pattern": "^(?:https://www\\.topys\\.cn/article/34223|https://www\\.topys\\.cn/article/34252|https://www\\.topys\\.cn/article/34260|https://www\\.topys\\.cn/article/34277|https://www\\.topys\\.cn/article/34364|https://www\\.topys\\.cn/article/34385|https://www\\.topys\\.cn/article/34413|https://www\\.topys\\.cn/article/34549)$",
- "status": "快照",
+ "pattern": "^https://www\\.topys\\.cn/article/[0-9]+$",
+ "status": "已放宽",
  "members": 12,
  "kept": 8,
  "dropped": [
@@ -39,7 +39,10 @@
   "https://www.topys.cn/drlist/29"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.topys\\.cn/article/34223|https://www\\.topys\\.cn/article/34252|https://www\\.topys\\.cn/article/34260|https://www\\.topys\\.cn/article/34277|https://www\\.topys\\.cn/article/34364|https://www\\.topys\\.cn/article/34385|https://www\\.topys\\.cn/article/34413|https://www\\.topys\\.cn/article/34549)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 8,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.topys\\.cn/article/[0-9]+$"
 }

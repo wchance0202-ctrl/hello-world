@@ -1,0 +1,64 @@
+{
+ "seq": 180,
+ "entry_id": "S1-R50-E4",
+ "url": "https://www.forrester.com/blogs/category/b2b-research/page/2/",
+ "mode": "regex",
+ "basis": "Forrester 博客通用结构 /blogs/{slug}/；B2B 研究分类经“More posts”加载到底共 1,221 篇（清单另附）",
+ "note": "超范围：同时匹配其他分类的博客；本行是同一分类的第 2 页，服务器忽略页码，结果同第 179 行",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:13:36+00:00",
+ "frozen_sha256": "9a5fa04e0a7b4e42e9e8c26d81975e35e30aa5e7a809321acc623d1186f3ce32",
+ "pattern": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 1221
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.forrester.com/blogs/2019-marketing-operations-planning-assumptions/",
+   "https://www.forrester.com/blogs/boost-your-demand-creation-with-buyer-insights/",
+   "https://www.forrester.com/blogs/brand-experience-customer-experience-part-two/",
+   "https://www.forrester.com/blogs/buyer-enablement-five-b2b-companies-who-do-it-well/",
+   "https://www.forrester.com/blogs/digitaladvertisingisontopareyou/",
+   "https://www.forrester.com/blogs/eventstrategythefourprogramfamilies/",
+   "https://www.forrester.com/blogs/linkedin-research-report-on-b2b-marketing-effectiveness/",
+   "https://www.forrester.com/blogs/sales-technology-innovation/",
+   "https://www.forrester.com/blogs/summit-2018-sponsor-case-study-pardot/",
+   "https://www.forrester.com/blogs/summit-europe-2018-content-marketing-strategy/",
+   "https://www.forrester.com/blogs/when-is-it-time-to-fire-a-channel-partner/",
+   "https://www.forrester.com/blogs/workload-affinity-expands-edge-computing-opportunities-in-2022/"
+  ],
+  "holdout_pos": [
+   "https://www.forrester.com/blogs/call-for-entries-forrester-2025-b2b-summit-north-america-awards/",
+   "https://www.forrester.com/blogs/implementing-engagement-and-customer-health-siriusdecisions/",
+   "https://www.forrester.com/blogs/saying-goodbye-to-mqls-when-should-we-create-the-opportunity-entity/",
+   "https://www.forrester.com/blogs/the-10-best-ways-to-spend-your-b2b-paid-media-budget-in-2021/",
+   "https://www.forrester.com/blogs/tips-for-your-abm-program/",
+   "https://www.forrester.com/blogs/up-your-game-driving-better-results-through-revenue-process-improvement/"
+  ],
+  "holdout_neg": [
+   "https://www.forrester.com/blogs/category/b2b-research/",
+   "https://www.forrester.com/blogs/category/b2b-research/page/2/",
+   "https://www.forrester.com/blogs/author/andrew_cox/",
+   "https://www.forrester.com/b2c-marketing/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 1221,
+ "pattern_base": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

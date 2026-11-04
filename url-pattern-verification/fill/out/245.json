@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:37:18+00:00",
- "pattern": "^(?:https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026\\-global\\-overview\\-report/|https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026/|https://wearesocial\\.com/uk/blog/2025/11/new\\-report\\-the\\-latest\\-digital\\-and\\-social\\-data\\-from\\-the\\-uk/|https://wearesocial\\.com/uk/blog/2026/01/think\\-forward\\-2026/|https://wearesocial\\.com/uk/blog/2026/05/report\\-social\\-feature\\-superpowers\\-and\\-how\\-brands\\-can\\-use\\-them/|https://wearesocial\\.com/uk/blog/2026/09/decodes\\-creator\\-marketing\\-model/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027\\-your\\-guide\\-to\\-the\\-evolving\\-digital\\-world/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027/)$",
- "status": "快照",
+ "pattern": "^https://wearesocial\\.com/uk/blog/[0-9]+/[0-9]+/[a-z0-9-]+/$",
+ "status": "已放宽",
  "members": 8,
  "kept": 8,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://wearesocial.com/uk/reports/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026\\-global\\-overview\\-report/|https://wearesocial\\.com/uk/blog/2025/10/digital\\-2026/|https://wearesocial\\.com/uk/blog/2025/11/new\\-report\\-the\\-latest\\-digital\\-and\\-social\\-data\\-from\\-the\\-uk/|https://wearesocial\\.com/uk/blog/2026/01/think\\-forward\\-2026/|https://wearesocial\\.com/uk/blog/2026/05/report\\-social\\-feature\\-superpowers\\-and\\-how\\-brands\\-can\\-use\\-them/|https://wearesocial\\.com/uk/blog/2026/09/decodes\\-creator\\-marketing\\-model/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027\\-your\\-guide\\-to\\-the\\-evolving\\-digital\\-world/|https://wearesocial\\.com/uk/blog/2026/10/digital\\-2027/)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 8,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://wearesocial\\.com/uk/blog/[0-9]+/[0-9]+/[a-z0-9-]+/$"
 }

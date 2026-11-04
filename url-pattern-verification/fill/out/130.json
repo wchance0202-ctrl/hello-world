@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:23:14+00:00",
- "pattern": "^(?:https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/ICTprices/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/StatisticsUpdate/October2026\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/about\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/capacitydev/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/definitions/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/events/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/expertgroups\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/facts/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/intlcoop/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/publications/default\\.aspx|https://www\\.itu\\.int/itu\\-d/reports/statistics/idi2026/)$",
- "status": "快照",
+ "pattern": "^https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/[a-z]+\\.aspx$\n^(?:https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/ICTprices/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/StatisticsUpdate/October2026\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/capacitydev/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/definitions/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/events/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/facts/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/intlcoop/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/publications/default\\.aspx|https://www\\.itu\\.int/itu\\-d/reports/statistics/idi2026/)$",
+ "status": "已放宽",
  "members": 11,
  "kept": 11,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.itu.int/itu-d/sites/statistics/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/ICTprices/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/StatisticsUpdate/October2026\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/about\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/capacitydev/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/definitions/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/events/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/expertgroups\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/facts/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/intlcoop/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/publications/default\\.aspx|https://www\\.itu\\.int/itu\\-d/reports/statistics/idi2026/)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 11,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/[a-z]+\\.aspx$\n^(?:https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/ICTprices/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/StatisticsUpdate/October2026\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/capacitydev/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/definitions/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/events/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/facts/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/intlcoop/default\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Statistics/Pages/publications/default\\.aspx|https://www\\.itu\\.int/itu\\-d/reports/statistics/idi2026/)$"
 }

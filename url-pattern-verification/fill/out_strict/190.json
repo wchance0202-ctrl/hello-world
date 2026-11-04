@@ -1,0 +1,135 @@
+{
+ "seq": 190,
+ "entry_id": "S1-R52-E4",
+ "url": "https://www.pewresearch.org/topic/economy-work/business-workplace/",
+ "mode": "regex",
+ "basis": "「商业与职场」主题翻完列表分页共 561 篇（清单另附）；文章通用结构 /{栏目}/{年}/{月}/{日}/{slug}/ 与无栏目段的旧写法",
+ "note": "超范围：同时匹配其他主题的文章；年月日按样本写成数字段",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+ },
+ "observed_at": "2026-11-04T04:13:16+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "b8e532fd1d5386a74d513859b4b373cb44bb60fc46130acdde31f2a18654292c",
+   "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 551
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/global/2013/01/04/indians-support-gender-equality-but-still-give-men-edge-in-workplace-higher-education/",
+     "https://www.pewresearch.org/global/2020/05/12/in-taiwan-views-of-mainland-china-mostly-negative/",
+     "https://www.pewresearch.org/politics/2011/02/17/labor-unions-seen-as-good-for-workers-not-u-s-competitiveness/",
+     "https://www.pewresearch.org/short-reads/2013/08/02/tepid-u-s-jobs-data-conceal-modest-momentum-for-blacks-and-hispanics/",
+     "https://www.pewresearch.org/short-reads/2013/08/09/having-a-secure-job-replaces-homeownership-as-the-key-to-being-middle-class/",
+     "https://www.pewresearch.org/short-reads/2013/11/04/as-congress-considers-action-again-21-of-lgbt-adults-say-they-faced-workplace-discrimination/",
+     "https://www.pewresearch.org/short-reads/2013/12/11/how-pew-research-measured-the-gender-pay-gap/",
+     "https://www.pewresearch.org/short-reads/2017/01/25/most-officers-say-the-media-treat-police-unfairly/",
+     "https://www.pewresearch.org/short-reads/2017/04/27/key-facts-about-the-u-s-h-1b-visa-program/",
+     "https://www.pewresearch.org/short-reads/2017/07/25/most-americans-unaware-that-as-u-s-manufacturing-jobs-have-disappeared-output-has-grown/",
+     "https://www.pewresearch.org/short-reads/2020/01/30/key-findings-on-gains-made-by-women-amid-a-rising-demand-for-skilled-workers/",
+     "https://www.pewresearch.org/short-reads/2026/06/11/more-than-half-of-states-will-recognize-juneteenth-as-a-legal-holiday-in-2026/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/global/2021/11/18/what-makes-life-meaningful-views-from-17-advanced-economies/",
+     "https://www.pewresearch.org/journalism/2007/05/10/how-j-school-students-see-the-future/",
+     "https://www.pewresearch.org/short-reads/2012/08/14/deepening-divide-between-republicans-and-democrats-over-business-regulation/",
+     "https://www.pewresearch.org/short-reads/2014/01/07/number-of-older-americans-in-the-workforce-is-on-the-rise/",
+     "https://www.pewresearch.org/short-reads/2017/04/27/10-demographic-trends-shaping-the-u-s-and-the-world-in-2017/",
+     "https://www.pewresearch.org/short-reads/2022/11/17/anti-corporate-sentiment-in-u-s-is-now-widespread-in-both-parties/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/economy-work/business-workplace/",
+     "https://www.pewresearch.org/topic/economy-work/business-workplace/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/2007/08/08/democratic-candidates-labor-to-win-union-support/",
+     "https://www.pewresearch.org/2007/08/16/states-let-adult-kids-stay-on-parents-insurance/",
+     "https://www.pewresearch.org/2008/09/15/online-news-should-you-be-reading-this-at-work/",
+     "https://www.pewresearch.org/2009/03/12/socialism-americanstyle/",
+     "https://www.pewresearch.org/2010/01/07/did-we-want-to-do-it/",
+     "https://www.pewresearch.org/2010/03/11/isnt-the-real-unemployment-rate-much-higher-than-you-say-it-is-in-your-news-quiz/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+   }
+  },
+  {
+   "frozen_sha256": "5aeec3690334b746f8c52da7fde619d0857864f90aaddb02b9355c19cf634a30",
+   "pattern": "^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 8,
+    "holdout_pos": 2,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 10
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/2007/08/08/democratic-candidates-labor-to-win-union-support/",
+     "https://www.pewresearch.org/2007/08/16/states-let-adult-kids-stay-on-parents-insurance/",
+     "https://www.pewresearch.org/2008/09/15/online-news-should-you-be-reading-this-at-work/",
+     "https://www.pewresearch.org/2009/03/12/socialism-americanstyle/",
+     "https://www.pewresearch.org/2010/01/07/did-we-want-to-do-it/",
+     "https://www.pewresearch.org/2011/03/23/a-century-after-triangle-unions-face-uncertain-future/",
+     "https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/",
+     "https://www.pewresearch.org/2023/11/28/do-you-tip-more-or-less-often-than-the-average-american/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/2010/03/11/isnt-the-real-unemployment-rate-much-higher-than-you-say-it-is-in-your-news-quiz/",
+     "https://www.pewresearch.org/2010/05/05/united-we-stand-on-technology/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/economy-work/business-workplace/",
+     "https://www.pewresearch.org/topic/economy-work/business-workplace/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/data-labs/2018/01/11/gender-discrimination-in-science-is-especially-common/",
+     "https://www.pewresearch.org/data-labs/2018/12/17/gender-and-jobs-in-online-image-searches/",
+     "https://www.pewresearch.org/global-migration-and-demography/2011/02/01/unauthorized-immigrant-population-national-and-state-trends-2010/",
+     "https://www.pewresearch.org/global-migration-and-demography/2011/03/10/new-jobs-in-recession-and-recovery-who-are-getting-them-and-who-are-not/",
+     "https://www.pewresearch.org/global/2013/01/04/indians-support-gender-equality-but-still-give-men-edge-in-workplace-higher-education/",
+     "https://www.pewresearch.org/global/2013/11/15/youth-unemployment-could-tear-europe-apart-warns-wef/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null,
+ "full_list_count": 561,
+ "pattern_base": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:37:44+00:00",
- "pattern": "^(?:https://wingify\\.com/blog/how\\-to\\-go\\-from\\-zero\\-to\\-one\\-in\\-your\\-server\\-side\\-experimentation\\-journey/|https://wingify\\.com/blog/mobile\\-app\\-funnel\\-analysis/|https://wingify\\.com/blog/what\\-do\\-you\\-get\\-with\\-wingify\\-free\\-trial/|https://wingify\\.com/success\\-stories/defacto/|https://wingify\\.com/success\\-stories/garanti\\-bbva/|https://wingify\\.com/success\\-stories/performics\\-hdfc\\-ergo/|https://wingify\\.com/success\\-stories/ubisoft\\-ab\\-testing\\-lead\\-generation/)$",
- "status": "快照",
+ "pattern": "^https://wingify\\.com/blog/[a-z-]+/$\n^https://wingify\\.com/success\\-stories/[a-z-]+/$",
+ "status": "已放宽",
  "members": 7,
  "kept": 7,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://wingify.com/resources/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://wingify\\.com/blog/how\\-to\\-go\\-from\\-zero\\-to\\-one\\-in\\-your\\-server\\-side\\-experimentation\\-journey/|https://wingify\\.com/blog/mobile\\-app\\-funnel\\-analysis/|https://wingify\\.com/blog/what\\-do\\-you\\-get\\-with\\-wingify\\-free\\-trial/|https://wingify\\.com/success\\-stories/defacto/|https://wingify\\.com/success\\-stories/garanti\\-bbva/|https://wingify\\.com/success\\-stories/performics\\-hdfc\\-ergo/|https://wingify\\.com/success\\-stories/ubisoft\\-ab\\-testing\\-lead\\-generation/)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 7,
+ "relax_note": "由逐条清单改为通用规则（2 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://wingify\\.com/blog/[a-z-]+/$\n^https://wingify\\.com/success\\-stories/[a-z-]+/$"
 }

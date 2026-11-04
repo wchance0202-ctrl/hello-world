@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:32:41+00:00",
- "pattern": "^(?:https://www\\.branch\\.io/resources/case\\-study/6thstreet\\-drives\\-60\\-higher\\-app\\-installs\\-and\\-13\\-roas\\-growth\\-with\\-branch/|https://www\\.branch\\.io/resources/case\\-study/a\\-e\\-networks\\-optimizes\\-campaign\\-performance\\-and\\-measurement\\-efforts\\-horizon\\-media/|https://www\\.branch\\.io/resources/case\\-study/ancestry\\-increases\\-app\\-engagement\\-by\\-3x\\-using\\-branchs\\-universal\\-email/|https://www\\.branch\\.io/resources/case\\-study/housing\\-com\\-sees\\-30\\-yoy\\-lead\\-growth\\-by\\-spotting\\-real\\-business\\-drivers/|https://www\\.branch\\.io/resources/case\\-study/how\\-a\\-fortune\\-100\\-retailer\\-rebuilt\\-its\\-mobile\\-foundation\\-to\\-outpace\\-desktop/|https://www\\.branch\\.io/resources/case\\-study/how\\-toters\\-unified\\-app\\-strategy\\-increased\\-app\\-opens\\-by\\-503/|https://www\\.branch\\.io/resources/case\\-study/kentucky\\-fried\\-chicken\\-how\\-qr\\-codes\\-and\\-a\\-pub\\-drove\\-an\\-85\\-lift\\-in\\-app\\-installs/|https://www\\.branch\\.io/resources/case\\-study/payoneer\\-unlocks\\-mobile\\-app\\-growth\\-by\\-leveraging\\-branch\\-smart\\-banners/|https://www\\.branch\\.io/resources/case\\-study/rtlzwei\\-breaks\\-channel\\-barriers\\-to\\-grow\\-app\\-installs\\-by\\-20\\-percent/)$\n^(?:https://www\\.branch\\.io/resources/guide/finance\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/health\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/travel\\-industry\\-hub/)$",
- "status": "快照",
+ "pattern": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$\n^(?:https://www\\.branch\\.io/resources/guide/finance\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/food\\-and\\-beverage\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/health\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/media\\-and\\-entertainment\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/retail\\-and\\-e\\-commerce\\-industry\\-hub/|https://www\\.branch\\.io/resources/guide/travel\\-industry\\-hub/)$",
+ "status": "已放宽",
  "members": 15,
  "kept": 9,
  "dropped": [
@@ -47,7 +47,6 @@
   "https://www.branch.io/use-cases/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.branch\\.io/resources/case\\-study/6thstreet\\-drives\\-60\\-higher\\-app\\-installs\\-and\\-13\\-roas\\-growth\\-with\\-branch/|https://www\\.branch\\.io/resources/case\\-study/a\\-e\\-networks\\-optimizes\\-campaign\\-performance\\-and\\-measurement\\-efforts\\-horizon\\-media/|https://www\\.branch\\.io/resources/case\\-study/ancestry\\-increases\\-app\\-engagement\\-by\\-3x\\-using\\-branchs\\-universal\\-email/|https://www\\.branch\\.io/resources/case\\-study/housing\\-com\\-sees\\-30\\-yoy\\-lead\\-growth\\-by\\-spotting\\-real\\-business\\-drivers/|https://www\\.branch\\.io/resources/case\\-study/how\\-a\\-fortune\\-100\\-retailer\\-rebuilt\\-its\\-mobile\\-foundation\\-to\\-outpace\\-desktop/|https://www\\.branch\\.io/resources/case\\-study/how\\-toters\\-unified\\-app\\-strategy\\-increased\\-app\\-opens\\-by\\-503/|https://www\\.branch\\.io/resources/case\\-study/kentucky\\-fried\\-chicken\\-how\\-qr\\-codes\\-and\\-a\\-pub\\-drove\\-an\\-85\\-lift\\-in\\-app\\-installs/|https://www\\.branch\\.io/resources/case\\-study/payoneer\\-unlocks\\-mobile\\-app\\-growth\\-by\\-leveraging\\-branch\\-smart\\-banners/|https://www\\.branch\\.io/resources/case\\-study/rtlzwei\\-breaks\\-channel\\-barriers\\-to\\-grow\\-app\\-installs\\-by\\-20\\-percent/)$",
  "redirect_extra": [
   "https://www.branch.io/resources/guide/finance-industry-hub/",
   "https://www.branch.io/resources/guide/food-and-beverage-industry-hub/",
@@ -56,5 +55,9 @@
   "https://www.branch.io/resources/guide/retail-and-e-commerce-industry-hub/",
   "https://www.branch.io/resources/guide/travel-industry-hub/"
  ],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 9,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.branch\\.io/resources/case\\-study/[a-z0-9-]+/$"
 }

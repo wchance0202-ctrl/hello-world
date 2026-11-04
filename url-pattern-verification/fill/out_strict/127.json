@@ -1,0 +1,23 @@
+{
+ "seq": 127,
+ "entry_id": "S1-R16-E7",
+ "url": "https://www.bis.org/about/innovation-hub/overview",
+ "mode": "snapshot",
+ "basis": "创新中心栏目页面都在 /about/innovation-hub/ 下，但入口页 /about/innovation-hub/overview 与子页面同一结构，写成正则必然匹配入口页本身（RE2 无法排除单个页名），按快照逐条列出 9 个（含 sitemap 中该目录的页面）",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:34:04+00:00",
+ "pattern": "^(?:https://www\\.bis\\.org/about/innovation\\-hub/collaboration|https://www\\.bis\\.org/about/innovation\\-hub/events|https://www\\.bis\\.org/about/innovation\\-hub/network|https://www\\.bis\\.org/about/innovation\\-hub/news|https://www\\.bis\\.org/about/innovation\\-hub/podcasts|https://www\\.bis\\.org/about/innovation\\-hub/projects|https://www\\.bis\\.org/about/innovation\\-hub/publications|https://www\\.bis\\.org/about/innovation\\-hub/speeches|https://www\\.bis\\.org/about/innovation\\-hub/videos)$",
+ "status": "快照",
+ "members": 9,
+ "kept": 9,
+ "dropped": [],
+ "negatives": [
+  "https://www.bis.org/about/innovation-hub/overview",
+  "https://www.bis.org/committees/overview"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.bis\\.org/about/innovation\\-hub/collaboration|https://www\\.bis\\.org/about/innovation\\-hub/events|https://www\\.bis\\.org/about/innovation\\-hub/network|https://www\\.bis\\.org/about/innovation\\-hub/news|https://www\\.bis\\.org/about/innovation\\-hub/podcasts|https://www\\.bis\\.org/about/innovation\\-hub/projects|https://www\\.bis\\.org/about/innovation\\-hub/publications|https://www\\.bis\\.org/about/innovation\\-hub/speeches|https://www\\.bis\\.org/about/innovation\\-hub/videos)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

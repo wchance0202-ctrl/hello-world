@@ -1,0 +1,22 @@
+{
+ "seq": 163,
+ "entry_id": "S1-R36-E1",
+ "url": "https://marketingscience.info/open-access-knowledge",
+ "mode": "snapshot",
+ "basis": "开放知识页下只有 2 个子页面（/open-access-knowledge/{slug}），少于 4 个，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:31:00+00:00",
+ "pattern": "^(?:https://marketingscience\\.info/open\\-access\\-knowledge/open\\-access\\-reports|https://marketingscience\\.info/open\\-access\\-knowledge/wine\\-marketing\\-knowledge)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
+  "https://marketingscience.info/open-access-knowledge"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://marketingscience\\.info/open\\-access\\-knowledge/open\\-access\\-reports|https://marketingscience\\.info/open\\-access\\-knowledge/wine\\-marketing\\-knowledge)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

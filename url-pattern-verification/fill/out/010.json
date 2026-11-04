@@ -13,7 +13,7 @@
  "observed_at": "2026-11-03T08:38:16+00:00",
  "frozen_sha256": "96a99d04b2e7c4cc57b7f8c8b92db34ea9124d947adcd60fdd77ed645a0e14de",
  "pattern": "^https://www\\.leadleo\\.com/video/details/[a-z0-9]+$",
- "status": "候选",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 4,
   "holdout_pos": 1,
@@ -51,5 +51,7 @@
  ],
  "pattern_base": "^https://www\\.leadleo\\.com/video/details/[a-z0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

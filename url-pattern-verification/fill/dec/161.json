@@ -2,12 +2,17 @@
  "seq": 161,
  "entry_id": "S1-R34-E1",
  "url": "https://www.circana.com/insights",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.circana\\.com/post/[a-z0-9-]+$\n^https://circana\\.com/post/[a-z0-9-]+$",
+ "members": [
+  "https://www.circana.com/post/circana-finds-ease-and-personalization-driving-the-next-wave-of-global-wellness",
+  "https://www.circana.com/post/consumer-wellness-trends-insights-from-circana-s-wellbeing-report",
+  "https://circana.com/post/pursuing-untapped-occasion-dollars-how-linking-purchase-and-consumption-data-uncovers-valuable-occas"
+ ],
+ "negatives": [
   "https://www.circana.com/insights"
  ],
- "label": "仅入口页（条目不可枚举）",
- "no_fetch": false,
- "basis": "Wix 页面：条目不是 <a href> 链接，也没有独立 sitemap；浏览器点击卡片也未取得可用落地地址；正则只写入口页精确地址",
- "note": ""
+ "basis": "条目在 Wix 页面中不是普通链接，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配）",
+ "note": "样本网址未能在本环境打开核验；Circana 的新闻与洞察共用 /post/，规则会同时匹配新闻"
 }

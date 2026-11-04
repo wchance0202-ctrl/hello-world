@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T10:12:55+00:00",
  "pattern": "^https://blog\\.hootsuite\\.com/resource/[a-z0-9-]+/$",
- "status": "候选",
+ "status": "已放宽",
  "carried_from": null,
  "checks": {
   "members": 120,
@@ -20,23 +20,7 @@
  "redirect_extra": [],
  "redirect_skipped": [
   [
-   "https://blog.hootsuite.com/resource/instagram-bio-examples/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/healthcare-template-bundle/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/healthcare-social-media-policy-template/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/social-media-content-calendar-template/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/social-advertising-guide/",
+   "https://blog.hootsuite.com/resource/social-media-audit-template/",
    "https://blog.hootsuite.com/resources/"
   ],
   [
@@ -44,39 +28,11 @@
    "https://blog.hootsuite.com/resources/"
   ],
   [
-   "https://blog.hootsuite.com/resource/social-media-audit-template/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
    "https://blog.hootsuite.com/resource/time-saving-instagram-hacks/",
    "https://blog.hootsuite.com/resources/"
   ],
   [
-   "https://blog.hootsuite.com/resource/how-to-measure-the-roi-of-your-social-media/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/social-video-secrets/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/facebook-ads-budget-calculator/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/instagram-reel-cover-templates/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/social-seo-checklist/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/social-selling-guide/",
-   "https://blog.hootsuite.com/resources/"
-  ],
-  [
-   "https://blog.hootsuite.com/resource/government-template-bundle/",
+   "https://blog.hootsuite.com/resource/social-listening-guide/",
    "https://blog.hootsuite.com/resources/"
   ],
   [
@@ -84,12 +40,58 @@
    "https://blog.hootsuite.com/resources/"
   ],
   [
+   "https://blog.hootsuite.com/resource/social-seo-checklist/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-media-content-calendar-template/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/government-template-bundle/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
    "https://blog.hootsuite.com/resource/youtube-growth-checklist/",
    "https://blog.hootsuite.com/resources/"
   ],
   [
-   "https://blog.hootsuite.com/resource/social-listening-guide/",
+   "https://blog.hootsuite.com/resource/social-video-secrets/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-selling-guide/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/healthcare-social-media-policy-template/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/instagram-reel-cover-templates/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/healthcare-template-bundle/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/social-advertising-guide/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/instagram-bio-examples/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/how-to-measure-the-roi-of-your-social-media/",
+   "https://blog.hootsuite.com/resources/"
+  ],
+  [
+   "https://blog.hootsuite.com/resource/facebook-ads-budget-calculator/",
    "https://blog.hootsuite.com/resources/"
   ]
- ]
+ ],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

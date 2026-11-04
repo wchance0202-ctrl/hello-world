@@ -1,0 +1,64 @@
+{
+ "seq": 28,
+ "entry_id": "S2-R47-E4",
+ "url": "https://www.jazzyear.com/article_list.html?type=2",
+ "mode": "regex",
+ "basis": "本栏目按页码翻到底（type=2 共 682 篇，清单另附）；文章通用结构 article_info.html?id={数字}",
+ "note": "超范围：同时匹配其他 type 栏目的文章",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：甲子光年所有栏目的文章都是 article_info.html?id=N，URL 不带 type"
+ },
+ "observed_at": "2026-11-03T10:29:32+00:00",
+ "frozen_sha256": "87056d8ee2c6b34173183ec544de2653e89f4fb3bd44963bcd1089f8969b6959",
+ "pattern": "^https://www\\.jazzyear\\.com/article_info\\.html\\?id=[0-9]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 682
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.jazzyear.com/article_info.html?id=1038",
+   "https://www.jazzyear.com/article_info.html?id=1145",
+   "https://www.jazzyear.com/article_info.html?id=1173",
+   "https://www.jazzyear.com/article_info.html?id=240",
+   "https://www.jazzyear.com/article_info.html?id=370",
+   "https://www.jazzyear.com/article_info.html?id=41",
+   "https://www.jazzyear.com/article_info.html?id=453",
+   "https://www.jazzyear.com/article_info.html?id=51",
+   "https://www.jazzyear.com/article_info.html?id=530",
+   "https://www.jazzyear.com/article_info.html?id=740",
+   "https://www.jazzyear.com/article_info.html?id=764",
+   "https://www.jazzyear.com/article_info.html?id=832"
+  ],
+  "holdout_pos": [
+   "https://www.jazzyear.com/article_info.html?id=1170",
+   "https://www.jazzyear.com/article_info.html?id=1648",
+   "https://www.jazzyear.com/article_info.html?id=1671",
+   "https://www.jazzyear.com/article_info.html?id=457",
+   "https://www.jazzyear.com/article_info.html?id=494",
+   "https://www.jazzyear.com/article_info.html?id=876"
+  ],
+  "holdout_neg": [
+   "https://www.jazzyear.com/article_list.html?type=2",
+   "https://www.jazzyear.com/study_info.html?id=1",
+   "https://www.jazzyear.com/member_benefits.html",
+   "https://www.jazzyear.com/search_article.html"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 682,
+ "pattern_base": "^https://www\\.jazzyear\\.com/article_info\\.html\\?id=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

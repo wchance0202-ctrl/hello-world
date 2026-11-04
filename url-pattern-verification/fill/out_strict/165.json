@@ -1,0 +1,63 @@
+{
+ "seq": 165,
+ "entry_id": "S1-R44-E1",
+ "url": "https://tolunacorporate.com/insights-and-news/",
+ "mode": "regex",
+ "basis": "Toluna 文章在站点根目录 /{slug}/（清单 251 篇另附）",
+ "note": "超范围：根目录 /{slug}/ 也包括站内普通页面（关于、产品等）；根目录结构同样匹配入口页 /insights-and-news/ 本身",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-04T04:12:00+00:00",
+ "frozen_sha256": "b67524a64c6a0db45ce3a108c83dba4518bd34e45da9f9e233b86491100af581",
+ "pattern": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 254
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://tolunacorporate.com/always-a-step-ahead-interview-with-claudia-gelbe/",
+   "https://tolunacorporate.com/evaluating-the-packaging-design-performances-of-seltzer-brands-using-ai-packaging-testing/",
+   "https://tolunacorporate.com/harris-interactive-and-toluna-recap-a-successful-campaign-for-2022-french-presidential-election/",
+   "https://tolunacorporate.com/how-americans-are-adapting-to-inflation-and-rising-costs/",
+   "https://tolunacorporate.com/how-dentsu-aegis-network-identified-the-most-effective-covid-era-messaging/",
+   "https://tolunacorporate.com/how-to-best-integrate-your-logo-in-your-packaging-design/",
+   "https://tolunacorporate.com/identifying-the-1-christmas-ad-with-toluna-synthetic-personas/",
+   "https://tolunacorporate.com/market-research-in-2023-what-should-we-expect/",
+   "https://tolunacorporate.com/pediatric-physicians-warn-genai-risks/",
+   "https://tolunacorporate.com/predictive-insights-the-ai-powered-crystal-ball-for-business/",
+   "https://tolunacorporate.com/pricing-out-of-stocks-staying-on-top-of-changing-consumer-behaviour/",
+   "https://tolunacorporate.com/toluna-names-two-key-appointments-to-executive-leadership-team/"
+  ],
+  "holdout_pos": [
+   "https://tolunacorporate.com/ai-validation-human-touch-reliable-ai/",
+   "https://tolunacorporate.com/ethnographic-research-vs-market-research/",
+   "https://tolunacorporate.com/hospitals-academic-medicine-leading-genai-revolution/",
+   "https://tolunacorporate.com/how-load-shedding-is-shaping-media-consumption-in-south-africa/",
+   "https://tolunacorporate.com/its-not-easy-being-green-how-brands-can-drive-consumer-engagement/",
+   "https://tolunacorporate.com/shopper-and-retail-tracker-us-wave-1/"
+  ],
+  "holdout_neg": [
+   "https://tolunacorporate.com/legal/cookies/",
+   "https://tolunacorporate.com/?page_id=3178",
+   "https://tolunacorporate.com/legal/privacy-policy/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 254,
+ "pattern_base": "^https://tolunacorporate\\.com/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

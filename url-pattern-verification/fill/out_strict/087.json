@@ -1,0 +1,22 @@
+{
+ "seq": 87,
+ "entry_id": "S2-R113-E2",
+ "url": "https://cy.chanmama.com/insights",
+ "mode": "snapshot",
+ "basis": "洞察列表为脚本渲染，只能取到 2 个内容中心链接（/contentCenter/{数字}.html），少于 4 个，逐条列出",
+ "note": "快照 2026-11-03；列表其余条目为脚本卡片，未取到 URL",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:12:22+00:00",
+ "pattern": "^(?:https://cy\\.chanmama\\.com/contentCenter/62\\.html|https://cy\\.chanmama\\.com/contentCenter/63\\.html)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
+  "https://cy.chanmama.com/insights"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://cy\\.chanmama\\.com/contentCenter/62\\.html|https://cy\\.chanmama\\.com/contentCenter/63\\.html)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

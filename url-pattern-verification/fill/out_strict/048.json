@@ -1,0 +1,64 @@
+{
+ "seq": 48,
+ "entry_id": "S2-R73-E1",
+ "url": "https://www.adquan.com/case_library/index",
+ "mode": "regex",
+ "basis": "广告门文章通用结构 /article/{数字}；案例库按 ?page=N 翻完 301 页共 7727 条（清单另附，含页面侧栏推荐，可能有少量非案例文章）",
+ "note": "超范围：同时匹配新闻等其他栏目的文章",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附"
+ },
+ "observed_at": "2026-11-03T10:13:46+00:00",
+ "frozen_sha256": "ff0f0220c8e9a890b7f40ca67d262e94e04708a47655259aa7aa73dfbb1de7bd",
+ "pattern": "^https://www\\.adquan\\.com/article/[0-9]+$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 7727
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.adquan.com/article/295074",
+   "https://www.adquan.com/article/298847",
+   "https://www.adquan.com/article/311840",
+   "https://www.adquan.com/article/316601",
+   "https://www.adquan.com/article/318289",
+   "https://www.adquan.com/article/324748",
+   "https://www.adquan.com/article/337169",
+   "https://www.adquan.com/article/341148",
+   "https://www.adquan.com/article/341615",
+   "https://www.adquan.com/article/343550",
+   "https://www.adquan.com/article/344893",
+   "https://www.adquan.com/article/350798"
+  ],
+  "holdout_pos": [
+   "https://www.adquan.com/article/290689",
+   "https://www.adquan.com/article/296472",
+   "https://www.adquan.com/article/337607",
+   "https://www.adquan.com/article/347920",
+   "https://www.adquan.com/article/350286",
+   "https://www.adquan.com/article/352531"
+  ],
+  "holdout_neg": [
+   "https://www.adquan.com/case_library/index",
+   "https://www.adquan.com/case_library/index?page=2",
+   "https://www.adquan.com/company/11211",
+   "https://www.adquan.com/agency"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 7727,
+ "pattern_base": "^https://www\\.adquan\\.com/article/[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

@@ -1,0 +1,22 @@
+{
+ "seq": 96,
+ "entry_id": "S2-R119-E6",
+ "url": "https://www.focusmedia.cn/companyreport",
+ "mode": "snapshot",
+ "basis": "「公司研究报告」条目在共用路径 /detail/{数字}/ 下（白皮书与公司研究报告共用），页面共 3 个（链接带页内锚点 #jump，已去掉），逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:42:03+00:00",
+ "pattern": "^(?:https://www\\.focusmedia\\.cn/detail/1569/|https://www\\.focusmedia\\.cn/detail/1570/|https://www\\.focusmedia\\.cn/detail/1571/)$",
+ "status": "快照",
+ "members": 3,
+ "kept": 3,
+ "dropped": [],
+ "negatives": [
+  "https://www.focusmedia.cn/companyreport"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.focusmedia\\.cn/detail/1569/|https://www\\.focusmedia\\.cn/detail/1570/|https://www\\.focusmedia\\.cn/detail/1571/)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

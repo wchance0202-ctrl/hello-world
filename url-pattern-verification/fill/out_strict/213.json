@@ -1,0 +1,51 @@
+{
+ "seq": 213,
+ "entry_id": "S1-R89-E3",
+ "url": "https://www.greenbook.org/grit",
+ "mode": "regex",
+ "basis": "情况 A：GRIT 报告子页 /grit/{slug}（重新取样验证）",
+ "note": "v2：留出样本 slug 含年份数字而漏配，按漏配样本加入数字；GRIT 子页总共只有 4 个，没有新样本做第二轮验证，因此为候选",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "GRIT 报告子页在入口路径 /grit/{slug} 下（情况 A）"
+ },
+ "observed_at": "2026-11-04T04:09:32+00:00",
+ "frozen_sha256": "102b6efd5fb918429c95d082e6de8c5601c8c831f14f590f8c09947088395231",
+ "pattern": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "status": "候选",
+ "checks": {
+  "inference_pos": 3,
+  "holdout_pos": 1,
+  "holdout_neg": 3,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 3
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.greenbook.org/grit/grit-business-and-innovation-edition",
+   "https://www.greenbook.org/grit/insights-practice-edition",
+   "https://www.greenbook.org/grit/latam"
+  ],
+  "holdout_pos": [
+   "https://www.greenbook.org/grit/insights-practice-edition-2025"
+  ],
+  "holdout_neg": [
+   "https://www.greenbook.org/grit",
+   "https://www.greenbook.org/insights",
+   "https://www.greenbook.org/directory"
+  ],
+  "holdout_source": "independent"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "why_not_verified": [
+  "v2 放宽后没有新的独立留出样本（GRIT 子页共 4 个，都已用过）"
+ ],
+ "pattern_base": "^https://www\\.greenbook\\.org/grit/[a-z0-9-]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

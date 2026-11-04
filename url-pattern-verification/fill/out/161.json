@@ -2,25 +2,21 @@
  "seq": 161,
  "entry_id": "S1-R34-E1",
  "url": "https://www.circana.com/insights",
- "mode": "selfpage",
- "basis": "Wix 页面：条目不是 <a href> 链接，也没有独立 sitemap；浏览器点击卡片也未取得可用落地地址；正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "条目在 Wix 页面中不是普通链接，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配）",
+ "note": "样本网址未能在本环境打开核验；Circana 的新闻与洞察共用 /post/，规则会同时匹配新闻",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:36:27+00:00",
- "pattern": "^https://www\\.circana\\.com/insights$",
- "status": "仅入口页（条目不可枚举）",
- "pages": [
-  "https://www.circana.com/insights"
- ],
- "landing": [
-  {
-   "url": "https://www.circana.com/insights",
-   "status": 429,
-   "final": "https://www.circana.com/insights",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://www\\.circana\\.com/insights$",
+ "observed_at": "2026-11-04T06:14:59+00:00",
+ "pattern": "^https://www\\.circana\\.com/post/[a-z0-9-]+$\n^https://circana\\.com/post/[a-z0-9-]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.circana\\.com/post/[a-z0-9-]+$\n^https://circana\\.com/post/[a-z0-9-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

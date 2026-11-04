@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:25:39+00:00",
- "pattern": "^(?:https://gp\\.demandcurve\\.com/playbooks/above\\-the\\-fold|https://gp\\.demandcurve\\.com/playbooks/personalization\\-tactics|https://gp\\.demandcurve\\.com/playbooks/tiktok\\-ads\\-guide)$",
- "status": "快照",
+ "pattern": "^https://gp\\.demandcurve\\.com/playbooks/[a-z-]+$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://gp.demandcurve.com/resources"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://gp\\.demandcurve\\.com/playbooks/above\\-the\\-fold|https://gp\\.demandcurve\\.com/playbooks/personalization\\-tactics|https://gp\\.demandcurve\\.com/playbooks/tiktok\\-ads\\-guide)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://gp\\.demandcurve\\.com/playbooks/[a-z-]+$"
 }

@@ -275,7 +275,7 @@
    }
   }
  ],
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "families": 5
  },
@@ -283,5 +283,7 @@
  "full_list_count": 667,
  "pattern_base": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/it/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

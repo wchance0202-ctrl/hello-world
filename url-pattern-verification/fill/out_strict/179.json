@@ -1,0 +1,64 @@
+{
+ "seq": 179,
+ "entry_id": "S1-R50-E3",
+ "url": "https://www.forrester.com/blogs/category/b2b-research/",
+ "mode": "regex",
+ "basis": "Forrester 博客通用结构 /blogs/{slug}/；B2B 研究分类经“More posts”加载到底共 1,221 篇（清单另附）",
+ "note": "超范围：同时匹配其他分类的博客",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-04T04:12:28+00:00",
+ "frozen_sha256": "78b2fc930e4083d7022d83147bb661a4f74fd43ded1841829568d1e8e75e3fc7",
+ "pattern": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 1224
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.forrester.com/blogs/all-happy-families-are-alike-but-all-happy-customers-are-not/",
+   "https://www.forrester.com/blogs/banks-are-losing-their-place-in-small-business-decisions-heres-how-to-reclaim-it/",
+   "https://www.forrester.com/blogs/five-digital-audience-types-that-help-b2b-marketers-deliver-better-experiences/",
+   "https://www.forrester.com/blogs/from-trend-to-destination-embracing-lifecycle-revenue-marketing/",
+   "https://www.forrester.com/blogs/gdpr-compliance-data-maintenance/",
+   "https://www.forrester.com/blogs/marketingdashboardsforfinancialservices/",
+   "https://www.forrester.com/blogs/on-the-ninth-day-of-christmas-my-analyst-gave-to-me-handy-tips-to-make-my-demand-management-processs-performance-dance/",
+   "https://www.forrester.com/blogs/seven-areas-for-product-management-to-lead-in-crisis/",
+   "https://www.forrester.com/blogs/siriusdecisions-techx-2017-preview-how-technology-purchases-happen/",
+   "https://www.forrester.com/blogs/three-changing-buyer-expectations-portfolio-marketers/",
+   "https://www.forrester.com/blogs/whatclassicdinersandsalesonboardinghaveincommon/",
+   "https://www.forrester.com/blogs/white-house-press-secretaries-and-brand-building/"
+  ],
+  "holdout_pos": [
+   "https://www.forrester.com/blogs/are-virtual-events-worth-attending/",
+   "https://www.forrester.com/blogs/planning-season-is-the-time-to-revisit-your-cmo-dashboard/",
+   "https://www.forrester.com/blogs/sales-operations-as-switzerland-how-sales-leaders-can-avoid-the-politics-of-territory-design/",
+   "https://www.forrester.com/blogs/sales-operations-is-a-force-multiplier/",
+   "https://www.forrester.com/blogs/the-sales-engagement-landscape-and-the-case-for-the-single-pane-of-glass/",
+   "https://www.forrester.com/blogs/thebesttweetablemomentsofsiriusdecisionssummit2017dayone/"
+  ],
+  "holdout_neg": [
+   "https://www.forrester.com/blogs/category/b2b-research/",
+   "https://www.forrester.com/blogs/category/b2b-research/page/2/",
+   "https://www.forrester.com/blogs/author/andrew_cox/",
+   "https://www.forrester.com/b2c-marketing/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 1224,
+ "pattern_base": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

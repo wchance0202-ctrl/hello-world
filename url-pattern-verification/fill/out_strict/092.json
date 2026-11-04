@@ -1,0 +1,23 @@
+{
+ "seq": 92,
+ "entry_id": "S2-R119-E1",
+ "url": "https://www.focusmedia.cn/classic",
+ "mode": "snapshot",
+ "basis": "「经典案例库」的案例详情在共用路径 /casedetail/{数字} 下，三个案例库（经典/创业/行业）共用该结构，URL 不带库标识；页面共 12 个，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:14:16+00:00",
+ "pattern": "^(?:https://www\\.focusmedia\\.cn/casedetail/241|https://www\\.focusmedia\\.cn/casedetail/243|https://www\\.focusmedia\\.cn/casedetail/248|https://www\\.focusmedia\\.cn/casedetail/256|https://www\\.focusmedia\\.cn/casedetail/261|https://www\\.focusmedia\\.cn/casedetail/269|https://www\\.focusmedia\\.cn/casedetail/270|https://www\\.focusmedia\\.cn/casedetail/271|https://www\\.focusmedia\\.cn/casedetail/273|https://www\\.focusmedia\\.cn/casedetail/275|https://www\\.focusmedia\\.cn/casedetail/276|https://www\\.focusmedia\\.cn/casedetail/286)$",
+ "status": "快照",
+ "members": 12,
+ "kept": 12,
+ "dropped": [],
+ "negatives": [
+  "https://www.focusmedia.cn/classic",
+  "https://www.focusmedia.cn/classic"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.focusmedia\\.cn/casedetail/241|https://www\\.focusmedia\\.cn/casedetail/243|https://www\\.focusmedia\\.cn/casedetail/248|https://www\\.focusmedia\\.cn/casedetail/256|https://www\\.focusmedia\\.cn/casedetail/261|https://www\\.focusmedia\\.cn/casedetail/269|https://www\\.focusmedia\\.cn/casedetail/270|https://www\\.focusmedia\\.cn/casedetail/271|https://www\\.focusmedia\\.cn/casedetail/273|https://www\\.focusmedia\\.cn/casedetail/275|https://www\\.focusmedia\\.cn/casedetail/276|https://www\\.focusmedia\\.cn/casedetail/286)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

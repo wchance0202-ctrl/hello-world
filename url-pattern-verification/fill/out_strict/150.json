@@ -1,0 +1,28 @@
+{
+ "seq": 150,
+ "entry_id": "S1-R19-E29",
+ "url": "https://www.wipo.int/en/web/patentscope/data/index",
+ "mode": "snapshot",
+ "basis": "PATENTSCOPE 数据服务页的条目是 6 个数据说明文档（/documents/d/patentscope/…），逐条列出；页面其余是折叠面板锚点",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:26:35+00:00",
+ "pattern": "^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_isaproduct\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_jan2014\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-pct\\-fate\\-content\\-structure\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-wipo\\-coppa\\-technicaldocumentation\\.pdf)$",
+ "status": "快照",
+ "members": 6,
+ "kept": 5,
+ "dropped": [
+  {
+   "url": "https://www.wipo.int/documents/d/patentscope/docs-en-data-documents-wo-ocr-published-application.dtd",
+   "status": 200,
+   "final": "https://www.wipo.int/documents/d/patentscope/docs-en-data-documents-wo-ocr-published-application.dtd"
+  }
+ ],
+ "negatives": [
+  "https://www.wipo.int/en/web/patentscope/data/index"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_isaproduct\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-content_jan2014\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-pct\\-fate\\-content\\-structure\\.pdf|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-documents\\-sample\\-pctfate\\-462022\\.zip|https://www\\.wipo\\.int/documents/d/patentscope/docs\\-en\\-data\\-wipo\\-coppa\\-technicaldocumentation\\.pdf)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

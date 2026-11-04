@@ -1,0 +1,287 @@
+{
+ "seq": 52,
+ "entry_id": "S2-R87-E3",
+ "url": "https://www.woshipm.com/category/harmony",
+ "mode": "regex",
+ "basis": "鸿蒙分类的文章分布在全站频道路径 /{频道}/{数字}.html（频道：ai、harmony、it、pd、share），翻完 37 页共 660 篇（清单另附）",
+ "note": "超范围：同时匹配这些频道下其他分类的文章",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-04T04:11:59+00:00",
+ "pattern": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/it/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
+ "families": [
+  {
+   "frozen_sha256": "a95de87cd690f3e788f47d7418fee857307e4591571b3dabe7e685b1e9c3a3b1",
+   "pattern": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 116
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.woshipm.com/ai/6339700.html",
+     "https://www.woshipm.com/ai/6341671.html",
+     "https://www.woshipm.com/ai/6344798.html",
+     "https://www.woshipm.com/ai/6389277.html",
+     "https://www.woshipm.com/ai/6389845.html",
+     "https://www.woshipm.com/ai/6394018.html",
+     "https://www.woshipm.com/ai/6404078.html",
+     "https://www.woshipm.com/ai/6409246.html",
+     "https://www.woshipm.com/ai/6410468.html",
+     "https://www.woshipm.com/ai/6428913.html",
+     "https://www.woshipm.com/ai/6466407.html",
+     "https://www.woshipm.com/ai/6471749.html"
+    ],
+    "holdout_pos": [
+     "https://www.woshipm.com/ai/6401378.html",
+     "https://www.woshipm.com/ai/6401999.html",
+     "https://www.woshipm.com/ai/6404673.html",
+     "https://www.woshipm.com/ai/6466010.html",
+     "https://www.woshipm.com/ai/6480798.html",
+     "https://www.woshipm.com/ai/6482511.html"
+    ],
+    "holdout_neg": [
+     "https://www.woshipm.com/category/harmony",
+     "https://www.woshipm.com/category/harmony/page/2",
+     "https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8",
+     "https://www.woshipm.com/u/111460",
+     "https://www.woshipm.com/harmony/6330349.html",
+     "https://www.woshipm.com/harmony/6333674.html",
+     "https://www.woshipm.com/harmony/6356108.html",
+     "https://www.woshipm.com/harmony/6427596.html",
+     "https://www.woshipm.com/it/6329645.html",
+     "https://www.woshipm.com/it/6349440.html"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "38736051ea3ead68a567c8f066722c679c8b54d8141f2da2b2ba4d306f35c6db",
+   "pattern": "^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 3,
+    "holdout_pos": 1,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 4
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.woshipm.com/harmony/6333674.html",
+     "https://www.woshipm.com/harmony/6356108.html",
+     "https://www.woshipm.com/harmony/6427596.html"
+    ],
+    "holdout_pos": [
+     "https://www.woshipm.com/harmony/6330349.html"
+    ],
+    "holdout_neg": [
+     "https://www.woshipm.com/category/harmony",
+     "https://www.woshipm.com/category/harmony/page/2",
+     "https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8",
+     "https://www.woshipm.com/u/111460",
+     "https://www.woshipm.com/ai/6321354.html",
+     "https://www.woshipm.com/ai/6323857.html",
+     "https://www.woshipm.com/ai/6325587.html",
+     "https://www.woshipm.com/ai/6327301.html",
+     "https://www.woshipm.com/ai/6327928.html",
+     "https://www.woshipm.com/ai/6330206.html"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "df75faad3a4d6bf7adff8ef57269d14a7744d7c71e9da48aeae3ccfb6de31f57",
+   "pattern": "^https://www\\.woshipm\\.com/it/[0-9]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 9,
+    "holdout_pos": 3,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 12
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.woshipm.com/it/6329645.html",
+     "https://www.woshipm.com/it/6349440.html",
+     "https://www.woshipm.com/it/6354597.html",
+     "https://www.woshipm.com/it/6366750.html",
+     "https://www.woshipm.com/it/6394588.html",
+     "https://www.woshipm.com/it/6410871.html",
+     "https://www.woshipm.com/it/6463644.html",
+     "https://www.woshipm.com/it/6466746.html",
+     "https://www.woshipm.com/it/6467670.html"
+    ],
+    "holdout_pos": [
+     "https://www.woshipm.com/it/6376154.html",
+     "https://www.woshipm.com/it/6444537.html",
+     "https://www.woshipm.com/it/6467586.html"
+    ],
+    "holdout_neg": [
+     "https://www.woshipm.com/category/harmony",
+     "https://www.woshipm.com/category/harmony/page/2",
+     "https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8",
+     "https://www.woshipm.com/u/111460",
+     "https://www.woshipm.com/ai/6321354.html",
+     "https://www.woshipm.com/ai/6323857.html",
+     "https://www.woshipm.com/ai/6325587.html",
+     "https://www.woshipm.com/ai/6327301.html",
+     "https://www.woshipm.com/ai/6327928.html",
+     "https://www.woshipm.com/ai/6330206.html"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "ed9f90ae94ce7a545f35b8244d1331ce602d85a2f6a7c9fe8c223900be641f62",
+   "pattern": "^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 4,
+    "holdout_pos": 1,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 5
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.woshipm.com/pd/6351871.html",
+     "https://www.woshipm.com/pd/6406360.html",
+     "https://www.woshipm.com/pd/6419147.html",
+     "https://www.woshipm.com/pd/6426001.html"
+    ],
+    "holdout_pos": [
+     "https://www.woshipm.com/pd/6385932.html"
+    ],
+    "holdout_neg": [
+     "https://www.woshipm.com/category/harmony",
+     "https://www.woshipm.com/category/harmony/page/2",
+     "https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8",
+     "https://www.woshipm.com/u/111460",
+     "https://www.woshipm.com/ai/6321354.html",
+     "https://www.woshipm.com/ai/6323857.html",
+     "https://www.woshipm.com/ai/6325587.html",
+     "https://www.woshipm.com/ai/6327301.html",
+     "https://www.woshipm.com/ai/6327928.html",
+     "https://www.woshipm.com/ai/6330206.html"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  },
+  {
+   "frozen_sha256": "4c97e8c8f9efe48b1769bc6e832d48eccfb6a9adfa249e72267f10bcced5e0b5",
+   "pattern": "^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 510
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.woshipm.com/share/6319550.html",
+     "https://www.woshipm.com/share/6334304.html",
+     "https://www.woshipm.com/share/6352791.html",
+     "https://www.woshipm.com/share/6374908.html",
+     "https://www.woshipm.com/share/6413747.html",
+     "https://www.woshipm.com/share/6429910.html",
+     "https://www.woshipm.com/share/6438294.html",
+     "https://www.woshipm.com/share/6447198.html",
+     "https://www.woshipm.com/share/6452312.html",
+     "https://www.woshipm.com/share/6458625.html",
+     "https://www.woshipm.com/share/6460899.html",
+     "https://www.woshipm.com/share/6466498.html"
+    ],
+    "holdout_pos": [
+     "https://www.woshipm.com/share/6335517.html",
+     "https://www.woshipm.com/share/6421148.html",
+     "https://www.woshipm.com/share/6433788.html",
+     "https://www.woshipm.com/share/6452364.html",
+     "https://www.woshipm.com/share/6459227.html",
+     "https://www.woshipm.com/share/6462767.html"
+    ],
+    "holdout_neg": [
+     "https://www.woshipm.com/category/harmony",
+     "https://www.woshipm.com/category/harmony/page/2",
+     "https://www.woshipm.com/tag/%e4%b8%8a%e6%9e%b6%e5%ae%a1%e6%a0%b8",
+     "https://www.woshipm.com/u/111460",
+     "https://www.woshipm.com/ai/6321354.html",
+     "https://www.woshipm.com/ai/6323857.html",
+     "https://www.woshipm.com/ai/6325587.html",
+     "https://www.woshipm.com/ai/6327301.html",
+     "https://www.woshipm.com/ai/6327928.html",
+     "https://www.woshipm.com/ai/6330206.html"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 5
+ },
+ "why_not_verified": null,
+ "full_list_count": 667,
+ "pattern_base": "^https://www\\.woshipm\\.com/ai/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/harmony/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/it/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/pd/[0-9]+\\.html$\n^https://www\\.woshipm\\.com/share/[0-9]+\\.html$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

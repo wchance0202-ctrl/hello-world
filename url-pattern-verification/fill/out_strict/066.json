@@ -1,0 +1,45 @@
+{
+ "seq": 66,
+ "entry_id": "S2-R92-E2",
+ "url": "https://www.topys.cn/branding",
+ "mode": "snapshot",
+ "basis": "「品牌兔子洞」专栏的文章在全站通用路径 /article/{数字} 下，URL 不带专栏标识；浏览器打开并滚动加载，页面共显示 12 篇，没有翻页或加载更多控件，逐条列出",
+ "note": "快照 2026-11-03；若专栏有未显示的旧文章，不在快照内",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:04:11+00:00",
+ "pattern": "^(?:https://www\\.topys\\.cn/article/34223|https://www\\.topys\\.cn/article/34252|https://www\\.topys\\.cn/article/34260|https://www\\.topys\\.cn/article/34277|https://www\\.topys\\.cn/article/34364|https://www\\.topys\\.cn/article/34385|https://www\\.topys\\.cn/article/34413|https://www\\.topys\\.cn/article/34549)$",
+ "status": "快照",
+ "members": 12,
+ "kept": 8,
+ "dropped": [
+  {
+   "url": "https://www.topys.cn/article/34071",
+   "status": 500,
+   "final": "https://www.topys.cn/article/34071"
+  },
+  {
+   "url": "https://www.topys.cn/article/34122",
+   "status": 500,
+   "final": "https://www.topys.cn/article/34122"
+  },
+  {
+   "url": "https://www.topys.cn/article/34284",
+   "status": 500,
+   "final": "https://www.topys.cn/article/34284"
+  },
+  {
+   "url": "https://www.topys.cn/article/34572",
+   "status": 500,
+   "final": "https://www.topys.cn/article/34572"
+  }
+ ],
+ "negatives": [
+  "https://www.topys.cn/branding",
+  "https://www.topys.cn/album",
+  "https://www.topys.cn/drlist/29"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.topys\\.cn/article/34223|https://www\\.topys\\.cn/article/34252|https://www\\.topys\\.cn/article/34260|https://www\\.topys\\.cn/article/34277|https://www\\.topys\\.cn/article/34364|https://www\\.topys\\.cn/article/34385|https://www\\.topys\\.cn/article/34413|https://www\\.topys\\.cn/article/34549)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

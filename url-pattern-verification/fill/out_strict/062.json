@@ -1,0 +1,24 @@
+{
+ "seq": 62,
+ "entry_id": "S2-R88-E10",
+ "url": "https://www.linkflowtech.com/customer-cases-all-health",
+ "mode": "snapshot",
+ "basis": "医疗健康行业案例页只有 1 页，列出 3 个案例；各行业案例都在共用路径 /customer-cases/{slug} 下，URL 不带行业标识，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:03:44+00:00",
+ "pattern": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/epidemic\\-how\\-tensil\\-pharmaceuticals\\-found\\-second\\-growth\\-curve|https://www\\.linkflowtech\\.com/customer\\-cases/medical\\-device\\-companies\\-automate\\-customer\\-cultivation\\-process|https://www\\.linkflowtech\\.com/customer\\-cases/ophthalmology\\-medical\\-build\\-omni\\-domain\\-traffic\\-improve\\-customer\\-acquisition\\-efficiency)$",
+ "status": "快照",
+ "members": 3,
+ "kept": 3,
+ "dropped": [],
+ "negatives": [
+  "https://www.linkflowtech.com/courses",
+  "https://www.linkflowtech.com/about-us",
+  "https://www.linkflowtech.com/customer-cases/"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/epidemic\\-how\\-tensil\\-pharmaceuticals\\-found\\-second\\-growth\\-curve|https://www\\.linkflowtech\\.com/customer\\-cases/medical\\-device\\-companies\\-automate\\-customer\\-cultivation\\-process|https://www\\.linkflowtech\\.com/customer\\-cases/ophthalmology\\-medical\\-build\\-omni\\-domain\\-traffic\\-improve\\-customer\\-acquisition\\-efficiency)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

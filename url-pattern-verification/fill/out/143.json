@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03；条目增多后可改为 ^https://www\\.wipo\\.int/en/web/innovation-ecosystems/w/news/[0-9]+/[a-z0-9_-]+$",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:26:04+00:00",
- "pattern": "^(?:https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2025/wipo\\-announces\\-partnership\\-with\\-harvard\\-growth\\-lab\\-at\\-assemblies\\-2025\\-side\\-event|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/innovation\\-in\\-action\\-wipo\\-hosts\\-high\\-level\\-event\\-and\\-launches\\-new\\-navigator\\-tool\\-at\\-assemblies|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/wipo\\-luiss\\-3rd\\-global\\-intan\\-invest\\-conference\\-better\\-data\\-for\\-better\\-policy\\-1)$",
- "status": "快照",
+ "pattern": "^https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/[0-9]+/[a-z0-9-]+$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.wipo.int/en/web/innovation-ecosystems"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2025/wipo\\-announces\\-partnership\\-with\\-harvard\\-growth\\-lab\\-at\\-assemblies\\-2025\\-side\\-event|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/innovation\\-in\\-action\\-wipo\\-hosts\\-high\\-level\\-event\\-and\\-launches\\-new\\-navigator\\-tool\\-at\\-assemblies|https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/2026/wipo\\-luiss\\-3rd\\-global\\-intan\\-invest\\-conference\\-better\\-data\\-for\\-better\\-policy\\-1)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.wipo\\.int/en/web/innovation\\-ecosystems/w/news/[0-9]+/[a-z0-9-]+$"
 }

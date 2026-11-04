@@ -1,0 +1,22 @@
+{
+ "seq": 103,
+ "entry_id": "S2-R124-E1",
+ "url": "https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061",
+ "mode": "snapshot",
+ "basis": "B2B 数字营销培训课程页：浏览器点击 8 门课程，落地为荟聚平台通用文件页 /service/extfile/page/{32 位 ID}#/file（平台所有分享文件共用该结构），URL 不带课程系列标识，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:31:26+00:00",
+ "pattern": "^(?:https://a\\.huiju\\.cool/service/extfile/page/00a78b97d47f49a1bd0fde098a7a191b\\#/file|https://a\\.huiju\\.cool/service/extfile/page/230ed4f9c41d41939475795918a116c4\\#/file|https://a\\.huiju\\.cool/service/extfile/page/264481d0b46b45faa3e262bb7a384d33\\#/file|https://a\\.huiju\\.cool/service/extfile/page/2bb3c89f5a644d44af09e33874c0719a\\#/file|https://a\\.huiju\\.cool/service/extfile/page/4dba890735ee4a3e90101bf60a72e150\\#/file|https://a\\.huiju\\.cool/service/extfile/page/7a22bf514f0242e38dd20a69163cd378\\#/file|https://a\\.huiju\\.cool/service/extfile/page/8874d0623ec24f2d8c1782c2e7e83fbe\\#/file|https://a\\.huiju\\.cool/service/extfile/page/a761a609d3b442c191b99342541e8eea\\#/file)$",
+ "status": "快照",
+ "members": 8,
+ "kept": 8,
+ "dropped": [],
+ "negatives": [
+  "https://a.huiju.cool/service/extcontent/page/f5cdd968712448afa6f2d1953590b3fc/home/1061"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://a\\.huiju\\.cool/service/extfile/page/00a78b97d47f49a1bd0fde098a7a191b\\#/file|https://a\\.huiju\\.cool/service/extfile/page/230ed4f9c41d41939475795918a116c4\\#/file|https://a\\.huiju\\.cool/service/extfile/page/264481d0b46b45faa3e262bb7a384d33\\#/file|https://a\\.huiju\\.cool/service/extfile/page/2bb3c89f5a644d44af09e33874c0719a\\#/file|https://a\\.huiju\\.cool/service/extfile/page/4dba890735ee4a3e90101bf60a72e150\\#/file|https://a\\.huiju\\.cool/service/extfile/page/7a22bf514f0242e38dd20a69163cd378\\#/file|https://a\\.huiju\\.cool/service/extfile/page/8874d0623ec24f2d8c1782c2e7e83fbe\\#/file|https://a\\.huiju\\.cool/service/extfile/page/a761a609d3b442c191b99342541e8eea\\#/file)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

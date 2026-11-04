@@ -2,18 +2,21 @@
  "seq": 25,
  "entry_id": "S2-R46-E1",
  "url": "https://www.iyiou.com/svip",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：站点返回 202 挑战页，无内容；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 2 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:46+00:00",
- "pattern": "^https://www\\.iyiou\\.com/svip$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://www.iyiou.com/svip"
- ],
- "landing": [],
- "pattern_base": "^https://www\\.iyiou\\.com/svip$",
+ "observed_at": "2026-11-04T06:14:21+00:00",
+ "pattern": "^https://www\\.iyiou\\.com/analysis/[0-9]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 2,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.iyiou\\.com/analysis/[0-9]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

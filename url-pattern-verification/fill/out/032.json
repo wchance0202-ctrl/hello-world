@@ -2,18 +2,21 @@
  "seq": 32,
  "entry_id": "S2-R50-E1",
  "url": "https://www.vzkoo.com/question",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：站点返回 403；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:46+00:00",
- "pattern": "^https://www\\.vzkoo\\.com/question$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://www.vzkoo.com/question"
- ],
- "landing": [],
- "pattern_base": "^https://www\\.vzkoo\\.com/question$",
+ "observed_at": "2026-11-04T06:14:21+00:00",
+ "pattern": "^https://www\\.vzkoo\\.com/question/[0-9]+$\n^https://www\\.vzkoo\\.com/question/[0-9a-f]+\\.html$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.vzkoo\\.com/question/[0-9]+$\n^https://www\\.vzkoo\\.com/question/[0-9a-f]+\\.html$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

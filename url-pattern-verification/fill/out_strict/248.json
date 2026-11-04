@@ -1,0 +1,64 @@
+{
+ "seq": 248,
+ "entry_id": "S1-R141-E2",
+ "url": "https://www.zenithmedia.com/news/",
+ "mode": "regex",
+ "basis": "Zenith 新闻在站点根目录 /{slug}/，翻完 216 页共 2161 篇（清单另附）",
+ "note": "超范围：根目录 /{slug}/ 也包括站内普通页面；根目录结构同样匹配入口页 /news/ 本身",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：该结构也承载同站其他栏目的内容，正则会匹配到其他栏目；本栏目的完整清单另附（附表“栏目完整清单”）"
+ },
+ "observed_at": "2026-11-03T10:16:06+00:00",
+ "frozen_sha256": "4ba9b0a3ce75f79e13a8c0ad991006f90518cfb847c80e00946c30a2205f43b6",
+ "pattern": "^https://www\\.zenithmedia\\.com/[a-z0-9%-]+/$",
+ "status": "超范围",
+ "checks": {
+  "inference_pos": 12,
+  "holdout_pos": 6,
+  "holdout_neg": 4,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 2161
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.zenithmedia.com/bts-profits-flat-as-sport-launch-arrives-telegraph/",
+   "https://www.zenithmedia.com/facebook-the-collective-hallucination-guardian-co-uk/",
+   "https://www.zenithmedia.com/google-at-work-on-an-entertainment-device-ny-times/",
+   "https://www.zenithmedia.com/july-2011-top-us-web-brands-nielsen-wire/",
+   "https://www.zenithmedia.com/mobile-media-usage-sees-strong-growth-across-eu5-comscore/",
+   "https://www.zenithmedia.com/o2-and-bt-make-new-links-with-4g-deal-telegraph/",
+   "https://www.zenithmedia.com/the-games-people-play-mashable/",
+   "https://www.zenithmedia.com/top-smartphone-platforms-for-mobile-gamers-comscore/",
+   "https://www.zenithmedia.com/u-s-mobile-map-audience-grows-39-percent-in-past-year-as-fixed-internet-map-audience-softens-slightly-comscore-inc/",
+   "https://www.zenithmedia.com/univision-to-add-2-u-s-spanish-language-cable-channels/",
+   "https://www.zenithmedia.com/zenithmedia-mena-launches-performics-brand-adding-muscle-to-roi-offering/",
+   "https://www.zenithmedia.com/zenithoptimedia-is-voted-media-agency-of-the-year-2011-by-top-marketers-in-singapore/"
+  ],
+  "holdout_pos": [
+   "https://www.zenithmedia.com/bt-adds-social-media-element-to-pay-tv-ft/",
+   "https://www.zenithmedia.com/globe-mail-puts-up-a-paywall-guardian-co-uk/",
+   "https://www.zenithmedia.com/google-strengthens-position-worlds-largest-media-owner/",
+   "https://www.zenithmedia.com/how-global-consumers-pay-for-mobile-nielsen-wire/",
+   "https://www.zenithmedia.com/refining-the-digital-newspaper-model-technology-guardian-co-uk/",
+   "https://www.zenithmedia.com/research-finds-social-media-boosts-brands-for-sports-fans-brand-republic-news/"
+  ],
+  "holdout_neg": [
+   "https://www.zenithmedia.com/news/page/2/",
+   "https://www.zenithmedia.com/insights/2015-emerging-top-ten-trends/",
+   "https://www.zenithmedia.com/insights/magazines/",
+   "https://www.zenithmedia.com/global-intelligence/thought-leadership/"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "full_list_count": 2161,
+ "pattern_base": "^https://www\\.zenithmedia\\.com/[a-z0-9%-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

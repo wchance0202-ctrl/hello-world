@@ -230,7 +230,7 @@
    }
   }
  ],
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "families": 4
  },
@@ -238,5 +238,7 @@
  "full_list_count": 985,
  "pattern_base": "^https://yougov\\.com/articles/[a-z0-9-]+$\n^https://yougov\\.com/reports/[a-z0-9-]+$\n^https://yougov\\.com/case\\-studies/[a-z0-9-]+$\n^https://yougov\\.com/guides/[a-z0-9-]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

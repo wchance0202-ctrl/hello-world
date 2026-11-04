@@ -1,0 +1,55 @@
+{
+ "seq": 7,
+ "entry_id": "S2-R26-E1",
+ "url": "https://www.leadleo.com/wiki/topicList",
+ "mode": "regex",
+ "basis": "情况 B：产业链专题详情是 /wiki/topic/{24 位十六进制}，入口是该类内容的总列表",
+ "note": "样本只有未登录可见的 5 条",
+ "exclusivity": {
+  "proved": false,
+  "why_not": "未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目",
+  "evidence": "入口是产业链专题列表，条目详情是 /wiki/topic/{24 位十六进制 ID}；同站其他栏目（报告 /report/details/、视频、文章、专题）各用各自的路径"
+ },
+ "observed_at": "2026-11-03T08:37:38+00:00",
+ "frozen_sha256": "23e5910036107ae3dc92636d8f812fbc8492368b29edf889aa1bc9434044823a",
+ "pattern": "^https://www\\.leadleo\\.com/wiki/topic/[a-z0-9]+$",
+ "status": "候选",
+ "checks": {
+  "inference_pos": 4,
+  "holdout_pos": 1,
+  "holdout_neg": 5,
+  "all_pass": true,
+  "coverage_missed": [],
+  "coverage_members": 5
+ },
+ "failures": [],
+ "identity_excluded": [],
+ "frozen": {
+  "inference": [
+   "https://www.leadleo.com/wiki/topic/64c78482380ac8e6ec0cd99e",
+   "https://www.leadleo.com/wiki/topic/64dcefd57d78c005cbcce174",
+   "https://www.leadleo.com/wiki/topic/64ec0b1549cbbc083739af9f",
+   "https://www.leadleo.com/wiki/topic/65619ad6df3ad28258f670da"
+  ],
+  "holdout_pos": [
+   "https://www.leadleo.com/wiki/topic/64dced9f7d78c005cbccb8dd"
+  ],
+  "holdout_neg": [
+   "https://www.leadleo.com/",
+   "https://www.leadleo.com/video/allType",
+   "https://www.leadleo.com/article/search",
+   "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+   "https://www.leadleo.com/wiki/topicList"
+  ],
+  "holdout_source": "listing_split"
+ },
+ "engine": {
+  "name": "google-re2"
+ },
+ "why_not_verified": [
+  "专属性未证明：未登录时列表只显示前 5 条，点击“查看更多”会跳到登录页，无法枚举全集；只能确认这 5 条属于本栏目"
+ ],
+ "pattern_base": "^https://www\\.leadleo\\.com/wiki/topic/[a-z0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

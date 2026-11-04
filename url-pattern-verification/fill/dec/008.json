@@ -2,20 +2,17 @@
  "seq": 8,
  "entry_id": "S2-R26-E2",
  "url": "https://www.leadleo.com/report/search",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.leadleo\\.com/report/details/[0-9a-f]{24}$",
+ "members": [
+  "https://www.leadleo.com/report/details/62a1a7ff635d9d4f6bf66e87",
+  "https://www.leadleo.com/report/details/6639d6c45e81457a76bb8cf3",
+  "https://www.leadleo.com/report/details/5ba066ca956c9a627258f374"
+ ],
+ "negatives": [
   "https://www.leadleo.com/report/search"
  ],
- "label": "仅入口页（需登录）",
- "no_fetch": false,
- "basis": "浏览器打开后页面不显示任何报告条目链接（未登录）；全站报告详情是 /report/details/{24 位十六进制}，但无法从本栏目取得样本；下级内容需登录，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 8,
-  "entry_id": "S2-R26-E2",
-  "url": "https://www.leadleo.com/report/search",
-  "mode": "empty",
-  "basis": "浏览器打开后页面不显示任何报告条目链接（未登录）；全站报告详情是 /report/details/{24 位十六进制}，但无法从本栏目取得样本",
-  "note": "需登录，未验证"
- }
+ "basis": "站点需登录，按页面自身请求中出现的报告地址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

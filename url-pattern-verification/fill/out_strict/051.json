@@ -1,0 +1,23 @@
+{
+ "seq": 51,
+ "entry_id": "S2-R87-E1",
+ "url": "https://www.woshipm.com/harmony",
+ "mode": "carry",
+ "basis": "鸿蒙开发者社区首屏条目在全站通用路径 /share/{数字}.html 与 http://woshipm.com/?p={数字} 下（清单另附，仅首屏，翻页控件无效）；/share/{数字}.html 一条已按样本、留出、反例与落地核验通过；http://woshipm.com/?p={数字} 是旧写法链接，打开后 301 跳到 /share/{数字}.html（由第一条覆盖）",
+ "note": "超范围：同时匹配其他栏目的文章；第二条覆盖列表中的旧写法链接（跳转源）",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T10:15:17+00:00",
+ "pattern": "^https://www\\.woshipm\\.com/share/[0-9]+\\.html$\n^http://woshipm\\.com/\\?p=[0-9]+$",
+ "status": "超范围",
+ "carried_from": null,
+ "checks": {
+  "members": 26,
+  "pos_fail": [],
+  "neg": 3,
+  "neg_fail": []
+ },
+ "full_list_count": 30,
+ "pattern_base": "^https://www\\.woshipm\\.com/share/[0-9]+\\.html$\n^http://woshipm\\.com/\\?p=[0-9]+$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

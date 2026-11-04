@@ -1,0 +1,22 @@
+{
+ "seq": 91,
+ "entry_id": "S2-R118-E2",
+ "url": "https://www.miaozhen.com/paper",
+ "mode": "snapshot",
+ "basis": "白皮书页面列出 15 篇，分布在全站报告路径 /all-reports/{industryinsight|mwatch|ott}/{数字}.html 下（这些路径也承载其他报告），URL 不带白皮书标识；单页无翻页，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:12:55+00:00",
+ "pattern": "^(?:https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13656\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13740\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13796\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13888\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13928\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13960\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/14314\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/14768\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/13777\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/13974\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/14101\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/14342\\.html|https://www\\.miaozhen\\.com/all\\-reports/ott/14337\\.html|https://www\\.miaozhen\\.com/all\\-reports/ott/14370\\.html|https://www\\.miaozhen\\.com/all\\-reports/socialmediamarketing/14014\\.html)$",
+ "status": "快照",
+ "members": 15,
+ "kept": 15,
+ "dropped": [],
+ "negatives": [
+  "https://www.miaozhen.com/paper"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13656\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13740\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13796\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13888\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13928\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/13960\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/14314\\.html|https://www\\.miaozhen\\.com/all\\-reports/industryinsight/14768\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/13777\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/13974\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/14101\\.html|https://www\\.miaozhen\\.com/all\\-reports/mwatch/14342\\.html|https://www\\.miaozhen\\.com/all\\-reports/ott/14337\\.html|https://www\\.miaozhen\\.com/all\\-reports/ott/14370\\.html|https://www\\.miaozhen\\.com/all\\-reports/socialmediamarketing/14014\\.html)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

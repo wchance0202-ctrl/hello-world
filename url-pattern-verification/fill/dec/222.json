@@ -2,20 +2,15 @@
  "seq": 222,
  "entry_id": "S1-R101-E4",
  "url": "https://searchengineland.com/library/guide/ppc-guide",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://searchengineland\\.com/[a-z0-9-]+\\-[0-9]+$",
+ "members": [
+  "https://searchengineland.com/introducing-search-engine-lands-ppc-guide-298935"
+ ],
+ "negatives": [
   "https://searchengineland.com/library/guide/ppc-guide"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 222,
-  "entry_id": "S1-R101-E4",
-  "url": "https://searchengineland.com/library/guide/ppc-guide",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：Cloudflare 验证页",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 1 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

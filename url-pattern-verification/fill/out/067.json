@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03；站外的 cvsource 报告不在范围内",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:04:30+00:00",
- "pattern": "^(?:https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231205\\-1747\\.html|https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231206\\-1748\\.html)$",
- "status": "快照",
+ "pattern": "^https://www\\.chinaventure\\.com\\.cn/report/[0-9-]+\\.html$",
+ "status": "已放宽",
  "members": 2,
  "kept": 2,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://www.chinaventure.com.cn/news/78.html"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231205\\-1747\\.html|https://www\\.chinaventure\\.com\\.cn/report/1005\\-20231206\\-1748\\.html)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 2,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.chinaventure\\.com\\.cn/report/[0-9-]+\\.html$"
 }

@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:13:36+00:00",
  "frozen_sha256": "9a5fa04e0a7b4e42e9e8c26d81975e35e30aa5e7a809321acc623d1186f3ce32",
  "pattern": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 6,
@@ -60,5 +60,7 @@
  "full_list_count": 1221,
  "pattern_base": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

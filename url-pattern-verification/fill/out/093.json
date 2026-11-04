@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:14:35+00:00",
- "pattern": "^(?:https://www\\.focusmedia\\.cn/casedetail/242|https://www\\.focusmedia\\.cn/casedetail/246|https://www\\.focusmedia\\.cn/casedetail/247|https://www\\.focusmedia\\.cn/casedetail/251|https://www\\.focusmedia\\.cn/casedetail/254|https://www\\.focusmedia\\.cn/casedetail/259|https://www\\.focusmedia\\.cn/casedetail/260|https://www\\.focusmedia\\.cn/casedetail/266|https://www\\.focusmedia\\.cn/casedetail/268|https://www\\.focusmedia\\.cn/casedetail/281|https://www\\.focusmedia\\.cn/casedetail/285)$",
- "status": "快照",
+ "pattern": "^https://www\\.focusmedia\\.cn/casedetail/[0-9]+$",
+ "status": "已放宽",
  "members": 11,
  "kept": 11,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://www.focusmedia.cn/classic"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.focusmedia\\.cn/casedetail/242|https://www\\.focusmedia\\.cn/casedetail/246|https://www\\.focusmedia\\.cn/casedetail/247|https://www\\.focusmedia\\.cn/casedetail/251|https://www\\.focusmedia\\.cn/casedetail/254|https://www\\.focusmedia\\.cn/casedetail/259|https://www\\.focusmedia\\.cn/casedetail/260|https://www\\.focusmedia\\.cn/casedetail/266|https://www\\.focusmedia\\.cn/casedetail/268|https://www\\.focusmedia\\.cn/casedetail/281|https://www\\.focusmedia\\.cn/casedetail/285)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 11,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.focusmedia\\.cn/casedetail/[0-9]+$"
 }

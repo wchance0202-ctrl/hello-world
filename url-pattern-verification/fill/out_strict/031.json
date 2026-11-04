@@ -1,0 +1,25 @@
+{
+ "seq": 31,
+ "entry_id": "S2-R47-E7",
+ "url": "https://www.jazzyear.com/article_list.html?type=6",
+ "mode": "snapshot",
+ "basis": "甲子光年各栏目（type=1/2/3/4/6）的文章详情都是 article_info.html?id=N，URL 不带 type，无法用正则区分栏目；本栏目只有 1 页共 2 篇",
+ "note": "快照 2026-11-03，共 2 条",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T08:58:43+00:00",
+ "pattern": "^(?:https://www\\.jazzyear\\.com/article_info\\.html\\?id=1876|https://www\\.jazzyear\\.com/article_info\\.html\\?id=1877)$",
+ "status": "快照",
+ "members": 2,
+ "kept": 2,
+ "dropped": [],
+ "negatives": [
+  "https://www.jazzyear.com/article_info.html?id=1889",
+  "https://www.jazzyear.com/article_info.html?id=1892",
+  "https://www.jazzyear.com/article_list.html?type=1",
+  "https://www.jazzyear.com/study_info.html?id=1"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.jazzyear\\.com/article_info\\.html\\?id=1876|https://www\\.jazzyear\\.com/article_info\\.html\\?id=1877)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

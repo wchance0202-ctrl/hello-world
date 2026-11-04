@@ -1,0 +1,143 @@
+{
+ "seq": 187,
+ "entry_id": "S1-R52-E1",
+ "url": "https://www.pewresearch.org/topic/economy-work/",
+ "mode": "regex",
+ "basis": "「经济与工作」主题翻完列表分页共 1619 篇（清单另附）；文章通用结构 /{栏目}/{年}/{月}/{日}/{slug}/ 与无栏目段的旧写法",
+ "note": "超范围：同时匹配其他主题的文章；年月日按样本写成数字段",
+ "exclusivity": {
+  "proved": true,
+  "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+ },
+ "observed_at": "2026-11-04T04:13:16+00:00",
+ "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "f1f199591d30bffdf6da05de6874d4179fc5759b2a75d2889b5366b48e43bb6c",
+   "pattern": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 1590
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/politics/2007/05/30/gas-prices-grab-the-publics-attention/",
+     "https://www.pewresearch.org/politics/2009/01/22/economy-jobs-trump-all-other-policy-priorities-in-2009/",
+     "https://www.pewresearch.org/politics/2011/06/06/opposition-to-ryan-medicare-plan-from-older-attentive-americans/",
+     "https://www.pewresearch.org/politics/2011/12/20/tax-system-seen-as-unfair-in-need-of-overhaul/",
+     "https://www.pewresearch.org/short-reads/2013/08/09/having-a-secure-job-replaces-homeownership-as-the-key-to-being-middle-class/",
+     "https://www.pewresearch.org/short-reads/2014/08/29/for-labor-day-a-look-at-the-state-of-underemployment/",
+     "https://www.pewresearch.org/short-reads/2016/01/04/millennials-views-of-news-media-religious-organizations-grow-more-negative/",
+     "https://www.pewresearch.org/short-reads/2016/05/12/us-middle-class-metros-takeaways/",
+     "https://www.pewresearch.org/short-reads/2017/06/05/through-an-american-lens-western-europes-middle-classes-appear-smaller/",
+     "https://www.pewresearch.org/short-reads/2021/09/03/majorities-of-americans-say-unions-have-a-positive-effect-on-u-s-and-that-decline-in-union-membership-is-bad/",
+     "https://www.pewresearch.org/short-reads/2022/05/04/as-telework-continues-for-many-u-s-workers-no-sign-of-widespread-zoom-fatigue/",
+     "https://www.pewresearch.org/social-trends/2010/01/19/men-women-and-marriage/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/race-and-ethnicity/2005/03/02/survey-of-mexican-migrants-part-one/",
+     "https://www.pewresearch.org/race-and-ethnicity/2013/01/29/2011-statistical-information-on-immigrants-in-united-states/",
+     "https://www.pewresearch.org/short-reads/2013/11/26/anxious-about-the-economy-more-americans-worry-about-their-jobs/",
+     "https://www.pewresearch.org/short-reads/2015/07/01/puerto-ricos-losses-are-not-just-economic-but-in-people-too/",
+     "https://www.pewresearch.org/short-reads/2019/10/18/how-the-attitudes-of-west-and-east-germans-compare-30-years-after-fall-of-berlin-wall/",
+     "https://www.pewresearch.org/social-trends/2010/06/30/how-the-great-recession-has-changed-life-in-america/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/economy-work/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/2006/07/26/wedge-issues-on-the-ballot/",
+     "https://www.pewresearch.org/2006/08/08/male-lefties-have-more-of-the-right-stuff/",
+     "https://www.pewresearch.org/2007/08/08/democratic-candidates-labor-to-win-union-support/",
+     "https://www.pewresearch.org/2007/08/16/states-let-adult-kids-stay-on-parents-insurance/",
+     "https://www.pewresearch.org/2007/10/10/thompson-stands-with-gop-rank-and-file-during-first-debate/",
+     "https://www.pewresearch.org/2008/01/31/gop-debates-economic-focus-mirrors-countrys-growing-concern/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+   }
+  },
+  {
+   "frozen_sha256": "d91b022c8c3b297bfb647a14db0da07a7dd215ddbb1d6b8c65c43d0829765a87",
+   "pattern": "^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 12,
+    "holdout_pos": 6,
+    "holdout_neg": 10,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 29
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://www.pewresearch.org/2006/07/26/wedge-issues-on-the-ballot/",
+     "https://www.pewresearch.org/2007/08/08/democratic-candidates-labor-to-win-union-support/",
+     "https://www.pewresearch.org/2007/08/16/states-let-adult-kids-stay-on-parents-insurance/",
+     "https://www.pewresearch.org/2008/09/15/online-news-should-you-be-reading-this-at-work/",
+     "https://www.pewresearch.org/2009/01/05/states-of-the-union-before-and-after-bush/",
+     "https://www.pewresearch.org/2009/03/12/socialism-americanstyle/",
+     "https://www.pewresearch.org/2010/12/14/how-a-different-america-responded-to-the-great-depression/",
+     "https://www.pewresearch.org/2012/08/02/ask-the-expert-the-rise-in-residential-segregation-by-income/",
+     "https://www.pewresearch.org/2012/11/21/the-fiscal-cliff-and-public-opinion/",
+     "https://www.pewresearch.org/2013/05/08/resilient-american-values/",
+     "https://www.pewresearch.org/2013/06/03/global-unhappiness/",
+     "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/"
+    ],
+    "holdout_pos": [
+     "https://www.pewresearch.org/2008/01/31/gop-debates-economic-focus-mirrors-countrys-growing-concern/",
+     "https://www.pewresearch.org/2009/06/17/cockeyed-optimists-or-selffulfilling-prophets/",
+     "https://www.pewresearch.org/2010/12/14/reagans-recession/",
+     "https://www.pewresearch.org/2011/01/24/your-online-news-quiz-says-defense-is-the-biggest-item-in-the-budget-that-right/",
+     "https://www.pewresearch.org/2011/03/23/a-century-after-triangle-unions-face-uncertain-future/",
+     "https://www.pewresearch.org/2012/05/17/college-graduation-weighing-the-cost-and-the-payoff/"
+    ],
+    "holdout_neg": [
+     "https://www.pewresearch.org/topic/economy-work/",
+     "https://www.pewresearch.org/topic/economy-work/page/2/",
+     "https://www.pewresearch.org/topic/internet-technology/",
+     "https://www.pewresearch.org/short-reads/",
+     "https://www.pewresearch.org/data-labs/2018/01/11/gender-discrimination-in-science-is-especially-common/",
+     "https://www.pewresearch.org/data-labs/2018/12/17/gender-and-jobs-in-online-image-searches/",
+     "https://www.pewresearch.org/data-labs/2021/03/05/in-their-own-words-americans-describe-the-struggles-and-silver-linings-of-the-covid-19-pandemic/",
+     "https://www.pewresearch.org/global-migration-and-demography/2011/02/01/unauthorized-immigrant-population-national-and-state-trends-2010/",
+     "https://www.pewresearch.org/global-migration-and-demography/2011/03/10/new-jobs-in-recession-and-recovery-who-are-getting-them-and-who-are-not/",
+     "https://www.pewresearch.org/global/2003/06/03/views-of-a-changing-world-2003/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "超范围：Pew 各主题的文章都在 /{栏目}/{年}/{月}/{日}/{slug}/ 下，URL 不带主题"
+   }
+  }
+ ],
+ "status": "超范围",
+ "checks": {
+  "families": 2
+ },
+ "why_not_verified": null,
+ "full_list_count": 1619,
+ "pattern_base": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

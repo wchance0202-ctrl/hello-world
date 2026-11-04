@@ -2,20 +2,16 @@
  "seq": 12,
  "entry_id": "S2-R29-E1",
  "url": "https://www.datastory.com.cn/analyst",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.datastory\\.com\\.cn/analyst/details/[0-9]+$",
+ "members": [
+  "https://www.datastory.com.cn/analyst/details/557",
+  "https://www.datastory.com.cn/analyst/details/356"
+ ],
+ "negatives": [
   "https://www.datastory.com.cn/analyst"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：站点返回 468（防护拦截），页面无内容；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 12,
-  "entry_id": "S2-R29-E1",
-  "url": "https://www.datastory.com.cn/analyst",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：站点返回 468（防护拦截），页面无内容",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 2 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

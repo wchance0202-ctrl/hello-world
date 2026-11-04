@@ -12,7 +12,7 @@
  "observed_at": "2026-11-03T10:13:46+00:00",
  "frozen_sha256": "ff0f0220c8e9a890b7f40ca67d262e94e04708a47655259aa7aa73dfbb1de7bd",
  "pattern": "^https://www\\.adquan\\.com/article/[0-9]+$",
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 12,
   "holdout_pos": 6,
@@ -60,5 +60,7 @@
  "full_list_count": 7727,
  "pattern_base": "^https://www\\.adquan\\.com/article/[0-9]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

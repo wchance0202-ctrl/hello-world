@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03；详情在入口路径下，条目增多后可改为 ^https://e\\.newrank\\.cn/marketing/IndustryInformation/[0-9]+$",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:37:04+00:00",
- "pattern": "^(?:https://e\\.newrank\\.cn/marketing/IndustryInformation/13|https://e\\.newrank\\.cn/marketing/IndustryInformation/14|https://e\\.newrank\\.cn/marketing/IndustryInformation/15)$",
- "status": "快照",
+ "pattern": "^https://e\\.newrank\\.cn/marketing/IndustryInformation/[0-9]+$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://e.newrank.cn/marketing/IndustryInformation"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://e\\.newrank\\.cn/marketing/IndustryInformation/13|https://e\\.newrank\\.cn/marketing/IndustryInformation/14|https://e\\.newrank\\.cn/marketing/IndustryInformation/15)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://e\\.newrank\\.cn/marketing/IndustryInformation/[0-9]+$"
 }

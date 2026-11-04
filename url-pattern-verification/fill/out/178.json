@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T10:12:37+00:00",
- "pattern": "^(?:https://www\\.forrester\\.com/blogs/everything\\-is\\-a\\-marketing\\-operating\\-system/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-cmos\\-reckon\\-with\\-an\\-ai\\-reality\\-check/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-the\\-pursuit\\-and\\-peril\\-of\\-control/|https://www\\.forrester\\.com/blogs/the\\-more\\-advertising\\-automates\\-the\\-more\\-creative\\-matters/|https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/|https://www\\.forrester\\.com/event/cx\\-east/|https://www\\.forrester\\.com/event/cx\\-emea/|https://www\\.forrester\\.com/event/cx\\-west/|https://www\\.forrester\\.com/event/sydney\\-forum/|https://www\\.forrester\\.com/webinars/beyond\\-journey\\-mapping\\-put\\-customer\\-insight\\-into\\-action|https://www\\.forrester\\.com/webinars/from\\-experience\\-scores\\-to\\-revenue\\-impact\\-a\\-total\\-experience\\-playbook\\-for\\-growth\\-webinar)$",
- "status": "快照",
+ "pattern": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$\n^https://www\\.forrester\\.com/event/[a-z-]+/$\n^https://www\\.forrester\\.com/webinars/[a-z-]+$\n^(?:https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/)$",
+ "status": "已放宽",
  "members": 11,
  "kept": 11,
  "dropped": [],
@@ -16,7 +16,10 @@
   "https://www.forrester.com/b2c-marketing/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.forrester\\.com/blogs/everything\\-is\\-a\\-marketing\\-operating\\-system/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-cmos\\-reckon\\-with\\-an\\-ai\\-reality\\-check/|https://www\\.forrester\\.com/blogs/predictions\\-2027\\-the\\-pursuit\\-and\\-peril\\-of\\-control/|https://www\\.forrester\\.com/blogs/the\\-more\\-advertising\\-automates\\-the\\-more\\-creative\\-matters/|https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/|https://www\\.forrester\\.com/event/cx\\-east/|https://www\\.forrester\\.com/event/cx\\-emea/|https://www\\.forrester\\.com/event/cx\\-west/|https://www\\.forrester\\.com/event/sydney\\-forum/|https://www\\.forrester\\.com/webinars/beyond\\-journey\\-mapping\\-put\\-customer\\-insight\\-into\\-action|https://www\\.forrester\\.com/webinars/from\\-experience\\-scores\\-to\\-revenue\\-impact\\-a\\-total\\-experience\\-playbook\\-for\\-growth\\-webinar)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 11,
+ "relax_note": "由逐条清单改为通用规则（3 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$\n^https://www\\.forrester\\.com/event/[a-z-]+/$\n^https://www\\.forrester\\.com/webinars/[a-z-]+$\n^(?:https://www\\.forrester\\.com/client\\-stories/sony\\-america\\-data\\-strategy/)$"
 }

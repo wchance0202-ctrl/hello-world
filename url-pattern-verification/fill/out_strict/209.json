@@ -1,0 +1,22 @@
+{
+ "seq": 209,
+ "entry_id": "S1-R87-E2",
+ "url": "https://gp.demandcurve.com/resources",
+ "mode": "snapshot",
+ "basis": "资源页列出 3 个 playbook（/playbooks/{slug}），少于 4 个，逐条列出",
+ "note": "快照 2026-11-03",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T09:25:39+00:00",
+ "pattern": "^(?:https://gp\\.demandcurve\\.com/playbooks/above\\-the\\-fold|https://gp\\.demandcurve\\.com/playbooks/personalization\\-tactics|https://gp\\.demandcurve\\.com/playbooks/tiktok\\-ads\\-guide)$",
+ "status": "快照",
+ "members": 3,
+ "kept": 3,
+ "dropped": [],
+ "negatives": [
+  "https://gp.demandcurve.com/resources"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://gp\\.demandcurve\\.com/playbooks/above\\-the\\-fold|https://gp\\.demandcurve\\.com/playbooks/personalization\\-tactics|https://gp\\.demandcurve\\.com/playbooks/tiktok\\-ads\\-guide)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

@@ -131,7 +131,7 @@
    }
   }
  ],
- "status": "超范围",
+ "status": "已放宽",
  "checks": {
   "families": 2
  },
@@ -139,5 +139,7 @@
  "full_list_count": 1619,
  "pattern_base": "^https://www\\.pewresearch\\.org/[a-z-]+/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$\n^https://www\\.pewresearch\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+/$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "通用规则，会同时匹配同站其他栏目的同类页面",
+ "status_strict": "超范围"
 }

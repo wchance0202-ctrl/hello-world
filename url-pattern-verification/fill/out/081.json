@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03；频道号是栏目标识，条目增多后可改为 ^https://www\\.cheaa\\.org/contents/13/[0-9]+\\.html$。替换上一轮匹配同级频道的错误正则",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:12:15+00:00",
- "pattern": "^(?:https://www\\.cheaa\\.org/contents/13/12994\\.html|https://www\\.cheaa\\.org/contents/13/2418\\.html|https://www\\.cheaa\\.org/contents/13/596\\.html)$",
- "status": "快照",
+ "pattern": "^https://www\\.cheaa\\.org/contents/13/[0-9]+\\.html$",
+ "status": "已放宽",
  "members": 3,
  "kept": 3,
  "dropped": [],
@@ -18,7 +18,10 @@
   "https://www.cheaa.org/contents/5/564.html"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.cheaa\\.org/contents/13/12994\\.html|https://www\\.cheaa\\.org/contents/13/2418\\.html|https://www\\.cheaa\\.org/contents/13/596\\.html)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 3,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.cheaa\\.org/contents/13/[0-9]+\\.html$"
 }

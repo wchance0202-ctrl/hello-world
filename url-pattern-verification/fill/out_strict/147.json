@@ -1,0 +1,23 @@
+{
+ "seq": 147,
+ "entry_id": "S1-R19-E26",
+ "url": "https://www.wipo.int/en/web/country-profiles",
+ "mode": "snapshot",
+ "basis": "复核：浏览器滚动到底后，国家概况页面在入口路径下有 1 个子页面，逐条列出（此前判为单页）",
+ "note": "快照 2026-11-04",
+ "exclusivity": null,
+ "observed_at": "2026-11-04T04:15:57+00:00",
+ "unverified_kept": 0,
+ "pattern": "^(?:https://www\\.wipo\\.int/en/web/country\\-profiles/directory\\-ip\\-offices)$",
+ "status": "快照",
+ "members": 1,
+ "kept": 1,
+ "dropped": [],
+ "negatives": [
+  "https://www.wipo.int/en/web/country-profiles"
+ ],
+ "negatives_matched": [],
+ "pattern_base": "^(?:https://www\\.wipo\\.int/en/web/country\\-profiles/directory\\-ip\\-offices)$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

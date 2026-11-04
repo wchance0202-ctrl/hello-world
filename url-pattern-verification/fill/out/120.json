@@ -13,7 +13,7 @@
  "observed_at": "2026-11-03T09:19:20+00:00",
  "frozen_sha256": "e8c26cd5900cfd85fff5689cc338f235cc205dbbcabe1272be518d968882434a",
  "pattern": "^https://www\\.worldbank\\.org/en/publication/[a-z0-9-]+$",
- "status": "候选",
+ "status": "已放宽",
  "checks": {
   "inference_pos": 7,
   "holdout_pos": 4,
@@ -56,5 +56,7 @@
  ],
  "pattern_base": "^https://www\\.worldbank\\.org/en/publication/[a-z0-9-]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

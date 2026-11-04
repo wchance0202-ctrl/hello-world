@@ -8,8 +8,8 @@
  "exclusivity": null,
  "observed_at": "2026-11-04T04:15:55+00:00",
  "unverified_kept": 0,
- "pattern": "^(?:https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/crisis\\-toolkit|https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/private\\-sector\\-investment\\-lab)$",
- "status": "快照",
+ "pattern": "^https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/[a-z-]+$",
+ "status": "已放宽",
  "members": 2,
  "kept": 2,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://www.worldbank.org/ext/en/what-we-do"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/crisis\\-toolkit|https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/private\\-sector\\-investment\\-lab)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 2,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.worldbank\\.org/ext/en/what\\-we\\-do/[a-z-]+$"
 }

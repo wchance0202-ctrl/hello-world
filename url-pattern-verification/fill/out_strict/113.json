@@ -1,0 +1,22 @@
+{
+ "seq": 113,
+ "entry_id": "S2-R140-E2",
+ "url": "https://www.mob.com/mobSmart/citymap",
+ "mode": "carry",
+ "basis": "城市地图页的报告下载链接（文件 CDN 子域 PDF，页面上 2 个链接是同一文件的编码/未编码两种写法）",
+ "note": "该 PDF 现在返回 404（文件已失效）",
+ "exclusivity": null,
+ "observed_at": "2026-11-03T10:32:35+00:00",
+ "pattern": "^https://cdn\\-static\\-oss\\.mob\\.com/pdf/MobTech%E5%95%86%E4%B8%9A%E5%9C%B0%E4%BA%A7%E5%A4%A7%E6%95%B0%E6%8D%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%A1%86%E6%9E%B6\\.pdf$",
+ "status": "候选",
+ "carried_from": null,
+ "checks": {
+  "members": 0,
+  "pos_fail": [],
+  "neg": 0,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://cdn\\-static\\-oss\\.mob\\.com/pdf/MobTech%E5%95%86%E4%B8%9A%E5%9C%B0%E4%BA%A7%E5%A4%A7%E6%95%B0%E6%8D%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%A1%86%E6%9E%B6\\.pdf$",
+ "redirect_extra": [],
+ "redirect_skipped": []
+}

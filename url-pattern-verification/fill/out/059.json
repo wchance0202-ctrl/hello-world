@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T09:03:43+00:00",
  "pattern": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/annual\\-revenue\\-over\\-6\\-billion\\-secret\\-hot\\-pot\\-restaurant\\-operation)$",
- "status": "快照",
+ "status": "已放宽",
  "members": 1,
  "kept": 1,
  "dropped": [],
@@ -18,7 +18,10 @@
   "https://www.linkflowtech.com/customer-cases/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/annual\\-revenue\\-over\\-6\\-billion\\-secret\\-hot\\-pot\\-restaurant\\-operation)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 1,
+ "relax_note": "保留逐条清单（站外条目或无法归纳）",
+ "status_strict": "快照",
+ "pattern_base": "^(?:https://www\\.linkflowtech\\.com/customer\\-cases/annual\\-revenue\\-over\\-6\\-billion\\-secret\\-hot\\-pot\\-restaurant\\-operation)$"
 }

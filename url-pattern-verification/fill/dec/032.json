@@ -2,20 +2,17 @@
  "seq": 32,
  "entry_id": "S2-R50-E1",
  "url": "https://www.vzkoo.com/question",
- "mode": "selfpage",
- "pages": [
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.vzkoo\\.com/question/[0-9]+$\n^https://www\\.vzkoo\\.com/question/[0-9a-f]+\\.html$",
+ "members": [
+  "https://www.vzkoo.com/question/1700111166338094",
+  "https://www.vzkoo.com/question/1160790353280001b0d6aa3101fd.html",
+  "https://www.vzkoo.com/question/1668952753"
+ ],
+ "negatives": [
   "https://www.vzkoo.com/question"
  ],
- "label": "仅入口页（访问受限）",
- "no_fetch": true,
- "basis": "2026-11-03 复查：站点返回 403；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 32,
-  "entry_id": "S2-R50-E1",
-  "url": "https://www.vzkoo.com/question",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：站点返回 403",
-  "note": "访问受限"
- }
+ "basis": "站点拦截本环境访问，按搜索引擎收录的真实网址写正则（样本 3 个，RE2 实测全部匹配，入口页不匹配）",
+ "note": "样本网址未能在本环境打开核验"
 }

@@ -8,7 +8,7 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T10:13:33+00:00",
  "pattern": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_-]+$",
- "status": "候选",
+ "status": "已放宽",
  "carried_from": null,
  "checks": {
   "members": 12,
@@ -18,5 +18,7 @@
  },
  "pattern_base": "^https://www\\.wipo\\.int/en/web/wipolex/w/news/[0-9]+/[a-z0-9_-]+$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "relax_note": "规则按真实网址结构写成，部分样本未能打开核验",
+ "status_strict": "候选"
 }

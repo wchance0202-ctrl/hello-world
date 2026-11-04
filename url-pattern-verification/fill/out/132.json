@@ -7,8 +7,8 @@
  "note": "快照 2026-11-03",
  "exclusivity": null,
  "observed_at": "2026-11-03T09:23:37+00:00",
- "pattern": "^(?:https://www\\.itu\\.int/en/ITU\\-D/Pages/About\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Circulars\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Regional\\-Presence\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Resolutions\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Videos\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/itu\\-d\\-news\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/itu\\-d\\-publications\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/regional\\-initiatives\\-2026\\-2029\\.aspx)$",
- "status": "快照",
+ "pattern": "^https://www\\.itu\\.int/en/ITU\\-D/Pages/[a-zA-Z0-9-]+\\.aspx$",
+ "status": "已放宽",
  "members": 8,
  "kept": 8,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://www.itu.int/en/ITU-R/Pages/default.aspx"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://www\\.itu\\.int/en/ITU\\-D/Pages/About\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Circulars\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Regional\\-Presence\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Resolutions\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/Videos\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/itu\\-d\\-news\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/itu\\-d\\-publications\\.aspx|https://www\\.itu\\.int/en/ITU\\-D/Pages/regional\\-initiatives\\-2026\\-2029\\.aspx)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 8,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面，也匹配入口页本身",
+ "status_strict": "快照",
+ "pattern_base": "^https://www\\.itu\\.int/en/ITU\\-D/Pages/[a-zA-Z0-9-]+\\.aspx$"
 }

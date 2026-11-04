@@ -8,8 +8,8 @@
  "exclusivity": null,
  "observed_at": "2026-11-03T10:32:35+00:00",
  "unverified_kept": 0,
- "pattern": "^(?:https://growthhackers\\.com/growth\\-hacking/branded\\-vs\\-non\\-branded\\-keywords/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-all\\-you\\-need\\-to\\-know/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-the\\-new\\-battleground/|https://growthhackers\\.com/growth\\-hacking/the\\-growth\\-problems\\-youre\\-tired\\-of\\-and\\-the\\-system\\-we\\-built\\-to\\-end\\-them/)$",
- "status": "快照",
+ "pattern": "^https://growthhackers\\.com/growth\\-hacking/[a-z-]+/$",
+ "status": "已放宽",
  "members": 4,
  "kept": 4,
  "dropped": [],
@@ -17,7 +17,10 @@
   "https://growthhackers.com/opinions/"
  ],
  "negatives_matched": [],
- "pattern_base": "^(?:https://growthhackers\\.com/growth\\-hacking/branded\\-vs\\-non\\-branded\\-keywords/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-all\\-you\\-need\\-to\\-know/|https://growthhackers\\.com/growth\\-hacking/llm\\-rankings\\-the\\-new\\-battleground/|https://growthhackers\\.com/growth\\-hacking/the\\-growth\\-problems\\-youre\\-tired\\-of\\-and\\-the\\-system\\-we\\-built\\-to\\-end\\-them/)$",
  "redirect_extra": [],
- "redirect_skipped": []
+ "redirect_skipped": [],
+ "full_list_count": 4,
+ "relax_note": "由逐条清单改为通用规则（1 条），会同时匹配同站同结构的其他页面",
+ "status_strict": "快照",
+ "pattern_base": "^https://growthhackers\\.com/growth\\-hacking/[a-z-]+/$"
 }
