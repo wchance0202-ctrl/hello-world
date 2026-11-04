@@ -2,20 +2,17 @@
  "seq": 45,
  "entry_id": "S2-R65-E3",
  "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-report",
- "mode": "selfpage",
- "pages": [
-  "https://creator.douyin.com/creator-micro/creator-count/arithmetic-report"
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://creator\\.douyin\\.com/creator\\-micro/creator\\-count/arithmetic\\-report$\n^https://trendinsight\\.oceanengine\\.com/arithmetic\\-report/detail/[0-9]+$",
+ "members": [
+  "https://trendinsight.oceanengine.com/arithmetic-report/detail/947",
+  "https://trendinsight.oceanengine.com/arithmetic-report/detail/582",
+  "https://trendinsight.oceanengine.com/arithmetic-report/detail/992"
  ],
- "label": "仅入口页（需登录）",
- "no_fetch": false,
- "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目；下级内容需登录，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 45,
-  "entry_id": "S2-R65-E3",
-  "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-report",
-  "mode": "empty",
-  "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目",
-  "note": "需登录，未验证"
- }
+ "negatives": [
+  "https://trendinsight.oceanengine.com/arithmetic-report"
+ ],
+ "basis": "抖音指数由巨量算数迁移而来，算数报告详情在原域名 trendinsight.oceanengine.com/arithmetic-report/detail/{数字}（搜索引擎收录样本 3 个，打开 detail/947 返回 200）；第一行是入口页本身（需登录）",
+ "note": "报告详情在原巨量算数域名下"
 }

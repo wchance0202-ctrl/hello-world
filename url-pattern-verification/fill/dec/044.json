@@ -6,16 +6,8 @@
  "pages": [
   "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis"
  ],
- "label": "仅入口页（需登录）",
- "no_fetch": false,
- "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目；下级内容需登录，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 44,
-  "entry_id": "S2-R65-E2",
-  "url": "https://creator.douyin.com/creator-micro/creator-count/vertical-analysis",
-  "mode": "empty",
-  "basis": "抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目",
-  "note": "需登录，未验证"
- }
+ "label": "单页",
+ "no_fetch": true,
+ "basis": "抖音指数的垂类分析工具页，结果按选择动态生成，没有固定的条目网址，正则写本页地址",
+ "note": ""
 }

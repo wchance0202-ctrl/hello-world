@@ -6,16 +6,8 @@
  "pages": [
   "https://www.qixin.com/pay/vip"
  ],
- "label": "仅入口页（访问受限）",
+ "label": "单页",
  "no_fetch": true,
- "basis": "2026-11-03 复查：站点返回 451；该页为 VIP 付费页，需登录；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 109,
-  "entry_id": "S2-R134-E1",
-  "url": "https://www.qixin.com/pay/vip",
-  "mode": "empty",
-  "basis": "2026-11-03 复查：站点返回 451；该页为 VIP 付费页，需登录",
-  "note": "访问受限/需登录"
- }
+ "basis": "启信宝 VIP 付费介绍页，没有栏目内容，正则写本页地址（站点拦截本环境，未能打开）",
+ "note": ""
 }

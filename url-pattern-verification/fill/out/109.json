@@ -3,12 +3,12 @@
  "entry_id": "S2-R134-E1",
  "url": "https://www.qixin.com/pay/vip",
  "mode": "selfpage",
- "basis": "2026-11-03 复查：站点返回 451；该页为 VIP 付费页，需登录；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
+ "basis": "启信宝 VIP 付费介绍页，没有栏目内容，正则写本页地址（站点拦截本环境，未能打开）",
  "note": "",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:47+00:00",
+ "observed_at": "2026-11-04T06:24:39+00:00",
  "pattern": "^https://www\\.qixin\\.com/pay/vip$",
- "status": "仅入口页（访问受限）",
+ "status": "单页",
  "pages": [
   "https://www.qixin.com/pay/vip"
  ],

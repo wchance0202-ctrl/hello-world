@@ -6,16 +6,8 @@
  "pages": [
   "https://www.hibor.com.cn/favorites.html"
  ],
- "label": "仅入口页（需登录）",
- "no_fetch": false,
- "basis": "我的收藏：个人中心或功能页，内容需登录；页面主体只有全站研报分类菜单（/microns_13.html 等，每个页面都一样），没有本栏目条目；下级内容需登录，正则只写入口页精确地址",
- "note": "",
- "prev": {
-  "seq": 19,
-  "entry_id": "S2-R41-E2",
-  "url": "https://www.hibor.com.cn/favorites.html",
-  "mode": "empty",
-  "basis": "我的收藏：个人中心或功能页，内容需登录；页面主体只有全站研报分类菜单（/microns_13.html 等，每个页面都一样），没有本栏目条目",
-  "note": "需登录，无可收录条目"
- }
+ "label": "单页",
+ "no_fetch": true,
+ "basis": "慧博「我的收藏」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址",
+ "note": ""
 }

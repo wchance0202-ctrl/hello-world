@@ -2,18 +2,21 @@
  "seq": 259,
  "entry_id": "S1-R152-E3",
  "url": "https://dealroom.co/resources",
- "mode": "selfpage",
- "basis": "2026-11-03 复查：Cloudflare 验证页；站点拦截本环境访问，下级条目无法取得，正则只写入口页精确地址",
- "note": "",
+ "mode": "carry",
+ "basis": "站点拦截本环境访问，按搜索引擎收录的资源页网址 /resources/{slug} 写正则（样本 1 个）",
+ "note": "样本网址未能在本环境打开核验；资源页还包括知识库 knowledge.dealroom.co（另一子域，未纳入）",
  "exclusivity": null,
- "observed_at": "2026-11-03T10:00:54+00:00",
- "pattern": "^https://dealroom\\.co/resources$",
- "status": "仅入口页（访问受限）",
- "pages": [
-  "https://dealroom.co/resources"
- ],
- "landing": [],
- "pattern_base": "^https://dealroom\\.co/resources$",
+ "observed_at": "2026-11-04T06:24:40+00:00",
+ "pattern": "^https://dealroom\\.co/resources/[a-z0-9-]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 1,
+  "pos_fail": [],
+  "neg": 1,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://dealroom\\.co/resources/[a-z0-9-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }
