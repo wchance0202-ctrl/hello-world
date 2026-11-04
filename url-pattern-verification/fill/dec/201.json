@@ -2,20 +2,18 @@
  "seq": 201,
  "entry_id": "S1-R71-E3",
  "url": "https://www.ana.net/membership",
- "mode": "selfpage",
- "pages": [
-  "https://www.ana.net/membership"
+ "mode": "carry",
+ "status": "已放宽",
+ "pattern": "^https://www\\.ana\\.net/membership$\n^https://www\\.ana\\.net/content/show/id/ana\\-membership\\-[a-z0-9-]+$",
+ "members": [
+  "https://www.ana.net/membership",
+  "https://www.ana.net/content/show/id/ana-membership-msp-benefits",
+  "https://www.ana.net/content/show/id/ana-membership-nonprofit-federation",
+  "https://www.ana.net/content/show/id/ana-membership-msp-silver"
  ],
- "label": "单页",
- "no_fetch": false,
- "basis": "会员介绍页，主体只有少量站内导航链接；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
- "note": "",
- "prev": {
-  "seq": 201,
-  "entry_id": "S1-R71-E3",
-  "url": "https://www.ana.net/membership",
-  "mode": "empty",
-  "basis": "会员介绍页，主体只有少量站内导航链接",
-  "note": "单页，无下级条目"
- }
+ "negatives": [
+  "https://www.ana.net/content/show/id/member-training-benefit"
+ ],
+ "basis": "复核：会员页下有各类会员权益子页，地址统一为 /content/show/id/ana-membership-{类别}（搜索引擎收录样本 3 个），“ana-membership-”写成固定值",
+ "note": "此前判为单页"
 }

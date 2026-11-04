@@ -1,4 +1,4 @@
-# 任务：补全和复核 56 个栏目链接的 URL 正则
+# 任务：补全和复核 49 个栏目链接的 URL 正则
 
 > 使用说明：把这份 prompt 和 `unfinished.xlsx` 一起交给执行任务的 AI。
 >
@@ -13,13 +13,13 @@
 
 我们维护一张表，四列是「站点名称｜pattern链接｜黑白名单属性｜正则表达式」。每一行的「pattern链接」是一个栏目入口，「正则表达式」要写成能匹配这个栏目下页面的规则。
 
-表里有 56 行需要你处理，清单见文末附录和 `unfinished.xlsx`（「类别」列）。分三类：
+表里有 49 行需要你处理，清单见文末附录和 `unfinished.xlsx`（「类别」列）。分三类：
 
 | 类别 | 行数 | 现在的情况 | 要你做什么 |
 |---|---|---|---|
-| **A 未完成** | 20 | 被网站拦截且搜索不到条目网址（8：微播易 2、光伏协会、启信宝 2、Dealroom resources / power-law-outcomes / tech-macro-economics）、需登录（11：慧博 5、千牛 2、抖音创作者中心 3、蝉妈妈 1）、页面 404（1：B 站案例） | 用正常身份或授权账号打开，按全流程补出正则 |
-| **B 单页待复核** | 27 | 判断为没有下级内容的单页，只写了本页地址 | 复核是否真的没有下级条目；有就补正则 |
-| **E 已验证但有保留** | 9 | 正则已验证，但样本只来自首屏卡片（翻页控件无法用脚本点击）等 | 翻页补样本后重新验证 |
+| **A 未完成** | 6 | 微播易 2 行（本环境网络策略拒绝访问）、光伏协会 1 行（网站证书链有问题）、千牛头条 2 行（需商家账号登录）、B 站案例页 1 行（栏目已撤下，旧地址全部 404） | 用正常身份或授权账号打开，按全流程补出正则；B 站一行确认是否有新地址 |
+| **B 单页待复核** | 36 | 判断为没有下级内容的单页（功能页、产品介绍页、工具页、单份报告页等），只写了本页地址 | 复核是否真的没有下级条目；有就补正则 |
+| **E 已验证但有保留** | 7 | 正则已验证，但样本只来自首屏卡片（翻页控件无法用脚本点击）等 | 翻页补样本后重新验证 |
 
 其余行已经有可用的正则（状态“已验证”或“已放宽”），不需要处理。
 
@@ -148,7 +148,7 @@
 
 ## 7. 交付格式
 
-交付一张 xlsx 表，按附录的**序号顺序**排列（只需要这 56 行），列为：
+交付一张 xlsx 表，按附录的**序号顺序**排列（只需要这 49 行），列为：
 
 | 序号 | 站点名称 | pattern链接 | 黑白名单属性 | 正则表达式 | 状态 | 依据 | 备注 | 是否修改 |
 |---|---|---|---|---|---|---|---|---|
@@ -169,7 +169,7 @@
 
 ## 8. 交付前自查
 
-- [ ] 附录里的 56 行都有结论，一个不少；没有修改的行写明“复核：维持原结果”和依据。
+- [ ] 附录里的 49 行都有结论，一个不少；没有修改的行写明“复核：维持原结果”和依据。
 - [ ] 每条正则都以 `^` 开头、以 `$` 结尾，RE2 能编译，没有 `.*`、前瞻、后顾或反向引用。
 - [ ] 没有一条正则会匹配入口页本身、同级栏目页或别的栏目的页面，除非状态是“超范围”并已注明。
 - [ ] 栏目标识（catid、type、频道号等）都写成了固定值。
@@ -178,39 +178,36 @@
 - [ ] 最后用一段话汇报，并**分状态计数**，写明还剩哪些没做成以及原因。
 
 
-## 附录：需要处理的 56 行（按原表顺序）
+## 附录：需要处理的 49 行（按原表顺序）
 
 完整字段（当前正则、不确定在哪里）见随附的 `unfinished.xlsx`。
 
 | 序号 | 类别 | 站点名称 | pattern链接 | 当前状态 | 不确定在哪里 / 线索 |
 |---|---|---|---|---|---|
-| 9 | B 单页待复核 | 头豹研究院 | https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue | 单页 | 详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条 |
 | 16 | B 单页待复核 | 研报客 | https://www.yanbaoke.com/openclaw | 单页 |  |
 | 17 | B 单页待复核 | 研报客 | https://www.yanbaoke.com/ai-searches | 单页 |  |
-| 18 | A 未完成 | 慧博投研资讯 | https://www.hibor.com.cn/registerm.html | 仅入口页（需登录） |  |
-| 19 | A 未完成 | 慧博投研资讯 | https://www.hibor.com.cn/favorites.html | 仅入口页（需登录） |  |
-| 20 | A 未完成 | 慧博投研资讯 | https://www.hibor.com.cn/docupload.html | 仅入口页（需登录） |  |
-| 21 | A 未完成 | 慧博投研资讯 | https://www.hibor.com.cn/docupload_mag.html | 仅入口页（需登录） |  |
-| 22 | A 未完成 | 慧博投研资讯 | https://www.hibor.com.cn/wnote.html | 仅入口页（需登录） |  |
+| 18 | B 单页待复核 | 慧博投研资讯 | https://www.hibor.com.cn/registerm.html | 单页 |  |
+| 19 | B 单页待复核 | 慧博投研资讯 | https://www.hibor.com.cn/favorites.html | 单页 |  |
+| 20 | B 单页待复核 | 慧博投研资讯 | https://www.hibor.com.cn/docupload.html | 单页 |  |
+| 21 | B 单页待复核 | 慧博投研资讯 | https://www.hibor.com.cn/docupload_mag.html | 单页 |  |
+| 22 | B 单页待复核 | 慧博投研资讯 | https://www.hibor.com.cn/wnote.html | 单页 |  |
 | 24 | E 已验证但有保留 | 沙利文中国（Frost & Sullivan） | https://www.frostchina.com/content/whitepaper-store?page=1 | 已验证 | 条目是按钮没有 URL，正则只覆盖列表页；需确认条目是否真的没有独立地址 |
 | 26 | B 单页待复核 | 甲子光年 | https://www.jazzyear.com/member_benefits.html | 单页 |  |
 | 33 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/news | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 34 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/report | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 35 | E 已验证但有保留 | 磁力引擎 | https://e.kuaishou.com/#/e/cases | 已验证 | 样本只来自首屏卡片，末段 /1 只见过一个取值 |
 | 37 | E 已验证但有保留 | 阿里妈妈 | https://www.alimama.com/index.htm#!/marketing-case/index | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
-| 39 | E 已验证但有保留 | 哔哩哔哩营销 | https://e.bilibili.com/main/observe | 已验证 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
 | 40 | A 未完成 | 哔哩哔哩营销 | https://e.bilibili.com/case/ | 留空 | /case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址 |
 | 41 | A 未完成 | 千牛头条 | https://qn.taobao.com/headline/news | 仅入口页（需登录） |  |
 | 42 | A 未完成 | 千牛头条 | https://qn.taobao.com/headline/course | 仅入口页（需登录） |  |
-| 43 | A 未完成 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-index | 仅入口页（需登录） |  |
-| 44 | A 未完成 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/vertical-analysis | 仅入口页（需登录） |  |
-| 45 | A 未完成 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-report | 仅入口页（需登录） |  |
+| 43 | B 单页待复核 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/arithmetic-index | 单页 |  |
+| 44 | B 单页待复核 | 抖音指数（原巨量算数） | https://creator.douyin.com/creator-micro/creator-count/vertical-analysis | 单页 |  |
 | 46 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/ecological | 单页 |  |
 | 47 | B 单页待复核 | 京洞察（京东） | https://survey.jd.com/page/edition | 单页 |  |
 | 50 | B 单页待复核 | Morketing | https://www.morketing.com/ecosystem | 单页 |  |
 | 77 | B 单页待复核 | 中国互联网协会（ISC） | https://www.isc.org.cn/article/10360020493839808.html | 单页 |  |
 | 80 | A 未完成 | 中国光伏行业协会（CPIA） | https://www.chinapv.org.cn/StaticPage/Building/list50_1.html | 仅入口页（访问受限） |  |
-| 86 | A 未完成 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 仅入口页（需登录） |  |
+| 86 | B 单页待复核 | 蝉妈妈 | https://www.chanmama.com/douyin/ | 单页 |  |
 | 88 | A 未完成 | 微播易 | https://www.weiboyi.com/report | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 89 | A 未完成 | 微播易 | https://www.weiboyi.com/meeting | 仅入口页（访问受限） | 此前是本环境网络策略拒绝，不是网站拦截 |
 | 97 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/business/#jump | 单页 |  |
@@ -218,14 +215,12 @@
 | 99 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/screen/#jump | 单页 |  |
 | 100 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/publication#jump | 单页 |  |
 | 101 | B 单页待复核 | 分众传媒 | https://www.focusmedia.cn/aiad/#jump | 单页 |  |
-| 106 | B 单页待复核 | AppGrowing | https://docs.appgrowing.net/zh/#reports | 单页 |  |
 | 107 | B 单页待复核 | 神策数据 | https://www.sensorsdata.cn/target_disassembly.html | 单页 |  |
 | 108 | E 已验证但有保留 | 神策数据 | https://www.sensorsdata.cn/researchInstitute.html | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
-| 109 | A 未完成 | 启信宝 | https://www.qixin.com/pay/vip | 仅入口页（访问受限） |  |
-| 110 | A 未完成 | 启信宝 | https://www.qixin.com/app-center/ | 仅入口页（访问受限） |  |
+| 109 | B 单页待复核 | 启信宝 | https://www.qixin.com/pay/vip | 单页 |  |
+| 110 | B 单页待复核 | 启信宝 | https://www.qixin.com/app-center/ | 单页 |  |
 | 111 | E 已验证但有保留 | incoPat | https://learn.incopat.com/#/ | 已验证 | 样本只来自首屏卡片（翻页控件对脚本点击无效） |
 | 112 | B 单页待复核 | MobTech | https://www.mob.com/mobdata/report | 单页 | 报告 PDF 在 cdn-static-oss.mob.com，曾返回 404 |
-| 116 | E 已验证但有保留 | 新榜智汇 | https://geo.newrank.cn/news | 已验证 | 列表共 99 页，样本只来自前两页 |
 | 134 | B 单页待复核 | WIPO（世界知识产权组织） | https://www.wipo.int/en/web/ip-resources | 单页 |  |
 | 148 | B 单页待复核 | WIPO（世界知识产权组织） | https://www3.wipo.int/madrid/monitor/en/ | 单页 |  |
 | 152 | B 单页待复核 | EPO（欧洲专利局） | https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results | 单页 |  |
@@ -233,10 +228,8 @@
 | 164 | B 单页待复核 | FutureBrand | https://www.futurebrand.com/contact-us | 单页 |  |
 | 192 | B 单页待复核 | TikTok Creative Center | https://ads.tiktok.com/creative/creativeCenter | 单页 |  |
 | 196 | B 单页待复核 | ESOMAR | https://esomar.org/resources/glossary | 单页 |  |
-| 201 | B 单页待复核 | ANA 美国广告主协会 | https://www.ana.net/membership | 单页 |  |
 | 202 | B 单页待复核 | AMA 美国市场营销协会 | https://www.ama.org/job-boards-join-our-team/ | 单页 |  |
 | 210 | B 单页待复核 | DPAA | https://dpaaglobal.com/omnichannel-study/ | 单页 |  |
 | 257 | B 单页待复核 | CB Insights | https://www.cbinsights.com/strategy-terminal/ | 单页 |  |
-| 259 | A 未完成 | Dealroom | https://dealroom.co/resources | 仅入口页（访问受限） |  |
-| 264 | A 未完成 | Dealroom | https://dealroom.co/power-law-outcomes/ | 仅入口页（访问受限） |  |
-| 265 | A 未完成 | Dealroom | https://dealroom.co/tech-macro-economics/ | 仅入口页（访问受限） |  |
+| 264 | B 单页待复核 | Dealroom | https://dealroom.co/power-law-outcomes/ | 单页 |  |
+| 265 | B 单页待复核 | Dealroom | https://dealroom.co/tech-macro-economics/ | 单页 |  |

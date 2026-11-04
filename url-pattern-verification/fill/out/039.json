@@ -4,50 +4,113 @@
  "url": "https://e.bilibili.com/main/observe",
  "mode": "regex",
  "basis": "情况 A：营销观察文章 /main/observe/{拼音slug}，浏览器点击首屏卡片取样",
- "note": "样本只来自首屏卡片；2026-11-04 尝试点第 2 页，列表内容未变化（翻页控件对脚本点击无效），未取得新样本",
+ "note": "旧地址 /cms/observes/{slug}/ 仍可打开（搜索引擎收录），另列一条规则",
  "exclusivity": {
   "proved": true,
   "evidence": "条目在入口路径 /main/observe/ 之下（情况 A），由点击卡片取得"
  },
- "observed_at": "2026-11-03T09:11:13+00:00",
- "frozen_sha256": "b11e07b95afb0179f78e381af5b2550ae9395079a977240d126c87e5be73f60a",
- "pattern": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$",
- "status": "已验证",
+ "observed_at": "2026-11-04T06:26:51+00:00",
+ "pattern": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$\n^https://e\\.bilibili\\.com/cms/observes/[a-z0-9-]+/$",
+ "families": [
+  {
+   "frozen_sha256": "3566545697692d00739f84c5ce7ca21e4c4ff9805e19bebdd855522eba5c3c33",
+   "pattern": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$",
+   "status": "已验证",
+   "checks": {
+    "inference_pos": 7,
+    "holdout_pos": 2,
+    "holdout_neg": 6,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 9
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://e.bilibili.com/main/observe/2022shang-ban-nian-che-quan-zai-bzhan-juan-qi-lai-liao",
+     "https://e.bilibili.com/main/observe/he-2-2yi-nian-qing-ren-yi-qi-shou-hu-jie-fang-xi-wo-er-wo-zen-yang-jue-jin-bzhan-bao-cang-ip",
+     "https://e.bilibili.com/main/observe/hua-huo-sheng-ji-6da-ping-tai-neng-li-rang-nei-rong-he-zuo-geng-gao-xiao",
+     "https://e.bilibili.com/main/observe/kai-nian-shua-ping-de-mai-dang-lao-xin-dan-shi-zen-yang-zai-bzhan-da-bao-de",
+     "https://e.bilibili.com/main/observe/ken-de-ji-zai-bzhan-zan-liao-ge-ju-zhi-pian-ren-lao-gong-lao-po-he-ni-yi-qi-yun-beng-di",
+     "https://e.bilibili.com/main/observe/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo",
+     "https://e.bilibili.com/main/observe/zen-yang-zai-she-qu-zao-feng-bzhan-zhao-ji-ling-sheng-ji-liao"
+    ],
+    "holdout_pos": [
+     "https://e.bilibili.com/main/observe/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian",
+     "https://e.bilibili.com/main/observe/zai-bzhan-wan-mo-ren-zhong-ce-sisleyru-he-yong-chan-pin-da-dong-nian-qing-ren"
+    ],
+    "holdout_neg": [
+     "https://e.bilibili.com/main/observe",
+     "https://e.bilibili.com/partner",
+     "https://e.bilibili.com/case/",
+     "https://e.bilibili.com/cms/observes/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo/",
+     "https://e.bilibili.com/cms/observes/zai-bzhan-wan-mo-ren-zhong-ce-sisleyru-he-yong-chan-pin-da-dong-nian-qing-ren/",
+     "https://e.bilibili.com/cms/observes/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian/"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "条目在入口路径 /main/observe/ 之下（情况 A），由点击卡片取得"
+   }
+  },
+  {
+   "frozen_sha256": "0ca1959bdd868f78cee01a30cbe61d836e7dfe5ae73c2342278ffa11ae70d58a",
+   "pattern": "^https://e\\.bilibili\\.com/cms/observes/[a-z0-9-]+/$",
+   "status": "候选",
+   "checks": {
+    "inference_pos": 3,
+    "holdout_pos": 0,
+    "holdout_neg": 9,
+    "all_pass": true,
+    "coverage_missed": [],
+    "coverage_members": 3
+   },
+   "failures": [],
+   "identity_excluded": [],
+   "frozen": {
+    "inference": [
+     "https://e.bilibili.com/cms/observes/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian/",
+     "https://e.bilibili.com/cms/observes/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo/",
+     "https://e.bilibili.com/cms/observes/zai-bzhan-wan-mo-ren-zhong-ce-sisleyru-he-yong-chan-pin-da-dong-nian-qing-ren/"
+    ],
+    "holdout_pos": [],
+    "holdout_neg": [
+     "https://e.bilibili.com/main/observe",
+     "https://e.bilibili.com/partner",
+     "https://e.bilibili.com/case/",
+     "https://e.bilibili.com/main/observe/2022shang-ban-nian-che-quan-zai-bzhan-juan-qi-lai-liao",
+     "https://e.bilibili.com/main/observe/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian",
+     "https://e.bilibili.com/main/observe/he-2-2yi-nian-qing-ren-yi-qi-shou-hu-jie-fang-xi-wo-er-wo-zen-yang-jue-jin-bzhan-bao-cang-ip",
+     "https://e.bilibili.com/main/observe/hua-huo-sheng-ji-6da-ping-tai-neng-li-rang-nei-rong-he-zuo-geng-gao-xiao",
+     "https://e.bilibili.com/main/observe/kai-nian-shua-ping-de-mai-dang-lao-xin-dan-shi-zen-yang-zai-bzhan-da-bao-de",
+     "https://e.bilibili.com/main/observe/ken-de-ji-zai-bzhan-zan-liao-ge-ju-zhi-pian-ren-lao-gong-lao-po-he-ni-yi-qi-yun-beng-di"
+    ],
+    "holdout_source": "listing_split"
+   },
+   "engine": {
+    "name": "google-re2"
+   },
+   "exclusivity": {
+    "proved": true,
+    "evidence": "条目在入口路径 /main/observe/ 之下（情况 A），由点击卡片取得"
+   },
+   "why_not_verified": [
+    "无留出正例"
+   ]
+  }
+ ],
+ "status": "已放宽",
  "checks": {
-  "inference_pos": 7,
-  "holdout_pos": 2,
-  "holdout_neg": 3,
-  "all_pass": true,
-  "coverage_missed": [],
-  "coverage_members": 9
+  "families": 2
  },
- "failures": [],
- "identity_excluded": [],
- "frozen": {
-  "inference": [
-   "https://e.bilibili.com/main/observe/2022shang-ban-nian-che-quan-zai-bzhan-juan-qi-lai-liao",
-   "https://e.bilibili.com/main/observe/2022shang-ban-nian-pan-dian-zhe-10ge-bzhan-upzhu-qia-fan-shi-pin-hao-xiang-zai-kan-yi-bian",
-   "https://e.bilibili.com/main/observe/kai-nian-shua-ping-de-mai-dang-lao-xin-dan-shi-zen-yang-zai-bzhan-da-bao-de",
-   "https://e.bilibili.com/main/observe/ken-de-ji-zai-bzhan-zan-liao-ge-ju-zhi-pian-ren-lao-gong-lao-po-he-ni-yi-qi-yun-beng-di",
-   "https://e.bilibili.com/main/observe/xin-rui-pin-pai-zhui-mi-zai-bzhan-hao-nei-rong-zi-ran-neng-dai-huo",
-   "https://e.bilibili.com/main/observe/zai-bzhan-wan-mo-ren-zhong-ce-sisleyru-he-yong-chan-pin-da-dong-nian-qing-ren",
-   "https://e.bilibili.com/main/observe/zen-yang-zai-she-qu-zao-feng-bzhan-zhao-ji-ling-sheng-ji-liao"
-  ],
-  "holdout_pos": [
-   "https://e.bilibili.com/main/observe/he-2-2yi-nian-qing-ren-yi-qi-shou-hu-jie-fang-xi-wo-er-wo-zen-yang-jue-jin-bzhan-bao-cang-ip",
-   "https://e.bilibili.com/main/observe/hua-huo-sheng-ji-6da-ping-tai-neng-li-rang-nei-rong-he-zuo-geng-gao-xiao"
-  ],
-  "holdout_neg": [
-   "https://e.bilibili.com/main/observe",
-   "https://e.bilibili.com/partner",
-   "https://e.bilibili.com/case/"
-  ],
-  "holdout_source": "listing_split"
- },
- "engine": {
-  "name": "google-re2"
- },
- "pattern_base": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$",
+ "why_not_verified": null,
+ "relax_note": "第一条已验证；第二条是搜索引擎收录的旧地址 /cms/observes/{slug}/（3 个样本均可打开），样本不足 4 个，按放宽标准采用",
+ "pattern_base": "^https://e\\.bilibili\\.com/main/observe/[a-z0-9-]+$\n^https://e\\.bilibili\\.com/cms/observes/[a-z0-9-]+/$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

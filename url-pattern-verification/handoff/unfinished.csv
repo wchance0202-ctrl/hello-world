@@ -1,12 +1,11 @@
 ﻿序号,类别,站点名称,pattern链接,当前状态,当前正则,不确定在哪里,要做什么
-9,B 单页待复核,头豹研究院,https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue,单页,^https://www\.leadleo\.com/wiki/getLeadleoIndustryCatelogue$,页面只显示行业分类和数量，没有条目链接（分类点击后的内容未登录不可见）；线索：详情结构已知：/wiki/topic/{24位十六进制}、/video/details/{…}、/article/details/{…}、/report/details/{…}；未登录只显示 5 条,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 16,B 单页待复核,研报客,https://www.yanbaoke.com/openclaw,单页,^https://www\.yanbaoke\.com/openclaw$,单页产品介绍页（研报客 skills × OpenClaw），页面上没有本栏目条目链接，只有一个站外链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 17,B 单页待复核,研报客,https://www.yanbaoke.com/ai-searches,单页,^https://www\.yanbaoke\.com/ai\-searches$,AI 助手功能页，页面上没有任何条目链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
-18,A 未完成,慧博投研资讯,https://www.hibor.com.cn/registerm.html,仅入口页（需登录）,^https://www\.hibor\.com\.cn/registerm\.html$,注册页：个人中心或功能页，内容需登录,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-19,A 未完成,慧博投研资讯,https://www.hibor.com.cn/favorites.html,仅入口页（需登录）,^https://www\.hibor\.com\.cn/favorites\.html$,我的收藏：个人中心或功能页，内容需登录,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-20,A 未完成,慧博投研资讯,https://www.hibor.com.cn/docupload.html,仅入口页（需登录）,^https://www\.hibor\.com\.cn/docupload\.html$,我的云文档：个人中心或功能页，内容需登录,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-21,A 未完成,慧博投研资讯,https://www.hibor.com.cn/docupload_mag.html,仅入口页（需登录）,^https://www\.hibor\.com\.cn/docupload_mag\.html$,云文档管理：个人中心或功能页，内容需登录,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-22,A 未完成,慧博投研资讯,https://www.hibor.com.cn/wnote.html,仅入口页（需登录）,^https://www\.hibor\.com\.cn/wnote\.html$,我的云笔记：个人中心或功能页，内容需登录,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
+18,B 单页待复核,慧博投研资讯,https://www.hibor.com.cn/registerm.html,单页,^https://www\.hibor\.com\.cn/registerm\.html$,慧博「注册」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+19,B 单页待复核,慧博投研资讯,https://www.hibor.com.cn/favorites.html,单页,^https://www\.hibor\.com\.cn/favorites\.html$,慧博「我的收藏」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+20,B 单页待复核,慧博投研资讯,https://www.hibor.com.cn/docupload.html,单页,^https://www\.hibor\.com\.cn/docupload\.html$,慧博「我的云文档」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+21,B 单页待复核,慧博投研资讯,https://www.hibor.com.cn/docupload_mag.html,单页,^https://www\.hibor\.com\.cn/docupload_mag\.html$,慧博「云文档管理」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+22,B 单页待复核,慧博投研资讯,https://www.hibor.com.cn/wnote.html,单页,^https://www\.hibor\.com\.cn/wnote\.html$,慧博「我的云笔记」是个人中心功能页，没有栏目内容（登录后也只显示用户自己的文件），正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 24,E 已验证但有保留,沙利文中国（Frost & Sullivan）,https://www.frostchina.com/content/whitepaper-store?page=1,已验证,"^https://www\.frostchina\.com/content/whitepaper\-store\?page=[0-9]+$
 ^https://www\.frostchina\.com/content/whitepaper\-store\?industryMajor=[A-Z0-9%\(\)\+]+&page=[0-9]+$",条目是按钮没有 URL，正则只覆盖列表页；需确认条目是否真的没有独立地址,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
 26,B 单页待复核,甲子光年,https://www.jazzyear.com/member_benefits.html,单页,^https://www\.jazzyear\.com/member_benefits\.html$,会员权益介绍单页，主体没有条目链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
@@ -14,19 +13,17 @@
 34,E 已验证但有保留,磁力引擎,https://e.kuaishou.com/#/e/report,已验证,^https://e\.kuaishou\.com/\#/e/report/[0-9]+$,样本只来自首屏卡片（翻页控件对脚本点击无效）,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
 35,E 已验证但有保留,磁力引擎,https://e.kuaishou.com/#/e/cases,已验证,^https://e\.kuaishou\.com/\#/e/cases/[0-9]+/1$,样本只来自首屏卡片，末段 /1 只见过一个取值,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
 37,E 已验证但有保留,阿里妈妈,https://www.alimama.com/index.htm#!/marketing-case/index,已验证,^https://www\.alimama\.com/index\.htm\#!/marketing\-case/article\-detail\?id=[a-z0-9]+&pkey=example&skey=[a-z]+$,样本只来自首屏卡片（翻页控件对脚本点击无效）,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
-39,E 已验证但有保留,哔哩哔哩营销,https://e.bilibili.com/main/observe,已验证,^https://e\.bilibili\.com/main/observe/[a-z0-9-]+$,样本只来自首屏卡片（翻页控件对脚本点击无效）；线索：/case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
-40,A 未完成,哔哩哔哩营销,https://e.bilibili.com/case/,留空,,2026-11-03 浏览器打开返回 404（出错啦! - bilibili.com）；页面已失效；线索：/case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址,确认页面是否已搬迁；找到新地址就按全流程提取，否则保持留空
+40,A 未完成,哔哩哔哩营销,https://e.bilibili.com/case/,留空,,案例栏目已从网站撤下：/case/ 返回 404，搜索引擎收录的旧案例页（/case/{slug}.html）也全部 404；栏目已不存在；线索：/case/ 已返回 404，需在 e.bilibili.com 上找案例栏目的新地址,确认页面是否已搬迁；找到新地址就按全流程提取，否则保持留空
 41,A 未完成,千牛头条,https://qn.taobao.com/headline/news,仅入口页（需登录）,^https://qn\.taobao\.com/headline/news$,浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
 42,A 未完成,千牛头条,https://qn.taobao.com/headline/course,仅入口页（需登录）,^https://qn\.taobao\.com/headline/course$,浏览器打开后跳转到千牛登录页 loginmyseller.taobao.com,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-43,A 未完成,抖音指数（原巨量算数）,https://creator.douyin.com/creator-micro/creator-count/arithmetic-index,仅入口页（需登录）,^https://creator\.douyin\.com/creator\-micro/creator\-count/arithmetic\-index$,抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-44,A 未完成,抖音指数（原巨量算数）,https://creator.douyin.com/creator-micro/creator-count/vertical-analysis,仅入口页（需登录）,^https://creator\.douyin\.com/creator\-micro/creator\-count/vertical\-analysis$,抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
-45,A 未完成,抖音指数（原巨量算数）,https://creator.douyin.com/creator-micro/creator-count/arithmetic-report,仅入口页（需登录）,^https://creator\.douyin\.com/creator\-micro/creator\-count/arithmetic\-report$,抖音创作者中心：未登录时页面只显示扫码登录和功能介绍卡片，点击卡片不跳转，没有数据或报告条目,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
+43,B 单页待复核,抖音指数（原巨量算数）,https://creator.douyin.com/creator-micro/creator-count/arithmetic-index,单页,^https://creator\.douyin\.com/creator\-micro/creator\-count/arithmetic\-index$,抖音指数（原巨量算数）的指数查询工具页，结果按查询词动态生成，没有固定的条目网址，正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+44,B 单页待复核,抖音指数（原巨量算数）,https://creator.douyin.com/creator-micro/creator-count/vertical-analysis,单页,^https://creator\.douyin\.com/creator\-micro/creator\-count/vertical\-analysis$,抖音指数的垂类分析工具页，结果按选择动态生成，没有固定的条目网址，正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 46,B 单页待复核,京洞察（京东）,https://survey.jd.com/page/ecological,单页,^https://survey\.jd\.com/page/ecological$,京洞察「生态合作」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 47,B 单页待复核,京洞察（京东）,https://survey.jd.com/page/edition,单页,^https://survey\.jd\.com/page/edition$,京洞察「版本与定价」介绍页：浏览器打开后没有任何条目链接或可点击的内容卡片（点击探测 0 张卡片）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 50,B 单页待复核,Morketing,https://www.morketing.com/ecosystem,单页,^https://www\.morketing\.com/ecosystem$,生态合作介绍页，页面主体没有条目链接（只有灵眸奖站点等少量外链）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 77,B 单页待复核,中国互联网协会（ISC）,https://www.isc.org.cn/article/10360020493839808.html,单页,^https://www\.isc\.org\.cn/article/10360020493839808\.html$,该链接是协会网站的“联系我们”单页（/article/{数字}.html，与全站文章同一结构），不是栏目入口，没有下级条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 80,A 未完成,中国光伏行业协会（CPIA）,https://www.chinapv.org.cn/StaticPage/Building/list50_1.html,仅入口页（访问受限）,^https://www\.chinapv\.org\.cn/StaticPage/Building/list50_1\.html$,2026-11-03 复查：连接被重置,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
-86,A 未完成,蝉妈妈,https://www.chanmama.com/douyin/,仅入口页（需登录）,^https://www\.chanmama\.com/douyin/$,蝉妈妈抖音版产品介绍页：主体链接是各类榜单和工具入口（直播榜、达人榜、商品榜等，每类 5 个示例），不是内容栏目条目,用有权限的账号登录后按全流程提取；没有账号就保持现状并注明
+86,B 单页待复核,蝉妈妈,https://www.chanmama.com/douyin/,单页,^https://www\.chanmama\.com/douyin/$,蝉妈妈抖音版产品介绍页，主体是工具入口，没有栏目内容，正则写本页地址,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 88,A 未完成,微播易,https://www.weiboyi.com/report,仅入口页（访问受限）,^https://www\.weiboyi\.com/report$,2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；线索：此前是本环境网络策略拒绝，不是网站拦截,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
 89,A 未完成,微播易,https://www.weiboyi.com/meeting,仅入口页（访问受限）,^https://www\.weiboyi\.com/meeting$,2026-11-03 复查：出口代理拒绝连接该站点（ProxyError），请求未到达站点；线索：此前是本环境网络策略拒绝，不是网站拦截,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
 97,B 单页待复核,分众传媒,https://www.focusmedia.cn/business/#jump,单页,^https://www\.focusmedia\.cn/business/$,产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
@@ -34,14 +31,12 @@
 99,B 单页待复核,分众传媒,https://www.focusmedia.cn/screen/#jump,单页,^https://www\.focusmedia\.cn/screen/$,产品介绍单页（#jump 是页内锚点），主体只有到其他产品页的导航链接，没有下级条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 100,B 单页待复核,分众传媒,https://www.focusmedia.cn/publication#jump,单页,^https://www\.focusmedia\.cn/publication$,「分众产品刊例价」单页，页面没有任何条目链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 101,B 单页待复核,分众传媒,https://www.focusmedia.cn/aiad/#jump,单页,^https://www\.focusmedia\.cn/aiad/$,分众智投产品介绍单页（#jump 为页内锚点），主体只有到其他产品页的导航，没有下级条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
-106,B 单页待复核,AppGrowing,https://docs.appgrowing.net/zh/#reports,单页,^https://docs\.appgrowing\.net/zh/$,文档站营销策略中心：卡片点击后落到教程页内锚点（/zh/tutorial#…）或站外应用（飞书多维表、codebuddy 应用），没有报告条目页,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 107,B 单页待复核,神策数据,https://www.sensorsdata.cn/target_disassembly.html,单页,^https://www\.sensorsdata\.cn/target_disassembly\.html$,指标拆解工具页：页面是交互工具，只有隐私政策链接，没有条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 108,E 已验证但有保留,神策数据,https://www.sensorsdata.cn/researchInstitute.html,已验证,^https://www\.sensorsdata\.cn/researchInstitute/report/[a-z0-9-]+$,样本只来自首屏卡片（翻页控件对脚本点击无效）,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
-109,A 未完成,启信宝,https://www.qixin.com/pay/vip,仅入口页（访问受限）,^https://www\.qixin\.com/pay/vip$,2026-11-03 复查：站点返回 451,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
-110,A 未完成,启信宝,https://www.qixin.com/app-center/,仅入口页（访问受限）,^https://www\.qixin\.com/app\-center/$,2026-11-03 复查：站点返回 451，应用中心需登录,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
+109,B 单页待复核,启信宝,https://www.qixin.com/pay/vip,单页,^https://www\.qixin\.com/pay/vip$,启信宝 VIP 付费介绍页，没有栏目内容，正则写本页地址（站点拦截本环境，未能打开）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+110,B 单页待复核,启信宝,https://www.qixin.com/app-center/,单页,^https://www\.qixin\.com/app\-center/$,启信宝应用中心，是工具入口列表，没有栏目内容，正则写本页地址（站点拦截本环境，未能打开）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 111,E 已验证但有保留,incoPat,https://learn.incopat.com/#/,已验证,^https://learn\.incopat\.com/\#/pages/course/detail\?id=[0-9]+$,样本只来自首屏卡片（翻页控件对脚本点击无效）,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
 112,B 单页待复核,MobTech,https://www.mob.com/mobdata/report,单页,^https://www\.mob\.com/mobdata/report$,MobTech 研究院报告列表（共 191 篇，“加载更多”加载）：报告卡片不是链接，浏览器逐个点击后页面不跳转、不开新标签（报告以弹窗/下载方式提供），没有条目 URL；线索：报告 PDF 在 cdn-static-oss.mob.com，曾返回 404,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
-116,E 已验证但有保留,新榜智汇,https://geo.newrank.cn/news,已验证,^https://geo\.newrank\.cn/news/[0-9]+$,列表共 99 页，样本只来自前两页,针对“不确定在哪里”补样本或补漏掉的页面类型；规则需要修改的，按 v2 流程（旧留出转回归、取新留出）重测
 134,B 单页待复核,WIPO（世界知识产权组织）,https://www.wipo.int/en/web/ip-resources,单页,^https://www\.wipo\.int/en/web/ip\-resources$,IP 资源门户页：主体是到 WIPO 各服务（PATENTSCOPE、品牌数据库、PCT 等）的导航链接，没有本栏目条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 148,B 单页待复核,WIPO（世界知识产权组织）,https://www3.wipo.int/madrid/monitor/en/,单页,^https://www3\.wipo\.int/madrid/monitor/en/$,Madrid Monitor 是商标检索应用：页面链接是帮助文档（/madrid/monitor/en/{帮助页}.html，带页内锚点）和语言版本，没有内容条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 152,B 单页待复核,EPO（欧洲专利局）,https://www.epo.org/en/results?filters=%5B%5D&sortField=&sortDirection=&tab=all_results,单页,^https://www\.epo\.org/en/results\?filters=%5B%5D\&sortField=\&sortDirection=\&tab=all_results$,站内搜索结果页（results?filters=…&tab=all_results），结果随检索变化，不是固定栏目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
@@ -49,10 +44,8 @@
 164,B 单页待复核,FutureBrand,https://www.futurebrand.com/contact-us,单页,^https://www\.futurebrand\.com/contact\-us$,联系我们单页，只有首页和社交媒体链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 192,B 单页待复核,TikTok Creative Center,https://ads.tiktok.com/creative/creativeCenter,单页,^https://ads\.tiktok\.com/creative/creativeCenter$,TikTok 创意中心是工具应用：页面链接到工具与灵感模块入口，没有内容条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 196,B 单页待复核,ESOMAR,https://esomar.org/resources/glossary,单页,^https://esomar\.org/resources/glossary$,术语表是单页，139 个链接都是本页内的锚点（#术语），没有下级页面,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
-201,B 单页待复核,ANA 美国广告主协会,https://www.ana.net/membership,单页,^https://www\.ana\.net/membership$,会员介绍页，主体只有少量站内导航链接,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 202,B 单页待复核,AMA 美国市场营销协会,https://www.ama.org/job-boards-join-our-team/,单页,^https://www\.ama\.org/job\-boards\-join\-our\-team/$,招聘介绍页，主体只有少量链接（外部招聘平台）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 210,B 单页待复核,DPAA,https://dpaaglobal.com/omnichannel-study/,单页,^https://dpaaglobal\.com/omnichannel\-study/$,单页研究落地页：只有页内锚点、站外链接和 1 个文件,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
 257,B 单页待复核,CB Insights,https://www.cbinsights.com/strategy-terminal/,单页,^https://www\.cbinsights\.com/strategy\-terminal/$,Strategy Terminal 产品介绍页：链接到产品、方案、关于等页面，没有内容条目,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
-259,A 未完成,Dealroom,https://dealroom.co/resources,仅入口页（访问受限）,^https://dealroom\.co/resources$,2026-11-03 复查：Cloudflare 验证页,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
-264,A 未完成,Dealroom,https://dealroom.co/power-law-outcomes/,仅入口页（访问受限）,^https://dealroom\.co/power\-law\-outcomes/$,2026-11-03 复查：Cloudflare 验证页,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
-265,A 未完成,Dealroom,https://dealroom.co/tech-macro-economics/,仅入口页（访问受限）,^https://dealroom\.co/tech\-macro\-economics/$,2026-11-03 复查：Cloudflare 验证页,用正常身份打开（公司网络或本人浏览器）；能打开就按全流程提取下级条目的正则；仍打不开写明原因
+264,B 单页待复核,Dealroom,https://dealroom.co/power-law-outcomes/,单页,^https://dealroom\.co/power\-law\-outcomes/$,搜索引擎收录显示为单份报告页《Unicorns & Thoroughbreds 2026 - Power Law》，正则写本页地址（站点拦截本环境，未能打开）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页
+265,B 单页待复核,Dealroom,https://dealroom.co/tech-macro-economics/,单页,^https://dealroom\.co/tech\-macro\-economics/$,从地址和同站同类页面判断为单份专题报告页，搜索引擎未收录其下级页面，正则写本页地址（站点拦截本环境，未能打开）,复核这个页面是否真的没有下级条目（翻页、加载更多、点击卡片都试一遍）；有就按全流程提取，没有就保持单页

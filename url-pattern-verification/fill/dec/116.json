@@ -24,9 +24,15 @@
   "evidence": "资讯详情在入口路径 /news/{数字} 下（情况 A），浏览器点击首屏卡片在新标签页打开取得"
  },
  "basis": "情况 A：行业资讯详情 /news/{数字}（列表共 99 页，卡片为脚本跳转）",
- "note": "留出样本取自列表第 2 页（点击卡片落地）",
+ "note": "留出样本取自列表第 2 页（点击）和搜索引擎收录的本栏目网址",
  "holdout": [
+  "https://geo.newrank.cn/news/11200",
+  "https://geo.newrank.cn/news/11240",
   "https://geo.newrank.cn/news/11464",
-  "https://geo.newrank.cn/news/11466"
+  "https://geo.newrank.cn/news/11466",
+  "https://geo.newrank.cn/news/8386",
+  "https://geo.newrank.cn/news/9709",
+  "https://geo.newrank.cn/news/9785",
+  "https://geo.newrank.cn/news/9953"
  ]
 }

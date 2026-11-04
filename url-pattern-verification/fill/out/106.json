@@ -2,25 +2,21 @@
  "seq": 106,
  "entry_id": "S2-R125-E2",
  "url": "https://docs.appgrowing.net/zh/#reports",
- "mode": "selfpage",
- "basis": "文档站营销策略中心：卡片点击后落到教程页内锚点（/zh/tutorial#…）或站外应用（飞书多维表、codebuddy 应用），没有报告条目页；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
- "note": "",
+ "mode": "carry",
+ "basis": "复核：营销策略中心文档站下有文档子页 /zh/{页名}（常见问题、教程等，浏览器复核与搜索引擎均可见）",
+ "note": "此前判为单页；#reports 是首页内锚点",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:59:57+00:00",
- "pattern": "^https://docs\\.appgrowing\\.net/zh/$",
- "status": "单页",
- "pages": [
-  "https://docs.appgrowing.net/zh/"
- ],
- "landing": [
-  {
-   "url": "https://docs.appgrowing.net/zh/#reports",
-   "status": 200,
-   "final": "https://docs.appgrowing.net/zh/#reports",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://docs\\.appgrowing\\.net/zh/$",
+ "observed_at": "2026-11-04T06:27:12+00:00",
+ "pattern": "^https://docs\\.appgrowing\\.net/zh/$\n^https://docs\\.appgrowing\\.net/zh/[a-z-]+$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 0,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://docs\\.appgrowing\\.net/zh/$\n^https://docs\\.appgrowing\\.net/zh/[a-z-]+$",
  "redirect_extra": [],
  "redirect_skipped": []
 }

@@ -2,25 +2,21 @@
  "seq": 9,
  "entry_id": "S2-R26-E3",
  "url": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
- "mode": "selfpage",
- "basis": "页面只显示行业分类和数量，没有条目链接（分类点击后的内容未登录不可见）；本页没有下级条目，正则写本页精确地址（含实际落地地址）",
- "note": "",
+ "mode": "carry",
+ "basis": "复核：行业目录页的分类点开后是行业词条 /wiki/brief?id={24 位十六进制}（搜索引擎收录样本 3 个），此前判为单页",
+ "note": "词条内容需登录才完整显示；样本未在本环境打开核验",
  "exclusivity": null,
- "observed_at": "2026-11-03T09:59:16+00:00",
- "pattern": "^https://www\\.leadleo\\.com/wiki/getLeadleoIndustryCatelogue$",
- "status": "单页",
- "pages": [
-  "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue"
- ],
- "landing": [
-  {
-   "url": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
-   "status": 200,
-   "final": "https://www.leadleo.com/wiki/getLeadleoIndustryCatelogue",
-   "hops": []
-  }
- ],
- "pattern_base": "^https://www\\.leadleo\\.com/wiki/getLeadleoIndustryCatelogue$",
+ "observed_at": "2026-11-04T06:27:12+00:00",
+ "pattern": "^https://www\\.leadleo\\.com/wiki/brief\\?id=[0-9a-f]{24}$",
+ "status": "已放宽",
+ "carried_from": null,
+ "checks": {
+  "members": 3,
+  "pos_fail": [],
+  "neg": 2,
+  "neg_fail": []
+ },
+ "pattern_base": "^https://www\\.leadleo\\.com/wiki/brief\\?id=[0-9a-f]{24}$",
  "redirect_extra": [],
  "redirect_skipped": []
 }
