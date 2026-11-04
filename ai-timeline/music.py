@@ -140,9 +140,9 @@ def hat(vel=0.25, open_=False):
     t = np.arange(int(dur * SR)) / SR
     return vel * highpass(rng.standard_normal(len(t)), 7000) * np.exp(-t * (14 if open_ else 70))
 
-def crash(vel=0.5, dur=2.5):
+def crash(vel=0.5, dur=2.5, decay=1.6):
     t = np.arange(int(dur * SR)) / SR
-    return vel * highpass(rng.standard_normal(len(t)), 4500) * np.exp(-t * 1.6) * np.minimum(1, t / 0.002)
+    return vel * highpass(rng.standard_normal(len(t)), 4500) * np.exp(-t * decay) * np.minimum(1, t / 0.002)
 
 def sub_boom(vel=1.0, dur=1.6):
     t = np.arange(int(dur * SR)) / SR
@@ -268,15 +268,15 @@ for bar in range(DROP_BAR, FINAL_BAR):
     chord = np.zeros(int(L * SR))
     for nn in CHORDS[ch]:
         chord += supersaw(mtof(n(nn) + 12), L) + 0.5 * supersaw(mtof(n(nn)), L)
-    synth_bus.add(lowpass(chord, 5200) * env_adsr(L, 0.005, 0.1, 0.85, 0.05, L - 0.2), bar_t(bar), 0.16 + 0.10 * (bar - DROP_BAR))
+    synth_bus.add(lowpass(chord, 5200) * env_adsr(L, 0.005, 0.1, 0.85, 0.05, L - 0.2), bar_t(bar), 0.16 + 0.14 * (bar - DROP_BAR))
     if bar > DROP_BAR:
-        fx_bus.add(crash(0.7, 2.0), bar_t(bar))
+        fx_bus.add(crash(0.5, 2.0, 2.2), bar_t(bar))
         drum_bus.add(sub_boom(0.5, 0.8), bar_t(bar))
     # 贝斯
     root = mtof(n(ROOT[ch]) + 12)
     for k in range(8):
         b = supersaw(root, 0.24, voices=3, spread=0.004)
-        bass_bus.add(lowpass(b, 600) * env_adsr(0.24, 0.003, 0.06, 0.7, 0.05, 0.1), bar_t(bar, k * 0.5), 0.42)
+        bass_bus.add(lowpass(b, 600) * env_adsr(0.24, 0.003, 0.06, 0.7, 0.05, 0.1), bar_t(bar, k * 0.5), 0.42 + 0.10 * (bar - DROP_BAR))
     # 主旋律
     LEAD = {"Am": ["A5", "C6", "E6", "C6", "B5", "C6", "E6", "A6"],
             "F": ["A5", "C6", "F6", "E6", "C6", "A5", "C6", "G6"]}[ch]
@@ -295,7 +295,7 @@ synth_bus.add(lowpass(fch, 4500) * np.exp(-tt * 1.3) * np.minimum(1, tt / 0.004)
 for m in ["C3", "C4", "E4", "G4", "C5"]:
     piano_bus.add(piano(mtof(n(m)), fl, 0.32), FINAL)
 drum_bus.add(kick(1.0, 1.3), FINAL)
-fx_bus.add(crash(0.6, fl), FINAL)
+fx_bus.add(crash(0.28, fl, 2.8), FINAL)
 fx_bus.add(sub_boom(0.8, 2.5), FINAL)
 
 # ---------- 侧链 & 混音 ----------
@@ -321,11 +321,30 @@ for x, p, w in zip(dry, pan, wet):
     L += verb(x, ir_l, w) * (1 - p)
     R += verb(x, ir_r, w) * (1 + p)
 mix = np.stack([L, R], axis=1)
-mix = np.tanh(mix * 1.1)
+mix = np.tanh(mix * 0.8) / 0.8          # 轻度饱和，只削最尖的峰
 # 结尾 0.4s 淡出，防止爆音
 fade = int(0.4 * SR)
 mix[-fade:] *= np.linspace(1, 0, fade)[:, None]
-mix = mix / np.max(np.abs(mix)) * 0.89
+
+# 响度标准化：BS.1770 K 计权 + 门限，目标 -14 LUFS，峰值不超过 -1 dBFS
+from scipy.signal import lfilter
+def lufs(x):
+    b1, a1 = [1.53512485958697, -2.69169618940638, 1.19839281085285], [1, -1.69065929318241, 0.73248077421585]
+    b2, a2 = [1.0, -2.0, 1.0], [1, -1.99004745483398, 0.99007225036621]
+    y = lfilter(b2, a2, lfilter(b1, a1, x, axis=0), axis=0)
+    blk, hop = int(0.4 * SR), int(0.1 * SR)
+    z = np.array([np.mean(y[i:i + blk] ** 2, axis=0).sum() for i in range(0, len(y) - blk, hop)])
+    lk = -0.691 + 10 * np.log10(z + 1e-12)
+    z = z[lk > -70]
+    rel = -0.691 + 10 * np.log10(z.mean()) - 10
+    z = z[-0.691 + 10 * np.log10(z) > rel]
+    return -0.691 + 10 * np.log10(z.mean())
+TARGET_LUFS = -14.0
+mix = mix * 10 ** ((TARGET_LUFS - lufs(mix)) / 20)
+peak = np.max(np.abs(mix))
+if peak > 0.89:
+    mix = mix / peak * 0.89
+print("loudness: %.2f LUFS, peak %.2f dBFS" % (lufs(mix), 20 * np.log10(np.max(np.abs(mix)))))
 
 # 写 wav (16-bit)
 import wave
