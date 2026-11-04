@@ -1,5 +1,17 @@
 ﻿批次,原表行,entry_id,站点名称,pattern链接,来源,状态,正则表达式,正则行数,正例数,正例匹配,正例示例,反例数,反例不匹配,反例,今日抽查打开,结论,备注
-第一批,2,S1-R2-E1,www.census.gov,https://www.census.gov/retail/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /retail/ 下家族 1 个、成员 11；前缀外同站链接 9、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
+第一批,2,S1-R2-E1,美国人口普查局（Census）,https://www.census.gov/retail/,补做（放宽，fill2）,已放宽,^https?://www\.census\.gov/retail/(?:[a-z]+/)?[a-z_]+\.html$,1,14,14/14,"http://www.census.gov/retail/mrts/historic_releases.html
+https://www.census.gov/retail/about_the_surveys.html
+https://www.census.gov/retail/contact.html
+https://www.census.gov/retail/data.html
+https://www.census.gov/retail/definitions.html
+……共 14 个，见「正反例明细」",8,8/8,"https://www.census.gov/
+https://www.census.gov/data/developers/data-sets/economic-indicators.html
+https://www.census.gov/developers
+https://www.census.gov/econ/currentdata/?programCode=MARTS
+https://www.census.gov/economic-indicators/calendar-listview.html
+https://www.census.gov/en.html
+https://www.census.gov/programs-surveys.html
+https://www.census.gov/topics/business-economy.html",可打开；可打开,正确且能用,零售调查栏目 /retail/ 下的说明、数据、发布页（含 index.html 本页）
 第一批,2,S1-R2-E2,www.census.gov,https://www.census.gov/programs-surveys/e-stats.html,之前几轮（第 3 轮规则）,已验证,^https://www\.census\.gov/programs\-surveys/e\-stats/[a-z-]+/[a-z-]+\.html$,1,10,10/10,"https://www.census.gov/programs-surveys/e-stats/data/tables.html
 https://www.census.gov/programs-surveys/e-stats/library/publications.html
 https://www.census.gov/programs-surveys/e-stats/news-updates/updates.html
@@ -17,8 +29,14 @@ https://www.census.gov/library/working-papers/2012/demo.html
 https://www.census.gov/newsroom/archives/2015-pr/cb15-35.html
 https://www.census.gov/programs-surveys/e-stats/news-updates/updates/retail-1q-2015-e-commerce-sales.html
 https://www.census.gov/programs-surveys/e-stats/news-updates/updates/recent-updates.html",,正确且能用,
-第一批,3,S1-R3-E1,www.bls.gov,https://www.bls.gov/cex/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Access Denied）；未使用任何绕过手段
-第一批,3,S1-R3-E2,www.bls.gov,https://www.bls.gov/news.release/cesan.htm,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Access Denied）；未使用任何绕过手段
+第一批,3,S1-R3-E1,美国劳工统计局（BLS）,https://www.bls.gov/cex/,补做（放宽，fill2）,已放宽,^https://www\.bls\.gov/cex/(?:[a-z0-9-]+/)?[a-z0-9-]+\.htm$,1,5,5/5,"https://www.bls.gov/cex/csxstnd.htm
+https://www.bls.gov/cex/data.htm
+https://www.bls.gov/cex/labstat/ce-labstat-getting-started-guide.htm
+https://www.bls.gov/cex/tables-getting-started-guide.htm
+https://www.bls.gov/cex/tables.htm",2,2/2,"https://www.bls.gov/
+https://www.bls.gov/news.release/cesan.htm",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,消费支出调查栏目 /cex/ 下的 .htm 页面；站点拦截本环境，样本来自搜索结果
+第一批,3,S1-R3-E2,美国劳工统计局（BLS）,https://www.bls.gov/news.release/cesan.htm,补做（放宽，fill2）,单页（含跳转页）,^https://www\.bls\.gov/news\.release/(?:cesan\.htm|cesan\.nr0\.htm|cesan\.t[0-9]{2}\.htm|pdf/cesan\.pdf)$,1,1,1/1,https://www.bls.gov/news.release/pdf/cesan.pdf,2,2/2,"https://www.bls.gov/
+https://www.bls.gov/cex/tables.htm",本环境无法访问（样本来自搜索结果）,正确且能用,消费支出年度新闻稿单页：本页、正文页、表格页和 PDF 版；站点拦截本环境，PDF 地址来自搜索结果
 第一批,6,S1-R6-E1,World Bank（世界银行）,https://www.worldbank.org/ext/en/development-topics,今天 265 行（第 118 行）,已验证,"^https://www\.worldbank\.org/ext/en/topic/[a-z-]+$
 ^https://www\.worldbank\.org/ext/en/topic/[a-z-]+/[a-z-]+$",2,88,88/88,"https://www.worldbank.org/ext/en/topic/climate-change
 https://www.worldbank.org/ext/en/topic/competitiveness
@@ -970,7 +988,31 @@ https://www.deloitte.com/global/en/insights/industry/government-public-sector-se
 ……共 35 个，见「正反例明细」",3,3/3,"https://www.deloitte.com/
 https://www.deloitte.com/global/en/about.html
 https://www.deloitte.com/global/en/insights/topics/business-strategy-growth.html",可打开；可打开,正确且能用,
-第一批,50,S1-R50-E1,Forrester,https://www.forrester.com/b2b-marketing/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 254；前缀 /b2b-marketing/ 下家族 0 个、成员 0；前缀外同站链接 37、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第一批,50,S1-R50-E1,Forrester,https://www.forrester.com/b2b-marketing/,补做（放宽，fill2）,已放宽,"^https://www\.forrester\.com/b2b-marketing/[a-z0-9-]+/$
+^https://www\.forrester\.com/blogs/[a-z0-9-]+/$
+^https://www\.forrester\.com/client-stories/[a-z0-9-]+/$",3,11,11/11,"https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/
+https://www.forrester.com/b2b-marketing/demand-abm/
+https://www.forrester.com/b2b-marketing/stand-out-in-ai-search-guide/
+https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/
+https://www.forrester.com/blogs/predictions-2027-the-pursuit-and-peril-of-control/
+……共 11 个，见「正反例明细」",18,18/18,"https://www.forrester.com/
+https://www.forrester.com/become-a-client/
+https://www.forrester.com/blogs/author/amy_bills/
+https://www.forrester.com/blogs/author/conrad_mills/
+https://www.forrester.com/blogs/author/karen_tran/
+https://www.forrester.com/blogs/author/kathy_freeman_contreras/
+https://www.forrester.com/blogs/author/sean_mccormick/
+https://www.forrester.com/blogs/author/sharyn_leaver/
+https://www.forrester.com/blogs/author/simon_daniels/
+https://www.forrester.com/blogs/author/vicki_brown/
+https://www.forrester.com/blogs/category/b2b-marketing/
+https://www.forrester.com/predictions/
+https://www.forrester.com/product-management/
+https://www.forrester.com/research/forecasts/
+https://www.forrester.com/research/forrester-ai/
+https://www.forrester.com/research/forrester-decisions/
+https://www.forrester.com/research/wave/
+https://www.forrester.com/revenue/",可打开；可打开,正确且能用,B2B 营销页面上的子页面、博客文章、客户案例；博客、案例路径全站共用
 第一批,50,S1-R50-E2,Forrester,https://www.forrester.com/b2c-marketing/,今天 265 行（第 178 行）,已放宽,"^https://www\.forrester\.com/blogs/[a-z0-9-]+/$
 ^https://www\.forrester\.com/event/[a-z-]+/$
 ^https://www\.forrester\.com/webinars/[a-z-]+$
@@ -1175,8 +1217,35 @@ https://effie.org/ko/insights/kavita-jagtiani-chief-marketing-officer-lt-finance
 https://effie.org/eu/insights/the-creative-dividend-advertising-that-pays-back/
 https://effie.org/insights/the-creative-dividend-advertising-that-pays-back/
 https://effie.org/insights/making-effectiveness-happen/",,正确且能用,
-第一批,67,S1-R67-E1,www.lovethework.com,https://www.lovethework.com/en/talks,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 32；前缀 /en/talks/ 下家族 0 个、成员 0；前缀外同站链接 9、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第一批,67,S1-R67-E2,www.lovethework.com,https://www.lovethework.com/en/reports,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 41；前缀 /en/reports/ 下家族 0 个、成员 0；前缀外同站链接 17、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第一批,67,S1-R67-E1,The Work（Cannes Lions）,https://www.lovethework.com/en/talks,补做（放宽，fill2）,已放宽,"^https://www\.lovethework\.com/en/talks/[a-z0-9-]+$
+^https://www\.lovethework\.com/en/talks-series/[a-z0-9-]+$",2,4,4/4,"https://www.lovethework.com/en/talks-series/cannes-lions-2024
+https://www.lovethework.com/en/talks-series/cannes-lions-2025
+https://www.lovethework.com/en/talks-series/cannes-lions-2026
+https://www.lovethework.com/en/talks/new-for-2026-the-cannes-lions-wrap-up-live-74211",9,9/9,"https://www.lovethework.com/
+https://www.lovethework.com/ai/terms-of-use
+https://www.lovethework.com/awards
+https://www.lovethework.com/contact-us
+https://www.lovethework.com/reports
+https://www.lovethework.com/request-a-demo
+https://www.lovethework.com/talks
+https://www.lovethework.com/the-work
+https://www.lovethework.com/the-work-ai",可打开；可打开,正确且能用,演讲详情 /en/talks/{slug} 和演讲系列 /en/talks-series/{年份}；卡片由脚本渲染，样本来自搜索结果
+第一批,67,S1-R67-E2,The Work（Cannes Lions）,https://www.lovethework.com/en/reports,补做（放宽，fill2）,已放宽,"^https://www\.lovethework\.com/reports/[a-z0-9-]+$
+^https://www\.lovethework\.com/en/[a-z0-9-]+-report-[0-9]{4}$",2,7,7/7,"https://www.lovethework.com/en/cannes-lions-wrap-up-report-2026
+https://www.lovethework.com/reports/apple-the-creative-debrief-2
+https://www.lovethework.com/reports/cannes-lions-creativity-report-2026
+https://www.lovethework.com/reports/cannes-lions-rankings-report-2026
+https://www.lovethework.com/reports/spikes-asia-creativity-report-2025
+……共 7 个，见「正反例明细」",10,10/10,"https://www.lovethework.com/
+https://www.lovethework.com/ai/terms-of-use
+https://www.lovethework.com/awards
+https://www.lovethework.com/contact-us
+https://www.lovethework.com/learn-more
+https://www.lovethework.com/reports
+https://www.lovethework.com/request-a-demo
+https://www.lovethework.com/talks
+https://www.lovethework.com/the-work
+https://www.lovethework.com/the-work-ai",可打开；可打开,正确且能用,报告详情 /reports/{slug}（参数 ?tab= 去掉）和 /en/{名称}-report-{年份}
 第一批,68,S1-R68-E1,IAB 美国互动广告局,https://www.iab.com/events/,之前几轮（第 3 轮规则）,已验证,^https://www\.iab\.com/events/[a-z0-9_-]+/$,1,17,17/17,"https://www.iab.com/events/beyond-iab-creatorfronts-whats-next-for-creator-marketing/
 https://www.iab.com/events/iab-terms-conditions-workshop/
 https://www.iab.com/events/iab-unifying-and-harmonizing-measurement-standards-workshop/
@@ -1260,7 +1329,17 @@ https://www.cim.co.uk/events/uk-graduation-2026/
 https://www.cim.co.uk/events/marketing-in-the-northern-powerhouse/
 https://www.cim.co.uk/content-insights/articles/claude-cant-replace-your-marketing-team-but-it-can-replace-the-idea-of-what-a-marketing-team-is-for/
 https://www.cim.co.uk/content-insights/articles/sustainable-marketing-how-to-communicate-purpose-products-and-services/",,正确且能用,
-第一批,73,S1-R73-E2,www.cim.co.uk,https://www.cim.co.uk/learn-develop/training-development/training-courses/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 212；前缀 /learn-develop/training-development/training-courses/ 下家族 0 个、成员 0；前缀外同站链接 56、文件 2；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第一批,73,S1-R73-E2,CIM,https://www.cim.co.uk/learn-develop/training-development/training-courses/,补做（放宽，fill2）,已放宽,^https://www\.cim\.co\.uk/learn-develop/training-development/view-all-courses/[a-z0-9-]+/$,1,11,11/11,"https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-agents-and-automation/
+https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-answer-engine-marketing-aem/
+https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-content-creation/
+https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-copywriting-masterclass/
+https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-customer-journey/
+……共 11 个，见「正反例明细」",6,6/6,"https://www.cim.co.uk/
+https://www.cim.co.uk/about/
+https://www.cim.co.uk/content-insights/articles/
+https://www.cim.co.uk/content-insights/sustainable-marketing-hub/
+https://www.cim.co.uk/faqs/
+https://www.cim.co.uk/learn-develop/training-development/view-all-courses/",可打开；可打开,正确且能用,课程详情 /view-all-courses/{slug}/
 第一批,76,S1-R76-E1,WFA 世界广告主联合会,https://wfanet.org/news/,今天 265 行（第 203 行）,已验证,^https://wfanet\.org/knowledge/item/[0-9]{4}/[0-9]{2}/[0-9]{2}/[a-z0-9-]+\?originNode=3905$,1,92,92/92,"https://wfanet.org/knowledge/item/2024/04/29/l-oreal-and-adweek-complete-global-marketer-conference-speakers-3?originNode=3905
 https://wfanet.org/knowledge/item/2024/04/29/wfa-refreshes-asia-advisory-board?originNode=3905
 https://wfanet.org/knowledge/item/2024/05/14/wfa-adds-new-faces-to-global-leadership-team?originNode=3905
@@ -1276,8 +1355,31 @@ https://www.campaignlive.com/article/stagwell-launches-global-media-agency-stagw
 第一批,81,S1-R81-E2,Campaign,https://www.campaignlive.com/in-depth,今天 265 行（第 205 行）,已放宽,^https://www\.campaignlive\.com/article/[a-z0-9-]+/[0-9]+$,1,3,3/3,"https://www.campaignlive.com/article/droga5-global-ceo-mark-green-dies-53/1973991
 https://www.campaignlive.com/article/publicis-says-omnicom-wpp-welcome-use-liveramp-takeover-completes/1974109
 https://www.campaignlive.com/article/stagwell-launches-global-media-agency-stagwell-media/1971786",1,1/1,https://www.campaignlive.com/,本环境无法访问（站点拦截/需登录/网络限制）；本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
-第一批,83,S1-R83-E1,www.contagious.com,https://www.contagious.com/news-and-views,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 40；前缀 /en/news-and-views/ 下家族 0 个、成员 0；前缀外同站链接 17、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第一批,83,S1-R83-E2,www.contagious.com,https://www.contagious.com/reports,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 39；前缀 /en/reports/ 下家族 0 个、成员 0；前缀外同站链接 18、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第一批,83,S1-R83-E1,Contagious,https://www.contagious.com/news-and-views,补做（放宽，fill2）,已放宽,^https://www\.contagious\.com/(?:en/)?article/news-and-views/[a-z0-9-]+$,1,7,7/7,"https://www.contagious.com/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125
+https://www.contagious.com/article/news-and-views/coupon-comments-533ef8798350471dbc66ebb68a707e0a
+https://www.contagious.com/article/news-and-views/how-brands-are-winning-in-2026-lessons-from-the-contagious-brands-report-45181bee5c68495fb2349b6aca9dd2ae
+https://www.contagious.com/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34
+https://www.contagious.com/article/news-and-views/the-new-rules-of-social-media-marketing-72dbbb5049414501b6b92b90511da609
+……共 7 个，见「正反例明细」",6,6/6,"https://www.contagious.com/
+https://www.contagious.com/about-us
+https://www.contagious.com/events
+https://www.contagious.com/get-in-touch
+https://www.contagious.com/newsletter
+https://www.contagious.com/terms-of-use-contagious-ai",可打开；可打开,正确且能用,资讯文章 /article/news-and-views/{slug}-{32位编号}
+第一批,83,S1-R83-E2,Contagious,https://www.contagious.com/reports,补做（放宽，fill2）,已放宽,"^https://www\.contagious\.com/(?:en/)?(?:the-[a-z0-9-]+-20[0-9]{2}|grand-prix-winning-strategies-20[0-9]{2}|finding-your-centaur)$
+^https://www\.contagious\.com/(?:en/)?article/[a-z0-9-]+$",2,10,10/10,"https://www.contagious.com/article/the-chaos-advantage
+https://www.contagious.com/en/article/contagious-brands-report-2026-e9e673f22b0d4facbc2954f43dd393c9
+https://www.contagious.com/en/the-contagious-radar-2026
+https://www.contagious.com/finding-your-centaur
+https://www.contagious.com/grand-prix-winning-strategies-2023
+……共 10 个，见「正反例明细」",8,8/8,"https://www.contagious.com/
+https://www.contagious.com/about-us
+https://www.contagious.com/event-sponsorship
+https://www.contagious.com/events
+https://www.contagious.com/get-in-touch
+https://www.contagious.com/newsletter
+https://www.contagious.com/submit-your-work
+https://www.contagious.com/terms-of-use-contagious-ai",可打开；可打开,正确且能用,报告落地页（名称带年份）和报告文章 /article/{slug}
 第一批,84,S1-R84-E1,contentmarketinginstitute.com,https://contentmarketinginstitute.com/research,之前几轮（第 3 轮规则）,已验证,^https://contentmarketinginstitute\.com/research/[a-z0-9-]+$,1,6,6/6,"https://contentmarketinginstitute.com/research/b2b-research
 https://contentmarketinginstitute.com/research/career-salary-outlook
 https://contentmarketinginstitute.com/research/demand-generation-research
@@ -1288,8 +1390,518 @@ https://contentmarketinginstitute.com/content-marketing-strategy/you-may-be-unde
 https://contentmarketinginstitute.com/b2b-research/engage-the-c-suite-through-a-client-advisory-board
 https://contentmarketinginstitute.com/content-distribution-promotion/6-ways-to-energize-your-content-marketing-team-and-your-content
 https://contentmarketinginstitute.com/content-marketing-strategy/are-you-really-smart-about-how-ai-works-in-marketing",,正确且能用,
-第一批,84,S1-R84-E2,contentmarketinginstitute.com,https://contentmarketinginstitute.com/latest-news,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 65 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 405；前缀 /latest-news/ 下家族 0 个、成员 0；前缀外同站链接 2776、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第一批,84,S1-R84-E3,contentmarketinginstitute.com,https://contentmarketinginstitute.com/keyword/e-books-and-templates,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；浏览器渲染 2 轮、点击加载更多 0 次、渲染后链接 231；前缀 /keyword/e-books-and-templates/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第一批,84,S1-R84-E2,Content Marketing Institute,https://contentmarketinginstitute.com/latest-news,补做（放宽，fill2）,已放宽,^https://contentmarketinginstitute\.com/(?:ai-in-marketing|analytics-data|career-salary-outlook|content-creation-distribution|content-distribution-promotion|content-marketing-strategy|content-optimization|social-media-content|strategy-planning|measurement-optimization|research|[a-z]+-[a-z-]+)/[a-z0-9-]+$,1,2227,2227/2227,"https://contentmarketinginstitute.com/ai-content-creation-tools/-playing-around-with-generative-ai-won-t-lead-to-innovation
+https://contentmarketinginstitute.com/ai-content-creation-tools/10-no-cost-tools-to-help-you-conquer-writer-s-block
+https://contentmarketinginstitute.com/ai-content-creation-tools/10-overlooked-tools-to-improve-your-martech-stack
+https://contentmarketinginstitute.com/ai-content-creation-tools/10-tools-to-help-with-reusing-and-repurposing-content
+https://contentmarketinginstitute.com/ai-content-creation-tools/11-content-curation-and-collaboration-tools-to-save-you-time
+……共 2227 个，见「正反例明细」",497,497/497,"https://contentmarketinginstitute.com/
+https://contentmarketinginstitute.com/author/a-lee-judge
+https://contentmarketinginstitute.com/author/aakash-singh
+https://contentmarketinginstitute.com/author/aaliyah-madadi
+https://contentmarketinginstitute.com/author/aaron-agius
+https://contentmarketinginstitute.com/author/aaron-anderson
+https://contentmarketinginstitute.com/author/aaron-orendorff
+https://contentmarketinginstitute.com/author/abdul-rastagar
+https://contentmarketinginstitute.com/author/aby-league
+https://contentmarketinginstitute.com/author/ade-olonoh
+https://contentmarketinginstitute.com/author/adele-revella
+https://contentmarketinginstitute.com/author/adina-jipa
+https://contentmarketinginstitute.com/author/adria-saracino
+https://contentmarketinginstitute.com/author/adrienne-erin
+https://contentmarketinginstitute.com/author/ahava-leibtag
+https://contentmarketinginstitute.com/author/aj-wilcox
+https://contentmarketinginstitute.com/author/al-gomez
+https://contentmarketinginstitute.com/author/alan-grainger
+https://contentmarketinginstitute.com/author/alan-xu
+https://contentmarketinginstitute.com/author/aleh-barysevich
+https://contentmarketinginstitute.com/author/aleksandra-iakovleva
+https://contentmarketinginstitute.com/author/alesia-krush
+https://contentmarketinginstitute.com/author/alex-bashinsky
+https://contentmarketinginstitute.com/author/alex-braun
+https://contentmarketinginstitute.com/author/alex-chris
+https://contentmarketinginstitute.com/author/alex-lopes
+https://contentmarketinginstitute.com/author/alex-novkov
+https://contentmarketinginstitute.com/author/alexandra-cote
+https://contentmarketinginstitute.com/author/alexandra-frost
+https://contentmarketinginstitute.com/author/alice-oh
+https://contentmarketinginstitute.com/author/alina-benny
+https://contentmarketinginstitute.com/author/alina-valyaeva
+https://contentmarketinginstitute.com/author/allan-tan
+https://contentmarketinginstitute.com/author/allen-gannett
+https://contentmarketinginstitute.com/author/allen-murabayashi
+https://contentmarketinginstitute.com/author/alona-shalieieva
+https://contentmarketinginstitute.com/author/alp-mimaroglu
+https://contentmarketinginstitute.com/author/amanda-disilvestro
+https://contentmarketinginstitute.com/author/amanda-kreuser
+https://contentmarketinginstitute.com/author/amanda-maksymiw
+https://contentmarketinginstitute.com/author/amanda-milligan
+https://contentmarketinginstitute.com/author/amanda-nelson
+https://contentmarketinginstitute.com/author/amanda-subler
+https://contentmarketinginstitute.com/author/amy-balliett
+https://contentmarketinginstitute.com/author/amy-higgins
+https://contentmarketinginstitute.com/author/amy-woods
+https://contentmarketinginstitute.com/author/andi-robinson
+https://contentmarketinginstitute.com/author/andre-oentoro
+https://contentmarketinginstitute.com/author/andrea-edwards
+https://contentmarketinginstitute.com/author/andrea-fryrear
+https://contentmarketinginstitute.com/author/andrea-lehr
+https://contentmarketinginstitute.com/author/andrew-davies
+https://contentmarketinginstitute.com/author/andrew-davis
+https://contentmarketinginstitute.com/author/andrew-littlefield
+https://contentmarketinginstitute.com/author/andrew-raso
+https://contentmarketinginstitute.com/author/andy-betts
+https://contentmarketinginstitute.com/author/andy-crestodina
+https://contentmarketinginstitute.com/author/andy-newbom
+https://contentmarketinginstitute.com/author/andy-preisler
+https://contentmarketinginstitute.com/author/andy-vale
+https://contentmarketinginstitute.com/author/andy-zimmerman
+https://contentmarketinginstitute.com/author/anjan-sarkar
+https://contentmarketinginstitute.com/author/ann-gynn
+https://contentmarketinginstitute.com/author/ann-rockley
+https://contentmarketinginstitute.com/author/ann-smarty
+https://contentmarketinginstitute.com/author/anna-hrach
+https://contentmarketinginstitute.com/author/anna-ritchie
+https://contentmarketinginstitute.com/author/anna-talerico
+https://contentmarketinginstitute.com/author/annemaria-nicholson
+https://contentmarketinginstitute.com/author/anthony-gaenzle
+https://contentmarketinginstitute.com/author/apoorv-durga
+https://contentmarketinginstitute.com/author/arash-asli
+https://contentmarketinginstitute.com/author/ardath-albee
+https://contentmarketinginstitute.com/author/arnie-kuenn
+https://contentmarketinginstitute.com/author/arvind-kesh
+https://contentmarketinginstitute.com/author/ashley-baker-coastline-marketing-llc
+https://contentmarketinginstitute.com/author/ashley-taylor-anderson
+https://contentmarketinginstitute.com/author/ashley-walton
+https://contentmarketinginstitute.com/author/aubrae-wagner
+https://contentmarketinginstitute.com/author/ayelet-weisz
+https://contentmarketinginstitute.com/author/barry-feldman
+https://contentmarketinginstitute.com/author/ben-aston
+https://contentmarketinginstitute.com/author/ben-steele
+https://contentmarketinginstitute.com/author/bernard-meyer
+https://contentmarketinginstitute.com/author/bethany-johnson
+https://contentmarketinginstitute.com/author/bill-widmer
+https://contentmarketinginstitute.com/author/bojana-vojnovic
+https://contentmarketinginstitute.com/author/bowin-poe
+https://contentmarketinginstitute.com/author/brad-messinger
+https://contentmarketinginstitute.com/author/brad-shorr
+https://contentmarketinginstitute.com/author/brad-zomick
+https://contentmarketinginstitute.com/author/brian-appleton
+https://contentmarketinginstitute.com/author/brian-kolb
+https://contentmarketinginstitute.com/author/brian-massey
+https://contentmarketinginstitute.com/author/brian-watson
+https://contentmarketinginstitute.com/author/britt-klontz
+https://contentmarketinginstitute.com/author/brody-dorland
+https://contentmarketinginstitute.com/author/bruce-mcduffee
+https://contentmarketinginstitute.com/author/buddy-scalera
+https://contentmarketinginstitute.com/author/caitlin-vlastakis-smith
+https://contentmarketinginstitute.com/author/cameron-conaway
+https://contentmarketinginstitute.com/author/caren-lissner
+https://contentmarketinginstitute.com/author/carina-rampelt
+https://contentmarketinginstitute.com/author/carla-johnson
+https://contentmarketinginstitute.com/author/carlijn-postma
+https://contentmarketinginstitute.com/author/carlos-hidalgo
+https://contentmarketinginstitute.com/author/carlton-hoyt
+https://contentmarketinginstitute.com/author/carmen-hill
+https://contentmarketinginstitute.com/author/carol-barash
+https://contentmarketinginstitute.com/author/carol-hill
+https://contentmarketinginstitute.com/author/catalin-zorzini
+https://contentmarketinginstitute.com/author/cathy-mcknight
+https://contentmarketinginstitute.com/author/cathy-mcphillips
+https://contentmarketinginstitute.com/author/chad-newell
+https://contentmarketinginstitute.com/author/chad-pollitt
+https://contentmarketinginstitute.com/author/chintan-zalani
+https://contentmarketinginstitute.com/author/chris-collins
+https://contentmarketinginstitute.com/author/chris-frascella
+https://contentmarketinginstitute.com/author/chris-gillespie
+https://contentmarketinginstitute.com/author/christian-arno
+https://contentmarketinginstitute.com/author/christoph-trappe
+https://contentmarketinginstitute.com/author/chuck-frey
+https://contentmarketinginstitute.com/author/clare-mcdermott
+https://contentmarketinginstitute.com/author/claudia-bird
+https://contentmarketinginstitute.com/author/connie-smart
+https://contentmarketinginstitute.com/author/content-marketing-institute-team
+https://contentmarketinginstitute.com/author/craig-hodges
+https://contentmarketinginstitute.com/author/cyd-casados
+https://contentmarketinginstitute.com/author/daisy-quaker
+https://contentmarketinginstitute.com/author/dan-faggella
+https://contentmarketinginstitute.com/author/dan-steiner
+https://contentmarketinginstitute.com/author/dan-stelter
+https://contentmarketinginstitute.com/author/daniel-hatch
+https://contentmarketinginstitute.com/author/daniel-hochuli
+https://contentmarketinginstitute.com/author/daniel-knowlton
+https://contentmarketinginstitute.com/author/daniel-louis
+https://contentmarketinginstitute.com/author/daniel-waas
+https://contentmarketinginstitute.com/author/darek-black
+https://contentmarketinginstitute.com/author/darren-dematas
+https://contentmarketinginstitute.com/author/darryl-praill
+https://contentmarketinginstitute.com/author/dave-brown
+https://contentmarketinginstitute.com/author/dave-landry
+https://contentmarketinginstitute.com/author/dave-schneider
+https://contentmarketinginstitute.com/author/david-germano
+https://contentmarketinginstitute.com/author/david-huffman
+https://contentmarketinginstitute.com/author/david-mcguire
+https://contentmarketinginstitute.com/author/david-meerman-scott
+https://contentmarketinginstitute.com/author/david-rossiter
+https://contentmarketinginstitute.com/author/david-wogahn
+https://contentmarketinginstitute.com/author/david-zheng
+https://contentmarketinginstitute.com/author/dawn-papandrea
+https://contentmarketinginstitute.com/author/debamrita-ghosh
+https://contentmarketinginstitute.com/author/debbie-williams
+https://contentmarketinginstitute.com/author/deborah-holstein
+https://contentmarketinginstitute.com/author/denise-roberts-mckee
+https://contentmarketinginstitute.com/author/dennis-mccafferty
+https://contentmarketinginstitute.com/author/dennis-shiao
+https://contentmarketinginstitute.com/author/dianna-huff
+https://contentmarketinginstitute.com/author/divya-bisht
+https://contentmarketinginstitute.com/author/dmitry-dragilev
+https://contentmarketinginstitute.com/author/domenica-d-ottavio
+https://contentmarketinginstitute.com/author/doug-kessler
+https://contentmarketinginstitute.com/author/duncan-milne
+https://contentmarketinginstitute.com/author/elise-dopson
+https://contentmarketinginstitute.com/author/elizabeth-clor
+https://contentmarketinginstitute.com/author/ellie-mirman
+https://contentmarketinginstitute.com/author/emilia-chagas
+https://contentmarketinginstitute.com/author/emilie-moreland
+https://contentmarketinginstitute.com/author/emily-brady
+https://contentmarketinginstitute.com/author/emily-king
+https://contentmarketinginstitute.com/author/erika-heald
+https://contentmarketinginstitute.com/author/erin-rodat-savla
+https://contentmarketinginstitute.com/author/eva-jackson
+https://contentmarketinginstitute.com/author/eve-chen
+https://contentmarketinginstitute.com/author/evian-gutman
+https://contentmarketinginstitute.com/author/fatmir-hyseni
+https://contentmarketinginstitute.com/author/fergal-mcgovern
+https://contentmarketinginstitute.com/author/fernando-labastida
+https://contentmarketinginstitute.com/author/fi-shailes
+https://contentmarketinginstitute.com/author/forrest-brown
+https://contentmarketinginstitute.com/author/frank-thomas
+https://contentmarketinginstitute.com/author/freddie-ossberg
+https://contentmarketinginstitute.com/author/gareth-bull
+https://contentmarketinginstitute.com/author/garrett-moon
+https://contentmarketinginstitute.com/author/gary-lipkowitz
+https://contentmarketinginstitute.com/author/gavin-bell
+https://contentmarketinginstitute.com/author/george-drennan
+https://contentmarketinginstitute.com/author/george-stenitzer
+https://contentmarketinginstitute.com/author/gina-balarin
+https://contentmarketinginstitute.com/author/gini-dietrich
+https://contentmarketinginstitute.com/author/grace-lau
+https://contentmarketinginstitute.com/author/grant-polachek
+https://contentmarketinginstitute.com/author/greg-levinsky
+https://contentmarketinginstitute.com/author/greg-miles
+https://contentmarketinginstitute.com/author/greg-verdino
+https://contentmarketinginstitute.com/author/gregg-schwartz
+https://contentmarketinginstitute.com/author/gretchen-dukowitz
+https://contentmarketinginstitute.com/author/guillaume-decugis
+https://contentmarketinginstitute.com/author/hana-abaza
+https://contentmarketinginstitute.com/author/hannah-eisenberg
+https://contentmarketinginstitute.com/author/heather-levy
+https://contentmarketinginstitute.com/author/heidi-cohen
+https://contentmarketinginstitute.com/author/holly-pels
+https://contentmarketinginstitute.com/author/holly-rollins
+https://contentmarketinginstitute.com/author/howard-rauch
+https://contentmarketinginstitute.com/author/ian-humphreys
+https://contentmarketinginstitute.com/author/inbar-yagur
+https://contentmarketinginstitute.com/author/inna-yatsyna
+https://contentmarketinginstitute.com/author/irina-weber
+https://contentmarketinginstitute.com/author/irwin-hau
+https://contentmarketinginstitute.com/author/isaac-justesen
+https://contentmarketinginstitute.com/author/itai-sadan
+https://contentmarketinginstitute.com/author/jacob-warwick
+https://contentmarketinginstitute.com/author/jake-athey
+https://contentmarketinginstitute.com/author/jake-dimare
+https://contentmarketinginstitute.com/author/james-de-roche
+https://contentmarketinginstitute.com/author/james-dillon
+https://contentmarketinginstitute.com/author/james-prideaux
+https://contentmarketinginstitute.com/author/james-scherer
+https://contentmarketinginstitute.com/author/jasmine-williams-jasmine-williams-media
+https://contentmarketinginstitute.com/author/jason-miller
+https://contentmarketinginstitute.com/author/jay-acunzo
+https://contentmarketinginstitute.com/author/jay-baer
+https://contentmarketinginstitute.com/author/jeff-fagel
+https://contentmarketinginstitute.com/author/jeff-herrmann
+https://contentmarketinginstitute.com/author/jeilan-devanesan
+https://contentmarketinginstitute.com/author/jen-brass-jenkins
+https://contentmarketinginstitute.com/author/jennifer-goforth-gregory
+https://contentmarketinginstitute.com/author/jenny-knizner
+https://contentmarketinginstitute.com/author/jeremy-bednarski
+https://contentmarketinginstitute.com/author/jeremy-cook
+https://contentmarketinginstitute.com/author/jessica-ann
+https://contentmarketinginstitute.com/author/jessica-brown
+https://contentmarketinginstitute.com/author/jessica-lee
+https://contentmarketinginstitute.com/author/jill-talvensaari
+https://contentmarketinginstitute.com/author/jim-yu
+https://contentmarketinginstitute.com/author/jodi-harris
+https://contentmarketinginstitute.com/author/joe-bachana
+https://contentmarketinginstitute.com/author/joe-chernov
+https://contentmarketinginstitute.com/author/joe-elliott
+https://contentmarketinginstitute.com/author/joe-forte
+https://contentmarketinginstitute.com/author/joe-moore
+https://contentmarketinginstitute.com/author/joe-pulizzi
+https://contentmarketinginstitute.com/author/john-hall
+https://contentmarketinginstitute.com/author/john-hanson
+https://contentmarketinginstitute.com/author/jonas-sickler
+https://contentmarketinginstitute.com/author/jonathan-crossfield
+https://contentmarketinginstitute.com/author/jonathan-franchell
+https://contentmarketinginstitute.com/author/jonathan-gorham
+https://contentmarketinginstitute.com/author/jonathan-kranz
+https://contentmarketinginstitute.com/author/jonathan-rick
+https://contentmarketinginstitute.com/author/jordan-bishop
+https://contentmarketinginstitute.com/author/jordan-warman
+https://contentmarketinginstitute.com/author/joseph-kalinowski
+https://contentmarketinginstitute.com/author/jp-misenas
+https://contentmarketinginstitute.com/author/jt-anderson
+https://contentmarketinginstitute.com/author/juan-mendez
+https://contentmarketinginstitute.com/author/jug-babic
+https://contentmarketinginstitute.com/author/julia-mccoy
+https://contentmarketinginstitute.com/author/julie-gauthier
+https://contentmarketinginstitute.com/author/julie-wingerter
+https://contentmarketinginstitute.com/author/justin-champion
+https://contentmarketinginstitute.com/author/kane-jamison
+https://contentmarketinginstitute.com/author/karen-hopper
+https://contentmarketinginstitute.com/author/karen-ronning-hall
+https://contentmarketinginstitute.com/author/karola-karlson
+https://contentmarketinginstitute.com/author/kate-parish
+https://contentmarketinginstitute.com/author/katherine-caraway
+https://contentmarketinginstitute.com/author/kathryn-hawkins
+https://contentmarketinginstitute.com/author/katie-del-angel
+https://contentmarketinginstitute.com/author/keith-hodges
+https://contentmarketinginstitute.com/author/kelsey-raymond
+https://contentmarketinginstitute.com/author/kevin-cain
+https://contentmarketinginstitute.com/author/kevin-george
+https://contentmarketinginstitute.com/author/kevin-lund
+https://contentmarketinginstitute.com/author/khalid-saleh
+https://contentmarketinginstitute.com/author/kiera-wiatrak
+https://contentmarketinginstitute.com/author/kim-moutsos
+https://contentmarketinginstitute.com/author/kimberly-zhang
+https://contentmarketinginstitute.com/author/kirk-cheyfitz
+https://contentmarketinginstitute.com/author/klaus-m-schremser
+https://contentmarketinginstitute.com/author/konrad-sanders
+https://contentmarketinginstitute.com/author/kristen-hicks
+https://contentmarketinginstitute.com/author/kristen-mccabe
+https://contentmarketinginstitute.com/author/kristi-hines
+https://contentmarketinginstitute.com/author/kristina-podnar
+https://contentmarketinginstitute.com/author/kyle-dulay
+https://contentmarketinginstitute.com/author/larry-lubin
+https://contentmarketinginstitute.com/author/leah-ryder
+https://contentmarketinginstitute.com/author/lee-li-feng
+https://contentmarketinginstitute.com/author/lee-odden
+https://contentmarketinginstitute.com/author/lee-procida
+https://contentmarketinginstitute.com/author/lesley-vos
+https://contentmarketinginstitute.com/author/leslie-carruthers
+https://contentmarketinginstitute.com/author/liam-carnahan
+https://contentmarketinginstitute.com/author/lieu-pham
+https://contentmarketinginstitute.com/author/lilach-bullock
+https://contentmarketinginstitute.com/author/lin-ying
+https://contentmarketinginstitute.com/author/linda-formichelli
+https://contentmarketinginstitute.com/author/lindy-roux
+https://contentmarketinginstitute.com/author/lisa-copeland
+https://contentmarketinginstitute.com/author/lisa-dougherty
+https://contentmarketinginstitute.com/author/lisa-illman
+https://contentmarketinginstitute.com/author/lisa-kasanicky
+https://contentmarketinginstitute.com/author/lisa-murton-beets
+https://contentmarketinginstitute.com/author/lisa-petrilli
+https://contentmarketinginstitute.com/author/lizzy-burnam
+https://contentmarketinginstitute.com/author/loni-stark
+https://contentmarketinginstitute.com/author/louis-gudema
+https://contentmarketinginstitute.com/author/louis-rix
+https://contentmarketinginstitute.com/author/louisa-mcgrath
+https://contentmarketinginstitute.com/author/luis-aguilar
+https://contentmarketinginstitute.com/author/madison-tierney
+https://contentmarketinginstitute.com/author/maggie-barr
+https://contentmarketinginstitute.com/author/manick-bhan
+https://contentmarketinginstitute.com/author/manish-dudharejia
+https://contentmarketinginstitute.com/author/manya-chylinski
+https://contentmarketinginstitute.com/author/marcia-layton-turner
+https://contentmarketinginstitute.com/author/marcia-riefer-johnston
+https://contentmarketinginstitute.com/author/marcus-varner
+https://contentmarketinginstitute.com/author/mariah-muller
+https://contentmarketinginstitute.com/author/mariah-obiedzinski
+https://contentmarketinginstitute.com/author/marisa-tranchina
+https://contentmarketinginstitute.com/author/mark-armstrong
+https://contentmarketinginstitute.com/author/mark-jones
+https://contentmarketinginstitute.com/author/mark-sherbin
+https://contentmarketinginstitute.com/author/mark-walker
+https://contentmarketinginstitute.com/author/marli-mesibov
+https://contentmarketinginstitute.com/author/martin-ochwat
+https://contentmarketinginstitute.com/author/mary-montserrat-howlett
+https://contentmarketinginstitute.com/author/mat-zucker
+https://contentmarketinginstitute.com/author/mathew-sweezey
+https://contentmarketinginstitute.com/author/matt-cooper
+https://contentmarketinginstitute.com/author/matt-kramer
+https://contentmarketinginstitute.com/author/maureen-jann
+https://contentmarketinginstitute.com/author/meenakshi-krishnan
+https://contentmarketinginstitute.com/author/megan-hannay
+https://contentmarketinginstitute.com/author/megan-mahoney
+https://contentmarketinginstitute.com/author/megan-morreale
+https://contentmarketinginstitute.com/author/meghan-casey
+https://contentmarketinginstitute.com/author/melanie-seibert
+https://contentmarketinginstitute.com/author/melissa-eggleston
+https://contentmarketinginstitute.com/author/melissa-lopez
+https://contentmarketinginstitute.com/author/michael-andrews
+https://contentmarketinginstitute.com/author/michael-becker
+https://contentmarketinginstitute.com/author/michael-brenner
+https://contentmarketinginstitute.com/author/michael-estrin
+https://contentmarketinginstitute.com/author/michael-gerard
+https://contentmarketinginstitute.com/author/michael-kolowich
+https://contentmarketinginstitute.com/author/michael-litt
+https://contentmarketinginstitute.com/author/michael-schreiber
+https://contentmarketinginstitute.com/author/michael-silverman
+https://contentmarketinginstitute.com/author/michael-weiss
+https://contentmarketinginstitute.com/author/michele-linn
+https://contentmarketinginstitute.com/author/michelle-garrett
+https://contentmarketinginstitute.com/author/michelle-park-lazette
+https://contentmarketinginstitute.com/author/midori-nediger
+https://contentmarketinginstitute.com/author/mike-agron
+https://contentmarketinginstitute.com/author/mike-carrozzo
+https://contentmarketinginstitute.com/author/mike-fishbein
+https://contentmarketinginstitute.com/author/mike-goldberg
+https://contentmarketinginstitute.com/author/mike-kamo
+https://contentmarketinginstitute.com/author/mike-murray
+https://contentmarketinginstitute.com/author/mike-wills
+https://contentmarketinginstitute.com/author/mike-wood
+https://contentmarketinginstitute.com/author/mitt-ray
+https://contentmarketinginstitute.com/author/mo-harake
+https://contentmarketinginstitute.com/author/monina-wagner
+https://contentmarketinginstitute.com/author/nadya-khoja
+https://contentmarketinginstitute.com/author/nancy-harhut
+https://contentmarketinginstitute.com/author/natalie-dunbar
+https://contentmarketinginstitute.com/author/natalie-king
+https://contentmarketinginstitute.com/author/natalya-minkovsky
+https://contentmarketinginstitute.com/author/nate-riggs
+https://contentmarketinginstitute.com/author/nayomi-chibana
+https://contentmarketinginstitute.com/author/neil-patel
+https://contentmarketinginstitute.com/author/neil-stoneman
+https://contentmarketinginstitute.com/author/nichole-demer-
+https://contentmarketinginstitute.com/author/nick-churick
+https://contentmarketinginstitute.com/author/nico-prins
+https://contentmarketinginstitute.com/author/nicole-martin
+https://contentmarketinginstitute.com/author/noah-brier
+https://contentmarketinginstitute.com/author/noz-urbina
+https://contentmarketinginstitute.com/author/olesia-filipenko
+https://contentmarketinginstitute.com/author/olga-rabo
+https://contentmarketinginstitute.com/author/orlee-gillis
+https://contentmarketinginstitute.com/author/paige-sjoblom
+https://contentmarketinginstitute.com/author/pam-didner
+https://contentmarketinginstitute.com/author/pam-kozelka
+https://contentmarketinginstitute.com/author/pat-ahern
+https://contentmarketinginstitute.com/author/patricia-redsicker
+https://contentmarketinginstitute.com/author/patrick-burke
+https://contentmarketinginstitute.com/author/patrick-garvey
+https://contentmarketinginstitute.com/author/patrick-hayslett
+https://contentmarketinginstitute.com/author/patsi-krakoff
+https://contentmarketinginstitute.com/author/patti-haus
+https://contentmarketinginstitute.com/author/paul-longhenry
+https://contentmarketinginstitute.com/author/paul-roetzer
+https://contentmarketinginstitute.com/author/pawan-deshpande
+https://contentmarketinginstitute.com/author/penny-gralewski
+https://contentmarketinginstitute.com/author/polina-medvedieva
+https://contentmarketinginstitute.com/author/pratik-dholakiya
+https://contentmarketinginstitute.com/author/quinn-tempest
+https://contentmarketinginstitute.com/author/rachel-foster
+https://contentmarketinginstitute.com/author/raechel-duplain
+https://contentmarketinginstitute.com/author/raf-stevens
+https://contentmarketinginstitute.com/author/rahel-bailie
+https://contentmarketinginstitute.com/author/randi-neville
+https://contentmarketinginstitute.com/author/randy-apuzzo
+https://contentmarketinginstitute.com/author/rebecca-bakken
+https://contentmarketinginstitute.com/author/rebekah-bek
+https://contentmarketinginstitute.com/author/regina-antonio
+https://contentmarketinginstitute.com/author/renae-gregoire
+https://contentmarketinginstitute.com/author/richard-hamilton
+https://contentmarketinginstitute.com/author/richard-silvester
+https://contentmarketinginstitute.com/author/roanne-neuwirth
+https://contentmarketinginstitute.com/author/rob-garner
+https://contentmarketinginstitute.com/author/rob-yoegel
+https://contentmarketinginstitute.com/author/robert-katai
+https://contentmarketinginstitute.com/author/robert-mcguire
+https://contentmarketinginstitute.com/author/robert-mills
+https://contentmarketinginstitute.com/author/robert-morris
+https://contentmarketinginstitute.com/author/robert-rose
+https://contentmarketinginstitute.com/author/roger-c-parker
+https://contentmarketinginstitute.com/author/roger-maftean
+https://contentmarketinginstitute.com/author/rohan-ayyar
+https://contentmarketinginstitute.com/author/romy-catauta
+https://contentmarketinginstitute.com/author/ross-hudgens
+https://contentmarketinginstitute.com/author/russ-henneberry
+https://contentmarketinginstitute.com/author/rusty-weston
+https://contentmarketinginstitute.com/author/ruth-carter
+https://contentmarketinginstitute.com/author/ryan-stewart
+https://contentmarketinginstitute.com/author/sally-ofuonyebi
+https://contentmarketinginstitute.com/author/sara-foxley
+https://contentmarketinginstitute.com/author/sara-wachter-boettcher
+https://contentmarketinginstitute.com/author/sarah-goliger
+https://contentmarketinginstitute.com/author/sarah-greesonbach
+https://contentmarketinginstitute.com/author/sarah-l-parker
+https://contentmarketinginstitute.com/author/sarah-mitchell
+https://contentmarketinginstitute.com/author/sarah-rickerd
+https://contentmarketinginstitute.com/author/sasha-laferte
+https://contentmarketinginstitute.com/author/scott-abel
+https://contentmarketinginstitute.com/author/scott-aughtmon
+https://contentmarketinginstitute.com/author/scott-frangos
+https://contentmarketinginstitute.com/author/scott-severson
+https://contentmarketinginstitute.com/author/sergio-aicardi
+https://contentmarketinginstitute.com/author/shane-barker
+https://contentmarketinginstitute.com/author/shanna-mallon
+https://contentmarketinginstitute.com/author/shannon-byrne
+https://contentmarketinginstitute.com/author/shawn-naggiar
+https://contentmarketinginstitute.com/author/shea-drake
+https://contentmarketinginstitute.com/author/shelly-bowen
+https://contentmarketinginstitute.com/author/sherry-gray
+https://contentmarketinginstitute.com/author/siddharth-bharath
+https://contentmarketinginstitute.com/author/stacy-thompson
+https://contentmarketinginstitute.com/author/stefanie-curtis
+https://contentmarketinginstitute.com/author/stephan-spencer
+https://contentmarketinginstitute.com/author/stephanie-beadell
+https://contentmarketinginstitute.com/author/stephanie-stahl
+https://contentmarketinginstitute.com/author/stephanie-tilton
+https://contentmarketinginstitute.com/author/stephen-dupont
+https://contentmarketinginstitute.com/author/stephen-moyers
+https://contentmarketinginstitute.com/author/stephen-spiewak
+https://contentmarketinginstitute.com/author/steve-linney
+https://contentmarketinginstitute.com/author/steve-rayson
+https://contentmarketinginstitute.com/author/steven-macdonald
+https://contentmarketinginstitute.com/author/steven-van-vessum
+https://contentmarketinginstitute.com/author/sujan-patel
+https://contentmarketinginstitute.com/author/sumeet-anand
+https://contentmarketinginstitute.com/author/susan-hartman
+https://contentmarketinginstitute.com/author/susan-moeller
+https://contentmarketinginstitute.com/author/sydni-craig-hart
+https://contentmarketinginstitute.com/author/teni-hallums
+https://contentmarketinginstitute.com/author/teodora-lozan
+https://contentmarketinginstitute.com/author/teresa-lee
+https://contentmarketinginstitute.com/author/theresa-regli
+https://contentmarketinginstitute.com/author/thibaud-clement
+https://contentmarketinginstitute.com/author/thom-carter
+https://contentmarketinginstitute.com/author/tilde-herrera
+https://contentmarketinginstitute.com/author/tim-hayden
+https://contentmarketinginstitute.com/author/tim-matthews
+https://contentmarketinginstitute.com/author/tim-walters
+https://contentmarketinginstitute.com/author/tom-treanor
+https://contentmarketinginstitute.com/author/tom-whatley
+https://contentmarketinginstitute.com/author/tony-patrick
+https://contentmarketinginstitute.com/author/tyler-douglas
+https://contentmarketinginstitute.com/author/ural-cebeci
+https://contentmarketinginstitute.com/author/valerie-kakovkina
+https://contentmarketinginstitute.com/author/veronique-wong-kai-in
+https://contentmarketinginstitute.com/author/vincent-clarke
+https://contentmarketinginstitute.com/author/wendy-marx
+https://contentmarketinginstitute.com/author/wesley-cherisien
+https://contentmarketinginstitute.com/author/will-blunt
+https://contentmarketinginstitute.com/author/william-beutler
+https://contentmarketinginstitute.com/author/wojtek-mazur
+https://contentmarketinginstitute.com/author/yoav-vilner
+https://contentmarketinginstitute.com/author/zontee-hou",可打开；可打开,正确且能用,文章地址 /{分类}/{slug}，分类路径全站共用；作者页、关键词页不匹配
+第一批,84,S1-R84-E3,Content Marketing Institute,https://contentmarketinginstitute.com/keyword/e-books-and-templates,补做（放宽，fill2）,已放宽,^https://contentmarketinginstitute\.com/(?:ai-in-marketing|analytics-data|career-salary-outlook|content-creation-distribution|content-distribution-promotion|content-marketing-strategy|content-optimization|social-media-content|strategy-planning|measurement-optimization|research|[a-z]+-[a-z-]+)/[a-z0-9-]+$,1,21,21/21,"https://contentmarketinginstitute.com/ai-in-marketing/agentic-ai-in-marketing-strategy
+https://contentmarketinginstitute.com/analytics-data/measuring-content-marketing-ebook
+https://contentmarketinginstitute.com/career-salary-outlook/2026-marketing-career-salary-outlook
+https://contentmarketinginstitute.com/content-creation-distribution/20-examples-of-brands-leading-through-content
+https://contentmarketinginstitute.com/content-creation-distribution/better-content-marketing-writing
+……共 21 个，见「正反例明细」",5,5/5,"https://contentmarketinginstitute.com/
+https://contentmarketinginstitute.com/content-creation-distribution
+https://contentmarketinginstitute.com/documents
+https://contentmarketinginstitute.com/latest-news
+https://contentmarketinginstitute.com/strategy-planning",可打开；可打开,正确且能用,电子书和模板也是 /{分类}/{slug} 文章页，分类路径全站共用
 第一批,85,S1-R85-E1,CXL,https://cxl.com/blog-archive/,今天 265 行（第 206 行）,已验证,^https://cxl\.com/blog/[a-z0-9-]+/$,1,1121,1121/1121,"https://cxl.com/blog/10-best-practices-for-better-b2b-website-experience/
 https://cxl.com/blog/10-google-analytics-reports-tell-site-leaking-money/
 https://cxl.com/blog/10-most-read-articles-of-2020/
@@ -1437,9 +2049,23 @@ https://iabeurope.eu/knowledge_hub/alliance-digitale-releases-2023-programmatic-
 https://iabeurope.eu/knowledge_hub/as-a-member-of-iab-europe-were-thrilled-to-offer-you-one-month-free-trial-to-the-drum-plus/
 https://iabeurope.eu/knowledge_hub/attitudes-to-programmatic-advertising-report-2019/
 ……共 95 个，见「正反例明细」",1,1/1,https://iabeurope.eu/,可打开；可打开,正确且能用,
-第一批,93,S1-R93-E1,lbbonline.com,https://lbbonline.com/work,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段
-第一批,93,S1-R93-E2,lbbonline.com,https://lbbonline.com/news,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段
-第一批,93,S1-R93-E3,lbbonline.com,https://lbbonline.com/reels,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Just a moment...）；未使用任何绕过手段
+第一批,93,S1-R93-E1,LBB,https://lbbonline.com/work,补做（放宽，fill2）,已放宽,^https://lbbonline\.com/work/[0-9]+$,1,3,3/3,"https://lbbonline.com/work/132049
+https://lbbonline.com/work/132050
+https://lbbonline.com/work/135420",3,3/3,"https://lbbonline.com/
+https://lbbonline.com/companies/dept
+https://lbbonline.com/work/reels",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,LBB work 详情；站点拦截本环境（Cloudflare），样本来自搜索结果
+第一批,93,S1-R93-E2,LBB,https://lbbonline.com/news,补做（放宽，fill2）,已放宽,^https://lbbonline\.com/news/[A-Za-z0-9-]+$,1,8,8/8,"https://lbbonline.com/news/LinkedIn-The-Network-That-Works-For-You
+https://lbbonline.com/news/VML-India-Kunal-Roy-and-Shekhar-Khanna
+https://lbbonline.com/news/Work-of-the-Week-270226
+https://lbbonline.com/news/big-w-appoints-72andsunny
+https://lbbonline.com/news/collections-your-free-reel-and-newsletter-builder-on-lbb
+……共 8 个，见「正反例明细」",3,3/3,"https://lbbonline.com/
+https://lbbonline.com/companies/dept
+https://lbbonline.com/work/reels",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,LBB news 详情；站点拦截本环境（Cloudflare），样本来自搜索结果
+第一批,93,S1-R93-E3,LBB,https://lbbonline.com/reels,补做（放宽，fill2）,已放宽,^https://lbbonline\.com/reels/[0-9]+$,1,2,2/2,"https://lbbonline.com/reels/1000000039
+https://lbbonline.com/reels/1000000066",3,3/3,"https://lbbonline.com/
+https://lbbonline.com/companies/dept
+https://lbbonline.com/work/reels",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,LBB reels 详情；站点拦截本环境（Cloudflare），样本来自搜索结果
 第一批,95,S1-R95-E2,Marketing Examples,https://marketingexamples.com/inspiration,今天 265 行（第 217 行）,已放宽,"^(?:https://ahrefs\.com/blog/best\-marketing\-newsletters/|https://brave\.com/|https://jointoucan\.com/|https://www\.amazon\.co\.uk/Humans\-New\-York\-Brandon\-Stanton/dp/1447294254|https://www\.instagram\.com/davegerhardtdgmg/|https://www\.mainstreet\.com/|https://www\.smalls\.com/|https://www\.youtube\.com/marketingexamples|https://wynter\.com/|https://yumwoof\.com/)$
 ^(?:https://opositiv\.com/products/flo\-pms\-vitamin\-capsules|https://www\.instructure\.com/canvas\?domain=canvas)$
 ^(?:http://mightyapp\.com/|https://flovitamins\.com/|https://huel\.com/|https://oonagoods\.com/|https://playgroundai\.com/|https://rememberedlore\.com/|https://sexyfoodtherapy\.com/|https://thyroidalchemy\.com/|https://twitter\.com/harrydry|https://uk\.huel\.com/|https://www\.canvas\.com/|https://www\.chanel\.com/gb/|https://www\.chanel\.com/gb/mothers\-day/|https://x\.com/harrydry)$",3,18,18/18,"http://mightyapp.com/
@@ -2410,7 +3036,12 @@ https://business.adobe.com/resources/digital-trends-report.html
 https://business.adobe.com/resources/reports/content-management-digital-trends.html",1,1/1,https://business.adobe.com/,本环境无法访问（站点拦截/需登录/网络限制）；本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
 第一批,143,S1-R143-E3,Adobe,https://business.adobe.com/resources/adobe-digital-insights.html,今天 265 行（第 254 行）,已放宽,^https://business\.adobe\.com/resources/[a-z0-9-]+\.html$,1,2,2/2,"https://business.adobe.com/resources/digital-economy-index.html
 https://business.adobe.com/resources/digital-trends-report.html",1,1/1,https://business.adobe.com/,本环境无法访问（站点拦截/需登录/网络限制）；本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
-第一批,144,S1-R144-E1,www.crunchbase.com,https://www.crunchbase.com/discover/organization.companies,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Attention Required! | Cloudflare）；未使用任何绕过手段
+第一批,144,S1-R144-E1,Crunchbase,https://www.crunchbase.com/discover/organization.companies,补做（放宽，fill2）,已放宽,^https://www\.crunchbase\.com/organization/[a-z0-9-]+$,1,6,6/6,"https://www.crunchbase.com/organization/company
+https://www.crunchbase.com/organization/crunchbase
+https://www.crunchbase.com/organization/guide-4412
+https://www.crunchbase.com/organization/inc
+https://www.crunchbase.com/organization/lookup-2
+……共 6 个，见「正反例明细」",1,1/1,https://www.crunchbase.com/,本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,公司详情 /organization/{slug}；站点拦截本环境，样本来自搜索结果；详情需登录才能看全
 第一批,145,S1-R145-E1,PitchBook,https://pitchbook.com/news,今天 265 行（第 255 行）,已放宽,"^https://pitchbook\.com/news/articles/[a-z0-9-]+$
 ^https://pitchbook\.com/news/reports/[a-z0-9-]+$",2,3,3/3,"https://pitchbook.com/news/articles/venture-capitals-current-recovery-is-all-irr-no-dpi
 https://pitchbook.com/news/reports/2026-us-venture-capital-outlook
@@ -2443,9 +3074,16 @@ https://dealroom.co/companies/pitchbook/",1,1/1,https://dealroom.co/,本环境�
 ^https://dealroom\.co/investors/[a-z0-9-]+\.md$",2,1,1/1,https://dealroom.co/investors/sequoia-capital.md,1,1/1,https://dealroom.co/,本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
 第一批,152,S1-R152-E7,Dealroom,https://dealroom.co/market-maps/,今天 265 行（第 263 行）,已放宽,^https://dealroom\.co/market\-maps/[a-z0-9-]+/$,1,1,1/1,https://dealroom.co/market-maps/market-intelligence-landscape/,1,1/1,https://dealroom.co/,本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
 第一批,152,S1-R152-E8,Dealroom,https://dealroom.co/power-law-outcomes/,今天 265 行（第 264 行）,单页,^https://dealroom\.co/power\-law\-outcomes/$,1,1,1/1,https://dealroom.co/power-law-outcomes/,1,1/1,https://dealroom.co/,本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
-第一批,152,S1-R152-E9,Dealroom,https://dealroom.co/talent/founder-mafias/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Attention Required! | Cloudflare）；未使用任何绕过手段
+第一批,152,S1-R152-E9,Dealroom,https://dealroom.co/talent/founder-mafias/,补做（放宽，fill2）,已放宽,^https://dealroom\.co/talent/founder-mafias/[a-z0-9-]+/$,1,7,7/7,"https://dealroom.co/talent/founder-mafias/adyen/
+https://dealroom.co/talent/founder-mafias/angellist/
+https://dealroom.co/talent/founder-mafias/monzo-bank/
+https://dealroom.co/talent/founder-mafias/n26/
+https://dealroom.co/talent/founder-mafias/revolut/
+……共 7 个，见「正反例明细」",2,2/2,"https://dealroom.co/
+https://dealroom.co/talent/founder-dna/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,各公司的 Founder Mafia 页 /talent/founder-mafias/{公司}/；站点拦截本环境，样本来自搜索结果
 第一批,152,S1-R152-E10,Dealroom,https://dealroom.co/tech-macro-economics/,今天 265 行（第 265 行）,单页,^https://dealroom\.co/tech\-macro\-economics/$,1,1,1/1,https://dealroom.co/tech-macro-economics/,1,1/1,https://dealroom.co/,本环境无法访问（站点拦截/需登录/网络限制）,正确且能用,
-第一批,152,S1-R152-E11,Dealroom,https://dealroom.co/vc-investment-dashboard/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403，挑战页：Attention Required! | Cloudflare）；未使用任何绕过手段
+第一批,152,S1-R152-E11,Dealroom,https://dealroom.co/vc-investment-dashboard/,补做（放宽，fill2）,单页,^https://dealroom\.co/vc-investment-dashboard/$,1,1,1/1,https://dealroom.co/vc-investment-dashboard/,2,2/2,"https://dealroom.co/
+https://dealroom.co/investors/",本环境无法访问（样本来自搜索结果）,正确且能用,实时看板单页，图表由接口渲染，没有下级条目地址；正则是本页地址
 第二批,15,S2-R15-E1,www.ctrchina.cn,www.ctrchina.cn/product/MI,之前几轮（第 3 轮规则）,部分验证（候选）,^https://www\.ctrchina\.cn/product/MI/[a-z]+$,1,5,5/5,"https://www.ctrchina.cn/product/MI/ggjcsjk
 https://www.ctrchina.cn/product/MI/hlwggjc
 https://www.ctrchina.cn/product/MI/szhwggpgxt
@@ -2454,7 +3092,12 @@ https://www.ctrchina.cn/product/MI/wzjc",4,4/4,"https://www.ctrchina.cn/product/
 https://www.ctrchina.cn/report?lang=en-US
 https://www.ctrchina.cn/report
 https://www.ctrchina.cn/product/WP/plstzzyj",,能用（候选，证据不足）,候选，未达准入：机械门未通过：有正例未完成落地身份核验；建议：补齐所缺证据后保留，或修正
-第二批,15,S2-R15-E2,www.ctrchina.cn,https://www.ctrchina.cn/report,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,部分：静态请求 1 页（入口+分页），未完成分页 0；前缀 /report/ 下家族 0 个、成员 0；前缀外同站链接 6、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
+第二批,15,S2-R15-E2,CTR 央视市场研究,https://www.ctrchina.cn/report,补做（放宽，fill2）,已放宽,^https://www\.ctrchina\.cn/rich/report/[0-9]+$,1,6,6/6,"https://www.ctrchina.cn/rich/report/890
+https://www.ctrchina.cn/rich/report/891
+https://www.ctrchina.cn/rich/report/892
+https://www.ctrchina.cn/rich/report/893
+https://www.ctrchina.cn/rich/report/894
+……共 6 个，见「正反例明细」",1,1/1,https://www.ctrchina.cn/,可打开；可打开,正确且能用,报告详情 /rich/report/{编号}
 第二批,15,S2-R15-E3,www.ctrchina.cn,https://www.ctrchina.cn/product/WP,之前几轮（第 3 轮规则）,已验证,^https://www\.ctrchina\.cn/product/WP/[a-z]+$,1,6,6/6,"https://www.ctrchina.cn/product/WP/ksxfppyz
 https://www.ctrchina.cn/product/WP/plstzzyj
 https://www.ctrchina.cn/product/WP/xfzmjyxlmx
@@ -2950,7 +3593,13 @@ https://trendinsight.oceanengine.com/arithmetic-report/detail/992",2,2/2,"https:
 https://trendinsight.oceanengine.com/arithmetic-report",可打开；可打开,正确且能用,
 第二批,66,S2-R66-E1,京洞察（京东）,https://survey.jd.com/page/ecological,今天 265 行（第 46 行）,单页,^https://survey\.jd\.com/page/ecological$,1,1,1/1,https://survey.jd.com/page/ecological,1,1/1,https://survey.jd.com/,可打开,正确且能用,
 第二批,66,S2-R66-E2,京洞察（京东）,https://survey.jd.com/page/edition,今天 265 行（第 47 行）,单页,^https://survey\.jd\.com/page/edition$,1,1,1/1,https://survey.jd.com/page/edition,1,1/1,https://survey.jd.com/,可打开,正确且能用,
-第二批,71,S2-R71-E1,www.digitaling.com,https://www.digitaling.com/moments,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口访问受限（站点 403：403 Forbidden）；未使用任何绕过手段
+第二批,71,S2-R71-E1,数英,https://www.digitaling.com/moments,补做（放宽，fill2）,已放宽,^https://www\.digitaling\.com/moments/[0-9]+\.html$,1,3,3/3,"https://www.digitaling.com/moments/13677.html
+https://www.digitaling.com/moments/13901.html
+https://www.digitaling.com/moments/31758.html",5,5/5,"https://www.digitaling.com/
+https://www.digitaling.com/company/moments/34439
+https://www.digitaling.com/moments/copy
+https://www.digitaling.com/moments/hot
+https://www.digitaling.com/people/moments/10059991",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,发现动态详情 /moments/{编号}.html；站点拦截本环境，样本来自搜索结果
 第二批,72,S2-R72-E1,www.meihua.info,https://www.meihua.info/article,之前几轮（第 3 轮规则）,已验证,^https://www\.meihua\.info/article/[0-9]+$,1,6,6/6,"https://www.meihua.info/article/7045392407528448
 https://www.meihua.info/article/7046888041088000
 https://www.meihua.info/article/7047229709157376
@@ -3053,70 +3702,668 @@ https://www.morketing.com/ecosystem/search
 https://www.morketing.com/detail/28917
 https://www.morketing.com/detail/28915",,正确且能用,
 第二批,79,S2-R79-E4,Morketing,https://www.morketing.com/ecosystem,今天 265 行（第 50 行）,单页,^https://www\.morketing\.com/ecosystem$,1,1,1/1,https://www.morketing.com/ecosystem,1,1/1,https://www.morketing.com/,可打开,正确且能用,
-第二批,82,S2-R82-E1,www.jiemian.com,https://www.jiemian.com/lists/2.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 14；前缀外同站链接 63、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E2,www.jiemian.com,https://www.jiemian.com/lists/800.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.jiemian\.com/lists/[0-9]+\.html$,1,11,10/11,"https://www.jiemian.com/lists/112.html
+第二批,82,S2-R82-E1,界面新闻,https://www.jiemian.com/lists/2.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,42,42/42,"https://www.jiemian.com/article/15241720.html
+https://www.jiemian.com/article/15242502.html
+https://www.jiemian.com/article/15242615.html
+https://www.jiemian.com/article/15245672.html
+https://www.jiemian.com/article/15246286.html
+……共 42 个，见「正反例明细」",36,36/36,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100000766
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120183837
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://a.jiemian.com/index.php?m=user&a=center&id=120550259
+https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+https://a.jiemian.com/index.php?m=user&a=center&id=120752266
+https://a.jiemian.com/index.php?m=user&a=center&id=120854798
+https://a.jiemian.com/index.php?m=user&a=center&id=120915844
+https://a.jiemian.com/index.php?m=user&a=center&id=120916281
+https://a.jiemian.com/index.php?m=user&a=center&id=120918297
+https://a.jiemian.com/index.php?m=user&a=center&id=120920830
+https://a.jiemian.com/index.php?m=user&a=center&id=120964982
+https://a.jiemian.com/index.php?m=user&a=center&id=121045316
+https://www.jiemian.com/
+https://www.jiemian.com/city/main/181.html
+https://www.jiemian.com/lists/141.html
+https://www.jiemian.com/lists/256.html
+https://www.jiemian.com/lists/28.html
+https://www.jiemian.com/lists/30.html
+https://www.jiemian.com/lists/31.html
+https://www.jiemian.com/lists/472.html
+https://www.jiemian.com/lists/49.html
+https://www.jiemian.com/lists/51.html
+https://www.jiemian.com/lists/62.html
+https://www.jiemian.com/lists/65.html
+https://www.jiemian.com/lists/676.html
+https://www.jiemian.com/lists/68.html
+https://www.jiemian.com/lists/694.html
+https://www.jiemian.com/lists/703.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E2,界面新闻,https://www.jiemian.com/lists/800.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,31,31/31,"https://www.jiemian.com/article/15235292.html
+https://www.jiemian.com/article/15242256.html
+https://www.jiemian.com/article/15242347.html
+https://www.jiemian.com/article/15242764.html
+https://www.jiemian.com/article/15246192.html
+……共 31 个，见「正反例明细」",25,25/25,"https://a.jiemian.com/index.php?m=user&a=center&id=100033448
+https://a.jiemian.com/index.php?m=user&a=center&id=100374491
+https://a.jiemian.com/index.php?m=user&a=center&id=104158855
+https://a.jiemian.com/index.php?m=user&a=center&id=114414571
+https://a.jiemian.com/index.php?m=user&a=center&id=115461681
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=117154369
+https://a.jiemian.com/index.php?m=user&a=center&id=117863049
+https://a.jiemian.com/index.php?m=user&a=center&id=118348920
+https://a.jiemian.com/index.php?m=user&a=center&id=118972166
+https://a.jiemian.com/index.php?m=user&a=center&id=119369594
+https://a.jiemian.com/index.php?m=user&a=center&id=119674512
+https://a.jiemian.com/index.php?m=user&a=center&id=120042397
+https://a.jiemian.com/index.php?m=user&a=center&id=120128607
+https://a.jiemian.com/index.php?m=user&a=center&id=120553280
+https://a.jiemian.com/index.php?m=user&a=center&id=120752266
+https://a.jiemian.com/index.php?m=user&a=center&id=120918297
+https://www.jiemian.com/
+https://www.jiemian.com/lists/112.html
+https://www.jiemian.com/lists/174.html
 https://www.jiemian.com/lists/410.html
 https://www.jiemian.com/lists/418.html
 https://www.jiemian.com/lists/699.html
-https://www.jiemian.com/lists/9.html
-……共 11 个，见「正反例明细」",5,4/5,"https://www.jiemian.com/lists/800.html
-https://www.jiemian.com/article/15263559.html
-https://www.jiemian.com/article/15258544.html
-https://www.jiemian.com/article/15250734.html
-https://www.jiemian.com/article/15262855.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,82,S2-R82-E3,www.jiemian.com,https://www.jiemian.com/lists/49.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E4,www.jiemian.com,https://www.jiemian.com/lists/31.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 32、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E5,www.jiemian.com,https://www.jiemian.com/lists/858.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E6,www.jiemian.com,https://www.jiemian.com/lists/956.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 34、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E7,www.jiemian.com,https://www.jiemian.com/lists/65.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 8；前缀外同站链接 42、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E8,www.jiemian.com,https://www.jiemian.com/lists/9.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E9,www.jiemian.com,https://www.jiemian.com/lists/112.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 40、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E10,www.jiemian.com,https://www.jiemian.com/lists/62.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 46、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E11,www.jiemian.com,https://www.jiemian.com/lists/51.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.jiemian\.com/lists/[0-9]+\.html$,1,11,10/11,"https://www.jiemian.com/lists/57.html
+https://www.jiemian.com/lists/86.html
+https://www.jiemian.com/lists/9.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E3,界面新闻,https://www.jiemian.com/lists/49.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/11810724.html
+https://www.jiemian.com/article/11837743.html
+https://www.jiemian.com/article/11888117.html
+https://www.jiemian.com/article/11927642.html
+https://www.jiemian.com/article/11993645.html
+……共 24 个，见「正反例明细」",8,8/8,"https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=118710368
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://www.jiemian.com/
+https://www.jiemian.com/lists/443.html
+https://www.jiemian.com/lists/507.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E4,界面新闻,https://www.jiemian.com/lists/31.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,21,21/21,"https://www.jiemian.com/article/15239555.html
+https://www.jiemian.com/article/15239831.html
+https://www.jiemian.com/article/15242502.html
+https://www.jiemian.com/article/15243545.html
+https://www.jiemian.com/article/15246286.html
+……共 21 个，见「正反例明细」",15,15/15,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100000766
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119737989
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://www.jiemian.com/
+https://www.jiemian.com/lists/435.html
+https://www.jiemian.com/lists/503.html
+https://www.jiemian.com/lists/702.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E5,界面新闻,https://www.jiemian.com/lists/858.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,22,22/22,"https://www.jiemian.com/article/11615116.html
+https://www.jiemian.com/article/11739544.html
+https://www.jiemian.com/article/11953928.html
+https://www.jiemian.com/article/12067130.html
+https://www.jiemian.com/article/12196016.html
+……共 22 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=105161074
+https://a.jiemian.com/index.php?m=user&a=center&id=116115463
+https://a.jiemian.com/index.php?m=user&a=center&id=118416791
+https://a.jiemian.com/index.php?m=user&a=center&id=118943033
+https://a.jiemian.com/index.php?m=user&a=center&id=120154545
+https://a.jiemian.com/index.php?m=user&a=center&id=120353068
+https://a.jiemian.com/index.php?m=user&a=center&id=120422564
+https://a.jiemian.com/index.php?m=user&a=center&id=120915844
+https://www.jiemian.com/
+https://www.jiemian.com/lists/43.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E6,界面新闻,https://www.jiemian.com/lists/956.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/15166959.html
+https://www.jiemian.com/article/15189936.html
+https://www.jiemian.com/article/15191845.html
+https://www.jiemian.com/article/15194913.html
+https://www.jiemian.com/article/15196455.html
+……共 24 个，见「正反例明细」",13,13/13,"https://a.jiemian.com/index.php?m=user&a=center&id=104158855
+https://a.jiemian.com/index.php?m=user&a=center&id=113198571
+https://a.jiemian.com/index.php?m=user&a=center&id=114512614
+https://a.jiemian.com/index.php?m=user&a=center&id=114591227
+https://a.jiemian.com/index.php?m=user&a=center&id=115118332
+https://a.jiemian.com/index.php?m=user&a=center&id=118978305
+https://a.jiemian.com/index.php?m=user&a=center&id=120069386
+https://a.jiemian.com/index.php?m=user&a=center&id=120553280
+https://a.jiemian.com/index.php?m=user&a=center&id=120752266
+https://a.jiemian.com/index.php?m=user&a=center&id=120895859
+https://www.jiemian.com/
+https://www.jiemian.com/lists/957.html
+https://www.jiemian.com/lists/959.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E7,界面新闻,https://www.jiemian.com/lists/65.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,29,29/29,"https://www.jiemian.com/article/11031808.html
+https://www.jiemian.com/article/12245886.html
+https://www.jiemian.com/article/12834494.html
+https://www.jiemian.com/article/13070605.html
+https://www.jiemian.com/article/13097762.html
+……共 29 个，见「正反例明细」",22,22/22,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=105965062
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116115463
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=118416791
+https://a.jiemian.com/index.php?m=user&a=center&id=118661365
+https://a.jiemian.com/index.php?m=user&a=center&id=118943033
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120154545
+https://a.jiemian.com/index.php?m=user&a=center&id=120903765
+https://a.jiemian.com/index.php?m=user&a=center&id=120914964
+https://a.jiemian.com/index.php?m=user&a=center&id=120915844
+https://www.jiemian.com/
+https://www.jiemian.com/lists/459.html
+https://www.jiemian.com/lists/598.html
+https://www.jiemian.com/lists/6.html
+https://www.jiemian.com/lists/637.html
+https://www.jiemian.com/lists/66.html
+https://www.jiemian.com/lists/811.html
+https://www.jiemian.com/lists/812.html
+https://www.jiemian.com/lists/813.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E8,界面新闻,https://www.jiemian.com/lists/9.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,25,25/25,"https://www.jiemian.com/article/15139657.html
+https://www.jiemian.com/article/15151120.html
+https://www.jiemian.com/article/15213251.html
+https://www.jiemian.com/article/15245905.html
+https://www.jiemian.com/article/15249251.html
+……共 25 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=118348920
+https://a.jiemian.com/index.php?m=user&a=center&id=120183837
+https://a.jiemian.com/index.php?m=user&a=center&id=120501080
+https://a.jiemian.com/index.php?m=user&a=center&id=120752266
+https://a.jiemian.com/index.php?m=user&a=center&id=120761420
+https://a.jiemian.com/index.php?m=user&a=center&id=120854798
+https://a.jiemian.com/index.php?m=user&a=center&id=120918297
+https://www.jiemian.com/
+https://www.jiemian.com/lists/444.html
+https://www.jiemian.com/lists/445.html
+https://www.jiemian.com/lists/473.html
+https://www.jiemian.com/lists/502.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E9,界面新闻,https://www.jiemian.com/lists/112.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,28,28/28,"https://www.jiemian.com/article/15167153.html
+https://www.jiemian.com/article/15191851.html
+https://www.jiemian.com/article/15225878.html
+https://www.jiemian.com/article/15228635.html
+https://www.jiemian.com/article/15235292.html
+……共 28 个，见「正反例明细」",16,16/16,"https://a.jiemian.com/index.php?m=user&a=center&id=100000302
+https://a.jiemian.com/index.php?m=user&a=center&id=100374491
+https://a.jiemian.com/index.php?m=user&a=center&id=115461681
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=117154369
+https://a.jiemian.com/index.php?m=user&a=center&id=117820685
+https://a.jiemian.com/index.php?m=user&a=center&id=118348920
+https://a.jiemian.com/index.php?m=user&a=center&id=118972166
+https://a.jiemian.com/index.php?m=user&a=center&id=119044814
+https://a.jiemian.com/index.php?m=user&a=center&id=119369594
+https://a.jiemian.com/index.php?m=user&a=center&id=120042397
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://www.jiemian.com/
+https://www.jiemian.com/lists/116.html
+https://www.jiemian.com/lists/501.html
+https://www.jiemian.com/lists/699.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E10,界面新闻,https://www.jiemian.com/lists/62.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,28,28/28,"https://www.jiemian.com/article/14999248.html
+https://www.jiemian.com/article/15016116.html
+https://www.jiemian.com/article/15036361.html
+https://www.jiemian.com/article/15085624.html
+https://www.jiemian.com/article/15105519.html
+……共 28 个，见「正反例明细」",24,24/24,"https://a.jiemian.com/index.php?m=user&a=center&id=100001557
+https://a.jiemian.com/index.php?m=user&a=center&id=100084740
+https://a.jiemian.com/index.php?m=user&a=center&id=100086383
+https://a.jiemian.com/index.php?m=user&a=center&id=100088230
+https://a.jiemian.com/index.php?m=user&a=center&id=100101911
+https://a.jiemian.com/index.php?m=user&a=center&id=100159243
+https://a.jiemian.com/index.php?m=user&a=center&id=100159289
+https://a.jiemian.com/index.php?m=user&a=center&id=100171595
+https://a.jiemian.com/index.php?m=user&a=center&id=100191957
+https://a.jiemian.com/index.php?m=user&a=center&id=100250213
+https://a.jiemian.com/index.php?m=user&a=center&id=101182933
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120023250
+https://a.jiemian.com/index.php?m=user&a=center&id=120550259
+https://www.jiemian.com/
+https://www.jiemian.com/lists/469.html
+https://www.jiemian.com/lists/500.html
+https://www.jiemian.com/lists/639.html
+https://www.jiemian.com/lists/69.html
+https://www.jiemian.com/lists/698.html
+https://www.jiemian.com/lists/945.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E11,界面新闻,https://www.jiemian.com/lists/51.html,补做（放宽，fill2）,已放宽,"^https://www\.jiemian\.com/article/[0-9]+\.html$
+^https://www\.jiemian\.com/video/[A-Za-z0-9]+\.html$",2,25,25/25,"https://www.jiemian.com/article/14953032.html
+https://www.jiemian.com/article/15054534.html
+https://www.jiemian.com/article/15117552.html
+https://www.jiemian.com/article/15160773.html
+https://www.jiemian.com/article/15181649.html
+……共 25 个，见「正反例明细」",16,16/16,"https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119772800
+https://a.jiemian.com/index.php?m=user&a=center&id=120069420
+https://a.jiemian.com/index.php?m=user&a=center&id=120319743
+https://a.jiemian.com/index.php?m=user&a=center&id=120914964
+https://a.jiemian.com/index.php?m=user&a=center&id=120920830
+https://a.jiemian.com/index.php?m=user&a=center&id=120964982
+https://a.jiemian.com/index.php?m=user&a=center&id=121045316
+https://www.jiemian.com/
+https://www.jiemian.com/lists/57.html
 https://www.jiemian.com/lists/59.html
 https://www.jiemian.com/lists/831.html
+https://www.jiemian.com/lists/833.html
+https://www.jiemian.com/lists/834.html
 https://www.jiemian.com/lists/835.html
-https://www.jiemian.com/lists/836.html
-……共 11 个，见「正反例明细」",5,4/5,"https://www.jiemian.com/lists/51.html
-https://www.jiemian.com/video/AGUCMQhvB2IBOlVn.html
-https://www.jiemian.com/article/15181649.html
-https://www.jiemian.com/article/15054534.html
-https://www.jiemian.com/article/15214394.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,82,S2-R82-E12,www.jiemian.com,https://www.jiemian.com/lists/28.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 48、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E13,www.jiemian.com,https://www.jiemian.com/lists/30.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.jiemian\.com/lists/[0-9]+\.html$,1,11,10/11,"https://www.jiemian.com/lists/439.html
+https://www.jiemian.com/lists/836.html",可打开；可打开,正确且能用,文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E12,界面新闻,https://www.jiemian.com/lists/28.html,补做（放宽，fill2）,已放宽,"^https://www\.jiemian\.com/article/[0-9]+\.html$
+^https://www\.jiemian\.com/video/[A-Za-z0-9]+\.html$",2,41,41/41,"https://www.jiemian.com/article/15184839.html
+https://www.jiemian.com/article/15185912.html
+https://www.jiemian.com/article/15189908.html
+https://www.jiemian.com/article/15190951.html
+https://www.jiemian.com/article/15193213.html
+……共 41 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=118978305
+https://a.jiemian.com/index.php?m=user&a=center&id=120491977
+https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+https://a.jiemian.com/index.php?m=user&a=center&id=120916281
+https://a.jiemian.com/index.php?m=user&a=center&id=121072671
+https://www.jiemian.com/
+https://www.jiemian.com/lists/436.html
+https://www.jiemian.com/lists/437.html
+https://www.jiemian.com/lists/819.html
+https://www.jiemian.com/lists/820.html",可打开；可打开,正确且能用,文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E13,界面新闻,https://www.jiemian.com/lists/30.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/12494985.html
+https://www.jiemian.com/article/12495519.html
+https://www.jiemian.com/article/12497086.html
+https://www.jiemian.com/article/15127091.html
+https://www.jiemian.com/article/15130278.html
+……共 24 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120933214
+https://www.jiemian.com/
+https://www.jiemian.com/lists/439.html
 https://www.jiemian.com/lists/440.html
 https://www.jiemian.com/lists/505.html
 https://www.jiemian.com/lists/717.html
-https://www.jiemian.com/lists/904.html
-……共 11 个，见「正反例明细」",5,4/5,"https://www.jiemian.com/lists/30.html
-https://www.jiemian.com/article/12494985.html
-https://www.jiemian.com/article/15263427.html
-https://www.jiemian.com/article/15130278.html
-https://www.jiemian.com/article/15147272.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN1/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,82,S2-R82-E14,www.jiemian.com,https://www.jiemian.com/lists/851.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 32、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E15,www.jiemian.com,https://www.jiemian.com/lists/856.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 35、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E16,www.jiemian.com,https://www.jiemian.com/lists/256.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E17,www.jiemian.com,https://www.jiemian.com/lists/845.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E18,www.jiemian.com,https://www.jiemian.com/lists/857.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 6；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E19,www.jiemian.com,https://www.jiemian.com/lists/850.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E20,www.jiemian.com,https://www.jiemian.com/lists/854.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 28、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E21,www.jiemian.com,https://www.jiemian.com/lists/676.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 39、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E22,www.jiemian.com,https://www.jiemian.com/lists/841.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 30、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E23,www.jiemian.com,https://www.jiemian.com/lists/847.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E24,www.jiemian.com,https://www.jiemian.com/lists/838.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 28、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E25,www.jiemian.com,https://www.jiemian.com/lists/694.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 3；前缀外同站链接 24、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E26,www.jiemian.com,https://www.jiemian.com/lists/848.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 71；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E27,www.jiemian.com,https://www.jiemian.com/lists/846.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 33、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E28,www.jiemian.com,https://www.jiemian.com/lists/852.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E29,www.jiemian.com,https://www.jiemian.com/lists/839.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 27、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E30,www.jiemian.com,https://www.jiemian.com/lists/840.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 29、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E31,www.jiemian.com,https://www.jiemian.com/lists/883.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E32,www.jiemian.com,https://www.jiemian.com/lists/605.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E33,www.jiemian.com,https://www.jiemian.com/lists/154.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 72；前缀外同站链接 26、文件 0；sitemap 中同结构但不在列表的 URL：F1=0；内容区无前缀内链接，栏目条目取自页面 nav/header 中的前缀内链接
-第二批,82,S2-R82-E34,www.jiemian.com,https://www.jiemian.com/lists/712.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 5；前缀外同站链接 41、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E35,www.jiemian.com,https://www.jiemian.com/lists/877.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 34、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,82,S2-R82-E36,www.jiemian.com,https://www.jiemian.com/lists/699.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 0 个、成员 0；前缀外同站链接 28、文件 0；未发现可归纳的下级家族（下级链接不足 3 个同结构或均在前缀外）
-第二批,82,S2-R82-E37,www.jiemian.com,https://www.jiemian.com/lists/174.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /lists/ 下家族 1 个、成员 4；前缀外同站链接 31、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
+https://www.jiemian.com/lists/904.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E14,界面新闻,https://www.jiemian.com/lists/851.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/15208146.html
+https://www.jiemian.com/article/15211557.html
+https://www.jiemian.com/article/15211633.html
+https://www.jiemian.com/article/15214065.html
+https://www.jiemian.com/article/15214302.html
+……共 24 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=118416791
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120154545
+https://a.jiemian.com/index.php?m=user&a=center&id=120903765
+https://a.jiemian.com/index.php?m=user&a=center&id=120915844
+https://www.jiemian.com/
+https://www.jiemian.com/lists/43.html
+https://www.jiemian.com/lists/6.html
+https://www.jiemian.com/lists/637.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E15,界面新闻,https://www.jiemian.com/lists/856.html,补做（放宽，fill2）,已放宽,"^https://www\.jiemian\.com/article/[0-9]+\.html$
+^https://www\.jiemian\.com/video/[A-Za-z0-9]+\.html$",2,30,30/30,"https://www.jiemian.com/article/15208639.html
+https://www.jiemian.com/article/15208767.html
+https://www.jiemian.com/article/15208891.html
+https://www.jiemian.com/article/15219193.html
+https://www.jiemian.com/article/15219874.html
+……共 30 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=118978305
+https://a.jiemian.com/index.php?m=user&a=center&id=120491977
+https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+https://a.jiemian.com/index.php?m=user&a=center&id=120916281
+https://www.jiemian.com/
+https://www.jiemian.com/lists/504.html
+https://www.jiemian.com/lists/822.html
+https://www.jiemian.com/lists/823.html
+https://www.jiemian.com/lists/824.html
+https://www.jiemian.com/lists/825.html
+https://www.jiemian.com/lists/859.html",可打开；可打开,正确且能用,文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E16,界面新闻,https://www.jiemian.com/lists/256.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/14734430.html
+https://www.jiemian.com/article/14781403.html
+https://www.jiemian.com/article/14815023.html
+https://www.jiemian.com/article/14824157.html
+https://www.jiemian.com/article/14842975.html
+……共 24 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119638102
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://www.jiemian.com/
+https://www.jiemian.com/lists/860.html
+https://www.jiemian.com/lists/861.html
+https://www.jiemian.com/lists/862.html
+https://www.jiemian.com/lists/863.html
+https://www.jiemian.com/lists/864.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E17,界面新闻,https://www.jiemian.com/lists/845.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/15186133.html
+https://www.jiemian.com/article/15187096.html
+https://www.jiemian.com/article/15190898.html
+https://www.jiemian.com/article/15193625.html
+https://www.jiemian.com/article/15195181.html
+……共 24 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100000766
+https://a.jiemian.com/index.php?m=user&a=center&id=100136256
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119737989
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://www.jiemian.com/
+https://www.jiemian.com/lists/702.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E18,界面新闻,https://www.jiemian.com/lists/857.html,补做（放宽，fill2）,已放宽,"^https://www\.jiemian\.com/article/[0-9]+\.html$
+^https://www\.jiemian\.com/video/[A-Za-z0-9]+\.html$",2,27,27/27,"https://www.jiemian.com/article/15219193.html
+https://www.jiemian.com/article/15219901.html
+https://www.jiemian.com/article/15220058.html
+https://www.jiemian.com/article/15225139.html
+https://www.jiemian.com/article/15225346.html
+……共 27 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=118978305
+https://a.jiemian.com/index.php?m=user&a=center&id=120491977
+https://a.jiemian.com/index.php?m=user&a=center&id=120916281
+https://www.jiemian.com/
+https://www.jiemian.com/lists/690.html
+https://www.jiemian.com/lists/821.html
+https://www.jiemian.com/lists/825.html
+https://www.jiemian.com/lists/826.html
+https://www.jiemian.com/lists/827.html
+https://www.jiemian.com/lists/828.html",可打开；可打开,正确且能用,文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E19,界面新闻,https://www.jiemian.com/lists/850.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/11935116.html
+https://www.jiemian.com/article/11947026.html
+https://www.jiemian.com/article/11985607.html
+https://www.jiemian.com/article/12024283.html
+https://www.jiemian.com/article/12057975.html
+……共 24 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100000170
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116115463
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=118661365
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120422564
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://a.jiemian.com/index.php?m=user&a=center&id=120729953
+https://www.jiemian.com/
+https://www.jiemian.com/lists/811.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E20,界面新闻,https://www.jiemian.com/lists/854.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,21,21/21,"https://www.jiemian.com/article/14986725.html
+https://www.jiemian.com/article/14988149.html
+https://www.jiemian.com/article/15018993.html
+https://www.jiemian.com/article/15045844.html
+https://www.jiemian.com/article/15075458.html
+……共 21 个，见「正反例明细」",10,10/10,"https://a.jiemian.com/index.php?m=user&a=center&id=100136256
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=118108393
+https://a.jiemian.com/index.php?m=user&a=center&id=119783076
+https://a.jiemian.com/index.php?m=user&a=center&id=120105797
+https://a.jiemian.com/index.php?m=user&a=center&id=120257572
+https://a.jiemian.com/index.php?m=user&a=center&id=121057896
+https://www.jiemian.com/
+https://www.jiemian.com/lists/441.html
+https://www.jiemian.com/lists/816.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E21,界面新闻,https://www.jiemian.com/lists/676.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,33,33/33,"https://www.jiemian.com/article/10554957.html
+https://www.jiemian.com/article/10699206.html
+https://www.jiemian.com/article/10793886.html
+https://www.jiemian.com/article/10815106.html
+https://www.jiemian.com/article/10914572.html
+……共 33 个，见「正反例明细」",10,10/10,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=111874355
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119647379
+https://a.jiemian.com/index.php?m=user&a=center&id=120382519
+https://a.jiemian.com/index.php?m=user&a=center&id=120926738
+https://www.jiemian.com/
+https://www.jiemian.com/lists/677.html
+https://www.jiemian.com/lists/678.html
+https://www.jiemian.com/lists/679.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E22,界面新闻,https://www.jiemian.com/lists/841.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/14001621.html
+https://www.jiemian.com/article/14018405.html
+https://www.jiemian.com/article/14076008.html
+https://www.jiemian.com/article/14092679.html
+https://www.jiemian.com/article/14117604.html
+……共 24 个，见「正反例明细」",8,8/8,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=113008744
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120933214
+https://www.jiemian.com/
+https://www.jiemian.com/lists/440.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E23,界面新闻,https://www.jiemian.com/lists/847.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/15152253.html
+https://www.jiemian.com/article/15153639.html
+https://www.jiemian.com/article/15163263.html
+https://www.jiemian.com/article/15168713.html
+https://www.jiemian.com/article/15178336.html
+……共 24 个，见「正反例明细」",9,9/9,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100136256
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://www.jiemian.com/
+https://www.jiemian.com/lists/810.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E24,界面新闻,https://www.jiemian.com/lists/838.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/14884034.html
+https://www.jiemian.com/article/14885096.html
+https://www.jiemian.com/article/14892356.html
+https://www.jiemian.com/article/14928778.html
+https://www.jiemian.com/article/14948378.html
+……共 24 个，见「正反例明细」",6,6/6,"https://a.jiemian.com/index.php?m=user&a=center&id=100045340
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119737989
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://www.jiemian.com/
+https://www.jiemian.com/lists/807.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E25,界面新闻,https://www.jiemian.com/lists/694.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,18,18/18,"https://www.jiemian.com/article/10014697.html
+https://www.jiemian.com/article/10942649.html
+https://www.jiemian.com/article/11188571.html
+https://www.jiemian.com/article/13094598.html
+https://www.jiemian.com/article/13527081.html
+……共 18 个，见「正反例明细」",10,10/10,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=120023250
+https://a.jiemian.com/index.php?m=user&a=center&id=120290676
+https://a.jiemian.com/index.php?m=user&a=center&id=120367953
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://a.jiemian.com/index.php?m=user&a=center&id=120550259
+https://www.jiemian.com/
+https://www.jiemian.com/lists/695.html
+https://www.jiemian.com/lists/696.html
+https://www.jiemian.com/lists/697.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E26,界面新闻,https://www.jiemian.com/lists/848.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/15155766.html
+https://www.jiemian.com/article/15163263.html
+https://www.jiemian.com/article/15168713.html
+https://www.jiemian.com/article/15173507.html
+https://www.jiemian.com/article/15180490.html
+……共 24 个，见「正反例明细」",10,10/10,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100000766
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=114153817
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://www.jiemian.com/",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E27,界面新闻,https://www.jiemian.com/lists/846.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,23,23/23,"https://www.jiemian.com/article/15139444.html
+https://www.jiemian.com/article/15144411.html
+https://www.jiemian.com/article/15144748.html
+https://www.jiemian.com/article/15150947.html
+https://www.jiemian.com/article/15152253.html
+……共 23 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=100136256
+https://a.jiemian.com/index.php?m=user&a=center&id=100743852
+https://a.jiemian.com/index.php?m=user&a=center&id=103817700
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116236814
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://a.jiemian.com/index.php?m=user&a=center&id=120487578
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://www.jiemian.com/
+https://www.jiemian.com/lists/808.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E28,界面新闻,https://www.jiemian.com/lists/852.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,21,21/21,"https://www.jiemian.com/article/13685250.html
+https://www.jiemian.com/article/13692469.html
+https://www.jiemian.com/article/13714150.html
+https://www.jiemian.com/article/13782246.html
+https://www.jiemian.com/article/13820715.html
+……共 21 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=100000115
+https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=116115463
+https://a.jiemian.com/index.php?m=user&a=center&id=118416791
+https://a.jiemian.com/index.php?m=user&a=center&id=118661365
+https://a.jiemian.com/index.php?m=user&a=center&id=118943033
+https://a.jiemian.com/index.php?m=user&a=center&id=120154545
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://www.jiemian.com/
+https://www.jiemian.com/lists/43.html
+https://www.jiemian.com/lists/812.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E29,界面新闻,https://www.jiemian.com/lists/839.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/14155869.html
+https://www.jiemian.com/article/14185449.html
+https://www.jiemian.com/article/14241718.html
+https://www.jiemian.com/article/14374041.html
+https://www.jiemian.com/article/14502714.html
+……共 24 个，见「正反例明细」",5,5/5,"https://a.jiemian.com/index.php?m=user&a=center&id=119737989
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://www.jiemian.com/
+https://www.jiemian.com/lists/805.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E30,界面新闻,https://www.jiemian.com/lists/840.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/12891301.html
+https://www.jiemian.com/article/12971276.html
+https://www.jiemian.com/article/13152941.html
+https://www.jiemian.com/article/13247435.html
+https://www.jiemian.com/article/13333291.html
+……共 24 个，见「正反例明细」",8,8/8,"https://a.jiemian.com/index.php?m=user&a=center&id=100045340
+https://a.jiemian.com/index.php?m=user&a=center&id=118330500
+https://a.jiemian.com/index.php?m=user&a=center&id=118710368
+https://a.jiemian.com/index.php?m=user&a=center&id=119737989
+https://a.jiemian.com/index.php?m=user&a=center&id=120503571
+https://www.jiemian.com/
+https://www.jiemian.com/lists/708.html
+https://www.jiemian.com/lists/806.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E31,界面新闻,https://www.jiemian.com/lists/883.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,24,24/24,"https://www.jiemian.com/article/10149253.html
+https://www.jiemian.com/article/10929138.html
+https://www.jiemian.com/article/11586476.html
+https://www.jiemian.com/article/11653282.html
+https://www.jiemian.com/article/11737468.html
+……共 24 个，见「正反例明细」",12,12/12,"https://a.jiemian.com/index.php?m=user&a=center&id=109761718
+https://a.jiemian.com/index.php?m=user&a=center&id=114837201
+https://a.jiemian.com/index.php?m=user&a=center&id=119199844
+https://a.jiemian.com/index.php?m=user&a=center&id=119647379
+https://a.jiemian.com/index.php?m=user&a=center&id=120382519
+https://a.jiemian.com/index.php?m=user&a=center&id=120926738
+https://www.jiemian.com/
+https://www.jiemian.com/lists/884.html
+https://www.jiemian.com/lists/885.html
+https://www.jiemian.com/lists/886.html
+https://www.jiemian.com/lists/887.html
+https://www.jiemian.com/lists/899.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E32,界面新闻,https://www.jiemian.com/lists/605.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,25,25/25,"https://www.jiemian.com/article/11431594.html
+https://www.jiemian.com/article/11511733.html
+https://www.jiemian.com/article/11571892.html
+https://www.jiemian.com/article/11665949.html
+https://www.jiemian.com/article/11732351.html
+……共 25 个，见「正反例明细」",15,15/15,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=113198571
+https://a.jiemian.com/index.php?m=user&a=center&id=114512614
+https://a.jiemian.com/index.php?m=user&a=center&id=114591227
+https://a.jiemian.com/index.php?m=user&a=center&id=115118332
+https://a.jiemian.com/index.php?m=user&a=center&id=118765780
+https://a.jiemian.com/index.php?m=user&a=center&id=120069386
+https://a.jiemian.com/index.php?m=user&a=center&id=120310105
+https://a.jiemian.com/index.php?m=user&a=center&id=120486096
+https://www.jiemian.com/
+https://www.jiemian.com/lists/229.html
+https://www.jiemian.com/lists/509.html
+https://www.jiemian.com/lists/606.html
+https://www.jiemian.com/lists/607.html
+https://www.jiemian.com/lists/608.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E33,界面新闻,https://www.jiemian.com/lists/154.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,21,21/21,"https://www.jiemian.com/article/10642493.html
+https://www.jiemian.com/article/10647412.html
+https://www.jiemian.com/article/10663736.html
+https://www.jiemian.com/article/10666606.html
+https://www.jiemian.com/article/10666959.html
+……共 21 个，见「正反例明细」",7,7/7,"https://a.jiemian.com/index.php?m=user&a=center&id=112204278
+https://a.jiemian.com/index.php?m=user&a=center&id=117144041
+https://a.jiemian.com/index.php?m=user&a=center&id=119767705
+https://a.jiemian.com/index.php?m=user&a=center&id=120504522
+https://a.jiemian.com/index.php?m=user&a=center&id=120534408
+https://www.jiemian.com/
+https://www.jiemian.com/lists/499.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E34,界面新闻,https://www.jiemian.com/lists/712.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,27,27/27,"https://www.jiemian.com/article/10555156.html
+https://www.jiemian.com/article/10613691.html
+https://www.jiemian.com/article/11233484.html
+https://www.jiemian.com/article/11254692.html
+https://www.jiemian.com/article/11256920.html
+……共 27 个，见「正反例明细」",18,18/18,"https://a.jiemian.com/index.php?m=user&a=center&id=100000444
+https://a.jiemian.com/index.php?m=user&a=center&id=102542959
+https://a.jiemian.com/index.php?m=user&a=center&id=114512614
+https://a.jiemian.com/index.php?m=user&a=center&id=116364223
+https://a.jiemian.com/index.php?m=user&a=center&id=119647379
+https://a.jiemian.com/index.php?m=user&a=center&id=120023250
+https://a.jiemian.com/index.php?m=user&a=center&id=120069386
+https://a.jiemian.com/index.php?m=user&a=center&id=120168502
+https://a.jiemian.com/index.php?m=user&a=center&id=120493593
+https://a.jiemian.com/index.php?m=user&a=center&id=120549712
+https://a.jiemian.com/index.php?m=user&a=center&id=120556849
+https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+https://www.jiemian.com/
+https://www.jiemian.com/lists/713.html
+https://www.jiemian.com/lists/714.html
+https://www.jiemian.com/lists/715.html
+https://www.jiemian.com/lists/716.html
+https://www.jiemian.com/lists/903.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E35,界面新闻,https://www.jiemian.com/lists/877.html,补做（放宽，fill2）,已放宽,"^https://www\.jiemian\.com/article/[0-9]+\.html$
+^https://www\.jiemian\.com/video/[A-Za-z0-9]+\.html$",2,30,30/30,"https://www.jiemian.com/article/12896669.html
+https://www.jiemian.com/article/13262195.html
+https://www.jiemian.com/article/14755424.html
+https://www.jiemian.com/article/14810976.html
+https://www.jiemian.com/article/14956971.html
+……共 30 个，见「正反例明细」",9,9/9,"https://a.jiemian.com/index.php?m=user&a=center&id=118978305
+https://a.jiemian.com/index.php?m=user&a=center&id=120491977
+https://a.jiemian.com/index.php?m=user&a=center&id=120598263
+https://a.jiemian.com/index.php?m=user&a=center&id=120916281
+https://www.jiemian.com/
+https://www.jiemian.com/lists/878.html
+https://www.jiemian.com/lists/879.html
+https://www.jiemian.com/lists/880.html
+https://www.jiemian.com/lists/881.html",可打开；可打开,正确且能用,文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E36,界面新闻,https://www.jiemian.com/lists/699.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,21,21/21,"https://www.jiemian.com/article/14582045.html
+https://www.jiemian.com/article/14618300.html
+https://www.jiemian.com/article/14618306.html
+https://www.jiemian.com/article/14690537.html
+https://www.jiemian.com/article/14742069.html
+……共 21 个，见「正反例明细」",10,10/10,"https://a.jiemian.com/index.php?m=user&a=center&id=103188823
+https://a.jiemian.com/index.php?m=user&a=center&id=117154369
+https://a.jiemian.com/index.php?m=user&a=center&id=117820685
+https://a.jiemian.com/index.php?m=user&a=center&id=119044814
+https://a.jiemian.com/index.php?m=user&a=center&id=119639969
+https://a.jiemian.com/index.php?m=user&a=center&id=120105797
+https://a.jiemian.com/index.php?m=user&a=center&id=120257572
+https://www.jiemian.com/
+https://www.jiemian.com/lists/700.html
+https://www.jiemian.com/lists/701.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
+第二批,82,S2-R82-E37,界面新闻,https://www.jiemian.com/lists/174.html,补做（放宽，fill2）,已放宽,^https://www\.jiemian\.com/article/[0-9]+\.html$,1,25,25/25,"https://www.jiemian.com/article/15194913.html
+https://www.jiemian.com/article/15219776.html
+https://www.jiemian.com/article/15238567.html
+https://www.jiemian.com/article/15241073.html
+https://www.jiemian.com/article/15241197.html
+……共 25 个，见「正反例明细」",11,11/11,"https://a.jiemian.com/index.php?m=user&a=center&id=100033448
+https://a.jiemian.com/index.php?m=user&a=center&id=103081946
+https://a.jiemian.com/index.php?m=user&a=center&id=104158855
+https://a.jiemian.com/index.php?m=user&a=center&id=118348920
+https://a.jiemian.com/index.php?m=user&a=center&id=120290676
+https://a.jiemian.com/index.php?m=user&a=center&id=120553280
+https://www.jiemian.com/
+https://www.jiemian.com/lists/175.html
+https://www.jiemian.com/lists/20.html
+https://www.jiemian.com/lists/428.html
+https://www.jiemian.com/lists/429.html",可打开；可打开,正确且能用,文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）
 第二批,84,S2-R84-E1,www.foodaily.com,https://www.foodaily.com/articles,之前几轮（第 3 轮规则）,已验证,^https://www\.foodaily\.com/articles/[0-9]+$,1,11,11/11,"https://www.foodaily.com/articles/42484
 https://www.foodaily.com/articles/42490
 https://www.foodaily.com/articles/42493
@@ -3165,16 +4412,107 @@ https://www.foodaily.com/articles/42477
 https://www.foodaily.com/articles/42478
 https://www.foodaily.com/articles/42479
 https://www.foodaily.com/articles/42488",,正确且能用,
-第二批,86,S2-R86-E1,www.linkshop.com,http://www.linkshop.com/news/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E2,www.linkshop.com,http://www.linkshop.com/data/cb/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E3,www.linkshop.com,http://www.linkshop.com/column/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E4,www.linkshop.com,http://www.linkshop.com/interview/rw/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E5,www.linkshop.com,http://www.linkshop.com/data/hy/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E6,www.linkshop.com,http://www.linkshop.com/data/sl/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E7,www.linkshop.com,http://www.linkshop.com/interview/xd/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E8,www.linkshop.com,http://www.linkshop.com/interview/mq/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E9,www.linkshop.com,http://www.linkshop.com/case/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
-第二批,86,S2-R86-E10,www.linkshop.com,http://www.linkshop.com/pdl/,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,未验证：入口待核验（无站点状态码：未请求）；未使用任何绕过手段
+第二批,86,S2-R86-E1,联商网,http://www.linkshop.com/news/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E2,联商网,http://www.linkshop.com/data/cb/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E3,联商网,http://www.linkshop.com/column/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$
+^https?://blog\.linkshop\.com/u/[A-Za-z0-9@._-]+/[0-9]+\.html$",3,17,17/17,"http://blog.linkshop.com/u/1005293771@qq.com/531777.html
+http://blog.linkshop.com/u/yiilong/554860.html
+http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+……共 17 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）、专栏文章 blog.linkshop.com/u/{作者}/{编号}.html；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E4,联商网,http://www.linkshop.com/interview/rw/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E5,联商网,http://www.linkshop.com/data/hy/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E6,联商网,http://www.linkshop.com/data/sl/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E7,联商网,http://www.linkshop.com/interview/xd/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E8,联商网,http://www.linkshop.com/interview/mq/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E9,联商网,http://www.linkshop.com/case/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
+第二批,86,S2-R86-E10,联商网,http://www.linkshop.com/pdl/,补做（放宽，fill2）,已放宽,"^https?://www\.linkshop\.com/news/[0-9]+\.shtml$
+^https?://m\.linkshop\.com/article/news/[0-9]+$",2,13,13/13,"http://m.linkshop.com/article/news/458098
+http://m.linkshop.com/article/news/496494
+http://m.linkshop.com/article/news/502784
+http://m.linkshop.com/article/news/505196
+http://m.linkshop.com/article/news/526090
+……共 13 个，见「正反例明细」",4,4/4,"http://m.linkshop.com/page/news/zx
+http://www.linkshop.com/intro/index.shtml
+http://www.linkshop.com/news/?ClassID=90
+https://www.linkshop.com/",本环境无法访问（样本来自搜索结果）；本环境无法访问（样本来自搜索结果）,正确且能用,联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认
 第二批,87,S2-R87-E1,人人都是产品经理,https://www.woshipm.com/harmony,今天 265 行（第 51 行）,已放宽,"^https://www\.woshipm\.com/[a-z]+/[0-9]+\.html$
 ^http://woshipm\.com/\?p=[0-9]+$",2,29,29/29,"http://woshipm.com/?p=6452225
 http://woshipm.com/?p=6452456
@@ -3517,80 +4855,701 @@ https://www.cntac.org.cn/dangjian
 https://www.cntac.org.cn/dongtai
 https://www.cntac.org.cn/zixun/guoji/202607/t20260706_4417159.html
 https://www.cntac.org.cn/zixun/zhengce/202609/t20260922_4421853.html",,能用（候选，证据不足）,候选，未达准入：机械门未通过：样本重复；建议：补齐所缺证据后保留，或修正
-第二批,108,S2-R108-E1,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/116.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 21；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
+第二批,108,S2-R108-E1,中国家用电器协会,https://www.cheaa.org/channels/116.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/116/[0-9]+\.html$,1,15,15/15,"https://www.cheaa.org/contents/116/10867.html
+https://www.cheaa.org/contents/116/10881.html
+https://www.cheaa.org/contents/116/10898.html
+https://www.cheaa.org/contents/116/10972.html
+https://www.cheaa.org/contents/116/11362.html
+……共 15 个，见「正反例明细」",27,27/27,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116_10.html
+https://www.cheaa.org/channels/116_2.html
+https://www.cheaa.org/channels/116_3.html
+https://www.cheaa.org/channels/116_4.html
+https://www.cheaa.org/channels/116_5.html
+https://www.cheaa.org/channels/116_6.html
+https://www.cheaa.org/channels/116_7.html
+https://www.cheaa.org/channels/116_8.html
+https://www.cheaa.org/channels/116_9.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/13.html
+https://www.cheaa.org/channels/14.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 116（本栏目页上列出的条目所在栏目）
 第二批,108,S2-R108-E2,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/13.html,今天 265 行（第 81 行）,已放宽,^https://www\.cheaa\.org/contents/13/[0-9]+\.html$,1,3,3/3,"https://www.cheaa.org/contents/13/12994.html
 https://www.cheaa.org/contents/13/2418.html
 https://www.cheaa.org/contents/13/596.html",3,3/3,"https://www.cheaa.org/
 https://www.cheaa.org/channels/116.html
 https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,
-第二批,108,S2-R108-E3,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/14.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,16,13/16,"https://www.cheaa.org/channels/116.html
+第二批,108,S2-R108-E3,中国家用电器协会,https://www.cheaa.org/channels/14.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/14/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/14/1351.html
+https://www.cheaa.org/contents/14/2419.html
+https://www.cheaa.org/contents/14/2420.html
+https://www.cheaa.org/contents/14/2421.html
+https://www.cheaa.org/contents/14/2422.html
+……共 10 个，见「正反例明细」",18,18/18,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
 https://www.cheaa.org/channels/117.html
 https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/13.html
 https://www.cheaa.org/channels/16.html
 https://www.cheaa.org/channels/23.html
-……共 16 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/14.html
-https://www.cheaa.org/contents/23/7348.html
-https://www.cheaa.org/contents/420/2362.html
-https://www.cheaa.org/contents/16/12855.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,108,S2-R108-E4,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/16.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E5,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/23.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 16；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E6,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/25.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E7,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/117.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E8,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/9.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 22；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E9,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/419.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 29；前缀外同站链接 22、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E10,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/420.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,21,16/21,"https://www.cheaa.org/channels/116.html
-https://www.cheaa.org/channels/117.html
-https://www.cheaa.org/channels/122.html
-https://www.cheaa.org/channels/16.html
-https://www.cheaa.org/channels/23.html
-……共 21 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/420.html
-https://www.cheaa.org/contents/326/12770.html
-https://www.cheaa.org/contents/350/11196.html
-https://www.cheaa.org/contents/9/13441.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,108,S2-R108-E11,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/26.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E12,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/27.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E13,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/28.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E14,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/30.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 20、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E15,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/32.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E16,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/33.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,26,22/26,"https://www.cheaa.org/channels/116.html
-https://www.cheaa.org/channels/117.html
-https://www.cheaa.org/channels/122.html
-https://www.cheaa.org/channels/16.html
-https://www.cheaa.org/channels/23.html
-……共 26 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/33.html
-https://www.cheaa.org/contents/116/10972.html
-https://www.cheaa.org/contents/638/13569.html
-https://www.cheaa.org/contents/495/9243.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN4/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,108,S2-R108-E17,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/378.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 24；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E18,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/443.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E19,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/492.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,26,23/26,"https://www.cheaa.org/channels/116.html
-https://www.cheaa.org/channels/117.html
-https://www.cheaa.org/channels/122.html
-https://www.cheaa.org/channels/16.html
-https://www.cheaa.org/channels/23.html
-……共 26 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/492.html
-https://www.cheaa.org/contents/116/12403.html
-https://www.cheaa.org/contents/9/13548.html
-https://www.cheaa.org/contents/419/13553.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN3/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,108,S2-R108-E20,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/521.html,之前几轮，未出正则,无正则,,0,0,—,,0,—,,,无正则,完整（枚举结束，无独立全集对账）：静态请求 1 页（入口+分页），未完成分页 0；前缀 /channels/ 下家族 1 个、成员 23；前缀外同站链接 18、文件 0；sitemap 中同结构但不在列表的 URL：F1=0
-第二批,108,S2-R108-E21,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/600.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,26,21/26,"https://www.cheaa.org/channels/116.html
-https://www.cheaa.org/channels/117.html
-https://www.cheaa.org/channels/122.html
-https://www.cheaa.org/channels/16.html
-https://www.cheaa.org/channels/23.html
-……共 26 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/600.html
-https://www.cheaa.org/contents/446/9700.html
-https://www.cheaa.org/contents/350/1950.html
-https://www.cheaa.org/contents/446/9382.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
-第二批,108,S2-R108-E22,中国家用电器协会（CHEAA）,https://www.cheaa.org/channels/635.html,之前几轮（第 3 轮规则）,验证不通过,^https://www\.cheaa\.org/channels/[0-9]+\.html$,1,26,21/26,"https://www.cheaa.org/channels/116.html
-https://www.cheaa.org/channels/117.html
-https://www.cheaa.org/channels/122.html
-https://www.cheaa.org/channels/16.html
-https://www.cheaa.org/channels/23.html
-……共 26 个，见「正反例明细」",4,3/4,"https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/8.html
 https://www.cheaa.org/contents/119/1352.html
-https://www.cheaa.org/contents/638/13573.html
-https://www.cheaa.org/contents/23/7346.html",,验证不通过（不建议用）,验证不通过：机械门未通过：标注测试有失败（留出 FN5/FP1）、留出指标 <95%（规则会匹配同级栏目页）；建议：删掉这条，按待补正则的流程重做
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 14（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E4,中国家用电器协会,https://www.cheaa.org/channels/16.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/16/[0-9]+\.html$,1,15,15/15,"https://www.cheaa.org/contents/16/11237.html
+https://www.cheaa.org/contents/16/11434.html
+https://www.cheaa.org/contents/16/11673.html
+https://www.cheaa.org/contents/16/12224.html
+https://www.cheaa.org/contents/16/12361.html
+……共 15 个，见「正反例明细」",30,30/30,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16_2.html
+https://www.cheaa.org/channels/16_3.html
+https://www.cheaa.org/channels/16_4.html
+https://www.cheaa.org/channels/16_5.html
+https://www.cheaa.org/channels/16_6.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/419.html
+https://www.cheaa.org/channels/420.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/595.html
+https://www.cheaa.org/channels/596.html
+https://www.cheaa.org/channels/599.html
+https://www.cheaa.org/channels/615.html
+https://www.cheaa.org/channels/626.html
+https://www.cheaa.org/channels/639.html
+https://www.cheaa.org/channels/641.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 16（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E5,中国家用电器协会,https://www.cheaa.org/channels/23.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/23/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/23/7044.html
+https://www.cheaa.org/contents/23/7074.html
+https://www.cheaa.org/contents/23/7084.html
+https://www.cheaa.org/contents/23/7099.html
+https://www.cheaa.org/contents/23/7345.html
+……共 10 个，见「正反例明细」",22,22/22,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23_2.html
+https://www.cheaa.org/channels/23_3.html
+https://www.cheaa.org/channels/23_4.html
+https://www.cheaa.org/channels/23_5.html
+https://www.cheaa.org/channels/23_6.html
+https://www.cheaa.org/channels/23_7.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 23（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E6,中国家用电器协会,https://www.cheaa.org/channels/25.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/326/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/326/10126.html
+https://www.cheaa.org/contents/326/10330.html
+https://www.cheaa.org/contents/326/10616.html
+https://www.cheaa.org/contents/326/11582.html
+https://www.cheaa.org/contents/326/12770.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25_2.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 326（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E7,中国家用电器协会,https://www.cheaa.org/channels/117.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/117/[0-9]+\.html$,1,15,15/15,"https://www.cheaa.org/contents/117/13422.html
+https://www.cheaa.org/contents/117/13423.html
+https://www.cheaa.org/contents/117/13424.html
+https://www.cheaa.org/contents/117/13425.html
+https://www.cheaa.org/contents/117/13426.html
+……共 15 个，见「正反例明细」",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117_10.html
+https://www.cheaa.org/channels/117_2.html
+https://www.cheaa.org/channels/117_29.html
+https://www.cheaa.org/channels/117_3.html
+https://www.cheaa.org/channels/117_4.html
+https://www.cheaa.org/channels/117_5.html
+https://www.cheaa.org/channels/117_6.html
+https://www.cheaa.org/channels/117_7.html
+https://www.cheaa.org/channels/117_8.html
+https://www.cheaa.org/channels/117_9.html
+https://www.cheaa.org/channels/118.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/440.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 117（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E8,中国家用电器协会,https://www.cheaa.org/channels/9.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/9/[0-9]+\.html$,1,15,15/15,"https://www.cheaa.org/contents/9/13234.html
+https://www.cheaa.org/contents/9/13239.html
+https://www.cheaa.org/contents/9/13347.html
+https://www.cheaa.org/contents/9/13351.html
+https://www.cheaa.org/contents/9/13353.html
+……共 15 个，见「正反例明细」",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/11.html
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/channels/9_10.html
+https://www.cheaa.org/channels/9_2.html
+https://www.cheaa.org/channels/9_3.html
+https://www.cheaa.org/channels/9_30.html
+https://www.cheaa.org/channels/9_4.html
+https://www.cheaa.org/channels/9_5.html
+https://www.cheaa.org/channels/9_6.html
+https://www.cheaa.org/channels/9_7.html
+https://www.cheaa.org/channels/9_8.html
+https://www.cheaa.org/channels/9_9.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 9（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E9,中国家用电器协会,https://www.cheaa.org/channels/419.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/419/[0-9]+\.html$,1,15,15/15,"https://www.cheaa.org/contents/419/13252.html
+https://www.cheaa.org/contents/419/13273.html
+https://www.cheaa.org/contents/419/13275.html
+https://www.cheaa.org/contents/419/13329.html
+https://www.cheaa.org/contents/419/13334.html
+……共 15 个，见「正反例明细」",35,35/35,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/419_10.html
+https://www.cheaa.org/channels/419_18.html
+https://www.cheaa.org/channels/419_2.html
+https://www.cheaa.org/channels/419_3.html
+https://www.cheaa.org/channels/419_4.html
+https://www.cheaa.org/channels/419_5.html
+https://www.cheaa.org/channels/419_6.html
+https://www.cheaa.org/channels/419_7.html
+https://www.cheaa.org/channels/419_8.html
+https://www.cheaa.org/channels/419_9.html
+https://www.cheaa.org/channels/420.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/595.html
+https://www.cheaa.org/channels/596.html
+https://www.cheaa.org/channels/599.html
+https://www.cheaa.org/channels/615.html
+https://www.cheaa.org/channels/626.html
+https://www.cheaa.org/channels/639.html
+https://www.cheaa.org/channels/641.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 419（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E10,中国家用电器协会,https://www.cheaa.org/channels/420.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/420/[0-9]+\.html$,1,7,7/7,"https://www.cheaa.org/contents/420/2362.html
+https://www.cheaa.org/contents/420/2363.html
+https://www.cheaa.org/contents/420/8206.html
+https://www.cheaa.org/contents/420/8208.html
+https://www.cheaa.org/contents/420/8210.html
+……共 7 个，见「正反例明细」",24,24/24,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/419.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/595.html
+https://www.cheaa.org/channels/596.html
+https://www.cheaa.org/channels/599.html
+https://www.cheaa.org/channels/615.html
+https://www.cheaa.org/channels/626.html
+https://www.cheaa.org/channels/639.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 420（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E11,中国家用电器协会,https://www.cheaa.org/channels/26.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/332/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/332/11487.html
+https://www.cheaa.org/contents/332/11489.html
+https://www.cheaa.org/contents/332/11491.html
+https://www.cheaa.org/contents/332/12807.html
+https://www.cheaa.org/contents/332/13582.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26_2.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 332（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E12,中国家用电器协会,https://www.cheaa.org/channels/27.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/329/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/329/10109.html
+https://www.cheaa.org/contents/329/10540.html
+https://www.cheaa.org/contents/329/10542.html
+https://www.cheaa.org/contents/329/11201.html
+https://www.cheaa.org/contents/329/11203.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27_2.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 329（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E13,中国家用电器协会,https://www.cheaa.org/channels/28.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/335/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/335/10261.html
+https://www.cheaa.org/contents/335/10649.html
+https://www.cheaa.org/contents/335/11553.html
+https://www.cheaa.org/contents/335/12823.html
+https://www.cheaa.org/contents/335/13489.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28_2.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 335（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E14,中国家用电器协会,https://www.cheaa.org/channels/30.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/(?:340|341)/[0-9]+\.html$,1,13,13/13,"https://www.cheaa.org/contents/340/6713.html
+https://www.cheaa.org/contents/340/6718.html
+https://www.cheaa.org/contents/340/7194.html
+https://www.cheaa.org/contents/341/10114.html
+https://www.cheaa.org/contents/341/11389.html
+……共 13 个，见「正反例明细」",30,30/30,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30_2.html
+https://www.cheaa.org/channels/30_3.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 340、341（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E15,中国家用电器协会,https://www.cheaa.org/channels/32.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/347/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/347/10008.html
+https://www.cheaa.org/contents/347/10701.html
+https://www.cheaa.org/contents/347/11300.html
+https://www.cheaa.org/contents/347/12619.html
+https://www.cheaa.org/contents/347/12622.html
+……共 10 个，见「正反例明细」",30,30/30,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32_2.html
+https://www.cheaa.org/channels/32_3.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 347（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E16,中国家用电器协会,https://www.cheaa.org/channels/33.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/350/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/350/11196.html
+https://www.cheaa.org/contents/350/13360.html
+https://www.cheaa.org/contents/350/1950.html
+https://www.cheaa.org/contents/350/2443.html
+https://www.cheaa.org/contents/350/7279.html
+……共 10 个，见「正反例明细」",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 350（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E17,中国家用电器协会,https://www.cheaa.org/channels/378.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/381/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/381/10116.html
+https://www.cheaa.org/contents/381/10505.html
+https://www.cheaa.org/contents/381/11319.html
+https://www.cheaa.org/contents/381/12979.html
+https://www.cheaa.org/contents/381/8253.html
+……共 10 个，见「正反例明细」",30,30/30,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378_2.html
+https://www.cheaa.org/channels/378_3.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 381（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E18,中国家用电器协会,https://www.cheaa.org/channels/443.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/446/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/446/10975.html
+https://www.cheaa.org/contents/446/11423.html
+https://www.cheaa.org/contents/446/11428.html
+https://www.cheaa.org/contents/446/5161.html
+https://www.cheaa.org/contents/446/5222.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443_2.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 446（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E19,中国家用电器协会,https://www.cheaa.org/channels/492.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/495/[0-9]+\.html$,1,7,7/7,"https://www.cheaa.org/contents/495/10857.html
+https://www.cheaa.org/contents/495/12981.html
+https://www.cheaa.org/contents/495/5662.html
+https://www.cheaa.org/contents/495/7591.html
+https://www.cheaa.org/contents/495/8615.html
+……共 7 个，见「正反例明细」",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 495（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E20,中国家用电器协会,https://www.cheaa.org/channels/521.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/524/[0-9]+\.html$,1,10,10/10,"https://www.cheaa.org/contents/524/10570.html
+https://www.cheaa.org/contents/524/10571.html
+https://www.cheaa.org/contents/524/11105.html
+https://www.cheaa.org/contents/524/11193.html
+https://www.cheaa.org/contents/524/12241.html
+……共 10 个，见「正反例明细」",29,29/29,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521_2.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 524（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E21,中国家用电器协会,https://www.cheaa.org/channels/600.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/603/[0-9]+\.html$,1,4,4/4,"https://www.cheaa.org/contents/603/10107.html
+https://www.cheaa.org/contents/603/10841.html
+https://www.cheaa.org/contents/603/12230.html
+https://www.cheaa.org/contents/603/13078.html",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/635.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 603（本栏目页上列出的条目所在栏目）
+第二批,108,S2-R108-E22,中国家用电器协会,https://www.cheaa.org/channels/635.html,补做（放宽，fill2）,已放宽,^https://www\.cheaa\.org/contents/638/[0-9]+\.html$,1,5,5/5,"https://www.cheaa.org/contents/638/13171.html
+https://www.cheaa.org/contents/638/13172.html
+https://www.cheaa.org/contents/638/13500.html
+https://www.cheaa.org/contents/638/13569.html
+https://www.cheaa.org/contents/638/13573.html",28,28/28,"https://www.cheaa.org/
+https://www.cheaa.org/channels/116.html
+https://www.cheaa.org/channels/117.html
+https://www.cheaa.org/channels/122.html
+https://www.cheaa.org/channels/16.html
+https://www.cheaa.org/channels/23.html
+https://www.cheaa.org/channels/25.html
+https://www.cheaa.org/channels/26.html
+https://www.cheaa.org/channels/27.html
+https://www.cheaa.org/channels/28.html
+https://www.cheaa.org/channels/30.html
+https://www.cheaa.org/channels/32.html
+https://www.cheaa.org/channels/33.html
+https://www.cheaa.org/channels/37.html
+https://www.cheaa.org/channels/378.html
+https://www.cheaa.org/channels/443.html
+https://www.cheaa.org/channels/48.html
+https://www.cheaa.org/channels/492.html
+https://www.cheaa.org/channels/521.html
+https://www.cheaa.org/channels/562.html
+https://www.cheaa.org/channels/578.html
+https://www.cheaa.org/channels/600.html
+https://www.cheaa.org/channels/8.html
+https://www.cheaa.org/contents/119/1352.html
+https://www.cheaa.org/contents/19/599.html
+https://www.cheaa.org/contents/441/3360.html
+https://www.cheaa.org/contents/442/3361.html
+https://www.cheaa.org/contents/5/564.html",可打开；可打开,正确且能用,文章 /contents/{栏目号}/{编号}.html，栏目号写死为 638（本栏目页上列出的条目所在栏目）
 第二批,109,S2-R109-E1,中国煤炭工业协会,https://www.coalchina.org.cn/list-10-1.html,之前几轮（第 3 轮规则）,已验证,"^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=lists&catid=[0-9]*$
 ^https://www\.coalchina\.org\.cn/index\.php\?m=content&c=index&a=show&catid=[0-9]*&id=[0-9]*$",2,46,46/46,"https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=12
 https://www.coalchina.org.cn/index.php?m=content&c=index&a=lists&catid=164

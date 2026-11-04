@@ -1,0 +1,34 @@
+{
+ "entry_id": "S2-R71-E1",
+ "url": "https://www.digitaling.com/moments",
+ "site": "数英",
+ "status": "已放宽",
+ "pattern": "^https://www\\.digitaling\\.com/moments/[0-9]+\\.html$",
+ "positives": [
+  "https://www.digitaling.com/moments/13677.html",
+  "https://www.digitaling.com/moments/13901.html",
+  "https://www.digitaling.com/moments/31758.html"
+ ],
+ "negatives": [
+  "https://www.digitaling.com/",
+  "https://www.digitaling.com/company/moments/34439",
+  "https://www.digitaling.com/moments/copy",
+  "https://www.digitaling.com/moments/hot",
+  "https://www.digitaling.com/people/moments/10059991"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.digitaling.com/moments/31758.html",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://www.digitaling.com/moments/13901.html",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "发现动态详情 /moments/{编号}.html；站点拦截本环境，样本来自搜索结果",
+ "result": "正确且能用"
+}

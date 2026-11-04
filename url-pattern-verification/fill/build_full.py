@@ -95,6 +95,12 @@ def main():
                 negs = sorted(u for u in negs if u.rstrip("/") != entry)
                 lv = "；".join(x["result"] for x in rep.get(seq, {}).get("live", []))
                 rec.update(站点名称=fr["site"], 来源=f"今天 265 行（第 {seq} 行）", 状态=out.get("status"), 备注="")
+            elif (ROOT / "fill2/out" / f"{eid}.json").exists():
+                f2 = json.loads((ROOT / "fill2/out" / f"{eid}.json").read_text(encoding="utf-8"))
+                lines = [l for l in (f2.get("pattern") or "").split("\n") if l]
+                pos, negs = f2.get("positives", []), f2.get("negatives", [])
+                lv = "；".join(x["result"] for x in f2.get("live", []))
+                rec.update(站点名称=f2.get("site") or rec["站点名称"], 来源="补做（放宽，fill2）", 状态=f2.get("status"), 备注=f2.get("basis", ""))
             else:
                 rules = by.get(eid, [])
                 lines, pos, negs = [], [], []
@@ -115,7 +121,7 @@ def main():
                     dt = ((e.get("round3") or {}).get("discovery_text") or "") if isinstance(e.get("round3"), dict) else ""
                     note = dt.split("\n")[0][:200]
                 rec.update(来源="之前几轮（第 3 轮规则）" if rules else "之前几轮，未出正则", 状态="；".join(st) if st else "无正则", 备注=note)
-            if eid in fill_by_eid:
+            if eid in fill_by_eid or rec["来源"].startswith("补做"):
                 allrx = [re2.compile(l) for l in lines]
                 tests = [("正例", u, allrx) for u in pos] + [("反例", u, allrx) for u in negs]
             pos_ok, neg_ok = [], []
@@ -127,7 +133,7 @@ def main():
                 detail.append([bname, e["row"], rec["站点名称"], e["raw"], typ, u, res])
             if not lines:
                 verdict = "无正则"
-            elif rec["来源"].startswith("今天"):
+            elif rec["来源"].startswith(("今天", "补做")):
                 verdict = "正确且能用" if len(pos_ok) == len(pos) and len(neg_ok) == len(negs) else "有问题"
             else:
                 ok = len(pos_ok) == len(pos) and len(neg_ok) == len(negs)
@@ -161,7 +167,7 @@ def main():
     wd.append(["批次", "原表行", "站点名称", "pattern链接", "类型", "示例URL", "检测结果"])
     for x in detail:
         wd.append(x)
-    cnt = Counter((r["来源"].split("（")[0], r["结论"]) for r in out_rows)
+    cnt = Counter((r["来源"].split("（")[0].split("，")[0], r["结论"]) for r in out_rows)
     ws0.append(["来源", "结论", "行数"])
     for (a, b), n in sorted(cnt.items()):
         ws0.append([a, b, n])

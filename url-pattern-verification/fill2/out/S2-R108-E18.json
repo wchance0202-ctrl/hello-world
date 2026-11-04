@@ -1,0 +1,69 @@
+{
+ "entry_id": "S2-R108-E18",
+ "url": "https://www.cheaa.org/channels/443.html",
+ "site": "中国家用电器协会",
+ "status": "已放宽",
+ "pattern": "^https://www\\.cheaa\\.org/contents/446/[0-9]+\\.html$",
+ "positives": [
+  "https://www.cheaa.org/contents/446/10975.html",
+  "https://www.cheaa.org/contents/446/11423.html",
+  "https://www.cheaa.org/contents/446/11428.html",
+  "https://www.cheaa.org/contents/446/5161.html",
+  "https://www.cheaa.org/contents/446/5222.html",
+  "https://www.cheaa.org/contents/446/5728.html",
+  "https://www.cheaa.org/contents/446/7083.html",
+  "https://www.cheaa.org/contents/446/7957.html",
+  "https://www.cheaa.org/contents/446/9382.html",
+  "https://www.cheaa.org/contents/446/9700.html"
+ ],
+ "negatives": [
+  "https://www.cheaa.org/",
+  "https://www.cheaa.org/channels/116.html",
+  "https://www.cheaa.org/channels/117.html",
+  "https://www.cheaa.org/channels/122.html",
+  "https://www.cheaa.org/channels/16.html",
+  "https://www.cheaa.org/channels/23.html",
+  "https://www.cheaa.org/channels/25.html",
+  "https://www.cheaa.org/channels/26.html",
+  "https://www.cheaa.org/channels/27.html",
+  "https://www.cheaa.org/channels/28.html",
+  "https://www.cheaa.org/channels/30.html",
+  "https://www.cheaa.org/channels/32.html",
+  "https://www.cheaa.org/channels/33.html",
+  "https://www.cheaa.org/channels/37.html",
+  "https://www.cheaa.org/channels/378.html",
+  "https://www.cheaa.org/channels/443_2.html",
+  "https://www.cheaa.org/channels/48.html",
+  "https://www.cheaa.org/channels/492.html",
+  "https://www.cheaa.org/channels/521.html",
+  "https://www.cheaa.org/channels/562.html",
+  "https://www.cheaa.org/channels/578.html",
+  "https://www.cheaa.org/channels/600.html",
+  "https://www.cheaa.org/channels/635.html",
+  "https://www.cheaa.org/channels/8.html",
+  "https://www.cheaa.org/contents/119/1352.html",
+  "https://www.cheaa.org/contents/19/599.html",
+  "https://www.cheaa.org/contents/441/3360.html",
+  "https://www.cheaa.org/contents/442/3361.html",
+  "https://www.cheaa.org/contents/5/564.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.cheaa.org/contents/446/10975.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/446/10975.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.cheaa.org/contents/446/5222.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/446/5222.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "文章 /contents/{栏目号}/{编号}.html，栏目号写死为 446（本栏目页上列出的条目所在栏目）",
+ "result": "正确且能用"
+}

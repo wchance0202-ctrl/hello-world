@@ -1,0 +1,68 @@
+{
+ "entry_id": "S2-R82-E18",
+ "url": "https://www.jiemian.com/lists/857.html",
+ "site": "界面新闻",
+ "status": "已放宽",
+ "pattern": "^https://www\\.jiemian\\.com/article/[0-9]+\\.html$\n^https://www\\.jiemian\\.com/video/[A-Za-z0-9]+\\.html$",
+ "positives": [
+  "https://www.jiemian.com/article/15219193.html",
+  "https://www.jiemian.com/article/15219901.html",
+  "https://www.jiemian.com/article/15220058.html",
+  "https://www.jiemian.com/article/15225139.html",
+  "https://www.jiemian.com/article/15225346.html",
+  "https://www.jiemian.com/article/15231946.html",
+  "https://www.jiemian.com/article/15232060.html",
+  "https://www.jiemian.com/article/15236986.html",
+  "https://www.jiemian.com/article/15242473.html",
+  "https://www.jiemian.com/article/15249286.html",
+  "https://www.jiemian.com/article/15256379.html",
+  "https://www.jiemian.com/article/15257612.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2ABOVVj.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2ABOVVm.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMFVh.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMFVl.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMFVm.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMFVn.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMFVq.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVg.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVh.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVi.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVj.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVk.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVm.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBMVVn.html",
+  "https://www.jiemian.com/video/AGUCMQhvB2MBPlVm.html"
+ ],
+ "negatives": [
+  "https://a.jiemian.com/index.php?m=user&a=center&id=103188823",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=118978305",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=120491977",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=120916281",
+  "https://www.jiemian.com/",
+  "https://www.jiemian.com/lists/690.html",
+  "https://www.jiemian.com/lists/821.html",
+  "https://www.jiemian.com/lists/825.html",
+  "https://www.jiemian.com/lists/826.html",
+  "https://www.jiemian.com/lists/827.html",
+  "https://www.jiemian.com/lists/828.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.jiemian.com/video/AGUCMQhvB2MBMVVi.html",
+   "status": 200,
+   "final": "https://www.jiemian.com/video/AGUCMQhvB2MBMVVi.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.jiemian.com/video/AGUCMQhvB2MBMVVh.html",
+   "status": 200,
+   "final": "https://www.jiemian.com/video/AGUCMQhvB2MBMVVh.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "文章 /article/{编号}.html、视频 /video/{编号}.html，路径全站共用（文章地址不带栏目号）",
+ "result": "正确且能用"
+}

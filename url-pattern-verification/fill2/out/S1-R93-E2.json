@@ -1,0 +1,37 @@
+{
+ "entry_id": "S1-R93-E2",
+ "url": "https://lbbonline.com/news",
+ "site": "LBB",
+ "status": "已放宽",
+ "pattern": "^https://lbbonline\\.com/news/[A-Za-z0-9-]+$",
+ "positives": [
+  "https://lbbonline.com/news/LinkedIn-The-Network-That-Works-For-You",
+  "https://lbbonline.com/news/VML-India-Kunal-Roy-and-Shekhar-Khanna",
+  "https://lbbonline.com/news/Work-of-the-Week-270226",
+  "https://lbbonline.com/news/big-w-appoints-72andsunny",
+  "https://lbbonline.com/news/collections-your-free-reel-and-newsletter-builder-on-lbb",
+  "https://lbbonline.com/news/five-by-five-fbf",
+  "https://lbbonline.com/news/fujifilm-australia-hello-agency-of-record",
+  "https://lbbonline.com/news/joint-creative-agency-geely-auto"
+ ],
+ "negatives": [
+  "https://lbbonline.com/",
+  "https://lbbonline.com/companies/dept",
+  "https://lbbonline.com/work/reels"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://lbbonline.com/news/collections-your-free-reel-and-newsletter-builder-on-lbb",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://lbbonline.com/news/five-by-five-fbf",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "LBB news 详情；站点拦截本环境（Cloudflare），样本来自搜索结果",
+ "result": "正确且能用"
+}

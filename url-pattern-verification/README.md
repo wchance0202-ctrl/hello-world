@@ -84,6 +84,16 @@
 脚本：`fill/page_enum.py`（静态分页枚举）、`fill/jy_enum.js`（甲子光年按页码枚举）、`fill/redirects.py`（跳转覆盖）。
 对拦截本环境的站点读取 sitemap 被安全规则拦截，未使用。
 
+## 全部入口总表与补做（2026-11-04）
+
+`fill/full-table.xlsx|csv`（`fill/build_full.py`）：两批全部 535 个入口，一行一个，含 pattern 链接、正则、全部正反例（「正反例明细」页逐条重新用 google-re2 测过）。
+来源三类：今天的 265 行（`fill/out`）、之前几轮的第 3 轮规则（每个样本按它自己的规则测）、以及这次按放宽标准补做的 87 个入口（`fill2/run2.py` → `fill2/out`）。
+补做的 87 个是之前几轮没有正则（78）或第 3 轮验证不通过（9）的入口：界面新闻 37 个栏目（文章路径全站共用）、家电协会 22 个栏目（栏目号写成字面量）、
+联商网 10 个、LBB 3 个、BLS 2 个、Dealroom 2 个、Crunchbase、数英、Census、Forrester、The Work 2 个、CIM、Contagious 2 个、CMI 2 个、CTR。
+站点拦截或连接超时的（BLS、LBB、Crunchbase、Dealroom、数英、联商网）样本来自搜索结果；其余抽查 2 个条目今天都能打开。
+国际电联 ITU-T 一条第 3 轮规则（R3-S1-R18-E6-F1）字符类漏了带连字符/大写的真实页面，总表里用改宽后的写法（`OVERRIDE`）。
+结果：535 个里 534 个有正则，正反例测试 0 失败；唯一没有正则的是哔哩哔哩营销案例栏目（页面已 404）。
+
 ## 补齐第 3 轮：用户汇总表中“留空/候选/快照”的 265 行（2026-11-03）
 
 规则按 `handoff/prompt-fill-regex.md` 执行（范围、专属性证明、栏目标识写成字面量）。结果在 `fill/result-fill.xlsx|csv`，按用户给出的顺序排列，

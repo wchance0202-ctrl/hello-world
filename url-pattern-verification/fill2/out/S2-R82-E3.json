@@ -1,0 +1,62 @@
+{
+ "entry_id": "S2-R82-E3",
+ "url": "https://www.jiemian.com/lists/49.html",
+ "site": "界面新闻",
+ "status": "已放宽",
+ "pattern": "^https://www\\.jiemian\\.com/article/[0-9]+\\.html$",
+ "positives": [
+  "https://www.jiemian.com/article/11810724.html",
+  "https://www.jiemian.com/article/11837743.html",
+  "https://www.jiemian.com/article/11888117.html",
+  "https://www.jiemian.com/article/11927642.html",
+  "https://www.jiemian.com/article/11993645.html",
+  "https://www.jiemian.com/article/12008202.html",
+  "https://www.jiemian.com/article/12095767.html",
+  "https://www.jiemian.com/article/12100745.html",
+  "https://www.jiemian.com/article/12106208.html",
+  "https://www.jiemian.com/article/12117637.html",
+  "https://www.jiemian.com/article/12167520.html",
+  "https://www.jiemian.com/article/12185993.html",
+  "https://www.jiemian.com/article/12381850.html",
+  "https://www.jiemian.com/article/12483417.html",
+  "https://www.jiemian.com/article/12620805.html",
+  "https://www.jiemian.com/article/12977861.html",
+  "https://www.jiemian.com/article/13624416.html",
+  "https://www.jiemian.com/article/13689714.html",
+  "https://www.jiemian.com/article/13816450.html",
+  "https://www.jiemian.com/article/13921857.html",
+  "https://www.jiemian.com/article/14905163.html",
+  "https://www.jiemian.com/article/15033953.html",
+  "https://www.jiemian.com/article/15039508.html",
+  "https://www.jiemian.com/article/15113407.html"
+ ],
+ "negatives": [
+  "https://a.jiemian.com/index.php?m=user&a=center&id=100743852",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=103817700",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=118710368",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=120486096",
+  "https://a.jiemian.com/index.php?m=user&a=center&id=120487578",
+  "https://www.jiemian.com/",
+  "https://www.jiemian.com/lists/443.html",
+  "https://www.jiemian.com/lists/507.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.jiemian.com/article/13816450.html",
+   "status": 200,
+   "final": "https://www.jiemian.com/article/13816450.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.jiemian.com/article/12117637.html",
+   "status": 200,
+   "final": "https://www.jiemian.com/article/12117637.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "文章 /article/{编号}.html，路径全站共用（文章地址不带栏目号）",
+ "result": "正确且能用"
+}

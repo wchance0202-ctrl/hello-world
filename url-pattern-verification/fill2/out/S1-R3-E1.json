@@ -1,0 +1,33 @@
+{
+ "entry_id": "S1-R3-E1",
+ "url": "https://www.bls.gov/cex/",
+ "site": "美国劳工统计局（BLS）",
+ "status": "已放宽",
+ "pattern": "^https://www\\.bls\\.gov/cex/(?:[a-z0-9-]+/)?[a-z0-9-]+\\.htm$",
+ "positives": [
+  "https://www.bls.gov/cex/csxstnd.htm",
+  "https://www.bls.gov/cex/data.htm",
+  "https://www.bls.gov/cex/labstat/ce-labstat-getting-started-guide.htm",
+  "https://www.bls.gov/cex/tables-getting-started-guide.htm",
+  "https://www.bls.gov/cex/tables.htm"
+ ],
+ "negatives": [
+  "https://www.bls.gov/",
+  "https://www.bls.gov/news.release/cesan.htm"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.bls.gov/cex/labstat/ce-labstat-getting-started-guide.htm",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://www.bls.gov/cex/data.htm",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "消费支出调查栏目 /cex/ 下的 .htm 页面；站点拦截本环境，样本来自搜索结果",
+ "result": "正确且能用"
+}

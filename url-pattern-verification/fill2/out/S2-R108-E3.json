@@ -1,0 +1,58 @@
+{
+ "entry_id": "S2-R108-E3",
+ "url": "https://www.cheaa.org/channels/14.html",
+ "site": "中国家用电器协会",
+ "status": "已放宽",
+ "pattern": "^https://www\\.cheaa\\.org/contents/14/[0-9]+\\.html$",
+ "positives": [
+  "https://www.cheaa.org/contents/14/1351.html",
+  "https://www.cheaa.org/contents/14/2419.html",
+  "https://www.cheaa.org/contents/14/2420.html",
+  "https://www.cheaa.org/contents/14/2421.html",
+  "https://www.cheaa.org/contents/14/2422.html",
+  "https://www.cheaa.org/contents/14/2424.html",
+  "https://www.cheaa.org/contents/14/2425.html",
+  "https://www.cheaa.org/contents/14/2426.html",
+  "https://www.cheaa.org/contents/14/597.html",
+  "https://www.cheaa.org/contents/14/598.html"
+ ],
+ "negatives": [
+  "https://www.cheaa.org/",
+  "https://www.cheaa.org/channels/116.html",
+  "https://www.cheaa.org/channels/117.html",
+  "https://www.cheaa.org/channels/122.html",
+  "https://www.cheaa.org/channels/13.html",
+  "https://www.cheaa.org/channels/16.html",
+  "https://www.cheaa.org/channels/23.html",
+  "https://www.cheaa.org/channels/25.html",
+  "https://www.cheaa.org/channels/37.html",
+  "https://www.cheaa.org/channels/48.html",
+  "https://www.cheaa.org/channels/562.html",
+  "https://www.cheaa.org/channels/578.html",
+  "https://www.cheaa.org/channels/8.html",
+  "https://www.cheaa.org/contents/119/1352.html",
+  "https://www.cheaa.org/contents/19/599.html",
+  "https://www.cheaa.org/contents/441/3360.html",
+  "https://www.cheaa.org/contents/442/3361.html",
+  "https://www.cheaa.org/contents/5/564.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.cheaa.org/contents/14/597.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/14/597.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.cheaa.org/contents/14/598.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/14/598.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "文章 /contents/{栏目号}/{编号}.html，栏目号写死为 14（本栏目页上列出的条目所在栏目）",
+ "result": "正确且能用"
+}

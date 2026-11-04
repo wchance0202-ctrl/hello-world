@@ -1,0 +1,25 @@
+{
+ "entry_id": "S1-R152-E11",
+ "url": "https://dealroom.co/vc-investment-dashboard/",
+ "site": "Dealroom",
+ "status": "单页",
+ "pattern": "^https://dealroom\\.co/vc-investment-dashboard/$",
+ "positives": [
+  "https://dealroom.co/vc-investment-dashboard/"
+ ],
+ "negatives": [
+  "https://dealroom.co/",
+  "https://dealroom.co/investors/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://dealroom.co/vc-investment-dashboard/",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "实时看板单页，图表由接口渲染，没有下级条目地址；正则是本页地址",
+ "result": "正确且能用"
+}

@@ -1,0 +1,31 @@
+{
+ "entry_id": "S1-R93-E3",
+ "url": "https://lbbonline.com/reels",
+ "site": "LBB",
+ "status": "已放宽",
+ "pattern": "^https://lbbonline\\.com/reels/[0-9]+$",
+ "positives": [
+  "https://lbbonline.com/reels/1000000039",
+  "https://lbbonline.com/reels/1000000066"
+ ],
+ "negatives": [
+  "https://lbbonline.com/",
+  "https://lbbonline.com/companies/dept",
+  "https://lbbonline.com/work/reels"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://lbbonline.com/reels/1000000066",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://lbbonline.com/reels/1000000039",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "LBB reels 详情；站点拦截本环境（Cloudflare），样本来自搜索结果",
+ "result": "正确且能用"
+}

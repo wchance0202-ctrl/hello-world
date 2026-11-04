@@ -1,0 +1,59 @@
+{
+ "entry_id": "S1-R50-E1",
+ "url": "https://www.forrester.com/b2b-marketing/",
+ "site": "Forrester",
+ "status": "已放宽",
+ "pattern": "^https://www\\.forrester\\.com/b2b-marketing/[a-z0-9-]+/$\n^https://www\\.forrester\\.com/blogs/[a-z0-9-]+/$\n^https://www\\.forrester\\.com/client-stories/[a-z0-9-]+/$",
+ "positives": [
+  "https://www.forrester.com/b2b-marketing/b2b-marketing-strategy/",
+  "https://www.forrester.com/b2b-marketing/demand-abm/",
+  "https://www.forrester.com/b2b-marketing/stand-out-in-ai-search-guide/",
+  "https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/",
+  "https://www.forrester.com/blogs/predictions-2027-the-pursuit-and-peril-of-control/",
+  "https://www.forrester.com/blogs/ten-rules-for-building-a-sustainable-b2b-webinar-program/",
+  "https://www.forrester.com/blogs/when-case-studies-are-too-much-of-a-good-thing/",
+  "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+  "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups/",
+  "https://www.forrester.com/client-stories/panasonic-connect-data-driven-marketing-culture/",
+  "https://www.forrester.com/client-stories/wolters-kluwer-healthcare-marketing/"
+ ],
+ "negatives": [
+  "https://www.forrester.com/",
+  "https://www.forrester.com/become-a-client/",
+  "https://www.forrester.com/blogs/author/amy_bills/",
+  "https://www.forrester.com/blogs/author/conrad_mills/",
+  "https://www.forrester.com/blogs/author/karen_tran/",
+  "https://www.forrester.com/blogs/author/kathy_freeman_contreras/",
+  "https://www.forrester.com/blogs/author/sean_mccormick/",
+  "https://www.forrester.com/blogs/author/sharyn_leaver/",
+  "https://www.forrester.com/blogs/author/simon_daniels/",
+  "https://www.forrester.com/blogs/author/vicki_brown/",
+  "https://www.forrester.com/blogs/category/b2b-marketing/",
+  "https://www.forrester.com/predictions/",
+  "https://www.forrester.com/product-management/",
+  "https://www.forrester.com/research/forecasts/",
+  "https://www.forrester.com/research/forrester-ai/",
+  "https://www.forrester.com/research/forrester-decisions/",
+  "https://www.forrester.com/research/wave/",
+  "https://www.forrester.com/revenue/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/",
+   "status": 200,
+   "final": "https://www.forrester.com/blogs/predictions-2027-b2b-go-to-market-teams-must-adapt-as-ai-shifts-control-to-buyers/",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+   "status": 200,
+   "final": "https://www.forrester.com/client-stories/palo-alto-networks-buying-groups-revenue-outcomes/",
+   "result": "可打开"
+  }
+ ],
+ "basis": "B2B 营销页面上的子页面、博客文章、客户案例；博客、案例路径全站共用",
+ "result": "正确且能用"
+}

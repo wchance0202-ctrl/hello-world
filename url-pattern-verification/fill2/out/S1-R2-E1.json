@@ -1,0 +1,52 @@
+{
+ "entry_id": "S1-R2-E1",
+ "url": "https://www.census.gov/retail/",
+ "site": "美国人口普查局（Census）",
+ "status": "已放宽",
+ "pattern": "^https?://www\\.census\\.gov/retail/(?:[a-z]+/)?[a-z_]+\\.html$",
+ "positives": [
+  "http://www.census.gov/retail/mrts/historic_releases.html",
+  "https://www.census.gov/retail/about_the_surveys.html",
+  "https://www.census.gov/retail/contact.html",
+  "https://www.census.gov/retail/data.html",
+  "https://www.census.gov/retail/definitions.html",
+  "https://www.census.gov/retail/ecommerce.html",
+  "https://www.census.gov/retail/faqs.html",
+  "https://www.census.gov/retail/get_forms.html",
+  "https://www.census.gov/retail/how_surveys_are_collected.html",
+  "https://www.census.gov/retail/index.html",
+  "https://www.census.gov/retail/mrtsinv/inventories.html",
+  "https://www.census.gov/retail/release_schedule.html",
+  "https://www.census.gov/retail/sales.html",
+  "https://www.census.gov/retail/state_retail_sales.html"
+ ],
+ "negatives": [
+  "https://www.census.gov/",
+  "https://www.census.gov/data/developers/data-sets/economic-indicators.html",
+  "https://www.census.gov/developers",
+  "https://www.census.gov/econ/currentdata/?programCode=MARTS",
+  "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "https://www.census.gov/en.html",
+  "https://www.census.gov/programs-surveys.html",
+  "https://www.census.gov/topics/business-economy.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.census.gov/retail/release_schedule.html",
+   "status": 200,
+   "final": "https://www.census.gov/retail/release_schedule.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.census.gov/retail/contact.html",
+   "status": 200,
+   "final": "https://www.census.gov/retail/contact.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "零售调查栏目 /retail/ 下的说明、数据、发布页（含 index.html 本页）",
+ "result": "正确且能用"
+}

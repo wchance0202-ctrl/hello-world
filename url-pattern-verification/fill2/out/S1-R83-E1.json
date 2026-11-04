@@ -1,0 +1,43 @@
+{
+ "entry_id": "S1-R83-E1",
+ "url": "https://www.contagious.com/news-and-views",
+ "site": "Contagious",
+ "status": "已放宽",
+ "pattern": "^https://www\\.contagious\\.com/(?:en/)?article/news-and-views/[a-z0-9-]+$",
+ "positives": [
+  "https://www.contagious.com/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125",
+  "https://www.contagious.com/article/news-and-views/coupon-comments-533ef8798350471dbc66ebb68a707e0a",
+  "https://www.contagious.com/article/news-and-views/how-brands-are-winning-in-2026-lessons-from-the-contagious-brands-report-45181bee5c68495fb2349b6aca9dd2ae",
+  "https://www.contagious.com/article/news-and-views/one-star-swapper-e2181ef0108f4e3e9ac7fc5035837f34",
+  "https://www.contagious.com/article/news-and-views/the-new-rules-of-social-media-marketing-72dbbb5049414501b6b92b90511da609",
+  "https://www.contagious.com/article/news-and-views/the-stage-could-be-yours-4b7420cf8e904f2bae6824c9f4ad8a03",
+  "https://www.contagious.com/article/news-and-views/wheels-4-wheels-ae62e4ac769e4a43b5888d2d922cbc15"
+ ],
+ "negatives": [
+  "https://www.contagious.com/",
+  "https://www.contagious.com/about-us",
+  "https://www.contagious.com/events",
+  "https://www.contagious.com/get-in-touch",
+  "https://www.contagious.com/newsletter",
+  "https://www.contagious.com/terms-of-use-contagious-ai"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.contagious.com/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125",
+   "status": 200,
+   "final": "https://www.contagious.com/en/article/news-and-views/are-you-really-gen-z-1466aebb5d90465298d56085ac67f125",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.contagious.com/article/news-and-views/how-brands-are-winning-in-2026-lessons-from-the-contagious-brands-report-45181bee5c68495fb2349b6aca9dd2ae",
+   "status": 200,
+   "final": "https://www.contagious.com/en/article/news-and-views/how-brands-are-winning-in-2026-lessons-from-the-contagious-brands-report-45181bee5c68495fb2349b6aca9dd2ae",
+   "result": "可打开"
+  }
+ ],
+ "basis": "资讯文章 /article/news-and-views/{slug}-{32位编号}",
+ "result": "正确且能用"
+}

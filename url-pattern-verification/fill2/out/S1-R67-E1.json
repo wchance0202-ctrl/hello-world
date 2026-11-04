@@ -1,0 +1,43 @@
+{
+ "entry_id": "S1-R67-E1",
+ "url": "https://www.lovethework.com/en/talks",
+ "site": "The Work（Cannes Lions）",
+ "status": "已放宽",
+ "pattern": "^https://www\\.lovethework\\.com/en/talks/[a-z0-9-]+$\n^https://www\\.lovethework\\.com/en/talks-series/[a-z0-9-]+$",
+ "positives": [
+  "https://www.lovethework.com/en/talks-series/cannes-lions-2024",
+  "https://www.lovethework.com/en/talks-series/cannes-lions-2025",
+  "https://www.lovethework.com/en/talks-series/cannes-lions-2026",
+  "https://www.lovethework.com/en/talks/new-for-2026-the-cannes-lions-wrap-up-live-74211"
+ ],
+ "negatives": [
+  "https://www.lovethework.com/",
+  "https://www.lovethework.com/ai/terms-of-use",
+  "https://www.lovethework.com/awards",
+  "https://www.lovethework.com/contact-us",
+  "https://www.lovethework.com/reports",
+  "https://www.lovethework.com/request-a-demo",
+  "https://www.lovethework.com/talks",
+  "https://www.lovethework.com/the-work",
+  "https://www.lovethework.com/the-work-ai"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.lovethework.com/en/talks-series/cannes-lions-2026",
+   "status": 200,
+   "final": "https://www.lovethework.com/en/talks-series/cannes-lions-2026",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.lovethework.com/en/talks/new-for-2026-the-cannes-lions-wrap-up-live-74211",
+   "status": 200,
+   "final": "https://www.lovethework.com/en/talks/new-for-2026-the-cannes-lions-wrap-up-live-74211",
+   "result": "可打开"
+  }
+ ],
+ "basis": "演讲详情 /en/talks/{slug} 和演讲系列 /en/talks-series/{年份}；卡片由脚本渲染，样本来自搜索结果",
+ "result": "正确且能用"
+}

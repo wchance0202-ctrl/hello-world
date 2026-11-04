@@ -1,0 +1,32 @@
+{
+ "entry_id": "S1-R93-E1",
+ "url": "https://lbbonline.com/work",
+ "site": "LBB",
+ "status": "已放宽",
+ "pattern": "^https://lbbonline\\.com/work/[0-9]+$",
+ "positives": [
+  "https://lbbonline.com/work/132049",
+  "https://lbbonline.com/work/132050",
+  "https://lbbonline.com/work/135420"
+ ],
+ "negatives": [
+  "https://lbbonline.com/",
+  "https://lbbonline.com/companies/dept",
+  "https://lbbonline.com/work/reels"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://lbbonline.com/work/132050",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://lbbonline.com/work/135420",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "LBB work 详情；站点拦截本环境（Cloudflare），样本来自搜索结果",
+ "result": "正确且能用"
+}

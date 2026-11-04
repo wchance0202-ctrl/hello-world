@@ -1,0 +1,61 @@
+{
+ "entry_id": "S2-R108-E10",
+ "url": "https://www.cheaa.org/channels/420.html",
+ "site": "中国家用电器协会",
+ "status": "已放宽",
+ "pattern": "^https://www\\.cheaa\\.org/contents/420/[0-9]+\\.html$",
+ "positives": [
+  "https://www.cheaa.org/contents/420/2362.html",
+  "https://www.cheaa.org/contents/420/2363.html",
+  "https://www.cheaa.org/contents/420/8206.html",
+  "https://www.cheaa.org/contents/420/8208.html",
+  "https://www.cheaa.org/contents/420/8210.html",
+  "https://www.cheaa.org/contents/420/9300.html",
+  "https://www.cheaa.org/contents/420/9301.html"
+ ],
+ "negatives": [
+  "https://www.cheaa.org/",
+  "https://www.cheaa.org/channels/116.html",
+  "https://www.cheaa.org/channels/117.html",
+  "https://www.cheaa.org/channels/122.html",
+  "https://www.cheaa.org/channels/16.html",
+  "https://www.cheaa.org/channels/23.html",
+  "https://www.cheaa.org/channels/25.html",
+  "https://www.cheaa.org/channels/37.html",
+  "https://www.cheaa.org/channels/419.html",
+  "https://www.cheaa.org/channels/48.html",
+  "https://www.cheaa.org/channels/562.html",
+  "https://www.cheaa.org/channels/578.html",
+  "https://www.cheaa.org/channels/595.html",
+  "https://www.cheaa.org/channels/596.html",
+  "https://www.cheaa.org/channels/599.html",
+  "https://www.cheaa.org/channels/615.html",
+  "https://www.cheaa.org/channels/626.html",
+  "https://www.cheaa.org/channels/639.html",
+  "https://www.cheaa.org/channels/8.html",
+  "https://www.cheaa.org/contents/119/1352.html",
+  "https://www.cheaa.org/contents/19/599.html",
+  "https://www.cheaa.org/contents/441/3360.html",
+  "https://www.cheaa.org/contents/442/3361.html",
+  "https://www.cheaa.org/contents/5/564.html"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.cheaa.org/contents/420/8206.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/420/8206.html",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.cheaa.org/contents/420/2362.html",
+   "status": 200,
+   "final": "https://www.cheaa.org/contents/420/2362.html",
+   "result": "可打开"
+  }
+ ],
+ "basis": "文章 /contents/{栏目号}/{编号}.html，栏目号写死为 420（本栏目页上列出的条目所在栏目）",
+ "result": "正确且能用"
+}

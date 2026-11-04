@@ -1,0 +1,56 @@
+{
+ "entry_id": "S1-R84-E3",
+ "url": "https://contentmarketinginstitute.com/keyword/e-books-and-templates",
+ "site": "Content Marketing Institute",
+ "status": "已放宽",
+ "pattern": "^https://contentmarketinginstitute\\.com/(?:ai-in-marketing|analytics-data|career-salary-outlook|content-creation-distribution|content-distribution-promotion|content-marketing-strategy|content-optimization|social-media-content|strategy-planning|measurement-optimization|research|[a-z]+-[a-z-]+)/[a-z0-9-]+$",
+ "positives": [
+  "https://contentmarketinginstitute.com/ai-in-marketing/agentic-ai-in-marketing-strategy",
+  "https://contentmarketinginstitute.com/analytics-data/measuring-content-marketing-ebook",
+  "https://contentmarketinginstitute.com/career-salary-outlook/2026-marketing-career-salary-outlook",
+  "https://contentmarketinginstitute.com/content-creation-distribution/20-examples-of-brands-leading-through-content",
+  "https://contentmarketinginstitute.com/content-creation-distribution/better-content-marketing-writing",
+  "https://contentmarketinginstitute.com/content-creation-distribution/content-distribution-promotion",
+  "https://contentmarketinginstitute.com/content-creation-distribution/content-marketing-writing-secrets-better-stronger-faster",
+  "https://contentmarketinginstitute.com/content-distribution-promotion/award-winning-destination-campaign",
+  "https://contentmarketinginstitute.com/content-distribution-promotion/finding-your-audience-when-old-channels-stop-working",
+  "https://contentmarketinginstitute.com/content-marketing-strategy/real-marketers-real-talk-real-takeaways",
+  "https://contentmarketinginstitute.com/content-marketing-strategy/the-modern-content-marketing-strategy-playbook",
+  "https://contentmarketinginstitute.com/measurement-optimization/analytics-data",
+  "https://contentmarketinginstitute.com/research/career-salary-outlook",
+  "https://contentmarketinginstitute.com/strategy-planning/ai-content-authority",
+  "https://contentmarketinginstitute.com/strategy-planning/ai-in-marketing",
+  "https://contentmarketinginstitute.com/strategy-planning/brand-trust-strategy-2026",
+  "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+  "https://contentmarketinginstitute.com/strategy-planning/courage-curiosity-care-insight-impact",
+  "https://contentmarketinginstitute.com/strategy-planning/customer-insights-marketing-impact",
+  "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+  "https://contentmarketinginstitute.com/strategy-planning/insights-driven-marketing-ebook"
+ ],
+ "negatives": [
+  "https://contentmarketinginstitute.com/",
+  "https://contentmarketinginstitute.com/content-creation-distribution",
+  "https://contentmarketinginstitute.com/documents",
+  "https://contentmarketinginstitute.com/latest-news",
+  "https://contentmarketinginstitute.com/strategy-planning"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+   "status": 200,
+   "final": "https://contentmarketinginstitute.com/strategy-planning/content-marketing-strategy",
+   "result": "可打开"
+  },
+  {
+   "url": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "status": 200,
+   "final": "https://contentmarketinginstitute.com/strategy-planning/eaton-reorganized-team-buyer",
+   "result": "可打开"
+  }
+ ],
+ "basis": "电子书和模板也是 /{分类}/{slug} 文章页，分类路径全站共用",
+ "result": "正确且能用"
+}

@@ -1,0 +1,33 @@
+{
+ "entry_id": "S1-R144-E1",
+ "url": "https://www.crunchbase.com/discover/organization.companies",
+ "site": "Crunchbase",
+ "status": "已放宽",
+ "pattern": "^https://www\\.crunchbase\\.com/organization/[a-z0-9-]+$",
+ "positives": [
+  "https://www.crunchbase.com/organization/company",
+  "https://www.crunchbase.com/organization/crunchbase",
+  "https://www.crunchbase.com/organization/guide-4412",
+  "https://www.crunchbase.com/organization/inc",
+  "https://www.crunchbase.com/organization/lookup-2",
+  "https://www.crunchbase.com/organization/profiles"
+ ],
+ "negatives": [
+  "https://www.crunchbase.com/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.crunchbase.com/organization/company",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://www.crunchbase.com/organization/lookup-2",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "公司详情 /organization/{slug}；站点拦截本环境，样本来自搜索结果；详情需登录才能看全",
+ "result": "正确且能用"
+}

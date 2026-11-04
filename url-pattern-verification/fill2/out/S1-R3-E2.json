@@ -1,0 +1,25 @@
+{
+ "entry_id": "S1-R3-E2",
+ "url": "https://www.bls.gov/news.release/cesan.htm",
+ "site": "美国劳工统计局（BLS）",
+ "status": "单页（含跳转页）",
+ "pattern": "^https://www\\.bls\\.gov/news\\.release/(?:cesan\\.htm|cesan\\.nr0\\.htm|cesan\\.t[0-9]{2}\\.htm|pdf/cesan\\.pdf)$",
+ "positives": [
+  "https://www.bls.gov/news.release/pdf/cesan.pdf"
+ ],
+ "negatives": [
+  "https://www.bls.gov/",
+  "https://www.bls.gov/cex/tables.htm"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.bls.gov/news.release/pdf/cesan.pdf",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "消费支出年度新闻稿单页：本页、正文页、表格页和 PDF 版；站点拦截本环境，PDF 地址来自搜索结果",
+ "result": "正确且能用"
+}

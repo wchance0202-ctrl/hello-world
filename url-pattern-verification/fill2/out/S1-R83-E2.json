@@ -1,0 +1,48 @@
+{
+ "entry_id": "S1-R83-E2",
+ "url": "https://www.contagious.com/reports",
+ "site": "Contagious",
+ "status": "已放宽",
+ "pattern": "^https://www\\.contagious\\.com/(?:en/)?(?:the-[a-z0-9-]+-20[0-9]{2}|grand-prix-winning-strategies-20[0-9]{2}|finding-your-centaur)$\n^https://www\\.contagious\\.com/(?:en/)?article/[a-z0-9-]+$",
+ "positives": [
+  "https://www.contagious.com/article/the-chaos-advantage",
+  "https://www.contagious.com/en/article/contagious-brands-report-2026-e9e673f22b0d4facbc2954f43dd393c9",
+  "https://www.contagious.com/en/the-contagious-radar-2026",
+  "https://www.contagious.com/finding-your-centaur",
+  "https://www.contagious.com/grand-prix-winning-strategies-2023",
+  "https://www.contagious.com/grand-prix-winning-strategies-2024",
+  "https://www.contagious.com/the-best-of-strategists-digest-2023",
+  "https://www.contagious.com/the-contagious-iq-download-2024",
+  "https://www.contagious.com/the-contagious-iq-download-2025",
+  "https://www.contagious.com/the-contagious-radar-report-2024"
+ ],
+ "negatives": [
+  "https://www.contagious.com/",
+  "https://www.contagious.com/about-us",
+  "https://www.contagious.com/event-sponsorship",
+  "https://www.contagious.com/events",
+  "https://www.contagious.com/get-in-touch",
+  "https://www.contagious.com/newsletter",
+  "https://www.contagious.com/submit-your-work",
+  "https://www.contagious.com/terms-of-use-contagious-ai"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.contagious.com/the-contagious-iq-download-2024",
+   "status": 200,
+   "final": "https://www.contagious.com/en/the-contagious-iq-download-2024",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.contagious.com/grand-prix-winning-strategies-2024",
+   "status": 200,
+   "final": "https://www.contagious.com/en/grand-prix-winning-strategies-2024",
+   "result": "可打开"
+  }
+ ],
+ "basis": "报告落地页（名称带年份）和报告文章 /article/{slug}",
+ "result": "正确且能用"
+}

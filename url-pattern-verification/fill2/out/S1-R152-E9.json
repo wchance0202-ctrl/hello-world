@@ -1,0 +1,35 @@
+{
+ "entry_id": "S1-R152-E9",
+ "url": "https://dealroom.co/talent/founder-mafias/",
+ "site": "Dealroom",
+ "status": "已放宽",
+ "pattern": "^https://dealroom\\.co/talent/founder-mafias/[a-z0-9-]+/$",
+ "positives": [
+  "https://dealroom.co/talent/founder-mafias/adyen/",
+  "https://dealroom.co/talent/founder-mafias/angellist/",
+  "https://dealroom.co/talent/founder-mafias/monzo-bank/",
+  "https://dealroom.co/talent/founder-mafias/n26/",
+  "https://dealroom.co/talent/founder-mafias/revolut/",
+  "https://dealroom.co/talent/founder-mafias/stripe/",
+  "https://dealroom.co/talent/founder-mafias/wise/"
+ ],
+ "negatives": [
+  "https://dealroom.co/",
+  "https://dealroom.co/talent/founder-dna/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://dealroom.co/talent/founder-mafias/angellist/",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "https://dealroom.co/talent/founder-mafias/monzo-bank/",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "各公司的 Founder Mafia 页 /talent/founder-mafias/{公司}/；站点拦截本环境，样本来自搜索结果",
+ "result": "正确且能用"
+}

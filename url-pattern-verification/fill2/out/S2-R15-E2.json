@@ -1,0 +1,37 @@
+{
+ "entry_id": "S2-R15-E2",
+ "url": "https://www.ctrchina.cn/report",
+ "site": "CTR 央视市场研究",
+ "status": "已放宽",
+ "pattern": "^https://www\\.ctrchina\\.cn/rich/report/[0-9]+$",
+ "positives": [
+  "https://www.ctrchina.cn/rich/report/890",
+  "https://www.ctrchina.cn/rich/report/891",
+  "https://www.ctrchina.cn/rich/report/892",
+  "https://www.ctrchina.cn/rich/report/893",
+  "https://www.ctrchina.cn/rich/report/894",
+  "https://www.ctrchina.cn/rich/report/895"
+ ],
+ "negatives": [
+  "https://www.ctrchina.cn/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.ctrchina.cn/rich/report/892",
+   "status": 200,
+   "final": "https://www.ctrchina.cn/rich/report/892",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.ctrchina.cn/rich/report/893",
+   "status": 200,
+   "final": "https://www.ctrchina.cn/rich/report/893",
+   "result": "可打开"
+  }
+ ],
+ "basis": "报告详情 /rich/report/{编号}",
+ "result": "正确且能用"
+}

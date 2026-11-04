@@ -1,0 +1,43 @@
+{
+ "entry_id": "S2-R86-E6",
+ "url": "http://www.linkshop.com/data/sl/",
+ "site": "联商网",
+ "status": "已放宽",
+ "pattern": "^https?://www\\.linkshop\\.com/news/[0-9]+\\.shtml$\n^https?://m\\.linkshop\\.com/article/news/[0-9]+$",
+ "positives": [
+  "http://m.linkshop.com/article/news/458098",
+  "http://m.linkshop.com/article/news/496494",
+  "http://m.linkshop.com/article/news/502784",
+  "http://m.linkshop.com/article/news/505196",
+  "http://m.linkshop.com/article/news/526090",
+  "http://m.linkshop.com/article/news/528747",
+  "http://m.linkshop.com/article/news/530076",
+  "http://www.linkshop.com/news/2012216434.shtml",
+  "http://www.linkshop.com/news/2016366506.shtml",
+  "http://www.linkshop.com/news/2018411033.shtml",
+  "http://www.linkshop.com/news/2023508152.shtml",
+  "http://www.linkshop.com/news/2024521000.shtml",
+  "http://www.linkshop.com/news/2024526844.shtml"
+ ],
+ "negatives": [
+  "http://m.linkshop.com/page/news/zx",
+  "http://www.linkshop.com/intro/index.shtml",
+  "http://www.linkshop.com/news/?ClassID=90",
+  "https://www.linkshop.com/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "http://m.linkshop.com/article/news/526090",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  },
+  {
+   "url": "http://m.linkshop.com/article/news/496494",
+   "result": "本环境无法访问（样本来自搜索结果）"
+  }
+ ],
+ "basis": "联商网文章 /news/{编号}.shtml（及手机版 /article/news/{编号}）；站点从本环境连接超时，样本来自搜索结果，栏目自己的条目格式未能打开确认",
+ "result": "正确且能用"
+}

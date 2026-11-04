@@ -1,0 +1,47 @@
+{
+ "entry_id": "S1-R73-E2",
+ "url": "https://www.cim.co.uk/learn-develop/training-development/training-courses/",
+ "site": "CIM",
+ "status": "已放宽",
+ "pattern": "^https://www\\.cim\\.co\\.uk/learn-develop/training-development/view-all-courses/[a-z0-9-]+/$",
+ "positives": [
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-agents-and-automation/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-answer-engine-marketing-aem/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-content-creation/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-copywriting-masterclass/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-customer-journey/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/ai-marketing-strategy-and-tools/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-ai-in-marketing-programme/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-brand-marketing-programme/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-digital-marketing-programme/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-marketing-programme/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-social-media-programme/"
+ ],
+ "negatives": [
+  "https://www.cim.co.uk/",
+  "https://www.cim.co.uk/about/",
+  "https://www.cim.co.uk/content-insights/articles/",
+  "https://www.cim.co.uk/content-insights/sustainable-marketing-hub/",
+  "https://www.cim.co.uk/faqs/",
+  "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/"
+ ],
+ "pos_fail": [],
+ "neg_fail": [],
+ "syntax_ok": true,
+ "live": [
+  {
+   "url": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-marketing-programme/",
+   "status": 200,
+   "final": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-marketing-programme/",
+   "result": "可打开"
+  },
+  {
+   "url": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-digital-marketing-programme/",
+   "status": 200,
+   "final": "https://www.cim.co.uk/learn-develop/training-development/view-all-courses/the-cim-digital-marketing-programme/",
+   "result": "可打开"
+  }
+ ],
+ "basis": "课程详情 /view-all-courses/{slug}/",
+ "result": "正确且能用"
+}
